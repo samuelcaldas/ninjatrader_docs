@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Common &gt; Charts &gt; Rendering &gt; ForceRefresh()</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="ForceRefresh() - Rendering">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "forcerefresh.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">ForceRefresh()</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-687.htm?forcerefresh.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript-1.htm">NinjaScript</a> &gt; <a href="language_reference_wip-1.htm">Language Reference</a> &gt; <a href="common-1.htm">Common</a> &gt; <a href="chart-1.htm">Charts</a> &gt; <a href="rendering-1.htm">Rendering</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">ForceRefresh()</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="dxextensions_tovector2-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="rendering-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="isinhittest-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
+<p class="p_Normal">Resets an internal marker used to determine if the chart visuals need to re-render.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><a href="chartcontrol-1.htm" class="topiclink">ChartControl</a> runs a timed event every 250ms to determine the chart needs to be updated. If it does, the <a href="onrender-1.htm" class="topiclink">OnRender()</a> method is called. Under normal circumstances, the marker used to call <span style="font-weight: bold;">OnRender(</span>) will be reset after the following conditions:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="onbarupdate-1.htm" class="topiclink">OnBarUpdate()</a> event</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="onconnectionstatusupdate-1.htm" class="topiclink">OnConnectionStatusUpdate()</a> event</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>User clicks on the chart</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Drawing object(s) have been removed from the chart</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Strategy enabled/disabled on chart</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>ChartTrader enabled/disabled</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In most cases, the conditions listed above should be satisfactory for rendering standard and custom chart objects; however for more advance programming concepts, there may be other situations you run into which would <span style="font-weight: bold;">NOT</span> force the chart to refresh (e.g., a user interacting with a custom control ).  In these special cases, you can use the <span style="font-weight: bold;">ForceRefresh()</span> method to re-queue the render event.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>:  As the chart is optimized on a timer, calling <span style="font-weight: bold;">ForceRefresh()</span> will <span style="font-weight: bold;">NOT</span> immediately trigger a render event.<span style="font-weight: bold;"> </span> &nbsp;Calling <span style="font-weight: bold;">ForceRefesh()</span> simply re-queues the render event to trigger during the next timed event.<span style="font-weight: bold;">  </span> In other words<span style="font-weight: bold;">,</span> it may take up to 250ms for the render event to function. </p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Method Return Value</span></h2>
+<p class="p_Normal">This method does not return a value</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Syntax</span><br>
+<span class="f_CodeExample">ForceRefresh()</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning">
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>:  Excessive calls to <span style="font-weight: bold;">ForceRefresh()</span> and <span style="font-weight: bold;">OnRender()</span> can carry an impact on general application performance.  You should only call<span style="font-weight: bold;"> ForceRefresh()</span> if the chart truly needs to be visually updated.  It is <span style="font-weight: bold;">NOT</span> recommended to invalidate the chart control directly as this could cause issues with threading which result in dead locks.</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Method Parameters</span></h2>
+<p class="p_Normal">This method does not accept any parameters</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">lastTimeCalled</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime.MinValue;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomMethod()</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// if it has been longer than one second since the last time</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// this method was called update the chart visually</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(Core.Globals.Now.Subtract(lastTimeCalled).Seconds</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">ForceRefresh();</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">lastTimeCalled</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Core.Globals.Now;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </div></body>
+  </html>

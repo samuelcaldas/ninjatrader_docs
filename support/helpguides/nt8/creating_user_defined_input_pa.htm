@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Educational Resources &gt; Tips &gt; Creating User Defined Input Parameters</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "creating_user_defined_input_pa.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Creating User Defined Input Parameters</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?creating_user_defined_input_pa.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="educational_resources.htm">Educational Resources</a> &gt; <a href="tips.htm">Tips</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Creating User Defined Input Parameters</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="checking_for_null_references.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="tips.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="debugging_your_ninjascript_cod.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">You can create user defined input parameters for both NinjaScript Indicators and Strategies. Although user defined input parameters can be specified as part of the initial set up of NinjaScript Indicator or Strategies using the Wizard you may have a requirement to add new parameters at a later point in your development process. To create these parameters you will need to edit your NinjaScript code and follow these steps.</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Open your NinjaScript file</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Inside of the if (State == State.SetDefaults) statement, assign a value to the variable for your parameter</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_Normal">Period = <span style="color: #f79646;">5</span>;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: This is also where you set the default value for your parameter.</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Scroll down to the bottom of the editor and expand the minimized &quot;Properties&quot; section by clicking on the + sign on the left.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>Use the following template code for each parameter you wish to create. Please note that the type (int, double, etc) will differ depending on what type of variable you wish to create</p><div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">[Range(</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample">.MaxValue)]</span><br />
+<span class="f_CodeExample">[NinjaScriptProperty]</span><br />
+<span class="f_CodeExample">[Display(Name=</span><span class="f_CodeExample" style="color: #800000;">&quot;Period&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Description=</span><span class="f_CodeExample" style="color: #800000;">&quot;Numbers of bars used for calculations&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Order=</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">GroupName=</span><span class="f_CodeExample" style="color: #800000;">&quot;Parameters&quot;</span><span class="f_CodeExample">)]</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Period</span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">get;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">set;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>To specify lower and upper bounds, you would modify [Range(1, int.MaxValue)]. For example:</p><div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-style: italic; color: #008000;">// No upper bound, lower bound of 1</span><br />
+<span class="f_CodeExample">[Range(</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample">.MaxValue)]</span><br />
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// No lower bound, upper bound of 100</span><br />
+<span class="f_CodeExample">[Range(</span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample">.MinValue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">100</span><span class="f_CodeExample">)]</span><br />
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// No lower or upper bound</span><br />
+<span class="f_CodeExample">[Range(</span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample">.MinValue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample">.MaxValue)]</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">6.</span>Use the &quot;Description&quot; field to provide a brief description of what the parameter does.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">7.</span>Pay attention to this line as the object type will vary depending on the type of parameter you wish to make:</p><div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Period</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">8.</span>Now, wherever in your code you want to call the user-definable parameter, just use &quot;Period&quot;.</p><div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(SMA(Period)[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(Period)[</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">])</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Do something</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </body>
+  </html>

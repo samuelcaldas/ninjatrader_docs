@@ -1,0 +1,693 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Alerts &gt; Configuring Alerts</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "configuring_alerts.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Configuring Alerts</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?configuring_alerts.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations.htm">Operations</a> &gt; <a href="alerts.htm">Alerts</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Configuring Alerts</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="alerts_dialog.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="alerts.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="condition_builder.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal"><span style="font-weight: bold;">Alerts</span> can be created using conditions which monitor various &quot;objects&quot; which exist on the chart, or market analyzer display. &nbsp;Possible <span style="font-weight: bold;">Condition Objects</span> include a chart's data series, indicators, drawing tools, or any Market Analyzer column value.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Video" >
+<tr class="Video">
+<td class="Video"><h2 class="p_Heading2"><img id="playVideoImg" alt="playVideo" width="150" height="30" style="margin:0;width:150px;height:30px;border:none" src="playvideo.jpg"/></h2>
+</td>
+</tr>
+<tr class="Video">
+<td class="Video"><div class="p_Heading2"><div style="margin:0;width:640px;height:auto"><div style="position:relative;overflow:hidden;width:640px;height:390px;padding:0;cursor:pointer;text-align:center;background:#000" onclick="javascript:this.innerHTML='&lt;iframe width=&quot;640&quot; height=&quot;390&quot; style=&quot;top:0;left:0;width:100%;height:100%;position:absolute&quot; src=&quot;https://www.youtube.com/embed/zWITp-OaDFg?showinfo=0&amp;autoplay=1&amp;controls=0&amp;rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';this.onclick=null"><img src="cicon_video_playbutton.png" style="position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;max-width:102px;max-height:104px;border:none" /></div></div></div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToAddAConditionObject_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToAddAConditionObject','HowToAddAConditionObject_ICON')">How&nbsp;to&nbsp;add&nbsp;a&nbsp;condition&nbsp;object</a></span></p>
+<div id="HowToAddAConditionObject" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Adding an alert from the alert dialog</span></h2>
+<p class="p_Normal">You can create a new generic alert by first accessing the <a href="alerts_dialog.htm" class="topiclink">Alerts Dialog</a> window, and selecting the <span style="font-weight: bold;">&quot;add</span><span style="font-weight: bold;">&quot;</span> text which will add a new alert to your configured alerts panel. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_3" width="197" height="192" style="margin:0;width:197px;height:192px;border:none" src="alerts_3.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Any suitable object which currently exists on the window or tab will be available to use as a <span style="font-weight: bold;">Condition Object</span> for the alert. &nbsp;For example, if you have a<span style="font-weight: bold;"> Market Analyzer</span> with several customized columns added, you will be able to use any of those columns as a <span style="font-weight: bold;">Condition Object</span>. &nbsp;A <span style="font-weight: bold;">Chart</span> will work the same way in that any data series, indicator, or drawing object that currently exists on the chart will be available as a <span style="font-weight: bold;">Condition Object</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Creating an alert from a chart indicator</span></h2>
+<p class="p_Normal">If you have an indicator configured on an existing chart you wish to use in your alert condition, you can easily access this by first left mouse clicking on the indicator plot to select the indicator, and then selecting <span class="f_Menu">Alert</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_4" width="688" height="523" style="margin:0;width:688px;height:523px;border:none" src="alerts_4.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Doing so will automatically add the selected indicator as an object that is used in the <span style="font-weight: bold;">Conditions</span> properties.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_5" width="838" height="627" style="margin:0;width:838px;height:627px;border:none" src="alerts_5.png"/></p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span><br />
+<span class="f_Heading2">Adding an alert from a chart drawing object</span></h2>
+<p class="p_Normal">Drawing tools which exist on a chart can also be added as a condition object by first left clicking on the drawing tool, then selecting <span class="f_Menu">Alert</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_7" width="686" height="518" style="margin:0;width:686px;height:518px;border:none" src="alerts_7.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Doing so will automatically add the selected drawing tool as an object that is used in the <span style="font-weight: bold;">Conditions</span> properties.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_8" width="701" height="625" style="margin:0;width:701px;height:625px;border:none" src="alerts_8.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Adding an alert from a chart data series</span></h2>
+<p class="p_Normal">If you have multiple data series on your chart (e.g., 5 minute and 10 minute data series), you can select one of these series to be used as an condition object. Simply left mouse click on the chart data series itself, and select <span class="f_Menu">Alert</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_6" width="686" height="518" style="margin:0;width:686px;height:518px;border:none" src="alerts_6.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Doing so will automatically add the selected data series as an object that is used in the <span style="font-weight: bold;">Conditions</span> properties.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_9" width="701" height="625" style="margin:0;width:701px;height:625px;border:none" src="alerts_9.png"/></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandTheGeneralAlertProperties_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandTheGeneralAlertProperties','UnderstandTheGeneralAlertProperties_ICON')">Understand&nbsp;the&nbsp;general&nbsp;alert&nbsp;properties</a></span></p>
+<div id="UnderstandTheGeneralAlertProperties" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">General Alert Properties</span></h2>
+<p class="p_Normal">The <span style="font-weight: bold;">General</span> section allow you to configure the following alert properties:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:113px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enabled</p>
+</td>
+<td style="vertical-align:top; width:762px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When checked, the current alert will be active</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Name</p>
+</td>
+<td style="vertical-align:top; width:762px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the displayed name of the alert</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Apply to</p>
+</td>
+<td style="vertical-align:top; width:762px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines which instrument(s) are used to be monitored by the alert. This property is just for the Market Analyzer and Hot List Analyzer.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Rearm type</p>
+</td>
+<td style="vertical-align:top; width:762px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets under what condition the alert will rearm. &nbsp;Possible options are listed in the table below:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:146px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Never</p>
+</td>
+<td style="vertical-align:top; width:395px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The alert will only trigger once and never rearm</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:146px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">On timer</p>
+</td>
+<td style="vertical-align:top; width:395px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Rearm after a specific number of seconds defined in the rearm seconds property</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:146px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">On bar close</p>
+</td>
+<td style="vertical-align:top; width:395px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Rearm on the next bar close for the data series used in the alert condition. Only columns which have a data series are eligible for OnBarClose alerts.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:146px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">On condition reversed</p>
+</td>
+<td style="vertical-align:top; width:395px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Rearm once the condition is no longer true</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:146px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">On connect*</p>
+</td>
+<td style="vertical-align:top; width:395px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Rearm after NinjaTrader has been manually connected to a data provider</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:146px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Remove</p>
+</td>
+<td style="vertical-align:top; width:395px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Once triggered the alert will never rearm and be removed. </p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Rearm seconds</p>
+</td>
+<td style="vertical-align:top; width:762px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the number of seconds an alert will rearm. If the same alert is called within a time window of the time of last alert Rearm seconds, the alert will be ignored (only visible if Rearm type option 'On timer' is selected)</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">*The<span style="font-weight: bold;"> On connect</span> rearm type is aware of 4 different types of connection events which will define how the <span style="font-weight: bold;">On connect </span>rearm type behaves:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:151px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Event</span></p>
+</td>
+<td style="vertical-align:top; width:322px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Description</span></p>
+</td>
+<td style="vertical-align:top; width:255px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Rearm behavior</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:151px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Manual disconnect</p>
+</td>
+<td style="vertical-align:top; width:322px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When user has selected to disconnect from the data provider, or shut down NinjaTrader</p>
+</td>
+<td style="vertical-align:top; width:255px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Alert will be disabled</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:151px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Manual reconnect</p>
+</td>
+<td style="vertical-align:top; width:322px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When a user has selected to connect to a data provider</p>
+</td>
+<td style="vertical-align:top; width:255px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Alert will be rearmed</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:151px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Disconnect</p>
+</td>
+<td style="vertical-align:top; width:322px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When the data provider has been temporarily disconnected due to connectivity issues</p>
+</td>
+<td style="vertical-align:top; width:255px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Alert will just stay in active state and will wait for reconnect. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:151px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Reconnect</p>
+</td>
+<td style="vertical-align:top; width:322px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When the data provider connection has recovered from the lost connection</p>
+</td>
+<td style="vertical-align:top; width:255px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Alert will resume in active state</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_10" width="708" height="216" style="margin:0;width:708px;height:216px;border:none" src="alerts_10.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Applying alerts to specific instruments</span></h2>
+<p class="p_Normal">If you are using a window which has multiple instruments, such as a <span style="font-weight: bold;">Market Analyzer</span>, or a <span style="font-weight: bold;">Chart</span> with multiple data series, the default behavior will be monitor &quot;<span style="font-weight: bold;">All</span>&quot; instruments contained in that window tab.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">By selecting the <span style="font-weight: bold;">Magnify glass </span>icon next to the <span style="font-weight: bold;">Apply to </span>property, a new window will appear which will list all of the configured instruments and allow you to select a specific set of instruments to be monitored by the alert:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>From the newly opened <span style="font-weight: bold;">Instruments</span> <span style="font-weight: bold;">window</span>, select the instruments you wish to apply the condition to</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp; Multi-select is supported in the Instrument window:</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>To select a consecutive instruments, click the first instrument, press and hold down the Shift key, and then click the last instrument.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>To select non-consecutive instruments, press and hold down the Ctrl key, and then click each instrument that you want to select.</p></td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="margin: 0 0 0 24px;">&nbsp;</p>
+<p class="p_Normal" style="margin: 0 0 0 24px;">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_11" width="455" height="361" style="margin:0;width:455px;height:361px;border:none" src="alerts_11.png"/></p>
+<p class="p_Normal" style="margin: 0 0 0 24px;">&nbsp;</p>
+<p class="p_Normal">2. Press <span style="font-style: italic; font-weight: bold;">OK</span><span style="font-weight: bold;"> </span>on the<span style="font-weight: bold;"> Instruments window</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">3. Your <span style="font-weight: bold;">Apply</span> <span style="font-weight: bold;">to</span> field will now list the instrument names you selected earlier, indicating that alerts will only be triggered on instruments contained in this list. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_12" width="702" height="215" style="margin:0;width:702px;height:215px;border:none" src="alerts_12.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-weight: bold;">Tip:  </span>You can also simply type in the Apply to field to add a specific instrument, or use your backspace key to delete a specific instrument</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheConditionsProperties_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheConditionsProperties','UnderstandingTheConditionsProperties_ICON')">Understanding&nbsp;the&nbsp;conditions&nbsp;properties</a></span></p>
+<div id="UnderstandingTheConditionsProperties" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Alert Conditions</span></h2>
+<p class="p_Normal">The <span style="font-weight: bold;">Alert Conditions</span> allow you to define the exactly what the alert will monitor.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">1. &nbsp;Set Conditions to match &quot;If Any&quot; or &quot;If All&quot; of the following conditions are met:<br />
+&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 24px;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:54px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">If Any</span></p>
+</td>
+<td style="vertical-align:top; width:659px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Alert if <span style="text-decoration: underline;">any</span> of the listed conditions are true</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:54px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">If All</span></p>
+</td>
+<td style="vertical-align:top; width:659px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Alert only if <span style="text-decoration: underline;">all</span> of the listed conditions are true</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">2. &nbsp;A list of the current objects and conditions to monitor</p>
+<p class="p_Normal">3. &nbsp;Add a new condition, or edit and remove existing conditions</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_13" width="707" height="209" style="margin:0;width:707px;height:209px;border:none" src="alerts_13.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Managing Alert Conditions</span></h2>
+<p class="p_Normal">To define a new alert condition, select the <span style="font-style: italic; font-weight: bold;">&quot;add&quot;</span> text which will open a <span style="font-weight: bold;">Condition Builder</span> window where you can specify exactly which condition to monitor. &nbsp;Please see our Help Guide article on the <a href="condition_builder.htm" class="topiclink">Condition Builder</a> for information on defining an alert condition.</p>
+<p class="p_Normal"> &nbsp;</p>
+<p class="p_Normal">The <span style="font-style: italic; font-weight: bold;">&quot;edit&quot;</span> text will allow you to edit a selected condition. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Selecting <span style="font-style: italic; font-weight: bold;">&quot;remove&quot;</span> will remove the selected condition.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheAlertActionProperties_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheAlertActionProperties','UnderstandingTheAlertActionProperties_ICON')">Understanding&nbsp;the&nbsp;alert&nbsp;message&nbsp;properties</a></span></p>
+<div id="UnderstandingTheAlertActionProperties" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Alert Message</span></h2>
+<p class="p_Normal">The alert message properties allow you to define general settings for how the alert is treated when the condition is satisfied. &nbsp;All alerts that are generated are sent to to the <a href="alerts_log.htm" class="topiclink">Alerts Log</a> window and will display the message you configured in this section. &nbsp;You will also be able to control the priority of the alert, as well as background and foreground colors used.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:150px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Message</p>
+</td>
+<td style="vertical-align:top; width:578px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The text that is displayed in the Alerts Log window. &nbsp;There are a number of keywords which begin with an &quot;@&quot; symbol which will work as variables to fill in information related to the alert, such as the Instrument, Time, Price, etc.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:150px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Priority</p>
+</td>
+<td style="vertical-align:top; width:578px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The priority of the alert for filtering and sorting in the Alerts Log window</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:150px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for background</p>
+</td>
+<td style="vertical-align:top; width:578px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The color used for the grid background in the <span style="font-weight: bold;">Alerts Log</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:150px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for foreground</p>
+</td>
+<td style="vertical-align:top; width:578px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The text color used in the <span style="font-weight: bold;">Alerts Log</span></p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheAdditionalActionProperties_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheAdditionalActionProperties','UnderstandingTheAdditionalActionProperties_ICON')">Understanding&nbsp;the&nbsp;action&nbsp;properties</a></span></p>
+<div id="UnderstandingTheAdditionalActionProperties" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Actions</span></h2>
+<p class="p_Normal">When an alert has been triggered, there are a number of customizable actions that can be taken at that time. &nbsp;These actions include the following:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:120px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Play Sound</p>
+</td>
+<td style="vertical-align:top; width:608px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Play a user defined sound file. &nbsp;Sounds can include system default sounds, or custom sound files</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:120px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Share</p>
+</td>
+<td style="vertical-align:top; width:608px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Share a message or screenshot to a selected Sharing Service</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:120px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Pop Up Dialog</p>
+</td>
+<td style="vertical-align:top; width:608px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Display a Pop Up Dialog with a custom message</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:120px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Submit Order</p>
+</td>
+<td style="vertical-align:top; width:608px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Submit a custom order</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Configuring Actions</span></h2>
+<p class="p_Normal">To access these actions, you will need to make sure the <span style="font-weight: bold;">Actions </span>group is expanded by selecting the arrow next to this field in the Alerts properties menu as per the screen shot below:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_16" width="706" height="334" style="margin:0;width:706px;height:334px;border:none" src="alerts_16.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Selecting the &quot;<span style="font-style: italic; font-weight: bold;">add</span>&quot; text will open the Actions window where you can define the custom actions. &nbsp;You can setup as many custom actions as you would like. &nbsp;This means you can have an alert do more than one custom action as you want. &nbsp;For example, you can set an alert to Play a Sound and Share a message to a Sharing Service under he same condition.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_17" width="400" height="500" style="margin:0;width:400px;height:500px;border:none" src="alerts_17.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Working with Actions Templates</span></h2>
+<p class="p_Normal">After configuring Actions, you can right click within the Actions columns, select <span class="f_Menu">Template</span>, and <span class="f_Menu">Save As</span> to create a template. Within the right click menu is also where you would be able to load any saved templates</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Alerts_18" width="534" height="258" style="margin:0;width:534px;height:258px;border:none" src="alerts_18.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Actions Property Definitions</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:100%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">PlaySound</span></p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sound</p>
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the location of the sound file to be played</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Share</span></p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Message</p>
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the text that is sent to the sharing service</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Screenshot type</p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Optional image to be attached with the message. Possible screen shot types are:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>None - No screen shot is included with the message</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Chart - &nbsp;A screen shot of the chart that generated the alert will be sent</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Tab - Screenshots are taken from the currently active tab. Therefore changing the tab will result in a screenshot of the current tab and not the original.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Window - A screen shot of the entire window that generated the alert will be sent</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Share to</p>
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the <a href="general_section.htm" class="topiclink">Sharing Service</a> that the alert message is sent to.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Pop Up Dialog</span></p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;There is no property for this section and is intentionally left blank. &nbsp;The pop up dialog will use the <span style="font-weight: bold;">&quot;Message&quot;</span> that is configured on the<span style="font-weight: bold;"> Alert Message</span> section of the Alerts window</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Submit Order</span></p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Account</p>
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the account the order is submitted</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument</p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the instrument to submit the order to. Using @INSTRUMENT will submit to the primary instrument.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Limit Price</p>
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the limit price used for the order</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order action</p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the type of action used. &nbsp;Possible order actions are:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Buy</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Buy to cover</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Sell</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Sell short</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order type</p>
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the type of order used. &nbsp;Possible order types are:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Limit</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Market</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>MIT</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Stop-Limit</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Stop-Market</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Quantity</p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the order quantity that is used for the order</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Stop Price</p>
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the stop price used for the order</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Time in force</p>
+</td>
+<td style="vertical-align:top; width:601px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the TIF (Time in Force) used for the order. &nbsp;Possible TIF setting are:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Day</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>GTC</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>GTD</p><p class="p_Normal">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:127px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ATM Strategy</p>
+</td>
+<td style="vertical-align:top; width:601px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the ATM strategy you would like applied to the order</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: </p>
+<p class="p_Normal">When applying an <span class="f_Menu">ATM Strategy</span> to a <span class="f_Menu">Submit Order</span> Alert, the ATM Strategy must be saved.</p>
+<p class="p_Normal">If the saved ATM Strategy is modified before the alert is triggered, the order will submit with the modified ATM.</p>
+<p class="p_Normal">If the ATM Strategy is removed before the alert is triggered, no ATM Strategy will be applied to the order and you will receive an error.</p>
+<p class="p_Normal">All TIF options will display. If the broker does not support the TIF selected, there may be an error.</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('HowToAddAConditionObject_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToAddAConditionObject\',\'HowToAddAConditionObject_ICON\')');
+HMInitToggle('HowToAddAConditionObject','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandTheGeneralAlertProperties_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandTheGeneralAlertProperties\',\'UnderstandTheGeneralAlertProperties_ICON\')');
+HMInitToggle('UnderstandTheGeneralAlertProperties','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingTheConditionsProperties_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheConditionsProperties\',\'UnderstandingTheConditionsProperties_ICON\')');
+HMInitToggle('UnderstandingTheConditionsProperties','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingTheAlertActionProperties_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheAlertActionProperties\',\'UnderstandingTheAlertActionProperties_ICON\')');
+HMInitToggle('UnderstandingTheAlertActionProperties','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingTheAdditionalActionProperties_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheAdditionalActionProperties\',\'UnderstandingTheAdditionalActionProperties_ICON\')');
+HMInitToggle('UnderstandingTheAdditionalActionProperties','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

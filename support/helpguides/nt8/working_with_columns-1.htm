@@ -1,0 +1,433 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Market Analyzer &gt; Working with Columns</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "working_with_columns.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Working with Columns</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-224.htm?working_with_columns.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations-1.htm">Operations</a> &gt; <a href="market_analyzer-1.htm">Market Analyzer</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Working with Columns</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="working_with_instrument_rows-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="market_analyzer-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="dynamic_ranking_and_sorting-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">The Market Analyzer allows you to add a variety of columns ranging from indicators to position information. &nbsp;To add, remove, and customize columns in your Market Analyzer window please review the information below.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Video">
+<tr class="Video">
+<td class="Video"><h2 class="p_Heading2"><img id="playVideoImg" alt="playVideo" width="150" height="30" style="margin:0;width:150px;height:30px;border:none" src="playvideo.jpg"></h2>
+</td>
+</tr>
+<tr class="Video">
+<td class="Video"><div class="p_Heading2"><div style="margin:0;width:640px;height:auto"><div style="position:relative;overflow:hidden;width:640px;height:390px;padding:0;cursor:pointer;text-align:center;background:#000" onclick="javascript:this.innerHTML='&lt;iframe width=&quot;640&quot; height=&quot;390&quot; style=&quot;top:0;left:0;width:100%;height:100%;position:absolute&quot; src=&quot;https://www.youtube.com/embed/6hAAFHaHJ58?showinfo=0&amp;autoplay=1&amp;controls=0&amp;rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';this.onclick=null"><img src="cicon_video_playbutton-1.png" style="position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;max-width:102px;max-height:104px;border:none"></div></div></div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheColumnsWindow_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheColumnsWindow','UnderstandingTheColumnsWindow_ICON')">Understanding&nbsp;the&nbsp;Columns&nbsp;window</a></span></p>
+<div id="UnderstandingTheColumnsWindow" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="width:60%; background-color:#FFFFFF;"><p class="p_Normal">The Columns window is used to add, remove, and edit columns within the Market Analyzer window.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Accessing the Columns Window</span></h2>
+<p class="p_Normal">To access the Columns window press down on your right mouse button in the Market Analyzer window and select the menu item <span class="f_Menu">Columns...</span></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Sections of the Columns Window</span></h2>
+<p class="p_Normal">The image below displays the four sections of the Columns window.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>List of available columns</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Current columns applied to the Market Analyzer</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Selected column's parameters</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="MarketAnalyzer_22" width="551" height="466" style="margin:0;width:551px;height:466px;border:none" src="marketanalyzer_22.png"></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToAddColumns_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToAddColumns','HowToAddColumns_ICON')">How&nbsp;to&nbsp;add&nbsp;columns</a></span></p>
+<div id="HowToAddColumns" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="width:60%; background-color:#FFFFFF;"><p class="p_Normal">A wide variety of columns can be added to your Market Analyzer window allowing you to see indicator, position, or price information at a glance.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Adding columns to the Market Analyzer window</span></h2>
+<p class="p_Normal">To add a column to the Market Analyzer window:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Open the Columns window <span style="font-style: italic;">(see the &quot;Understanding the Columns window&quot; section above)</span> &nbsp; &nbsp;</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Select the column you want to add from the list of available columns</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Press the <span style="font-weight: bold;">Add</span> button or simply double click on the column you want to add</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>The column will now be visible in the list of applied columns</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>The column's parameters will be editable on the right side of the Columns window when the column is selected from the applied columns list <span style="font-style: italic;">(see the &quot;How to customize columns&quot; section below)</span></p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">6.</span>Press the OK button to apply the column(s) to your Market Analyzer, and exit the Columns window</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="MarketAnalyzer_23" width="530" height="450" style="margin:0;width:530px;height:450px;border:none" src="marketanalyzer_23.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Adding an Indicator Column</span></h2>
+<p class="p_Normal">To add an indicator column to the Market Analyzer window:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Open the Columns window <span style="font-style: italic;">(see the &quot;Understanding the Columns window&quot; section above)</span> </p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Left mouse click on the Indicator column and press the <span style="font-weight: bold;">Add</span> button or simply double click on it</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>The column will now be visible in the list of applied columns and listed as &quot;ADL on 1 Min data&quot;</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>You can now select the indicator of your choice from the Indicator parameter</p></td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToCustomizeColumns_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToCustomizeColumns','HowToCustomizeColumns_ICON')">How&nbsp;to&nbsp;customize&nbsp;columns</a></span></p>
+<div id="HowToCustomizeColumns" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="width:60%; background-color:#FFFFFF;"><p class="p_Normal">Once you have added columns to your Market Analyzer window (<span style="font-style: italic;">see the &quot;How to add columns&quot; section above</span>) you can customize the column by editing the column's parameters.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Editing a Column's Parameters</span></h2>
+<p class="p_Normal">You can customize any column from the Columns window.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Open the Columns window <span style="font-style: italic;">(see the &quot;Understanding the Columns window&quot; section above)</span> &nbsp;</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Highlight the column you would like to edit in the list of <span style="font-weight: bold;">Configured</span> columns (as shown by the image below).</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Once highlighted this column's parameters will be editable on the right hand side</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>You can choose to display the column Type as Regular or as a BarGraph</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>You can configure the color settings, including checking Enable color distribution to apply a range of colors based on their values</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">6.</span>You can set <a href="creating_cell_and_filter_condi-1.htm" class="topiclink">Cell or Filter</a> conditions for any column from the <span style="font-weight: bold;">Conditions</span> parameters section</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="MarketAnalyzer_24" width="562" height="494" style="margin:0;width:562px;height:494px;border:none" src="marketanalyzer_24.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Changing the Order and Width of Columns</span></h2>
+<p class="p_Normal">To order columns in the Market Analyzer window you can use &quot;<span style="font-style: italic; font-weight: bold;">up</span>&quot; or &quot;<span style="font-style: italic; font-weight: bold;">down</span>&quot; in the <span style="font-weight: bold;">Configured</span> columns section.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="MarketAnalyzer_25" width="260" height="243" style="margin:0;width:260px;height:243px;border:none" src="marketanalyzer_25.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Left mouse click <span style="font-weight: bold;">&quot;</span><span style="font-style: italic; font-weight: bold;">up</span><span style="font-weight: bold;">&quot;</span> to move the selected applied column <span style="font-style: italic;">left</span> in the <span style="font-weight: bold;">Market Analyzer</span> window</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Left mouse click &quot;<span style="font-style: italic; font-weight: bold;">down</span><span style="font-weight: bold;">&quot;</span> to move the selected applied column <span style="font-style: italic;">right</span> in the <span style="font-weight: bold;">Market Analyzer</span> window</p><h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">Please see the <a href="data_grids-1.htm" class="topiclink">Data Grids</a> section of the user help guide for information on sizing and ordering columns.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Understanding Indicator Column Properties</span></h2>
+<p class="p_Comment"><span class="f_Comment">An </span><span class="f_Comment" style="font-weight: bold;">Indicator</span><span class="f_Comment"> </span><span class="f_Comment" style="font-weight: bold;">column</span><span class="f_Comment"> has many unique properties used to determine how the indicator is calculated. &nbsp;It is important to understand how these properties will impact the resulting indicator value displayed in your </span><span class="f_Comment" style="font-weight: bold;">Market Analyzer</span><span class="f_Comment"> column.</span></p>
+<p class="p_Comment"><span class="f_Comment">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Indicator</span></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Indicator</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the indicator used for the column</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Plot</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects which of the indicator's plot is used. &nbsp;Some indicators will have several plots.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Data Series</span></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Input Series</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the price type used.  <span style="font-weight: bold;">Close</span> is the most common</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Price based on</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the data type used.  <span style="font-weight: bold;">Last</span> is the most common</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Type</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the bar type which the indicator is calculated on</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Value</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the interval used in correlation to the bar type</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Time Frame</span></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Load data based on</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Select from <span style="font-weight: bold;">Bars</span>, <span style="font-weight: bold;">Days</span> or a <span style="font-weight: bold;">Custom Range</span> in terms of historical data used for the indicator</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Bars to load</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Selects the number of bars (or days) used requested to calculate the indicator.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">End date</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the last day used for calculation. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Trading hours</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the trading session used for calculation</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Break at EOD</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets if the indicator values are reset at the end of each session</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Set up</span></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Calculate</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the frequency that the indicator calculates. <span style="font-style: italic;"> </span><span style="font-weight: bold;">On bar close</span> will slow down the calculation until the close of a bar; <span style="font-weight: bold;">On price change</span> will calculate on when there has been a change in price; <span style="font-weight: bold;">On each tick</span> calculate the indicator's value which each incoming tick.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Maximum bars look back</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Max number of bars used for calculating an indicator's value. &nbsp;The <span style="font-weight: bold;">TwoHundredFiftySix</span> setting is the most memory friendly.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: Setting the <span class="f_Menu">Type</span> to <span class="f_Menu">Bar Graph</span> under <span class="f_Menu">Data Series</span> for text based columns will result in the column being blank. Text based columns require the <span class="f_Menu">Type</span> to be <span class="f_Menu">Regular</span>.</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Saving a Customized Column Presets</span></h2>
+<p class="p_Normal">Once you have an individual column properties set to your preference, you can left mouse click on the &quot;<span style="font-size: 10pt;">preset&quot;</span> text located in the bottom right of the<span style="font-weight: bold;"> </span>properties dialog. Selecting the option &quot;<span style="font-size: 10pt;">save&quot;</span> will save these settings as the default settings used every time you apply a new column.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">If you change your settings and later wish to go back to the original settings, you can left mouse click on the &quot;<span style="font-size: 10pt;">preset&quot;</span> text and select the option to &quot;<span style="font-size: 10pt;">restore&quot;</span> to return to the original settings.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToRemoveColumns_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToRemoveColumns','HowToRemoveColumns_ICON')">How&nbsp;to&nbsp;remove&nbsp;columns</a></span></p>
+<div id="HowToRemoveColumns" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="width:50%; background-color:#FFFFFF;"><p class="p_Normal">Columns can be removed from the Columns window or from the Market Analyzer directly.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Removing Columns from the Market Analyzer Window</span></h2>
+<p class="p_Normal">There are two ways to remove a column:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>From the Market Analyzer window left mouse click on the column header and hold down the left mouse button to drag the column outside the Market Analyzer window, once the cursor changes to a black X release the left mouse button to remove the column.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Open the Columns window <span style="font-style: italic;">(see the &quot;Understanding the Columns window&quot; section above).  </span>Highlight the column you would like to remove in the list of <span style="font-weight: bold;">Configured</span> columns (as shown in the image below) then press the Remove button.</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="MarketAnalyzer_26" width="265" height="491" style="margin:0;width:265px;height:491px;border:none" src="marketanalyzer_26.png"></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="DynamicRankingAndSorting_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','DynamicRankingAndSorting','DynamicRankingAndSorting_ICON')">Dynamic&nbsp;ranking&nbsp;and&nbsp;sorting</a></span></p>
+<div id="DynamicRankingAndSorting" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">See the <a href="dynamic_ranking_and_sorting-1.htm" class="topiclink">Dynamic Ranking and Sorting</a> section of the user help guide for information on sorting and raking your Market Analyzer columns.</p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('UnderstandingTheColumnsWindow_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheColumnsWindow\',\'UnderstandingTheColumnsWindow_ICON\')');
+HMInitToggle('UnderstandingTheColumnsWindow','hm.type','dropdown','hm.state','0');
+HMInitToggle('HowToAddColumns_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToAddColumns\',\'HowToAddColumns_ICON\')');
+HMInitToggle('HowToAddColumns','hm.type','dropdown','hm.state','0');
+HMInitToggle('HowToCustomizeColumns_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCustomizeColumns\',\'HowToCustomizeColumns_ICON\')');
+HMInitToggle('HowToCustomizeColumns','hm.type','dropdown','hm.state','0');
+HMInitToggle('HowToRemoveColumns_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToRemoveColumns\',\'HowToRemoveColumns_ICON\')');
+HMInitToggle('HowToRemoveColumns','hm.type','dropdown','hm.state','0');
+HMInitToggle('DynamicRankingAndSorting_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'DynamicRankingAndSorting\',\'DynamicRankingAndSorting_ICON\')');
+HMInitToggle('DynamicRankingAndSorting','hm.type','dropdown','hm.state','0');
+</script>
+</div></body>
+  </html>

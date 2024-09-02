@@ -1,0 +1,565 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Strategy</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "strategy.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Strategy</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-1232.htm?strategy.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript-1.htm">NinjaScript</a> &gt; <a href="language_reference_wip-1.htm">Language Reference</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Strategy</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="signature-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="language_reference_wip-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="strategy_account-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">The methods and properties covered in this section are unique to custom strategy development.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">In this section</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="strategy_account-1.htm" class="topiclink">Account</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Represents the real-world or simulation <span style="font-weight: bold;">Account</span> configured for the strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; height:17px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="addchartindicator-1.htm" class="topiclink">AddChartIndicator()</a></p>
+</td>
+<td style="vertical-align:top; height:17px; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Adds an indicator to the strategy only for the purpose of displaying it on a chart.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="addperformancemetric-1.htm" class="topiclink">AddPerformanceMetric()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Adds an instance of custom <a href="performancemetrics-1.htm" class="topiclink">Performance Metric</a> to a strategy used in strategy calculations.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="atm_strategy_methods-1.htm" class="topiclink">ATM Strategy Methods</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Adds ATM strategies to manage your position</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="barsrequiredtotrade-1.htm" class="topiclink">BarsRequiredToTrade</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">The number of historical bars required before the strategy starts processing order methods called in the <a href="onbarupdate-1.htm" class="topiclink">OnBarUpdate()</a> method.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="barssinceentryexecution-1.htm" class="topiclink">BarsSinceEntryExecution()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Returns the number of bars that have elapsed since the last specified entry.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="barssinceexitexecution-1.htm" class="topiclink">BarsSinceExitExecution()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Returns the number of bars that have elapsed since the last specified exit.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="chartindicators-1.htm" class="topiclink">ChartIndicators</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Contains a collection of Indicators which have been added to the strategy instance using <a href="addchartindicator-1.htm" class="topiclink">AddChartIndicator()</a>.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="closestrategy-1.htm" class="topiclink">CloseStrategy()</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Cancels all working orders, closes any existing positions, and finally disables the strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="connectionlosshandling-1.htm" class="topiclink">ConnectionLossHandling</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Sets the manner in which your strategy will behave when a connection loss is detected.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="daystoload-1.htm" class="topiclink">DaysToLoad</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines the number of trading days which will be configured when loading the strategy from the <span class="f_Definition" style="font-weight: bold;">Strategies Grid</span>.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="defaultquantity-1.htm" class="topiclink">DefaultQuantity</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">An order size variable that can be set either programmatically or overriden via the Strategy that determines the quantity of an entry order.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="disconnectdelayseconds-1.htm" class="topiclink">DisconnectDelaySeconds</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines the amount of time a disconnect would have to last before  <a href="connectionlosshandling-1.htm" class="topiclink">connection loss handling</a> takes action.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="entriesperdirection-1.htm" class="topiclink">EntriesPerDirection</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines the maximum number of entries allowed per direction while a position is active based on the <a href="entryhandling-1.htm" class="topiclink">EntryHandling</a> property.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="entryhandling-1.htm" class="topiclink">EntryHandling</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Sets the manner in how entry orders will handle.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="execution-1.htm" class="topiclink">Execution</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Represents a read only interface that exposes information regarding an execution (filled order) resulting from an order and is passed as a parameter in the <a href="onexecutionupdate-1.htm" class="topiclink">OnExecutionUpdate()</a> method.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitonsessioncloseseconds-1.htm" class="topiclink">ExitOnSessionCloseSeconds</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">The number of seconds before the actual session end time that the &quot;<a href="isexitonsessionclosestrategy-1.htm" class="topiclink">IsExitOnSessionCloseStrategy</a>&quot; function will trigger.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="includecommission-1.htm" class="topiclink">IncludeCommission</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the strategy performance results will include commission on a historical backtest.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="includetradehistoryinbacktest-1.htm" class="topiclink">IncludeTradeHistoryInBacktest</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the strategy will save orders, trades, and execution history.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="isadoptaccountpositionaware-1.htm" class="topiclink">IsAdoptAccountPositionAware</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the strategy is programmed in a manner capable of handling &nbsp;real-world account positions.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="isexitonsessionclosestrategy-1.htm" class="topiclink">IsExitOnSessionCloseStrategy</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the strategy will cancel all strategy generated orders and close all open strategy positions at the close of the session.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="isfilllimitontouch-1.htm" class="topiclink">IsFillLimitOnTouch</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the strategy will use a more liberal fill algorithm for back-testing purposes only.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="isinstantiatedoneachoptimizationiteration-1.htm" class="topiclink">IsInstantiatedOnEachOptimizationIteration</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the strategy should be re-instantiated (re-created) after each optimization run when using the <a href="optimize_a_strategy-1.htm" class="topiclink">Strategy Analyzer Optimizer</a>.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="isinstrategyanalyer-1.htm" class="topiclink">IsInStrategyAnalyzer</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the current NinjaScript Strategy is run from a Strategy Analyzer chart.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="istradinghoursbreaklinevisible-1.htm" class="topiclink">IsTradingHoursBreakLineVisible</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Plots trading hours break lines on the indicator panel.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="iswaituntilflat-1.htm" class="topiclink">IsWaitUntilFlat</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Indicates the strategy is currently waiting until a flat position is detected before submitting live orders.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="numberrestartattempts-1.htm" class="topiclink">NumberRestartAttempts</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines the maximum number of restart attempts allowed within the last x minutes defined in <a href="restartswithinminutes-1.htm" class="topiclink">RestartsWithinMinutes</a> when the strategy experiences a connection loss.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onaccountitemupdate-1.htm" class="topiclink">OnAccountItemUpdate()</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">An event driven method used for strategies which is called for each AccountItem update for the account on which the strategy is running.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onexecutionupdate-1.htm" class="topiclink">OnExecutionUpdate()</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">An event driven method which is called on an incoming execution of an order managed by a strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onordertrace-1.htm" class="topiclink">OnOrderTrace()</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">An event driven method used for strategies which will allow you to customize the output of <a href="traceorders-1.htm" class="topiclink">TraceOrders</a>. &nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onorderupdate-1.htm" class="topiclink">OnOrderUpdate()</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">An event driven method which is called each time an order managed by a strategy changes state.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onpositionupdate-1.htm" class="topiclink">OnPositionUpdate()</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">An event driven method which is called each time the position of a strategy changes state.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="order-1.htm" class="topiclink">OptimizationPeriod</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Reserved for <a href="walk_forward_optimize_a_strate-1.htm" class="topiclink">Walk-Forward Optimization</a>, this property determines the number of days used for the &quot;in sample&quot; backtest period for a given strategy. &nbsp;See also <a href="testperiod-1.htm" class="topiclink">TestPeriod</a>.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="order-1.htm" class="topiclink">Order</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Represents a read only interface that exposes information regarding an order.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="order_methods-1.htm" class="topiclink">Order Methods</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">NinjaScript provides several approaches you can use for order placement within your NinjaScript strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="orderfillresolution-1.htm" class="topiclink">OrderFillResolution</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines how strategy orders are filled during historical states. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="orderfillresolutiontype-1.htm" class="topiclink">OrderFillResolutionType</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines the bars type which will be used for historical fill processing.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="orderfillresolutionvalue-1.htm" class="topiclink">OrderFillResolutionValue</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines the bars period interval value which will be used for historical fill processing.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="strategy_performancemetrics-1.htm" class="topiclink">PerformanceMetrics</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Holds an array of <a href="performancemetrics-1.htm" class="topiclink">PerformanceMetrics</a> objects that represent custom metrics that can be used for strategy calcuations.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="strategy_plots-1.htm" class="topiclink">Plots</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A collection holding all of the Plot objects that define their visualization characteristics.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="position-1.htm" class="topiclink">Position</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Represents position related information that pertains to an instance of a strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="positionaccount-1.htm" class="topiclink">PositionAccount</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Represents position related information that pertains to real-world account (live or simulation). &nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="positions-1.htm" class="topiclink">Positions</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Holds an array of <a href="position-1.htm" class="topiclink">Position</a> objects that represent positions managed by the strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="positionsaccount-1.htm" class="topiclink">PositionsAccount</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Holds an array of <a href="positionaccount-1.htm" class="topiclink">PositionAccount</a> objects that represent positions managed by the strategy's account.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="realtimeerrorhandling-1.htm" class="topiclink">RealtimeErrorHandling</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Defines the behavior of a strategy when a strategy generated order is returned from the broker's server in a &quot;Rejected&quot; state.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="restartswithinminutes-1.htm" class="topiclink">RestartsWithinMinutes</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines within how many minutes the strategy will attempt to restart.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="setorderquantity-1.htm" class="topiclink">SetOrderQuantity</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines how order sizes are calculated for a given strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="slippage-1.htm" class="topiclink">Slippage</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Sets the amount of slippage in ticks per execution used in performance calculations during backtests.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="startbehavior-1.htm" class="topiclink">StartBehavior</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Sets the start behavior of the strategy. See <a href="syncing_account_positions-1.htm" class="topiclink">Syncing Account Positions</a> for more information.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="stoptargethandling-1.htm" class="topiclink">StopTargetHandling</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines how stop and target orders are submitted during an entry order execution. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="strategybaseconverter-1.htm" class="topiclink">StrategyBaseConverter</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A custom TypeConverter class handling the designed behavior of an strategy's property descriptor collection. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="systemperformance-1.htm" class="topiclink">SystemPerformance</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">The SystemPerformance object holds all trades and trade performance data generated by a strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="testperiod-1.htm" class="topiclink">TestPeriod</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Reserved for <a href="walk_forward_optimize_a_strate-1.htm" class="topiclink">Walk-Forward Optimization</a>, this property determines the number of days used for the &quot;out of sample&quot; backtest period for a given strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="timeinforce-1.htm" class="topiclink">TimeInForce</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Sets the time in force property for all orders generated by a strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="traceorders-1.htm" class="topiclink">TraceOrders</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if OnOrderTrace() would be called for a given strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="trade-1.htm" class="topiclink">Trade</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">A Trade is a completed buy/sell or sell/buy transaction. It consists of an entry and exit execution. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="tradecollection-1.htm" class="topiclink">TradeCollection</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">A collection of <a href="trade-1.htm" class="topiclink">Trade</a> objects.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="tradesperformancevalues-1.htm" class="topiclink">TradesPerformanceValues</a></p>
+</td>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Performance values of a <a href="tradecollection-1.htm" class="topiclink">collection</a> of <a href="trade-1.htm" class="topiclink">Trade</a> objects.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="waitforococlosingbracket-1.htm" class="topiclink">WaitForOcoClosingBracket</a></p>
+</td>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the strategy will submit both legs of an OCO bracket before submitting the pair to the broker.</p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </div></body>
+  </html>

@@ -1,0 +1,733 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Strategy &gt; Order Methods &gt; Managed Approach</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "managed_approach.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Managed Approach</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?managed_approach.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="language_reference_wip.htm">Language Reference</a> &gt; <a href="strategy.htm">Strategy</a> &gt; <a href="order_methods.htm">Order Methods</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Managed Approach</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="order_methods.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="order_methods.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="advanced_order_handling.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">The Managed approach in NinjaScript is designed to offer the greatest ease of use for beginner to intermediate programmers. The order methods are wrapped in a convenience layer that allows you to focus on your system's trading rules, leaving the underlying mechanics of order management and the relationships between entry orders, exit orders, and positions to NinjaTrader. This approach is best suited for simple to moderate order complexity, and can be further broken down into a Basic/Common Managed approach and a more <a href="advanced_order_handling.htm" class="topiclink">Advanced</a> Managed approach. The following section will discuss the use of the Basic/Common approach.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">A few key points to keep in mind:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Orders are submitted as live and working when a strategy is running in real-time </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Profit target, stop loss and trail stop orders are submitted immediately when an entry order is filled, and are tied together via OCO (One Cancels Other)</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Order changes and cancellations are queued in the event that the order is in a state where it can't be cancelled or modified </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>By default, orders submitted via Entry() and Exit() methods automatically cancel at the end of a bar if not re-submitted</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Entry() methods will reverse the position automatically. For example if you are in a 1 contract long position and now call EnterShort() -&gt; you will see 2 executions, one to close the prior long position and the other to get you into the desired 1 contract short position.</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">* Via the <a href="setprofittarget.htm" class="topiclink">SetProfitTarget()</a>, <a href="setstoploss.htm" class="topiclink">SetStopLoss()</a>, <a href="settrailstop.htm" class="topiclink">SetTrailStop()</a> and <a href="setparabolicstop.htm" class="topiclink">SetParabolicStop</a> methods</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="OrderSubmissionForEntryAndExitMethodsBasicOperation_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','OrderSubmissionForEntryAndExitMethodsBasicOperation','OrderSubmissionForEntryAndExitMethodsBasicOperation_ICON')">Order&nbsp;submission&nbsp;for&nbsp;entry&nbsp;and&nbsp;exit&nbsp;methods&nbsp;-&nbsp;basic&nbsp;operation</a></span></p>
+<div id="OrderSubmissionForEntryAndExitMethodsBasicOperation" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">Orders are primarily submitted from within the <a href="onbarupdate.htm" class="topiclink">OnBarUpdate()</a> method when a specific order method is called. By default, orders are kept alive, provided they are re-submitted on each call of the OnBarUpdate() method. If an order is not re-submitted, it is then canceled. Orders can be modified by re-submitting them with changed parameters (a new limit price, for example).</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In the example below, a Buy Limit order is working at the bid price, provided that the Close price of the current bar is greater than the current value of the 20 period Simple Moving Average. If the entry condition is no longer true and the order is still active, it will be immediately canceled.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Entry condition</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">)[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">])</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLongLimit(GetCurrentBid());</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_Normal">This technique allows you the quickest and easiest order submission method suitable for programmers of all levels. Should you want to submit an order and not have to keep re-submitting it to keep it alive you can use an <a href="advanced_order_handling.htm" class="topiclink">advanced approach</a> reserved for experienced programmers, which includes an option to keep orders alive until specifically canceled in code.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="EntryMethods_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','EntryMethods','EntryMethods_ICON')">Order&nbsp;Entry&nbsp;Methods</a></span></p>
+<div id="EntryMethods" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Order Entry Methods</span><br />
+Order entry methods are used to submit orders of different types. Methods exist to submit Market, Market-if-Touched, Limit, Stop Market, and Stop Limit orders. See the order-entry method pages listed in the help guide table of contents under this page for more information on a specific method.</h2>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Signal Names on Entry Methods</span></h2>
+<p class="p_Normal">You can optionally tag an entry order with a signal name. Signal names are used to identify executions resulting from the order on a chart and in performance reports. Market positions created from a tagged entry method are marked with the signal name which serves two purposes:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Used to tie an exit method to a specific position </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Used to identify unique entries in a strategy </p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Below is an example of placing an Market entry order and an associated Limit exit order, tied together by the signal name of the entry order.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CurrentBar</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&lt;</span><span class="f_CodeExample" style="color: #ffffff;"> 1</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">])</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Place a Market order to enter long</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;longEntry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Manually place a Profit Target 10 ticks above the current price, tied to the entry order's SignalName</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">ExitLongLimit(Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;longEntry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Defining how Entry Methods are Processed in a Strategy</span></h2>
+<p class="p_Normal">You can limit how many entry methods are processed by determining the maximum number of entries in a single direction across all entry methods, or across unique signal names. The following properties can be set in the Strategies window when adding a strategy to a chart or to the Strategies tab of the Control Center window.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="entriesperdirection.htm" class="topiclink">EntriesPerDirection</a> property - Sets the maximum number of entries in a single direction </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="entryhandling.htm" class="topiclink">EntryHandling</a> property - Determines if EntriesPerDirection applies across all entries or for entries with specified signal names</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The example code below illustrates how the above properties control the processing of entry methods. The code contains two entry conditions and two EnterLong methods, each tagged with unique signal names.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EntriesPerDirection</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EntryHandling</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">EntryHandling.AllEntries;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Entry condition 1</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossAbove(SMA(</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Condition 1 Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Entry condition 2</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossAbove(RSI(</span><span class="f_CodeExample" style="color: #ff6600;">14</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">30</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Condition 2 Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Entry Methods on Multi-Instrument Strategies</span><br />
+When running strategies that submit orders to multiple instruments, entry methods will submit orders to the instrument referenced by the <a href="barsinprogress.htm" class="topiclink">BarsInProgress</a>. The following example assumes that the strategy is running on a 1 minute E-Mini S&amp;P 500 chart. It adds an NQ data series, then enters a position on both instruments.</h2>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">AddDataSeries(</span><span class="f_CodeExample" style="color: #800000;">&quot;NQ 09-14&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriodType.Minute,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(BarsInProgress</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;ES Trade&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">else</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(BarsInProgress</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;NQ Trade&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample">More information on using <span class="f_CodeExample">BarsInProgress</span> to filter instruments can be found in the <a href="advanced_order_handling.htm" class="topiclink">Advanced Order Handling</a> page.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="QuantityTypeAndTif_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','QuantityTypeAndTif','QuantityTypeAndTif_ICON')">Quantity&nbsp;Type&nbsp;and&nbsp;TIF</a></span></p>
+<div id="QuantityTypeAndTif" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">You can set the entry order quantity and order type directly in code via the following properties:</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>QuantityType - Sets the order quantity is taken from the entry method quantity property or the default strategy quantity size</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="timeinforce.htm" class="topiclink">TimeInForce</a> propery - Sets the time in force of the order</p></td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToCloseAPosition_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToCloseAPosition','HowToCloseAPosition_ICON')">How&nbsp;to&nbsp;close&nbsp;a&nbsp;position</a></span></p>
+<div id="HowToCloseAPosition" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Closing a Position using a Stop Loss, Trailing Stop and/or Profit Target</span></h2>
+<p class="p_Normal">You can predefine a stop loss, trailing stop and/or profit target in a strategy by calling the <a href="setstoploss.htm" class="topiclink">SetStopLoss()</a>, <a href="settrailstop.htm" class="topiclink">SetTrailStop()</a>, <a href="setparabolicstop.htm" class="topiclink">SetParabolicStop()</a> or <a href="setprofittarget.htm" class="topiclink">SetProfitTarget()</a> methods from inside the <a href="onstatechange.htm" class="topiclink">OnStateChange()</a> event handler. When these methods are called, they submit live working orders in real-time as executions are reported as a result of calling an entry method. These orders are also tied via OCO (One Cancels Other).</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Stop losses and profit target can be generated for each fill or each position. This is determined by the &quot;Stop &amp; target submission&quot; property which is set in the Strategies window. Possible values are listed below:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-weight: bold;">ByStrategyPosition</span> - When this is selected, only one stop loss, trail stop and/or profit target order is submitted. As entry executions come in, the order size is amended. The downside of this approach is that if you receive partial fills, the orders are re-inserted into the exchange order queue. The upside is that if you broker charges you commission per order (not per quantity), you will not incur additional commission expenses.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-weight: bold;">PerEntryExecution</span> - When this is selected, a stop loss, trail stop and/or profit target order is submitted for each partial fill received. The downside is that if your broker charges commission per order, you can incur very expensive commission costs if you receive partial fills. The upside is that orders are submitted as soon as possible, giving you the advantage of getting into the order queue immediately.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Closing a Position using an Exit Method</span></h2>
+<p class="p_Normal">Exit methods submit orders to close out a position in whole or in part. When closing a position with Exit orders, the order quantity will be reduced as the strategy position reduces - for example, if we use <a href="exitlongstopmarket.htm" class="topiclink">ExitLongStopMarket()</a> and <a href="exitlongstoplimit.htm" class="topiclink">ExitLongStopLimit()</a> to protect a position and one of those orders gets filled, the other order associated with exiting that position will reduce their quantity. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">As with entry methods, more information about specific exit methods can be found in this Help Guide's table of contents, beneath this page.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Closing a Partial Position using an Exit Method</span></h2>
+<p class="p_Normal">You can close out a partial position by specifying the exit quantity. The following example first enters long for three contracts. Then, each subsequent bar update submits a market order to exit one contract until the position is completely closed. &quot;ExitLong(1)&quot; will be ignored if a long market position does not exist.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossAbove(SMA(</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">ExitLong(</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">FromEntrySignal -- Using Signal Names in Exit Methods</span></h2>
+<p class="p_Normal">Identifying entries with a signal name allows you to place multiple unique entries within a single strategy and call exit methods with specified signal names, so that only a position created with the specified signal name is closed. In the example below, there are two entry conditions which create positions, and two exit conditions specifying which position to close based on the signal name.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Entry condition 1</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossAbove(SMA(</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Condition 1 Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Entry condition 2</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossAbove(RSI(</span><span class="f_CodeExample" style="color: #ff6600;">14</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">30</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Condition 2 Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Closes the position created by entry condition 1</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossBelow(SMA(</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">ExitLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Condition 1 Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Closes the position created by entry condition 2</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossBelow(RSI(</span><span class="f_CodeExample" style="color: #ff6600;">14</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">70</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">ExitLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Condition 2 Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_CodeExample"><span style="font-weight: bold;">Tip</span>: &nbsp;If you do not specify a &quot;fromEntrySignal&quot; parameter the entire position is exited rendering your strategy flat.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(Position.MarketPosition</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MarketPosition.Flat)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Entry condition 1</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossAbove(SMA(</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Condition 1 Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(Position.MarketPosition</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MarketPosition.Flat)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Scale in condition 2 for position management</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossAbove(RSI(</span><span class="f_CodeExample" style="color: #ff6600;">14</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">30</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Condition 2 Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Exit all positions using an empty string (could also use string.Empty)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CrossBelow(SMA(</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">ExitLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;Exit All&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="Understandingcoreorderobjects_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','Understandingcoreorderobjects','Understandingcoreorderobjects_ICON')">Understanding&nbsp;core&nbsp;order&nbsp;objects</a></span></p>
+<div id="Understandingcoreorderobjects" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2">When using order methods such as <a href="enterlong.htm" class="topiclink">EnterLong()</a>, <a href="exitshortlimit.htm" class="topiclink">ExitShortLimit()</a>, etc, a direct <a href="order.htm" class="topiclink">order object</a> is returned for the NinjaTrader Core. &nbsp;These objects can be used throughout the lifetime of your strategy to provide additional metadata concerning your strategy, as well as apply advanced concepts such as <a href="managed_cancelorder.htm" class="topiclink">CancelOrder()</a> and <a href="managed_changeorder.htm" class="topiclink">ChangeOrder()</a>. &nbsp;More information about this advanced concept which is discussed under the <a href="advanced_order_handling.htm" class="topiclink">Advanced Order Handling</a> section</h2>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="InternalOrderHandlingRulesThatReduceUnwantedPositions_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','InternalOrderHandlingRulesThatReduceUnwantedPositions','InternalOrderHandlingRulesThatReduceUnwantedPositions_ICON')">Internal&nbsp;Order&nbsp;Handling&nbsp;Rules&nbsp;that&nbsp;Reduce&nbsp;Unwanted&nbsp;Positions</a></span></p>
+<div id="InternalOrderHandlingRulesThatReduceUnwantedPositions" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">To prevent situations in real-time in which you may have multiple orders working to accomplish the same task, <span style="background-color: #ffffff;">there are some &quot;under the hood&quot; rules that a NinjaScript strategy follows when Managed order methods are called</span>. <span style="background-color: #ffffff;">For example, if your strategy had a limit order for 1 contract working as a Profit Target, but then your strategy was also programmed to reverse the position at the price very close to the target limit order, then submitting both orders can be risky, since it could lead to a larger position than the strategy is designed to enter if both orders got filled in quick succession by the exchange.&nbsp;</span></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: These rules do not apply to market orders, such as ExitLong() or ExitShort(). </p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">For the most part, you do not need to be intimately familiar with these rules as you develop your strategies. It is all taken care of for you internally within a strategy. If a rule is violated, you will be notified through an error log in the Control Center Log tab.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;To prevent excessive logging which could degrade performance, you will only be notified of the very first order which has violated an order handling rule. Subsequent orders which violate a rule will not be notified through the error log.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The following rules are true<span style="font-style: italic;"> </span><span style="font-style: italic;">per unique signal name</span>:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Methods that generate orders to <span style="font-weight: bold;">enter</span> a position will be ignored if:</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A position is open and an order submitted by a non market order exit method (<a href="exitlonglimit.htm" class="topiclink">ExitLongLimit()</a> for example) is active and the order is used to open a position in the opposite direction</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A position is open and an order submitted by a set method (<a href="setstoploss.htm" class="topiclink">SetStopLoss()</a> for example) is active and the order is used to open a position in the opposite direction</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A position is open and two or more Entry methods to reverse the position are entered together. In this case the second Entry order will be ignored.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The strategy position is flat and an order submitted by an enter method (<a href="enterlonglimit.htm" class="topiclink">EnterLongLimit()</a> for example) is active and the order is used to open a position in the opposite direction</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The entry signal name is not unique</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Methods that generate orders to <span style="font-weight: bold;">exit</span> a position will be ignored if:</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A position is open and an order submitted by an enter method (<a href="enterlonglimit.htm" class="topiclink">EnterLongLimit()</a> for example) is active and the order is used to open a position in the opposite direction</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A position is open and an order submitted by a set method (<a href="setstoploss.htm" class="topiclink">SetStopLoss()</a> for example) is active</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Set() methods that generate orders to <span style="font-weight: bold;">exit</span> a position will be ignored if:</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A position is open and an order submitted by an enter method (<a href="enterlonglimit.htm" class="topiclink">EnterLongLimit()</a> for example) is active and the order is used to open a position in the opposite direction</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A position is open and an order submitted by a non market order exit method (<a href="exitlonglimit.htm" class="topiclink">ExitLongLimit()</a> for example) is active</p></td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="text-indent: -32px; margin: 0 0 0 32px;">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="advanced_order_handling.htm" class="topiclink">Advanced Order Handling</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Through advanced order handling you can submit, change and cancel orders at your discretion through any event-driven method within a strategy.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="managed_cancelorder.htm" class="topiclink">CancelOrder()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Cancels a specified order.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="managed_changeorder.htm" class="topiclink">ChangeOrder()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Amends a specified <a href="order.htm" class="topiclink">Order</a>.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="enterlong.htm" class="topiclink">EnterLong()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy market order to enter a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="enterlonglimit.htm" class="topiclink">EnterLongLimit()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy limit order to enter a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="enterlongmit.htm" class="topiclink">EnterLongMIT()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy MIT order to enter a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="enterlongstoplimit.htm" class="topiclink">EnterLongStopLimit()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy stop limit order to enter a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="enterlongstopmarket.htm" class="topiclink">EnterLongStopMarket()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy stop market order to enter a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="entershort.htm" class="topiclink">EnterShort()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell short market order to enter a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="entershortlimit.htm" class="topiclink">EnterShortLimit()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell short stop limit order to enter a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="entershortmit.htm" class="topiclink">EnterShortMIT()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell MIT order to enter a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="entershortstoplimit.htm" class="topiclink">EnterShortStopLimit()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell short stop limit order to enter a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="entershortstopmarket.htm" class="topiclink">EnterShortStopMarket()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell short stop order to enter a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitlong.htm" class="topiclink">ExitLong()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell market order to exit a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitlonglimit.htm" class="topiclink">ExitLongLimit()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell limit order to exit a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitlongmit.htm" class="topiclink">ExitLongMIT()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell MIT order to exit a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitlongstoplimit.htm" class="topiclink">ExitLongStopLimit()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell stop limit order to exit a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitlongstopmarket.htm" class="topiclink">ExitLongStopMarket()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a sell stop market order to exit a long position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitshort.htm" class="topiclink">ExitShort()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy to cover market order to exit a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitshortlimit.htm" class="topiclink">ExitShortLimit()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy to cover limit order to exit a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitshortmit.htm" class="topiclink">ExitShortMIT()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy to cover MIT order to exit a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitshortstoplimit.htm" class="topiclink">ExitShortStopLimit()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy to cover stop limit order to exit a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="exitshortstopmarket.htm" class="topiclink">ExitShortStopMarket()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a buy to cover stop market order to exit a short position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="getrealtimeorder.htm" class="topiclink">GetRealtimeOrder()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Returns a matching real-time order object based on a specified historical order object reference.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="setparabolicstop.htm" class="topiclink">SetParabolicStop()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a parabolic type trail stop order with the signal name &quot;Parabolic stop&quot; to exit a position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="setprofittarget.htm" class="topiclink">SetProfitTarget()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a profit target order with the signal name &quot;Profit target&quot; to exit a position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="setstoploss.htm" class="topiclink">SetStopLoss()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a stop loss order with the signal name &quot;Stop loss&quot; used to exit a position.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:17%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="settrailstop.htm" class="topiclink">SetTrailStop()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Generates a trail stop order with the signal name &quot;Trail stop&quot; to exit a position.</p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('OrderSubmissionForEntryAndExitMethodsBasicOperation_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderSubmissionForEntryAndExitMethodsBasicOperation\',\'OrderSubmissionForEntryAndExitMethodsBasicOperation_ICON\')');
+HMInitToggle('OrderSubmissionForEntryAndExitMethodsBasicOperation','hm.type','dropdown','hm.state','0');
+HMInitToggle('EntryMethods_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'EntryMethods\',\'EntryMethods_ICON\')');
+HMInitToggle('EntryMethods','hm.type','dropdown','hm.state','0');
+HMInitToggle('QuantityTypeAndTif_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'QuantityTypeAndTif\',\'QuantityTypeAndTif_ICON\')');
+HMInitToggle('QuantityTypeAndTif','hm.type','dropdown','hm.state','0');
+HMInitToggle('HowToCloseAPosition_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCloseAPosition\',\'HowToCloseAPosition_ICON\')');
+HMInitToggle('HowToCloseAPosition','hm.type','dropdown','hm.state','0');
+HMInitToggle('Understandingcoreorderobjects_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Understandingcoreorderobjects\',\'Understandingcoreorderobjects_ICON\')');
+HMInitToggle('Understandingcoreorderobjects','hm.type','dropdown','hm.state','0');
+HMInitToggle('InternalOrderHandlingRulesThatReduceUnwantedPositions_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'InternalOrderHandlingRulesThatReduceUnwantedPositions\',\'InternalOrderHandlingRulesThatReduceUnwantedPositions_ICON\')');
+HMInitToggle('InternalOrderHandlingRulesThatReduceUnwantedPositions','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

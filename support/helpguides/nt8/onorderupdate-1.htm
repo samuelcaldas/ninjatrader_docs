@@ -1,0 +1,477 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Strategy &gt; OnOrderUpdate()</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="OnOrderUpdate() - Strategy">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "onorderupdate.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">OnOrderUpdate()</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-1277.htm?onorderupdate.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript-1.htm">NinjaScript</a> &gt; <a href="language_reference_wip-1.htm">Language Reference</a> &gt; <a href="strategy-1.htm">Strategy</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">OnOrderUpdate()</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="onordertrace-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="strategy-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="onpositionupdate-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
+<p class="p_Definition">An event driven method which is called each time an order managed by a strategy changes state. An order will change state when a change in order quantity, price or state (working to filled) occurs. You can use this method to program your own <a href="realtimeerrorhandling-1.htm" class="topiclink">order rejection handling</a>.</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: &nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Only orders which have been submitted and managed by the strategy will call OnOrderUpdate().</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Programming in this environment is reserved for the more <a href="advanced_order_handling-1.htm" class="topiclink">advanced user</a>. If you are for example looking to protect a strategy managed position with a basic stop and target, then the <a href="managed_approach-1.htm" class="topiclink">Set() methods</a> would be more convenient.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>For triggering actions such as the submission of a stop loss order and target order using custom OCO logic when your entry order is filled, we recommend working directly in <a href="onexecutionupdate-1.htm" class="topiclink">OnExecutionUpdate()</a> instead.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>OnOrderUpdate() will run inside of order methods such as EnterLong() or SubmitOrderUnmanaged(), therefore attempting to assign an order object outside of OnOrderUpdate() may not return as soon as expected. &nbsp;If your strategy is dependent on tracking the order object from the very first update, you should try to match your order objects by the order.Name (signal name) from during the OnOrderUpdate() as the order is first updated.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. For an example on protecting positions with this approach, see <a href="onexecutionupdate-1.htm" class="topiclink">OnExecutionUpdate()</a></p></td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Critical">
+<tr class="Critical">
+<td class="Critical"><p class="p_Normal"><span style="font-weight: bold;">Critical:  </span>If you want to drive your strategy logic based on order fills you must use <a href="onexecutionupdate-1.htm" class="topiclink">OnExecutionUpdate()</a> instead of OnOrderUpdate(). OnExecutionUpdate() is always triggered after OnOrderUpdate(). There is internal strategy logic that is triggered after OnOrderUpdate() is called but before OnExecutionUpdate() that can adversely affect your strategy if you are relying on tracking fills within OnOrderUpdate(). </p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Playback Connection</span></h2>
+<p class="p_Normal">When connected to the <a href="playback_connection-1.htm" class="topiclink">Playback Connection</a>, calling market order based methods such as EnterLong() and EnterShort() will result in order state events being fired prior to the order method return an Order object. This is done to ensure that all events are in sync at high speed playback.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Method Return Value</span></h2>
+<p class="p_Normal">This method does not return a value.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Syntax </span><br>
+You must override the method in your strategy with the following syntax:</h2>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnOrderUpdate(Order</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">limitPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">stopPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">filled,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">averageFillPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OrderState</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderState,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ErrorCode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">error,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">comment)</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">}</span></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Method Parameters</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">order</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An <a href="order-1.htm" class="topiclink">Order</a> object passed by reference representing the order object</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">limitPrice</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">double</span> value representing the limit price of the order update</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">stopPrice</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">double</span> value representing the stop price of the order update</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">quantity</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An <span class="f_CodeExampleTypes">int</span> value representing the quantity of the order update</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">filled</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An <span class="f_CodeExampleTypes">int</span> value representing the filled amount of the order update</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">averageFillPrice</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">double</span> value representing the average fill price of the order update</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">orderState</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An <span style="font-weight: bold;">OrderState</span> value representing the state of the order (e.g., filled, canceled, rejected, etc)</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-weight: bold;">Note</span>: See order state values table below</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">time</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <a href="http://msdn2.microsoft.com/en-us/library/system.datetime.aspx" target="_blank" class="weblink">DateTime</a> structure representing the last time the order changed state</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">error</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An <span style="font-weight: bold;">ErrorCode</span> value which categorizes an error received &nbsp;from the broker</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Possible values are:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">ErrorCode.LoginExpired</p>
+<p class="p_Normal">ErrorCode.LogOnFailed</p>
+<p class="p_Normal">ErrorCode.NoError</p>
+<p class="p_Normal">ErrorCode.OrderRejected</p>
+<p class="p_Normal">ErrorCode.OrderRejectedByRisk</p>
+<p class="p_Normal">ErrorCode.Panic</p>
+<p class="p_Normal">ErrorCode.UnableToCancelOrder</p>
+<p class="p_Normal">ErrorCode.UnableToChangeOrder</p>
+<p class="p_Normal">ErrorCode.UnableToSubmitOrder</p>
+<p class="p_Normal">ErrorCode.UserAbort</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">comment</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">string</span> representing the error message provided directly from the broker</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">OrderState Values</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.Initialized</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order is initialized in NinjaTrader</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.Submitted</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order is submitted to the broker</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.Accepted</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order is accepted by the broker or exchange</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.TriggerPending</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order is pending submission </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.Working</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order is working in the exchange queue</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.ChangePending</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order change is pending in NinjaTrader</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.ChangeSubmitted</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order change is submitted to the broker</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.CancelPending</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order cancellation is pending in NinjaTrader</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.CancelSubmitted</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order cancellation is submitted to the broker</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.Cancelled</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order cancellation confirm received from broker</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.Rejected</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order is rejected</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.PartFilled</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order is partially filled</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.Filled</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order is completely filled</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderState.Unknown</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An unknown order state. Default if broker does not report current order state. </p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Understanding the order object parameter vs updating value parameter (</span><a href="multi-threading-1.htm" class="topiclink">Multi-Thread Considerations for NinjaScript</a><span class="f_NSexamplesheading">)</span></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnOrderUpdate(Cbi.Order</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">limitPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">stopPrice,</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">filled,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">averageFillPrice,</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Cbi.OrderState</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderState,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Cbi.ErrorCode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">error,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">comment)</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Print(</span><span class="f_CodeExample" style="color: #800000;">&quot;The most current order state is: &quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order.OrderState);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// OrderState.PartFilled</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Print(</span><span class="f_CodeExample" style="color: #800000;">&quot;This particular order update state is: &quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderState);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #008000;">// OrderState.Working</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ImageCaption"> </span><span class="f_ExampleText">Properly assigning order object values</span></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample" style="text-align: right;"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Order</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">entryOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(entryOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&amp;&amp;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Open[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">])</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLong(</span><span class="f_CodeExample" style="color: #800000;">&quot;entryOrder&quot;</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnOrderUpdate(Order</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">limitPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">stopPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">filled,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">averageFillPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OrderState</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderState,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ErrorCode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">error,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">nativeError)</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// check if the current order matches the orderName passed in &quot;EnterLong&quot;()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately after submitting</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(order.Name</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;entryOrder&quot;</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">entryOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// if entry order exists</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(entryOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&amp;&amp;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">entryOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Print(order.ToString());</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(order.OrderState</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OrderState.Cancelled)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Do something here</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">entryOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;<br>
+<span class="f_Heading2">Additional Reference Samples</span><br>
+Additional reference code samples are available the NinjaScript Educational Resources section of our support forum.</p>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </div></body>
+  </html>

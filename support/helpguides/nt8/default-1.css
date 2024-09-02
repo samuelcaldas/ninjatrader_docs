@@ -1,0 +1,387 @@
+/* Text Styles */
+hr { color: #000000 }
+body, table, tr, th /* Normal */
+{
+ font-size: 11pt;
+ font-family: Arial,Helvetica,sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 10pt;
+ font-family: Consolas;
+}
+span.f_CodeExampleComments /* Code Example Comments */
+{
+ font-size: 10pt;
+ font-family: Consolas;
+ color: #008000;
+}
+span.f_CodeExampleParameters /* Code Example Parameters */
+{
+ font-size: 10pt;
+ font-family: Consolas;
+ font-style: italic;
+}
+span.f_CodeExampleTypes /* Code Example Types */
+{
+ font-size: 10pt;
+ font-family: Consolas;
+ color: #0000ff;
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_Definition /* Definition */
+{
+}
+span.f_ExampleText /* Example Text */
+{
+ font-weight: bold;
+ color: #808080;
+}
+span.f_HeadingTopic /* Heading Topic */
+{
+ font-size: 22pt;
+ font-weight: bold;
+ color: #ffffff;
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 16pt;
+ font-weight: bold;
+}
+span.f_Heading2 /* Heading2 */
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #dc3900;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 8pt;
+ color: #800000;
+}
+span.f_Menu /* Menu */
+{
+ font-size: 10pt;
+ font-weight: bold;
+ background-color: #e9eaea;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_NSexamplesheading /* NS examples heading */
+{
+ font-weight: bold;
+ color: #808080;
+}
+span.f_TocHeading /* Toc Heading */
+{
+ font-size: 14pt;
+ font-weight: bold;
+ color: #dc3900;
+}
+span.f_ToggleHeading /* Toggle Heading */
+{
+ font-size: 12pt;
+}
+span.f_YoutubeTable /* Youtube Table */
+{
+ color: #ffffff;
+ background-color: #ff0000;
+}
+/* Paragraph styles */
+p, p.p_Normal, div.p_Normal, li.p_Normal /* Normal */
+{
+ text-align: left;
+ text-indent: 0;
+ line-height: 1.38;
+ padding: 0 0 0 0;
+ margin: 0 0 0 0;
+}
+.p_CodeExample /* Code Example */
+{
+ font-size: 10pt;
+}
+.p_CodeExampleComments /* Code Example Comments */
+{
+ font-size: 10pt;
+}
+.p_CodeExampleParameters /* Code Example Parameters */
+{
+ font-size: 10pt;
+}
+.p_CodeExampleTypes /* Code Example Types */
+{
+ font-size: 10pt;
+}
+.p_Comment /* Comment */
+{
+ font-size: 11pt;
+}
+.p_Definition /* Definition */
+{
+ font-size: 11pt;
+}
+.p_ExampleText /* Example Text */
+{
+ font-size: 11pt;
+}
+.p_HeadingTopic /* Heading Topic */
+{
+ font-size: 22pt;
+}
+.p_Heading1 /* Heading1 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0;
+ line-height: 1.38;
+ padding: 0 0 0 0;
+ margin: 0 0 0 0;
+}
+.p_Heading2 /* Heading2 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0;
+ padding: 0 0 0 0;
+ margin: 0 0 0 0;
+}
+.p_ImageCaption /* Image Caption */
+{
+ font-size: 8pt;
+ text-align: center;
+ line-height: 1.20;
+ margin: 48px 0 48px 0;
+}
+.p_Menu /* Menu */
+{
+ font-size: 10pt;
+ background: #e9eaea;
+}
+.p_Notes /* Notes */
+{
+ font-size: 11pt;
+}
+.p_NSexamplesheading /* NS examples heading */
+{
+ font-size: 11pt;
+}
+.p_TocHeading /* Toc Heading */
+{
+ font-size: 14pt;
+ border-color: #c0c0c0;
+ border-style: solid;
+ border-width: thin;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ margin: 0 0 24px 0;
+}
+.p_ToggleHeading /* Toggle Heading */
+{
+ font-size: 12pt;
+ line-height: 1.0;
+ white-space: nowrap;
+ border-color: #dddddd;
+ border-style: solid;
+ border-width: thin;
+ background: #f9f9f9;
+ padding: 3px 3px 3px 3px;
+ margin: 16px 0 2px 0;
+}
+.p_YoutubeTable /* Youtube Table */
+{
+ font-size: 11pt;
+ line-height: 1.20;
+}
+/* Table styles */
+table.NSExample {
+width: 80%;
+background-color: #FFFFFF;
+border: none;
+border-spacing: 0;
+border-collapse: collapse;
+}
+table.NSExample tr.NSExample {
+text-align: left;
+}
+table.NSExample th.NSExample, table.NSExample td.NSExample {
+vertical-align: top;
+padding: 5px;
+border: solid thin #DDDDDD;
+}
+table.NSExample th.NSExample {
+background-color:#f9f9f9;
+}
+table.TOCTable {
+width: 100%;
+background-color: #FCFCFC;
+border: none;
+border-spacing: 0;
+border-collapse: collapse;
+}
+table.TOCTable tr.TOCTable {
+text-align: left;
+}
+table.TOCTable th.TOCTable, table.TOCTable td.TOCTable {
+vertical-align: top;
+padding: 10px;
+border: solid thin #DDDDDD;
+}
+table.TOCTable th.TOCTable {
+background-color:#f9f9f9;
+}
+table.Warning {
+width: 100%;
+background-color: #FFFDF6;
+border: solid thin #FFCC00;
+border-spacing: 0;
+}
+table.Warning tr.Warning {
+text-align: left;
+}
+table.Warning th.Warning, table.Warning td.Warning {
+vertical-align: top;
+padding: 10px;
+border: none;
+}
+table.Critical {
+width: 100%;
+background-color: #FFF8F7;
+border: solid thin #D04437;
+border-spacing: 0;
+}
+table.Critical tr.Critical {
+text-align: left;
+}
+table.Critical th.Critical, table.Critical td.Critical {
+vertical-align: top;
+padding: 10px;
+border: none;
+}
+table.Note {
+width: 100%;
+background-color: #F7F8FA;
+border: solid thin #AAB8C6;
+border-spacing: 0;
+}
+table.Note tr.Note {
+text-align: left;
+}
+table.Note th.Note, table.Note td.Note {
+vertical-align: top;
+padding: 10px;
+border: none;
+}
+table.Tip {
+width: 100%;
+background-color: #F3F9F4;
+border: solid thin #008000;
+border-spacing: 0;
+}
+table.Tip tr.Tip {
+text-align: left;
+}
+table.Tip th.Tip, table.Tip td.Tip {
+vertical-align: top;
+padding: 10px;
+border: none;
+}
+table.Why {
+width: 100%;
+border: solid thin #999999;
+border-spacing: 0;
+}
+table.Why tr.Why {
+text-align: left;
+}
+table.Why th.Why, table.Why td.Why {
+vertical-align: top;
+padding: 10px;
+border: none;
+}
+table.Toggle {
+width: 100%;
+border: none;
+border-spacing: 0;
+}
+table.Toggle tr.Toggle {
+text-align: left;
+}
+table.Toggle th.Toggle, table.Toggle td.Toggle {
+vertical-align: top;
+padding: 20px;
+border: none;
+}
+table.Toggle th.Toggle {
+background-color:#ffffff;
+}
+table.Video {
+width: 320px;
+border: none;
+border-spacing: 0;
+}
+table.Video tr.Video {
+text-align: left;
+}
+table.Video th.Video, table.Video td.Video {
+vertical-align: top;
+padding: 0;
+border: none;
+}
+div.hmrotate90  { display:inline-block; -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; }
+div.hmrotate270 { display:inline-block; -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; transform: rotate(180deg); }
+
+
+
+#hmpopupdiv /* used for javascript text popups */
+{
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  background-color: #FFFFFF;
+  padding: 6px;
+  border:1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #888;
+}
+
+#hmlightbox /* image lightbox */
+{
+  border: none;
+  padding: 8px;
+  background: #FFF;
+  font-size: 110%;
+  font-weight: bold;
+  color: #777;
+  box-shadow: 5px 5px 5px #888;
+}
+
+a.dropdown-toggle /* dropdown toggle caption */
+{
+  cursor: pointer;
+}
+a.inline-toggle /* inline toggle caption */
+{
+  cursor: pointer;
+}
+img.dropdown-toggle-icon /* toggle icon */
+{
+  cursor: pointer;
+}
+/* CSS for responsive image maps */
+
+.hmImageMap a.hmHotspotRect { display:block; position:absolute; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1)  }
+.hmImageMap a.hmHotspotEllipse { display:block; position:absolute; border-radius:50%; border: 1px solid transparent; background:#000; opacity:0.01; filter:alpha(opacity=1) }
+.hmImageMap:hover a.hmHotspotRect {opacity:0.3; filter:alpha(opacity=30); }
+.hmImageMap:hover a.hmHotspotEllipse { opacity:0.3; filter:alpha(opacity=30); }
+a.hmHotspotRect:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }
+a.hmHotspotEllipse:hover { border:1px solid #000; background:#FFF; opacity:0.3; filter:alpha(opacity=30) }

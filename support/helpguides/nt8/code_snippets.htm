@@ -1,0 +1,823 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Editor &gt; Code Snippets</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "code_snippets.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Code Snippets</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?code_snippets.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="editor.htm">Editor</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Code Snippets</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="ns_wizard.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="editor.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="compile_errors.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">Code Snippets can provide you with useful code templates to speed up your coding process.</p>
+<p class="p_ToggleHeading"><img id="UnderstandingCodeSnippetShortcuts_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingCodeSnippetShortcuts','UnderstandingCodeSnippetShortcuts_ICON')">Understanding&nbsp;Code&nbsp;Snippet&nbsp;shortcuts</a></span></p>
+<div id="UnderstandingCodeSnippetShortcuts" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">You can quickly add commonly used methods and code structures via </span></h2>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Short cut characters </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Clicking on your right mouse button and selecting the menu name &quot;<span class="f_Menu">Insert Code Snippet</span>&quot; </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Pressing the F2 key on your keyboard </p></td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToUseCodeSnippetShortcutsViaTheKeyboard_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToUseCodeSnippetShortcutsViaTheKeyboard','HowToUseCodeSnippetShortcutsViaTheKeyboard_ICON')">How&nbsp;to&nbsp;use&nbsp;Code&nbsp;Snippet&nbsp;shortcuts&nbsp;via&nbsp;the&nbsp;keyboard</a></span></p>
+<div id="HowToUseCodeSnippetShortcutsViaTheKeyboard" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Using the keyboard</span></h2>
+<p class="p_Normal">Enter the text in the left column and press the &quot;Tab&quot; key within the <span style="font-size: 10pt;">NinjaScript</span> Editor.</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Current Bar Values</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">cb</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">CurrentBar</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">o</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Open[0]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">h</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">High[0]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">l</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Low[0]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">v</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Volume[0]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">i</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Input[0]</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Previous Bar Values</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">c1</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Close[1]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">o1</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Open[1]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">h1</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">High[1]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">l1</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Low[1]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">v1</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Volume[1]</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">i1</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Input[1]</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Indicator Plotting</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">line</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">AddLine(</span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Stroke(Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Line&quot;</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">plot</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">AddPlot(</span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Stroke(Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PlotStyle.Line,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Plot&quot;</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Arithmetic</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">abs</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Math.Abs(value)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">min</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Math.Min(value1, value2)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:60px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">max</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Math.Max(value1, value2)</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Event Handler Callback Methods</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">account</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnAccountItemUpdate(Account</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">account,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AccountItem</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">accountItem,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">value)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">trade</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnAddTrade(Cbi.Trade</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">trade)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">barschange</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarsChanged()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">minmax</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnCalculateMinMax()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// It is important to set MinValue and MaxValue to the min/max Y values your drawing tool uses if you want it to support auto scale</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">calcperf</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnCalculatePerformanceValue(StrategyBase</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">strategy)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">connection</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnConnectionStatusUpdate(ConnectionStatus</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderStatus,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ConnectionStatus</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">priceStatus)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">datapoint</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnDataPoint(Bars</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">bars,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">open,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">high,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">low,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">close,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">long</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">volume,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">isBar,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">bid,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ask)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">execution</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnExecutionUpdate(Execution</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">execution,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">executionId,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">price,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MarketPosition</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">marketPosition,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderId,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">fundamental</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnFundamentalData(FundamentalDataEventArgs</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">fundamentalDataUpdate)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">data</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMarketData(MarketDataEventArgs</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">marketDataUpdate)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">depth</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMarketDepth(MarketDepthEventArgs</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">marketDepthUpdate)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">mergeperf</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMergePerformanceMetric(PerformanceMetricBase</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">merge)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">moused</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMouseDown(ChartControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartControl,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartPanel,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartScale</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartScale,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartAnchor</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dataPoint)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">mousem</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMouseMove(ChartControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartControl,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartPanel,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartScale</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartScale,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartAnchor</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dataPoint)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">mouseu</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMouseUp(ChartControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartControl,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartPanel,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartScale</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartScale,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartAnchor</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dataPoint)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">optimize</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnOptimize()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ordert</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnOrderTrace(DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">timestamp,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">message)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">orderu</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnOrderUpdate(Order</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">limitPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">stopPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">filled,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">averageFillPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">OrderState</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderState,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ErrorCode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">error,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">nativeError)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">position</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnPositionUpdate(Position</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">position,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">averagePrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MarketPosition</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">marketPosition)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">render</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnRender(ChartControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartControl,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartScale</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartScale)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">windowc</p>
+</td>
+<td style="vertical-align:top; width:1041px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnWindowCreated(Window</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">window)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:84px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">windowd</p>
+</td>
+<td style="vertical-align:top; width:1041px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnWindowDestroyed(Window</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">window)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Control Statements</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:80px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">if</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExampleTypes">if</span><span class="f_CodeExample"> (expression)</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">{</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">}</span></p>
+<p class="p_CodeExampleTypes"><span class="f_CodeExampleTypes">else</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">{</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:80px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">&nbsp;<br />
+for</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExampleTypes">for</span><span class="f_CodeExample"> (</span><span class="f_CodeExampleTypes">int</span><span class="f_CodeExample"> index = 0; index &lt; count; index++)</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">{</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:80px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">&nbsp;<br />
+switch</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExampleTypes">switch</span><span class="f_CodeExample"> (expression)</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">{</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp;  </span><span class="f_CodeExampleTypes">case</span><span class="f_CodeExample"> value1:</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExampleTypes">break</span><span class="f_CodeExample">;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp;  </span><span class="f_CodeExampleTypes">case</span><span class="f_CodeExample"> value2:</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExampleTypes">break</span><span class="f_CodeExample">;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp;default:</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExampleTypes">break</span><span class="f_CodeExample">;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Drawing</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Shortcut</span></p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Method Signature</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dap</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.AndrewsPitchfork(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyAndrewsPitchfork&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">5</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">5</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">5</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DashStyleHelper.Solid,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">da</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Arc(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyDrawArc&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.LimeGreen,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DashStyleHelper.Dot,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dd</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.ArrowDown(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyArrowDown&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Red);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">du</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.ArrowUp(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyArrowUp&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Red);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ddi</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Diamond(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyDiamond&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dt</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Dot(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyDot&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">de</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Ellipse(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyEllipse&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">di</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.ExtendedLine(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyExtendedLine&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dfc</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.FibonacciCircle(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyFibonacciCircle&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dfe</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.FibonacciExtensions(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyFibonacciExtensions&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">15</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">15</span><span class="f_CodeExample">],</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">5</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">5</span><span class="f_CodeExample">]);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dfr</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.FibonacciRetracements(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyFibonacciRetracements&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dft</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.FibonacciTimeExtensions(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyFibonacciTimeExtensions&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dg</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.GannFan(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyGannFan&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">]);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dh</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.HorizontalLine(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyHorizontalLine&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dl</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Line(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyLine&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dy</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Ray(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyRay&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dr</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Rectangle(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyRectangle&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dre</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Region(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyRegion&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">CurrentBar,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Bollinger(</span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">14</span><span class="f_CodeExample">).Upper,</span><span class="f_CodeExample" style="color: #ffffff;"> </span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">Bollinger(</span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">14</span><span class="f_CodeExample">).Lower,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Green,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">50</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">drx</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.RegionHighlightX(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyRegionHighlightX&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dry</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.RegionHighlightY(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyRegionHighlightY&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Green,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">drr</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.RiskReward(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyRiskReward&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dru</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Ruler(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;tag1&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">4</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">4</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">]);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ds</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Square(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MySquare&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dx</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.Text(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyText&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Sample text &quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dxf</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.TextFixed(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyTextFixed&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Text to draw&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TextPosition.TopRight);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dtc</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.TrendChannel(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;TrendChannel&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">5</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dtd</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.TriangleDown(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyTriangleDown&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Red);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dtu</p>
+</td>
+<td style="vertical-align:top; width:652px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.TriangleUp(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyTriangleUp&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">-</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:71px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">dv</p>
+</td>
+<td style="vertical-align:top; width:652px; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">Draw.VerticalLine(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyVerticalLine&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue);</span></p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">&nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToInsertCodeSnippetsViaTheMouseOrF2Key_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToInsertCodeSnippetsViaTheMouseOrF2Key','HowToInsertCodeSnippetsViaTheMouseOrF2Key_ICON')">How&nbsp;to&nbsp;insert&nbsp;Code&nbsp;Snippets&nbsp;via&nbsp;the&nbsp;mouse&nbsp;or&nbsp;F2&nbsp;key</a></span></p>
+<div id="HowToInsertCodeSnippetsViaTheMouseOrF2Key" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Via mouse or pressing the F2 key</span></h2>
+<p class="p_Normal">1. Right mouse click in the <span style="font-size: 10pt;">NinjaScript</span> Editor and select the menu name &quot;<span class="f_Menu">Insert Code Snippet</span>&quot;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="NS_Editor_10" width="226" height="170" style="margin:0;width:226px;height:170px;border:none" src="ns_editor_10.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">2. A menu will display all available code snippets.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="NS_Editor_11" width="668" height="390" style="margin:0;width:668px;height:390px;border:none" src="ns_editor_11.png"/></p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('UnderstandingCodeSnippetShortcuts_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingCodeSnippetShortcuts\',\'UnderstandingCodeSnippetShortcuts_ICON\')');
+HMInitToggle('UnderstandingCodeSnippetShortcuts','hm.type','dropdown','hm.state','0');
+HMInitToggle('HowToUseCodeSnippetShortcutsViaTheKeyboard_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToUseCodeSnippetShortcutsViaTheKeyboard\',\'HowToUseCodeSnippetShortcutsViaTheKeyboard_ICON\')');
+HMInitToggle('HowToUseCodeSnippetShortcutsViaTheKeyboard','hm.type','dropdown','hm.state','0');
+HMInitToggle('HowToInsertCodeSnippetsViaTheMouseOrF2Key_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToInsertCodeSnippetsViaTheMouseOrF2Key\',\'HowToInsertCodeSnippetsViaTheMouseOrF2Key_ICON\')');
+HMInitToggle('HowToInsertCodeSnippetsViaTheMouseOrF2Key','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

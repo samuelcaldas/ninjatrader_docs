@@ -1,0 +1,443 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Common &gt; Charts &gt; ChartControl</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "chartcontrol.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">ChartControl</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?chartcontrol.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="language_reference_wip.htm">Language Reference</a> &gt; <a href="common.htm">Common</a> &gt; <a href="chart.htm">Charts</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">ChartControl</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="chartbars_toindex.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="chart.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="axisxheight.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Definition">The <span style="font-weight: bold;">ChartControl</span> class provides access to a wide range of properties and methods related to the location of objects on a chart and other chart-related properties. &nbsp;The ChartControl object provides information related to the entire hosting grid of the chart, which overlap with the <a href="chartpanel.htm" class="topiclink">ChartPanel</a>, <a href="chartscale.htm" class="topiclink">ChartScale</a> and <a href="chartbars.htm" class="topiclink">ChartBars</a>.</p>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Definition"><span style="font-weight: bold;">Note:  </span>The ChartControl object is <span style="font-weight: bold;">ONLY</span> guaranteed to be available when a NinjaScript type initiates from a Chart Window. &nbsp;There are situations where an indicator or strategy starts from another Windows (such as the Control Center's Strategies Grid, or from a Strategy Analyzer), where the <span style="font-weight: bold;">ChartContol</span> object is <span style="font-weight: bold;">NOT</span> accessible. &nbsp; Therefore, the <span style="font-weight: bold;">ChartControl</span> object should always be safely accessed (e.g., from within a try-catch, or conditionally using null reference checks)</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<p class="p_Normal"><img alt="ChartControl_1" width="639" height="525" style="margin:0;width:639px;height:525px;border:none" src="chartcontrol_1.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;The <span style="font-weight: bold;">ChartControl </span>and its methods and properties should <span style="font-weight: bold;">ONLY</span> be access once the <a href="state.htm" class="topiclink">State</a> has reached <span style="font-weight: bold;">State.Historical</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Methods and Properties</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="axisxheight.htm" class="topiclink">AxisXHeight</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Measures the distance (in pixels) between the x-axis and the top of the horizontal scroll bar</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="axisyleftwidth.htm" class="topiclink">AxisYLeftWidth</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Measures the distance (in pixels) between the y-axis and the left margin of a chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="axisyrightwidth.htm" class="topiclink">AxisYRightWidth</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Measures the distance (in pixels) between the y-axis and the right margin of a chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:17px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="barmarginleft.htm" class="topiclink">BarMarginLeft</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:17px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Measures the margin to the left of each bar on the chart, in pixels</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="chartcontrol_barsarray.htm" class="topiclink">BarsArray</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Provides a collection of <a href="chartbars.htm" class="topiclink">ChartBars</a> objects currently configured on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="barspacingtype.htm" class="topiclink">BarSpacingType</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Provides the type of bar spacing used for the primary <a href="bars.htm" class="topiclink">Bars</a> object on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="chartcontrol_barsperiod.htm" class="topiclink">BarsPeriod</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Provides the period (interval) used for the primary <a href="bars.htm" class="topiclink">Bars</a> object on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="chartcontrol_barwidth.htm" class="topiclink">BarWidth</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Measures the value of the bar width set for the primary Bars object on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="barwidtharray.htm" class="topiclink">BarWidthArray</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">An array containing the values of the <a href="chartcontrol_barwidth.htm" class="topiclink">BarWidth</a> properties of all Bars objects on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="canvasleft.htm" class="topiclink">CanvasLeft</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the x-coordinate (in pixels) of the beginning of the chart canvas area</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="canvasright.htm" class="topiclink">CanvasRight</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the x-coordinate (in pixels) of the end of the chart canvas area</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="canvaszoomstate.htm" class="topiclink">CanvasZoomState</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the current state of the Zoom tool on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="chartpanels.htm" class="topiclink">ChartPanels</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Holds a collection of <a href="chartpanel.htm" class="topiclink">ChartPanel</a> objects</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="crosshairtype.htm" class="topiclink">CrosshairType</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the <a href="cross_hair.htm" class="topiclink">Cross Hair</a> type currently enabled on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="firsttimepainted.htm" class="topiclink">FirstTimePainted</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates a time value of the first bar painted on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="getbarpaintwidth.htm" class="topiclink">GetBarPaintWidth()</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Returns the width of the bars in the primary Bars object on the chart, in pixels</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="getslotindexbytime.htm" class="topiclink">GetSlotIndexByTime()</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Returns the slot index of the primary <a href="bars.htm" class="topiclink">Bars</a> object on the chart corresponding to a specified time value</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="getslotindexbyx.htm" class="topiclink">GetSlotIndexByX()</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Returns the slot index of the primary <a href="bars.htm" class="topiclink">Bars</a> object on the chart corresponding to a specified x-coordinate on the visible chart canvas</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="gettimebyslotindex.htm" class="topiclink">GetTimeBySlotIndex()</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Returns a time value corresponding to a specified slot index of the primary <a href="bars.htm" class="topiclink">Bars</a> object on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="gettimebyx.htm" class="topiclink">GetTimeByX()</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Returns a time value related to the primary <a href="bars.htm" class="topiclink">Bars</a>' slot index at a specified x-coordinate on the chart canvas</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="getxbybarindex.htm" class="topiclink">GetXByBarIndex()</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Returns the chart-canvas x-coordinate of the bar at a specified index of a specified <a href="chartbars.htm" class="topiclink">ChartBars</a> object on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="getxbytime.htm" class="topiclink">GetXByTime()</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Returns the chart-canvas x-coordinate of the slot index of the primary <a href="bars.htm" class="topiclink">Bars</a> object corresponding to a specified time</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="chartcontrol_indicators.htm" class="topiclink">Indicators</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Returns a collection of indicators currently configured on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="isscrollarrowvisible.htm" class="topiclink">IsScrollArrowVisible</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the time-axis scroll arrow is visible in the top-right corner of the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="isstayindrawmode.htm" class="topiclink">IsStayInDrawMode</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the <a href="working_with_drawing_tools__ob.htm" class="topiclink">Stay in Draw Mode</a> is currently enabled on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="isyaxisdisplayedleft.htm" class="topiclink">IsYAxisDisplayedLeft</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the y-axis displays (in any chart panel) to the left side of the chart canvas</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="isyaxisdisplayedoverlay.htm" class="topiclink">IsYAxisDisplayedOverlay</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates an object on the chart is using the Overlay scale justification</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="isyaxisdisplayedright.htm" class="topiclink">IsYAxisDisplayedRight</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the y-axis displays (in any chart panel) to the right side of the chart canvas</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="lastslotpainted.htm" class="topiclink">LastSlotPainted</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the slot index of the most recently painted bar on the primary <a href="bars.htm" class="topiclink">Bars</a> object configured on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="lasttimepainted.htm" class="topiclink">LastTimePainted</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the time of the most recently painted bar on the primary <a href="bars.htm" class="topiclink">Bars</a> object configured on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="mousedownpoint.htm" class="topiclink">MouseDownPoint</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the x- and y-coordinates of the mouse cursor at the most recent OnMouseDown() event</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="chartcontrol_properties.htm" class="topiclink">Properties</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">A collection of properties related to the configuration of the Chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="slotspainted.htm" class="topiclink">SlotsPainted</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the number of index slots in which bars are painted within the chart canvas area</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="chartcontrol_strategies.htm" class="topiclink">Strategies</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">A collection of strategies configured on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:205px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal"><a href="timepainted.htm" class="topiclink">TimePainted</a></p>
+</td>
+<td style="vertical-align:top; width:997px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd; border-right:none;"><p class="p_Normal">Indicates the range of time in which bars are painted on the visible chart canvas</p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </body>
+  </html>

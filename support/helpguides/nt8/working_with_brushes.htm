@@ -1,0 +1,580 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Educational Resources &gt; Working with Brushes</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "working_with_brushes.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Working with Brushes</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?working_with_brushes.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="educational_resources.htm">Educational Resources</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Working with Brushes</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="using_sharpdx_for_custom_chart_rendering.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="educational_resources.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="working_with_chart_object_coordinates.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Definition">In order to achieve custom rendering for various chart related objects, a Brush is used to &quot;paint&quot; an area or another chart object. &nbsp;There are a number of different brushes which are available through the .NET Framework, where the most common type of brush is a <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.solidcolorbrush(v=vs.110).aspx" target="_blank" class="weblink">SolidColorBrush</a> which is used to paint an area with a single solid color. </p>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Definition"><span style="font-weight: bold;">Notes</span>: &nbsp;The following document is written in sequential fashion, starting with the most simple concepts, to the more advance topics. &nbsp;The majority of the brushes discussed in this document will be referred to as &quot;<span style="font-weight: bold;">WPF&quot; brushes</span> which exist in the System.Windows.Media namespace, however there are also <span style="font-weight: bold;">&quot;SharpDX&quot; brushes</span> which exist in the 3rd party SharpDX.Direct2D1 namespace used for advanced chart rendering. &nbsp;Advanced brush types should <span style="font-weight: bold;">ONLY</span> be used by experienced programmers familiar with .NET graphics functionality.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<p class="p_ToggleHeading"><img id="Understandingpredefinedbrushes_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','Understandingpredefinedbrushes','Understandingpredefinedbrushes_ICON')">Understanding&nbsp;predefined&nbsp;brushes</a></span></p>
+<div id="Understandingpredefinedbrushes" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Using Predefined Brushes</span></h2>
+<p class="p_Normal">For convenience, the .NET Framework supplies a collection of static predefined Brushes, such as Red or Green. &nbsp;The advantage to using these brushes is that they are readily available, properly named to quickly find a simple color value, and can be reused on-the-fly without having to recreate an instance of the brush at run time, and do not need to be otherwise managed. &nbsp;There are 256 predefined named brushes which are available in the Brushes class. &nbsp;You can browse this list in the NinjaScript editor just by typing <span class="f_CodeExample">Brushes. </span>and using Intelliprompt to find the desired named brush of your choice. </p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp; Since predefined brushes are static, properties of the brush object (such as Color, Opacity, etc.) <span style="font-weight: bold;">CANNOT</span> be modified. &nbsp;However, this also means predefined brushes are thread-safe and do <span style="font-weight: bold;">NOT</span> need to be frozen. &nbsp;For customizing and freezing a brush, please see the section below on <span style="font-style: italic;">Creating a Custom Solid Color Brush</span>.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Brushes" width="588" height="306" style="margin:0;width:588px;height:306px;border:none" src="brushes.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;You can also find a list of these predefined brushes as well as their hexadecimal value on the MSDN article for the <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.brushes(v=vs.110).aspx" target="_blank" class="weblink">Brushes Class</a></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><span class="f_NSexamplesheading">&nbsp;</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" colspan="2"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// set the chart's background color to a predefined &quot;Blue&quot; brush</span><br />
+<span class="f_CodeExample">BackBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">//draw a line using a predefined &quot;LimeGreen&quot; brush.</span><br />
+<span class="f_CodeExample">Draw.Line(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;tag1&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1000</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1001</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.LimeGreen,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DashStyleHelper.Dot,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="Understandingcustombrushes_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','Understandingcustombrushes','Understandingcustombrushes_ICON')">Understanding&nbsp;custom&nbsp;brushes</a></span></p>
+<div id="Understandingcustombrushes" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Creating a Custom Solid Color Brush</span></h2>
+<p class="p_Normal">In cases where you would like more specific color than one of the predefined brushes, you can optionally create your own <span style="font-weight: bold;">Brush</span> object to be used for custom rendering. &nbsp;In order to achieve this, you will need to initiate your own custom brush object, where you can then specify your color using RGB (red, green, blue) values <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.color.fromrgb(v=vs.110).aspx" target="_blank" class="weblink">Color.FromRgb()</a>. </p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: &nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Anytime you create a custom brush that will be used by NinjaTrader rendering it must be frozen using the .<a href="https://msdn.microsoft.com/en-us/library/ms557735(v=vs.110).aspx" target="_blank" class="weblink">Freeze()</a> &nbsp;method due to the multi-threaded nature of NinjaTrader. </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>You may have up to 65535 unique Brush instances, therefore, using static predefined brushes (as in the section above) should be favored. &nbsp;Alternatively, &nbsp;in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.</p></td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><span class="f_NSexamplesheading">&nbsp;</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" colspan="2"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// initiate new solid color brush with custom blue color</span><br />
+<span class="f_CodeExample">Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SolidColorBrush(Color.FromRgb(</span><span class="f_CodeExample" style="color: #ff6600;">56</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">120</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">153</span><span class="f_CodeExample">));</span><br />
+<span class="f_CodeExample">myBrush.Freeze();</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;">&nbsp;</span><br />
+<span class="f_CodeExample">Draw.Line(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;tag1&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1000</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1001</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DashStyleHelper.Dot,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;If you do not call .<a href="https://msdn.microsoft.com/en-us/library/ms557735(v=vs.110).aspx" target="_blank" class="weblink">Freeze()</a> on a custom defined brush <span style="font-weight: bold;">WILL </span>eventually result in threading errors should you try to modify or access that brush after it is defined. &nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Creating a Transparent Solid Color Brush</span></h2>
+<h2 class="p_Heading2">You can create a transparent brush using the <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.color.fromargb(v=vs.110).aspx" target="_blank" class="weblink">Color.FromArgb()</a> where the A parameter defines alpha transparency. </h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp; Anytime you create a custom brush that will be used by NinjaTrader rendering it must be frozen using the .<a href="https://msdn.microsoft.com/en-us/library/ms557735(v=vs.110).aspx" target="_blank" class="weblink">Freeze()</a> &nbsp;method due to the multi-threaded nature of NinjaTrader. </p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><span class="f_NSexamplesheading">&nbsp;</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" colspan="2"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// initiate new solid color brush which has an alpha (transparency) value of 100</span><br />
+<span class="f_CodeExample">myBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SolidColorBrush(Color.FromArgb(</span><span class="f_CodeExample" style="color: #ff6600;">100</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">56</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">120</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">153</span><span class="f_CodeExample">));</span><br />
+<span class="f_CodeExample">myBrush.Freeze();</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;">&nbsp;</span><br />
+<span class="f_CodeExample">Draw.Line(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;tag1&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1000</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1001</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DashStyleHelper.Dot,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;If you do not call .<a href="https://msdn.microsoft.com/en-us/library/ms557735(v=vs.110).aspx" target="_blank" class="weblink">Freeze()</a> on a custom defined brush <span style="font-weight: bold;">WILL </span>eventually result in threading errors should you try to modify or access that brush after it is defined. &nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="Userdefinedbrushes_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','Userdefinedbrushes','Userdefinedbrushes_ICON')">Using&nbsp;brushes&nbsp;defined&nbsp;on&nbsp;the&nbsp;user&nbsp;interface</a></span></p>
+<div id="Userdefinedbrushes" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Saving a Brush as a user defined property (Serialization)</span></h2>
+<p class="p_Normal">If you would like a brush to become a public UI property, meaning the brush can be set up and defined by a user during configuration, it is important to be able to save the user's brush selection in order to restore that brush either from a workspace or from a template file at a later time. &nbsp;Saving a custom defined user input is done through a concept of <a href="https://msdn.microsoft.com/en-us/library/ms233843.aspx" target="_blank" class="weblink">Serialization</a> which writes the object and its value to a .xml file. &nbsp;This process normally works fine for a simple user defined value type (such as a <span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span>or an<span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int)</span> but for more complex types such as Brushes, the object itself cannot be serialized directly to the .xml file and will result in errors upon saving the indicator or strategy to a workspace or template file. &nbsp;The example below will demonstrate and explain how to properly store a user define brush input which will be correctly serialized. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In order to achieve the desired behavior of saving the user defined brush input, we will add the <a href="https://msdn.microsoft.com/en-us/library/system.xml.serialization.xmlignoreattribute(v=vs.110).aspx" target="_blank" class="weblink">XmlIgnore</a> property attribute to the public brush resource, which essentially tells the serialization routine to ignore this property. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">[XmlIgnore]</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">get;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">set;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In its place, we create a new public string called &quot;MyBrushSerialize&quot; which will convert the public &quot;MyBrush&quot; to a string type which can then be processed by the serialization routines. &nbsp;We also add the <a href="https://msdn.microsoft.com/en-us/library/system.componentmodel.browsableattribute(v=vs.110).aspx" target="_blank" class="weblink">Browsable(false)</a> attribute to this public string to prevent this property from showing up on the UI, which is of no value to the end user.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" style="height:49px;"><p class="p_CodeExample"><span class="f_CodeExample">[Browsable(</span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">)]</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyBrushSerialize</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExampleTypes">get</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Serialize.BrushToString(MyBrush);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExampleTypes">set</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Serialize.StringToBrush(value);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_CodeExample"><span style="font-weight: bold;">Tip</span>: For a complete example of <span style="font-weight: bold;">User Definable Color Inputs</span>, please see the reference sample <a href="user_definable_color_inputs.htm" class="topiclink">here</a>.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Adding a User Defined Brush to the Color Picker</span></h2>
+<p class="p_Normal">You can optionally define a custom brush to be added to the standard color picker by using a [CustomBrush] attribute to a public brush. &nbsp;The CustomBrush attribute will then add it to the color picker menu for that indicator when you look through the plots, lines, or other brushes from the indicators configured menu and will be listed toward the top of the list (as pictured below)</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">[CustomBrush]</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyBrush</span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExampleTypes">get</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SolidColorBrush(Color.FromRgb(</span><span class="f_CodeExample" style="color: #ff6600;">25</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">175</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">185</span><span class="f_CodeExample">));</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExampleTypes">set</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_Normal"><img alt="custom_brush" width="661" height="447" style="margin:0;width:661px;height:447px;border:none" src="custom_brush.png"/></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="AdvancedBrushTypesSharpDX_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','AdvancedBrushTypesSharpDX','AdvancedBrushTypesSharpDX_ICON')">Using&nbsp;advanced&nbsp;brush&nbsp;types&nbsp;(SharpDX)</a></span></p>
+<div id="AdvancedBrushTypesSharpDX" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Understanding SharpDX Brushes</span></h2>
+<p class="p_Normal">While the majority of the NinjaTrader platform's UI is <span style="font-weight: bold;">WPF</span>, under the hood, chart's use a <span style="font-weight: bold;">DirectX API</span> for faster performance. &nbsp;To render custom objects to a chart during <a href="onrender.htm" class="topiclink">OnRender()</a>, a particular <span style="font-weight: bold;">SharpDX</span> <span style="font-weight: bold;">Brush</span> object must be implemented which reside in the <span style="font-weight: bold;">SharpDX.Direct2D1</span> namespace. &nbsp; These brushes can then be passed as arguments to the <span style="font-weight: bold;">SharpDX</span> <a href="rendertarget.htm" class="topiclink">RenderTarget</a> methods such <a href="fillrectangle.htm" class="topiclink">FillRectangle()</a>, <a href="drawline2.htm" class="topiclink">DrawLine()</a>, etc. &nbsp;While <span style="font-weight: bold;">SharpDX Brushes</span> behave much the same as previously discussed <span style="font-weight: bold;">WPF</span> <span style="font-weight: bold;">Brushes</span>, there are a few special considerations you must take as detailed in the following sections.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;The <span style="font-weight: bold;">SharpDX Brushes</span> used in <a href="rendertarget.htm" class="topiclink">RenderTarget</a> methods should <span style="font-weight: bold;">NOT</span> be confused with the <span style="font-weight: bold;">WPF Brushes</span> used with <a href="drawing.htm" class="topiclink">DrawingTool Draw</a> methods.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Creating a SharpDX Brush</span></h2>
+<p class="p_Normal">A <a href="sharpdx_direct2d1_brush.htm" class="topiclink">SharpDX Brush</a> must be created either in <span style="font-weight: bold;">OnRender()</span> or <span style="font-weight: bold;">RenderTargetChanged()</span>. &nbsp;If you have custom brushes which may be changed on various conditions such as in OnBarUpdate() or by a user during OnStateChange(), or you are pre-computing a custom brush for performance optimization, you will need to ensure the actual SharpDX instance is updated in OnRender() or RenderTargetChange().</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Each DirectX render target requires its own brushes. You <span style="font-weight: bold;">MUST</span> create brushes directly in <span style="font-weight: bold;">OnRender()</span> or using <span style="font-weight: bold;">OnRenderTargetChanged()</span>. &nbsp;If you do not you will receive an error at runtime similar to: <br />
+&nbsp;<br />
+<span class="f_ExampleText" style="font-style: italic;">&quot;A direct X error has occured while rendering the chart: HRESULT: [0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR_WRONG_RESOURCE_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Please see <a href="onrendertargetchanged.htm" class="topiclink">OnRenderTargetChanged()</a> for examples of a brush that needs to be recalculated, or <a href="onrender.htm" class="topiclink">OnRender()</a> for an example of recreating a static brush.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// use predefined &quot;Blue&quot; SharpDX Color</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">solidBlueDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.Blue);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// create custom Brush using a &quot;Red&quot; SharpDX Color with &quot;Alpha&quot; (0.100f) transparency/opacity</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">transparentRedDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget, </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color4(</span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color3(</span><span class="f_CodeExample" style="color: #ff6600;">220f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0f</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0.100f</span><span class="f_CodeExample">));</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Converting to SharpDX Brush</span></h2>
+<p class="p_Normal">For convenience, you can convert a computed WPF Brush to a <a href="sharpdx_direct2d1_brush.htm" class="topiclink">SharpDX Brush</a> using the <a href="dxextensions_todxbrush.htm" class="topiclink">ToDxBrush(</a>) extension method.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Converting <span style="font-weight: bold;">ToDxBrush()</span> can result in performance issues depending on the number of brushes being used. If you experience performance issues with your custom <span style="font-weight: bold;">SharpDX</span> rendering, you should favor using <span style="font-weight: bold;">SharpDX</span> brushes directly instead of converting the brush using <span style="font-weight: bold;">ToDxBrush().</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" style="height:20px;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// convert predefined WPF &quot;Blue&quot; to SharpDX Brush</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">blueDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue.ToDxBrush(RenderTarget);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// convert the computed WPF Brush to SharpDX Brush</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customWPFBrush.ToDxBrush(RenderTarget);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Disposing DXBrush</span></h2>
+<p class="p_Normal">Since <span style="font-weight: bold;">SharpDX Brushes</span> reference unmanaged resources, these brushes should always be <a href="sharpdx_disposebase.htm" class="topiclink">disposed</a> of after they have been used.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Failing to dispose of a  <a href="sharpdx_direct2d1_brush.htm" class="topiclink">SharpDX Brush</a> and other unmanaged resources can cause the platform to utilize more memory than necessary. &nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" style="height:20px;"><p class="p_Normal"><span class="f_CodeExample">customDXBrush.Dipose();</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Using Complex Brushes</span></h2>
+<p class="p_Normal">In addition to the <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.solidcolorbrush(v=vs.110).aspx" target="_blank" class="weblink">SolidColorBrush</a> object demonstrated on this page, the .NET Framework provides more complex brushes which have more attributes than just filling an area with a solid color. &nbsp;Information on these special types of brushes can be found on the MSDN website:  <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.lineargradientbrush(v=vs.110).aspx" target="_blank" class="weblink">LinearGradientBrush</a>, <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.radialgradientbrush(v=vs.110).aspx" target="_blank" class="weblink">RadialGradientBrush</a>, <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.imagebrush(v=vs.110).aspx" target="_blank" class="weblink">ImageBrush</a>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">These complex types also have an equivalent found in the<span style="font-weight: bold;"> SharpDX SDK Reference</span>:  <a href="sharpdx_direct2d1_lineargradientbrush.htm" class="topiclink">SharpDX.Direct2D1.LinearGradientBrush</a>, <a href="sharpdx_direct2d1_radialgradientbrush.htm" class="topiclink">SharpDX.Direct2D1.RadialGradientBrush</a></p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('Understandingpredefinedbrushes_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Understandingpredefinedbrushes\',\'Understandingpredefinedbrushes_ICON\')');
+HMInitToggle('Understandingpredefinedbrushes','hm.type','dropdown','hm.state','0');
+HMInitToggle('Understandingcustombrushes_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Understandingcustombrushes\',\'Understandingcustombrushes_ICON\')');
+HMInitToggle('Understandingcustombrushes','hm.type','dropdown','hm.state','0');
+HMInitToggle('Userdefinedbrushes_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Userdefinedbrushes\',\'Userdefinedbrushes_ICON\')');
+HMInitToggle('Userdefinedbrushes','hm.type','dropdown','hm.state','0');
+HMInitToggle('AdvancedBrushTypesSharpDX_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AdvancedBrushTypesSharpDX\',\'AdvancedBrushTypesSharpDX_ICON\')');
+HMInitToggle('AdvancedBrushTypesSharpDX','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

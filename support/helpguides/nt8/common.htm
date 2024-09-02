@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Common</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "common.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Common</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?common.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="language_reference_wip.htm">Language Reference</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Common</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="alphabetical_reference.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="language_reference_wip.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="adddataseries.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">The following section documents methods and properties available to every NinjaScript type that access various forms of data including bar data, price data, and statistical forms of data. The Common section is broken into several categories pertaining to distinct NinjaScript objects or concepts. An index of topics under the Common section can be found below:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="attributes.htm" class="topiclink">Attributes</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Documents both .NET native and NinjaScript custom <a href="https://msdn.microsoft.com/en-us/library/5x6cd29c(v=vs.110).aspx" target="_blank" class="weblink">attributes</a> which are commonly used to define the behavior of a NinjaScript property or object</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="alert__debugging_and_sharing.htm" class="topiclink">Alert, Debug, Share</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Documents methods for triggering alerts, printing debug messages, and using Share Services</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="market_data.htm" class="topiclink">Analytical</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Documents methods and properties useful for analyzing and identifying specific conditions within <a href="seriest.htm" class="topiclink">Series&lt;T&gt;</a> collections</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="bars.htm" class="topiclink">Bars</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><h2 class="p_Heading2">Represents the data returned from the historical data repository</h2>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="chart.htm" class="topiclink">Charts</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Covers information related to accessing chart related data</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="drawing.htm" class="topiclink">Drawing</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Documents the drawing of custom shapes, lines, text and colors on your price and indicator panels from both <a href="indicator.htm" class="topiclink">Indicators</a> and <a href="strategy.htm" class="topiclink">Strategies</a></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="instrument.htm" class="topiclink">Instrument</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Represents an instance of a <a href="masterinstrument.htm" class="topiclink">Master Instrument</a></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="iseriest.htm" class="topiclink">ISeries&lt;T&gt;</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Documents the interface that is implemented by all NinjaScript classes that manage historical data as an <span class="f_CodeExample">ISeries&lt;</span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample">&gt;</span> used for indicator input, and other object data</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onbarupdate.htm" class="topiclink">OnBarUpdate()</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><h2 class="p_Heading2">An event driven method which is called whenever a bar is updated</h2>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onfundamentaldata.htm" class="topiclink">OnFundamentalData()</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><h2 class="p_Heading2">An event driven method which is called for every change in fundamental data</h2>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onmarketdepth.htm" class="topiclink">OnMarketDepth()</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><h2 class="p_Heading2">An event driven method which is called and guaranteed to be in the correct sequence for every change in level two market data</h2>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="onstatechange.htm" class="topiclink">OnStateChange()</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><h2 class="p_Heading2">An event driven method which is called whenever the script enters a new <a href="state.htm" class="topiclink">State</a></h2>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sessioniterator.htm" class="topiclink">SessionIterator</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An interface which allows you to traverse through various trading hours data elements which apply to a segment of bars</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="indicators.htm" class="topiclink">System Indicator Methods</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Documents syntax and return values for system indicator methods</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="tradinghours.htm" class="topiclink">TradingHours</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><h2 class="p_Heading2">Represents the Trading Hours information returned from the current bars series</h2>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="name.htm" class="topiclink">Name</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines the listed name of the NinjaScript object</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="isvisible.htm" class="topiclink">IsVisible</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines if the current NinjaScript object should be visible on the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="indicator_displayname.htm" class="topiclink">DisplayName</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><h2 class="p_Heading2">Determines the text display on the chart panel</h2>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="description.htm" class="topiclink">Description</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Text which is used on the UI's information box to be display to a user when configuration a NinjaScript object</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="clone.htm" class="topiclink">Clone()</a></p>
+</td>
+<td style="vertical-align:top; width:991px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Used to override the default NinjaScript Clone() method which is called any time an instance of a NinjaScript object is created</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:211px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="triggercustomevent.htm" class="topiclink">TriggerCustomEvent()</a></p>
+</td>
+<td style="vertical-align:top; width:991px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Provides a way to use your own custom events (such as a Timer object) so that internal NinjaScript indexes and pointers are correctly set prior to processing user code triggered by your custom event</p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </body>
+  </html>

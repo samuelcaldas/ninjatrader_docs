@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Indicator &gt; AddPlot()</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="AddPlot()" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "addplot.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">AddPlot()</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?addplot.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="language_reference_wip.htm">Language Reference</a> &gt; <a href="indicator.htm">Indicator</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">AddPlot()</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="lines.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="indicator.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="areplotsconfigurable.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
+<p class="p_Normal">Adds plot objects that define how an indicator or strategy data series render on a chart. When this method is called to add a plot, an associated <a href="seriest.htm" class="topiclink">Series&lt;double&gt;</a> object is created held in the <a href="value.htm" class="topiclink">Values</a> collection.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span class="f_Comment" style="font-weight: bold;">Note:</span><span class="f_Comment"> &nbsp;Plots are </span><span class="f_Comment" style="font-weight: bold;">ONLY</span><span class="f_Comment"> visible from the UI property grid when AddPlot() is called from </span><span class="f_Comment" style="font-weight: bold;">State.SetDefaults</span><span class="f_Comment">. If your indicator or strategy dynamically adds plots during </span><span class="f_Comment" style="font-weight: bold;">State.Configure</span><span class="f_Comment">, you will </span><span class="f_Comment" style="font-weight: bold;">NOT</span><span class="f_Comment"> have an opportunity to select the plot or to set the plot configuration via the UI.</span> &nbsp;Alternatively, you may use custom public <a href="brushes.htm" class="topiclink">Brush</a>, <a href="stroke_class.htm" class="topiclink">Stroke</a>, or <span style="font-weight: bold;">PlotStyle</span> properties which are accessible in <span style="font-weight: bold;">State.SetDefaults</span> and pass those values to AddPlot() during<span style="font-weight: bold;"> State.Configure</span>. &nbsp;Calling AddPlot() in this manner should be reserved for special cases. &nbsp;Please see the examples below.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Methods and Properties</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="areplotsconfigurable.htm" class="topiclink">ArePlotsConfigurable</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the plot(s) used in an indicator are configurable within the indicator dialog window.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="displacement.htm" class="topiclink">Displacement</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">An offset value that shifts the visually displayed value of an indicator.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="plotbrushes.htm" class="topiclink">PlotBrushes</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Holds an array of color series objects holding historical bar colors.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="plots.htm" class="topiclink">Plots</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">A collection holding all of the Plot objects that define their visualization characteristics.</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
+<p class="p_CodeExample"><span class="f_CodeExample">AddPlot(Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">brush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">name)</span><br />
+<span class="f_CodeExample">AddPlot(Stroke</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">stroke,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PlotStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">plotStyle,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">name)</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: This method should <span style="font-weight: bold;">ONLY </span>be called within the <a href="onstatechange.htm" class="topiclink">OnStateChange()</a> method during <span style="font-weight: bold;">State.SetDefaults</span> or <span style="font-weight: bold;">State.Configure</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">brush</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">Brush</span> object used to construct the plot</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">name</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">string</span> representing the name of the plot</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">plotStyle</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A PlotStyle object used to construct the style of the plot</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Possible values:<br />
+&nbsp;<br />
+<span class="f_CodeExample">PlotStyle.Bar</span><br />
+<span class="f_CodeExample">PlotStyle.Block</span><br />
+<span class="f_CodeExample">PlotStyle.Cross</span><br />
+<span class="f_CodeExample">PlotStyle.Dot</span><br />
+<span class="f_CodeExample">PlotStyle.Hash</span><br />
+<span class="f_CodeExample">PlotStyle.HLine</span><br />
+<span class="f_CodeExample">PlotStyle.Line</span></p>
+<p class="p_Normal"><span class="f_CodeExample">PlotStyle.PriceBox</span><br />
+<span class="f_CodeExample">PlotStyle.Square</span><br />
+<span class="f_CodeExample">PlotStyle.TriangleDown</span><br />
+<span class="f_CodeExample">PlotStyle.TriangleLeft</span><br />
+<span class="f_CodeExample">PlotStyle.TriangleRight</span><br />
+<span class="f_CodeExample">PlotStyle.TriangleUp</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">stroke</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExample" style="color: #388195;">Stroke</span> object used to construct the plot</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" style="width:75%; background-color:#f3f9f4; border:solid thin #008000; border-spacing:0;">
+<tr class="Tip">
+<td class="Tip" style="border:none"><p class="p_Normal"><span style="font-weight: bold;">Tips:</span></p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>We suggest using the NinjaScript wizard to generate your plots.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span><a href="plots.htm" class="topiclink">Plot</a> objects <span style="font-weight: bold;">DO NOT</span> hold the actual script values. They simply define how the script's values are plotted on a chart.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>A script may calculate multiple values and therefore hold multiple plots to determine the display of each calculated value. Script values are held in the script's <a href="value.htm" class="topiclink">Values</a> collection.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>If you script calls AddPlot() multiple times, then multiple Values series are added per the &quot;three value series&quot; example below</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>For <a href="multi-time_frame__instruments.htm" class="topiclink">MultiSeries scripts</a>, plots are synched to the primary series of the NinjaScript object.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">6.</span>Plots will become visible once the script’s <a href="barsrequiredtoplot.htm" class="topiclink">BarsRequiredToPlot</a> value has been satisfied. By default, the value is 20.</p></td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Indicator using various AddPlot() signatures</span></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Examples Indicator&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Adds a blue line style plot</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyPlot&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Adds a blue historgram style plot</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(</span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Stroke(Brushes.Blue),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PlotStyle.Bar,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyPlot2&quot;</span><span class="f_CodeExample">);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Ensures that the width of the PlotStyle.Bar plot matches the width of the data series</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Plots[1].AutoWidth = true;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;"> &nbsp; &nbsp; &nbsp;// Adds a blue Dash-Line style plot with 5pixel width and 50% opacity</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(</span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Stroke(Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DashStyleHelper.Dash,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">5</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">50</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PlotStyle.Line,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyPlot3&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Indicator using a public Series&lt;double&gt; to expose a plot with a friendly name. This is required for making plots accessible in the Strategy Builder</span></h2>
+<h2 class="p_Heading2"><span class="f_NSexamplesheading">For an example on exposing other variables publicly, see </span><a href="exposing_indicator_values_that.htm" class="topiclink">Exposing Indicator values that are not plots</a></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Examples Indicator&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Adds a blue line style plot</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyPlot&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Adds a blue historgram style plot</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(</span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Stroke(Brushes.Blue),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PlotStyle.Bar,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyPlot2&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample"> OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample">  &nbsp;MyPlot[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">= Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">​;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; MyPlot[</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">= Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">​;</span><br />
+<span class="f_CodeExample">}</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">[Browsable(</span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">)]</span><br />
+<span class="f_CodeExample">[XmlIgnore]</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Series&lt;</span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyPlot</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample"> &nbsp; get</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Values[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">];</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">[Browsable(</span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">)]</span><br />
+<span class="f_CodeExample">[XmlIgnore]</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Series&lt;</span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyPlot2</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample"> &nbsp; get</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Values[</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">];</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Indicator which adds three value series</span></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Examples Indicator&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Add three plots and associated Series&lt;double&gt; objects</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;PlotA&quot;</span><span class="f_CodeExample">);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Defines the plot for Values[0]</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(Brushes.Red,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;PlotB&quot;</span><span class="f_CodeExample">);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Defines the plot for Values[1]</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(Brushes.Green,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;PlotC&quot;</span><span class="f_CodeExample">);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Defines the plot for Values[2]</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Values[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">][</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Median[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">];</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Blue &quot;Plot A&quot;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Values[</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">][</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">];</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Red &quot;Plot B&quot;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Values[</span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">][</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">];</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Green &quot;Plot C&quot;</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Indicator which dynamically adds a plot in State.Configure</span></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Examples Indicator&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// logical property which user can set</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">UseSpecialMode</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Default brush selection pushed to the UI</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">MyBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Red;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">else</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Configure)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// if user enables logical property</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(UseSpecialMode)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// add plot using default selected brush and special plot name</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">AddPlot(MyBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;My Special Plot&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">else</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// otherwise use default selected brush and regular plot name</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">AddPlot(MyBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;My Regular Plot&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(UseSpecialMode)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Value[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample">/</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">else</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Value[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">[XmlIgnore]</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">get;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">set;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">UseSpecialMode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">get;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">set;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </body>
+  </html>

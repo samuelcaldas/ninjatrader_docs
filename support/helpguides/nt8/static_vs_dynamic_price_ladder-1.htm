@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Order Entry &gt; SuperDOM &gt; Static vs Dynamic Price Ladder Display</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "static_vs_dynamic_price_ladder.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Static vs Dynamic Price Ladder Display</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-288.htm?static_vs_dynamic_price_ladder.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations-1.htm">Operations</a> &gt; <a href="order_entry-1.htm">Order Entry</a> &gt; <a href="superdom-1.htm">SuperDOM</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Static vs Dynamic Price Ladder Display</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="price_ladder_display-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="superdom-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="order_display-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Video">
+<tr class="Video">
+<td class="Video"><h2 class="p_Heading2"><img id="playVideoImg" alt="playVideo" width="150" height="30" style="margin:0;width:150px;height:30px;border:none" src="playvideo.jpg"></h2>
+</td>
+</tr>
+<tr class="Video">
+<td class="Video"><div class="p_Heading2"><div style="margin:0;width:640px;height:auto"><div style="position:relative;overflow:hidden;width:640px;height:390px;padding:0;cursor:pointer;text-align:center;background:#000" onclick="javascript:this.innerHTML='&lt;iframe width=&quot;640&quot; height=&quot;390&quot; style=&quot;top:0;left:0;width:100%;height:100%;position:absolute&quot; src=&quot;https://www.youtube.com/embed/pw33DeFbezw?showinfo=0&amp;autoplay=1&amp;controls=0&amp;rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';this.onclick=null"><img src="cicon_video_playbutton-1.png" style="position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;max-width:102px;max-height:104px;border:none"></div></div></div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">You may have the option of using either a static (original SuperDOM) or dynamic price ladder display depending on your FCM or broker. The difference between these options is how the inside market is displayed in the Price Ladder.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="UnderstandingTheStaticPriceLadderDisplay_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheStaticPriceLadderDisplay','UnderstandingTheStaticPriceLadderDisplay_ICON')">Understanding&nbsp;the&nbsp;Static&nbsp;Price&nbsp;Ladder&nbsp;display</a></span></p>
+<div id="UnderstandingTheStaticPriceLadderDisplay" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Static</span></h2>
+<p class="p_Normal">The inside market (ask/bid and last price) climb up and down the Price Ladder in response to a change in market price.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The price rows are static (do not change).</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheDynamicPriceLadderDisplay_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheDynamicPriceLadderDisplay','UnderstandingTheDynamicPriceLadderDisplay_ICON')">Understanding&nbsp;the&nbsp;Dynamic&nbsp;Price&nbsp;Ladder&nbsp;display</a></span></p>
+<div id="UnderstandingTheDynamicPriceLadderDisplay" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="width:50%; background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Dynamic</span></h2>
+<p class="p_Normal">The inside market (ask/bid and last price) is in a fixed location in the Price Ladder display.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The price rows are dynamic in that each row's price changes in response to a change in market price.</p>
+</td>
+</tr>
+<tr class="Toggle">
+<td class="Toggle" style="vertical-align:middle;"><h2 class="p_Heading2"><span class="f_Heading2">Suspending the Dynamic Price Ladder</span></h2>
+<p class="p_Normal">To assist with submitting and modifying orders in the Dynamic Price Ladder display during volatile market activity you can choose to suspend (freeze) the Price Ladder display simply by moving your mouse cursor over the <span style="font-weight: bold;">Price Ladder</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Once suspended, the ladder will highlight red in color and you can now safely submit or modify an order without the price of the underlying row changing. In addition, the inside market will be displayed in the top row of the SuperDOM while the price ladder is frozen.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In the image below, we can easily tell that the <span style="font-weight: bold;">Price Ladder</span> has been has been suspended as the ladder has been highlighted in red. &nbsp;We can also identify the following information displayed in the top row:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Best bid</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Net change (last traded price) from the time the display was suspended</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Best ask</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="SuperDOM_14" width="368" height="530" style="margin:0;width:368px;height:530px;border:none" src="superdom_14.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The <span style="font-weight: bold;">Price Ladder</span> will remain suspended until you remove your cursor from the price ladder display, at which point all rows will begin updating dynamically once again.</p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('UnderstandingTheStaticPriceLadderDisplay_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheStaticPriceLadderDisplay\',\'UnderstandingTheStaticPriceLadderDisplay_ICON\')');
+HMInitToggle('UnderstandingTheStaticPriceLadderDisplay','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingTheDynamicPriceLadderDisplay_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheDynamicPriceLadderDisplay\',\'UnderstandingTheDynamicPriceLadderDisplay_ICON\')');
+HMInitToggle('UnderstandingTheDynamicPriceLadderDisplay','hm.type','dropdown','hm.state','0');
+</script>
+</div></body>
+  </html>

@@ -1,0 +1,456 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Editor &gt; Output</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "output.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Output Window</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-395.htm?output.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript-1.htm">NinjaScript</a> &gt; <a href="editor-1.htm">Editor</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Output Window</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="intelliprompt-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="editor-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="visual_studio_debugging-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">The <span style="font-size: 10pt;">NinjaScript</span> Output is a powerful debugging tool which can be used to further analyze valuable information generated by your NinjaScript files. &nbsp;The <span style="font-weight: bold;">Output</span> window will only display data when other debugging methods such as the <a href="print-1.htm" class="topiclink">Print()</a> or <a href="traceorders-1.htm" class="topiclink">TraceOrders</a> (for strategies) have been configured in a custom script.</p>
+<p class="p_Normal">&nbsp;<br>
+You can open the NinjaScript Output window by going to the New menu, and selecting <span class="f_Menu">NinjaScript Output</span></p>
+<p class="p_ToggleHeading"><img id="UnderstandingTheOutputWindowDisplay_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheOutputWindowDisplay','UnderstandingTheOutputWindowDisplay_ICON')">Understanding&nbsp;the&nbsp;Output&nbsp;window&nbsp;display</a></span></p>
+<div id="UnderstandingTheOutputWindowDisplay" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Display Overview</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:122px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">1. Output table</p>
+</td>
+<td style="vertical-align:top; width:647px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The main component of the Output window, will display any Print or Information message sent from a script</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:122px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">2. Scrollbar</p>
+</td>
+<td style="vertical-align:top; width:647px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Used to navigate up/down on the output window</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:122px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">3. Output tabs</p>
+</td>
+<td style="vertical-align:top; width:647px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Two tabs available allowing you to separate the Print information for separate scripts.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:122px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">4. Line highlight</p>
+</td>
+<td style="vertical-align:top; width:647px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Left clicking on a line will highlight a particular point of interest and will remain highlighted as the Output window updates or is scrolled up and down</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Output_1" width="630" height="544" style="margin:0;width:630px;height:544px;border:none" src="output_1.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Right click menu</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Clear</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Clears the current content of the select Output window tab</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Find...</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Searches for a term in the Output window</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Save As...</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Saves the current content of the Output window in a text file</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Always On Top</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the window to always be on top of other windows</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Dual View</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables/Disables the splitting of the Output tabs between the window allowing you to view both tabs at simultaneously </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Synchronize Vertical Scrolling</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When enabled, both tabs will scroll up/down at the same time and pace</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-size: 10pt;">NinjaScript </span>Utilization Monitor</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opens the <span style="font-size: 10pt;">NinjaScript </span>Utilization Monitor window</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Print</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Displays options for printing the current window content to your printer</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Share</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Displays the Share options</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Properties</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the Output window properties</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheDualTabView_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheDualTabView','UnderstandingTheDualTabView_ICON')">Understanding&nbsp;the&nbsp;dual&nbsp;tab&nbsp;view</a></span></p>
+<div id="UnderstandingTheDualTabView" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Dual view</span></h2>
+<h2 class="p_Heading2">You can optionally split the <span style="font-weight: bold;">Output window</span> tab's into a <span style="font-weight: bold;">dual view</span> which will allow you to view both outputs windows at the same time. &nbsp;To enable this feature, simply right click on the Output window and select <span class="f_Menu">Dual view</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="Output_3" width="630" height="542" style="margin:0;width:630px;height:542px;border:none" src="output_3.png"></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2">In the image above, we have enabled the dual view mode where we can see the output from two separate indicators.  <span style="font-weight: bold;">MyCustomIndicator</span> is programmed to print to the <span style="font-weight: bold;">Output 1</span> tab, while <span style="font-weight: bold;">MyCustomIndicator1</span> is programmed to print to the <span style="font-weight: bold;">Output </span>2 tab. &nbsp;(Please see the Help Guide article on the <a href="printto-1.htm" class="topiclink">PrintTo()</a> method for more information on programming a custom script to print to a second output tab)</h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Synchronized Scrolling</span></h2>
+<p class="p_Normal">While the Output window is in <span style="font-weight: bold;">Dual view</span> mode, each output window will have an independent scroll bar which allows you to navigate each output tab separately. &nbsp;However if desired, you can synchronize the vertical scrolling between these two windows which will allow you to easily compare the output from two difference scripts where both tabs will scroll up/down equally at the same time.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">To enable this feature, right click on the Output window and select the <span class="f_Menu">Synchronized Vertical Scrolling</span> menu item.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="SearchingAndHighlighting_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SearchingAndHighlighting','SearchingAndHighlighting_ICON')">Searching&nbsp;and&nbsp;highlighting</a></span></p>
+<div id="SearchingAndHighlighting" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Using the Find Tool</span></h2>
+<p class="p_Normal">If you would like to search for a specific value or text displayed in your Output window, you can use the <span style="font-weight: bold;">Find</span> tool to both highlight and navigate any terms that match your search.</p>
+<p class="p_Normal">&nbsp;<br>
+To bring up the Find menu, right click on the Output window and select <span class="f_Menu">Find</span> (or use CTRL + F as a keyboard shortcut).</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-weight: bold;">To search for a specific term:</span></p>
+<p class="p_Normal">1. &nbsp;Enter the text/value you wish to search for</p>
+<p class="p_Normal">2. &nbsp;Specify which <span style="font-weight: bold;">Output tab</span> you would like to search</p>
+<p class="p_Normal">3. &nbsp;Optionally check <span style="font-weight: bold;">Match case</span> to only look for terms which contain the exact text case of your term (i.e., Close would not be the same as close)</p>
+<p class="p_Normal">4. &nbsp;Select the <span style="font-weight: bold;">Find</span> button which will navigate to and highlight the next matching term (indicated by the green arrow in the image below)</p>
+<p class="p_Normal">5. &nbsp;The search will also highlight any other matches in the output window that match the search</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Selecting the Find button again will continue to search through the Output window and will highlight the next match.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Output_4" width="630" height="542" style="margin:0;width:630px;height:542px;border:none" src="output_4.png"><br>
+<span class="f_ImageCaption">&nbsp;</span></p>
+<p class="p_Normal"><span style="font-weight: bold;">Tip:  </span>Without the <span style="font-weight: bold;">Find</span> tool, you can also highlight terms simply by double clicking on the text in the output window. &nbsp;Doing so will automatically search the highlighted term and highlight all results. </p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="ClearingAndSavingOutputInformation_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','ClearingAndSavingOutputInformation','ClearingAndSavingOutputInformation_ICON')">Clearing&nbsp;and&nbsp;saving&nbsp;output&nbsp;information</a></span></p>
+<div id="ClearingAndSavingOutputInformation" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Clearing Output Information</span></h2>
+<p class="p_Normal">After some time, you may feel the need to erase all the current information in the current output tab. &nbsp;To do so, simply right click on the current output tab and select &quot;<span class="f_Menu">Clear</span>&quot;. &nbsp;</p>
+<p class="p_Normal">&nbsp;<br>
+<span style="font-weight: bold;">Tip:  </span>You can also use the <a href="clearoutputwindow-1.htm" class="topiclink">ClearOutputWindow()</a> method in directly your script to automatically clear the output content at a specific event or interval</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Saving Output Information</span></h2>
+<p class="p_Normal">If you would like to save the current results of your output, you can right mouse click on the desired output tab and select &quot;<span class="f_Menu">Save As</span>&quot;. Doing so will provide you with a<span style="font-weight: bold;"> Save As</span> dialog window which will allow you to save your output in a Text (.txt) file at any location on your computer.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="OutputWindowProperties_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','OutputWindowProperties','OutputWindowProperties_ICON')">Output&nbsp;window&nbsp;properties</a></span></p>
+<div id="OutputWindowProperties" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">The following properties are available for configuration within the <span style="font-weight: bold;">NinjaScript</span> <span style="font-weight: bold;">Output </span>properties window:</p>
+<h2 class="p_Heading2"><img alt="Output_5" width="450" height="425" style="margin:0;width:450px;height:425px;border:none" src="output_5.png"></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Window</span></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Always on top</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the Output window to be on top of other windows</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Dual view</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables/Disables the splitting of the Output tabs between the window allowing you to view both tabs at simultaneously </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Font - Output 1</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the font display for the Output 1 tab</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Font - Output 2</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the font display for the Output 2 tab</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Synchronize vertical scrolling</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables/Disables where both tabs will scroll up/down at the same time and pace</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="NinjaScriptUtilizationMonitor_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','NinjaScriptUtilizationMonitor','NinjaScriptUtilizationMonitor_ICON')">NinjaScript&nbsp;Utilization&nbsp;Monitor</a></span></p>
+<div id="NinjaScriptUtilizationMonitor" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">The NinjaScript Utilization monitor is opened via a right click in the NinjaScript Output window and will be mainly used as a diagnostic tool for performance issues.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">It will track any NinjaScript objects total resource time from the moment the window was opened:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>NinjaScript Utilization monitor window will not be saved in any workspace file</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>NinjaScript Utilization monitor window works across all workspaces using a single window instance</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>NinjaScript Utilization monitor window will work even if hidden / non-visible</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">When using it as debugging aid, it's recommended to focus on the top resource using NinjaScript's, while absolute total time is negligible.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Also it's important to understand that a resource heavy NinjaScript could be meaning:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">a) the NinjaScript may not be coded as efficiently as possible and would be worthwhile to review if everything has been done to achieve optimal performance</p>
+<p class="p_Normal">b) it could be doing intense / steady calculations by design and a higher than average resource use therefore could likely not be avoided.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">It should be thought of a gauge to see where likely performance / code optimization time is likely most wisely spend if the overall performance footprint is to be reduced.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Our support team is trained with this process and is available to assist.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="NinjaScriptUtilizationMonitor" width="425" height="446" style="margin:0;width:425px;height:446px;border:none" src="ninjascriptutilizationmonitor.png"></p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('UnderstandingTheOutputWindowDisplay_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheOutputWindowDisplay\',\'UnderstandingTheOutputWindowDisplay_ICON\')');
+HMInitToggle('UnderstandingTheOutputWindowDisplay','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingTheDualTabView_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheDualTabView\',\'UnderstandingTheDualTabView_ICON\')');
+HMInitToggle('UnderstandingTheDualTabView','hm.type','dropdown','hm.state','0');
+HMInitToggle('SearchingAndHighlighting_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SearchingAndHighlighting\',\'SearchingAndHighlighting_ICON\')');
+HMInitToggle('SearchingAndHighlighting','hm.type','dropdown','hm.state','0');
+HMInitToggle('ClearingAndSavingOutputInformation_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ClearingAndSavingOutputInformation\',\'ClearingAndSavingOutputInformation_ICON\')');
+HMInitToggle('ClearingAndSavingOutputInformation','hm.type','dropdown','hm.state','0');
+HMInitToggle('OutputWindowProperties_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OutputWindowProperties\',\'OutputWindowProperties_ICON\')');
+HMInitToggle('OutputWindowProperties','hm.type','dropdown','hm.state','0');
+HMInitToggle('NinjaScriptUtilizationMonitor_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'NinjaScriptUtilizationMonitor\',\'NinjaScriptUtilizationMonitor_ICON\')');
+HMInitToggle('NinjaScriptUtilizationMonitor','hm.type','dropdown','hm.state','0');
+</script>
+</div></body>
+  </html>

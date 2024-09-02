@@ -1,0 +1,360 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Charts &gt; Order Flow + &gt; Order Flow Trade Detector</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "order_flow_trade_detector.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Order Flow Trade Detector</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?order_flow_trade_detector.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations.htm">Operations</a> &gt; <a href="charts.htm">Charts</a> &gt; <a href="order_flow_plus.htm">Order Flow +</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Order Flow Trade Detector</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="order_flow_volume_profile.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="order_flow_plus.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="order_flow_market_depth_map.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <h2 class="p_Heading2"><span class="f_Heading2">Description</span><br />
+An indicator which displays significant trade volume either at a consistent bid/ask level, at price levels, or individual block trades. The marker is colored based on what percent of orders were considered buy or sell orders. Buy volume is volume that occurred at the ask or higher. Sell volume is volume that occurred at the bid or lower.</h2>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_ToggleHeading"><img id="OrderFlowTradeDetectorOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','OrderFlowTradeDetectorOverview','OrderFlowTradeDetectorOverview_ICON')">Order&nbsp;Flow&nbsp;Trade&nbsp;Detector&nbsp;Overview</a></span></p>
+<div id="OrderFlowTradeDetectorOverview" class="dropdown-toggle-body" style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Display</span><br />
+In the image below we can see where considerable volume has occurred per the settings that were input. The markers are plotted on the Last price, once the market has finished building.</h2>
+<h2 class="p_Heading2">Hovering the mouse over the trade marker will display information about the marker by default. Here there was a volume of 600 on the sell side (indicated by S: 600), there was a volume of 310 on the buy side (indicated by the B: 310), the total volume was 910 (indicated by the V: 910), and the marker is at the price of 2800.25 (indicated by the P: 2800.25).</h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="OFTD1" width="778" height="535" style="margin:0;width:778px;height:535px;border:none" src="oftd1.png"/></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Using the Order Flow Trade Detector</span></h2>
+<h2 class="p_Heading2">There are 3 main modes to help indicate areas of volume that may be of interest in your order flow analysis.</h2>
+<h2 class="p_Heading2">1) <span class="f_Menu">Consistent bid/ask</span></h2>
+<h2 class="p_Heading2">2) <span class="f_Menu">Price</span></h2>
+<h2 class="p_Heading2">3) <span class="f_Menu">Block</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span><br />
+1) To detect areas of significant volume that occurred while the last price jumped between a bid and ask price that stayed the same, across multiple bars, you would select <span class="f_Menu">Consistent bid/ask</span>.</h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="OFTD2" width="763" height="355" style="margin:0;width:763px;height:355px;border:none" src="oftd2.png"/></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">2) To detect large volume that occurred at a price level within the bar, you would select <span class="f_Menu">Price</span> as seen in the image below. </p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="OFTD3" width="763" height="356" style="margin:0;width:763px;height:356px;border:none" src="oftd3.png"/></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2">3) To detect large volume from individual ticks, you would select <span class="f_Menu">Block&nbsp;</span>as seen in the image below.</h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="OFTD4" width="763" height="356" style="margin:0;width:763px;height:356px;border:none" src="oftd4.png"/></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: </p>
+<p class="p_Normal">1. If there is an excessive amount of trade markers on the screen you will need to increase the Minimum volume for a marker to decrease the number of markers.</p>
+<p class="p_Normal">2. To plot historically requires historical bid/ask stamped tick data. See the <a href="data_by_provider.htm" class="topiclink">Data by Provider</a> section for information on what providers offer historical bid/as stamped tick data.</p>
+<p class="p_Normal">3. May not display on Forex instruments as expected. Many Forex data providers do not provide volume or they just assign a volume of 10,000 or 100,000 to every tick.</p>
+<p class="p_Normal">4. The study can appear to draw to an unexpected bar on bars types which call <a href="removelastbar.htm" class="topiclink">RemoveLastBar</a> (such as <a href="bar_types.htm" class="topiclink">Renko, LineBreak</a> etc.) due to the way these bars types update already-closed bars.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="OrderFlowTradeDetectorParameters_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','OrderFlowTradeDetectorParameters','OrderFlowTradeDetectorParameters_ICON')">Order&nbsp;Flow&nbsp;Trade&nbsp;Detector&nbsp;Parameters</a></span></p>
+<div id="OrderFlowTradeDetectorParameters" class="dropdown-toggle-body" style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Base large volume on</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Consistent bid/ask</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">With this setting volume will continue to accumulate to form a marker so long as the bid and ask levels stay the same. If the bid and/or ask price changes, a new accumulation of volume will occur to create the next marker. The marker will be plotted on the Last price.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Price</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">With this setting volume will continue to accumulate to form a marker at each price level within a bar. Each new bar will restart accumulation of volume at each price level of the current bar.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Block</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">With this setting a marker will be plotted for each tick that has a volume equal or greater than the <span class="f_Menu">Minimum volume for a marker</span>.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Minimum volume for marker</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Indicates how much volume must occur before a marker is plotted</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Maximum marker size</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Indicates the diameter in pixels of the marker which has the largest volume</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Base marker size on</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Visible area</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The size associated to markers will be distributed based on the volume of the markers in the visible area</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Session</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The size associated to markers will be distributed based on the volume of the markers in the current session</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Show values on hover</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When enabled and the mouse is hovered over a marker the buy volume, sell volume, total volume, and price will be displayed. </p>
+<p class="p_Normal">Notes: The values displayed will be for the top marker if markers overlap one another. Disabling this setting can improve performance when there is a large amount of markers on the screen.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for buys</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color used for volume received at the ask or more</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for sells</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color used for volume received at the bid or less</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for outline</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Outline color of the marker</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opacity</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opacity of the marker</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('OrderFlowTradeDetectorOverview_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowTradeDetectorOverview\',\'OrderFlowTradeDetectorOverview_ICON\')');
+HMInitToggle('OrderFlowTradeDetectorOverview','hm.type','dropdown','hm.state','0');
+HMInitToggle('OrderFlowTradeDetectorParameters_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowTradeDetectorParameters\',\'OrderFlowTradeDetectorParameters_ICON\')');
+HMInitToggle('OrderFlowTradeDetectorParameters','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

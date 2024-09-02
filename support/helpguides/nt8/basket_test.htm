@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Strategy Analyzer &gt; Basket testing multiple instruments</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "basket_test.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Basket Testing</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?basket_test.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations.htm">Operations</a> &gt; <a href="strategy_analyzer.htm">Strategy Analyzer</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Basket Testing</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="understanding_historical_fill_.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="strategy_analyzer.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="backtest_logs.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">You can <a href="backtest_a_strategy.htm" class="topiclink">Backtest</a>, <a href="optimize_a_strategy.htm" class="topiclink">Optimize</a> or <a href="walk_forward_optimize_a_strate.htm" class="topiclink">Walk Forward</a> optimize a basket of instruments by selecting an instrument list using the instrument selector in the settings panel. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="StrategyAnalyzer_InstrumentList" width="426" height="305" style="margin:0;width:426px;height:305px;border:none" src="strategyanalyzer_instrumentlist.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Once the test is complete, a listing of all the results will be displayed. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="StrategyAnalyzer_BacketTest" width="859" height="392" style="margin:0;width:859px;height:392px;border:none" src="strategyanalyzer_backettest.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Each instrument's backtest results are displayed individually</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>The combined backtest results of ALL instruments are shown at the bottom of the results</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Selecting an individual row from the results grid will display the results in the Performance tabs individual <a href="reviewing_performance_results.htm" class="topiclink">performance results</a>.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Reviewing Combined Results</span></h2>
+<p class="p_Normal">When reviewing the following combined results, some values will be the total summation across all instruments, while others will be weighted to the total number number of trades.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The following results will be a summation across all instruments:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Total net profit</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Gross profit</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Gross loss</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Commission</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Total # of trades</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span># of winning trades</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span># of losing trades</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span># of even trades</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">For all other statistics, the combined results will be a weighted average (exception here is the RSquared statistic).</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Calculating Weighted Combined Results</span></h2>
+<p class="p_Normal">In order to understand how weighted combined results are calculated, lets use a simplified example which focuses on the Max. Drawdown across 4 different instruments:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:113px; height:26px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Instrument</span></p>
+</td>
+<td style="vertical-align:top; width:113px; height:26px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Max. Drawdown</span></p>
+</td>
+<td style="vertical-align:top; width:113px; height:26px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Total # of trades</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">AUDUSD</p>
+</td>
+<td style="vertical-align:top; width:113px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">($250.00)</p>
+</td>
+<td style="vertical-align:top; width:113px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">200</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; height:17px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">EURJPY</p>
+</td>
+<td style="vertical-align:top; width:113px; height:17px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">($150.00)</p>
+</td>
+<td style="vertical-align:top; width:113px; height:17px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">105</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; height:17px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">EURUSD</p>
+</td>
+<td style="vertical-align:top; width:113px; height:17px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">($200.00)</p>
+</td>
+<td style="vertical-align:top; width:113px; height:17px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">20</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">GBPUSD</p>
+</td>
+<td style="vertical-align:top; width:113px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">($50.00)</p>
+</td>
+<td style="vertical-align:top; width:113px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">90</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:113px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Combined Results</span></p>
+</td>
+<td style="vertical-align:middle; width:113px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;"> (178.92)</span></p>
+</td>
+<td style="vertical-align:top; width:113px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">415</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">As you can see, the<span style="font-weight: bold;"> </span>Max.Drawdown column is <span style="font-weight: bold;">NOT</span> equal to the sum of the individual Max.Drawdown values for the that column. &nbsp;This is because the total # of trades for the individual instrument and the total # of trades taken across all instruments is used to help provide more accurate statistics. &nbsp;Working from the table above, the formula used to calculate these weighted averages can be expressed as follows:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><span class="f_CodeExample">Combined</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Max.Drawdown</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SUM((AUDUSD</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Drawdown</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AUDUSD</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Trade</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Count)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(EURJPY</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Drawdown</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">EURJPY</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Trade</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Count)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(EURUSD</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Drawdown</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">EURUSD</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Trade</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Count)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(GBPUSD</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Drawdown</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">GBPUSD</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Trade</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Count))</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Total</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Trade</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Count</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">of</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">All</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Instruments</span><span class="f_CodeExample" style="color: #ffffff;"> </span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </body>
+  </html>

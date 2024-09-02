@@ -1,0 +1,346 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; SharpDX SDK Reference &gt; SharpDX.DirectWrite &gt; TextLayout</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "sharpdx_directwrite_textlayout.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">SharpDX.DirectWrite.TextLayout</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?sharpdx_directwrite_textlayout.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="sharpdx_sdk_reference.htm">SharpDX SDK Reference</a> &gt; <a href="sharpdx_directwrite.htm">SharpDX.DirectWrite</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">SharpDX.DirectWrite.TextLayout</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="sharpdx_directwrite_linemetrics.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="sharpdx_directwrite.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="sharpdx_directwrite_textlayout_getlinemetrics.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Critical" >
+<tr class="Critical">
+<td class="Critical"><p class="p_Normal"><span style="font-weight: bold;">Disclaimer</span>: The <a href="sharpdx_sdk_reference.htm" class="topiclink">SharpDX SDK Reference</a> section was compiled from the official <a href="http://sharpdx.org/" target="_blank" class="weblink">SharpDX Documentation</a> and was <span style="font-weight: bold;">NOT</span> authored by NinjaTrader. &nbsp;The contents of this section are provided as-is and only cover a fraction of what is available from the <span style="font-weight: bold;">SharpDX SDK</span>. &nbsp;This page was intended only as a reference guide to help you get started with some of the 2D Graphics concepts used in the <span style="font-weight: bold;">NinjaTrader.Custom</span> assembly. &nbsp;Please refer to the official <span style="font-weight: bold;">SharpDX Documentation</span> for additional members not covered in this reference. &nbsp;For more seasoned graphic developers, the original<span style="font-weight: bold;"> MSDN</span> <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx" target="_blank" class="weblink">Direct2D1</a> and <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/dd368038.aspx" target="_blank" class="weblink">DirectWrite</a> unmanaged API documentation can also be helpful for understanding the DirectX/Direct2D run-time environment.  <span style="font-style: italic;">For NinjaScript development purposes, we document only </span><span style="font-style: italic; font-weight: bold;">essential</span><span style="font-style: italic;"> members in the structure of this page.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
+<p class="p_Normal">The TextLayout interface represents a block of text after it has been fully analyzed and formatted.</p>
+<p class="p_Normal">(See also <a href="http://msdn.microsoft.com/en-us/library/dd316718.aspx" target="_blank" class="weblink">unmanaged API documentation</a>)</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: To draw a formatted string represented by an TextLayout object, Direct2D provides the DrawTextLayout method.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TextLayout</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span><br />
+<span class="f_Heading2">Constructors</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">new </span><span class="f_CodeExample">TextLayout(Factory</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">factory,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">text,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample"><a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a> textFormat,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">maxWidth,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">maxHeight)</span></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Takes a string, text format, and associated constraints, and produces an object that represents the fully analyzed and formatted result. </p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>:  For NinjaScript development purposes, when creating a <span style="font-weight: bold;">TextLayout </span>object<span style="font-weight: bold;"> </span>you should use the <a href="directwritefactory.htm" class="topiclink">NinjaTrader.Core.Globals.DirectWriteFactory</a> property</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Methods and Properties</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_disposebase_dispose.htm" class="topiclink">Dispose()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from <a href="sharpdx_disposebase.htm" class="topiclink">SharpDX.DisposeBase</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_flowdirection.htm" class="topiclink">FlowDirection</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets or sets the direction that text lines flow. (Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_fontfamilyname.htm" class="topiclink">FontFamilyName</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets a copy of the font family name.(Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_fontsize.htm" class="topiclink">FontSize</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets the font size in DIP unites. (Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_fontstretch.htm" class="topiclink">FontStretch</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets the font stretch of the text. (Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_fontstyle.htm" class="topiclink">FontStyle</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets the font style of the text. (Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_fontweight.htm" class="topiclink">FontWeight</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets the font weight of the text. (Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_disposebase_isdisposed.htm" class="topiclink">IsDisposed</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets a value indicating whether this instance is disposed. (Inherited from <a href="sharpdx_disposebase.htm" class="topiclink">SharpDX.DisposeBase</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textlayout_maxheight.htm" class="topiclink">MaxHeight</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets or sets the layout maximum height. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textlayout_maxwidth.htm" class="topiclink">MaxWidth</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets or sets the layout maximum width. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textlayout_metrics.htm" class="topiclink">Metrics</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Contains the metrics associated with text after layout. All coordinates are in device independent pixels (DIPs).</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_paragraphalignment.htm" class="topiclink">ParagraphAlignment</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets or sets the alignment option of a paragraph which is relative to the top and bottom edges of a layout box.(Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_readingdirection.htm" class="topiclink">ReadingDirection</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets or sets the current reading direction for text in a paragraph.</p>
+<p class="p_Normal">(Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_textalignment.htm" class="topiclink">TextAlignment</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets or sets the alignment option of text relative to the layout box's leading and trailing edge. (Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite_textformat_wordwrapping.htm" class="topiclink">WordWrapping</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Gets or sets the word wrapping option.</p>
+<p class="p_Normal">(Inherited from <a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a>.)</p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </body>
+  </html>

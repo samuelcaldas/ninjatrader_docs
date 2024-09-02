@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Strategy Analyzer &gt; Understanding Backtest Logs</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "backtest_logs.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Understanding Strategy Analyzer Logs</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-321.htm?backtest_logs.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations-1.htm">Operations</a> &gt; <a href="strategy_analyzer-1.htm">Strategy Analyzer</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Understanding Strategy Analyzer Logs</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="basket_test-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="strategy_analyzer-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="reviewing_performance_results-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">The Strategy analyzer saves a log on each backtest. The logs can be seen by right clicking on the Strategy Analyzer and selecting &quot;<span class="f_Menu">Show Logs</span>&quot;. Logs offer a convenient way to keep a history of backtest results. They can be used as you work to develop a strategy and fine tune parameters and code to compare previous backtests to current backtests easily. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The log also contains a saved snapshot version of the code used for the backtest, making it possible to look at or revert to previous code used. </p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: Code save functionality only works on open and unlocked NinjaScript Strategies. &nbsp; Strategies which are protected by the vendor cannot be used to save code.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="StrategyAnalyzer_ShowLog" width="698" height="578" style="margin:0;width:698px;height:578px;border:none" src="strategyanalyzer_showlog.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="UnderstandingLogs_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingLogs','UnderstandingLogs_ICON')">Understanding&nbsp;what&nbsp;is&nbsp;saved&nbsp;in&nbsp;the&nbsp;logs</a></span></p>
+<div id="UnderstandingLogs" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Understanding Logs</span></h2>
+<p class="p_Normal">NinjaTrader saves a log each time you perform a backtest in the strategyt analyzer. It saves several key information in the log which makes it easier to iterate on a strategy over time. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The log saves the following information per test:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The instrument the test was performed on.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Backtest</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The type of backtest that was performed</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Date</p>
+</td>
+<td style="vertical-align:top; width:792px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The date the backtest was performed</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The strategy used for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Data Series</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The data series used for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Start date</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The start date used for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">End date</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The end date used for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Parameters</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The parameters used for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Total net profit</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The total net profit for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Notes</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An optional field to add user defined notes to more accurately recall the test. Double click the field to begin editing and when complete press enter on the keyboard to set the note. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Pinned</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An optional field to Pin a result &nbsp;to the top. Pinned results are useful for saving a specific backtest of note for reference later. </p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UsingLogs_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UsingLogs','UsingLogs_ICON')">Using&nbsp;Logs</a></span></p>
+<div id="UsingLogs" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Using Logs</span></h2>
+<h2 class="p_Heading2">Logs are integrated with the Strategy Analyzer and can be double clicked to quickly restore the parameters and backtest information for that backtest. Giving you freedom to experiment with different configurations while maintaining the ability to compare previous backtests and restore a previous backtest at any time.</h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2">Right clicking on a backtest log yields the following context menu:</h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="StrategyAnalyzer_RightClickMenu" width="281" height="384" style="margin:0;width:281px;height:384px;border:none" src="strategyanalyzer_rightclickmenu.png"></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Open In Strategy Analyzer Tab</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opens the backtest in a new tab in the current Strategy Analyzer window</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Open in New Strategy Analyzer</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opens the backtest in a new Strategy Analyzer</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Open in NinjaScript Editor</p>
+</td>
+<td style="vertical-align:top; width:792px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opens the saves revision of the code as used when the backtest was run. You can restore any set of backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Remove</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Removes the selected backtest log</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Remove All Non-Pinned</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Removes all backtest logs that are not pinned. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Filter By Strategy</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Only view backtest logs for a specific strategy</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Filter By Instrument</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Only view backtest logs for a specific instrument</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Filter By Date</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Only view backtest logs for a specific date range</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('UnderstandingLogs_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingLogs\',\'UnderstandingLogs_ICON\')');
+HMInitToggle('UnderstandingLogs','hm.type','dropdown','hm.state','0');
+HMInitToggle('UsingLogs_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UsingLogs\',\'UsingLogs_ICON\')');
+HMInitToggle('UsingLogs','hm.type','dropdown','hm.state','0');
+</script>
+</div></body>
+  </html>

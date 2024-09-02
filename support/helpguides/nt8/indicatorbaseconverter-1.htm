@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Indicator &gt; IndicatorBaseConverter</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="IndicatorBaseConverter">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "indicatorbaseconverter.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">IndicatorBaseConverter Class</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-1192.htm?indicatorbaseconverter.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript-1.htm">NinjaScript</a> &gt; <a href="language_reference_wip-1.htm">Language Reference</a> &gt; <a href="indicator-1.htm">Indicator</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">IndicatorBaseConverter Class</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="drawverticalgridlines-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="indicator-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="ischartonly-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
+<p class="p_Normal">A custom <a href="https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx" target="_blank" class="weblink">TypeConverter</a> class handling the designed behavior of an indicator's property descriptor collection. &nbsp;Use this as a base class for any custom <span style="font-weight: bold;">TypeConverter</span> you are applying to an indicator class.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes:</span></p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A working NinjaScript demo can be found through the reference sample on &quot;<a href="http://ninjatrader.com/support/forum/showthread.php?t=97919" target="_blank" class="weblink">Using a TypeConverter to Customize Property Grid Behavior</a>&quot;</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>When applying the custom converter, you must fully qualify the name (e.g., &quot;NinjaTrader.NinjaScript.Indicators.MyCustomConveter&quot;)</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Additional <span style="font-weight: bold;">TypeConverter</span> information can be found from the <a href="https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx" target="_blank" class="weblink">MSDN documentation</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>See also <a href="typeconverterattribute-1.htm" class="topiclink">TypeConverterAttribute</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>For Strategies, see the <a href="strategybaseconverter-1.htm" class="topiclink">StrategyBaseConverter</a> class</p></td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Relevant base methods</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter.getproperties(v=vs.110).aspx" target="_blank" class="weblink">TypeConverter.GetProperties()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When overriding <span style="font-weight: bold;">GetProperties()</span>, calling <span class="f_CodeExample" style="color: #0000ff;">base</span><span class="f_CodeExample">.GetProperties()</span> ensures that all default property grid behavior works as designed</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter.getpropertiessupported(v=vs.110).aspx" target="_blank" class="weblink">TypeConverter.GetPropertiesSupported()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">In your custom converter class, you must override <span style="font-weight: bold;">GetPropertiesSupported() </span>and return a value of <span style="font-weight: bold;">true</span> in order for your custom type converter to work</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IndicatorBaseConverter</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TypeConverter</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning">
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Failure to apply a type of <span style="font-weight: bold;">IndicatorBaseConverter</span> on an indicator class can result in unpredictable behavior of the standard NinjaTrader WPF property grid. &nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: Common indicator functions like Print() are not available to a type converter instance. &nbsp;To debug a type converter class, you can use the AddOn <a href="alert_and_debug_concepts-1.htm" class="topiclink">Debug Concepts</a> or <a href="visual_studio_debugging-1.htm" class="topiclink">attach to a debugger</a> (recommended)</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">//This namespace holds Indicators in this folder and is required. Do not change it.</span><br>
+<span class="f_CodeExample" style="color: #0000ff;">namespace</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.NinjaScript.Indicators</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// When applying the type converter, you must fully qualify the name</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">[TypeConverter(</span><span class="f_CodeExample" style="color: #800000;">&quot;NinjaTrader.NinjaScript.Indicators.MyCustomConveter&quot;</span><span class="f_CodeExample">)]</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomIndicator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Indicator</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyCustomIndicator&quot;</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">//Add your custom indicator logic here.</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomConveter</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IndicatorBaseConverter</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// A general TypeConveter method used for converting types</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PropertyDescriptorCollection</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">GetProperties(ITypeDescriptorContext</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">context,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">object</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">component,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Attribute[]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">attrs)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// sometimes you may need the indicator instance which actually exists on the grid</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">MyCustomIndicator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">indicator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">component</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomIndicator;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// base.GetProperties ensures we have all the properties (and associated property grid editors)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// NinjaTrader internal logic handles for a given indicator</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">PropertyDescriptorCollection</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">propertyDescriptorCollection</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">base</span><span class="f_CodeExample">.GetPropertiesSupported(context)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">?</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">base</span><span class="f_CodeExample">.GetProperties(context,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">component,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">attrs)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TypeDescriptor.GetProperties(component,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">attrs);</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(indicator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">||</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">propertyDescriptorCollection</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">propertyDescriptorCollection;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// example of why you may need the instance that exists on the grid....</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(indicator.EntryHandling</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">EntryHandling.UniqueEntries)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// do something in the event a property contains some value...</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Loop all of the properties of the indicator</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">foreach</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(PropertyDescriptor</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">property</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">in</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">propertyDescriptorCollection)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// do something with a specific property</span><br>
+<span class="f_CodeExample" style="color: #008000;">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// cannot call Print() here</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// but you can call the static Output window &quot;Process()&quot;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">NinjaTrader.Code.Output.Process(property.Name,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PrintTo.OutputTab1);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// must return the collection after making changes</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">propertyDescriptorCollection;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Important: &nbsp;This must return true otherwise the type converter will not be called</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">GetPropertiesSupported(ITypeDescriptorContext</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">context)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </div></body>
+  </html>

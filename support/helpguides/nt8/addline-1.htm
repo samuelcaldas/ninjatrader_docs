@@ -1,0 +1,361 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Language Reference &gt; Indicator &gt; AddLine()</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="AddLine()">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "addline.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">AddLine()</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-1178.htm?addline.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript-1.htm">NinjaScript</a> &gt; <a href="language_reference_wip-1.htm">Language Reference</a> &gt; <a href="indicator-1.htm">Indicator</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">AddLine()</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="indicator-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="indicator-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="arelinesconfigurable-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
+<p class="p_Definition">Adds line objects on a chart.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span class="f_Comment" style="font-weight: bold;">Note:</span><span class="f_Comment"> &nbsp;Lines are </span><span class="f_Comment" style="font-weight: bold;">ONLY</span><span class="f_Comment"> visible from the UI property grid when AddLine() is called from </span><span class="f_Comment" style="font-weight: bold;">State.SetDefaults</span><span class="f_Comment">. If your indicator or strategy dynamically adds lines during </span><span class="f_Comment" style="font-weight: bold;">State.Configure</span><span class="f_Comment">, you will </span><span class="f_Comment" style="font-weight: bold;">NOT</span><span class="f_Comment"> have an opportunity to select the line or to set the line configuration via the UI.</span> Alternatively, you may use custom public <a href="brushes-1.htm" class="topiclink">Brush</a>, <a href="stroke_class-1.htm" class="topiclink">Stroke</a> or value properties which are accessible in the <span style="font-weight: bold;">State.SetDefaults</span> and pass those values to AddLine() during<span style="font-weight: bold;"> State.Configure</span>. Calling AddLine() in this manner should be reserved for special cases. &nbsp;Please see the examples below.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Methods and Properties</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="arelinesconfigurable-1.htm" class="topiclink">AreLinesConfigurable</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Determines if the <a href="addline-1.htm" class="topiclink">line</a>(s) used in an indicator are configurable from within the indicator dialog window.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="line_class-1.htm" class="topiclink">Line Class</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">Objects derived from the Line class are used to characterize how an oscillator line is visually displayed (plotted) on a chart.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="lines-1.htm" class="topiclink">Lines</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Definition">A collection holding all of the Line objects that define the visualization characteristics oscillator lines of the indicator.</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
+<p class="p_CodeExample"><span class="f_CodeExample">AddLine(Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">brush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">value,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">name)</span><br>
+<span class="f_CodeExample">AddLine(Stroke</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">stroke,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">value,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">name)</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning">
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: This method should <span style="font-weight: bold;">ONLY </span>be called within the <a href="onstatechange-1.htm" class="topiclink">OnStateChange()</a> method during <span style="font-weight: bold;">State.SetDefaults</span> or <span style="font-weight: bold;">State.Configure</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">brush</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes" style="color: #388195;">Brush</span> object used to construct the line</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">name</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">string</span> value representing the name of the line</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">stroke</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExample" style="color: #388195;">Stroke</span> object used to construct the line</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">value</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExample" style="color: #0000ff;">double</span> value representing the value the line will be drawn at</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+</th>
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><span class="f_NSexamplesheading">Defining a single UI configurable static line</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" style="width:25px;"><br>
+</td>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br>
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Examples Indicator&quot;</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Adds an oscillator line at a value of 30</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddLine(Brushes.Gray,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">30</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Lower&quot;</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+</th>
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><span class="f_NSexamplesheading">Indicator which dynamically adds a line in State.Configure</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" style="width:25px;"><br>
+</td>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Examples Indicator&quot;</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// logical property which user can set</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">UseSpecialMode</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Default brush selection pushed to the UI</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">MyBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Red;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">else</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Configure)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// if user enables logical property</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(UseSpecialMode)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// add line using default selected brush and special line name</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">AddLine(MyBrush, 40, </span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;My Special Line&quot;</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">else</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// otherwise use default selected brush and regular line name</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">AddLine(MyBrush, 60, </span><span class="f_CodeExample" style="color: #800000;">&quot;My Regular Line&quot;</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">[XmlIgnore]</span><br>
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">get;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">set;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">UseSpecialMode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">get;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">set;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </div></body>
+  </html>

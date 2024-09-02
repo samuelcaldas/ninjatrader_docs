@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Automated Trading &gt; Running NinjaScript Strategies &gt; Syncing Account Positions</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "syncing_account_positions.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Syncing Account Positions</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?syncing_account_positions.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations.htm">Operations</a> &gt; <a href="automated_trading.htm">Automated Trading</a> &gt; <a href="running_ninjascript_strategies.htm">Running NinjaScript Strategies</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Syncing Account Positions</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="strategy_position_vs_account_p.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="running_ninjascript_strategies.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="running_a_ninjascript_strategy.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">It is critical to understand the various options available to you that determine how the strategy will behave on startup through the <span style="font-weight: bold;">Start Behavior </span>parameters. NinjaTrader provides several option combinations that can be used in different scenarios depending on what your requirements are. Please first review the information about <a href="strategy_position_vs_account_p.htm" class="topiclink">strategy position vs account positions</a> as this article builds on that concept.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The <span style="font-weight: bold;">Start Behavior</span> settings can be set from the Strategy Parameters when you are <a href="running_a_ninjascript_strategy.htm" class="topiclink">adding a strategy</a>.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: Please be aware that these options will only help you sync your <span style="font-weight: bold;">Account Position</span> to your <span style="font-weight: bold;">Strategy Position</span> once on startup. These options will <span style="font-style: italic;">not</span> guarantee your <span style="font-weight: bold;">Account Position</span> remains in sync afterward. Any active orders you may have had on your account prior to strategy start that was <span style="font-style: italic;">not</span> generated by your strategy would not have been cancelled on start and can lead to your <span style="font-weight: bold;">Account Position</span> being out of sync from your <span style="font-weight: bold;">Strategy Position. </span>Placing manual trades or running multiple strategies on the same instrument can also lead to your <span style="font-weight: bold;">Account Position</span> being out of sync from your <span style="font-weight: bold;">Strategy Position</span>.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warnings</span>:</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Using <span style="font-weight: bold;">Synchronize account</span> can close or place live trades to your account</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>If you have existing<span style="font-weight: bold;"> historical <a href="order.htm" class="topiclink">order</a> references</span> which have transitioned to real-time, you <span style="font-weight: bold;">MUST</span> update the <span style="font-weight: bold;">order object reference</span> to the newly submitted<span style="font-weight: bold;"> real-time </span>order; otherwise errors may occur as you attempt to cancel the order. &nbsp;You may use the <a href="getrealtimeorder.htm" class="topiclink">GetRealtimeOrder()</a> helper method to assist in this transition.</p></td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="WaitUntilFlat_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','WaitUntilFlat','WaitUntilFlat_ICON')">Wait&nbsp;until&nbsp;flat</a></span></p>
+<div id="WaitUntilFlat" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">These are the default settings for your strategies and are the least disruptive in terms of handling your current <span style="font-weight: bold;">Account Position</span>. It assumes your <span style="font-weight: bold;">Account Position</span> is in a flat state.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">When your strategy starts it will check for any active orders previously generated by the strategy on your account and cancel those first. Should the strategy be unable to cancel and receive confirmation on the cancellation of these orders within 40 seconds the strategy will not start and an alert will be issued.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>If the <span style="font-weight: bold;">Strategy Position</span> is flat, then the <span style="font-weight: bold;">Account Position</span> and <span style="font-weight: bold;">Strategy Position</span> are assumed to be in sync with each other. The next order placed by your strategy would be placed as a live order to your account.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>If the <span style="font-weight: bold;">Strategy Position</span> is <span style="font-style: italic;">not</span> flat, the strategy will place all trades in a &quot;virtual&quot; sense until the <span style="font-weight: bold;">Strategy Position</span> reaches or crosses a flat state. Once a flat state is achieved the <span style="font-weight: bold;">Strategy Position</span> will be assumed to be in sync with the <span style="font-weight: bold;">Account Position</span> and all future orders will be placed live.</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Critical" >
+<tr class="Critical">
+<td class="Critical"><p class="p_Normal"><span style="font-weight: bold;">Critical</span>: Should your <span style="font-weight: bold;">Account Position</span> <span style="font-style: italic;">not</span> be flat at the point in time the <span style="font-weight: bold;">Strategy Position</span> reaches a flat state your <span style="font-weight: bold;">Account Position </span>and <span style="font-weight: bold;">Strategy Position</span> will <span style="font-weight: bold;">NOT</span> be in sync.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="WaitUntilFlatSynchronizeAccount_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','WaitUntilFlatSynchronizeAccount','WaitUntilFlatSynchronizeAccount_ICON')">Wait&nbsp;until&nbsp;flat,&nbsp;synchronize&nbsp;account</a></span></p>
+<div id="WaitUntilFlatSynchronizeAccount" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">This combination should be used when you want to begin trading your strategy off a flat state with minimal user interaction to sync your <span style="font-weight: bold;">Account Position</span> prior to start.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">When your strategy starts it will check for any active orders previously generated by the strategy on your account and cancel those first. Should the strategy be unable to cancel and receive confirmation on the cancellation of these orders within 40 seconds the strategy will not start and an alert will be issued. After the strategy is successful in cancelling any orders that required action it will check your current <span style="font-weight: bold;">Account Position</span> and compare it to a flat state. On multi-instrument strategies it will perform this check for all instruments used by the strategy.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>If the <span style="font-weight: bold;">Account Position</span> is flat already, no reconciliatory order will be submitted. The strategy will then wait for the <span style="font-weight: bold;">Strategy Position</span> to reach a flat state as well before submitting any orders live.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>If the <span style="font-weight: bold;">Account Position</span> is <span style="font-style: italic;">not</span> flat, NinjaTrader will submit a market order(s) to reconcile the <span style="font-weight: bold;">Account Position</span> to a flat state. The strategy will then wait for the <span style="font-weight: bold;">Strategy Position</span> to reach a flat state before submitting live orders.</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: The reconciliatory market order is submitted outside of the strategy so your strategy will not be able to manage it from methods like OnOrderUpdate(), OnExecution(), etc.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="ImmediatelySubmit_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','ImmediatelySubmit','ImmediatelySubmit_ICON')">Immediately&nbsp;submit</a></span></p>
+<div id="ImmediatelySubmit" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">This combination should only be used when you are sure your <span style="font-weight: bold;">Account Position</span> is the way you want it to be in relation to the <span style="font-weight: bold;">Strategy Position </span>prior to strategy start.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">On startup the strategy will begin executing orders immediately.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Any active orders on the account previously generated by the strategy that does not match* an active strategy order will be cancelled. Should the strategy be unable to cancel and receive confirmation on the cancellation of these orders within 40 seconds the strategy will not start and an alert will be issued.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The matching active orders on the account will then be mapped to the active strategy orders</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Any remaining active strategy orders that cannot be successfully paired will be submitted live and the strategy will begin managing your <span style="font-weight: bold;">Strategy Position</span> assuming your <span style="font-weight: bold;">Account Position</span> is in sync with it.</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">* A previously generated order is considered to match an active strategy order when the order action, order type, quantity, limit price, and stop price are exactly identical.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="ImmediatelySubmitSynchronizeAccount_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','ImmediatelySubmitSynchronizeAccount','ImmediatelySubmitSynchronizeAccount_ICON')">Immediately&nbsp;submit,&nbsp;synchronize&nbsp;account</a></span></p>
+<div id="ImmediatelySubmitSynchronizeAccount" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">This combination should be used when you want to begin trading with your strategy immediately while not worrying about your <span style="font-weight: bold;">Account Position </span>prior to start.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">On startup the strategy will begin executing orders immediately.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Any active orders on the account previously generated by the strategy that does not match* an active strategy order will be cancelled. Should the strategy be unable to cancel and receive confirmation on the cancellation of these orders within 40 seconds the strategy will not start and an alert will be issued.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The matching active orders on the account will then be mapped to the active strategy orders</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Any remaining active strategy orders that cannot be successfully paired will be submitted live and the strategy will then try to sync your <span style="font-weight: bold;">Account Position</span> to your <span style="font-weight: bold;">Strategy Position </span>through the process below.</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">After the strategy is successful in cancelling and submitting any orders that required action it will check your current <span style="font-weight: bold;">Account Position</span> and compare it to your <span style="font-weight: bold;">Strategy Position</span>. On multi-instrument strategies it will perform this check for all instruments used by the strategy.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>If the <span style="font-weight: bold;">Account Position</span> matches your <span style="font-weight: bold;">Strategy Position</span>, no reconciliatory order will be submitted. The strategy will then begin managing your <span style="font-weight: bold;">Strategy Position </span>immediately.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>If the <span style="font-weight: bold;">Account Position</span> does <span style="font-style: italic;">not</span> match your <span style="font-weight: bold;">Strategy Position</span>, NinjaTrader will submit a market order(s) to reconcile the <span style="font-weight: bold;">Account Position</span> to match your <span style="font-weight: bold;">Strategy Position</span>. The strategy will then begin managing your <span style="font-weight: bold;">Strategy Position </span>immediately.</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: The reconciliatory market order is submitted outside of the strategy so your strategy will not be able to manage it from methods like OnOrderUpdate(), OnExecution(), etc.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-weight: bold;">*</span> A previously generated order is considered to match an active strategy order when the order action, order type, quantity, limit price, and stop price are exactly identical.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="AdoptAccountPosition_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','AdoptAccountPosition','AdoptAccountPosition_ICON')">Adopt&nbsp;account&nbsp;position</a></span></p>
+<div id="AdoptAccountPosition" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">This setting should be used if you would like your strategy to disregard the historical virtual <span style="font-weight: bold;">Strategy Position</span> and to start in the same position as the real-world <span style="font-weight: bold;">Account Position</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">On startup the strategy will begin executing orders immediately.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Any active orders on the account previously generated by the strategy that does not match* an active strategy order will be cancelled. Should the strategy be unable to cancel and receive confirmation on the cancellation of these orders within 40 seconds the strategy will not start and an alert will be issued.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The matching active orders on the account will then be mapped to the active strategy orders</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Any remaining active strategy orders that cannot be successfully paired will be submitted live and the strategy will then try to sync your <span style="font-weight: bold;">Account Position</span> to your <span style="font-weight: bold;">Strategy Position.</span></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Only one strategy with this setting can be started at a time for an individual account and instrument.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="background-color: #ffffff;">The account and instrument the strategy is started on must not have any working orders which were submitted outside of the strategy, or by another instance of the same strategy. If an order is detected, the strategy can not be started until these orders have been manually managed.</span> &nbsp;</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>:  <span style="font-weight: bold;">Adopt account position</span> will only be available if the developer of a strategy has programmed the strategy to be aware of the real-world account position. &nbsp;If this setting is not available when starting your strategy, the strategy was not programmed in a manner capable of handling account positions. &nbsp;If you are a developer and would like your strategy to handle a real world position, please see the following article <a href="isadoptaccountpositionaware.htm" class="topiclink">here</a> on these properties.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">* A previously generated order is considered to match an active strategy order when the order action, order type, quantity, limit price, and stop price are exactly identical.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="SynchronizeAllStrategies_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SynchronizeAllStrategies','SynchronizeAllStrategies_ICON')">Synchronize&nbsp;all&nbsp;strategies</a></span></p>
+<div id="SynchronizeAllStrategies" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">The <span style="font-weight: bold;">Synchronize All Strategies</span> option is found on the <a href="strategies_tab2.htm" class="topiclink">Strategies tab</a> of the NinjaTrader <span style="font-weight: bold;">Control Center</span> and right clicking on the <span style="font-weight: bold;">Strategy Grid.</span></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Sync_Strategies" width="677" height="343" style="margin:0;width:677px;height:343px;border:none" src="sync_strategies.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Selecting this feature will scan through the <span style="font-weight: bold;">strategy position</span> of all enabled strategies which are not &quot;<span style="font-style: italic;">Wait until flat&quot;</span> on each account and instrument combination (including all instruments under a multi-series strategy) and will then compare the aggregated<span style="font-weight: bold;"> strategy position</span> to the <span style="font-weight: bold;">account position</span>. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Under the condition that the <span style="font-weight: bold;">account position</span> does <span style="font-weight: bold;">NOT</span> match the aggregated <span style="font-weight: bold;">strategy position</span>, a market order will be submitted to the account to match the aggregated<span style="font-weight: bold;"> strategy position</span>. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Consider the following scenario, where all 4 strategies are running on a live account which is currently <span style="font-weight: bold;">flat</span>:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Strategy Name</span></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Strategy Position</span></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Start Behavior</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy A</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">1L</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Immediately submit</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy B</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">2S</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Wait until flat</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy C</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Flat</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Immediately submit</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy D</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">1L</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Immediately submit</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Strategy A and D are both showing a 1 Long position and are both &quot;<span style="font-style: italic;">Immediately submit</span>&quot;</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Although Strategy B shows 2 Short, the strategy is currently &quot;<span style="font-style: italic;">Wait until flat</span>&quot; so it is <span style="font-weight: bold;">NOT</span> considered in this process</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Strategy C is Flat and does not contain a position</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Therefore, the calculated aggregated strategy position will be 2 long &nbsp;</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Selecting <span class="f_Menu">Synchronize All Strategies</span> with the above combination would then issue a market order to buy 2 contracts on the live account.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: The reconciliatory market order is submitted outside of the strategy so your strategy will not be able to manage it from methods like OnOrderUpdate(), OnExecution(), etc.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('WaitUntilFlat_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'WaitUntilFlat\',\'WaitUntilFlat_ICON\')');
+HMInitToggle('WaitUntilFlat','hm.type','dropdown','hm.state','0');
+HMInitToggle('WaitUntilFlatSynchronizeAccount_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'WaitUntilFlatSynchronizeAccount\',\'WaitUntilFlatSynchronizeAccount_ICON\')');
+HMInitToggle('WaitUntilFlatSynchronizeAccount','hm.type','dropdown','hm.state','0');
+HMInitToggle('ImmediatelySubmit_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ImmediatelySubmit\',\'ImmediatelySubmit_ICON\')');
+HMInitToggle('ImmediatelySubmit','hm.type','dropdown','hm.state','0');
+HMInitToggle('ImmediatelySubmitSynchronizeAccount_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ImmediatelySubmitSynchronizeAccount\',\'ImmediatelySubmitSynchronizeAccount_ICON\')');
+HMInitToggle('ImmediatelySubmitSynchronizeAccount','hm.type','dropdown','hm.state','0');
+HMInitToggle('AdoptAccountPosition_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AdoptAccountPosition\',\'AdoptAccountPosition_ICON\')');
+HMInitToggle('AdoptAccountPosition','hm.type','dropdown','hm.state','0');
+HMInitToggle('SynchronizeAllStrategies_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SynchronizeAllStrategies\',\'SynchronizeAllStrategies_ICON\')');
+HMInitToggle('SynchronizeAllStrategies','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

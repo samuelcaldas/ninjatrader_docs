@@ -1,0 +1,465 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Strategy Analyzer &gt; Backtest a Strategy</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "backtest_a_strategy.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Backtest a Strategy</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-311.htm?backtest_a_strategy.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations-1.htm">Operations</a> &gt; <a href="strategy_analyzer-1.htm">Strategy Analyzer</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Backtest a Strategy</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="strategy_analyzer_layout-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="strategy_analyzer-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="optimize_a_strategy-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">A backtest allows you to analyze the historical performance of a strategy. In order to run a backtest you will need:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin: 0 0 0 28px;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Access to <a href="data_by_provider-1.htm" class="topiclink">historical data</a></p><p class="p_Normal" style="text-indent: 0; padding-left: -9px; margin: 0 0 0 50px;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Custom NinjaScript *<a href="strategy-1.htm" class="topiclink">strategy</a> </p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;There are several pre-defined sample strategies that are installed with NinjaTrader that you can explore.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Video">
+<tr class="Video">
+<td class="Video"><h2 class="p_Heading2"><img id="playVideoImg" alt="playVideo" width="150" height="30" style="margin:0;width:150px;height:30px;border:none" src="playvideo.jpg"></h2>
+</td>
+</tr>
+<tr class="Video">
+<td class="Video"><div class="p_Heading2"><div style="margin:0;width:640px;height:auto"><div style="position:relative;overflow:hidden;width:640px;height:390px;padding:0;cursor:pointer;text-align:center;background:#000" onclick="javascript:this.innerHTML='&lt;iframe width=&quot;640&quot; height=&quot;390&quot; style=&quot;top:0;left:0;width:100%;height:100%;position:absolute&quot; src=&quot;https://www.youtube.com/embed/doNXy_AXQXo?showinfo=0&amp;autoplay=1&amp;controls=0&amp;rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';this.onclick=null"><img src="cicon_video_playbutton-1.png" style="position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;max-width:102px;max-height:104px;border:none"></div></div></div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: </p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>By default, the <span style="font-weight: bold;">Strategy Analyzer</span> downloads data from your market data provider which can slow down backtest progress for larger tests. &nbsp;If you wish to disable this feature and operate using existing data in your database, right click on the <span style="font-weight: bold;">Strategy Analyzer</span> &gt; select <span class="f_Menu">Properties</span> &gt; enable <span class="f_Menu">Use Local Data Only</span> </p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>The <a href="includetradehistoryinbacktest-1.htm" class="topiclink">IncludeTradeHistoryInBacktest</a> property is set to <span style="font-weight: bold;">false</span> by default when a strategy is applied in the <span style="font-weight: bold;">Strategy Analyzer</span> for backtesting. This provides for leaner memory usage, but at the expense of not being able to access <span style="font-weight: bold;">Trade</span> objects for historical trades. Thus, fields such as <a href="alltrades-1.htm" class="topiclink">SystemPerformance.AllTrades.Count</a> that rely on references to <span style="font-weight: bold;">Trade</span> objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set <span style="font-weight: bold;">IncludeTradeHistoryInBacktest</span> to <span style="font-weight: bold;">true</span> in the <span style="font-weight: bold;">Configure</span> state. For more information, see the <a href="strategyanalyzer_properties_2-1.htm" class="topiclink">Working with Historical Trade Data</a> page.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>A certain level of discrepancy between realtime and backtest results would be expected, especially on more exotic barstypes like Point &amp; Figure and Renko, please also review <a href="discrepancies_real-time_vs_bac-1.htm" class="topiclink">this page</a> for more details.</p></td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToRunABacktest_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToRunABacktest','HowToRunABacktest_ICON')">How&nbsp;to&nbsp;run&nbsp;a&nbsp;backtest</a></span></p>
+<div id="HowToRunABacktest" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="vertical-align:middle; width:50%; background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Start a Backtest</span></h2>
+<p class="p_Normal">To run a <span style="font-weight: bold;">Backtest</span> of a strategy:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="StrategyAnalyzer_StartBacktest" width="834" height="665" style="margin:0;width:834px;height:665px;border:none" src="strategyanalyzer_startbacktest.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Select the <span class="f_Menu">Backtest type</span> of &quot;<span class="f_Menu">Backtest</span>&quot;</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Select the strategy you would like to backtest</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Set the strategy and backtest parameters (See the &quot;<span style="font-style: italic;">Understanding backtest properties</span>&quot; section below for property definitions) </p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>Select the instrument and Data Series you would like to backtest</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>Select the &quot;<span class="f_Menu">Run</span>&quot; button to start the backtest</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;You can optionally configure a sound to be played when the Backtest completes. &nbsp;To enable this option, right click on the <span style="font-weight: bold;">Strategy Analyzer</span> &gt;  <span class="f_Menu">Properties</span> &gt;  <span class="f_Menu">Play sound on complete</span> &gt; Choose the sound file you wish to play (must be a .WAV)</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingBacktestProperties_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingBacktestProperties','UnderstandingBacktestProperties_ICON')">Understanding&nbsp;backtest&nbsp;properties</a></span></p>
+<div id="UnderstandingBacktestProperties" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Backtest Properties</span></h2>
+<p class="p_Normal">The following properties are available within the Backtest window:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="StrategyAnalyzer_Settings_Properties" width="359" height="874" style="margin:0;width:359px;height:874px;border:none" src="strategyanalyzer_settings_properties.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">General</span></p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Backtest type</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the backtest type.</p>
+<p class="p_Normal">1. <a href="backtest_a_strategy-1.htm" class="topiclink">Backtest</a></p>
+<p class="p_Normal">2. <a href="optimize_a_strategy-1.htm" class="topiclink">Optimization</a></p>
+<p class="p_Normal">3. <a href="walk_forward_optimize_a_strate-1.htm" class="topiclink">Walk Forward Optimization</a></p>
+<p class="p_Normal">4. <a href="multi-objective_optimization-1.htm" class="topiclink">Multi-Objective Optimization</a></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the strategy you would like to test. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Strategy parameters </span></p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Parameters (...)</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Each strategy parameter is listed dynamically depending on the strategy selection</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Data Series</span></p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the instrument or list you wish to test on</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Price based on</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the type of market data used to drive the Data Series</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Type</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the bar type of the Data Series.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Value</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the Data Series value.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Time frame</span></p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Start date</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the start date for the test period</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">End date</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the end date for the test period</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Trading hours</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the trading hour template for the Data Series. (See the &quot;<a href="trading_hours-1.htm" class="topiclink">Trading Hours</a>&quot; section of the Help Guide for more information)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Break at EOD</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables or disables the bars being reset at EOD (End Of Day). (See the <a href="break_at_eod-1.htm" class="topiclink">&quot;Break at EOD&quot;</a> section of the Help Guide for more information)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Set up</span></p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Include commission</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables or disables commissions in the backtest performance results (See the &quot;<a href="understanding_commissions-1.htm" class="topiclink">Commission Tab</a>&quot; section of the Help Guide for more information)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Maximum bars look back</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Max number of bars used for calculating an indicator's value. &nbsp;The &quot;<a href="maximumbarslookback-1.htm" class="topiclink">TwoHundredFiftySix</a>&quot; setting is the most memory friendly.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Bars required to trade</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the minimum number of bars required before orders will be allowed to be submitted</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Historical fill processing</span></p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order fill resolution</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the order fill resolution to be used for the backtest. (See the &quot;<a href="understanding_historical_fill_-1.htm" class="topiclink">Understanding Historical Fill Processing</a>&quot; section of the Help Guide for more information)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fill limit orders on touch</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables or disables the filling of limit orders on a single touch of price action. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Slippage</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Set the amount of slippage in ticks to apply to market / stop market / Market-if-touched order executions (default is 0)</p>
+<p class="p_Normal">Note: In the <span class="f_Menu">Summary</span> the <span class="f_Menu">Slippage</span> is displayed in points.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Order handling</span></p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Entries per direction</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the maximum number of entries allowed per direction while a position is active based on the &quot;<a href="entryhandling-1.htm" class="topiclink">Entry handling</a>&quot; property</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Entry handling</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the manner in how entry orders are handled. If set to &quot;AllEntries&quot;, the strategy will process all entry orders until the maximum allowable entries set by the &quot;Entries per direction&quot; property has been reached while in an open position. If set to &quot;UniqueEntries&quot;, strategy will process entry orders until the maximum allowable entries set by the &quot;Entries per direction&quot; property per each uniquely named entry.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Exit on session close</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When enabled, open positions are closed on the last bar of a session</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Order properties</span></p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Set order quantity</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets how the order size is determined, options are:</p>
+<p class="p_Normal">&quot;by default quantity&quot; - User defined order size</p>
+<p class="p_Normal">&quot;by strategy&quot; - Takes the order size specified programmatically within the strategy </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Time in force</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the order's time in force</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('HowToRunABacktest_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToRunABacktest\',\'HowToRunABacktest_ICON\')');
+HMInitToggle('HowToRunABacktest','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingBacktestProperties_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingBacktestProperties\',\'UnderstandingBacktestProperties_ICON\')');
+HMInitToggle('UnderstandingBacktestProperties','hm.type','dropdown','hm.state','0');
+</script>
+</div></body>
+  </html>

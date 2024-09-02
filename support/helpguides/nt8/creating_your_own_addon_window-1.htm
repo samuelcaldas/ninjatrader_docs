@@ -1,0 +1,889 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Educational Resources &gt; AddOn Development Overview &gt; Creating Your Own AddOn Window</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "creating_your_own_addon_window.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Creating Your Own AddOn Window</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-401.htm?creating_your_own_addon_window.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript-1.htm">NinjaScript</a> &gt; <a href="educational_resources-1.htm">Educational Resources</a> &gt; <a href="addon_development_overview-1.htm">AddOn Development Overview</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Creating Your Own AddOn Window</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="developing_add_ons-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="addon_development_overview-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="other_uses_for_an_addon-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <h2 class="p_Heading2"><span class="f_Heading2">The NTWindow Class</span></h2>
+<p class="p_Normal">The NTWindow class allows you to quickly build windows using the same style and skin as other windows in NinjaTrader. An NTWindow does not contain user-interface functionality, but rather serves as a container for instances of NTTabPage, which will contain controls and functionality for the window.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-style: italic; color: #008000;">/* This is where we define our AddOn window. The actual content is contained inside the tabs of the window defined in a custom class inheriting from NTTabPage.</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;"> &nbsp; &nbsp;We must create a new window class which inherits from Tools.NTWindow for styling and implements the IWorkspacePersistence interface for the ability to save/restore from workspaces.*/</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTWindow,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IWorkspacePersistence</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// set Caption property (not Title), since Title is managed internally to properly combine selected Tab Header and Caption for display in the windows taskbar</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// This is the name displayed in the top-left of the window</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Caption</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;AddOn Framework&quot;</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Set the initial dimensions of the window</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Width</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1085</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Height</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">900</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Using TabControl for Tab Functionality</span></h2>
+<p class="p_Normal">After declaring an NTWindow, you can enable tab functionality on it (creating new tabs, copying tabs, etc.). The process for implementing tab functionality must be done within the constructor for your NTWindow, using the following process:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Instantiate a new TabControl object </p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Call helper methods of the TabControlManager class, passing in your TabControl object as an argument, to enable specific functionality</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Use the same approach as #2 to set an NTTabFactory for your TabControl (see below for more information)</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>Set the Content property of your NTWindow to your TabControl</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTWindow,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IWorkspacePersistence</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">...</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// TabControl should be created for window content if tab features are wanted</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">TabControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">tc</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TabControl();</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Attached properties defined in TabControlManager class should be set to achieve tab moving, adding/removing tabs</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">TabControlManager.SetIsMovable(tc,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">true</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">TabControlManager.SetCanAddTabs(tc,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">true</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">TabControlManager.SetCanRemoveTabs(tc,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">true</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// if ability to add new tabs is desired, TabControl has to have attached property &quot;Factory&quot; set.</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">TabControlManager.SetFactory(tc,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindowFactory());</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Content</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">tc;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Note the instantiation of a new AddOnFrameworkWindowFactory in the example above. In this example, AddOnFrameworkWindowFactory is a custom class implementing the INTTabFactory interface. Within this class, the CreateParentWindow() and CreateTabPage() methods contained in INTTabFactory are hidden, as seen below:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-style: italic; color: #008000;">/* Class which implements Tools.INTTabFactory must be created and set as an attached property for TabControl</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">in order to use tab page add/remove/move/duplicate functionality */</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindowFactory</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">INTTabFactory</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// INTTabFactory member. Required to create parent window</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTWindow</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">CreateParentWindow()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow();</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// INTTabFactory member. Required to create tabs</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTTabPage</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">CreateTabPage(</span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">typeName,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">isTrue)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTraderAddOnProject.AddOnPage();</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: Take note of the instantiation of the AddOnPage class in the example above. In our example, AddOnPage is a XAML-defined class. Thus, when CreateTabPage() is called on an instance of AddOnFrameworkWindowFactory, it instantiates our XAML-defined user interface. See below for more information on defining user interfaces in XAML.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Creating an NTTabPage within an NTWindow</span></h2>
+<p class="p_Normal">With an NTWindow defined and a TabControl set up, the next step is to instantiate an NTTabPage and add it to your TabControl. The first step is to define a class inheriting NTTabPage and implementing the IInstrumentProvider and IIntervalProvider interfaces to set up window-linking functionality.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-style: italic; color: #008000;">/* This is where we define the actual content of the tabs for our AddOn window.</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;"> &nbsp; &nbsp;Note: Class derived from Tools.NTTabPage has to be created if instrument link or interval link functionality is desired.</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;"> &nbsp; &nbsp;Tools.IInstrumentProvider and/or Tools.IIntervalProvider interface(s) should be implemented.</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;"> &nbsp; &nbsp;Also NTTabPage provides additional functionality for properly naming tab headers using properties and variables such as @FUNCTION, @INSTRUMENT, etc. */</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkTab</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTTabPage,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.Gui.Tools.IInstrumentProvider,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.Gui.Tools.IIntervalProvider</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkTab()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">AddOnFrameworkWindowFactory myAddOnFrameworkWindowFactory = </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample"> AddOnFrameworkWindowFactory();</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Content</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myAddOnFrameworkWindowFactory</span><span class="f_CodeExample">.CreateTabPage(&quot;AddOnPage&quot;,true);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample">With this class defined, the next step is to add it to your TabControl. You can do this via the AddNTTabPage() helper method contained in your TabControl object:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTWindow,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IWorkspacePersistence</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic;">...</span><br>
+<span class="f_CodeExample" style="font-style: italic;">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">/* In order to have link buttons functionality, tab control items must be derived from Tools.NTTabPage</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;"> &nbsp; &nbsp; &nbsp; &nbsp;They can be added using extension method AddNTTabPage(NTTabPage page) */</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">tc.AddNTTabPage(</span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkTab());</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Setting Up Workspace Persistence</span></h2>
+<p class="p_Normal">The last step in setting up the foundation for your custom window is to configure it to be saved and restored in NinjaTrader workspaces.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Hide the WorkspaceOptions property of the implemented IWorkspacePersistence interface</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Use a delegate to set the WorkspaceOptions property to a new instance of the WorkspaceOptions class inside the NTWindow's constructor</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Hide the Restore() method of IWorkspacePersistence to call the static RestoreFromXElement() method on the MainTabControl property</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>Hide the Save() method of IWorkspacePersistence to call the static SaveToXElement method in the same way</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTWindow,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IWorkspacePersistence</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow()</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">...</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// WorkspaceOptions property must be set</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Loaded</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(o,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">e)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(WorkspaceOptions</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">WorkspaceOptions</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">WorkspaceOptions(</span><span class="f_CodeExample" style="color: #800000;">&quot;AddOnFramework-&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Guid.NewGuid().ToString(</span><span class="f_CodeExample" style="color: #800000;">&quot;N&quot;</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">this</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">};</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// IWorkspacePersistence member. Required for restoring window from workspace</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Restore(XDocument</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">document,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">XElement</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">element)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(MainTabControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">MainTabControl.RestoreFromXElement(element);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// IWorkspacePersistence member. Required for saving window to workspace</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Save(XDocument</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">document,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">XElement</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">element)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(MainTabControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">MainTabControl.SaveToXElement(element);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// IWorkspacePersistence member</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">WorkspaceOptions</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">WorkspaceOptions</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">get;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">set;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Using XAML to Define Window Layout</span></h2>
+<p class="p_Normal">There are two options available for laying out the user interface in your NTTabPage. The first is to use XAML, a markup language commonly used to define graphical interfaces in WPF applications. The process of pairing a XAML file with your C# classes is straightforward; simply create your XAML class in it's own file within your project, and it can be packaged together with your C# code in a DLL.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> Example of creating a two-column grid in XAML</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" style="height:129px;"><p class="p_CodeExample"><span class="f_CodeExample">&lt;Grid Background=&quot;Transparent&quot;&gt;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp;&lt;!-- Define our layout with two columns. Rows can then be assigned to columns --&gt;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp;&lt;Grid.ColumnDefinitions&gt;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp; &nbsp;&lt;ColumnDefinition Width=&quot;55*&quot;/&gt;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp; &nbsp;&lt;ColumnDefinition Width=&quot;45*&quot;/&gt;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp;&lt;/Grid.ColumnDefinitions&gt;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&lt;/Grid&gt;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Using C# to Define Window Layout</span></h2>
+<p class="p_Normal">You are not required to use XAML for window layout. You can code everything in C# if you choose. Defining user interface elements in C# is more verbose than XAML, but all of the same functionality is available. The example below shows the C# equivalent of the XAML code in the prior section.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> Example of creating a two-column grid in C#</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">Grid</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">grid</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid();</span><br>
+<span class="f_CodeExample">grid.Background</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SolidColorBrush(Colors.Transparent);</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">ColumnDefinition</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">col1</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ColumnDefinition();</span><br>
+<span class="f_CodeExample">col1.Width</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">= newGridLength(</span><span class="f_CodeExample" style="color: #ff6600;">55</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">ColumnDefinition</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">col2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ColumnDefinition();</span><br>
+<span class="f_CodeExample">col2.Width</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">newGridLength(</span><span class="f_CodeExample" style="color: #ff6600;">45</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;">&nbsp;</span><br>
+<span class="f_CodeExample">grid.ColumnDefinitions.Add(col1);</span><br>
+<span class="f_CodeExample">grid.ColumnDefinitions.Add(col2);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Launching Your Window From the Control Center</span></h2>
+<p class="p_Normal">Once your window is set up and laid out, you will need a way to launch it from the Control Center. This can be done by adding a new item into one of the Control Center's menus (most commonly the <span class="f_Menu">New</span> menu). This can be accomplished in four steps: </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Obtain a reference to the Control Center menu in question</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Instantiate an NTMenuItem</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Add your NTMenuItem into the menu</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>Attach you NTMenuItem's Click event to a custom event handler</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>Use your custom event handler to launch your NTWindow</p><h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Will be called as a new NTWindow is created. It will be called in the thread of that window</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnWindowCreated(Window</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">window)</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// We want to place our AddOn in the Control Center's menus</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">ControlCenter</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">cc</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">window</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ControlCenter;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(cc</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">return</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">/* Determine we want to place our AddOn in the Control Center's &quot;New&quot; menu</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;"> &nbsp; &nbsp;Other menus can be accessed via the control's &quot;Automation ID&quot;. For example: toolsMenuItem, workspacesMenuItem, connectionsMenuItem, helpMenuItem. */</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">existingMenuItemInControlCenter</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">cc.FindFirst(</span><span class="f_CodeExample" style="color: #800000;">&quot;ControlCenterMenuItemNew&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTMenuItem;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(existingMenuItemInControlCenter</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">return</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// 'Header' sets the name of our AddOn seen in the menu structure</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">addOnFrameworkMenuItem</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NTMenuItem</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Header</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;AddOn Framework&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Style</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Application.Current.TryFindResource(</span><span class="f_CodeExample" style="color: #800000;">&quot;MainMenuItem&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Style</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">};</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Add our AddOn into the &quot;New&quot; menu</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">existingMenuItemInControlCenter.Items.Add(addOnFrameworkMenuItem);</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Subscribe to the event for when the user presses our AddOn's menu item</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">addOnFrameworkMenuItem.Click</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMenuItemClick;</span><br>
+<span class="f_CodeExample">}</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Open our AddOn's window when the menu item is clicked on</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMenuItemClick(</span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">object</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">sender,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">RoutedEventArgs</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">e)</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">Core.Globals.RandomDispatcher.BeginInvoke(</span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Action(()</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AddOnFrameworkWindow().Show()));</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">As always, it is important to unsubscribe from event handlers and dispose of unused resources when they are no longer needed. The OnWindowDestroyed() method can be used to clean up our work from the examples above:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Will be called as a new NTWindow is destroyed. It will be called in the thread of that window</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnWindowDestroyed(Window</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">window)</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(addOnFrameworkMenuItem</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&amp;&amp;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">window</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">is</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ControlCenter)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(existingMenuItemInControlCenter</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&amp;&amp;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">existingMenuItemInControlCenter.Items.Contains(addOnFrameworkMenuItem))</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">existingMenuItemInControlCenter.Items.Remove(addOnFrameworkMenuItem);</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">addOnFrameworkMenuItem.Click</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">-=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnMenuItemClick;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">addOnFrameworkMenuItem</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Adding NinjaTrader Custom Controls</span></h2>
+<p class="p_Normal">User-interface controls, such as buttons, text fields, and dropdown menus can be defined via XAML (or C#), then behavior and functionality of those controls can be set via C# along with the core logic of your AddOn. In addition to the <a href="https://msdn.microsoft.com/en-us/library/bb655881(v=vs.90).aspx" target="_blank" class="weblink">standard WPF controls</a>, the NinjaScript AddOn framework provides access to each of the custom NinjaTrader controls that can be found throughout the platform. Below is a list of the most commonly used NinjaTrader controls, along with examples of defining these controls in XAML and adding functionality to them in C#:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">1. The Instrument Selector</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="AddOns_InstrumentSelector" width="214" height="306" style="margin:0;width:214px;height:306px;border:none" src="addons_instrumentselector.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_NSexamplesheading">XAML - Instrument Selector Definition</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">&lt;t:InstrumentSelector</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">x:Name=</span><span class="f_CodeExample" style="color: #800000;">&quot;instrumentSelector&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid.Row=</span><span class="f_CodeExample" style="color: #800000;">&quot;6&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid.Column=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LastUsedGroup=</span><span class="f_CodeExample" style="color: #800000;">&quot;AddOnFramework&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">InstrumentChanged=</span><span class="f_CodeExample" style="color: #800000;">&quot;OnInstrumentChanged&quot;</span><span class="f_CodeExample">&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;t:InstrumentSelector.Margin&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">&lt;Thickness</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Left=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginBase}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Top=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource PaddingColumn}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Bottom=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample">/&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;/t:InstrumentSelector.Margin&gt;</span><br>
+<span class="f_CodeExample">&lt;/t:InstrumentSelector&gt;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span><span class="f_NSexamplesheading">C# - Using the Instrument Selector</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">InstrumentSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">instrumentSelector;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">...</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// Find instrument selector and attach event handler</span><br>
+<span class="f_CodeExample">instrumentSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LogicalTreeHelper.FindLogicalNode(pageContent,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;instrumentSelector&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">InstrumentSelector;</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(instrumentSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">instrumentSelector.InstrumentChanged</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnInstrumentChanged;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">2. The Interval Selector</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="AddOns_IntervalSelector" width="382" height="245" style="margin:0;width:382px;height:245px;border:none" src="addons_intervalselector.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_NSexamplesheading">XAML - Interval Selector Definition</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">&lt;t:IntervalSelector</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">x:Name=</span><span class="f_CodeExample" style="color: #800000;">&quot;intervalSelector&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid.Column=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">HorizontalAlignment=</span><span class="f_CodeExample" style="color: #800000;">&quot;Left&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IntervalChanged=</span><span class="f_CodeExample" style="color: #800000;">&quot;OnIntervalChanged&quot;</span><span class="f_CodeExample">&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;t:IntervalSelector.Margin&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">&lt;Thickness</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Left=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginBase}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Top=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource PaddingColumn}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Bottom=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample">/&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;/t:IntervalSelector.Margin&gt;</span><br>
+<span class="f_CodeExample">&lt;/t:IntervalSelector&gt;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span><span class="f_NSexamplesheading">C# - Using the Interval Selector</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IntervalSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">intervalSelector;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">...</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// Find interval selector and attach event handler</span><br>
+<span class="f_CodeExample">intervalSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LogicalTreeHelper.FindLogicalNode(pageContent,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;intervalSelector&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IntervalSelector;</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(intervalSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">intervalSelector.IntervalChanged</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnIntervalChanged;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">3. The Quantity Up/Down Selector</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="AddOns_QuantitySelector" width="282" height="134" style="margin:0;width:282px;height:134px;border:none" src="addons_quantityselector.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_NSexamplesheading">XAML - Quantity Up/Down Selector Definition</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">&lt;t:QuantityUpDown</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">x:Name=</span><span class="f_CodeExample" style="color: #800000;">&quot;qudSelector&quot;</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample">Value=</span><span class="f_CodeExample" style="color: #800000;">&quot;1&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid.Row=</span><span class="f_CodeExample" style="color: #800000;">&quot;12&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid.Column=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample">&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;t:QuantityUpDown.Margin&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">&lt;Thickness</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Left=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginBase}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Top=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginControl}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Bottom=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;/t:QuantityUpDown.Margin&gt;</span><br>
+<span class="f_CodeExample">&lt;/t:QuantityUpDown&gt;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span><span class="f_NSexamplesheading">C# - Using the Quantity Up/Down Selector</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">QuantityUpDown</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">qudSelector;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">...</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// Find Quanity selector</span><br>
+<span class="f_CodeExample">qudSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LogicalTreeHelper.FindLogicalNode(pageContent,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;qudSelector&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">QuantityUpDown;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">4. The Time-in-Force Selector</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="AddOns_TifSelector" width="189" height="119" style="margin:0;width:189px;height:119px;border:none" src="addons_tifselector.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_NSexamplesheading">XAML - Time-in-Force Selector Definition</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">&lt;t:TifSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">x:Name=</span><span class="f_CodeExample" style="color: #800000;">&quot;tifSelector&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">Grid.Row=</span><span class="f_CodeExample" style="color: #800000;">&quot;12&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid.Column=</span><span class="f_CodeExample" style="color: #800000;">&quot;1&quot;</span><span class="f_CodeExample">&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;t:TifSelector.Margin&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">&lt;Thickness</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Left=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginButtonLeft}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Top=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginControl}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Right=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Bottom=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;/t:TifSelector.Margin&gt;</span><br>
+<span class="f_CodeExample">&lt;/t:TifSelector&gt;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span><span class="f_NSexamplesheading">C# - Using the Time-in-Force Selector</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TifSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">tifSelector;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">...</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// Find TIF selector</span><br>
+<span class="f_CodeExample">tifSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LogicalTreeHelper.FindLogicalNode(pageContent,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;tifSelector&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TifSelector;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// Be sure to bind our account selector to our TIF selector to ensure proper functionality</span><br>
+<span class="f_CodeExample">tifSelector.SetBinding(TifSelector.AccountProperty,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Binding</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Source</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">accountSelector,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Path</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PropertyPath(</span><span class="f_CodeExample" style="color: #800000;">&quot;SelectedAccount&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">});</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// When our TIF selector's selection changes</span><br>
+<span class="f_CodeExample">tifSelector.SelectionChanged</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(o,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">args)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=&gt;</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Change the selected TIF in the ATM strategy too</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(atmStrategySelector.SelectedAtmStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">atmStrategySelector.SelectedAtmStrategy.TimeInForce</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">tifSelector.SelectedTif;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">};</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">5. The ATM Strategy Selector</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="AddOns_AtmSelector" width="162" height="102" style="margin:0;width:162px;height:102px;border:none" src="addons_atmselector.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_NSexamplesheading">XAML - ATM Strategy Selector Definition</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">&lt;AtmStrategy:AtmStrategySelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">x:Name=</span><span class="f_CodeExample" style="color: #800000;">&quot;atmStrategySelector&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LinkedQuantity=</span><span class="f_CodeExample" style="color: #800000;">&quot;{Binding ElementName=qudSelector, Path=Value, Mode=OneWay}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid.Row=</span><span class="f_CodeExample" style="color: #800000;">&quot;12&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Grid.Column=</span><span class="f_CodeExample" style="color: #800000;">&quot;2&quot;</span><span class="f_CodeExample">&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;AtmStrategy:AtmStrategySelector.Margin&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">&lt;Thickness</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Left=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginButtonLeft}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Top=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginControl}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Right=</span><span class="f_CodeExample" style="color: #800000;">&quot;{StaticResource MarginBase}&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Bottom=</span><span class="f_CodeExample" style="color: #800000;">&quot;0&quot;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/&gt;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">&lt;/AtmStrategy:AtmStrategySelector.Margin&gt;</span><br>
+<span class="f_CodeExample">&lt;/AtmStrategy:AtmStrategySelector&gt;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span><span class="f_NSexamplesheading">C# - Using the ATM Strategy Selector</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AtmStrategy.AtmStrategySelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">atmStrategySelector;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample">...</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// Find ATM Strategy selector and attach event handler</span><br>
+<span class="f_CodeExample">atmStrategySelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LogicalTreeHelper.FindLogicalNode(pageContent,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;atmStrategySelector&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">AtmStrategy.AtmStrategySelector;</span><br>
+<span class="f_CodeExample">atmStrategySelector.Id</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Guid.NewGuid().ToString(</span><span class="f_CodeExample" style="color: #800000;">&quot;N&quot;</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(atmStrategySelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">atmStrategySelector.CustomPropertiesChanged</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnAtmCustomPropertiesChanged;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// Be sure to bind our account selector to our ATM strategy selector to ensure proper functionality</span><br>
+<span class="f_CodeExample">atmStrategySelector.SetBinding(AtmStrategy.AtmStrategySelector.AccountProperty,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Binding</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Source</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">accountSelector,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Path</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PropertyPath(</span><span class="f_CodeExample" style="color: #800000;">&quot;SelectedAccount&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">});</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// When our ATM selector's selection changes</span><br>
+<span class="f_CodeExample">atmStrategySelector.SelectionChanged</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(o,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">args)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=&gt;</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(atmStrategySelector.SelectedItem</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">return</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(args.AddedItems.Count</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Change the selected TIF in our TIF selector too</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">NinjaTrader.NinjaScript.AtmStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">selectedAtmStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">args.AddedItems[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.NinjaScript.AtmStrategy;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(selectedAtmStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">tifSelector.SelectedTif</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">selectedAtmStrategy.TimeInForce;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">};</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Linking with Other Windows</span></h2>
+<p class="p_Normal">If you utilize NinjaTrader controls to allow selection of instruments or intervals, you can add instrument or interval linking functionality to your window. The PropagateInstrumentChange() and PropagateIntervalChange() methods can be used to accomplish this. To call PropagateIntervalChange(), use the process below:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Hide the Instrument property of the IInstrumentProvider interface, which your NTTabPage inheriting class should be implementing</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Call PropagateInstrumentChange() within the setter for the hidden Instrument property</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-style: italic; color: #008000;">// IInstrumentProvider member. Required if you want to use the instrument link mechanism on this window.</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Cbi.Instrument</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Instrument</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">get</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">instrument;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">set</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Send instrument to other windows linked to the same color</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">PropagateInstrumentChange(value);</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In a real-world scenario, you would most likely use an instrument selector to call the setter for the Instrument property. Thus, when a user toggled the instrument selector, PropagateInstrumentChange() would be called in addition to any other logic you put in place. In the same way, you can use an interval selector to push changes to the Interval Linking feature. In this case, you can attach a custom event handler to an interval selector's IntervalChanged event, then call PropagateIntervalChange() within that event handler:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_ExampleText"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"><span class="f_ExampleText"> </span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">...</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// Find an interval selector that we've added to our UI, and attach a custom event handler</span><br>
+<span class="f_CodeExample">intervalSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LogicalTreeHelper.FindLogicalNode(pageContent,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;intervalSelector&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IntervalSelector;</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(intervalSelector</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">intervalSelector.IntervalChanged</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnIntervalChanged;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;</span><br>
+<span class="f_CodeExample">...</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="font-style: italic; color: #008000;">// This method is fired when our interval selector changes intervals</span><br>
+<span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnIntervalChanged(</span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">object</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">sender,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriodEventArgs</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">args)</span><br>
+<span class="f_CodeExample">{</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(args.BarsPeriod</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="font-weight: bold; color: #0000ff;">return</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample">&nbsp;</span><br>
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">PropagateIntervalChange(args.BarsPeriod);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br>
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    </div></body>
+  </html>

@@ -1,0 +1,611 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Automated Trading &gt; Automated Trading Interface (ATI) &gt; Commands and Valid Parameters</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "commands_and_valid_parameters.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Commands and Valid Parameters</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?commands_and_valid_parameters.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations.htm">Operations</a> &gt; <a href="automated_trading.htm">Automated Trading</a> &gt; <a href="automated_trading_interface_at.htm">Automated Trading Interface (ATI)</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Commands and Valid Parameters</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="what_can_i_do_and_how_.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="automated_trading_interface_at.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="initialization.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">The following section is only relevant for the File and DLL interfaces. Both interfaces share common interface functions/methods that take as arguments the parameters defined in the tables below. You can automate your trading through eight different commands. Command definitions are also provided below.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="UnderstandingParametersAndValidValues_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingParametersAndValidValues','UnderstandingParametersAndValidValues_ICON')">Understanding&nbsp;parameters&nbsp;and&nbsp;valid&nbsp;values</a></span></p>
+<div id="UnderstandingParametersAndValidValues" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Available Parameters and Valid Values</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:16%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Parameters</span></p>
+</td>
+<td style="vertical-align:top; width:50%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Values</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">COMMAND</p>
+</td>
+<td style="vertical-align:top; width:50%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">CANCEL, CANCELALLORDERS, CHANGE, CLOSEPOSITION, CLOSESTRATEGY, FLATTENEVERYTHING, PLACE, REVERSEPOSITION</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ACCOUNT</p>
+</td>
+<td style="vertical-align:top; width:50%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The name of the account the command is to be processed (This will reflect the Account's <span style="font-weight: bold;">Name </span>property as opposed to the <span style="font-weight: bold;">Display Name</span> property.)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">INSTRUMENT</p>
+</td>
+<td style="vertical-align:top; width:50%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument name</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ACTION</p>
+</td>
+<td style="vertical-align:top; width:50%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">BUY, SELL</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">QTY</p>
+</td>
+<td style="vertical-align:top; width:50%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Any integer value</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ORDER TYPE</p>
+</td>
+<td style="vertical-align:top; width:50%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">MARKET, LIMIT, STOPMARKET, STOPLIMIT</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">LIMIT PRICE</p>
+</td>
+<td style="vertical-align:top; width:50%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Any decimal value (use decimals not commas 1212.25 for example)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">STOP PRICE</p>
+</td>
+<td style="vertical-align:top; width:50%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Any decimal value</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">TIF</p>
+</td>
+<td style="vertical-align:top; width:50%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">DAY, GTC</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OCO ID</p>
+</td>
+<td style="vertical-align:top; width:50%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Any string value</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ORDER ID</p>
+</td>
+<td style="vertical-align:top; width:50%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Any string value (must be unique for each line/file)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">STRATEGY</p>
+</td>
+<td style="vertical-align:top; width:50%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy template name (must exist in NinjaTrader)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:16%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">STRATEGY ID</p>
+</td>
+<td style="vertical-align:top; width:10%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Any string value (must be unique for each line/file)</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheParametersAvailableToCommands_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheParametersAvailableToCommands','UnderstandingTheParametersAvailableToCommands_ICON')">Understanding&nbsp;the&nbsp;parameters&nbsp;available&nbsp;to&nbsp;commands</a></span></p>
+<div id="UnderstandingTheParametersAvailableToCommands" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Available</span><span class="f_Heading2"> Commands</span></h2>
+<p class="p_Normal">The following table displays required (R) and optional (O) values for each different command value.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:162px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Command</span></p>
+</td>
+<td style="vertical-align:top; width:100px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Account</span></p>
+</td>
+<td style="vertical-align:top; width:100px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Instrument</span></p>
+</td>
+<td style="vertical-align:top; width:67px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Actions</span></p>
+</td>
+<td style="vertical-align:top; width:46px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Qty</span></p>
+</td>
+<td style="vertical-align:top; width:105px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Order TYpe</span></p>
+</td>
+<td style="vertical-align:top; width:105px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Limit Price</span></p>
+</td>
+<td style="vertical-align:top; width:105px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Stop Price</span></p>
+</td>
+<td style="vertical-align:top; width:46px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">TIF</span></p>
+</td>
+<td style="vertical-align:top; width:70px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">OCO ID</span></p>
+</td>
+<td style="vertical-align:top; width:95px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Order ID</span></p>
+</td>
+<td style="vertical-align:top; width:85px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Strategy</span></p>
+</td>
+<td style="vertical-align:top; width:100px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Strategy ID</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">CANCEL</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">CANCELALLORDERS</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">CHANGE</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">CLOSEPOSITION</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">CLOSESTRATEGY</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">FLATTENEVERYTHING</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">PLACE</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">REVERSEPOSITION</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">R</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">O</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheCommands_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheCommands','UnderstandingTheCommands_ICON')">Understanding&nbsp;the&nbsp;commands</a></span></p>
+<div id="UnderstandingTheCommands" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">Following are the descriptions of each available command. </p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">CANCEL COMMAND</span></h2>
+<p class="p_Normal">This command will cancel an order and requires an order ID value and an optional strategy ID value. The order ID value must match either the order ID value given to an order placed through the PLACE command or, an order name such as ENTRY*, EXIT*, STOP*, SIMSTOP* or TARGET*. The star (*) represents an integer value such as TARGET1 or TARGET2. Order names are only valid if a valid strategy ID value is passed. The strategy ID value must match a strategy ID value given to a strategy in the PLACE command. </p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">CANCELALLORDERS COMMAND </span><br />
+This command will cancel all active orders across all accounts and broker connections.</h2>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">CHANGE COMMAND</span></h2>
+<p class="p_Normal">This command will change the parameters of an order and requires an order ID value, optional price and quantity values and an optional strategy ID value. The order ID value must match either the order ID value given to an order placed through the PLACE command or, an order name such as ENTRY*, EXIT*, STOP*, SIMSTOP* or TARGET*. The star (*) represents an integer value such as TARGET1 or TARGET2. Order names are only valid if a valid strategy ID value is passed. Pass in zero (0) values for price and quantity if you do not wish to change these order parameters. Price values must be in US decimal format (1212.25 is correct while 1212,25 is not). </p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">CLOSEPOSITION COMMAND</span></h2>
+<p class="p_Normal">This command will close a position and requires an account name value and an instrument name value. The instrument name value is the name of the NinjaTrader instrument including the exchange name. For equities, the symbol is sufficient. This command will cancel any working orders and flatten the position. </p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">CLOSESTRATEGY COMMAND</span></h2>
+<p class="p_Normal">This command will close an ATM Strategy and requires a strategy ID value. The strategy ID value must match a strategy ID given to a strategy in the PLACE command. This command will close the specified strategy.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">FLATTENEVERYTHING COMMAND</span></h2>
+<p class="p_Normal">This command will cancel all active orders and flatten all positions across all accounts and broker connections. </p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">PLACE COMMAND</span></h2>
+<p class="p_Normal">This command will place orders, place orders that initiate a NinjaTrader <a href="atm_strategy.htm" class="topiclink">ATM Strategy</a>, or place orders that are applied to an active NinjaTrader position ATM Strategy. Providing the optional strategy name field with a valid ATM Strategy template name will result in execution of that ATM Strategy once the order is partially or completely filled. Pass in an optional unique string value for the strategy ID in order to reference that ATM Strategy via other commands. To apply an order to an active ATM Strategy (existing strategies Stop Loss and Profit Target orders are amended) pass in the active strategy ID value and leave the strategy name field blank. Pass in an optional unique string value for the order ID in order to reference that order via other commands. If specifying an ATM Strategy template name, there is no need to pass in an order ID as the strategy based orders can be referenced by their internally generated names such as TARGET1, STOP1 and so on.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">REVERSEPOSITION COMMAND</span></h2>
+<p class="p_Normal">This command will close the current position and place an order in the opposite direction. The field requirements are identical to the PLACE command.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('UnderstandingParametersAndValidValues_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingParametersAndValidValues\',\'UnderstandingParametersAndValidValues_ICON\')');
+HMInitToggle('UnderstandingParametersAndValidValues','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingTheParametersAvailableToCommands_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheParametersAvailableToCommands\',\'UnderstandingTheParametersAvailableToCommands_ICON\')');
+HMInitToggle('UnderstandingTheParametersAvailableToCommands','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingTheCommands_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheCommands\',\'UnderstandingTheCommands_ICON\')');
+HMInitToggle('UnderstandingTheCommands','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

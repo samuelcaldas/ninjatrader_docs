@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>NinjaTrader 8</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <link type="text/css" href="default.css" rel="stylesheet" />
+  <script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript" src="helpman_settings.js"></script>
+  <script type="text/javascript" src="helpman_navigation.js"></script>
+  <script type="text/javascript" src="hmcontextids.js"></script>
+
+
+  <style type="text/css"> 
+  html {
+    overflow: hidden;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #E9E9EA;
+  }
+  #hmnavbox {
+    position: absolute;
+    left: 0px;
+    width: 275px;
+    min-width: 15px;
+    top: 0px;
+    bottom: 0px;
+    box-shadow: 0px 2px 2px #777;
+    background-color: #F4F4F4;
+  }
+  #hmcontentbox {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 280px;
+    background: #FFF;
+    box-shadow: 0px 2px 2px #777;
+  }
+  #hmsplitter:hover, #hmsplitter:active {
+    box-shadow: 0px 0px 2px #999;
+  }
+  iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  } 
+    
+  </style>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if (!hmSupportsAbspos()) {
+      	$(window).bind("resize", function() {
+      	  hmNoAbsposResize($("#hmheadbox"), true, false);
+      	  hmNoAbsposResize($("#hmnavbox"), false, true);
+      	  hmNoAbsposResize($("#hmcontentbox"), true, true);
+	    });
+	    $(window).trigger("resize");
+	  }
+      hmCreateVSplitter($("#hmnavbox"),$("#hmcontentbox"));
+    });
+  </script>
+
+</head>
+<body>
+  
+    </div>
+</div>
+<div id="navbar">
+        
+</div>
+<div id="hmnavbox">
+  <iframe name="hmnavigation" id="hmnavigation" src="hmcontent.htm" seamless="seamless" title="Navigation Pane" frameborder="0"></iframe>
+</div>
+
+<div id="hmcontentbox" >
+  <script type="text/javascript">
+    var defaulttopic="welcome.htm";
+    var query = window.location.search.substring(1), hash = window.location.hash, xssTest = /javascript|:|&#58;|&#x3a;|%3a|3a;|58;|\//i;
+    if (query !== "") query = (xssTest.test(query)) ? "" : query;
+    if (hash !== "") hash = (xssTest.test(hash)) ? "" : hash;
+    if (query != "") {
+      if (typeof(hmGetContextId) != "undefined") {
+        var tmpCntx = hmGetContextId(query);
+        if (tmpCntx != "") {
+          defaulttopic = tmpCntx;
+        } else {
+          defaulttopic = query + hash;
+        }
+      }
+    }
+    document.write('<iframe name="hmcontent" id="hmcontent" src="'+defaulttopic+'" seamless="seamless" title="Content Page" frameborder="0"></iframe>');
+  </script>
+  <noscript>
+    <iframe name="hmcontent" id="hmcontent" src="welcome.htm" seamless="seamless" title="Content Page" frameborder="0"></iframe>
+  </noscript> 
+</div>
+</body>
+</html>
+

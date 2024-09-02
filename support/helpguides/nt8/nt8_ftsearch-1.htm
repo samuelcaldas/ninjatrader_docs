@@ -1,0 +1,43 @@
+﻿<!DOCTYPE HTML>
+<html><head>
+   <title>NinjaTrader 8</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="default-1.css" rel="stylesheet">
+   <link type="text/css" href="custom-1.css" rel="stylesheet">
+
+   <!-- You can change the fonts, text colors, and styles of your search results with the CSS below -->
+  
+</head>
+<body>
+<div id="navbar">
+<a class="selected" href="welcome-1.htm" title="Index" target="hmcontent"><img src="nt8logo-1.png" alt="Back to Index"></a><br>
+<a class="selected" href="nt8_content-1.htm" title="Table of Contents" target="hmnavigation">Back to Table of Contents</a>
+<hr>
+  <!-- This is where the search form and results will appear -->
+<div id="loadingmsg" align="center"><img src="cicon_loadindex_ani-1.gif" style="border:none" alt="Loading..."></div>
+<script type="text/javascript" src="settings-1.js" charset="UTF-8"></script>
+<script type="text/javascript" src="zoom_search-1.js"></script>
+<script type="text/javascript">ZoomSearch();</script>
+
+
+<noscript>
+<p>You must have JavaScript enabled to use this version of the search engine.</p>
+</noscript>
+</div></body>
+<script type="text/javascript">
+function trackSearch(sbx) {
+  if ((parent.frames.length>0) && (parent.gaaccount)) {
+    parent.track("search", "/search?q=" + sbx.value.replace(/\s/g, "+"));
+  }
+}
+var inputs = document.getElementsByTagName("input");
+for (var i = 0; i < inputs.length; i++) {
+  if (inputs[i].className=="zoom_button") { var btn = inputs[i]; }
+  else if (inputs[i].className=="zoom_searchbox") { var sbx = inputs[i]; };
+}
+if ((btn)&&(sbx)) { btn.onclick = new Function("trackSearch(sbx);") }
+</script>
+</html>

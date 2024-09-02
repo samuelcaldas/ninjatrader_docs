@@ -1,0 +1,1562 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Educational Resources &gt; Using SharpDX for Custom Chart Rendering</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "using_sharpdx_for_custom_chart_rendering.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Using SharpDX for Custom Chart Rendering</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?using_sharpdx_for_custom_chart_rendering.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a> &gt; <a href="educational_resources.htm">Educational Resources</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Using SharpDX for Custom Chart Rendering</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="using_images_and_geometry_with_custom_icons.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="educational_resources.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="working_with_brushes.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <h2 class="p_Heading2"><span class="f_Heading2">Understanding the SharpDX .NET Library</span></h2>
+<p class="p_Definition">NinjaTrader<span class="f_Definition"> Chart objects (such as Indicators, Strategies, DrawingTools, ChartStyles) implement an <a href="onrender.htm" class="topiclink">OnRender()</a> method aimed to render custom lines, shapes, and text to the chart. &nbsp;To achieve the level of performance required to keep up with market data events, </span>NinjaTrader<span class="f_Definition"> uses a 3rd-party open-source .NET library </span><span class="f_Definition">named <a href="http://sharpdx.org/" target="_blank" class="weblink">SharpDX</a></span><span class="f_Definition">. &nbsp;This 3rd party library provides a C# wrapper for the powerful <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ee663274(v=vs.85).aspx" target="_blank" class="weblink">Microsoft DirectX API</a> used for graphics processing and known for its hardware-accelerated performance, including 2D vector and text layout graphics used for </span><span style="font-weight: bold;">NinjaTrader</span><span class="f_Definition" style="font-weight: bold;"> Chart Rendering</span><span class="f_Definition">. &nbsp;The SharpDX/DirectX library is extensive, although </span>NinjaTrader<span class="f_Definition"> only uses a handful of namespaces and classes, which are documented as a guide in this reference. &nbsp;In addition to this educational resource, we have also compiled a more focused collection of <a href="sharpdx_sdk_reference.htm" class="topiclink">SharpDX SDK Reference</a> resources to help you learn the </span><span class="f_Definition" style="font-weight: bold;">SharpDX</span><span class="f_Definition"> concepts used in </span><span style="font-weight: bold;">NinjaTrader</span><span class="f_Definition" style="font-weight: bold;"> Chart Rendering</span><span class="f_Definition">.</span></p>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Definition"><span class="f_Definition" style="font-weight: bold;">Tips</span><span class="f_Definition">: &nbsp;</span></p>
+<p class="p_Definition" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Definition" style="display:inline-block;width:20px;margin-left:-20px">1.</span><span class="f_Definition">There are several pre-installed examples of </span><span class="f_Definition" style="font-weight: bold;">OnRender()</span><span class="f_Definition"> and </span><span class="f_Definition" style="font-weight: bold;">SharpDX</span><span class="f_Definition"> objects used in the </span><span style="font-weight: bold;">NinjaTrader</span><span class="f_Definition" style="font-weight: bold;">.Custom</span><span class="f_Definition"> project. &nbsp;For starters, please look at the </span><span class="f_Definition" style="font-weight: bold;">SampleCustomRender</span><span class="f_Definition"> indicator file</span></p><p class="p_Definition" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Definition" style="display:inline-block;width:20px;margin-left:-20px">2.</span><span class="f_Definition">Although not entirely identical, the </span><span class="f_Definition" style="font-weight: bold;">SharpDX</span><span class="f_Definition"> wrapper is designed to resemble </span><span class="f_Definition" style="font-weight: bold;">System.Drawing</span><span class="f_Definition"> namespace; experienced GDI developers will be familiar with concepts discussed in this section.</span></p><p class="p_Definition" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Definition" style="display:inline-block;width:20px;margin-left:-20px">3.</span><span class="f_Definition">Microsoft provides various <a href="https://msdn.microsoft.com/en-us/library/dd372337(v=vs.85).aspx" target="_blank" class="weblink">DirectX Programming Guides</a> aimed to educate users with the underlying</span><span class="f_Definition" style="font-weight: bold;"> C++ DirectX API</span><span class="f_Definition">. &nbsp;While </span><span class="f_Definition" style="font-weight: bold;">SharpDX (C#)</span><span class="f_Definition"> syntax is different, you may find these guides helpful for understanding </span><span class="f_Definition" style="font-weight: bold;">SharpDX</span><span class="f_Definition"> concepts not offered by this guide.</span></p></td>
+</tr>
+</table>
+</div>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<p class="p_Definition"><span class="f_Definition">There are three main </span><span class="f_Definition" style="font-weight: bold;">SharpDX</span><span class="f_Definition"> namespaces you need to be familiar with:</span></p>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx.htm" class="topiclink">SharpDX</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Contains basic objects used by SharpDX. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1.htm" class="topiclink">SharpDX.Direct2D1</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Contains objects used for rendering for 2D geometry, bitmaps, and text.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_directwrite.htm" class="topiclink">SharpDX.DirectWrite</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Contains objects used for text rendering</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
+<p class="p_Definition"><span class="f_Definition">The rest of this page will help you navigate the fundamental concepts needed to achieve custom rendering to your charts.</span></p>
+<p class="p_ToggleHeading"><img id="SharpDXVectorsAndChartingCoordinates_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SharpDXVectorsAndChartingCoordinates','SharpDXVectorsAndChartingCoordinates_ICON')">SharpDX&nbsp;Vectors&nbsp;and&nbsp;Charting&nbsp;Coordinates</a></span></p>
+<div id="SharpDXVectorsAndChartingCoordinates" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Understanding the SharpDX.Vector2</span></h2>
+<p class="p_Normal">SharpDX Draw methods use a <a href="sharpdx_vector2.htm" class="topiclink">SharpDX.Vector2</a> object which describes where to render a command relative to the chart panel. &nbsp;These <span style="font-weight: bold;">Vector2</span> objects can be thought as a two-dimensional point in the chart panels X and Y axis. Since the chart canvas used to draw on consists of the full panel of the chart, a vector using a value of 0 for both the X and Y coordinates would &nbsp;be located in the top left corner of the chart:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// creates a vector located at the top left corner of the chart</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">x</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">y</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myVector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Vector2(x,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">y);</span><span class="f_CodeExample" style="color: #ffffff;"> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp; You can learn about <a href="working_with_chart_object_coordinates.htm" class="topiclink">Understanding Chart Canvas Coordinates</a> on another topic</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-weight: bold;">Vector2</span> objects contain <span style="font-weight: bold;">X </span>and<span style="font-weight: bold;"> Y</span> properties helpful to recalculate new properties based on the initial vector:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; color: #0000ff; background-color: #ffffff;">float</span><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">&nbsp;width = endPoint.X - startPoint.X;</span></h2>
+<h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; color: #0000ff; background-color: #ffffff;">float</span><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">&nbsp;height = endPoint.Y - startPoint.Y;</span></h2>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">Additionally, you can recalculate a new vector from existing vector objects:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">center</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample">It is also helpful to know that <span style="font-weight: bold;">Vector2</span> objects are similar to the <a href="https://msdn.microsoft.com/en-us/library/system.windows.point(v=vs.110).aspx" target="_blank" class="weblink">Windows Point</a> structure and these two types can be used interchangeably. &nbsp;Depending on the mechanism used to obtain user input or other application values, you may receive the coordinates in a <span style="font-weight: bold;">Point</span>. &nbsp;For convenience, NinjaTrader provides a <a href="dxextensions_tovector2.htm" class="topiclink">DXExtension.ToVector2()</a> method used for converting between these two objects if needed:</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxVector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">wpfPoint.ToVector2();</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Calculating Chart Coordinates</span></h2>
+<p class="p_Normal">If you simply used a vector with static values, your <span style="font-weight: bold;">Vector2</span> objects would never change, and your drawing would remain fixed on a particular area of the chart (which may be desired). &nbsp;However, since NinjaTrader charts are dynamic and responded to various market data updates, scroll, resize, and scale operations - you also need a way to recalculate <span style="font-weight: bold;">vectors</span> to display information dynamically. To assist in this process, NinjaTrader provides some GUI related utilities to help navigate the chart and calculate values for your custom rendering. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><h2 class="p_Heading2"><span class="f_CodeExample" style="color: #008000;">// creates a vector located at the top left corner of the chart panel</span></h2>
+<h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">startPoint =&nbsp;</span><span style="font-size: 10pt; font-family: Consolas; color: #0000ff; background-color: #ffffff;">new</span><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">&nbsp;SharpDX.</span><span style="font-size: 10pt; font-family: Consolas; color: #2b91af; background-color: #ffffff;">Vector2</span><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">(ChartPanel.X, ChartPanel.Y);</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_CodeExample" style="color: #008000;">// creates a vector located at the bottom right corner of the chart panel</span></h2>
+<h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">endPoint =&nbsp;</span><span style="font-size: 10pt; font-family: Consolas; color: #0000ff; background-color: #ffffff;">new</span><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">&nbsp;SharpDX.</span><span style="font-size: 10pt; font-family: Consolas; color: #2b91af; background-color: #ffffff;">Vector2</span><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">(ChartPanel.X + ChartPanel.W, ChartPanel.Y + ChartPanel.H);</span></h2>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Common utilities fall under 4 key components, and you can learn more about their specific functions from the help guide topics linked in the table below:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="chartcontrol.htm" class="topiclink">ChartControl</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The entire hosting grid of the Chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="chartbars.htm" class="topiclink">ChartBars</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The primary bars series configured on the Chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="chartpanel.htm" class="topiclink">ChartPanel</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The panel on which the calling script resides</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="chartscale.htm" class="topiclink">ChartScale</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"> The Y-Axis values of the configured ChartPanel</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp; For full absolute device coordinates always use <span style="font-weight: bold;">ChartPanel</span> X, Y, W, H values.  <span style="font-weight: bold;">ChartScale</span> and <span style="font-weight: bold;">ChartControl</span> properties return WPF units, so they can be drastically different depending on DPI of the user's display. &nbsp;You can learn about  <a href="working_with_pixel_coordinates.htm" class="topiclink">Working with Pixel Coordinates</a> on another topic.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="SharpDXBrushResources_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SharpDXBrushResources','SharpDXBrushResources_ICON')">SharpDX&nbsp;Brush&nbsp;Resources</a></span></p>
+<div id="SharpDXBrushResources" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Understanding SharpDX Brush Resources</span></h2>
+<p class="p_Normal">To color or &quot;paint&quot; an area of the chart, you must define custom resources which describe how you wish the custom render to appear.  <span style="font-weight: bold;">SharpDX</span> contains special resources modeled after the familiar <a href="working_with_brushes.htm" class="topiclink">WPF Brushes</a>. However, the two objects are different in the way they are constructed and also in how they are managed after they are used.</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">There are many types of <span style="font-weight: bold;">SharpDX Brush Resources</span> which all derive from the same base <a href="sharpdx_direct2d1_brush.htm" class="topiclink">Direct2D1.Brush</a> class. &nbsp;This base object is not enough to describe how your object should be presented, so in order to use a brush for rendering purposes, you will need to determine exactly what type of brush you wish to use:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_solidcolorbrush.htm" class="topiclink">Direct2D1.SolidColorBrush</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Paints an area with a solid color.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_radialgradientbrush.htm" class="topiclink">Direct2D1.RadialGradientBrush</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Paints an area with a radial gradient.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_lineargradientbrush.htm" class="topiclink">Direct2D1.LinearGradientBrush</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Paints an area with a linear gradient.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Describing SolidColorBrush Colors</span></h2>
+<p class="p_Normal">The most common and simple brush to use is a <a href="sharpdx_direct2d1_solidcolorbrush.htm" class="topiclink">Direct2D1.SolidColorBrush</a><span style="font-weight: bold;"> </span>which allows you to paint using a solid color (or with transparency).  In the most basic form, <span style="font-weight: bold;">SolidColorBrush</span> can be constructed using a predefined <a href="sharpdx_color.htm" class="topiclink">SharpDX.Color</a></p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">You can also use a <a href="sharpdx_color3.htm" class="topiclink">SharpDX.Color3</a> or <a href="sharpdx_color4.htm" class="topiclink">SharpDX.Color4</a> structure as a way to get more customizable colors in your rendering:</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// create a 3 component color using rgb values in float notation</span><br />
+<span class="f_CodeExample">SharpDX.Color3</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxColor3</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color3(</span><span class="f_CodeExample" style="color: #ff6600;">1.0f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0.0f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0.0f</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// create a 4 component color using rgb + alpha (transparency) in float notation</span><br />
+<span class="f_CodeExample">SharpDX.Color4</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxColor4</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color4(dxColor3,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0.5f</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// solid color brush uses a Color4 during construction</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">argbColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxColor4);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample">Alternatively, you can set the &quot;transparency&quot; of an existing brush by accessing its <a href="sharpdx_direct2d1_brush_opacity.htm" class="topiclink">Opacity</a> property:</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">customDXBrush.Opacity</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">.</span><span class="f_CodeExample" style="color: #ff6600;">25f</span><span class="f_CodeExample">;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_CodeExample"><span style="font-weight: bold;">Note</span>: &nbsp;Unlike their <a href="working_with_brushes.htm" class="topiclink">WPF counterparts</a>, <span style="font-weight: bold;">SharpDX</span> brushes are thread-safe and do <span style="font-weight: bold;">NOT</span> need to be frozen. &nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Converting SharpDX Brushes</span></h2>
+<p class="p_Normal"><span style="font-weight: bold;">SharpDX Brushes</span> are <span style="font-weight: bold;">device-dependent resources</span>, which means they can only be used with the device (i.e., <a href="sharpdx_direct2d1_rendertarget.htm" class="topiclink">RenderTarget</a>) which created them. &nbsp;In practice, this mean you should <span style="font-weight: bold;">ONLY</span> create your <span style="font-weight: bold;">SharpDX</span> brushes during the chart object's <a href="onrender.htm" class="topiclink">OnRender()</a> or <a href="onrendertargetchanged.htm" class="topiclink">OnRenderTargetChanged()</a> methods. </p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Failure to create device-dependent resources during the <span style="font-weight: bold;">OnRender()</span> or <span style="font-weight: bold;">OnRenderTargetChanged()</span> can lead to a host of issues including memory and application corruption which can negatively impact the stability of NinjaTrader. &nbsp;Please be careful your <span style="font-weight: bold;">SharpDX</span> device-dependent resources are only created and updated during either of these two run-time methods. &nbsp;Please see the <a href="using_sharpdx_for_custom_chart_rendering.htm#bestpracticesforsharpdxresources" class="topiclink">Best Practices for SharpDX Resources</a> section on this page for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">Because of this detail, a common problem you may run into is the requirement to share a <span style="font-weight: bold;">SharpDX</span> device brush resource with a <span style="font-weight: bold;">WPF</span> application brush. &nbsp;For example, you may have <span style="font-weight: bold;">WPF</span> brushes defined in the UI during <a href="onstatechange.htm" class="topiclink">OnStateChange()</a> or recalculated conditionally during <a href="onbarupdate.htm" class="topiclink">OnBarUpdate()</a>, but ultimately wish to use also in custom rendering routines. &nbsp;For convenience, NinjaTrader provide a <a href="dxextensions_todxbrush.htm" class="topiclink">DXExtension.ToDxBrush()</a> method used for converting these objects if necessary:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">areaBrushDx = areaBrush.ToDxBrush(RenderTarget);</span></h2>
+<h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">smallAreaBrushDx = smallAreaBrush.ToDxBrush(RenderTarget);</span></h2>
+<h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">textBrushDx = textBrush.ToDxBrush(RenderTarget);</span></h2>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: If you are using a large number of brushes, and are not tied to WPF resources, you should favor creating the <span style="font-weight: bold;">SharpDX Brush</span> directly since the ToDxBrush() method can lead to performance issues if called too frequently during a single render pass. &nbsp;Please see the <a href="using_sharpdx_for_custom_chart_rendering.htm#bestpracticesforsharpdxresources" class="topiclink">Best Practices for SharpDX Resources</a> section on this page for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="SharpDXRenderTarget_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SharpDXRenderTarget','SharpDXRenderTarget_ICON')">SharpDX&nbsp;RenderTarget</a></span></p>
+<div id="SharpDXRenderTarget" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Understanding the RenderTarget</span></h2>
+<p class="p_Normal">A <a href="sharpdx_direct2d1_rendertarget.htm" class="topiclink">SharpDX Render Target</a> is a general purpose object resource used for receiving and executing drawing commands. &nbsp;When using a NinjaTrader chart object, a pre-constructed Chart <a href="rendertarget.htm" class="topiclink">RenderTarget</a> object is available for you to use and ready to receive commands. &nbsp;You can think of the <span style="font-weight: bold;">RenderTarget</span> as the device context you are using to render to (i.e. the Chart Panel). &nbsp;While there is nothing special you need to do to setup this resource, it is important to understand some details regarding the <span style="font-weight: bold;">RenderTarget</span> to learn how it can be used. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The <span style="font-weight: bold;">RenderTarget</span> is primarily used for executing commands such as drawing shapes or text:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="font-weight: bold;">RenderTarget</span><span class="f_CodeExample">.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">areaBrushDx)</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">It is commonly used for creating various resources such as <span style="font-weight: bold;">Brushes</span> and other <span style="font-weight: bold;">SharpDX</span> objects:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(</span><span class="f_CodeExample" style="font-weight: bold;">RenderTarget</span><span class="f_CodeExample">, SharpDX.Color.DodgerBlue);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample">It can also be used to set various properties to describe how the <span style="font-weight: bold;">RenderTarget</span> should render:</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">RenderTarget.AntialiasMode</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.AntialiasMode.PerPrimitive;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Sequencing RenderTarget commands</span></h2>
+<p class="p_Normal">If the sequence in which objects render is essential to your custom rendering, you will need to be mindful of the order in which you call various <span style="font-weight: bold;">RenderTarget</span> members. For example, we can draw a second line which uses a different <a href="sharpdx_direct2d1_antialiasmode.htm" class="topiclink">AntialiasMode</a> and the renders each line in the order the render target received its commands:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">RenderTarget.AntialiasMode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.AntialiasMode.Aliased;</span><br />
+<span class="f_CodeExample">RenderTarget.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">areaBrushDx,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">8</span><span class="f_CodeExample">);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample">RenderTarget.AntialiasMode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.AntialiasMode.PerPrimitive;</span><br />
+<span class="f_CodeExample">RenderTarget.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample">In the above example, this order of operations would result in the second <a href="sharpdx_direct2d1_rendertarget_drawline.htm" class="topiclink">RenderTarget.DrawLine()</a> to be rendered &quot;on top&quot; of the first <span style="font-weight: bold;">RenderTarget.DrawLine().</span> If you instead called these two methods in reverse order, you would not see the thinner line since it would be covered up by the thicker line.</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;It is important to realize that <span style="font-weight: bold;">RenderTarget</span> <span style="font-weight: bold;">sequencing</span> and the <a href="chart_zorder.htm" class="topiclink">Chart Object ZOrder</a> are two different concepts. The <span style="font-weight: bold;">ZOrder</span> property controls the overall layer your entire chart object appears relative to other chart objects existing on the same chart.  <span style="font-weight: bold;">RenderTarget sequencing</span> only affects the order objects are rendered relative itself. &nbsp;Therefore, it is not possible to sequence your chart object's <span style="font-weight: bold;">RenderTarget</span> to draw on two different <span style="font-weight: bold;">ZOrders</span> (e.g., one line above chart bars and another line below).</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Using the RenderTarget with Device Resources</span></h2>
+<p class="p_Normal">Throughout the lifetime of a chart, the render target is created and destroyed several times to satisfy various user commands. As a result, any resources that are created need to be recreated and destroyed as that render target is updated. &nbsp; The NinjaTrader <a href="onrendertargetchanged.htm" class="topiclink">OnRenderTargetChanged()</a> method was designed to help with this process and will be called anytime the <span style="font-weight: bold;">RenderTarget</span> has changed. &nbsp;You should use this method if you have objects which are passed around from various other resources.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Failure to create device-dependent resources during the <span style="font-weight: bold;">OnRender()</span> or <span style="font-weight: bold;">OnRenderTargetChanged()</span> can lead to a host of issues including memory and application corruption which can negatively impact the stability of NinjaTrader. &nbsp;Please be careful your <span style="font-weight: bold;">SharpDX</span> device-dependent resources are only created and updated during either of these two run-time methods. &nbsp;Please see the <a href="using_sharpdx_for_custom_chart_rendering.htm#bestpracticesforsharpdxresources" class="topiclink">Best Practices for SharpDX Resources</a> section on this page for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="SharpDXLinesAndShapes_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SharpDXLinesAndShapes','SharpDXLinesAndShapes_ICON')">SharpDX&nbsp;Lines&nbsp;and&nbsp;Shapes</a></span></p>
+<div id="SharpDXLinesAndShapes" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">RenderTarget Draw Methods</span></h2>
+<p class="p_Normal">All drawings consistent of a few basic shapes which can be called through a handful of <span style="font-weight: bold;">RenderTarget</span> commands. &nbsp;&quot;Draw...&quot; methods create just the outline of the shape, and &quot;Fill...&quot; will paint the interior of the shape.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_rendertarget_drawellipse.htm" class="topiclink">RenderTarget.DrawEllipse()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Draws the outline of the specified ellipse using the specified stroke style.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_rendertarget_drawgeometry.htm" class="topiclink">RenderTarget.DrawGeometry()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Draws the outline of the specified geometry using the specified stroke style.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_rendertarget_drawline.htm" class="topiclink">RenderTarget.DrawLine()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Draws a line between the specified points.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_rendertarget_drawrectangle.htm" class="topiclink">RenderTarget.DrawRectangle()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Draws the outline of a rectangle that has the specified dimensions and stroke style.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_rendertarget_fillellipse.htm" class="topiclink">RenderTarget.FillEllipse()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Paints the interior of the specified ellipse.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_rendertarget_fillgeometry.htm" class="topiclink">RenderTarget.FillGeometry()</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Paints the interior of the specified geometry.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="sharpdx_direct2d1_rendertarget_fillrectangle.htm" class="topiclink">RenderTarget.FillRectangle()</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Paints the interior of the specified rectangle.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>:  <a href="sharpdx_direct2d1_antialiasmode.htm" class="topiclink">AntialiasMode.PerPrimitive</a> allows for graphics to render more sharply, but comes at a performance cost. &nbsp;It is recommended to set the <a href="sharpdx_direct2d1_rendertarget_antialiasmode.htm" class="topiclink">RenderTarget.AntialiasMode</a> back to the default <span style="font-weight: bold;">AntialiasMode.Aliased</span> after you finish your <span style="font-weight: bold;">RenderTarget </span>Draw command. &nbsp; Please see the <a href="using_sharpdx_for_custom_chart_rendering.htm#bestpracticesforsharpdxresources" class="topiclink">Best Practices for SharpDX Resources</a> section on this page for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Line</span></h2>
+<p class="p_Normal">The simplest shape is a Line, executed by the <a href="sharpdx_direct2d1_rendertarget_drawline.htm" class="topiclink">RenderTarget.DrawLine()</a> command which just takes two <a href="sharpdx_vector2.htm" class="topiclink">Vector2</a> objects which describe where to draw the line, and (optionally) the width of the line to draw:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// create two vectors for the line to draw</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y);</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.W,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.H);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// define the brush used in the line</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// execute the render target draw line with desired values</span><br />
+<span class="f_CodeExample">RenderTarget.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// always dispose of a brush when finished</span></p>
+<h2 class="p_Heading2"><span class="f_CodeExample">customDXBrush.Dispose();</span></h2>
+</td>
+</tr>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="render_target_drawline" width="400" height="330" style="margin:0;width:400px;height:330px;border:none" src="render_target_drawline.png"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Rectangle</span></h2>
+<p class="p_CodeExample">Using either the <a href="sharpdx_direct2d1_rendertarget_fillrectangle.htm" class="topiclink">RenderTarget.FillRectangle()</a> or <a href="sharpdx_direct2d1_rendertarget_drawrectangle.htm" class="topiclink">RenderTarget.DrawRectangle()</a> requires a <a href="sharpdx_rectanglef.htm" class="topiclink">SharpDX.RectangleF</a> structure, constructed using four values to represent the location (x, y) and size (width, height) of the rectangle to draw.</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// create two vectors to position the rectangle</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y);</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.W,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.H);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">// calculate the desired width and heigh of the rectangle</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">width</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint.X</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">-</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint.X;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">height</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint.Y</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">-</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint.Y;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// define the brush used in the rectangle</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// construct the rectangleF struct to describe the with position and size the drawing</span><br />
+<span class="f_CodeExample">SharpDX.RectangleF</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">rect</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.RectangleF(startPoint.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint.Y,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">width,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">height);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// execute the render target fill rectangle with desired values</span><br />
+<span class="f_CodeExample">RenderTarget.FillRectangle(rect,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// always dispose of a brush when finished</span></p>
+<h2 class="p_Heading2"><span class="f_CodeExample">customDXBrush.Dispose();</span></h2>
+</td>
+</tr>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><img alt="render_target_drawrectangle" width="400" height="330" style="margin:0;width:400px;height:330px;border:none" src="render_target_drawrectangle.png"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Ellipse</span></h2>
+<p class="p_CodeExample">Similar to the <span style="font-weight: bold;">Rectangle</span>, you can draw an <span style="font-weight: bold;">Ellipse</span> (or circle) using either the <a href="sharpdx_direct2d1_rendertarget_fillellipse.htm" class="topiclink">RenderTarget.FillEllipse()</a> or <a href="sharpdx_direct2d1_rendertarget_drawellipse.htm" class="topiclink">RenderTarget.DrawEllipse()</a> methods using a <a href="sharpdx_direct2d1_ellipse.htm" class="topiclink">SharpDX Direct2D1 Ellipse</a> struct. &nbsp;For this structure, you will need to use a <a href="sharpdx_vector2.htm" class="topiclink">Vector2</a> object to determine the <span style="font-weight: bold;">Center</span> position of the ellipse, a <span style="font-weight: bold;">RadiusX,</span> and a <span style="font-weight: bold;">RadiusY</span> which determines the size of the ellipse:</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// create two vectors to position the ellipse</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y);</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.W,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.H);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// calculate the center point of the ellipse from start/end points</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">centerPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// set the radius of the ellipse</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">radiusX</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">50</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">radiusY</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">50</span><span class="f_CodeExample">;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// construct the rectangleF struct to describe the position and size the drawing</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.Ellipse</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ellipse</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.Ellipse(centerPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">radiusX,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">radiusY);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// define the brush used in the rectangle</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// execute the render target fill ellipse with desired values</span><br />
+<span class="f_CodeExample">RenderTarget.FillEllipse(ellipse,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// always dispose of a brush when finished</span></p>
+<h2 class="p_Heading2"><span class="f_CodeExample">customDXBrush.Dispose();</span></h2>
+</td>
+</tr>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><img alt="render_target_drawellipse" width="400" height="330" style="margin:0;width:400px;height:330px;border:none" src="render_target_drawellipse.png"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Geometry</span></h2>
+<p class="p_Normal">For more complicated shapes, you can use the <a href="sharpdx_direct2d1_rendertarget_fillgeometry.htm" class="topiclink">RenderTarget.FillGeometry()</a> or <a href="sharpdx_direct2d1_rendertarget_drawgeometry.htm" class="topiclink">RenderTarget.DrawGeometry()</a> methods using a <a href="sharpdx_direct2d1_pathgeometry.htm" class="topiclink">Direct2D1.PathGeometry</a> object, which is ultimately defined by a <a href="sharpdx_direct2d1_geometrysink.htm" class="topiclink">Direct2D1.GeometrySink</a> interface.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Any <span style="font-weight: bold;">SharpDX PathGeometry</span> object used in your development must be disposed of after they have been used. NinjaTrader is <span style="font-weight: bold;">NOT</span> guaranteed to dispose of these resources for you! &nbsp; Please see the <a href="using_sharpdx_for_custom_chart_rendering.htm#bestpracticesforsharpdxresources" class="topiclink">Best Practices for SharpDX Resources</a> section on this page for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">To describe a <span style="font-weight: bold;">PathGeometry</span> object's path, use the object's <a href="sharpdx_direct2d1_pathgeometry_open.htm" class="topiclink">PathGeometry.Open()</a> method to retrieve an <span style="font-weight: bold;">GeometrySink</span>. &nbsp;Then, use the <span style="font-weight: bold;">GeometrySink</span> to populate the geometry with figures and segments. &nbsp;To create a figure, call the <a href="sharpdx_direct2d1_geometrysink_beginfigure.htm" class="topiclink">GeometrySink.BeginFigure()</a> method, specify the figure's start point, and then use its Add methods (such as <a href="sharpdx_direct2d1_geometrysink_addline.htm" class="topiclink">GeometrySink.AddLine()</a>) to add segments. &nbsp;When you are finished adding segments, call the <a href="sharpdx_direct2d1_geometrysink_endfigure.htm" class="topiclink">GeometrySink.EndFigure()</a> method. You can repeat this sequence to create additional figures. When you are finished creating figures, call the <a href="sharpdx_direct2d1_geometrysink_close.htm" class="topiclink">GeometrySink.Close()</a> method.</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// create three vectors to position the geometry</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y);</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.W,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.H);</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">centerPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">/</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// create the PathGeometry used by the RenderTarget Fill/Draw method</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.PathGeometry</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">trianglePathGeometry</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.PathGeometry(Core.Globals.D2DFactory);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// retrieve the GeometrySink used to describe the PathGeometry</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.GeometrySink</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">geometrySink</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">trianglePathGeometry.Open();</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// create the points used to define the GeometrySink</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">beginPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(centerPoint.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint.Y);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Create a figure using the beginPoint</span><br />
+<span class="f_CodeExample">geometrySink.BeginFigure(beginPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.FigureBegin.Filled);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// add lines to the figure</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">line1</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(endPoint.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">centerPoint.Y);</span><br />
+<span class="f_CodeExample">geometrySink.AddLine(line1);</span><br />
+<span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">line2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(centerPoint.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint.Y);</span><br />
+<span class="f_CodeExample">geometrySink.AddLine(line2);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// end and close figure when finished</span><br />
+<span class="f_CodeExample">geometrySink.EndFigure(SharpDX.Direct2D1.FigureEnd.Closed);</span><br />
+<span class="f_CodeExample">geometrySink.Close();</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// define the brush used in the geometry</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// execute the render target fill geometry with desired values</span><br />
+<span class="f_CodeExample">RenderTarget.FillGeometry(trianglePathGeometry,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// always dispose of a PathGeometry when finished</span></p>
+<h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">trianglePathGeometry.Dispose();</span></h2>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// always dispose of a brush when finished</span></p>
+<h2 class="p_Heading2"><span class="f_CodeExample">customDXBrush.Dispose();</span></h2>
+</td>
+</tr>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><img alt="render_target_fillgeometry" width="400" height="330" style="margin:0;width:400px;height:330px;border:none" src="render_target_fillgeometry.png"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;For more examples of using <span style="font-weight: bold;">Shapes</span> for custom rendering, many of the DrawingTools included in the <span style="font-weight: bold;">NinjaTrader.Custom</span> project use these types of <span style="font-weight: bold;">SharpDX</span> objects and methods extensively. </p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="SharpDXTextRendering_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SharpDXTextRendering','SharpDXTextRendering_ICON')">SharpDX&nbsp;Text&nbsp;Rendering</a></span></p>
+<div id="SharpDXTextRendering" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Using SharpDX for rendering Text</span></h2>
+<p class="p_Normal">Up until this point, we have been using the <a href="sharpdx_direct2d1.htm" class="topiclink">SharpDX.Direct2D1</a> namespace to render shapes. &nbsp;When dealing with text, there is a separate <a href="sharpdx_directwrite.htm" class="topiclink">SharpDX.DirectWrite</a> namespace which works along with the <span style="font-weight: bold;">Direct2D1</span> objects.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">There are two principle objects used for text rendering: &nbsp;A <span style="font-weight: bold;">TextFormat</span> object which sets the style of the text, and a <span style="font-weight: bold;">TextLayout</span> object used to construct complex texts with various settings and provides metrics for measuring the shape the formatted text. &nbsp; </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Each one of these objects has their own <span style="font-weight: bold;">RenderTarget</span> methods:  <a href="sharpdx_direct2d1_rendertarget_drawtext.htm" class="topiclink">RenderTarget.DrawText()</a> for simple <span style="font-weight: bold;">TextFormat</span> objects and <a href="sharpdx_direct2d1_rendertarget_drawtextlayout.htm" class="topiclink">RenderTarget.DrawTextLayout()</a> for more advanced layouts. &nbsp;Both methods accept a <span style="font-weight: bold;">TextFormat</span> object; <span style="font-weight: bold;">DrawTextLayout</span> is more complicated but has better performance since it reuses the same text layout which does not need to be recalculated.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;Both the <span style="font-weight: bold;">TextFormat</span> and <span style="font-weight: bold;">TextLayout</span> objects require a <span style="font-weight: bold;">DirectWrite</span> factory during construction. &nbsp;For convenience, you can simply use the pre-built NinjaTrader<a href="directwritefactory.htm" class="topiclink">.Core.Globals.DirectWriteFactory</a> property.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Formatting Text</span></h2>
+<p class="p_Normal">The <span style="font-weight: bold;">TextFormat</span> object determines the font size, style and family, among other properties. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Any <span style="font-weight: bold;">SharpDX TextFormat</span> object used in your development must be disposed of after they have been used. NinjaTrader is <span style="font-weight: bold;">NOT</span> guaranteed to dispose of these resources for you! &nbsp;Please see the <a href="using_sharpdx_for_custom_chart_rendering.htm#bestpracticesforsharpdxresources" class="topiclink">Best Practices for SharpDX Resources</a> section on this page for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.DirectWrite.TextFormat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textFormat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.DirectWrite.TextFormat(Core.Globals.DirectWriteFactory,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Arial&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">12</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample">Once the text formatting has been described, you can use this object to immediately start rendering text in the DrawText() method. &nbsp;This approach also requires a <a href="sharpdx_rectanglef.htm" class="topiclink">SharpDX.RectangleF</a> to help determine the size and position the text renders on the chart.</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// define the point for the text to render</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// construct the text format with desired font family and size</span><br />
+<span class="f_CodeExample">SharpDX.DirectWrite.TextFormat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textFormat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.DirectWrite.TextFormat(Core.Globals.DirectWriteFactory,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Arial&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">36</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// construct the rectangleF struct to describe the position and size the text</span><br />
+<span class="f_CodeExample">SharpDX.RectangleF</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">rectangleF</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.RectangleF(startPoint.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint.Y,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.W,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.H);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// define the brush used for the text</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// execute the render target text command with desired values</span><br />
+<span class="f_CodeExample">RenderTarget.DrawText(</span><span class="f_CodeExample" style="color: #800000;">&quot;I am some text&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textFormat,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">rectangleF,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// always dispose of textFormat when finished</span><br />
+<span class="f_CodeExample">textFormat.Dispose();</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// always dipose of brush when finished</span><br />
+<span class="f_CodeExample">customDXBrush.Dispose();</span></p>
+</td>
+</tr>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><img alt="render_target_drawtext" width="400" height="326" style="margin:0;width:400px;height:326px;border:none" src="render_target_drawtext.png"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Converting Text</span></h2>
+<p class="p_CodeExample">One common approach to text formatting is to use the same formats as existing chart objects. &nbsp;This provides familiar text format matching other objects which exist on the chart. To accomplish this, you can simply use the <span style="font-weight: bold;">ChartControl</span> NinjaTrader<a href="simplefont_class.htm" class="topiclink">.Gui.SimpleFont</a> object and convert to <span style="font-weight: bold;">SharpDX</span> using the <a href="simplefont_todirectwritetextformat.htm" class="topiclink">ToDirectWriteTextFormat()</a> method.</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.DirectWrite.TextFormat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textFormat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartControl.Properties.LabelFont.ToDirectWriteTextFormat();</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Text Layouts</span></h2>
+<p class="p_Normal">The <span style="font-weight: bold;">TextLayout</span> object works in combination with the <span style="font-weight: bold;">TextFormat</span> object by extending its functionality and providing an interface more powerful than a simple Rectangle, enabling you to position, measure, or clip the text to a surrounding shape.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">When constructing the <span style="font-weight: bold;">TextLayout</span> object, you will pass in the exact text as a string you wish to render, along with the desired <span style="font-weight: bold;">TextFormat</span>. &nbsp;This gives you the ability to measure the text string after it has been formatted. &nbsp;During construction, you also have an opportunity to specify the maximum height and width of the <span style="font-weight: bold;">TextLayout</span>. &nbsp;For example, we can set the text layout to bound to height and width chart panel:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.DirectWrite.TextLayout</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textLayout</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new </span><span class="f_CodeExample">SharpDX.DirectWrite.TextLayout(Core.Globals.DirectWriteFactory,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;I am also some text&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textFormat,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.W,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.H);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample">After the text has its format and layout, &nbsp;you can use the <a href="sharpdx_direct2d1_rendertarget_drawtextlayout.htm" class="topiclink">RenderTarget.DrawTextLayout()</a> method to specify the exact location as a <a href="sharpdx_vector2.htm" class="topiclink">Vector2</a>, as well as the <a href="sharpdx_direct2d1_brush.htm" class="topiclink">Brush</a> used to draw the text.</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">RenderTarget.DrawTextLayout(startPoint, textLayout, customDXBrush);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Measuring Text Layouts</span></h2>
+<p class="p_CodeExample">Working with an existing <span style="font-weight: bold;">TextLayout</span> object, you can use its <a href="sharpdx_directwrite_textlayout_metrics.htm" class="topiclink">TextLayout.Metrics</a> object to retrieve metadata related to the size of the formatted text. &nbsp; This is helpful if you are unsure of the size of the text before it is rendered. &nbsp;For example, you may wish to draw a rectangle around the formatted text calculated width and height. &nbsp;Using the approach below, the rectangle will dynamically resize to fit the text values used:</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// define the point for the text to render</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Vector2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// construct the text format with desired font family and size</span><br />
+<span class="f_CodeExample">SharpDX.DirectWrite.TextFormat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textFormat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.DirectWrite.TextFormat(Core.Globals.DirectWriteFactory,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Arial&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">36</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// construct the text layout with desired text, text format, max width and height</span><br />
+<span class="f_CodeExample">SharpDX.DirectWrite.TextLayout</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textLayout</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.DirectWrite.TextLayout(Core.Globals.DirectWriteFactory,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;I am also some text&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textFormat,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.W,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.H);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// create a rectangle which will automatically resize to the width/height of the textLayout</span><br />
+<span class="f_CodeExample">SharpDX.RectangleF</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">rectangleF</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.RectangleF(startPoint.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startPoint.Y,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textLayout.Metrics.Width,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textLayout.Metrics.Height);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// define the brush used for the text and rectangle</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// execute the render target draw rectangle with desired values</span><br />
+<span class="f_CodeExample">RenderTarget.DrawRectangle(rectangleF,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// execute the render target text layout command with desired values</span><br />
+<span class="f_CodeExample">RenderTarget.DrawTextLayout(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">textLayout,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// always dispose of textLayout, textFormat, or brush when finished</span><br />
+<span class="f_CodeExample">textLayout.Dispose();</span><br />
+<span class="f_CodeExample">textFormat.Dispose();</span><br />
+<span class="f_CodeExample">customDXBrush.Dispose();</span></p>
+</td>
+</tr>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><img alt="render_target_drawtextlayout" width="402" height="331" style="margin:0;width:402px;height:331px;border:none" src="render_target_drawtextlayout.png"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;The <span style="font-weight: bold;">TextLayout.Metrics</span> height and width properties return the text pixel height, including the line spacing of the font. &nbsp;Due to the nature of most font families, there will be an amount of line spacing above and below the text. &nbsp;You can use the <a href="sharpdx_directwrite_textlayout_getlinemetrics.htm" class="topiclink">TextLayout.GetLineMetrics()</a> method to help calculate the distance from the top of the text line to its baseline.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="SharpDXStrokeStyle_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SharpDXStrokeStyle','SharpDXStrokeStyle_ICON')">SharpDX&nbsp;Stroke&nbsp;Style</a></span></p>
+<div id="SharpDXStrokeStyle" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Using the StrokeStyle Object</span></h2>
+<p class="p_Normal">When rendering <span style="font-weight: bold;">SharpDX</span> Lines and Shapes, you can optionally configure a <a href="sharpdx_direct2d1_strokestyle.htm" class="topiclink">SharpDX.Direct2D1.StrokeStyle</a> allowing you to utilize several pre-made <a href="sharpdx_direct2d1_strokestyle_dashstyle.htm" class="topiclink">dash styles</a>, or even create a custom dash pattern. </p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;Unlike other <span style="font-weight: bold;">SharpDX</span> objects such as <span style="font-weight: bold;">brushes</span>, the <span style="font-weight: bold;">StrokeStyle</span> is a device-independent resource. &nbsp;This means you only need to create the object once throughout the lifetime of the script. &nbsp;However, the <span style="font-weight: bold;">StrokeStyle</span> needs to be disposed of when the script is terminated. &nbsp;The <span style="font-weight: bold;">Creating a Custom DashStyle</span> example below shows how to use a stroke style from the beginning to end of the lifetime of your script. &nbsp; Please see the <a href="using_sharpdx_for_custom_chart_rendering.htm#bestpracticesforsharpdxresources" class="topiclink">Best Practices for SharpDX Resources</a> section on this page for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"> For convenience, <span style="font-weight: bold;">SharpDX</span> provides the <a href="sharpdx_direct2d1_strokestyleproperties.htm" class="topiclink">StrokeStyleProperties</a> struct for creating new a <span style="font-weight: bold;">StrokeStyle:</span></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// create a stroke style property using a pre-configured &quot;DashDot&quot; dash style</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.StrokeStyleProperties</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxStrokeStyleProperties</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.StrokeStyleProperties</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">DashStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.DashStyle.DashDot,</span><br />
+<span class="f_CodeExample">};</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_Normal">Once you have your desired stroke style properties, you can create a new stroke style object.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;Any <span style="font-weight: bold;">SharpDX StrokeStyle</span> object used in your development must be disposed of after they have been used. NinjaTrader is <span style="font-weight: bold;">NOT</span> guaranteed to dispose of these resources for you! Please see the <a href="using_sharpdx_for_custom_chart_rendering.htm#bestpracticesforsharpdxresources" class="topiclink">Best Practices for SharpDX Resources</a> section on this page for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.StrokeStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxStrokeStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.StrokeStyle(NinjaTrader.Core.Globals.D2DFactory,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxStrokeStyleProperties);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;The <span style="font-weight: bold;">SharpDX.Direct2D1.StrokeStyle</span> require a <span style="font-weight: bold;">Direct2D1</span> factory during construction. &nbsp;For convenience, you can simply use the pre-built NinjaTrader<a href="d2dfactory.htm" class="topiclink">.Core.Globals.D2DFactory</a> property. The <a href="d2dfactory.htm" class="topiclink">DirectD2D</a> factory should only be instantiated and access from <a href="onrender.htm" class="topiclink">OnRender()</a> or <a href="onrendertargetchanged.htm" class="topiclink">OnRenderTargetChanged()</a>, as access outside those methods could cause performance issues.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">And then use that object with the RenderTarget.DrawLine() method:</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><h2 class="p_Heading2"><span style="font-size: 10pt; font-family: Consolas; background-color: #ffffff;">RenderTarget.DrawLine(startPoint, endPoint, dxBrush, width, dxStrokeStyle);</span></h2>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_Heading2">Creating a Custom DashStyle</span></p>
+<p class="p_Normal">By setting the <a href="sharpdx_direct2d1_strokestyle_dashstyle.htm" class="topiclink">StrokeStyle.DashStyle</a> property to &quot;<span style="font-weight: bold;">Custom</span>&quot;, you can further refine the appearance of a <span style="font-weight: bold;">SharpDX</span> rendered line or shape by describing the length and space between the lines. Creating a custom <span style="font-weight: bold;">DashStyle</span> is not only useful for using <span style="font-weight: bold;">RenderTarget methods</span>, but also can be used for customizing the appearance of standard <a href="addplot.htm" class="topiclink">NinjaScript Plots</a>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The code example creates a single <span style="font-weight: bold;">StrokeStyle</span> object using custom dash style properties. &nbsp;The example then uses those the custom stroke style object with user defined dashes for overriding the default NinjaTrader plot appearances, and using the same stroke style in a <a href="sharpdx_direct2d1_rendertarget_drawline.htm" class="topiclink">RenderTarget.DrawLine()</a> command.</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// a SharpDX.Direct2D1.StrokeStyle is device independent</span><br />
+<span class="f_CodeExample" style="color: #008000;">// it only needs to be setup once throughout the lifetime of your script</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.StrokeStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxStrokeStyle;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Custom StrokeStyle&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddPlot(Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Custom StrokeStyle&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">else</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Configure)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// create a custom stroke style when configured</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">SharpDX.Direct2D1.StrokeStyleProperties</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxStrokeStyleProperties</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.StrokeStyleProperties</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// set the dash style to &quot;Custom&quot; define the dash pattern </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">DashStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.DashStyle.Custom,</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// set further custom/optional StrokeStyle appearances</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">DashCap</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">CapStyle.Round,</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">EndCap</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">CapStyle.Flat,</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">StartCap</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">CapStyle.Square,</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">LineJoin</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">LineJoin.Miter,</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// offset in the dash sequence</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">DashOffset</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10.0f</span><span class="f_CodeExample">,</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">};</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// define the an array of floating-point values</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">float</span><span class="f_CodeExample">[]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dashes</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1.0f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2.0f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2.0f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">3.0f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2.0f</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2.0f</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">};</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// create the stroke style using the custom properties and dash array</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">dxStrokeStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.StrokeStyle(NinjaTrader.Core.Globals.D2DFactory,</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">dxStrokeStyleProperties,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dashes);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">else</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Terminated)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// make sure to dispose of stroke style when finished</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(dxStrokeStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(!dxStrokeStyle.IsDisposed)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">dxStrokeStyle.Dispose();</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Value[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">];</span><br />
+<span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnRender(ChartControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartControl,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartScale</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartScale)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// override the appearance of the default plot style</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Plots[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">].StrokeStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxStrokeStyle;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">base</span><span class="f_CodeExample">.OnRender(chartControl,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartScale);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// use the custom dash style in a RenderTarget.DrawLine() commands</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">using</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.Blue))</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">RenderTarget.DrawLine(</span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Vector2(ChartPanel.X</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.W,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.Y</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartPanel.H),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxStrokeStyle);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_Normal">&nbsp;</p>
+<p class="p_CodeExample"><img alt="SharpDX_StrokeStyle" width="402" height="333" style="margin:0;width:402px;height:333px;border:none" src="sharpdx_strokestyle.png"/></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="BestPracticesforSharpDXResources_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','BestPracticesforSharpDXResources','BestPracticesforSharpDXResources_ICON')">&nbsp;Best&nbsp;Practices&nbsp;for&nbsp;SharpDX&nbsp;Resources</a></span></p>
+<div id="BestPracticesforSharpDXResources" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><a id="bestpracticesforsharpdxresources" class="hmanchor"></a></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Understanding Device-dependent vs Device-independent resources</span></h2>
+<p class="p_Normal">Direct2D has several types of resources which may be mapped to the different hardware devices:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Device-independent</span> resources are on the CPU</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Device-dependent</span> resources are on the GPU</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">When <span style="font-weight: bold;">device-dependent</span> resources are created, system resources are dedicated to that object. &nbsp;Resources which are <span style="font-weight: bold;">device-dependent</span> are associated with a particular <span style="font-weight: bold;">RenderTarget</span> device and are only available on that device. &nbsp;Therefore, objects which were created using a <span style="font-weight: bold;">RenderTarget</span> can only be used by that device. &nbsp;As the <span style="font-weight: bold;">RenderTarget</span> updates, objects which were previously created will no longer be compatible and can lead to errors. &nbsp;You can use the NinjaTrader <a href="onrendertargetchanged.htm" class="topiclink">OnRenderTargetChanged() </a>method to detect when the render target has updated and gives you an opportunity to recreate resources.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span class="f_Heading2">Device-dependent resources</span></p>
+<p class="p_Normal">The following objects are associated with a specific <span style="font-weight: bold;">RenderTarget</span>. &nbsp;They must be created and dispose of any time the <span style="font-weight: bold;">RenderTarget</span> is updated:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_brush.htm" class="topiclink">Brush</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_geometrysink.htm" class="topiclink">GeometrySink</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_gradientstopcollection.htm" class="topiclink">GradientStopCollection</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_lineargradientbrush.htm" class="topiclink">LinearGradientBrush</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_radialgradientbrush.htm" class="topiclink">RadialGradientBrush</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_solidcolorbrush.htm" class="topiclink">SolidColorBrush</a></p><p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Device-independent resources</span></h2>
+<p class="p_Normal">The following objects are <span style="font-weight: bold;">NOT</span> associated with a specific device. &nbsp;They can be created once and last for the lifetime of your script, or until they need to be modified:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_pathgeometry.htm" class="topiclink">PathGeometry</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_strokestyle.htm" class="topiclink">StrokeStyle</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_directwrite_textlayout.htm" class="topiclink">TextLayout</a></p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;For more technical information on device resources, please see the <a href="https://msdn.microsoft.com/en-us/library/dd756757(v=vs.85).aspx" target="_blank" class="weblink">MSDN Direct2D Resources Overview</a></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">SharpDX DisposeBase</span></h2>
+<p class="p_Normal">Although most C# objects stored in memory are handled by the operating system, there are a few <span style="font-weight: bold;">SharpDX</span> resources which are not managed. &nbsp;It is important to take care of these resources during the lifetime of your script as there is no guarantee that NinjaTrader will be able to dispose of these unmanaged references for you. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The following commonly used objects implement from the <a href="sharpdx_disposebase.htm" class="topiclink">SharpDX.DisposeBase</a> and should be disposed any time they are created:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_brush.htm" class="topiclink">Brush</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_geometrysink.htm" class="topiclink">GeometrySink</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_gradientstopcollection.htm" class="topiclink">GradientStopCollection</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_lineargradientbrush.htm" class="topiclink">LinearGradientBrush</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_pathgeometry.htm" class="topiclink">PathGeometry</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_radialgradientbrush.htm" class="topiclink">RadialGradientBrush</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_solidcolorbrush.htm" class="topiclink">SolidColorBrush</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_direct2d1_strokestyle.htm" class="topiclink">StrokeStyle</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_directwrite_textformat.htm" class="topiclink">TextFormat</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><a href="sharpdx_directwrite_textlayout.htm" class="topiclink">TextLayout</a></p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;The list above is <span style="font-weight: bold;">NOT</span> exhaustive and there are other less common <span style="font-weight: bold;">SharpDX</span> objects that could implement <span style="font-weight: bold;">DisposeBase</span>. Failure to clean up these resources <span style="font-weight: bold;">WILL</span> result in NinjaTrader using more memory than necessary and may expose potential &quot;memory leaks&quot; coming from your script. &nbsp;If you experience unusual amounts of memory being utilized over time, an unmanaged <span style="font-weight: bold;">SharpDX</span> resource is often times the culprit. &nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Since there is no guarantee that NinjaTrader will release objects from memory when your script is terminated, it is best to protect these resources from issues and call <a href="sharpdx_disposebase_dispose.htm" class="topiclink">Dispose()</a> as soon as possible. &nbsp;This commonly involves calling <span style="font-weight: bold;">Dispose(</span>) at the end of <a href="onrender.htm" class="topiclink">OnRender()</a>,or during <a href="onrendertargetchanged.htm" class="topiclink">OnRenderTargetChanged()</a> when dealing with <span style="font-weight: bold;">device- dependent</span> resources such as brush. <span style="font-weight: bold;"> Device-independent</span> resources can be created once and then retained for the life of your application.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnRender(ChartControl</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartControl,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ChartScale</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">chartScale)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// 1 - setup your resource</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// 2 - use your resource</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">RenderTarget.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// 3- dispose of your resource</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">customDXBrush.Dispose()</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;If your resource is setup (i.e., uses the &quot;new&quot; keyword) during <span style="font-weight: bold;">OnRender()</span> or <span style="font-weight: bold;">OnRenderTargetChange()</span>, calling <span style="font-weight: bold;">.Dispose()</span> during <a href="state.htm" class="topiclink">State.Terminated</a> will <span style="font-weight: bold;">ONLY</span> dispose of the <span style="font-style: italic;">very last reference in memory</span> and is <span style="font-weight: bold;">NOT</span> sufficient to completely manage all instances created during the lifetime of your script. &nbsp;You should be diligent in calling <span style="font-weight: bold;">Dispose() </span>throughout the lifetime of the script.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">You can also consider implementing the <a href="https://msdn.microsoft.com/en-us/library/yh598w02.aspx" target="_blank" class="weblink">using Statement (C# Reference)</a> which will implicitly call <span style="font-weight: bold;">Dispose() for</span> you when you are done:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// customDXBrush implicitly calls Dispose() after this block executes</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">using</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(SharpDX.Direct2D1.SolidColorBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue))</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">RenderTarget.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Critical" >
+<tr class="Critical">
+<td class="Critical"><p class="p_Normal"><span style="font-weight: bold;">Critical</span>: &nbsp;Attempting to use an object which has already been disposed can lead to memory corruption that NinjaTrader may not be able to recover. &nbsp;Attempts to use an object in this manner can result in an error similar to:  <span class="f_NSexamplesheading">Error on calling 'OnRender' method on bar 0: Attempted to read or write protected memory. This is often an indication that other memory is corrupt.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">You can check to see if can object has been disposed of by using the <a href="sharpdx_disposebase_isdisposed.htm" class="topiclink">DisposeBase.IsDiposed</a> property:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.DodgerBlue);</span><br />
+<span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// checks the object is not disposed of before using</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample">(!customDXBrush.IsDisposed)</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">RenderTarget.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">customDXBrush.Dispose();</span><br />
+<span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">You should also favor managing these resources yourself, which means methods which accept a <span style="font-weight: bold;">SharpDX DisposeBase</span> object as an argument should be created before they are passed into the method and disposed of after they are used. &nbsp;For example, the code below should be avoided:</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" style="background-color:#fff8f7;">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span></h2>
+</th>
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><span class="f_NSexamplesheading">Practice to avoid</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample" colspan="2"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #c0504d;">// do NOT convert an object as it is passed to an argument. &nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #c0504d;">// You may have no chance to Dispose of the object! </span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #c0504d;">// Finalizer is not guaranteed to release of these resources</span><br />
+<span class="f_CodeExample">RenderTarget.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint, Brushes.AliceBlue.ToDxBrush(RenderTarget));</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">MyCustomMethod(Brushes.AliceBlue.ToDxBrush(RenderTarget));</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_Normal">Instead, you should manage these objects yourself:</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" style="background-color:#f3f9f4;">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Best practice</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Do create and store this reference yourself so you can control when it is released (Y)</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">customDXBrush</span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">WPFBrush.ToDxBrush(RenderTarget);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">RenderTarget.DrawLine(startPoint,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endPoint, customDXBrush));</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">MyCustomMethod(customDXBrush);</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">customDXBrush.Dipose()</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<h2 class="p_Heading2"><span class="f_Heading2">Other Best Practices</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">If possible, you should avoid using the <a href="dxextensions_todxbrush.htm" class="topiclink">ToDxBrush()</a> method if it is not necessary. &nbsp;It is relatively harmless to use this approach for a few brushes, but can introduce performance issues if used too liberally.</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" style="background-color:#fff8f7;">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Practice to avoid</span></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #c0504d;">// do NOT convert from WPF brushes unnecessarily</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush1</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">System.Windows.Media.Brushes.Blue.ToDxBrush(RenderTarget);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">System.Windows.Media.Brushes.Red.ToDxBrush(RenderTarget);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush3</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">System.Windows.Media.Brushes.Green.ToDxBrush(RenderTarget);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush4</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">System.Windows.Media.Brushes.Purple.ToDxBrush(RenderTarget);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush5</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">System.Windows.Media.Brushes.Orange.ToDxBrush(RenderTarget);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush6</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">System.Windows.Media.Brushes.Yellow.ToDxBrush(RenderTarget);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_Normal">Instead, you should construct a SharpDX Brush directly if a WPF brush is not ever needed:</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" style="background-color:#f3f9f4;">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Best practice</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Do create SharpDX Brushes directly if you have a large amount of brushes</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush1</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.Blue);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.Red);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush3</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.Green);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush4</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.Purple);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush5</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.Orange);</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">dxBrush6</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.SolidColorBrush(RenderTarget,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Color.Yellow);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<p class="p_Normal">Rendering with anti-aliasing disabled can be used to render a higher qualify shapes but comes as a performance impact. &nbsp;You should make sure to set this render target property back to its default when you are finished with a render routine.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" style="background-color:#f3f9f4;">
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_ImageCaption"> </span><span class="f_NSexamplesheading">Best practice</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// AntialiasMode.PerPrimitive is more resource intensive</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// store the old reference before setting the desired value</span><br />
+<span class="f_CodeExample">SharpDX.Direct2D1.AntialiasMode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">oldAntialiasMode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">RenderTarget.AntialiasMode;</span><br />
+<span class="f_CodeExample">RenderTarget.AntialiasMode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SharpDX.Direct2D1.AntialiasMode.PerPrimitive;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// execute your render routines</span><br />
+<span class="f_CodeExample" style="color: #008000;">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// and then set back to initial AntialiasMode when finished</span><br />
+<span class="f_CodeExample">RenderTarget.AntialiasMode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">oldAntialiasMode;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('SharpDXVectorsAndChartingCoordinates_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SharpDXVectorsAndChartingCoordinates\',\'SharpDXVectorsAndChartingCoordinates_ICON\')');
+HMInitToggle('SharpDXVectorsAndChartingCoordinates','hm.type','dropdown','hm.state','0');
+HMInitToggle('SharpDXBrushResources_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SharpDXBrushResources\',\'SharpDXBrushResources_ICON\')');
+HMInitToggle('SharpDXBrushResources','hm.type','dropdown','hm.state','0');
+HMInitToggle('SharpDXRenderTarget_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SharpDXRenderTarget\',\'SharpDXRenderTarget_ICON\')');
+HMInitToggle('SharpDXRenderTarget','hm.type','dropdown','hm.state','0');
+HMInitToggle('SharpDXLinesAndShapes_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SharpDXLinesAndShapes\',\'SharpDXLinesAndShapes_ICON\')');
+HMInitToggle('SharpDXLinesAndShapes','hm.type','dropdown','hm.state','0');
+HMInitToggle('SharpDXTextRendering_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SharpDXTextRendering\',\'SharpDXTextRendering_ICON\')');
+HMInitToggle('SharpDXTextRendering','hm.type','dropdown','hm.state','0');
+HMInitToggle('SharpDXStrokeStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SharpDXStrokeStyle\',\'SharpDXStrokeStyle_ICON\')');
+HMInitToggle('SharpDXStrokeStyle','hm.type','dropdown','hm.state','0');
+HMInitToggle('BestPracticesforSharpDXResources_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'BestPracticesforSharpDXResources\',\'BestPracticesforSharpDXResources_ICON\')');
+HMInitToggle('BestPracticesforSharpDXResources','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

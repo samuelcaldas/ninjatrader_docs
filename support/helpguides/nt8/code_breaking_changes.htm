@@ -1,0 +1,949 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>NinjaScript &gt; Code Breaking Changes</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "code_breaking_changes.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Code Breaking Changes</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?code_breaking_changes.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="ninjascript.htm">NinjaScript</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Code Breaking Changes</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="ninjascript.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="ninjascript.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="ninjascript_best_practices.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">The following document is intended as a high level overview of the NinjaScript changes you can expect between NinjaTrader 7 and NinjaTrader 8. &nbsp;For specific information on a particular method or property, you can refer to the dynamically formatted <span style="font-weight: bold;">Code Breaking table</span> at the bottom of this page. &nbsp;We recommend using the <span style="font-weight: bold;">Filter</span> and <span style="font-weight: bold;">Sorting</span> features built into the table, as well checking the <span style="font-weight: bold;">Summary</span> column and expanding the <span style="font-weight: bold;">Details</span> section of each entry for general information. &nbsp;Referring to the conveniently linked NinjaTrader 8 and NinjaTrader 7 documentation will provide specific information on syntax, usage, and examples of any new implementation or element names. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;Information on this page focuses on <span style="font-weight: bold;">supported</span> <span style="font-weight: bold;">(documented)</span> NinjaTrader methods and properties shared between versions. &nbsp;NinjaTrader 8 has seen a significant increase in supported NinjaTrader code, however if you were using previously <span style="font-weight: bold;">undocumented</span> NinjaTrader 7 methods or properties, they will <span style="font-weight: bold;">NOT</span> be covered in this topic. &nbsp;You may be able to find more information on previously <span style="font-weight: bold;">undocumented</span> methods and properties in the NinjaTrader 8 Help Guide, or our support staff will also be happy to personally point you in the right direction.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Critical" >
+<tr class="Critical">
+<td class="Critical"><p class="p_Normal"><span style="font-weight: bold;">Critical</span>: &nbsp; If your product uses <span style="font-weight: bold;">unsupported (undocumented)</span> elements we strongly urge you to put your scripts through thorough testing to ensure they still behave as expected. &nbsp;There is <span style="font-weight: bold;">NO</span> guarantee that previously <span style="font-weight: bold;">undocumented</span> method or property behavior has not changed in the new version of NinjaTrader 8.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">For questions or comments, please contact us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1464787560727b6679676164647b6660547a7d7a7e756066757071663a777b79">[email&#160;protected]</a></p>
+<p class="p_ToggleHeading"><img id="ImplementationChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','ImplementationChangesOverview','ImplementationChangesOverview_ICON')">Implementation&nbsp;Changes&nbsp;Overview</a></span></p>
+<div id="ImplementationChangesOverview" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Initialize(), OnStartUp(), OnTermination()</span></h2>
+<p class="p_Normal">NinjaTrader 8 has simplified the methods used to set or release various resources during the lifetime of a NinjaTrader object to a single <span style="font-weight: bold;"><a href="onstatechange.htm" class="topiclink">OnStateChange()</a></span> method. This single method is guaranteed to be called for every change in <span style="font-weight: bold;">State</span> of the object. &nbsp;It is from this method you can monitor the progression of the object throughout its lifetime in order to setup various resources, set properties, or take action the moment <span style="font-weight: bold;">State</span> has changed. &nbsp;This method also exposes a <span style="font-weight: bold;"><a href="state.htm" class="topiclink">State</a></span> variable which can be used in various other methods, such as<span style="font-weight: bold;"> OnBarUpdate(),</span> in order to tell your indicator or strategy to process data depending on the actual <span style="font-weight: bold;">State</span> of the object.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">For example, pushing settings to the UI, or setting initial values for public properties can now be done use <span style="font-weight: bold;">OnStateChange()</span> when the state has reached<span style="font-weight: bold;"> State.SetDefaults</span>:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.SetDefaults)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// set the default properties</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Name</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;My Indicator&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Fast</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Slow</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">25</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">IsOverlay</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">IsAutoScale</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">If you have custom resources that need to be setup before the NinjaTrader object is active and processing data, instead of using the<span style="font-weight: bold;"> Initialize()</span> method, you can now set this up once the <span style="font-weight: bold;">OnStateChange()</span> method has reached <span style="font-weight: bold;">State.Configure</span> state:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Configure)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Add a 5 minute Bars object to the strategy</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddDataSeries(Data.BarsPeriodType.Minute,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">5</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// setup a custom data series</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">spread</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Series&lt;</span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample">&gt;(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// setup a 20-period EMA indicator</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">ema</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">EMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// add indicator to strategy for visual purposes</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddChartIndicator(ema);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">NinjaTrader 7 had no concept to detect when your NinjaTrader object was transitioning from processing Historical data to processing Real-time data. &nbsp;Now with NinjaTrader 8, the <span style="font-weight: bold;">OnStateChange()</span> method provides a <span style="font-weight: bold;">State.Transition</span> state which will notify you when this change is about to occur. &nbsp;If your NinjaTrader 7 indicators or strategies were using custom methods to try to detect this transition, your custom methods may be refactored under this new state:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Transition)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Print(</span><span class="f_CodeExample" style="color: #800000;">&quot;We're going to real-time data...&quot;</span><span class="f_CodeExample">);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// setup your real-time data resources here </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">When your NinjaTrader object is shutting down, and you need clean up any custom device resources, instead of using <span style="font-weight: bold;">OnTermination()</span>, you should now clean up these resources once the <span style="font-weight: bold;">OnStateChange()</span> method has reached the <span style="font-weight: bold;">State.Terminated</span> state:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Terminated)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// release any device resources </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample">(myTimer</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">myTimer</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">NinjaTrader previously used a <span style="font-weight: bold;">Historical</span> bool property to notify when an indicator or strategy bar was being processed historically or real-time. &nbsp;The NinjaTrader 8 <span style="font-weight: bold;">OnStateChange()</span> approach has now introduced a class level variable <span style="font-weight: bold;">State</span> where you can check for <span style="font-weight: bold;">State.Historical</span> or<span style="font-weight: bold;"> State.Realtime </span>in any of the other event methods which will allow you to take action depending on the desired state:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// only process on real-time data </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Historical)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">else</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Realtime)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// rest of logic</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Strategies, Orders, and Accounts</span></h2>
+<p class="p_Normal">Low level access has been provided to allow more flexibility with the information pertaining to trade data.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>IOrders, IExecution, and IPosition interfaces have all been replaced directly with the corresponding object</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The signatures of the related NinjaScript events have changed to match the NinjaTrader internal Update events</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Methods now return and update with the object instance generated, instead of the previously used interface</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;Since NinjaTrader 8 now exposes the direct <span style="font-weight: bold;">Order</span> object, rather than an <span style="font-weight: bold;">IOrder</span> interface, it is possible to receive <span style="font-weight: bold;">null object reference errors</span> if you attempt to access an order object before the entry or exit order method has returned. &nbsp;To prevent these situations, it is recommended to assign your strategies <span style="font-weight: bold;">Order</span> variables in the <span style="font-weight: bold;">OnOrderUpdate()</span> method and match them by their <span style="font-weight: bold;">signal name</span> (<span class="f_CodeExample">order.Name</span>). &nbsp;Please see the example beginning on line #22 below for demonstration of assigning order objects to private variables. &nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">Order</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(Position.MarketPosition</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MarketPosition.Flat</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&amp;&amp;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">EnterLongLimit(Low[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Entry&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if </span><span class="f_CodeExample">(myOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">Print(myOrder.OrderState);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if </span><span class="f_CodeExample">(myOrder.OrderState</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OrderState.Cancelled</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">||</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myOrder.OrderState</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OrderState.Filled)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">myOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnOrderUpdate(Cbi.Order</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">limitPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">stopPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">filled,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">averageFillPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Cbi.OrderState</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderState,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Cbi.ErrorCode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">error,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">comment)</span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// compare the order object created via EnterLongLimit by the signal name</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(myOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&amp;&amp;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order.Name</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Entry&quot;</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// assign myOrder to matching order update</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">myOrder</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">order;</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Data Series</span></h2>
+<p class="p_Normal">Previously there had been type specific Data Series implementations (e.g., IntSeries, TimeSeries, BoolSeries, etc). &nbsp;Now there just is a template <a href="seriest.htm" class="topiclink">Series&lt;T&gt;</a> class which could be used generically and even allows support for additional types:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">Series&lt;</span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">mySeries</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Series&lt;</span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample">&gt;(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample">Series&lt;</span><span class="f_CodeExampleTypes">DateTime</span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myTimeSeries</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Series&lt;</span><span class="f_CodeExampleTypes">DateTime</span><span class="f_CodeExample">&gt;(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The <span style="font-weight: bold;">DataSeries.Set()</span> method used to assign Data Series or Plot values has been removed and values can now be stored using a single assignment operator:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// set public plotting data series close value of current bar</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">MyPlot[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">];</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// set custom Series&lt;DateTime&gt; to time value of current bar</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">myTimeSeries[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Time[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">];</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Drawing</span></h2>
+<p class="p_Normal">The DrawObjects used in NinjaTrader have received a number of changes:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>All DrawObjects have been moved to a separate <span style="font-weight: bold;">NinjaScript.DrawingTools</span> namespace and are properly known as <span style="font-weight: bold;">DrawingTools</span></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Drawing Methods called from indicators or strategies have been moved to a new static partial <span style="font-weight: bold;">Draw</span> class</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Drawing Methods have all received a signature change which requires you specify the owner (object) which drew the <span style="font-weight: bold;">DrawingTool</span> object</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Drawing Methods no longer returns an interface but rather an instance of the <span style="font-weight: bold;">DrawingTool</span> object itself</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Drawing Methods now use the <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx" target="_blank" class="weblink">System.Windows.Media.Brushes</a> class instead of the <a href="https://msdn.microsoft.com/en-us/library/system.drawing.color(v=vs.110).aspx" target="_blank" class="weblink">System.Drawing.Color</a> structure</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;DrawingTools are now completely unprotected and you can review their source code from the DrawingTools folder of the NinjaScript Editor's explorer menu</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// example syntax</span><br />
+<span class="f_CodeExample">Draw.Line(NinjaScriptBase</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">owner,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">tag,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startBarsAgo,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">startY,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endBarsAgo,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">endY,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">brush)</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">// example usage</span><br />
+<span class="f_CodeExample">Draw.Line(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;tag1&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">10</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Red);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Casting a member of the <span style="font-weight: bold;">DrawObjects[] </span>collection must be done safely using the &quot;as&quot; keyword, otherwise you may receive exceptions at run time should another instance of the object (e.g., matching tag) exist from another owner:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">NinjaScript.DrawingTools.Line</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myLine</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DrawObjects[</span><span class="f_CodeExample" style="color: #800000;">&quot;tag1&quot;</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DrawingTools.Line;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="font-weight: bold;">DrawingTools</span> anchor fields such as &quot;Time&quot; or &quot;Price&quot;, etc have been moved to a <span style="font-weight: bold;">ChartAnchor</span> object owned by the drawing tool, rather than a direct field on the drawing object interface. &nbsp;Please refer to the NinjaTrader 8 documentation for specific changes for each drawing tool:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">linePrice</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myLine.StartAnchor.Price;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Objects which previously used<span style="font-weight: bold;"> System.Drawing.Font</span> now uses new <span style="font-weight: bold;">NinjaTrader.Gui.Tools.SimpleFont</span> class:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">Gui.Tools.SimpleFont</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myFont</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Gui.Tools.SimpleFont(</span><span class="f_CodeExample" style="color: #800000;">&quot;Arial&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">12</span><span class="f_CodeExample">);</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Properties and other methods/objects which previously <a href="https://msdn.microsoft.com/en-us/library/system.drawing.color(v=vs.110).aspx" target="_blank" class="weblink">System.Drawing.Color</a> structure now use the <a href="https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx" target="_blank" class="weblink">System.Windows.Media.Brushes</a> class:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">BackBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue;</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;For custom <span style="font-weight: bold;">Brush</span> objects, it is important to .<span style="font-weight: bold;">Freeze()</span> the <span style="font-weight: bold;">Brush</span> due to the multi-threaded architecture of NinjaTrader 8. &nbsp;Please be sure to review the new information on using <a href="brushes.htm" class="topiclink">Brushes</a></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Namespaces </span></h2>
+<p class="p_Normal">The NinjaTrader 7 namespaces<span style="font-weight: bold;"> NinjaTrader.Indicator</span> and <span style="font-weight: bold;">NinjaTrader.Strategy </span>have been renamed and moved to single <span style="font-weight: bold;">NinjaTrader.NinjaScript</span> namespace</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">//This namespace holds indicators in this folder and is required. Do not change it.</span><br />
+<span class="f_CodeExample" style="color: #0000ff;">namespace</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.NinjaScript.Indicators</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomIndicator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Indicator</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #008000;">//This namespace holds Strategies in this folder and is required. Do not change it. </span><br />
+<span class="f_CodeExample" style="color: #0000ff;">namespace</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.NinjaScript.Strategies</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Strategy</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Partial Classes (Porting methods and properties from UserDefinedMethods.cs)</span></h2>
+<p class="p_Normal">NinjaTrader 7 used a &quot;UserDefinedMethods&quot; class to define methods to be used across multiple NinjaScript indicators or strategies. In NinjaTrader 8, these pre-built partial classes have been removed to reduce a number of issues which could result from users sharing their UserDefinedMethods.cs files, or overwriting their existing files with copies from a new vendor. Partial classes are now best built manually and saved in the C:\Users\&lt;user&gt;\Documents\NinjaTrader 8\bin\Custom\AddOns folder.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<tr class="Warning">
+<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: If a partial class is saved in one of the folders used for specific NinjaScript objects other than AddOns (e.g., Indicators folder), auto-generated NinjaScript code may be appended to the end of the class by the NinjaScript Editor when compiled, which will cause a compilation error. &nbsp;Saving these files in the AddOns folder will ensure they are still accessible and will not generate code which may be cause conflicts.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">You can use the template below as a starting point to create your partial class. If your partial class needs to inherit from a parent class, you can append the name of your desired parent class after the &quot; : &quot; to change the inheritance.</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: Methods within your partial classes should be using the &quot;public&quot; modifier.</p>
+</td>
+</tr>
+</table>
+</div>
+<h1 class="p_Heading1"><span class="f_Heading1">&nbsp;</span></h1>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_NSexamplesheading"> &nbsp; Partial Class Example Template</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">namespace</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.NinjaScript.Indicators</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExampleTypes">partial</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyMethods </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// : parent class to inherit from</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">//Sample method which calculates the delta of two prices</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">calculateDelta(</span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">firstPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">secondPrice)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Math.Abs(firstPrice</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">-</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">secondPrice);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">//Sample method which prints Position information</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">printPositionInfo(Position</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">position)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">Print(String.Format(</span><span class="f_CodeExample" style="color: #800000;">&quot;{0}: {1} {2} at {3}&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">position.Instrument,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">position.Quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">position.MarketPosition,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">position.AveragePrice));</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Below is an example of using one of the methods in this partial class from within an Indicator:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_NSexamplesheading"> &nbsp;Partial Class Usage</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CurrentBar</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&lt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Use the static calculateDelta method to calculate the difference between the close of each bar</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">delta</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyMethods.calculateDelta(Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">]);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">Print(delta);</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;At the time of the Beta implementation, the NinjaScript Editor does <span style="font-weight: bold;">NOT</span> include a partial class generator wizard, as it does for core NinjaScript Types such as Drawing Tools, Market Analyzer Columns, or Strategies. However, we are currently tracking a suggestion to implement a wizard for partial classes, under ID # <span style="font-weight: bold;">SFT-341</span>. &nbsp; Please feel free to contact <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="17677b76637178657a6462676778656357797e797d766365767372653974787a">[email&#160;protected]</a> if you would like to add your vote for this enhancement.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Prevention of Redundant Data Loading</span></h2>
+<p class="p_Normal">In NinjaTrader 7, multiple Data Series could be added within a script, such as an indicator, and that script could then be hosted by another script, such as a strategy. While this is still possible in NinjaTrader 8, there is a new safeguard in place to prevent redundant data loading in both the hosting script and the hosted indicator. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">When hosting an indicator which adds Data Series programmatically, the hosting script must include the same calls to the AddDataSeries() method as the hosted script. Without this, an error will result, which reads <span style="font-style: italic; color: #333333; background-color: #ffffff;">&quot;A hosted indicator tried to load additional data. All data must first be loaded by the hosting NinjaScript in its Configure state.&quot;</span><span style="color: #333333; background-color: #ffffff;">&nbsp;</span>Without this safegaurd in place, it would be possible for unnecessarily large amounts of data to be loaded concurrently, as would be the case in a direct call to an indicator method on each OnBarUpdate().<span style="color: #333333; background-color: #ffffff;">&nbsp;</span>By adding the calls to AddDataSeries() to the hosting script, you can ensure that the data is loaded when needed. Also, when this is done in the hosting script, all identical calls to AddDataSeries() in the hosted script will be ignored, as the data is already available.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><span style="color: #333333; background-color: #ffffff;">The examples below show this in action:</span></p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_NSexamplesheading"> &nbsp;Hosted Indicator Loads Additional Data</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomIndicator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Indicator</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Configure)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">AddDataSeries(</span><span class="f_CodeExample" style="color: #800000;">&quot;AAPL&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriodType.Day</span><span class="f_CodeExample" style="color: #0000ff;">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">AddDataSeries(</span><span class="f_CodeExample" style="color: #800000;">&quot;EURUSD&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriodType.Minute,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">15</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><p class="p_NSexamplesheading"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/><span class="f_NSexamplesheading"> &nbsp;Hosting Strategy Mirrors AddDataSeries() calls</span></p>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">class</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Strategy</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Define a MyCustomIndicator</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">MyCustomIndicator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myIndicator;</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Configure)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Instantiate the MyCustomIndicator and add it to the chart</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">myIndicator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MyCustomIndicator();</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">AddChartIndicator(myIndicator);</span><br />
+<span class="f_CodeExample">&nbsp;</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// These calls to AddDataSeries() mirror the calls in the hosted indicator</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">AddDataSeries(</span><span class="f_CodeExample" style="color: #800000;">&quot;AAPL&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriodType.Day</span><span class="f_CodeExample" style="color: #0000ff;">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">AddDataSeries(</span><span class="f_CodeExample" style="color: #800000;">&quot;EURUSD&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriodType.Minute,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">15</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Bars with 0 Volume</span></h2>
+<p class="p_Normal">In previous versions, the NinjaTrader core was designed to replace a tick with a volume of 0 with a volume of 1. &nbsp;This resulted in all ticks having a volume value of at least 1. &nbsp;NinjaTrader 8 has removed that design policy and will now allow ticks with a volume of 0 to be processed. &nbsp;This policy change may require logic changes to any custom bar types, indicators, or strategies which may have previously assumed volume would always be greater than 0.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Multi-Series default &quot;Trading Hours&quot; templates</span></h2>
+<p class="p_Normal">The default behavior in NinjaTrader 8 will ensure that a bars series added to a script using <a href="adddataseries.htm" class="topiclink">AddDataSeries()</a> will use the same &quot;<a href="tradinghours.htm" class="topiclink">TradingHours</a>&quot; template as the primary series configured by the user. In contrast, the NinjaTrader 7 behavior was highly dependent on a number of variables. &nbsp;We have updated this behavior to help with consistences and synchronization issues between multiple series; however if you your script relies on two times frames using different trading hours templates, you may consider using one of the new <span style="font-weight: bold;">tradingHours </span>string overloaded used in <a href="adddataseries.htm" class="topiclink">AddDataSeries()</a>:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<thead>
+<tr class="NSExample">
+<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="NSExample">
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Configure)</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// adds a 1 minute AAPL bars with a default 24/7 session tempalte.</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">AddDataSeries(</span><span class="f_CodeExample" style="color: #800000;">&quot;AAPL&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriod</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriodType</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">BarsPeriodType.Minute,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Value</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">},</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Default 24 x 7&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Miscellaneous</span> </h2>
+<p class="p_Normal">All of the NinjaTrader 7 reference samples posted in our support forum have been updated to demonstrate NinjaTrader 8 functionality. &nbsp;Please be sure to check the reference sample section to see other undocumented features and concepts which may not have been covered in the help guide: &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="margin: 0 0 0 24px;"><a href="http://www.ninjatrader.com/support/forum/forumdisplay.php?f=30" target="_blank" class="weblink">Official NinjaScript reference code samples</a></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">There are several other changes to implementation which are not covered in detail on this overview, please see the code breaking changes table at the bottom of this page which will compare the implementation changes between both versions.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="SignatureChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SignatureChangesOverview','SignatureChangesOverview_ICON')">Signature&nbsp;Changes&nbsp;Overview</a></span></p>
+<div id="SignatureChangesOverview" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Signature</span></h2>
+<p class="p_Normal">A large number of the NinjaTrader methods which were available in NinjaTrader 7 have remained largely the same and should not generate any errors on compilation. &nbsp;However there are a handful of existing methods signatures which have been updated in NinjaTrader 8 in order to fit within new framework which you would need to be aware of in order to transfer these functions from NinjaTrader 7 to NinjaTrader 8. &nbsp;In most cases, the fundamental argument type has been restructured, which may result in compile errors depending on the type of object that is being used within the methods signature. </p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<tr class="Tip">
+<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;Methods may now have additional signatures which add functionality which was not previously available. &nbsp;Be sure to check the NinjaTrader 8 documentation which will cover all the available signatures available. &nbsp;</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="NameChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','NameChangesOverview','NameChangesOverview_ICON')">Name&nbsp;Changes&nbsp;Overview</a></span></p>
+<div id="NameChangesOverview" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Renamed</span></h2>
+<p class="p_Normal">During the NinjaTrader 8 development process, one of our goals to make sure that our core framework matched various coding standards which have been set out in the industry. &nbsp;As a result of meeting these coding standards, many NinjaTrader methods and properties needed to been renamed. &nbsp; &nbsp;While the functionality of these methods and properties remains the same, we chose to rename these variables to follow a semantically context specific naming convention which is generally agreed upon to favor readability. &nbsp;We feel that the renaming of these properties and methods more explicitly describes the intended function to the developer who may be reviewing code. &nbsp;The largest number of changes is in response to the name convention of bools, where they now follow a more strict verb-adjective or verb-noun structure. &nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">For an example:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The property <span style="font-weight: bold;">FirstTickOfBar</span> may have been hard to distinguish precisely what it represented without having to look up documentation. &nbsp;In NinjaTrader 8, this property has been renamed to <span style="font-weight: bold;">IsFirstTickOfBar</span>, which now gives this property a more readable identifier name when you read this line of code as &quot;<span style="font-style: italic;">is the first tick of bar true?</span>&quot;</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Another example is the case of <span style="font-weight: bold;">BarsSinceEntry()</span> which was renamed to<span style="font-weight: bold;"> BarsSinceEntryExecution()</span>, which now specifies that this method is looking for an entry <span style="font-style: italic;">execution</span>.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>NinjaTrader 7 sometimes had methods or properties which shared names, but references different data or actions. &nbsp;For example <span style="font-weight: bold;">Add()</span> could have been used in reference to adding <span style="font-weight: bold;">DataSeries</span> to a script, adding a <span style="font-weight: bold;">Plot</span>, or adding a <span style="font-weight: bold;">Line</span>. &nbsp;To be more specific, NinjaTrader 8 has renamed these to <span style="font-weight: bold;">AddDataSeries()</span>,<span style="font-weight: bold;"> AddPlot()</span>, and <span style="font-weight: bold;">AddLine()</span> respectively. &nbsp;</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>There may be cases where the property or method name has changed simply because the type of data it interacted with has changed. &nbsp;(e.g., <span style="font-weight: bold;">BarColor</span> vs. <span style="font-weight: bold;">BarBrush</span>)</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>There are other cases where properties may have used unnecessary brevity and was renamed to favor readability (e.g., <span style="font-weight: bold;">AvgPrice</span> vs <span style="font-weight: bold;">AveragePrice</span>)</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">These are just a few examples of the many name changes found in NinjaTrader 8 and some of the rational behind the number of these changes. &nbsp;For simplicity, you will find a list of all the renamed properties in the table at the bottom of this document by filtering by the &quot;Renamed&quot; keyword.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Code Breaking Table</span></h2>
+<p class="p_Normal">Below you will find a reference table which lists all of the supported NinjaScript changes between NinjaTrader 7 and NinjaTrader 8.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">&nbsp;</p>
+<div id="codebreakingtable" style="">
+			<link rel="stylesheet" type="text/css" href="jquery.dataTables.css">
+			<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" charset="utf8" src="jquery.js"></script>
+			<script type="text/javascript" charset="utf8" src="jquery.dataTables.js"></script>
+			<script>
+				/* Formatting function for row details - modify as you need */
+				function format(d) {
+					// `d` is the original data object for the row
+				return '<div align="left" style="background-color: #fcfcfc; border: solid 1px #aab8c6; padding: 10px; border-radius: 8px;">' + d.Details + "</div>";
+				}
+				$(document).ready(function() {
+					var table = $('#CodeChanges').DataTable({
+						 "order": [[ 3, "asc" ]],
+					"bSortClasses": false,
+						"ajax": "codebreak.json", // this is the code breaking document
+						"columns": [
+							{ "data": "Category" },
+							{ "data": "Base" },
+							{ "data": "NT7 Name" },
+							{ "data": "NT8 Name"},
+							{ "data": "Summary" },
+							{ "data": "Details", "visible": true, "searchable:": false, "sortable": false } 
+							
+						],
+						"lengthMenu": [[25, 50, 75, 100, -1], [25, 50, 75, 100, "All"]],                                              
+						"aoColumnDefs": [
+							{
+								"aTargets": [2],
+								"mRender": function(data, type, full) {
+									if (full["NT7 URL"] === "undefined")
+										return data;
+									else
+										return '<a href="http://www.ninjatrader.com/support/helpGuides/nt7/index.html?' + full["NT7 URL"] + '" target="new">' + data + '</a>';
+								}
+							},
+							{
+								"aTargets": [3],
+								"mRender": function(data, type, full) {
+									if (full["NT8 URL"] === "undefined")
+										return data ;
+									else
+										return '<a href="http://www.ninjatrader.com/support/helpGuides/nt8/index.html?' + full["NT8 URL"] + '" target="new">' + data + '</a>';
+								}
+							},
+							{
+								"aTargets": [4],
+								"mRender": function(data, type, full) {
+									if (full["Summary"] === "undefined")
+										return "" ;
+									else
+										return data;
+								}
+							},							
+							{
+								"aTargets": [5],
+								"mRender": function (data, type, full) {
+									if (full["Details"] != "undefined")
+										return  '<small><a style="cursor: pointer;" id="details">Details</a></small>' 
+									else return '';
+								}
+							}
+						]
+					});
+					// Add event listener for opening and closing details
+					$('#CodeChanges tbody').on('click', '#details', function () {
+						var tr = $(this).closest('tr');
+						var row = table.row(tr);			
+						if (row.child.isShown()) {
+							// This row is already open - close it
+							row.child.hide();
+							tr.removeClass('shown');
+						}
+						else {
+							// Open this row
+							row.child(format(row.data())).show();
+							tr.addClass('shown');
+						}
+							});
+				});
+			</script>
+			
+			<table id="CodeChanges" class="display" width="100%">
+				<thead>
+					<tr>
+						<th>Category</th>
+						<th>Base</th>						
+						<th>NT7 Method/Property</th>
+						<th>NT8 Method/Property </th>
+						<th>Summary</th>	
+						<th></th>					
+					</tr>
+				</thead>			
+			</table>
+             
+</div>
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('ImplementationChangesOverview_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ImplementationChangesOverview\',\'ImplementationChangesOverview_ICON\')');
+HMInitToggle('ImplementationChangesOverview','hm.type','dropdown','hm.state','0');
+HMInitToggle('SignatureChangesOverview_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SignatureChangesOverview\',\'SignatureChangesOverview_ICON\')');
+HMInitToggle('SignatureChangesOverview','hm.type','dropdown','hm.state','0');
+HMInitToggle('NameChangesOverview_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'NameChangesOverview\',\'NameChangesOverview_ICON\')');
+HMInitToggle('NameChangesOverview','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

@@ -1,0 +1,682 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Charts &gt; Order Flow + &gt; Order Flow Volumetric Bars</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "order_flow_volumetric_bars.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Order Flow Volumetric Bars</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-151.htm?order_flow_volumetric_bars.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations-1.htm">Operations</a> &gt; <a href="charts-1.htm">Charts</a> &gt; <a href="order_flow_plus-1.htm">Order Flow +</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Order Flow Volumetric Bars</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="order_flow_plus-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="order_flow_plus-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="order_flow_cumulative_delta-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">NinjaTrader<span style="font-family: Calibri,Vectora,'Droid Sans','Open Sans',Frutiger,sans-serif;"> </span>Order Flow Volumetric <a href="bar_types-1.htm" class="topiclink">bars</a> provide a detailed ‘x-ray’ view into each price bar’s aggressive buying and selling activity. This technique primarily attempts to answer the question which side was the most aggressive at each price level. This is done by calculating the delta (greek for difference) between buying and selling volume (please see the Delta type property explanation below). </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">With the delta value known for each price level in the bar, it is then classified per each session for analysis and emphasizes the buying / selling strength unfolding. This is done by a gradient coloring approach shading the value cells in the bar, where the level of sensitivity for the gradient can be set via the Shading sensitivity property. The higher this value is set, the finer the gradient can be applied to various levels of strength - the NinjaTrader default is 20 levels.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">This can be thought of as a way of not only saying who ‘won / lost’ the price level’s auction, but also by what margin or strength. This is not a signal in itself per se, but rather a mechanical means to classify the buying vs selling activity at each individual price level and thus offer the trader a more detailed look what happens inside the price bars.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">A second comparison of buy sell volumes is the Imbalance detection. Here the price level buying and selling volumes are compared diagonally to understand which side of the market was stronger by exceeding the set Imbalance ratio. For example if the buying volume was 1000 contracts and the selling volume diagonal below was 300 then buying Imbalance was detected (assuming a default Imbalance ratio of 1.5). This can be helpful especially if multiple Imbalances 'cluster' close together to form support / resistance areas.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">NinjaTrader<span style="font-family: Calibri,Vectora,'Droid Sans','Open Sans',Frutiger,sans-serif;"> </span>Order Flow Volumetric bars can provide a large degree of details and facilitate displaying the information in a dynamically sized way, as the text is re-sized as your horizontally or vertically adjust the chart's scale range.</p>
+<p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Critical">
+<tr class="Critical">
+<td class="Critical"><p class="p_Normal"><span style="font-weight: bold;">Critical</span>: To perform the delta buy / sell aggressor classification (DeltaType BidAsk), historical bid / ask tick data access by your provider is needed. To see which data providers can offer which type of data in NinjaTrader, please review <a href="data_by_provider-1.htm" class="topiclink">this table</a>. If your provider could only support 'last' historical tick data, then the classification could still be made using DeltaType UpDownTick mode.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Forex spot data charting is traditionally driven from the bid side only, since no 'true' last exists. Provided values would not represent a centralized auction based market as with stocks or futures - as such Order Flow Volumetric Bars would not be supported on Forex spot data.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="OrderFlowVolumetricOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','OrderFlowVolumetricOverview','OrderFlowVolumetricOverview_ICON')">Order&nbsp;Flow&nbsp;Volumetric&nbsp;Overview</a></span></p>
+<div id="OrderFlowVolumetricOverview" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Order Flow Volumetric Overview:</span></h2>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">You can apply the Order Flow Volumetric bars within a Chart Data Series window under <span class="f_Menu">Type</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="OrderFlowVolumetric" width="511" height="497" style="margin:0;width:511px;height:497px;border:none" src="orderflowvolumetric.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Below we show a 5 minute Order Flow Volumetric BidAsk style chart of the popular E-Mini S&amp;P 500 contract. An exemplary bar in yellow is annotated to show the different components you will work with on an Order Flow Volumetric chart.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">1. Order Flow Volumetric bar</p>
+<p class="p_Normal">2. Sell Volume per each price level seen in the bar</p>
+<p class="p_Normal">3. Buy Volume per each price level seen in the bar</p>
+<p class="p_Normal">4. Open / Close bar</p>
+<p class="p_Normal">5. Maximum highlight in the bar - this shows the price(s) with the highest volume or delta in the bar</p>
+<p class="p_Normal">6. Bar Statistics panel (only 3 out of possible 10 values activated here)</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="OFVM1" width="726" height="434" style="margin:0;width:726px;height:434px;border:none" src="ofvm1.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">On the next image, we see an excerpt of the same chart, however now the chart style type is changed to Delta. The bar highlighted yellow corresponds to the annotated bar above - this style, instead of the individual buy / sell volumes, show the combined delta value for each price level. </p>
+<p class="p_Normal">If positive the level was seeing buying strength, negative if selling strength.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="OFVM2" width="726" height="434" style="margin:0;width:726px;height:434px;border:none" src="ofvm2.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Now let's take a look how the actual values we see in the bar are calculated from the market data, as an example take the first level of our Volumetric BidAsk bar in the first screen-shot (numbers right below the 2/3 annotated numbers) :</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">We see a bid or selling volume of <span style="font-weight: bold;">220</span> and a ask or buying volume of <span style="font-weight: bold;">740</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Taking the difference (Buy volume - Sell volume) so <span style="font-weight: bold;">740 - 220</span> we get the delta value of <span style="font-weight: bold;">520</span> - which we see as first cell value in the 2nd screen-shot showing the Delta type.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The shading taking place in the bars will always be based on this delta value calculated, the chart style just defines what kind of textual data detail will be displayed (the actual Bid Ask Volumes or the Delta value).</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Moving on to the lower portion Bar Statistics (6), we see the Buy Vol and Sell Vol for the bar and a delta as well exposed - however, please note that these are summed values for the entire bar.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">If we sum all the buy volumes we would get <span style="font-weight: bold;">3463</span>; summing sell volumes for the bar is <span style="font-weight: bold;">4535</span>. All the price level deltas summed would equal the delta of the entire bar <span style="font-weight: bold;">-1072</span>.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Order Flow Volumetric Imbalance charting:</span></h2>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The screen-shot below explains the workings of the Imbalance detection in more detail. You can see the Buy / Sell volumes are compared diagonally here to arrive at the classification if buy or sell imbalance is present.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Let's run through the first calculation for the example bar in yellow:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">1. Buy volume of <span style="font-weight: bold;">518</span> is compared to the diagonal below sell volume of <span style="font-weight: bold;">989</span></p>
+<p class="p_Normal">2. Dividing the buy volume into the sell volume we get a ratio of <span style="font-weight: bold;">989 / 518 = 1.9092...</span></p>
+<p class="p_Normal">3. NinjaTrader by default sets the ratio for Imbalance at 1.5, so this level gets marked with Sell Imbalance (magenta text color per default).</p>
+<p class="p_Normal">4. As a further condition, a minimum difference between the compared values must be present. This value is defaulted to 10 - which is valid in our example as well.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">In the case that both Imbalance and Maximum would trigger for the same cell, the Maximum would override and be displayed (example shown below at annotation 1).</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">NinjaTrader 8.0.19.0 or newer also offers the option to compare horizontal for Imbalance (Imbalance mode setting).</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="OFVM3" width="726" height="434" style="margin:0;width:726px;height:434px;border:none" src="ofvm3.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Order Flow Volumetric Bar Statistics:</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">The Volumetric Bar statistics show important values for each Volumetric bar in a static grid-like fashion. The same gradient strength shading as for the main Volumetric bars is applied here.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Via a right click in the price scale section the individual statistic values could be enabled / disabled 'on the fly'. </p><h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="OFVM4" width="726" height="434" style="margin:0;width:726px;height:434px;border:none" src="ofvm4.png"></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">Order Flow Volumetric Bar data shown as profile:</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">Below chart is an example of showing the volumetric bid ask volume bar data as distribution profile, additionally 'hide text' is checked - which means we see the maximum (yellow) as well as imbalance (cyan / magenta) marked via the cell borders coloring.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Showing the data in this fashion can give traders an easier read, as differences between light and high volume price areas becomes visually more striking.</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="OFVM7" width="726" height="434" style="margin:0;width:726px;height:434px;border:none" src="ofvm7.png"></h2>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_ToggleHeading"><img id="OrderFlowVolumetricImbalanceCustomizationExample_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','OrderFlowVolumetricImbalanceCustomizationExample','OrderFlowVolumetricImbalanceCustomizationExample_ICON')">Order&nbsp;Flow&nbsp;Volumetric&nbsp;Imbalance&nbsp;Customization&nbsp;Example</a></span></p>
+<div id="OrderFlowVolumetricImbalanceCustomizationExample" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Order Flow Volumetric Imbalance Customization example:</span></h2>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">This section presents an example of how NinjaTrader<span style="font-family: Calibri,Vectora,'Droid Sans','Open Sans',Frutiger,sans-serif;"> </span>Order Flow Volumetric bars can be highly customized to your trading style. Traders focused on Order Flow Volumetric Imbalances may consider working these charting ideas into their NinjaTrader setup.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The settings we present below could be used as a starting point -</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="OFVM6" width="597" height="1019" style="margin:0;width:597px;height:1019px;border:none" src="ofvm6.png"></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The regular 5 Minute CandleStick chart is brought in to this chart via a second Data Series, so forming a <a href="working_with_multiple_data_series-1.htm" class="topiclink">MultiSeries chart</a> with our main 5min Order Flow Volumetric bars. This can advantageous if you prefer to plot the regular bar / candlestick portion in the middle of the bar between the Buy/Sell volume columns. In NinjaTrader 8.0.19.0 or newer, this can now be also accomplished without a second DataSeries by enabling the Center Open/Close bar plotting option.</p>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<h2 class="p_Heading2"><img alt="OFVM5" width="726" height="434" style="margin:0;width:726px;height:434px;border:none" src="ofvm5.png"></h2>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_ToggleHeading"><img id="OrderFlowVolumetricBarsDataSeries_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','OrderFlowVolumetricBarsDataSeries','OrderFlowVolumetricBarsDataSeries_ICON')">Order&nbsp;Flow&nbsp;Volumetric&nbsp;Bars&nbsp;parameters</a></span></p>
+<div id="OrderFlowVolumetricBarsDataSeries" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">Data series:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Base period type</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the base period type the Volumetric bars should be calculated on, possible values include:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Tick, </p>
+<p class="p_Normal">Volume,</p>
+<p class="p_Normal">Second,</p>
+<p class="p_Normal">Minute,</p>
+<p class="p_Normal">Day,</p>
+<p class="p_Normal">Week,</p>
+<p class="p_Normal">Month,</p>
+<p class="p_Normal">Year,</p>
+<p class="p_Normal">Range</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Base period value</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Period of your chosen Base period type for Volumetric bars (i.e. <span style="font-weight: bold;">3</span> Minute, <span style="font-weight: bold;">450</span> Tick)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Delta type</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets how the delta is calculated for buy / sell aggressor classification. Possible values are:</p>
+<p class="p_Normal">BidAsk or UpDownTick. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">BidAsk - Accumulates the volume of orders filled at the bid or less vs ask or more. Orders filled at the ask or more price are considered buying pressure. Orders filled at the bid or less price are considered selling pressure. If the current tick price is between ask and bid, the volume will be recorded to the same pressure as the previous tick. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">UpDownTick - Accumulates the volume of up ticks vs down ticks. Up ticks are considered buying pressure. Down ticks are considered selling pressure. If the current tick price is the same as the previous tick price, the volume will be recorded to the same pressure as the previous tick.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Ticks per level</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the level of aggregation for individual price levels, i.e. if price levels should be merged together, default 1 – so each price level delta result is seen individually inside the price bars </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">(Please note that with a higher Ticks per level set, there could be Volumetric remainder cells as a result that are actually smaller than your set Ticks per level, as not all bar ranges could be evenly divisible by the Ticks per level value)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Size filter</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Default 0, could be set higher to limit seeing the delta only for trades higher than the size filter setting, for example tracking larger trades only - keep in mind this could be potentially set too high for your chart, so Volumetric bars value cells could show 0 volume, so it never met this criteria then to be considered in the analysis.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Tick replay</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Check to allow indicators or strategies to access Tick replay data, the main Volumetric bars though will always be built off a 1 tick series.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Chart style:</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart style type</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the chart style type used, possible values are : BidAsk or Delta</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">BidAsk - allows you seeing the individual buy / sell volume cells inside the Volumetric bar, buy (ask) volume is shown on the right side, sell (bid) volume shown on the right side. Additionally this style can highlight the maximum and imbalance conditions.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Delta - allows to see the single value total net delta per each price cell, maximum can be shown as well (no imbalance option for this style)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Center open close bar</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When checked, allows centering of the Open / Close bar on the BidAsk Chart style type</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Show as profile</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables to show the Volumetric bar data as profile / distribution</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Show volume</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables to show the volume distribution to the right of the Volumetric bar.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strength sensitivity</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets how many gradient levels should be calculated to provide the buy / sell strength shading for the Volumetric bars and Bar Statistics, the default setting is 20. This is reset at every session break to ensure the gradient strength classifications easily comparable across various days market action.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Size display filter</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Allows only displaying Bid / Ask or delta numbers higher than the threshold. Default 0 and a visual only setting.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Show imbalance</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables the display of Imbalance coloring</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Only applicable for the Volumetric BidAsk chart style type</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">With 'Hide text' checked will display imbalances by coloring the respective imbalance cell borders</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Imbalance ratio</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the ratio used for comparing the buy / sell volumes for accessing if Imbalance is present, default 1.5</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Only applicable for the Volumetric BidAsk chart style type</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Imbalance mode</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the comparison mode for Imbalance : Diagonal or Horizontal</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Minimum delta for imbalance</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the minimum delta to be seen diagonally across compared buy / sell volume columns for displaying Imbalance, default value is 10.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Only applicable for the Volumetric BidAsk chart style type</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color dominant side</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables to display the dominant ('winning') strength side only in the Volumetric strength display </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Only applicable for the Volumetric BidAsk chart style type</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Box outline</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets options for the display of the outline of the Volumetric boxes</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Box grid</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets options for the display of the inner grid of the Volumetric bars</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Candle body outline</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets options for the display of the body outline of the Open/Close bar</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for up bars</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the up brush color used for Open/Close bar </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for down bars</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the down brush color used for Open/Close bar </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for doji</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the doji brush color used for Open/Close bar </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for positive strength</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the positive brush color used for positive strength gradients</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for negative strength</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the negative brush color used for negative strength gradients</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for buy imbalance</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the brush color used for buy imbalance</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Only applicable for the Volumetric BidAsk chart style type</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for sell imbalance</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the brush color used for sell imbalance</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Only applicable for the Volumetric BidAsk chart style type</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Show maximum</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables the display of the maximum value for the Volumetric bars, if identical values would be seen across cells, then all cells sharing the maximum would be highlighted.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">BidAsk style: If Color dominant side is checked, it will highlight both the Buy and Sell price levels with the highest volume, else it will highlight the price level with the highest combined Buy / Sell volume (Total volume for the price level)</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">Delta stye: highest absolute delta level would be highlighted</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">With 'Hide text' checked will display the maximum by coloring the respective maximum cell borders</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for maximum</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the color used for maximum display</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Hide text</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables to hide the Volumetric cell values text display </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for text</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the text color used for the displaying the Volumetric cell values</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Show bar statistics</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables the display of the Volumetric bar statistics in the lower portion (static location) of the chart. You can checkmark each desired statistic, possible statistics are -</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:22%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Trades</p>
+</td>
+<td style="vertical-align:top; width:306px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The total number of trades in the bar</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Volume</p>
+</td>
+<td style="vertical-align:top; width:306px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The volume for the bar</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Buy vol</p>
+</td>
+<td style="vertical-align:top; width:306px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Buy vol for the bar</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sell vol</p>
+</td>
+<td style="vertical-align:top; width:306px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Sell vol for the bar</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Delta (bar)</p>
+</td>
+<td style="vertical-align:top; width:306px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The total delta for the bar (all individual price level delta summed)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Delta (%)</p>
+</td>
+<td style="vertical-align:top; width:306px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The bar delta expressed as percentage of volume for the bar</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Cumulative delta</p>
+</td>
+<td style="vertical-align:top; width:306px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The bar delta value cumulated throughout the session</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Min delta</p>
+</td>
+<td style="vertical-align:top; width:306px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The minimum delta seen in the bar (intrabar). This could be positive as well, i.e. a strong up bar with no selling pressure</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Max delta</p>
+</td>
+<td style="vertical-align:top; width:306px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The maximum delta seen in the bar (intrabar). This could be negative as well, i.e. a strong down bar with no buying pressure</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Delta change</p>
+</td>
+<td style="vertical-align:top; width:306px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The change in delta from the previous bar's delta value</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Delta SH</p>
+</td>
+<td style="vertical-align:top; width:306px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The delta since last time price touched the high of the bar, usually negative</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:22%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Delta SL</p>
+</td>
+<td style="vertical-align:top; width:306px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The delta since last time price touched the low of the bar, usually positive.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The statistics can be toggled as well 'on the fly' from the chart's right scale by clicking on the statistic labels.</p>
+<p class="p_Normal">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Color for base</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the brush color used for base bar statistics strength gradients (Trades, Volume) </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:26%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Statistics grid</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets options for the display of the bar statistics grid of the Volumetric bars</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_Normal" style="text-indent: -32px; margin: 0 0 0 32px;">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="OrderFlowVolumetricValuesNinjaScriptAccess_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','OrderFlowVolumetricValuesNinjaScriptAccess','OrderFlowVolumetricValuesNinjaScriptAccess_ICON')">Order&nbsp;Flow&nbsp;Volumetric&nbsp;Values&nbsp;NinjaScript&nbsp;access</a></span></p>
+<div id="OrderFlowVolumetricValuesNinjaScriptAccess" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">For information on how to access the Order Flow Volumetric Bars and Bar Statistic values in NinjaScript, please see the <a href="order_flow_volumetric_bars2-1.htm" class="topiclink">Order Flow Volumetric Bars</a> page in the NinjaScript section of the Help Guide.</p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('OrderFlowVolumetricOverview_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowVolumetricOverview\',\'OrderFlowVolumetricOverview_ICON\')');
+HMInitToggle('OrderFlowVolumetricOverview','hm.type','dropdown','hm.state','0');
+HMInitToggle('OrderFlowVolumetricImbalanceCustomizationExample_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowVolumetricImbalanceCustomizationExample\',\'OrderFlowVolumetricImbalanceCustomizationExample_ICON\')');
+HMInitToggle('OrderFlowVolumetricImbalanceCustomizationExample','hm.type','dropdown','hm.state','0');
+HMInitToggle('OrderFlowVolumetricBarsDataSeries_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowVolumetricBarsDataSeries\',\'OrderFlowVolumetricBarsDataSeries_ICON\')');
+HMInitToggle('OrderFlowVolumetricBarsDataSeries','hm.type','dropdown','hm.state','0');
+HMInitToggle('OrderFlowVolumetricValuesNinjaScriptAccess_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowVolumetricValuesNinjaScriptAccess\',\'OrderFlowVolumetricValuesNinjaScriptAccess_ICON\')');
+HMInitToggle('OrderFlowVolumetricValuesNinjaScriptAccess','hm.type','dropdown','hm.state','0');
+</script>
+</div></body>
+  </html>

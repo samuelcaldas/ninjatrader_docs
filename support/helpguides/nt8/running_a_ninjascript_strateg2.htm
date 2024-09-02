@@ -1,0 +1,458 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Automated Trading &gt; Running NinjaScript Strategies &gt; Running a NinjaScript Strategy from the Strategies Tab</title>
+    <meta name="generator" content="Help &amp; Manual" />
+    <meta name="keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link type="text/css" href="default.css" rel="stylesheet" />
+    <link type="text/css" href="custom.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="nt_custom.js"></script>
+    <style TYPE="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="helpman_settings.js"></script>
+    <script type="text/javascript" src="helpman_topicinit.js"></script>
+    <script type="text/javascript" src="nsh.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "running_a_ninjascript_strateg2.htm");
+   </script>
+   <script type="text/javascript" src="highlight.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">Running a NinjaScript Strategy from the Strategies Tab</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?running_a_ninjascript_strateg2.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations.htm">Operations</a> &gt; <a href="automated_trading.htm">Automated Trading</a> &gt; <a href="running_ninjascript_strategies.htm">Running NinjaScript Strategies</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">Running a NinjaScript Strategy from the Strategies Tab</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="running_a_ninjascript_strategy.htm"><img name="prev" src="leftArrow.png" border=0 alt="Previous page"></a>
+              
+              <a href="running_ninjascript_strategies.htm"><img name=main src="upArrow.png" border=0 alt="Return to chapter overview"></a>
+              <a href="using_strategy_templates.htm"><img name=next src="rightArrow.png" border=0 alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">You can run a NinjaScript strategy in real-time in a live or simulation account via the <a href="options_strategies.htm" class="topiclink">Strategies</a> tab of the Control Center. </p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="HowToRunAninjascriptStrategyFromTheStrategiesTab_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToRunAninjascriptStrategyFromTheStrategiesTab','HowToRunAninjascriptStrategyFromTheStrategiesTab_ICON')">How&nbsp;to&nbsp;run&nbsp;a&nbsp;NinjaScript&nbsp;strategy&nbsp;from&nbsp;the&nbsp;Strategies&nbsp;tab</a></span></p>
+<div id="HowToRunAninjascriptStrategyFromTheStrategiesTab" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Setup Tips</span></h2>
+<p class="p_Normal">Following are some key points and instructions on on how to run a NinjaScript strategy from the Strategies tab of the Control Center window:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>NinjaTrader MUST be connected to a live brokerage or market data vendor </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>A NinjaScript strategy is a self contained automated trading system and orders generated are live and not virtual. Cancelling strategy generated orders manually can cause your strategy to stop executing as you designed it. If you want to manually cancel an order, terminate the strategy first. </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Strategies initiated from the Strategies tab will NOT appear in a chart</p><p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Running a NinjaScript Strategy</span></h2>
+<p class="p_Normal">To run a NinjaScript strategy from the Strategies tab:</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Left mouse click on the Strategies tab found in the NinjaTrader Control Center</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Right mouse click within the Strategies tab. The right click menu will appear.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Select the menu item <span class="f_Menu">New Strategy...&nbsp;</span>The New Strategy window will appear.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>Choose the strategy you wish to run from the list of <span style="font-weight: bold;">Available</span> strategies on the left</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>Set the instrument, interval, and other optional strategy properties (see the &quot;<span style="font-style: italic;">Understanding strategy properties section below</span>&quot;) and press the OK button</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">6.</span>Check the box in the Enable column of the Strategies tab next to the strategy you wish to enable.</p><p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<tr class="Note">
+<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: You must set the &quot;Enabled&quot; property in Step 6 above to <span style="font-weight: bold;">True</span> to turn on the strategy. When this property is disabled, the strategy will be applied, but will be inactive.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingStrategyProperties_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingStrategyProperties','UnderstandingStrategyProperties_ICON')">Understanding&nbsp;strategy&nbsp;properties</a></span></p>
+<div id="UnderstandingStrategyProperties" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Strategy Properties (see image below)</span></h2>
+<p class="p_Normal">The image below shows the adjustable properties for a strategy available in the Strategies tab of the Control Center (see the &quot;<span style="font-style: italic;">How to run a NinjaScript strategy in from the Strategies tab</span>&quot; section above):</p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Data Series</span></p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the instrument(s) the strategy will run against</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Price based on</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the type of market data used to drive the Data Series.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Type</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the bar type of the Data Series.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Value</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the Data Series value.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Strategy Parameters</span></p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">(...)</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets any strategy specific user defined inputs</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Time Frame</span></p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Days to load</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the number of days to load data</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Trading hours</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the Trading Hours template for the Data Series. (See the &quot;<span style="font-style: italic;"><a href="sessioniterator.htm" class="topiclink">Trading Hours</a></span>&quot; section of the Help Guide for more information)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Break at EOD</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables or disables the bars being reset at EOD (End Of Day). (See the <span style="font-style: italic;">&quot;<a href="break_at_eod.htm" class="topiclink">Break at EOD</a>&quot;</span> section of the Help Guide for more information)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Set up</span></p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Account</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the account the strategy will execute orders in</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Calculate</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the frequency that the indicator calculates:</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">On bar close </span>- will slow down the calculation until the close of a bar</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">On price change </span>- will calculate on when there has been a change in price</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">On each tick </span>- calculate the indicator's value which each incoming tick.</p></td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Label</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets a text label that will be displayed on the chart to represent the strategy</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Maximum bars look back</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the maximum number of historical bars to use for strategy calculations. The TwoHundredFiftySix setting is the most memory friendly.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Bars required to trade</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the minimum number of bars required before the strategy will start processing trades</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Start behavior</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the starting behavior of the strategy, based upon the account position. See the <a href="syncing_account_positions.htm" class="topiclink">Syncing Account Positions</a> page for more information.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Historical fill processing</span></p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order fill resolution</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the way that simulated historical orders will be processed by the strategy. See the <a href="understanding_historical_fill_.htm" class="topiclink">Understanding Historical Fill Processing</a> page for more information.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fill limit orders on touch</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables or disables the filling of limit orders on a single touch of price action.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Slippage</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the slippage amount in ticks for the historical portion of the chart</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Order handling</span></p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Entries per direction</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the maximum number of entries allowed per direction while a position is active based on the &quot;Entry handling&quot; property</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Entry handling</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the manner in how entry orders are handled. If set to &quot;<span style="font-weight: bold;">AllEntries</span>&quot;, the strategy will process all entry orders until the maximum allowable entries set by the &quot;<span style="font-weight: bold;">Entries per direction</span>&quot; property has been reached while in an open position. If set to &quot;<span style="font-weight: bold;">UniqueEntries</span>&quot;, strategy will process entry orders until the maximum allowable entries set by the &quot;<span style="font-weight: bold;">Entries per direction</span>&quot; property per each uniquely named entry.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Exit on close</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When enabled, open positions are closed on the last bar of a session</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Exit on close seconds</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the number of seconds prior to the end of a session when open positions of a strategy will be closed</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Stop &amp; target submission</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets how stop and target orders are submitted</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Order properties</span></p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br />
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Set order quantity</p>
+</td>
+<td style="vertical-align:top; width:866px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets how the order size is determined, options are:</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Default quantity</span> - User defined order size</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span style="font-weight: bold;">Strategy</span> - Takes the order size specified programmatically within the strategy </p></td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:178px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Time in force</p>
+</td>
+<td style="vertical-align:top; width:866px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the order's time in force</p>
+</td>
+</tr>
+</table>
+</div>
+<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:100%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:503px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="Running_NS_1" width="794" height="596" style="margin:0;width:794px;height:596px;border:none" src="running_ns_1.png"/></p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="HowToViewStrategyPerformance_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','HowToViewStrategyPerformance','HowToViewStrategyPerformance_ICON')">How&nbsp;to&nbsp;view&nbsp;strategy&nbsp;performance</a></span></p>
+<div id="HowToViewStrategyPerformance" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle" >
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Strategy Performance</span></h2>
+<p class="p_Normal">While the <a href="trade_performance.htm" class="topiclink">Account Performance</a> tab will generate performance report against your account's trade history, the Strategy Performance menu allows you to generate a performance report against the trades generated by the selected strategy.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal"><img alt="ControlCenter_Strategies_StrategyPerformance" width="474" height="98" style="margin:0;width:474px;height:98px;border:none" src="controlcenter_strategies_strategyperformance.png"/></p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span class="f_Menu">Real-time</span> - Generates performance data for your real-time trades only (since the strategy started running) and will exclude historical trades. If your strategy held a virtual position (calculated against historical data) upon starting, a virtual execution representing the average price of this position will be injected into the real-time results to ensure that a trade pair can be created with the executions resulting from the closing of this position.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span class="f_Menu">Historical &amp; Real-time</span> - Generates performance data for both historical and real-time trade data.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span><span class="f_Menu">Historical</span> - Generates performance data for historical data only.</p></td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('HowToRunAninjascriptStrategyFromTheStrategiesTab_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToRunAninjascriptStrategyFromTheStrategiesTab\',\'HowToRunAninjascriptStrategyFromTheStrategiesTab_ICON\')');
+HMInitToggle('HowToRunAninjascriptStrategyFromTheStrategiesTab','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingStrategyProperties_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingStrategyProperties\',\'UnderstandingStrategyProperties_ICON\')');
+HMInitToggle('UnderstandingStrategyProperties','hm.type','dropdown','hm.state','0');
+HMInitToggle('HowToViewStrategyPerformance_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToViewStrategyPerformance\',\'HowToViewStrategyPerformance_ICON\')');
+HMInitToggle('HowToViewStrategyPerformance','hm.type','dropdown','hm.state','0');
+</script>
+</body>
+  </html>

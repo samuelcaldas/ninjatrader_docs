@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operations &gt; Charts &gt; How Bars are Built</title>
+    <meta name="generator" content="Help &amp; Manual">
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" href="default-1.css" rel="stylesheet">
+    <link type="text/css" href="custom-1.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="nt_custom-1.js"></script>
+    <style type="text/css" media="screen">
+    html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #FFFFFF;
+    line-height: 1.15
+    }
+    
+    div#printheader {
+    display: none
+    }
+    #idheader {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0
+    }
+    #idcontent {
+    position: relative
+    }
+    #callout-table, #overview-table {
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0
+    }
+    #callout-icon {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -11px
+    }
+    #callout-icon-flag {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: -8px
+    }
+    #callout-table a {
+    text-decoration: none;
+    color: blue
+    }
+    #callout-table a:visited {
+    text-decoration: none;
+    color: blue
+    }
+    #overview-table a {
+    text-decoration: none;
+    color: black
+    }
+    #overview-table a:visited {
+    text-decoration: none;
+    color: black
+    }
+    #callout-table a:hover, #overview-table a:hover {
+    text-decoration: underline
+    }
+    #switchtoggles {
+    text-align: right;
+    padding: 0 5px 0 0;
+    font-size: 90%
+    }
+    p.help-url {
+    margin: 20px 0 5px 0;
+    text-align: center;
+    font-size: 80%;
+    text-decoration: none
+    }
+    .sync-toc {
+    color: #ffffff;
+    font-size: 8pt;
+    font-weight: bold;
+    display: none
+    }
+    .sync-toc a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold
+    }
+    .sync-toc a:visited {
+    color: #ffffff
+    }
+    .sync-toc a:hover {
+    text-decoration: underline
+    }
+    .p_ToggleHeading:active {
+    box-shadow: 0px 0px 4px #9ecaed
+    }                    
+    .Needs {
+      border-color: #008000 !important;
+      background-color: #f3f9f4;
+    }
+    .Under {
+      border-color: #ffcc00 !important;
+      background-color: #fffdf6;
+    }
+    </style>
+    <noscript>
+    <style type="text/css">
+    html, body { overflow: auto; }
+    </style>
+    </noscript>
+    <style type="text/css" media="print">
+    span.f_Heading1 { color: black; }
+    #idheader, #printheader img { display:none; }
+    #printheader { display: block; margin-top: 20px; }
+    #idcontent { margin-top: 10px; position:relative }
+    </style>
+    <script type="text/javascript" src="jquery-1.js"></script>
+    <script type="text/javascript" src="helpman_settings-1.js"></script>
+    <script type="text/javascript" src="helpman_topicinit-1.js"></script>
+    <script type="text/javascript" src="nsh-1.js"></script>
+    
+    
+    
+  
+   <script type="text/javascript">
+     HMSyncTOC("NT HelpGuide English.html", "how_bars_are_built.htm");
+   </script>
+   <script type="text/javascript" src="highlight-1.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){highlight();});
+   </script>
+</head>
+  <body>
+    
+    
+    
+    <div id="printheader"><p class="p_HeadingTopic"><span class="f_HeadingTopic">How Bars are Built</span></p>
+</div>
+    <div id="idheader">
+      <div id="idheaderbg">
+        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+          <tr valign="bottom">
+            <td align="left" valign="bottom" class="topichead">
+              <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html-147.htm?how_bars_are_built.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
+              <p class="crumbs" id="idnav"><b>Navigation:</b>&nbsp;
+                
+              <a href="operations-1.htm">Operations</a> &gt; <a href="charts-1.htm">Charts</a>&nbsp;&gt;</p>
+              <p class="p_HeadingTopic"><span class="f_HeadingTopic">How Bars are Built</span></p>
+
+            </td>
+            <td align="right" width="120" valign="middle" class="topichead" id="idnav">
+              
+              <a href="reload_historical_data-1.htm"><img name="prev" src="leftArrow-1.png" border="0" alt="Previous page"></a>
+              
+              <a href="charts-1.htm"><img name="main" src="upArrow-1.png" border="0" alt="Return to chapter overview"></a>
+              <a href="how_trade_executions_are_plott-1.htm"><img name="next" src="rightArrow-1.png" border="0" alt="Next page"></a>
+              
+            </td>
+          </tr>
+        </table>
+<!-- PM review header         
+        <div id="status" class="" style="margin-bottom: 0px; min-height: 25px;font-size: small; border-bottom: solid 3px;  padding: 5px;">
+          <b></b>: <span id="explain"></span>
+        </div>
+-->        
+        <!-- The following code displays Expand All/Collapse All links  below the header in topics containing toggles -->
+        
+        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        
+      </div>
+    </div>
+    
+    <div id="idcontent">
+      <div id="innerdiv">
+        <!-- Ask Internet Explorer 6.users to update their obsolete and dangerous browser -->
+        <!--[if lt IE 7]><div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+        
+        <!--ZOOMRESTART-->
+        <p class="p_Normal">NinjaTrader builds chart bars from the data provided by your data provider. There are multiple elements in the bar building process that can influence how bars are built.</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_ToggleHeading"><img id="UnderstandingTheVariablesInvolvedInBuildingChartBars_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheVariablesInvolvedInBuildingChartBars','UnderstandingTheVariablesInvolvedInBuildingChartBars_ICON')">Understanding&nbsp;the&nbsp;variables&nbsp;involved&nbsp;in&nbsp;building&nbsp;chart&nbsp;bars</a></span></p>
+<div id="UnderstandingTheVariablesInvolvedInBuildingChartBars" class="dropdown-toggle-body" style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Bar Time Stamp </span><br>
+NinjaTrader stamps a bar with the closing time of the bar. For example, a minute bar with a time of 9:31:00 AM has data from 9:30:00 AM through 9:30:59 AM. Using end of bar time stamps is required in order to be able to plot multiple series of differing time frames within a single chart all accurately synchronized to time.</h2>
+<p class="p_Normal">&nbsp;<br>
+<span class="f_Heading2">Discrepancies Between Different Data Feeds</span></p>
+<p class="p_Normal">Different data feeds produce different charts, especially when using tick based intervals vs time based intervals. Market data vendors each employ various methods for tick filtering, throttling and time stamping. As a result, no data stream is 100% identical and thus can cause subtle differences in charts. Since NinjaTrader supports many of the leading brokerage and data feed technologies, it is highly likely that two traders using NinjaTrader on different data feeds will have minor differences when plotting the same market and time interval.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Time Settings</span></h2>
+<p class="p_Normal">Different <a href="trading_hours-1.htm" class="topiclink">session templates</a> as well as the date range of data being plotted can affect the chart display and indicator values.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Real-Time Tick Filter</span></h2>
+<p class="p_Normal">If you have the <a href="options_marketdata-1.htm" class="topiclink">real-time tick filter</a> enabled, it is possible that your offset percent (the percent away a tick is in value from the last traded price to be considered a bad tick) may be too tight and thus a good tick (gap up/down on session open for example) could be excluded from the bar.</p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingTheUnderlyingBaseDataTypeRequiredForConstructingVariousChartBars_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingTheUnderlyingBaseDataTypeRequiredForConstructingVariousChartBars','UnderstandingTheUnderlyingBaseDataTypeRequiredForConstructingVariousChartBars_ICON')">Understanding&nbsp;the&nbsp;underlying&nbsp;base&nbsp;data&nbsp;type&nbsp;required&nbsp;for&nbsp;constructing&nbsp;various&nbsp;chart&nbsp;bars</a></span></p>
+<div id="UnderstandingTheUnderlyingBaseDataTypeRequiredForConstructingVariousChartBars" class="dropdown-toggle-body" style="text-align: left; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Base Data Types Used to Build Bars</span></h2>
+<p class="p_Normal">A chart bar (period type) requires a base data type as its source for bar construction. Following are NinjaTrader supported period types and their required base data type values. A check mark represents the data base value that is needed to build the period type. </p>
+<p class="p_Normal">&nbsp;</p>
+<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<tr>
+<td style="vertical-align:top; width:96px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Period type</span></p>
+</td>
+<td colspan="3" style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><span style="font-weight: bold;">Base data type values</span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; height:18px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:55px; height:18px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Tick</p>
+</td>
+<td style="vertical-align:top; width:67px; height:18px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Minute</p>
+</td>
+<td style="vertical-align:top; width:67px; height:18px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Daily</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Tick</p>
+</td>
+<td style="vertical-align:top; width:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+<td style="vertical-align:top; width:68px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Volume</p>
+</td>
+<td style="vertical-align:top; width:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+<td style="vertical-align:top; width:68px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Range</p>
+</td>
+<td style="vertical-align:top; width:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+<td style="vertical-align:top; width:68px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Second</p>
+</td>
+<td style="vertical-align:top; width:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+<td style="vertical-align:top; width:68px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; height:21px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Renko</p>
+</td>
+<td style="vertical-align:top; width:55px; height:21px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+<td style="vertical-align:top; width:68px; height:21px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; height:21px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; height:21px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Minute</p>
+</td>
+<td style="vertical-align:top; width:55px; height:21px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:68px; height:21px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+<td style="vertical-align:top; width:67px; height:21px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Day </p>
+</td>
+<td style="vertical-align:top; width:55px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:68px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Week</p>
+</td>
+<td style="vertical-align:top; width:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:68px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Month</p>
+</td>
+<td style="vertical-align:top; width:55px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:68px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:96px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">Year</p>
+</td>
+<td style="vertical-align:top; width:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:68px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;">&nbsp;</p>
+</td>
+<td style="vertical-align:top; width:67px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal" style="text-align: center;"><img alt="How_Bars_are_Built_1" width="19" height="20" style="margin:0 auto 0 auto;width:19px;height:20px;border:none" src="how_bars_are_built_1.png"></p>
+</td>
+</tr>
+</table>
+</div>
+<h2 class="p_Heading2" style="text-align: center;"><span class="f_Heading2">&nbsp;</span></h2>
+<p class="p_Normal">The base data is important to understand. If you are connected to a market data vendor that does NOT support &quot;tick data,&quot; you will NOT be able to build chart bars that use &quot;tick data&quot; as its base data such as tick, volume, range or second charts. A matrix of supported data vendors and their varying levels of service is located <a href="data_by_provider-1.htm" class="topiclink">here.</a></p>
+</td>
+</tr>
+</table>
+</div>
+<p class="p_ToggleHeading"><img id="UnderstandingWhyAChartCanLookDifferentAfterReloadingHistoricalDataFromTheServer_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingWhyAChartCanLookDifferentAfterReloadingHistoricalDataFromTheServer','UnderstandingWhyAChartCanLookDifferentAfterReloadingHistoricalDataFromTheServer_ICON')">Understanding&nbsp;why&nbsp;a&nbsp;chart&nbsp;can&nbsp;look&nbsp;different&nbsp;after&nbsp;reloading&nbsp;historical&nbsp;data&nbsp;from&nbsp;the&nbsp;server</a></span></p>
+<div id="UnderstandingWhyAChartCanLookDifferentAfterReloadingHistoricalDataFromTheServer" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
+<tr class="Toggle">
+<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">As ticks come into NinjaTrader in real-time, they are time stamped based on your local PC time if they do not already have an associated time stamp that is provided from the real-time data source. NinjaTrader then builds bars based on the time stamp of the incoming tick and displays these bars in your chart in real-time.</p>
+<p class="p_Normal">&nbsp;<br>
+Let's say you have a tick (tick &quot;A&quot;) with a time stamp of 10:31:00 AM which gets packaged into the 10:32:00 AM bar and happens to be the high of that bar. An hour later, you reload historical data from your historical data provider into NinjaTrader. This process will overwrite the existing data. The 10:32:00 AM bar now looks different since the high made by TICK &quot;A&quot; is now part of the prior bar, 10:31:00 AM. How is this possible?</p>
+<p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Your PC clock could have been off so the time stamp is delayed</p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Your internet may have been lagging so the tick came in slightly delayed and therefore the time stamp is delayed </p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Due to standard latency, even 50ms delay (which is normal) could be the difference between a 10:30:59 and 10:31:00 time stamp </p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>There is no way of knowing how the historical data provider packages their bars </p><p class="p_Normal">&nbsp;</p>
+<p class="p_Normal">The only way to ensure that data always looks the same is if every connectivity provider sent ticks with time stamps AND that all vendors synchronized on time stamps. Unfortunately, this is just not a reality nor plausible scenario.</p>
+<p class="p_Normal">&nbsp;</p>
+<h2 class="p_Heading2"><span class="f_Heading2">Loading Historical Data</span></h2>
+<p class="p_Normal">Please see the &quot;<span style="font-style: italic;"><a href="data_by_provider-1.htm" class="topiclink">Historical &amp; Real-Time Data</a></span>&quot; section of the Help Guide for more information.</p>
+</td>
+</tr>
+</table>
+</div>
+
+        <!--ZOOMSTOP-->
+      </div>
+      <script type="text/javascript">
+      
+      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
+      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
+      if (document.all) setTimeout(function() {
+      nsrInit();
+      }, 20);
+      else nsrInit();
+      }
+      
+      
+      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
+      $('.sync-toc').show();
+      $('p.crumbs').hide();
+      }
+      
+      
+      </script>
+      <div id="bump" style="height: 25px"></div>
+    <script type="text/javascript">
+HMInitToggle('UnderstandingTheVariablesInvolvedInBuildingChartBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheVariablesInvolvedInBuildingChartBars\',\'UnderstandingTheVariablesInvolvedInBuildingChartBars_ICON\')');
+HMInitToggle('UnderstandingTheVariablesInvolvedInBuildingChartBars','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingTheUnderlyingBaseDataTypeRequiredForConstructingVariousChartBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheUnderlyingBaseDataTypeRequiredForConstructingVariousChartBars\',\'UnderstandingTheUnderlyingBaseDataTypeRequiredForConstructingVariousChartBars_ICON\')');
+HMInitToggle('UnderstandingTheUnderlyingBaseDataTypeRequiredForConstructingVariousChartBars','hm.type','dropdown','hm.state','0');
+HMInitToggle('UnderstandingWhyAChartCanLookDifferentAfterReloadingHistoricalDataFromTheServer_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingWhyAChartCanLookDifferentAfterReloadingHistoricalDataFromTheServer\',\'UnderstandingWhyAChartCanLookDifferentAfterReloadingHistoricalDataFromTheServer_ICON\')');
+HMInitToggle('UnderstandingWhyAChartCanLookDifferentAfterReloadingHistoricalDataFromTheServer','hm.type','dropdown','hm.state','0');
+</script>
+</div></body>
+  </html>
