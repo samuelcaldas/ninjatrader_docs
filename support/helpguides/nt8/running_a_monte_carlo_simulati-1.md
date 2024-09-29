@@ -1,0 +1,90 @@
+﻿
+
+
+Operations \> Strategy Analyzer \> Monte Carlo Simulation \> Running a Monte Carlo Simulation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running a Monte Carlo Simulation
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](running_a_monte_carlo_simulati.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Strategy Analyzer](strategy_analyzer-1.md) \> [Monte Carlo Simulation](monte_carlo_simulation-1.md) \> Running a Monte Carlo Simulation | [Previous page](monte_carlo_simulation-1.md) [Return to chapter overview](monte_carlo_simulation-1.md) [Next page](2d__3d_optimization_graphs-1.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+The following page covers how to set up and run NinjaTrader's Monte Carlo Simulation 
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding Monte Carlo simulation](javascript:HMToggle('toggle','UnderstandingMonteCarloSimulation','UnderstandingMonteCarloSimulation_ICON'))
+
+
+
+
+| What is Monte Carlo Simulation? Monte Carlo Simulation is a mathematical technique that uses repeated random sampling ("sampling with replacement") to compute a range of possible results with their respective probability. NinjaTrader runs Monte Carlo Simulation by randomly combining the trade results in a defined series of simulations. A graph of the results are plotted with the statistic values or Profit/Loss on the Y \- axis and the probability on the X \- axis as a percentage.    Why use Monte Carlo Simulation? Although a backtest of a NinjaScript strategy may produce profitable results, those results may have just been due to good luck. In real life, you may have a string of bad trades that can wipe out the account before the good trades appear, therefore it would be helpful to understand the probability of such a string of bad trades. Monte Carlo Simulation will randomize your trade results over and over again in multiple simulations to provide you with a normal distribution of simulation performance. The trader can use this information to see the top or bottom percent of trades (outliers) that will cause the most variability in the strategy as well as the most statistically probable results. |
+| --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [How to run a Monte Carlo simulation](javascript:HMToggle('toggle','HowToRunAMonteCarloSimulation','HowToRunAMonteCarloSimulation_ICON'))
+
+
+
+
+| | Monte Carlo Simulation window To open the Monte Carlo Simulation window:   1\.Run a [Backtest](backtest_a_strategy-1.md), [Optimization](optimize_a_strategy-1.md), or [Walk\-Forward Optimization](walk_forward_optimize_a_strate-1.md).2\.Left mouse click on the Trades tab within any of the reports3\.Right mouse click in the data grid and select the item Monte Carlo Simulation...  StrategyAnalyzer_MonteCarloDisplay | | --- |      Running a Monte Carlo Simulation To run a Monte Carlo Simulation:   1\.Open the Monte Carlo Simulation display (see sub\-section above for how to open)2\.Set desired simulation parameters and press the Generate button.  StrategyAnalyzer_MonteCarloOptions2   Monte Carlo Simulation Parameters The following parameters are adjustable when running a Monte Carlo Simulation:     | Graph | Sets the statistic to generate the report on | | --- | --- | | W/L | Sets the results to show only winners, only loser, or both | | Long/Short | Sets the results to show only long trades, only short trades, or both | | Remove winning outliers (%) | Removes the top % outliers from the results | | Remove losing outliers (%) | Removes the bottom % outliers from the results | | \# of simulations | Sets the \# of simulations to run | | \# of trades per simulation | Sets the \# of trades in each simulation (will default to the \# of trades in the Trades tab) | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the Monte Carlo Simulation report](javascript:HMToggle('toggle','UnderstandingTheMonteCarloSimulationReport','UnderstandingTheMonteCarloSimulationReport_ICON'))
+
+
+
+
+| Monte Carlo Simulation Report The results of the Monte Carlo Simulation are displayed in a graph below the parameters.    StrategyAnalyzer_MonteCarloGraph   X\-Axis The horizontal axis of the Monte Carlo Simulation graph shows the percentage of simulations that have fallen below the Y \- axis value. For example, if you run a Monte Carlo Simulation setting the \# of Simulations to "100" and using the Cumulative Profit graph, the intersection of the 50% X \- value and the associated Y value means that 50 of your simulations will be below that cumulative profit/loss value, and oppositely the remaining 50 simulations will have a greater cumulative profit/loss. This type of report allows you to analyze if the risk/reward ratio between worst and best case scenarios is acceptable or not.   Y\-Axis The vertical axis of the Monte Carlo Simulation graph displays the measured unit for the Graph item selected such as Profit/Loss, statistical information, or time and changes based on the Graph selection. |
+| --- |
+
+
+
+
+
+
+
+
+
+

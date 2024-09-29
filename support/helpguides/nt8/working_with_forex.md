@@ -1,0 +1,130 @@
+﻿
+
+
+Operations \> Order Entry \> Working With Forex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working With Forex
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](working_with_forex.md) \>\> **Navigation:**     [Operations](operations.md) \> [Order Entry](order_entry.md) \> Working With Forex | [Previous page](fifo_optimization.md) [Return to chapter overview](order_entry.md) [Next page](where_do_your_orders_reside_.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+NinjaTrader supports trading and viewing market data for spot forex pairs, in addition to other supported instrument types. Due to the unique nature of forex markets, there are a number of features throughout the platform tailored specifically to these instruments, and a few considerations to keep in mind when working with forex in NinjaTrader.
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Pips vs. Ticks The "Pips" Calculation Mode can be used to calculate PnL and performance metrics throughout the platform. This mode allows you to tailor performance reporting specifically to your forex trades. Similar to the "Ticks" mode, "Pips" takes the lowest granularity of price movement for a forex instrument (called a tick in NinjaTrader), then divides it by 10 to arrive at the pip value for the instrument. For example, when viewing a USD/JPY quote of 113\.67'5, the "7" would be the pip value, and the "5" would be the tick. Using the Pips Calculation Mode, the number of ticks in profit (the "5" in the example) will be divided by 10 to arrive at the number of pips of profit or loss.   Forex1   Setting the Pips Calculation Mode The Pips calculation mode can be used in realized/unrealized PnL fields in trading windows ([Chart Trader](chart_trader.md), [SuperDOM](superdom.md), [Basic Entry](basic_entry.md), etc.), the [Trade Performance](trade_performance.md) window, and the [Strategy Analyzer](strategy_analyzer.md). In Trading Windows, the calculation mode can be changed by left\-clicking within the PnL field, or by opening the window's Properties dialogue. For more information, see the relevant pages for each trading window.    Forex2   In the Trade Performance window and Strategy Analyzer, the calculation mode can be changed via the Display dropdown menu, which affects all relevant statistics.   Forex3 |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Pips in ATM Strategies](javascript:HMToggle('toggle','PipsInATMStrategies','PipsInATMStrategies_ICON'))
+
+
+
+
+| ATM Strategy Parameters The Parameter Type field within the ATM Strategy Parameters window can be changed to "Pips" to affect the way that stop loss and profit target prices are set by an ATM strategy. Just like the Pips PnL calculation mode, the Pips parameter type is based on a multiplicative factor of the Ticks parameter type (1 Pip \= 10 Ticks). For example, rather than entering 200 ticks for your profit target (200 ticks \= 20 pips), you can simply specify 20 pips.    Forex4     | Note: If your forex data provider supports tenth\-pip quotes, then you can also use the Ticks parameter type to set ATM orders with a sub\-pip granularity. | | --- | |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Forex Lot Sizes](javascript:HMToggle('toggle','ForexLotSizes','ForexLotSizes_ICON'))
+
+
+
+
+| Setting Your FX Lot Size  A "Forex Lot Size" property can be set for accounts shown in the Accounts tab of the Control Center. This setting affects the default position size populated in trading windows when a forex instrument is selected. To access this property, first select the Accounts  tab in the Control Center. Next, right click on the account you wish to edit, and select the Edit Account menu item. In the window that appears, set the Forex Lot Size property to your desired value. You can enter any amount here, whether or not it corresponds to a standard position size (Lot, Mini\-Lot, Micro\-Lot). For example, you could enter "102000" to automatically use a position size equal to one standard lot (100,000\) plus two micro lots (2,000\).   Forex6     | Notes:  •The Forex Lot Size property does not prevent you from entering or selecting different position sizes in trading windows, but only controls what is populated in the Quantity field by default. | | --- | |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Forex\-Specific Trading Windows](javascript:HMToggle('toggle','ForexSpecificTradingWindows','ForexSpecificTradingWindows_ICON'))
+
+
+
+
+| FX Pro The FX Pro window is laid out similarly to the Basic Entry window, with a few enhancements and modifications tailored specifically to forex instruments. For more information on using this window, see the [FX Pro](fx_pro.md) page.   FX Board The FX Board is a unique forex trading window featuring a grid of two\-sided tiles updated in real time, offering market data, spread info, and order management functionality for multiple pairs at once. FX Pro and FX Board windows can be linked together via [Instrument Linking](linking_windows.md). When linked, you can simply click any tile in the FX Board, and the corresponding instrument will be selected in a linked FX Pro window. For more information on using this window, see the [FX Board](fx_board.md) page.   Other Windows Forex instruments can be traded in other windows, as well, and are not limited to the two mentioned above. Forex\-specific windows can also be linked to others via Instrument Linking. Other windows, such as Chart Trader or the Market Analyzer, do not include forex\-specific features, but are capable of handling FX instruments just like any others. |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)        [How Bars Are Built and Orders Filled](javascript:HMToggle('toggle','HowBarsAreBuiltAndOrdersFilled','HowBarsAreBuiltAndOrdersFilled_ICON'))
+
+
+
+
+| Building Bars with "Last Price" Data Type Forex price quotes do not use the concept of "Last Price" the same as other markets; only Bid and Ask quotes are available. Thus, when building bars using the default "Last" price type, the Bid price will be used instead. Using this price type, all bars on a chart will be built using Bid price updates, but you can choose to use the Ask price instead, if you wish. To change the price type used, first open the Data Series window on a chart, then toggle the value in the "Price Based On" field to your desired type.   Realtime Order Fills vs. Backtesting Due to the absence of a last traded price quote in forex, all Buy orders in a live market are filled at the Ask price, and all Sell orders are filled at the Bid. However, when backtesting NinjaScript strategies, all simulated order fills will occur at the Bid price, regardless of whether they were Buy or Sells orders   Forex5   1\.Ask Price: All realtime Buy orders are filled at the Ask2\.Bid Price: All realtime Sell orders and all backtest Buys and Sells are filled at the Bid    | Note: In backtesting, a slippage value can be set to recreate the impact of the Bid/Ask spread on trade profit and loss. NinjaScript developers can calculate the spread in strategy logic, then dynamically set the [Slippage](slippage.md) property before entering orders. For non\-programmers, an estimated slippage value can be applied to all trades via the Backtest/Optimization Properties section in the [Strategy Analyzer](strategy_analyzer.md). | | --- | |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Forex Trading Hours](javascript:HMToggle('toggle','ForexTradingHours','ForexTradingHours_ICON'))
+
+
+
+
+| Forex Trading Hours Template All forex instruments are configured to use the pre\-defined "Forex" Trading Hours template, which runs 24 hours per day from 5:00pm EST on Sunday to 5:00pm EST on Friday, with an End\-of\-Day session break at 5:00pm each day. This covers the full range of forex trading throughout the week, but other Trading Hours templates can be applied to restrict the data on your charts to be in line with any local market timing on which you may wish to focus. For more information, see the [Trading Hours](trading_hours.md) page.   forex7 |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Calculating Pip Value](javascript:HMToggle('toggle','CalculatingPipValue','CalculatingPipValue_ICON'))
+
+
+
+
+| How to Calculate the Pip Value for a Forex Pair Multiplying the pip size of your currency pair by the lot size of your order will provide you the pip value. This will be in the quote/counter currency of the forex pair. The quote/counter currency is the second currency in the pair.   Example in USD for an USD Quote/Counter Currency In the following example we will do this for a 10,000 lot on the EURUSD. The quote/counter currency is USD and the EURUSD's point size is 0\.0001\. 10,000 x 0\.0001 \= 1 This indicates that 1 pip would be $1 USD.   CalculatigPip_USD   Example in USD for a GBP Base Currency In the following example we will use the EURGBP. Let's say our account is in USD and we want to convert the pip value to USD. Again we will say we are trading a 10,000 lot size and the pip value for the EURGBP is 0\.0001\. 10,000 x 0\.0001 \= 1 This indicates that 1 pip would be £1 GBP. We would then multiply this by what the GBPUSD is trading at. In this example the GBPUSD is trading at $1\.26 (rounded). 1 x 1\.26 \= 1\.26 This indicates that 1 pip would be $1\.26 USD.   CalculatigPip_GBP       | Note: If the conversion rate is not available the PnL information will be in the counter/quote currency of the pair. This would create a discrepancy in your Trade Performance. | | --- | |
+| --- | --- |
+
+
+
+
+
+
+
+
+
+

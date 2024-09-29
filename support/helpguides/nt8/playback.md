@@ -1,0 +1,91 @@
+﻿
+
+
+Operations \> Playback Connection \> Playback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Playback
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](playback.md) \>\> **Navigation:**     [Operations](operations.md) \> [Playback Connection](playback_connection.md) \> Playback | [Previous page](set_up12.md) [Return to chapter overview](playback_connection.md) [Next page](data_files.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+Once market replay data or historical tick data is available by either recording or downloading (See the "[Set Up](set_up12.md)" page of the Help Guide), it can be replayed in all NinjaTrader windows. 
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Connecting to Replay Data To connect to Market Replay data:   1\.Left mouse click on the Connections menu in the Control Center2\.Select the menu item Playback Connection menu item  Playback   The Playback connection should now be connected and the Playback Control should be visible.    Playback_PlaybackControl       | Note: When disconnecting, the Playback account's trade history will be reset. | | --- | |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [How to work with replay data](javascript:HMToggle('toggle','HowToWorkWithReplayData','HowToWorkWithReplayData_ICON'))
+
+
+
+
+| Playback Control Once connected to the Playback connection (see the "How to connect to Market Replay data" section above for how to connect), the Playback control window will appear.   In the caption bar of the Playback control you will see the current date and time of where the play head is located.   Controls The Playback control is set up much like a DVD player. The following controls are available:     | Playback Type | Select either "Market Replay" or "Historical" | | --- | --- | | Start | Sets the start date for the left side of the slider | | End | Sets the end date for the right side of the slider | | Play | Starts the market replay. | | Slide control | Selects a point in time to start replay (sliding during playback will reset the Replay101 account trade history) | | Speed control | Each successive click increases the speed of the playback. Playback of "Max" will process data at fastest possible speed. |      Playback_PlaybackControl |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Right Click Menu Right mouse clicking in the Replay control window will bring up the right click menu with the two following menu items:    Playback_ContextMenu     | Show Available Data... | Brings up the Historical Data Window window. Instruments with replay data will be displayed with the level 1 (L1\) and level 2 (L2\) Begin and End dates and times. | | --- | --- | | Go To... | Brings up the Go To window where you can specify a date and time to jump the replay file to. There must be recorded data available for the selected time. | | Playback Current Day | Only the current day will be played back from Market Replay when dragging the slider between multiple days, for past days historical data would be loaded. | | Playback from selected | All historical data is loaded from historical data and Market Replay data is only used going forward. This is the fastest and default mode. This mode is sufficient when there's no NinjaScripts that need the sequence of events for each historical tick. | | Playback from start | Market Replay data is played back for every day between the start point of the slider and the end point of the slider. This will be slower as NinjaTrader must process more data, but is useful when you are back testing a strategy in playback. |        | Tip:  Should you be using the Playback for testing a NinjaScript strategy, please be sure the chart you apply the strategy onto has bars populating it prior to the start time of your replay. | | --- | |
+
+
+
+![tog_minus](tog_minus.gif)        [Understanding how the Playback works](javascript:HMToggle('toggle','UnderstandingHowThePlaybackWorks','UnderstandingHowThePlaybackWorks_ICON'))
+
+
+
+
+| Playback supports running on Market Replay data or Historical data. Market Replay data is the most accurate and holds both level I and level II (market depth) data. If you do not have market replay data for a time frame, you can choose to playback historical tick data. However using historical tick is less accurate as there is no level II data.   Market Replay Data   NinjaTrader stores level I and level II together in a single market replay file to ensure that level I and level II events are perfectly in sync per instrument.    Market replay files have the ability to record time stamps down the 100 nanosecond level. However please note that we use the time stamp provided by the market data providers when storing data. This means that you are limited to the granularity of the provider if the time stamp is natively provided. Please see the [Historical \& Real\-Time Data](data_by_provider.md) section of the help guide for more information.       | Note:  When using market replay, the NinjaTrader core market data updates occur at the granularity provided by the market data provider.  However, the NinjaTrader user interface only visually updates in 1\-second intervals for performance optimizations.  Even though the NinjaTrader UI's are only visually updating at 1\-second intervals, orders, indicators, and strategies will calculate just as they were running in real\-time. | | --- |      Historical Data   When using Historical data for playback NinjaTrader will use historical tick data for playback. If the tick data from your provider is stamped with ask and bid data then NinjaTrader will use that to simulate the ask and bid price during playback. If your historical data provider does not support ask/bid stamped tick data then NinjaTrader will simulate the ask and bid price by setting it either to last price or last price \+/\- 1 tick at random.     | Note: Ask and Bid Volume during playback with Market Replay or historical data will be simulated and set to "1" except for Equities and Forex, where "100" is used for Equities and "100,000" for Forex. | | --- |      Order Processing Differences in Playback   When submitting orders to the Playback101 account, these orders are processed immediately and synchronously. This enables reproducible results for strategy developers that run a strategy on the playback connection. Playback101 and Sim101 work differently when executing, since simulated internet latency delay simulation is not present in playback. |
+| --- | --- | --- |
+
+
+
+
+
+
+
+
+
+

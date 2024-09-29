@@ -1,0 +1,103 @@
+﻿
+
+
+Operations \> Historical Data \> Importing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Importing
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](importing.md) \>\> **Navigation:**     [Operations](operations.md) \> [Historical Data](historical_data_manager.md) \> Importing | [Previous page](data_by_provider.md) [Return to chapter overview](historical_data_manager.md) [Next page](exporting.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+Historical data can be imported from a text file with a ".txt" extension within the Loaded section of the Historical Data Window. Several formats and data types are supported and NinjaTrader can optionally build 'Minute' bars from tick data as well as 'Day' bars from tick or minute data.
+
+
+ 
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| MarketDataArchives_Import   Understanding import options The following formats and options are available when importing a text file:   Format Select one of three options available in the Format drop down menu:   1\.NinjaTrader (timestamps in import file(s) represent end of bar time)2\.NinjaTrader (timestamps in import file(s) represent start of bar time)3\.Tick Data, LLC  Data Type Select one of three options available for the data type:   1\.Ask \- Data values in the text file represent historical Ask prices 2\.Bid \- Data values in the text file represent historical Bid prices3\.Last \- Data values in the text file represent historical Last prices (trades)  Time Zone of Imported Data Select the time zone of the data you are importing (not the time zone you are importing to as all imported data will always be converted to local PC time). If you are importing data exported from NinjaTrader then this should be left as UTC because NinjaTrader exports are always done in the UTC time zone.   Generate 'Minute' Bars from Imported Tick Data: Select this option to convert the tick data from the import file into historical 'Minute' data. This allows any 'Minute' interval to be available within NinjaTrader.   Generate 'Day' Bars from Imported Tick or Minute Data: Select this option to convert the tick or minute data from the import file into 'Day' data. This allows the building of 'Day', 'Week', 'Month' and 'Year' bars within NinjaTrader. (See the "[Historical \& Real\-Time Data](data_by_provider.md)" section of the Help Guide for more information on historical data.)   Note: Generating bars from imported tick data is done based off of the timestamps of the tick data. It is possible that the generated bars do not perfectly match minute or daily bars provided by the data provider as they may utilize a different timestamp granularity than your import data for their own bar generations. |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| File Name When using the NinjaTrader format, the name of the text file to be imported must be the NinjaTrader instrument name followed by a period and "Last", "Bid", or "Ask" depending on the data type. For example:    MSFT.Last.txt for Microsoft stock last price data ES 12\-09\.Bid.txt for the S\&P E\-mini December contract bid price data EURUSD.Ask.txt for the Euro/U.S. dollar currency pair ask price data   Daily Bars Format         Each bar must be on its own line and fields must be separated by semicolon (;). Only 1 day bars can be imported.   The format is: yyyyMMdd;open price;high price;low price;close price;volume   Sample data: 20061023;1377\.25;1377\.25;1377\.25;1377\.25;86 20061024;1377\.25;1377\.25;1377\.25;1377\.25;27 20061025;1377\.25;1377\.25;1377\.25;1377\.25;24 20061026;1377\.50;1377\.50;1377\.25;1377\.25;82   Minute Bars Format Each bar must be on its own line and fields must be separated by semicolon (;). Only 1 minute bars can be imported.   The format is: yyyyMMdd HHmmss;open price;high price;low price;close price;volume   Sample data: 20061023 004400;1377\.25;1377\.25;1377\.25;1377\.25;86 20061023 004500;1377\.25;1377\.25;1377\.25;1377\.25;27 20061023 004600;1377\.25;1377\.25;1377\.25;1377\.25;24 20061023 004700;1377\.50;1377\.50;1377\.25;1377\.25;82   Tick Format (Second Granularity) Each tick must be on its own line and fields must be separated by semicolon (;).    The format is: yyyyMMdd HHmmss;price;volume   Sample data: 20061107 000431;1383\.00;1 20061107 000456;1383\.25;25 20061107 000456;1383\.25;36 20061107 000537;1383\.25;14   Tick Format (Sub Second Granularity) You can also import tick granularity to the ten millionth of a second. Each tick must be on its own line and fields must be separated by semicolon (;).    The format is: yyyyMMdd HHmmss fffffff;price;volume   Sample data: (Note: If you wanted to import in millisecond granularity data then each line must have the remaining "0"'s behind it to import correctly.) 20061107 000431 1000000;1383\.00;1 20061107 000456 1000000;1383\.25;25 20061107 000456 2000000;1383\.25;36 20061107 000537 7000000;1383\.25;14     | Tip:  You can also import historical tick data to be used with [Tick Replay](tick_replay.md), which includes the current bid and ask prices associated with the last price of that tick (not to be confused with Playback "Market Replay" data which CANNOT import manually). Importing tick replay data without sub\-second granularity is less accurate. | | --- |      Tick Replay Format (Sub Second Granularity) Each tick must be on its own line and fields must be separated by semicolon (;).    The format is: yyyyMMdd HHmmss fffffff;last price; bid price; ask price;volume   Sample data: (Note: If you wanted to import in millisecond granularity data then each line must have the remaining "0"'s behind it to import correctly.) 20061107 000431 1000000;1383\.00;1383\.00;1383\.25;1 20061107 000456 1000000;1383\.25;1382\.50;1382\.25;25 20061107 000456 2000000;1383\.25;1383\.25;1383\.50;36 20061107 000537 7000000;1383\.25;1383\.25;1383\.50;14   Tick Replay Format (Second Granularity)  Each tick must be on its own line and fields must be separated by semicolon (;).    The format is: yyyyMMdd HHmmss;last price;bid price;ask price;volume   Sample data: 20061107 000431;1383\.00;1383\.00;1383\.25;1 20061107 000456;1383\.25;1382\.50;1382\.25;25 20061107 000456;1383\.25;1383\.25;1383\.50;36 20061107 000537;1383\.25;1383\.25;1383\.50;14 |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [How to import historical data](javascript:HMToggle('toggle','HowToImportHistoricalData','HowToImportHistoricalData_ICON')) from a text file
+
+
+
+
+| Importing Tips Please review the following before importing:   •If you are importing historical data for a futures or forex instrument, the instrument MUST exist in the database. If it does not, you must add it first via the [Instruments](instruments.md) window.•Any data imported where the instrument does not exist in the database will automatically be imported as a "Stock" instrument type •Data points will be rounded to the instruments tick size as it is imported if the price is not evenly divisible by the instrument's tick size•Imported data, regardless of time zone, will be converted to the local time zone.  Importing Historical Text Data To import historical data from a text file into NinjaTrader:   MarketDataArchives_ImportSteps   1Choose the Format and Data type that correctly represent the data in the import file (see  the "Understanding the import options" section above) 2Optionally select any of the Generate... choices to have NinjaTrader create other bar types from the import data 3Select the Time zone of the imported data (Note: Any data exported from NinjaTrader is always exported in UTC time zone) 4Press the Import button 5Select the text file from your PC to import and press the "Open" button.   NinjaTrader will attempt to import the text file. If successful, a window will appear confirming this. If unsuccessful, an error window will appear and you should check the [Log tab](log_tab2.md) of the Control Center to view the error(s). |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Formatting data from Tick Data, LLC](javascript:HMToggle('toggle','FormattingdatafromTickDataLLC','FormattingdatafromTickDataLLC_ICON'))
+
+
+
+
+| When exporting data from Tick Data, LLC with their TickWrite utility, the data must be exported in a format NinjaTrader can import and then the file will need to be properly renamed.   Formatting data Download the following file then unzip it to access the NinjaTrader.twj file: [TickDataLLC.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/TickDataLLC.zip). Within TickWrite you can go to File and select Open Job to select the NinjaTrader.twj file. Now you can configure what data you want to export and when you execute the job the data will be in the required format.   TickWrite   Formatting the File Name When using the NinjaTrader format, the name of the text file to be imported must be the NinjaTrader instrument name followed by a period and "Last", "Bid", or "Ask" depending on the data type. For example:    MSFT.Last.txt for Microsoft stock last price data ES 12\-09\.Bid.txt for the S\&P E\-mini December contract bid price data EURUSD.Ask.txt for the Euro/U.S. dollar currency pair ask price data |
+| --- |
+
+
+
+
+
+
+
+
+
+

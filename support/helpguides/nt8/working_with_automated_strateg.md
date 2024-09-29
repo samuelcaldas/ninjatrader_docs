@@ -1,0 +1,113 @@
+﻿
+
+
+Operations \> Charts \> Working with Automated Strategies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Working with Automated Strategies
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](working_with_automated_strateg.md) \>\> **Navigation:**     [Operations](operations.md) \> [Charts](charts.md) \> Working with Automated Strategies | [Previous page](working_with_drawing_tools__ob.md) [Return to chapter overview](charts.md) [Next page](saving_chart_defaults_and_templates.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+Automated NinjaScript strategies can be enabled within an open chart. Both real\-time and historical strategy trades will be displayed on the chart. For more information on creating and managing NinjaScript strategies, see the [NinjaScript Overview](ninjascript.md) page.
+
+
+ 
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Please see the [Running a NinjaScript Strategy From a Chart](running_a_ninjascript_strategy.md) page for more information on applying and enabling strategies from charts, as well as more information on managing strategy properties. |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Strategy Persistence Automated strategies always persist on a chart whenever it is open, even if Enabled is set to false inside the chart's Strategies window. For example, if you shut down NinjaTrader with an enabled strategy in a chart, then reopen NinjaTrader, the strategy will still be applied to the chart with the property Enabled being set to false. This allows you to enable the strategy without having to reconfigure the parameters. However, when the chart containing the automated strategy is closed, the strategy will not persist; it will be disabled and removed.   Reloading NinjaScript An automated strategy can be reloaded by right mouse clicking in the chart and selecting the menu item Reload NinjaScript. Reloading an automated strategy will remove the existing instance of the strategy and add a new one in the chart.   ReloadNinjaScript |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Viewing automated strategy executions in a chart](javascript:HMToggle('toggle','ViewingAutomatedStrategyExecutionsInAChart','ViewingAutomatedStrategyExecutionsInAChart_ICON'))
+
+
+
+
+| Executions Automated strategy trade executions will be displayed in the chart, depending on the Plot Executions parameter of the Data Series. The chart below shows several executions from orders placed by an automated strategy, and each execution is labeled with an appropriate name. Only executions pertaining to the strategy on the chart will be visible when the strategy is enabled. Any manual executions, or executions from strategies not applied to the chart, will NOT be shown. Execution markers are configured for each Data Series by selecting the Plot Executions parameter from the [Data Series window](working_with_price_data.md).   StrategyExecutions     | Note: You can view historical trades when a strategy is applied to a chart because the [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property is set to true by default when a strategy is applied to a chart. You can set this property to false in your code for leaner memory management, at the cost of not being able to access this information. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.md) page. | | --- | |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Viewing strategy performance](javascript:HMToggle('toggle','ViewingStrategyPerformance','ViewingStrategyPerformance_ICON'))
+
+
+
+
+| Strategy Performance Real\-time, Historical, or Historical \& Real\-time executions for the automated strategy can be accessed within the open chart by right mouse clicking in the chart and selecting the menu item Strategy Performance, then hovering the mouse over the desired automated strategy and selecting the type of executions you wish to view from the menu that appears. A [Performance window](performance_displays.md) will appear where you can view and analyze the trade data.   StrategyPerformance   The following categories of performance data can be selected:     | Real\-Time | Displays performance statistics for trades the strategy has taken in real\-time ONLY | | --- | --- | | Historical | Displays performance statistics for historical trades ONLY, calculated before any real\-time trades are taken | | Real\-Time and Historical | Combines historical and real\-time performance statistics in a single report | |
+| --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Understanding strategy templates](javascript:HMToggle('toggle','UnderstandingStrategyTemplates','UnderstandingStrategyTemplates_ICON'))
+
+
+
+
+| Each NinjaScript strategy's parameters can be saved as a template for later use, and multiple templates can be saved for each strategy. Once saved in a template, the customized parameters can be loaded quickly whenever the specified template is applied to an instance of the strategy for which it was created.   What is Saved All parameter settings are saved, with the following exceptions:   •Account defaults to the Sim101 account•Enabled defaults to False  Saving Custom Strategy Settings To save custom NinjaScript strategy parameters as default:   1\.Set parameters to desired values2\. Left mouse click on the template text located in the bottom right of the properties dialog. Selecting save will open the Save Strategy Template window, in which you can enter a name for a new template or overwrite an existing template.   If you wish to load a previously saved template, you can select the load option after left mouse clicking on the template text. If you change your settings and later wish to go back to the original settings, you can left mouse click on the template text and select the restore option.   ChartDefaults9   1\. In the image above, the "Sample MA Crossover" strategy is applied, as seen in the "Configured" section.  2\. A new template can be saved for the selected by clicking the template text, then selecting save.   ChartDefaults8   The Save Strategy Template window will allow you to name and save a new template for the configured strategy. |
+| --- |
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+﻿
+
+
+Introduction \> Using 3rd Party Add\-Ons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using 3rd Party Add\-Ons
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](using_3rd_party_add-ons.md) \>\> **Navigation:**     [Introduction](introduction-1.md) \> Using 3rd Party Add\-Ons | [Previous page](learning_to_use_ninjatrader-1.md) [Return to chapter overview](introduction-1.md) [Next page](configuration-1.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+## 3rd Party Add\-Ons
+
+
+NinjaTrader’s comprehensive and flexible development environment empowers 3rd Party Developers to build rich and integrated apps. These add\-ons allow for endless customization \& expansion, leveraging 1000s of 3rd party indicators, strategies, and apps to build a custom trading setup to meet your requirements.
+
+
+![tog_minus](tog_minus-1.gif)        [Installing Add\-Ons](javascript:HMToggle('toggle','InstallingAdd-Ons','InstallingAdd-Ons_ICON'))
+
+
+
+
+| Installing 3rd Party Add\-Ons After you have downloaded 3rd Party Add\-On, they can be imported from the NinjaTrader Control Center.     1\. From the Control Center window select the menu Tools \> Import\> NinjaScript Add\-On... to open the "Import" dialog window   2\. Select the file you want to import   3\. Press the "Import" button     | Notes:   1\.Your vendor may have different instructions for installing their 3rd Party Add\-Ons.  Please check with the vendor for any specific guidelines they may require for installing their products.2\.If you receive an error during importing "You have custom NinjaScript files on your PC that have programming errors...", please see the following post for information on how to resolve: [How do I resolve NinjaScript Programming Errors?](how_do_i_resolve_ninjascript_p-1.md) | | --- | |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the impact of installing Add\-Ons](javascript:HMToggle('toggle','UnderstandingTheImpactOfInstallingAdd-Ons','UnderstandingTheImpactOfInstallingAdd-Ons_ICON'))
+
+
+
+
+| Understanding the impact of installing Add\-Ons NinjaTrader provides a development environment allowing low\-level access to 3rd party developers to build integrated indicators, drawing tools, automated strategies and more. An Add\-On with software bugs can have adverse effects on the entire NinjaTrader application. These add\-ons also natively run on your computer, therefore, its important to only install 3rd Party Add\-Ons from sources you trust.    The following symptoms post installation could indicate an Add\-On is installed causing negative impact:    •Windows become slow or unresponsive to user interaction•Market data becomes unusually slow to load or update•Standard features fail to work as designed•Other scripts fail to work as designed (custom scripts that work on their own may conflict with each other)•Lost connections from market data providers•Error messages are generated at various times•The entire application shuts down abruptly and without warning  If you run into any of the above symptoms post installation of a 3rd Party Add\-Ons please try uninstalling the 3rd Party Add\-Ons to see if the problem goes away and contact the 3rd party developer for support. |
+| --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Updating and Removing Add\-Ons](javascript:HMToggle('toggle','UpdatingAndRemovingAdd-Ons','UpdatingAndRemovingAdd-Ons_ICON'))
+
+
+
+
+| Updating Add\-Ons Developers can issue updates to fix issues or add functionality. If you have obtained an updated copy of your 3rd Party Add\-On, you can import the new version using the same steps you originally used to install by going to Tools \> Import \> NinjaScript Add\-On... and selecting the new file.  During the import process, you will be given an option to replace the current Add\-Ons which exists on your PC, which you should accept for each file you wish to update.       | Note:  You should always restart NinjaTrader after installing an update to ensure you are running the most recent code. | | --- |      Removing 3rd Party Add\-Ons Should you identify a problem, or suspect a 3rd Party Add\-On is causing problems, you may wish to remove these files from your system.  The exact steps to remove will depend on how it was distributed. 3rd Party Add\-ons can be installed either as a "Protected Assembly" or "Non\-Protected".  Please see the information below on how to proceed.   Removing Protected 3rd Party Add\-Ons Assemblies If you have purchased a 3rd Party Add\-On, it is likely distributed as a Protected Assembly.  These protected files can be uninstalled by going to Tools \> Remove NinjaScript Assembly.  If you cannot find the 3rd Party Add\-On from this dialog, your Add\-On is most likely a non\-protected assembly.   Removing Non\-Protected 3rd Party Add\-Ons Most free 3rd Party Add Ons downloaded from online forums and other communities are distributed as unprotected c\# scripts.  These open\-source files can be uninstalled using the following steps:   1\.From the Control Center window select the menu New \> NinjsScript Editor to open the [NinjaScript Editor](editor-1.md)2\.On the right side, under the "NinjaScript Explorer" expand the type of folder of the 3rd Party Add\-On you are trying to uninstall3\.Locate the name of the 3rd Party Add\-On (Note: 3rd Party Add\-Ons can be installed in several sub\-folders)4\.Right click on entry \> select "Remove" |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Temporarily Disabling Add\-Ons](javascript:HMToggle('toggle','TemporarilyDisablingAdd-Ons','TemporarilyDisablingAdd-Ons_ICON'))
+
+
+
+
+| Temporarily disabling Add\-Ons Should you start to experience an issue with NinjaTrader, the first step to isolate the problem is to determine if you continue to experience issues without Add\-Ons enabled referred to as 'Safe Mode'. To enable safe mode, please use the following steps:   1\. Exit NinjaTrader2\. Hold the CONTROL key on your keyboard and double\-click the NinjaTrader icon.3\. Keep the CONTROL key held down until you see the NinjaTrader Control Center4\.Once you see the Control Center, you can verify you are in safe mode by going to Help \> About.  Once in safe mode, you may use NinjaTrader without 3rd party add\-ons, allowing you to verify if a problem no longer is present or allowing you to remove a 3rd party add\-on. |
+| --- |
+
+
+
+
+
+
+
+
+
+

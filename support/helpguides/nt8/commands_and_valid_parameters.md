@@ -1,0 +1,96 @@
+﻿
+
+
+Operations \> Automated Trading \> Automated Trading Interface (ATI) \> Commands and Valid Parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Commands and Valid Parameters
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](commands_and_valid_parameters.md) \>\> **Navigation:**     [Operations](operations.md) \> [Automated Trading](automated_trading.md) \> [Automated Trading Interface (ATI)](automated_trading_interface_at.md) \> Commands and Valid Parameters | [Previous page](what_can_i_do_and_how_.md) [Return to chapter overview](automated_trading_interface_at.md) [Next page](initialization.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+The following section is only relevant for the File and DLL interfaces. Both interfaces share common interface functions/methods that take as arguments the parameters defined in the tables below. You can automate your trading through eight different commands. Command definitions are also provided below.
+
+
+ 
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Available Parameters and Valid Values     | Parameters | Values | | --- | --- | | COMMAND | CANCEL, CANCELALLORDERS, CHANGE, CLOSEPOSITION, CLOSESTRATEGY, FLATTENEVERYTHING, PLACE, REVERSEPOSITION | | ACCOUNT | The name of the account the command is to be processed (This will reflect the Account's Name property as opposed to the Display Name property.) | | INSTRUMENT | Instrument name | | ACTION | BUY, SELL | | QTY | Any integer value | | ORDER TYPE | MARKET, LIMIT, STOPMARKET, STOPLIMIT | | LIMIT PRICE | Any decimal value (use decimals not commas 1212\.25 for example) | | STOP PRICE | Any decimal value | | TIF | DAY, GTC | | OCO ID | Any string value | | ORDER ID | Any string value (must be unique for each line/file) | | STRATEGY | Strategy template name (must exist in NinjaTrader) | | STRATEGY ID | Any string value (must be unique for each line/file) | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Available Commands The following table displays required (R) and optional (O) values for each different command value.     | Command | Account | Instrument | Actions | Qty | Order TYpe | Limit Price | Stop Price | TIF | OCO ID | Order ID | Strategy | Strategy ID | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | CANCEL |  |  |  |  |  |  |  |  |  | R |  | O | | CANCELALLORDERS |  |  |  |  |  |  |  |  |  |  |  |  | | CHANGE |  |  |  | O |  | O | O |  |  | R |  | O | | CLOSEPOSITION | R | R |  |  |  |  |  |  |  |  |  |  | | CLOSESTRATEGY |  |  |  |  |  |  |  |  |  |  |  | R | | FLATTENEVERYTHING |  |  |  |  |  |  |  |  |  |  |  |  | | PLACE | R | R | R | R | R | O | O | R | O | O | O | O | | REVERSEPOSITION | R | R | R | R | R | O | O | R | O | O | O | O | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Following are the descriptions of each available command.    CANCEL COMMAND This command will cancel an order and requires an order ID value and an optional strategy ID value. The order ID value must match either the order ID value given to an order placed through the PLACE command or, an order name such as ENTRY\*, EXIT\*, STOP\*, SIMSTOP\* or TARGET\*. The star (\*) represents an integer value such as TARGET1 or TARGET2\. Order names are only valid if a valid strategy ID value is passed. The strategy ID value must match a strategy ID value given to a strategy in the PLACE command.    CANCELALLORDERS COMMAND  This command will cancel all active orders across all accounts and broker connections.   CHANGE COMMAND This command will change the parameters of an order and requires an order ID value, optional price and quantity values and an optional strategy ID value. The order ID value must match either the order ID value given to an order placed through the PLACE command or, an order name such as ENTRY\*, EXIT\*, STOP\*, SIMSTOP\* or TARGET\*. The star (\*) represents an integer value such as TARGET1 or TARGET2\. Order names are only valid if a valid strategy ID value is passed. Pass in zero (0\) values for price and quantity if you do not wish to change these order parameters. Price values must be in US decimal format (1212\.25 is correct while 1212,25 is not).    CLOSEPOSITION COMMAND This command will close a position and requires an account name value and an instrument name value. The instrument name value is the name of the NinjaTrader instrument including the exchange name. For equities, the symbol is sufficient. This command will cancel any working orders and flatten the position.    CLOSESTRATEGY COMMAND This command will close an ATM Strategy and requires a strategy ID value. The strategy ID value must match a strategy ID given to a strategy in the PLACE command. This command will close the specified strategy.   FLATTENEVERYTHING COMMAND This command will cancel all active orders and flatten all positions across all accounts and broker connections.    PLACE COMMAND This command will place orders, place orders that initiate a NinjaTrader [ATM Strategy](atm_strategy.md), or place orders that are applied to an active NinjaTrader position ATM Strategy. Providing the optional strategy name field with a valid ATM Strategy template name will result in execution of that ATM Strategy once the order is partially or completely filled. Pass in an optional unique string value for the strategy ID in order to reference that ATM Strategy via other commands. To apply an order to an active ATM Strategy (existing strategies Stop Loss and Profit Target orders are amended) pass in the active strategy ID value and leave the strategy name field blank. Pass in an optional unique string value for the order ID in order to reference that order via other commands. If specifying an ATM Strategy template name, there is no need to pass in an order ID as the strategy based orders can be referenced by their internally generated names such as TARGET1, STOP1 and so on.   REVERSEPOSITION COMMAND This command will close the current position and place an order in the opposite direction. The field requirements are identical to the PLACE command. |
+| --- |
+
+
+
+ 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+﻿
+
+
+Operations \> Hot List Analyzer \> Using the Hot List Analyzer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using the Hot List Analyzer
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](using_the_hot_list_analyzer.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Hot List Analyzer](hot_list_analyzer-1.md) \> Using the Hot List Analyzer | [Previous page](hot_list_analyzer-1.md) [Return to chapter overview](hot_list_analyzer-1.md) [Next page](customizing_the_hot_list_analy-1.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+
+
+| playVideo |
+| --- |
+|  |
+
+
+
+![tog_minus](tog_minus-1.gif)       [Understanding Hot Lists](javascript:HMToggle('toggle','UnderstandingHotLists','UnderstandingHotLists_ICON'))
+
+
+
+
+| What are hot lists? Hot lists are a unique list of stocks which are constantly being monitored and updated by your data provider.  These lists will give you valuable information which meet a specific criteria.  For example, if you wanted to know which stocks trading on the NYSE had the highest amount of volume today, you could select the "NYSE Most Actives" hot list.     Who can I use hot lists with? Hot lists can be used with the following data providers:   •Interactive Brokers•TD AMERITRADE  What type of hot lists are there? Hot lists are not hard coded into NinjaTrader and the type of lists that are available will vary depending on your data provider and are subjected to change. NinjaTrader's Hot list selector will display all current available hot lists from your provider.  If you would like to know what types of hot lists you can get with your data provider, the best way to determine this information is to establish a connection to the data provider and browse the Hot List Selector on the title bar of the Hot List Analyzer. |
+| --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the Hot List Analyzer Display](javascript:HMToggle('toggle','UnderstandingTheHotListAnalyzerDisplay','UnderstandingTheHotListAnalyzerDisplay_ICON'))
+
+
+
+
+| Display Overview Hot_List_1     | 1\.  Hot List Selector | Sets the hot list as determined by the data provider. | | --- | --- | | 2\.  Last Update Time | Displays the time that the hot list was last updated by the data provider | | 3\.  Hot List Grid | Grid displays various instrument related information, similar to the [Market Analyzer Columns](market_analyzer_column-1.md) | | 4\.  Hot List Value Column | Displays the value of each instrument in the current selected hot list |      Right Click Menu Hot_List_2     | Create Instrument List | Dynamically creates a list of all the current instruments in the Hot List Analyzer display which can be accessed from the Instrument Lists window | | --- | --- | | Alerts | Opens the Alerts window to configure user defined alerts to be armed | | Columns | Opens the Columns menu to configure user defined columns to be displayed | | Row Filter | Enables / Disables row filters | | Send To | Loads the selected instrument into another NinjaTrader window | | Always On Top | Sets the Hot List Analyzer window to always be on top of other windows | | Show Tabs | Sets if the Hot List Analyzer displays tabs | | Export | Exports the Hot List Analyzer contents to "CSV" or "Excel" file format | | Find | Search for a term in the Hot List Analyzer | | Print | Displays Print options | | Share | Displays Print options | | Reload All Historical Data | Reloads the historical bar data used for Indicator calculations | | Reload NinjaScript | Reloads all of the NinjaScript columns to recalculate the current values | | Templates | Access the templates menu to save / load custom Hot List Analyzer settings | | Properties | Set the [Hot List Analyzer properties](hot_list_analyzer_properties-1.md) | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Hot List Analyzer vs Market Analyzer](javascript:HMToggle('toggle','HotListAnalyzerVsMarketAnalyzer','HotListAnalyzerVsMarketAnalyzer_ICON'))
+
+
+
+
+| What are the differences between the Hot List Analyzer and Market Analyzer? The primary difference between the Hot List Analyzer and the Market Analyzer is that while the Market Analyzer allows you custom create rows of Instruments, the Hot List Analyzer does not.  Any instruments that are added to the Hot List Analyzer are dynamically added based on the Hot List you have selected.  The Hot List Analyzer also does not allow you to remove instruments from the current display.     Creating and customizing an Instrument List If you would like to further customize a list of instruments based off a hot list you have displayed, you can create a custom list of instruments by right clicking on the Hot List Analyzer display and selecting Create Instrument List.  Once the Instrument List has been created, you can open the [Instrument List](instrument_lists-1.md) window to customize the list of instruments.  You can also add the Instrument List to the [Market Analyzer](market_analyzer-1.md) for run analysis on your custom hot list. |
+| --- |
+
+
+
+
+
+
+
+
+
+

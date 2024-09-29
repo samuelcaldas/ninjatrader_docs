@@ -1,0 +1,103 @@
+﻿
+
+
+Operations \> Order Entry \> SuperDOM \> Properties
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Properties
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](properties_superdom.md) \>\> **Navigation:**     [Operations](operations.md) \> [Order Entry](order_entry.md) \> [SuperDOM](superdom.md) \> Properties | [Previous page](working_with_indicators_superdom.md) [Return to chapter overview](superdom.md) [Next page](playback_connection.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+The SuperDOM is highly visual by design but can also be customized to each trader's preferences.
+
+
+ 
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| You can access the SuperDOM properties dialog window by clicking on your right mouse button within the SuperDOM border and selecting the menu Properties. |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| SuperDOM_58     | General |  | | --- | --- | | \# of market depth levels | Sets the number of market depth (Level 2\) rows displayed | | ATM strategy selection mode | Sets the behavior mode of the price ladder display and strategy selector (more information [here](atm_strategy_selection_mode.md)) | | Auto center | Enables or disables auto centering of the last traded price when it trades outside of range | | Price ladder font | Sets the font options for the price ladder | | Last trade displayed in price column | When true, the last trade volume is displayed in the center price column otherwise it is displayed in either the buy or sell column | | Left mouse button is MIT | Sets if the left mouse uses a MIT order (Limit order by default) | | Middle mouse button is stop market | Sets if the middle mouse (scroll wheel) button is stop\-market (Stop\-Limit by default) | | PnL display unit | Sets the display unit for profit and loss | | Quantity modification for stocks | Sets if new orders submitted at the same price will modify the quantity of exiting orders, or an entirely new order is submitted (stacked) at the same level | | Scale quantity | Sets the scale order quantity amount | | Show cumulative depth | Enables or disables cumulative market depth to be shown | | Show daily high/low markers | Enables or disables the daily high and low markers to be shown | | Show market depth | Enables or disables market depth | | Show quick buttons | Enables or disables the quick buttons rapid order entry section | | Show realized PnL when flat | Displays realized profit and loss for the selected account when flat | | Simulated order volume trigger | Sets the value for a simulated order volume trigger (for entry and exit orders and NOT used for stop loss) | | Single click order modification | Enables or disables single click stop loss and profit target order modification | | Predefined stop limit offset | Sets the offset the limit price is away from the stop price for entry/exit stop\-limit orders. Set to 'Off' to disable single click stop\-limit order submission. | | Tab name | Sets the tab name | | Colors |  | | Action button | Sets the set the color for any action button's background | | Ask price | Sets the color of the ask price font | | Bid price | Sets the color of the bid price font | | Buy button | Sets the color of the buy button | | Buy column background | Sets the color of the buy column background | | Buy column foreground | Sets the color of the buy column font | | Daily high price | Sets the color of the daily high price marker | | Daily low price | Sets the color of the daily low price market | | Entry price | Sets the color of the average entry price marker | | Highlight background | Sets the color for row and button highlighting | | Last trade | Sets the color for the last trade market | | Order \- (...) | Sets the color for various orders displayed | | Price column background | Sets the color for the price column background | | Price column foreground | Sets the color for the price column font | | Sell button | Sets the color for the sell button | | Sell column background | Sets the color of the sell column background | | Sell column foreground | Sets the color of the sell column font | | Window |  | | Always on top | Sets if the window will be always on top of other windows | | Show tabs | Sets if the window should allow for tabs | | Trade control on left | Sets if the SuperDOM Trade Control is displayed on the left of the price column | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [How to set the default properties](javascript:HMToggle('toggle','HowToSetTheDefaultProperties','HowToSetTheDefaultProperties_ICON'))
+
+
+
+
+| Once you have your SuperDOM Properties set to your liking, you can left mouse click on the preset button, then click save. Presets will be applied to all windows of that type opened in the future.   If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset button, then click restore to return to the factory settings. |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Using Tab Name Variables](javascript:HMToggle('toggle','UsingTabNameVariables','UsingTabNameVariables_ICON'))
+
+
+
+
+| Tab Name Variables A number of pre\-defined variables can be used in the "Tab Name" field of the SuperDOM Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |
+| --- |
+
+
+
+
+
+
+
+
+
+

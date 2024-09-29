@@ -1,0 +1,77 @@
+﻿
+
+
+Configuration \> Connecting \> Connecting to your Account
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connecting to your Account
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](connecting_to_youraccount.md) \>\> **Navigation:**     [Configuration](configuration-1.md) \> [Connecting](connecting-1.md) \> Connecting to your Account | [Previous page](connecting-1.md) [Return to chapter overview](connecting-1.md) [Next page](connecting_to_kinetick-1.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding account connections](javascript:HMToggle('toggle','UnderstandingAccountConnections','UnderstandingAccountConnections_ICON'))
+
+
+
+
+| Account Connections Within the NinjaTrader Control Center window, select the Connections menu, all defined connections will be displayed in this menu. A connection is where you set up your user name, password and any relevant information that allows you to establish a connection to your broker and/or data feed service. Selecting the connection will cause you to connect to it.    ControlCenter_ConnectionsMain |
+| --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [How to create an account connection](javascript:HMToggle('toggle','HowToCreateAnAccountConnection','HowToCreateAnAccountConnection_ICON'))
+
+
+
+
+| Creating an Account Connection Within the Connections menu you can add a connection, change a connection or remove a connection. The following steps use Kinetick as the connectivity provider. This provider is used for demonstration purposes. You can access broker/technology specific connection help information via the NinjaTrader [Connection Guide](https://ninjatrader.com/Help-Connection-Guides).      To create an account connection:   1\. Open the Connections window by going to the Connections menu within the Control Center and selecting "configure"   ControlCenter_ConnectionsConfigure   2\. Select the connection provider you want to create a connection for in the Available section and select "add".   ControlCenter_Connections_ConnectionsWindow   3\. After selecting "add" you will be prompted to supply the following information:   •User defined connection name (Only use alphanumeric characters in the connection name)•Optionally select "Connect on start up" to automatically connect to this connection when NinjaTrader is started.    | Note: Please test and ensure your connection is working as expected before using this option as it is possible to input incorrect credentials which could prevent the startup of NinjaTrader. | | --- |      •Various Settings which are specific to your connection. Please see the NinjaTrader [Connection Guide](https://ninjatrader.com/Help-Connection-Guides) for more information.  ControlCenter_Connections_ConnectionsWindow2   4\. Press the "OK" button to finish configuring the connection. Now in the NinjaTrader Control Center connections menu you will be able to select the newly created connection by its connection name to connect. |
+| --- | --- |
+
+
+
+
+
+
+
+
+
+

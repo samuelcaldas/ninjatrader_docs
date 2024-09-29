@@ -1,0 +1,91 @@
+﻿
+
+
+Operations \> Charts \> Chart Panels
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chart Panels
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](chart_panels.md) \>\> **Navigation:**     [Operations](operations.md) \> [Charts](charts.md) \> Chart Panels | [Previous page](navigating_a_chart.md) [Return to chapter overview](charts.md) [Next page](chart_objects.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+A chart is comprised of Panels that contain chart objects such as [Data Series](working_with_price_data.md), [Indicators](working_with_indicators.md) and [Drawing Tools](working_with_drawing_tools__ob.md). Panels are added to a chart during the process of adding/editing a Data Series or Indicator. Every Panel has three independent scales to which you can associate a chart object to. Each scale can be uniquely customized via the panel properties (see "Understanding panel properties" sub\-section below for more information).
+
+
+ 
+
+
+
+
+| playVideo |
+| --- |
+|  |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Panel Scales When adding a Data Series or Indicator to a chart, you can set the Scale justification property to align the chart object to any of the following scales within the Panel:   •Left•Right•Overlay  With the exception of the Overlay scale, a price scale will only be displayed in a Panel if there is one or more chart objects justified to it. The Overlay scale does not have a visible price scale however, any chart objects justified to this scale will display their price markers first on the Right scale if one exists otherwise they are displayed on the Left scale. All scales can be shared by multiple chart objects.      | Tip:  In addition to changing a chart objects scale justification property via the Data Series window or Indicators window, you can drag and drop a chart object onto different scales. Please see the section "How to drag and drop chart objects" section located on the [Working with Chart Objects](working_with_chart_objects.md) topic page. | | --- |      Chart_Scales   The image above depicts the continuous ES futures contract justified to the Right scale and a Stochastics indicator justified to the Left scale within the same Panel.   Panel Context Menu Right mouse click within the price scale to access the panel context menu.    Chart_PanelContext   The following actions are available:     | Move Up | Moves the panel up by one | | --- | --- | | Move Down | Moves the panel down by one | | Maximize | Maximizes the panel | | Restore | Restores the maximized window to the original size | | Arrange All | Arranges all panels to default proportions | | Remove | Deletes the panel from the chart | | Properties | Opens the panel properties window |        Maximized panel display Selecting Maximize from the panel context will change selected panel to be the only displayed panel on the chart tab. Using the left facing arrow "\<" or right facing arrow "\>" will navigate through each panel on the chart in a maximized display.  Selecting the "M" button will restore the panels to their original default display.    Chart_PanelMax   The image above depicts the continuous ES futures 1\-minute Data Series panel which has been Maximized and displays the controls available to navigate through a maximized panel display. |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Understanding panel properties](javascript:HMToggle('toggle','UnderstandingPanelProperties','UnderstandingPanelProperties_ICON'))
+
+
+
+
+| Panel Properties The Panel Properties menu can be opened by double left mouse clicking within the price scale or selecting the Properties menu via the Panel Context menu discussed above. The Panel Properties window will list the properties below grouped by each scale that is currently active on the Panel.   The following properties can be adjusted:     | Range | Sets the range to "Automatic" or "Fixed." A fixed range allows the manual setting of the upper and lower boundary of the chart. The range can also be manually defined via the mouse. Please see the [Navigating a Chart](navigating_a_chart.md) topic's section on "How to change the vertical scale and range of a chart". | | --- | --- | | Based on | Sets a value indicating how the "Automatic" scale range is calculated.  When set to “Entire Date Range Series Only”, Data Series and Indicator values for the entire date range of the chart (draw objects are ignored) are used to calculate the vertical scale range.  When set to “Screen Date Range”, all visible objects on the screen are used. | | Horizontal grid lines | Sets the Horizontal grid lines displayed on the chart's price scale to "Automatic" or "Fixed." A fixed setting allows the manual definition of the intervals displayed include the Horizontal grid lines interval type and Horizontal grid lines interval value | | Horizontal grid lines interval type | Sets a value of either "Points", "Ticks", or "Pips" which is used to calculate the interval between grid lines and labels. | | Horizontal grid lines interval value | Sets the vertical interval of the horizontal axis. A value of 0 (zero) will enable the automatic generation of grid line intervals. The Right scale will always take precedence over the left scale if both are set to user defined custom grid line intervals. | | Margin type | Sets the calculation mode for determining the upper and lower panel margins by "Price" or "Percent". (Percent values are whole percents. For example, entering a value of "1" equals 1%.) | | Margin lower | Sets the lower margin value | | Margin upper | Sets the upper margin value | | Maximum | Sets the scale's upper boundary when using "Fixed" range | | Minimum | Sets the scale's lower boundary when using "Fixed" range | | Type | Sets the scaling type to "Linear" or "Logarithmic" | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+
+
+
+
+
+
+

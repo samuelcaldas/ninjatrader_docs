@@ -1,0 +1,78 @@
+﻿
+
+
+Operations \> Market Analyzer \> Creating a Market Analyzer Window
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Creating a Market Analyzer Window
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](creating_a_market_analyzer_win.md) \>\> **Navigation:**     [Operations](operations.md) \> [Market Analyzer](market_analyzer.md) \> Creating a Market Analyzer Window | [Previous page](market_analyzer.md) [Return to chapter overview](market_analyzer.md) [Next page](working_with_instrument_rows.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+
+
+| playVideo |
+| --- |
+|  |
+
+
+
+## 
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Market Analyzer Display Overview Each NinjaTrader Market Analyzer is a free floating window that can be manually resized by dragging the edges of the window and moved by left mouse clicking and dragging in the upper most margin for arrangement within the open [Workspace](workspaces_menu.md).    The image below shows some of the common features of a Market Analyzer window:     | 1\. Columns | Displays the [column](working_with_columns.md) name | | --- | --- | | 2\. Instrument row | Displays the [instrument](working_with_instrument_rows.md) name | | 3\. Label row | Displays a user defined [label row](working_with_instrument_rows.md). | | 4\. Link button | [Window linking](linking_windows.md) links windows to the same instrument and can be applied to many NinjaTrader windows. | | 5\. Total row | Displays the sum of all rows for a specific column. Can be applied in the Market Analyzer [Properties window](market_analyzer_properties.md). | | 6\. Loading dialog | Display a message indicating when an indicator or historical data is being loaded into the Market Analyzer |      MarketAnalyzer_6   Right Click Menu All functions of the Market Analyzer can be accessed by pressing on your right mouse button within the Market Analyzer window to bring up the right click menu.   MarketAnalyzer_7     | Add Instrument(s) | Adds an individual instrument or list of instruments to the Market Analyzer display | | --- | --- | | Create Instrument Lists... | Dynamically creates a list of all the current instruments in the Market Analyzer display which can be accessed from the [Instrument Lists](instrument_lists.md) window | | Add Blank Row | Adds a blank row to the Market Analyzer display | | Add Label Row | Adds a Label Row to the Market Analyzer display | | Remove Row | Removes a selected row from the Market Analyzer display | | Columns... | Opens the Columns menu to configure user defined columns to be displayed | | Alerts | Opens the Alerts window to configure user defined alerts to be armed | | Auto Sort | Enables/Disables the dynamic sorting and ranking | | Row Filter | Enables/Disables row filters | | Send To | Loads the selected instrument into another NinjaTrader window | | Always On Top | Sets the Market Analyzer window to always be on top of other windows | | Export... | Exports the Market Analyzer contents to "CSV" or "Excel" file format | | Find... | Search for a term in the Market Analyzer | | Print | Displays Print options | | Share | Displays Share options | | Reload All Historical Data | Reloads the historical bar data used for Indicator calculations | | Reload NinjaScript | Reloads all of the NinjaScript columns to recalculate the current values | | Templates | Access the templates menu to save/load custom Market Analyzer settings | | Properties | Set the Market Analyzer properties | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+
+
+
+
+
+
+

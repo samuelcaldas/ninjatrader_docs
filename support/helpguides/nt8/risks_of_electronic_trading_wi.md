@@ -1,0 +1,96 @@
+﻿
+
+
+Risks of Electronic Trading with NinjaTrader
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Risks of Electronic Trading with NinjaTrader
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](risks_of_electronic_trading_wi.md) \>\> **Navigation:**   »No topics above this level«   Risks of Electronic Trading with NinjaTrader | [Previous page](risk_disclosures.md) [Return to chapter overview](welcome.md) [Next page](tos.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+There are risks associated with electronic trading in general. Below are risks that you must be aware of with respect to NinjaTrader.
+
+
+ 
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| NinjaTrader supports multiple different connectivity providers (brokers, exchange gateways, and data feeds) that each have different levels of support for advanced order handling features such as OCO orders. An OCO order is simply a group of linked orders where if one is either filled or cancelled, all other orders that belong to it's OCO group are cancelled. If your connectivity provider does not support OCO orders natively, NinjaTrader will simulate them on your local PC. It is important to understand how these order types behave.   •OCO does not imply that once one order is filled, related orders in the same OCO group are guaranteed to be cancelled. It means that once an order is filled or cancelled, any remaining orders in the same OCO group will try to be cancelled. It is possible (in rare occasions) that order(s) that are part of the OCO group will be filled before the cancellation request has been acknowledged. As an example, let's say you have a stop loss and profit target order as part of an OCO group. The profit target is filled, the market rapidly turns around, the OCO cancellation request is submitted, the stop loss order is filled before the cancellation request is acknowledged. The narrower the spread between your OCO orders the higher the risk of getting filled on an order before it is cancelled in fast moving markets.   •Local PC held simulated OCO orders are dependant on order status events returning from your connectivity provider to trigger the cancellation of OCO orders. If NinjaTrader is offline (internet connection is down or PC crashed) then the simulated OCO functionality will not be operational. |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| There are several functions within NinjaTrader that are based on the current state of your account at the moment the function is invoked. These functions are: •[Close Position](closing_a_position_or_atm_stra.md) •Flatten Everything  In flight executions are orders that are partially or completely filled between the time that you invoke one of the above functions and the time your connectivity provider acknowledges the order submission/modification/cancellation requests submitted by these functions. Here is an example:   1\. You have an open long position for three contracts and several working stop loss and profit target orders for three contracts each 2\. You invoke the command "Flatten Everything" which proceeds to cancel all working orders and submit a market order to close the three contract position 3\. One of your profit target orders is filled before the cancellation request arrives at the exchange 4\. The market order to close the position is also filled for three contracts 5\. You now have an open short position for three contracts   This example is generally a rare occurrence. After invoking any of the above commands it is always prudent to check the Control Center's [Positions Tab](positions_tab.md) and [Orders Tab](orders_tab.md) to ensure that all orders were cancelled and positions flattened. To avoid these situations you should be cautious of using the "Close Position" function when you have orders that are working within a few ticks of the inside market. |
+| --- |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Please see [this section](simulated_stop_orders.md) of the Help Guide to understand the risks involved in using volume based simulated stop orders. |
+| --- |
+
+
+
+ 
+
+
+
+
+
+
+
+
+

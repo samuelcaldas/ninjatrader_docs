@@ -1,0 +1,91 @@
+﻿
+
+
+Operations \> Strategy Analyzer \> Optimization \> Genetic Algorithm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Genetic Algorithm
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](genetic_algorithm.md) \>\> **Navigation:**     [Operations](operations.md) \> [Strategy Analyzer](strategy_analyzer.md) \> [Optimization](optimize_a_strategy.md) \> Genetic Algorithm | [Previous page](optimize_a_strategy.md) [Return to chapter overview](optimize_a_strategy.md) [Next page](optimization_fitness_metrics.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+Very simply put the Genetic Algorithm attempts to find the most optimal set of parameters for a strategy. It does this not by brute force testing each individual combination as the default optimization method does, but instead using the concept of evolutionary theory borrowed from biology where only the fittest parents (combined with mutation and crossover) produce children for the next generation. Through testing of multiple generations you should have narrowed down on the most optimal parameters and therefore saving you time from having to test every single parameter combination. 
+
+
+ 
+
+
+
+
+| playVideo |
+| --- |
+|  |
+
+
+
+![tog_minus](tog_minus.gif)
+
+
+
+
+| Overview The general idea of how the GA solves an optimization problem is analogous to the concept of how evolution via natural selection adapts a species to the environment. In biology, only the strongest individuals will be able to reproduce and pass on their superior genes to the next generation. Assuming each generation can only pass on the strongest genes, after several iterations we would be left with the optimal attributes for the environment. Through this same mechanism, the GA will test a random preset of your parameters. Through multiple generations of testing, the parameters will zero in on an optimum solution.     | Note: It is important to understand that GA will find approximate optimum solutions. Since it does not test every combination possible there is no guarantee its solutions are absolute optimums. | | --- |      How the GA calculates The GA determines its solution through the following steps:   1\.Begin with an initial population size consisting of randomly selected individuals (parameter setting combinations)2\.Compute the fitness (Optimize on...) for each individual in the population and assign probabilities to the population based on the fitness results. More fit results have more probability in being selected for breeding of the next generation.3\.Generate a new population for the next generation by selecting individuals from the prior generation to produce offspring via crossover and mutation (see below)4\.Repeat from step 2 till you reach the number of generations in your test  Crossover and Mutation Crossover is the process in generating offspring that are not 100% identical to their parents. It is done by taking half of the parameter settings from parent A and mixing it with the other half from parent B. Crossover allows GA to test different combinations of parameters and hone in on the optimal solution. Crossover alone however will eventually yield identical offsprings in the population through several generations and so through mutation, some random parameter settings will be interjected in a few of the offsprings to allow for an adaptive quality to the algorithm. |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus.gif)        [Understanding Genetic Algorithm parameters](javascript:HMToggle('toggle','UnderstandingGeneticAlgorithmParameters','UnderstandingGeneticAlgorithmParameters_ICON'))
+
+
+
+
+| Please see the "[Optimize a Strategy](optimize_a_strategy.md)" article for how to run an optimization.   When you select the Genetic optimizer you will see the following optimization properties after you left click the triangle to the left of "GO Properties" to expand the properties.    StrategyAnalyzer_Optimization_GOParams     | Convergence threshold | Setting this will terminate the Genetic Optimization if there is more than a certain number of duplicate children in a single generation, defined by the Convergence Threshold value. This allows the optimization to terminate if no new work is getting done because it has already converged in on the most optimal solution. Example: In the screenshot above Generation size is set to 25, therefore each generation will contain 25 children, if 20 of these children are duplicates that have already been tested then the  optimization will be terminated. | | --- | --- | | Crossover rate (%) | Each new generation is created from a combination of randomly generated offspring and offspring created from combining (crossing over) parent parameters. Crossover Rate determines the percentage of the new generation that is generated from the crossover process. | | Generation size | Sets the number of combinations to test in each generation (children). The higher the size, the more variety of combinations that will be tested in each generation. You want to make sure to set this high enough to test enough parameter combinations to get good coverage of the problem domain but not so high that each possible parameter combination is being tested in a single generation. | | Generations | Sets the number of generations to test. Each generation will hold the number of children set in "Generation Size".  The number of total parameter combinations tested is equal to the Generation Size \* Generations. | | Minimum performance | If this performance value is reached before all generations are evaluated the optimizer will end and present results immediately, where the type of this value is directly tied to your used optimization fitness metric (i.e. Profit Factor). A Value of 0 means no minimum performance is in use. | | Mutation rate (%) | Sets the probability that a crossover offspring will contain some mutated parameters (applies to all parameter types) | | Mutation strength (%) | Sets the maximum offset from crossover values that an offspring marked for mutation can have its parameters changed (applies only to input parameters of type double) | | Reset size (%) | When each new generation is created, all individuals from previous generations are possible parents for the new offsprings. If the top performing x% (stability size %) of children from the newly created generation is the same as the top performing x% of parents, reset all parents and repopulate a new generation randomly while leaving only the top performing y% of parents (reset size %) for future generations. Note: This occurs before convergence threashold is tested. | | Stability size (%) | See "Reset Size %" | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+﻿
+
+
+Operations \> Charts \> How Trade Executions are Plotted
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How Trade Executions are Plotted
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](how_trade_executions_are_plott.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Charts](charts-1.md) \> How Trade Executions are Plotted | [Previous page](how_bars_are_built-1.md) [Return to chapter overview](charts-1.md) [Next page](break_at_eod-1.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+Trade executions in NinjaTrader are tied to specific timestamps based on when the execution actually occurs as opposed to specific bars on the chart. NinjaTrader does it this way to allow you the flexibility of using  multiple charts of differing period types and still being able to visualize where the trade executions occurred. The following article outlines some scenarios with time based execution plotting.
+
+
+ 
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding trade executions and the local PC clock](javascript:HMToggle('toggle','UnderstandingTradeExecutionsAndTheLocalPcClock','UnderstandingTradeExecutionsAndTheLocalPcClock_ICON'))
+
+
+
+
+| When a trade execution occurs in NinjaTrader it is timestamped natively by your provider if they support that or locally by NinjaTrader. One situation that can arise is that your PC clock is not in sync with your data feed. When this happens the trade execution may be shown on the chart on a bar where it seems like the fill is not feasible.   Example: Data feed bar is currently timestamped as 4:26PM. Local PC clock is 4:21PM.   When a market order is placed under the above situation, the trade execution will occur at 4:26PM prices, but be shown on the chart at 4:21PM.   To prevent these types of issues please ensure your local PC clock is in sync with your data feed. Please reference the [Historical \& Real\-Time Data](data_by_provider-1.md) chart to see if your data provider timestamps their data or if the data is timestamped locally by your PC clock. It is important to maintain a sync between your PC clock and the data feed's timestamping. |
+| --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding trade executions on charts with tick based intervals](javascript:HMToggle('toggle','UnderstandingTradeExecutionsOnChartsWithTickBasedIntervals','UnderstandingTradeExecutionsOnChartsWithTickBasedIntervals_ICON'))
+
+
+
+
+| When using a chart with tick based intervals in NinjaTrader it is possible to have several bars with the same timestamp. This usually happens during high volatility times when heavy trading is happening within a very short amount of time. Since there are many bars with the same timestamp, NinjaTrader can only plot the trade execution on the first bar with the same timestamp of the execution since the executions are not tied to specific bars, but tied to specific timestamps. This can appear as if the trade execution occurred with an invalid fill price, but in reality the execution did occur on a valid price, just on a later bar with the same timestamp.   Example: Many ticks occurred on the 16:35:54 timestamp seen in the x\-axis below the chart. Trade execution was at price 1058\.75 on 16:35:54\.   Since the execution occurred on 16:35:54 it is plotted on the first bar with the same timestamp. In this particular case, the first bar was not at the same price as the execution price so it would appear to be filled outside of the bar. Checking bars being plotted later on we find that 1058\.75 was a valid price for timestamp 16:35:54 and that this execution was in fact on a valid price. |
+| --- |
+
+
+
+
+
+
+
+
+
+

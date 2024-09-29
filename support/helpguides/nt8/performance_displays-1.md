@@ -1,0 +1,120 @@
+﻿
+
+
+Operations \> Trade Performance \> Performance Displays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Performance Displays
+
+
+
+
+
+
+
+| \<\< [Click to Display Table of Contents](performance_displays.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Trade Performance](trade_performance-1.md) \> Performance Displays | [Previous page](using_trade_performance-1.md) [Return to chapter overview](trade_performance-1.md) [Next page](statistics_definitions-1.md) |
+| --- | --- |
+
+
+
+
+[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
+
+
+
+
+
+
+
+
+The Account Performance window displays performance data in a variety of ways. 
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the Summary display](javascript:HMToggle('toggle','UnderstandingTheSummaryDisplay','UnderstandingTheSummaryDisplay_ICON'))
+
+
+
+
+| Summary Display Displays all performance statistics and metrics.   TradePerformance_3   Please see the [Statistic Definition](statistics_definitions-1.md) section of the help guide for details on how each statistic is calculated.      | Tip:  You can add your own Custom Performance Metrics through NinjaScript programming, or install other performance metrics developed by 3rd parties. Please see [this](performance_metrics-1.md) section of the help guide for more information on how to develop and add a custom performance metric | | --- | |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the Analysis display](javascript:HMToggle('toggle','UnderstandingTheAnalysisDisplay','UnderstandingTheAnalysisDisplay_ICON'))
+
+
+
+
+| Analysis Display Displays data based on various time periods for analysis.   AccountPerformance_Analysis   Analysis view displays both a grid of data in the selected period format and a graph that you choose to display based on the period data. It allows an easy way to see trends in the data set and make correlations.    Period Grid The period grid has options that let you select what data to display, note that the data in the grid drives the data shown in the selected graph type below.     | Period | Sets the periodicity you want the trade data displayed in, this also drives the graph below.    Available Period Selections •Daily•Weekly•Monthly•Yearly•Trades•Half\-hour of day•Hour of day•Day of week  Note: Half\-hour of day, Hour of day, and Day of week are distribution period selections, meaning that the trades that make up the collection will not be in synchronous order, therefore cumulative statistics such as Cumulative Net Profit are disabled. | | --- | --- | | Long/Short | Sets if you just want long trades displayed or short trades displayed. | | W/L | Sets if you want only trades that have a Net Profit greater than 0 displayed or less than or equal to 0\. | | Time base | Sets if you want to include the the trade in the period based on the entry time or the exit time of the trade. |        | Tip: Selecting a graph row will highlight the row and also highlight the data point that is associated to this data on the graph below. | | --- |      Graph The graph displays data from the period grid above.    AccountPerformance_Graph   You can select what data you would like to view from the Graph selection combo box. As you move your mouse over the Graph a dot will be displayed indicating that it is a data point. Left clicking on the data point will select it and also select the same data in the Period Grid above the Graph.    Available Graph Types   •Cumulative Net Profit•Net Profit•Cumulative Max. Drawdown•Avg. MAE•Avg. MFE•Avg. Entry Efficiency•Avg. Exit Efficiency•Avg. Total Efficiency  Please see the [Statistic Definition](statistics_definitions-1.md) section of the help guide for details on how each graph type is calculated.      | Note: Some graph types are not available for some period types, in this case the graph type will be disabled. | | --- | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the Executions display](javascript:HMToggle('toggle','UnderstandingTheExecutionsDisplay','UnderstandingTheExecutionsDisplay_ICON'))
+
+
+
+
+| Executions Display The Executions display shows all historical executions in a [data grid](data_grids-1.md).   The columns listed in the data grid use the same layout you would see from the Executions Tab of the Control Center.  For definitions of each column, please see the [Understanding the executions tab](executions_tab-1.md) section.   Charting Executions You can go to the exact chart location of an execution by doing the following:   1\.Select the execution2\.Right mouse click and select the menu item Chart.   NinjaTrader will open a temporary chart to the location of the execution      | Notes:   •The trade performance Chart is a non\-configurable 1\-minute interval and does not have all the standard features of a regular chart•Charting Executions only work if you have access to historical data for that date range via a connection or in your local database | | --- |        Adding Executions There may be situations where you will want to manually add or remove an historical execution. Historical executions are used to generate performance data in the Account Performance window. If an execution is missing, the performance data will be incorrect. This could happen since not all brokers provide historical execution. Let's say you placed a good till cancelled (GTC) order on Monday, did not connect on Tuesday at which time your order filled, then connected NinjaTrader on Wednesday, NinjaTrader would never receive the execution report for Tuesday's order fill. You would then have to add this historical execution to the database if you want your performance reporting to be accurate.    To add an execution to the database:   1\.Right mouse click in the Executions display and select the Add... menu item. The Add Execution window appears.2\.Input your desired execution parameter values in the image below3\.Press the OK button  The execution is now added to the database and will be used in performance reporting.   ControlCenter_Executions_AddExecution   Removing Executions You can also remove an execution by right mouse clicking the execution you wish to delete and selecting "Remove". |
+| --- | --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the Trades display](javascript:HMToggle('toggle','UnderstandingTheTradesDisplay','UnderstandingTheTradesDisplay_ICON'))
+
+
+
+
+| Trades Display The Trades display shows all historical executions in a [data grid](data_grids-1.md).  A Trade defined is a completed buy/sell or sell/buy transaction sorted by time and matched by the market position and quantity of the execution.   Positions which have been scaled in or scaled out will be considered as separate trades.     | Note:  If you are trading multiple NinjaScript strategies simultaneously on the same account, the logic used to pair trades is agnostic of executions which belong to a particular strategy, and will match trades based on the overall account position.  This may cause the trade performance to calculate some statistics (such as Entry/Exit Pairing, Bars) differently than you are expecting.  You can view a strategies individual performance from the [Strategies tab](strategies_tab-1.md) | | --- |          | Trade number | The trade numbered by the sequence it occurred in the trade collection | | --- | --- | | Instrument | The Instrument on which the trade took place | | Account | The Account the trade took place | | Strategy | The NinjaScript or ATM strategy which generated the trade    Notes:  1\. ATM Strategies which have not been saved as a template will not be reflected  (i.e., "Custom")                2\. The strategy needs to be active for its name to be shown | | Market position | Indicates the position of the trade (long or short) | | Quantity | The quantity of the execution | | Entry price | The entry execution price of the trade | | Exit price | The exit execution price of the trade | | Entry time | The execution time of the entry of the trade | | Exit time | The execution time of the exit of the trade | | Entry name | A name for the entry execution of the trade (if specified by the strategy or action) | | Exit name | A name for the exit execution of the trade (if specified by the strategy or action) | | Profit | The profit of the individual trade | | Cumulative net profit | Summation of all the profit earned by all your trades | | Commission | Summation of commission applied to the entry and exit executions | | MAE | Maximum adverse excursion (i.e., worst price trade reached – entry price) | | MFE | Maximum favorable excursion (i.e., best price trade reached – entry price) | | ETD | End Trade Drawdown (i.e., MFE \- profit) | | Bars | The number of bars between the entry and exit executions   Note:  Only applicable to NinjaScript strategy executions |        | Tip:  Please see the [Statistic Definition](statistics_definitions-1.md) section of the help guide for additional details regrading trade value calculations | | --- |      Charting Trades You can go to the exact chart location of an trade by doing the following:   1\.Select the trade2\.Right mouse click and select the menu item Chart.   NinjaTrader will open a temporary chart to the location of the trade.      | Notes:   •The temporary Chart is a non\-configurable 1\-minute interval and does not have all the standard features of a regular chart•Charting Executions only work if you have access to historical data for that date range via a connection or in your local database | | --- | |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the Orders display](javascript:HMToggle('toggle','UnderstandingTheOrdersDisplay','UnderstandingTheOrdersDisplay_ICON'))
+
+
+
+
+| Orders Display The Orders display shows all historical orders in a [data grid](data_grids-1.md). |
+| --- |
+
+
+
+![tog_minus](tog_minus-1.gif)        [Understanding the Journal display](javascript:HMToggle('toggle','UnderstandingTheJournalDisplay','UnderstandingTheJournalDisplay_ICON'))
+
+
+
+
+| Journal Display The Journal tab is only visible in the Account Performance window. The Journal tab allows you to keep journal entries on your trading activities. Enter your comments in the text area and press "add". The data grid will display your journal entries by date.     | Tip: You can also add Journal entries based on a Execution or Trade via the Executions Display and Trades Display. Right click on an execution and select "Add Journal Entry". | | --- | |
+| --- | --- |
+
+
+
+
+
+
+
+
+
+
