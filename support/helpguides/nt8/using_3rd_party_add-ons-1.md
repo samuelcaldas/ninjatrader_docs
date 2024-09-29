@@ -38,7 +38,7 @@ Using 3rd Party Add\-Ons
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 

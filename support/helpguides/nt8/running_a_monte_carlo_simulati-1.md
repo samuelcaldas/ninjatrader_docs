@@ -38,7 +38,7 @@ Running a Monte Carlo Simulation
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 

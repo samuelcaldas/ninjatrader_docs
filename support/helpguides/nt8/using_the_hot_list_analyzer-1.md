@@ -38,7 +38,7 @@ Using the Hot List Analyzer
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 

@@ -38,7 +38,7 @@ Static vs Dynamic Price Ladder Display
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 

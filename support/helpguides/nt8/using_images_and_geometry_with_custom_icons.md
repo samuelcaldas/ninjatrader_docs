@@ -38,7 +38,7 @@ Using Images and Geometry with Custom Icons
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 

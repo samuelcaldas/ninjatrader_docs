@@ -38,7 +38,7 @@ Understanding Strategy Analyzer Logs
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 

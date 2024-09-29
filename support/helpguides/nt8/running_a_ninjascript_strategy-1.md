@@ -38,7 +38,7 @@ Running a NinjaScript Strategy from a Chart
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 

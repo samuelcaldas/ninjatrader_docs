@@ -38,7 +38,7 @@ Running a NinjaScript Strategy from the Strategies Tab
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 

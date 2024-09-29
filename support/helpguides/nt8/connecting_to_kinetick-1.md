@@ -38,7 +38,7 @@ Connecting to Kinetick \- End Of Day (Free)
 
 
 
-[Show/Hide Hidden Text](javascript:HMToggleExpandAll(!HMAnyToggleOpen()) "Click to open/close expanding sections")
+
 
 
 
