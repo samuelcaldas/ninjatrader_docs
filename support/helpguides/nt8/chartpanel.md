@@ -1,70 +1,14 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Charts \> ChartPanel
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ChartPanel
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](chartpanel.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> ChartPanel | [Previous page](converttoverticalpixels2.md) [Return to chapter overview](chart.md) [Next page](chartobjects.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The ChartPanel class includes a range of properties related to the [panel](chart_panels.md) on which the calling script resides.  Each Panel has 3 independent [ChartScales](chartscale.md): Left, Right, and Overlay.
-
-
  
-
-
 ![ChartPanel_1](chartpanel_1.png)
 
-
- 
-
-
- 
-
-
 ## Methods and Properties
-
-
-
-
 | ChartObjects | A collection of objects configured on the chart panel |
 | --- | --- |
 | H | Indicates the height (in pixels) of the chart panel |
@@ -80,12 +24,3 @@ The ChartPanel class includes a range of properties related to the [panel](chart
 | W | Indicates the width (in pixels) of the chart panel |
 | X | Indicates the x\-coordinate on the chart canvas at which the chart panel begins |
 | Y | Indicates the y\-coordinate on the chart canvas at which the chart panel begins |
-
-
-
-
-
-
-
-
-

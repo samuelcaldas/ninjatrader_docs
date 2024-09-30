@@ -1,64 +1,14 @@
 ﻿
-
-
 Operations \> Control Center \> New Menu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 New Menu
-
-
-
-
-
-
 
 | \<\< [Click to Display Table of Contents](new_menu.md) \>\> **Navigation:**     [Operations](operations.md) \> [Control Center](control_center.md) \> New Menu | [Previous page](control_center.md) [Return to chapter overview](control_center.md) [Next page](tools_menu.md) |
 | --- | --- |
 
-
-
-
-
-
-
-
-
-
-
 The following menus and items are available via the New menu of the NinjaTrader Control Center.
-
-
  
-
-
 ![ControlCenter_FileMenu](controlcenter_filemenu.png)
-
-
  
-
-
-
-
 | [Basic Entry](basic_entry.md) | Creates new Basic Entry window |
 | --- | --- |
 | [FX Pro](fx_pro.md) | Creates a new FX Pro window |
@@ -82,12 +32,4 @@ The following menus and items are available via the New menu of the NinjaTrader 
 | [NinjaScript Output](output.md) | Opens the NinjaScript output window (this includes the NinjaScript Utilization Monitor subwindow) |
 | [Strategy Builder](strategy_builder.md) | Creates a new Strategy Builder window |
 | [AddOn Framework](addon_development_overview.md) | This is an example for a custom NinjaScript AddOn installed |
-
-
-
-
-
-
-
-
 

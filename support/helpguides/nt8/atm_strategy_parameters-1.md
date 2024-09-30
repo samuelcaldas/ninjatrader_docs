@@ -1,90 +1,18 @@
 ﻿
-
-
 Operations \> Advanced Trade Management (ATM) \> ATM Strategy \> ATM Strategy Parameters
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  ATM Strategy Parameters
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](atm_strategy_parameters.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.md) \> [ATM Strategy](atm_strategy-1.md) \>  ATM Strategy Parameters | [Previous page](atm_strategy-1.md) [Return to chapter overview](atm_strategy-1.md) [Next page](atm_strategy_selection_mode-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Majority of NinjaTrader's order entry interfaces house the same control for defining an ATM Strategy.
-
-
 ![tog_minus](tog_minus-1.gif)        [Understanding the ATM Strategy control list options](javascript:HMToggle('toggle','UnderstandingTheAtmStrategyControlListOptions','UnderstandingTheAtmStrategyControlListOptions_ICON'))
-
-
-
-
 | The Strategy Control List The drop down list shown in the image below is very important to understand as it defines how your orders will be handled once submitted. There are three main categories of options that will be displayed in this drop\-down list; None, Custom or strategy template names, and Active ATM Strategy Name(s).   ATM_9   None When this option is selected, any orders placed in the entry window will not be applied to an active ATM Strategy nor will it initiate a new ATM strategy.   Custom or ATM Strategy Template Names When an ATM Strategy template name is selected, all of the parameters will update to reflect your pre\-defined ATM Strategy, or when Custom is selected, you have the ability to define a new ATM Strategy on the fly. Once an order is submitted, the ATM Strategy parameters specified will be initiated when the order is partially or completely filled.   Active ATM Strategy Names All active (live and working) ATM Strategies will be displayed and indicated by a lightning  bolt active_atm icon. If one is selected, any order submitted will be applied to the selected active ATM Strategy. For example, if you have an active ATM Strategy with a stop and target bracket for 1 contract, if you are filled on another contract, the fill is applied to this ATM Strategy and the stop and target bracket is automatically updated from 1 contract to 2 contracts.   Strategy Selection Mode Overview The behavior of the strategy control list can be controlled automatically by selecting an [ATM Strategy Selection Mode](atm_strategy_selection_mode-1.md).   ATM_DisplayMode   When it comes to the automatic submission of Stop Loss and Profit Targets and how subsequent order fills are handled, there are two approaches:   1\. Scaling into a position or out of a position should automatically update the order sizes of existing stop and target brackets 2\. Scaling into a position should create a new set of stop and target brackets based on the new order fill price   If you always want to operate with approach number 1, then you will always want to have the ATM Strategy control list set to your active ATM Strategy when one exists. This is accomplished by setting the ATM Strategy Selection Mode to "Select active ATM strategy on order submission". If you would rather have new stop and target brackets submitted on a new fill, then set the ATM Strategy Selection Mode to "Keep selected ATM strategy template on order submission" and the strategy control list will not automatically set to an active strategy when one is created. |
 | --- |
 
-
-
 ![tog_minus](tog_minus-1.gif)        [Understanding Stop Loss and Profit Target parameters (how to set your stop and target values)](javascript:HMToggle('toggle','UnderstandingStopLossAndProfitTargetParametershowToSetYourStopAndTargetValues','UnderstandingStopLossAndProfitTargetParametershowToSetYourStopAndTargetValues_ICON'))
-
-
-
-
 | ATM Strategy Parameters Select Custom to define a new ATM Strategy or select the saved ATM Strategy template and select "edit" in the ATM Strategy combo box as seen below.   ATM_10   In the image below there are parameters that define the ATM Strategy. This strategy is a single quantity strategy that will automatically place its target at 10 ticks above the average entry price and stop loss 10 ticks below.   ATM_Parameters1   Selecting the "add" will allow you to configure additional Targets for your ATM Strategy.  You can add as many targets as you desire.  Selecting "remove" will reduce the number of configured Targets that are configured.   ATM_23     | Tip: You can also add Targets to your ATM Strategy by right\-clicking on an active strategy in the ATM Strategy combo box and selecting “Add Target”. More details are documented in the SuperDOM section [Managing Positions](managing_positions_superdom-1.md). | | --- |        | Order quantity | Replicated from the order entry display and sets the initial quantity used for the entry order. | | --- | --- | | TIF (Time In Force) | Replicated from the order entry display and sets the TIF used for entry, profit target, and stop loss orders. | | Parameter type | Sets the type of parameter used for defining where the stop loss and profit target will be placed.      | Currency | PnL away from average entry. Calculated by the dollar per tick value for the order quantity used. | | --- | --- | | Percent | Percentage away from the average entry, based on the average entry price. | | Pips | Pips away from average entry. | | Price | The absolute price point specified. | | Ticks | Ticks away from entry average entry. | | | Quantity | Sets the quantity for the Stop Loss and Profit Target orders for this target | | Stop Loss | Sets the value that determines the Stop Loss price. If the value is set to 4 (ticks) and your average entry for the initiating order is 1000 and you are long, your Stop Loss would be submitted at AvgEntry \- Stop Loss \= 1000 \- 4 ticks \= stop price of 999\. This assumes each tick is valued at 0\.25\. | | Profit | Sets the value that determines the Profit target price. If the value is set to 4 (ticks) and your average entry for initiating the order is 1000 and you are long, your Profit target would be submitted at AvgEntry \+ Profit target \= 1000 \+ 4 ticks \= 1001 Profit target. This assumes that each tick is valued at 0\.25\. | | Stop Strategy | Sets the Stop Strategy |      For further reference, please look at the [Strategy Examples](tutorial_atm_strategy_example_-1.md) located within the "[ATM Strategy](atm_strategy-1.md)" page. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-
-
 ![tog_minus](tog_minus-1.gif)        [Understanding advanced ATM parameters](javascript:HMToggle('toggle','UnderstandingAdvancedAtmParameters','UnderstandingAdvancedAtmParameters_ICON'))
-
-
-
-
 | More Options To access the Advanced options, click on the More text which will expand these additional ATM Strategy features.   ATM_5   From the [Advanced Options](advanced_options-1.md) section you can enable the [Shadow Strategy](shadow_strategy-1.md), [Auto Reverse](auto_reverse-1.md), or [Auto Chase](auto_chase-1.md) features. |
 | --- |
-
-
-
-
-
-
-
-
-
-

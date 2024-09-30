@@ -1,61 +1,12 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Drawing
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](drawing.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> Drawing | [Previous page](usercontrolcollection.md) [Return to chapter overview](common.md) [Next page](draw_andrewspitchfork.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 You can use NinjaScript to draw custom shapes, lines, text and colors on price and indicator panels from both [Indicators](indicator.md) and [Strategies](strategy.md). 
-
-
  
-
-
 ## Draw Methods and Associated Return Types
-
-
-
-
 | Draw Method | Return Type |
 | --- | --- |
 | [Draw.AndrewsPitchfork()](draw_andrewspitchfork.md) | [AndrewsPitchfork](andrewspitchfork.md) |
@@ -94,19 +45,7 @@ You can use NinjaScript to draw custom shapes, lines, text and colors on price a
 | [Draw.TriangleUp()](draw_triangleup.md) | [TriangleUp](triangleup.md) |
 | [Draw.VerticalLine()](draw_verticalline.md) | [VerticalLine](verticalline.md) |
 
-
-
- 
-
-
- 
-
-
 Drawing Methods and Properties
-
-
-
-
 | Property | Description |
 | --- | --- |
 | [AllowRemovalOfDrawObjects](allowremovalofdrawobjects.md) | Determines if programmatically drawn DrawObjects can be manually removed from the chart |
@@ -125,24 +64,5 @@ Drawing Methods and Properties
 | [RemoveDrawObjects()](removedrawobjects.md) | Removes all draw objects originating from the indicator or strategy from the chart |
 | [SimpleFont Class](simplefont_class.md) | Defines a particular font configuration |
 
-
-
- 
-
-
- 
-
-
-
-
 | 1\.Custom graphics for custom indicators can be painted on either the price panel or indicator panel. You could for example have a custom indicator displayed in an indicator panel yet have associated custom graphics painted on the price panel. The "[DrawOnPricePanel](drawonpricepanel.md)" property is set to true by default, which means that custom graphics will always be painted on the price panel, even if the indicator is plotted in a separate panel. If you want your custom graphics to be plotted on the indicator panel, set this property to false in the OnStateChange() method of your custom indicator. 2\.Set unique tag values for each draw object, unless you intend for new draw objects to replace existing objects with the same tag. A common trick is to incorporate the bar number as part of the unique tag identifier. For example, if you wanted to draw a dot that indicated a buying condition above a bar, you could express it:   Draw.Dot(this, CurrentBar.ToString() \+ "Buy", false, 0, High\[0] \+ TickSize, Brushes.ForestGreen);   3\. Draw methods will not work if they are called from the OnStateChange() method. |
 | --- |
-
-
-
-
-
-
-
-
-

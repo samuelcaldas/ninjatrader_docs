@@ -1,28 +1,10 @@
 ﻿
 
 NinjaTrader 8
-
-
-
-
-
-
-
-
-
-
-
-
-
 [![Back to Index](nt8logo.png)](welcome.htm "Index")  
 
 [Search](nt8_ftsearch.htm "Search")
-
-
-
 ---
-
-
 * [Welcome to NinjaTrader](welcome.md)
 * [Video Library](video_library.md)
 * [Release Notes](release_notes.md)
@@ -1538,7 +1520,3 @@ NinjaTrader 8
 				+ [MaxHeight](sharpdx_directwrite_textlayout_maxheight.md)
 				+ [MaxWidth](sharpdx_directwrite_textlayout_maxwidth.md)
 				+ [Metrics](sharpdx_directwrite_textlayout_metrics.md)
-
-
-
-

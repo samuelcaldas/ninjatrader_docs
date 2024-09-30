@@ -1,68 +1,14 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.RegressionChannel()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.RegressionChannel()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_regressionchannel.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.RegressionChannel() | [Previous page](regionhighlighty-1.md) [Return to chapter overview](drawing-1.md) [Next page](regressionchannel-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws a regression channel.
-
-
  
-
-
 ## Method Return Value
-
-
 A [RegressionChannel](regressionchannel-1.md) object that represents the draw object.
-
-
  
-
-
 ## Syntax
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, Brush brush)
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, DateTime startTime, DateTime endTime, Brush brush)
@@ -70,16 +16,8 @@ Draw.RegressionChannel(NinjaScriptBase owner, string tag, bool isAutoScale, int 
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, DateTime endTime, Brush upperBrush, DashStyleHelper upperDashStyleHelper, int upperWidth, Brush middleBrush, DashStyleHelper middleDashStyleHelper, int middleWidth, Brush lowerBrush, DashStyleHelper lowerDashStyleHelper, int lowerWidth)
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, bool isGlobal, string templateName)
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, DateTime startTime, DateTime endTime, bool isGlobal, string templateName)
-
-
 ## 
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -94,29 +32,10 @@ Draw.RegressionChannel(NinjaScriptBase owner, string tag, DateTime startTime, Da
 | upperWidth, middleWidth, lowerWidth | The line width |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
 ## 
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Draws a regression channel from the low 10 bars back to the high of 5 bars back Draw.RegressionChannel(this, "tag1", 10, 0, Brushes.Blue); |
-
-
-
-
-
-
-
-
 

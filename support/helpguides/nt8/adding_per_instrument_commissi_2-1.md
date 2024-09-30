@@ -1,90 +1,18 @@
 ﻿
-
-
 Operations \> Commissions \> Working With Commission Templates
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Working With Commission Templates
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](adding_per_instrument_commissi_2.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Commissions](understanding_commissions-1.md) \> Working With Commission Templates | [Previous page](understanding_commissions-1.md) [Return to chapter overview](understanding_commissions-1.md) [Next page](adding_per_instrument_commissi_3-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 The Commissions window allows you to create and manage Commission Templates to be applied to different trading accounts configured in NinjaTrader. These templates can be used to set minimum and per\-unit commissions for all instruments of a certain type, or to set specific commissions for individual instruments, which will override any commissions set for the instrument type.
-
-
 ![tog_plus](tog_plus.gif)        [Managing commission templates](javascript:HMToggle('toggle','ManagingCommissionTemplates','ManagingCommissionTemplates_ICON'))
-
-
-
-
 | Adding Commission Templates The Commissions window includes several pre\-built Commission Templates, based on the currently available NinjaTrader software license types. Additional templates can be set up by clicking the add button at the bottom of the "Templates" section of the window. A new template will be created with a default name, and specific commissions can then be saved for the template using the steps in the sections below.    Once a new template has been added, you can edit it's name by selecting it in the list in the "Templates" section, then entering a name in the "Name" field within the "Properties" section.   Commissions2   1\) The add button is clicked   2\) A new template with a default name is added to the list   3\) The template name can be changed in the "Properties" section   Copying Commission Templates There may be an instance in which you need to maintain two copies of a Commission Template with a few small differences between the two. Rather than creating a second version from scratch, you can copy an existing template in the Commissions window, then make any needed changes to the new copy. To do this, first select a template in the list of configured templates, then click the copy button. A new copy will appear in the list, allowing you to make any necessary changes.   Removing Commission Templates To remove a Commission Template, first select one in the list of configured templates, then click the remove button. |
 | --- |
 
-
-
 ![tog_plus](tog_plus.gif)        [Managing commissions per instrument type](javascript:HMToggle('toggle','ManagingCommissionsPerInstrumentType','ManagingCommissionsPerInstrumentType_ICON'))
-
-
-
-
 | Adding Commissions Per Instrument Type To add a commission for an entire asset class (instrument type), first select an asset class listed in the "Commission Per Instrument Type" grid, then click the edit button. Alternatively, you can double\-click on any row in the grid to open the Edit Commissions dialogue. Enter a value in the "Minimum Commission" field, the "Per\-Unit Commission" field, or both, then click OK.   Commissions3     | Notes:  1\."Minimum Commission" is applied per trade and per side, regardless of trade quantity, but is only applied if the total applied "per\-unit" commissions are less than the minimum value. "Per\-unit commission" applies to each unit in a trade, and is applied per\-side.2\.When configuring Forex instrument types, "Per\-unit commission" should be divided by the accounts FX lot size per trade.  For example, if your commissions were $0\.06 per 1000 FX lot, you would use "0\.00006" as the Per\-unit commission value (e.g., 0\.06 / 1000\) | | --- | |
 | --- | --- |
 
-
-
 ![tog_plus](tog_plus.gif)        [Managing instrument\-specific commissions](javascript:HMToggle('toggle','ManagingInstrumentSpecificCommissions','ManagingInstrumentSpecificCommissions_ICON'))
-
-
-
-
 | Adding Instrument\-Specific Commissions To add commissions for specific instruments, first click the add button below the "Commission Per Instrument" section to open the Edit Commission window. Select an instrument in the "Instrument" dropdown menu, or click the magnifying glass icon to search available instruments. Enter a value in the "Minimum Commission" field, the "Per\-Unit Commission" field, or both, then click OK.   Commissions4     | Notes:  1\.Commissions entered for specific instruments will override settings for that instrument's type. For example, setting instrument\-specific commissions for the E\-Mini S\&P 500 futures contract will override any commissions set for all Futures instruments.2\."Minimum Commission" is applied per trade and per side, regardless of trade quantity, but is only applied if the total applied "per\-unit" commissions are less than the minimum value.. "Per\-Unit Commission" applies to each unit in a trade, and is applied per\-side.3\.When configuring Forex instrument types, "Per\-unit" commission should be divided by the account FX lot size per trade.  For example, if your commissions were $0\.06 per 1000 FX lot, you would use "0\.00006" as the Per\-unit commission value (e.g., 0\.06 / 1000\) | | --- |        Editing Instrument\-Specific Commissions To edit an instrument\-specific commission, first select it in the list of instrument\-specific commissions for your chosen Commission Template, then click the edit button. You can then follow the process outlined above to change the instrument or commission values.   Removing Instrument\-Specific Commissions To remove an instrument\-specific commission, first select it in the list of instrument\-specific commissions for your chosen Commission Template, then click the remove button.   Commissions5   1\) The edit button can be used to edit an existing instrument\-specific commission.   2\) The remove button can be used to remove an instrument\-specific commission. |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-

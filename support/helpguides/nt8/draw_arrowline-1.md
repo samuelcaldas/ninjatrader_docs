@@ -1,71 +1,15 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.ArrowLine()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.ArrowLine()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_arrowline.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.ArrowLine() | [Previous page](arrowdown-1.md) [Return to chapter overview](drawing-1.md) [Next page](arrowline-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws an arrow line.
-
-
  
-
-
 ## Method Return Value
-
-
 An [ArrowLine](arrowline-1.md) object that represents the draw object.
-
-
  
-
-
 ## Syntax
-
-
 Draw.ArrowLine(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
 
 Draw.ArrowLine(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, Brush brush)  
@@ -79,16 +23,8 @@ Draw.ArrowLine(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime sta
 Draw.ArrowLine(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)  
 
 Draw.ArrowLine(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
-
-
  
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -105,29 +41,10 @@ Draw.ArrowLine(NinjaScriptBase owner, string tag, DateTime startTime, double sta
 | drawOnPricePanel | Determines if the draw\-object should be on the price panel or a separate panel |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
  
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Draws a dotted lime green arrow line Draw.ArrowLine(this, "tag1", 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2); |
-
-
-
-
-
-
-
-
 

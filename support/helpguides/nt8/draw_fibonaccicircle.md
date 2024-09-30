@@ -1,68 +1,14 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.FibonacciCircle()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.FibonacciCircle()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_fibonaccicircle.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.FibonacciCircle() | [Previous page](extendedline.md) [Return to chapter overview](drawing.md) [Next page](fibonaccicircle.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws a fibonacci circle.
-
-
  
-
-
 ## Method Return Value
-
-
 A [FibonacciCircle](fibonaccicircle.md) object that represents the draw object.
-
-
  
-
-
 Syntax  
 
 Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY)  
@@ -73,18 +19,7 @@ Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, DateTi
 
 Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)
 
-
- 
-
-
- 
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -97,29 +32,10 @@ Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, int st
 | endY | The end y value co\-ordinate where the draw object will terminate |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
  
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Draws a Fibonacci circle Draw.FibonacciCircle(this, "tag1", true, 10, Low\[10], 0, High\[0]); |
-
-
-
-
-
-
-
-
 

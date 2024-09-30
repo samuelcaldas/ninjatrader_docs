@@ -1,57 +1,12 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Alert, Debug, Share
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Alert, Debug, Share
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](alert__debugging_and_sharing.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> Alert, Debug, Share | [Previous page](currentbars-1.md) [Return to chapter overview](common-1.md) [Next page](alert-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The following section documents properties and methods used to trigger alerts from a NinjaScript object, send debug messages to the NinjaScript Output Window, or utilize Share Services to send emails or post to social\-media networks. 
-
-
  
-
-
-
 
 | [Alert()](alert-1.md) | Generates a visual/audible alert for the [Alerts Log](alerts_log-1.md) window |
 | --- | --- |
@@ -63,12 +18,3 @@ The following section documents properties and methods used to trigger alerts fr
 | [RearmAlert()](rearmalert-1.md) | Rearms an alert created via the [Alert()](alert-1.md) method |
 | [SendMail()](sendmail-1.md) | Sends an email message through the default email sharing service. |
 | [Share()](share-1.md) | Sends a message or screen shot to a social network or Share Service. |
-
-
-
-
-
-
-
-
-

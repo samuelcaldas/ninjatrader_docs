@@ -1,87 +1,20 @@
 ﻿
-
-
 Configuration \> Options \> Market data \> Multiple Connections
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Multiple Connections
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](multiple_connections.md) \>\> **Navigation:**     [Configuration](configuration-1.md) \> [Options](options-1.md) \> [Market data](options_marketdata-1.md) \> Multiple Connections | [Previous page](real_time_tick_filter-1.md) [Return to chapter overview](options_marketdata-1.md) [Next page](performance_tips2-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ![tog_minus](tog_minus-1.gif)        [Using multiple connections](javascript:HMToggle('toggle','UsingMultipleConnections','UsingMultipleConnections_ICON'))
 
-
-
-
-| Multiple Connections NinjaTrader supports multiple simultaneous connections to different connectivity providers, and in some cases, to the same connectivity provider allowing you to:   •Connect to and trade through multiple brokers simultaneously •Connect to your broker and a separate data provider simultaneously   NinjaTrader will use a data feed for real\-time or historical data, and by default will subscribe based on the type of instrument supported by the data feed connection and your connection order. |
+| Multiple Connections NinjaTrader supports multiple simultaneous connections to different connectivity providers, and in some cases, to the same connectivity provider allowing you to:   - Connect to and trade through multiple brokers simultaneously - Connect to your broker and a separate data provider simultaneously   NinjaTrader will use a data feed for real\-time or historical data, and by default will subscribe based on the type of instrument supported by the data feed connection and your connection order. |
 | --- |
-
-
-
 ![tog_minus](tog_minus-1.gif)        [Determining which data source is being used](javascript:HMToggle('toggle','DeterminingWhatDataIsBeingUsed','DeterminingWhatDataIsBeingUsed_ICON'))
 
-
-
-
-| Determining which data source is being used When connecting to multiple connections, you must choose which provider will be supplying your real\-time and historical data in NinjaTrader.   By default NinjaTrader will attempt to get real\-time and historical data from the first connected data provider for the instrument type for which you are attempting to receive data.    The instrument types used for lookup are as follows, for determining which data feed supports which instrument types, please see the [Data by Provider](data_by_provider-1.md) page.   •CFD's•Futures•Forex•Indices•Stocks  Example 1: 1\.Connect to a NinjaTrader Continuum broker technology first2\.Connect to a Kinetick data feed second  NinjaTrader Continuum only supports futures, so all futures data would come from that connection, but if you tried to pull stock data, NinjaTrader would pull that data from Kinetick.   Example 2: 1\.Connect to a Kinetick data feed first2\.Connect to a NinjaTrader Continuum broker technology second  Since Kinetick supports all instrument types, all data will be pulled from this connection. Any trades or orders submitted always go to the account you select, therefore if using the NinjaTrader Continuum account for order entry, all trades will go through NinjaTrader Continuum even if you are using Kinetick for data.   Connection order is important when determining which provider will be used for real\-time and historical data. However, you can choose to set a preferred connection. See the "Setting Preferred Data Connections" section below for more details.     | Note: In Example 2 above, even if you did not have entitlement on your Kinetick account for certain futures, but you did on NinjaTrader Continuum, it will not fall over to NinjaTrader Continuum to pull data for those futures contracts since Kinetick's connection supports the futures instrument type. Data requests will only fall over to the secondary connection when the primary connection does not support the instrument class being requested. | | --- | |
+| Determining which data source is being used When connecting to multiple connections, you must choose which provider will be supplying your real\-time and historical data in NinjaTrader.   By default NinjaTrader will attempt to get real\-time and historical data from the first connected data provider for the instrument type for which you are attempting to receive data.    The instrument types used for lookup are as follows, for determining which data feed supports which instrument types, please see the [Data by Provider](data_by_provider-1.md) page.   - CFD's- Futures- Forex- Indices- Stocks  Example 1: 1\.Connect to a NinjaTrader Continuum broker technology first2\.Connect to a Kinetick data feed second  NinjaTrader Continuum only supports futures, so all futures data would come from that connection, but if you tried to pull stock data, NinjaTrader would pull that data from Kinetick.   Example 2: 1\.Connect to a Kinetick data feed first2\.Connect to a NinjaTrader Continuum broker technology second  Since Kinetick supports all instrument types, all data will be pulled from this connection. Any trades or orders submitted always go to the account you select, therefore if using the NinjaTrader Continuum account for order entry, all trades will go through NinjaTrader Continuum even if you are using Kinetick for data.   Connection order is important when determining which provider will be used for real\-time and historical data. However, you can choose to set a preferred connection. See the "Setting Preferred Data Connections" section below for more details.     | Note: In Example 2 above, even if you did not have entitlement on your Kinetick account for certain futures, but you did on NinjaTrader Continuum, it will not fall over to NinjaTrader Continuum to pull data for those futures contracts since Kinetick's connection supports the futures instrument type. Data requests will only fall over to the secondary connection when the primary connection does not support the instrument class being requested. | | --- | |
 | --- | --- |
-
-
-
 ![tog_minus](tog_minus-1.gif)        [Setting preferred data connections](javascript:HMToggle('toggle','SettingPreferredDataConnections','SettingPreferredDataConnections_ICON'))
-
-
-
 
 | Preferred data feed connections Within the NinjaTrader Control Center window, select the Tools menu, and then select Options menu item. In the Options window, select the "Market Data" category and expand the triangle to the left of Preferred connections \- historical and Preferred connections \- real\-time. Here you may select a connection technology to use as the preferred connection per instrument type for real\-time and historical data, independent of connection order. Setting your preferred connection for both historical and real\-time has the advantage of being able to use a different data feed for your live connection and your historical connection.   Example: 1\. Set NinjaTrader Continuum as the preferred real\-time data feed provider for Futures. 2\. Set Kinetick as the preferred historical data feed provider for Futures. 3\. Connect to a NinjaTrader Continuum broker technology 4\. Connect to a Kinetick data feed   In this example all futures real\-time data would come from NinjaTrader Continuum and all futures historical data would come from Kinetick.   Connecting_Preferred |
 | --- |
-
-
-
-
-
-
-
-
-
 

@@ -1,102 +1,25 @@
 ﻿
-
-
 NinjaScript \> Editor \> NinjaScript Editor Components
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 NinjaScript Editor Components
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](ns_editor_components.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Editor](editor-1.md) \> NinjaScript Editor Components | [Previous page](nodoc-1.md) [Return to chapter overview](editor-1.md) [Next page](ns_explorer-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Overview
-
-
 The NinjaScript Editor is a powerful scripting editor that allows you to create custom indicators, strategies, and any other custom NinjaScript types used to enhance the NinjaTrader platform.  The NinjaScript Editor can be opened by selecting the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item NinjaScript Editor
-
-
  
-
-
 1\. NinjaScript Explorer \- Displays files, folders, and allows for additional file management
-
-
 2\. Tool bar \- Moving your mouse over each icon will display the function of the icon button
-
-
 3\. Line numbers
-
-
 4\. Line modification marking \- Yellow flags indicate unsaved line modifications where green flags indicate saved modifications
-
-
 5\. Tabs for creating new scripts via the [NinjaScript wizard](ns_wizard-1.md) and working on multiple scripts.
-
-
  
-
-
      ![NS_Editor_1](ns_editor_1.png)
-
-
  
-
-
 ## Context Menus
-
-
 Context menus can be opened by right\-clicking in the NinjaScript Editor.
-
-
  
-
-
 ![NinjaScriptEditorContextMenu](ninjascripteditorcontextmenu.png)
-
-
- 
-
-
- 
-
-
-
 
 | Context Menu Items |  |
 | --- | --- |
@@ -118,28 +41,12 @@ Context menus can be opened by right\-clicking in the NinjaScript Editor.
 | Print | Allows printing the content of this window (see [Printing Content](printing_content-1.md) for more information) |
 | Share | Allows sharing the content of this window (see [Sharing Content](sharing_content-1.md) for more information) |
 | Properties | Opens the Properties menu (see below) |
-
-
-
 ## 
-
-
 ## 
-
-
 ## Properties and Definitions
-
-
 ## 
-
-
 ## NinjaTrader_2020-12-03_10-03-00
-
-
 ## 
-
-
-
 
 | General |  |
 | --- | --- |
@@ -152,15 +59,4 @@ Context menus can be opened by right\-clicking in the NinjaScript Editor.
 | Font | Sets the font options |
 | Window |  |
 | Always on top | Sets if the window will be always on top of other windows. |
-
-
-
  
-
-
-
-
-
-
-
-

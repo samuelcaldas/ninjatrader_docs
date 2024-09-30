@@ -1,71 +1,15 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Ellipse()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.Ellipse()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_ellipse.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.Ellipse() | [Previous page](dot.md) [Return to chapter overview](drawing.md) [Next page](ellipse.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws an ellipse.
-
-
  
-
-
 ## Method Return Value
-
-
 An [Ellipse](ellipse.md) object that represents the draw object.
-
-
  
-
-
 ## Syntax
-
-
 Draw.Ellipse(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
 
 Draw.Ellipse(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush, Brush areaBrush, int areaOpacity)  
@@ -86,18 +30,7 @@ Draw.Ellipse(NinjaScriptBase owner, string tag, int startBarsAgo, double startY,
 
 Draw.Ellipse(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
-
- 
-
-
- 
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -114,29 +47,10 @@ Draw.Ellipse(NinjaScriptBase owner, string tag, DateTime startTime, double start
 | drawOnPricePanel | Determines if the draw\-object should be on the price panel or a separate panel |
 | isGlobalDrawingTool | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
 ## 
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Paints a red ellipse on the current bar Draw.Ellipse(this, "tag1", true, 5, Close\[5], 0, Close\[0], Brushes.Red, Brushes.Red, 5); |
-
-
-
-
-
-
-
-
 

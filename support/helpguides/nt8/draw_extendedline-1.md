@@ -1,68 +1,14 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.ExtendedLine()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.ExtendedLine()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_extendedline.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.ExtendedLine() | [Previous page](ellipse-1.md) [Return to chapter overview](drawing-1.md) [Next page](extendedline-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws a line with infinite end points.
-
-
  
-
-
 ## Method Return Value
-
-
 An [ExtendedLine](extendedline-1.md) object that represents the draw object.
-
-
  
-
-
 Syntax  
 
 Draw.ExtendedLine(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
@@ -81,18 +27,7 @@ Draw.ExtendedLine(NinjaScriptBase owner, string tag, int startBarsAgo, double st
 
 Draw.ExtendedLine(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
-
- 
-
-
- 
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -109,29 +44,10 @@ Draw.ExtendedLine(NinjaScriptBase owner, string tag, DateTime startTime, double 
 | drawOnPricePanel | Determines if the draw\-object should be on the price panel or a separate panel |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
  
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Draws a dotted lime green Draw.ExtendedLine(this, "tag1", 10, Close\[10], 0, Close\[0], Brushes.LimeGreen, DashStyleHelper.Dot, 2); |
-
-
-
-
-
-
-
-
 

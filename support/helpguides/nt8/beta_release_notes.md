@@ -1,58 +1,10 @@
 ﻿
-
-
 Release Notes \> Beta
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Release Notes
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](beta_release_notes.md) \>\> **Navigation:**     [Release Notes](release_notes-1.md) \> Release Notes | [Previous page](8_0_1_0-1.md) [Return to chapter overview](release_notes-1.md) [Next page](8_0_0_14.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 NinjaTrader release notes can be found below, if you have any questions on a specific release please contact [\[email protected]](/cdn-cgi/l/email-protection)
-
-
  
-
-
-
-
 | Version | Released |
 | --- | --- |
 | [8\.0\.0\.14 (RC2\)](8_0_0_14.md) | October 6, 2016 |
@@ -69,12 +21,4 @@ NinjaTrader release notes can be found below, if you have any questions on a spe
 | [8\.0\.0\.3 (Beta)](8_0_0_3.md) | July 14, 2015 |
 | [8\.0\.0\.2 (Beta)](8_0_0_2_beta.md) | May 28, 2015 |
 | 8\.0\.0\.1 (Beta) | May 4, 2015 |
-
-
-
-
-
-
-
-
 

@@ -1,76 +1,18 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Add On \> FundamentalData
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 FundamentalData
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](fundamentaldata.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Add On](add_on.md) \> FundamentalData | [Previous page](controlcenter.md) [Return to chapter overview](add_on.md) [Next page](marketdata.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 FundamentalData is used to access fundamental snapshot data and for subscribing to fundamental data events. 
-
-
  
-
-
-
 
 | Note: Remember to unsubscribe if you are no longer using the subscription. |
 | --- |
 
-
-
- 
-
-
- 
-
-
 ## Properties
-
-
-
 
 | AverageDailyVolume | A double representing the average daily volume |
 | --- | --- |
@@ -102,39 +44,13 @@ FundamentalData is used to access fundamental snapshot data and for subscribing 
 | ShortInterestRatio | A double representing the short interest ratio |
 | VWAP | A double representing the VWAP |
 | Update | Event handler for subscribing/unsubscribing to market depth events |
-
-
-
  
-
-
 ## Syntax
-
-
 FundamentalData
 
-
- 
-
-
- 
-
-
 ## Example
-
-
-
 
 | ns |
 | --- |
 | /\* Example of subscribing/unsubscribing to fundamental data from an Add On. The concept can be carried over to any NinjaScript object you may be working on. \*/ public class MyAddOnTab : NTTabPage {  private Instrument instrument;    public MyAddOnTab()  {          instrument \= Instrument.GetInstrument("AAPL");            if (instrument \=\= null)                  return;            // Subscribe to fundamental data. Snapshot data is provided right on subscription          if (!instrument.Dispatcher.HasShutdownStarted)                  instrument.Dispatcher.InvokeAsync(() \=\> instrument.FundamentalData.Update \+\= OnFundamentalData);            // Printing snapshot fundamental data for average daily volume          NinjaTrader.Code.Output.Process(instrument.FundamentalData.AverageDailyVolume, PrintTo.OutputTab1\);  }    // This method is fired on fundamental data events  private void OnFundamentalData(object sender, FundamentalDataEventArgs e)  {           // Do something with fundamental data events  }    // Called by TabControl when tab is being removed or window is closed  public override void Cleanup()  {          // Make sure to unsubscribe to the fundamental data subscription          if (instrument !\= null)                  instrument.FundamentalData.Update \-\= OnFundamentalData;  }    // Other required NTTabPage members left out for demonstration purposes. Be sure to add them in your own code. } |
 |  |
-
-
-
-
-
-
-
-
-

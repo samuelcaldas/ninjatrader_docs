@@ -1,76 +1,18 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Strategy \> PositionAccount
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 PositionAccount
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](positionaccount.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> PositionAccount | [Previous page](position_quantity.md) [Return to chapter overview](strategy.md) [Next page](positionaccount_averageprice.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Represents position related information that pertains to real\-world account (live or simulation).  
-
-
  
 
-
-
-
-| Tips: •For multi\-instrument scripts, please see [PositionsAccount](positionsaccount.md) object which holds an array of all instrument positions managed by the strategy's account•For a Strategy Position, please see [Position](position.md) |
+| Tips: - For multi\-instrument scripts, please see [PositionsAccount](positionsaccount.md) object which holds an array of all instrument positions managed by the strategy's account- For a Strategy Position, please see [Position](position.md) |
 | --- |
 
-
-
- 
-
-
- 
-
-
 ## Methods and Properties
-
-
-
 
 | Account | An [Account](account_class.md) object which corresponds to the position |
 | --- | --- |
@@ -81,34 +23,9 @@ Represents position related information that pertains to real\-world account (li
 | [Quantity](position_quantity.md) | Gets the current account position size |
 | ToString() | A string representation of an account position |
 
-
-
- 
-
-
- 
-
-
 ## Examples
-
-
-
 
 | ns |
 | --- |
 | protected override void OnBarUpdate() {      // Print out the average entry price      Print("The average entry price is " \+ PositionAccount.AveragePrice); } |
-
-
-
- 
-
-
- 
-
-
-
-
-
-
-
 

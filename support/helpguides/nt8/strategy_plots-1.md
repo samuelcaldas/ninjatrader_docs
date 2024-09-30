@@ -1,64 +1,12 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Strategy \> Plots
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Plots
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](strategy_plots.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> Plots | [Previous page](strategy_performancemetrics-1.md) [Return to chapter overview](strategy-1.md) [Next page](position-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 Plotting functionality for NinjaScript Strategies is largely identical to the framework for Indicators. Please review the [Plots](plots-1.md) / [AddPlot()](addplot-1.md) page under the Indicators section.
-
-
  
-
-
 An overview of the draw or plotting related methods / properties available to NinjaScript Strategies vs. Indicators is listed below \-
-
-
  
-
-
-
-
 | Method or Property | Strategy | Indicator |
 | --- | --- | --- |
 | [AddChartIndicator()](addchartindicator-1.md) | check | error |
@@ -112,12 +60,3 @@ An overview of the draw or plotting related methods / properties available to Ni
 | [ShowTransparentPlotsInDataBox](showtransparentplotsindatabox-1.md) | check | check |
 | [UserControllCollection\[]](usercontrolcollection-1.md) | check | check |
 | [ZOrder](chart_zorder-1.md) | check | check |
-
-
-
-
-
-
-
-
-

@@ -1,80 +1,12 @@
 ﻿
-
-
 Configuration \> Options \> General
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 General
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](general_section.md) \>\> **Navigation:**     [Configuration](configuration-1.md) \> [Options](options-1.md) \> General | [Previous page](options-1.md) [Return to chapter overview](options-1.md) [Next page](creating_your_own_skin-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 The General section sets general application options.
-
-
 ![tog_minus](tog_minus-1.gif)        [Understanding general properties](javascript:HMToggle('toggle','UnderstandingGeneralProperties','UnderstandingGeneralProperties_ICON'))
-
-
-
-
 | General Properties General properties can be set in the Options window with the General category selected. Each available property is described below:   Options_General     | Preferences |  | | --- | --- | | Confirm on window or tab close | Enables or disables if the display of a dialogue box to confirm on tab or window close to prevent accidental window closures. | | Custom performance metric(s) | Sets which custom performance metrics you would like included in account performance and strategy analyzer results. Performance Metrics are NinjaScript objects which can be created via the NinjaScript Editor and installed by third party vendors. | | Email log alert messages to | Sets the email address that you would like any alert messages from the log tab in the Control Center to be sent to automatically. Leaving this field blank disables this feature. Note: For emails to be sent, you must first define a default email account to be used via the Share Services property below. | | Global Drawing Objects Across Workspaces | Sets whether Global Drawing Objects should be applied across all open workspaces. | | Global link button across workspaces | Sets whether the global link button will work across all open workspaces or only the current workspace. | | Language | Sets the language you would like NinjaTrader to use. Changing this property requires a restart. | | Multi\-provider | Sets whether the ability to configure and connect to other providers is available. See the [Enabling/Disabling Multi\-provider Mode](enabling_disabling-multi-provi-1.md) section of the Help Guide. | | Reopen all previously open workspaces at startup | Enables or disabled the ability to open multiple workspaces at start up. | | Save Username on Log In window | Saves the last used Username to the Log In window for next log in. | | Share services | Manages your defined social network and email accounts. You must first set up a Share Service to enable sharing functionality from NinjaTrader. See the "Managing Sharing Services" section below for more information. | | Show account numbers and balances | Sets whether account values that may be considered private are displayed or have asterisks in their place to hide them. | | Show tool tips | Sets whether description tool tips will be displayed. Note: Tool tips that show cut\-off text will still function. | | Skin | Sets the skin you would like to use for NinjaTrader. Changing this property requires a restart. Skins are NinjaScript objects which can be created and modified. | | Symbology display style | Selected the style in which symbols are displayed across all your NinjaTrader platforms. | | Time zone | Sets the time zone that NinjaTrader will use. All charts and market data will be displayed in this time zone. Time zones are set to your local PC time by default. | | Versions of recovery workspaces | Indicates how many version back of saved recovery workspaces to retain | | Sounds |  | | Play consecutively | Sets whether sounds will be queued to play in sequence without overlap, or if simultaneous sounds will play at the same time. | | Alert Sounds | All alert sounds are listed in alphabetical order by alert name. Sound files can be replaced by clicking any of these fields, or muted by clicking the small X icon to remove the assigned sound file. | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-
-
 ![tog_minus](tog_minus-1.gif)        [Managing Share Services](javascript:HMToggle('toggle','ManagingShareServices','ManagingShareServices_ICON'))
-
-
-
-
 | Share Services The Share Services dialog allows you to set up your various social media accounts. NinjaTrader ships with Sharing Adapters for Email  and Text message via email, and it is possible for developers to create their own ShareService in NinjaScript to access other social media outlets.   Options_General_SharingServices   Depending on the available sharing service you are configuring changes the settings needed to complete the setup. Please see the below guides for setting up each of the sharing services pre loaded with NinjaTrader 8   Email Service Setup To setup an Email account that can be used to send messages from NinjaTrader select Email from the available section and click add. The Properties section is now available to enter the needed information to set up your Email Share Service. NinjaTrader needs valid SMTP email server that it can use to send outbound emails. Typical settings for some of the most common providers can be quickly entered by selecting your provider from the Preconfigured settings menu.   Options_SharingServicesAddEmailAdd     | Credentials |  | | --- | --- | | Service name | Sets the name of the Share Service that will be used to identify this account when selecting a service to which to share content | | Preconfigured settings | Provides typical settings for some of the most common providers | | Connection \- Server | Sets the server address used for the SMTP connection | | Connection \- Port | Sets the server port used for the SMTP connection | | Default | Sets whether is the default sharing service to be used for automated sharing from NinjaScript. Note: You can only have one default per service type. | | Connection \- SSL | Sets whether your email server uses Secure Sockets Layer (SSL) security | | Email address | The Email Address that will be used for the "From" field when sending outbound emails. | | User name | Sets the server user name | | Password | Sets the server password | | Test | Sends a test email through the server |          | Notes: Port 465 is not supported for SMTP servers. AOL uses an App Password for the Password field. This is different than your AOL Password and needs to be configured within AOL's Account Security settings | | --- |      Text Message Via Email Service Setup To setup a text messages account that can be used to send messages from NinjaTrader select Text message via email from the available section and click add.  The Properties section is now available to enter the needed information to set up your Text message via email Share Service. An email share service must be set up before configuring the Text message via email share service. NinjaTrader needs  SMS address and MMS address for the entered phone number. Typical settings for some of the most common providers can be quickly entered by selecting your provider from the Preconfigured settings menu.   Options_SharingServicesText     | Credentials |  | | --- | --- | | Service name | Sets the name of the Share Service that will be used to identify this account when selecting a service to which to share content | | Preconfigured settings | Provides typical settings for some of the most common providers | | Default | Sets whether is the default sharing service to be used for automated sharing from NinjaScript. Note: You can only have one default per service type. | | Email | The Email Share Service that will be used to send the text message from | | Phone number | The phone number that will receive the text messages | | SMS address | The service providers SMS address for sending text messages (do not enter a phone number here) | | MMS address | The service providers MMS address for sending multimedia messages (do not enter a phone number here) | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-
-
-
-
-
-
-
-
-

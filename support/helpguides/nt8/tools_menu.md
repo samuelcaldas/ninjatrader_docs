@@ -1,64 +1,12 @@
 ﻿
-
-
 Operations \> Control Center \> Tools Menu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Tools Menu
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](tools_menu.md) \>\> **Navigation:**     [Operations](operations.md) \> [Control Center](control_center.md) \> Tools Menu | [Previous page](new_menu.md) [Return to chapter overview](control_center.md) [Next page](workspaces_menu.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The following menus and items are available via the Tools menu of the NinjaTrader Control Center.
-
-
  
-
-
 ![ControlCenter_ToolsMenu](controlcenter_toolsmenu.png)
-
-
  
-
-
-
-
 | [Instruments](instruments.md) | Opens the Instruments window |
 | --- | --- |
 | [Instrument Lists](instrument_lists.md) | Opens the Instrument Lists window |
@@ -75,12 +23,3 @@ The following menus and items are available via the Tools menu of the NinjaTrade
 | [Global Simulation Mode](global_simulation_mode.md) | Enables or Disables Global Simulation Mode (Note: Global simulation mode can only be enabled with a live NinjaTrader License) |
 | Client Dashboard | Opens the web view of the Client Dashboard |
 | [Options](options.md) | Opens the Options window |
-
-
-
-
-
-
-
-
-

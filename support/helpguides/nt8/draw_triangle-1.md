@@ -1,71 +1,16 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Triangle()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.Triangle()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_triangle.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.Triangle() | [Previous page](trendchannel-1.md) [Return to chapter overview](drawing-1.md) [Next page](triangle-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws a triangle.
-
-
  
-
-
 ## Method Return Value
-
-
 A [Triangle](triangledown-1.md) object that represents the draw object.
-
-
  
-
-
 ## Syntax
-
-
 Draw.Triangle(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int middleBarsAgo, double middleY, int endBarsAgo, double endY, Brush brush)  
 
 Draw.Triangle(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime middleTime, double middleY, DateTime endTime, double endY, Brush brush)  
@@ -84,18 +29,7 @@ Draw.Triangle(NinjaScriptBase owner, string tag, int startBarsAgo, double startY
 
 Draw.Triangle(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime middleTime, double middleY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
-
- 
-
-
- 
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -116,28 +50,9 @@ Draw.Triangle(NinjaScriptBase owner, string tag, DateTime startTime, double star
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-
-
 ## 
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Paints a blue triangle on the chart Draw.Triangle(this, "tag1", 4, Low\[4], 3, High\[3], 1, Low\[1], Brushes.Blue); |
-
-
-
-
-
-
-
-
-

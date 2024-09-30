@@ -1,60 +1,9 @@
 ﻿
-
-
 NinjaScript \> Educational Resources \> Reference Samples \> Indicator
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Indicator
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](indicator2.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Educational Resources](educational_resources.md) \> [Reference Samples](reference_samples.md) \> Indicator | [Previous page](reference_samples.md) [Return to chapter overview](reference_samples.md) [Next page](calculating_the_highest_high_o.md) |
 | --- | --- |
 
-
-
-
-
-
-
-
-
-
-
-
-
 | Indicator Overview ›[Calculating the highest high or lowest low for a specified time range](calculating_the_highest_high_o.md)›[Changing fonts for draw objects](changing_fonts_for_draw_object.md)›[Coloring a region](coloring_a_region.md)›[Creating a user\-defined parameter type (enum)](creating_a_user-defined_parame.md)›[Creating your own Level II data book (Accessing market depth)](creating_your_own_level_ii_dat.md)›[Draw Objects](draw_objects.md)›[Ensuring indicator plots are valid before programmatically accessing them](ensuring_indicator_plots_are_v.md)›[Exposing indicator values that are not plots](exposing_indicator_values_that.md)›[Getting indicator values from a specified time](getting_indicator_values_from_.md)›[Manipulating DateTime objects](manipulating_datetime_objects.md)›[Manipulating string objects](manipulating_string_objects.md)›[Multi\-Colored Plots](multi-colored_plots.md)›[Removing and Custom Formatting an Indicator’s Chart Label](removing_and_custom_formatting.md)›[Using a secondary series as an input series for an indicator](using_a_secondary_series_as_an.md)›[Using a Series or DataSeries object to store calculations](using_a_series_or_dataseries_o.md)›[Using a TypeConverter to Customize Property Grid Behavior](using_a_typeconverter_to_custo.md)›[Using custom events to output the current Level II data book](using_custom_events_to_output_.md)›[Using StreamReader to read from a text file](using_streamreader_to_read_fro.md)›[Using StreamWriter to write to a text file](using_streamwriter_to_write_to.md)›[Using System.IO File properties to write to and read from a text file](using_system_io_file_propertie.md)›[Using Try\-Catch Blocks](using_try-catch_blocks.md)›[Creating Chart WPF (UI) Modifications from an Indicator](creating-chart-wpf-(ui)-modifi.md) |
 | --- |
-
-
-
-
-
-
-
-
-

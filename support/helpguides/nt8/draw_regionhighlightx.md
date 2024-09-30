@@ -1,71 +1,15 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.RegionHighlightX()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.RegionHighlightX()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_regionhighlightx.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.RegionHighlightX() | [Previous page](region.md) [Return to chapter overview](drawing.md) [Next page](regionhighlightx.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws a region highlight x on a chart.
-
-
  
-
-
 ## Method Return Value
-
-
 A [RegionHighlightX](regionhighlightx.md) object that represents the draw object.
-
-
  
-
-
 Syntax
-
-
 Draw.RegionHighlightX(NinjaScriptBase owner, string tag, DateTime startTime, DateTime endTime, Brush brush)  
 
 Draw.RegionHighlightX(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, Brush brush)  
@@ -78,18 +22,7 @@ Draw.RegionHighlightX(NinjaScriptBase owner, string tag, DateTime startTime, Dat
 
 Draw.RegionHighlightX(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, bool isGlobal, string templateName)
 
-
- 
-
-
- 
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -102,29 +35,10 @@ Draw.RegionHighlightX(NinjaScriptBase owner, string tag, int startBarsAgo, int e
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 \- 100\. (0 \= completely transparent, 100 \= no opacity) |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
  
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Fills in the region between the startBar and endBar Draw.RegionHighlightX(this, "tag1", 10, 0, Brushes.Blue); |
-
-
-
-
-
-
-
-
 

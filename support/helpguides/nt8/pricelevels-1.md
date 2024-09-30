@@ -1,86 +1,25 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> PriceLevels
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 PriceLevels Collection
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](pricelevels.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> PriceLevels Collection | [Previous page](idrawingtool-1.md) [Return to chapter overview](drawing-1.md) [Next page](removedrawobject-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 A collection of PriceLevel objects defining lines for multi\-price\-level [Drawing Tools](drawing-1.md) (Fibonacci tools, etc.). Each PriceLevel within the collection can be configured programmatically or analyzed to obtain the parameters of user\-drawn objects.
-
-
  
 
-
-
-
-| Note: PriceLevels is only used with the following pre\-built Drawing Tools, but it can be used with custom Drawing Tools, as well:   •[AndrewsPitchfork](draw_andrewspitchfork-1.md)•[FibonacciCircle](draw_fibonaccicircle-1.md)•[FibonacciExtensions](draw_fibonacciextensions-1.md)•[FibonacciRetracements](draw_fibonacciretracements-1.md)•[FibonacciTimeExtensions](draw_fibonaccitimeextensions-1.md)•[GannFan](draw_gannfan-1.md)•[TrendChannel](draw_trendchannel-1.md) |
+| Note: PriceLevels is only used with the following pre\-built Drawing Tools, but it can be used with custom Drawing Tools, as well:   - [AndrewsPitchfork](draw_andrewspitchfork-1.md)- [FibonacciCircle](draw_fibonaccicircle-1.md)- [FibonacciExtensions](draw_fibonacciextensions-1.md)- [FibonacciRetracements](draw_fibonacciretracements-1.md)- [FibonacciTimeExtensions](draw_fibonaccitimeextensions-1.md)- [GannFan](draw_gannfan-1.md)- [TrendChannel](draw_trendchannel-1.md) |
 | --- |
-
-
-
  
-
-
 ## Syntax
-
-
 PriceLevels\[int idx]  
 
 PriceLevels\[int idx].GetPrice(double startPrice, double totalPriceRange, bool isInverted)  
 
 PriceLevels\[int idx].GetY(ChartScale chartScale, double startPrice, double totalPriceRange, bool isInverted)
-
-
  
-
-
 ## Methods and Properties
-
-
-
 
 | GetPrice() | Returns a double which repents the price value at the specified price level |
 | --- | --- |
@@ -90,45 +29,13 @@ PriceLevels\[int idx].GetY(ChartScale chartScale, double startPrice, double tota
 | Tag | A tag used to identify the specified PriceLevel. Null by default. |
 | Value | The value of the PriceLevel in percentage terms |
 
-
-
  
-
-
- 
-
-
- 
-
-
 ## Examples
-
-
-
 
 | ns |
 | --- |
 | // Define a FibonacciRetracements object outside of OnBarUpdate(), so the same object can be re\-used FibonacciRetracements myRetracements;   protected override void OnBarUpdate() {      if (CurrentBar \< 20)      return;      // Instantiate myRetracements    myRetracements \= Draw.FibonacciRetracements(this, "fib", true, 20, High\[20], 2, Low\[2]);      // Print each price level and the corresponding value in the PriceLevels collection contain in myRetracements    // setting isInverted correctly is important for the Fibonacci Retracements since it will define which starting point is used, as it changes based     // on the anchors, i.e. if the Fibonacci is drawn from 100% to 0% (default) or the other inverted way (0% to 100%).    foreach (PriceLevel p in myRetracements.PriceLevels)    {      Print(p.Value);       Print(p.GetPrice(myRetracements.StartAnchor.Price, myRetracements.EndAnchor.Price \- myRetracements.StartAnchor.Price, false));    } } |
 
-
-
- 
-
-
- 
-
-
-
-
 | ns |
 | --- |
 | // Define a TrendChannel object outside of OnBarUpdate(), so the same object can be re\-used TrendChannel myTCh;   protected override void OnBarUpdate() {      if (CurrentBar \< 20)      return;      // Instantiate myTrendChannel    myTCh \= Draw.TrendChannel(this, "tc", true, 10, Low\[10], 0, High\[0], 10, High\[10] \+ 5 \* TickSize);      // Print each price level and the corresponding value in the PriceLevels collection contain in myTrendChannel    // For the TrendChannel the 0% is the Trend anchor, the 100% the Parallel anchor    foreach (PriceLevel p in myTCh.PriceLevels)    {      Print(p.Value);       Print(p.GetPrice(myTCh.TrendStartAnchor.Price, myTCh.ParallelStartAnchor.Price \- myTCh.TrendStartAnchor.Price, false));    } } |
-
-
-
-
-
-
-
-
-

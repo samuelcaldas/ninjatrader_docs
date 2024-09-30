@@ -1,71 +1,15 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Rectangle()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.Rectangle()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_rectangle.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.Rectangle() | [Previous page](ray.md) [Return to chapter overview](drawing.md) [Next page](rectangle.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws a rectangle.
-
-
  
-
-
 ## Method Return Value
-
-
 A [Rectangle](rectangle.md) object that represents the draw object.
-
-
  
-
-
 ## Syntax
-
-
 Draw.Rectangle(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
 
 Draw.Rectangle(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, Brush brush)  
@@ -83,18 +27,10 @@ Draw.Rectangle(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime sta
 Draw.Rectangle(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)  
 
 Draw.Rectangle(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
-
-
    
 
  
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -111,29 +47,10 @@ Draw.Rectangle(NinjaScriptBase owner, string tag, DateTime startTime, double sta
 | drawOnPricePanel | Determines if the draw\-object should be on the price panel or a separate panel |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
  
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Draws a blue rectangle from the low 10 bars back to the high of 5 bars back Draw.Rectangle(this, "tag1", 10, Low\[10] \- TickSize, 5, High\[5] \+ TickSize, Brushes.Blue);   // Draws a blue rectangle from the low 10 bars back to the high of 5 bars back with // a fill color or pale green with a transparency level of 2 Draw.Rectangle(this, "tag1", false, 10, Low\[10] \- TickSize, 5, High\[5] \+ TickSize, Brushes.PaleGreen, Brushes.PaleGreen, 2); |
-
-
-
-
-
-
-
-
 

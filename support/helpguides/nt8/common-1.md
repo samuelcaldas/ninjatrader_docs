@@ -1,58 +1,10 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Common
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](common.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> Common | [Previous page](alphabetical_reference-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](adddataseries-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The following section documents methods and properties available to every NinjaScript type that access various forms of data including bar data, price data, and statistical forms of data. The Common section is broken into several categories pertaining to distinct NinjaScript objects or concepts. An index of topics under the Common section can be found below:
-
-
  
-
-
-
-
 | [Attributes](attributes-1.md) | Documents both .NET native and NinjaScript custom [attributes](https://msdn.microsoft.com/en-us/library/5x6cd29c(v=vs.110).aspx) which are commonly used to define the behavior of a NinjaScript property or object |
 | --- | --- |
 | [Alert, Debug, Share](alert__debugging_and_sharing-1.md) | Documents methods for triggering alerts, printing debug messages, and using Share Services |
@@ -75,12 +27,4 @@ The following section documents methods and properties available to every NinjaS
 | [Description](description-1.md) | Text which is used on the UI's information box to be display to a user when configuration a NinjaScript object |
 | [Clone()](clone-1.md) | Used to override the default NinjaScript Clone() method which is called any time an instance of a NinjaScript object is created |
 | [TriggerCustomEvent()](triggercustomevent-1.md) | Provides a way to use your own custom events (such as a Timer object) so that internal NinjaScript indexes and pointers are correctly set prior to processing user code triggered by your custom event |
-
-
-
-
-
-
-
-
 

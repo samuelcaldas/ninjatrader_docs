@@ -1,66 +1,9 @@
 ﻿
-
-
 Operations \> Simulator \> Trading in Simulation
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Trading in Simulation
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](trading_in_simulation.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Simulator](simulation-1.md) \> Trading in Simulation | [Previous page](global_simulation_mode-1.md) [Return to chapter overview](simulation-1.md) [Next page](strategy_analyzer-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 NinjaTrader routes orders based on the account that you select in any of the order entry interfaces (SuperDOM, Chart Trader, etc.). Simulation is no different. You can select the Sim101 account from any of the NinjaTrader order entry interfaces to submit your orders in simulation. Optionally you can set NinjaTrader to change the background color of the trading interface when a simulation account is selected, this is set via the "Simulation color" property in the NinjaTrader Trading Options window. Its default setting is "Transparent" which means it is disabled. 
-
-
  
-
-
-
-
 | Notes:  1\. Trading in simulation should be done only when you have data within market hours streaming. Simulation outside of market hours can result in fill prices which are seemingly far off the last traded price based on the erratic bid/ask prices commonly seen during these hours. 2\. The simulator account(s) shift(s) to the next trading day at 4:15 EST every day, should NinjaTrader be running at this time it will occur on the next start\-up. 3\. When the simulator account is reset, the realized PnL is reset back to 0 and the CashValue has the commissions deducted from it and set back to 0\. 4\. Commissions for the simulation account(s) are continuously totaled and the Total commissions [Account Statistic](accounts_tab-1.md) will reflect that throughout the session. 5\. TimeInForce logic such as order expiration / cancellation at the end of a session, is not supported for the Sim101 account. |
 | --- |
-
-
-
-
-
-
-
-
-

@@ -1,64 +1,12 @@
 ﻿
-
-
 Operations \> Control Center \> Help Menu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Help Menu
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](help_menu.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Control Center](control_center-1.md) \> Help Menu | [Previous page](connections_menu-1.md) [Return to chapter overview](control_center-1.md) [Next page](orders_tab-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The following menus and items are available via the Help menu of the NinjaTrader Control Center.
-
-
  
-
-
 ![ControlCenter_HelpMenu](controlcenter_helpmenu.png)
-
-
  
-
-
-
-
 | Resources | Opens the NinjaTrader Support web page |
 | --- | --- |
 | Help Guide | Opens the application help guide (or press F1\) |
@@ -70,18 +18,6 @@ The following menus and items are available via the Help menu of the NinjaTrader
 | Live Events | Takes you to the live Events web page |
 | 3rd party licensing | Verification for 3rd party add on products |
 | About... | About NinjaTrader |
-
-
-
  
-
-
 ## 
-
-
-
-
-
-
-
 

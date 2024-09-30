@@ -1,89 +1,27 @@
 ﻿
-
-
 Configuration \> Performance Tips
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Performance Tips
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](performance_tips2.md) \>\> **Navigation:**     [Configuration](configuration.md) \> Performance Tips | [Previous page](multiple_connections.md) [Return to chapter overview](configuration.md) [Next page](operations.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Performance Factors
-
-
 There are many variables that contribute to overall performance of the NinjaTrader application.
+ 
+- Different connectivity providers (market data vendors and broker technologies) that NinjaTrader supports vary in their level of real\-time data service. For example, providers who deliver unfiltered tick data (submit all market ticks) will impose heavier processing load than a vendor that provides throttled market data.
 
+- The load you place on the NinjaTrader application (running 200 charts will consume more processing power than running only 20 charts)
+
+- The capability of your PC hardware (are you running a brand new state of the art machine or a 4 year old PC with limited RAM)
+
+- A single bad 'setting' can cause performance issues and a single active Third Party script can cause general performance issue. See the [Understanding the impact of installing Add\-Ons](using_3rd_party_add-ons.md) section.
 
  
-
-
-•Different connectivity providers (market data vendors and broker technologies) that NinjaTrader supports vary in their level of real\-time data service. For example, providers who deliver unfiltered tick data (submit all market ticks) will impose heavier processing load than a vendor that provides throttled market data.
-
-•The load you place on the NinjaTrader application (running 200 charts will consume more processing power than running only 20 charts)
-
-•The capability of your PC hardware (are you running a brand new state of the art machine or a 4 year old PC with limited RAM)
-
-•A single bad 'setting' can cause performance issues and a single active Third Party script can cause general performance issue. See the [Understanding the impact of installing Add\-Ons](using_3rd_party_add-ons.md) section.
-
- 
-
-
-
-
 | Note: High memory usage may not be related to poor performance. It takes computer resources to figure out when to free up memory that is no longer being used. So, rather than using resources to constantly determine what memory to free up, the system will determine the best time to free up memory when it is needed. |
 | --- |
 
-
-
  
-
-
 ## Optimize Performance
-
-
 The following are some suggestions that can help you fine tune your NinjaTrader installation to run optimally.
-
-
  
-
-
 1\.Close any unneeded open workspaces. Although a workspace may not be in view, it does still use system resources when open.
 
 2\.Exit any unneeded Charts, SuperDOMs, Market Analyzers, etc. in your open workspace(s). Additionally, if you have multiple tabs in any windows that you do not need, exit out of those.
@@ -125,66 +63,27 @@ The following are some suggestions that can help you fine tune your NinjaTrader 
 20\.Windows search indexing can also place an extra burden on your processor when running NinjaTrader, negatively impacting performance. It is recommended to exclude the folders listed below from indexing, as well, which can be done via the Windows Control Panel.
 
  C:\\Users\\User\\Documents\\NinjaTrader 8
-
-
  C:\\Program Files (x86\)\\NinjaTrader 8
-
-
  
-
-
 ## Playback
-
-
 1\.Remove unused instrument subscriptions in playback. In your playback setup, be mindful for which instruments you have added (for example in a Market Analyzer or via Charts) you would have data to playback actually available, as each instrument subscription here would consume CPU cycles and thus contribute to performance experienced. For example, having the SP500 index added in your Market Analyzer but then only replaying MSFT data is expected to have lower performance in contrast to having only this one MSFT instrument listed in the Market Analyzer as well.
 
 ## 
-
-
 ## Additional Diagnostics
-
-
 If you're still having performance issues, follow these diagnostics steps to isolate the problem.
-
-
  
-
-
 1\.Start NinjaTrader in Safe Mode.
 
  Safe Mode will prevent NinjaTrader from:
-
-
          Loading workspaces.
-
-
          Connecting on start\-up.
-
-
          Loading custom assemblies.
-
-
          Getting instrument updates from the server.
-
-
- 
-
-
- To enable safe mode, please use the following steps:
-
-
+To enable safe mode, please use the following steps:
          Exit NinjaTrader.
-
-
          Hold the CONTROL key and double click the NinjaTrader icon.
-
-
          Keep the CONTROL key held down until you see the Control Center.
-
-
          You can verify you are in safe mode by going to Help \-\> About.
-
-
 2\.Open some windows and test performance without loading any custom indicators.
 
 3\.If everything looks good, attempt to open up your workspace. You may need to close your workspace, without saving it, then reopening it. If this works well, installed custom assemblies may be the cause.
@@ -194,11 +93,3 @@ If you're still having performance issues, follow these diagnostics steps to iso
 5\.To determine if there are specific scripts that are resulting in poor performance you will need to recreate your workspace and add back any scripts one at a time to see which one may be resulting in poor performance.
 
 6\.For further assistance, or assistance with any of these steps, please write into [\[email protected]](/cdn-cgi/l/email-protection)
-
-
-
-
-
-
-
-

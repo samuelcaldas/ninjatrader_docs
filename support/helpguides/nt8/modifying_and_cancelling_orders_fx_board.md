@@ -1,80 +1,15 @@
 ﻿
-
-
 Operations \> Order Entry \> FX Board \> Modifying and Cancelling Orders
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Modifying and Cancelling Orders
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](modifying_and_cancelling_orders_fx_board.md) \>\> **Navigation:**     [Operations](operations.md) \> [Order Entry](order_entry.md) \> [FX Board](fx_board.md) \> Modifying and Cancelling Orders | [Previous page](submitting_orders_fx_board.md) [Return to chapter overview](fx_board.md) [Next page](managing_positions_fx_board.md) |
 | --- | --- |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 You can modify an existing order's quantity, price, or cancel an order entirely from Order Grid display of the FX Board window.
-
-
 ![tog_minus](tog_minus.gif)
-
-
-
-
 | Changing the Price of an Order 1\.You can increase the price of an order in tenth\-pip increments by right mouse clicking on the order in the Order Grid and selecting "Increase Price".  2\.You can decrease the price of an order in tenth\-pip increments by right mouse clicking on the order in the Order Grid and selecting "Decrease Price".  3\.  Double clicking in the price field will enable the price editor which will allow you to type in a new price manually, or use the scroll wheel on your mouse to select a relative price.   FXBoard_26     | Tip: Hold down the CTRL key when scrolling in the price editor to change the price in steps of half\-pip increments. | | --- |      Enabling Increase and Decrease Columns You can optionally enable columns on the Order Grid display which will allow you to increase or decrease the price of an order using a button click.   To enable these columns:   1\. Right click on the FX Board window and select Properties 2\. Expand the Columns \- Orders section 3\. Check the Increase and/or the Decrease options 4\. Press OK   FXBoard_19   1\. You can increase the price of an order in tenth\-pip increments by left mouse clicking on the "\+" button 2\. You can decrease the price of an order in tenth\-pip increments by left mouse clicking on the "\-" button      | Tips:   1\.Holding the CTRL key down while pressing the "\+" or "\-" button will modify the order by half\-pip increments2\.Holding the ALT key down while pressing the "\+" or "\-" button will modify the order by one pip increments | | --- |      Changing the Quantity of an Order  You can change the size of an order by double left clicking in the either the Quantity or Remaining column, typing in a new quantity value, and pressing the "Enter" key on your keyboard.   You can also use the scroll wheel on your mouse, or left mouse click on the up/down arrows in the remaining field using the up/down arrows to scroll to a new size by 1K (1000\).     | Tip:  Holding down the CTRL key and scrolling will change the FX order size by 100K (100,000\) | | --- |        | Note: Changing the quantity of an existing order will submit a new order the same price to preserve your place in queue.  Your orders will now show up as "stacked" indicated by the small letter "s" next to the order. | | --- |      FXBoard_20   If you would like to break up these orders to manage individually, you can right click on the order row and select Unstack   FXBoard_21 |
 | --- | --- | --- | --- | --- |
 
-
-
 ![tog_minus](tog_minus.gif)        [Cancelling orders](javascript:HMToggle('toggle','CancellingOrders','CancellingOrders_ICON'))
-
-
-
-
 | Cancelling an Individual Order  1\. You can cancel an order by left mouse clicking on the "X" button. 2\. You can also right click on the order itself and press the "Cancel Order" menu item   Cancelling Stacked Orders If you have stacked orders, indicated by the small letter "s" in the Quantity column, you can cancel one of the orders, and leave the other(s) remaining using the steps below:   1\. Right click on the stacked order row 2\. Move your mouse over the order individual order 3\. Select "Cancel Order"   FXBoard_22 |
 | --- |
-
-
-
-
-
-
-
-
-
 

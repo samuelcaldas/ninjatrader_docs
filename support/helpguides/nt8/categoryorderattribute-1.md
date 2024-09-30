@@ -1,83 +1,17 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Attributes \> CategoryOrderAttribute
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CategoryOrderAttribute
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](categoryorderattribute.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Attributes](attributes-1.md) \> CategoryOrderAttribute | [Previous page](browsableattribute-1.md) [Return to chapter overview](attributes-1.md) [Next page](displayattribute-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Determines the sequence in which a NinjaScript object's [Display.GroupName](displayattribute-1.md) categories are arranged in relation to other categories in the UI.   The default behavior will display each GroupName of an object in alphabetical order, however this behavior can be changed by defining the CategoryOrder attribute before the object's declaration. 
-
-
  
-
-
-
-
-| Notes:   •The CategoryOrder attribute is ONLY valid on class\-level declarations. •Categories with values less than 1,000,000 appear at the very top of the property grid (excluding the Strategy Analyzer "General" category)•NinjaTrader UI reserves using values ending in 000, 500 and the values documented below are subject to change•If you wish to inject your category between a standard NinjaScript category, please refer to the table below to locate the appropriate position (e.g., to set a property after "Data Series" and before the "Setup" use value of 2,000,001\) |
+| Notes:   - The CategoryOrder attribute is ONLY valid on class\-level declarations. - Categories with values less than 1,000,000 appear at the very top of the property grid (excluding the Strategy Analyzer "General" category)- NinjaTrader UI reserves using values ending in 000, 500 and the values documented below are subject to change- If you wish to inject your category between a standard NinjaScript category, please refer to the table below to locate the appropriate position (e.g., to set a property after "Data Series" and before the "Setup" use value of 2,000,001\) |
 | --- |
 
-
-
- 
-
-
- 
-
-
 ## NinjaScript Indicators
-
-
 The follow table applies for Indicators configured from a Chart Indicator, Market Analyzer Indicator Column, or SuperDOM Indicator:
-
-
  
-
-
-
-
 | Parameters | 1000000 |
 | --- | --- |
 | Data Series | 2000000 |
@@ -87,25 +21,9 @@ The follow table applies for Indicators configured from a Chart Indicator, Marke
 | Lines | 6000000 |
 | Plots | 7000000 |
 
-
-
- 
-
-
- 
-
-
 ## NinjaScript Strategies
-
-
 The following table applies to Chart Strategies, Control Center Strategies Grid, and the Strategy Analyzer
-
-
  
-
-
-
-
 | Parameters | 1000000 |
 | --- | --- |
 | Data Series | 2000000 |
@@ -116,80 +34,24 @@ The following table applies to Chart Strategies, Control Center Strategies Grid,
 | Order Handling | 7000000 |
 | Order Properties | 8000000 |
 
-
-
- 
-
-
- 
-
-
-
-
 | Note:  The Strategy Analyzer "General" category is purposely excluded from this table and will always show on the top of the parameter grid. |
 | --- |
 
-
-
- 
-
-
- 
-
-
 ## Syntax
-
-
 \[Gui.CategoryOrder(string category, int order)]
-
-
  
-
-
-
-
 | Warning:  Attempting to modify the default NinjaScript Category ordering is NOT supported.  Trying to do so may result in unexpected outcomes. |
 | --- |
-
-
-
 ## 
-
-
 ## 
-
-
 ## Parameters
-
-
-
-
 | category | A string identifying the [GroupName](displayattribute-1.md) to be categorize |
 | --- | --- |
 | order | An int determining the sequence the Category displays |
-
-
-
 ## 
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | \[Gui.CategoryOrder("My Strings", 1)] // display "My Strings" first \[Gui.CategoryOrder("My Bools", 2)] // then "My Bools" \[Gui.CategoryOrder("My Ints", 3)] // and finally "My Ints" public class MyCustomIndicator : Indicator {    \#region Properties         \[Display(GroupName\="My Ints")]    public int MyCustomInt    { get; set; }        \[Display(GroupName\="My Bools")]    public bool MyCustomBool    { get; set; }      \[Display(GroupName\="My Strings")]    public string MyCustomString    { get; set; }      \#endregion } |
-
-
-
-
-
-
-
-
 

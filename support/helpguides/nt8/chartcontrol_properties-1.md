@@ -1,89 +1,20 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Charts \> ChartControl \> Properties
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Properties
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](chartcontrol_properties.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartControl](chartcontrol-1.md) \> Properties | [Previous page](presentationsource-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](slotspainted-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 A collection of properties related to the configuration of the Chart
-
-
  
-
-
 ![Chart_Properites](chart_properites.png)
-
-
  
-
-
-
-
 | Warning:  These are UI properties which are designed to be set by a user.  Attempting to modify these values through a custom script is NOT guaranteed to take effect. |
 | --- |
-
-
-
  
-
-
 ## 
-
-
 ## Property Value
-
-
 A ChartControlProperties object containing values for all properties configured on the specified ChartBars object.
-
-
  
-
-
-
-
 | Property | Return Type and Description |
 | --- | --- |
 | AllowSelectionDragging | A bool indicating selected chart objects can be moved within a chart panel or dragged to a new chart panel |
@@ -113,35 +44,12 @@ A ChartControlProperties object containing values for all properties configured 
 | ShowScrollBar | A bool indicating the horizontal scroll bar is visible beneath the x\-axis |
 | SnapMode | An enum indicating the currently enabled Snap Mode. Possible values are None, Bar, Price, and BarAndPrice |
 | TabName | A string representing the name of the current tab |
-
-
-
 ## 
-
-
 ## Syntax
-
-
 \<ChartControl\>.Properties
-
-
 ## 
-
-
 ## Example
-
-
-
-
 | ns |
 | --- |
 | protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // Instantiate a ChartControlProperties object to hold a reference to chartControl.Properties    ChartControlProperties myProperties \= chartControl.Properties;      // Set the AllowSelectionDragging property to false    myProperties.AllowSelectionDragging \= false; } |
-
-
-
-
-
-
-
-
 

@@ -1,80 +1,17 @@
 ﻿
-
-
 Operations \> Control Center \> Positions Tab
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Positions Tab
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](positions_tab.md) \>\> **Navigation:**     [Operations](operations.md) \> [Control Center](control_center.md) \> Positions Tab | [Previous page](executions_tab.md) [Return to chapter overview](control_center.md) [Next page](accounts_tab.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 The Positions tab displays the current open positions in a [data grid](data_grids.md).
-
-
 ![tog_minus](tog_minus.gif)
-
-
-
 
 | Positions Display Open positions are displayed in the data grid.   ControlCenter_PositionsGrid   The table below lists what connections natively or locally calculate positions.     | Connectivity Provider | Position calculation | | --- | --- | | Continuum | Native | | CQG | Native | | cTrader | Native | | Forex.com/City Index | Native | | FXCM | Local | | Interactive Brokers | Native | | Rithmic | Native | | TD Ameritrade | Native |      Columns can be re\-ordered and re\-sized at will, and individual columns can be enabled or disabled via the Properties window accessible in the Positions grid's Right\-Click menu. The following columns are displayed in the Positions grid by default:     | Instrument | The instrument in which the position is held | | --- | --- | | Side | Indicates whether the position is held on the Long or Short side | | Quantity | The quantity held in the position | | Avg. Price | The average fill price of the entry orders filled to enter or increase the position | | PnL | The current unrealized profit or loss of the position | | Account Display Name | The Display Name of the account | | Connection | The connection used to enter the position |      The following additional columns can be applied through the grid's Properties window:     | Account Name | The "Account Name" \-\- not to be confused with the "Account Display Name." These two can differ for live brokerage accounts, and the "Account Display Name" tends to be more descriptive. | | --- | --- | | Close | Contains a button which will allow you to close the position | | Working Buys | The number of unfilled Buy orders currently resting on the account | | Working Sells | The number of unfilled Sell orders currently resting on the account |      Right Click Menu Right mouse clicking within the positions grid section opens the following menu:   ControlCenter_Positions_ContextMenu     | Apply ATM Strategy | Allows you to apply a predefined ATM Strategy Template to an open position using the current market price as the entry price. | | --- | --- | | Close Position\* | Flattens the currently selected position in the grid and cancels any working orders associated to the position's instrument | | Flatten Everything\* | Flattens all open positions and cancels all working orders | | Roll Position | Send a Market order to exit the position in the current contract month and send another Market order in the next contract month to roll your position. | | Filter By Account | Sets which positions to display by account | | Always On Top | Sets if the window will be always on top of other windows | | Show Tabs | Sets if the window should allow for tabs | | Export | Exports the grid contents to "CSV" or "Excel" file format | | Find... | Search for a term in the grid | | Print | Select to print either the window or the order grid area. | | Share | Select to share via your share connections. | | Properties... | Configure the positions grid properties |      \*The Close Position and Flatten Everything functions are not guaranteed. (See the "[Risks of Electronic Trading with NinjaTrader](risks_of_electronic_trading_wi.md)" section for more information) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-
-
 ![tog_minus](tog_minus.gif)        [Position tab properties](javascript:HMToggle('toggle','PositionTabProperties','PositionTabProperties_ICON'))
-
-
-
 
 | ControlCenter_Positions_Properties   Position Tab Properties   | General |  | | --- | --- | | Filter by account | Filters orders by selected account | | Grid font | Sets the font for the order grid | | Tab name | Sets the tab name | | Columns | Sets that columns are enabled or disabled in the order grid. | | Window | Sets that window management features are enabled or disabled |      How to preset property defaults Once you have your properties set to your preference, you can left mouse click on the "preset" text located in the bottom right of the properties dialog. Selecting the option "save" will save these settings as the default settings used every time you open a new window/tab.   If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset text and select the option to restore to return to the original factory settings \- please note though that you cannot save a custom default to restore to.     | Note: A number of pre\-defined variables can be used in the "Tab Name" field. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. | | --- | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-
-
-
-
-
-
-
-
 

@@ -1,64 +1,12 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Strategy \> TradeCollection \> TradesPerformance
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 TradesPerformance
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](tradesperformance.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> [TradeCollection](tradecollection-1.md) \> TradesPerformance | [Previous page](losingtrades-1.md) [Return to chapter overview](tradecollection-1.md) [Next page](averagebarsintrade-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Performance profile of a [collection](tradecollection-1.md) of [Trade](trade-1.md) objects.
-
-
  
-
-
 ## Methods and Properties
-
-
-
-
 | [AverageBarsInTrade](averagebarsintrade-1.md) | A double value representing the average number of bars per trade |
 | --- | --- |
 | [AverageEntryEfficiency](averageentryefficiency-1.md) | A double value representing the average entry efficiency |
@@ -91,28 +39,7 @@ Performance profile of a [collection](tradecollection-1.md) of [Trade](trade-1.m
 | [TradesCount](tradescount-1.md) | An int value representing the trades count |
 | [TradesPerDay](tradesperday-1.md) | An int value representing the avg trades per day |
 
-
-
- 
-
-
- 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | protected override void OnBarUpdate() {     // Only trade if you have less than 5 consecutive losers in a row     if (SystemPerformance.RealTimeTrades.TradesPerformance.MaxConsecutiveLoser \< 5\)     {         // Trade logic here     } } |
-
-
-
-
-
-
-
-
-

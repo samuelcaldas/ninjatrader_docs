@@ -1,76 +1,18 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Instruments \> Instrument \> MasterInstrument
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 MasterInstrument
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](masterinstrument.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Instruments](instruments_ninjascript-1.md) \> [Instrument](instrument-1.md) \> MasterInstrument | [Previous page](getinstrument-1.md) [Return to chapter overview](instrument-1.md) [Next page](compare-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 An instrument's configuration settings.  These are settings and properties which are defined in the [Instrument](instruments-1.md) window.
-
-
  
-
-
-
 
 | Warning:  The properties in this class should NOT be accessed within the [OnStateChange()](onstatechange-1.md) method before the State has reached State.DataLoaded. |
 | --- |
 
-
-
- 
-
-
- 
-
-
 ## Methods and Properties
-
-
-
 
 | [Compare()](compare-1.md) | Returns an int value compares two price values with respect to the Instrument tick size |
 | --- | --- |
@@ -90,12 +32,3 @@ An instrument's configuration settings.  These are settings and properties whic
 | [Splits](splits-1.md) | A collection of splits for stock instruments |
 | [TickSize](ticksize-1.md) | The smallest movement in price configured |
 | [Url](url-1.md) | A web url where contract details have been collected |
-
-
-
-
-
-
-
-
-

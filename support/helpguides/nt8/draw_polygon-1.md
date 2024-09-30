@@ -1,103 +1,25 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Polygon()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.Polygon()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_polygon.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.Polygon() | [Previous page](pathtool-1.md) [Return to chapter overview](drawing-1.md) [Next page](polygon-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws a polygon which can have a user defined set of anchors.
-
-
  
-
-
 ## Method Return Value
-
-
 A [Polygon](polygon-1.md) object that represents the draw object.
-
-
  
-
-
 ## Syntax
-
-
 Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, List\<ChartAnchor\> chartAnchors, bool isGlobal, string templateName)
-
-
 Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, List\<ChartAnchor\> chartAnchors, Brush brush, DashStyleHelper dashStyle, Brush areaBrush, int areaOpacity)
-
-
 Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, int anchor1BarsAgo, double anchor1Y, int anchor2BarsAgo, double anchor2Y, int anchor3BarsAgo, double anchor3Y, int anchor4BarsAgo, double anchor4Y)
-
-
 Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime Anchor1Time, double anchor1Y, DateTime Anchor2Time, double anchor2Y, DateTime Anchor3Time, double anchor3Y, DateTime Anchor4Time, double anchor4Y)
-
-
 Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, int anchor1BarsAgo, double anchor1Y, int anchor2BarsAgo, double anchor2Y, int anchor3BarsAgo, double anchor3Y, int anchor4BarsAgo, double anchor4Y, int anchor5BarsAgo, double anchor5Y)
-
-
 Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime Anchor1Time, double anchor1Y, DateTime Anchor2Time, double anchor2Y, DateTime Anchor3Time, double anchor3Y, DateTime Anchor4Time, double anchor4Y, DateTime Anchor5Time, double anchor5Y)
-
-
 Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, int anchor1BarsAgo, double anchor1Y, int anchor2BarsAgo, double anchor2Y, int anchor3BarsAgo, double anchor3Y, int anchor4BarsAgo, double anchor4Y, int anchor5BarsAgo, double anchor5Y, int anchor6BarsAgo, double anchor6Y)
-
-
 Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime Anchor1Time, double anchor1Y, DateTime Anchor2Time, double anchor2Y, DateTime Anchor3Time, double anchor3Y, DateTime Anchor4Time, double anchor4Y, DateTime Anchor5Time, double anchor5Y, DateTime Anchor6Time, double anchor6Y)
-
-
 ## 
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -124,29 +46,10 @@ Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime Ancho
 | areaBrush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 \- 100\. (0 \= completely transparent, 100 \= no opacity) |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
 ## 
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Draws a Polygon object based on bars ago and y anchors Draw.Polygon(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);   // Draws a Polygon object based on a list of anchors with specified times List\<ChartAnchor\> anchors \= new List\<ChartAnchor\>(); anchors.Add(new ChartAnchor(new DateTime(2018, 5, 25), 194, ChartControl)); anchors.Add(new ChartAnchor(new DateTime(2018, 6, 12), 184, ChartControl)); anchors.Add(new ChartAnchor(new DateTime(2018, 6, 7), 176, ChartControl)); anchors.Add(new ChartAnchor(new DateTime(2018, 5, 21), 182, ChartControl));                           Draw.Polygon(this, "tag1", false, anchors, Brushes.CornflowerBlue, DashStyleHelper.Solid, Brushes.CornflowerBlue, 40); |
-
-
-
-
-
-
-
-
 

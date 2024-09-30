@@ -1,72 +1,17 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Order Flow Volumetric Bars
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Order Flow Volumetric Bars
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](order_flow_volumetric_bars2.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [System Indicator Methods](indicators-1.md) \> Order Flow Volumetric Bars | [Previous page](order_flow_cumulative_delta2-1.md) [Return to chapter overview](indicators-1.md) [Next page](order_flow_vwap2-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Description
-
-
 NinjaTrader Order Flow Volumetric bars provide a detailed ‘x\-ray’ view into each price bar’s aggressive buying and selling activity. This technique primarily attempts to answer the question which side was the most aggressive at each price level. This is done by calculating the delta (greek for difference) between buying and selling volume.
-
-
  
-
-
 Many of the NinjaTrader Order Flow Volumetric Bar and Bar Statistics values could be accessed from your custom NinjaScript objects further leveraging the power of these analysis techniques.
-
-
  
-
-
 ## Methods and Properties the VolumetricBarsType exposes
-
-
 ## 
-
-
-
 
 | BarDelta | Gets a long value with the total bar's delta |
 | --- | --- |
@@ -86,42 +31,15 @@ Many of the NinjaTrader Order Flow Volumetric Bar and Bar Statistics values coul
 | TotalBuyingVolume | Gets the total buying volume (long value) for the bar |
 | TotalSellingVolume | Gets the total selling volume (long value) for the bar |
 | Trades | Gets to total number of trades (long value) for the bar |
-
-
-
  
-
-
 ## Example
-
-
  
-
-
-
 
 | ns |
 | --- |
 | protected override void OnBarUpdate() {          if (Bars \=\= null)            return;                   // This sample assumes the Volumetric series is the primary DataSeries on the chart, if you would want to add a Volumetric series to a            // script, you could call AddVolumetric() in State.Configure and then for example use         // NinjaTrader.NinjaScript.BarsTypes.VolumetricBarsType barsType \= BarsArray\[1].BarsType as          // NinjaTrader.NinjaScript.BarsTypes.VolumetricBarsType;            NinjaTrader.NinjaScript.BarsTypes.VolumetricBarsType barsType \= Bars.BarsSeries.BarsType as               NinjaTrader.NinjaScript.BarsTypes.VolumetricBarsType;                    if (barsType \=\= null)            return;            try          {            double price;            Print("\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=");            Print("Bar: " \+ CurrentBar);            Print("Trades: " \+ barsType.Volumes\[CurrentBar].Trades);            Print("Total Volume: " \+ barsType.Volumes\[CurrentBar].TotalVolume);            Print("Total Buying Volume: " \+ barsType.Volumes\[CurrentBar].TotalBuyingVolume);            Print("Total Selling Volume: " \+ barsType.Volumes\[CurrentBar].TotalSellingVolume);            Print("Delta for bar: " \+ barsType.Volumes\[CurrentBar].BarDelta);            Print("Delta for bar (%): " \+ barsType.Volumes\[CurrentBar].GetDeltaPercent());            Print("Delta for Close: " \+ barsType.Volumes\[CurrentBar].GetDeltaForPrice(Close\[0]));            Print("Ask for Close: " \+ barsType.Volumes\[CurrentBar].GetAskVolumeForPrice(Close\[0]));            Print("Bid for Close: " \+ barsType.Volumes\[CurrentBar].GetBidVolumeForPrice(Close\[0]));            Print("Volume for Close: " \+ barsType.Volumes\[CurrentBar].GetTotalVolumeForPrice(Close\[0]));            Print("Maximum Ask: " \+ barsType.Volumes\[CurrentBar].GetMaximumVolume(true, out price) \+ " at price: " \+ price);            Print("Maximum Bid: " \+ barsType.Volumes\[CurrentBar].GetMaximumVolume(false, out price) \+ " at price: " \+ price);            Print("Maximum Combined: " \+ barsType.Volumes\[CurrentBar].GetMaximumVolume(null, out price) \+ " at price: " \+ price);            Print("Maximum Positive Delta: " \+ barsType.Volumes\[CurrentBar].GetMaximumPositiveDelta());            Print("Maximum Negative Delta: " \+ barsType.Volumes\[CurrentBar].GetMaximumNegativeDelta());            Print("Max seen delta (bar): " \+ barsType.Volumes\[CurrentBar].MaxSeenDelta);            Print("Min seen delta (bar): " \+ barsType.Volumes\[CurrentBar].MinSeenDelta);            Print("Cumulative delta (bar): " \+ barsType.Volumes\[CurrentBar].CumulativeDelta);             Print("Delta Since High (bar): " \+ barsType.Volumes\[CurrentBar].DeltaSh);             Print("Delta Since Low (bar): " \+ barsType.Volumes\[CurrentBar].DeltaSl);          }          catch{} } |
-
-
-
  
-
-
-
 
 | Note: Please note in the example above a [CurrentBar](currentbar-1.md) reference is used as index, and not a BarsAgo reference. |
 | --- |
-
-
-
 ## 
-
-
-
-
-
-
-
-

@@ -1,61 +1,11 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Strategy
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Strategy
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](strategy.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> Strategy | [Previous page](signature.md) [Return to chapter overview](language_reference_wip.md) [Next page](strategy_account.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The methods and properties covered in this section are unique to custom strategy development.
-
-
  
-
-
 ## In this section
-
-
-
-
 | [Account](strategy_account.md) | Represents the real\-world or simulation Account configured for the strategy. |
 | --- | --- |
 | [AddChartIndicator()](addchartindicator.md) | Adds an indicator to the strategy only for the purpose of displaying it on a chart. |
@@ -116,12 +66,3 @@ The methods and properties covered in this section are unique to custom strategy
 | [TradeCollection](tradecollection.md) | A collection of [Trade](trade.md) objects. |
 | [TradesPerformanceValues](tradesperformancevalues.md) | Performance values of a [collection](tradecollection.md) of [Trade](trade.md) objects. |
 | [WaitForOcoClosingBracket](waitforococlosingbracket.md) | Determines if the strategy will submit both legs of an OCO bracket before submitting the pair to the broker. |
-
-
-
-
-
-
-
-
-

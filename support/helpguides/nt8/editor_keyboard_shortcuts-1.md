@@ -1,58 +1,10 @@
 ﻿
-
-
 NinjaScript \> Editor \> Editor Keyboard Shortcuts
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Editor Keyboard Shortcuts
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](editor_keyboard_shortcuts.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Editor](editor-1.md) \> Editor Keyboard Shortcuts | [Previous page](visual_studio_debugging-1.md) [Return to chapter overview](editor-1.md) [Next page](educational_resources-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The NinjaScript Editor includes a range of keyboard shortcuts not available in other areas of the platform. Below is a list of available shortcuts and the actions they perform:
-
-
  
-
-
-
-
 | Ctrl \+ C, Ctrl \+ Insert | Copy to Clipboard |
 | --- | --- |
 | Ctrl \+ X, Shift \+ Delete | Cut to Clipboard |
@@ -90,12 +42,4 @@ The NinjaScript Editor includes a range of keyboard shortcuts not available in o
 | Ctrl \+ Shift \+ W | Select word |
 | Ctrl \+ Shift \+ ] | Select up to matching bracket |
 | Shift \+ Alt \+ Arrow Keys | Expand/contract selection region |
-
-
-
-
-
-
-
-
 

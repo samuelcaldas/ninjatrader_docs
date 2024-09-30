@@ -1,71 +1,15 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.RiskReward()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.RiskReward()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_riskreward.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.RiskReward() | [Previous page](regressionchannel-1.md) [Return to chapter overview](drawing-1.md) [Next page](riskreward-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws a risk/reward on a chart.
-
-
  
-
-
 ## Method Return Value
-
-
 A [RiskReward](riskreward-1.md) object that represents the draw object.
-
-
  
-
-
 ## Syntax
-
-
 Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime entryTime, double entryY, DateTime endTime, double endY, double ratio, bool isStop)  
 
 Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, int entryBarsAgo , double entryY, int endBarsAgo, double endY, double ratio, bool isStop)  
@@ -74,18 +18,7 @@ Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime en
 
 Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, int entryBarsAgo , double entryY, int endBarsAgo, double endY, double ratio, bool isStop, bool isGlobal, string templateName)
 
-
- 
-
-
- 
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -100,29 +33,10 @@ Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, int entryBa
 | isStop | A bool value, when true will use the endTime / endBarsAgo and endY to set the stop and will automatically calculate the target based off the ratio value. When false, will set the target and will automatically calculate the stop based off the ratio value. |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
  
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // draw a risk/reward tool starting from the current bar to 10 bars ago // with calcuate a ratio of 2 based on stop level Draw.RiskReward(this, "tag1", false, 0, High\[0], 10, Low\[0], 2, true); |
-
-
-
-
-
-
-
-
 

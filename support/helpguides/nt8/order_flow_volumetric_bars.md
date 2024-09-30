@@ -1,152 +1,42 @@
 ﻿
-
-
 Operations \> Charts \> Order Flow \+ \> Order Flow Volumetric Bars
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Order Flow Volumetric Bars
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](order_flow_volumetric_bars.md) \>\> **Navigation:**     [Operations](operations.md) \> [Charts](charts.md) \> [Order Flow \+](order_flow_plus.md) \> Order Flow Volumetric Bars | [Previous page](order_flow_plus.md) [Return to chapter overview](order_flow_plus.md) [Next page](order_flow_cumulative_delta.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
-
-
 NinjaTrader Order Flow Volumetric [bars](bar_types.md) provide a detailed ‘x\-ray’ view into each price bar’s aggressive buying and selling activity. This technique primarily attempts to answer the question which side was the most aggressive at each price level. This is done by calculating the delta (greek for difference) between buying and selling volume (please see the Delta type property explanation below). 
-
-
  
-
-
 With the delta value known for each price level in the bar, it is then classified per each session for analysis and emphasizes the buying / selling strength unfolding. This is done by a gradient coloring approach shading the value cells in the bar, where the level of sensitivity for the gradient can be set via the Shading sensitivity property. The higher this value is set, the finer the gradient can be applied to various levels of strength \- the NinjaTrader default is 20 levels.
-
-
  
-
-
 This can be thought of as a way of not only saying who ‘won / lost’ the price level’s auction, but also by what margin or strength. This is not a signal in itself per se, but rather a mechanical means to classify the buying vs selling activity at each individual price level and thus offer the trader a more detailed look what happens inside the price bars.
-
-
  
-
-
 A second comparison of buy sell volumes is the Imbalance detection. Here the price level buying and selling volumes are compared diagonally to understand which side of the market was stronger by exceeding the set Imbalance ratio. For example if the buying volume was 1000 contracts and the selling volume diagonal below was 300 then buying Imbalance was detected (assuming a default Imbalance ratio of 1\.5\). This can be helpful especially if multiple Imbalances 'cluster' close together to form support / resistance areas.
-
-
  
-
-
 NinjaTrader Order Flow Volumetric bars can provide a large degree of details and facilitate displaying the information in a dynamically sized way, as the text is re\-sized as your horizontally or vertically adjust the chart's scale range.
-
-
  
-
-
-
 
 | Critical: To perform the delta buy / sell aggressor classification (DeltaType BidAsk), historical bid / ask tick data access by your provider is needed. To see which data providers can offer which type of data in NinjaTrader, please review [this table](data_by_provider.md). If your provider could only support 'last' historical tick data, then the classification could still be made using DeltaType UpDownTick mode.   Forex spot data charting is traditionally driven from the bid side only, since no 'true' last exists. Provided values would not represent a centralized auction based market as with stocks or futures \- as such Order Flow Volumetric Bars would not be supported on Forex spot data. |
 | --- |
-
-
-
  
-
-
 ![tog_minus](tog_minus.gif)
-
-
-
 
 | Order Flow Volumetric Overview:   You can apply the Order Flow Volumetric bars within a Chart Data Series window under Type.   OrderFlowVolumetric   Below we show a 5 minute Order Flow Volumetric BidAsk style chart of the popular E\-Mini S\&P 500 contract. An exemplary bar in yellow is annotated to show the different components you will work with on an Order Flow Volumetric chart.   1\. Order Flow Volumetric bar 2\. Sell Volume per each price level seen in the bar 3\. Buy Volume per each price level seen in the bar 4\. Open / Close bar 5\. Maximum highlight in the bar \- this shows the price(s) with the highest volume or delta in the bar 6\. Bar Statistics panel (only 3 out of possible 10 values activated here)   OFVM1   On the next image, we see an excerpt of the same chart, however now the chart style type is changed to Delta. The bar highlighted yellow corresponds to the annotated bar above \- this style, instead of the individual buy / sell volumes, show the combined delta value for each price level.  If positive the level was seeing buying strength, negative if selling strength.   OFVM2   Now let's take a look how the actual values we see in the bar are calculated from the market data, as an example take the first level of our Volumetric BidAsk bar in the first screen\-shot (numbers right below the 2/3 annotated numbers) :   We see a bid or selling volume of 220 and a ask or buying volume of 740.   Taking the difference (Buy volume \- Sell volume) so 740 \- 220 we get the delta value of 520 \- which we see as first cell value in the 2nd screen\-shot showing the Delta type.   The shading taking place in the bars will always be based on this delta value calculated, the chart style just defines what kind of textual data detail will be displayed (the actual Bid Ask Volumes or the Delta value).   Moving on to the lower portion Bar Statistics (6\), we see the Buy Vol and Sell Vol for the bar and a delta as well exposed \- however, please note that these are summed values for the entire bar.   If we sum all the buy volumes we would get 3463; summing sell volumes for the bar is 4535. All the price level deltas summed would equal the delta of the entire bar \-1072.   Order Flow Volumetric Imbalance charting:   The screen\-shot below explains the workings of the Imbalance detection in more detail. You can see the Buy / Sell volumes are compared diagonally here to arrive at the classification if buy or sell imbalance is present.   Let's run through the first calculation for the example bar in yellow:   1\. Buy volume of 518 is compared to the diagonal below sell volume of 989 2\. Dividing the buy volume into the sell volume we get a ratio of 989 / 518 \= 1\.9092\... 3\. NinjaTrader by default sets the ratio for Imbalance at 1\.5, so this level gets marked with Sell Imbalance (magenta text color per default). 4\. As a further condition, a minimum difference between the compared values must be present. This value is defaulted to 10 \- which is valid in our example as well.   In the case that both Imbalance and Maximum would trigger for the same cell, the Maximum would override and be displayed (example shown below at annotation 1\).   NinjaTrader 8\.0\.19\.0 or newer also offers the option to compare horizontal for Imbalance (Imbalance mode setting).   OFVM3   Order Flow Volumetric Bar Statistics:   The Volumetric Bar statistics show important values for each Volumetric bar in a static grid\-like fashion. The same gradient strength shading as for the main Volumetric bars is applied here.   1\.Via a right click in the price scale section the individual statistic values could be enabled / disabled 'on the fly'.   OFVM4   Order Flow Volumetric Bar data shown as profile:   Below chart is an example of showing the volumetric bid ask volume bar data as distribution profile, additionally 'hide text' is checked \- which means we see the maximum (yellow) as well as imbalance (cyan / magenta) marked via the cell borders coloring.   Showing the data in this fashion can give traders an easier read, as differences between light and high volume price areas becomes visually more striking.   OFVM7 |
 | --- |
-
-
-
 ## 
-
-
 ![tog_minus](tog_minus.gif)        [Order Flow Volumetric Imbalance Customization Example](javascript:HMToggle('toggle','OrderFlowVolumetricImbalanceCustomizationExample','OrderFlowVolumetricImbalanceCustomizationExample_ICON'))
-
-
-
 
 | Order Flow Volumetric Imbalance Customization example:   This section presents an example of how NinjaTrader Order Flow Volumetric bars can be highly customized to your trading style. Traders focused on Order Flow Volumetric Imbalances may consider working these charting ideas into their NinjaTrader setup.   The settings we present below could be used as a starting point \-   OFVM6   The regular 5 Minute CandleStick chart is brought in to this chart via a second Data Series, so forming a [MultiSeries chart](working_with_multiple_data_series.md) with our main 5min Order Flow Volumetric bars. This can advantageous if you prefer to plot the regular bar / candlestick portion in the middle of the bar between the Buy/Sell volume columns. In NinjaTrader 8\.0\.19\.0 or newer, this can now be also accomplished without a second DataSeries by enabling the Center Open/Close bar plotting option.   OFVM5 |
 | --- |
-
-
-
 ## 
-
-
 ![tog_minus](tog_minus.gif)        [Order Flow Volumetric Bars parameters](javascript:HMToggle('toggle','OrderFlowVolumetricBarsDataSeries','OrderFlowVolumetricBarsDataSeries_ICON'))
-
-
-
 
 | Data series:     | Base period type | Sets the base period type the Volumetric bars should be calculated on, possible values include:   Tick,  Volume, Second, Minute, Day, Week, Month, Year, Range | | --- | --- | | Base period value | Period of your chosen Base period type for Volumetric bars (i.e. 3 Minute, 450 Tick) | | Delta type | Sets how the delta is calculated for buy / sell aggressor classification. Possible values are: BidAsk or UpDownTick.    BidAsk \- Accumulates the volume of orders filled at the bid or less vs ask or more. Orders filled at the ask or more price are considered buying pressure. Orders filled at the bid or less price are considered selling pressure. If the current tick price is between ask and bid, the volume will be recorded to the same pressure as the previous tick.    UpDownTick \- Accumulates the volume of up ticks vs down ticks. Up ticks are considered buying pressure. Down ticks are considered selling pressure. If the current tick price is the same as the previous tick price, the volume will be recorded to the same pressure as the previous tick. | | Ticks per level | Sets the level of aggregation for individual price levels, i.e. if price levels should be merged together, default 1 – so each price level delta result is seen individually inside the price bars    (Please note that with a higher Ticks per level set, there could be Volumetric remainder cells as a result that are actually smaller than your set Ticks per level, as not all bar ranges could be evenly divisible by the Ticks per level value) | | Size filter | Default 0, could be set higher to limit seeing the delta only for trades higher than the size filter setting, for example tracking larger trades only \- keep in mind this could be potentially set too high for your chart, so Volumetric bars value cells could show 0 volume, so it never met this criteria then to be considered in the analysis. | | Tick replay | Check to allow indicators or strategies to access Tick replay data, the main Volumetric bars though will always be built off a 1 tick series. |      Chart style:     | Chart style type | Sets the chart style type used, possible values are : BidAsk or Delta   BidAsk \- allows you seeing the individual buy / sell volume cells inside the Volumetric bar, buy (ask) volume is shown on the right side, sell (bid) volume shown on the right side. Additionally this style can highlight the maximum and imbalance conditions.   Delta \- allows to see the single value total net delta per each price cell, maximum can be shown as well (no imbalance option for this style) | | --- | --- | | Center open close bar | When checked, allows centering of the Open / Close bar on the BidAsk Chart style type | | Show as profile | Enables to show the Volumetric bar data as profile / distribution | | Show volume | Enables to show the volume distribution to the right of the Volumetric bar. | | Strength sensitivity | Sets how many gradient levels should be calculated to provide the buy / sell strength shading for the Volumetric bars and Bar Statistics, the default setting is 20\. This is reset at every session break to ensure the gradient strength classifications easily comparable across various days market action. | | Size display filter | Allows only displaying Bid / Ask or delta numbers higher than the threshold. Default 0 and a visual only setting. | | Show imbalance | Enables the display of Imbalance coloring   Only applicable for the Volumetric BidAsk chart style type   With 'Hide text' checked will display imbalances by coloring the respective imbalance cell borders | | Imbalance ratio | Sets the ratio used for comparing the buy / sell volumes for accessing if Imbalance is present, default 1\.5   Only applicable for the Volumetric BidAsk chart style type | | Imbalance mode | Sets the comparison mode for Imbalance : Diagonal or Horizontal | | Minimum delta for imbalance | Sets the minimum delta to be seen diagonally across compared buy / sell volume columns for displaying Imbalance, default value is 10\.   Only applicable for the Volumetric BidAsk chart style type | | Color dominant side | Enables to display the dominant ('winning') strength side only in the Volumetric strength display    Only applicable for the Volumetric BidAsk chart style type | | Box outline | Sets options for the display of the outline of the Volumetric boxes | | Box grid | Sets options for the display of the inner grid of the Volumetric bars | | Candle body outline | Sets options for the display of the body outline of the Open/Close bar | | Color for up bars | Sets the up brush color used for Open/Close bar | | Color for down bars | Sets the down brush color used for Open/Close bar | | Color for doji | Sets the doji brush color used for Open/Close bar | | Color for positive strength | Sets the positive brush color used for positive strength gradients | | Color for negative strength | Sets the negative brush color used for negative strength gradients | | Color for buy imbalance | Sets the brush color used for buy imbalance   Only applicable for the Volumetric BidAsk chart style type | | Color for sell imbalance | Sets the brush color used for sell imbalance   Only applicable for the Volumetric BidAsk chart style type | | Show maximum | Enables the display of the maximum value for the Volumetric bars, if identical values would be seen across cells, then all cells sharing the maximum would be highlighted.   BidAsk style: If Color dominant side is checked, it will highlight both the Buy and Sell price levels with the highest volume, else it will highlight the price level with the highest combined Buy / Sell volume (Total volume for the price level)   Delta stye: highest absolute delta level would be highlighted   With 'Hide text' checked will display the maximum by coloring the respective maximum cell borders | | Color for maximum | Sets the color used for maximum display | | Hide text | Enables to hide the Volumetric cell values text display | | Color for text | Sets the text color used for the displaying the Volumetric cell values | | Show bar statistics | Enables the display of the Volumetric bar statistics in the lower portion (static location) of the chart. You can checkmark each desired statistic, possible statistics are \-     | Trades | The total number of trades in the bar | | --- | --- | | Volume | The volume for the bar | | Buy vol | The Buy vol for the bar | | Sell vol | The Sell vol for the bar | | Delta (bar) | The total delta for the bar (all individual price level delta summed) | | Delta (%) | The bar delta expressed as percentage of volume for the bar | | Cumulative delta | The bar delta value cumulated throughout the session | | Min delta | The minimum delta seen in the bar (intrabar). This could be positive as well, i.e. a strong up bar with no selling pressure | | Max delta | The maximum delta seen in the bar (intrabar). This could be negative as well, i.e. a strong down bar with no buying pressure | | Delta change | The change in delta from the previous bar's delta value | | Delta SH | The delta since last time price touched the high of the bar, usually negative | | Delta SL | The delta since last time price touched the low of the bar, usually positive. |      The statistics can be toggled as well 'on the fly' from the chart's right scale by clicking on the statistic labels. | | Color for base | Sets the brush color used for base bar statistics strength gradients (Trades, Volume) | | Statistics grid | Sets options for the display of the bar statistics grid of the Volumetric bars | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-
-
-
  
-
-
 ![tog_minus](tog_minus.gif)        [Order Flow Volumetric Values NinjaScript access](javascript:HMToggle('toggle','OrderFlowVolumetricValuesNinjaScriptAccess','OrderFlowVolumetricValuesNinjaScriptAccess_ICON'))
-
-
-
 
 | For information on how to access the Order Flow Volumetric Bars and Bar Statistic values in NinjaScript, please see the [Order Flow Volumetric Bars](order_flow_volumetric_bars2.md) page in the NinjaScript section of the Help Guide. |
 | --- |
-
-
-
 ## 
-
-
-
-
-
-
-
-
-

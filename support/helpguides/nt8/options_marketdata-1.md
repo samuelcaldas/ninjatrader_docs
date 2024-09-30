@@ -1,63 +1,14 @@
 ﻿
-
-
 Configuration \> Options \> Market data
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Market data
 
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](options_marketdata.md) \>\> **Navigation:**     [Configuration](configuration-1.md) \> [Options](options-1.md) \> Market data | [Previous page](options_ati-1.md) [Return to chapter overview](options-1.md) [Next page](splits_and_dividends-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The Market data section sets options related to market data and database management.
-
-
  
-
-
 ![Options_Marketdata](options_marketdata.png)
-
-
  
-
-
-
 
 | General |  |
 | --- | --- |
@@ -77,12 +28,3 @@ The Market data section sets options related to market data and database managem
 | % off market | Sets the real\-time tick filter offset percentage (0\.1 equals 1/10 of a percent) |
 | Record live data as historical | Enables or disables the storage of incoming real\-time [Chart](charts-1.md) data to your local PC for future historical data requests. If you are connected to a provider that supports historical data, disable this feature. |
 | Download COT data at startup | Allows downloading of Commitment of Traders data for use with the [COT](cot-1.md) indicator |
-
-
-
-
-
-
-
-
-

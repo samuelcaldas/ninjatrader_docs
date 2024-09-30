@@ -1,74 +1,14 @@
 ﻿
-
-
 NinjaScript \> SharpDX SDK Reference \> SharpDX
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 SharpDX
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](sharpdx.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [SharpDX SDK Reference](sharpdx_sdk_reference.md) \> SharpDX | [Previous page](sharpdx_sdk_reference.md) [Return to chapter overview](sharpdx_sdk_reference.md) [Next page](sharpdx_color.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
 | Disclaimer: The [SharpDX SDK Reference](sharpdx_sdk_reference.md) section was compiled from the official [SharpDX Documentation](http://sharpdx.org/) and was NOT authored by NinjaTrader.  The contents of this section are provided as\-is and only cover a fraction of what is available from the SharpDX SDK.  This page was intended only as a reference guide to help you get started with some of the 2D Graphics concepts used in the NinjaTrader.Custom assembly.  Please refer to the official SharpDX Documentation for additional members not covered in this reference.  For more seasoned graphic developers, the original MSDN [Direct2D1](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx) and [DirectWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368038.aspx) unmanaged API documentation can also be helpful for understanding the DirectX/Direct2D run\-time environment. For NinjaScript development purposes, we document only essential members in the structure of this page. |
 | --- |
 
-
-
- 
-
-
- 
-
-
 The SharpDX namespace contains fundamental classes used by SharpDX. 
-
-
  
-
-
 ## In this section
-
-
-
-
 | [Color](sharpdx_color.md) | Represents a 32\-bit color (4 bytes) in the form of RGBA (in byte order: R, G, B, A). |
 | --- | --- |
 | [Color3](sharpdx_color3.md) | Represents a color in the form of rgb. |
@@ -78,12 +18,3 @@ The SharpDX namespace contains fundamental classes used by SharpDX.
 | [RectangleF](sharpdx_rectanglef.md) | Structure using similar layout as [System.Drawing.RectangleF](https://www.google.com/search?q=system.drawing.rectangleF&ie=utf-8&oe=utf-8) |
 | [Size2F](sharpdx_size2f.md) | Structure using the same layout as [System.Drawing.SizeF](https://msdn.microsoft.com/en-us/library/system.drawing.sizef(v=vs.110).aspx) |
 | [Vector2](sharpdx_vector2.md) | Represents a two dimensional mathematical vector. |
-
-
-
-
-
-
-
-
-

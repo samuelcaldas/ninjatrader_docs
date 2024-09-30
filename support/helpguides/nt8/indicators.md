@@ -1,56 +1,10 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> System Indicator Methods
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 System Indicator Methods
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](indicators.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> System Indicator Methods | [Previous page](simplefont_todirectwritetextformat.md) [Return to chapter overview](common.md) [Next page](valid_input_data_for_indicator.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 The "Indicators" reference provides definitions, syntax, parameter definitions and examples for NinjaTrader system indicator methods.
-
-
  
-
-
 ›[Valid Input Data for Indicator Methods](valid_input_data_for_indicator.md)
 
 ›[Accumulation/Distribution (ADL)](accumulation_distribution_adl.md)
@@ -264,11 +218,4 @@ The "Indicators" reference provides definitions, syntax, parameter definitions a
 ›[Woodies Pivots](woodies_pivots.md)
 
 ›[ZigZag](zigzag.md)
-
-
-
-
-
-
-
 

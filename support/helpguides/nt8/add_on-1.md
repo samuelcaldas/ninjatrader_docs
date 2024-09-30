@@ -1,66 +1,11 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Add On
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Add On
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](add_on.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> Add On | [Previous page](triggercustomevent-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](controls-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 Custom Add Ons can be used to extend NinjaTrader's functionality. The methods and properties covered in this section are unique to custom Add On development.
-
-
  
-
-
 For more information on the Add On development process please see [this](developing_add_ons-1.md) article.
-
-
- 
-
-
- 
-
-
-
 
 | [NinjaTrader Controls](controls-1.md) | This section contains controls that are native NinjaTrader controls. |
 | --- | --- |
@@ -93,12 +38,4 @@ For more information on the Add On development process please see [this](develop
 | [PropagateIntervalChange()](propagateintervalchange()-1.md) | In an [NTWindow](ntwindow-1.md), PropagateIntervalChange() sends an interval to other windows with the same Interval Linking color configured. |
 | [TabControl](tabcontrol-1.md) | The TabControl class provides functionality for working with [NTTabPage](nttabpage_class-1.md) objects within an [NTWindow](ntwindow-1.md). |
 | [TabControlManager](tabcontrolmanager-1.md) | The TabControlManager class can be used to set or check several properties of a [TabControl](tabcontrol-1.md) object. |
-
-
-
-
-
-
-
-
 

@@ -1,120 +1,30 @@
 ﻿
-
-
 Operations \> Order Entry \> Basic Entry \> Submitting Orders
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Submitting Orders
-
-
-
-
-
-
 
 | \<\< [Click to Display Table of Contents](submitting_orders_basic_entry.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> [Basic Entry](basic_entry-1.md) \> Submitting Orders | [Previous page](display_overview_basic_entry-1.md) [Return to chapter overview](basic_entry-1.md) [Next page](modifying_and_cancelling_orders_basic_entry-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Submitting orders within the Basic Entry order entry window is both easy and efficient.  In addition to entry and exit orders the Basic Entry window also offers access to NinjaTrader's ATM Strategies.  For more information on ATM Strategies please see the [ATM section](advanced_trade_management_atm-1.md) of the user help guide or attend one of our [free live training events](https://ninjatrader.com/futures/livestreams).
-
-
 ![tog_minus](tog_minus-1.gif)        [Selecting instruments and account](javascript:HMToggle('toggle','SelectingInstrumentsAndAccount','SelectingInstrumentsAndAccount_ICON'))
-
-
-
-
-| How to Select an Instrument There are multiple ways to select an Instrument in the Basic Entry window.     •Select the Instrument Selector to open a list of recently used instruments or instruments contained in a predefined list    •With the Basic Entry window selected begin typing the instrument symbol directly on the keyboard. Typing will trigger the Overlay Instrument Selector.  For more Information on instrument selection and management please see [Instruments](instruments-1.md) section of the Help Guide.   How to Select an Account A list of all connected accounts will be listed in the "Account" drop down list. To change the account select the account you wish to trade through via this drop down list. |
+| How to Select an Instrument There are multiple ways to select an Instrument in the Basic Entry window.     - Select the Instrument Selector to open a list of recently used instruments or instruments contained in a predefined list    - With the Basic Entry window selected begin typing the instrument symbol directly on the keyboard. Typing will trigger the Overlay Instrument Selector.  For more Information on instrument selection and management please see [Instruments](instruments-1.md) section of the Help Guide.   How to Select an Account A list of all connected accounts will be listed in the "Account" drop down list. To change the account select the account you wish to trade through via this drop down list. |
 | --- |
 
-
-
 ![tog_minus](tog_minus-1.gif)        [Understanding order settings](javascript:HMToggle('toggle','UnderstandingOrderSettings','UnderstandingOrderSettings_ICON'))
-
-
-
-
 | To submit an Order 1\.Set the order "Quantity" field ([info](quantity_selector-1.md))2\.Set the "TIF" (Time in Force) field ([info](tif_selector-1.md))3\.Set the "ATM Strategy" ([info](atm_strategy_parameters-1.md))4\.Enter an order with any of the methods described below  BasicEntry_13 |
 | --- |
 
-
-
 ![tog_minus](tog_minus-1.gif)        [How to submit orders with quick buttons](javascript:HMToggle('toggle','HowToSubmitOrdersWithQuickButtons','HowToSubmitOrdersWithQuickButtons_ICON'))
-
-
-
-
 | Quick Buttons You can enter orders rapidly by pressing on any one of the quick order buttons.   BasicEntry_12     | Buy Ask | Submits a Buy Limit order at the current ask price | | --- | --- | | Sell Ask | Submits a Sell Limit order at the current ask price | | Buy Mkt (Market) | Submits a Buy Market order at the current market price | | Sell Mkt (Market) | Submits a Sell Market order at the current Market price | | Buy Bid | Submits a Buy Limit order at the current bid price | | Sell Bid | Submits a Sell Limit order at the current bid price | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
-
-
 ![tog_minus](tog_minus-1.gif)        [How to submit custom orders](javascript:HMToggle('toggle','HowToSubmitCustomOrders','HowToSubmitCustomOrders_ICON'))
-
-
-
-
-| Custom Orders You can place a custom order by setting order parameters.     1\. Select the order Type 2\. Set the Limit price if applicable  3\. Set the Stop price if applicable 4\. Left mouse click either the BUY or SELL button   BasicEntry_14   Tips   1\. You can quickly retrieve the current last, bid, or ask price in the Limit and Stop price fields using the following commands:   •Middle click in the field to retrieve the last traded price,•CTRL \+ middle click in the filed to retrieve the best ask price•ALT \+ middle click in the field to retrieve the best bid price  2\. Hold down the CTRL key when increasing/decreasing limit/stop prices to change the price in steps of 10 tick increments. |
+| Custom Orders You can place a custom order by setting order parameters.     1\. Select the order Type 2\. Set the Limit price if applicable  3\. Set the Stop price if applicable 4\. Left mouse click either the BUY or SELL button   BasicEntry_14   Tips   1\. You can quickly retrieve the current last, bid, or ask price in the Limit and Stop price fields using the following commands:   - Middle click in the field to retrieve the last traded price,- CTRL \+ middle click in the filed to retrieve the best ask price- ALT \+ middle click in the field to retrieve the best bid price  2\. Hold down the CTRL key when increasing/decreasing limit/stop prices to change the price in steps of 10 tick increments. |
 | --- |
-
-
 
 ![tog_minus](tog_minus-1.gif)        [Understanding the OCO (One Cancel Other) function](javascript:HMToggle('toggle','UnderstandingTheOcooneCancelOtherFunction','UnderstandingTheOcooneCancelOtherFunction_ICON'))
-
-
-
-
-| OCO Orders (One Cancels Other) Stop Loss and Profit Target orders (submitted automatically via an [ATM Strategy](atm_strategy-1.md)) are always sent as OCO, however, you can submit entry or exit orders as OCO orders as well. Why? The market may be trading in a channel and you wish to sell at resistance or buy at support, whichever comes first by placing two limit orders at either end of the channel.    To place OCO orders, press down on your right mouse button inside the Basic Entry window and select the menu name "OCO Order or use the short cut key CTRL\+Z.   BasicEntry_15   The "OC" (OCO indicator) will light up green at the top of the Basic Entry window. All orders placed while this indicator is lit will be part of the same OCO group. Once any order of this group is either filled or cancelled, all other orders that belong to this group will be cancelled.    BasicEntry_16   If you want each OCO order to create it's own set of Stop Loss and Profit Target orders ensure that the ATM Strategy control list is set to either \<Custom\> or a strategy template name before you submit each OCO order.   After you have placed your orders, it is advised to disable the OCO function via the right click menu, or use the short cut key CTRL\+Z.     | Warning:  If an order which was part of an OCO group has already been filled or cancelled, you will need to submit the pending order with a new OCO ID otherwise the pending order will be rejected.     To reset an OCO ID, simply disable the OCO function, and re\-enable.  This will generate a new OCO ID and allow you to place new orders. | | --- |      Break Out/Fade Entry Example One of the great features of NinjaTrader is its ability to submit two entry orders, one of which will cancel if the other is filled.   You can accomplish a breakout/breakdown approach by:   •Right clicking in the Basic Entry window and selecting the menu item "OCO Order" to enable the OCO function•For your first order, select the desired option from the "ATM Strategy" drop down list•Submit your stop order to buy above the market•For your second order, select the desired option from the "ATM Strategy" drop down list•Submit your stop order to sell below the market•CRITICAL: Right click in the Basic Entry window and select the menu item "OCO Order" to disable OCO for future orders.  For a market fade approach just substitute limit orders for stop orders. |
+| OCO Orders (One Cancels Other) Stop Loss and Profit Target orders (submitted automatically via an [ATM Strategy](atm_strategy-1.md)) are always sent as OCO, however, you can submit entry or exit orders as OCO orders as well. Why? The market may be trading in a channel and you wish to sell at resistance or buy at support, whichever comes first by placing two limit orders at either end of the channel.    To place OCO orders, press down on your right mouse button inside the Basic Entry window and select the menu name "OCO Order or use the short cut key CTRL\+Z.   BasicEntry_15   The "OC" (OCO indicator) will light up green at the top of the Basic Entry window. All orders placed while this indicator is lit will be part of the same OCO group. Once any order of this group is either filled or cancelled, all other orders that belong to this group will be cancelled.    BasicEntry_16   If you want each OCO order to create it's own set of Stop Loss and Profit Target orders ensure that the ATM Strategy control list is set to either \<Custom\> or a strategy template name before you submit each OCO order.   After you have placed your orders, it is advised to disable the OCO function via the right click menu, or use the short cut key CTRL\+Z.     | Warning:  If an order which was part of an OCO group has already been filled or cancelled, you will need to submit the pending order with a new OCO ID otherwise the pending order will be rejected.     To reset an OCO ID, simply disable the OCO function, and re\-enable.  This will generate a new OCO ID and allow you to place new orders. | | --- |      Break Out/Fade Entry Example One of the great features of NinjaTrader is its ability to submit two entry orders, one of which will cancel if the other is filled.   You can accomplish a breakout/breakdown approach by:   - Right clicking in the Basic Entry window and selecting the menu item "OCO Order" to enable the OCO function- For your first order, select the desired option from the "ATM Strategy" drop down list- Submit your stop order to buy above the market- For your second order, select the desired option from the "ATM Strategy" drop down list- Submit your stop order to sell below the market- CRITICAL: Right click in the Basic Entry window and select the menu item "OCO Order" to disable OCO for future orders.  For a market fade approach just substitute limit orders for stop orders. |
 | --- | --- |
 
-
-
 ![tog_minus](tog_minus-1.gif)        [How to submit Simulated Stop Orders (Simulated Order)](javascript:HMToggle('toggle','HowToSubmitSimulatedStopOrderssimulatedOrder','HowToSubmitSimulatedStopOrderssimulatedOrder_ICON'))
-
-
-
-
 | Simulated Stop Orders (Simulated Order) To submit a Simulated Stop Order (entry and exit NOT Stop Loss; simulated Stop Loss orders are enabled via an [ATM stop strategy](stop_strategy-1.md)) you must enable Simulated Order mode via the right mouse click context menu by selecting the Simulated Order menu item..   BasicEntry_17   The "SO" (Simulated Order indicator) will light up green at the top of the Basic Entry window. All stop orders placed while this indicator is lit will be submitted as a [Simulated Stop Orders](simulated_stop_orders-1.md).   BasicEntry_18 |
 | --- |
-
-
-
-
-
-
-
-
-
-

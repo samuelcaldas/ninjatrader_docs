@@ -1,71 +1,15 @@
 ﻿
-
-
 NinjaScript \> Language Reference \> Common \> Drawing \> Draw.AndrewsPitchfork()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Draw.AndrewsPitchfork()
-
-
-
-
-
-
-
 | \<\< [Click to Display Table of Contents](draw_andrewspitchfork.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.AndrewsPitchfork() | [Previous page](drawing-1.md) [Return to chapter overview](drawing-1.md) [Next page](andrewspitchfork-1.md) |
 | --- | --- |
-
-
-
-
-
-
-
-
-
-
-
 ## Definition
-
-
 Draws an Andrew's Pitchfork.
-
-
  
-
-
 ## Method Return Value
-
-
 An [AndrewsPitchfork](andrewspitchfork-1.md) object that represents the draw object.
-
-
  
-
-
 ## Syntax
-
-
 Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, int anchor1BarsAgo, double anchor1Y, int anchor2BarsAgo, double anchor2Y, int anchor3BarsAgo, double anchor3Y, Brush brush, DashStyleHelper dashStyle, int width)  
 
 Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime anchor1Time, double anchor1Y, DateTime anchor2Time, double anchor2Y, DateTime anchor3Time, double anchor3Y, Brush brush, DashStyleHelper dashStyle, int width)  
@@ -73,21 +17,10 @@ Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, DateT
 Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, int anchor1BarsAgo, double anchor1Y, int anchor2BarsAgo, double anchor2Y, int anchor3BarsAgo, double anchor3Y, bool isGlobal, string templateName)  
 
 Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime anchor1Time, double anchor1Y, DateTime anchor2Time, double anchor2Y, DateTime anchor3Time, double anchor3Y, bool isGlobal, string templateName)
-
-
- 
-
-
-   
+  
 
  
-
-
 ## Parameters
-
-
-
-
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
@@ -106,29 +39,10 @@ Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, DateT
 | width | The width of the draw object |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
-
-
-
  
-
-
 ## 
-
-
 ## Examples
-
-
-
-
 | ns |
 | --- |
 | // Draws an Andrew's Pitchfork  Draw.AndrewsPitchfork(this, "tag1", true, 4, Low\[4], 3, High\[3], 1, Low\[1], Brushes.Blue, DashStyleHelper.Solid, 3); |
-
-
-
-
-
-
-
-
 
