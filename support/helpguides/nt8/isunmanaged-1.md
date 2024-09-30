@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order Methods \> Unmanaged Approach \> IsUnmanaged
+NinjaScript > Language Reference > Strategy > Order Methods > Unmanaged Approach > IsUnmanaged
 
 IsUnmanaged
 
-| \<\< [Click to Display Table of Contents](isunmanaged.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> [Order Methods](order_methods-1.md) \> [Unmanaged Approach](unmanaged_approach-1.md) \> IsUnmanaged | [Previous page](ignoreoverfill-1.md) [Return to chapter overview](unmanaged_approach-1.md) [Next page](submitorderunmanaged-1.md) |
+| << [Click to Display Table of Contents](isunmanaged.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [Order Methods](order_methods-1.md) > [Unmanaged Approach](unmanaged_approach-1.md) > IsUnmanaged | [Previous page](ignoreoverfill-1.md) [Return to chapter overview](unmanaged_approach-1.md) [Next page](submitorderunmanaged-1.md) |
 | --- | --- |
 ## Definition
 Determines if the strategy will be using Unmanaged order methods. 
@@ -27,4 +27,4 @@ IsUnmanaged
 
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          // Use Unmanaged order methods          IsUnmanaged \= true;      } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {          // Use Unmanaged order methods          IsUnmanaged = true;      } } |

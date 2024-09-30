@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> SharpDX SDK Reference \> SharpDX.Direct2D1 \> StrokeStyle
+NinjaScript > SharpDX SDK Reference > SharpDX.Direct2D1 > StrokeStyle
 
-SharpDX.Direct2D1\.StrokeStyle
+SharpDX.Direct2D1.StrokeStyle
 
-| \<\< [Click to Display Table of Contents](sharpdx_direct2d1_strokestyle.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [SharpDX SDK Reference](sharpdx_sdk_reference.md) \> [SharpDX.Direct2D1](sharpdx_direct2d1.md) \> SharpDX.Direct2D1\.StrokeStyle | [Previous page](sharpdx_direct2d1_solidcolorbrush_color.md) [Return to chapter overview](sharpdx_direct2d1.md) [Next page](sharpdx_direct2d1_strokestyle_dashcap.md) |
+| << [Click to Display Table of Contents](sharpdx_direct2d1_strokestyle.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [SharpDX SDK Reference](sharpdx_sdk_reference.md) > [SharpDX.Direct2D1](sharpdx_direct2d1.md) > SharpDX.Direct2D1.StrokeStyle | [Previous page](sharpdx_direct2d1_solidcolorbrush_color.md) [Return to chapter overview](sharpdx_direct2d1.md) [Next page](sharpdx_direct2d1_strokestyle_dashcap.md) |
 | --- | --- |
 
-| Disclaimer: The [SharpDX SDK Reference](sharpdx_sdk_reference.md) section was compiled from the official [SharpDX Documentation](http://sharpdx.org/) and was NOT authored by NinjaTrader.  The contents of this section are provided as\-is and only cover a fraction of what is available from the SharpDX SDK.  This page was intended only as a reference guide to help you get started with some of the 2D Graphics concepts used in the NinjaTrader.Custom assembly.  Please refer to the official SharpDX Documentation for additional members not covered in this reference.  For more seasoned graphic developers, the original MSDN [Direct2D1](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx) and [DirectWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368038.aspx) unmanaged API documentation can also be helpful for understanding the DirectX/Direct2D run\-time environment. For NinjaScript development purposes, we document only essential members in the structure of this page. |
+| Disclaimer: The [SharpDX SDK Reference](sharpdx_sdk_reference.md) section was compiled from the official [SharpDX Documentation](http://sharpdx.org/) and was NOT authored by NinjaTrader.  The contents of this section are provided as-is and only cover a fraction of what is available from the SharpDX SDK.  This page was intended only as a reference guide to help you get started with some of the 2D Graphics concepts used in the NinjaTrader.Custom assembly.  Please refer to the official SharpDX Documentation for additional members not covered in this reference.  For more seasoned graphic developers, the original MSDN [Direct2D1](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx) and [DirectWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368038.aspx) unmanaged API documentation can also be helpful for understanding the DirectX/Direct2D run-time environment. For NinjaScript development purposes, we document only essential members in the structure of this page. |
 | --- |
 
 ## Definition
@@ -14,7 +14,7 @@ Describes the caps, miter limit, line join, and dash information for a stroke.
 (See also [unmanaged API documentation](http://msdn.microsoft.com/en-us/library/dd372217.aspx))
  
 
-| Notes:   1\.A stroke style is a device\-independent resource; you can create it once then retain it for the life of your application. Please see the [MSDN Direct2D Resources Overview](https://msdn.microsoft.com/en-us/library/dd756757(v=vs.85).aspx) for more information.2\.For convenience, Direct2D provides the [StrokeStyleProperties](sharpdx_direct2d1_strokestyleproperties.md) function for creating new a StrokeStyle. |
+| Notes:   1.A stroke style is a device-independent resource; you can create it once then retain it for the life of your application. Please see the [MSDN Direct2D Resources Overview](https://msdn.microsoft.com/en-us/library/dd756757(v=vs.85).aspx) for more information.2.For convenience, Direct2D provides the [StrokeStyleProperties](sharpdx_direct2d1_strokestyleproperties.md) function for creating new a StrokeStyle. |
 | --- |
 
 ## Syntax
@@ -23,7 +23,7 @@ class StrokeStyle
 
 | new StrokeStyle(Factory factory, [StrokeStyleProperties](sharpdx_direct2d1_strokestyleproperties.md) properties) | Creates an StrokeStyle that describes start cap, dash pattern, and other features of a stroke. |
 | --- | --- |
-| new StrokeStyle(Factory factory, [StrokeStyleProperties](sharpdx_direct2d1_strokestyleproperties.md) properties, float\[] dashes) | Creates an StrokeStyle that describes start cap, dash pattern, and other features of a stroke. |
+| new StrokeStyle(Factory factory, [StrokeStyleProperties](sharpdx_direct2d1_strokestyleproperties.md) properties, float[] dashes) | Creates an StrokeStyle that describes start cap, dash pattern, and other features of a stroke. |
 ## 
 ## 
 
@@ -38,7 +38,7 @@ class StrokeStyle
 | [DashesCount](sharpdx_direct2d1_strokestyle_dashescount.md) | Retrieves the number of entries in the dashes array. |
 | [DashOffset](sharpdx_direct2d1_strokestyle_dashoffset.md) | Retrieves a value that specifies how far in the dash sequence the stroke will start. |
 | [DashStyle](sharpdx_direct2d1_strokestyle_dashstyle.md) | Gets a value that describes the stroke's dash pattern. |
-| [Dispose()](sharpdx_disposebase_dispose.md) | Performs application\-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from [SharpDX.DisposeBase](sharpdx_disposebase.md).) |
+| [Dispose()](sharpdx_disposebase_dispose.md) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from [SharpDX.DisposeBase](sharpdx_disposebase.md).) |
 | [EndCap](sharpdx_direct2d1_strokestyle_endcap.md) | Retrieves the type of shape used at the end of a stroke. |
 | [GetDashes()](sharpdx_direct2d1_strokestyle_getdashes.md) | Copies the dash pattern to the specified array. |
 | [IsDisposed](sharpdx_disposebase_isdisposed.md) | Gets a value indicating whether this instance is disposed. (Inherited from DisposeBase.) |

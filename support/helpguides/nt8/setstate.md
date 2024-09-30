@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnStateChange()  \> SetState()
+NinjaScript > Language Reference > Common > OnStateChange()  > SetState()
 SetState() 
-| \<\< [Click to Display Table of Contents](setstate.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [OnStateChange()](onstatechange.md) \> SetState() | [Previous page](onstatechange.md) [Return to chapter overview](onstatechange.md) [Next page](state.md) |
+| << [Click to Display Table of Contents](setstate.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnStateChange()](onstatechange.md) > SetState() | [Previous page](onstatechange.md) [Return to chapter overview](onstatechange.md) [Next page](state.md) |
 | --- | --- |
 ## Definition
 This method is used for changing the [State](state.md) of any running NinjaScript object.
@@ -32,4 +32,4 @@ SetState(State state)
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {    // Terminate strategy at 2PM    if (ToTime(Time\[0]) \=\= 140000)    {      SetState(State.Terminated);      return;    } } |
+| protected override void OnBarUpdate() {    // Terminate strategy at 2PM    if (ToTime(Time[0]) == 140000)    {      SetState(State.Terminated);      return;    } } |

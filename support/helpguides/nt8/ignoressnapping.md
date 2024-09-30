@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> IgnoresSnapping
+NinjaScript > Language Reference > Drawing Tool > IgnoresSnapping
 
 IgnoresSnapping
-| \<\< [Click to Display Table of Contents](ignoressnapping.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Drawing Tool](drawing_tools.md) \> IgnoresSnapping | [Previous page](icon_drawingtool.md) [Return to chapter overview](drawing_tools.md) [Next page](ignoresuserinput.md) |
+| << [Click to Display Table of Contents](ignoressnapping.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > IgnoresSnapping | [Previous page](icon_drawingtool.md) [Return to chapter overview](drawing_tools.md) [Next page](ignoresuserinput.md) |
 | --- | --- |
 Definition  
 
@@ -17,4 +17,4 @@ IgnoresSnapping
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {           IgnoresSnapping \= true; // Set this to true to receive non\-snapped mouse coordinates      }      else if (State \=\= State.Configure)      {        } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {           IgnoresSnapping = true; // Set this to true to receive non-snapped mouse coordinates      }      else if (State == State.Configure)      {        } } |

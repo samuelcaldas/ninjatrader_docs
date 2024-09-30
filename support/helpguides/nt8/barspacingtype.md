@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartControl \> BarSpacingType
+NinjaScript > Language Reference > Common > Charts > ChartControl > BarSpacingType
 BarSpacingType
-| \<\< [Click to Display Table of Contents](barspacingtype.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> [ChartControl](chartcontrol.md) \> BarSpacingType | [Previous page](chartcontrol_barsarray.md) [Return to chapter overview](chartcontrol.md) [Next page](chartcontrol_barsperiod.md) |
+| << [Click to Display Table of Contents](barspacingtype.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) > BarSpacingType | [Previous page](chartcontrol_barsarray.md) [Return to chapter overview](chartcontrol.md) [Next page](chartcontrol_barsperiod.md) |
 | --- | --- |
 ## Definition
 Indicates the type of bar spacing used for the primary [Bars](bars.md) object on the chart.
@@ -12,11 +12,11 @@ An enum representing one of the values below:
 | EquidistantSingle | Indicates Equidistant Bar Spacing is used, and only one Bars object exists on the chart |
 | --- | --- |
 | EquidistantMulti | Indicates Equidistant Bar Spacing is used, and more than one Bars objects exist on the chart |
-| TimeBased | Indicates Time\-Based bar spacing is used |
+| TimeBased | Indicates Time-Based bar spacing is used |
 ## 
 ## 
 ## Syntax
-\<ChartControl\>.BarSpacingType
+<ChartControl>.BarSpacingType
 ## 
 ## Example
 | ns |

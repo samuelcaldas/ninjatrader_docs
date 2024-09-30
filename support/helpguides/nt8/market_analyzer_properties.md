@@ -1,9 +1,9 @@
 ﻿
-Operations \> Market Analyzer \> Market Analyzer Properties
+Operations > Market Analyzer > Market Analyzer Properties
 
 Market Analyzer Properties
 
-| \<\< [Click to Display Table of Contents](market_analyzer_properties.md) \>\> **Navigation:**     [Operations](operations.md) \> [Market Analyzer](market_analyzer.md) \> Market Analyzer Properties | [Previous page](creating_cell_and_filter_condi.md) [Return to chapter overview](market_analyzer.md) [Next page](working_with_templates.md) |
+| << [Click to Display Table of Contents](market_analyzer_properties.md) >> **Navigation:**     [Operations](operations.md) > [Market Analyzer](market_analyzer.md) > Market Analyzer Properties | [Previous page](creating_cell_and_filter_condi.md) [Return to chapter overview](market_analyzer.md) [Next page](working_with_templates.md) |
 | --- | --- |
 The Market Analyzer can be customized to your preferences in the Market Analyzer Properties window.
  

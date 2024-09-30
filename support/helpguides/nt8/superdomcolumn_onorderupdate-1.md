@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> SuperDOM Column \> OnOrderUpdate()
+NinjaScript > Language Reference > SuperDOM Column > OnOrderUpdate()
 OnOrderUpdate()
 
-| \<\< [Click to Display Table of Contents](superdomcolumn_onorderupdate.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [SuperDOM Column](superdom_column-1.md) \> OnOrderUpdate() | [Previous page](superdomcolumn_onmarketdata-1.md) [Return to chapter overview](superdom_column-1.md) [Next page](superdomcolumn_onpositionupdate-1.md) |
+| << [Click to Display Table of Contents](superdomcolumn_onorderupdate.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [SuperDOM Column](superdom_column-1.md) > OnOrderUpdate() | [Previous page](superdomcolumn_onmarketdata-1.md) [Return to chapter overview](superdom_column-1.md) [Next page](superdomcolumn_onpositionupdate-1.md) |
 | --- | --- |
 
 ## Definition
@@ -32,5 +32,5 @@ protected override void OnOrderUpdate(OrderEventArgs orderUpdate)
 ## Examples
 | ns |
 | --- |
-| protected override void OnOrderUpdate(OrderEventArgs orderUpdate) {    // Do not take action if the order update does not come from the selected SuperDOM instrument/account    if (orderUpdate.Order.Instrument !\= SuperDom.Instrument \|\| orderUpdate.Order.Account !\= SuperDom.Account)      return;      // Do something } |
+| protected override void OnOrderUpdate(OrderEventArgs orderUpdate) {    // Do not take action if the order update does not come from the selected SuperDOM instrument/account    if (orderUpdate.Order.Instrument != SuperDom.Instrument || orderUpdate.Order.Account != SuperDom.Account)      return;      // Do something } |
 

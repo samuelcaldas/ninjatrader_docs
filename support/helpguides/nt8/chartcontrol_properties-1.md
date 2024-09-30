@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartControl \> Properties
+NinjaScript > Language Reference > Common > Charts > ChartControl > Properties
 Properties
-| \<\< [Click to Display Table of Contents](chartcontrol_properties.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartControl](chartcontrol-1.md) \> Properties | [Previous page](presentationsource-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](slotspainted-1.md) |
+| << [Click to Display Table of Contents](chartcontrol_properties.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartControl](chartcontrol-1.md) > Properties | [Previous page](presentationsource-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](slotspainted-1.md) |
 | --- | --- |
 ## Definition
 A collection of properties related to the configuration of the Chart
@@ -22,7 +22,7 @@ A ChartControlProperties object containing values for all properties configured 
 | AreHGridLinesVisible | A bool indicating the horizontal grid lines are visible on the chart |
 | AreTabsVisible | A bool indicating tabs are visible in the chart window |
 | AreVGridLinesVisible | A bool indicating the vertical grid lines are visible on the chart |
-| AxisPen | A Stroke object used in painting the x\- and y\-axis |
+| AxisPen | A Stroke object used in painting the x- and y-axis |
 | BarDistance | A float measuring the distance (in pixels) between the left or right edge of one bar and the corresponding edge of the previous or subsequent bar |
 | BarMarginRight | An int representing the "Right Margin" property value configured on the chart |
 | ChartBackground | A Brush object used to paint the chart background |
@@ -30,7 +30,7 @@ A ChartControlProperties object containing values for all properties configured 
 | ChartTraderVisibility | An enum indicating the visibility status of Chart Trader. Possible values are Collapsed, Visible, and VisibleCollapsed |
 | CrosshairCrosshairType | An enum indicating the type of Cross Hair enabled on the chart. Possible values are Off, Local, Global, and GlobalNoTimeScroll |
 | CrosshairIsLocked | A bool indicating the Cross Hair's vertical line is locked in place |
-| CrosshairLabelBackground | A Brush object used to paint the Cross Hair's price and time markers in the x\- and y\-axis |
+| CrosshairLabelBackground | A Brush object used to paint the Cross Hair's price and time markers in the x- and y-axis |
 | CrosshairLabelForeground | A Brush object used to paint the text in the Cross Hair's price and time markers |
 | CrosshairPen | A string representing the Pen used within the Stroke that is used to draw the Cross Hair |
 | CrosshairStroke | A CrosshairStroke object containing information on the Cross Hair's Stroke, CrosshairType, and isLocked property |
@@ -41,15 +41,15 @@ A ChartControlProperties object containing values for all properties configured 
 | LabelFont | A NinjaTrader.Gui.Tools.SimpleFont object containing information on the font used in text labels throughout the chart |
 | PanelSplitterPen | A Stroke object used to paint the lines between chart panels |
 | ShowDateRange | A bool indicating the date range of the bars painted on the visible chart canvas will be displayed within the chart |
-| ShowScrollBar | A bool indicating the horizontal scroll bar is visible beneath the x\-axis |
+| ShowScrollBar | A bool indicating the horizontal scroll bar is visible beneath the x-axis |
 | SnapMode | An enum indicating the currently enabled Snap Mode. Possible values are None, Bar, Price, and BarAndPrice |
 | TabName | A string representing the name of the current tab |
 ## 
 ## Syntax
-\<ChartControl\>.Properties
+<ChartControl>.Properties
 ## 
 ## Example
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // Instantiate a ChartControlProperties object to hold a reference to chartControl.Properties    ChartControlProperties myProperties \= chartControl.Properties;      // Set the AllowSelectionDragging property to false    myProperties.AllowSelectionDragging \= false; } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // Instantiate a ChartControlProperties object to hold a reference to chartControl.Properties    ChartControlProperties myProperties = chartControl.Properties;      // Set the AllowSelectionDragging property to false    myProperties.AllowSelectionDragging = false; } |
 

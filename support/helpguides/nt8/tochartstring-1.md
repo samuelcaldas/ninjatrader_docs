@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Bars \> ToChartString()
+NinjaScript > Language Reference > Common > Bars > ToChartString()
 ToChartString()
 
-| \<\< [Click to Display Table of Contents](tochartstring.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Bars](bars-1.md) \> ToChartString() | [Previous page](tickcount-1.md) [Return to chapter overview](bars-1.md) [Next page](chart-1.md) |
+| << [Click to Display Table of Contents](tochartstring.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Bars](bars-1.md) > ToChartString() | [Previous page](tickcount-1.md) [Return to chapter overview](bars-1.md) [Next page](chart-1.md) |
 | --- | --- |
 
 ## Definition
@@ -23,5 +23,5 @@ This method does not accept any parameters
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {    // print the chart string on start up    if(CurrentBar \=\= 0)      Print(Bars.ToChartString()); // ES 09\-15 (60 Minute)       } |
+| protected override void OnBarUpdate() {    // print the chart string on start up    if(CurrentBar == 0)      Print(Bars.ToChartString()); // ES 09-15 (60 Minute)       } |
 

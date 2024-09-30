@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> RemoveDrawObject()
+NinjaScript > Language Reference > Common > Drawing > RemoveDrawObject()
 
 RemoveDrawObject()
 
-| \<\< [Click to Display Table of Contents](removedrawobject.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> RemoveDrawObject() | [Previous page](pricelevels.md) [Return to chapter overview](drawing.md) [Next page](removedrawobjects.md) |
+| << [Click to Display Table of Contents](removedrawobject.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > RemoveDrawObject() | [Previous page](pricelevels.md) [Return to chapter overview](drawing.md) [Next page](removedrawobjects.md) |
 | --- | --- |
 ## Definition
 Removes a draw object from the chart based on its tag value.

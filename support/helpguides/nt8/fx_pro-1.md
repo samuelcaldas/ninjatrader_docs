@@ -1,7 +1,7 @@
 ﻿
-Operations \> Order Entry \> FX Pro
+Operations > Order Entry > FX Pro
 FX Pro
-| \<\< [Click to Display Table of Contents](fx_pro.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> FX Pro | [Previous page](properties3-1.md) [Return to chapter overview](order_entry-1.md) [Next page](display_overview_fx_pro-1.md) |
+| << [Click to Display Table of Contents](fx_pro.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > FX Pro | [Previous page](properties3-1.md) [Return to chapter overview](order_entry-1.md) [Next page](display_overview_fx_pro-1.md) |
 | --- | --- |
 The FX Pro window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the FX Pro menu item.
 

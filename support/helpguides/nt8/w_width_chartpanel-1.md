@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartPanel \> W (Width)
+NinjaScript > Language Reference > Common > Charts > ChartPanel > W (Width)
 W (Width)
 
-| \<\< [Click to Display Table of Contents](w_width_chartpanel.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartPanel](chartpanel-1.md) \> W (Width) | [Previous page](chartscale_chartpanel-1.md) [Return to chapter overview](chartpanel-1.md) [Next page](x_coordinate_chartpanel-1.md) |
+| << [Click to Display Table of Contents](w_width_chartpanel.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartPanel](chartpanel-1.md) > W (Width) | [Previous page](chartscale_chartpanel-1.md) [Return to chapter overview](chartpanel-1.md) [Next page](x_coordinate_chartpanel-1.md) |
 | --- | --- |
 
 ## Definition

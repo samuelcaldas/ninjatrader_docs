@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> StopTargetHandling
+NinjaScript > Language Reference > Strategy > StopTargetHandling
 StopTargetHandling
-| \<\< [Click to Display Table of Contents](stoptargethandling.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> StopTargetHandling | [Previous page](startbehavior-1.md) [Return to chapter overview](strategy-1.md) [Next page](strategybaseconverter-1.md) |
+| << [Click to Display Table of Contents](stoptargethandling.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > StopTargetHandling | [Previous page](startbehavior-1.md) [Return to chapter overview](strategy-1.md) [Next page](strategybaseconverter-1.md) |
 | --- | --- |
 ## Definition
 Determines how stop and target orders are submitted during an entry order execution.  
@@ -27,6 +27,6 @@ StopTargetHandling
 ## Example
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          StopTargetHandling \= StopTargetHandling.PerEntryExecution;      } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {          StopTargetHandling = StopTargetHandling.PerEntryExecution;      } } |
 
  

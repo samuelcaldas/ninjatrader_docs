@@ -1,14 +1,14 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> Rendering \> D2DFactory
+NinjaScript > Language Reference > Common > Charts > Rendering > D2DFactory
 
 D2DFactory
-| \<\< [Click to Display Table of Contents](d2dfactory.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [Rendering](rendering-1.md) \> D2DFactory | [Previous page](rendering-1.md) [Return to chapter overview](rendering-1.md) [Next page](directwritefactory-1.md) |
+| << [Click to Display Table of Contents](d2dfactory.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) > D2DFactory | [Previous page](rendering-1.md) [Return to chapter overview](rendering-1.md) [Next page](directwritefactory-1.md) |
 | --- | --- |
 ## Definition
 Provides a default Direct2D1 factory used for creating [SharpDX.Direct2D1](sharpdx_direct2d1-1.md) components.
  
 ## Property Value
-A read\-only SharpDX.Direct2D1\.Factory to create Direct2D1 objects compatible with NinjaTrader rendering
+A read-only SharpDX.Direct2D1.Factory to create Direct2D1 objects compatible with NinjaTrader rendering
  
 ## Syntax
 NinjaTrader.Core.Globals.D2DFactory
@@ -20,4 +20,4 @@ NinjaTrader.Core.Globals.D2DFactory
  
 | ns |
 | --- |
-| // create a Direct2D1 PathGeometry format object with default NinjaTrader D2DFactory factory SharpDX.Direct2D1\.PathGeometry pathGeometry \= new SharpDX.Direct2D1\.PathGeometry(NinjaTrader.Core.Globals.D2DFactory); |
+| // create a Direct2D1 PathGeometry format object with default NinjaTrader D2DFactory factory SharpDX.Direct2D1.PathGeometry pathGeometry = new SharpDX.Direct2D1.PathGeometry(NinjaTrader.Core.Globals.D2DFactory); |

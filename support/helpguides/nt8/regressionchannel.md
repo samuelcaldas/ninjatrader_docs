@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.RegressionChannel() \> RegressionChannel
+NinjaScript > Language Reference > Common > Drawing > Draw.RegressionChannel() > RegressionChannel
 
 RegressionChannel
 
-| \<\< [Click to Display Table of Contents](regressionchannel.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.RegressionChannel()](draw_regressionchannel.md) \> RegressionChannel | [Previous page](draw_regressionchannel.md) [Return to chapter overview](draw_regressionchannel.md) [Next page](draw_riskreward.md) |
+| << [Click to Display Table of Contents](regressionchannel.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.RegressionChannel()](draw_regressionchannel.md) > RegressionChannel | [Previous page](draw_regressionchannel.md) [Return to chapter overview](draw_regressionchannel.md) [Next page](draw_riskreward.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Regression Channel [IDrawingTool](idrawingtool.md).
@@ -28,7 +28,7 @@ Represents an interface that exposes information regarding a Regression Channel 
 
 | ns |
 | --- |
-| // Instantiate a RegressionChannel object NinjaTrader.NinjaScript.DrawingTools.RegressionChannel myRegChan \= Draw.RegressionChannel(this, "tag1", 10, 0, Brushes.Blue);   // Change the object's PriceType myRegChan.PriceType \= PriceType.Median; |
+| // Instantiate a RegressionChannel object NinjaTrader.NinjaScript.DrawingTools.RegressionChannel myRegChan = Draw.RegressionChannel(this, "tag1", 10, 0, Brushes.Blue);   // Change the object's PriceType myRegChan.PriceType = PriceType.Median; |
 
 | Note: To differentiate between DrawingTools.RegressionChannel and Indicators.RegressionChannel when assigning a RegressionChannel object, you will need to invoke the former path explicitly, as seen in the example above. |
 | --- |

@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Diamond() \> Diamond
+NinjaScript > Language Reference > Common > Drawing > Draw.Diamond() > Diamond
 
 Diamond
-| \<\< [Click to Display Table of Contents](diamond.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.Diamond()](draw_diamond.md) \> Diamond | [Previous page](draw_diamond.md) [Return to chapter overview](draw_diamond.md) [Next page](draw_dot.md) |
+| << [Click to Display Table of Contents](diamond.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Diamond()](draw_diamond.md) > Diamond | [Previous page](draw_diamond.md) [Return to chapter overview](draw_diamond.md) [Next page](draw_dot.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Diamond [IDrawingTool](idrawingtool.md).
@@ -18,4 +18,4 @@ Represents an interface that exposes information regarding a Diamond [IDrawingTo
 ## Example
 | ns |
 | --- |
-| // Instantiates a red diamond on the current bar 1 tick below the low Diamond myDiamond \= Draw.Diamond(this, "tag1", true, 0, Low\[0] \- TickSize, Brushes.Red);   // Set the area fill color to Red myDiamond.AreaBrush \= Brushes.Red; |
+| // Instantiates a red diamond on the current bar 1 tick below the low Diamond myDiamond = Draw.Diamond(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);   // Set the area fill color to Red myDiamond.AreaBrush = Brushes.Red; |

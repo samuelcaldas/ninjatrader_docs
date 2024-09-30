@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.FibonacciRetracements() \> FibonacciRetracements
+NinjaScript > Language Reference > Common > Drawing > Draw.FibonacciRetracements() > FibonacciRetracements
 FibonacciRetracements
-| \<\< [Click to Display Table of Contents](fibonacciretracements.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.FibonacciRetracements()](draw_fibonacciretracements.md) \> FibonacciRetracements | [Previous page](draw_fibonacciretracements.md) [Return to chapter overview](draw_fibonacciretracements.md) [Next page](draw_fibonaccitimeextensions.md) |
+| << [Click to Display Table of Contents](fibonacciretracements.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.FibonacciRetracements()](draw_fibonacciretracements.md) > FibonacciRetracements | [Previous page](draw_fibonacciretracements.md) [Return to chapter overview](draw_fibonacciretracements.md) [Next page](draw_fibonaccitimeextensions.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Fibonacci Retracements [IDrawingTool](idrawingtool.md).
@@ -19,5 +19,5 @@ Represents an interface that exposes information regarding a Fibonacci Retraceme
 ## Example
 | ns |
 | --- |
-| // Instantiate a FibonacciRetracements object FibonacciRetracements myFibRet \= Draw.FibonacciRetracements(this, "tag1", true, 10, Low\[10], 0, High\[0]);   // Set the object's lines to extend to the right myFibRet.IsExtendedLinesRight \= true; |
+| // Instantiate a FibonacciRetracements object FibonacciRetracements myFibRet = Draw.FibonacciRetracements(this, "tag1", true, 10, Low[10], 0, High[0]);   // Set the object's lines to extend to the right myFibRet.IsExtendedLinesRight = true; |
 

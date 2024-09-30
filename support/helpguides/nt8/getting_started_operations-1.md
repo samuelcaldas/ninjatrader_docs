@@ -1,9 +1,9 @@
 ﻿
-Introduction \> Getting Started
+Introduction > Getting Started
 
 Getting Started
 
-| \<\< [Click to Display Table of Contents](getting_started_operations.md) \>\> **Navigation:**     [Introduction](introduction-1.md) \> Getting Started | [Previous page](introduction-1.md) [Return to chapter overview](introduction-1.md) [Next page](getting_help__support-1.md) |
+| << [Click to Display Table of Contents](getting_started_operations.md) >> **Navigation:**     [Introduction](introduction-1.md) > Getting Started | [Previous page](introduction-1.md) [Return to chapter overview](introduction-1.md) [Next page](getting_help__support-1.md) |
 | --- | --- |
 ## Getting Started with NinjaTrader
 This help guide contains a wide range of information on configuring and using all aspects of the NinjaTrader platform, but there a few key pages that can help you to get up and running quickly with the most important concepts for new users: Getting connected to market data, creating charts, saving a Workspace, and understanding the NinjaTrader Control Center.
@@ -29,7 +29,7 @@ Once you have covered the basics, the following topics can help you to bridge th
 
 - Understanding the advanced features of NinjaTrader [windows and tabs](window_tabs-1.md)
 
-- [Contacting the NinjaTrader Support team](https://support.ninjatrader.com) for platform\-related help
+- [Contacting the NinjaTrader Support team](https://support.ninjatrader.com) for platform-related help
 
 - Accessing the [Support Forum](https://forum.ninjatrader.com/) to consult with experts and fellow traders
 
@@ -39,7 +39,7 @@ This help guide contains educational and reference resources for NinjaScript dev
  
 - The [Distribution](distribution-1.md) section provides resources for third party vendors distributing their code to end users
 
-- The [Editor](editor-1.md) section provides information on using the built\-in NinjaScript Editor
+- The [Editor](editor-1.md) section provides information on using the built-in NinjaScript Editor
 
 - The [Educational Resources](educational_resources-1.md) section includes helpful information on a range of topics related to NinjaScript development.
 

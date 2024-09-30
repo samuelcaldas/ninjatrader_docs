@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> SuperDOM Column \> OnPositionUpdate()
+NinjaScript > Language Reference > SuperDOM Column > OnPositionUpdate()
 OnPositionUpdate()
 
-| \<\< [Click to Display Table of Contents](superdomcolumn_onpositionupdate.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [SuperDOM Column](superdom_column.md) \> OnPositionUpdate() | [Previous page](superdomcolumn_onorderupdate.md) [Return to chapter overview](superdom_column.md) [Next page](onpropertychanged.md) |
+| << [Click to Display Table of Contents](superdomcolumn_onpositionupdate.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [SuperDOM Column](superdom_column.md) > OnPositionUpdate() | [Previous page](superdomcolumn_onorderupdate.md) [Return to chapter overview](superdom_column.md) [Next page](onpropertychanged.md) |
 | --- | --- |
 
 ## Definition
@@ -31,5 +31,5 @@ protected override void OnPositionUpdate(PositionEventArgs positionUpdate)
 ## Examples
 | ns |
 | --- |
-| protected override void OnPositionUpdate(PositionEventArgs positionUpdate) {    // Do not take action if the position update does not come from the selected SuperDOM instrument/account    if (positionUpdate.Position.Instrument !\= SuperDom.Instrument       \|\| positionUpdate.Position.Account !\= SuperDom.Account)      return;      // Do something          } |
+| protected override void OnPositionUpdate(PositionEventArgs positionUpdate) {    // Do not take action if the position update does not come from the selected SuperDOM instrument/account    if (positionUpdate.Position.Instrument != SuperDom.Instrument       || positionUpdate.Position.Account != SuperDom.Account)      return;      // Do something          } |
 

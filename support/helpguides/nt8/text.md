@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Text() \> Text
+NinjaScript > Language Reference > Common > Drawing > Draw.Text() > Text
 Text
-| \<\< [Click to Display Table of Contents](text.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.Text()](draw_text.md) \> Text | [Previous page](draw_text.md) [Return to chapter overview](draw_text.md) [Next page](draw_textfixed.md) |
+| << [Click to Display Table of Contents](text.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Text()](draw_text.md) > Text | [Previous page](draw_text.md) [Return to chapter overview](draw_text.md) [Next page](draw_textfixed.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Text [IDrawingTool](idrawingtool.md).
@@ -24,4 +24,4 @@ Represents an interface that exposes information regarding a Text [IDrawingTool]
 ## Example
 | ns |
 | --- |
-| // Instantiate a Text object Text myText \= Draw.Text(this, "tag1", "Text to draw", 10, High\[10] \+ (5 \* TickSize), Brushes.Black);   // Change the object's DisplayText myText.DisplayText \= "New Display Text"; |
+| // Instantiate a Text object Text myText = Draw.Text(this, "tag1", "Text to draw", 10, High[10] + (5 * TickSize), Brushes.Black);   // Change the object's DisplayText myText.DisplayText = "New Display Text"; |

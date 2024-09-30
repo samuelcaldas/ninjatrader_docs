@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Editor \> Compile Errors
+NinjaScript > Editor > Compile Errors
 Compile Errors
-| \<\< [Click to Display Table of Contents](compile_errors.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Editor](editor.md) \> Compile Errors | [Previous page](code_snippets.md) [Return to chapter overview](editor.md) [Next page](intelliprompt.md) |
+| << [Click to Display Table of Contents](compile_errors.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Editor](editor.md) > Compile Errors | [Previous page](code_snippets.md) [Return to chapter overview](editor.md) [Next page](intelliprompt.md) |
 | --- | --- |
 ## When compiling a custom indicator or strategy it is possible and likely that you will generate compile errors.
 - NinjaTrader will compile ALL NinjaScript files NOT only the file you are working on 
@@ -16,17 +16,17 @@ Compile Errors
 
  
 ## The image below illustrates a compile error
-1\. Section where compile errors are displayed. Errors in the current loaded file are color coded a light color while errors in other files have a darker color code.
-2\. The file that contains the error
-3\. A description of the error
-4\. A error code link that will open the Help Guide with any relevant error code information
-5\. Line number and column number of the error
-6\. Error is underlined with a red wavy line
+1. Section where compile errors are displayed. Errors in the current loaded file are color coded a light color while errors in other files have a darker color code.
+2. The file that contains the error
+3. A description of the error
+4. A error code link that will open the Help Guide with any relevant error code information
+5. Line number and column number of the error
+6. Error is underlined with a red wavy line
  
-The error highlighted by icon (6\) below shows that the expression is not closed with a semicolon. The expression should be:
+The error highlighted by icon (6) below shows that the expression is not closed with a semicolon. The expression should be:
    
 
-double myValue \= SMA(20\)\[0];
+double myValue = SMA(20)[0];
  
 ![NS_Editor_4](ns_editor_4.png)
 

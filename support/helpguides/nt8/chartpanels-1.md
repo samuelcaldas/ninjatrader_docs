@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartControl \> ChartPanels
+NinjaScript > Language Reference > Common > Charts > ChartControl > ChartPanels
 
 ChartPanels
-| \<\< [Click to Display Table of Contents](chartpanels.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartControl](chartcontrol-1.md) \> ChartPanels | [Previous page](canvaszoomstate-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](crosshairtype-1.md) |
+| << [Click to Display Table of Contents](chartpanels.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartControl](chartcontrol-1.md) > ChartPanels | [Previous page](canvaszoomstate-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](crosshairtype-1.md) |
 | --- | --- |
 ## Definition
 Holds a collection of [ChartPanel](chartpanel-1.md) objects containing information about the panels active on the chart.
@@ -11,7 +11,7 @@ Holds a collection of [ChartPanel](chartpanel-1.md) objects containing informati
 An [ObservableCollection](https://msdn.microsoft.com/en-us/library/ms668604(v=vs.110).aspx) of ChartPanel objects
 ## 
 ## Syntax
-\<ChartControl\>.ChartPanels
+<ChartControl>.ChartPanels
 ## 
 ## Examples
 | ns |

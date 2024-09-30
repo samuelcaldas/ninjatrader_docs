@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnStateChange()  \> State
+NinjaScript > Language Reference > Common > OnStateChange()  > State
 
 State
 
-| \<\< [Click to Display Table of Contents](state.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [OnStateChange()](onstatechange-1.md) \> State | [Previous page](setstate-1.md) [Return to chapter overview](onstatechange-1.md) [Next page](sessioniterator-1.md) |
+| << [Click to Display Table of Contents](state.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [OnStateChange()](onstatechange-1.md) > State | [Previous page](setstate-1.md) [Return to chapter overview](onstatechange-1.md) [Next page](sessioniterator-1.md) |
 | --- | --- |
 ## Definition
 Represents the current progression of the object as it advances from setup, processing data, to termination.  These states can be used for setting up or declaring various resources and properties. 
@@ -34,9 +34,9 @@ State
 
 | ns Understanding the sequence of States |
 | --- |
-| protected override void OnStateChange() {             Print(DateTime.Now \+ ": Current State is State."\+State); } |
+| protected override void OnStateChange() {             Print(DateTime.Now + ": Current State is State."+State); } |
 
-| ns Using State to only process real\-time data |
+| ns Using State to only process real-time data |
 | --- |
-| protected override void OnBarUpdate() {    // only process real\-time OnBarUpdate events    if (State \=\= State.Historical)      return;           //rest of logic            } |
+| protected override void OnBarUpdate() {    // only process real-time OnBarUpdate events    if (State == State.Historical)      return;           //rest of logic            } |
  

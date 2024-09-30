@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> IncludeCommission
+NinjaScript > Language Reference > Strategy > IncludeCommission
 
 IncludeCommission
-| \<\< [Click to Display Table of Contents](includecommission.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> IncludeCommission | [Previous page](exitonsessioncloseseconds.md) [Return to chapter overview](strategy.md) [Next page](includetradehistoryinbacktest.md) |
+| << [Click to Display Table of Contents](includecommission.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > IncludeCommission | [Previous page](exitonsessioncloseseconds.md) [Return to chapter overview](strategy.md) [Next page](includetradehistoryinbacktest.md) |
 | --- | --- |
 ## Definition
 Determines if the strategy performance results will include commission on a historical backtest. When true, the [Commission Template](understanding_commissions.md) applied to the account on which the strategy is running will be used.
@@ -19,4 +19,4 @@ IncludeCommission
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          IncludeCommission \= true;      } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {          IncludeCommission = true;      } } |

@@ -1,35 +1,35 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Average True Range (ATR)
+NinjaScript > Language Reference > Common > System Indicator Methods > Average True Range (ATR)
 Average True Range (ATR)
-| \<\< [Click to Display Table of Contents](average_true_range_atr.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [System Indicator Methods](indicators-1.md) \> Average True Range (ATR) | [Previous page](average_directional_movement_r-1.md) [Return to chapter overview](indicators-1.md) [Next page](balance_of_power_bop-1.md) |
+| << [Click to Display Table of Contents](average_true_range_atr.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) > Average True Range (ATR) | [Previous page](average_directional_movement_r-1.md) [Return to chapter overview](indicators-1.md) [Next page](balance_of_power_bop-1.md) |
 | --- | --- |
 ## Description
 A measure of volatility introduced by Welles Wilder in his book: New Concepts in Technical Trading Systems.
  
 The True Range indicator is the greatest of the following:
-\-current high less the current low.
-\-the absolute value of the current high less the previous close.
-\-the absolute value of the current low less the previous close.
+-current high less the current low.
+-the absolute value of the current high less the previous close.
+-the absolute value of the current low less the previous close.
  
-The Average True Range is a moving average (generally 14\-days) of the True Ranges. 
+The Average True Range is a moving average (generally 14-days) of the True Ranges. 
  
 ... Courtesy of [Investopedia](http://www.investopedia.com/terms/a/atr.asp)
  
-The original Wilder formula for an exponential moving average with a smoothing constant (k \= 1/ Period) is used to calculate the ATR.
+The original Wilder formula for an exponential moving average with a smoothing constant (k = 1/ Period) is used to calculate the ATR.
  
 ## Syntax
 ATR(int period)  
 
-ATR(ISeries\<double\> input, int period)
+ATR(ISeries<double> input, int period)
  
 Returns default value  
 
-ATR(int period)\[int barsAgo]  
+ATR(int period)[int barsAgo]  
 
-ATR(ISeries\<double\> input, int period)\[int barsAgo]
+ATR(ISeries<double> input, int period)[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 | input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
@@ -39,7 +39,7 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 ## Example
 | ns |
 | --- |
-| // Prints the current value of a 20 period ATR using default price type double value \= ATR(20)\[0]; Print("The current ATR value is " \+ value.ToString()); |
+| // Prints the current value of a 20 period ATR using default price type double value = ATR(20)[0]; Print("The current ATR value is " + value.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

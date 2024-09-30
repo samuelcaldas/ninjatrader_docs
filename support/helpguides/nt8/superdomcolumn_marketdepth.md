@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> SuperDOM Column \> MarketDepth
+NinjaScript > Language Reference > SuperDOM Column > MarketDepth
 MarketDepth
-| \<\< [Click to Display Table of Contents](superdomcolumn_marketdepth.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [SuperDOM Column](superdom_column.md) \> MarketDepth | [Previous page](superdom_column.md) [Return to chapter overview](superdom_column.md) [Next page](superdomcolumn_onmarketdata.md) |
+| << [Click to Display Table of Contents](superdomcolumn_marketdepth.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [SuperDOM Column](superdom_column.md) > MarketDepth | [Previous page](superdom_column.md) [Return to chapter overview](superdom_column.md) [Next page](superdomcolumn_onmarketdata.md) |
 | --- | --- |
 ## Definition
 ## Provides Level 2 information for a SuperDOMColumn
@@ -20,13 +20,13 @@ MarketDepth
 ## Syntax
 SuperDom.MarketDepth  
 
-SuperDom.MarketDepth.Asks\[int idx];  
+SuperDom.MarketDepth.Asks[int idx];  
 
-SuperDom.MarketDepth.Bids\[int idx];  
+SuperDom.MarketDepth.Bids[int idx];  
 
 SuperDom.MarketDepth.Instrument
 ## 
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {          if (State \=\= State.Active)    {      // subscribe to the same market depth events as the primary SuperDOM Price Ladder      if (SuperDom.MarketDepth !\= null)      {          WeakEventManager\<Data.MarketDepth\<LadderRow\>, Data.MarketDepthEventArgs\>.AddHandler(SuperDom.MarketDepth, "Update", OnMarketDepthUpdate);      }    }    else if (State \=\= State.Terminated)    {      // unsubscribe to the same market depth events as the primary SuperDOM Price Ladder      if (SuperDom \=\= null) return;        if (SuperDom.MarketDepth !\= null)      {          WeakEventManager\<Data.MarketDepth\<LadderRow\>, Data.MarketDepthEventArgs\>.RemoveHandler(SuperDom.MarketDepth, "Update", OnMarketDepthUpdate);                  }    } }   // custom market depth handler   private void OnMarketDepthUpdate(object sender, Data.MarketDepthEventArgs e) {    // Print some data to the Output window    if (e.MarketDataType \=\= MarketDataType.Ask \&\& e.Operation \=\= Operation.Update)      Print(string.Format("The most recent ask change is {0} {1}", e.Price, e.Volume)); } |
+| protected override void OnStateChange() {          if (State == State.Active)    {      // subscribe to the same market depth events as the primary SuperDOM Price Ladder      if (SuperDom.MarketDepth != null)      {          WeakEventManager<Data.MarketDepth<LadderRow>, Data.MarketDepthEventArgs>.AddHandler(SuperDom.MarketDepth, "Update", OnMarketDepthUpdate);      }    }    else if (State == State.Terminated)    {      // unsubscribe to the same market depth events as the primary SuperDOM Price Ladder      if (SuperDom == null) return;        if (SuperDom.MarketDepth != null)      {          WeakEventManager<Data.MarketDepth<LadderRow>, Data.MarketDepthEventArgs>.RemoveHandler(SuperDom.MarketDepth, "Update", OnMarketDepthUpdate);                  }    } }   // custom market depth handler   private void OnMarketDepthUpdate(object sender, Data.MarketDepthEventArgs e) {    // Print some data to the Output window    if (e.MarketDataType == MarketDataType.Ask && e.Operation == Operation.Update)      Print(string.Format("The most recent ask change is {0} {1}", e.Price, e.Volume)); } |

@@ -1,8 +1,8 @@
 ﻿
-Operations \> Historical Data \> Download
+Operations > Historical Data > Download
 
 Download
-| \<\< [Click to Display Table of Contents](download.md) \>\> **Navigation:**     [Operations](operations.md) \> [Historical Data](historical_data_manager.md) \> Download | [Previous page](editing.md) [Return to chapter overview](historical_data_manager.md) [Next page](hot_key_manager.md) |
+| << [Click to Display Table of Contents](download.md) >> **Navigation:**     [Operations](operations.md) > [Historical Data](historical_data_manager.md) > Download | [Previous page](editing.md) [Return to chapter overview](historical_data_manager.md) [Next page](hot_key_manager.md) |
 | --- | --- |
 Historical data can be downloaded from the data provider via the Download section.
  

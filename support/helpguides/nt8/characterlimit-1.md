@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Share Service \> CharacterLimit
+NinjaScript > Language Reference > Share Service > CharacterLimit
 
 CharacterLimit
-| \<\< [Click to Display Table of Contents](characterlimit.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Share Service](share_service-1.md) \> CharacterLimit | [Previous page](share_service-1.md) [Return to chapter overview](share_service-1.md) [Next page](charactersreservedpermedia-1.md) |
+| << [Click to Display Table of Contents](characterlimit.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Share Service](share_service-1.md) > CharacterLimit | [Previous page](share_service-1.md) [Return to chapter overview](share_service-1.md) [Next page](charactersreservedpermedia-1.md) |
 | --- | --- |
 ## Definition
 Determines the maximum number of characters the social network allows. Signature, text, and links all contribute to this character count displayed on the share window.
@@ -22,4 +22,4 @@ CharacterLimit
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {                         if (State \=\= State.SetDefaults) { CharacterLimit        \= 280; } } |
+| protected override void OnStateChange() {                         if (State == State.SetDefaults) { CharacterLimit        = 280; } } |

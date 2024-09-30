@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> OnPositionUpdate()
+NinjaScript > Language Reference > Strategy > OnPositionUpdate()
 
 OnPositionUpdate()
 
-| \<\< [Click to Display Table of Contents](onpositionupdate.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> OnPositionUpdate() | [Previous page](onorderupdate-1.md) [Return to chapter overview](strategy-1.md) [Next page](optimizationperiod-1.md) |
+| << [Click to Display Table of Contents](onpositionupdate.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > OnPositionUpdate() | [Previous page](onorderupdate-1.md) [Return to chapter overview](strategy-1.md) [Next page](optimizationperiod-1.md) |
 | --- | --- |
 ## Definition
 An event driven method which is called each time a PositionUpdate is received for the strategy.
@@ -14,7 +14,7 @@ An event driven method which is called each time a PositionUpdate is received fo
 
  
 
-| Notes:    - You will NOT receive position updates for manually placed orders, or orders managed by other strategies (including any [ATM strategies](using_atm_strategies-1.md)) in OnPositionUpdate(). The Account class contains a pre\-built event handler ([PositionUpdate](positionupdate-1.md)) which can be used to filter position updates on a specified account.  - Its best practice to only work with the passed by value parameters and not reference parameters. This insures that you process each change of the underlying state. - Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. For an example on protecting positions with this approach, see [OnExecutionUpdate()](onexecutionupdate-1.md) |
+| Notes:    - You will NOT receive position updates for manually placed orders, or orders managed by other strategies (including any [ATM strategies](using_atm_strategies-1.md)) in OnPositionUpdate(). The Account class contains a pre-built event handler ([PositionUpdate](positionupdate-1.md)) which can be used to filter position updates on a specified account.  - Its best practice to only work with the passed by value parameters and not reference parameters. This insures that you process each change of the underlying state. - Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. For an example on protecting positions with this approach, see [OnExecutionUpdate()](onexecutionupdate-1.md) |
 | --- |
 
 ## Method Return Value
@@ -44,12 +44,12 @@ protected override void OnPositionUpdate(Position position, double averagePrice,
 
 | ns |
 | --- |
-| protected override void OnPositionUpdate(Cbi.Position position, double averagePrice,        int quantity, Cbi.MarketPosition marketPosition) {    if (position.MarketPosition \=\= MarketPosition.Flat)    {      // Do something like reset some variables here    } } |
+| protected override void OnPositionUpdate(Cbi.Position position, double averagePrice,        int quantity, Cbi.MarketPosition marketPosition) {    if (position.MarketPosition == MarketPosition.Flat)    {      // Do something like reset some variables here    } } |
  
 
-| ns Understanding the order object parameter vs updating value parameter ([Multi\-Thread Considerations for NinjaScript](multi-threading-1.md)) |
+| ns Understanding the order object parameter vs updating value parameter ([Multi-Thread Considerations for NinjaScript](multi-threading-1.md)) |
 | --- |
-| protected override void OnPositionUpdate(Cbi.Position position, double averagePrice,        int quantity, Cbi.MarketPosition marketPosition) {    Print("The most current MarketPosition is: " \+ position.MarketPosition);   // Flat    Print("This particular position update marketPosition is: " \+ marketPosition); // Long } |
+| protected override void OnPositionUpdate(Cbi.Position position, double averagePrice,        int quantity, Cbi.MarketPosition marketPosition) {    Print("The most current MarketPosition is: " + position.MarketPosition);   // Flat    Print("This particular position update marketPosition is: " + marketPosition); // Long } |
    
 
 Additional Reference Samples  

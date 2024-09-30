@@ -1,15 +1,15 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Alert, Debug, Share \> PlaySound()
+NinjaScript > Language Reference > Common > Alert, Debug, Share > PlaySound()
 
 PlaySound()
 
-| \<\< [Click to Display Table of Contents](playsound.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Alert, Debug, Share](alert__debugging_and_sharing-1.md) \> PlaySound() | [Previous page](log-1.md) [Return to chapter overview](alert__debugging_and_sharing-1.md) [Next page](print-1.md) |
+| << [Click to Display Table of Contents](playsound.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Alert, Debug, Share](alert__debugging_and_sharing-1.md) > PlaySound() | [Previous page](log-1.md) [Return to chapter overview](alert__debugging_and_sharing-1.md) [Next page](print-1.md) |
 | --- | --- |
 ## Definition
-Plays a .wav file while running on real\-time data. 
+Plays a .wav file while running on real-time data. 
  
 
-| Notes:   1\. This method will only execute once the [State](state-1.md) has reached State.Realtime.  Calls to this method during State.Historical will be ignored (in contrast to the implementation for [AddOns](alert_and_debug_concepts-1.md))2\.The default behavior is to play the .wav file in an asynchronous manner, which can result in calls to PlaySound() to play over one another.  Sound files can optionally be configured to execute in a synchronous manner by enabling the Tools \> Options \> Sounds \> "Play consecutively" property |
+| Notes:   1. This method will only execute once the [State](state-1.md) has reached State.Realtime.  Calls to this method during State.Historical will be ignored (in contrast to the implementation for [AddOns](alert_and_debug_concepts-1.md))2.The default behavior is to play the .wav file in an asynchronous manner, which can result in calls to PlaySound() to play over one another.  Sound files can optionally be configured to execute in a synchronous manner by enabling the Tools > Options > Sounds > "Play consecutively" property |
 | --- |
 
 ## Method Return Value
@@ -34,4 +34,4 @@ PlaySound(string fileName)
 
 | ns |
 | --- |
-| // Plays the wav file mySound.wav PlaySound(@"C:\\mySound.wav");   // Plays the default Alert1 sound that comes packaged with NinjaTrader PlaySound(NinjaTrader.Core.Globals.InstallDir \+ @"\\sounds\\Alert1\.wav"); |
+| // Plays the wav file mySound.wav PlaySound(@"C:\\mySound.wav");   // Plays the default Alert1 sound that comes packaged with NinjaTrader PlaySound(NinjaTrader.Core.Globals.InstallDir + @"\\sounds\\Alert1.wav"); |

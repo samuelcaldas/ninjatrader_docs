@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> SimpleFont \> ToDirectWriteTextFormat()
+NinjaScript > Language Reference > Common > SimpleFont > ToDirectWriteTextFormat()
 
 ToDirectWriteTextFormat()
 
-| \<\< [Click to Display Table of Contents](simplefont_todirectwritetextformat.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [SimpleFont](simplefont_class.md) \> ToDirectWriteTextFormat() | [Previous page](simplefont_applyto.md) [Return to chapter overview](simplefont_class.md) [Next page](indicators.md) |
+| << [Click to Display Table of Contents](simplefont_todirectwritetextformat.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [SimpleFont](simplefont_class.md) > ToDirectWriteTextFormat() | [Previous page](simplefont_applyto.md) [Return to chapter overview](simplefont_class.md) [Next page](indicators.md) |
 | --- | --- |
 ## Definition
 Converts a [SimpleFont](simplefont_class.md) object to a [SharpDX](sharpdx.md) compatible font which can be used for chart rendering.
@@ -21,10 +21,10 @@ Converts a [SimpleFont](simplefont_class.md) object to a [SharpDX](sharpdx.md) c
 | --- |
 
 ## Syntax
-\<SimpleFont\>.ToDirectWriteTextFormat()
+<SimpleFont>.ToDirectWriteTextFormat()
 
 ## Examples
 
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // Set text to chart label simple font object    SharpDX.DirectWrite.TextFormat textFormat \= chartControl.Properties.LabelFont.ToDirectWriteTextFormat();      // use the textFormat in a RenderTarget.DrawText() or DrawTextLayout() method      // do not forget to dispose text format when finished    textFormat.Dispose(); } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // Set text to chart label simple font object    SharpDX.DirectWrite.TextFormat textFormat = chartControl.Properties.LabelFont.ToDirectWriteTextFormat();      // use the textFormat in a RenderTarget.DrawText() or DrawTextLayout() method      // do not forget to dispose text format when finished    textFormat.Dispose(); } |

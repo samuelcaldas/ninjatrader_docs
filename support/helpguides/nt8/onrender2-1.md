@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Market Analyzer Column \> OnRender()
+NinjaScript > Language Reference > Market Analyzer Column > OnRender()
 
 OnRender()
 
-| \<\< [Click to Display Table of Contents](onrender2.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Market Analyzer Column](market_analyzer_column-1.md) \> OnRender() | [Previous page](iseditable-1.md) [Return to chapter overview](market_analyzer_column-1.md) [Next page](priorvalue-1.md) |
+| << [Click to Display Table of Contents](onrender2.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Market Analyzer Column](market_analyzer_column-1.md) > OnRender() | [Previous page](iseditable-1.md) [Return to chapter overview](market_analyzer_column-1.md) [Next page](priorvalue-1.md) |
 | --- | --- |
 ## Definition
 Used to draw custom content to a Market Analyzer Column, such as a graph.  
@@ -17,7 +17,7 @@ Used to draw custom content to a Market Analyzer Column, such as a graph.  
 
 - The height / width of the Market Analyzer window changes
 
-- A user re\-sizes the content area by dragging the splitter between the columns
+- A user re-sizes the content area by dragging the splitter between the columns
 
  
 

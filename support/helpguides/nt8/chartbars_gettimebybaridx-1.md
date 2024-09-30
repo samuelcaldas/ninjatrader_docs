@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartBars \> GetTimeByBarIdx()
+NinjaScript > Language Reference > Common > Charts > ChartBars > GetTimeByBarIdx()
 
 GetTimeByBarIdx()
-| \<\< [Click to Display Table of Contents](chartbars_gettimebybaridx.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartBars](chartbars-1.md) \> GetTimeByBarIdx() | [Previous page](chartbars_getbaridxbyx-1.md) [Return to chapter overview](chartbars-1.md) [Next page](chartbars_panel-1.md) |
+| << [Click to Display Table of Contents](chartbars_gettimebybaridx.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartBars](chartbars-1.md) > GetTimeByBarIdx() | [Previous page](chartbars_getbaridxbyx-1.md) [Return to chapter overview](chartbars-1.md) [Next page](chartbars_panel-1.md) |
 | --- | --- |
 ## Definition
 Returns the [ChartBars](chartbars-1.md) time value calculated from a bar index parameter provided.
@@ -23,4 +23,4 @@ ChartBars.GetTimeByBarIdx(ChartControl chartControl, int barIndex)
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {    if (ChartBars !\= null)    {      Print(ChartBars.GetTimeByBarIdx(ChartControl, 50)); //8/11/2015 4:30:00 AM        } } |
+| protected override void OnBarUpdate() {    if (ChartBars != null)    {      Print(ChartBars.GetTimeByBarIdx(ChartControl, 50)); //8/11/2015 4:30:00 AM        } } |

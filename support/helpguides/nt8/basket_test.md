@@ -1,7 +1,7 @@
 ﻿
-Operations \> Strategy Analyzer \> Basket testing multiple instruments
+Operations > Strategy Analyzer > Basket testing multiple instruments
 Basket Testing
-| \<\< [Click to Display Table of Contents](basket_test.md) \>\> **Navigation:**     [Operations](operations.md) \> [Strategy Analyzer](strategy_analyzer.md) \> Basket Testing | [Previous page](understanding_historical_fill_.md) [Return to chapter overview](strategy_analyzer.md) [Next page](backtest_logs.md) |
+| << [Click to Display Table of Contents](basket_test.md) >> **Navigation:**     [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) > Basket Testing | [Previous page](understanding_historical_fill_.md) [Return to chapter overview](strategy_analyzer.md) [Next page](backtest_logs.md) |
 | --- | --- |
 You can [Backtest](backtest_a_strategy.md), [Optimize](optimize_a_strategy.md) or [Walk Forward](walk_forward_optimize_a_strate.md) optimize a basket of instruments by selecting an instrument list using the instrument selector in the settings panel. 
 
@@ -11,10 +11,10 @@ Once the test is complete, a listing of all the results will be displayed.
  
 ![StrategyAnalyzer_BacketTest](strategyanalyzer_backettest.png)
  
-1\.Each instrument's backtest results are displayed individually
+1.Each instrument's backtest results are displayed individually
 
  
-2\.The combined backtest results of ALL instruments are shown at the bottom of the results
+2.The combined backtest results of ALL instruments are shown at the bottom of the results
 
  
 Selecting an individual row from the results grid will display the results in the Performance tabs individual [performance results](reviewing_performance_results.md).
@@ -32,13 +32,13 @@ The following results will be a summation across all instruments:
 
 - Commission
 
-- Total \# of trades
+- Total # of trades
 
-- \# of winning trades
+- # of winning trades
 
-- \# of losing trades
+- # of losing trades
 
-- \# of even trades
+- # of even trades
 
  
 For all other statistics, the combined results will be a weighted average (exception here is the RSquared statistic).
@@ -46,15 +46,15 @@ For all other statistics, the combined results will be a weighted average (excep
 ## Calculating Weighted Combined Results
 In order to understand how weighted combined results are calculated, lets use a simplified example which focuses on the Max. Drawdown across 4 different instruments:
  
-| Instrument | Max. Drawdown | Total \# of trades |
+| Instrument | Max. Drawdown | Total # of trades |
 | --- | --- | --- |
-| AUDUSD | ($250\.00\) | 200 |
-| EURJPY | ($150\.00\) | 105 |
-| EURUSD | ($200\.00\) | 20 |
-| GBPUSD | ($50\.00\) | 90 |
-| Combined Results | (178\.92\) | 415 |
+| AUDUSD | ($250.00) | 200 |
+| EURJPY | ($150.00) | 105 |
+| EURUSD | ($200.00) | 20 |
+| GBPUSD | ($50.00) | 90 |
+| Combined Results | (178.92) | 415 |
  
-As you can see, the Max.Drawdown column is NOT equal to the sum of the individual Max.Drawdown values for the that column.  This is because the total \# of trades for the individual instrument and the total \# of trades taken across all instruments is used to help provide more accurate statistics.  Working from the table above, the formula used to calculate these weighted averages can be expressed as follows:
+As you can see, the Max.Drawdown column is NOT equal to the sum of the individual Max.Drawdown values for the that column.  This is because the total # of trades for the individual instrument and the total # of trades taken across all instruments is used to help provide more accurate statistics.  Working from the table above, the formula used to calculate these weighted averages can be expressed as follows:
  
-Combined Max.Drawdown \= SUM((AUDUSD Drawdown \* AUDUSD Trade Count) \+ (EURJPY Drawdown \* EURJPY Trade Count) \+ (EURUSD Drawdown \* EURUSD Trade Count) \+ (GBPUSD Drawdown \* GBPUSD Trade Count)) / Total Trade Count of All Instruments 
+Combined Max.Drawdown = SUM((AUDUSD Drawdown * AUDUSD Trade Count) + (EURJPY Drawdown * EURJPY Trade Count) + (EURUSD Drawdown * EURUSD Trade Count) + (GBPUSD Drawdown * GBPUSD Trade Count)) / Total Trade Count of All Instruments 
 

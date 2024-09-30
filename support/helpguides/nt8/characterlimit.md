@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Share Service \> CharacterLimit
+NinjaScript > Language Reference > Share Service > CharacterLimit
 CharacterLimit
 
-| \<\< [Click to Display Table of Contents](characterlimit.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Share Service](share_service.md) \> CharacterLimit | [Previous page](share_service.md) [Return to chapter overview](share_service.md) [Next page](charactersreservedpermedia.md) |
+| << [Click to Display Table of Contents](characterlimit.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Share Service](share_service.md) > CharacterLimit | [Previous page](share_service.md) [Return to chapter overview](share_service.md) [Next page](charactersreservedpermedia.md) |
 | --- | --- |
 
 ## Definition
@@ -23,5 +23,5 @@ CharacterLimit
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {                         if (State \=\= State.SetDefaults) { CharacterLimit        \= 280; } } |
+| protected override void OnStateChange() {                         if (State == State.SetDefaults) { CharacterLimit        = 280; } } |
 

@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Volume (VOL)
+NinjaScript > Language Reference > Common > System Indicator Methods > Volume (VOL)
 Volume (VOL)
 
-| \<\< [Click to Display Table of Contents](volume.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [System Indicator Methods](indicators.md) \> Volume (VOL) | [Previous page](ultimate_oscillator.md) [Return to chapter overview](indicators.md) [Next page](volume_moving_average_volma.md) |
+| << [Click to Display Table of Contents](volume.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) > Volume (VOL) | [Previous page](ultimate_oscillator.md) [Return to chapter overview](indicators.md) [Next page](volume_moving_average_volma.md) |
 | --- | --- |
 
 ## Description
@@ -13,16 +13,16 @@ Volume is simply the number of shares (or contracts) traded during a specified t
 ## Syntax
 VOL()  
 
-VOL(ISeries\<double\> input)
+VOL(ISeries<double> input)
  
 Returns default value  
 
-VOL()\[int barsAgo]  
+VOL()[int barsAgo]  
 
-VOL(ISeries\<double\> input)\[int barsAgo]
+VOL(ISeries<double> input)[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
@@ -31,7 +31,7 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 ## Example
 | ns |
 | --- |
-| // Prints the current value VOL double value \= VOL()\[0]; Print("The current VOL value is " \+ value.ToString()); |
+| // Prints the current value VOL double value = VOL()[0]; Print("The current VOL value is " + value.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

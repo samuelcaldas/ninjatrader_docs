@@ -1,16 +1,16 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order
+NinjaScript > Language Reference > Strategy > Order
 Order
-| \<\< [Click to Display Table of Contents](order.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> Order | [Previous page](optimizationperiod.md) [Return to chapter overview](strategy.md) [Next page](isterminalstate.md) |
+| << [Click to Display Table of Contents](order.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > Order | [Previous page](optimizationperiod.md) [Return to chapter overview](strategy.md) [Next page](isterminalstate.md) |
 | --- | --- |
 ## Definition
 Represents a read only interface that exposes information regarding an order.
  
 - An Order object returned from calling an order method is dynamic in that its properties will always reflect the current state of an order 
 
-- The property \<Order\>.OrderId is NOT a unique value, since it can change throughout an order's lifetime.  Please see the [Advance Order Handling](advanced_order_handling.md) section on "Transitioning order references from historical to live" for details on how to handle.
+- The property <Order>.OrderId is NOT a unique value, since it can change throughout an order's lifetime.  Please see the [Advance Order Handling](advanced_order_handling.md) section on "Transitioning order references from historical to live" for details on how to handle.
 
-- The property \<Order\>.Oco WILL be appended with a suffix when the strategy transitions from historical to real\-time to ensure the OCO id is unique across multiple strategies for live orders
+- The property <Order>.Oco WILL be appended with a suffix when the strategy transitions from historical to real-time to ensure the OCO id is unique across multiple strategies for live orders
 
 - To check for equality you can compare Order objects directly
 
@@ -63,11 +63,11 @@ Represents a read only interface that exposes information regarding an order.
 | OrderState.Unknown | An unknown order state. Default if broker does not report current order state. |
 
  
-| Critical: In a historical backtest, orders will always reach a "Working" state. In real\-time, some stop orders may only reach "Accepted" state if they are simulated/held on a brokers server |
+| Critical: In a historical backtest, orders will always reach a "Working" state. In real-time, some stop orders may only reach "Accepted" state if they are simulated/held on a brokers server |
 | --- |
 
  
 ## Examples
 | ns |  |
 | --- | --- |
-| private Order entryOrder \= null;   protected override void OnBarUpdate() {    if (entryOrder \=\= null \&\& Close\[0] \> Open\[0])        EnterLong("myEntryOrder"); }   protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError) {    // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately        after submitting    if (order.Name \=\= "myEntryOrder")        entryOrder \= order;      if (entryOrder !\= null \&\& entryOrder \=\= order)    {        Print(order.ToString());        if (order.OrderState \=\= OrderState.Filled)            entryOrder \= null;    } } | |
+| private Order entryOrder = null;   protected override void OnBarUpdate() {    if (entryOrder == null && Close[0] > Open[0])        EnterLong("myEntryOrder"); }   protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError) {    // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately        after submitting    if (order.Name == "myEntryOrder")        entryOrder = order;      if (entryOrder != null && entryOrder == order)    {        Print(order.ToString());        if (order.OrderState == OrderState.Filled)            entryOrder = null;    } } | |

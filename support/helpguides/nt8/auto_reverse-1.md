@@ -1,10 +1,10 @@
 ﻿
-Operations \> Advanced Trade Management (ATM) \> ATM Strategy \> Advanced Options \> Auto Reverse
+Operations > Advanced Trade Management (ATM) > ATM Strategy > Advanced Options > Auto Reverse
 
 Auto Reverse
-| \<\< [Click to Display Table of Contents](auto_reverse.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.md) \> [ATM Strategy](atm_strategy-1.md) \> [Advanced Options](advanced_options-1.md) \> Auto Reverse | [Previous page](auto_chase-1.md) [Return to chapter overview](advanced_options-1.md) [Next page](shadow_strategy-1.md) |
+| << [Click to Display Table of Contents](auto_reverse.md) >> **Navigation:**     [Operations](operations-1.md) > [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.md) > [ATM Strategy](atm_strategy-1.md) > [Advanced Options](advanced_options-1.md) > Auto Reverse | [Previous page](auto_chase-1.md) [Return to chapter overview](advanced_options-1.md) [Next page](shadow_strategy-1.md) |
 | --- | --- |
-Auto Reverse simply reverses your position at either your Stop Loss or Profit Target. You can optionally enable (1\) "Reverse at stop" or (2\) "Reverse at target" with any ATM Strategy. The reverse ATM Strategy used will be the same as the position ATM Strategy you are reversing from.
+Auto Reverse simply reverses your position at either your Stop Loss or Profit Target. You can optionally enable (1) "Reverse at stop" or (2) "Reverse at target" with any ATM Strategy. The reverse ATM Strategy used will be the same as the position ATM Strategy you are reversing from.
  
 ![ATM_4](atm_4.png)
  

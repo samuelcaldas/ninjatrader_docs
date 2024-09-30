@@ -1,14 +1,14 @@
 ﻿
-NinjaScript \> Educational Resources \> Using Historical Bid/Ask Series
+NinjaScript > Educational Resources > Using Historical Bid/Ask Series
 Using Historical Bid/Ask Series
 
-| \<\< [Click to Display Table of Contents](using_historical_bid_ask_serie.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> Using Historical Bid/Ask Series | [Previous page](using_bitmapimage_objects_with_buttons-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](using_images_and_geometry_with_custom_icons-1.md) |
+| << [Click to Display Table of Contents](using_historical_bid_ask_serie.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > Using Historical Bid/Ask Series | [Previous page](using_bitmapimage_objects_with_buttons-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](using_images_and_geometry_with_custom_icons-1.md) |
 | --- | --- |
 
 ## Historical Bid/Ask Series Overview
 NinjaTrader has the ability to use historical bid and ask price series in your NinjaScript instead of only being able to use a last price series. The following outlines the intricacies of this capability:
  
-| Notes:  - You can have multiple bid/ask/last series in your NinjaScript indicator/strategy. Please use the [AddDataSeries()](adddataseries-1.md) method to add these series to your script.- The historical bid/ask series holds all bid/ask events sent out by the exchange. This would not be equivalent to the bid/ask at a specific time a trade went off.- When processing your NinjaScript, the historical bid/ask series would have the historical portion triggered in the [OnBarUpdate()](onbarupdate-1.md) method only. [OnMarketData()](onmarketdata-1.md) method events for the historical bid/ask series would only be triggered in real\-time. |
+| Notes:  - You can have multiple bid/ask/last series in your NinjaScript indicator/strategy. Please use the [AddDataSeries()](adddataseries-1.md) method to add these series to your script.- The historical bid/ask series holds all bid/ask events sent out by the exchange. This would not be equivalent to the bid/ask at a specific time a trade went off.- When processing your NinjaScript, the historical bid/ask series would have the historical portion triggered in the [OnBarUpdate()](onbarupdate-1.md) method only. [OnMarketData()](onmarketdata-1.md) method events for the historical bid/ask series would only be triggered in real-time. |
 | --- |
 
  
@@ -26,5 +26,5 @@ When calling AddDataSeries() to add an additional [Bars](bars-1.md) object to yo
 ## Example
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.Configure)    {        // Add an AAPL data series using the Ask series        AddDataSeries("AAPL", BarsPeriodType.Minute, 30, MarketDataType.Ask);          //Add another AAPL data series using the Bid series, with other settings identical        AddDataSeries("AAPL", BarsPeriodType.Minute, 30, MarketDataType.Bid);    } } |
+| protected override void OnStateChange() {    if (State == State.Configure)    {        // Add an AAPL data series using the Ask series        AddDataSeries("AAPL", BarsPeriodType.Minute, 30, MarketDataType.Ask);          //Add another AAPL data series using the Bid series, with other settings identical        AddDataSeries("AAPL", BarsPeriodType.Minute, 30, MarketDataType.Bid);    } } |
 

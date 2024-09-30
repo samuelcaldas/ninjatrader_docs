@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> TradingHours \> Sessions
+NinjaScript > Language Reference > Common > TradingHours > Sessions
 Sessions
 
-| \<\< [Click to Display Table of Contents](tradinghours_sessions.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [TradingHours](tradinghours.md) \> Sessions | [Previous page](partialholidays.md) [Return to chapter overview](tradinghours.md) [Next page](timezoneinfo.md) |
+| << [Click to Display Table of Contents](tradinghours_sessions.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [TradingHours](tradinghours.md) > Sessions | [Previous page](partialholidays.md) [Return to chapter overview](tradinghours.md) [Next page](timezoneinfo.md) |
 | --- | --- |
 
 ## Definition
@@ -18,10 +18,10 @@ A collection of session definitions of the configured Trading Hours template.  
 
  
 ## Syntax
-Bars.TradingHours.Sessions\[int idx]
+Bars.TradingHours.Sessions[int idx]
 ## 
 ## 
-| Tip:  Each index value will represent a new defined session for the Trading Hours template. For example, accessing Bars.TradingHours.Sessions\[0] would provide you with information for the first trading session configured in the Trading Hours template:   Bars.TradingHours.Sessions\[0].TradingDay \= DayOfWeek.Monday, Bars.TradingHours.Sessions\[1].TradingDay \= DayOfWeek.Tuesday, Bars.TradingHours.Sessions\[2].TradingDay \= DayOfWeek.Wednesday, etc. |
+| Tip:  Each index value will represent a new defined session for the Trading Hours template. For example, accessing Bars.TradingHours.Sessions[0] would provide you with information for the first trading session configured in the Trading Hours template:   Bars.TradingHours.Sessions[0].TradingDay = DayOfWeek.Monday, Bars.TradingHours.Sessions[1].TradingDay = DayOfWeek.Tuesday, Bars.TradingHours.Sessions[2].TradingDay = DayOfWeek.Wednesday, etc. |
 | --- |
 
 ## 
@@ -29,5 +29,5 @@ Bars.TradingHours.Sessions\[int idx]
 ## Examples
 | ns |
 | --- |
-| // Print details for all sessions in the Trading Hours template for (int i \= 0; i \< TradingHours.Sessions.Count; i\+\+) {    Print(String.Format("Session {0}: {1} at {2} to {3} at {4}", i, TradingHours.Sessions\[i].BeginDay, TradingHours.Sessions\[i].BeginTime,      TradingHours.Sessions\[i].EndDay, TradingHours.Sessions\[i].EndTime)); } |
+| // Print details for all sessions in the Trading Hours template for (int i = 0; i < TradingHours.Sessions.Count; i++) {    Print(String.Format("Session {0}: {1} at {2} to {3} at {4}", i, TradingHours.Sessions[i].BeginDay, TradingHours.Sessions[i].BeginTime,      TradingHours.Sessions[i].EndDay, TradingHours.Sessions[i].EndTime)); } |
 

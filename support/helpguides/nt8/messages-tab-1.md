@@ -1,9 +1,9 @@
 ﻿
-Operations \> Control Center \> Messages Tab
+Operations > Control Center > Messages Tab
 
 Messages Tab
 
-| \<\< [Click to Display Table of Contents](messages-tab.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Control Center](control_center-1.md) \> Messages Tab | [Previous page](log_tab2-1.md) [Return to chapter overview](control_center-1.md) [Next page](status_bar-1.md) |
+| << [Click to Display Table of Contents](messages-tab.md) >> **Navigation:**     [Operations](operations-1.md) > [Control Center](control_center-1.md) > Messages Tab | [Previous page](log_tab2-1.md) [Return to chapter overview](control_center-1.md) [Next page](status_bar-1.md) |
 | --- | --- |
 The Messages tab displays messages in relation to your account in a [data grid](data_grids-1.md).
  

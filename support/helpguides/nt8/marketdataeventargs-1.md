@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnMarketData() \> MarketDataEventArgs
+NinjaScript > Language Reference > Common > OnMarketData() > MarketDataEventArgs
 
 MarketDataEventArgs
 
-| \<\< [Click to Display Table of Contents](marketdataeventargs.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [OnMarketData()](onmarketdata-1.md) \> MarketDataEventArgs | [Previous page](onmarketdata-1.md) [Return to chapter overview](onmarketdata-1.md) [Next page](onmarketdepth-1.md) |
+| << [Click to Display Table of Contents](marketdataeventargs.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [OnMarketData()](onmarketdata-1.md) > MarketDataEventArgs | [Previous page](onmarketdata-1.md) [Return to chapter overview](onmarketdata-1.md) [Next page](onmarketdepth-1.md) |
 | --- | --- |
 ## Definition
 Represents a change in level one market data and is passed as a parameter in the [OnMarketData()](onmarketdata-1.md) method.   
@@ -32,4 +32,4 @@ Represents a change in level one market data and is passed as a parameter in the
 
 | ns |
 | --- |
-| protected override void OnMarketData(MarketDataEventArgs marketDataUpdate) {      // Print some data to the Output window      if (marketDataUpdate.MarketDataType \=\= MarketDataType.Last)          Print("Last \= " \+ marketDataUpdate.Price \+ " " \+ marketDataUpdate.Volume);      else if (marketDataUpdate.MarketDataType \=\= MarketDataType.Ask)          Print("Ask \= " \+ marketDataUpdate.Price \+ " " \+ marketDataUpdate.Volume);      else if (marketDataUpdate.MarketDataType \=\= MarketDataType.Bid)          Print("Bid \= " \+ marketDataUpdate.Price \+ " " \+ marketDataUpdate.Volume); } |
+| protected override void OnMarketData(MarketDataEventArgs marketDataUpdate) {      // Print some data to the Output window      if (marketDataUpdate.MarketDataType == MarketDataType.Last)          Print("Last = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume);      else if (marketDataUpdate.MarketDataType == MarketDataType.Ask)          Print("Ask = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume);      else if (marketDataUpdate.MarketDataType == MarketDataType.Bid)          Print("Bid = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume); } |

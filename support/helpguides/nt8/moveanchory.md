@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> ChartAnchor \> MoveAnchorY()
+NinjaScript > Language Reference > Drawing Tool > ChartAnchor > MoveAnchorY()
 
 MoveAnchorY()
 
-| \<\< [Click to Display Table of Contents](moveanchory.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Drawing Tool](drawing_tools.md) \> [ChartAnchor](chartanchor.md) \> MoveAnchorY() | [Previous page](moveanchorx.md) [Return to chapter overview](chartanchor.md) [Next page](price.md) |
+| << [Click to Display Table of Contents](moveanchory.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > [ChartAnchor](chartanchor.md) > MoveAnchorY() | [Previous page](moveanchorx.md) [Return to chapter overview](chartanchor.md) [Next page](price.md) |
 | --- | --- |
 ## Definition
 Moves an anchor's y value from start point by a delta point amount.
@@ -12,15 +12,15 @@ Moves an anchor's y value from start point by a delta point amount.
 This method does not return a value.
  
 ## Syntax
-\<ChartAnchor\>.MoveAnchorY(Point startPoint, Point deltaPoint, ChartControl chartControl, ChartScale chartScale)
+<ChartAnchor>.MoveAnchorY(Point startPoint, Point deltaPoint, ChartControl chartControl, ChartScale chartScale)
 ## 
 ## Method Parameters
 
 | startPoint | The chart anchor's original starting point value |
 | --- | --- |
 | deltaPoint | The chart anchor's new point value to be updated |
-| chartControl | A ChartControl representing the x\-axis |
-| chartScale | A ChartScale representing the y\-axis |
+| chartControl | A ChartControl representing the x-axis |
+| chartScale | A ChartScale representing the y-axis |
 ## 
 ## 
 ## Examples

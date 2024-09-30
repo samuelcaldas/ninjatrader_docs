@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Attributes \> NinjaScriptPropertyAttribute
+NinjaScript > Language Reference > Common > Attributes > NinjaScriptPropertyAttribute
 NinjaScriptPropertyAttribute
-| \<\< [Click to Display Table of Contents](ninjascriptpropertyattribute.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Attributes](attributes.md) \> NinjaScriptPropertyAttribute | [Previous page](displayattribute.md) [Return to chapter overview](attributes.md) [Next page](rangeattribute.md) |
+| << [Click to Display Table of Contents](ninjascriptpropertyattribute.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Attributes](attributes.md) > NinjaScriptPropertyAttribute | [Previous page](displayattribute.md) [Return to chapter overview](attributes.md) [Next page](rangeattribute.md) |
 | --- | --- |
 ## Definition
 Determines if the following declared property should be included in the NinjaScript object's constructor as a parameter.  This is useful if you plan on calling a NinjaScript object from another (e.g., calling a custom indicator from a strategy) or customizing the display parameter data on a grid or from a chart. This also used to make parameters [optimizable](optimize_a_strategy.md) in the Strategy Analyzer.
@@ -12,7 +12,7 @@ Determines if the following declared property should be included in the NinjaScr
 ## 
 ## 
 ## Syntax
-\[NinjaScriptProperty]
+[NinjaScriptProperty]
  
 ## Parameters
 ## This object contains no parameters
@@ -21,8 +21,8 @@ Determines if the following declared property should be included in the NinjaScr
 ## Examples
 | ns |
 | --- |
-| \#region Properties           // set NinjaScriptProperty to ensure this property is used when calling from another object \[NinjaScriptProperty] public bool MyBool    { get; set; }   // do not set NinjaScriptProperty since this property is not required to call // nor do we wish to display it on the chart label public int MyInt { get; set; }   \#endregion |
+| #region Properties           // set NinjaScriptProperty to ensure this property is used when calling from another object [NinjaScriptProperty] public bool MyBool    { get; set; }   // do not set NinjaScriptProperty since this property is not required to call // nor do we wish to display it on the chart label public int MyInt { get; set; }   #endregion |
 
 | ns |
 | --- |
-| \[XmlIgnore] // cannot serialize type of TimeSpan, use the BeginTimeSpanSerialize object to persist properties       \[Browsable(false)] // prevents this property from showing up on the UI public TimeSpan BeginTimeSpan { get; set; }   // users will configure this "string" as the TimeSpan which will be set as a TimeSpan object used in data processing \[NinjaScriptProperty] \[Display(Name \= "Begin TimeSpan", GroupName \= "NinjaScriptStrategyParameters", Order \= 1)] public string BeginTimeSpanSerialize {    get { return BeginTimeSpan.ToString(); }    set { BeginTimeSpan \= TimeSpan.Parse(value); } } |
+| [XmlIgnore] // cannot serialize type of TimeSpan, use the BeginTimeSpanSerialize object to persist properties       [Browsable(false)] // prevents this property from showing up on the UI public TimeSpan BeginTimeSpan { get; set; }   // users will configure this "string" as the TimeSpan which will be set as a TimeSpan object used in data processing [NinjaScriptProperty] [Display(Name = "Begin TimeSpan", GroupName = "NinjaScriptStrategyParameters", Order = 1)] public string BeginTimeSpanSerialize {    get { return BeginTimeSpan.ToString(); }    set { BeginTimeSpan = TimeSpan.Parse(value); } } |

@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order Methods
+NinjaScript > Language Reference > Strategy > Order Methods
 
 Order Methods
 
-| \<\< [Click to Display Table of Contents](order_methods.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> Order Methods | [Previous page](isterminalstate.md) [Return to chapter overview](strategy.md) [Next page](managed_approach.md) |
+| << [Click to Display Table of Contents](order_methods.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > Order Methods | [Previous page](isterminalstate.md) [Return to chapter overview](strategy.md) [Next page](managed_approach.md) |
 | --- | --- |
  
 

@@ -1,9 +1,9 @@
 ﻿
-Configuration \> Connecting \> Log In
+Configuration > Connecting > Log In
 
 Log In
 
-| \<\< [Click to Display Table of Contents](log-in.md) \>\> **Navigation:**     [Configuration](configuration-1.md) \> [Connecting](connecting-1.md) \> Log In | [Previous page](connecting-1.md) [Return to chapter overview](connecting-1.md) [Next page](trading-mode-1.md) |
+| << [Click to Display Table of Contents](log-in.md) >> **Navigation:**     [Configuration](configuration-1.md) > [Connecting](connecting-1.md) > Log In | [Previous page](connecting-1.md) [Return to chapter overview](connecting-1.md) [Next page](trading-mode-1.md) |
 | --- | --- |
 When starting NinjaTrader you will be presented with a Log In window.
  
@@ -11,7 +11,7 @@ When starting NinjaTrader you will be presented with a Log In window.
 ## 
 ## 
 
-| Warning: Your Log In is only for your NinjaTrader account, your entitlements, and Server side ATM Templates. All items within NinjaTrader on your local computer will be available to anyone who logs in: Configured Multi\-provider connections, NinjaScripts, Workspaces, etc. |
+| Warning: Your Log In is only for your NinjaTrader account, your entitlements, and Server side ATM Templates. All items within NinjaTrader on your local computer will be available to anyone who logs in: Configured Multi-provider connections, NinjaScripts, Workspaces, etc. |
 | --- |
  
 ## Log In credentials

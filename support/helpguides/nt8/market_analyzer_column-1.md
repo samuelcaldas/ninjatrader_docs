@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Market Analyzer Column
+NinjaScript > Language Reference > Market Analyzer Column
 
 Market Analyzer Column
 
-| \<\< [Click to Display Table of Contents](market_analyzer_column.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> Market Analyzer Column | [Previous page](showtransparentplotsindatabox-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](currenttext-1.md) |
+| << [Click to Display Table of Contents](market_analyzer_column.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > Market Analyzer Column | [Previous page](showtransparentplotsindatabox-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](currenttext-1.md) |
 | --- | --- |
 Custom Market Analyzer columns can be used to further enhance your Market Analyzer experience by providing custom columns displaying values of your choosing. The methods and properties covered in this section are unique to custom Market Analyzer Column development.
  

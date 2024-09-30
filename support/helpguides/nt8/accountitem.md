@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> Account \> AccountItem
+NinjaScript > Language Reference > Add On > Account > AccountItem
 
 AccountItem
 
-| \<\< [Click to Display Table of Contents](accountitem.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Add On](add_on.md) \> [Account](account_class.md) \> AccountItem | [Previous page](account_class.md) [Return to chapter overview](account_class.md) [Next page](accountitemupdate.md) |
+| << [Click to Display Table of Contents](accountitem.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) > AccountItem | [Previous page](account_class.md) [Return to chapter overview](account_class.md) [Next page](accountitemupdate.md) |
 | --- | --- |
 ## Definition
 Represents various account variables used to reflect values the status of the account.  Each account connected in NinjaTrader will have it's own unique AccountItem values.

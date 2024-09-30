@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> DisplayOnChartsMenus
+NinjaScript > Language Reference > Drawing Tool > DisplayOnChartsMenus
 
 DisplayOnChartsMenus
 
-| \<\< [Click to Display Table of Contents](displayonchartsmenus.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Drawing Tool](drawing_tools-1.md) \> DisplayOnChartsMenus | [Previous page](createanchor-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](dispose-1.md) |
+| << [Click to Display Table of Contents](displayonchartsmenus.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > DisplayOnChartsMenus | [Previous page](createanchor-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](dispose-1.md) |
 | --- | --- |
 ## Definition
 Determines if the drawing tool displays in the chart's drawing tool menus.
@@ -18,4 +18,4 @@ DisplayOnChartsMenus
 
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {      Name                 \= @"My Drawing Tool";      DisplayOnChartsMenus \= true;    } } |
+| protected override void OnStateChange() {    if (State == State.SetDefaults)    {      Name                 = @"My Drawing Tool";      DisplayOnChartsMenus = true;    } } |

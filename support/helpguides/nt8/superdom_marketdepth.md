@@ -2,7 +2,7 @@
 MarketDepth
 MarketDepth
 
-| \<\< [Click to Display Table of Contents](superdom_marketdepth.md) \>\> **Navigation:**   »No topics above this level«   MarketDepth | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
+| << [Click to Display Table of Contents](superdom_marketdepth.md) >> **Navigation:**   »No topics above this level«   MarketDepth | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
 | --- | --- |
 
 ## Definition
@@ -20,5 +20,5 @@ This method does not return a value.
 ## Examples
 | ns | |
 | --- | --- |
-|  | protected override void OnMarketDepth(Data.MarketDepthEventArgs marketDepthUpdate) {      if (marketDepthUpdate.MarketDataType \=\= MarketDataType.Ask \&\& marketDepthUpdate.Operation \=\= Operation.Update)           // Do something } |
+|  | protected override void OnMarketDepth(Data.MarketDepthEventArgs marketDepthUpdate) {      if (marketDepthUpdate.MarketDataType == MarketDataType.Ask && marketDepthUpdate.Operation == Operation.Update)           // Do something } |
 

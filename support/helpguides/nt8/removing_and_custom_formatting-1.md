@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Educational Resources \> Reference Samples \> Indicator \> Removing and Custom Formatting an Indicator’s Chart Label
+NinjaScript > Educational Resources > Reference Samples > Indicator > Removing and Custom Formatting an Indicator’s Chart Label
 Removing and Custom Formatting an Indicator’s Chart Label
-| \<\< [Click to Display Table of Contents](removing_and_custom_formatting.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> [Reference Samples](reference_samples-1.md) \> [Indicator](indicator2-1.md) \> Removing and Custom Formatting an Indicator’s Chart Label | [Previous page](multi-colored_plots-1.md) [Return to chapter overview](indicator2-1.md) [Next page](using_a_secondary_series_as_an-1.md) |
+| << [Click to Display Table of Contents](removing_and_custom_formatting.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Indicator](indicator2-1.md) > Removing and Custom Formatting an Indicator’s Chart Label | [Previous page](multi-colored_plots-1.md) [Return to chapter overview](indicator2-1.md) [Next page](using_a_secondary_series_as_an-1.md) |
 | --- | --- |
 If you create a NinjaScript indicator or strategy with many customizable parameters, you will have a long label when you load the NinjaScript onto your chart. This may be visually cumbersome so you may want to trim the displayed label to a more manageable size that only contains the most important parameters.
  
@@ -20,11 +20,11 @@ If you create a NinjaScript indicator or strategy with many customizable paramet
 | --- |
 
 ## Import instructions
-1\.Download the file contained in this Help Guide topic to your PC desktop
+1.Download the file contained in this Help Guide topic to your PC desktop
 
-2\.From the Control Center window, select the menu Tools \> Import \> NinjaScript
+2.From the Control Center window, select the menu Tools > Import > NinjaScript
 
-3\.Select the downloaded file
+3.Select the downloaded file
 
  
-[SampleDisplayName\_NT8\.zip](samples/SampleDisplayName_NT8.zip)
+[SampleDisplayName_NT8.zip](samples/SampleDisplayName_NT8.zip)

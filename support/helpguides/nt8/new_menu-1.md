@@ -1,8 +1,8 @@
 ﻿
-Operations \> Control Center \> New Menu
+Operations > Control Center > New Menu
 New Menu
 
-| \<\< [Click to Display Table of Contents](new_menu.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Control Center](control_center-1.md) \> New Menu | [Previous page](control_center-1.md) [Return to chapter overview](control_center-1.md) [Next page](tools_menu-1.md) |
+| << [Click to Display Table of Contents](new_menu.md) >> **Navigation:**     [Operations](operations-1.md) > [Control Center](control_center-1.md) > New Menu | [Previous page](control_center-1.md) [Return to chapter overview](control_center-1.md) [Next page](tools_menu-1.md) |
 | --- | --- |
 
 The following menus and items are available via the New menu of the NinjaTrader Control Center.
@@ -25,7 +25,7 @@ The following menus and items are available via the New menu of the NinjaTrader 
 | [Market Watch](market-watch-1.md) | Created a new Market Watch window |
 | [News](news-1.md) | Creates a new News window |
 | [Strategy Analyzer](strategy_analyzer-1.md) | Creates a new Strategy Analyzer window |
-| [T \& S](time__sales-1.md) | Creates a new Time \& Sales window |
+| [T & S](time__sales-1.md) | Creates a new Time & Sales window |
 | Account Data | Creates a new Account Data window |
 | [Trade Performance](trade_performance-1.md) | Creates a new Trade Performance window |
 | [NinjaScript Editor](editor-1.md) | Creates a new NinjaScript Editor window |

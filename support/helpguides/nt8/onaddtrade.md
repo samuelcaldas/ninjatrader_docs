@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Performance Metrics \> OnAddTrade()
+NinjaScript > Language Reference > Performance Metrics > OnAddTrade()
 
 OnAddTrade()
 
-| \<\< [Click to Display Table of Contents](onaddtrade.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Performance Metrics](performance_metrics.md) \> OnAddTrade() | [Previous page](format.md) [Return to chapter overview](performance_metrics.md) [Next page](oncopyto.md) |
+| << [Click to Display Table of Contents](onaddtrade.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Performance Metrics](performance_metrics.md) > OnAddTrade() | [Previous page](format.md) [Return to chapter overview](performance_metrics.md) [Next page](oncopyto.md) |
 | --- | --- |
 ## Definition
 This method is called as each trade is added. You would add any custom math you wanted to do here.
@@ -24,4 +24,4 @@ protected override void OnAddTrade(Cbi.[Trade](trade.md) trade)
 
 | ns |
 | --- |
-| protected override void OnAddTrade(Cbi.Trade trade) {      Values\[(int)Cbi.PerformanceUnit.Currency] \+\= trade.ProfitCurrency;      Values\[(int)Cbi.PerformanceUnit.Percent]  \+\= trade.ProfitPercent;      Values\[(int)Cbi.PerformanceUnit.Pips]     \+\= trade.ProfitPips;      Values\[(int)Cbi.PerformanceUnit.Points]   \+\= trade.ProfitPoints;      Values\[(int)Cbi.PerformanceUnit.Ticks]    \+\= trade.ProfitTicks; } |
+| protected override void OnAddTrade(Cbi.Trade trade) {      Values[(int)Cbi.PerformanceUnit.Currency] += trade.ProfitCurrency;      Values[(int)Cbi.PerformanceUnit.Percent]  += trade.ProfitPercent;      Values[(int)Cbi.PerformanceUnit.Pips]     += trade.ProfitPips;      Values[(int)Cbi.PerformanceUnit.Points]   += trade.ProfitPoints;      Values[(int)Cbi.PerformanceUnit.Ticks]    += trade.ProfitTicks; } |

@@ -1,15 +1,15 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order Methods \> Managed Approach \> ExitShortStopMarket()
+NinjaScript > Language Reference > Strategy > Order Methods > Managed Approach > ExitShortStopMarket()
 ExitShortStopMarket()
 
-| \<\< [Click to Display Table of Contents](exitshortstopmarket.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [Order Methods](order_methods.md) \> [Managed Approach](managed_approach.md) \> ExitShortStopMarket() | [Previous page](exitshortstoplimit.md) [Return to chapter overview](managed_approach.md) [Next page](getrealtimeorder.md) |
+| << [Click to Display Table of Contents](exitshortstopmarket.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Managed Approach](managed_approach.md) > ExitShortStopMarket() | [Previous page](exitshortstoplimit.md) [Return to chapter overview](managed_approach.md) [Next page](getrealtimeorder.md) |
 | --- | --- |
 
 ## Definition
 Generates a buy to cover stop market order to exit a short position.
  
 ## Method Return Value
-An [Order](order.md) read\-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.   
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.   
 
  
 Syntax  
@@ -39,7 +39,7 @@ ExitShortStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int quan
 ## Examples
 | ns |
 | --- |
-| private double stopPrice \= 0;   protected override void OnBarUpdate() {      if (CurrentBar \< 20)          return;        // Only enter if at least 10 bars has passed since our last entry      if ((BarsSinceEntryExecution() \> 10 \|\| BarsSinceEntryExecution() \=\= \-1) \&\& CrossBelow(SMA(10), SMA(20), 1))      {          EnterShort("SMA Cross Entry");          stopPrice \= Low\[0];      }        // Exits position      ExitShortStopMarket(stopPrice); } |
+| private double stopPrice = 0;   protected override void OnBarUpdate() {      if (CurrentBar < 20)          return;        // Only enter if at least 10 bars has passed since our last entry      if ((BarsSinceEntryExecution() > 10 || BarsSinceEntryExecution() == -1) && CrossBelow(SMA(10), SMA(20), 1))      {          EnterShort("SMA Cross Entry");          stopPrice = Low[0];      }        // Exits position      ExitShortStopMarket(stopPrice); } |
 
 ## 
 ## 

@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Dot() \> Dot
+NinjaScript > Language Reference > Common > Drawing > Draw.Dot() > Dot
 
 Dot
-| \<\< [Click to Display Table of Contents](dot.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.Dot()](draw_dot.md) \> Dot | [Previous page](draw_dot.md) [Return to chapter overview](draw_dot.md) [Next page](draw_ellipse.md) |
+| << [Click to Display Table of Contents](dot.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Dot()](draw_dot.md) > Dot | [Previous page](draw_dot.md) [Return to chapter overview](draw_dot.md) [Next page](draw_ellipse.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Dot [IDrawingTool](idrawingtool.md).
@@ -18,4 +18,4 @@ Represents an interface that exposes information regarding a Dot [IDrawingTool](
 ## Example
 | ns |
 | --- |
-| // Instantiates a red dot on the current bar 1 tick below the low Dot myDot \= Draw.Dot(this, "tag1", true, 0, Low\[0] \- TickSize, Brushes.Red);   // Disable the dot's Auto Scale property myDot.IsAutoScale \= false; |
+| // Instantiates a red dot on the current bar 1 tick below the low Dot myDot = Draw.Dot(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);   // Disable the dot's Auto Scale property myDot.IsAutoScale = false; |

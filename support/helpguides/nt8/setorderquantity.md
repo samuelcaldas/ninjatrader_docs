@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> SetOrderQuantity
+NinjaScript > Language Reference > Strategy > SetOrderQuantity
 
 SetOrderQuantity
 
-| \<\< [Click to Display Table of Contents](setorderquantity.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> SetOrderQuantity | [Previous page](restartswithinminutes.md) [Return to chapter overview](strategy.md) [Next page](slippage.md) |
+| << [Click to Display Table of Contents](setorderquantity.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > SetOrderQuantity | [Previous page](restartswithinminutes.md) [Return to chapter overview](strategy.md) [Next page](slippage.md) |
 | --- | --- |
 ## Definition
 Determines how order sizes are calculated for a given strategy.
@@ -30,4 +30,4 @@ SetOrderQuantity
 
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.Configure)      {          SetOrderQuantity \= SetOrderQuantity.DefaultQuantity; // calculate orders based off default size      } } |
+| protected override void OnStateChange() {      if (State == State.Configure)      {          SetOrderQuantity = SetOrderQuantity.DefaultQuantity; // calculate orders based off default size      } } |

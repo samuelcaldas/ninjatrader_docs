@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> IsTradingHoursBreakLineVisible
+NinjaScript > Language Reference > Strategy > IsTradingHoursBreakLineVisible
 
 IsTradingHoursBreakLineVisible
 
-| \<\< [Click to Display Table of Contents](istradinghoursbreaklinevisible.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> IsTradingHoursBreakLineVisible | [Previous page](isinstrategyanalyer.md) [Return to chapter overview](strategy.md) [Next page](iswaituntilflat.md) |
+| << [Click to Display Table of Contents](istradinghoursbreaklinevisible.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > IsTradingHoursBreakLineVisible | [Previous page](isinstrategyanalyer.md) [Return to chapter overview](strategy.md) [Next page](iswaituntilflat.md) |
 | --- | --- |
 ## Definition
 Plots trading hours break lines on the indicator panel.
@@ -26,4 +26,4 @@ IsTradingHoursBreakLineVisible
 
 | ns | |
 | --- | --- |
-|  | protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          IsTradingHoursBreakLineVisible \= true;               AddPlot(Brushes.Orange, "SMA");      } } |
+|  | protected override void OnStateChange() {      if (State == State.SetDefaults)      {          IsTradingHoursBreakLineVisible = true;               AddPlot(Brushes.Orange, "SMA");      } } |

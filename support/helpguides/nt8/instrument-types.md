@@ -1,7 +1,7 @@
 ﻿
-Operations \> Instruments \> Instrument Types
+Operations > Instruments > Instrument Types
 Instrument Types
-| \<\< [Click to Display Table of Contents](instrument-types.md) \>\> **Navigation:**     [Operations](operations.md) \> [Instruments](instruments.md) \> Instrument Types | [Previous page](instruments.md) [Return to chapter overview](instruments.md) [Next page](searching_for_instruments.md) |
+| << [Click to Display Table of Contents](instrument-types.md) >> **Navigation:**     [Operations](operations.md) > [Instruments](instruments.md) > Instrument Types | [Previous page](instruments.md) [Return to chapter overview](instruments.md) [Next page](searching_for_instruments.md) |
 | --- | --- |
 NinjaTrader supports the following Instrument types, although what your individual connected to provider can support will vary. Please consult [this link](data_by_provider.md) for more info.
  
@@ -55,9 +55,9 @@ NinjaTrader supports the following Instrument types, although what your individu
  
 ## Option
  
-- Options can be charted (real\-time only) and traded
+- Options can be charted (real-time only) and traded
 
-- Options master instruments and properties are dynamically injected into the database and therefore are not search\-able. Also they are removed as the database file is [reset](database_operations.md) or deleted.
+- Options master instruments and properties are dynamically injected into the database and therefore are not search-able. Also they are removed as the database file is [reset](database_operations.md) or deleted.
 
 - Options are requested through the dedicated [Options Chain window](option-chain.md) 
 

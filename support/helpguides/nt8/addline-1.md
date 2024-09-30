@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Indicator \> AddLine()
+NinjaScript > Language Reference > Indicator > AddLine()
 
 AddLine()
-| \<\< [Click to Display Table of Contents](addline.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Indicator](indicator-1.md) \> AddLine() | [Previous page](indicator-1.md) [Return to chapter overview](indicator-1.md) [Next page](arelinesconfigurable-1.md) |
+| << [Click to Display Table of Contents](addline.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Indicator](indicator-1.md) > AddLine() | [Previous page](indicator-1.md) [Return to chapter overview](indicator-1.md) [Next page](arelinesconfigurable-1.md) |
 | --- | --- |
 ## Definition
 Adds line objects on a chart.
@@ -36,10 +36,10 @@ AddLine(Stroke stroke, double value, string name)
 ## Examples
 | ns | Defining a single UI configurable static line |
 | --- | --- |
-|  | protected override void OnStateChange() {          if (State \=\= State.SetDefaults)    {      Name \= "Examples Indicator";         // Adds an oscillator line at a value of 30      AddLine(Brushes.Gray, 30, "Lower");    } } |
+|  | protected override void OnStateChange() {          if (State == State.SetDefaults)    {      Name = "Examples Indicator";         // Adds an oscillator line at a value of 30      AddLine(Brushes.Gray, 30, "Lower");    } } |
 
  
 | ns | Indicator which dynamically adds a line in State.Configure |
 | --- | --- |
-|  | protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {      Name                 \= "Examples Indicator";        // logical property which user can set      UseSpecialMode   \= false;      // Default brush selection pushed to the UI      MyBrush \= Brushes.Red;    }    else if (State \=\= State.Configure)    {      // if user enables logical property      if (UseSpecialMode)      {          // add line using default selected brush and special line name          AddLine(MyBrush, 40,  "My Special Line");      }      else      {          // otherwise use default selected brush and regular line name          AddLine(MyBrush, 60, "My Regular Line");      }    } }     \[XmlIgnore] public Brush MyBrush { get; set; }   public bool UseSpecialMode { get; set; } |
+|  | protected override void OnStateChange() {    if (State == State.SetDefaults)    {      Name                 = "Examples Indicator";        // logical property which user can set      UseSpecialMode   = false;      // Default brush selection pushed to the UI      MyBrush = Brushes.Red;    }    else if (State == State.Configure)    {      // if user enables logical property      if (UseSpecialMode)      {          // add line using default selected brush and special line name          AddLine(MyBrush, 40,  "My Special Line");      }      else      {          // otherwise use default selected brush and regular line name          AddLine(MyBrush, 60, "My Regular Line");      }    } }     [XmlIgnore] public Brush MyBrush { get; set; }   public bool UseSpecialMode { get; set; } |
 

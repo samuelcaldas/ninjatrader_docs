@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> ConnectionLossHandling
+NinjaScript > Language Reference > Strategy > ConnectionLossHandling
 ConnectionLossHandling
-| \<\< [Click to Display Table of Contents](connectionlosshandling.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> ConnectionLossHandling | [Previous page](closestrategy.md) [Return to chapter overview](strategy.md) [Next page](daystoload.md) |
+| << [Click to Display Table of Contents](connectionlosshandling.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > ConnectionLossHandling | [Previous page](closestrategy.md) [Return to chapter overview](strategy.md) [Next page](daystoload.md) |
 | --- | --- |
 ## Definition
 Sets the manner in which your strategy will behave when a connection loss is detected.
@@ -27,5 +27,5 @@ ConnectionLossHandling
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange()  {      if (State \=\= State.SetDefaults)      {          // Keeps the strategy running as if no disconnect occurred          ConnectionLossHandling \= ConnectionLossHandling.KeepRunning;      } } |
+| protected override void OnStateChange()  {      if (State == State.SetDefaults)      {          // Keeps the strategy running as if no disconnect occurred          ConnectionLossHandling = ConnectionLossHandling.KeepRunning;      } } |
 

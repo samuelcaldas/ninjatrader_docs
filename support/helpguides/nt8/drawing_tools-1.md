@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool
+NinjaScript > Language Reference > Drawing Tool
 
 Drawing Tools
-| \<\< [Click to Display Table of Contents](drawing_tools.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> Drawing Tools | [Previous page](upbrushdx-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](addpastedoffset-1.md) |
+| << [Click to Display Table of Contents](drawing_tools.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > Drawing Tools | [Previous page](upbrushdx-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](addpastedoffset-1.md) |
 | --- | --- |
 Custom Drawing Tools can be used to render custom shapes to a point on the chart to represent various information.  The methods and properties covered in this section are unique to custom Drawing Tools development. Following is an index of the documented properties and methods related to drawing tools.
  

@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.GannFan()
+NinjaScript > Language Reference > Common > Drawing > Draw.GannFan()
 Draw.GannFan()
-| \<\< [Click to Display Table of Contents](draw_gannfan.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.GannFan() | [Previous page](fibonaccitimeextensions.md) [Return to chapter overview](drawing.md) [Next page](gannfan.md) |
+| << [Click to Display Table of Contents](draw_gannfan.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > Draw.GannFan() | [Previous page](fibonaccitimeextensions.md) [Return to chapter overview](drawing.md) [Next page](gannfan.md) |
 | --- | --- |
 ## Definition
 Draws a Gann Fan.
@@ -20,7 +20,7 @@ Draw.GannFan(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime time,
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
-| isAutoScale | Determines if the draw object will be included in the y\-axis scale |
+| isAutoScale | Determines if the draw object will be included in the y-axis scale |
 | barsAgo | The bar the object will be drawn at. A value of 10 would be 10 bars ago. |
 | time | The time the object will be drawn at. |
 | y | The y value |
@@ -31,5 +31,5 @@ Draw.GannFan(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime time,
 ## Examples
 | ns |
 | --- |
-| // Draws a Gann Fan at the current bar low Draw.GannFan(this, "tag1", true, 0, Low\[0]); |
+| // Draws a Gann Fan at the current bar low Draw.GannFan(this, "tag1", true, 0, Low[0]); |
 

@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Chart Style \> SetPropertyName()
+NinjaScript > Language Reference > Chart Style > SetPropertyName()
 
 SetPropertyName()
 
-| \<\< [Click to Display Table of Contents](setpropertyname.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Chart Style](chart_style.md) \> SetPropertyName() | [Previous page](chartstyle_onrender.md) [Return to chapter overview](chart_style.md) [Next page](transformbrush.md) |
+| << [Click to Display Table of Contents](setpropertyname.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Chart Style](chart_style.md) > SetPropertyName() | [Previous page](chartstyle_onrender.md) [Return to chapter overview](chart_style.md) [Next page](transformbrush.md) |
 | --- | --- |
 ## Definition
 Sets a default property name to a custom string to be displayed on the UI. 
@@ -26,7 +26,7 @@ SetPropertyName(string propertyName, string displayName)
 
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.Configure)    {        Properties.Remove(Properties.Find("Stroke", true));        Properties.Remove(Properties.Find("Stroke2", true));          SetPropertyName("UpBrush", "AdvanceBar");        SetPropertyName("DownBrush", "DeclineBar");    } } |
+| protected override void OnStateChange() {    if (State == State.Configure)    {        Properties.Remove(Properties.Find("Stroke", true));        Properties.Remove(Properties.Find("Stroke2", true));          SetPropertyName("UpBrush", "AdvanceBar");        SetPropertyName("DownBrush", "DeclineBar");    } } |
 ## 
 ## 
 

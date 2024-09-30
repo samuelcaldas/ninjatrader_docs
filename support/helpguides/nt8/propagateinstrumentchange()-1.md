@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> PropagateInstrumentChange()
+NinjaScript > Language Reference > Add On > PropagateInstrumentChange()
 
 PropagateInstrumentChange()
 
-| \<\< [Click to Display Table of Contents](propagateinstrumentchange().md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Add On](add_on-1.md) \> PropagateInstrumentChange() | [Previous page](strategybase-1.md) [Return to chapter overview](add_on-1.md) [Next page](propagateintervalchange()-1.md) |
+| << [Click to Display Table of Contents](propagateinstrumentchange().md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > PropagateInstrumentChange() | [Previous page](strategybase-1.md) [Return to chapter overview](add_on-1.md) [Next page](propagateintervalchange()-1.md) |
 | --- | --- |
 ## Definition
 In an [NTWindow](ntwindow-1.md), PropagateInstrumentChange() sends an Instrument to other windows with the same Instrument Linking color configured. 

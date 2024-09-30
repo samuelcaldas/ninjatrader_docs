@@ -1,15 +1,15 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> SimpleFont
+NinjaScript > Language Reference > Common > SimpleFont
 
 SimpleFont
 
-| \<\< [Click to Display Table of Contents](simplefont_class.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> SimpleFont | [Previous page](istradingdaydefined-1.md) [Return to chapter overview](common-1.md) [Next page](simplefont_applyto-1.md) |
+| << [Click to Display Table of Contents](simplefont_class.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > SimpleFont | [Previous page](istradingdaydefined-1.md) [Return to chapter overview](common-1.md) [Next page](simplefont_applyto-1.md) |
 | --- | --- |
 ## Definition
 Defines a particular font configuration.  
  
 
-| Note: SimpleFont objects are used for various [Drawing](drawing-1.md) methods, and can be used when defining UI element for Add\-ons. |
+| Note: SimpleFont objects are used for various [Drawing](drawing-1.md) methods, and can be used when defining UI element for Add-ons. |
 | --- |
 
 ## Constructors
@@ -29,11 +29,11 @@ Defines a particular font configuration.  
 | [ApplyTo()](simplefont_applyto-1.md) | Applies a custom [SimpleFont](simplefont_class-1.md) object's properties (family, size, and style) to a [Windows Control](https://msdn.microsoft.com/en-us/library/system.windows.controls.control(v=vs.110).aspx) |
 | [ToDirectWriteTextFormat()](simplefont_todirectwritetextformat-1.md) | Converts a SimpleFont object to a SharpDX compatible font which can be used for chart rendering. |
 
-| Tip: The WPF unit used is the default px one, so device independent pixels. With a default system DPI setting of 96, the physical pixel on the screen would be identical in size, but can vary if a custom DPI is employed.  Both should not be confused with the points based font sizing known from other familiar Windows applications like Word, the advantage here is that the non points based size measurement will increase / decrease in size if the system DPI is changed \- a more detailed discussion is located [here](https://blogs.msdn.microsoft.com/text/2009/12/11/wpf-text-measurement-units/). |
+| Tip: The WPF unit used is the default px one, so device independent pixels. With a default system DPI setting of 96, the physical pixel on the screen would be identical in size, but can vary if a custom DPI is employed.  Both should not be confused with the points based font sizing known from other familiar Windows applications like Word, the advantage here is that the non points based size measurement will increase / decrease in size if the system DPI is changed - a more detailed discussion is located [here](https://blogs.msdn.microsoft.com/text/2009/12/11/wpf-text-measurement-units/). |
 | --- |
 
 ## Examples
 
 | ns |
 | --- |
-| // create custom Courier New, make it big and bold NinjaTrader.Gui.Tools.SimpleFont myFont \= new NinjaTrader.Gui.Tools.SimpleFont("Courier New", 12) { Size \= 50, Bold \= true };   Draw.Text(this, "myTag", false, "Hi There!", 0, Low\[0], 5, Brushes.Blue, myFont, TextAlignment.Center, Brushes.Black, null, 1); |
+| // create custom Courier New, make it big and bold NinjaTrader.Gui.Tools.SimpleFont myFont = new NinjaTrader.Gui.Tools.SimpleFont("Courier New", 12) { Size = 50, Bold = true };   Draw.Text(this, "myTag", false, "Hi There!", 0, Low[0], 5, Brushes.Blue, myFont, TextAlignment.Center, Brushes.Black, null, 1); |

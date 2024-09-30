@@ -1,10 +1,10 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.TextFixed()
+NinjaScript > Language Reference > Common > Drawing > Draw.TextFixed()
 Draw.TextFixed()
-| \<\< [Click to Display Table of Contents](draw_textfixed.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.TextFixed() | [Previous page](text.md) [Return to chapter overview](drawing.md) [Next page](textfixed.md) |
+| << [Click to Display Table of Contents](draw_textfixed.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > Draw.TextFixed() | [Previous page](text.md) [Return to chapter overview](drawing.md) [Next page](textfixed.md) |
 | --- | --- |
 ## Definition
-Draws text in one of 5 available pre\-defined fixed locations on panel 1 (price panel) of a chart. Please note the [Z\-Order](zordertype.md) is internally set for the method to always be drawn on top.
+Draws text in one of 5 available pre-defined fixed locations on panel 1 (price panel) of a chart. Please note the [Z-Order](zordertype.md) is internally set for the method to always be drawn on top.
  
 ## Method Return Value
 A [TextFixed](textfixed.md) object that represents the draw object.
@@ -26,7 +26,7 @@ Draw.TextFixed(NinjaScriptBase owner, string tag, string text, TextPosition text
 | font | A Simple Font object |
 | outlineBrush | The brush used to color the text box outline ([reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
 | areaBrush | The brush used to color the text box fill area ([reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
-| areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 \- 100\. (0 \= completely transparent, 100 \= no opacity) |
+| areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 ## 

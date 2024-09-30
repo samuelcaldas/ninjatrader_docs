@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Instruments \> Instrument \> MasterInstrument
+NinjaScript > Language Reference > Common > Instruments > Instrument > MasterInstrument
 
 MasterInstrument
 
-| \<\< [Click to Display Table of Contents](masterinstrument.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Instruments](instruments_ninjascript-1.md) \> [Instrument](instrument-1.md) \> MasterInstrument | [Previous page](getinstrument-1.md) [Return to chapter overview](instrument-1.md) [Next page](compare-1.md) |
+| << [Click to Display Table of Contents](masterinstrument.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Instruments](instruments_ninjascript-1.md) > [Instrument](instrument-1.md) > MasterInstrument | [Previous page](getinstrument-1.md) [Return to chapter overview](instrument-1.md) [Next page](compare-1.md) |
 | --- | --- |
 ## Definition
 An instrument's configuration settings.  These are settings and properties which are defined in the [Instrument](instruments-1.md) window.

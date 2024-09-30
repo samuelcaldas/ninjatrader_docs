@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Optimizer \> RunIteration()
+NinjaScript > Language Reference > Optimizer > RunIteration()
 
 RunIteration()
 
-| \<\< [Click to Display Table of Contents](runiteration.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Optimizer](optimizer-1.md) \> RunIteration() | [Previous page](optimizationparameters-1.md) [Return to chapter overview](optimizer-1.md) [Next page](supportsmultiobjectiveoptimiza-1.md) |
+| << [Click to Display Table of Contents](runiteration.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Optimizer](optimizer-1.md) > RunIteration() | [Previous page](optimizationparameters-1.md) [Return to chapter overview](optimizer-1.md) [Next page](supportsmultiobjectiveoptimiza-1.md) |
 | --- | --- |
 ## Definition
 Runs an iteration of backtesting for the optimizer

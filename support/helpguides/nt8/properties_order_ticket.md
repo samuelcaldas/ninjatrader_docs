@@ -1,9 +1,9 @@
 ﻿
-Operations \> Order Entry \> Order Ticket \> Properties
+Operations > Order Entry > Order Ticket > Properties
 
 Properties
 
-| \<\< [Click to Display Table of Contents](properties_order_ticket.md) \>\> **Navigation:**     [Operations](operations.md) \> [Order Entry](order_entry.md) \> [Order Ticket](order_ticket.md) \> Properties | [Previous page](submitting_orders_order_ticket.md) [Return to chapter overview](order_ticket.md) [Next page](superdom.md) |
+| << [Click to Display Table of Contents](properties_order_ticket.md) >> **Navigation:**     [Operations](operations.md) > [Order Entry](order_entry.md) > [Order Ticket](order_ticket.md) > Properties | [Previous page](submitting_orders_order_ticket.md) [Return to chapter overview](order_ticket.md) [Next page](superdom.md) |
 | --- | --- |
 The Order Ticket order entry window is highly efficient by design but can also be customized to your preferences through the Order Ticket Properties menu.
 ![tog_minus](tog_minus.gif)
@@ -20,6 +20,6 @@ The Order Ticket order entry window is highly efficient by design but can also b
 | --- |
 ![tog_minus](tog_minus.gif)        [Using Tab Name Variables](javascript:HMToggle('toggle','UsingTabNameVariables','UsingTabNameVariables_ICON'))
 
-| Tab Name Variables A number of pre\-defined variables can be used in the "Tab Name" field of the Order Ticket Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Order Ticket Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |
 | --- |
 

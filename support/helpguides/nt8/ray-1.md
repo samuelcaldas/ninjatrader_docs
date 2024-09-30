@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Ray() \> Ray
+NinjaScript > Language Reference > Common > Drawing > Draw.Ray() > Ray
 
 Ray
 
-| \<\< [Click to Display Table of Contents](ray.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.Ray()](draw_ray-1.md) \> Ray | [Previous page](draw_ray-1.md) [Return to chapter overview](draw_ray-1.md) [Next page](draw_rectangle-1.md) |
+| << [Click to Display Table of Contents](ray.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.Ray()](draw_ray-1.md) > Ray | [Previous page](draw_ray-1.md) [Return to chapter overview](draw_ray-1.md) [Next page](draw_rectangle-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Ray [IDrawingTool](idrawingtool-1.md).
@@ -20,4 +20,4 @@ Represents an interface that exposes information regarding a Ray [IDrawingTool](
 
 | ns |
 | --- |
-| // Instantiate a Ray object Ray myRay \= Draw.Ray(this, "tag1", 10, 1000, 0, 1001, Brushes.LimeGreen);   // Set a new Stroke for the object myRay.Stroke \= new Stroke(Brushes.Green, DashStyleHelper.DashDot, 3); |
+| // Instantiate a Ray object Ray myRay = Draw.Ray(this, "tag1", 10, 1000, 0, 1001, Brushes.LimeGreen);   // Set a new Stroke for the object myRay.Stroke = new Stroke(Brushes.Green, DashStyleHelper.DashDot, 3); |

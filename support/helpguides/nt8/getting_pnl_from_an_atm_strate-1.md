@@ -1,14 +1,14 @@
 ﻿
-NinjaScript \> Educational Resources \> Reference Samples \> Strategy \> Getting PnL from an ATM strategy
+NinjaScript > Educational Resources > Reference Samples > Strategy > Getting PnL from an ATM strategy
 
 Getting PnL from an ATM strategy
 
-| \<\< [Click to Display Table of Contents](getting_pnl_from_an_atm_strate.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> [Reference Samples](reference_samples-1.md) \> [Strategy](strategy2-1.md) \> Getting PnL from an ATM strategy | [Previous page](entering_on_one_time_frame_and-1.md) [Return to chapter overview](strategy2-1.md) [Next page](halting_a_strategy_once_user_d-1.md) |
+| << [Click to Display Table of Contents](getting_pnl_from_an_atm_strate.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Strategy](strategy2-1.md) > Getting PnL from an ATM strategy | [Previous page](entering_on_one_time_frame_and-1.md) [Return to chapter overview](strategy2-1.md) [Next page](halting_a_strategy_once_user_d-1.md) |
 | --- | --- |
-When integrating Advanced Trade Management templates into NinjaScript Strategies, the procedure for obtaining trade performance and order status is a little different than for strategies without ATM templates. The difference is that ATM templates basically take over and manage the trade separately from the NinjaScript portion of the strategy. Until the ATM trade terminates, the NinjaScript portion just observes and waits for another trading opportunity. Accessing all the trade data is still possible, but the set of commands to use differ from the traditional NinjaScript commands. This sample borrows code from the built\-in strategy SampleAtmStrategy and doesn't include all the references specific to that strategy. In addition, this sample draws some profit/loss information right on the chart.
+When integrating Advanced Trade Management templates into NinjaScript Strategies, the procedure for obtaining trade performance and order status is a little different than for strategies without ATM templates. The difference is that ATM templates basically take over and manage the trade separately from the NinjaScript portion of the strategy. Until the ATM trade terminates, the NinjaScript portion just observes and waits for another trading opportunity. Accessing all the trade data is still possible, but the set of commands to use differ from the traditional NinjaScript commands. This sample borrows code from the built-in strategy SampleAtmStrategy and doesn't include all the references specific to that strategy. In addition, this sample draws some profit/loss information right on the chart.
  
 
-| Note: This is a real\-time strategy only. You will also need to first setup an ATM template titled "AtmStrategyTemplate" for this sample to work. You can set this up in the SuperDOM or Chart Trader windows. |
+| Note: This is a real-time strategy only. You will also need to first setup an ATM template titled "AtmStrategyTemplate" for this sample to work. You can set this up in the SuperDOM or Chart Trader windows. |
 | --- |
 ## 
 ## 
@@ -29,11 +29,11 @@ When integrating Advanced Trade Management templates into NinjaScript Strategies
 
  
 ## Import instructions
-1\.Download the file contained in this Help Guide topic to your PC desktop
+1.Download the file contained in this Help Guide topic to your PC desktop
 
-2\.From the Control Center window, select the menu Tools \> Import \> NinjaScript
+2.From the Control Center window, select the menu Tools > Import > NinjaScript
 
-3\.Select the downloaded file
+3.Select the downloaded file
 
  
-[SampleATMPnL\_NT8\.zip](samples/SampleATMPnL_NT8.zip)
+[SampleATMPnL_NT8.zip](samples/SampleATMPnL_NT8.zip)

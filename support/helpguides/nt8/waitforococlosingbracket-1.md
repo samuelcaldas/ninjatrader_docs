@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> WaitForOcoClosingBracket
+NinjaScript > Language Reference > Strategy > WaitForOcoClosingBracket
 WaitForOcoClosingBracket
 
-| \<\< [Click to Display Table of Contents](waitforococlosingbracket.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> WaitForOcoClosingBracket | [Previous page](ulcer-1.md) [Return to chapter overview](strategy-1.md) [Next page](superdom_column-1.md) |
+| << [Click to Display Table of Contents](waitforococlosingbracket.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > WaitForOcoClosingBracket | [Previous page](ulcer-1.md) [Return to chapter overview](strategy-1.md) [Next page](superdom_column-1.md) |
 | --- | --- |
 
 ## Definition
@@ -27,5 +27,5 @@ WaitForOcoClosingBracket
 ## Examples
 | ns |  |
 | --- | --- |
-| protected override void OnStateChange() {      if (State \=\= State.Configure)      {          WaitForOcoClosingBracket \= false;      } } | |
+| protected override void OnStateChange() {      if (State == State.Configure)      {          WaitForOcoClosingBracket = false;      } } | |
 

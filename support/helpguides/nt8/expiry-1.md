@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Instruments \> Instrument \> Expiry
+NinjaScript > Language Reference > Common > Instruments > Instrument > Expiry
 
 Expiry
-| \<\< [Click to Display Table of Contents](expiry.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Instruments](instruments_ninjascript-1.md) \> [Instrument](instrument-1.md) \> Expiry | [Previous page](exchange-1.md) [Return to chapter overview](instrument-1.md) [Next page](instrument_fullname-1.md) |
+| << [Click to Display Table of Contents](expiry.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Instruments](instruments_ninjascript-1.md) > [Instrument](instrument-1.md) > Expiry | [Previous page](exchange-1.md) [Return to chapter overview](instrument-1.md) [Next page](instrument_fullname-1.md) |
 | --- | --- |
 ## Definition
 Indicates the expiration month of a futures contract.
@@ -22,4 +22,4 @@ Instrument.Expiry
 ## 
  
 ## Additional Access Information
-This property can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be an Instrument object. Should you wish to access this property elsewhere, check for null reference first. e.g. if (Instrument !\= null)
+This property can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be an Instrument object. Should you wish to access this property elsewhere, check for null reference first. e.g. if (Instrument != null)

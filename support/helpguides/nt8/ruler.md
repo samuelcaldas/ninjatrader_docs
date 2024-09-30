@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Ruler() \> Ruler
+NinjaScript > Language Reference > Common > Drawing > Draw.Ruler() > Ruler
 
 Ruler
 
-| \<\< [Click to Display Table of Contents](ruler.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.Ruler()](draw_ruler.md) \> Ruler | [Previous page](draw_ruler.md) [Return to chapter overview](draw_ruler.md) [Next page](draw_square.md) |
+| << [Click to Display Table of Contents](ruler.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Ruler()](draw_ruler.md) > Ruler | [Previous page](draw_ruler.md) [Return to chapter overview](draw_ruler.md) [Next page](draw_square.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Ruler [IDrawingTool](idrawingtool.md).
@@ -23,4 +23,4 @@ Represents an interface that exposes information regarding a Ruler [IDrawingTool
 
 | ns |
 | --- |
-| // Instantiate a Ruler object Ruler myRuler \= Draw.Ruler(this, "tag1", true, 4, Low\[4], 3, High\[3], 1, Low\[1]);   // Change the object's text color to white myRuler.TextColor \= Brushes.White; |
+| // Instantiate a Ruler object Ruler myRuler = Draw.Ruler(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);   // Change the object's text color to white myRuler.TextColor = Brushes.White; |

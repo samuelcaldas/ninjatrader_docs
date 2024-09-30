@@ -1,8 +1,8 @@
 ﻿
-Operations \> Trade Performance \> Trade Performance Properties
+Operations > Trade Performance > Trade Performance Properties
 Trade Performance Properties
 
-| \<\< [Click to Display Table of Contents](trade_performance_properties.md) \>\> **Navigation:**     [Operations](operations.md) \> [Trade Performance](trade_performance.md) \> Trade Performance Properties | [Previous page](profit_and_loss_calculation_modes.md) [Return to chapter overview](trade_performance.md) [Next page](trading_hours.md) |
+| << [Click to Display Table of Contents](trade_performance_properties.md) >> **Navigation:**     [Operations](operations.md) > [Trade Performance](trade_performance.md) > Trade Performance Properties | [Previous page](profit_and_loss_calculation_modes.md) [Return to chapter overview](trade_performance.md) [Next page](trading_hours.md) |
 | --- | --- |
 Many of the Trade Performance visual display settings can be customized using the Trade Performance Properties window.
 ![tog_minus](tog_minus.gif)
@@ -10,7 +10,7 @@ Many of the Trade Performance visual display settings can be customized using th
 | --- |
 
 ![tog_minus](tog_minus.gif)
-| The following properties are available for configuration within the Trade Performance Properties window:   AccountPerformance_Properties   Property Definitions   | General |  | | --- | --- | | Display | Sets the currency display | | Grid font | Sets the font options | | Tab name | Sets the name of the tab, please see Managing Tabs for more information. | | Columns \- Analysis |  | | Columns \- Executions |  | | Columns \- Journal |  | | Columns \- Orders |  | | Columns \- Summary |  | | Columns \- Trades |  | | Window |  | | Always on top | Sets if the window will be always on top of other windows. | |
+| The following properties are available for configuration within the Trade Performance Properties window:   AccountPerformance_Properties   Property Definitions   | General |  | | --- | --- | | Display | Sets the currency display | | Grid font | Sets the font options | | Tab name | Sets the name of the tab, please see Managing Tabs for more information. | | Columns - Analysis |  | | Columns - Executions |  | | Columns - Journal |  | | Columns - Orders |  | | Columns - Summary |  | | Columns - Trades |  | | Window |  | | Always on top | Sets if the window will be always on top of other windows. | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 ![tog_minus](tog_minus.gif)        [How to preset property defaults](javascript:HMToggle('toggle','HowToPresetPropertyDefaults','HowToPresetPropertyDefaults_ICON'))

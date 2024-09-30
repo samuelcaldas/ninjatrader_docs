@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Educational Resources \> Developing Indicators
+NinjaScript > Educational Resources > Developing Indicators
 Developing Indicators
-| \<\< [Click to Display Table of Contents](developing_indicators.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> Developing Indicators | [Previous page](developing_for__tick_replay-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](advanced_-_custom_drawing-1.md) |
+| << [Click to Display Table of Contents](developing_indicators.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > Developing Indicators | [Previous page](developing_for__tick_replay-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](advanced_-_custom_drawing-1.md) |
 | --- | --- |
 Indicators are the building blocks of any automated trading system. NinjaScript allows you to develop custom indicators quickly. A few key points are:
  
@@ -37,6 +37,6 @@ The completed indicator is now available through any window that can use an indi
 ## Tutorial Descriptions
 All internal NinjaTrader indicators come with full source code and can be viewed within the NinjaScript Editor. Please review the tutorials within this section for detailed walk throughs of custom indicator development.
  
-| ›[Level 1](beginner_-_using_price_variabl-1.md) \- Demonstrating the use of price variables›[Level 2](beginner_-_indicator_on_indica-1.md) \- Demonstrating the use of indicator on indicator›[Level 3](intermediate_-_your_own_sma-1.md) \- Demonstrating the use of a "for" loop to build a simple moving average indicator›[Level 4](intermediate_-_historical_cust-1.md) \- Demonstrating the use of Indicator Series objects to retain historical custom calculations data series›[Level 5](advanced_-_custom_plot_colors_-1.md) \- Demonstrating the use of custom plot coloring based on threshold values›[Level 6](advanced_-_custom_drawing-1.md) \- Demonstrating the use of custom of drawing using bar color, back color and line colors |
+| ›[Level 1](beginner_-_using_price_variabl-1.md) - Demonstrating the use of price variables›[Level 2](beginner_-_indicator_on_indica-1.md) - Demonstrating the use of indicator on indicator›[Level 3](intermediate_-_your_own_sma-1.md) - Demonstrating the use of a "for" loop to build a simple moving average indicator›[Level 4](intermediate_-_historical_cust-1.md) - Demonstrating the use of Indicator Series objects to retain historical custom calculations data series›[Level 5](advanced_-_custom_plot_colors_-1.md) - Demonstrating the use of custom plot coloring based on threshold values›[Level 6](advanced_-_custom_drawing-1.md) - Demonstrating the use of custom of drawing using bar color, back color and line colors |
 | --- |
 

@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy
+NinjaScript > Language Reference > Strategy
 Strategy
-| \<\< [Click to Display Table of Contents](strategy.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> Strategy | [Previous page](signature.md) [Return to chapter overview](language_reference_wip.md) [Next page](strategy_account.md) |
+| << [Click to Display Table of Contents](strategy.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > Strategy | [Previous page](signature.md) [Return to chapter overview](language_reference_wip.md) [Next page](strategy_account.md) |
 | --- | --- |
 The methods and properties covered in this section are unique to custom strategy development.
  
 ## In this section
-| [Account](strategy_account.md) | Represents the real\-world or simulation Account configured for the strategy. |
+| [Account](strategy_account.md) | Represents the real-world or simulation Account configured for the strategy. |
 | --- | --- |
 | [AddChartIndicator()](addchartindicator.md) | Adds an indicator to the strategy only for the purpose of displaying it on a chart. |
 | [AddPerformanceMetric()](addperformancemetric.md) | Adds an instance of custom [Performance Metric](performancemetrics.md) to a strategy used in strategy calculations. |
@@ -26,10 +26,10 @@ The methods and properties covered in this section are unique to custom strategy
 | [ExitOnSessionCloseSeconds](exitonsessioncloseseconds.md) | The number of seconds before the actual session end time that the "[IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy.md)" function will trigger. |
 | [IncludeCommission](includecommission.md) | Determines if the strategy performance results will include commission on a historical backtest. |
 | [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) | Determines if the strategy will save orders, trades, and execution history. |
-| [IsAdoptAccountPositionAware](isadoptaccountpositionaware.md) | Determines if the strategy is programmed in a manner capable of handling  real\-world account positions. |
+| [IsAdoptAccountPositionAware](isadoptaccountpositionaware.md) | Determines if the strategy is programmed in a manner capable of handling  real-world account positions. |
 | [IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy.md) | Determines if the strategy will cancel all strategy generated orders and close all open strategy positions at the close of the session. |
-| [IsFillLimitOnTouch](isfilllimitontouch.md) | Determines if the strategy will use a more liberal fill algorithm for back\-testing purposes only. |
-| [IsInstantiatedOnEachOptimizationIteration](isinstantiatedoneachoptimizationiteration.md) | Determines if the strategy should be re\-instantiated (re\-created) after each optimization run when using the [Strategy Analyzer Optimizer](optimize_a_strategy.md). |
+| [IsFillLimitOnTouch](isfilllimitontouch.md) | Determines if the strategy will use a more liberal fill algorithm for back-testing purposes only. |
+| [IsInstantiatedOnEachOptimizationIteration](isinstantiatedoneachoptimizationiteration.md) | Determines if the strategy should be re-instantiated (re-created) after each optimization run when using the [Strategy Analyzer Optimizer](optimize_a_strategy.md). |
 | [IsInStrategyAnalyzer](isinstrategyanalyer.md) | Determines if the current NinjaScript Strategy is run from a Strategy Analyzer chart. |
 | [IsTradingHoursBreakLineVisible](istradinghoursbreaklinevisible.md) | Plots trading hours break lines on the indicator panel. |
 | [IsWaitUntilFlat](iswaituntilflat.md) | Indicates the strategy is currently waiting until a flat position is detected before submitting live orders. |
@@ -39,7 +39,7 @@ The methods and properties covered in this section are unique to custom strategy
 | [OnOrderTrace()](onordertrace.md) | An event driven method used for strategies which will allow you to customize the output of [TraceOrders](traceorders.md). |
 | [OnOrderUpdate()](onorderupdate.md) | An event driven method which is called each time an order managed by a strategy changes state. |
 | [OnPositionUpdate()](onpositionupdate.md) | An event driven method which is called each time the position of a strategy changes state. |
-| [OptimizationPeriod](order.md) | Reserved for [Walk\-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "in sample" backtest period for a given strategy.  See also [TestPeriod](testperiod.md). |
+| [OptimizationPeriod](order.md) | Reserved for [Walk-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "in sample" backtest period for a given strategy.  See also [TestPeriod](testperiod.md). |
 | [Order](order.md) | Represents a read only interface that exposes information regarding an order. |
 | [Order Methods](order_methods.md) | NinjaScript provides several approaches you can use for order placement within your NinjaScript strategy. |
 | [OrderFillResolution](orderfillresolution.md) | Determines how strategy orders are filled during historical states. |
@@ -48,7 +48,7 @@ The methods and properties covered in this section are unique to custom strategy
 | [PerformanceMetrics](strategy_performancemetrics.md) | Holds an array of [PerformanceMetrics](performancemetrics.md) objects that represent custom metrics that can be used for strategy calcuations. |
 | [Plots](strategy_plots.md) | A collection holding all of the Plot objects that define their visualization characteristics. |
 | [Position](position.md) | Represents position related information that pertains to an instance of a strategy. |
-| [PositionAccount](positionaccount.md) | Represents position related information that pertains to real\-world account (live or simulation). |
+| [PositionAccount](positionaccount.md) | Represents position related information that pertains to real-world account (live or simulation). |
 | [Positions](positions.md) | Holds an array of [Position](position.md) objects that represent positions managed by the strategy. |
 | [PositionsAccount](positionsaccount.md) | Holds an array of [PositionAccount](positionaccount.md) objects that represent positions managed by the strategy's account. |
 | [RealtimeErrorHandling](realtimeerrorhandling.md) | Defines the behavior of a strategy when a strategy generated order is returned from the broker's server in a "Rejected" state. |
@@ -59,7 +59,7 @@ The methods and properties covered in this section are unique to custom strategy
 | [StopTargetHandling](stoptargethandling.md) | Determines how stop and target orders are submitted during an entry order execution. |
 | [StrategyBaseConverter](strategybaseconverter.md) | A custom TypeConverter class handling the designed behavior of an strategy's property descriptor collection. |
 | [SystemPerformance](systemperformance.md) | The SystemPerformance object holds all trades and trade performance data generated by a strategy. |
-| [TestPeriod](testperiod.md) | Reserved for [Walk\-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "out of sample" backtest period for a given strategy. |
+| [TestPeriod](testperiod.md) | Reserved for [Walk-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "out of sample" backtest period for a given strategy. |
 | [TimeInForce](timeinforce.md) | Sets the time in force property for all orders generated by a strategy. |
 | [TraceOrders](traceorders.md) | Determines if OnOrderTrace() would be called for a given strategy. |
 | [Trade](trade.md) | A Trade is a completed buy/sell or sell/buy transaction. It consists of an entry and exit execution. |

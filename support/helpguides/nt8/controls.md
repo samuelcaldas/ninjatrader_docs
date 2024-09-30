@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> NinjaTrader Controls
+NinjaScript > Language Reference > Add On > NinjaTrader Controls
 NinjaTrader Controls
-| \<\< [Click to Display Table of Contents](controls.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Add On](add_on.md) \> NinjaTrader Controls | [Previous page](add_on.md) [Return to chapter overview](add_on.md) [Next page](accountselector.md) |
+| << [Click to Display Table of Contents](controls.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > NinjaTrader Controls | [Previous page](add_on.md) [Return to chapter overview](add_on.md) [Next page](accountselector.md) |
 | --- | --- |
 The following section contains controls that are native NinjaTrader controls. To fully integrate your Add On within NinjaTrader it is recommended to use these controls as opposed to building your own when possible.
  

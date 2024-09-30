@@ -1,7 +1,7 @@
 ﻿
-Operations \> Order Entry \> Chart Trader \> Hidden View
+Operations > Order Entry > Chart Trader > Hidden View
 Hidden View
-| \<\< [Click to Display Table of Contents](collapsed_view.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> [Chart Trader](chart_trader-1.md) \> Hidden View | [Previous page](order__position_display-1.md) [Return to chapter overview](chart_trader-1.md) [Next page](submitting_orders4-1.md) |
+| << [Click to Display Table of Contents](collapsed_view.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [Chart Trader](chart_trader-1.md) > Hidden View | [Previous page](order__position_display-1.md) [Return to chapter overview](chart_trader-1.md) [Next page](submitting_orders4-1.md) |
 | --- | --- |
 Chart Trader can be displayed fully, disabled fully, or collapsed. When the collapsed view is enabled, the order and position display functionality of Chart Trader is still enabled, and orders can still be placed and managed directly from the chart panel, but the Chart Trader panel itself will be hidden. This serves to maximize screen space for charts while maintaining much of the important functionality of Chart Trader. 
  

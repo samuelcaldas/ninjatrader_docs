@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Triangle() \> Triangle
+NinjaScript > Language Reference > Common > Drawing > Draw.Triangle() > Triangle
 Triangle
-| \<\< [Click to Display Table of Contents](triangle.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.Triangle()](draw_triangle-1.md) \> Triangle | [Previous page](draw_triangle-1.md) [Return to chapter overview](draw_triangle-1.md) [Next page](draw_triangledown-1.md) |
+| << [Click to Display Table of Contents](triangle.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.Triangle()](draw_triangle-1.md) > Triangle | [Previous page](draw_triangle-1.md) [Return to chapter overview](draw_triangle-1.md) [Next page](draw_triangledown-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Triangle [IDrawingTool](idrawingtool-1.md).
@@ -21,4 +21,4 @@ Represents an interface that exposes information regarding a Triangle [IDrawingT
 ## Example
 | ns |
 | --- |
-| // Instantiate a Triangle object Triangle myTri \= Draw.Triangle(this, "tag1", 4, Low\[4], 3, High\[3], 1, Low\[1], Brushes.Blue);               // Change the object's AreaOpacity myTri.AreaOpacity \= 100; |
+| // Instantiate a Triangle object Triangle myTri = Draw.Triangle(this, "tag1", 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue);               // Change the object's AreaOpacity myTri.AreaOpacity = 100; |

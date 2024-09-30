@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.FibonacciExtensions() \> FibonacciExtensions
+NinjaScript > Language Reference > Common > Drawing > Draw.FibonacciExtensions() > FibonacciExtensions
 FibonacciExtensions
-| \<\< [Click to Display Table of Contents](fibonacciextensions.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.FibonacciExtensions()](draw_fibonacciextensions.md) \> FibonacciExtensions | [Previous page](draw_fibonacciextensions.md) [Return to chapter overview](draw_fibonacciextensions.md) [Next page](draw_fibonacciretracements.md) |
+| << [Click to Display Table of Contents](fibonacciextensions.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.FibonacciExtensions()](draw_fibonacciextensions.md) > FibonacciExtensions | [Previous page](draw_fibonacciextensions.md) [Return to chapter overview](draw_fibonacciextensions.md) [Next page](draw_fibonacciretracements.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Fibonacci Extensions [IDrawingTool](idrawingtool.md).
@@ -20,5 +20,5 @@ Represents an interface that exposes information regarding a Fibonacci Extension
 ## Example
 | ns |
 | --- |
-| // Instantiates a Fibonnaci Extension FibonacciExtensions myFibExt \= Draw.FibonacciExtensions(this, "tag1", true, 4, Low\[4], 3, High\[3], 1, Low\[1]);   // Extend the Fibonacci Extension oject's lines to the right myFibExt.IsExtendedLinesRight \= true; |
+| // Instantiates a Fibonnaci Extension FibonacciExtensions myFibExt = Draw.FibonacciExtensions(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);   // Extend the Fibonacci Extension oject's lines to the right myFibExt.IsExtendedLinesRight = true; |
 

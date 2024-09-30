@@ -1,13 +1,13 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order Methods \> Managed Approach \> EnterLong()
+NinjaScript > Language Reference > Strategy > Order Methods > Managed Approach > EnterLong()
 EnterLong()
-| \<\< [Click to Display Table of Contents](enterlong.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [Order Methods](order_methods.md) \> [Managed Approach](managed_approach.md) \> EnterLong() | [Previous page](managed_changeorder.md) [Return to chapter overview](managed_approach.md) [Next page](enterlonglimit.md) |
+| << [Click to Display Table of Contents](enterlong.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Managed Approach](managed_approach.md) > EnterLong() | [Previous page](managed_changeorder.md) [Return to chapter overview](managed_approach.md) [Next page](enterlonglimit.md) |
 | --- | --- |
 ## Definition
 Generates a buy market order to enter a long position.
  
 ## Method Return Value
-An [Order](order.md) read\-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
 ## 
 ## Syntax
 EnterLong()   
@@ -26,12 +26,12 @@ EnterLong(int barsInProgressIndex, int quantity, string signalName)
 ## Parameters
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | --- | --- |
-| quantity | Entry order quantity (if 0 is passed in, will be set to 1, except for stocks 100\) |
+| quantity | Entry order quantity (if 0 is passed in, will be set to 1, except for stocks 100) |
 | barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress.md) property. |
 ## 
 ## 
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      if (CurrentBar \< 20)          return;        // Only enter if at least 10 bars has passed since our last entry      if ((BarsSinceEntryExecution() \> 10 \|\| BarsSinceEntryExecution() \=\= \-1) \&\& CrossAbove(SMA(10), SMA(20), 1))          EnterLong(5, "SMA Cross Entry"); } |
+| protected override void OnBarUpdate() {      if (CurrentBar < 20)          return;        // Only enter if at least 10 bars has passed since our last entry      if ((BarsSinceEntryExecution() > 10 || BarsSinceEntryExecution() == -1) && CrossAbove(SMA(10), SMA(20), 1))          EnterLong(5, "SMA Cross Entry"); } |
 

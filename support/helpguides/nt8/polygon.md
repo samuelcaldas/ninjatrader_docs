@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Polygon() \> Polygon
+NinjaScript > Language Reference > Common > Drawing > Draw.Polygon() > Polygon
 
 Polygon
 
-| \<\< [Click to Display Table of Contents](polygon.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.Polygon()](draw_polygon.md) \> Polygon | [Previous page](draw_polygon.md) [Return to chapter overview](draw_polygon.md) [Next page](draw_ray.md) |
+| << [Click to Display Table of Contents](polygon.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Polygon()](draw_polygon.md) > Polygon | [Previous page](draw_polygon.md) [Return to chapter overview](draw_polygon.md) [Next page](draw_ray.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Polyon [IDrawingTool](idrawingtool.md).
@@ -20,4 +20,4 @@ Represents an interface that exposes information regarding a Polyon [IDrawingToo
 
 | ns |
 | --- |
-| // Instantiate a Polygon object Polygon myPolygon \= Draw.Polygon(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);   // Set a new area brush for the object myPolygon.AreaBrush \= Brushes.Green; |
+| // Instantiate a Polygon object Polygon myPolygon = Draw.Polygon(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);   // Set a new area brush for the object myPolygon.AreaBrush = Brushes.Green; |

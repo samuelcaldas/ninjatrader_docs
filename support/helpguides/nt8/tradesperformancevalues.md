@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> TradesPerformanceValues
+NinjaScript > Language Reference > Strategy > TradesPerformanceValues
 TradesPerformanceValues
-| \<\< [Click to Display Table of Contents](tradesperformancevalues.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> TradesPerformanceValues | [Previous page](winningtrades.md) [Return to chapter overview](strategy.md) [Next page](averageetd.md) |
+| << [Click to Display Table of Contents](tradesperformancevalues.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > TradesPerformanceValues | [Previous page](winningtrades.md) [Return to chapter overview](strategy.md) [Next page](averageetd.md) |
 | --- | --- |
 ## Definition
 Performance values of a [collection](tradecollection.md) of [Trade](trade.md) objects.
@@ -30,4 +30,4 @@ Performance values of a [collection](tradecollection.md) of [Trade](trade.md) ob
 ## 
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      // If the profit on real\-time trades is \> $1000 stop trading      if (SystemPerformance.RealTimeTrades.TradesPerformance.Currency.CumProfit \> 1000\)           return; } |
+| protected override void OnBarUpdate() {      // If the profit on real-time trades is > $1000 stop trading      if (SystemPerformance.RealTimeTrades.TradesPerformance.Currency.CumProfit > 1000)           return; } |

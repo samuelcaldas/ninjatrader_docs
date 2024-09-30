@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Attributes \> DisplayAttribute
+NinjaScript > Language Reference > Common > Attributes > DisplayAttribute
 DisplayAttribute
-| \<\< [Click to Display Table of Contents](displayattribute.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Attributes](attributes.md) \> DisplayAttribute | [Previous page](categoryorderattribute.md) [Return to chapter overview](attributes.md) [Next page](ninjascriptpropertyattribute.md) |
+| << [Click to Display Table of Contents](displayattribute.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Attributes](attributes.md) > DisplayAttribute | [Previous page](categoryorderattribute.md) [Return to chapter overview](attributes.md) [Next page](ninjascriptpropertyattribute.md) |
 | --- | --- |
 ## Definition
 Determines how the following declared property display on the NinjaTrader UI's property grid.  
@@ -11,13 +11,13 @@ Determines how the following declared property display on the NinjaTrader UI's p
  
 ## 
 ## Syntax
-\[Display(Name\=string)]  
+[Display(Name=string)]  
 
-\[Display(Description\=string)]  
+[Display(Description=string)]  
 
-\[Display(GroupName\=string)]  
+[Display(GroupName=string)]  
 
-\[Display(Order\=int)]
+[Display(Order=int)]
  
 | Warning:  The "Name" parameter MUST be unique for each property of a particular object.  Sharing the same Name can have undesirable consequences on various features of the property grid. |
 | --- |
@@ -30,11 +30,11 @@ Determines how the following declared property display on the NinjaTrader UI's p
 | Order | An int which sets the sequence the property is categorized in relation to other properties in the UI. |
 ## 
 ## 
-| Tips:  1\.Multiple named parameters can be written separated by a comma during a single declaration as demonstrated in the example below.2\.You may have noticed the default NinjaTrader types such as indicators or strategies use a "ResourceType \= typeof(Custom.Resource)" property in the DisplayAttribute.  This is done for localization purposes, so the default NinjaTrader UI translates to other supported international languages, but is not required for your custom NinjaScript types.   The ResourceType property can be safely ignored and left out in your custom development. |
+| Tips:  1.Multiple named parameters can be written separated by a comma during a single declaration as demonstrated in the example below.2.You may have noticed the default NinjaTrader types such as indicators or strategies use a "ResourceType = typeof(Custom.Resource)" property in the DisplayAttribute.  This is done for localization purposes, so the default NinjaTrader UI translates to other supported international languages, but is not required for your custom NinjaScript types.   The ResourceType property can be safely ignored and left out in your custom development. |
 | --- |
 
 ## Examples
 | ns |
 | --- |
-| \#region Properties      // set how the property displays from the UI property grid \[Display(Name\="My Period", Order\=1, GroupName\="My Parameters")] public int MyPeriod { get; set; }   \#endregion |
+| #region Properties      // set how the property displays from the UI property grid [Display(Name="My Period", Order=1, GroupName="My Parameters")] public int MyPeriod { get; set; }   #endregion |
 

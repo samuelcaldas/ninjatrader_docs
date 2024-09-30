@@ -1,9 +1,9 @@
 ﻿
-Introduction \> Learning to Use NinjaTrader
+Introduction > Learning to Use NinjaTrader
 
 Learning to Use NinjaTrader
 
-| \<\< [Click to Display Table of Contents](learning_to_use_ninjatrader.md) \>\> **Navigation:**     [Introduction](introduction.md) \> Learning to Use NinjaTrader | [Previous page](getting_help__support.md) [Return to chapter overview](introduction.md) [Next page](using_3rd_party_add-ons.md) |
+| << [Click to Display Table of Contents](learning_to_use_ninjatrader.md) >> **Navigation:**     [Introduction](introduction.md) > Learning to Use NinjaTrader | [Previous page](getting_help__support.md) [Return to chapter overview](introduction.md) [Next page](using_3rd_party_add-ons.md) |
 | --- | --- |
 NinjaTrader provides a variety of ways for free and licensed users to learn and master the platform, including this help guide, the Video Library, the Support Forum, and weekly free live training sessions.
 ![tog_minus](tog_minus.gif)
@@ -20,6 +20,6 @@ NinjaTrader provides a variety of ways for free and licensed users to learn and 
 | --- |
 ![tog_minus](tog_minus.gif)        [Free Live Events](javascript:HMToggle('toggle','FreeLiveEvents','FreeLiveEvents_ICON'))
 
-| Watch Live Futures Trading \& Analysis - Join our [Livestreams](https://ninjatrader.com/futures/livestreams) each weekday as we prepare, analyze and trade the futures markets in real\-time.  NinjaTrader Partner Events - NinjaTrader is pleased to sponsor weekly partner events as a value added service for our clients. - These events are intended to provide increased exposure to the various trading styles and methods taught by our 3rd Party add on and Educational partners.- You can email the NinjaTrader [sales team](/cdn-cgi/l/email-protection#e59684898096a58b8c8b8f84919784818097cb868a88) today to be added to the partner event email list. |
+| Watch Live Futures Trading & Analysis - Join our [Livestreams](https://ninjatrader.com/futures/livestreams) each weekday as we prepare, analyze and trade the futures markets in real-time.  NinjaTrader Partner Events - NinjaTrader is pleased to sponsor weekly partner events as a value added service for our clients. - These events are intended to provide increased exposure to the various trading styles and methods taught by our 3rd Party add on and Educational partners.- You can email the NinjaTrader [sales team](/cdn-cgi/l/email-protection#e59684898096a58b8c8b8f84919784818097cb868a88) today to be added to the partner event email list. |
 | --- |
 

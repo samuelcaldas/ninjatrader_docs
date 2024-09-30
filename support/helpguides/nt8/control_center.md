@@ -1,7 +1,7 @@
 ﻿
-Operations \> Control Center
+Operations > Control Center
 Control Center
-| \<\< [Click to Display Table of Contents](control_center.md) \>\> **Navigation:**     [Operations](operations.md) \> Control Center | [Previous page](adding_per_instrument_commissi_3.md) [Return to chapter overview](operations.md) [Next page](new_menu.md) |
+| << [Click to Display Table of Contents](control_center.md) >> **Navigation:**     [Operations](operations.md) > Control Center | [Previous page](adding_per_instrument_commissi_3.md) [Return to chapter overview](operations.md) [Next page](new_menu.md) |
 | --- | --- |
 ## 
 | playVideo |

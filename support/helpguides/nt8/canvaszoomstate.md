@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartControl \> CanvasZoomState
+NinjaScript > Language Reference > Common > Charts > ChartControl > CanvasZoomState
 CanvasZoomState
-| \<\< [Click to Display Table of Contents](canvaszoomstate.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> [ChartControl](chartcontrol.md) \> CanvasZoomState | [Previous page](canvasright.md) [Return to chapter overview](chartcontrol.md) [Next page](chartpanels.md) |
+| << [Click to Display Table of Contents](canvaszoomstate.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) > CanvasZoomState | [Previous page](canvasright.md) [Return to chapter overview](chartcontrol.md) [Next page](chartpanels.md) |
 | --- | --- |
 ## Definition
 Indicates the current state of the Zoom tool on the chart. This property reveals the state of the tool while it is in use, and does not indicate a chart is zoomed in on or not. As soon as a zoom action is completed, the tool is considered to be no longer in use.
@@ -15,12 +15,12 @@ An enum representing the state of the Zoom tool on the chart. Possible values ar
 | DrawingRectangle | The Zoom tool is currently in use (User is currently drawing the rectangle in which to zoom) |
 ## 
 ## Syntax
-\<ChartControl\>.CanvasZoomState
+<ChartControl>.CanvasZoomState
 ## 
 ## Examples
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    CanvasZoomState zoomState \= chartControl.CanvasZoomState;      // Trigger an alert while a user is zooming in on a chart    if (zoomState \=\= CanvasZoomState.DrawingRectangle)        Alert("zoomAlert", Priority.Medium, "Make sure to zoom in on the entire chart pattern!", " ", 60, Brushes.White, Brushes.Black); } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    CanvasZoomState zoomState = chartControl.CanvasZoomState;      // Trigger an alert while a user is zooming in on a chart    if (zoomState == CanvasZoomState.DrawingRectangle)        Alert("zoomAlert", Priority.Medium, "Make sure to zoom in on the entire chart pattern!", " ", 60, Brushes.White, Brushes.Black); } |
 
 Based on the image below, CanvasZoomState confirms that the Zoom rectangle is currently being drawn:
  

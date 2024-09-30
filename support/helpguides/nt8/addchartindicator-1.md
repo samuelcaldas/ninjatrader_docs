@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> AddChartIndicator()
+NinjaScript > Language Reference > Strategy > AddChartIndicator()
 AddChartIndicator()
-| \<\< [Click to Display Table of Contents](addchartindicator.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> AddChartIndicator() | [Previous page](strategy_account-1.md) [Return to chapter overview](strategy-1.md) [Next page](addperformancemetric-1.md) |
+| << [Click to Display Table of Contents](addchartindicator.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > AddChartIndicator() | [Previous page](strategy_account-1.md) [Return to chapter overview](strategy-1.md) [Next page](addperformancemetric-1.md) |
 | --- | --- |
 ## Definition
 Adds an indicator to the strategy only for the purpose of displaying it on a chart.
@@ -27,12 +27,12 @@ AddChartIndicator(IndicatorBase indicator)
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.DataLoaded)      {          // Charts a 20 period simple moving average to the chart          AddChartIndicator(SMA(20));      } } |
+| protected override void OnStateChange() {      if (State == State.DataLoaded)      {          // Charts a 20 period simple moving average to the chart          AddChartIndicator(SMA(20));      } } |
 
 | Tip:  If you are adding an indicator which is dependent on the correct [State](state-1.md) of the indicator, you will need to ensure that you are also calling the indicator from the strategy in [OnBarUpdate()](onbarupdate-1.md), otherwise your indicator will only process in State.RealTime for performance optimizations. |
 | --- |
 
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.DataLoaded)    {      // Charts a 20 period simple moving average to the chart      AddChartIndicator(SMA(20));    } }   protected override void OnBarUpdate() {       // call SMA() historically to ensure the indicator processes its historical states as well    double sma \= SMA(20)\[0]; } |
+| protected override void OnStateChange() {    if (State == State.DataLoaded)    {      // Charts a 20 period simple moving average to the chart      AddChartIndicator(SMA(20));    } }   protected override void OnBarUpdate() {       // call SMA() historically to ensure the indicator processes its historical states as well    double sma = SMA(20)[0]; } |
 

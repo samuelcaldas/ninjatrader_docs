@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order Methods \> Unmanaged Approach \> IgnoreOverfill
+NinjaScript > Language Reference > Strategy > Order Methods > Unmanaged Approach > IgnoreOverfill
 
 IgnoreOverfill
-| \<\< [Click to Display Table of Contents](ignoreoverfill.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [Order Methods](order_methods.md) \> [Unmanaged Approach](unmanaged_approach.md) \> IgnoreOverfill | [Previous page](unmanaged_changeorder.md) [Return to chapter overview](unmanaged_approach.md) [Next page](isunmanaged.md) |
+| << [Click to Display Table of Contents](ignoreoverfill.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Unmanaged Approach](unmanaged_approach.md) > IgnoreOverfill | [Previous page](unmanaged_changeorder.md) [Return to chapter overview](unmanaged_approach.md) [Next page](isunmanaged.md) |
 | --- | --- |
 ## Definition
 An [unmanaged order property](unmanaged_approach.md) which defines the behavior of a strategy when an overfill is detected. An overfill is categorized as when an order returns a "Filled" or "PartFilled" state after the order was already marked for cancellation. The cancel request could have been induced by an explicit CancelOrder() call, from more implicit cancellations like those that occur when another order sharing the same OCO ID is filled, or from things like order expiration.
@@ -23,4 +23,4 @@ IgnoreOverfill
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {        // Allows for custom overfill handling        IgnoreOverfill \= true;    } } |
+| protected override void OnStateChange() {    if (State == State.SetDefaults)    {        // Allows for custom overfill handling        IgnoreOverfill = true;    } } |

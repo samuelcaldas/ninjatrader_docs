@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Analytical \> ToTime()
+NinjaScript > Language Reference > Common > Analytical > ToTime()
 ToTime()
-| \<\< [Click to Display Table of Contents](totime.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Analytical](market_data.md) \> ToTime() | [Previous page](today.md) [Return to chapter overview](market_data.md) [Next page](attributes.md) |
+| << [Click to Display Table of Contents](totime.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) > ToTime() | [Previous page](today.md) [Return to chapter overview](market_data.md) [Next page](attributes.md) |
 | --- | --- |
 ## Definition
 Calculates an integer value representing a time.
  
-| Note:  Integer representation of time is in the format Hmmss where 7:30 AM would be 73000 and 2:15:12 PM would be 141512\. |
+| Note:  Integer representation of time is in the format Hmmss where 7:30 AM would be 73000 and 2:15:12 PM would be 141512. |
 | --- |
 
 ## Method Return Value
@@ -23,16 +23,16 @@ ToTime(int hour, int minute, int second)
 | minute | An int value representing the minute used for the input |
 | second | An int value representing the second used for the input |
 
-| Tip:  NinjaScript uses the .NET DateTime structure which can be complicated for novice programmers. If you are familiar with C\# you can directly use DateTime structure properties and methods for date and time comparisons otherwise use this method and the [ToDay()](today.md) method. |
+| Tip:  NinjaScript uses the .NET DateTime structure which can be complicated for novice programmers. If you are familiar with C# you can directly use DateTime structure properties and methods for date and time comparisons otherwise use this method and the [ToDay()](today.md) method. |
 | --- |
 
 ## Examples
 | ns |
 | --- |
-| // Only trade between 7:45 AM and 1:45 PM if (ToTime(Time\[0]) \>\= 74500 \&\& ToTime(Time\[0]) \<\= 134500) {      // Strategy logic goes here } |
+| // Only trade between 7:45 AM and 1:45 PM if (ToTime(Time[0]) >= 74500 && ToTime(Time[0]) <= 134500) {      // Strategy logic goes here } |
 
  
 ## 
 | ns |
 | --- |
-| //store start time as an int variable to be compared int startTime \= ToTime(9, 30, 00); // 93000   //only trade after 9:30AM if (ToTime(Time\[0]) \>\= startTime) {      // Strategy logic goes here } |
+| //store start time as an int variable to be compared int startTime = ToTime(9, 30, 00); // 93000   //only trade after 9:30AM if (ToTime(Time[0]) >= startTime) {      // Strategy logic goes here } |

@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> IsInStrategyAnalyzer
+NinjaScript > Language Reference > Strategy > IsInStrategyAnalyzer
 
 IsInStrategyAnalyzer
 
-| \<\< [Click to Display Table of Contents](isinstrategyanalyer.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> IsInStrategyAnalyzer | [Previous page](isinstantiatedoneachoptimizationiteration.md) [Return to chapter overview](strategy.md) [Next page](istradinghoursbreaklinevisible.md) |
+| << [Click to Display Table of Contents](isinstrategyanalyer.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > IsInStrategyAnalyzer | [Previous page](isinstantiatedoneachoptimizationiteration.md) [Return to chapter overview](strategy.md) [Next page](istradinghoursbreaklinevisible.md) |
 | --- | --- |
 ## Definition
 Determines if the current NinjaScript Strategy is run from a Strategy Analyzer chart.
@@ -19,4 +19,4 @@ IsInStrategyAnalyzer
 
 | ns | |
 | --- | --- |
-|  | protected override void OnBarUpdate() {     // Only draw the ArrowUp on our condition if we're not in the Strategy Analyzer chart    if (Close\[0] \> SMA(High, 14)\[0] \&\& !IsInStrategyAnalyzer)        Draw.ArrowUp(this, CurrentBar.ToString(), true, 0, High\[0] \+ TickSize, Brushes.Blue); } |
+|  | protected override void OnBarUpdate() {     // Only draw the ArrowUp on our condition if we're not in the Strategy Analyzer chart    if (Close[0] > SMA(High, 14)[0] && !IsInStrategyAnalyzer)        Draw.ArrowUp(this, CurrentBar.ToString(), true, 0, High[0] + TickSize, Brushes.Blue); } |

@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Share Service \> OnShare()
+NinjaScript > Language Reference > Share Service > OnShare()
 
 OnShare()
 
-| \<\< [Click to Display Table of Contents](onshare.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Share Service](share_service-1.md) \> OnShare() | [Previous page](onauthorizeaccount-1.md) [Return to chapter overview](share_service-1.md) [Next page](signature-1.md) |
+| << [Click to Display Table of Contents](onshare.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Share Service](share_service-1.md) > OnShare() | [Previous page](onauthorizeaccount-1.md) [Return to chapter overview](share_service-1.md) [Next page](signature-1.md) |
 | --- | --- |
 ## Definition
 This method is called when the user clicks OK on the Share window in NinjaTrader. This method can also be called by Alerts and general NinjaScript objects.

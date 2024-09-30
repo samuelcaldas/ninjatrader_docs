@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnFundamentalData() \> FundamentalDataEventArgs
+NinjaScript > Language Reference > Common > OnFundamentalData() > FundamentalDataEventArgs
 
 FundamentalDataEventArgs
 
-| \<\< [Click to Display Table of Contents](fundamentaldataeventargs.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [OnFundamentalData()](onfundamentaldata-1.md) \> FundamentalDataEventArgs | [Previous page](onfundamentaldata-1.md) [Return to chapter overview](onfundamentaldata-1.md) [Next page](onmarketdata-1.md) |
+| << [Click to Display Table of Contents](fundamentaldataeventargs.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [OnFundamentalData()](onfundamentaldata-1.md) > FundamentalDataEventArgs | [Previous page](onfundamentaldata-1.md) [Return to chapter overview](onfundamentaldata-1.md) [Next page](onmarketdata-1.md) |
 | --- | --- |
 ## Definition
 Represents a change in fundamental data and is passed as a parameter in the [OnFundamentalData()](onfundamentaldata-1.md) method.   
@@ -23,12 +23,12 @@ Represents a change in fundamental data and is passed as a parameter in the [OnF
 
 | ns |
 | --- |
-| protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDataUpdate) {      // Print some data to the Output window      if (fundamentalDataUpdate.FundamentalDataType \=\= FundamentalDataType.AverageDailyVolume)          Print("Average Daily Volume \= " \+ fundamentalDataUpdate.LongValue);      else if (fundamentalDataUpdate.FundamentalDataType \=\= FundamentalDataType.PriceEarningsRatio)          Print("P/E Ratio \= " \+ fundamentalDataUpdate.DoubleValue); } |
+| protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDataUpdate) {      // Print some data to the Output window      if (fundamentalDataUpdate.FundamentalDataType == FundamentalDataType.AverageDailyVolume)          Print("Average Daily Volume = " + fundamentalDataUpdate.LongValue);      else if (fundamentalDataUpdate.FundamentalDataType == FundamentalDataType.PriceEarningsRatio)          Print("P/E Ratio = " + fundamentalDataUpdate.DoubleValue); } |
    
 
 Tips
-1\.Not all connectivity providers support all FundamentalDataTypes.
+1.Not all connectivity providers support all FundamentalDataTypes.
 
-2\.EarningsPerShare on eSignal is a trailing twelve months value. On IQFeed it is the last quarter's value.
+2.EarningsPerShare on eSignal is a trailing twelve months value. On IQFeed it is the last quarter's value.
 
-3\.RevenuePerShare is a trailing twelve months value.
+3.RevenuePerShare is a trailing twelve months value.

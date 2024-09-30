@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Educational Resources \> Developing Strategies \> Intermediate \- RSI with Stop Loss \& Profit Target \> Entering Strategy Logic
+NinjaScript > Educational Resources > Developing Strategies > Intermediate - RSI with Stop Loss & Profit Target > Entering Strategy Logic
 Entering Strategy Logic
-| \<\< [Click to Display Table of Contents](entering_strategy_logic.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Educational Resources](educational_resources.md) \> [Developing Strategies](developing_strategies.md) \> [Intermediate \- RSI with Stop Loss \& Profit Target](intermediate_-_rsi_with_stop_l.md) \> Entering Strategy Logic | [Previous page](set_up11.md) [Return to chapter overview](intermediate_-_rsi_with_stop_l.md) [Next page](compiling8.md) |
+| << [Click to Display Table of Contents](entering_strategy_logic.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Strategies](developing_strategies.md) > [Intermediate - RSI with Stop Loss & Profit Target](intermediate_-_rsi_with_stop_l.md) > Entering Strategy Logic | [Previous page](set_up11.md) [Return to chapter overview](intermediate_-_rsi_with_stop_l.md) [Next page](compiling8.md) |
 | --- | --- |
 ## Using the OnStateChange() Method to Configure the Strategy
 The [OnStateChange()](onstatechange.md) method is called once prior to running a strategy and can be used to set properties or call methods in preparation for running a strategy.
@@ -10,7 +10,7 @@ Enter the code contained within the OnStateChange() method in the image below in
  
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {      Description                               \= @"RSI with a Stop Loss and Profit Target";      Name                                     \= "RSIwithStopAndTarget";      Calculate                                 \= Calculate.OnBarClose;      EntriesPerDirection                       \= 1;      EntryHandling                             \= EntryHandling.AllEntries;      IsExitOnSessionCloseStrategy             \= true;      ExitOnSessionCloseSeconds                 \= 30;      IsFillLimitOnTouch                       \= false;      MaximumBarsLookBack                       \= MaximumBarsLookBack.TwoHundredFiftySix;      OrderFillResolution                       \= OrderFillResolution.Standard;      Slippage                                 \= 0;      StartBehavior                             \= StartBehavior.WaitUntilFlat;      TimeInForce                               \= TimeInForce.Gtc;      TraceOrders                               \= false;      RealtimeErrorHandling                     \= RealtimeErrorHandling.StopCancelClose;      StopTargetHandling                       \= StopTargetHandling.PerEntryExecution;      BarsRequiredToTrade                       \= 20;      // Disable this property for performance gains in Strategy Analyzer optimizations      // See the Help Guide for additional information      IsInstantiatedOnEachOptimizationIteration \= true;      RSIPeriod                                 \= 14;      RSISmooth                                 \= 3;      ProfitTarget                             \= 12;      StopLoss                                 \= 6;    }    else if (State \=\= State.DataLoaded)    {      AddChartIndicator(RSI(RSIPeriod, RSISmooth));             SetStopLoss(CalculationMode.Ticks, StopLoss);      SetProfitTarget(CalculationMode.Ticks, ProfitTarget);    } } |
+| protected override void OnStateChange() {    if (State == State.SetDefaults)    {      Description                               = @"RSI with a Stop Loss and Profit Target";      Name                                     = "RSIwithStopAndTarget";      Calculate                                 = Calculate.OnBarClose;      EntriesPerDirection                       = 1;      EntryHandling                             = EntryHandling.AllEntries;      IsExitOnSessionCloseStrategy             = true;      ExitOnSessionCloseSeconds                 = 30;      IsFillLimitOnTouch                       = false;      MaximumBarsLookBack                       = MaximumBarsLookBack.TwoHundredFiftySix;      OrderFillResolution                       = OrderFillResolution.Standard;      Slippage                                 = 0;      StartBehavior                             = StartBehavior.WaitUntilFlat;      TimeInForce                               = TimeInForce.Gtc;      TraceOrders                               = false;      RealtimeErrorHandling                     = RealtimeErrorHandling.StopCancelClose;      StopTargetHandling                       = StopTargetHandling.PerEntryExecution;      BarsRequiredToTrade                       = 20;      // Disable this property for performance gains in Strategy Analyzer optimizations      // See the Help Guide for additional information      IsInstantiatedOnEachOptimizationIteration = true;      RSIPeriod                                 = 14;      RSISmooth                                 = 3;      ProfitTarget                             = 12;      StopLoss                                 = 6;    }    else if (State == State.DataLoaded)    {      AddChartIndicator(RSI(RSIPeriod, RSISmooth));             SetStopLoss(CalculationMode.Ticks, StopLoss);      SetProfitTarget(CalculationMode.Ticks, ProfitTarget);    } } |
  
 For more information on the strategy properties added in State.SetDefaults, please see our complete [Strategy](strategy.md) documentation.
 The [AddChartIndicator()](addchartindicator.md) method is called and the RSI() indicator method is passed in which will automatically plot this indicator on a chart when the strategy runs.
@@ -39,13 +39,13 @@ Allows us to change the period and smooth parameters of the embedded RSI indicat
 [SetStopLoss()](setstoploss.md) and [SetProfitTarget()](setprofittarget.md) are called with CalculationMode.Ticks. This means that when a position is opened, the strategy will immediately submit a stop and target order with a price that is calculated based on the StopLoss and ProfitTarget parameters passed in offset from the positions average entry price.
 
 ## Using the OnBarUpdate() Method for the Core Strategy Logic
-The OnBarUpdate() method is called for each incoming tick or on the close of a bar (user defined) when performing real\-time calculations. Therefore, this is the main method called for strategy calculation and we will use this method to enter the script that check for entry and exit conditions.
+The OnBarUpdate() method is called for each incoming tick or on the close of a bar (user defined) when performing real-time calculations. Therefore, this is the main method called for strategy calculation and we will use this method to enter the script that check for entry and exit conditions.
  
 Enter the code contained within the OnBarUpdate() method in the image below into the OnBarUpdate() method in the NinjaScript Editor:
  
 | ns |
 | --- |
-| protected override void OnBarUpdate() {    if (CurrentBar \< RSIPeriod)      return;        if(CrossAbove(RSI(RSIPeriod, RSISmooth), 20, 1))      EnterLong(); } |
+| protected override void OnBarUpdate() {    if (CurrentBar < RSIPeriod)      return;        if(CrossAbove(RSI(RSIPeriod, RSISmooth), 20, 1))      EnterLong(); } |
  
 Since our strategy exit logic has already been set up in the OnStateChange() method above, we only need to focus on expressing our entry logic. The strategy entry logic is very straight forward and can be translated to English:
  
@@ -55,11 +55,11 @@ if RSI crosses above a value of 20 within the last bar, go long
  
 To accomplish this we used the following methods and properties:
  
-[CurrentBar](currentbar.md) \- A value representing the current bar being processed (think of a chart where the left most bar would be equal to one)   
+[CurrentBar](currentbar.md) - A value representing the current bar being processed (think of a chart where the left most bar would be equal to one)   
 
-[CrossAbove()](crossabove.md) \- Checks for a cross above condition and returns true or false   
+[CrossAbove()](crossabove.md) - Checks for a cross above condition and returns true or false   
 
-[RSI()](relative_strength_index_rsi.md) \- Returns the value of the RSI indicator   
+[RSI()](relative_strength_index_rsi.md) - Returns the value of the RSI indicator   
 
-[EnterLong()](enterlong.md) \- Enters a market order long
+[EnterLong()](enterlong.md) - Enters a market order long
 

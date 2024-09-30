@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> OrderFillResolutionType
+NinjaScript > Language Reference > Strategy > OrderFillResolutionType
 OrderFillResolutionType
-| \<\< [Click to Display Table of Contents](orderfillresolutiontype.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> OrderFillResolutionType | [Previous page](orderfillresolution.md) [Return to chapter overview](strategy.md) [Next page](orderfillresolutionvalue.md) |
+| << [Click to Display Table of Contents](orderfillresolutiontype.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > OrderFillResolutionType | [Previous page](orderfillresolution.md) [Return to chapter overview](strategy.md) [Next page](orderfillresolutionvalue.md) |
 | --- | --- |
 ## Definition
 Determines the bars type which will be used for historical fill processing.
@@ -23,6 +23,6 @@ OrderFillResolutionType
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {                  Name \= "ExampleStrategy";        // use one second bars for filling orders      OrderFillResolution       \= OrderFillResolution.High;                     OrderFillResolutionType   \= BarsPeriodType.Second;      OrderFillResolutionValue   \= 1;     }        } |
+| protected override void OnStateChange() {    if (State == State.SetDefaults)    {                  Name = "ExampleStrategy";        // use one second bars for filling orders      OrderFillResolution       = OrderFillResolution.High;                     OrderFillResolutionType   = BarsPeriodType.Second;      OrderFillResolutionValue   = 1;     }        } |
 
  

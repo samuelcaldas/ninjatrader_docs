@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.ArrowDown() \> ArrowDown
+NinjaScript > Language Reference > Common > Drawing > Draw.ArrowDown() > ArrowDown
 ArrowDown
-| \<\< [Click to Display Table of Contents](arrowdown.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.ArrowDown()](draw_arrowdown-1.md) \> ArrowDown | [Previous page](draw_arrowdown-1.md) [Return to chapter overview](draw_arrowdown-1.md) [Next page](draw_arrowline-1.md) |
+| << [Click to Display Table of Contents](arrowdown.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.ArrowDown()](draw_arrowdown-1.md) > ArrowDown | [Previous page](draw_arrowdown-1.md) [Return to chapter overview](draw_arrowdown-1.md) [Next page](draw_arrowline-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding an Arrow Down [IDrawingTool](idrawingtool-1.md).
@@ -16,5 +16,5 @@ Represents an interface that exposes information regarding an Arrow Down [IDrawi
 ## Example
 | ns |
 | --- |
-| // Instantiate an ArrowDown object ArrowDown myArrow \= Draw.ArrowDown(this, "tag1", true, Time\[0], High\[0] \+ (2 \* TickSize), Brushes.Green);   // Set the outline color of the Arrow myArrow.OutlineBrush \= Brushes.Black; |
+| // Instantiate an ArrowDown object ArrowDown myArrow = Draw.ArrowDown(this, "tag1", true, Time[0], High[0] + (2 * TickSize), Brushes.Green);   // Set the outline color of the Arrow myArrow.OutlineBrush = Brushes.Black; |
 

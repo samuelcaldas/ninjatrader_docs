@@ -1,9 +1,9 @@
 ﻿
-Operations \> Order Entry \> Chart Trader \> Modifying and Cancelling Orders
+Operations > Order Entry > Chart Trader > Modifying and Cancelling Orders
 
 Modifying and Cancelling Orders
 
-| \<\< [Click to Display Table of Contents](modifying_and_cancelling_orde2.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> [Chart Trader](chart_trader-1.md) \> Modifying and Cancelling Orders | [Previous page](submitting_orders4-1.md) [Return to chapter overview](chart_trader-1.md) [Next page](charttrader_attachtoindicator-1.md) |
+| << [Click to Display Table of Contents](modifying_and_cancelling_orde2.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [Chart Trader](chart_trader-1.md) > Modifying and Cancelling Orders | [Previous page](submitting_orders4-1.md) [Return to chapter overview](chart_trader-1.md) [Next page](charttrader_attachtoindicator-1.md) |
 | --- | --- |
 An order can be modified or canceled within a chart when Chart Trader is enabled.
 ![tog_minus](tog_minus-1.gif)        [How to modify an order price](javascript:HMToggle('toggle','HowToModifyAnOrderPrice','HowToModifyAnOrderPrice_ICON'))

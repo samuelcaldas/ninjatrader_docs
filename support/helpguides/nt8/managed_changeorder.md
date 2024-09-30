@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order Methods \> Managed Approach \> ChangeOrder()
+NinjaScript > Language Reference > Strategy > Order Methods > Managed Approach > ChangeOrder()
 
 ChangeOrder()
 
-| \<\< [Click to Display Table of Contents](managed_changeorder.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [Order Methods](order_methods.md) \> [Managed Approach](managed_approach.md) \> ChangeOrder() | [Previous page](managed_cancelorder.md) [Return to chapter overview](managed_approach.md) [Next page](enterlong.md) |
+| << [Click to Display Table of Contents](managed_changeorder.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Managed Approach](managed_approach.md) > ChangeOrder() | [Previous page](managed_cancelorder.md) [Return to chapter overview](managed_approach.md) [Next page](enterlong.md) |
 | --- | --- |
 ## Definition
 Amends a specified [Order](order.md).
@@ -16,7 +16,7 @@ Amends a specified [Order](order.md).
 ChangeOrder(Order order, int quantity, double limitPrice, double stopPrice)
  
 
-| Warning:  If you have existing historical [order](order.md) references which have transitioned to real\-time, you MUST update the order object reference to the newly submitted real\-time order; otherwise errors may occur as you attempt to change the order.  You may use the [GetRealtimeOrder()](getrealtimeorder.md) helper method to assist in this transition. |
+| Warning:  If you have existing historical [order](order.md) references which have transitioned to real-time, you MUST update the order object reference to the newly submitted real-time order; otherwise errors may occur as you attempt to change the order.  You may use the [GetRealtimeOrder()](getrealtimeorder.md) helper method to assist in this transition. |
 | --- |
 
 ## Parameters
@@ -32,4 +32,4 @@ ChangeOrder(Order order, int quantity, double limitPrice, double stopPrice)
 
 | ns |
 | --- |
-| private Order stopOrder \= null;   protected override void OnBarUpdate() {      // Raise stop loss to breakeven when you are at least 4 ticks in profit      if (stopOrder !\= null \&\& stopOrder.StopPrice \< Position.AveragePrice \&\& Close\[0] \>\= Position.AveragePrice \+ 4 \* TickSize)          ChangeOrder(stopOrder, stopOrder.Quantity, 0, Position.AveragePrice); } |
+| private Order stopOrder = null;   protected override void OnBarUpdate() {      // Raise stop loss to breakeven when you are at least 4 ticks in profit      if (stopOrder != null && stopOrder.StopPrice < Position.AveragePrice && Close[0] >= Position.AveragePrice + 4 * TickSize)          ChangeOrder(stopOrder, stopOrder.Quantity, 0, Position.AveragePrice); } |

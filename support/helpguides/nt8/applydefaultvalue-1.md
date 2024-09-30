@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Bars Type \> ApplyDefaultValue
+NinjaScript > Language Reference > Bars Type > ApplyDefaultValue
 
 ApplyDefaultValue
 
-| \<\< [Click to Display Table of Contents](applydefaultvalue.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Bars Type](bars_type-1.md) \> ApplyDefaultValue | [Previous page](applydefaultbaseperiodvalue-1.md) [Return to chapter overview](bars_type-1.md) [Next page](builtfrom-1.md) |
+| << [Click to Display Table of Contents](applydefaultvalue.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Bars Type](bars_type-1.md) > ApplyDefaultValue | [Previous page](applydefaultbaseperiodvalue-1.md) [Return to chapter overview](bars_type-1.md) [Next page](builtfrom-1.md) |
 | --- | --- |
 ## Definition
 Sets the default [BarsPeriod](barsperiod-1.md) values used for a custom Bar Type. 
@@ -32,4 +32,4 @@ public override void ApplyDefaultValue(BarsPeriod period)
 
 | ns |
 | --- |
-| public override void ApplyDefaultValue(BarsPeriod period) {  period.BarsPeriodTypeName \= "MyBarType";  period.Value \= 1; } |
+| public override void ApplyDefaultValue(BarsPeriod period) {  period.BarsPeriodTypeName = "MyBarType";  period.Value = 1; } |

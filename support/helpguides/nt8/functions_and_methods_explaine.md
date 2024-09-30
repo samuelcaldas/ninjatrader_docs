@@ -3,14 +3,14 @@ Methods Explained
 
 Methods Explained
 
-| \<\< [Click to Display Table of Contents](functions_and_methods_explaine.md) \>\> **Navigation:**   »No topics above this level«   Methods Explained | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
+| << [Click to Display Table of Contents](functions_and_methods_explaine.md) >> **Navigation:**   »No topics above this level«   Methods Explained | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
 | --- | --- |
 Methods (called "Functions" in some other programming languages) are used to encapsulate a set of statements. They are given a name and optionally a set of input parameters. They can be "called" from any point in your NinjaScript code. Once written, we need only be concerned with what a method does. A method can return a value of any type, or return nothing.
  
 ## Declaring a Method
 A method must first be declared before you can use it in your script:
  
-\[Access Modifier] \[Return Type] \[Name] (Optional parameters)
+[Access Modifier] [Return Type] [Name] (Optional parameters)
  
 
 | Access Modifier | Sets the access level to the method. In developing NinjaScript objects, you will likely use the private access modifier more often than any other. |
@@ -33,16 +33,16 @@ The above method has no return type, so we use the void access modifier. We prov
 
 | ns |
 | --- |
-| // This method performs a calculation and returns a double value private double Multiply(double input) {      return input \* 10; } |
+| // This method performs a calculation and returns a double value private double Multiply(double input) {      return input * 10; } |
  
-The above method returns a value of type double, so we use the keyword double. We provide a user defined method name "Multiply," and we declare that this method takes a parameter named "input" which is of type double. Since this method returns a value, we use the return keyword to return the value of (input \* 10\) back to the calling routine.
+The above method returns a value of type double, so we use the keyword double. We provide a user defined method name "Multiply," and we declare that this method takes a parameter named "input" which is of type double. Since this method returns a value, we use the return keyword to return the value of (input * 10) back to the calling routine.
  
 ## Calling a Method within a Method
  
 
 | ns |
 | --- |
-| // This method performs a calculation and returns a double value private double Multiply(double input) {      PrintDateTime();      return input \* 10; } |
+| // This method performs a calculation and returns a double value private double Multiply(double input) {      PrintDateTime();      return input * 10; } |
  
 Building on our examples from above, we added a call to the PrintDateTime() method within our Multiply method.
    
@@ -59,14 +59,14 @@ First we declare our method using a return type of double and name it "AverageRa
 
 | ns |
 | --- |
-| // Calculates the average range of the past three bars private double AverageRange() {      return ((High\[1] \- Low\[1]) \+ (High\[2] \- Low\[2]) \+ (High\[3] \- Low\[3])) / 3 ; } |
+| // Calculates the average range of the past three bars private double AverageRange() {      return ((High[1] - Low[1]) + (High[2] - Low[2]) + (High[3] - Low[3])) / 3 ; } |
  
 We can then reference the AverageRange method anywhere else in our script, like in the example below:
  
 
 | ns |
 | --- |
-| // Example method that calls the AverageRange() method twice private void ExampleMethod() {      if (High\[0] \- Low\[0] \> AverageRange())      {          Print("The current bar range is greater than the 3 bar average range of " \+            AverageRange().ToString());      } } |
+| // Example method that calls the AverageRange() method twice private void ExampleMethod() {      if (High[0] - Low[0] > AverageRange())      {          Print("The current bar range is greater than the 3 bar average range of " +            AverageRange().ToString());      } } |
  
 ## Declaring Variables within a Method
 You can declare variables within a method. These variables are local in scope, which means they can only be accessed within the method and not outside of it, such as in your main script.
@@ -74,4 +74,4 @@ You can declare variables within a method. These variables are local in scope, w
 
 | ns |
 | --- |
-| // Example method using a variable private double MyMethod() {      double myDouble \= 100\.25      return myDouble \* 10; } |
+| // Example method using a variable private double MyMethod() {      double myDouble = 100.25      return myDouble * 10; } |

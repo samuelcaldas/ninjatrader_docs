@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> RemoveDrawObjects()
+NinjaScript > Language Reference > Common > Drawing > RemoveDrawObjects()
 RemoveDrawObjects()
-| \<\< [Click to Display Table of Contents](removedrawobjects.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> RemoveDrawObjects() | [Previous page](removedrawobject.md) [Return to chapter overview](drawing.md) [Next page](instruments_ninjascript.md) |
+| << [Click to Display Table of Contents](removedrawobjects.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > RemoveDrawObjects() | [Previous page](removedrawobject.md) [Return to chapter overview](drawing.md) [Next page](instruments_ninjascript.md) |
 | --- | --- |
 ## Definition
 Removes all draw objects originating from the indicator or strategy from the chart.

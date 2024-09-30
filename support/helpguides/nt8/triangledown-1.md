@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.TriangleDown() \> TriangleDown
+NinjaScript > Language Reference > Common > Drawing > Draw.TriangleDown() > TriangleDown
 TriangleDown
-| \<\< [Click to Display Table of Contents](triangledown.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.TriangleDown()](draw_triangledown-1.md) \> TriangleDown | [Previous page](draw_triangledown-1.md) [Return to chapter overview](draw_triangledown-1.md) [Next page](draw_triangleup-1.md) |
+| << [Click to Display Table of Contents](triangledown.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.TriangleDown()](draw_triangledown-1.md) > TriangleDown | [Previous page](draw_triangledown-1.md) [Return to chapter overview](draw_triangledown-1.md) [Next page](draw_triangleup-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Triangle Down [IDrawingTool](idrawingtool-1.md).
@@ -18,4 +18,4 @@ Represents an interface that exposes information regarding a Triangle Down [IDra
 ## Example
 | ns |
 | --- |
-| // Instantiate a TriangleDown object TriangleDown myTri \= Draw.TriangleDown(this, "tag1", true, 0, Low\[0] \- TickSize, Brushes.Red);               // Change the object's AreaBrush myTri.AreaBrush \= Brushes.Beige; |
+| // Instantiate a TriangleDown object TriangleDown myTri = Draw.TriangleDown(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);               // Change the object's AreaBrush myTri.AreaBrush = Brushes.Beige; |

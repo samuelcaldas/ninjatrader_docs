@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Balance of Power (BOP)
+NinjaScript > Language Reference > Common > System Indicator Methods > Balance of Power (BOP)
 
 Balance of Power (BOP)
 
-| \<\< [Click to Display Table of Contents](balance_of_power_bop.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [System Indicator Methods](indicators-1.md) \> Balance of Power (BOP) | [Previous page](average_true_range_atr-1.md) [Return to chapter overview](indicators-1.md) [Next page](block_volume-1.md) |
+| << [Click to Display Table of Contents](balance_of_power_bop.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) > Balance of Power (BOP) | [Previous page](average_true_range_atr-1.md) [Return to chapter overview](indicators-1.md) [Next page](block_volume-1.md) |
 | --- | --- |
 ## Description
 The balance of power (BOP) indicator measures the strength of the bulls vs. bears by assessing the ability of each to push price to an extreme level. 
@@ -11,16 +11,16 @@ The balance of power (BOP) indicator measures the strength of the bulls vs. bear
 ## Syntax
 BOP(int smooth)  
 
-BOP(ISeries\<double\> input, int smooth)
+BOP(ISeries<double> input, int smooth)
  
 Returns default value  
 
-BOP(int smooth)\[int barsAgo]  
+BOP(int smooth)[int barsAgo]  
 
-BOP(ISeries\<double\> input, int smooth)\[int barsAgo]
+BOP(ISeries<double> input, int smooth)[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 
@@ -33,7 +33,7 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 
 | ns |
 | --- |
-| // Prints the current value of BOP using default price type and 3 period smoothing double value \= BOP(3)\[0]; Print("The current BOP value is " \+ value.ToString()); |
+| // Prints the current value of BOP using default price type and 3 period smoothing double value = BOP(3)[0]; Print("The current BOP value is " + value.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

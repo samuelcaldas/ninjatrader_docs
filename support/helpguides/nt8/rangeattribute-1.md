@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Attributes \> RangeAttribute
+NinjaScript > Language Reference > Common > Attributes > RangeAttribute
 
 RangeAttribute
 
-| \<\< [Click to Display Table of Contents](rangeattribute.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Attributes](attributes-1.md) \> RangeAttribute | [Previous page](ninjascriptpropertyattribute-1.md) [Return to chapter overview](attributes-1.md) [Next page](typeconverterattribute-1.md) |
+| << [Click to Display Table of Contents](rangeattribute.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Attributes](attributes-1.md) > RangeAttribute | [Previous page](ninjascriptpropertyattribute-1.md) [Return to chapter overview](attributes-1.md) [Next page](typeconverterattribute-1.md) |
 | --- | --- |
 ## Definition
 Determines if the value of the following declared property is valid within a specified range.  These values are checked when the NinjaScript object has reached [State.Configure](state-1.md).  For configuration through the UI (e.g., the user has selected Apply or OK to configure the value from the indicator dialog box) and determines to be invalid, the value will be automatically rounded to the nearest minimum or maximum value. Should the property be set as a [NinjaScriptAttribute](ninjascriptpropertyattribute-1.md) and called from a hosting NinjaScript object and determines to be invalid, an exception will be thrown and the hosted indicator will NOT execute.
@@ -13,11 +13,11 @@ Determines if the value of the following declared property is valid within a spe
 | --- |
 
 ## Syntax
-\[Range(int minimum, int maximum)]  
+[Range(int minimum, int maximum)]  
 
-\[Range(double minimum, double maximum)]  
+[Range(double minimum, double maximum)]  
 
-\[Range(type type, string minimum, string aximum)]
+[Range(type type, string minimum, string aximum)]
 ## 
 ## Parameters
 
@@ -31,4 +31,4 @@ Determines if the value of the following declared property is valid within a spe
 
 | ns |
 | --- |
-| \#region Properties   // set range between 1 and the highest possible integer \[Range(1, int.MaxValue)] public int Myint { get; set; }         //set range between .001 and 1 \[Range(.001, 1\.0)] public double MyDouble { get; set; }              // set range as a type DateTime between these dates \[Range(typeof(DateTime), "01/01/1990", "12/31/2015")] public DateTime MyTime { get; set; }   \#endregion |
+| #region Properties   // set range between 1 and the highest possible integer [Range(1, int.MaxValue)] public int Myint { get; set; }         //set range between .001 and 1 [Range(.001, 1.0)] public double MyDouble { get; set; }              // set range as a type DateTime between these dates [Range(typeof(DateTime), "01/01/1990", "12/31/2015")] public DateTime MyTime { get; set; }   #endregion |

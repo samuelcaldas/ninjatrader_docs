@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Language Reference \> Indicator \> IsSuspendedWhileInactive
+NinjaScript > Language Reference > Indicator > IsSuspendedWhileInactive
 
 IsSuspendedWhileInactive
 
-| \<\< [Click to Display Table of Contents](issuspendedwhileinactive.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Indicator](indicator-1.md) \> IsSuspendedWhileInactive | [Previous page](ischartonly-1.md) [Return to chapter overview](indicator-1.md) [Next page](paintpricemarkers-1.md) |
+| << [Click to Display Table of Contents](issuspendedwhileinactive.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Indicator](indicator-1.md) > IsSuspendedWhileInactive | [Previous page](ischartonly-1.md) [Return to chapter overview](indicator-1.md) [Next page](paintpricemarkers-1.md) |
 | --- | --- |
 ## Definition
-Prevents OnBarUpdate from being raised while the indicators display is not in use.  Enabling this property in your indicator helps save CPU cycles while the indicator is suspended and not in use by a user.  Once the indicator is in a state that would no longer be considered suspended, the historical OnBarUpdate() events will be triggered allowing the indicator to catch up to current real\-time values.  
+Prevents OnBarUpdate from being raised while the indicators display is not in use.  Enabling this property in your indicator helps save CPU cycles while the indicator is suspended and not in use by a user.  Once the indicator is in a state that would no longer be considered suspended, the historical OnBarUpdate() events will be triggered allowing the indicator to catch up to current real-time values.  
  
 Suspension occurs in the following scenarios:
  
@@ -24,11 +24,11 @@ Suspension occurs in the following scenarios:
 
  
 
-| Note:  Since events in OnBarUpdate() will not be processed while the indicator is suspended, internal NinjaScript functions such as [Alert()](alert-1.md), [PlaySound()](playsound-1.md), [Share()](share-1.md), [Print()](print-1.md), etc \- or any other method that would be used to notify a user of activity will NOT be processed until the indicator is un\-suspended. |
+| Note:  Since events in OnBarUpdate() will not be processed while the indicator is suspended, internal NinjaScript functions such as [Alert()](alert-1.md), [PlaySound()](playsound-1.md), [Share()](share-1.md), [Print()](print-1.md), etc - or any other method that would be used to notify a user of activity will NOT be processed until the indicator is un-suspended. |
 | --- |
 
 ## Scenarios where suspension will not occur
-## The IsSuspendedWhileInactive property will be ignored and real\-time events will be processed as normal under the following cases:
+## The IsSuspendedWhileInactive property will be ignored and real-time events will be processed as normal under the following cases:
  
 - Indicators running in [Automated NinjaScript Strategies](running_a_ninjascript_strategy-1.md)
 
@@ -54,4 +54,4 @@ IsSuspendedWhileInactive
 
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          IsSuspendedWhileInactive \= true;      } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {          IsSuspendedWhileInactive = true;      } } |

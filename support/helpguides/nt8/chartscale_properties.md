@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartScale \> Properties
+NinjaScript > Language Reference > Common > Charts > ChartScale > Properties
 
 Properties
-| \<\< [Click to Display Table of Contents](chartscale_properties.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> [ChartScale](chartscale.md) \> Properties | [Previous page](panelindex.md) [Return to chapter overview](chartscale.md) [Next page](chartscale_scalejustification.md) |
+| << [Click to Display Table of Contents](chartscale_properties.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartScale](chartscale.md) > Properties | [Previous page](panelindex.md) [Return to chapter overview](chartscale.md) [Next page](chartscale_scalejustification.md) |
 | --- | --- |
 ## Definition
 Represents a number of properties available to the Chart Scale which can be configured to change the appearance of the scale.
@@ -30,9 +30,9 @@ Represents a number of properties available to the Chart Scale which can be conf
 
 ## 
 ## Syntax
-\<chartScale\>.Properties
+<chartScale>.Properties
  
 ## Examples
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {             if (chartScale.Properties.YAxisScalingType \=\= YAxisScalingType.Linear)    {      // do something    } } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {             if (chartScale.Properties.YAxisScalingType == YAxisScalingType.Linear)    {      // do something    } } |

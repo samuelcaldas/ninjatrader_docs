@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Educational Resources \> Reference Samples \> Indicator \> Ensuring indicator plots are valid before programmatically accessing them
+NinjaScript > Educational Resources > Reference Samples > Indicator > Ensuring indicator plots are valid before programmatically accessing them
 
 Ensuring indicator plots are valid before programmatically accessing them
-| \<\< [Click to Display Table of Contents](ensuring_indicator_plots_are_v.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> [Reference Samples](reference_samples-1.md) \> [Indicator](indicator2-1.md) \> Ensuring indicator plots are valid before programmatically accessing them | [Previous page](draw_objects-1.md) [Return to chapter overview](indicator2-1.md) [Next page](exposing_indicator_values_that-1.md) |
+| << [Click to Display Table of Contents](ensuring_indicator_plots_are_v.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Indicator](indicator2-1.md) > Ensuring indicator plots are valid before programmatically accessing them | [Previous page](draw_objects-1.md) [Return to chapter overview](indicator2-1.md) [Next page](exposing_indicator_values_that-1.md) |
 | --- | --- |
 When accessing NinjaScript indicators in other scripts it is important to check if the hosted indicator's plot values are already set prior to use in the hosting script. This check ensures that proper values are always used and that irrelevant values do not throw off the script logic. This reference sample demonstrates how to run these checks in a hosting indicator by checking another hosted indicator for set plot values.
  
@@ -31,11 +31,11 @@ Another example for when you would want to use this is if you were trying to acc
 
  
 ## Import instructions
-1\.Download the file contained in this Help Guide topic to your PC desktop
+1.Download the file contained in this Help Guide topic to your PC desktop
 
-2\.From the Control Center window, select the menu Tools \> Import \> NinjaScript
+2.From the Control Center window, select the menu Tools > Import > NinjaScript
 
-3\.Select the downloaded file
+3.Select the downloaded file
 
  
-[SampleEveryNBarTest\_NT8\.zip](samples/SampleEveryNBarTest_NT8.zip)
+[SampleEveryNBarTest_NT8.zip](samples/SampleEveryNBarTest_NT8.zip)

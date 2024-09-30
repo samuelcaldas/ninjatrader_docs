@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Ellipse() \> Ellipse
+NinjaScript > Language Reference > Common > Drawing > Draw.Ellipse() > Ellipse
 
 Ellipse
-| \<\< [Click to Display Table of Contents](ellipse.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.Ellipse()](draw_ellipse.md) \> Ellipse | [Previous page](draw_ellipse.md) [Return to chapter overview](draw_ellipse.md) [Next page](draw_extendedline.md) |
+| << [Click to Display Table of Contents](ellipse.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Ellipse()](draw_ellipse.md) > Ellipse | [Previous page](draw_ellipse.md) [Return to chapter overview](draw_ellipse.md) [Next page](draw_extendedline.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding an Ellipse [IDrawingTool](idrawingtool.md).
@@ -20,4 +20,4 @@ Represents an interface that exposes information regarding an Ellipse [IDrawingT
 ## Example
 | ns |
 | --- |
-| // Paint a red ellipse on the current bar Ellipse myEllipse \= Draw.Ellipse(this, "tag1", true, 5, Close\[5], 0, Close\[0], Brushes.Red, Brushes.Red, 5);   // Change the AreaOpacity of the Ellipse myEllipse.AreaOpacity \= 0; |
+| // Paint a red ellipse on the current bar Ellipse myEllipse = Draw.Ellipse(this, "tag1", true, 5, Close[5], 0, Close[0], Brushes.Red, Brushes.Red, 5);   // Change the AreaOpacity of the Ellipse myEllipse.AreaOpacity = 0; |

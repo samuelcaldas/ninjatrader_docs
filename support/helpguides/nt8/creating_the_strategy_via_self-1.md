@@ -1,11 +1,11 @@
 ﻿
-NinjaScript \> Educational Resources \> Developing Strategies \> Beginner \- Simple MA Cross Over \> Creating the Strategy via Self Programming
+NinjaScript > Educational Resources > Developing Strategies > Beginner - Simple MA Cross Over > Creating the Strategy via Self Programming
 Creating the Strategy via Self Programming
-| \<\< [Click to Display Table of Contents](creating_the_strategy_via_self.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> [Developing Strategies](developing_strategies-1.md) \> [Beginner \- Simple MA Cross Over](beginner_-_simple_ma_cross_ove-1.md) \> Creating the Strategy via Self Programming | [Previous page](creating_the_strategy_via_the_-1.md) [Return to chapter overview](beginner_-_simple_ma_cross_ove-1.md) [Next page](compiling7-1.md) |
+| << [Click to Display Table of Contents](creating_the_strategy_via_self.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Developing Strategies](developing_strategies-1.md) > [Beginner - Simple MA Cross Over](beginner_-_simple_ma_cross_ove-1.md) > Creating the Strategy via Self Programming | [Previous page](creating_the_strategy_via_the_-1.md) [Return to chapter overview](beginner_-_simple_ma_cross_ove-1.md) [Next page](compiling7-1.md) |
 | --- | --- |
 If you have not done so already, press the "Unlock Code" button within the wizard to launch the NinjaScript Editor.
  
-The [OnBarUpdate()](onbarupdate-1.md) method is called for each incoming tick or on the close of a bar (user defined) when performing real\-time calculations. Therefore, this is the main method called for strategy calculation and we will use this method to enter the script that check for entry and exit conditions.
+The [OnBarUpdate()](onbarupdate-1.md) method is called for each incoming tick or on the close of a bar (user defined) when performing real-time calculations. Therefore, this is the main method called for strategy calculation and we will use this method to enter the script that check for entry and exit conditions.
  
 ## The Entry and Exit Condition
 Enter the code contained within the OnBarUpdate() method in the image below into the OnBarUpdate() method in the NinjaScript Editor:
@@ -22,13 +22,13 @@ if the fast simple moving average crosses below the slow simple moving average w
  
 To accomplish this we used the following methods:
  
-[CrossAbove()](crossabove-1.md) \- Checks for a cross above condition and returns true or false   
+[CrossAbove()](crossabove-1.md) - Checks for a cross above condition and returns true or false   
 
-[CrossBelow()](crossbelow-1.md) \- Checks for a cross below condition and returns true or false   
+[CrossBelow()](crossbelow-1.md) - Checks for a cross below condition and returns true or false   
 
-[SMA()](moving_average_-_simple_sma-1.md) \- Returns the value of a simple moving average   
+[SMA()](moving_average_-_simple_sma-1.md) - Returns the value of a simple moving average   
 
-[EnterLong()](enterlong-1.md) \- Enters a market order long   
+[EnterLong()](enterlong-1.md) - Enters a market order long   
 
-[EnterShort()](entershort-1.md) \- Enters a market order short
+[EnterShort()](entershort-1.md) - Enters a market order short
 

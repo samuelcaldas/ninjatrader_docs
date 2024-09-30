@@ -1,15 +1,15 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> OnAccountItemUpdate()
+NinjaScript > Language Reference > Strategy > OnAccountItemUpdate()
 
 OnAccountItemUpdate()
 
-| \<\< [Click to Display Table of Contents](onaccountitemupdate.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> OnAccountItemUpdate() | [Previous page](numberrestartattempts-1.md) [Return to chapter overview](strategy-1.md) [Next page](accountitemeventargs-1.md) |
+| << [Click to Display Table of Contents](onaccountitemupdate.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > OnAccountItemUpdate() | [Previous page](numberrestartattempts-1.md) [Return to chapter overview](strategy-1.md) [Next page](accountitemeventargs-1.md) |
 | --- | --- |
 ## Definition
 An event driven method used for strategies which is called for each AccountItem update for the account on which the strategy is running.
 ## 
 
-| Note:  OnAccountItemUpdate() will be called continually in real\-time if a position exists on the account on which the strategy is running. This is to provide updates on the current Unrealized Profit and Loss and associated risk values. |
+| Note:  OnAccountItemUpdate() will be called continually in real-time if a position exists on the account on which the strategy is running. This is to provide updates on the current Unrealized Profit and Loss and associated risk values. |
 | --- |
 
 ## Method Return Value
@@ -34,4 +34,4 @@ You must override the method in your strategy with the following syntax:
 
 | ns |
 | --- |
-| protected override void OnAccountItemUpdate(Account account, AccountItem accountItem, double value) {     Print(string.Format("{0} {1} {2}", account.Name, accountItem, value));        // output:    // Sim101 BuyingPower 103962\.5    // Sim101 CashValue 103962\.5    // Sim101 GrossRealizedProfitLoss 3962\.5    // Sim101 RealizedProfitLoss 3962\.5 } |
+| protected override void OnAccountItemUpdate(Account account, AccountItem accountItem, double value) {     Print(string.Format("{0} {1} {2}", account.Name, accountItem, value));        // output:    // Sim101 BuyingPower 103962.5    // Sim101 CashValue 103962.5    // Sim101 GrossRealizedProfitLoss 3962.5    // Sim101 RealizedProfitLoss 3962.5 } |

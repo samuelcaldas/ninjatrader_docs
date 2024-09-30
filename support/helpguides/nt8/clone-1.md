@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Clone()
+NinjaScript > Language Reference > Common > Clone()
 Clone()
-| \<\< [Click to Display Table of Contents](clone.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> Clone() | [Previous page](timezoneinfo-1.md) [Return to chapter overview](common-1.md) [Next page](description-1.md) |
+| << [Click to Display Table of Contents](clone.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > Clone() | [Previous page](timezoneinfo-1.md) [Return to chapter overview](common-1.md) [Next page](description-1.md) |
 | --- | --- |
 ## Definition
 Used to override the default NinjaScript Clone() method which is called any time an instance of a NinjaScript object is created.  By default,  the NinjaScript Clone() method will copy all the [Property Info](https://msdn.microsoft.com/en-us/library/system.reflection.propertyinfo%28v=vs.110%29.aspx) and [Browsable Attributes](https://msdn.microsoft.com/en-us/library/system.componentmodel.browsableattribute%28v=vs.110%29.aspx) to the new instance when the object is created (e.g., when an optimization is ran a new instance of the strategy will be created for each iteration).  However it is possible to override this behavior if desired for custom development.  There is no requirement to override the Clone behavior and this method will use the default constructor if not overridden.  

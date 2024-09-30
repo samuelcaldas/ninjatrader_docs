@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> IncludeTradeHistoryInBacktest
+NinjaScript > Language Reference > Strategy > IncludeTradeHistoryInBacktest
 
 IncludeTradeHistoryInBacktest
-| \<\< [Click to Display Table of Contents](includetradehistoryinbacktest.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> IncludeTradeHistoryInBacktest | [Previous page](includecommission-1.md) [Return to chapter overview](strategy-1.md) [Next page](isadoptaccountpositionaware-1.md) |
+| << [Click to Display Table of Contents](includetradehistoryinbacktest.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > IncludeTradeHistoryInBacktest | [Previous page](includecommission-1.md) [Return to chapter overview](strategy-1.md) [Next page](isadoptaccountpositionaware-1.md) |
 | --- | --- |
 ## Definition
 Determines if the strategy will save orders, trades, and execution history. When this property is set to false you will see significant memory savings at the expense of having access to the detailed trading information.
@@ -22,4 +22,4 @@ IncludeTradeHistoryInBacktest
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.Configure)      {          // Exclude trade history in a backtest to benefit from memory savings          IncludeTradeHistoryInBacktest \= false;      } }   protected override void OnBarUpdate() {    // Stop taking trades after 10 trades have been taken since the strategy was enabled    if(SystemPerformance.AllTrades.Count \>\= 10)        return; } |
+| protected override void OnStateChange() {      if (State == State.Configure)      {          // Exclude trade history in a backtest to benefit from memory savings          IncludeTradeHistoryInBacktest = false;      } }   protected override void OnBarUpdate() {    // Stop taking trades after 10 trades have been taken since the strategy was enabled    if(SystemPerformance.AllTrades.Count >= 10)        return; } |

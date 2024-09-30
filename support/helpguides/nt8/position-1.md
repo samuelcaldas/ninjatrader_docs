@@ -1,15 +1,15 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Position
+NinjaScript > Language Reference > Strategy > Position
 
 Position
 
-| \<\< [Click to Display Table of Contents](position.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> Position | [Previous page](strategy_plots-1.md) [Return to chapter overview](strategy-1.md) [Next page](position_averageprice-1.md) |
+| << [Click to Display Table of Contents](position.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > Position | [Previous page](strategy_plots-1.md) [Return to chapter overview](strategy-1.md) [Next page](position_averageprice-1.md) |
 | --- | --- |
 ## Definition
 Represents position related information that pertains to an instance of a strategy.   
  
 
-| Tips: - For multi\-instrument scripts, please see [Positions](positions-1.md) object which holds an array of all instrument positions managed by the strategy's account- For a real\-world Account Position, please see [PositionAccount](positionaccount-1.md). |
+| Tips: - For multi-instrument scripts, please see [Positions](positions-1.md) object which holds an array of all instrument positions managed by the strategy's account- For a real-world Account Position, please see [PositionAccount](positionaccount-1.md). |
 | --- |
 
 ## Methods and Properties
@@ -27,5 +27,5 @@ Represents position related information that pertains to an instance of a strate
 
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      // Print out the average entry price      Print("The average entry price is " \+ Position.AveragePrice); } |
+| protected override void OnBarUpdate() {      // Print out the average entry price      Print("The average entry price is " + Position.AveragePrice); } |
 

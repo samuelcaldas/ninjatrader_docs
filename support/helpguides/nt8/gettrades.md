@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> TradeCollection \> GetTrades()
+NinjaScript > Language Reference > Strategy > TradeCollection > GetTrades()
 GetTrades()
-| \<\< [Click to Display Table of Contents](gettrades.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [TradeCollection](tradecollection.md) \> GetTrades() | [Previous page](eventrades.md) [Return to chapter overview](tradecollection.md) [Next page](losingtrades.md) |
+| << [Click to Display Table of Contents](gettrades.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > GetTrades() | [Previous page](eventrades.md) [Return to chapter overview](tradecollection.md) [Next page](losingtrades.md) |
 | --- | --- |
 ## Definition
 Returns a TradeCollection object representing all trades that make up the specified position. 
@@ -10,7 +10,7 @@ Returns a TradeCollection object representing all trades that make up the specif
 A TradeCollection object.
  
 ## Syntax
-\<TradeCollection\>.GetTrades(string instrument, string entrySignalName, int instance)
+<TradeCollection>.GetTrades(string instrument, string entrySignalName, int instance)
  
 ## Parameters
 | instrument | An instrument name such as "MSFT" |
@@ -23,6 +23,6 @@ A TradeCollection object.
 Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      TradeCollection myTrades \= SystemPerformance.AllTrades.GetTrades("MSFT", "myEntrySignal", 1);      Print("The last position was comprised of " \+ myTrades.Count \+ " trades."); } |
+| protected override void OnBarUpdate() {      TradeCollection myTrades = SystemPerformance.AllTrades.GetTrades("MSFT", "myEntrySignal", 1);      Print("The last position was comprised of " + myTrades.Count + " trades."); } |
 
  

@@ -1,8 +1,8 @@
 ﻿
-Operations \> Order Entry \> Basic Entry
+Operations > Order Entry > Basic Entry
 Basic Entry
 
-| \<\< [Click to Display Table of Contents](basic_entry.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> Basic Entry | [Previous page](tif_selector-1.md) [Return to chapter overview](order_entry-1.md) [Next page](display_overview_basic_entry-1.md) |
+| << [Click to Display Table of Contents](basic_entry.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > Basic Entry | [Previous page](tif_selector-1.md) [Return to chapter overview](order_entry-1.md) [Next page](display_overview_basic_entry-1.md) |
 | --- | --- |
 
 The Basic Entry window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the Basic Entry menu item.

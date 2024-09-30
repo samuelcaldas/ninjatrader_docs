@@ -1,8 +1,8 @@
 ﻿
-Operations \> Order Entry \> Trade Controls
+Operations > Order Entry > Trade Controls
 Trade Controls
 
-| \<\< [Click to Display Table of Contents](trade_controls.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> Trade Controls | [Previous page](where_do_your_orders_reside_-1.md) [Return to chapter overview](order_entry-1.md) [Next page](closing_a_position_or_atm_stra-1.md) |
+| << [Click to Display Table of Contents](trade_controls.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > Trade Controls | [Previous page](where_do_your_orders_reside_-1.md) [Return to chapter overview](order_entry-1.md) [Next page](closing_a_position_or_atm_stra-1.md) |
 | --- | --- |
 
 Trade Controls are located in various Order Entry windows available throughout the product.

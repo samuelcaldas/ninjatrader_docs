@@ -1,9 +1,9 @@
 ﻿
-Operations \> Market Watch \> Market Watch Properties
+Operations > Market Watch > Market Watch Properties
 
 Market Watch Properties
 
-| \<\< [Click to Display Table of Contents](market-watch-properties.md) \>\> **Navigation:**     [Operations](operations.md) \> [Market Watch](market-watch.md) \> Market Watch Properties | [Previous page](working-with-instrument-tiles.md) [Return to chapter overview](market-watch.md) [Next page](news.md) |
+| << [Click to Display Table of Contents](market-watch-properties.md) >> **Navigation:**     [Operations](operations.md) > [Market Watch](market-watch.md) > Market Watch Properties | [Previous page](working-with-instrument-tiles.md) [Return to chapter overview](market-watch.md) [Next page](news.md) |
 | --- | --- |
 The Market Watch window can be customized through the Market Watch Properties window.
  
@@ -21,6 +21,6 @@ The Market Watch window can be customized through the Market Watch Properties wi
 | --- |
 ![tog_minus](tog_minus.gif)        [Using Tab Name Variables](javascript:HMToggle('toggle','UsingTabNameVariables','UsingTabNameVariables_ICON'))
 
-| Tab Name Variables A number of pre\-defined variables can be used in the "Tab Name" field of the Market Watch Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Market Watch Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |
 | --- |
 

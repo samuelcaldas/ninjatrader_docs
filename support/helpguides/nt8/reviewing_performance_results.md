@@ -1,7 +1,7 @@
 ﻿
-Operations \> Strategy Analyzer \> Reviewing Performance Results
+Operations > Strategy Analyzer > Reviewing Performance Results
 Reviewing Performance Results
-| \<\< [Click to Display Table of Contents](reviewing_performance_results.md) \>\> **Navigation:**     [Operations](operations.md) \> [Strategy Analyzer](strategy_analyzer.md) \> Reviewing Performance Results | [Previous page](backtest_logs.md) [Return to chapter overview](strategy_analyzer.md) [Next page](monte_carlo_simulation.md) |
+| << [Click to Display Table of Contents](reviewing_performance_results.md) >> **Navigation:**     [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) > Reviewing Performance Results | [Previous page](backtest_logs.md) [Return to chapter overview](strategy_analyzer.md) [Next page](monte_carlo_simulation.md) |
 | --- | --- |
 Strategy Analyzer generates performance data that can be viewed in [Performance Displays](performance_displays.md). When working with Optimizations or basket tests you can choose open an individual tab or new Strategy Analyzer window to analyze each individual backtest.  Selecting an individual row from the results grid will display the results in the Performance tabs individual [performance results](reviewing_performance_results.md).
  

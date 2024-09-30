@@ -2,7 +2,7 @@
 DrawLine()
 
 DrawLine()
-| \<\< [Click to Display Table of Contents](drawline2.md) \>\> **Navigation:**   »No topics above this level«   DrawLine() | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
+| << [Click to Display Table of Contents](drawline2.md) >> **Navigation:**   »No topics above this level«   DrawLine() | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
 | --- | --- |
 ## Definition
 Draws a line between two points.
@@ -25,4 +25,4 @@ RenderTarget.DrawLine(Vector2 point0, Vector2 point1, Brush brush, float strokeW
 ## Examples
 | ns | |
 | --- | --- |
-|  | Vector2 point0 \= new Vector2(); Vector2 point1 \= new Vector2();   point0\.X \= point0X; point0\.Y \= point0Y; point1\.X \= point1X; point1\.Y \= point1Y;   RenderTarget.DrawLine(point0, point1, Stroke.BrushDX, Stroke.Width, Stroke.StrokeStyle); |
+|  | Vector2 point0 = new Vector2(); Vector2 point1 = new Vector2();   point0.X = point0X; point0.Y = point0Y; point1.X = point1X; point1.Y = point1Y;   RenderTarget.DrawLine(point0, point1, Stroke.BrushDX, Stroke.Width, Stroke.StrokeStyle); |

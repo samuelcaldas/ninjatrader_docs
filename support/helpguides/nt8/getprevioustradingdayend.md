@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> TradingHours \> GetPreviousTradingDayEnd()
+NinjaScript > Language Reference > Common > TradingHours > GetPreviousTradingDayEnd()
 GetPreviousTradingDayEnd()
-| \<\< [Click to Display Table of Contents](getprevioustradingdayend.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [TradingHours](tradinghours.md) \> GetPreviousTradingDayEnd() | [Previous page](tradinghoursget.md) [Return to chapter overview](tradinghours.md) [Next page](holidays.md) |
+| << [Click to Display Table of Contents](getprevioustradingdayend.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [TradingHours](tradinghours.md) > GetPreviousTradingDayEnd() | [Previous page](tradinghoursget.md) [Return to chapter overview](tradinghours.md) [Next page](holidays.md) |
 | --- | --- |
 ## Definition
 Returns the end date and time of the previous trading session regarding the time passed in the methods parameters.
@@ -23,5 +23,5 @@ GetPreviousTradingDayEnd(DateTime timeLocal)
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {    if (Bars.IsFirstBarOfSession)    {      DateTime previousEndDate \= TradingHours.GetPreviousTradingDayEnd(Time\[0]);        Print(string.Format("The current bars date is {0} \- the previous trading session ended on {1}", Time\[0], previousEndDate));    }    //Output:  The current bars date is 2/18/2015 12:35:00 PM \- the previous trading session ended on 2/17/2015 3:15:00 PM } |
+| protected override void OnBarUpdate() {    if (Bars.IsFirstBarOfSession)    {      DateTime previousEndDate = TradingHours.GetPreviousTradingDayEnd(Time[0]);        Print(string.Format("The current bars date is {0} - the previous trading session ended on {1}", Time[0], previousEndDate));    }    //Output:  The current bars date is 2/18/2015 12:35:00 PM - the previous trading session ended on 2/17/2015 3:15:00 PM } |
 

@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Instruments \> Instrument
+NinjaScript > Language Reference > Common > Instruments > Instrument
 Instrument
-| \<\< [Click to Display Table of Contents](instrument.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Instruments](instruments_ninjascript.md) \> Instrument | [Previous page](instruments_ninjascript.md) [Return to chapter overview](instruments_ninjascript.md) [Next page](exchange.md) |
+| << [Click to Display Table of Contents](instrument.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > Instrument | [Previous page](instruments_ninjascript.md) [Return to chapter overview](instruments_ninjascript.md) [Next page](exchange.md) |
 | --- | --- |
 ## Definition
 A tradable symbol.  Represents an instance of a [Master Instrument](masterinstrument.md)
@@ -19,5 +19,5 @@ A tradable symbol.  Represents an instance of a [Master Instrument](masterinstr
 | FundmentalData | Instrument thread specific [FundamentalData](fundamentaldata.md) events |
 | MarketData | Instrument thread specific [MarketData](marketdata.md) events |
 | MarketDepth | Instrument thread specific [MarketDepth](marketdepth.md) events |
-| Dispatcher | A Dispatcher used for subscribing to Instrument related events See [Multi\-Threading Considerations](multi-threading.md) |
+| Dispatcher | A Dispatcher used for subscribing to Instrument related events See [Multi-Threading Considerations](multi-threading.md) |
 

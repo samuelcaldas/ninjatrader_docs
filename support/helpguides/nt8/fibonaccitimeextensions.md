@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.FibonacciTimeExtensions() \> FibonacciTimeExtensions
+NinjaScript > Language Reference > Common > Drawing > Draw.FibonacciTimeExtensions() > FibonacciTimeExtensions
 FibonacciTimeExtensions
-| \<\< [Click to Display Table of Contents](fibonaccitimeextensions.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.FibonacciTimeExtensions()](draw_fibonaccitimeextensions.md) \> FibonacciTimeExtensions | [Previous page](draw_fibonaccitimeextensions.md) [Return to chapter overview](draw_fibonaccitimeextensions.md) [Next page](draw_gannfan.md) |
+| << [Click to Display Table of Contents](fibonaccitimeextensions.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.FibonacciTimeExtensions()](draw_fibonaccitimeextensions.md) > FibonacciTimeExtensions | [Previous page](draw_fibonaccitimeextensions.md) [Return to chapter overview](draw_fibonaccitimeextensions.md) [Next page](draw_gannfan.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Fibonacci Time Extensions [IDrawingTool](idrawingtool.md).
@@ -19,5 +19,5 @@ Represents an interface that exposes information regarding a Fibonacci Time Exte
 ## Example
 | ns |
 | --- |
-| // Instantiate a FibonacciTimeExtensions object FibonacciTimeExtensions myFibTime \= Draw.FibonacciTimeExtensions(this, "tag1", false, 10, Low\[10], 0, High\[0]);   // Instantiate a new PriceLevel to be used in the step below PriceLevel myLevel \= new PriceLevel(99, Brushes.Black);   // Change the object's price level at index 3 myFibTime.PriceLevels\[3] \= myLevel; |
+| // Instantiate a FibonacciTimeExtensions object FibonacciTimeExtensions myFibTime = Draw.FibonacciTimeExtensions(this, "tag1", false, 10, Low[10], 0, High[0]);   // Instantiate a new PriceLevel to be used in the step below PriceLevel myLevel = new PriceLevel(99, Brushes.Black);   // Change the object's price level at index 3 myFibTime.PriceLevels[3] = myLevel; |
 

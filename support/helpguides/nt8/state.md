@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnStateChange()  \> State
+NinjaScript > Language Reference > Common > OnStateChange()  > State
 
 State
 
-| \<\< [Click to Display Table of Contents](state.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [OnStateChange()](onstatechange.md) \> State | [Previous page](setstate.md) [Return to chapter overview](onstatechange.md) [Next page](sessioniterator.md) |
+| << [Click to Display Table of Contents](state.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnStateChange()](onstatechange.md) > State | [Previous page](setstate.md) [Return to chapter overview](onstatechange.md) [Next page](sessioniterator.md) |
 | --- | --- |
 ## Definition
 Represents the current progression of the object as it advances from setup, processing data, to termination.  These states can be used for setting up or declaring various resources and properties. 
@@ -34,9 +34,9 @@ State
 
 | ns |
 | --- |
-| protected override void OnStateChange() {             Print(DateTime.Now \+ ": Current State is State."\+State); } |
+| protected override void OnStateChange() {             Print(DateTime.Now + ": Current State is State."+State); } |
 
 | ns |
 | --- |
-| protected override void OnBarUpdate() {    // only process real\-time OnBarUpdate events    if (State \=\= State.Historical)      return;           //rest of logic            } |
+| protected override void OnBarUpdate() {    // only process real-time OnBarUpdate events    if (State == State.Historical)      return;           //rest of logic            } |
  

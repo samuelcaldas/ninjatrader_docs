@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> Rendering \> DxExtensions
+NinjaScript > Language Reference > Common > Charts > Rendering > DxExtensions
 
 DxExtensions
-| \<\< [Click to Display Table of Contents](dxextensions.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> [Rendering](rendering.md) \> DxExtensions | [Previous page](directwritefactory.md) [Return to chapter overview](rendering.md) [Next page](dxextensions_todxbrush.md) |
+| << [Click to Display Table of Contents](dxextensions.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [Rendering](rendering.md) > DxExtensions | [Previous page](directwritefactory.md) [Return to chapter overview](rendering.md) [Next page](dxextensions_todxbrush.md) |
 | --- | --- |
 The DxExtensions class provides helper methods useful for converting WPF resources to SharpDX resources
  

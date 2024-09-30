@@ -1,8 +1,8 @@
 ﻿
-Operations \> Risk \> Using the Risk window
+Operations > Risk > Using the Risk window
 Using the Risk window
 
-| \<\< [Click to Display Table of Contents](using_the_risk_window.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Risk](understanding_risks-1.md) \> Using the Risk window | [Previous page](understanding_risks-1.md) [Return to chapter overview](understanding_risks-1.md) [Next page](simulation-1.md) |
+| << [Click to Display Table of Contents](using_the_risk_window.md) >> **Navigation:**     [Operations](operations-1.md) > [Risk](understanding_risks-1.md) > Using the Risk window | [Previous page](understanding_risks-1.md) [Return to chapter overview](understanding_risks-1.md) [Next page](simulation-1.md) |
 | --- | --- |
 Within the Risk window, Risk Templates hold the risk definitions for local simulation accounts. A risk definition holds the amount of margin needed per contract, it also limits the amount of contracts allowed to trade. To define your Live or Simulation NinjaTrader risk, you can go to the Client Dashboard under Tools.
  
@@ -11,7 +11,7 @@ Within the Risk window, Risk Templates hold the risk definitions for local simul
 | --- | --- |
 
 ![tog_minus](tog_minus-1.gif)        [How to create and edit a Risk Template](javascript:HMToggle('toggle','HowToCreateAndEditATradingHourTemplate','HowToCreateAndEditATradingHourTemplate_ICON'))
-| Creating a Risk Template If your desired session risk settings are not found within the pre\-loaded Risk Templates, you can create a new template.   To create a Risk Template: 1\.Left mouse click on "add"2\.Type in the name of the Risk Template3\.Select "add" to add a new risk definition, see "Understanding risk definitions" below for more information. Repeat for as many risk definitions as required. 4\.Press the Apply button to save the configured session times in the Risk Template.   Risk_1 |
+| Creating a Risk Template If your desired session risk settings are not found within the pre-loaded Risk Templates, you can create a new template.   To create a Risk Template: 1.Left mouse click on "add"2.Type in the name of the Risk Template3.Select "add" to add a new risk definition, see "Understanding risk definitions" below for more information. Repeat for as many risk definitions as required. 4.Press the Apply button to save the configured session times in the Risk Template.   Risk_1 |
 | --- |
 
 ![tog_minus](tog_minus-1.gif)        [Working with Risk Templates](javascript:HMToggle('toggle','WorkingWithTradingHourTemplates','WorkingWithTradingHourTemplates_ICON'))

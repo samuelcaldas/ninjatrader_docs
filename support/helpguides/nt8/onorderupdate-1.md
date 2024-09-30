@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> OnOrderUpdate()
+NinjaScript > Language Reference > Strategy > OnOrderUpdate()
 
 OnOrderUpdate()
 
-| \<\< [Click to Display Table of Contents](onorderupdate.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> OnOrderUpdate() | [Previous page](onordertrace-1.md) [Return to chapter overview](strategy-1.md) [Next page](onpositionupdate-1.md) |
+| << [Click to Display Table of Contents](onorderupdate.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > OnOrderUpdate() | [Previous page](onordertrace-1.md) [Return to chapter overview](strategy-1.md) [Next page](onpositionupdate-1.md) |
 | --- | --- |
 ## Definition
 An event driven method which is called each time an order managed by a strategy changes state. An order will change state when a change in order quantity, price or state (working to filled) occurs. You can use this method to program your own [order rejection handling](realtimeerrorhandling-1.md).
@@ -67,15 +67,15 @@ protected override void OnOrderUpdate(Order order, double limitPrice, double sto
 
 ## Examples
 
-| ns Understanding the order object parameter vs updating value parameter ([Multi\-Thread Considerations for NinjaScript](multi-threading-1.md)) |
+| ns Understanding the order object parameter vs updating value parameter ([Multi-Thread Considerations for NinjaScript](multi-threading-1.md)) |
 | --- |
-| protected override void OnOrderUpdate(Cbi.Order order, double limitPrice, double stopPrice,                                      int quantity, int filled, double averageFillPrice,                                      Cbi.OrderState orderState, DateTime time, Cbi.ErrorCode error, string comment) {    Print("The most current order state is: " \+ order.OrderState);   // OrderState.PartFilled    Print("This particular order update state is: " \+ orderState); // OrderState.Working } |
+| protected override void OnOrderUpdate(Cbi.Order order, double limitPrice, double stopPrice,                                      int quantity, int filled, double averageFillPrice,                                      Cbi.OrderState orderState, DateTime time, Cbi.ErrorCode error, string comment) {    Print("The most current order state is: " + order.OrderState);   // OrderState.PartFilled    Print("This particular order update state is: " + orderState); // OrderState.Working } |
 ## 
 ## 
 
 | ns Properly assigning order object values |
 | --- |
-| private Order entryOrder \= null;   protected override void OnBarUpdate() {    if (entryOrder \=\= null \&\& Close\[0] \> Open\[0])        EnterLong("entryOrder"); }   protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError) {    // check if the current order matches the orderName passed in "EnterLong"()    // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately after submitting    if (order.Name \=\= "entryOrder")        entryOrder \= order;      // if entry order exists    if (entryOrder !\= null \&\& entryOrder \=\= order)    {        Print(order.ToString());        if (order.OrderState \=\= OrderState.Cancelled)        {            // Do something here            entryOrder \= null;        }    } } |
+| private Order entryOrder = null;   protected override void OnBarUpdate() {    if (entryOrder == null && Close[0] > Open[0])        EnterLong("entryOrder"); }   protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError) {    // check if the current order matches the orderName passed in "EnterLong"()    // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately after submitting    if (order.Name == "entryOrder")        entryOrder = order;      // if entry order exists    if (entryOrder != null && entryOrder == order)    {        Print(order.ToString());        if (order.OrderState == OrderState.Cancelled)        {            // Do something here            entryOrder = null;        }    } } |
    
 
 Additional Reference Samples  

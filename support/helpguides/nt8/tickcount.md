@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Bars \> TickCount
+NinjaScript > Language Reference > Common > Bars > TickCount
 TickCount
-| \<\< [Click to Display Table of Contents](tickcount.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Bars](bars.md) \> TickCount | [Previous page](percentcomplete.md) [Return to chapter overview](bars.md) [Next page](tochartstring.md) |
+| << [Click to Display Table of Contents](tickcount.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) > TickCount | [Previous page](percentcomplete.md) [Return to chapter overview](bars.md) [Next page](tochartstring.md) |
 | --- | --- |
 ## Definition
 Returns the total number of ticks of the current bar processing.
@@ -18,4 +18,4 @@ Bars.TickCount
 ## Examples
 | ns |
 | --- |
-| // Prints the tick count to the output window Print("The tick count of the current bar is " \+ Bars.TickCount.ToString()); |
+| // Prints the tick count to the output window Print("The tick count of the current bar is " + Bars.TickCount.ToString()); |

@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> SuperDOM Column
+NinjaScript > Language Reference > SuperDOM Column
 SuperDOM Column
 
-| \<\< [Click to Display Table of Contents](superdom_column.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> SuperDOM Column | [Previous page](waitforococlosingbracket-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](superdomcolumn_marketdepth-1.md) |
+| << [Click to Display Table of Contents](superdom_column.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > SuperDOM Column | [Previous page](waitforococlosingbracket-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](superdomcolumn_marketdepth-1.md) |
 | --- | --- |
 
 Custom SuperDOM Columns can be used to add additional functionality to the [SuperDOM](superdom-1.md) window. The methods and properties covered in this section are unique to custom SuperDOM column development.

@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> CloseStrategy()
+NinjaScript > Language Reference > Strategy > CloseStrategy()
 
 CloseStrategy()
-| \<\< [Click to Display Table of Contents](closestrategy.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> CloseStrategy() | [Previous page](chartindicators.md) [Return to chapter overview](strategy.md) [Next page](connectionlosshandling.md) |
+| << [Click to Display Table of Contents](closestrategy.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > CloseStrategy() | [Previous page](chartindicators.md) [Return to chapter overview](strategy.md) [Next page](connectionlosshandling.md) |
 | --- | --- |
 ## Definition
 Cancels all working orders, closes any existing positions, and finally disables the strategy.  This behavior can also be overridden for a given strategy if desired.
@@ -38,7 +38,7 @@ public override void CloseStrategy(string signalName)
 ## Examples
 | ns |
 | --- |
-| DateTime StartTime \= new DateTime();       protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {                  Name \= "ExampleStrategy";       }        else if (State \=\= State.Transition)      StartTime \= Core.Globals.Now;       }      protected override void OnBarUpdate() {    // if we're still in position 45 minutes after the start time, close strategy    if(Position.MarketPosition !\= MarketPosition.Flat \&\& Time\[0] \>\= StartTime.AddMinutes(45))      CloseStrategy("My Custom Close"); } |
+| DateTime StartTime = new DateTime();       protected override void OnStateChange() {    if (State == State.SetDefaults)    {                  Name = "ExampleStrategy";       }        else if (State == State.Transition)      StartTime = Core.Globals.Now;       }      protected override void OnBarUpdate() {    // if we're still in position 45 minutes after the start time, close strategy    if(Position.MarketPosition != MarketPosition.Flat && Time[0] >= StartTime.AddMinutes(45))      CloseStrategy("My Custom Close"); } |
 
 | ns |
 | --- |

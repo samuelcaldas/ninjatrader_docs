@@ -1,9 +1,9 @@
 ﻿
-Operations \> Order Entry \> Trade Controls \> TIF Selector
+Operations > Order Entry > Trade Controls > TIF Selector
 TIF Selector
-| \<\< [Click to Display Table of Contents](tif_selector.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> [Trade Controls](trade_controls-1.md) \> TIF Selector | [Previous page](quantity_selector-1.md) [Return to chapter overview](trade_controls-1.md) [Next page](basic_entry-1.md) |
+| << [Click to Display Table of Contents](tif_selector.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [Trade Controls](trade_controls-1.md) > TIF Selector | [Previous page](quantity_selector-1.md) [Return to chapter overview](trade_controls-1.md) [Next page](basic_entry-1.md) |
 | --- | --- |
-The TIF Selector is a standard control available from all order entry features which allows you to set the TIF (Time\-In\-Force) to be submitted with a custom order.  The selected TIF parameter is sent to your broker on order submission and will instruct how long you would like the order to be active before it is cancelled.
+The TIF Selector is a standard control available from all order entry features which allows you to set the TIF (Time-In-Force) to be submitted with a custom order.  The selected TIF parameter is sent to your broker on order submission and will instruct how long you would like the order to be active before it is cancelled.
  
 | Note:  An order's TIF is not managed by the NinjaTrader application and any cancellations are managed by the brokerage system. |
 | --- |

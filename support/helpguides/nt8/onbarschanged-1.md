@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> OnBarsChanged()
+NinjaScript > Language Reference > Drawing Tool > OnBarsChanged()
 
 OnBarsChanged()
 
-| \<\< [Click to Display Table of Contents](onbarschanged.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Drawing Tool](drawing_tools-1.md) \> OnBarsChanged() | [Previous page](isuserdrawn-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](onmousedown-1.md) |
+| << [Click to Display Table of Contents](onbarschanged.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > OnBarsChanged() | [Previous page](isuserdrawn-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](onmousedown-1.md) |
 | --- | --- |
 ## Definition
 An event driven method which is called any time the underlying bar series have changed for the chart where the drawing tool resides.  For example if a user has changed the primary instrument or the time frame of the bars used on the chart.

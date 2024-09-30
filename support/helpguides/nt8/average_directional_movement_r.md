@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Average Directional Movement Rating (ADXR)
+NinjaScript > Language Reference > Common > System Indicator Methods > Average Directional Movement Rating (ADXR)
 
 Average Directional Movement Rating (ADXR)
 
-| \<\< [Click to Display Table of Contents](average_directional_movement_r.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [System Indicator Methods](indicators.md) \> Average Directional Movement Rating (ADXR) | [Previous page](average_directional_index_adx.md) [Return to chapter overview](indicators.md) [Next page](average_true_range_atr.md) |
+| << [Click to Display Table of Contents](average_directional_movement_r.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) > Average Directional Movement Rating (ADXR) | [Previous page](average_directional_index_adx.md) [Return to chapter overview](indicators.md) [Next page](average_true_range_atr.md) |
 | --- | --- |
 ## Description
 The ADXR is equal to the current [ADX](average_directional_index_adx.md) plus the ADX from n bars ago divided by two. 
@@ -11,16 +11,16 @@ The ADXR is equal to the current [ADX](average_directional_index_adx.md) plus th
 ## Syntax
 ADXR(int interval, int period)  
 
-ADXR(ISeries\<double\> input, int interval, int period)
+ADXR(ISeries<double> input, int interval, int period)
  
 Returns default value  
 
-ADXR(int interval, int period)\[int barsAgo]  
+ADXR(int interval, int period)[int barsAgo]  
 
-ADXR(ISeries\<double\> input, int interval, int period)\[int barsAgo]
+ADXR(ISeries<double> input, int interval, int period)[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 
@@ -34,7 +34,7 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 
 | ns |
 | --- |
-| // Prints the current value of a 20 period ADXR using default price type double value \= ADXR(10, 20)\[0]; Print("The current ADXR value is " \+ value.ToString()); |
+| // Prints the current value of a 20 period ADXR using default price type double value = ADXR(10, 20)[0]; Print("The current ADXR value is " + value.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

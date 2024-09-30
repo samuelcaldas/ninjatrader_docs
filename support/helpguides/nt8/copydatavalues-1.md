@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> ChartAnchor \> CopyDataValues()
+NinjaScript > Language Reference > Drawing Tool > ChartAnchor > CopyDataValues()
 
 CopyDataValues()
-| \<\< [Click to Display Table of Contents](copydatavalues.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Drawing Tool](drawing_tools-1.md) \> [ChartAnchor](chartanchor-1.md) \> CopyDataValues() | [Previous page](chartanchor-1.md) [Return to chapter overview](chartanchor-1.md) [Next page](displayname-1.md) |
+| << [Click to Display Table of Contents](copydatavalues.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > [ChartAnchor](chartanchor-1.md) > CopyDataValues() | [Previous page](chartanchor-1.md) [Return to chapter overview](chartanchor-1.md) [Next page](displayname-1.md) |
 | --- | --- |
 Definition  
 
@@ -13,7 +13,7 @@ This method does not return a value.
  
 ## 
 ## Syntax
-\<chartAnchor\>.CopyDataValues(ChartAnchor toAnchor)
+<chartAnchor>.CopyDataValues(ChartAnchor toAnchor)
 ## 
 ## 
 ## Method Parameters
@@ -25,4 +25,4 @@ This method does not return a value.
 ## Examples
 | ns |
 | --- |
-| public override void OnMouseMove(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint) {       // if the user is moving the draw object, copy the most recent dataPoint to MyAnchor    if (DrawingState \=\= DrawingState.Moving)               dataPoint.CopyDataValues(Anchor); } |
+| public override void OnMouseMove(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint) {       // if the user is moving the draw object, copy the most recent dataPoint to MyAnchor    if (DrawingState == DrawingState.Moving)               dataPoint.CopyDataValues(Anchor); } |

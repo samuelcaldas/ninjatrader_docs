@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Arc() \> Arc
+NinjaScript > Language Reference > Common > Drawing > Draw.Arc() > Arc
 Arc
-| \<\< [Click to Display Table of Contents](arc.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.Arc()](draw_arc-1.md) \> Arc | [Previous page](draw_arc-1.md) [Return to chapter overview](draw_arc-1.md) [Next page](draw_arrowdown-1.md) |
+| << [Click to Display Table of Contents](arc.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.Arc()](draw_arc-1.md) > Arc | [Previous page](draw_arc-1.md) [Return to chapter overview](draw_arc-1.md) [Next page](draw_arrowdown-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding an Arc [IDrawingTool](idrawingtool-1.md).
@@ -16,5 +16,5 @@ Represents an interface that exposes information regarding an Arc [IDrawingTool]
 ## Example
 | ns |
 | --- |
-| // Draw an Arc object Arc myArc \= Draw.Arc(this, "myArc", Time\[10], Close\[10], Time\[0], Close\[0], Brushes.Blue);   // Set the opacity of the shading between the arc and the chord myArc.AreaOpacity \= 100; |
+| // Draw an Arc object Arc myArc = Draw.Arc(this, "myArc", Time[10], Close[10], Time[0], Close[0], Brushes.Blue);   // Set the opacity of the shading between the arc and the chord myArc.AreaOpacity = 100; |
 

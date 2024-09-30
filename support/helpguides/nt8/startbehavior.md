@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> StartBehavior
+NinjaScript > Language Reference > Strategy > StartBehavior
 
 StartBehavior
 
-| \<\< [Click to Display Table of Contents](startbehavior.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> StartBehavior | [Previous page](slippage.md) [Return to chapter overview](strategy.md) [Next page](stoptargethandling.md) |
+| << [Click to Display Table of Contents](startbehavior.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > StartBehavior | [Previous page](slippage.md) [Return to chapter overview](strategy.md) [Next page](stoptargethandling.md) |
 | --- | --- |
 ## Definition
 Sets the start behavior of the strategy. See [Syncing Account Positions](syncing_account_positions.md) for more information.
@@ -31,5 +31,5 @@ StartBehavior
 
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          StartBehavior \= StartBehavior.WaitUntilFlat;      } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {          StartBehavior = StartBehavior.WaitUntilFlat;      } } |
 

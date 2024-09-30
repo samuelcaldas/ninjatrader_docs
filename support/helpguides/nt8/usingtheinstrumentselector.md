@@ -1,13 +1,13 @@
 ﻿
-Operations \> Windows \> Using the Instrument Selector
+Operations > Windows > Using the Instrument Selector
 Using the Instrument Selector
 
-| \<\< [Click to Display Table of Contents](usingtheinstrumentselector.md) \>\> **Navigation:**     [Operations](operations.md) \> [Windows](window_tabs.md) \> Using the Instrument Selector | [Previous page](linking_windows.md) [Return to chapter overview](window_tabs.md) [Next page](instrument_overlay_selector.md) |
+| << [Click to Display Table of Contents](usingtheinstrumentselector.md) >> **Navigation:**     [Operations](operations.md) > [Windows](window_tabs.md) > Using the Instrument Selector | [Previous page](linking_windows.md) [Return to chapter overview](window_tabs.md) [Next page](instrument_overlay_selector.md) |
 | --- | --- |
 
 ## Instrument Selector
-## All order\-entry and market\-data windows feature an Instrument Selector, which can be used to quickly select the desired instrument.
-## This can be accessed either from the Instrument Selector directly on the window or in the right\-click menu.
+## All order-entry and market-data windows feature an Instrument Selector, which can be used to quickly select the desired instrument.
+## This can be accessed either from the Instrument Selector directly on the window or in the right-click menu.
  
 ## Using the Quick Search
 To access the Quick Search,start typing directly into the Instrument Selector.
@@ -27,18 +27,18 @@ To access the Instruments menu, click the down arrow on the Instrument Selector 
  
 The Instruments menu is separated into three sections:
  
-1\) Pinned or recently viewed instruments
+1) Pinned or recently viewed instruments
  
-2\) Instrument Lists
+2) Instrument Lists
  
-3\) Search feature
+3) Search feature
  
 To access any instrument in the top section, simply left mouse click the instrument name, and it will be applied in the specific window in which you are working. To access an instrument in an instrument list, first hover your mouse cursor over one of the lists displayed (all instrument lists will be displayed), and a list of instruments contained within will appear. You can then left mouse click on any instrument in the list to apply it in the window. 
  
 If you do not see your desired instrument listed, click the Search menu item to access the Instruments window, in which you can search your entire database of instruments. Use the "Search" dropdown menu near the top of the window to filter results by instrument type, such as stocks or futures, then enter search terms in the text field directly beside it, and the search results will appear as you type. Once you have located your desired instrument, select it in the list of search results, then click OK to close the window and apply the instrument. Once you have applied an instrument this way, it will then be saved in the list of recently viewed instruments, and can be pinned from there.
  
 ## Pinning and Removing Instruments to the Instruments Menu
-To pin an instrument in the Instruments menu, first view that instrument in any window, in order to add it to the list of recently viewed instruments. Once it is in the list, open the Instruments menu in any window, hover your mouse cursor over the instrument you wish to pin, then left mouse click the small icon resembling a push\-pin laying horizontally that appears next the instrument name. Pinned instruments will display a vertically standing push\-pin icon next to their names.
+To pin an instrument in the Instruments menu, first view that instrument in any window, in order to add it to the list of recently viewed instruments. Once it is in the list, open the Instruments menu in any window, hover your mouse cursor over the instrument you wish to pin, then left mouse click the small icon resembling a push-pin laying horizontally that appears next the instrument name. Pinned instruments will display a vertically standing push-pin icon next to their names.
  
 ![InstrumentSelector_2](instrumentselector_2.png)
  

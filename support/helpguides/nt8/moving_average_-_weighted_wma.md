@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Moving Average \- Weighted (WMA)
+NinjaScript > Language Reference > Common > System Indicator Methods > Moving Average - Weighted (WMA)
 
-Moving Average \- Weighted (WMA)
+Moving Average - Weighted (WMA)
 
-| \<\< [Click to Display Table of Contents](moving_average_-_weighted_wma.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [System Indicator Methods](indicators.md) \> Moving Average \- Weighted (WMA) | [Previous page](moving_average_-_volume_weight.md) [Return to chapter overview](indicators.md) [Next page](moving_average_-_zero_lag_expo.md) |
+| << [Click to Display Table of Contents](moving_average_-_weighted_wma.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) > Moving Average - Weighted (WMA) | [Previous page](moving_average_-_volume_weight.md) [Return to chapter overview](indicators.md) [Next page](moving_average_-_zero_lag_expo.md) |
 | --- | --- |
 ## Description
 The Weighted Moving Average gives the latest price more weight than prior prices. Each prior price in the period gets progressively less weight as they become older.
@@ -11,16 +11,16 @@ The Weighted Moving Average gives the latest price more weight than prior prices
 ## Syntax
 WMA(int period)  
 
-WMA(ISeries\<double\> input, int period)
+WMA(ISeries<double> input, int period)
  
 Returns default value  
 
-WMA(int period)\[int barsAgo]  
+WMA(int period)[int barsAgo]  
 
-WMA(ISeries\<double\> input, int period)\[int barsAgo]
+WMA(ISeries<double> input, int period)[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 
@@ -32,7 +32,7 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 
 | ns |
 | --- |
-| // Prints the current value of a 20 period WMA using default price type double value \= WMA(20)\[0]; Print("The current WMA value is " \+ value.ToString());   // Prints the current value of a 20 period WMA using high price type double value \= WMA(High, 20)\[0]; Print("The current WMA value is " \+ value.ToString()); |
+| // Prints the current value of a 20 period WMA using default price type double value = WMA(20)[0]; Print("The current WMA value is " + value.ToString());   // Prints the current value of a 20 period WMA using high price type double value = WMA(High, 20)[0]; Print("The current WMA value is " + value.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

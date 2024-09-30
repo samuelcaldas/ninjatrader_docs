@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.RegionHighlightY() \> RegionHighlightY
+NinjaScript > Language Reference > Common > Drawing > Draw.RegionHighlightY() > RegionHighlightY
 
 RegionHighlightY
 
-| \<\< [Click to Display Table of Contents](regionhighlighty.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.RegionHighlightY()](draw_regionhighlighty.md) \> RegionHighlightY | [Previous page](draw_regionhighlighty.md) [Return to chapter overview](draw_regionhighlighty.md) [Next page](draw_regressionchannel.md) |
+| << [Click to Display Table of Contents](regionhighlighty.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.RegionHighlightY()](draw_regionhighlighty.md) > RegionHighlightY | [Previous page](draw_regionhighlighty.md) [Return to chapter overview](draw_regionhighlighty.md) [Next page](draw_regressionchannel.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Region Highlight Y [IDrawingTool.](idrawingtool.md)
@@ -22,4 +22,4 @@ Represents an interface that exposes information regarding a Region Highlight Y 
 
 | ns |
 | --- |
-| // Instantiate a RegionHighlightX object RegionHighlightY myReg \= Draw.RegionHighlightY(this, "tag1", 10, 0, Brushes.Blue);   // Change the object's opacity myReg.AreaOpacity \= 25; |
+| // Instantiate a RegionHighlightX object RegionHighlightY myReg = Draw.RegionHighlightY(this, "tag1", 10, 0, Brushes.Blue);   // Change the object's opacity myReg.AreaOpacity = 25; |

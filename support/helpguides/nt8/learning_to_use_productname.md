@@ -1,9 +1,9 @@
 ﻿
-Introduction \> Learning to Use NinjaTrader
+Introduction > Learning to Use NinjaTrader
 
 Learning to Use NinjaTrader
 
-| \<\< [Click to Display Table of Contents](learning_to_use_productname.md) \>\> **Navigation:**     [Introduction](introduction-1.md) \> Learning to Use NinjaTrader | [Previous page](purchase_productname.md) [Return to chapter overview](introduction-1.md) [Next page](using_3rd_party_add-ons-1.md) |
+| << [Click to Display Table of Contents](learning_to_use_productname.md) >> **Navigation:**     [Introduction](introduction-1.md) > Learning to Use NinjaTrader | [Previous page](purchase_productname.md) [Return to chapter overview](introduction-1.md) [Next page](using_3rd_party_add-ons-1.md) |
 | --- | --- |
 NinjaTrader provides a variety of ways for free and licensed users to learn and master the platform, including this help guide, the Video Library, the Support Forum, and weekly free live training sessions.
 ![tog_minus](tog_minus-1.gif)        [Help Guides](javascript:HMToggle('toggle','HelpGuides','HelpGuides_ICON'))

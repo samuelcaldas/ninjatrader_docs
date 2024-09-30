@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.TextFixed() \> TextFixed
+NinjaScript > Language Reference > Common > Drawing > Draw.TextFixed() > TextFixed
 TextFixed
-| \<\< [Click to Display Table of Contents](textfixed.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.TextFixed()](draw_textfixed-1.md) \> TextFixed | [Previous page](draw_textfixed-1.md) [Return to chapter overview](draw_textfixed-1.md) [Next page](draw_timecycles-1.md) |
+| << [Click to Display Table of Contents](textfixed.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.TextFixed()](draw_textfixed-1.md) > TextFixed | [Previous page](draw_textfixed-1.md) [Return to chapter overview](draw_textfixed-1.md) [Next page](draw_timecycles-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Text Fixed [IDrawingTool](idrawingtool-1.md).
@@ -25,4 +25,4 @@ Represents an interface that exposes information regarding a Text Fixed [IDrawin
 ## Example
 | ns |
 | --- |
-| // Instantiate a TextFixed object TextFixed myTF \= Draw.TextFixed(this, "tag1", "Text to draw", TextPosition.TopRight);   // Change the object's TextPosition myTF.TextPosition \= TextPosition.Center; |
+| // Instantiate a TextFixed object TextFixed myTF = Draw.TextFixed(this, "tag1", "Text to draw", TextPosition.TopRight);   // Change the object's TextPosition myTF.TextPosition = TextPosition.Center; |

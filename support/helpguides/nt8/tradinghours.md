@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> TradingHours
+NinjaScript > Language Reference > Common > TradingHours
 TradingHours
 
-| \<\< [Click to Display Table of Contents](tradinghours.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> TradingHours | [Previous page](zigzag.md) [Return to chapter overview](common.md) [Next page](tradinghoursget.md) |
+| << [Click to Display Table of Contents](tradinghours.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > TradingHours | [Previous page](zigzag.md) [Return to chapter overview](common.md) [Next page](tradinghoursget.md) |
 | --- | --- |
 
 ## Definition

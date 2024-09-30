@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Chart Style \> UpBrush
+NinjaScript > Language Reference > Chart Style > UpBrush
 UpBrush
-| \<\< [Click to Display Table of Contents](upbrush.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Chart Style](chart_style.md) \> UpBrush | [Previous page](transformbrush.md) [Return to chapter overview](chart_style.md) [Next page](upbrushdx.md) |
+| << [Click to Display Table of Contents](upbrush.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Chart Style](chart_style.md) > UpBrush | [Previous page](transformbrush.md) [Return to chapter overview](chart_style.md) [Next page](upbrushdx.md) |
 | --- | --- |
 ## Definition
 A [Brush](https://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object used to determine the color to paint the up bars for the ChartStyle.
@@ -19,4 +19,4 @@ UpBrush
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.Configure)    {        // Set a new name for the UpBrush property        SetPropertyName("UpBrush", "AdvancingBrush");    } } |
+| protected override void OnStateChange() {    if (State == State.Configure)    {        // Set a new name for the UpBrush property        SetPropertyName("UpBrush", "AdvancingBrush");    } } |

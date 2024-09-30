@@ -1,10 +1,10 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnConnectionStatusUpdate() \> ConnectionStatusEventArgs
+NinjaScript > Language Reference > Common > OnConnectionStatusUpdate() > ConnectionStatusEventArgs
 ConnectionStatusEventArgs
-| \<\< [Click to Display Table of Contents](connectionstatuseventargs.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [OnConnectionStatusUpdate()](onconnectionstatusupdate.md) \> ConnectionStatusEventArgs | [Previous page](onconnectionstatusupdate.md) [Return to chapter overview](onconnectionstatusupdate.md) [Next page](onfundamentaldata.md) |
+| << [Click to Display Table of Contents](connectionstatuseventargs.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnConnectionStatusUpdate()](onconnectionstatusupdate.md) > ConnectionStatusEventArgs | [Previous page](onconnectionstatusupdate.md) [Return to chapter overview](onconnectionstatusupdate.md) [Next page](onfundamentaldata.md) |
 | --- | --- |
 ## Definition
-ConnectionStatusEventArgs contains [Connection](connection.md)\-related information to be passed as an argument to the [OnConnectionStatusUpdate()](onconnectionstatusupdate.md) event.
+ConnectionStatusEventArgs contains [Connection](connection.md)-related information to be passed as an argument to the [OnConnectionStatusUpdate()](onconnectionstatusupdate.md) event.
 
 | Note:  For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](addon_development_overview.md) |
 | --- |
@@ -24,5 +24,5 @@ The properties listed below are accessible from an instance of ConnectionStatusE
 ## Examples
 | ns |
 | --- |
-| // This method is fired on connection status events private void OnConnectionStatusUpdate(object sender, ConnectionStatusEventArgs e) {    // For multi\-threading reasons, work with a copy of the ConnectionStatusEventArgs to prevent situations in which the EventArgs may already be ahead of us while in the middle processing it.    // This accomplishes the same goal as locking a collection to prevent in\-flight changes from affecting outcomes    ConnectionStatusEventArgs eCopy \= e;      /\* Dispatcher.InvokeAsync() is needed for multi\-threading considerations. When processing events outside of the UI thread, and we want to     influence the UI .InvokeAsync() allows us to do so. It can also help prevent the UI thread from locking up on long operations. \*/    Dispatcher.InvokeAsync(() \=\>    {        outputBox.AppendText(string.Format("{1} Status: {2}",                Environment.NewLine,                eCopy.Connection.Options.Name,                eCopy.Status));    });    } |
+| // This method is fired on connection status events private void OnConnectionStatusUpdate(object sender, ConnectionStatusEventArgs e) {    // For multi-threading reasons, work with a copy of the ConnectionStatusEventArgs to prevent situations in which the EventArgs may already be ahead of us while in the middle processing it.    // This accomplishes the same goal as locking a collection to prevent in-flight changes from affecting outcomes    ConnectionStatusEventArgs eCopy = e;      /* Dispatcher.InvokeAsync() is needed for multi-threading considerations. When processing events outside of the UI thread, and we want to     influence the UI .InvokeAsync() allows us to do so. It can also help prevent the UI thread from locking up on long operations. */    Dispatcher.InvokeAsync(() =>    {        outputBox.AppendText(string.Format("{1} Status: {2}",                Environment.NewLine,                eCopy.Connection.Options.Name,                eCopy.Status));    });    } |
 

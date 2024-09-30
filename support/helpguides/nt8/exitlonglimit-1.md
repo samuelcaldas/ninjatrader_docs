@@ -1,13 +1,13 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order Methods \> Managed Approach \> ExitLongLimit()
+NinjaScript > Language Reference > Strategy > Order Methods > Managed Approach > ExitLongLimit()
 ExitLongLimit()
-| \<\< [Click to Display Table of Contents](exitlonglimit.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> [Order Methods](order_methods-1.md) \> [Managed Approach](managed_approach-1.md) \> ExitLongLimit() | [Previous page](exitlong-1.md) [Return to chapter overview](managed_approach-1.md) [Next page](exitlongmit-1.md) |
+| << [Click to Display Table of Contents](exitlonglimit.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [Order Methods](order_methods-1.md) > [Managed Approach](managed_approach-1.md) > ExitLongLimit() | [Previous page](exitlong-1.md) [Return to chapter overview](managed_approach-1.md) [Next page](exitlongmit-1.md) |
 | --- | --- |
 ## Definition
 Generates a sell limit order to exit a long position.
  
 ## Method Return Value
-An [Order](order-1.md) read\-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling-1.md) section.   
+An [Order](order-1.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling-1.md) section.   
 
  
 Syntax   
@@ -36,7 +36,7 @@ ExitLongLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, 
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      if (CurrentBar \< 20)          return;        // Only enter if at least 10 bars has passed since our last entry      if ((BarsSinceEntryExecution() \> 10 \|\| BarsSinceEntryExecution() \=\= \-1) \&\& CrossAbove(SMA(10), SMA(20), 1))          EnterLong("SMA Cross Entry");        // Exits position      if (CrossBelow(SMA(10), SMA(20), 1))          ExitLongLimit(GetCurrentBid()); } |
+| protected override void OnBarUpdate() {      if (CurrentBar < 20)          return;        // Only enter if at least 10 bars has passed since our last entry      if ((BarsSinceEntryExecution() > 10 || BarsSinceEntryExecution() == -1) && CrossAbove(SMA(10), SMA(20), 1))          EnterLong("SMA Cross Entry");        // Exits position      if (CrossBelow(SMA(10), SMA(20), 1))          ExitLongLimit(GetCurrentBid()); } |
    
 
  

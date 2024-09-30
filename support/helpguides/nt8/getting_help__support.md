@@ -1,9 +1,9 @@
 ﻿
-Introduction \> Getting Help \& Support
+Introduction > Getting Help & Support
 
-Getting Help \& Support
+Getting Help & Support
 
-| \<\< [Click to Display Table of Contents](getting_help__support.md) \>\> **Navigation:**     [Introduction](introduction.md) \> Getting Help \& Support | [Previous page](getting_started_operations.md) [Return to chapter overview](introduction.md) [Next page](learning_to_use_ninjatrader.md) |
+| << [Click to Display Table of Contents](getting_help__support.md) >> **Navigation:**     [Introduction](introduction.md) > Getting Help & Support | [Previous page](getting_started_operations.md) [Return to chapter overview](introduction.md) [Next page](learning_to_use_ninjatrader.md) |
 | --- | --- |
 ## NinjaTrader Support Policy
 It is critical that you can rely on the support and service you receive from your trading platform provider. It is for this reason that NinjaTrader prides itself on its top quality support model that ensures you receive lightning fast and accurate turn around to your support inquiries. We have found that delivering support electronically allows us to provide high levels of service in a cost efficient manner. Electronic support inquiries can be processed thirty times faster than traditional telephone support models which ensures that you get the necessary information when you need it. No more leaving messages in phantom voice mail boxes and no more waiting for thirty minutes in a telephone queue! Does this mean we do not have telephone support? Absolutely not! If we can't resolve your support inquiry electronically, we will be on the telephone with you right away and if required, login remotely to your PC to expedite a resolution! 

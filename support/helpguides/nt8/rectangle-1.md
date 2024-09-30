@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Rectangle() \> Rectangle
+NinjaScript > Language Reference > Common > Drawing > Draw.Rectangle() > Rectangle
 
 Rectangle
 
-| \<\< [Click to Display Table of Contents](rectangle.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.Rectangle()](draw_rectangle-1.md) \> Rectangle | [Previous page](draw_rectangle-1.md) [Return to chapter overview](draw_rectangle-1.md) [Next page](draw_region-1.md) |
+| << [Click to Display Table of Contents](rectangle.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.Rectangle()](draw_rectangle-1.md) > Rectangle | [Previous page](draw_rectangle-1.md) [Return to chapter overview](draw_rectangle-1.md) [Next page](draw_region-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Rectangle [IDrawingTool](idrawingtool-1.md).
@@ -22,4 +22,4 @@ Represents an interface that exposes information regarding a Rectangle [IDrawing
 
 | ns |
 | --- |
-| // Instantiate a Rectangle object Rectangle myRec \= Draw.Rectangle(this, "tag1", 10, Low\[10] \- TickSize, 5, High\[5] \+ TickSize, Brushes.Blue);   // Set the object's AreaBrush to Blue myRec.AreaBrush \= Brushes.Blue; |
+| // Instantiate a Rectangle object Rectangle myRec = Draw.Rectangle(this, "tag1", 10, Low[10] - TickSize, 5, High[5] + TickSize, Brushes.Blue);   // Set the object's AreaBrush to Blue myRec.AreaBrush = Brushes.Blue; |

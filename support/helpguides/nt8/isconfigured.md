@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Share Service \> IsConfigured
+NinjaScript > Language Reference > Share Service > IsConfigured
 IsConfigured
-| \<\< [Click to Display Table of Contents](isconfigured.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Share Service](share_service.md) \> IsConfigured | [Previous page](isauthorizationrequired.md) [Return to chapter overview](share_service.md) [Next page](isdefault.md) |
+| << [Click to Display Table of Contents](isconfigured.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Share Service](share_service.md) > IsConfigured | [Previous page](isauthorizationrequired.md) [Return to chapter overview](share_service.md) [Next page](isdefault.md) |
 | --- | --- |
 ## Definition
 Sets when the Share Service is correctly configured.  Typically this would be set after the account is authorized, at which point the adapter will allow for the user to share content to the sharing service.     
@@ -21,4 +21,4 @@ IsConfigured
 ## Examples
 | ns |
 | --- |
-| public override void OnAuthorizeAccount() {    //Authorization logic would be here, after success, set IsConfigured to true.      IsConfigured \= true; } |
+| public override void OnAuthorizeAccount() {    //Authorization logic would be here, after success, set IsConfigured to true.      IsConfigured = true; } |

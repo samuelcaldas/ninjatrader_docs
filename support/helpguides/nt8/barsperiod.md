@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnBarUpdate() \> BarsPeriod
+NinjaScript > Language Reference > Common > OnBarUpdate() > BarsPeriod
 BarsPeriod
-| \<\< [Click to Display Table of Contents](barsperiod.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [OnBarUpdate()](onbarupdate.md) \> BarsPeriod | [Previous page](onbarupdate.md) [Return to chapter overview](onbarupdate.md) [Next page](calculate.md) |
+| << [Click to Display Table of Contents](barsperiod.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnBarUpdate()](onbarupdate.md) > BarsPeriod | [Previous page](onbarupdate.md) [Return to chapter overview](onbarupdate.md) [Next page](calculate.md) |
 | --- | --- |
 ## Definition
 The primary Bars object time frame (period type and interval).  
@@ -15,7 +15,7 @@ The primary Bars object time frame (period type and interval).
 A [Bars](bars.md) series object representing the time frame of the Bars. 
  
 Syntax
-| BarsPeriod.BarsPeriodType | The type of bars used for the period, as well as the enumeration value under which the any of the 14 default NinjaTrader types are registered. Possible values include:     | BarsPeriodType.Tick | 0 | | --- | --- | | BarsPeriodType.Volume | 1 | | BarsPeriodType.Range | 2 | | BarsPeriodType.Second | 3 | | BarsPeriodType.Minute | 4 | | BarsPeriodType.Day | 5 | | BarsPeriodType.Week | 6 | | BarsPeriodType.Month | 7 | | BarsPeriodType.Year | 8 | | BarsPeriodType.HeikenAshi | 9 | | BarsPeriodType.Kagi | 10 | | BarsPeriodType.Renko | 11 | | BarsPeriodType.PointAndFigure | 12 | | BarsPeriodType.LineBreak | 13 | | BarsPeriodType.Volumetric | 14 |          | Tip: When creating custom [BarsTypes](bars_type.md), it is recommended to pick high, unique enumeration value to avoid conflict from other BarsTypes that may be used by a single installation.     BarsPeriod \= new BarsPeriod { BarsPeriodType \= (BarsPeriodType)123456, BarsPeriodTypeName \= "MyCustomBars", Value \= 1 }; | | --- | |
+| BarsPeriod.BarsPeriodType | The type of bars used for the period, as well as the enumeration value under which the any of the 14 default NinjaTrader types are registered. Possible values include:     | BarsPeriodType.Tick | 0 | | --- | --- | | BarsPeriodType.Volume | 1 | | BarsPeriodType.Range | 2 | | BarsPeriodType.Second | 3 | | BarsPeriodType.Minute | 4 | | BarsPeriodType.Day | 5 | | BarsPeriodType.Week | 6 | | BarsPeriodType.Month | 7 | | BarsPeriodType.Year | 8 | | BarsPeriodType.HeikenAshi | 9 | | BarsPeriodType.Kagi | 10 | | BarsPeriodType.Renko | 11 | | BarsPeriodType.PointAndFigure | 12 | | BarsPeriodType.LineBreak | 13 | | BarsPeriodType.Volumetric | 14 |          | Tip: When creating custom [BarsTypes](bars_type.md), it is recommended to pick high, unique enumeration value to avoid conflict from other BarsTypes that may be used by a single installation.     BarsPeriod = new BarsPeriod { BarsPeriodType = (BarsPeriodType)123456, BarsPeriodTypeName = "MyCustomBars", Value = 1 }; | | --- | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BarsPeriod.BaseBarsPeriodType | Only relevant for [HeikenAshi](addheikenashi.md), [Kagi](addkagi.md), [LineBreak](addlinebreak.md), [PointAndFigure](addpointandfigure.md) and [Volumetric](addvolumetric.md) Bars objects. Same possible values as BarsPeriod.BarsPeriodType |
 | BarsPeriod.BaseBarsPeriodValue | Only relevant for [HeikenAshi](addheikenashi.md), [Kagi](addkagi.md), [LineBreak](addlinebreak.md), [PointAndFigure](addpointandfigure.md) and [Volumetric](addvolumetric.md) Bars objects. Determines an integer value representing the basePeriodTypeValue parameter |
@@ -29,9 +29,9 @@ Syntax
 ## Examples
 | ns |
 | --- |
-| // Calculate only if there is a 100 tick chart or greater protected override void OnBarUpdate()  {       if (BarsPeriod.BarsPeriodType \=\= BarsPeriodType.Tick \&\& BarsPeriod.Value \>\= 100)      {          // Indicator calculation logic here      } } |
+| // Calculate only if there is a 100 tick chart or greater protected override void OnBarUpdate()  {       if (BarsPeriod.BarsPeriodType == BarsPeriodType.Tick && BarsPeriod.Value >= 100)      {          // Indicator calculation logic here      } } |
 
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.Configure)      {                  // add a 1440 minute apple bars object using the RTH session template            AddDataSeries("AAPL", new BarsPeriod { BarsPeriodType \= BarsPeriodType.Minute, Value \= 1440 }, "US Equities RTH");                     }        else if (State \=\= State.DataLoaded)      {            // Print out the loaded bars period             Print(Instrument.FullName \+ " " \+ BarsPeriod); // MSFT 1 Minute            Print(BarsArray\[1].Instrument.FullName \+ " " \+ BarsArray\[1].BarsPeriod); // AAPL 1440 Minute      } } |
+| protected override void OnStateChange() {      if (State == State.Configure)      {                  // add a 1440 minute apple bars object using the RTH session template            AddDataSeries("AAPL", new BarsPeriod { BarsPeriodType = BarsPeriodType.Minute, Value = 1440 }, "US Equities RTH");                     }        else if (State == State.DataLoaded)      {            // Print out the loaded bars period             Print(Instrument.FullName + " " + BarsPeriod); // MSFT 1 Minute            Print(BarsArray[1].Instrument.FullName + " " + BarsArray[1].BarsPeriod); // AAPL 1440 Minute      } } |
 

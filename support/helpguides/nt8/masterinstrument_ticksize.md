@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Instruments \> Instrument \> MasterInstrument \> TickSize
+NinjaScript > Language Reference > Common > Instruments > Instrument > MasterInstrument > TickSize
 
 TickSize
 
-| \<\< [Click to Display Table of Contents](masterinstrument_ticksize.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Instruments](instruments_ninjascript.md) \> [Instrument](instrument.md) \> [MasterInstrument](masterinstrument.md) \> TickSize | [Previous page](splits.md) [Return to chapter overview](masterinstrument.md) [Next page](url.md) |
+| << [Click to Display Table of Contents](masterinstrument_ticksize.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > [Instrument](instrument.md) > [MasterInstrument](masterinstrument.md) > TickSize | [Previous page](splits.md) [Return to chapter overview](masterinstrument.md) [Next page](url.md) |
 | --- | --- |
 ## Definition
 Indicates the tick size configured for the [Master Instrument properties](editing_instruments.md).

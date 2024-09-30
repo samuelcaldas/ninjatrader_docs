@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Educational Resources \> Multi\-Threading Consideration for NinjaScript
+NinjaScript > Educational Resources > Multi-Threading Consideration for NinjaScript
 
-Multi\-Threading Consideration for NinjaScript
+Multi-Threading Consideration for NinjaScript
 
-| \<\< [Click to Display Table of Contents](multi-threading.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> Multi\-Threading Consideration for NinjaScript | [Previous page](historical_order_backfill_logic-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](multi-time_frame__instruments-1.md) |
+| << [Click to Display Table of Contents](multi-threading.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > Multi-Threading Consideration for NinjaScript | [Previous page](historical_order_backfill_logic-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](multi-time_frame__instruments-1.md) |
 | --- | --- |
-## Multi\-Threading Overview
-With the introduction of multi\-threading in NinjaTrader special considerations should be made when programming your NinjaScript objects. Multi\-threading basically allows NinjaTrader to take advantage of multi\-core CPUs commonplace in modern computing to do multiple tasks at the same time.  While this has many advantages for multi\-tasking, it can cause new types of issues you may have not needed to consider before.  This page was designed to serve as a high\-level overview of some of the most common scenarios that can arise due to multi\-threading, but should not be considered an exhaustive list.  
+## Multi-Threading Overview
+With the introduction of multi-threading in NinjaTrader special considerations should be made when programming your NinjaScript objects. Multi-threading basically allows NinjaTrader to take advantage of multi-core CPUs commonplace in modern computing to do multiple tasks at the same time.  While this has many advantages for multi-tasking, it can cause new types of issues you may have not needed to consider before.  This page was designed to serve as a high-level overview of some of the most common scenarios that can arise due to multi-threading, but should not be considered an exhaustive list.  
  
 Using A Dispatcher
 Depending on your CPU configuration, the NinjaTrader application will usually consist of multiple main UI threads, where various features like Charts or NinjaScript objects run, along with a number of background worker threads where events such as market data updates will be distributed throughout the product.  In principle, an object can only access information related to objects that exist on the same thread.  It is possible (and quite likely), that the thread which a NinjaScript object is running will not be the same thread as the event which is calling the object.  In cases where you need to access objects on the UI from a NinjaScript objects calling event thread, a [dispatcher](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher(v=vs.110).aspx) can be used.
@@ -18,7 +18,7 @@ Depending on your CPU configuration, the NinjaTrader application will usually co
 
 | ns |
 | --- |
-| if (State \=\= State.Historical) {    if (ChartControl !\= null)    {      // add some text to the UserControlCollection through the ChartControls dispatcher      ChartControl.Dispatcher.InvokeAsync(new Action(() \=\> {          UserControlCollection.Add(new System.Windows.Controls.TextBlock {            Text \= "\\nAdded by the ChartControl Dispatcher."          });      }));    } } |
+| if (State == State.Historical) {    if (ChartControl != null)    {      // add some text to the UserControlCollection through the ChartControls dispatcher      ChartControl.Dispatcher.InvokeAsync(new Action(() => {          UserControlCollection.Add(new System.Windows.Controls.TextBlock {            Text = "\\nAdded by the ChartControl Dispatcher."          });      }));    } } |
 
 ## Thread Access
 Since market data is distributed across the entire application by a randomly assigned UI thread, there is no guarantee that your object will be running on the same event thread that is calling the object. Therefore it is recommend that you call [Dispatcher.CheckAccess()](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher.checkaccess(v=vs.110).aspx) in order to test if you truly need to dispatch the requested action.
@@ -38,14 +38,14 @@ This error can be avoided by invoking the Dispatcher used on the appropriate UI 
 ## Access Violation Exception
 Should you be using custom resources like text files, static members, etc. it is important to protect your resources from concurrent access. If NinjaTrader tried to use the resource at the same time you would run into errors similar to this one:
  
-8/20/2010 12:14:29 PM\|3\|128\|Error on calling 'OnBarUpdate' method for strategy 'SampleStrategy/1740b50bfe5d4bd896b0533725622400': The process cannot access the file 'c:\\sample.txt' because it is being used by another process.
+8/20/2010 12:14:29 PM|3|128|Error on calling 'OnBarUpdate' method for strategy 'SampleStrategy/1740b50bfe5d4bd896b0533725622400': The process cannot access the file 'c:\\sample.txt' because it is being used by another process.
  
 
 | ns |
 | --- |
-| private object lockObj \= new object();   private void WriteFile() {    // lock a generic object to ensure only one thread is accessing the following code block at a time    lock (lockObj)    {        string filePath \= @"C:\\sample.txt";        using (System.IO.FileStream file \= new System.IO.FileStream(filePath, FileMode.Append, FileAccess.Write, FileShare.None))        {          // write something to the file...            // be sure to flush the buffer so everything is written to the file.          file.Flush();            // The "using" block implicitly closes the FileStream object,          // giving other threads access to the file        }    } } |
+| private object lockObj = new object();   private void WriteFile() {    // lock a generic object to ensure only one thread is accessing the following code block at a time    lock (lockObj)    {        string filePath = @"C:\\sample.txt";        using (System.IO.FileStream file = new System.IO.FileStream(filePath, FileMode.Append, FileAccess.Write, FileShare.None))        {          // write something to the file...            // be sure to flush the buffer so everything is written to the file.          file.Flush();            // The "using" block implicitly closes the FileStream object,          // giving other threads access to the file        }    } } |
  
-Multi\-threaded consideration for Order, Execution and Position objects 
+Multi-threaded consideration for Order, Execution and Position objects 
  
 These considerations apply to the [OnOrderUpdate()](onorderupdate-1.md), [OnExecutionUpdate()](onexecutionupdate-1.md) and [OnPositionUpdate()](onpositionupdate-1.md) handlers, where both the actual 'core' objects are passed by reference and updating method value parameters are provided. Examplary the [OnOrderUpdate()](onorderupdate-1.md) is discussed in below.
  

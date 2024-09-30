@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> IsWaitUntilFlat
+NinjaScript > Language Reference > Strategy > IsWaitUntilFlat
 IsWaitUntilFlat
-| \<\< [Click to Display Table of Contents](iswaituntilflat.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> IsWaitUntilFlat | [Previous page](istradinghoursbreaklinevisible.md) [Return to chapter overview](strategy.md) [Next page](numberrestartattempts.md) |
+| << [Click to Display Table of Contents](iswaituntilflat.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > IsWaitUntilFlat | [Previous page](istradinghoursbreaklinevisible.md) [Return to chapter overview](strategy.md) [Next page](numberrestartattempts.md) |
 | --- | --- |
 ## Definition
 Indicates the strategy is currently waiting until a flat position is detected before submitting live orders. 

@@ -1,7 +1,7 @@
 ﻿
-Operations \> Strategy Analyzer \> Strategy Analyzer Properties
+Operations > Strategy Analyzer > Strategy Analyzer Properties
 Strategy Analyzer Properties
-| \<\< [Click to Display Table of Contents](strategyanalyzer_properties.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Strategy Analyzer](strategy_analyzer-1.md) \> Strategy Analyzer Properties | [Previous page](saving_strategy_parameter_temp-1.md) [Return to chapter overview](strategy_analyzer-1.md) [Next page](strategyanalyzer_properties_2-1.md) |
+| << [Click to Display Table of Contents](strategyanalyzer_properties.md) >> **Navigation:**     [Operations](operations-1.md) > [Strategy Analyzer](strategy_analyzer-1.md) > Strategy Analyzer Properties | [Previous page](saving_strategy_parameter_temp-1.md) [Return to chapter overview](strategy_analyzer-1.md) [Next page](strategyanalyzer_properties_2-1.md) |
 | --- | --- |
 
 Many of the Strategy Analyzer visual display settings can be customized using the Strategy Analyzer Properties window.
@@ -10,7 +10,7 @@ Many of the Strategy Analyzer visual display settings can be customized using th
 | --- |
 
 ![tog_minus](tog_minus-1.gif)        [Available properties and definitions](javascript:HMToggle('toggle','AvailablePropertiesAndDefinitions','AvailablePropertiesAndDefinitions_ICON'))
-| The following properties are available for configuration within the Strategy Analyzer Properties window:   Strategy_Analyzer_Properties   Property Definitions   | General |  | | --- | --- | | Use local data only | When enabled the strategy analyzer will not make a request for historical data from the provider and used stored data in the repository only. | | Play sound on complete | Once a back\-test or optimization is complete, the chosen alert sound will be triggered. | | Grid font | Sets the font options | | Tab name | Sets the name of the tab, please see [Using Tabs](using_tabs-1.md) for more information. | | Columns \- Analysis |  | | Columns \- Executions |  | | Columns \- Log |  | | Columns \- Orders |  | | Columns \- Results |  | | Columns \- Summary |  | | Columns \- Trades |  | | Window |  | | Show Tabs | Sets if the tabs are visible or not. | | Show Log | Set if the log feature is enabled or disabled. | |
+| The following properties are available for configuration within the Strategy Analyzer Properties window:   Strategy_Analyzer_Properties   Property Definitions   | General |  | | --- | --- | | Use local data only | When enabled the strategy analyzer will not make a request for historical data from the provider and used stored data in the repository only. | | Play sound on complete | Once a back-test or optimization is complete, the chosen alert sound will be triggered. | | Grid font | Sets the font options | | Tab name | Sets the name of the tab, please see [Using Tabs](using_tabs-1.md) for more information. | | Columns - Analysis |  | | Columns - Executions |  | | Columns - Log |  | | Columns - Orders |  | | Columns - Results |  | | Columns - Summary |  | | Columns - Trades |  | | Window |  | | Show Tabs | Sets if the tabs are visible or not. | | Show Log | Set if the log feature is enabled or disabled. | |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 ![tog_minus](tog_minus-1.gif)        [How to preset property defaults](javascript:HMToggle('toggle','HowToPresetPropertyDefaults','HowToPresetPropertyDefaults_ICON'))

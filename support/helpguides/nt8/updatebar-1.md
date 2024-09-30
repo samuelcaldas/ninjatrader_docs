@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Bars Type \> UpdateBar()
+NinjaScript > Language Reference > Bars Type > UpdateBar()
 UpdateBar()
-| \<\< [Click to Display Table of Contents](updatebar.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Bars Type](bars_type-1.md) \> UpdateBar() | [Previous page](barstype_sessioniterator-1.md) [Return to chapter overview](bars_type-1.md) [Next page](chart_style-1.md) |
+| << [Click to Display Table of Contents](updatebar.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Bars Type](bars_type-1.md) > UpdateBar() | [Previous page](barstype_sessioniterator-1.md) [Return to chapter overview](bars_type-1.md) [Next page](chart_style-1.md) |
 | --- | --- |
 ## Definition
 Updates a data point in our Bars Type.

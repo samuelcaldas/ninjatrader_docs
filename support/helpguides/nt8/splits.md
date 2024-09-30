@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Instruments \> Instrument \> MasterInstrument \> Splits
+NinjaScript > Language Reference > Common > Instruments > Instrument > MasterInstrument > Splits
 
 Splits
 
-| \<\< [Click to Display Table of Contents](splits.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Instruments](instruments_ninjascript.md) \> [Instrument](instrument.md) \> [MasterInstrument](masterinstrument.md) \> Splits | [Previous page](rounddowntoticksize.md) [Return to chapter overview](masterinstrument.md) [Next page](masterinstrument_ticksize.md) |
+| << [Click to Display Table of Contents](splits.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > [Instrument](instrument.md) > [MasterInstrument](masterinstrument.md) > Splits | [Previous page](rounddowntoticksize.md) [Return to chapter overview](masterinstrument.md) [Next page](masterinstrument_ticksize.md) |
 | --- | --- |
 ## Definition
 Indicates the Splits that have been configured for the [Master Instrument properties](editing_instruments.md) used in for stocks.

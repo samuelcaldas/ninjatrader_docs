@@ -1,9 +1,9 @@
 ﻿
-Operations \> Order Entry
+Operations > Order Entry
 
 Order Entry
 
-| \<\< [Click to Display Table of Contents](order_entry.md) \>\> **Navigation:**     [Operations](operations-1.md) \> Order Entry | [Previous page](properties_option_chain-1.md) [Return to chapter overview](operations-1.md) [Next page](attachingorderstoindicators-1.md) |
+| << [Click to Display Table of Contents](order_entry.md) >> **Navigation:**     [Operations](operations-1.md) > Order Entry | [Previous page](properties_option_chain-1.md) [Return to chapter overview](operations-1.md) [Next page](attachingorderstoindicators-1.md) |
 | --- | --- |
 
 | Order Entry Overview Various Order Entry windows can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the name of order entry window.   NinjaTrader provides six graphical interfaces for order, position, and [ATM Strategy](atm_strategy-1.md) management.  These interfaces provide complete functionality for the management of orders, positions and discretionary exit and stop strategies in a highly visual and efficient manner. The majority of your time using NinjaTrader will be spent in one of these six interfaces if you are primarily a discretionary trader. | |

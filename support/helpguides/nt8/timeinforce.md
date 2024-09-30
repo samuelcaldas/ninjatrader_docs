@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> TimeInForce
+NinjaScript > Language Reference > Strategy > TimeInForce
 TimeInForce
 
-| \<\< [Click to Display Table of Contents](timeinforce.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> TimeInForce | [Previous page](testperiod.md) [Return to chapter overview](strategy.md) [Next page](traceorders.md) |
+| << [Click to Display Table of Contents](timeinforce.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > TimeInForce | [Previous page](testperiod.md) [Return to chapter overview](strategy.md) [Next page](traceorders.md) |
 | --- | --- |
 
 ## Definition
@@ -26,10 +26,10 @@ TimeInForce
 ## Examples
 | ns | Setting default TIF for all strategy orders |
 | --- | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          TimeInForce \= TimeInForce.Day;      } } | |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {          TimeInForce = TimeInForce.Day;      } } | |
 
  
 | ns | Setting TIF conditionally |
 | --- | --- |
-| protected override void OnStateChange() {      if (State \=\= State.Configure)      {  if (Instrument !\= null)  {          if (Instrument.Exchange \=\= Exchange.Nybot)                  TimeInForce \= TimeInForce.Day;          else if (Instrument.Exchange \=\= Exchange.Globex)                  TimeInForce \= TimeInForce.Gtc;  }      } } | |
+| protected override void OnStateChange() {      if (State == State.Configure)      {  if (Instrument != null)  {          if (Instrument.Exchange == Exchange.Nybot)                  TimeInForce = TimeInForce.Day;          else if (Instrument.Exchange == Exchange.Globex)                  TimeInForce = TimeInForce.Gtc;  }      } } | |
 

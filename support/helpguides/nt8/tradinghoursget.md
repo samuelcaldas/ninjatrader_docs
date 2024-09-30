@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> TradingHours \> Get
+NinjaScript > Language Reference > Common > TradingHours > Get
 Get()
 
-| \<\< [Click to Display Table of Contents](tradinghoursget.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [TradingHours](tradinghours.md) \> Get() | [Previous page](tradinghours.md) [Return to chapter overview](tradinghours.md) [Next page](getprevioustradingdayend.md) |
+| << [Click to Display Table of Contents](tradinghoursget.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [TradingHours](tradinghours.md) > Get() | [Previous page](tradinghours.md) [Return to chapter overview](tradinghours.md) [Next page](getprevioustradingdayend.md) |
 | --- | --- |
 
 ## Definition
@@ -24,5 +24,5 @@ Get(string name)
 ## Examples
 | ns |
 | --- |
-| // Loop through and print all regular holidays in the found TradingHours object foreach(KeyValuePair\<DateTime, string\> holiday in TradingHours.Get("CME US Index Futures RTH").Holidays) {    Print(String.Format("Date: {0} Description: {1}", holiday.Key, holiday.Value)); } |
+| // Loop through and print all regular holidays in the found TradingHours object foreach(KeyValuePair<DateTime, string> holiday in TradingHours.Get("CME US Index Futures RTH").Holidays) {    Print(String.Format("Date: {0} Description: {1}", holiday.Key, holiday.Value)); } |
 

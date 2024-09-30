@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> DaysToLoad
+NinjaScript > Language Reference > Strategy > DaysToLoad
 DaysToLoad
-| \<\< [Click to Display Table of Contents](daystoload.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> DaysToLoad | [Previous page](connectionlosshandling-1.md) [Return to chapter overview](strategy-1.md) [Next page](defaultquantity-1.md) |
+| << [Click to Display Table of Contents](daystoload.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > DaysToLoad | [Previous page](connectionlosshandling-1.md) [Return to chapter overview](strategy-1.md) [Next page](defaultquantity-1.md) |
 | --- | --- |
 ## Definition
 Determines the number of trading days which will be configured when loading the strategy from the Strategies Grid.
  
-| Notes:   1\.This property does NOT affect a strategy configured of a Chart or the Strategy Analyzer.2\.A trading day is defined by a [Trading Hour](using_the_trading_hours_window-1.md) template |
+| Notes:   1.This property does NOT affect a strategy configured of a Chart or the Strategy Analyzer.2.A trading day is defined by a [Trading Hour](using_the_trading_hours_window-1.md) template |
 | --- |
  
 ## Property Value
@@ -18,6 +18,6 @@ DaysToLoad
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          DaysToLoad \= 15;      } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {          DaysToLoad = 15;      } } |
  
 

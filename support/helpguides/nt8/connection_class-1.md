@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> Connection
+NinjaScript > Language Reference > Add On > Connection
 
 Connection
 
-| \<\< [Click to Display Table of Contents](connection_class.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Add On](add_on-1.md) \> Connection | [Previous page](barsrequest_mergepolicy-1.md) [Return to chapter overview](add_on-1.md) [Next page](connection_cancelallorders-1.md) |
+| << [Click to Display Table of Contents](connection_class.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > Connection | [Previous page](barsrequest_mergepolicy-1.md) [Return to chapter overview](add_on-1.md) [Next page](connection_cancelallorders-1.md) |
 | --- | --- |
 ## Definition
 The Connection class can be used to monitor connection related events as well as accessing connection related information.
@@ -28,4 +28,4 @@ The Connection class can be used to monitor connection related events as well as
 
 | ns |
 | --- |
-| // Example of accessing information on all connected connections public class MyAddOnTab : NTTabPage {    public MyAddOnTab()    {      // Print information about all connected connections      lock (Connection.Connections)        foreach(Connection c in Connection.Connections)            NinjaTrader.Code.Output.Process(string.Format("Connection: {0} Provider: {1}", c.Options.Name, c.Options.Provider), PrintTo.OutputTab1\);        // Other required NTTabPage members left out for demonstration purposes. Be sure to add them in your own code.    } } |
+| // Example of accessing information on all connected connections public class MyAddOnTab : NTTabPage {    public MyAddOnTab()    {      // Print information about all connected connections      lock (Connection.Connections)        foreach(Connection c in Connection.Connections)            NinjaTrader.Code.Output.Process(string.Format("Connection: {0} Provider: {1}", c.Options.Name, c.Options.Provider), PrintTo.OutputTab1);        // Other required NTTabPage members left out for demonstration purposes. Be sure to add them in your own code.    } } |

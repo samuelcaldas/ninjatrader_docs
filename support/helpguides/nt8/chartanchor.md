@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> ChartAnchor
+NinjaScript > Language Reference > Drawing Tool > ChartAnchor
 
 ChartAnchor
-| \<\< [Click to Display Table of Contents](chartanchor.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Drawing Tool](drawing_tools.md) \> ChartAnchor | [Previous page](attachedto.md) [Return to chapter overview](drawing_tools.md) [Next page](copydatavalues.md) |
+| << [Click to Display Table of Contents](chartanchor.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > ChartAnchor | [Previous page](attachedto.md) [Return to chapter overview](drawing_tools.md) [Next page](copydatavalues.md) |
 | --- | --- |
 ## Definition
 Defines objects used by Drawing Tools which represent a point on the chart where the Drawing Tool is located.
@@ -14,7 +14,7 @@ class ChartAnchor
 | new ChartAnchor() | Initializes a new instance of the ChartAnchor object |
 | --- | --- |
 | new ChartAnchor(DateTime time, double price, [ChartControl](chartcontrol.md) chartControl) | Initializes a new instance of the ChartAnchor object using time, price, and relative chart control |
-| new ChartAnchor(DateTime time, double yValue, int currentBar, [ChartControl](chartcontrol.md) chartControl) | Initializes a new instance of the ChartAnchor object using time, y\-axis coordinates, current bar, and relative chart control |
+| new ChartAnchor(DateTime time, double yValue, int currentBar, [ChartControl](chartcontrol.md) chartControl) | Initializes a new instance of the ChartAnchor object using time, y-axis coordinates, current bar, and relative chart control |
 
  
 ## Methods and Properties
@@ -44,4 +44,4 @@ class ChartAnchor
 ## Examples
 | ns |
 | --- |
-| public ChartAnchor MyAnchor { get; set; }   // declares the "MyAnchor" ChartAnchor object   public override IEnumerable\<ChartAnchor\> Anchors { get { return new\[] { MyAnchor }; } } //adds the "MyAnchor" ChartAnchor object to a collection of anchors used to interact with your anchors   protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {      Description \= @"Drawing tool example";      Name \= "SampleDrawingTool";        MyAnchor \= new ChartAnchor(); //creates a new instances of the ChartAnchor object      MyAnchor.IsEditing   \= true;      MyAnchor.DrawingTool \= this;      MyAnchor.IsBrowsable \= false;    } }   public override void OnMouseUp(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint) {    if (DrawingState \=\= DrawingState.Editing)    {      if (MyAnchor.IsEditing)      {          //if anchor is editing, update anchor point          dataPoint.CopyDataValues(MyAnchor);      }    } } |
+| public ChartAnchor MyAnchor { get; set; }   // declares the "MyAnchor" ChartAnchor object   public override IEnumerable<ChartAnchor> Anchors { get { return new[] { MyAnchor }; } } //adds the "MyAnchor" ChartAnchor object to a collection of anchors used to interact with your anchors   protected override void OnStateChange() {    if (State == State.SetDefaults)    {      Description = @"Drawing tool example";      Name = "SampleDrawingTool";        MyAnchor = new ChartAnchor(); //creates a new instances of the ChartAnchor object      MyAnchor.IsEditing   = true;      MyAnchor.DrawingTool = this;      MyAnchor.IsBrowsable = false;    } }   public override void OnMouseUp(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint) {    if (DrawingState == DrawingState.Editing)    {      if (MyAnchor.IsEditing)      {          //if anchor is editing, update anchor point          dataPoint.CopyDataValues(MyAnchor);      }    } } |

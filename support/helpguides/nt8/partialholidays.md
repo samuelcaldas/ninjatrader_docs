@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> TradingHours \> PartialHolidays
+NinjaScript > Language Reference > Common > TradingHours > PartialHolidays
 
 PartialHolidays
 
-| \<\< [Click to Display Table of Contents](partialholidays.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [TradingHours](tradinghours.md) \> PartialHolidays | [Previous page](tradinghours_name.md) [Return to chapter overview](tradinghours.md) [Next page](tradinghours_sessions.md) |
+| << [Click to Display Table of Contents](partialholidays.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [TradingHours](tradinghours.md) > PartialHolidays | [Previous page](tradinghours_name.md) [Return to chapter overview](tradinghours.md) [Next page](tradinghours_sessions.md) |
 | --- | --- |
 ## Definition
 A collection of partial holidays which are configured for a Trading Hours template. Holidays are days which fall outside of the normal trading schedule, on which data will be excluded. For more information please see the "Understanding trading holidays" section of the [Using the Trading Hours](using_the_trading_hours_window.md) window.
@@ -23,4 +23,4 @@ TradingHours.PartialHolidays
 
 | ns |
 | --- |
-| // Print all partial holidays included in the Bars object's Trading Hours template foreach(KeyValuePair\<DateTime, PartialHoliday\> holiday in TradingHours.PartialHolidays) {    Print(holiday); } |
+| // Print all partial holidays included in the Bars object's Trading Hours template foreach(KeyValuePair<DateTime, PartialHoliday> holiday in TradingHours.PartialHolidays) {    Print(holiday); } |

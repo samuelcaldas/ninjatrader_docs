@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> NumericTextBox
+NinjaScript > Language Reference > Add On > NumericTextBox
 NumericTextBox
-| \<\< [Click to Display Table of Contents](numerictextbox.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Add On](add_on.md) \> NumericTextBox | [Previous page](ntwindow.md) [Return to chapter overview](add_on.md) [Next page](onwindowcreated.md) |
+| << [Click to Display Table of Contents](numerictextbox.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > NumericTextBox | [Previous page](ntwindow.md) [Return to chapter overview](add_on.md) [Next page](onwindowcreated.md) |
 | --- | --- |
-NumericTextBox provides functionality for numeric text boxes to capture user input. This UI element can be defined in XAML for an AddOn if desired, with functionality and logic related to the text box defined in C\#, as in the examples below.
+NumericTextBox provides functionality for numeric text boxes to capture user input. This UI element can be defined in XAML for an AddOn if desired, with functionality and logic related to the text box defined in C#, as in the examples below.
  
 | Note:  For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md) |
 | --- |
@@ -20,10 +20,10 @@ NumericTextBox inherits from [System.Windows.Controls.Textbox](https://msdn.micr
 ## Examples
 | ns |
 | --- |
-| \<!\-\- Create a grid in which to place the NumericTextBox \-\-\> \<Grid\>    \<!\-\- Define a NumericTextBox \-\-\>    \<t:NumericTextBox x:Name\="daysBackSelector" Text\="5" ValueType\="{x:Type system:Int32}" Width\="50" Grid.Column\="2"\>        \<!\-\- Set the margins for the box \-\-\>        \<t:NumericTextBox.Margin\>            \<Thickness Left\="{StaticResource MarginButtonLeft}" Top\="{StaticResource PaddingColumn}" Right\="{StaticResource MarginBase}"/\>        \</t:NumericTextBox.Margin\>    \</t:NumericTextBox\> \</Grid\> |
+| <!-- Create a grid in which to place the NumericTextBox --> <Grid>    <!-- Define a NumericTextBox -->    <t:NumericTextBox x:Name="daysBackSelector" Text="5" ValueType="{x:Type system:Int32}" Width="50" Grid.Column="2">        <!-- Set the margins for the box -->        <t:NumericTextBox.Margin>            <Thickness Left="{StaticResource MarginButtonLeft}" Top="{StaticResource PaddingColumn}" Right="{StaticResource MarginBase}"/>        </t:NumericTextBox.Margin>    </t:NumericTextBox> </Grid> |
 
  
 ## 
 | ns |
 | --- |
-| private NumericTextBox daysBack;   private DependencyObject LoadXAML() {        // Find days back selector        daysBack \= LogicalTreeHelper.FindLogicalNode(pageContent, "daysBackSelector") as NumericTextBox; } |
+| private NumericTextBox daysBack;   private DependencyObject LoadXAML() {        // Find days back selector        daysBack = LogicalTreeHelper.FindLogicalNode(pageContent, "daysBackSelector") as NumericTextBox; } |

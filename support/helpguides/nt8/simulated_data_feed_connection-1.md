@@ -1,9 +1,9 @@
 ﻿
-Configuration \> Connecting \> Multi\-provider Connections \> Simulated Data Feed Connection
+Configuration > Connecting > Multi-provider Connections > Simulated Data Feed Connection
 
 Simulated Data Feed Connection
 
-| \<\< [Click to Display Table of Contents](simulated_data_feed_connection.md) \>\> **Navigation:**     [Configuration](configuration-1.md) \> [Connecting](connecting-1.md) \> [Multi\-provider Connections](multi-provider-connections-1.md) \> Simulated Data Feed Connection | [Previous page](external_data_feed_connection-1.md) [Return to chapter overview](multi-provider-connections-1.md) [Next page](options-1.md) |
+| << [Click to Display Table of Contents](simulated_data_feed_connection.md) >> **Navigation:**     [Configuration](configuration-1.md) > [Connecting](connecting-1.md) > [Multi-provider Connections](multi-provider-connections-1.md) > Simulated Data Feed Connection | [Previous page](external_data_feed_connection-1.md) [Return to chapter overview](multi-provider-connections-1.md) [Next page](options-1.md) |
 | --- | --- |
 ## Simulated Data Feed Connection
 The Simulated Data Feed connection is a default connection installed with NinjaTrader. Its purpose is to play internally generated market data for simulation. 
@@ -18,7 +18,7 @@ This connection can be used for:
 
 ## 
 
-| Notes: 1\.This connection is a random internally generated market and has NO correlation to real market data2\.This connection does not provide historical data |
+| Notes: 1.This connection is a random internally generated market and has NO correlation to real market data2.This connection does not provide historical data |
 | --- |
  
 
@@ -33,11 +33,11 @@ The Simulated Data Feed will automatically use the last price from the last conn
 ## Defining the Sim Feed Start Price
 To manually set an instrument starting price for use with the Simulated Data Feed:
  
-1\.Left mouse click on the Tools menu in the Control Center and select the Instrument menu item 
+1.Left mouse click on the Tools menu in the Control Center and select the Instrument menu item 
 
-2\.Search for the desired instrument and select it
+2.Search for the desired instrument and select it
 
-3\.Press the edit button and set a Sim feed start price value
+3.Press the edit button and set a Sim feed start price value
 
  
 Once you are connected to the Simulated Data Feed connection, the instrument will begin simulated trading at the Sim feed start price value. 

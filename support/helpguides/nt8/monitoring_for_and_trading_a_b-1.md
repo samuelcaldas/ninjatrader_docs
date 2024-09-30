@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Educational Resources \> Reference Samples \> Strategy \> Monitoring for and trading a breakout
+NinjaScript > Educational Resources > Reference Samples > Strategy > Monitoring for and trading a breakout
 Monitoring for and trading a breakout
-| \<\< [Click to Display Table of Contents](monitoring_for_and_trading_a_b.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> [Reference Samples](reference_samples-1.md) \> [Strategy](strategy2-1.md) \> Monitoring for and trading a breakout | [Previous page](modifying_the_price_of_stop_lo-1.md) [Return to chapter overview](strategy2-1.md) [Next page](monitoring_stop-loss_and_profi-1.md) |
+| << [Click to Display Table of Contents](monitoring_for_and_trading_a_b.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Strategy](strategy2-1.md) > Monitoring for and trading a breakout | [Previous page](modifying_the_price_of_stop_lo-1.md) [Return to chapter overview](strategy2-1.md) [Next page](monitoring_stop-loss_and_profi-1.md) |
 | --- | --- |
 A common concept many traders use is the idea of a breakout. Points of interest are when the price breaks out from a consolidation range or from previous highs and lows.
  
@@ -26,11 +26,11 @@ A common concept many traders use is the idea of a breakout. Points of interest 
 
  
 ## Import instructions
-1\.Download the file contained in this Help Guide topic to your PC desktop
+1.Download the file contained in this Help Guide topic to your PC desktop
 
-2\.From the Control Center window, select the menu Tools \> Import \> NinjaScript
+2.From the Control Center window, select the menu Tools > Import > NinjaScript
 
-3\.Select the downloaded file
+3.Select the downloaded file
 
  
-[SampleBreakoutStrategy\_NT8\.zip](samples/SampleBreakoutStrategy_NT8.zip)
+[SampleBreakoutStrategy_NT8.zip](samples/SampleBreakoutStrategy_NT8.zip)

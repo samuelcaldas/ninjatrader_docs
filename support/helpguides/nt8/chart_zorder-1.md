@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> Rendering \> ZOrder
+NinjaScript > Language Reference > Common > Charts > Rendering > ZOrder
 
 ZOrder
 
-| \<\< [Click to Display Table of Contents](chart_zorder.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [Rendering](rendering-1.md) \> ZOrder | [Previous page](setzorder-1.md) [Return to chapter overview](rendering-1.md) [Next page](formatpricemarker-1.md) |
+| << [Click to Display Table of Contents](chart_zorder.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) > ZOrder | [Previous page](setzorder-1.md) [Return to chapter overview](rendering-1.md) [Next page](formatpricemarker-1.md) |
 | --- | --- |
 ## Definition
-A unique identifier representing the index in which chart objects are drawn on the chart's Z\-axis (front to back ordering). Objects with a higher ZOrder are drawn first.  
+A unique identifier representing the index in which chart objects are drawn on the chart's Z-axis (front to back ordering). Objects with a higher ZOrder are drawn first.  
  
 
 | Note:  The ZOrder index should NOT be set using this property. Please use the dedicated [SetZOrder()](setzorder-1.md) for this purpose. |
@@ -29,4 +29,4 @@ ZOrder
 
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // call the base.OnRender() to ensure standard Plots work as designed    base.OnRender(chartControl, chartScale);      // Print the currently assigned ZOrder index for this NinjaScript object    Print("Current ZOrder level is: " \+ ZOrder); } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // call the base.OnRender() to ensure standard Plots work as designed    base.OnRender(chartControl, chartScale);      // Print the currently assigned ZOrder index for this NinjaScript object    Print("Current ZOrder level is: " + ZOrder); } |

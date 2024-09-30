@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Bars Type \> AddBar()
+NinjaScript > Language Reference > Bars Type > AddBar()
 AddBar()
-| \<\< [Click to Display Table of Contents](addbar.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Bars Type](bars_type-1.md) \> AddBar() | [Previous page](bars_type-1.md) [Return to chapter overview](bars_type-1.md) [Next page](applydefaultbaseperiodvalue-1.md) |
+| << [Click to Display Table of Contents](addbar.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Bars Type](bars_type-1.md) > AddBar() | [Previous page](bars_type-1.md) [Return to chapter overview](bars_type-1.md) [Next page](applydefaultbaseperiodvalue-1.md) |
 | --- | --- |
 ## Definition
 Adds new data points for the Bars Type.

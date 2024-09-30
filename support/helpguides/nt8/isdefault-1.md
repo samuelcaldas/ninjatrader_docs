@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Share Service \> IsDefault
+NinjaScript > Language Reference > Share Service > IsDefault
 IsDefault
-| \<\< [Click to Display Table of Contents](isdefault.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Share Service](share_service-1.md) \> IsDefault | [Previous page](isconfigured-1.md) [Return to chapter overview](share_service-1.md) [Next page](isimageattachmentsupported-1.md) |
+| << [Click to Display Table of Contents](isdefault.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Share Service](share_service-1.md) > IsDefault | [Previous page](isconfigured-1.md) [Return to chapter overview](share_service-1.md) [Next page](isimageattachmentsupported-1.md) |
 | --- | --- |
 ## Definition
 Sets the default Share Service used when the type of sharing service is selected. 
@@ -21,4 +21,4 @@ Default
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {                         if (State \=\= State.SetDefaults) { Default        \= false; } } |
+| protected override void OnStateChange() {                         if (State == State.SetDefaults) { Default        = false; } } |

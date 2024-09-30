@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.VerticalLine() \> VerticalLine
+NinjaScript > Language Reference > Common > Drawing > Draw.VerticalLine() > VerticalLine
 VerticalLine
 
-| \<\< [Click to Display Table of Contents](verticalline.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.VerticalLine()](draw_verticalline.md) \> VerticalLine | [Previous page](draw_verticalline.md) [Return to chapter overview](draw_verticalline.md) [Next page](brushes.md) |
+| << [Click to Display Table of Contents](verticalline.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.VerticalLine()](draw_verticalline.md) > VerticalLine | [Previous page](draw_verticalline.md) [Return to chapter overview](draw_verticalline.md) [Next page](brushes.md) |
 | --- | --- |
 
 ## Definition
@@ -19,5 +19,5 @@ Represents an interface that exposes information regarding a Vertical Line [IDra
 ## Examples
 | ns |
 | --- |
-| // Instantiate a VerticalLine object VerticalLine myLine \= Draw.VerticalLine(this, "tag1", 10, Brushes.Black);    // Change the object's Stroke myLine.Stroke \= new Stroke(Brushes.BlanchedAlmond, DashStyleHelper.Dot, 5); |
+| // Instantiate a VerticalLine object VerticalLine myLine = Draw.VerticalLine(this, "tag1", 10, Brushes.Black);    // Change the object's Stroke myLine.Stroke = new Stroke(Brushes.BlanchedAlmond, DashStyleHelper.Dot, 5); |
 

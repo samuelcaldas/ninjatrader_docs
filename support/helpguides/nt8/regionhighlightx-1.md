@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.RegionHighlightX() \> RegionHighlightX
+NinjaScript > Language Reference > Common > Drawing > Draw.RegionHighlightX() > RegionHighlightX
 
 RegionHighlightX
 
-| \<\< [Click to Display Table of Contents](regionhighlightx.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.RegionHighlightX()](draw_regionhighlightx-1.md) \> RegionHighlightX | [Previous page](draw_regionhighlightx-1.md) [Return to chapter overview](draw_regionhighlightx-1.md) [Next page](draw_regionhighlighty-1.md) |
+| << [Click to Display Table of Contents](regionhighlightx.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.RegionHighlightX()](draw_regionhighlightx-1.md) > RegionHighlightX | [Previous page](draw_regionhighlightx-1.md) [Return to chapter overview](draw_regionhighlightx-1.md) [Next page](draw_regionhighlighty-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Region Highlight X [IDrawingTool](idrawingtool-1.md).
@@ -22,4 +22,4 @@ Represents an interface that exposes information regarding a Region Highlight X 
 
 | ns |
 | --- |
-| // Instantiate a RegionHighlightX object RegionHighlightX myReg \= Draw.RegionHighlightX(this, "tag1", 10, 0, Brushes.Blue);   // Change the object's opacity myReg.AreaOpacity \= 25; |
+| // Instantiate a RegionHighlightX object RegionHighlightX myReg = Draw.RegionHighlightX(this, "tag1", 10, 0, Brushes.Blue);   // Change the object's opacity myReg.AreaOpacity = 25; |

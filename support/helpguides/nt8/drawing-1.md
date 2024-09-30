@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing
+NinjaScript > Language Reference > Common > Drawing
 
 Drawing
-| \<\< [Click to Display Table of Contents](drawing.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> Drawing | [Previous page](usercontrolcollection-1.md) [Return to chapter overview](common-1.md) [Next page](draw_andrewspitchfork-1.md) |
+| << [Click to Display Table of Contents](drawing.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > Drawing | [Previous page](usercontrolcollection-1.md) [Return to chapter overview](common-1.md) [Next page](draw_andrewspitchfork-1.md) |
 | --- | --- |
 You can use NinjaScript to draw custom shapes, lines, text and colors on price and indicator panels from both [Indicators](indicator-1.md) and [Strategies](strategy-1.md). 
  
@@ -64,5 +64,5 @@ Drawing Methods and Properties
 | [RemoveDrawObjects()](removedrawobjects-1.md) | Removes all draw objects originating from the indicator or strategy from the chart |
 | [SimpleFont Class](simplefont_class-1.md) | Defines a particular font configuration |
 
-| 1\.Custom graphics for custom indicators can be painted on either the price panel or indicator panel. You could for example have a custom indicator displayed in an indicator panel yet have associated custom graphics painted on the price panel. The "[DrawOnPricePanel](drawonpricepanel-1.md)" property is set to true by default, which means that custom graphics will always be painted on the price panel, even if the indicator is plotted in a separate panel. If you want your custom graphics to be plotted on the indicator panel, set this property to false in the OnStateChange() method of your custom indicator. 2\.Set unique tag values for each draw object, unless you intend for new draw objects to replace existing objects with the same tag. A common trick is to incorporate the bar number as part of the unique tag identifier. For example, if you wanted to draw a dot that indicated a buying condition above a bar, you could express it:   Draw.Dot(this, CurrentBar.ToString() \+ "Buy", false, 0, High\[0] \+ TickSize, Brushes.ForestGreen);   3\. Draw methods will not work if they are called from the OnStateChange() method. |
+| 1.Custom graphics for custom indicators can be painted on either the price panel or indicator panel. You could for example have a custom indicator displayed in an indicator panel yet have associated custom graphics painted on the price panel. The "[DrawOnPricePanel](drawonpricepanel-1.md)" property is set to true by default, which means that custom graphics will always be painted on the price panel, even if the indicator is plotted in a separate panel. If you want your custom graphics to be plotted on the indicator panel, set this property to false in the OnStateChange() method of your custom indicator. 2.Set unique tag values for each draw object, unless you intend for new draw objects to replace existing objects with the same tag. A common trick is to incorporate the bar number as part of the unique tag identifier. For example, if you wanted to draw a dot that indicated a buying condition above a bar, you could express it:   Draw.Dot(this, CurrentBar.ToString() + "Buy", false, 0, High[0] + TickSize, Brushes.ForestGreen);   3. Draw methods will not work if they are called from the OnStateChange() method. |
 | --- |

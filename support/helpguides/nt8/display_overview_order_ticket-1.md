@@ -1,16 +1,16 @@
 ﻿
-Operations \> Order Entry \> Order Ticket \> Display Overview
+Operations > Order Entry > Order Ticket > Display Overview
 
 Display Overview
 
-| \<\< [Click to Display Table of Contents](display_overview_order_ticket.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> [Order Ticket](order_ticket-1.md) \> Display Overview | [Previous page](order_ticket-1.md) [Return to chapter overview](order_ticket-1.md) [Next page](submitting_orders_order_ticket-1.md) |
+| << [Click to Display Table of Contents](display_overview_order_ticket.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [Order Ticket](order_ticket-1.md) > Display Overview | [Previous page](order_ticket-1.md) [Return to chapter overview](order_ticket-1.md) [Next page](submitting_orders_order_ticket-1.md) |
 | --- | --- |
 To open the Order Ticket Window, select the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item Order Ticket.
  
 The image below shows the two sections in the of the Order Ticket window:
  
-1\. Market Display
-2\. Order Entry
+1. Market Display
+2. Order Entry
  
 ![OrderTicket_3](orderticket_3.png)
  
@@ -20,7 +20,7 @@ The image below shows the two sections in the of the Order Ticket window:
 ## 
 ![tog_minus](tog_minus-1.gif)        [Understanding the market display section](javascript:HMToggle('toggle','UnderstandingTheMarketDisplaySection','UnderstandingTheMarketDisplaySection_ICON'))
 
-| Market Display The Order Ticket will display current market data information for the selected instrument.   Market Display Definitions 1\.Instrument Description2\.Last Price3\.Current day net change4\.Best ask price and ask size5\.Best bid price and bid size6\.Current day high, low, and open  OrderTicket_1 |
+| Market Display The Order Ticket will display current market data information for the selected instrument.   Market Display Definitions 1.Instrument Description2.Last Price3.Current day net change4.Best ask price and ask size5.Best bid price and bid size6.Current day high, low, and open  OrderTicket_1 |
 | --- |
 ![tog_minus](tog_minus-1.gif)        [Understanding the order control section](javascript:HMToggle('toggle','UnderstandingTheOrderControlSection','UnderstandingTheOrderControlSection_ICON'))
 

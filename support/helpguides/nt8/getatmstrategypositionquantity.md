@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> ATM Strategy Methods \> GetAtmStrategyPositionQuantity()
+NinjaScript > Language Reference > Strategy > ATM Strategy Methods > GetAtmStrategyPositionQuantity()
 
 GetAtmStrategyPositionQuantity()
-| \<\< [Click to Display Table of Contents](getatmstrategypositionquantity.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [ATM Strategy Methods](atm_strategy_methods.md) \> GetAtmStrategyPositionQuantity() | [Previous page](getatmstrategypositionaveragep.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](getatmstrategyrealizedprofitlo.md) |
+| << [Click to Display Table of Contents](getatmstrategypositionquantity.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) > GetAtmStrategyPositionQuantity() | [Previous page](getatmstrategypositionaveragep.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](getatmstrategyrealizedprofitlo.md) |
 | --- | --- |
 ## Definition
 Gets the current position quantity of the specified ATM Strategy.
@@ -27,4 +27,4 @@ GetAtmStrategyPositionQuantity(string atmStrategyId)
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      // Check if flat      if (GetAtmStrategyMarketPosition("idValue") !\= MarketPosition.Flat)          Print("Position size is " \+ GetAtmStrategyPositionQuantity("id").ToString()); } |
+| protected override void OnBarUpdate() {      // Check if flat      if (GetAtmStrategyMarketPosition("idValue") != MarketPosition.Flat)          Print("Position size is " + GetAtmStrategyPositionQuantity("id").ToString()); } |

@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Description
+NinjaScript > Language Reference > Common > Description
 Description
-| \<\< [Click to Display Table of Contents](description.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> Description | [Previous page](clone.md) [Return to chapter overview](common.md) [Next page](indicator_displayname.md) |
+| << [Click to Display Table of Contents](description.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > Description | [Previous page](clone.md) [Return to chapter overview](common.md) [Next page](indicator_displayname.md) |
 | --- | --- |
 ## Definition
 Text which is used on the UI's information box to be displayed to a user when configuration a NinjaScript object.
@@ -18,5 +18,5 @@ Description
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {          if (State \=\= State.SetDefaults)    {      Name \= "Examples Indicator";         Description \= @"An indicator used to demonstrate various NinjaScript methods and properties";    } } |
+| protected override void OnStateChange() {          if (State == State.SetDefaults)    {      Name = "Examples Indicator";         Description = @"An indicator used to demonstrate various NinjaScript methods and properties";    } } |
 

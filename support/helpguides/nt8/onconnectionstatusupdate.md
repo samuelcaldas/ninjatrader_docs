@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnConnectionStatusUpdate()
+NinjaScript > Language Reference > Common > OnConnectionStatusUpdate()
 
 OnConnectionStatusUpdate()
 
-| \<\< [Click to Display Table of Contents](onconnectionstatusupdate.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> OnConnectionStatusUpdate() | [Previous page](update.md) [Return to chapter overview](common.md) [Next page](connectionstatuseventargs.md) |
+| << [Click to Display Table of Contents](onconnectionstatusupdate.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > OnConnectionStatusUpdate() | [Previous page](update.md) [Return to chapter overview](common.md) [Next page](connectionstatuseventargs.md) |
 | --- | --- |
 ## Definition
 An event driven method used which is called for every change in connection status.
@@ -34,4 +34,4 @@ protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs conne
 
 | ns |
 | --- |
-| //Prints the status of the order system protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs connectionStatusUpdate) {    if(connectionStatusUpdate.Status \=\= ConnectionStatus.Connected)    {      Print("Connected for orders at " \+ DateTime.Now);    }        else if(connectionStatusUpdate.Status \=\= ConnectionStatus.ConnectionLost)    {      Print("Connection for orders lost at: " \+ DateTime.Now);    } }   //Prints the status of the price feed protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs connectionStatusUpdate) {    if(connectionStatusUpdate.PriceStatus \=\= ConnectionStatus.Connected)    {      Print("Connected to price feed at " \+ DateTime.Now);    }        else if(connectionStatusUpdate.PriceStatus \=\= ConnectionStatus.ConnectionLost)    {      Print("Connection to price feed lost at: " \+ DateTime.Now);    } } |
+| //Prints the status of the order system protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs connectionStatusUpdate) {    if(connectionStatusUpdate.Status == ConnectionStatus.Connected)    {      Print("Connected for orders at " + DateTime.Now);    }        else if(connectionStatusUpdate.Status == ConnectionStatus.ConnectionLost)    {      Print("Connection for orders lost at: " + DateTime.Now);    } }   //Prints the status of the price feed protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs connectionStatusUpdate) {    if(connectionStatusUpdate.PriceStatus == ConnectionStatus.Connected)    {      Print("Connected to price feed at " + DateTime.Now);    }        else if(connectionStatusUpdate.PriceStatus == ConnectionStatus.ConnectionLost)    {      Print("Connection to price feed lost at: " + DateTime.Now);    } } |

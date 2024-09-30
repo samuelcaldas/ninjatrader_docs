@@ -1,18 +1,18 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartScale \> IsVisible
+NinjaScript > Language Reference > Common > Charts > ChartScale > IsVisible
 IsVisible
 
-| \<\< [Click to Display Table of Contents](chartscale_isvisible.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartScale](chartscale-1.md) \> IsVisible | [Previous page](height-1.md) [Return to chapter overview](chartscale-1.md) [Next page](maxminusmin-1.md) |
+| << [Click to Display Table of Contents](chartscale_isvisible.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartScale](chartscale-1.md) > IsVisible | [Previous page](height-1.md) [Return to chapter overview](chartscale-1.md) [Next page](maxminusmin-1.md) |
 | --- | --- |
 
 ## Definition
 Indicates if the chart scale is viewable on the UI.  If the bar series, indicator, or strategy which uses the chart scale is not in view, the chart scale IsVisible property will return false.
 ## 
 ## Property Value
-A bool value, which when true the series used to build the scale is viewable; otherwise false.  This property is read\-only.
+A bool value, which when true the series used to build the scale is viewable; otherwise false.  This property is read-only.
 ## 
 ## Syntax
-\<chartScale\>.IsVisible
+<chartScale>.IsVisible
 ## 
 ## Examples
 | ns |

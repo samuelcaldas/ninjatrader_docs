@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnBarUpdate() \> IsDataSeriesRequired
+NinjaScript > Language Reference > Common > OnBarUpdate() > IsDataSeriesRequired
 
 IsDataSeriesRequired
-| \<\< [Click to Display Table of Contents](isdataseriesrequired.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [OnBarUpdate()](onbarupdate.md) \> IsDataSeriesRequired | [Previous page](currentbar.md) [Return to chapter overview](onbarupdate.md) [Next page](isfirsttickofbar.md) |
+| << [Click to Display Table of Contents](isdataseriesrequired.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnBarUpdate()](onbarupdate.md) > IsDataSeriesRequired | [Previous page](currentbar.md) [Return to chapter overview](onbarupdate.md) [Next page](isfirsttickofbar.md) |
 | --- | --- |
 ## Definition
 Determines if a Data Series is required for calculating this NinjaScript object.  When set to false, data series related properties will not be displayed on the UI when configuring. 
@@ -23,4 +23,4 @@ IsDataSeriesRequired
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {          IsDataSeriesRequired \= false;      } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {          IsDataSeriesRequired = false;      } } |

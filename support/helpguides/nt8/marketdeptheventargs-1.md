@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> OnMarketDepth() \> MarketDepthEventArgs
+NinjaScript > Language Reference > Common > OnMarketDepth() > MarketDepthEventArgs
 
 MarketDepthEventArgs
 
-| \<\< [Click to Display Table of Contents](marketdeptheventargs.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [OnMarketDepth()](onmarketdepth-1.md) \> MarketDepthEventArgs | [Previous page](onmarketdepth-1.md) [Return to chapter overview](onmarketdepth-1.md) [Next page](onstatechange-1.md) |
+| << [Click to Display Table of Contents](marketdeptheventargs.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [OnMarketDepth()](onmarketdepth-1.md) > MarketDepthEventArgs | [Previous page](onmarketdepth-1.md) [Return to chapter overview](onmarketdepth-1.md) [Next page](onstatechange-1.md) |
 | --- | --- |
 ## Definition
 Represents a change in level two market data also known as market depth and is passed as a parameter in the OnMarketDepth() method.   
@@ -27,7 +27,7 @@ Represents a change in level two market data also known as market depth and is p
 
 | ns |
 | --- |
-| protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate) {      // Print some data to the Output window      if (marketDepthUpdate.MarketDataType \=\= MarketDataType.Ask \&\& marketDepthUpdate.Operation \=\= Operation.Update)          Print("The most recent ask change is " \+ marketDepthUpdate.Price \+ " " \+ marketDepthUpdate.Volume); } |
+| protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate) {      // Print some data to the Output window      if (marketDepthUpdate.MarketDataType == MarketDataType.Ask && marketDepthUpdate.Operation == Operation.Update)          Print("The most recent ask change is " + marketDepthUpdate.Price + " " + marketDepthUpdate.Volume); } |
 
 | Tip: For an example of how to use IsReset please see \\MarketAnalyzerColumns\\AskPrice.cs |
 | --- |

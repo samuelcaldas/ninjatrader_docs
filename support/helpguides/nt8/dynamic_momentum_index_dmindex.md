@@ -1,26 +1,26 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Dynamic Momentum Index (DMIndex)
+NinjaScript > Language Reference > Common > System Indicator Methods > Dynamic Momentum Index (DMIndex)
 Dynamic Momentum Index (DMIndex)
-| \<\< [Click to Display Table of Contents](dynamic_momentum_index_dmindex.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [System Indicator Methods](indicators.md) \> Dynamic Momentum Index (DMIndex) | [Previous page](double_stochastics.md) [Return to chapter overview](indicators.md) [Next page](ease_of_movement.md) |
+| << [Click to Display Table of Contents](dynamic_momentum_index_dmindex.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) > Dynamic Momentum Index (DMIndex) | [Previous page](double_stochastics.md) [Return to chapter overview](indicators.md) [Next page](ease_of_movement.md) |
 | --- | --- |
 ## Description
-An indicator used in technical analysis that determines overbought and oversold conditions of a particular asset. This indicator is very similar to the relative strength index (RSI). The main difference between the two is that the RSI uses a fixed number of time periods (usually 14\), while the dynamic momentum index uses different time periods as volatility changes.
+An indicator used in technical analysis that determines overbought and oversold conditions of a particular asset. This indicator is very similar to the relative strength index (RSI). The main difference between the two is that the RSI uses a fixed number of time periods (usually 14), while the dynamic momentum index uses different time periods as volatility changes.
  
 ... Courtesy of [Investopedia](http://www.investopedia.com/terms/d/dynamicmomentumindex.asp)
 
 ## Syntax
 DMIndex(int smooth)  
 
-DMIndex(ISeries\<double\> input, int smooth)
+DMIndex(ISeries<double> input, int smooth)
  
 Returns default value  
 
-DMIndex(int period)\[int barsAgo]  
+DMIndex(int period)[int barsAgo]  
 
-DMIndex(ISeries\<double\> input, int smooth)\[int barsAgo]
+DMIndex(ISeries<double> input, int smooth)[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
@@ -31,8 +31,8 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 ## Example
 | ns |
 | --- |
-| // Prints the current value of DMIndex using default price type double value \= DMIndex(3)\[0]; Print("The current DMIndex value is " \+ value.ToString()); |
+| // Prints the current value of DMIndex using default price type double value = DMIndex(3)[0]; Print("The current DMIndex value is " + value.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.
 

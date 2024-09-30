@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Attributes \> XmlIgnoreAttribute
+NinjaScript > Language Reference > Common > Attributes > XmlIgnoreAttribute
 XmlIgnoreAttribute
 
-| \<\< [Click to Display Table of Contents](xmlignoreattribute.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Attributes](attributes.md) \> XmlIgnoreAttribute | [Previous page](typeconverterattribute.md) [Return to chapter overview](attributes.md) [Next page](bars.md) |
+| << [Click to Display Table of Contents](xmlignoreattribute.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Attributes](attributes.md) > XmlIgnoreAttribute | [Previous page](typeconverterattribute.md) [Return to chapter overview](attributes.md) [Next page](bars.md) |
 | --- | --- |
 
 ## Definition
@@ -12,9 +12,9 @@ Determines if the following declared property participates in the XML serializat
 | --- |
 
 ## Syntax
-\[XmlIgnore]  
+[XmlIgnore]  
 
-\[XmlIgnore(bool)]
+[XmlIgnore(bool)]
 ## 
 ## Parameters
 This attribute does not require any parameters; default value is true and usage will ensure the property is ignored by XML routines.
@@ -22,7 +22,7 @@ This attribute does not require any parameters; default value is true and usage 
 ## Examples
 | ns |
 | --- |
-| \#region Properties   \[XmlIgnore] // ensures that the property will NOT be saved/recovered as part of a chart template or workspace public Brush MyBrush   { get; set; }   \#endregion |
+| #region Properties   [XmlIgnore] // ensures that the property will NOT be saved/recovered as part of a chart template or workspace public Brush MyBrush   { get; set; }   #endregion |
 
 | Tip:  A complete example of the usage of XmlIgnore attribute and workspace serialization can be found in the tips section of our support forum on [User Definable Color Inputs](user_definable_color_inputs.md) |
 | --- |

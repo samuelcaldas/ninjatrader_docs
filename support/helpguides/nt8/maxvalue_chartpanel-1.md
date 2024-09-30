@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartPanel \> MaxValue
+NinjaScript > Language Reference > Common > Charts > ChartPanel > MaxValue
 
 MaxValue
 
-| \<\< [Click to Display Table of Contents](maxvalue_chartpanel.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartPanel](chartpanel-1.md) \> MaxValue | [Previous page](isyaxisdisplayedright_chartpanel-1.md) [Return to chapter overview](chartpanel-1.md) [Next page](minvalue_chartpanel-1.md) |
+| << [Click to Display Table of Contents](maxvalue_chartpanel.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartPanel](chartpanel-1.md) > MaxValue | [Previous page](isyaxisdisplayedright_chartpanel-1.md) [Return to chapter overview](chartpanel-1.md) [Next page](minvalue_chartpanel-1.md) |
 | --- | --- |
 ## Definition
-Indicates the maximum Y value of objects within the chart panel, based on the current y\-axis scale. The scale of the y\-axis is dependent upon the values of objects in the panel which have Auto Scale enabled.
+Indicates the maximum Y value of objects within the chart panel, based on the current y-axis scale. The scale of the y-axis is dependent upon the values of objects in the panel which have Auto Scale enabled.
 ## 
 ## Property Value
 A double representing the maximum Y value in the panel's vertical scale

@@ -1,7 +1,7 @@
 ﻿
-Operations \> Automated Trading \> Automated Trading Interface (ATI) \> Initialization
+Operations > Automated Trading > Automated Trading Interface (ATI) > Initialization
 Initialization
-| \<\< [Click to Display Table of Contents](initialization.md) \>\> **Navigation:**     [Operations](operations.md) \> [Automated Trading](automated_trading.md) \> [Automated Trading Interface (ATI)](automated_trading_interface_at.md) \> Initialization | [Previous page](commands_and_valid_parameters.md) [Return to chapter overview](automated_trading_interface_at.md) [Next page](file_interface.md) |
+| << [Click to Display Table of Contents](initialization.md) >> **Navigation:**     [Operations](operations.md) > [Automated Trading](automated_trading.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at.md) > Initialization | [Previous page](commands_and_valid_parameters.md) [Return to chapter overview](automated_trading_interface_at.md) [Next page](file_interface.md) |
 | --- | --- |
 If using the DLL based interface, it is important to understand how the ATI is initialized with respect to referencing account names. The ATI is initialized to the first account name used in the first calling function.
  
@@ -9,7 +9,7 @@ Some functions accept an account name as a parameter. In most if not all functio
  
 ## Example:
  
-- Default account \= Sim101
+- Default account = Sim101
 
 - A function call is made with "" empty string as the account name argument 
 

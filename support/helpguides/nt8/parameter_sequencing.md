@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Educational Resources \> Tips \> Parameter sequencing
+NinjaScript > Educational Resources > Tips > Parameter sequencing
 
 Parameter sequencing
 
-| \<\< [Click to Display Table of Contents](parameter_sequencing.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Educational Resources](educational_resources.md) \> [Tips](tips.md) \> Parameter sequencing | [Previous page](order_types.md) [Return to chapter overview](tips.md) [Next page](referencing_the_correct_bar.md) |
+| << [Click to Display Table of Contents](parameter_sequencing.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Tips](tips.md) > Parameter sequencing | [Previous page](order_types.md) [Return to chapter overview](tips.md) [Next page](referencing_the_correct_bar.md) |
 | --- | --- |
 Indicator and strategy parameters (user defined inputs) will always be displayed in an order that the user specifies in the NinjaScript file.
  
@@ -11,7 +11,7 @@ In the NinjaScript Editor, expand the "Properties" region of your code where all
 
 | ns |
 | --- |
-| \[Range(1, int.MaxValue), NinjaScriptProperty] \[Display(ResourceType \= typeof(Custom.Resource), Name \= "Fast", GroupName \= "NinjaScriptStrategyParameters", Order \= 0)] public int Fast { get; set; } \[Range(1, int.MaxValue), NinjaScriptProperty] \[Display(ResourceType \= typeof(Custom.Resource), Name \= "Slow", GroupName \= "NinjaScriptStrategyParameters", Order \= 1)] public int Slow { get; set; } |
+| [Range(1, int.MaxValue), NinjaScriptProperty] [Display(ResourceType = typeof(Custom.Resource), Name = "Fast", GroupName = "NinjaScriptStrategyParameters", Order = 0)] public int Fast { get; set; } [Range(1, int.MaxValue), NinjaScriptProperty] [Display(ResourceType = typeof(Custom.Resource), Name = "Slow", GroupName = "NinjaScriptStrategyParameters", Order = 1)] public int Slow { get; set; } |
  
 In this case, the Fast parameter will show up as the first parameter with the Slow parameter showing as the second.
  
@@ -19,6 +19,6 @@ To switch the order around, we could modify Order. If we change Slow's Order to 
 
 | ns |
 | --- |
-| \[Range(1, int.MaxValue), NinjaScriptProperty] \[Display(ResourceType \= typeof(Custom.Resource), Name \= "Fast", GroupName \= "NinjaScriptStrategyParameters", Order \= 1)] public int Fast { get; set; } \[Range(1, int.MaxValue), NinjaScriptProperty] \[Display(ResourceType \= typeof(Custom.Resource), Name \= "Slow", GroupName \= "NinjaScriptStrategyParameters", Order \= 0)] public int Slow { get; set; } |
+| [Range(1, int.MaxValue), NinjaScriptProperty] [Display(ResourceType = typeof(Custom.Resource), Name = "Fast", GroupName = "NinjaScriptStrategyParameters", Order = 1)] public int Fast { get; set; } [Range(1, int.MaxValue), NinjaScriptProperty] [Display(ResourceType = typeof(Custom.Resource), Name = "Slow", GroupName = "NinjaScriptStrategyParameters", Order = 0)] public int Slow { get; set; } |
  
 ... the Slow property will show first and the Fast property second.

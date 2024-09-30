@@ -1,10 +1,10 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartScale
+NinjaScript > Language Reference > Common > Charts > ChartScale
 
 ChartScale
-| \<\< [Click to Display Table of Contents](chartscale.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> ChartScale | [Previous page](y_coordinate_chartpanel.md) [Return to chapter overview](chart.md) [Next page](getpixelsfordistance.md) |
+| << [Click to Display Table of Contents](chartscale.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > ChartScale | [Previous page](y_coordinate_chartpanel.md) [Return to chapter overview](chart.md) [Next page](getpixelsfordistance.md) |
 | --- | --- |
-The ChartScale class includes a range of properties related to the Y\-Axis values of the [ChartPanel](chartpanel.md) on which the calling script resides.  The ChartScale can be configured to Right, Left, or Overlay.
+The ChartScale class includes a range of properties related to the Y-Axis values of the [ChartPanel](chartpanel.md) on which the calling script resides.  The ChartScale can be configured to Right, Left, or Overlay.
  
 ![ChartScale_1](chartscale_1.png)
  
@@ -13,7 +13,7 @@ The ChartScale class includes a range of properties related to the Y\-Axis value
 | --- | --- |
 | [GetValueByY()](getvaluebyy.md) | Returns the series value on the chart scale determined by a y pixel coordinate on the chart |
 | [GetValueByYWpf()](getvaluebyywpf.md) | Returns the series value on the chart scale determined by a WPF coordinate on the chart |
-| [GetYByValue()](getybyvalue.md) | Returns the chart's y\-pixel coordinate on the chart determined by a series value represented on the chart scale |
+| [GetYByValue()](getybyvalue.md) | Returns the chart's y-pixel coordinate on the chart determined by a series value represented on the chart scale |
 | [GetYByValueWpf()](getybyvaluewpf.md) | Returns a WPF coordinate on the chart determined by a series value represented on the chart scale |
 | [Height](height.md) | Indicates the overall distance (from top to bottom) of the chart scale in device pixels |
 | [IsVisible](chartscale_isvisible.md) | Indicates if the chart scale is viewable on the UI |

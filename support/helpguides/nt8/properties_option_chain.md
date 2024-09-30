@@ -1,9 +1,9 @@
 ﻿
-Operations \> Option Chain \> Properties
+Operations > Option Chain > Properties
 
 Properties
 
-| \<\< [Click to Display Table of Contents](properties_option_chain.md) \>\> **Navigation:**     [Operations](operations.md) \> [Option Chain](option-chain.md) \> Properties | [Previous page](submitting_orders_option_chain.md) [Return to chapter overview](option-chain.md) [Next page](order_entry.md) |
+| << [Click to Display Table of Contents](properties_option_chain.md) >> **Navigation:**     [Operations](operations.md) > [Option Chain](option-chain.md) > Properties | [Previous page](submitting_orders_option_chain.md) [Return to chapter overview](option-chain.md) [Next page](order_entry.md) |
 | --- | --- |
 The Options Chain window is highly efficient by design but can also be customized to your preferences through the Options Chain Properties menu.
 ![tog_minus](tog_minus.gif)
@@ -20,6 +20,6 @@ The Options Chain window is highly efficient by design but can also be customize
 | --- |
 ![tog_minus](tog_minus.gif)        [Using Tab Name Variables](javascript:HMToggle('toggle','UsingTabNameVariables','UsingTabNameVariables_ICON'))
 
-| Tab Name Variables A number of pre\-defined variables can be used in the "Tab Name" field of the Option Chain Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Option Chain Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |
 | --- |
 

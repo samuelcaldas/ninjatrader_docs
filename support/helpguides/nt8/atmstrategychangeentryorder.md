@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> ATM Strategy Methods \> AtmStrategyChangeEntryOrder()
+NinjaScript > Language Reference > Strategy > ATM Strategy Methods > AtmStrategyChangeEntryOrder()
 AtmStrategyChangeEntryOrder()
-| \<\< [Click to Display Table of Contents](atmstrategychangeentryorder.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [ATM Strategy Methods](atm_strategy_methods.md) \> AtmStrategyChangeEntryOrder() | [Previous page](atmstrategycancelentryorder.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](atmstrategychangestoptarget.md) |
+| << [Click to Display Table of Contents](atmstrategychangeentryorder.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) > AtmStrategyChangeEntryOrder() | [Previous page](atmstrategycancelentryorder.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](atmstrategychangestoptarget.md) |
 | --- | --- |
 ## Definition
 Changes the price of the specified entry order.

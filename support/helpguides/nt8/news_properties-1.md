@@ -1,8 +1,8 @@
 ﻿
-Operations \> News \> News Properties
+Operations > News > News Properties
 News Properties
 
-| \<\< [Click to Display Table of Contents](news_properties.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [News](news-1.md) \> News Properties | [Previous page](news_window-1.md) [Return to chapter overview](news-1.md) [Next page](option-chain-1.md) |
+| << [Click to Display Table of Contents](news_properties.md) >> **Navigation:**     [Operations](operations-1.md) > [News](news-1.md) > News Properties | [Previous page](news_window-1.md) [Return to chapter overview](news-1.md) [Next page](option-chain-1.md) |
 | --- | --- |
 The News window can be customized through the News Properties window.
  

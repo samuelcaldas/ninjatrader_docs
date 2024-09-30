@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartControl \> GetTimeBySlotIndex()
+NinjaScript > Language Reference > Common > Charts > ChartControl > GetTimeBySlotIndex()
 
 GetTimeBySlotIndex()
 
-| \<\< [Click to Display Table of Contents](gettimebyslotindex.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> [ChartControl](chartcontrol.md) \> GetTimeBySlotIndex() | [Previous page](getslotindexbyx.md) [Return to chapter overview](chartcontrol.md) [Next page](gettimebyx.md) |
+| << [Click to Display Table of Contents](gettimebyslotindex.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) > GetTimeBySlotIndex() | [Previous page](getslotindexbyx.md) [Return to chapter overview](chartcontrol.md) [Next page](gettimebyx.md) |
 | --- | --- |
 ## Definition
 Returns a time value relative to the chart control corresponding to a specified slot index.
@@ -16,7 +16,7 @@ Returns a time value relative to the chart control corresponding to a specified 
 A DateTime object corresponding the a specified slot index; returns DateTime value for 'now' on a time based bar spacing type
 ## 
 ## Syntax
-\<ChartControl\>.GetTimeBySlotIndex(double slotIndex)
+<ChartControl>.GetTimeBySlotIndex(double slotIndex)
 ## 
 ## Method Parameters
 
@@ -28,4 +28,4 @@ A DateTime object corresponding the a specified slot index; returns DateTime val
 
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // Find the timestamp of the bar at index 150    DateTime slotTime \= chartControl.GetTimeBySlotIndex(150);      // Print the date of slotTime    Print(slotTime.Date); } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // Find the timestamp of the bar at index 150    DateTime slotTime = chartControl.GetTimeBySlotIndex(150);      // Print the date of slotTime    Print(slotTime.Date); } |

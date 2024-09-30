@@ -1,8 +1,8 @@
 ﻿
-Operations \> Charts \> Wiseman
+Operations > Charts > Wiseman
 Wiseman
 
-| \<\< [Click to Display Table of Contents](wiseman.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Charts](charts-1.md) \> Wiseman | [Previous page](cot-1.md) [Return to chapter overview](charts-1.md) [Next page](understanding_commissions-1.md) |
+| << [Click to Display Table of Contents](wiseman.md) >> **Navigation:**     [Operations](operations-1.md) > [Charts](charts-1.md) > Wiseman | [Previous page](cot-1.md) [Return to chapter overview](charts-1.md) [Next page](understanding_commissions-1.md) |
 | --- | --- |
 The Wiseman indicators group are provided by Profitunity and were developed by Bill M. Williams. Profitunity is an educational partner and offers courses on using the Wiseman indicators on their website [www.profitunity.com](http://www.profitunity.com)
 ![tog_plus](tog_plus.gif)        [Wiseman Alligator](javascript:HMToggle('toggle','WisemanAlligator','WisemanAlligator_ICON'))

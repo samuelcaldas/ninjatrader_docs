@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> BuySell Pressure
+NinjaScript > Language Reference > Common > System Indicator Methods > BuySell Pressure
 
 BuySell Pressure
 
-| \<\< [Click to Display Table of Contents](buysellpressure.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [System Indicator Methods](indicators-1.md) \> BuySell Pressure | [Previous page](bollinger_bands-1.md) [Return to chapter overview](indicators-1.md) [Next page](buysellvolume-1.md) |
+| << [Click to Display Table of Contents](buysellpressure.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) > BuySell Pressure | [Previous page](bollinger_bands-1.md) [Return to chapter overview](indicators-1.md) [Next page](buysellvolume-1.md) |
 | --- | --- |
 ## Description
-The BuySellPressure indicator displays both the current bar's buying and selling pressure as percentage values based on the categorization of trades as buy or sell trades. Trades are categorized in real\-time as a buy (at the ask or above) or as a sell (at the bid or below).... Trades in between the market are ignored. 
+The BuySellPressure indicator displays both the current bar's buying and selling pressure as percentage values based on the categorization of trades as buy or sell trades. Trades are categorized in real-time as a buy (at the ask or above) or as a sell (at the bid or below).... Trades in between the market are ignored. 
  
 
 | Note:  For historical calculations, [Tick Replay](tick_replay-1.md) must be enabled |
@@ -15,22 +15,22 @@ The BuySellPressure indicator displays both the current bar's buying and selling
 ## Syntax
 BuySellPressure()  
 
-BuySellPressure(ISeries\<double\> input)
+BuySellPressure(ISeries<double> input)
  
 Returns buy pressure value  
 
-BuySellPressure().BuyPressure\[int barsAgo]  
+BuySellPressure().BuyPressure[int barsAgo]  
 
-BuySellPressure(ISeries\<double\> input).BuyPressure\[int barsAgo]
+BuySellPressure(ISeries<double> input).BuyPressure[int barsAgo]
  
 Returns sell pressure value  
 
-BuySellPressure().SellPressure\[int barsAgo]  
+BuySellPressure().SellPressure[int barsAgo]  
 
-BuySellPressure(ISeries\<double\> input).SellPressure\[int barsAgo]
+BuySellPressure(ISeries<double> input).SellPressure[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 
@@ -42,11 +42,11 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {        // Indicators will inherit the Calculate mode from the hosting script.        // Since BuySellPressure requires the use of Calculate.OnEachTick, we must ensure the hosting script has this Calculate mode set        Calculate \= Calculate.OnEachTick;    } }   protected override void OnBarUpdate() {    // This checks that 70% or more of the volume hit the ask or higher    if (State \=\= State.Historical \|\| BuySellPressure().BuyPressure\[0] \> 70)    {        EnterLong();    } } |
+| protected override void OnStateChange() {    if (State == State.SetDefaults)    {        // Indicators will inherit the Calculate mode from the hosting script.        // Since BuySellPressure requires the use of Calculate.OnEachTick, we must ensure the hosting script has this Calculate mode set        Calculate = Calculate.OnEachTick;    } }   protected override void OnBarUpdate() {    // This checks that 70% or more of the volume hit the ask or higher    if (State == State.Historical || BuySellPressure().BuyPressure[0] > 70)    {        EnterLong();    } } |
  
 
-| Tip: Since this indicator operates in a real\-time environment, remember to check for State.Realtime, or enable Tick Replay on the associated Data Series. In the above example we check that 50% or more of the volume hit the ask or higher. Our statement checks if the data is being calculated on historical data first, if true, we enter long, if not true (live), the the statement then checks for the Buy Volume condition. |
+| Tip: Since this indicator operates in a real-time environment, remember to check for State.Realtime, or enable Tick Replay on the associated Data Series. In the above example we check that 50% or more of the volume hit the ask or higher. Our statement checks if the data is being calculated on historical data first, if true, we enter long, if not true (live), the the statement then checks for the Buy Volume condition. |
 | --- |
  
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

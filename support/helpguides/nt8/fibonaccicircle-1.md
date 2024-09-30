@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.FibonacciCircle() \> FibonacciCircle
+NinjaScript > Language Reference > Common > Drawing > Draw.FibonacciCircle() > FibonacciCircle
 FibonacciCircle
-| \<\< [Click to Display Table of Contents](fibonaccicircle.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> [Draw.FibonacciCircle()](draw_fibonaccicircle-1.md) \> FibonacciCircle | [Previous page](draw_fibonaccicircle-1.md) [Return to chapter overview](draw_fibonaccicircle-1.md) [Next page](draw_fibonacciextensions-1.md) |
+| << [Click to Display Table of Contents](fibonaccicircle.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.FibonacciCircle()](draw_fibonaccicircle-1.md) > FibonacciCircle | [Previous page](draw_fibonaccicircle-1.md) [Return to chapter overview](draw_fibonaccicircle-1.md) [Next page](draw_fibonacciextensions-1.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Fibonacci Circle [IDrawingTool](idrawingtool-1.md).
@@ -18,5 +18,5 @@ Represents an interface that exposes information regarding a Fibonacci Circle [I
 ## Example
 | ns |
 | --- |
-| // Instantiate a Fibonacci circle FibonacciCircle myFibCirc \= Draw.FibonacciCircle(this, "tag1", true, 10, Low\[10], 0, High\[0]);   // Ensure that text is being displayed on the Drawing Object myFibCirc.IsTextDisplayed \= true; |
+| // Instantiate a Fibonacci circle FibonacciCircle myFibCirc = Draw.FibonacciCircle(this, "tag1", true, 10, Low[10], 0, High[0]);   // Ensure that text is being displayed on the Drawing Object myFibCirc.IsTextDisplayed = true; |
 

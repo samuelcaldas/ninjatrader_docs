@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.GannFan() \> GannFan
+NinjaScript > Language Reference > Common > Drawing > Draw.GannFan() > GannFan
 GannFan
-| \<\< [Click to Display Table of Contents](gannfan.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.GannFan()](draw_gannfan.md) \> GannFan | [Previous page](draw_gannfan.md) [Return to chapter overview](draw_gannfan.md) [Next page](draw_horizontalline.md) |
+| << [Click to Display Table of Contents](gannfan.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.GannFan()](draw_gannfan.md) > GannFan | [Previous page](draw_gannfan.md) [Return to chapter overview](draw_gannfan.md) [Next page](draw_horizontalline.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Gann Fan [IDrawingTool.](idrawingtool.md)
@@ -18,5 +18,5 @@ Represents an interface that exposes information regarding a Gann Fan [IDrawingT
 ## Example
 | ns |
 | --- |
-| // Instantiate a GannFan object GannFan myFan \= Draw.GannFan(this, "tag1", true, 0, Low\[0]);   // Instantiate a new PriceLevel to be used in the step below PriceLevel myLevel \= new PriceLevel(99, Brushes.Black);   // Change the object's price level at index 3 myFan.PriceLevels\[3] \= myLevel; |
+| // Instantiate a GannFan object GannFan myFan = Draw.GannFan(this, "tag1", true, 0, Low[0]);   // Instantiate a new PriceLevel to be used in the step below PriceLevel myLevel = new PriceLevel(99, Brushes.Black);   // Change the object's price level at index 3 myFan.PriceLevels[3] = myLevel; |
 

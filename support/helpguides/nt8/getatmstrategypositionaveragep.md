@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> ATM Strategy Methods \> GetAtmStrategyPositionAveragePrice()
+NinjaScript > Language Reference > Strategy > ATM Strategy Methods > GetAtmStrategyPositionAveragePrice()
 
 GetAtmStrategyPositionAveragePrice()
-| \<\< [Click to Display Table of Contents](getatmstrategypositionaveragep.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [ATM Strategy Methods](atm_strategy_methods.md) \> GetAtmStrategyPositionAveragePrice() | [Previous page](getatmstrategymarketposition.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](getatmstrategypositionquantity.md) |
+| << [Click to Display Table of Contents](getatmstrategypositionaveragep.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) > GetAtmStrategyPositionAveragePrice() | [Previous page](getatmstrategymarketposition.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](getatmstrategypositionquantity.md) |
 | --- | --- |
 ## Definition
 Gets the current position's average price of the specified ATM Strategy.
@@ -27,4 +27,4 @@ GetAtmStrategyPositionAveragePrice(string atmStrategyId)
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      // Check if flat      if (GetAtmStrategyMarketPosition("id") !\= MarketPosition.Flat)           Print("Average price is " \+ GetAtmStrategyPositionAveragePrice("id").ToString());  } |
+| protected override void OnBarUpdate() {      // Check if flat      if (GetAtmStrategyMarketPosition("id") != MarketPosition.Flat)           Print("Average price is " + GetAtmStrategyPositionAveragePrice("id").ToString());  } |

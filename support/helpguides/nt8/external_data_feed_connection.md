@@ -1,7 +1,7 @@
 ﻿
-Configuration \> Connecting \> Multi\-provider Connections \> External Data Feed Connection
+Configuration > Connecting > Multi-provider Connections > External Data Feed Connection
 External Data Feed Connection
-| \<\< [Click to Display Table of Contents](external_data_feed_connection.md) \>\> **Navigation:**     [Configuration](configuration.md) \> [Connecting](connecting.md) \> [Multi\-provider Connections](multi-provider-connections.md) \> External Data Feed Connection | [Previous page](connecting_to_kinetick.md) [Return to chapter overview](multi-provider-connections.md) [Next page](simulated_data_feed_connection.md) |
+| << [Click to Display Table of Contents](external_data_feed_connection.md) >> **Navigation:**     [Configuration](configuration.md) > [Connecting](connecting.md) > [Multi-provider Connections](multi-provider-connections.md) > External Data Feed Connection | [Previous page](connecting_to_kinetick.md) [Return to chapter overview](multi-provider-connections.md) [Next page](simulated_data_feed_connection.md) |
 | --- | --- |
 ## External Data Feed Connection
 The External Data Feed connection is a default connection installed with NinjaTrader. In combination with the [DLL](dll_interface.md) Interface, it provides 3rd party applications the ability to drive NinjaTrader with market data.

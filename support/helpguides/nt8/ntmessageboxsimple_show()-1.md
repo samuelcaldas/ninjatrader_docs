@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> NTMessageBoxSimple.Show()
+NinjaScript > Language Reference > Add On > NTMessageBoxSimple.Show()
 NTMessageBoxSimple.Show()
-| \<\< [Click to Display Table of Contents](ntmessageboxsimple_show().md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Add On](add_on-1.md) \> NTMessageBoxSimple.Show() | [Previous page](ntmenuitem-1.md) [Return to chapter overview](add_on-1.md) [Next page](ntwindow-1.md) |
+| << [Click to Display Table of Contents](ntmessageboxsimple_show().md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > NTMessageBoxSimple.Show() | [Previous page](ntmenuitem-1.md) [Return to chapter overview](add_on-1.md) [Next page](ntwindow-1.md) |
 | --- | --- |
 ## Definition
 Creates a message box window.
@@ -29,7 +29,7 @@ NTMessageBoxSimple.Show(Window input, string messageTxt, string caption, Message
 ## Examples
 | ns |
 | --- |
-| // Create a MessageBox window from a Chart ChartControl.Dispatcher.InvokeAsync(new Action(() \=\> {          NinjaTrader.Gui.Tools.NTMessageBoxSimple.Show(Window.GetWindow(ChartControl.OwnerChart as DependencyObject), "Message Body", "Message Header", MessageBoxButton.OK, MessageBoxImage.None); })); |
+| // Create a MessageBox window from a Chart ChartControl.Dispatcher.InvokeAsync(new Action(() => {          NinjaTrader.Gui.Tools.NTMessageBoxSimple.Show(Window.GetWindow(ChartControl.OwnerChart as DependencyObject), "Message Body", "Message Header", MessageBoxButton.OK, MessageBoxImage.None); })); |
 
  
 | ns |

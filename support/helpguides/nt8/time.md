@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> ChartAnchor \> Time
+NinjaScript > Language Reference > Drawing Tool > ChartAnchor > Time
 Time
-| \<\< [Click to Display Table of Contents](time.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Drawing Tool](drawing_tools.md) \> [ChartAnchor](chartanchor.md) \> Time | [Previous page](barindex.md) [Return to chapter overview](chartanchor.md) [Next page](updatefrompoint.md) |
+| << [Click to Display Table of Contents](time.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > [ChartAnchor](chartanchor.md) > Time | [Previous page](barindex.md) [Return to chapter overview](chartanchor.md) [Next page](updatefrompoint.md) |
 | --- | --- |
 ## Definition
 Determines date/time value the chart anchor is drawn.
@@ -10,7 +10,7 @@ Determines date/time value the chart anchor is drawn.
 An DateTime value representing a time value
  
 ## Syntax
-\<ChartAnchor\>.Time
+<ChartAnchor>.Time
  
 ## Examples
 | ns |

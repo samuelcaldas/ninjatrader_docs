@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> CandleOutlineBrush
+NinjaScript > Language Reference > Common > Drawing > CandleOutlineBrush
 
 CandleOutlineBrush
 
-| \<\< [Click to Display Table of Contents](candleoutlinebrush.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> CandleOutlineBrush | [Previous page](barbrushes-1.md) [Return to chapter overview](drawing-1.md) [Next page](candleoutlinebrushes-1.md) |
+| << [Click to Display Table of Contents](candleoutlinebrush.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > CandleOutlineBrush | [Previous page](barbrushes-1.md) [Return to chapter overview](drawing-1.md) [Next page](candleoutlinebrushes-1.md) |
 | --- | --- |
 ## Definition
 Sets the outline Brush of a candlestick. 
@@ -23,4 +23,4 @@ CandleOutlineBrush
 
 | ns |
 | --- |
-| // Sets the candle outline color to black CandleOutlineBrush \= Brushes.Black; |
+| // Sets the candle outline color to black CandleOutlineBrush = Brushes.Black; |

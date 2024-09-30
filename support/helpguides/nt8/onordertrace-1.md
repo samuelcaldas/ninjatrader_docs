@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> OnOrderTrace()
+NinjaScript > Language Reference > Strategy > OnOrderTrace()
 
 OnOrderTrace()
 
-| \<\< [Click to Display Table of Contents](onordertrace.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> OnOrderTrace() | [Previous page](onexecutionupdate-1.md) [Return to chapter overview](strategy-1.md) [Next page](onorderupdate-1.md) |
+| << [Click to Display Table of Contents](onordertrace.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > OnOrderTrace() | [Previous page](onexecutionupdate-1.md) [Return to chapter overview](strategy-1.md) [Next page](onorderupdate-1.md) |
 | --- | --- |
 ## Definition
 An event driven method used for strategies which will allow you to customize the output of [TraceOrders](traceorders-1.md).  
@@ -36,7 +36,7 @@ protected override void OnOrderTrace(DateTime timestamp, string message)
 
 | ns |
 | --- |
-| protected override void OnOrderTrace(DateTime timestamp, string message) {    // The below print would give us the default tracing    Print(string.Format("{0} {1}", timestamp, message));      // The extended example would also include the instrument fullname from our primary bars object    if (BarsArray\[0] !\= null)        Print(string.Format("{0} {1} {2}", timestamp, message, BarsArray\[0].Instrument.FullName)); } |
+| protected override void OnOrderTrace(DateTime timestamp, string message) {    // The below print would give us the default tracing    Print(string.Format("{0} {1}", timestamp, message));      // The extended example would also include the instrument fullname from our primary bars object    if (BarsArray[0] != null)        Print(string.Format("{0} {1} {2}", timestamp, message, BarsArray[0].Instrument.FullName)); } |
    
 
 Additional Reference Samples  

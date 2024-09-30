@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> ATM Strategy Methods \> AtmStrategyChangeStopTarget()
+NinjaScript > Language Reference > Strategy > ATM Strategy Methods > AtmStrategyChangeStopTarget()
 
 AtmStrategyChangeStopTarget()
-| \<\< [Click to Display Table of Contents](atmstrategychangestoptarget.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Strategy](strategy.md) \> [ATM Strategy Methods](atm_strategy_methods.md) \> AtmStrategyChangeStopTarget() | [Previous page](atmstrategychangeentryorder.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](atmstrategyclose.md) |
+| << [Click to Display Table of Contents](atmstrategychangestoptarget.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) > AtmStrategyChangeStopTarget() | [Previous page](atmstrategychangeentryorder.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](atmstrategyclose.md) |
 | --- | --- |
 ## Definition
 Changes the price of the specified order of the specified ATM strategy.
@@ -24,4 +24,4 @@ AtmStrategyChangeStopTarget(double limitPrice, double stopPrice, string orderNam
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      AtmStrategyChangeStopTarget(0, SMA(10)\[0], "Stop1", "AtmIdValue"); } |
+| protected override void OnBarUpdate() {      AtmStrategyChangeStopTarget(0, SMA(10)[0], "Stop1", "AtmIdValue"); } |

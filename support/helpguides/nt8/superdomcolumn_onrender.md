@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> SuperDOM Column \> OnRender()
+NinjaScript > Language Reference > SuperDOM Column > OnRender()
 OnRender()
 
-| \<\< [Click to Display Table of Contents](superdomcolumn_onrender.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [SuperDOM Column](superdom_column.md) \> OnRender() | [Previous page](onpropertychanged.md) [Return to chapter overview](superdom_column.md) [Next page](onrestorevalues.md) |
+| << [Click to Display Table of Contents](superdomcolumn_onrender.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [SuperDOM Column](superdom_column.md) > OnRender() | [Previous page](onpropertychanged.md) [Return to chapter overview](superdom_column.md) [Next page](onrestorevalues.md) |
 | --- | --- |
 
 ## Definition

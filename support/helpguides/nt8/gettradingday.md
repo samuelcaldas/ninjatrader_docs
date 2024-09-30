@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> SessionIterator \> GetTradingDay()
+NinjaScript > Language Reference > Common > SessionIterator > GetTradingDay()
 GetTradingDay()
-| \<\< [Click to Display Table of Contents](gettradingday.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [SessionIterator](sessioniterator.md) \> GetTradingDay() | [Previous page](getnextsession.md) [Return to chapter overview](sessioniterator.md) [Next page](gettradingdaybeginlocal.md) |
+| << [Click to Display Table of Contents](gettradingday.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [SessionIterator](sessioniterator.md) > GetTradingDay() | [Previous page](getnextsession.md) [Return to chapter overview](sessioniterator.md) [Next page](gettradingdaybeginlocal.md) |
 | --- | --- |
 ## Definition
 Returns the actual trading date based on the exchange, calculated from a DateTime object passed with with the local time. GetTradingDay() calls CalculateTradingDay() on a custom SessionIterator object created by passing in a Bars object as an argument. 
@@ -15,7 +15,7 @@ Returns the actual trading date based on the exchange, calculated from a DateTim
 A DateTime object representing the [ActualTradingDayExchange](actualtradingdayexchange.md) property.
  
 ## Syntax
-\<SessionIterator\>.GetTradingDay(DateTime timeLocal)
+<SessionIterator>.GetTradingDay(DateTime timeLocal)
 ## 
 ## Parameters
 | timeLocal | The DateTime value used to calculate the next trading day. |
@@ -25,4 +25,4 @@ A DateTime object representing the [ActualTradingDayExchange](actualtradingdayex
 ## Example
 | ns |
 | --- |
-| // Declare a new custom SessionIterator SessionIterator mySessionIterator;   protected override void OnStateChange() {    if (State \=\= State.Historical)    {        // Instantiate mySessionIterator once in State.Configure        mySessionIterator \= new SessionIterator(BarsArray\[0]);    } }   protected override void OnBarUpdate() {    // Obtain the ActualTradingDayExchange value for mySessionIterator, based on today's date    Print(mySessionIterator.GetTradingDay(DateTime.Now).ToString()); } |
+| // Declare a new custom SessionIterator SessionIterator mySessionIterator;   protected override void OnStateChange() {    if (State == State.Historical)    {        // Instantiate mySessionIterator once in State.Configure        mySessionIterator = new SessionIterator(BarsArray[0]);    } }   protected override void OnBarUpdate() {    // Obtain the ActualTradingDayExchange value for mySessionIterator, based on today's date    Print(mySessionIterator.GetTradingDay(DateTime.Now).ToString()); } |

@@ -1,9 +1,9 @@
 ﻿
-Operations \> Windows \> Sharing Content
+Operations > Windows > Sharing Content
 
 Sharing Content
 
-| \<\< [Click to Display Table of Contents](sharing_content.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Windows](window_tabs-1.md) \> Sharing Content | [Previous page](using_tabs-1.md) [Return to chapter overview](window_tabs-1.md) [Next page](printing_content-1.md) |
+| << [Click to Display Table of Contents](sharing_content.md) >> **Navigation:**     [Operations](operations-1.md) > [Windows](window_tabs-1.md) > Sharing Content | [Previous page](using_tabs-1.md) [Return to chapter overview](window_tabs-1.md) [Next page](printing_content-1.md) |
 | --- | --- |
 NinjaTrader support sharing messages and images via Email or Text message via email. 
 ## 

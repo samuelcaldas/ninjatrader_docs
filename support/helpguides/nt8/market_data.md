@@ -1,11 +1,11 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Analytical
+NinjaScript > Language Reference > Common > Analytical
 
 Analytical
 
-| \<\< [Click to Display Table of Contents](market_data.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> Analytical | [Previous page](share.md) [Return to chapter overview](common.md) [Next page](approxcompare.md) |
+| << [Click to Display Table of Contents](market_data.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > Analytical | [Previous page](share.md) [Return to chapter overview](common.md) [Next page](approxcompare.md) |
 | --- | --- |
-NinjaScript provides a number of methods and properties useful for analyzing and identifying specific conditions within [Series\<T\>](seriest.md) collections. Some of these methods test a condition and return true or false, while others return an int\-based bar index or other numerical value. A list of analytical methods can be found below:
+NinjaScript provides a number of methods and properties useful for analyzing and identifying specific conditions within [Series<T>](seriest.md) collections. Some of these methods test a condition and return true or false, while others return an int-based bar index or other numerical value. A list of analytical methods can be found below:
  
 ## Methods and Properties
 

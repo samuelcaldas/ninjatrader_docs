@@ -1,7 +1,7 @@
 ﻿
-Operations \> Order Entry \> SuperDOM
+Operations > Order Entry > SuperDOM
 SuperDOM
-| \<\< [Click to Display Table of Contents](superdom.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> SuperDOM | [Previous page](properties_order_ticket-1.md) [Return to chapter overview](order_entry-1.md) [Next page](price_ladder_display-1.md) |
+| << [Click to Display Table of Contents](superdom.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > SuperDOM | [Previous page](properties_order_ticket-1.md) [Return to chapter overview](order_entry-1.md) [Next page](price_ladder_display-1.md) |
 | --- | --- |
 The SuperDOM window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting either the Static SuperDOM or Dynamic SuperDOM menu items.
 

@@ -1,12 +1,12 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Bars \> GetDayBar()
+NinjaScript > Language Reference > Common > Bars > GetDayBar()
 GetDayBar()
-| \<\< [Click to Display Table of Contents](getdaybar.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Bars](bars.md) \> GetDayBar() | [Previous page](getclose.md) [Return to chapter overview](bars.md) [Next page](gethigh.md) |
+| << [Click to Display Table of Contents](getdaybar.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) > GetDayBar() | [Previous page](getclose.md) [Return to chapter overview](bars.md) [Next page](gethigh.md) |
 | --- | --- |
 ## Definition
 Returns a virtual historical Bar object that represents a trading day whose properties for open, high, low, close, time and volume can be accessed.
  
-| Notes: 1\.The bar object returned is a "virtual bar" built from the underlying bar series and its configured session.  Since the bar object is virtual, its property values are calculated based on session definitions contained in the trading day only. The returned bar object does NOT necessarily represent the actual day.  For accessing a true "Daily" bar, please see use [AddDataSeries()](adddataseries.md) and use the BarsPeriodType.Day as the bars period.  2\.GetDayBar() should ONLY be used for accessing prior trading day data. To access current trading day data, use the [CurrentDayOHL()](current_day_ohl.md) method. |
+| Notes: 1.The bar object returned is a "virtual bar" built from the underlying bar series and its configured session.  Since the bar object is virtual, its property values are calculated based on session definitions contained in the trading day only. The returned bar object does NOT necessarily represent the actual day.  For accessing a true "Daily" bar, please see use [AddDataSeries()](adddataseries.md) and use the BarsPeriodType.Day as the bars period.  2.GetDayBar() should ONLY be used for accessing prior trading day data. To access current trading day data, use the [CurrentDayOHL()](current_day_ohl.md) method. |
 | --- |
  
 ## 
@@ -41,5 +41,5 @@ Bars.GetDayBar(int tradingDaysBack).Volume
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {    // Check to ensure that sufficient intraday data was supplied    if(Bars.GetDayBar(1) !\= null)      Print("The prior trading day's close is: " \+ Bars.GetDayBar(1).Close); } |
+| protected override void OnBarUpdate() {    // Check to ensure that sufficient intraday data was supplied    if(Bars.GetDayBar(1) != null)      Print("The prior trading day's close is: " + Bars.GetDayBar(1).Close); } |
 

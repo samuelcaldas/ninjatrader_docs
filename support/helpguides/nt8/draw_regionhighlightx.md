@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.RegionHighlightX()
+NinjaScript > Language Reference > Common > Drawing > Draw.RegionHighlightX()
 Draw.RegionHighlightX()
-| \<\< [Click to Display Table of Contents](draw_regionhighlightx.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.RegionHighlightX() | [Previous page](region.md) [Return to chapter overview](drawing.md) [Next page](regionhighlightx.md) |
+| << [Click to Display Table of Contents](draw_regionhighlightx.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > Draw.RegionHighlightX() | [Previous page](region.md) [Return to chapter overview](drawing.md) [Next page](regionhighlightx.md) |
 | --- | --- |
 ## Definition
 Draws a region highlight x on a chart.
@@ -26,13 +26,13 @@ Draw.RegionHighlightX(NinjaScriptBase owner, string tag, int startBarsAgo, int e
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
-| startBarsAgo | The starting bar (x axis co\-ordinate) where the draw object will be drawn. For example, a value of 10 would paint the draw object 10 bars back. |
+| startBarsAgo | The starting bar (x axis co-ordinate) where the draw object will be drawn. For example, a value of 10 would paint the draw object 10 bars back. |
 | startTime | The starting time where the draw object will be drawn. |
-| endBarsAgo | The end bar (x axis co\-ordinate) where the draw object will terminate |
+| endBarsAgo | The end bar (x axis co-ordinate) where the draw object will terminate |
 | endTime | The end time where the draw object will terminate |
 | brush | The brush used to color the outline of draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaBrush | The brush used to color the fill area of the draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
-| areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 \- 100\. (0 \= completely transparent, 100 \= no opacity) |
+| areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
  

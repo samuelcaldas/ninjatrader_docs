@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.Region() \> Region
+NinjaScript > Language Reference > Common > Drawing > Draw.Region() > Region
 
 Region
 
-| \<\< [Click to Display Table of Contents](region.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.Region()](draw_region.md) \> Region | [Previous page](draw_region.md) [Return to chapter overview](draw_region.md) [Next page](draw_regionhighlightx.md) |
+| << [Click to Display Table of Contents](region.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Region()](draw_region.md) > Region | [Previous page](draw_region.md) [Return to chapter overview](draw_region.md) [Next page](draw_regionhighlightx.md) |
 | --- | --- |
 ## Definition
 Represents an interface that exposes information regarding a Region [IDrawingTool.](idrawingtool.md)
@@ -22,4 +22,4 @@ Represents an interface that exposes information regarding a Region [IDrawingToo
 
 | ns |
 | --- |
-| // Instantiate a Region object Region myRegion \= Draw.Region(this, "tag1", CurrentBar, 0, Bollinger(2, 14).Upper, Bollinger(2, 14).Lower, null, Brushes.Blue, 50);    // Set the object's OutlineStroke to a new Stroke myRegion.OutlineStroke \= new Stroke(Brushes.Red, DashStyleHelper.Solid, 3); |
+| // Instantiate a Region object Region myRegion = Draw.Region(this, "tag1", CurrentBar, 0, Bollinger(2, 14).Upper, Bollinger(2, 14).Lower, null, Brushes.Blue, 50);    // Set the object's OutlineStroke to a new Stroke myRegion.OutlineStroke = new Stroke(Brushes.Red, DashStyleHelper.Solid, 3); |

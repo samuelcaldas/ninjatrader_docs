@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> IgnoresUserInput
+NinjaScript > Language Reference > Drawing Tool > IgnoresUserInput
 
 IgnoresUserInput
-| \<\< [Click to Display Table of Contents](ignoresuserinput.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Drawing Tool](drawing_tools.md) \> IgnoresUserInput | [Previous page](ignoressnapping.md) [Return to chapter overview](drawing_tools.md) [Next page](isattachedtoninjascript.md) |
+| << [Click to Display Table of Contents](ignoresuserinput.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > IgnoresUserInput | [Previous page](ignoressnapping.md) [Return to chapter overview](drawing_tools.md) [Next page](isattachedtoninjascript.md) |
 | --- | --- |
 Definition  
 
@@ -17,4 +17,4 @@ IgnoresUserInput
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {               IgnoresUserInput \= true; // Set this to true to make the drawing object non\-interactive      }      else if (State \=\= State.Configure)      {        } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {               IgnoresUserInput = true; // Set this to true to make the drawing object non-interactive      }      else if (State == State.Configure)      {        } } |

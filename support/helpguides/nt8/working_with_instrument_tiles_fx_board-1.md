@@ -1,8 +1,8 @@
 ﻿
-Operations \> Order Entry \> FX Board \> Working with Instrument Tiles
+Operations > Order Entry > FX Board > Working with Instrument Tiles
 Working with Instrument Tiles
 
-| \<\< [Click to Display Table of Contents](working_with_instrument_tiles_fx_board.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Order Entry](order_entry-1.md) \> [FX Board](fx_board-1.md) \> Working with Instrument Tiles | [Previous page](display_overview_fx_board-1.md) [Return to chapter overview](fx_board-1.md) [Next page](submitting_orders_fx_board-1.md) |
+| << [Click to Display Table of Contents](working_with_instrument_tiles_fx_board.md) >> **Navigation:**     [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [FX Board](fx_board-1.md) > Working with Instrument Tiles | [Previous page](display_overview_fx_board-1.md) [Return to chapter overview](fx_board-1.md) [Next page](submitting_orders_fx_board-1.md) |
 | --- | --- |
 The FX Board can be setup for use with an unlimited number of Forex or CFD instrument tiles which are used to display current market data, as well as used for order entry.
 ![tog_minus](tog_minus-1.gif)        [Managing instrument tiles](javascript:HMToggle('toggle','ManagingInstrumentTiles','ManagingInstrumentTiles_ICON'))

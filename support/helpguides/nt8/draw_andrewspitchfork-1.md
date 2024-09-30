@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.AndrewsPitchfork()
+NinjaScript > Language Reference > Common > Drawing > Draw.AndrewsPitchfork()
 Draw.AndrewsPitchfork()
-| \<\< [Click to Display Table of Contents](draw_andrewspitchfork.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.AndrewsPitchfork() | [Previous page](drawing-1.md) [Return to chapter overview](drawing-1.md) [Next page](andrewspitchfork-1.md) |
+| << [Click to Display Table of Contents](draw_andrewspitchfork.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > Draw.AndrewsPitchfork() | [Previous page](drawing-1.md) [Return to chapter overview](drawing-1.md) [Next page](andrewspitchfork-1.md) |
 | --- | --- |
 ## Definition
 Draws an Andrew's Pitchfork.
@@ -24,7 +24,7 @@ Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, DateT
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
-| isAutoScale | Determines if the draw object will be included in the y\-axis scale |
+| isAutoScale | Determines if the draw object will be included in the y-axis scale |
 | anchor1BarsAgo | The number of bars ago (x value) of the 1st anchor point |
 | anchor1Time | The time of the 1st anchor point |
 | anchor1Y | The y value of the 1st anchor point |
@@ -44,5 +44,5 @@ Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, DateT
 ## Examples
 | ns |
 | --- |
-| // Draws an Andrew's Pitchfork  Draw.AndrewsPitchfork(this, "tag1", true, 4, Low\[4], 3, High\[3], 1, Low\[1], Brushes.Blue, DashStyleHelper.Solid, 3); |
+| // Draws an Andrew's Pitchfork  Draw.AndrewsPitchfork(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue, DashStyleHelper.Solid, 3); |
 

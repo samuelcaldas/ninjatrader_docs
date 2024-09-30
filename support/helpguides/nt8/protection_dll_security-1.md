@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Distribution \> Protection/DLL Security
+NinjaScript > Distribution > Protection/DLL Security
 
 Protection/DLL Security
 
-| \<\< [Click to Display Table of Contents](protection_dll_security.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Distribution](distribution-1.md) \> Protection/DLL Security | [Previous page](export_problems-1.md) [Return to chapter overview](distribution-1.md) [Next page](commercial_distribution-1.md) |
+| << [Click to Display Table of Contents](protection_dll_security.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Distribution](distribution-1.md) > Protection/DLL Security | [Previous page](export_problems-1.md) [Return to chapter overview](distribution-1.md) [Next page](commercial_distribution-1.md) |
 | --- | --- |
 [![SecureTeam](protection_dll_security_1.gif "SecureTeam")](http://www.secureteam.net/ "SecureTeam")
  
@@ -13,7 +13,7 @@ Should you wish to use Agile.NET for protecting your NinjaScript assemblies you 
  
 ![Protection_DLL_Security_2](protection_dll_security_2.png)
  
-Please note that this version of Agile.NET will only work for protecting NinjaScript assemblies within NinjaTrader. If you would like to protect other files outside of NinjaTrader please consider purchasing the full version of Agile.NET from SecureTeam directly [here](http://www.secureteam.net/ninja-pricing "Agile.NET Purchase") 'Agile.NET 6\.0 Code Protection'. NinjaScript assemblies protected with the full version of Agile.NET will also work in NinjaTrader.
+Please note that this version of Agile.NET will only work for protecting NinjaScript assemblies within NinjaTrader. If you would like to protect other files outside of NinjaTrader please consider purchasing the full version of Agile.NET from SecureTeam directly [here](http://www.secureteam.net/ninja-pricing "Agile.NET Purchase") 'Agile.NET 6.0 Code Protection'. NinjaScript assemblies protected with the full version of Agile.NET will also work in NinjaTrader.
  
-At this time we recommend using version [6\.9\.1\.2](../../../content/AgileDotNetInstaller6912.exe)
-For clients on 8\.0\.28\.0 or older you can continue to use [6\.6\.0\.35](../../../content/AgileDotNetInstaller66035.exe)
+At this time we recommend using version [6.9.1.2](../../../content/AgileDotNetInstaller6912.exe)
+For clients on 8.0.28.0 or older you can continue to use [6.6.0.35](../../../content/AgileDotNetInstaller66035.exe)

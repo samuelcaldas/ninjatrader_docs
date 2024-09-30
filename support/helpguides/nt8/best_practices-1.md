@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Distribution \> Commercial Distribution \> Best Practices for Distribution
+NinjaScript > Distribution > Commercial Distribution > Best Practices for Distribution
 
 Best Practices for Distribution
-| \<\< [Click to Display Table of Contents](best_practices.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Distribution](distribution-1.md) \> [Commercial Distribution](commercial_distribution-1.md) \> Best Practices for Distribution | [Previous page](licensing_user_authentication-1.md) [Return to chapter overview](commercial_distribution-1.md) [Next page](distribution_procedure-1.md) |
+| << [Click to Display Table of Contents](best_practices.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Distribution](distribution-1.md) > [Commercial Distribution](commercial_distribution-1.md) > Best Practices for Distribution | [Previous page](licensing_user_authentication-1.md) [Return to chapter overview](commercial_distribution-1.md) [Next page](distribution_procedure-1.md) |
 | --- | --- |
 The following are what we suggest for best practices for distribution.
  
@@ -12,7 +12,7 @@ If you are a commercial vendor, you should never distribute the NinjaScript .cs 
 ## Naming Conventions
 Please use consistent naming convention with your indicators and strategies. We suggest adding a prefix to an indicator name. If your company name is "Hyper" you could name your indicators "HyperTrend" or "HyperOscillator" for example.
  
-In the event that you provide NinjaScript export archives (zip files) as your means of distribution, NinjaTrader will automatically block incompatible scripts from importing so there will be no confusion by the user as to whether they are installing Version 7 or 8 scripts to their NinjaTrader installation. It is advisable to include the NinjaTrader version number in the export archive which will reduce potential support burden. For example, you could name your indicators “MyIndicator\_7\.zip” and “MyIndicator\_8\.zip”.
+In the event that you provide NinjaScript export archives (zip files) as your means of distribution, NinjaTrader will automatically block incompatible scripts from importing so there will be no confusion by the user as to whether they are installing Version 7 or 8 scripts to their NinjaTrader installation. It is advisable to include the NinjaTrader version number in the export archive which will reduce potential support burden. For example, you could name your indicators “MyIndicator_7.zip” and “MyIndicator_8.zip”.
  
 ## Clean up your resources
 Always free up resources such as external windows DLL's or license management related resources. Resources should be freed within the [OnStateChange()](onstatechange-1.md) method in State.Terminate. NinjaTrader calls this method at the point at which a script is no longer used. 
@@ -38,7 +38,7 @@ These are the following folder names:
 
  
 ## Test on Legacy Operating Systems
-## Some NinjaTrader customers run on older Operating Systems (such as Windows 7\) and you should make sure that your indicators, custom installers and external DLLs (if any are used) properly run on these legacy operating systems.
+## Some NinjaTrader customers run on older Operating Systems (such as Windows 7) and you should make sure that your indicators, custom installers and external DLLs (if any are used) properly run on these legacy operating systems.
  
 ## Expose Indicator States
 If your proprietary indicator acts as a trend state (green bars are bullish, red bearish) its good practice to expose the indicators's state so that consumers of your indicators can use them within their own custom indicator or strategy. 

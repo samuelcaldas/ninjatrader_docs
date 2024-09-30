@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Momentum
+NinjaScript > Language Reference > Common > System Indicator Methods > Momentum
 Momentum
-| \<\< [Click to Display Table of Contents](momentum.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [System Indicator Methods](indicators.md) \> Momentum | [Previous page](minimum_min.md) [Return to chapter overview](indicators.md) [Next page](money_flow_index_mfi.md) |
+| << [Click to Display Table of Contents](momentum.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) > Momentum | [Previous page](minimum_min.md) [Return to chapter overview](indicators.md) [Next page](money_flow_index_mfi.md) |
 | --- | --- |
 ## Description
 By measuring the amount that a security's price has changed over a given time span, the Momentum indicator provides an indication of a market's velocity and to some degree, a measure of the extent to which a trend still holds true. It can also be helpful in spotting likely reversal points.
@@ -9,15 +9,15 @@ By measuring the amount that a security's price has changed over a given time sp
 ## Syntax
 Momentum(int period)  
 
-Momentum(ISeries\<double\> input, int period)
+Momentum(ISeries<double> input, int period)
  
 Returns default value
-Momentum(int period)\[int barsAgo]  
+Momentum(int period)[int barsAgo]  
 
-Momentum(ISeries\<double\> input, int period)\[int barsAgo]
+Momentum(ISeries<double> input, int period)[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
@@ -29,7 +29,7 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 ## Examples
 | ns |
 | --- |
-| // Prints the current value of a 20 period Momentum using default price type double value \= Momentum(20)\[0]; Print("The current Momentum value is " \+ value.ToString());   // Prints the current value of a 20 period Momentum using high price type double value \= Momentum(High, 20)\[0]; Print("The current Momentum value is " \+ value.ToString()); |
+| // Prints the current value of a 20 period Momentum using default price type double value = Momentum(20)[0]; Print("The current Momentum value is " + value.ToString());   // Prints the current value of a 20 period Momentum using high price type double value = Momentum(High, 20)[0]; Print("The current Momentum value is " + value.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

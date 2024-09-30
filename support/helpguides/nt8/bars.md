@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Bars
+NinjaScript > Language Reference > Common > Bars
 Bars
-| \<\< [Click to Display Table of Contents](bars.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> Bars | [Previous page](xmlignoreattribute.md) [Return to chapter overview](common.md) [Next page](barssincenewtradingday.md) |
+| << [Click to Display Table of Contents](bars.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > Bars | [Previous page](xmlignoreattribute.md) [Return to chapter overview](common.md) [Next page](barssincenewtradingday.md) |
 | --- | --- |
 ## Definition
 Represents the data returned from the historical data repository. The Bars object contain several methods and properties for working with bar data.
@@ -10,7 +10,7 @@ Represents the data returned from the historical data repository. The Bars objec
 | --- |
 
 ## Additional Access Information
-Members within the Bars class can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be a Bar object which holds the method or property. Should you wish to access these members elsewhere, check for null reference first. e.g. if (Bars !\= null)
+Members within the Bars class can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be a Bar object which holds the method or property. Should you wish to access these members elsewhere, check for null reference first. e.g. if (Bars != null)
  
 ## Methods and Properties
 | [BarsSinceNewTradingDay](barssincenewtradingday.md) | Number of bars that have elapsed since the start of the trading day |

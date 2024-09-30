@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Attributes \> BrowsableAttribute
+NinjaScript > Language Reference > Common > Attributes > BrowsableAttribute
 BrowsableAttribute
-| \<\< [Click to Display Table of Contents](browsableattribute.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Attributes](attributes.md) \> BrowsableAttribute | [Previous page](attributes.md) [Return to chapter overview](attributes.md) [Next page](categoryorderattribute.md) |
+| << [Click to Display Table of Contents](browsableattribute.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Attributes](attributes.md) > BrowsableAttribute | [Previous page](attributes.md) [Return to chapter overview](attributes.md) [Next page](categoryorderattribute.md) |
 | --- | --- |
 ## Definition
 Determines if the following declared property displays in the NinjaTrader UI's property grid.  By default, all public properties in a NinjaScript object display, however this behavior can be changed by setting the Browsable attribute to false.
@@ -10,7 +10,7 @@ Determines if the following declared property displays in the NinjaTrader UI's p
 | --- |
 
 ## Syntax
-\[Browsable(bool)]
+[Browsable(bool)]
  
 ## Parameters
 ## A bool which sets a value indicating if a property is browsable; default value is true
@@ -18,5 +18,5 @@ Determines if the following declared property displays in the NinjaTrader UI's p
 ## Examples
 | ns |
 | --- |
-| \#region Properties      // do not show this value on the UI's property grid \[Browsable(false)] public bool MyBool    { get; set; }   \#endregion |
+| #region Properties      // do not show this value on the UI's property grid [Browsable(false)] public bool MyBool    { get; set; }   #endregion |
 

@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> IWorkspacePersistence Interface \> WorkspaceOptions
+NinjaScript > Language Reference > Add On > IWorkspacePersistence Interface > WorkspaceOptions
 WorkspaceOptions
 
-| \<\< [Click to Display Table of Contents](workspaceoptions.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Add On](add_on.md) \> [IWorkspacePersistence Interface](iworkspacepersistence_interface.md) \> WorkspaceOptions | [Previous page](iworkspacepersistence_save.md) [Return to chapter overview](iworkspacepersistence_interface.md) [Next page](nttabpage_class.md) |
+| << [Click to Display Table of Contents](workspaceoptions.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [IWorkspacePersistence Interface](iworkspacepersistence_interface.md) > WorkspaceOptions | [Previous page](iworkspacepersistence_save.md) [Return to chapter overview](iworkspacepersistence_interface.md) [Next page](nttabpage_class.md) |
 | --- | --- |
 
 ## Definition

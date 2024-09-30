@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> IsGlobalDrawingTool
+NinjaScript > Language Reference > Drawing Tool > IsGlobalDrawingTool
 
 IsGlobalDrawingTool
 
-| \<\< [Click to Display Table of Contents](isglobaldrawingtool.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Drawing Tool](drawing_tools-1.md) \> IsGlobalDrawingTool | [Previous page](isattachedtoninjascript-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](islocked-1.md) |
+| << [Click to Display Table of Contents](isglobaldrawingtool.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > IsGlobalDrawingTool | [Previous page](isattachedtoninjascript-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](islocked-1.md) |
 | --- | --- |
 ## Definition
 Indicates if the drawing tool is currently set as a Global Drawing object. Global draw objects display on any chart which matches the parent chart's underlying instrument.

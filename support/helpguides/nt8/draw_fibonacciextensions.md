@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.FibonacciExtensions()
+NinjaScript > Language Reference > Common > Drawing > Draw.FibonacciExtensions()
 Draw.FibonacciExtensions()
-| \<\< [Click to Display Table of Contents](draw_fibonacciextensions.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.FibonacciExtensions() | [Previous page](fibonaccicircle.md) [Return to chapter overview](drawing.md) [Next page](fibonacciextensions.md) |
+| << [Click to Display Table of Contents](draw_fibonacciextensions.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > Draw.FibonacciExtensions() | [Previous page](fibonaccicircle.md) [Return to chapter overview](drawing.md) [Next page](fibonacciextensions.md) |
 | --- | --- |
 ## Definition
 Draws a fibonacci extension.
@@ -24,7 +24,7 @@ Draw.FibonacciExtensions(NinjaScriptBase owner, string tag, bool isAutoScale, in
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
-| isAutoScale | Determines if the draw object will be included in the y\-axis scale |
+| isAutoScale | Determines if the draw object will be included in the y-axis scale |
 | startBarsAgo | The number of bars ago (x value) of the 1st anchor point |
 | startTime | The time of the 1st anchor point |
 | startY | The y value of the 1st anchor point |
@@ -41,5 +41,5 @@ Draw.FibonacciExtensions(NinjaScriptBase owner, string tag, bool isAutoScale, in
 ## Examples
 | ns |
 | --- |
-| // Draws a fibonnaci extension Draw.FibonacciExtensions(this, "tag1", true, 4, Low\[4], 3, High\[3], 1, Low\[1]); |
+| // Draws a fibonnaci extension Draw.FibonacciExtensions(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]); |
 

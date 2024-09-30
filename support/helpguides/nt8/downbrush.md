@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Chart Style \> DownBrush
+NinjaScript > Language Reference > Chart Style > DownBrush
 
 DownBrush
-| \<\< [Click to Display Table of Contents](downbrush.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Chart Style](chart_style.md) \> DownBrush | [Previous page](chartstyletype.md) [Return to chapter overview](chart_style.md) [Next page](downbrushdx.md) |
+| << [Click to Display Table of Contents](downbrush.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Chart Style](chart_style.md) > DownBrush | [Previous page](chartstyletype.md) [Return to chapter overview](chart_style.md) [Next page](downbrushdx.md) |
 | --- | --- |
 ## Definition
 A [Brush](https://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object used to determine the color to paint the down bars for the ChartStyle.
@@ -19,4 +19,4 @@ DownBrush
 ## Example
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.Configure)    {        // Set a new name for the DownBrush property        SetPropertyName("DownBrush", "DecliningBrush");    } } |
+| protected override void OnStateChange() {    if (State == State.Configure)    {        // Set a new name for the DownBrush property        SetPropertyName("DownBrush", "DecliningBrush");    } } |

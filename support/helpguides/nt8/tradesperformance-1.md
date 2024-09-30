@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> TradeCollection \> TradesPerformance
+NinjaScript > Language Reference > Strategy > TradeCollection > TradesPerformance
 TradesPerformance
-| \<\< [Click to Display Table of Contents](tradesperformance.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> [TradeCollection](tradecollection-1.md) \> TradesPerformance | [Previous page](losingtrades-1.md) [Return to chapter overview](tradecollection-1.md) [Next page](averagebarsintrade-1.md) |
+| << [Click to Display Table of Contents](tradesperformance.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [TradeCollection](tradecollection-1.md) > TradesPerformance | [Previous page](losingtrades-1.md) [Return to chapter overview](tradecollection-1.md) [Next page](averagebarsintrade-1.md) |
 | --- | --- |
 ## Definition
 Performance profile of a [collection](tradecollection-1.md) of [Trade](trade-1.md) objects.
@@ -11,7 +11,7 @@ Performance profile of a [collection](tradecollection-1.md) of [Trade](trade-1.m
 | --- | --- |
 | [AverageEntryEfficiency](averageentryefficiency-1.md) | A double value representing the average entry efficiency |
 | [AverageExitEfficiency](averageexitefficiency-1.md) | A double value representing the average exit efficiency |
-| [AverageTimeInMarket](averagetimeinmarket-1.md) | A [TimeSpan](http://msdn.microsoft.com/en-us/library/system.timespan.aspx) value representing quantity\-weighted average duration of a trade |
+| [AverageTimeInMarket](averagetimeinmarket-1.md) | A [TimeSpan](http://msdn.microsoft.com/en-us/library/system.timespan.aspx) value representing quantity-weighted average duration of a trade |
 | [AverageTotalEfficiency](averagetotalefficiency-1.md) | A double value representing the average total efficiency |
 | [TotalCommission](totalcommission-1.md) | A double value representing the total commission |
 | [Currency](currency-1.md) | Gets a [TradesPerformanceValues](tradesperformancevalues-1.md) object in currency |
@@ -29,17 +29,17 @@ Performance profile of a [collection](tradecollection-1.md) of [Trade](trade-1.m
 | [Pips](pips-1.md) | Gets a [TradesPerformanceValues](tradesperformancevalues-1.md) object in pips |
 | [Points](points-1.md) | Gets a [TradesPerformanceValues](tradesperformancevalues-1.md) object in points |
 | [ProfitFactor](profitfactor-1.md) | A double value representing the profit factor |
-| [R2](rsquared-1.md) | A double value representing the R\-squared value |
+| [R2](rsquared-1.md) | A double value representing the R-squared value |
 | [RiskFreeReturn](riskfreereturn-1.md) | A double value representing the risk free return rate |
 | [SharpeRatio](sharperatio-1.md) | A double value representing the Sharpe Ratio |
 | [SortinoRatio](sortinoratio-1.md) | A double value representing the Sortino Ratio |
 | [Ticks](ticks-1.md) | Gets a [TradesPerformanceValues](tradesperformancevalues-1.md) object in ticks |
 | [TotalQuantity](totalquantity-1.md) | An int value representing the total quantity |
-| [TotalSlippage](totalslippage-1.md) | An double value representing the total slippage. This is presented in points, I.E. 0\.25 for 1 execution on E\-mini S\&P 500 Futures. |
+| [TotalSlippage](totalslippage-1.md) | An double value representing the total slippage. This is presented in points, I.E. 0.25 for 1 execution on E-mini S&P 500 Futures. |
 | [TradesCount](tradescount-1.md) | An int value representing the trades count |
 | [TradesPerDay](tradesperday-1.md) | An int value representing the avg trades per day |
 
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {     // Only trade if you have less than 5 consecutive losers in a row     if (SystemPerformance.RealTimeTrades.TradesPerformance.MaxConsecutiveLoser \< 5\)     {         // Trade logic here     } } |
+| protected override void OnBarUpdate() {     // Only trade if you have less than 5 consecutive losers in a row     if (SystemPerformance.RealTimeTrades.TradesPerformance.MaxConsecutiveLoser < 5)     {         // Trade logic here     } } |

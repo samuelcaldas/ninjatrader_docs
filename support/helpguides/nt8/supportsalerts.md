@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> SupportsAlerts
+NinjaScript > Language Reference > Drawing Tool > SupportsAlerts
 SupportsAlerts
 
-| \<\< [Click to Display Table of Contents](supportsalerts.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Drawing Tool](drawing_tools.md) \> SupportsAlerts | [Previous page](onmouseup.md) [Return to chapter overview](drawing_tools.md) [Next page](zordertype.md) |
+| << [Click to Display Table of Contents](supportsalerts.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > SupportsAlerts | [Previous page](onmouseup.md) [Return to chapter overview](drawing_tools.md) [Next page](zordertype.md) |
 | --- | --- |
 
 ## Definition
@@ -11,7 +11,7 @@ Determines if the drawing tool can be used for manually configured alerts throug
 ## Property Value
 A bool which when true determines that user can setup an alert based off this drawing tool;  otherwise false. 
  
-| Note:  This property is false by default and MUST be overridden upon initialization to allow for manually configured alerts.  You cannot set this during run\-time. |
+| Note:  This property is false by default and MUST be overridden upon initialization to allow for manually configured alerts.  You cannot set this during run-time. |
 | --- |
 
 ## Syntax

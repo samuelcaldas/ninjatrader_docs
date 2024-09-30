@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> NTTabPage Class \> Cleanup()
+NinjaScript > Language Reference > Add On > NTTabPage Class > Cleanup()
 CleanUp()
-| \<\< [Click to Display Table of Contents](nttabpage_cleanup.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Add On](add_on-1.md) \> [NTTabPage Class](nttabpage_class-1.md) \> CleanUp() | [Previous page](nttabpage_class-1.md) [Return to chapter overview](nttabpage_class-1.md) [Next page](getheaderpart-1.md) |
+| << [Click to Display Table of Contents](nttabpage_cleanup.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [NTTabPage Class](nttabpage_class-1.md) > CleanUp() | [Previous page](nttabpage_class-1.md) [Return to chapter overview](nttabpage_class-1.md) [Next page](getheaderpart-1.md) |
 | --- | --- |
 ## Definition
 Unregisters LinkControls ([IInstrumentProvider](iintervalprovider_interface-1.md) [IIntervalProvider)](iintervalprovider_interface-1.md) and calls Cleanup() on ICleanable controls on the NTTabPage. Override this to, e.g., unsubscribe from events or perform any other cleanup operations when the tab is closed.
@@ -22,4 +22,4 @@ This method does not accept any parameters
 ## Examples
 | ns |
 | --- |
-| public override void Cleanup() {    // unregister from any custom events    Connection.ConnectionStatusUpdate                   \-\= OnConnectionStatusUpdate;        // a call to base.Cleanup() will loop through the visual tree looking for all ICleanable children    // i.e., AccountSelector, AtmStrategySelector, InstrumentSelector, IntervalSelector, TifSelector,    // as well as unregister any link control events      base.Cleanup(); } |
+| public override void Cleanup() {    // unregister from any custom events    Connection.ConnectionStatusUpdate                   -= OnConnectionStatusUpdate;        // a call to base.Cleanup() will loop through the visual tree looking for all ICleanable children    // i.e., AccountSelector, AtmStrategySelector, InstrumentSelector, IntervalSelector, TifSelector,    // as well as unregister any link control events      base.Cleanup(); } |

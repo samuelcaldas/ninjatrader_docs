@@ -1,13 +1,13 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Order Methods \> Managed Approach \> EnterLongStopLimit()
+NinjaScript > Language Reference > Strategy > Order Methods > Managed Approach > EnterLongStopLimit()
 EnterLongStopLimit()
-| \<\< [Click to Display Table of Contents](enterlongstoplimit.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> [Order Methods](order_methods-1.md) \> [Managed Approach](managed_approach-1.md) \> EnterLongStopLimit() | [Previous page](enterlongmit-1.md) [Return to chapter overview](managed_approach-1.md) [Next page](enterlongstopmarket-1.md) |
+| << [Click to Display Table of Contents](enterlongstoplimit.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [Order Methods](order_methods-1.md) > [Managed Approach](managed_approach-1.md) > EnterLongStopLimit() | [Previous page](enterlongmit-1.md) [Return to chapter overview](managed_approach-1.md) [Next page](enterlongstopmarket-1.md) |
 | --- | --- |
 ## Definition
 Generates a buy stop limit order to enter a long position.
  
 ## Method Return Value
-An [Order](order-1.md) read\-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling-1.md) section.   
+An [Order](order-1.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling-1.md) section.   
 
  
 Syntax  
@@ -31,7 +31,7 @@ EnterLongStopLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quant
 | --- | --- |
 | limitPrice | The limit price of the order. |
 | stopPrice | The stop price of the order. |
-| quantity | Entry order quantity (if 0 is passed in, will be set to 1, except for stocks 100\). |
+| quantity | Entry order quantity (if 0 is passed in, will be set to 1, except for stocks 100). |
 | isLiveUntilCancelled | The order will NOT expire at the end of a bar, but instead remain live until the [CancelOrder()](managed_cancelorder-1.md) method is called or its time in force is reached. |
 | barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress-1.md) property. |
  
@@ -39,6 +39,6 @@ EnterLongStopLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quant
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      if (CurrentBar \< 20)          return;        // Only enter if at least 10 bars has passed since our last entry      if ((BarsSinceEntryExecution() \> 10 \|\| BarsSinceEntryExecution() \=\= \-1) \&\& CrossAbove(SMA(10), SMA(20), 1))          EnterLongStopLimit(High\[0] \+ 2 \* TickSize, High\[0], "SMA Cross Entry"); } |
+| protected override void OnBarUpdate() {      if (CurrentBar < 20)          return;        // Only enter if at least 10 bars has passed since our last entry      if ((BarsSinceEntryExecution() > 10 || BarsSinceEntryExecution() == -1) && CrossAbove(SMA(10), SMA(20), 1))          EnterLongStopLimit(High[0] + 2 * TickSize, High[0], "SMA Cross Entry"); } |
  
 

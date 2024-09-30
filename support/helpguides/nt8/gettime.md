@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Bars \> GetTime()
+NinjaScript > Language Reference > Common > Bars > GetTime()
 GetTime()
-| \<\< [Click to Display Table of Contents](gettime.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Bars](bars.md) \> GetTime() | [Previous page](getsessionendtime.md) [Return to chapter overview](bars.md) [Next page](getvolume.md) |
+| << [Click to Display Table of Contents](gettime.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) > GetTime() | [Previous page](getsessionendtime.md) [Return to chapter overview](bars.md) [Next page](getvolume.md) |
 | --- | --- |
 ## Definition
 Returns the time stamp at the current bar index value.
@@ -22,5 +22,5 @@ Bars.GetTime(int index)
 ## Examples
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    base.OnRender(chartControl, chartScale);    // loop through only the rendered bars on the chart    for(int barIndex \= ChartBars.FromIndex; barIndex \<\= ChartBars.ToIndex; barIndex\+\+)    {      // get the time stamp at the selected bar index value      DateTime timeValue \= Bars.GetTime(barIndex);      Print("Bar \#" \+ barIndex \+ " time stamp is " \+ timeValue);    } } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    base.OnRender(chartControl, chartScale);    // loop through only the rendered bars on the chart    for(int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)    {      // get the time stamp at the selected bar index value      DateTime timeValue = Bars.GetTime(barIndex);      Print("Bar #" + barIndex + " time stamp is " + timeValue);    } } |
 

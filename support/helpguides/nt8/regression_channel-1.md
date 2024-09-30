@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Regression Channel
+NinjaScript > Language Reference > Common > System Indicator Methods > Regression Channel
 
 Regression Channel
 
-| \<\< [Click to Display Table of Contents](regression_channel.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [System Indicator Methods](indicators-1.md) \> Regression Channel | [Previous page](rate_of_change_roc-1.md) [Return to chapter overview](indicators-1.md) [Next page](relative_spread_strength_rss-1.md) |
+| << [Click to Display Table of Contents](regression_channel.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) > Regression Channel | [Previous page](rate_of_change_roc-1.md) [Return to chapter overview](indicators-1.md) [Next page](relative_spread_strength_rss-1.md) |
 | --- | --- |
 ## Description
 A Regression Channel is created by drawing parallel lines above and below the [Linear Regression](linear_regression-1.md) line. 
@@ -15,34 +15,34 @@ A Linear Regression trendline shows where equilibrium exists but Linear Regressi
 ## Syntax
 RegressionChannel(int period, double width)  
 
-RegressionChannel(ISeries\<double\> input, int period, double width)  
+RegressionChannel(ISeries<double> input, int period, double width)  
 
    
 
 Returns default midline value  
 
-RegressionChannel(int period, double width)\[int barsAgo]  
+RegressionChannel(int period, double width)[int barsAgo]  
 
-RegressionChannel(ISeries\<double\> input, int period, double width)\[int barsAgo]  
+RegressionChannel(ISeries<double> input, int period, double width)[int barsAgo]  
 
    
 
 Returns upper channel value  
 
-RegressionChannel(int period, double width).Upper\[int barsAgo]  
+RegressionChannel(int period, double width).Upper[int barsAgo]  
 
-RegressionChannel(ISeries\<double\> input, int period, double width).Upper\[int barsAgo]  
+RegressionChannel(ISeries<double> input, int period, double width).Upper[int barsAgo]  
 
    
 
 Returns lower channel value  
 
-RegressionChannel(int period, double width).Lower\[int barsAgo]  
+RegressionChannel(int period, double width).Lower[int barsAgo]  
 
-RegressionChannel(ISeries\<double\> input, int period, double width).Lower\[int barsAgo]
+RegressionChannel(ISeries<double> input, int period, double width).Lower[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 
@@ -59,7 +59,7 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 
 | ns |
 | --- |
-| // Prints the current value of a 20 period channel using default price type double value \= RegressionChannel(20, 2).Upper\[0]; Print("The current upper channel value is " \+ value.ToString()); |
+| // Prints the current value of a 20 period channel using default price type double value = RegressionChannel(20, 2).Upper[0]; Print("The current upper channel value is " + value.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

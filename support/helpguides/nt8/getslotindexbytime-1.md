@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartControl \> GetSlotIndexByTime()
+NinjaScript > Language Reference > Common > Charts > ChartControl > GetSlotIndexByTime()
 GetSlotIndexByTime()
-| \<\< [Click to Display Table of Contents](getslotindexbytime.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartControl](chartcontrol-1.md) \> GetSlotIndexByTime() | [Previous page](chartcontrol_getbarpaintwidth-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](getslotindexbyx-1.md) |
+| << [Click to Display Table of Contents](getslotindexbytime.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartControl](chartcontrol-1.md) > GetSlotIndexByTime() | [Previous page](chartcontrol_getbarpaintwidth-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](getslotindexbyx-1.md) |
 | --- | --- |
 ## Definition
 Returns the slot index relative to the chart control corresponding to a specified time value. 
@@ -13,7 +13,7 @@ Returns the slot index relative to the chart control corresponding to a specifie
 A double representing a slot index
 ## 
 ## Syntax
-\<ChartControl\>.GetSlotIndexByTime(DateTime time)
+<ChartControl>.GetSlotIndexByTime(DateTime time)
 ## 
 | Warning:  This method CANNOT be called on BarSpacingType.TimeBased charts.  You will need to ensure an Equidistant [bar spacing type](barspacingtype-1.md) is used, otherwise errors will be thrown. |
 | --- |
@@ -26,5 +26,5 @@ A double representing a slot index
 ## Example
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // ensure that GetSlotIndexByTime is called on TimeBased charts    if(chartControl.BarSpacingType !\= BarSpacingType.TimeBased)    {      // get the slot index of the first time painted on the chart      double slotIndex \= chartControl.GetSlotIndexByTime(chartControl.FirstTimePainted);             Print(slotIndex);    } } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {    // ensure that GetSlotIndexByTime is called on TimeBased charts    if(chartControl.BarSpacingType != BarSpacingType.TimeBased)    {      // get the slot index of the first time painted on the chart      double slotIndex = chartControl.GetSlotIndexByTime(chartControl.FirstTimePainted);             Print(slotIndex);    } } |
 

@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.VerticalLine()
+NinjaScript > Language Reference > Common > Drawing > Draw.VerticalLine()
 
 Draw.VerticalLine()
-| \<\< [Click to Display Table of Contents](draw_verticalline.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> Draw.VerticalLine() | [Previous page](triangleup-1.md) [Return to chapter overview](drawing-1.md) [Next page](verticalline-1.md) |
+| << [Click to Display Table of Contents](draw_verticalline.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > Draw.VerticalLine() | [Previous page](triangleup-1.md) [Return to chapter overview](drawing-1.md) [Next page](verticalline-1.md) |
 | --- | --- |
 ## Definition
 Draws a vertical line.
@@ -34,7 +34,7 @@ Draw.VerticalLine(NinjaScriptBase owner, string tag, DateTime time, bool isGloba
 | brush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | dashStyle | DashStyleHelper.Dash  DashStyleHelper.DashDot  DashStyleHelper.DashDotDot  DashStyleHelper.Dot  DashStyleHelper.Solid    Note: Fancier DashStyles like DashDotDot will require more resources than simple DashStyles like Solid. |
 | width | The width of the draw object |
-| drawOnPricePanel | Determines if the draw\-object should be on the price panel or a separate panel |
+| drawOnPricePanel | Determines if the draw-object should be on the price panel or a separate panel |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 

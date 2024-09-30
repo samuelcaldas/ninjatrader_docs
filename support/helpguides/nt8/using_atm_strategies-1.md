@@ -1,23 +1,23 @@
 ﻿
-NinjaScript \> Educational Resources \> Using ATM Strategies
+NinjaScript > Educational Resources > Using ATM Strategies
 Using ATM Strategies
 
-| \<\< [Click to Display Table of Contents](using_atm_strategies.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> Using ATM Strategies | [Previous page](using_3rd_party_indicators-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](using_bitmapimage_objects_with_buttons-1.md) |
+| << [Click to Display Table of Contents](using_atm_strategies.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > Using ATM Strategies | [Previous page](using_3rd_party_indicators-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](using_bitmapimage_objects_with_buttons-1.md) |
 | --- | --- |
 
 You can create an automated strategy that generates a trade signal that executes a NinjaTrader [ATM Strategy](atm_strategy-1.md). 
  
-- ATM Strategies operate in real\-time only and will not execute on historical data thus they can't be backtested 
+- ATM Strategies operate in real-time only and will not execute on historical data thus they can't be backtested 
 
-- Executions resulting from an ATM Strategy that is created from within a NinjaScript automated strategy will not plot on a chart during real\-time operation 
+- Executions resulting from an ATM Strategy that is created from within a NinjaScript automated strategy will not plot on a chart during real-time operation 
 
 - Strategy set up parameters such as [EntriesPerDirection](entriesperdirection-1.md), [EntryHandling](entryhandling-1.md), [IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy-1.md) do not apply when calling the [AtmStrategyCreate()](atmstrategycreate-1.md) method
 
-- Executions from ATM Strategies will not have an impact on the hosting NinjaScript strategy position and PnL \- the NinjaScript strategy hands off the execution aspects to the ATM, thus no monitoring via the regular NinjaScript strategy methods will take place (also applies to strategy performance tracking)
+- Executions from ATM Strategies will not have an impact on the hosting NinjaScript strategy position and PnL - the NinjaScript strategy hands off the execution aspects to the ATM, thus no monitoring via the regular NinjaScript strategy methods will take place (also applies to strategy performance tracking)
 
-- ATM Strategy stop orders can either be StopMarket or StopLimit orders, depending on which type is defined in the ATM Strategy Template ([Advanced Options](advanced_options-1.md)[)](advanced_options-1.md) you call in the [AtmStrategyCreate()](atmstrategycreate-1.md) method in your NinjaScript strategy. To make the distinction clear which is used, following a naming convention for the template name is highly suggested (i.e. AtmStrategyTemplate\_STPLMT)
+- ATM Strategy stop orders can either be StopMarket or StopLimit orders, depending on which type is defined in the ATM Strategy Template ([Advanced Options](advanced_options-1.md)[)](advanced_options-1.md) you call in the [AtmStrategyCreate()](atmstrategycreate-1.md) method in your NinjaScript strategy. To make the distinction clear which is used, following a naming convention for the template name is highly suggested (i.e. AtmStrategyTemplate_STPLMT)
 
-- A general sample for calling ATM's is preinstalled with NinjaTrader under the 'SampleATMStrategy' script \- for a script showing how to implement reversal type setups, please see [this link](http://www.ninjatrader.com/support/forum/local_links.php?action=jump&catid=8&id=866) to our online resources.
+- A general sample for calling ATM's is preinstalled with NinjaTrader under the 'SampleATMStrategy' script - for a script showing how to implement reversal type setups, please see [this link](http://www.ninjatrader.com/support/forum/local_links.php?action=jump&catid=8&id=866) to our online resources.
 
  
 ## There is a Clear Line...

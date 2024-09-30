@@ -1,7 +1,7 @@
 ﻿
-Operations \> Control Center \> Tools Menu
+Operations > Control Center > Tools Menu
 Tools Menu
-| \<\< [Click to Display Table of Contents](tools_menu.md) \>\> **Navigation:**     [Operations](operations.md) \> [Control Center](control_center.md) \> Tools Menu | [Previous page](new_menu.md) [Return to chapter overview](control_center.md) [Next page](workspaces_menu.md) |
+| << [Click to Display Table of Contents](tools_menu.md) >> **Navigation:**     [Operations](operations.md) > [Control Center](control_center.md) > Tools Menu | [Previous page](new_menu.md) [Return to chapter overview](control_center.md) [Next page](workspaces_menu.md) |
 | --- | --- |
 The following menus and items are available via the Tools menu of the NinjaTrader Control Center.
  
@@ -17,8 +17,8 @@ The following menus and items are available via the Tools menu of the NinjaTrade
 | [Risk](understanding_risks.md) | Opens the Risk window |
 | [Trading Hours](trading_hours.md) | Opens the Trading Hours window |
 | [Vendor Licensing](licensing_user_authentication.md) | Opens the Vendor Licensing window |
-| Import | Opens the Import Sub Menu; [Backup File](restoring_a_backup_archive.md), [Historical Data](importing.md), [NinjaScript Add\-On](import.md), [Stock Symbol List](importing_a_list_of_stock_symb.md) |
-| Export | Opens the Export Sub Menu; [Backup File](creating_a_backup_archive.md), [Historical Data](exporting.md), [NinjaScript Add\-On](export.md) |
+| Import | Opens the Import Sub Menu; [Backup File](restoring_a_backup_archive.md), [Historical Data](importing.md), [NinjaScript Add-On](import.md), [Stock Symbol List](importing_a_list_of_stock_symb.md) |
+| Export | Opens the Export Sub Menu; [Backup File](creating_a_backup_archive.md), [Historical Data](exporting.md), [NinjaScript Add-On](export.md) |
 | [Remove NinjaScript Assembly](remove-ninjascript-assembly.md) | Opens the Remove NinjaScript assembly window |
 | [Global Simulation Mode](global_simulation_mode.md) | Enables or Disables Global Simulation Mode (Note: Global simulation mode can only be enabled with a live NinjaTrader License) |
 | Client Dashboard | Opens the web view of the Client Dashboard |

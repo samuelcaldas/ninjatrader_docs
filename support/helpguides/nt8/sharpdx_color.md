@@ -1,15 +1,15 @@
 ﻿
-NinjaScript \> SharpDX SDK Reference \> SharpDX \> Color
-SharpDX.Direct2D1\.Color
-| \<\< [Click to Display Table of Contents](sharpdx_color.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [SharpDX SDK Reference](sharpdx_sdk_reference.md) \> [SharpDX](sharpdx.md) \> SharpDX.Direct2D1\.Color | [Previous page](sharpdx.md) [Return to chapter overview](sharpdx.md) [Next page](sharpdx_color3.md) |
+NinjaScript > SharpDX SDK Reference > SharpDX > Color
+SharpDX.Direct2D1.Color
+| << [Click to Display Table of Contents](sharpdx_color.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [SharpDX SDK Reference](sharpdx_sdk_reference.md) > [SharpDX](sharpdx.md) > SharpDX.Direct2D1.Color | [Previous page](sharpdx.md) [Return to chapter overview](sharpdx.md) [Next page](sharpdx_color3.md) |
 | --- | --- |
-| Disclaimer: The [SharpDX SDK Reference](sharpdx_sdk_reference.md) section was compiled from the official [SharpDX Documentation](http://sharpdx.org/) and was NOT authored by NinjaTrader.  The contents of this section are provided as\-is and only cover a fraction of what is available from the SharpDX SDK.  This page was intended only as a reference guide to help you get started with some of the 2D Graphics concepts used in the NinjaTrader.Custom assembly.  Please refer to the official SharpDX Documentation for additional members not covered in this reference.  For more seasoned graphic developers, the original MSDN [Direct2D1](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx) and [DirectWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368038.aspx) unmanaged API documentation can also be helpful for understanding the DirectX/Direct2D run\-time environment. For NinjaScript development purposes, we document only essential members in the structure of this page. |
+| Disclaimer: The [SharpDX SDK Reference](sharpdx_sdk_reference.md) section was compiled from the official [SharpDX Documentation](http://sharpdx.org/) and was NOT authored by NinjaTrader.  The contents of this section are provided as-is and only cover a fraction of what is available from the SharpDX SDK.  This page was intended only as a reference guide to help you get started with some of the 2D Graphics concepts used in the NinjaTrader.Custom assembly.  Please refer to the official SharpDX Documentation for additional members not covered in this reference.  For more seasoned graphic developers, the original MSDN [Direct2D1](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx) and [DirectWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368038.aspx) unmanaged API documentation can also be helpful for understanding the DirectX/Direct2D run-time environment. For NinjaScript development purposes, we document only essential members in the structure of this page. |
 | --- |
 
 ## Definition
-Represents a 32\-bit color (4 bytes) in the form of RGBA (in byte order: R, G, B, A).
+Represents a 32-bit color (4 bytes) in the form of RGBA (in byte order: R, G, B, A).
  
-| Notes:   1\.The color of each pixel is represented as a 32\-bit number: 8 bits each for alpha, red, green, and blue (ARGB). Each of the four components is a number from 0 through 255, with 0 representing no intensity and 255 representing full intensity. The alpha component specifies the transparency of the color: 0 is fully transparent, and 255 is fully opaque. To determine the alpha, red, green, or blue component of a color, use the A, R, G, or B property, respectively. 2\.Named colors are represented by using the properties of the Color structure.  Please see the table of Static Named Colors below |
+| Notes:   1.The color of each pixel is represented as a 32-bit number: 8 bits each for alpha, red, green, and blue (ARGB). Each of the four components is a number from 0 through 255, with 0 representing no intensity and 255 representing full intensity. The alpha component specifies the transparency of the color: 0 is fully transparent, and 255 is fully opaque. To determine the alpha, red, green, or blue component of a color, use the A, R, G, or B property, respectively. 2.Named colors are represented by using the properties of the Color structure.  Please see the table of Static Named Colors below |
 | --- |
 
  

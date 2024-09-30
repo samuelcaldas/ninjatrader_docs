@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods
+NinjaScript > Language Reference > Common > System Indicator Methods
 System Indicator Methods
-| \<\< [Click to Display Table of Contents](indicators.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> System Indicator Methods | [Previous page](simplefont_todirectwritetextformat-1.md) [Return to chapter overview](common-1.md) [Next page](valid_input_data_for_indicator-1.md) |
+| << [Click to Display Table of Contents](indicators.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > System Indicator Methods | [Previous page](simplefont_todirectwritetextformat-1.md) [Return to chapter overview](common-1.md) [Next page](valid_input_data_for_indicator-1.md) |
 | --- | --- |
 The "Indicators" reference provides definitions, syntax, parameter definitions and examples for NinjaTrader system indicator methods.
  
@@ -95,35 +95,35 @@ The "Indicators" reference provides definitions, syntax, parameter definitions a
 
 ›[Money Flow Index (MFI)](money_flow_index_mfi-1.md)
 
-›[Moving Average \- Double Exponential (DEMA)](moving_average_-_double_expone-1.md)
+›[Moving Average - Double Exponential (DEMA)](moving_average_-_double_expone-1.md)
 
-›[Moving Average \- Exponential (EMA)](moving_average_-_exponential_e-1.md)
+›[Moving Average - Exponential (EMA)](moving_average_-_exponential_e-1.md)
 
-›[Moving Average \- Hull (HMA)](moving_average_-_hull_hma-1.md)
+›[Moving Average - Hull (HMA)](moving_average_-_hull_hma-1.md)
 
-›[Moving Average \- Kaufman's Adaptive (KAMA)](moving_average_-_kaufmans_adap-1.md)
+›[Moving Average - Kaufman's Adaptive (KAMA)](moving_average_-_kaufmans_adap-1.md)
 
-›[Moving Average \- Mesa Adaptive (MAMA)](moving_average_-_mesa_adaptive-1.md)
+›[Moving Average - Mesa Adaptive (MAMA)](moving_average_-_mesa_adaptive-1.md)
 
-›[Moving Average \- Simple (SMA)](moving_average_-_simple_sma-1.md)
+›[Moving Average - Simple (SMA)](moving_average_-_simple_sma-1.md)
 
-›[Moving Average \- T3 (T3\)](moving_average_-_t3_t3-1.md)
+›[Moving Average - T3 (T3)](moving_average_-_t3_t3-1.md)
 
-›[Moving Average \- Triangular (TMA)](moving_average_-_triangular_tm-1.md)
+›[Moving Average - Triangular (TMA)](moving_average_-_triangular_tm-1.md)
 
-›[Moving Average \- Triple Exponential (TEMA)](moving_average_-_triple_expone-1.md)
+›[Moving Average - Triple Exponential (TEMA)](moving_average_-_triple_expone-1.md)
 
-›[Moving Average \- Triple Exponential (TRIX)](moving_average_-_triple_expon2-1.md)
+›[Moving Average - Triple Exponential (TRIX)](moving_average_-_triple_expon2-1.md)
 
-›[Moving Average \- Variable (VMA)](moving_average_-_variable_vma-1.md)
+›[Moving Average - Variable (VMA)](moving_average_-_variable_vma-1.md)
 
-›[Moving Average \- Volume Weighted (VWMA)](moving_average_-_volume_weight-1.md)
+›[Moving Average - Volume Weighted (VWMA)](moving_average_-_volume_weight-1.md)
 
-›[Moving Average \- Weighted (WMA)](moving_average_-_weighted_wma-1.md)
+›[Moving Average - Weighted (WMA)](moving_average_-_weighted_wma-1.md)
 
-›[Moving Average \- Zero Lag Exponential (ZLEMA)](moving_average_-_zero_lag_expo-1.md)
+›[Moving Average - Zero Lag Exponential (ZLEMA)](moving_average_-_zero_lag_expo-1.md)
 
-›[Moving Average Convergence\-Divergence (MACD)](moving_average_convergence-divergence_macd-1.md)
+›[Moving Average Convergence-Divergence (MACD)](moving_average_convergence-divergence_macd-1.md)
 
 ›[Moving Average Ribbon](moving_average_ribbon-1.md)
 
@@ -171,7 +171,7 @@ The "Indicators" reference provides definitions, syntax, parameter definitions a
 
 ›[Relative Volatility Index (RVI)](relative_volatility_index_rvi-1.md)
 
-›[R\-squared](r_squared-1.md)
+›[R-squared](r_squared-1.md)
 
 ›[Standard Deviation (StdDev)](standard_deviation_stddev-1.md)
 

@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> DrawnBy
+NinjaScript > Language Reference > Drawing Tool > DrawnBy
 
 DrawnBy
-| \<\< [Click to Display Table of Contents](drawnby.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Drawing Tool](drawing_tools-1.md) \> DrawnBy | [Previous page](drawingstate-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](getattachedtochartbars-1.md) |
+| << [Click to Display Table of Contents](drawnby.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > DrawnBy | [Previous page](drawingstate-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](getattachedtochartbars-1.md) |
 | --- | --- |
 ## Definition
 Represents the NinjaScript object which created the drawing object

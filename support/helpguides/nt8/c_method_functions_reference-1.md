@@ -1,15 +1,15 @@
 ﻿
-NinjaScript \> Educational Resources \> C\# Method (Functions) Reference
+NinjaScript > Educational Resources > C# Method (Functions) Reference
 
-C\# Method (Functions) Reference
-| \<\< [Click to Display Table of Contents](c_method_functions_reference.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> C\# Method (Functions) Reference | [Previous page](other_uses_for_an_addon-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](developing_for__tick_replay-1.md) |
+C# Method (Functions) Reference
+| << [Click to Display Table of Contents](c_method_functions_reference.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > C# Method (Functions) Reference | [Previous page](other_uses_for_an_addon-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](developing_for__tick_replay-1.md) |
 | --- | --- |
 ## Native Methods
 The Microsoft .NET environment has a rich class library that you can access when developing custom indicators and strategies. There is a plethora of information available online and in print that details class libraries in great depth. Below are quick links to the Microsoft Developers Network for some of the basic classes whose functionality you may harness when developing in NinjaScript.
  
 Complete [list of classes](https://msdn.microsoft.com/en-us/library/d11h6832(v=vs.90).aspx) in the Microsoft .NET environment.
  
-[MSDN (Microsoft Developers Network) C\# Language Reference](http://msdn.microsoft.com/en-us/library/ms228593.aspx)
+[MSDN (Microsoft Developers Network) C# Language Reference](http://msdn.microsoft.com/en-us/library/ms228593.aspx)
 [Keywords](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/index)
 [Operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/index)
 [Arrays](http://msdn.microsoft.com/en-us/library/9b9dty7d)
@@ -20,7 +20,7 @@ Full list of [member](https://msdn.microsoft.com/en-us/library/xaz41263(v=vs.110
  
 | ns |
 | --- |
-| // Example of the Max method of the System.Math class int myInteger \= Math.Max(10, 20\); Print("The larger value between 10 and 20 is " \+ myInteger.ToString()); |
+| // Example of the Max method of the System.Math class int myInteger = Math.Max(10, 20); Print("The larger value between 10 and 20 is " + myInteger.ToString()); |
 
  
 System.DateTime
@@ -29,7 +29,7 @@ Full list of [members](https://msdn.microsoft.com/en-us/library/system.datetime(
  
 | ns |
 | --- |
-| // Example of the Now property member of the System.DateTime structure DateTime startTime \= DateTime.Now; Print("Time elapsed is " \+ DateTime.Now.Subtract(startTime).TotalMilliseconds.ToString() \+ " milliseconds."); |
+| // Example of the Now property member of the System.DateTime structure DateTime startTime = DateTime.Now; Print("Time elapsed is " + DateTime.Now.Subtract(startTime).TotalMilliseconds.ToString() + " milliseconds."); |
 
  
 System.String
@@ -38,4 +38,4 @@ Full list of [members](https://msdn.microsoft.com/en-us/library/system.string(v=
  
 | ns |
 | --- |
-| // Example of the ToUpper() method of the System.String class string myString \= "ninjatrader"; Print("The following word is in uppercase " \+ myString.ToUpper());); |
+| // Example of the ToUpper() method of the System.String class string myString = "ninjatrader"; Print("The following word is in uppercase " + myString.ToUpper());); |

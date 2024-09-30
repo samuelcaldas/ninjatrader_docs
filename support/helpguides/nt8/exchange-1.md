@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Instruments \> Instrument \> Exchange
+NinjaScript > Language Reference > Common > Instruments > Instrument > Exchange
 Exchange
-| \<\< [Click to Display Table of Contents](exchange.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Instruments](instruments_ninjascript-1.md) \> [Instrument](instrument-1.md) \> Exchange | [Previous page](instrument-1.md) [Return to chapter overview](instrument-1.md) [Next page](expiry-1.md) |
+| << [Click to Display Table of Contents](exchange.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Instruments](instruments_ninjascript-1.md) > [Instrument](instrument-1.md) > Exchange | [Previous page](instrument-1.md) [Return to chapter overview](instrument-1.md) [Next page](expiry-1.md) |
 | --- | --- |
 ## Definition
 Indicates the current exchange of an instrument
@@ -20,5 +20,5 @@ Instrument.Exchange
 ## 
  
 ## Additional Access Information
-This property can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be an Instrument object. Should you wish to access this property elsewhere, check for null reference first. e.g. if (Instrument !\= null)
+This property can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be an Instrument object. Should you wish to access this property elsewhere, check for null reference first. e.g. if (Instrument != null)
 

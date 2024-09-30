@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Add On
+NinjaScript > Language Reference > Add On
 Add On
-| \<\< [Click to Display Table of Contents](add_on.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> Add On | [Previous page](triggercustomevent-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](controls-1.md) |
+| << [Click to Display Table of Contents](add_on.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > Add On | [Previous page](triggercustomevent-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](controls-1.md) |
 | --- | --- |
 Custom Add Ons can be used to extend NinjaTrader's functionality. The methods and properties covered in this section are unique to custom Add On development.
  
@@ -10,7 +10,7 @@ For more information on the Add On development process please see [this](develop
 | [NinjaTrader Controls](controls-1.md) | This section contains controls that are native NinjaTrader controls. |
 | --- | --- |
 | [Account](account_class-1.md) | The Account class can be used to subscribe to account related events as well as accessing account related information. |
-| [BarsRequest](barsrequest-1.md) | BarsRequest can be used to request [Bars](bars-1.md) data and subscribe to real\-time Bars data events. |
+| [BarsRequest](barsrequest-1.md) | BarsRequest can be used to request [Bars](bars-1.md) data and subscribe to real-time Bars data events. |
 | [Connection](connection_class-1.md) | The Connection class can be used to monitor connection related events as well as accessing connection related information. |
 | [IInstrumentProvider Interface](iinstrumentprovider_interface-1.md) | When creating your [NTTabPage](nttabpage_class-1.md), if you wish to use the [instrument link](linking_windows-1.md), be sure to implement the IInstrumentProvider interface. |
 | [IIntervalProvider Interface](iintervalprovider_interface-1.md) | When creating your [NTTabPage](nttabpage_class-1.md), if you wish to use the [interval link](linking_windows-1.md), be sure to implement the IIntervalProvider interface. |
@@ -19,7 +19,7 @@ For more information on the Add On development process please see [this](develop
 | [NTTabPage Class](nttabpage_class-1.md) | This is where the actual content for tabs inside the custom add on [NTWindow](ntwindow-1.md) can be defined. |
 | [Alert and Debug Concepts](alert_and_debug_concepts-1.md) | In most scenarios you can use the NinjaScript provided methods for triggering alerts and debugging functionality. However, when building your own custom objects, you may find yourself wanting to use this functionality outside the NinjaScript scope. |
 | [AtmStrategy](atmstrategy-1.md) | AtmStrategy contains properties and methods used to manage [ATM Strategies](advanced_trade_management_atm-1.md). |
-| [ControlCenter](controlcenter-1.md) | ControlCenter is a XAML\-defined class containing the layout and properties of the Control Center window. |
+| [ControlCenter](controlcenter-1.md) | ControlCenter is a XAML-defined class containing the layout and properties of the Control Center window. |
 | [FundamentalData](fundamentaldata-1.md) | FundamentalData is used to access fundamental snapshot data and for subscribing to fundamental data events. |
 | [MarketData](marketdata-1.md) | MarketData can be used to access snapshot market data and for subscribing to market data events. |
 | [MarketDepth](marketdepth-1.md) | MarketDepth can be used to access snapshot market depth and for subscribing to market depth events. |

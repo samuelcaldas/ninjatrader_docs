@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> Account \> Connection
+NinjaScript > Language Reference > Add On > Account > Connection
 Connection
-| \<\< [Click to Display Table of Contents](connection.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Add On](add_on-1.md) \> [Account](account_class-1.md) \> Connection | [Previous page](change-1.md) [Return to chapter overview](account_class-1.md) [Next page](connectoptions-1.md) |
+| << [Click to Display Table of Contents](connection.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [Account](account_class-1.md) > Connection | [Previous page](change-1.md) [Return to chapter overview](account_class-1.md) [Next page](connectoptions-1.md) |
 | --- | --- |
 ## Definition
 Indicates the data connection used for the specified account.
@@ -10,10 +10,10 @@ Indicates the data connection used for the specified account.
 An instance of the Connection class containing information about the connection used for a specified account
  
 ## Syntax
-\<Account\>.Connection
+<Account>.Connection
 ## 
 ## Examples
 | ns |
 | --- |
-| private Account myAccount;   protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {        myAccount \= Account.All.FirstOrDefault(a \=\> a.Name \=\= "Sim101");    } }   private void OnAccountStatusUpdate(object sender, AccountStatusEventArgs e) {    Print(String.Format("{0} connection updated", myAccount.Connection.Options.Name)); } |
+| private Account myAccount;   protected override void OnStateChange() {    if (State == State.SetDefaults)    {        myAccount = Account.All.FirstOrDefault(a => a.Name == "Sim101");    } }   private void OnAccountStatusUpdate(object sender, AccountStatusEventArgs e) {    Print(String.Format("{0} connection updated", myAccount.Connection.Options.Name)); } |
 

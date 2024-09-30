@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartPanel \> IsYAxisDisplayedOverlay
+NinjaScript > Language Reference > Common > Charts > ChartPanel > IsYAxisDisplayedOverlay
 IsYAxisDisplayedOverlay
 
-| \<\< [Click to Display Table of Contents](isyaxisdisplayedoverlay_chartpanel.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartPanel](chartpanel-1.md) \> IsYAxisDisplayedOverlay | [Previous page](isyacisdisplayedleft_chartpanel-1.md) [Return to chapter overview](chartpanel-1.md) [Next page](isyaxisdisplayedright_chartpanel-1.md) |
+| << [Click to Display Table of Contents](isyaxisdisplayedoverlay_chartpanel.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartPanel](chartpanel-1.md) > IsYAxisDisplayedOverlay | [Previous page](isyacisdisplayedleft_chartpanel-1.md) [Return to chapter overview](chartpanel-1.md) [Next page](isyaxisdisplayedright_chartpanel-1.md) |
 | --- | --- |
 
 ## Definition

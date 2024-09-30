@@ -1,18 +1,18 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.AndrewsPitchfork() \> AndrewsPitchfork
+NinjaScript > Language Reference > Common > Drawing > Draw.AndrewsPitchfork() > AndrewsPitchfork
 
 AndrewsPitchfork
 
-| \<\< [Click to Display Table of Contents](andrewspitchfork.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> [Draw.AndrewsPitchfork()](draw_andrewspitchfork.md) \> AndrewsPitchfork | [Previous page](draw_andrewspitchfork.md) [Return to chapter overview](draw_andrewspitchfork.md) [Next page](draw_arc.md) |
+| << [Click to Display Table of Contents](andrewspitchfork.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.AndrewsPitchfork()](draw_andrewspitchfork.md) > AndrewsPitchfork | [Previous page](draw_andrewspitchfork.md) [Return to chapter overview](draw_andrewspitchfork.md) [Next page](draw_arc.md) |
 | --- | --- |
 ## Definition
 Represents an object that exposes information regarding an Andrews Pitchfork [IDrawingTool](idrawingtool.md). 
  
 The Standard Pitchfork creates a trend channel out of the 3 user defined extreme price anchor points by connecting the first 2 points to form the anchor, and the next 2 points to form the retracement handle. From the first point then a trendline is drawn through the 50% midpoint of the retracement handle, parallel lines originating at the other 2 points forming the channel, while multiple further price levels could be set to allow for finer analysis. 
  
-In contrast the Schiff Pitchfork variant is constructed then by shifting the first anchor of the Standard Pitchfork one\-half the vertical distance between the first 2 anchor points.
+In contrast the Schiff Pitchfork variant is constructed then by shifting the first anchor of the Standard Pitchfork one-half the vertical distance between the first 2 anchor points.
  
-As further alternation the Modified Schiff Pitchfork variant is found by moving the first anchor to the midpoint of the original pitchfork's anchor handle, the trend\-line connecting our first 2 anchor points.
+As further alternation the Modified Schiff Pitchfork variant is found by moving the first anchor to the midpoint of the original pitchfork's anchor handle, the trend-line connecting our first 2 anchor points.
  
 ## Methods and Properties
 
@@ -31,4 +31,4 @@ As further alternation the Modified Schiff Pitchfork variant is found by moving 
 
 | ns |
 | --- |
-| // Instantiate an Andrews Pitchfork object AndrewsPitchfork myFork \= Draw.AndrewsPitchfork(this, "tag1", false, 7, Low\[7], 5, High\[5], 1, Low\[1], false, "ForkTemplate");   // Print the tag used to draw the object Print(myFork.Tag); |
+| // Instantiate an Andrews Pitchfork object AndrewsPitchfork myFork = Draw.AndrewsPitchfork(this, "tag1", false, 7, Low[7], 5, High[5], 1, Low[1], false, "ForkTemplate");   // Print the tag used to draw the object Print(myFork.Tag); |

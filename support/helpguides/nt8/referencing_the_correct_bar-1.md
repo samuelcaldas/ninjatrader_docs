@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Educational Resources \> Tips \> Referencing the correct bar
+NinjaScript > Educational Resources > Tips > Referencing the correct bar
 
 Referencing the correct bar
 
-| \<\< [Click to Display Table of Contents](referencing_the_correct_bar.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> [Tips](tips-1.md) \> Referencing the correct bar | [Previous page](parameter_sequencing-1.md) [Return to chapter overview](tips-1.md) [Next page](strategy_position_vs__account_-1.md) |
+| << [Click to Display Table of Contents](referencing_the_correct_bar.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Tips](tips-1.md) > Referencing the correct bar | [Previous page](parameter_sequencing-1.md) [Return to chapter overview](tips-1.md) [Next page](strategy_position_vs__account_-1.md) |
 | --- | --- |
 When coding an indicator or strategy it is important to be able to access the intended bars for correct calculations. In NinjaScript we are able to access the bars we want through proper use of the bar's indexing.
  
@@ -13,7 +13,7 @@ For example, if we wanted to subtract the high and low of 10 bars ago from each 
 
 | ns |
 | --- |
-| double value \= High\[10] \- Low\[10]; |
+| double value = High[10] - Low[10]; |
  
 Now that we know how the indexing works there are several properties and methods at our disposal that can help us access important keystone bars. The more important ones are [CurrentBar](currentbar-1.md) and [BarsSinceNewTradingDay](barssincenewtradingday-1.md).
  
@@ -24,10 +24,10 @@ For example, if you wanted to find the average high value of the first 10 bars o
 
 | ns |
 | --- |
-| double highValue \= 0; int x \= CurrentBar; while (x \> CurrentBar \- 10) {     highValue \+\= High\[x];     x\-\-; } Print("The average high value: " \+ highValue/10); |
+| double highValue = 0; int x = CurrentBar; while (x > CurrentBar - 10) {     highValue += High[x];     x--; } Print("The average high value: " + highValue/10); |
  
 
-| Note: A common mistake in using CurrentBar is using it in the index to access the most recent bar. In this situation, instead of doing something like Close\[CurrentBar] you will want to do Close\[0]. |
+| Note: A common mistake in using CurrentBar is using it in the index to access the most recent bar. In this situation, instead of doing something like Close[CurrentBar] you will want to do Close[0]. |
 | --- |
  
 ## BarsSinceNewTradingDay
@@ -37,7 +37,7 @@ For example, if you wanted to find the open of the current session you could do 
 
 | ns |
 | --- |
-| double openValue \= Open\[Bars.BarsSinceNewTradingDay]; |
+| double openValue = Open[Bars.BarsSinceNewTradingDay]; |
  
 The example used in the discussion about CurrentBar can also be done with Bars.BarsSinceNewTradingDay if you wanted to calculate values based on the current session instead of the start of the chart too.
  

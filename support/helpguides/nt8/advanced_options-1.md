@@ -1,8 +1,8 @@
 ﻿
-Operations \> Advanced Trade Management (ATM) \> ATM Strategy \> Advanced Options
+Operations > Advanced Trade Management (ATM) > ATM Strategy > Advanced Options
 
 Advanced Options
-| \<\< [Click to Display Table of Contents](advanced_options.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.md) \> [ATM Strategy](atm_strategy-1.md) \> Advanced Options | [Previous page](tutorial_atm_strategy_example2-1.md) [Return to chapter overview](atm_strategy-1.md) [Next page](auto_chase-1.md) |
+| << [Click to Display Table of Contents](advanced_options.md) >> **Navigation:**     [Operations](operations-1.md) > [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.md) > [ATM Strategy](atm_strategy-1.md) > Advanced Options | [Previous page](tutorial_atm_strategy_example2-1.md) [Return to chapter overview](atm_strategy-1.md) [Next page](auto_chase-1.md) |
 | --- | --- |
 All NinjaTrader order entry windows that offer ATM Strategies also include the Advanced Options.  The Advanced Options include: [Shadow Strategy](shadow_strategy-1.md), [Auto Chase](auto_chase-1.md), and [Auto Reverse](auto_reverse-1.md) features.  You will find the Advanced Options from the [ATM Strategy Parameters](atm_strategy_parameters-1.md) window by clicking on the More text (see the green arrow in the image below) which will expand these additional features.
  
@@ -18,5 +18,5 @@ All NinjaTrader order entry windows that offer ATM Strategies also include the A
 | MIT for Profit | When enabled, this will cause MIT orders to be used for profit targets (default is unchecked, so Limit is used) |
 
  
-| Note: The "Stop Limit for Stop Loss" will not apply to Equities or Forex instruments \- if this property is enabled when trading a stock or forex instrument, Stop Market orders will be used, instead. |
+| Note: The "Stop Limit for Stop Loss" will not apply to Equities or Forex instruments - if this property is enabled when trading a stock or forex instrument, Stop Market orders will be used, instead. |
 | --- |

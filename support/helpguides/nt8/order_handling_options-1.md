@@ -1,9 +1,9 @@
 ﻿
-Operations \> Automated Trading \> Automated Trading Interface (ATI) \> TradeStation Email Integration \> Order Handling Options
+Operations > Automated Trading > Automated Trading Interface (ATI) > TradeStation Email Integration > Order Handling Options
 
 Order Handling Options
 
-| \<\< [Click to Display Table of Contents](order_handling_options.md) \>\> **Navigation:**     [Operations](operations-1.md) \> [Automated Trading](automated_trading-1.md) \> [Automated Trading Interface (ATI)](automated_trading_interface_at-1.md) \> [TradeStation Email Integration](tradestation_email_integration-1.md) \> Order Handling Options | [Previous page](symbol_mapping-1.md) [Return to chapter overview](tradestation_email_integration-1.md) [Next page](stop_order_handling-1.md) |
+| << [Click to Display Table of Contents](order_handling_options.md) >> **Navigation:**     [Operations](operations-1.md) > [Automated Trading](automated_trading-1.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at-1.md) > [TradeStation Email Integration](tradestation_email_integration-1.md) > Order Handling Options | [Previous page](symbol_mapping-1.md) [Return to chapter overview](tradestation_email_integration-1.md) [Next page](stop_order_handling-1.md) |
 | --- | --- |
 
 | There are several Order Handling options available for the signals sent from TradeStation.  All Order Handling options are available by selecting the Tools menu in the Control Center, selecting the menu name Options, and then selecting the Automated trading interface category.  Please review all of the following Order Handling options to ensure your orders are managed as expected.    ATI_2 |
@@ -12,13 +12,13 @@ Order Handling Options
 
 | Submit market order on TS fill Submits a market order when NinjaTrader receives a "strategy filled order" notification email from TradeStation. This is the recommended option. |
 | --- |
-![tog_minus](tog_minus-1.gif)        [Understanding submit "as\-is"](javascript:HMToggle('toggle','UnderstandingSubmitasis','UnderstandingSubmitasis_ICON'))
+![tog_minus](tog_minus-1.gif)        [Understanding submit "as-is"](javascript:HMToggle('toggle','UnderstandingSubmitasis','UnderstandingSubmitasis_ICON'))
 
-| Submit "as\-is" Submits orders as specified (limit, market, stop, stop\-limit) when NinjaTrader receives a "strategy active order" notification email from TradeStation. Upon receiving the subsequent "strategy filled order" notification email from TradeStation, NinjaTrader will convert any unfilled shares/contracts to either market order or marketable limit order (substantially higher than inside market if buying or below market if selling) depending on the instrument type after a user defined number of seconds.     | Note: If trading currencies (Forex) it is advised to start a market data stream (any order entry window) for the market you are trading. Since limit buy orders above the offer or limit sell below the bid are invalid orders that are rejected from your broker, NinjaTrader will check the TradeStation requested limit price against the current market price and if it would result in a rejected order, it will convert to a market order. | | --- | |
+| Submit "as-is" Submits orders as specified (limit, market, stop, stop-limit) when NinjaTrader receives a "strategy active order" notification email from TradeStation. Upon receiving the subsequent "strategy filled order" notification email from TradeStation, NinjaTrader will convert any unfilled shares/contracts to either market order or marketable limit order (substantially higher than inside market if buying or below market if selling) depending on the instrument type after a user defined number of seconds.     | Note: If trading currencies (Forex) it is advised to start a market data stream (any order entry window) for the market you are trading. Since limit buy orders above the offer or limit sell below the bid are invalid orders that are rejected from your broker, NinjaTrader will check the TradeStation requested limit price against the current market price and if it would result in a rejected order, it will convert to a market order. | | --- | |
 | --- | --- |
 ![tog_minus](tog_minus-1.gif)        [Understanding submit and forget](javascript:HMToggle('toggle','UnderstandingSubmitAndForget','UnderstandingSubmitAndForget_ICON'))
 
-| Submit and forget Submits orders as specified (limit, market stop, stop\-limit) when NinjaTrader receives a "strategy active order" notification. There is a high probability that your TradeStation strategy position size will be out of synchronization with your live brokerage account using this option. It requires manual user interaction and is NOT recommended. |
+| Submit and forget Submits orders as specified (limit, market stop, stop-limit) when NinjaTrader receives a "strategy active order" notification. There is a high probability that your TradeStation strategy position size will be out of synchronization with your live brokerage account using this option. It requires manual user interaction and is NOT recommended. |
 | --- |
 ![tog_minus](tog_minus-1.gif)        [Understanding synchronization time out](javascript:HMToggle('toggle','UnderstandingSynchronizationTimeOut','UnderstandingSynchronizationTimeOut_ICON'))
 

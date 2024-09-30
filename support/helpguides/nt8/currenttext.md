@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Market Analyzer Column \> CurrentText
+NinjaScript > Language Reference > Market Analyzer Column > CurrentText
 CurrentText
-| \<\< [Click to Display Table of Contents](currenttext.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Market Analyzer Column](market_analyzer_column.md) \> CurrentText | [Previous page](market_analyzer_column.md) [Return to chapter overview](market_analyzer_column.md) [Next page](currentvalue.md) |
+| << [Click to Display Table of Contents](currenttext.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Market Analyzer Column](market_analyzer_column.md) > CurrentText | [Previous page](market_analyzer_column.md) [Return to chapter overview](market_analyzer_column.md) [Next page](currentvalue.md) |
 | --- | --- |
 ## Definition
 Sets text to be displayed in the Market Analyzer column.
@@ -18,5 +18,5 @@ CurrentText
 ## Example
 | ns |
 | --- |
-| protected override void OnMarketData(MarketDataEventArgs marketDataUpdate) {    // Print "Ask" in the column if an Ask price update is received    if(marketDataUpdate.MarketDataType \=\= MarketDataType.Ask)        CurrentText \= "Ask"; } |
+| protected override void OnMarketData(MarketDataEventArgs marketDataUpdate) {    // Print "Ask" in the column if an Ask price update is received    if(marketDataUpdate.MarketDataType == MarketDataType.Ask)        CurrentText = "Ask"; } |
 

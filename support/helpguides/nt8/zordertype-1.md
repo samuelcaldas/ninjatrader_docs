@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> ZOrderType
+NinjaScript > Language Reference > Drawing Tool > ZOrderType
 ZOrderType
 
-| \<\< [Click to Display Table of Contents](zordertype.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Drawing Tool](drawing_tools-1.md) \> ZOrderType | [Previous page](supportsalerts-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](import_type-1.md) |
+| << [Click to Display Table of Contents](zordertype.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > ZOrderType | [Previous page](supportsalerts-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](import_type-1.md) |
 | --- | --- |
 
 ## Definition
@@ -24,5 +24,5 @@ ZOrderType
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {      Name               \= @"My Drawing Tool";                 // always draw this last       ZOrderType           \= DrawingToolZOrder.AlwaysDrawnLast;    }    else if (State \=\= State.Configure)    {    } } |
+| protected override void OnStateChange() {    if (State == State.SetDefaults)    {      Name               = @"My Drawing Tool";                 // always draw this last       ZOrderType           = DrawingToolZOrder.AlwaysDrawnLast;    }    else if (State == State.Configure)    {    } } |
 

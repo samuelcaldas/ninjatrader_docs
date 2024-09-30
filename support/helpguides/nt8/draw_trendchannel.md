@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> Draw.TrendChannel()
+NinjaScript > Language Reference > Common > Drawing > Draw.TrendChannel()
 Draw.TrendChannel()
-| \<\< [Click to Display Table of Contents](draw_trendchannel.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Drawing](drawing.md) \> Draw.TrendChannel() | [Previous page](timecycles.md) [Return to chapter overview](drawing.md) [Next page](trendchannel.md) |
+| << [Click to Display Table of Contents](draw_trendchannel.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > Draw.TrendChannel() | [Previous page](timecycles.md) [Return to chapter overview](drawing.md) [Next page](trendchannel.md) |
 | --- | --- |
 ## Definition
 Draws a trend channel.
@@ -24,7 +24,7 @@ Draw.TrendChannel(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime 
 | owner | The hosting NinjaScript object which is calling the draw method   Typically will be the object which is calling the draw method (e.g., "this") |
 | --- | --- |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
-| isAutoScale | Determines if the draw object will be included in the y\-axis scale |
+| isAutoScale | Determines if the draw object will be included in the y-axis scale |
 | anchor1BarsAgo | The number of bars ago (x value) of the 1st anchor point |
 | anchor1Time | The time of the 1st anchor point |
 | anchor1Y | The y value of the 1st anchor point |
@@ -41,5 +41,5 @@ Draw.TrendChannel(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime 
 ## Examples
 | ns |
 | --- |
-| // Draws a trend channel Draw.TrendChannel(this, "tag1", true, 10, Low\[10], 0, High\[0], 10, High\[10] \+ 5 \* TickSize); |
+| // Draws a trend channel Draw.TrendChannel(this, "tag1", true, 10, Low[10], 0, High[0], 10, High[10] + 5 * TickSize); |
 

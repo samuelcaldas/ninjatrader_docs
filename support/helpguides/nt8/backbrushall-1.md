@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> BackBrushAll
+NinjaScript > Language Reference > Common > Drawing > BackBrushAll
 
 BackBrushAll
 
-| \<\< [Click to Display Table of Contents](backbrushall.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> BackBrushAll | [Previous page](backbrush-1.md) [Return to chapter overview](drawing-1.md) [Next page](backbrushes-1.md) |
+| << [Click to Display Table of Contents](backbrushall.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > BackBrushAll | [Previous page](backbrush-1.md) [Return to chapter overview](drawing-1.md) [Next page](backbrushes-1.md) |
 | --- | --- |
 ## Definition
 A collection of prior back brushes used for the background colors for all chart panels.
@@ -27,6 +27,6 @@ BackBrushAll
 
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      // Sets the back color to pale green      BackBrushAll \= Brushes.PaleGreen;        // Sets the back color to null to use the default color set in the chart properties dialog window      BackBrushAll \= null;        // Sets the back color to pink when the closing price is less than the 20 period SMA      // and to lime green when above (see image below)      BackBrushAll \= SMA(20)\[0] \>\= Close\[0] ? Brushes.Pink : Brushes.PaleGreen; } |
+| protected override void OnBarUpdate() {      // Sets the back color to pale green      BackBrushAll = Brushes.PaleGreen;        // Sets the back color to null to use the default color set in the chart properties dialog window      BackBrushAll = null;        // Sets the back color to pink when the closing price is less than the 20 period SMA      // and to lime green when above (see image below)      BackBrushAll = SMA(20)[0] >= Close[0] ? Brushes.Pink : Brushes.PaleGreen; } |
 
 ![MAPriceBars2](mapricebars2.png)

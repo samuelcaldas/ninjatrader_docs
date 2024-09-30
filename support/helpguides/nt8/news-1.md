@@ -1,10 +1,10 @@
 ﻿
-Operations \> News
+Operations > News
 News
 
-| \<\< [Click to Display Table of Contents](news.md) \>\> **Navigation:**     [Operations](operations-1.md) \> News | [Previous page](market-watch-properties-1.md) [Return to chapter overview](operations-1.md) [Next page](news_window-1.md) |
+| << [Click to Display Table of Contents](news.md) >> **Navigation:**     [Operations](operations-1.md) > News | [Previous page](market-watch-properties-1.md) [Return to chapter overview](operations-1.md) [Next page](news_window-1.md) |
 | --- | --- |
 
-| News Window Overview The News window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the News menu item.   The News window allows you to display, filter and create alerts for real\-time news. You will receive real\-time news if are subscribed to a news service through a market data vendor or broker.   ›[News Window](news_window-1.md)›[News Properties](news_properties-1.md) |
+| News Window Overview The News window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the News menu item.   The News window allows you to display, filter and create alerts for real-time news. You will receive real-time news if are subscribed to a news service through a market data vendor or broker.   ›[News Window](news_window-1.md)›[News Properties](news_properties-1.md) |
 | --- |
 

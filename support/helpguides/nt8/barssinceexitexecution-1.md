@@ -1,25 +1,25 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> BarsSinceExitExecution()
+NinjaScript > Language Reference > Strategy > BarsSinceExitExecution()
 BarsSinceExitExecution()
-| \<\< [Click to Display Table of Contents](barssinceexitexecution.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> BarsSinceExitExecution() | [Previous page](barssinceentryexecution-1.md) [Return to chapter overview](strategy-1.md) [Next page](chartindicators-1.md) |
+| << [Click to Display Table of Contents](barssinceexitexecution.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > BarsSinceExitExecution() | [Previous page](barssinceentryexecution-1.md) [Return to chapter overview](strategy-1.md) [Next page](chartindicators-1.md) |
 | --- | --- |
 ## Definition
 Returns the number of bars that have elapsed since the last exit. When a signal name is provided, the number of bars that have elapsed since that last specific exit will be returned.
 ## 
 ## Method Return Value
-An int value that represents a number of bars. A value of \-1 will be returned if a previous exit does not exist.
+An int value that represents a number of bars. A value of -1 will be returned if a previous exit does not exist.
  
 ## Syntax
 BarsSinceExitExecution()
 BarsSinceExitExecution(string signalName)
  
-The following method signature should be used when working with [multi\-time frame and instrument strategies](multi-time_frame__instruments-1.md):
+The following method signature should be used when working with [multi-time frame and instrument strategies](multi-time_frame__instruments-1.md):
    
 
 BarsSinceExitExecution(int barsInProgressIndex, string signalName, int exitExecutionsAgo)  
 
  
-| Note: When working with a multi\-series strategy the BarsSinceExitExecution() will return you the elapsed bars as determined by the first Bars object for the instrument specified in the barsInProgressIndex. |
+| Note: When working with a multi-series strategy the BarsSinceExitExecution() will return you the elapsed bars as determined by the first Bars object for the instrument specified in the barsInProgressIndex. |
 | --- |
 
 ## Parameters
@@ -34,5 +34,5 @@ BarsSinceExitExecution(int barsInProgressIndex, string signalName, int exitExecu
 ## Examples
 | ns |
 | --- |
-| protected override void OnBarUpdate() {     if (CurrentBar \< BarsRequiredToTrade)         return;       // Only enter if at least 10 bars has passed since our last exit or if we have never traded yet    if ((BarsSinceExitExecution() \> 10 \|\| BarsSinceExitExecution() \=\= \-1) \&\& CrossAbove(SMA(10), SMA(20), 1))        EnterLong(); } |
+| protected override void OnBarUpdate() {     if (CurrentBar < BarsRequiredToTrade)         return;       // Only enter if at least 10 bars has passed since our last exit or if we have never traded yet    if ((BarsSinceExitExecution() > 10 || BarsSinceExitExecution() == -1) && CrossAbove(SMA(10), SMA(20), 1))        EnterLong(); } |
 

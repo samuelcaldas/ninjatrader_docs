@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Editor
+NinjaScript > Editor
 Editor
-| \<\< [Click to Display Table of Contents](editor.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> Editor | [Previous page](distribution_procedure-1.md) [Return to chapter overview](ninjascript-1.md) [Next page](compile_error_codes-1.md) |
+| << [Click to Display Table of Contents](editor.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > Editor | [Previous page](distribution_procedure-1.md) [Return to chapter overview](ninjascript-1.md) [Next page](compile_error_codes-1.md) |
 | --- | --- |
  
 | NinjaScript Editor Overview The NinjaScript Editor is a powerful scripting editor that allows you to create custom indicators and strategies efficiently.  The NinjaScript Editor includes powerful coding assistance and advanced debugging tools to help you custom build your indicator, strategy or any other supported NinjaScript type. | |

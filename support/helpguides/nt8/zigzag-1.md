@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> ZigZag
+NinjaScript > Language Reference > Common > System Indicator Methods > ZigZag
 ZigZag
 
-| \<\< [Click to Display Table of Contents](zigzag.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [System Indicator Methods](indicators-1.md) \> ZigZag | [Previous page](woodies_pivots-1.md) [Return to chapter overview](indicators-1.md) [Next page](tradinghours-1.md) |
+| << [Click to Display Table of Contents](zigzag.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) > ZigZag | [Previous page](woodies_pivots-1.md) [Return to chapter overview](indicators-1.md) [Next page](tradinghours-1.md) |
 | --- | --- |
 
 ## Description
@@ -10,12 +10,12 @@ The ZigZag indicator highlights trends based on user defined threshold values an
  
 You can access methods within this indicator to determine the number of bars ago a zigzag high or low point occurred or the current zigzag value, it is only meaningful to work with in Calculate.OnBarClose mode for the [Calculate](calculate-1.md) property.
 
-## Syntax \- Bars Ago
+## Syntax - Bars Ago
 High Bar  
 
 ZigZag(DeviationType deviationType, double deviationValue, bool useHighLow).HighBar(int barsAgo, int instance, int lookBackPeriod)  
 
-ZigZag(ISeries\<double\> input, DeviationType deviationType, double deviationValue, bool useHighLow).HighBar(int barsAgo, int instance, int lookBackPeriod)  
+ZigZag(ISeries<double> input, DeviationType deviationType, double deviationValue, bool useHighLow).HighBar(int barsAgo, int instance, int lookBackPeriod)  
 
    
 
@@ -23,19 +23,19 @@ Low Bar
 
 ZigZag(DeviationType deviationType, double deviationValue, bool useHighLow).LowBar(int barsAgo, int instance, int lookBackPeriod)  
 
-ZigZag(ISeries\<double\> input, DeviationType deviationType, double deviationValue, bool useHighLow).LowBar(int barsAgo, int instance, int lookBackPeriod)
+ZigZag(ISeries<double> input, DeviationType deviationType, double deviationValue, bool useHighLow).LowBar(int barsAgo, int instance, int lookBackPeriod)
  
 ## Return Value
-An int value representing the number of bars ago. Returns a value of \-1 if a swing point is not found within the look back period.
+An int value representing the number of bars ago. Returns a value of -1 if a swing point is not found within the look back period.
 
-## Syntax \- Value
-| High Value ZigZag(DeviationType deviationType, double deviationValue, bool useHighLow).ZigZagHigh\[int barsAgo] ZigZag(ISeries\<double\> input, DeviationType deviationType, double deviationValue, bool useHighLow).ZigZagHigh\[int barsAgo]   Low Value ZigZag(DeviationType deviationType, double deviationValue, bool useHighLow).ZigZagLow\[int barsAgo] ZigZag(ISeries\<double\> input, DeviationType deviationType, double deviationValue, bool useHighLow).ZigZagLow\[int barsAgo] |
+## Syntax - Value
+| High Value ZigZag(DeviationType deviationType, double deviationValue, bool useHighLow).ZigZagHigh[int barsAgo] ZigZag(ISeries<double> input, DeviationType deviationType, double deviationValue, bool useHighLow).ZigZagHigh[int barsAgo]   Low Value ZigZag(DeviationType deviationType, double deviationValue, bool useHighLow).ZigZagLow[int barsAgo] ZigZag(ISeries<double> input, DeviationType deviationType, double deviationValue, bool useHighLow).ZigZagLow[int barsAgo] |
 | --- |
 
  
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
-\* A return value of 0 (zero) indicates that a zigzag high or low has not yet formed.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
+* A return value of 0 (zero) indicates that a zigzag high or low has not yet formed.
 
 ## Parameters
 | barsAgo | The number of bars ago that serves as the starting bar and works backwards |
@@ -50,7 +50,7 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 ## Example
 | ns |
 | --- |
-| // Prints the high price of the most recent zig zag high Print("The high of the zigzag bar is " \+ High\[Math.Max(0, ZigZag(DeviationType.Points, 0\.5, false).HighBar(0, 1, 100))]); |
+| // Prints the high price of the most recent zig zag high Print("The high of the zigzag bar is " + High[Math.Max(0, ZigZag(DeviationType.Points, 0.5, false).HighBar(0, 1, 100))]); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

@@ -1,26 +1,26 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> System Indicator Methods \> Aroon Oscillator
+NinjaScript > Language Reference > Common > System Indicator Methods > Aroon Oscillator
 Aroon Oscillator
-| \<\< [Click to Display Table of Contents](aroon_oscillator.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [System Indicator Methods](indicators-1.md) \> Aroon Oscillator | [Previous page](aroon-1.md) [Return to chapter overview](indicators-1.md) [Next page](average_directional_index_adx-1.md) |
+| << [Click to Display Table of Contents](aroon_oscillator.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) > Aroon Oscillator | [Previous page](aroon-1.md) [Return to chapter overview](indicators-1.md) [Next page](average_directional_index_adx-1.md) |
 | --- | --- |
 ## Description
-A trend\-following indicator that uses aspects of the Aroon indicator ("Aroon up" and "Aroon down") to gauge the strength of a current trend and the likelihood that it will continue. The Aroon oscillator is calculated by subtracting Aroon down from Aroon up. Readings above zero indicate that an uptrend is present, while readings below zero indicate that a downtrend is present.
+A trend-following indicator that uses aspects of the Aroon indicator ("Aroon up" and "Aroon down") to gauge the strength of a current trend and the likelihood that it will continue. The Aroon oscillator is calculated by subtracting Aroon down from Aroon up. Readings above zero indicate that an uptrend is present, while readings below zero indicate that a downtrend is present.
  
 ... Courtesy of [Investopedia](http://investopedia.com/terms/a/aroonoscillator.asp)
 
 ## Syntax
 AroonOscillator(int period)  
 
-AroonOscillator(ISeries\<double\> input, int period)
+AroonOscillator(ISeries<double> input, int period)
  
 Returns default value  
 
-AroonOscillator(int period)\[int barsAgo]  
+AroonOscillator(int period)[int barsAgo]  
 
-AroonOscillator(ISeries\<double\> input, int period)\[int barsAgo]
+AroonOscillator(ISeries<double> input, int period)[int barsAgo]
 
 ## Return Value
-double; Accessing this method via an index value \[int barsAgo] returns the indicator value of the referenced bar.
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
 ## Parameters
 | input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
@@ -31,8 +31,8 @@ double; Accessing this method via an index value \[int barsAgo] returns the indi
 ## Examples
 | ns |
 | --- |
-| // Prints the current values of a 20 period AroonOscillator using default price type double upValue \= AroonOscillator(20)\[0]; Print("The current AroonOscillator value is " \+ upValue.ToString());   // Prints the current values of a 20 period AroonOscillator using high price type double upValue \= AroonOscillator(High, 20)\[0]; Print("The current AroonOscillator value is " \+ upValue.ToString()); |
+| // Prints the current values of a 20 period AroonOscillator using default price type double upValue = AroonOscillator(20)[0]; Print("The current AroonOscillator value is " + upValue.ToString());   // Prints the current values of a 20 period AroonOscillator using high price type double upValue = AroonOscillator(High, 20)[0]; Print("The current AroonOscillator value is " + upValue.ToString()); |
 
 ## Source Code
-You can view this indicator method source code by selecting the menu New \> NinjaScript Editor \> Indicators within the NinjaTrader Control Center window.
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.
 

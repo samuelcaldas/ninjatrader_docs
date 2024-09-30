@@ -1,15 +1,15 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> PositionAccount
+NinjaScript > Language Reference > Strategy > PositionAccount
 
 PositionAccount
 
-| \<\< [Click to Display Table of Contents](positionaccount.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> PositionAccount | [Previous page](position_quantity-1.md) [Return to chapter overview](strategy-1.md) [Next page](positionaccount_averageprice-1.md) |
+| << [Click to Display Table of Contents](positionaccount.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > PositionAccount | [Previous page](position_quantity-1.md) [Return to chapter overview](strategy-1.md) [Next page](positionaccount_averageprice-1.md) |
 | --- | --- |
 ## Definition
-Represents position related information that pertains to real\-world account (live or simulation).  
+Represents position related information that pertains to real-world account (live or simulation).  
  
 
-| Tips: - For multi\-instrument scripts, please see [PositionsAccount](positionsaccount-1.md) object which holds an array of all instrument positions managed by the strategy's account- For a Strategy Position, please see [Position](position-1.md) |
+| Tips: - For multi-instrument scripts, please see [PositionsAccount](positionsaccount-1.md) object which holds an array of all instrument positions managed by the strategy's account- For a Strategy Position, please see [Position](position-1.md) |
 | --- |
 
 ## Methods and Properties
@@ -27,5 +27,5 @@ Represents position related information that pertains to real\-world account (li
 
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      // Print out the average entry price      Print("The average entry price is " \+ PositionAccount.AveragePrice); } |
+| protected override void OnBarUpdate() {      // Print out the average entry price      Print("The average entry price is " + PositionAccount.AveragePrice); } |
 

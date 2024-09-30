@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> Execution
+NinjaScript > Language Reference > Strategy > Execution
 Execution
-| \<\< [Click to Display Table of Contents](execution.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> Execution | [Previous page](entryhandling-1.md) [Return to chapter overview](strategy-1.md) [Next page](exitonsessioncloseseconds-1.md) |
+| << [Click to Display Table of Contents](execution.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > Execution | [Previous page](entryhandling-1.md) [Return to chapter overview](strategy-1.md) [Next page](exitonsessioncloseseconds-1.md) |
 | --- | --- |
 ## Definition
 Represents a read only interface that exposes information regarding an execution (filled order) resulting from an order and is passed as a parameter in the [OnExecutionUpdate()](onexecutionupdate-1.md) method.
@@ -24,7 +24,7 @@ Represents a read only interface that exposes information regarding an execution
 | PositionStrategy | An int value represents the current quantity of strategy position at the time of execution |
 | Price | A double value representing the price of an execution |
 | Quantity | An int value representing quantity of an execution |
-| Rate | A double value representing the exchange rate calculated for non\-USD base products (1 if no rate was applied) |
+| Rate | A double value representing the exchange rate calculated for non-USD base products (1 if no rate was applied) |
 | Slippage | A double value representing the number of ticks calculated between the last trade price and the execution price |
 | Time | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the time the execution occurred |
 | ToString() | A string representation of an execution |
@@ -33,9 +33,9 @@ Represents a read only interface that exposes information regarding an execution
 ## Examples
 | ns Finding the executions of a particular Order object |
 | --- |
-| // Example \#1 private Order entryOrder \= null;   protected override void OnBarUpdate() {      if (entryOrder \=\= null \&\& Close\[0] \> Open\[0])          EnterLong("myEntryOrder"); }   protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time) {    // Assign entryOrder in OnExecutionUpdate() to ensure the assignment occurs when expected.    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately after submitting    if (execution.Order.Name \=\= "myEntryOrder" \&\& execution.Order.OrderState \=\= OrderState.Filled)        entryOrder \= execution.order;        if (entryOrder !\= null \&\& entryOrder \=\= execution.Order)        Print(execution.ToString()); } |
+| // Example #1 private Order entryOrder = null;   protected override void OnBarUpdate() {      if (entryOrder == null && Close[0] > Open[0])          EnterLong("myEntryOrder"); }   protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time) {    // Assign entryOrder in OnExecutionUpdate() to ensure the assignment occurs when expected.    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately after submitting    if (execution.Order.Name == "myEntryOrder" && execution.Order.OrderState == OrderState.Filled)        entryOrder = execution.order;        if (entryOrder != null && entryOrder == execution.Order)        Print(execution.ToString()); } |
 
 | ns Generic execution logic not specific to a particular Order object |
 | --- |
-| // Example \#2 protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time) {      // Remember to check the underlying Order object for null before trying to access its properties      if (execution.Order !\= null \&\& execution.Order.OrderState \=\= OrderState.Filled)          Print(execution.ToString()); } |
+| // Example #2 protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time) {      // Remember to check the underlying Order object for null before trying to access its properties      if (execution.Order != null && execution.Order.OrderState == OrderState.Filled)          Print(execution.ToString()); } |
 

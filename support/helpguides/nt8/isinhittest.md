@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> Rendering \> IsInHitTest
+NinjaScript > Language Reference > Common > Charts > Rendering > IsInHitTest
 
 IsInHitTest
 
-| \<\< [Click to Display Table of Contents](isinhittest.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> [Rendering](rendering.md) \> IsInHitTest | [Previous page](forcerefresh.md) [Return to chapter overview](rendering.md) [Next page](isselected.md) |
+| << [Click to Display Table of Contents](isinhittest.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [Rendering](rendering.md) > IsInHitTest | [Previous page](forcerefresh.md) [Return to chapter overview](rendering.md) [Next page](isselected.md) |
 | --- | --- |
 ## Definition
 Indicates a user is currently clicking in the chart panel in which the calling script resides. 

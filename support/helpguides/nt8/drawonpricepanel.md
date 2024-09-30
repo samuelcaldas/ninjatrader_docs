@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Indicator \> DrawOnPricePanel
+NinjaScript > Language Reference > Indicator > DrawOnPricePanel
 
 DrawOnPricePanel
-| \<\< [Click to Display Table of Contents](drawonpricepanel.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Indicator](indicator.md) \> DrawOnPricePanel | [Previous page](drawhorizontalgridlines.md) [Return to chapter overview](indicator.md) [Next page](drawverticalgridlines.md) |
+| << [Click to Display Table of Contents](drawonpricepanel.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) > DrawOnPricePanel | [Previous page](drawhorizontalgridlines.md) [Return to chapter overview](indicator.md) [Next page](drawverticalgridlines.md) |
 | --- | --- |
 ## Definition
 Determines the chart panel the draw objects renders
@@ -20,4 +20,4 @@ DrawOnPricePanel
 ## Examples
 | ns |
 | --- |
-| protected override void OnStateChange() {      if (State \=\= State.SetDefaults)      {           DrawOnPricePanel \= false; // Draw objects now paint on the indicator panel itself               AddPlot(Brushes.Orange, "SMA");      } } |
+| protected override void OnStateChange() {      if (State == State.SetDefaults)      {           DrawOnPricePanel = false; // Draw objects now paint on the indicator panel itself               AddPlot(Brushes.Orange, "SMA");      } } |

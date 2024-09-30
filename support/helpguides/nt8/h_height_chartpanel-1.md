@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartPanel \> H (Height)
+NinjaScript > Language Reference > Common > Charts > ChartPanel > H (Height)
 H (Height)
-| \<\< [Click to Display Table of Contents](h_height_chartpanel.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Charts](chart-1.md) \> [ChartPanel](chartpanel-1.md) \> H (Height) | [Previous page](chartobjects-1.md) [Return to chapter overview](chartpanel-1.md) [Next page](isyacisdisplayedleft_chartpanel-1.md) |
+| << [Click to Display Table of Contents](h_height_chartpanel.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartPanel](chartpanel-1.md) > H (Height) | [Previous page](chartobjects-1.md) [Return to chapter overview](chartpanel-1.md) [Next page](isyacisdisplayedleft_chartpanel-1.md) |
 | --- | --- |
 ## Definition
 Indicates the height (in pixels) of the rendered area of the chart panel. 

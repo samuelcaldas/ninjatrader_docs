@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Editor \> Compile Error Codes
+NinjaScript > Editor > Compile Error Codes
 Compile Error Codes
-| \<\< [Click to Display Table of Contents](compile_error_codes.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Editor](editor-1.md) \> Compile Error Codes | [Previous page](editor-1.md) [Return to chapter overview](editor-1.md) [Next page](cs0006-1.md) |
+| << [Click to Display Table of Contents](compile_error_codes.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Editor](editor-1.md) > Compile Error Codes | [Previous page](editor-1.md) [Return to chapter overview](editor-1.md) [Next page](cs0006-1.md) |
 | --- | --- |
 The following error code information is provided within the context of NinjaScript. The examples provided are only a subset of potential problems that this error code may reflect. In any case, the examples below provide a reference of coding flaw possibilities.
  

@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Charts \> ChartScale \> PanelIndex
+NinjaScript > Language Reference > Common > Charts > ChartScale > PanelIndex
 PanelIndex
-| \<\< [Click to Display Table of Contents](panelindex.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Common](common.md) \> [Charts](chart.md) \> [ChartScale](chartscale.md) \> PanelIndex | [Previous page](chartscale_minvalue.md) [Return to chapter overview](chartscale.md) [Next page](chartscale_properties.md) |
+| << [Click to Display Table of Contents](panelindex.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartScale](chartscale.md) > PanelIndex | [Previous page](chartscale_minvalue.md) [Return to chapter overview](chartscale.md) [Next page](chartscale_properties.md) |
 | --- | --- |
 ## Definition
 The panel on which the chart scale resides.  
@@ -12,12 +12,12 @@ The panel on which the chart scale resides.  
 ## 
 ## 
 ## Property Value
-An int value representing the panel as an index value which starts at 0 and will increment for each panel configured on the chart.  This property is read\-only.
+An int value representing the panel as an index value which starts at 0 and will increment for each panel configured on the chart.  This property is read-only.
 ## 
 ## Syntax
-\<chartScale\>.PanelIndex
+<chartScale>.PanelIndex
 ## 
 ## Examples
 | ns |
 | --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {             // the index value of the panel (not the same as the panelUI)    int     panel     \= chartScale.PanelIndex;    Print("panel: " \+ panel); } |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {             // the index value of the panel (not the same as the panelUI)    int     panel     = chartScale.PanelIndex;    Print("panel: " + panel); } |

@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Language Reference \> Add On \> Account \> Get()
+NinjaScript > Language Reference > Add On > Account > Get()
 Get()
-| \<\< [Click to Display Table of Contents](get.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Add On](add_on.md) \> [Account](account_class.md) \> Get() | [Previous page](flatten.md) [Return to chapter overview](account_class.md) [Next page](name_account.md) |
+| << [Click to Display Table of Contents](get.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) > Get() | [Previous page](flatten.md) [Return to chapter overview](account_class.md) [Next page](name_account.md) |
 | --- | --- |
 ## Definition
 Returns the value of an AccountItem, such as BuyingPower, CashValue, etc.  
@@ -22,5 +22,5 @@ Get(AccountItem itemType, Cbi.Currency currency)
 ## Examples
 | ns |
 | --- |
-| // Evaluates to see if the account has more than $25000 if (Account.Get(AccountItem.CashValue, Currency.UsDollar) \> 25000) {    // Do something; } |
+| // Evaluates to see if the account has more than $25000 if (Account.Get(AccountItem.CashValue, Currency.UsDollar) > 25000) {    // Do something; } |
 

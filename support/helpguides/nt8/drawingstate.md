@@ -1,8 +1,8 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> DrawingState
+NinjaScript > Language Reference > Drawing Tool > DrawingState
 
 DrawingState
-| \<\< [Click to Display Table of Contents](drawingstate.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> [Drawing Tool](drawing_tools.md) \> DrawingState | [Previous page](dispose.md) [Return to chapter overview](drawing_tools.md) [Next page](drawnby.md) |
+| << [Click to Display Table of Contents](drawingstate.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > DrawingState | [Previous page](dispose.md) [Return to chapter overview](drawing_tools.md) [Next page](drawnby.md) |
 | --- | --- |
 ## Definition
 Represents the current state of the drawing tool to perform various actions, such as building, editing, or moving.
@@ -21,4 +21,4 @@ DrawingState
 ## Examples
 | ns |
 | --- |
-| public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, Point point) {    switch(DrawingState)    {                              case DrawingState.Normal:          DrawingState \= DrawingState.Editing; // set state to allow editing          break;               case DrawingState.Editing:          // do your edits here          break;      case DrawingState.Moving:          return; // don't allow move whe editing                }        } |
+| public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, Point point) {    switch(DrawingState)    {                              case DrawingState.Normal:          DrawingState = DrawingState.Editing; // set state to allow editing          break;               case DrawingState.Editing:          // do your edits here          break;      case DrawingState.Moving:          return; // don't allow move whe editing                }        } |

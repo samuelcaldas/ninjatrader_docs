@@ -1,9 +1,9 @@
 ﻿
-Operations \> Option Chain
+Operations > Option Chain
 
 Option Chain
 
-| \<\< [Click to Display Table of Contents](option-chain.md) \>\> **Navigation:**     [Operations](operations.md) \> Option Chain | [Previous page](news_properties.md) [Return to chapter overview](operations.md) [Next page](display_overview_option_chain.md) |
+| << [Click to Display Table of Contents](option-chain.md) >> **Navigation:**     [Operations](operations.md) > Option Chain | [Previous page](news_properties.md) [Return to chapter overview](operations.md) [Next page](display_overview_option_chain.md) |
 | --- | --- |
 The Option Chain window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the Option Chain menu item.
 

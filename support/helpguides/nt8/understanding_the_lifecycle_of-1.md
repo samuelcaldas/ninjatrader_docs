@@ -1,7 +1,7 @@
 ﻿
-NinjaScript \> Educational Resources \> NinjaScript Lifecycle
+NinjaScript > Educational Resources > NinjaScript Lifecycle
 NinjaScript Lifecycle
-| \<\< [Click to Display Table of Contents](understanding_the_lifecycle_of.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Educational Resources](educational_resources-1.md) \> NinjaScript Lifecycle | [Previous page](multi-time_frame__instruments-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](using_3rd_party_indicators-1.md) |
+| << [Click to Display Table of Contents](understanding_the_lifecycle_of.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > NinjaScript Lifecycle | [Previous page](multi-time_frame__instruments-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](using_3rd_party_indicators-1.md) |
 | --- | --- |
 NinjaTrader uses a [State](state-1.md) change system to represent various life cycles of your NinjaScript object.  For more basic indicators and strategies, simply understanding each State described on the [OnStateChange()](onstatechange-1.md) page is sufficient.  However, for more advanced development projects, it is critical to understand how NinjaTrader calls these states for various instances throughout the lifetime of the entire application.
  
@@ -21,34 +21,34 @@ In both categories, [OnStateChange()](onstatechange-1.md) is called at least twi
  
 To elaborate on that process, imagine the sequence of user events required to start an indicator on a chart:
  
-1\.User right clicks on a Chart and select "Indicator"
+1.User right clicks on a Chart and select "Indicator"
 
-2\.User adds an Indicator from the Available list
+2.User adds an Indicator from the Available list
 
-3\.User configures desired Properties and presses "Apply" or "OK"
+3.User configures desired Properties and presses "Apply" or "OK"
 
  
 During this sequence, there are actually 3 instances of the same indicator created by NinjaTrader:
  
-1\.The instance displaying the Name property to the list of "Available" indicators (Note: this process involves creating an instance of all indicators in order to build the complete list)
+1.The instance displaying the Name property to the list of "Available" indicators (Note: this process involves creating an instance of all indicators in order to build the complete list)
 
-2\.The instance displaying the individual Name and its default Properties
+2.The instance displaying the individual Name and its default Properties
 
-3\.The instance configured and executing on the chart
+3.The instance configured and executing on the chart
 
  
 ![indicator_dialog_state](indicator_dialog_state.png)
 
 To visualize how each instance goes through its States, please consider the logic and flow chart below:
  
-1\.In order to display the indicator name in the list of "Available" indicators, the NinjaTrader core must find the Name of each installed indicator defined in their SetDefaults.  This occurs simultaneously for every indicator installed on the system in order to build the full list of available indicators.
+1.In order to display the indicator name in the list of "Available" indicators, the NinjaTrader core must find the Name of each installed indicator defined in their SetDefaults.  This occurs simultaneously for every indicator installed on the system in order to build the full list of available indicators.
 
-2\.The selected indicator is then [cloned](clone-1.md) and SetDefaults is called again in order to display the default properties to the "Properties" grid.  This only occurs for the individual indicator.
+2.The selected indicator is then [cloned](clone-1.md) and SetDefaults is called again in order to display the default properties to the "Properties" grid.  This only occurs for the individual indicator.
 
-3\.After the user has set their desired property settings and press OK or Apply, the indicator is once again cloned and runs through its full state management.  This only occurs for the indicator configured to execute on the chart.
+3.After the user has set their desired property settings and press OK or Apply, the indicator is once again cloned and runs through its full state management.  This only occurs for the indicator configured to execute on the chart.
 
 ## 
-| Warning:  Since NinjaTrader is multi\-threaded, it is possible the OnStateChange() logic will be operating on a different thread than your indicator instances.  Due to this fact, if logic in your OnStateChange() method is thread sensitivity (e.g., dependent on UI threads vs Instrument threads) please make sure to read the section on [multi\-threading considerations](multi-threading-1.md) and check for thread access in your OnStateChange() logic |
+| Warning:  Since NinjaTrader is multi-threaded, it is possible the OnStateChange() logic will be operating on a different thread than your indicator instances.  Due to this fact, if logic in your OnStateChange() method is thread sensitivity (e.g., dependent on UI threads vs Instrument threads) please make sure to read the section on [multi-threading considerations](multi-threading-1.md) and check for thread access in your OnStateChange() logic |
 | --- |
 
 ## 
@@ -56,7 +56,7 @@ To visualize how each instance goes through its States, please consider the logi
  
 It is the 3rd "configured" instance you are concerned with developing, but you should also be aware of the "UI" instances which are triggered at various stages of NinjaTrader.
  
-| Notes:  1\.The example above is written for an indicator, but the same concept of state management applies to every NinjaScript object type2\.The UI instances do not reach State.Terminated until the user closes out of the UI feature displaying the object3\.Since [AddOns](addon_development_overview-1.md) run in the background and are not dependent on UI elements, they will run through their SetDefaults/Terminated states after each NinjaScript compile and startup/shutdown of NinjaTrader.4\.The configured instance will also be cloned back to UI instances during various user actions (e.g, re\-opening an indicator dialog to reconfigure settings, or user copying \& pasting the indicator to a new panel or chart).  Therefore you should not assume that objects (such as ChartControl) will not be accessible in the UI instances.5\.In some extreme scenarios, you may need to execute custom logic before or after an object is cloned.  Overriding the default behavior can be done via the virtual [Clone()](clone-1.md) method |
+| Notes:  1.The example above is written for an indicator, but the same concept of state management applies to every NinjaScript object type2.The UI instances do not reach State.Terminated until the user closes out of the UI feature displaying the object3.Since [AddOns](addon_development_overview-1.md) run in the background and are not dependent on UI elements, they will run through their SetDefaults/Terminated states after each NinjaScript compile and startup/shutdown of NinjaTrader.4.The configured instance will also be cloned back to UI instances during various user actions (e.g, re-opening an indicator dialog to reconfigure settings, or user copying & pasting the indicator to a new panel or chart).  Therefore you should not assume that objects (such as ChartControl) will not be accessible in the UI instances.5.In some extreme scenarios, you may need to execute custom logic before or after an object is cloned.  Overriding the default behavior can be done via the virtual [Clone()](clone-1.md) method |
 | --- |
 
  
@@ -77,20 +77,20 @@ To ensure that the remove logic only runs in instances that were actually config
 ## 
 | ns |
 | --- |
-| // custom flag to help time termination logic private bool toolBarNeedsReset \= false;   protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {      Name \= "State lifetime indicator";    }    else if (State \=\= State.Historical)    {      // before indicator starts historical processing      // add a custom tool bar using a custom method      AddToolBarButton(); // this is a pseudo\-method for example purposes      toolBarNeedsReset \= true; // use a flag to track this logic was executed    }      else if (State \=\= State.Terminated)    {      // here we intend to remove the custom tool bar when the indicator shuts down      if (toolBarNeedsReset) // flag is only true after actually added          RemoveToolBarButton();    } } |
+| // custom flag to help time termination logic private bool toolBarNeedsReset = false;   protected override void OnStateChange() {    if (State == State.SetDefaults)    {      Name = "State lifetime indicator";    }    else if (State == State.Historical)    {      // before indicator starts historical processing      // add a custom tool bar using a custom method      AddToolBarButton(); // this is a pseudo-method for example purposes      toolBarNeedsReset = true; // use a flag to track this logic was executed    }      else if (State == State.Terminated)    {      // here we intend to remove the custom tool bar when the indicator shuts down      if (toolBarNeedsReset) // flag is only true after actually added          RemoveToolBarButton();    } } |
 
  
 ## Cloning NinjaScript
 Clone is the operation of iterating over all public browsable properties on a NinjaScript object and duplicating the values over to a freshly generated instance. For the majority of NinjaScript with standard properties the clone process is transparent to you and you do not need to be concerned the the clone process. For those of you that want more control or will be utilizing complex properties then knowledge about clone is essential. Cloning is performed in 2 primary use cases:
  
-1\.Configuring an instance in an object dialog and then cloning the configured data to an actual NinjaScript instance applied for example to a Chart. (Configuration then Run) 
+1.Configuring an instance in an object dialog and then cloning the configured data to an actual NinjaScript instance applied for example to a Chart. (Configuration then Run) 
 
-2\.When triggering 'Reload NinjaScript' or "Reload All Historical Data'
+2.When triggering 'Reload NinjaScript' or "Reload All Historical Data'
 
  
 NinjaScript objects have a base clone method implemented which will iterating over all browsable properties and copy by value to the next instance. The rules follow the 'clone' rules described in the clone documentation located [here](clone-1.md) and described above. The default behavior will work in almost all cases except for when you have some complex custom property which needs specific clone behavior. In which case we allow the ability to override Clone() and specify your own behavior.
  
-| Note: If you plan to utilize complex class properties on NinjaScript, you can specify your own clone method. However when NinjaScript is compiled in NinjaTrader a new DLL holding the compiled IL code is 'hot\-loaded' into NinjaTrader. As a user or developer would try to reload NinjaScript or configure an existing NinjaScript object, any complex class will not resolve since the class will be residing in two different assemblies. This problem cannot be solved with custom clone method and workarounds for this are setting Browsable(false) attribute on that property so it is not cloned or putting the property it its own dedicated assembly. |
+| Note: If you plan to utilize complex class properties on NinjaScript, you can specify your own clone method. However when NinjaScript is compiled in NinjaTrader a new DLL holding the compiled IL code is 'hot-loaded' into NinjaTrader. As a user or developer would try to reload NinjaScript or configure an existing NinjaScript object, any complex class will not resolve since the class will be residing in two different assemblies. This problem cannot be solved with custom clone method and workarounds for this are setting Browsable(false) attribute on that property so it is not cloned or putting the property it its own dedicated assembly. |
 | --- |
 
  

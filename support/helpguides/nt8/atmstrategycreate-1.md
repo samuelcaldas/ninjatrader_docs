@@ -1,19 +1,19 @@
 ﻿
-NinjaScript \> Language Reference \> Strategy \> ATM Strategy Methods \> AtmStrategyCreate()
+NinjaScript > Language Reference > Strategy > ATM Strategy Methods > AtmStrategyCreate()
 AtmStrategyCreate()
-| \<\< [Click to Display Table of Contents](atmstrategycreate.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Strategy](strategy-1.md) \> [ATM Strategy Methods](atm_strategy_methods-1.md) \> AtmStrategyCreate() | [Previous page](atmstrategyclose-1.md) [Return to chapter overview](atm_strategy_methods-1.md) [Next page](getatmstrategyentryorderstatus-1.md) |
+| << [Click to Display Table of Contents](atmstrategycreate.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [ATM Strategy Methods](atm_strategy_methods-1.md) > AtmStrategyCreate() | [Previous page](atmstrategyclose-1.md) [Return to chapter overview](atm_strategy_methods-1.md) [Next page](getatmstrategyentryorderstatus-1.md) |
 | --- | --- |
 ## Definition
 Submits an entry order that will execute a specified ATM Strategy.  
  
-| Notes:   - Please review the section on using [ATM Strategies](using_atm_strategies-1.md) - This method is NOT backtestable and will NOT execute on historical data - See the [AtmStrategyCancelEntryOrder()](atmstrategycancelentryorder-1.md) to cancel an entry order - See the [AtmStrategyChangeEntryOrder()](atmstrategychangeentryorder-1.md) to change the price of the entry order - The ATM Strategy will be created asyncronous on the hosting NinjaScripts UI Thread, a callback is provided solely to check when the ATM Strategy is started on that thread \- accessing for example price data in that outside OnBarUpdate() context is not possible.- Please see the SampleATMStrategy build into NinjaTrader for example usage. |
+| Notes:   - Please review the section on using [ATM Strategies](using_atm_strategies-1.md) - This method is NOT backtestable and will NOT execute on historical data - See the [AtmStrategyCancelEntryOrder()](atmstrategycancelentryorder-1.md) to cancel an entry order - See the [AtmStrategyChangeEntryOrder()](atmstrategychangeentryorder-1.md) to change the price of the entry order - The ATM Strategy will be created asyncronous on the hosting NinjaScripts UI Thread, a callback is provided solely to check when the ATM Strategy is started on that thread - accessing for example price data in that outside OnBarUpdate() context is not possible.- Please see the SampleATMStrategy build into NinjaTrader for example usage. |
 | --- |
 
 ## Method Return Value
 This method does not return a value
 ## 
 ## Syntax
-AtmStrategyCreate(OrderAction action, OrderType orderType, double limitPrice, double stopPrice, TimeInForce timeInForce, string orderId, string strategyTemplateName, string atmStrategyId, Action\<Cbi.ErrorCode, string\> callback) 
+AtmStrategyCreate(OrderAction action, OrderType orderType, double limitPrice, double stopPrice, TimeInForce timeInForce, string orderId, string strategyTemplateName, string atmStrategyId, Action<Cbi.ErrorCode, string> callback) 
  
 ## 
 ## Parameters
@@ -36,5 +36,5 @@ AtmStrategyCreate(OrderAction action, OrderType orderType, double limitPrice, do
 ## Examples
 | ns |
 | --- |
-| private string atmStrategyId; private string atmStrategyOrderId; private bool   isAtmStrategyCreated \= false;   protected override void OnBarUpdate() {    if (State \< State.Realtime)        return;      if (Close\[0] \> SMA(20)\[0])    {        atmStrategyId \= GetAtmStrategyUniqueId();        atmStrategyOrderId \= GetAtmStrategyUniqueId();          AtmStrategyCreate(OrderAction.Buy, OrderType.Market, 0, 0, TimeInForce.Day,            atmStrategyOrderId, "MyTemplate", atmStrategyId, (atmCallbackErrorCode, atmCallbackId) \=\> {              // checks that the call back is returned for the current atmStrategyId stored            if (atmCallbackId \=\= atmStrategyId)            {                // check the atm call back for any error codes                if (atmCallbackErrorCode \=\= Cbi.ErrorCode.NoError)                {                    // if no error, set private bool to true to indicate the atm strategy is created                    isAtmStrategyCreated \= true;                }            }        });    }      if(isAtmStrategyCreated)    {        // atm logic    }      else if(!isAtmStrategyCreated)    {        // custom handling for a failed atm Strategy    } } |
+| private string atmStrategyId; private string atmStrategyOrderId; private bool   isAtmStrategyCreated = false;   protected override void OnBarUpdate() {    if (State < State.Realtime)        return;      if (Close[0] > SMA(20)[0])    {        atmStrategyId = GetAtmStrategyUniqueId();        atmStrategyOrderId = GetAtmStrategyUniqueId();          AtmStrategyCreate(OrderAction.Buy, OrderType.Market, 0, 0, TimeInForce.Day,            atmStrategyOrderId, "MyTemplate", atmStrategyId, (atmCallbackErrorCode, atmCallbackId) => {              // checks that the call back is returned for the current atmStrategyId stored            if (atmCallbackId == atmStrategyId)            {                // check the atm call back for any error codes                if (atmCallbackErrorCode == Cbi.ErrorCode.NoError)                {                    // if no error, set private bool to true to indicate the atm strategy is created                    isAtmStrategyCreated = true;                }            }        });    }      if(isAtmStrategyCreated)    {        // atm logic    }      else if(!isAtmStrategyCreated)    {        // custom handling for a failed atm Strategy    } } |
 

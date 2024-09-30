@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> Anchors
+NinjaScript > Language Reference > Drawing Tool > Anchors
 
 Anchors
 
-| \<\< [Click to Display Table of Contents](anchors.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Drawing Tool](drawing_tools-1.md) \> Anchors | [Previous page](addpastedoffset-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](attachedto-1.md) |
+| << [Click to Display Table of Contents](anchors.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > Anchors | [Previous page](addpastedoffset-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](attachedto-1.md) |
 | --- | --- |
 ## Definition
 Returns a custom collection of ChartAnchors which will represent various points of the drawing tool.  
@@ -17,7 +17,7 @@ A virtual [IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0%28v=vs
  
 ## Syntax
 You must override this property using the following syntax:
-public override IEnumerable\<ChartAnchor\> Anchors   
+public override IEnumerable<ChartAnchor> Anchors   
 
 {   
 
@@ -29,4 +29,4 @@ public override IEnumerable\<ChartAnchor\> Anchors
 
 | ns |
 | --- |
-| //defines the chart anchors used for the drawing tool public ChartAnchor      StartAnchor    { get; set; } public ChartAnchor      MiddleAnchor   { get; set; } public ChartAnchor      EndAnchor      { get; set; }   //create a collection of chart anchors used for a simple iteration public override IEnumerable\<ChartAnchor\> Anchors  {     get     {       return new\[] { StartAnchor, MiddleAnchor, EndAnchor };     }  }   //setup our chart anchor instances and assign a display name to each protected override void OnStateChange() {    if (State \=\= State.SetDefaults)    {              Name                  \= "My Drawing Tool";         StartAnchor           \= new ChartAnchor();       MiddleAnchor          \= new ChartAnchor();       EndAnchor             \= new ChartAnchor();         StartAnchor.DisplayName    \= "My Start Anchor";       MiddleAnchor.DisplayName   \= "My Middle Anchor";       EndAnchor.DisplayName      \= "My End Anchor";              } }   //for each render pass, print out the display name of the chart anchors protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {       foreach (ChartAnchor anchor in Anchors)    {       Print(anchor.DisplayName);    } } |
+| //defines the chart anchors used for the drawing tool public ChartAnchor      StartAnchor    { get; set; } public ChartAnchor      MiddleAnchor   { get; set; } public ChartAnchor      EndAnchor      { get; set; }   //create a collection of chart anchors used for a simple iteration public override IEnumerable<ChartAnchor> Anchors  {     get     {       return new[] { StartAnchor, MiddleAnchor, EndAnchor };     }  }   //setup our chart anchor instances and assign a display name to each protected override void OnStateChange() {    if (State == State.SetDefaults)    {              Name                  = "My Drawing Tool";         StartAnchor           = new ChartAnchor();       MiddleAnchor          = new ChartAnchor();       EndAnchor             = new ChartAnchor();         StartAnchor.DisplayName    = "My Start Anchor";       MiddleAnchor.DisplayName   = "My Middle Anchor";       EndAnchor.DisplayName      = "My End Anchor";              } }   //for each render pass, print out the display name of the chart anchors protected override void OnRender(ChartControl chartControl, ChartScale chartScale) {       foreach (ChartAnchor anchor in Anchors)    {       Print(anchor.DisplayName);    } } |

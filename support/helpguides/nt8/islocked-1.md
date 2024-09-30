@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Drawing Tool \> IsLocked
+NinjaScript > Language Reference > Drawing Tool > IsLocked
 
 IsLocked
 
-| \<\< [Click to Display Table of Contents](islocked.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Drawing Tool](drawing_tools-1.md) \> IsLocked | [Previous page](isglobaldrawingtool-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](isuserdrawn-1.md) |
+| << [Click to Display Table of Contents](islocked.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > IsLocked | [Previous page](isglobaldrawingtool-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](isuserdrawn-1.md) |
 | --- | --- |
 Definition  
 

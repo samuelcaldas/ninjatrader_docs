@@ -1,8 +1,8 @@
 ﻿
-Operations \> Automated Trading \> Automated Trading Interface (ATI)
+Operations > Automated Trading > Automated Trading Interface (ATI)
 
 Automated Trading Interface (ATI)
-| \<\< [Click to Display Table of Contents](automated_trading_interface_at.md) \>\> **Navigation:**     [Operations](operations.md) \> [Automated Trading](automated_trading.md) \> Automated Trading Interface (ATI) | [Previous page](automated_trading.md) [Return to chapter overview](automated_trading.md) [Next page](what_can_i_do_and_how_.md) |
+| << [Click to Display Table of Contents](automated_trading_interface_at.md) >> **Navigation:**     [Operations](operations.md) > [Automated Trading](automated_trading.md) > Automated Trading Interface (ATI) | [Previous page](automated_trading.md) [Return to chapter overview](automated_trading.md) [Next page](what_can_i_do_and_how_.md) |
 | --- | --- |
 You can enable the AT Interface on under [Automated trading interface](options_ati.md) category from the General [Options](options.md) menu.
  

@@ -1,13 +1,13 @@
 ﻿
-NinjaScript \> Language Reference \> Performance Metrics
+NinjaScript > Language Reference > Performance Metrics
 
 Performance Metrics
 
-| \<\< [Click to Display Table of Contents](performance_metrics.md) \>\> **Navigation:**     [NinjaScript](ninjascript.md) \> [Language Reference](language_reference_wip.md) \> Performance Metrics | [Previous page](supportsmultiobjectiveoptimiza.md) [Return to chapter overview](language_reference_wip.md) [Next page](format.md) |
+| << [Click to Display Table of Contents](performance_metrics.md) >> **Navigation:**     [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > Performance Metrics | [Previous page](supportsmultiobjectiveoptimiza.md) [Return to chapter overview](language_reference_wip.md) [Next page](format.md) |
 | --- | --- |
 Custom Performance Metrics can be used when generating Trade Performance statistics. 
  
-Once custom performance metrics are created be sure to enable their usage in [Tools \> Options \> General](general_section.md) or else they will not be available in the [Strategy Analyzer](strategy_analyzer.md) or [Trade Performance](trade_performance.md) windows.
+Once custom performance metrics are created be sure to enable their usage in [Tools > Options > General](general_section.md) or else they will not be available in the [Strategy Analyzer](strategy_analyzer.md) or [Trade Performance](trade_performance.md) windows.
  
 ## In this section
 

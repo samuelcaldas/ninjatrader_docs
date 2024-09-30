@@ -1,9 +1,9 @@
 ﻿
-NinjaScript \> Language Reference \> Common \> Drawing \> BarBrush
+NinjaScript > Language Reference > Common > Drawing > BarBrush
 
 BarBrush
 
-| \<\< [Click to Display Table of Contents](barbrush.md) \>\> **Navigation:**     [NinjaScript](ninjascript-1.md) \> [Language Reference](language_reference_wip-1.md) \> [Common](common-1.md) \> [Drawing](drawing-1.md) \> BarBrush | [Previous page](backbrushesall-1.md) [Return to chapter overview](drawing-1.md) [Next page](barbrushes-1.md) |
+| << [Click to Display Table of Contents](barbrush.md) >> **Navigation:**     [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > BarBrush | [Previous page](backbrushesall-1.md) [Return to chapter overview](drawing-1.md) [Next page](barbrushes-1.md) |
 | --- | --- |
 ## Definition
 Sets the brush used for painting the color of a price bar's body.
@@ -27,4 +27,4 @@ BarBrush
 
 | ns |
 | --- |
-| protected override void OnBarUpdate() {      // Sets the bar color to yellow      BarBrush \= Brushes.Yellow;        // Sets the brush used for the bar color to its default color as defined in the chart properties dialog      BarBrush \= null;        // Sets the bar color to yellow if the 20 SMA is above the 50 SMA and the closing      // price is above the 20 SMA (see image below)      if (SMA(20)\[0] \> SMA(50)\[0] \&\& Close\[0] \> SMA(20)\[0])          BarBrush \= Brushes.Yellow; } |
+| protected override void OnBarUpdate() {      // Sets the bar color to yellow      BarBrush = Brushes.Yellow;        // Sets the brush used for the bar color to its default color as defined in the chart properties dialog      BarBrush = null;        // Sets the bar color to yellow if the 20 SMA is above the 50 SMA and the closing      // price is above the 20 SMA (see image below)      if (SMA(20)[0] > SMA(50)[0] && Close[0] > SMA(20)[0])          BarBrush = Brushes.Yellow; } |
