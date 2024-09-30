@@ -24,6 +24,6 @@ IsTradingHoursBreakLineVisible
 
 ## Examples
 
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | protected override void OnStateChange() {      if (State == State.SetDefaults)      {          IsTradingHoursBreakLineVisible = true;               AddPlot(Brushes.Orange, "SMA");      } } |

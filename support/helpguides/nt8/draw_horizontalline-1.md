@@ -37,7 +37,7 @@ Draw.HorizontalLine(NinjaScriptBase owner, string tag, double y, bool isGlobal, 
  
 ## 
 ## Examples
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | // Draws a horizontal line Draw.HorizontalLine(this, "tag1", 1000, Brushes.Black); |
 

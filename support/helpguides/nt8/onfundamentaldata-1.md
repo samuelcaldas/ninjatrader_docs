@@ -40,7 +40,7 @@ protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDa
 ## 
 ## Examples
 
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDataUpdate) {      // Print some data to the Output window      if (fundamentalDataUpdate.FundamentalDataType == FundamentalDataType.AverageDailyVolume)          Print("The current ADV is " + fundamentalDataUpdate.LongValue); } |
 

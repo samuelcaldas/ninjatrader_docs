@@ -25,7 +25,7 @@ WaitForOcoClosingBracket
  
 ## 
 ## Examples
-| ns |  |
+| ns | Code: |
 | --- | --- |
 | protected override void OnStateChange() {      if (State == State.Configure)      {          WaitForOcoClosingBracket = false;      } } | |
 

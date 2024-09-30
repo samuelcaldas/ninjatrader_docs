@@ -18,7 +18,7 @@ This method does not return a value.
  
 ## 
 ## Examples
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | protected override void OnMarketDepth(Data.MarketDepthEventArgs marketDepthUpdate) {      if (marketDepthUpdate.MarketDataType == MarketDataType.Ask && marketDepthUpdate.Operation == Operation.Update)           // Do something } |
 

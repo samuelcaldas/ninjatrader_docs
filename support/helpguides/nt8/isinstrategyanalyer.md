@@ -17,6 +17,6 @@ IsInStrategyAnalyzer
 ## Examples
  
 
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | protected override void OnBarUpdate() {     // Only draw the ArrowUp on our condition if we're not in the Strategy Analyzer chart    if (Close[0] > SMA(High, 14)[0] && !IsInStrategyAnalyzer)        Draw.ArrowUp(this, CurrentBar.ToString(), true, 0, High[0] + TickSize, Brushes.Blue); } |

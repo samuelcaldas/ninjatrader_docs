@@ -23,6 +23,6 @@ RenderTarget.DrawLine(Vector2 point0, Vector2 point1, Brush brush, float strokeW
 ## 
 ## 
 ## Examples
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | Vector2 point0 = new Vector2(); Vector2 point1 = new Vector2();   point0.X = point0X; point0.Y = point0Y; point1.X = point1X; point1.Y = point1Y;   RenderTarget.DrawLine(point0, point1, Stroke.BrushDX, Stroke.Width, Stroke.StrokeStyle); |

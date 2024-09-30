@@ -68,6 +68,6 @@ Represents a read only interface that exposes information regarding an order.
 
  
 ## Examples
-| ns |  |
+| ns | Code: |
 | --- | --- |
 | private Order entryOrder = null;   protected override void OnBarUpdate() {    if (entryOrder == null && Close[0] > Open[0])        EnterLong("myEntryOrder"); }   protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError) {    // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately        after submitting    if (order.Name == "myEntryOrder")        entryOrder = order;      if (entryOrder != null && entryOrder == order)    {        Print(order.ToString());        if (order.OrderState == OrderState.Filled)            entryOrder = null;    } } | |

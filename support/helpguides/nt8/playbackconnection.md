@@ -23,6 +23,6 @@ MethodName(int input)
 ## 
  
 ## Examples
-| ns | |
+| ns | Code: |
 | --- | --- |
 | 1 |  |

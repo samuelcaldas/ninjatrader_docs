@@ -44,7 +44,7 @@ Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime Anch
 ## 
 ## 
 ## Examples
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | // Draws a PathTool object based on bars ago and y anchors Draw.PathTool(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);   // Draws a PathTool object based on a list of anchors with specified times List<ChartAnchor> anchors = new List<ChartAnchor>(); anchors.Add(new ChartAnchor(new DateTime(2018, 5, 25), 194, ChartControl)); anchors.Add(new ChartAnchor(new DateTime(2018, 6, 12), 184, ChartControl)); anchors.Add(new ChartAnchor(new DateTime(2018, 6, 7), 176, ChartControl)); anchors.Add(new ChartAnchor(new DateTime(2018, 5, 21), 182, ChartControl));                           Draw.PathTool(this, "tag1", false, anchors, Brushes.CornflowerBlue, DashStyleHelper.Solid, Brushes.CornflowerBlue, 40); |
 

@@ -17,7 +17,7 @@ Draws a rectangle between two points.
 ## 
 ## 
 ## Examples
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | RectangleF rect = new RectangleF();   rect.X      = rectX; rect.Y      = rectY; rect.Width  = rectWidth; rect.Height = rectHeight;   RenderTarget.FillRectangle(rect, brush); |
 

@@ -16,6 +16,6 @@ AllowRemovalOfDrawObjects
  
 ## Examples
 
-| ns |  |
+| ns | Code: |
 | --- | --- |
 | protected override void OnStateChange() {      Add(new Plot(Brushes.Orange, "SMA"));      AllowRemovalOfDrawObjects = true; // Draw objects can be removed separately from the script } | |

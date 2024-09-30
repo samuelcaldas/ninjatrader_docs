@@ -39,7 +39,7 @@ Draw.Ruler(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTi
 ## 
 ## 
 ## Example
-| ns | |
+| ns | Code: |
 | --- | --- |
 |  | // Draws a ruler measuring the primary bar series Draw.Ruler(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]); |
  
