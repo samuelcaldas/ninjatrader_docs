@@ -45,7 +45,7 @@
         
         <p >Advanced order handling is reserved for <span >EXPERIENCED</span> programmers. Through advanced order handling you can submit, change and cancel orders at your discretion through any event-driven method within a strategy. Each order method within the &quot;Managed Approach&quot; section has a method overload designed for advanced handling.</p>
 <p >&nbsp;</p>
-<p class="p_ToggleHeading"><img id="LiveUntilCancelledOrders_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16"  src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle"  href="javascript:HMToggle('toggle','LiveUntilCancelledOrders','LiveUntilCancelledOrders_ICON')">Live&nbsp;Until&nbsp;Cancelled&nbsp;Orders</a></span></p>
+<p class="p_ToggleHeading"><img id="LiveUntilCancelledOrders_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16"  src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle"  >Live&nbsp;Until&nbsp;Cancelled&nbsp;Orders</a></span></p>
 <div id="LiveUntilCancelledOrders" class="dropdown-toggle-body" ><table class="Toggle" >
 <tr class="Toggle">
 <td class="Toggle" ><p >Orders can remain live until you call the <a href="managed_cancelorder.htm" class="topiclink">CancelOrder()</a> method, or until the order's time in force has expired, whichever comes first. This flexibility allows you to control exactly when an order should be cancelled instead of relying on the close of a bar. Each order method, such as <a href="enterlonglimit.htm" class="topiclink">EnterLongLimit()</a>, has a method overload designed to submit a &quot;live until canceled&quot; order. When using this overload, it is important to retain a reference to the Order object, so that it can be canceled via CancelOrder() at a later time.</p>
@@ -53,7 +53,7 @@
 </tr>
 </table>
 </div>
-<p class="p_ToggleHeading"><img id="TheOrderClass_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16"  src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle"  href="javascript:HMToggle('toggle','TheOrderClass','TheOrderClass_ICON')">The&nbsp;Order&nbsp;Class</a></span></p>
+<p class="p_ToggleHeading"><img id="TheOrderClass_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16"  src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle"  >The&nbsp;Order&nbsp;Class</a></span></p>
 <div id="TheOrderClass" class="dropdown-toggle-body" ><table class="Toggle" >
 <tr class="Toggle">
 <td class="Toggle" ><p >All order methods return an <a href="order.htm" class="topiclink">Order</a> object. There are several important items to note:</p>
@@ -103,7 +103,7 @@
 </tr>
 </table>
 </div>
-<p class="p_ToggleHeading"><img id="Transitioningorderreferencesfromhistoricaltolive_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16"  src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle"  href="javascript:HMToggle('toggle','Transitioningorderreferencesfromhistoricaltolive','Transitioningorderreferencesfromhistoricaltolive_ICON')">Transitioning&nbsp;order&nbsp;references&nbsp;from&nbsp;historical&nbsp;to&nbsp;live</a></span></p>
+<p class="p_ToggleHeading"><img id="Transitioningorderreferencesfromhistoricaltolive_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16"  src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle"  >Transitioning&nbsp;order&nbsp;references&nbsp;from&nbsp;historical&nbsp;to&nbsp;live</a></span></p>
 <div id="Transitioningorderreferencesfromhistoricaltolive" class="dropdown-toggle-body" ><table class="Toggle" >
 <tr class="Toggle">
 <td class="Toggle" ><p >When starting a strategy on real-time data, the <a href="syncing_account_positions.htm" class="topiclink">starting behavior</a> will renew any active historical orders and resubmit these orders to your live or simulation account. &nbsp;This process includes updating the historical/backtest generated order ID to the account generated order ID, and any associated OCO IDs. &nbsp;If you are tracking order objects, is critical that you update the order reference to ensure that it is now using the correct order details.</p>
@@ -171,7 +171,7 @@
 </tr>
 </table>
 </div>
-<p class="p_ToggleHeading"><img id="WorkingWithAMultiinstrumentStrategy_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16"  src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle"  href="javascript:HMToggle('toggle','WorkingWithAMultiinstrumentStrategy','WorkingWithAMultiinstrumentStrategy_ICON')">Working&nbsp;with&nbsp;a&nbsp;Multi-Instrument&nbsp;Strategy</a></span></p>
+<p class="p_ToggleHeading"><img id="WorkingWithAMultiinstrumentStrategy_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16"  src="tog_minus.gif"/> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle"  >Working&nbsp;with&nbsp;a&nbsp;Multi-Instrument&nbsp;Strategy</a></span></p>
 <div id="WorkingWithAMultiinstrumentStrategy" class="dropdown-toggle-body" ><table class="Toggle" >
 <tr class="Toggle">
 <td class="Toggle" ><p >With advanced order handling, you can submit an order in the context of any <a href="bars.htm" class="topiclink">Bars</a> object by designating the &quot;BarsInProgress&quot; index. For example, if your primary bar series is &quot;MSFT&quot; and your secondary series added to the strategy through the AddDataSeries() method is &quot;AAPL&quot;, you can submit an order for either &quot;MSFT&quot; or &quot;AAPL&quot; from anywhere within the strategy. In addition to the information found in the <a href="multi-time_frame__instruments.htm" class="topiclink">multi-time frame and instrument strategies</a> page, this section specifically covers order submission.</p>

@@ -13,24 +13,7 @@
 </div>
 
 <div id="hmcontentbox" >
-  <script type="text/javascript">
-    var defaulttopic="welcome.htm";
-    var query = window.location.search.substring(1), hash = window.location.hash, xssTest = /javascript|:|&#58;|&#x3a;|%3a|3a;|58;|\//i;
-    if (query !== "") query = (xssTest.test(query)) ? "" : query;
-    if (hash !== "") hash = (xssTest.test(hash)) ? "" : hash;
-    if (query != "") {
-      if (typeof(hmGetContextId) != "undefined") {
-        var tmpCntx = hmGetContextId(query);
-        if (tmpCntx != "") {
-          defaulttopic = tmpCntx;
-        } else {
-          defaulttopic = query + hash;
-        }
-      }
-    }
-    document.write('<iframe name="hmcontent" id="hmcontent" src="'+defaulttopic+'" seamless="seamless" title="Content Page" frameborder="0"></iframe>');
-  </script>
-  <noscript>
+    <noscript>
     <iframe name="hmcontent" id="hmcontent" src="welcome.htm" seamless="seamless" title="Content Page" frameborder="0"></iframe>
   </noscript> 
 </div>

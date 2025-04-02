@@ -62,7 +62,7 @@
 </div>
 <p class="p_Normal">&nbsp;</p>
 <p class="p_Normal">For questions or comments, please contact us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="abdbc7cadfcdc4d9c6d8dedbdbc4d9dfebc5c2c5c1cadfd9cacfced985c8c4c6">[email&#160;protected]</a></p>
-<p class="p_ToggleHeading"><img id="ImplementationChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','ImplementationChangesOverview','ImplementationChangesOverview_ICON')">Implementation&nbsp;Changes&nbsp;Overview</a></span></p>
+<p class="p_ToggleHeading"><img id="ImplementationChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" >Implementation&nbsp;Changes&nbsp;Overview</a></span></p>
 <div id="ImplementationChangesOverview" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
 <td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Initialize(), OnStartUp(), OnTermination()</span></h2>
@@ -646,7 +646,7 @@
 </tr>
 </table>
 </div>
-<p class="p_ToggleHeading"><img id="SignatureChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','SignatureChangesOverview','SignatureChangesOverview_ICON')">Signature&nbsp;Changes&nbsp;Overview</a></span></p>
+<p class="p_ToggleHeading"><img id="SignatureChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" >Signature&nbsp;Changes&nbsp;Overview</a></span></p>
 <div id="SignatureChangesOverview" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
 <td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Signature</span></h2>
@@ -663,7 +663,7 @@
 </tr>
 </table>
 </div>
-<p class="p_ToggleHeading"><img id="NameChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','NameChangesOverview','NameChangesOverview_ICON')">Name&nbsp;Changes&nbsp;Overview</a></span></p>
+<p class="p_ToggleHeading"><img id="NameChangesOverview_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" >Name&nbsp;Changes&nbsp;Overview</a></span></p>
 <div id="NameChangesOverview" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
 <td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Renamed</span></h2>
@@ -685,85 +685,9 @@
 <p class="p_Normal">&nbsp;</p>
 <div id="codebreakingtable" style="">
 			<link rel="stylesheet" type="text/css" href="jquery.dataTables.css">
-			<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min-1.js"></script><script type="text/javascript" charset="utf8" src="jquery-1.js"></script>
-			<script type="text/javascript" charset="utf8" src="jquery.dataTables.js"></script>
-			<script>
-				/* Formatting function for row details - modify as you need */
-				function format(d) {
-					// `d` is the original data object for the row
-				return '<div align="left" style="background-color: #fcfcfc; border: solid 1px #aab8c6; padding: 10px; border-radius: 8px;">' + d.Details + "</div>";
-				}
-				$(document).ready(function() {
-					var table = $('#CodeChanges').DataTable({
-						 "order": [[ 3, "asc" ]],
-					"bSortClasses": false,
-						"ajax": "codebreak.json", // this is the code breaking document
-						"columns": [
-							{ "data": "Category" },
-							{ "data": "Base" },
-							{ "data": "NT7 Name" },
-							{ "data": "NT8 Name"},
-							{ "data": "Summary" },
-							{ "data": "Details", "visible": true, "searchable:": false, "sortable": false } 
-							
-						],
-						"lengthMenu": [[25, 50, 75, 100, -1], [25, 50, 75, 100, "All"]],                                              
-						"aoColumnDefs": [
-							{
-								"aTargets": [2],
-								"mRender": function(data, type, full) {
-									if (full["NT7 URL"] === "undefined")
-										return data;
-									else
-										return '<a href="http://www.ninjatrader.com/support/helpGuides/nt7/index.html?' + full["NT7 URL"] + '" target="new">' + data + '</a>';
-								}
-							},
-							{
-								"aTargets": [3],
-								"mRender": function(data, type, full) {
-									if (full["NT8 URL"] === "undefined")
-										return data ;
-									else
-										return '<a href="http://www.ninjatrader.com/support/helpGuides/nt8/index.html?' + full["NT8 URL"] + '" target="new">' + data + '</a>';
-								}
-							},
-							{
-								"aTargets": [4],
-								"mRender": function(data, type, full) {
-									if (full["Summary"] === "undefined")
-										return "" ;
-									else
-										return data;
-								}
-							},							
-							{
-								"aTargets": [5],
-								"mRender": function (data, type, full) {
-									if (full["Details"] != "undefined")
-										return  '<small><a style="cursor: pointer;" id="details">Details</a></small>' 
-									else return '';
-								}
-							}
-						]
-					});
-					// Add event listener for opening and closing details
-					$('#CodeChanges tbody').on('click', '#details', function () {
-						var tr = $(this).closest('tr');
-						var row = table.row(tr);			
-						if (row.child.isShown()) {
-							// This row is already open - close it
-							row.child.hide();
-							tr.removeClass('shown');
-						}
-						else {
-							// Open this row
-							row.child(format(row.data())).show();
-							tr.addClass('shown');
-						}
-							});
-				});
-			</script>
 			
+			
+						
 			<table id="CodeChanges" class="display" width="100%">
 				<thead>
 					<tr>

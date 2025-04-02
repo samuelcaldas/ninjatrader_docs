@@ -59,24 +59,6 @@
 <p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Standard Renko bars can be challenging for backtesting as the barstypes use functionality to remove the last bar in the data series and replace the bar with a new Open price.This is done with reversals and cannot be simulated historically, because the bars are already built. Testing may be done with the Playback Connection to fully simulate standard Renko bars with accurate reversals and order fills.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Some custom Renko bars aim to work around this limitation and often substitute a &quot;fake&quot; open price in the bar. This will result in Standard Order Fill Resolution estimating fill prices using OHLC values that are not 100% reflective of actual price action which can create discrepancies with results. <a href="understanding_historical_fill_.htm" class="topiclink">High Order Fill Resolution</a> should be used in cases like this, or the strategy should be written to <a href="backtesting_ninjascript_strate.htm" class="topiclink">submit orders to a single tick data series</a>.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Similarly to custom Renko bars which use a &quot;fake&quot; open price, HeikenAshi bars alter the OHLC values of the data series to use the HeikenAshi moving average values. Since these are not real prices, it would be best to consider the same workarounds as noted above, or to use a HeikenAshi indicator. Please inquire with <a href="/cdn-cgi/l/email-protection#3f4f535e4b59504d524c4a4f4f504d4b7f515651555e4b4d5e5b5a4d115c5052" class="weblink"><span class="__cf_email__" data-cfemail="087864697c6e677a657b7d7878677a7c4866616662697c7a696c6d7a266b6765">[email&#160;protected]</span></a> for more information on how to find a HeikenAshi indicator.</p>
         
       </div>
-      <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
-      
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
+            <div id="bump" style="height: 25px"></div>
     </body>
   </html>
