@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -273,50 +273,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingTheBoxChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheBoxChartStyle\',\'UnderstandingTheBoxChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheBoxChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheCandlestickChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheCandlestickChartStyle\',\'UnderstandingTheCandlestickChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheCandlestickChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingtheEquivolumeChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingtheEquivolumeChartStyle\',\'UnderstandingtheEquivolumeChartStyle_ICON\')');
-HMInitToggle('UnderstandingtheEquivolumeChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingtheHollowCandlestick_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingtheHollowCandlestick\',\'UnderstandingtheHollowCandlestick_ICON\')');
-HMInitToggle('UnderstandingtheHollowCandlestick','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheKagiLineChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheKagiLineChartStyle\',\'UnderstandingTheKagiLineChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheKagiLineChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheLineOnCloseChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheLineOnCloseChartStyle\',\'UnderstandingTheLineOnCloseChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheLineOnCloseChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheMountainChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheMountainChartStyle\',\'UnderstandingTheMountainChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheMountainChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheOHLCChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheOHLCChartStyle\',\'UnderstandingTheOHLCChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheOHLCChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheHLCChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheHLCChartStyle\',\'UnderstandingTheHLCChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheHLCChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheHiLoChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheHiLoChartStyle\',\'UnderstandingTheHiLoChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheHiLoChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheOpenCloseChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheOpenCloseChartStyle\',\'UnderstandingTheOpenCloseChartStyle_ICON\')');
-HMInitToggle('UnderstandingTheOpenCloseChartStyle','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingThePointAndFigureChartStyle_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingThePointAndFigureChartStyle\',\'UnderstandingThePointAndFigureChartStyle_ICON\')');
-HMInitToggle('UnderstandingThePointAndFigureChartStyle','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

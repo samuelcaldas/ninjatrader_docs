@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -218,40 +218,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingDataSeriesDefaultSettings_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingDataSeriesDefaultSettings\',\'UnderstandingDataSeriesDefaultSettings_ICON\')');
-HMInitToggle('UnderstandingDataSeriesDefaultSettings','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingIndicatorDefaultSettings_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingIndicatorDefaultSettings\',\'UnderstandingIndicatorDefaultSettings_ICON\')');
-HMInitToggle('UnderstandingIndicatorDefaultSettings','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingStrategyTemplates_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingStrategyTemplates\',\'UnderstandingStrategyTemplates_ICON\')');
-HMInitToggle('UnderstandingStrategyTemplates','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingChartPropertyDefaultSettings_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingChartPropertyDefaultSettings\',\'UnderstandingChartPropertyDefaultSettings_ICON\')');
-HMInitToggle('UnderstandingChartPropertyDefaultSettings','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingDrawingObjectTemplates_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingDrawingObjectTemplates\',\'UnderstandingDrawingObjectTemplates_ICON\')');
-HMInitToggle('UnderstandingDrawingObjectTemplates','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToSaveAChartTemplate_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToSaveAChartTemplate\',\'HowToSaveAChartTemplate_ICON\')');
-HMInitToggle('HowToSaveAChartTemplate','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToLoadRemoveOrRenameAChartTemplate_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToLoadRemoveOrRenameAChartTemplate\',\'HowToLoadRemoveOrRenameAChartTemplate_ICON\')');
-HMInitToggle('HowToLoadRemoveOrRenameAChartTemplate','hm.type','dropdown','hm.state','0');
-</script>
 </body>
   </html>

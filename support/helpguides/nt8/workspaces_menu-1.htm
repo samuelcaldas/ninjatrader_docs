@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -135,40 +135,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('CreatingAWorkspace_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'CreatingAWorkspace\',\'CreatingAWorkspace_ICON\')');
-HMInitToggle('CreatingAWorkspace','hm.type','dropdown','hm.state','0');
-HMInitToggle('SavingAWorkspace_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SavingAWorkspace\',\'SavingAWorkspace_ICON\')');
-HMInitToggle('SavingAWorkspace','hm.type','dropdown','hm.state','0');
-HMInitToggle('OpeningAWorkspace_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OpeningAWorkspace\',\'OpeningAWorkspace_ICON\')');
-HMInitToggle('OpeningAWorkspace','hm.type','dropdown','hm.state','0');
-HMInitToggle('ClosingAWorkspace_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ClosingAWorkspace\',\'ClosingAWorkspace_ICON\')');
-HMInitToggle('ClosingAWorkspace','hm.type','dropdown','hm.state','0');
-HMInitToggle('RemovingAWorkspace_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'RemovingAWorkspace\',\'RemovingAWorkspace_ICON\')');
-HMInitToggle('RemovingAWorkspace','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToQuicklySwitchBetweenWorkspaces_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToQuicklySwitchBetweenWorkspaces\',\'HowToQuicklySwitchBetweenWorkspaces_ICON\')');
-HMInitToggle('HowToQuicklySwitchBetweenWorkspaces','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowtorecoverWorkspaces_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowtorecoverWorkspaces\',\'HowtorecoverWorkspaces_ICON\')');
-HMInitToggle('HowtorecoverWorkspaces','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

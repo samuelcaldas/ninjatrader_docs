@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?anchors.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -44,9 +44,9 @@
         <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
 <p class="p_Definition">Returns a custom collection of ChartAnchors which will represent various points of the drawing tool. &nbsp;</p>
 <p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<div ><table class="Note" >
 <tr class="Note">
-<td class="Note"><p class="p_Definition"><span style="font-weight: bold;">Note</span>: &nbsp;You must declare this property with the chart anchors used in the drawing tool which you plan on using for iteration. &nbsp;Doing so will expose a simple enumerator which will allow you to to iterate over the chart anchors in which have been defined in this interface.</p>
+<td class="Note"><p class="p_Definition"><span >Note</span>: &nbsp;You must declare this property with the chart anchors used in the drawing tool which you plan on using for iteration. &nbsp;Doing so will expose a simple enumerator which will allow you to to iterate over the chart anchors in which have been defined in this interface.</p>
 </td>
 </tr>
 </table>
@@ -58,58 +58,58 @@
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
 <p >You must override this property using the following syntax:</p>
-<p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">IEnumerable&lt;ChartAnchor&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Anchors</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
-<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><br />
+<p class="p_CodeExample"><span class="f_CodeExample" >public</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >override</span><span class="f_CodeExample" > </span><span class="f_CodeExample">IEnumerable&lt;ChartAnchor&gt;</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Anchors</span><span class="f_CodeExample" > </span><br />
+<span class="f_CodeExample">{</span><span class="f_CodeExample" > </span><br />
+<span class="f_CodeExample" > &nbsp; </span><br />
 <span class="f_CodeExample">}</span></p>
-<h2 class="p_Heading2"><span style="width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+<h2 class="p_Heading2"><span >&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;</h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">//defines the chart anchors used for the drawing tool</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample"> ChartAnchor &nbsp; &nbsp; &nbsp;StartAnchor &nbsp; &nbsp;{ </span><span class="f_CodeExample" style="color: #0000ff;">get</span><span class="f_CodeExample">; </span><span class="f_CodeExample" style="color: #0000ff;">set</span><span class="f_CodeExample">; }</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample"> ChartAnchor &nbsp; &nbsp; &nbsp;MiddleAnchor &nbsp; { </span><span class="f_CodeExample" style="color: #0000ff;">get</span><span class="f_CodeExample">; </span><span class="f_CodeExample" style="color: #0000ff;">set</span><span class="f_CodeExample">; }</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample"> ChartAnchor &nbsp; &nbsp; &nbsp;EndAnchor &nbsp; &nbsp; &nbsp;{ </span><span class="f_CodeExample" style="color: #0000ff;">get</span><span class="f_CodeExample">; </span><span class="f_CodeExample" style="color: #0000ff;">set</span><span class="f_CodeExample">; }</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >//defines the chart anchors used for the drawing tool</span><br />
+<span class="f_CodeExample" >public</span><span class="f_CodeExample"> ChartAnchor &nbsp; &nbsp; &nbsp;StartAnchor &nbsp; &nbsp;{ </span><span class="f_CodeExample" >get</span><span class="f_CodeExample">; </span><span class="f_CodeExample" >set</span><span class="f_CodeExample">; }</span><br />
+<span class="f_CodeExample" >public</span><span class="f_CodeExample"> ChartAnchor &nbsp; &nbsp; &nbsp;MiddleAnchor &nbsp; { </span><span class="f_CodeExample" >get</span><span class="f_CodeExample">; </span><span class="f_CodeExample" >set</span><span class="f_CodeExample">; }</span><br />
+<span class="f_CodeExample" >public</span><span class="f_CodeExample"> ChartAnchor &nbsp; &nbsp; &nbsp;EndAnchor &nbsp; &nbsp; &nbsp;{ </span><span class="f_CodeExample" >get</span><span class="f_CodeExample">; </span><span class="f_CodeExample" >set</span><span class="f_CodeExample">; }</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #008000;">//create a collection of chart anchors used for a simple iteration</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">public</span><span class="f_CodeExample"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample"> IEnumerable&lt;ChartAnchor&gt; Anchors </span><br />
+<span class="f_CodeExample" >//create a collection of chart anchors used for a simple iteration</span><br />
+<span class="f_CodeExample" >public</span><span class="f_CodeExample"> </span><span class="f_CodeExample" >override</span><span class="f_CodeExample"> IEnumerable&lt;ChartAnchor&gt; Anchors </span><br />
 <span class="f_CodeExample">{ </span><br />
-<span class="f_CodeExample"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">get</span><span class="f_CodeExample"> </span><br />
+<span class="f_CodeExample"> &nbsp; </span><span class="f_CodeExample" >get</span><span class="f_CodeExample"> </span><br />
 <span class="f_CodeExample"> &nbsp; { </span><br />
-<span class="f_CodeExample"> &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample">[] { StartAnchor, MiddleAnchor, EndAnchor }; </span><br />
+<span class="f_CodeExample"> &nbsp; &nbsp;  </span><span class="f_CodeExample" >return</span><span class="f_CodeExample"> </span><span class="f_CodeExample" >new</span><span class="f_CodeExample">[] { StartAnchor, MiddleAnchor, EndAnchor }; </span><br />
 <span class="f_CodeExample"> &nbsp; } </span><br />
 <span class="f_CodeExample">}</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #008000;">//setup our chart anchor instances and assign a display name to each</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample"> OnStateChange()</span><br />
+<span class="f_CodeExample" >//setup our chart anchor instances and assign a display name to each</span><br />
+<span class="f_CodeExample" >protected</span><span class="f_CodeExample"> </span><span class="f_CodeExample" >override</span><span class="f_CodeExample"> </span><span class="f_CodeExample" >void</span><span class="f_CodeExample"> OnStateChange()</span><br />
 <span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample"> (State == State.SetDefaults)</span><br />
+<span class="f_CodeExample"> &nbsp; </span><span class="f_CodeExample" >if</span><span class="f_CodeExample"> (State == State.SetDefaults)</span><br />
 <span class="f_CodeExample"> &nbsp; {</span><br />
 <span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;</span><br />
-<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= </span><span class="f_CodeExample" style="color: #800000;">&quot;My Drawing Tool&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= </span><span class="f_CodeExample" >&quot;My Drawing Tool&quot;</span><span class="f_CodeExample">;</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;StartAnchor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample"> ChartAnchor();</span><br />
-<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;MiddleAnchor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample"> ChartAnchor();</span><br />
-<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;EndAnchor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample"> ChartAnchor();</span><br />
+<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;StartAnchor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = </span><span class="f_CodeExample" >new</span><span class="f_CodeExample"> ChartAnchor();</span><br />
+<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;MiddleAnchor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= </span><span class="f_CodeExample" >new</span><span class="f_CodeExample"> ChartAnchor();</span><br />
+<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;EndAnchor &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = </span><span class="f_CodeExample" >new</span><span class="f_CodeExample"> ChartAnchor();</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;StartAnchor.DisplayName &nbsp; &nbsp;= </span><span class="f_CodeExample" style="color: #800000;">&quot;My Start Anchor&quot;</span><span class="f_CodeExample">;</span><br />
-<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;MiddleAnchor.DisplayName &nbsp; = </span><span class="f_CodeExample" style="color: #800000;">&quot;My Middle Anchor&quot;</span><span class="f_CodeExample">;</span><br />
-<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;EndAnchor.DisplayName &nbsp; &nbsp; &nbsp;= </span><span class="f_CodeExample" style="color: #800000;">&quot;My End Anchor&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;StartAnchor.DisplayName &nbsp; &nbsp;= </span><span class="f_CodeExample" >&quot;My Start Anchor&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;MiddleAnchor.DisplayName &nbsp; = </span><span class="f_CodeExample" >&quot;My Middle Anchor&quot;</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;EndAnchor.DisplayName &nbsp; &nbsp; &nbsp;= </span><span class="f_CodeExample" >&quot;My End Anchor&quot;</span><span class="f_CodeExample">;</span><br />
 <span class="f_CodeExample"> &nbsp; &nbsp; &nbsp; &nbsp; </span><br />
 <span class="f_CodeExample"> &nbsp; }</span><br />
 <span class="f_CodeExample">}</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #008000;">//for each render pass, print out the display name of the chart anchors</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample"> OnRender(ChartControl chartControl, ChartScale chartScale)</span><br />
+<span class="f_CodeExample" >//for each render pass, print out the display name of the chart anchors</span><br />
+<span class="f_CodeExample" >protected</span><span class="f_CodeExample"> </span><span class="f_CodeExample" >override</span><span class="f_CodeExample"> </span><span class="f_CodeExample" >void</span><span class="f_CodeExample"> OnRender(ChartControl chartControl, ChartScale chartScale)</span><br />
 <span class="f_CodeExample">{ &nbsp; </span><br />
-<span class="f_CodeExample"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">foreach</span><span class="f_CodeExample"> (ChartAnchor anchor </span><span class="f_CodeExample" style="color: #0000ff;">in</span><span class="f_CodeExample"> Anchors)</span><br />
+<span class="f_CodeExample"> &nbsp; </span><span class="f_CodeExample" >foreach</span><span class="f_CodeExample"> (ChartAnchor anchor </span><span class="f_CodeExample" >in</span><span class="f_CodeExample"> Anchors)</span><br />
 <span class="f_CodeExample"> &nbsp; {</span><br />
 <span class="f_CodeExample"> &nbsp; &nbsp; &nbsp;Print(anchor.DisplayName);</span><br />
 <span class="f_CodeExample"> &nbsp; }</span><br />
@@ -140,6 +140,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>

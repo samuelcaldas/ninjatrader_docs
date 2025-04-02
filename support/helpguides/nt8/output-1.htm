@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -281,38 +281,6 @@ To bring up the Find menu, right click on the Output window and select <span cla
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingTheOutputWindowDisplay_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheOutputWindowDisplay\',\'UnderstandingTheOutputWindowDisplay_ICON\')');
-HMInitToggle('UnderstandingTheOutputWindowDisplay','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheDualTabView_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheDualTabView\',\'UnderstandingTheDualTabView_ICON\')');
-HMInitToggle('UnderstandingTheDualTabView','hm.type','dropdown','hm.state','0');
-HMInitToggle('SearchingAndHighlighting_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SearchingAndHighlighting\',\'SearchingAndHighlighting_ICON\')');
-HMInitToggle('SearchingAndHighlighting','hm.type','dropdown','hm.state','0');
-HMInitToggle('ClearingAndSavingOutputInformation_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ClearingAndSavingOutputInformation\',\'ClearingAndSavingOutputInformation_ICON\')');
-HMInitToggle('ClearingAndSavingOutputInformation','hm.type','dropdown','hm.state','0');
-HMInitToggle('OutputWindowProperties_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OutputWindowProperties\',\'OutputWindowProperties_ICON\')');
-HMInitToggle('OutputWindowProperties','hm.type','dropdown','hm.state','0');
-HMInitToggle('NinjaScriptUtilizationMonitor_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'NinjaScriptUtilizationMonitor\',\'NinjaScriptUtilizationMonitor_ICON\')');
-HMInitToggle('NinjaScriptUtilizationMonitor','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -409,34 +409,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('Understandingpredefinedbrushes_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Understandingpredefinedbrushes\',\'Understandingpredefinedbrushes_ICON\')');
-HMInitToggle('Understandingpredefinedbrushes','hm.type','dropdown','hm.state','0');
-HMInitToggle('Understandingcustombrushes_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Understandingcustombrushes\',\'Understandingcustombrushes_ICON\')');
-HMInitToggle('Understandingcustombrushes','hm.type','dropdown','hm.state','0');
-HMInitToggle('Userdefinedbrushes_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Userdefinedbrushes\',\'Userdefinedbrushes_ICON\')');
-HMInitToggle('Userdefinedbrushes','hm.type','dropdown','hm.state','0');
-HMInitToggle('AdvancedBrushTypesSharpDX_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AdvancedBrushTypesSharpDX\',\'AdvancedBrushTypesSharpDX_ICON\')');
-HMInitToggle('AdvancedBrushTypesSharpDX','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

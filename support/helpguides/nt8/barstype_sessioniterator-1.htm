@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html?barstype_sessioniterator.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -51,29 +51,29 @@
 <p ><span class="f_CodeExample">SessionIterator</span></p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div ><table id="Code1" class="NSExample">
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnDataPoint(Bars</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">bars,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">open,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">high,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">low,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">close,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">long</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">volume,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">isBar,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">bid,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">ask)</span><br>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >protected</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >override</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >void</span><span class="f_CodeExample" > </span><span class="f_CodeExample">OnDataPoint(Bars</span><span class="f_CodeExample" > </span><span class="f_CodeExample">bars,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">open,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">high,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">low,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">close,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" > </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >long</span><span class="f_CodeExample" > </span><span class="f_CodeExample">volume,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >bool</span><span class="f_CodeExample" > </span><span class="f_CodeExample">isBar,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">bid,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">ask)</span><br>
 <span class="f_CodeExample">{</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// build a session iterator from the bars object being updated</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(SessionIterator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">)</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">SessionIterator</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SessionIterator(bars);</span><br>
+<span class="f_CodeExample" > &nbsp; </span><span class="f_CodeExample" >// build a session iterator from the bars object being updated</span><br>
+<span class="f_CodeExample" > &nbsp; </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(SessionIterator</span><span class="f_CodeExample" > </span><span class="f_CodeExample">==</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >null</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" > &nbsp; &nbsp;  </span><span class="f_CodeExample">SessionIterator</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >new</span><span class="f_CodeExample" > </span><span class="f_CodeExample">SessionIterator(bars);</span><br>
 <span class="f_CodeExample">&nbsp;</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// check if we are in a new trading session based on the trading hours selected by the user</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">isNewSession</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SessionIterator.IsNewSession(time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">isBar);</span><br>
+<span class="f_CodeExample" > &nbsp; </span><span class="f_CodeExample" >// check if we are in a new trading session based on the trading hours selected by the user</span><br>
+<span class="f_CodeExample" > &nbsp; </span><span class="f_CodeExample" >bool</span><span class="f_CodeExample" > </span><span class="f_CodeExample">isNewSession</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">SessionIterator.IsNewSession(time,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">isBar);</span><br>
 <span class="f_CodeExample">&nbsp;</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// calculate the new trading day</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(isNewSession)</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp;  </span><span class="f_CodeExample">SessionIterator.CalculateTradingDay(time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">isBar);</span><br>
+<span class="f_CodeExample" > &nbsp; </span><span class="f_CodeExample" >// calculate the new trading day</span><br>
+<span class="f_CodeExample" > &nbsp; </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(isNewSession)</span><br>
+<span class="f_CodeExample" > &nbsp; &nbsp;  </span><span class="f_CodeExample">SessionIterator.CalculateTradingDay(time,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">isBar);</span><br>
 <span class="f_CodeExample">&nbsp;</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">Print(SessionIterator.ActualTradingDayExchange);</span><br>
+<span class="f_CodeExample" > &nbsp; </span><span class="f_CodeExample">Print(SessionIterator.ActualTradingDayExchange);</span><br>
 <span class="f_CodeExample">&nbsp;</span><br>
 <span class="f_CodeExample">}</span></p>
 </td>
@@ -102,6 +102,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </div></body>
   </html>

@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -429,42 +429,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingTheWelcomeScreen_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheWelcomeScreen\',\'UnderstandingTheWelcomeScreen_ICON\')');
-HMInitToggle('UnderstandingTheWelcomeScreen','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheGeneralScreen_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheGeneralScreen\',\'UnderstandingTheGeneralScreen_ICON\')');
-HMInitToggle('UnderstandingTheGeneralScreen','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheDefaultPropertiesScreen_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheDefaultPropertiesScreen\',\'UnderstandingTheDefaultPropertiesScreen_ICON\')');
-HMInitToggle('UnderstandingTheDefaultPropertiesScreen','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheAdditrionalDataScreen_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheAdditrionalDataScreen\',\'UnderstandingTheAdditrionalDataScreen_ICON\')');
-HMInitToggle('UnderstandingTheAdditrionalDataScreen','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheInputsAndVariablesScreen_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheInputsAndVariablesScreen\',\'UnderstandingTheInputsAndVariablesScreen_ICON\')');
-HMInitToggle('UnderstandingTheInputsAndVariablesScreen','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheConditionsAndActionsScreen_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheConditionsAndActionsScreen\',\'UnderstandingTheConditionsAndActionsScreen_ICON\')');
-HMInitToggle('UnderstandingTheConditionsAndActionsScreen','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheStopsAndTargetsScreen_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheStopsAndTargetsScreen\',\'UnderstandingTheStopsAndTargetsScreen_ICON\')');
-HMInitToggle('UnderstandingTheStopsAndTargetsScreen','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheFinishScreen_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheFinishScreen\',\'UnderstandingTheFinishScreen_ICON\')');
-HMInitToggle('UnderstandingTheFinishScreen','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

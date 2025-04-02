@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -237,46 +237,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('DoINeedToTurnOnOcoOrderToUseTheAtmStrategies_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'DoINeedToTurnOnOcoOrderToUseTheAtmStrategies\',\'DoINeedToTurnOnOcoOrderToUseTheAtmStrategies_ICON\')');
-HMInitToggle('DoINeedToTurnOnOcoOrderToUseTheAtmStrategies','hm.type','dropdown','hm.state','0');
-HMInitToggle('DoesNinjaTraderneedtobeconnectedforATMstowork_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'DoesNinjaTraderneedtobeconnectedforATMstowork\',\'DoesNinjaTraderneedtobeconnectedforATMstowork_ICON\')');
-HMInitToggle('DoesNinjaTraderneedtobeconnectedforATMstowork','hm.type','dropdown','hm.state','0');
-HMInitToggle('IsItPossibleToRunConcurrentAtmStrategiesInTheSameMarketAndTheSameAccount_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'IsItPossibleToRunConcurrentAtmStrategiesInTheSameMarketAndTheSameAccount\',\'IsItPossibleToRunConcurrentAtmStrategiesInTheSameMarketAndTheSameAccount_ICON\')');
-HMInitToggle('IsItPossibleToRunConcurrentAtmStrategiesInTheSameMarketAndTheSameAccount','hm.type','dropdown','hm.state','0');
-HMInitToggle('CanIHaveMyAutoTrailLoosenAsIGainTicksInProfit_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'CanIHaveMyAutoTrailLoosenAsIGainTicksInProfit\',\'CanIHaveMyAutoTrailLoosenAsIGainTicksInProfit_ICON\')');
-HMInitToggle('CanIHaveMyAutoTrailLoosenAsIGainTicksInProfit','hm.type','dropdown','hm.state','0');
-HMInitToggle('WhyDontTheFollowingAtmStrategyParametersWork_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'WhyDontTheFollowingAtmStrategyParametersWork\',\'WhyDontTheFollowingAtmStrategyParametersWork_ICON\')');
-HMInitToggle('WhyDontTheFollowingAtmStrategyParametersWork','hm.type','dropdown','hm.state','0');
-HMInitToggle('CanIUseTheAutoBreakevenAndAutoTrailStrategiesTogether_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'CanIUseTheAutoBreakevenAndAutoTrailStrategiesTogether\',\'CanIUseTheAutoBreakevenAndAutoTrailStrategiesTogether_ICON\')');
-HMInitToggle('CanIUseTheAutoBreakevenAndAutoTrailStrategiesTogether','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowDoIAddAnAtmStrategyToAnOpenPosition_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowDoIAddAnAtmStrategyToAnOpenPosition\',\'HowDoIAddAnAtmStrategyToAnOpenPosition_ICON\')');
-HMInitToggle('HowDoIAddAnAtmStrategyToAnOpenPosition','hm.type','dropdown','hm.state','0');
-HMInitToggle('CanIManuallyBracketAPositionWithoutUsingAnAtmStrategy_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'CanIManuallyBracketAPositionWithoutUsingAnAtmStrategy\',\'CanIManuallyBracketAPositionWithoutUsingAnAtmStrategy_ICON\')');
-HMInitToggle('CanIManuallyBracketAPositionWithoutUsingAnAtmStrategy','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowDoIMakeOneTargetArunnerSoThatItHasAStopLossOnlyAndNoProfitTarget_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowDoIMakeOneTargetArunnerSoThatItHasAStopLossOnlyAndNoProfitTarget\',\'HowDoIMakeOneTargetArunnerSoThatItHasAStopLossOnlyAndNoProfitTarget_ICON\')');
-HMInitToggle('HowDoIMakeOneTargetArunnerSoThatItHasAStopLossOnlyAndNoProfitTarget','hm.type','dropdown','hm.state','0');
-HMInitToggle('WhatHappensAsOneOfMyAtmOrdersAreRejected_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'WhatHappensAsOneOfMyAtmOrdersAreRejected\',\'WhatHappensAsOneOfMyAtmOrdersAreRejected_ICON\')');
-HMInitToggle('WhatHappensAsOneOfMyAtmOrdersAreRejected','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -320,46 +320,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('OrderEntry_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderEntry\',\'OrderEntry_ICON\')');
-HMInitToggle('OrderEntry','hm.type','dropdown','hm.state','0');
-HMInitToggle('AdvancedTradeManagementStrategies_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AdvancedTradeManagementStrategies\',\'AdvancedTradeManagementStrategies_ICON\')');
-HMInitToggle('AdvancedTradeManagementStrategies','hm.type','dropdown','hm.state','0');
-HMInitToggle('SuperDOM_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'SuperDOM\',\'SuperDOM_ICON\')');
-HMInitToggle('SuperDOM','hm.type','dropdown','hm.state','0');
-HMInitToggle('ControlCenter_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ControlCenter\',\'ControlCenter_ICON\')');
-HMInitToggle('ControlCenter','hm.type','dropdown','hm.state','0');
-HMInitToggle('MarketAnalyzer_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'MarketAnalyzer\',\'MarketAnalyzer_ICON\')');
-HMInitToggle('MarketAnalyzer','hm.type','dropdown','hm.state','0');
-HMInitToggle('Alerts_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Alerts\',\'Alerts_ICON\')');
-HMInitToggle('Alerts','hm.type','dropdown','hm.state','0');
-HMInitToggle('Charts_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Charts\',\'Charts_ICON\')');
-HMInitToggle('Charts','hm.type','dropdown','hm.state','0');
-HMInitToggle('MarketDataWindows_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'MarketDataWindows\',\'MarketDataWindows_ICON\')');
-HMInitToggle('MarketDataWindows','hm.type','dropdown','hm.state','0');
-HMInitToggle('Miscellaneous_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Miscellaneous\',\'Miscellaneous_ICON\')');
-HMInitToggle('Miscellaneous','hm.type','dropdown','hm.state','0');
-HMInitToggle('StrategyBacktestingAndOptimization_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'StrategyBacktestingAndOptimization\',\'StrategyBacktestingAndOptimization_ICON\')');
-HMInitToggle('StrategyBacktestingAndOptimization','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

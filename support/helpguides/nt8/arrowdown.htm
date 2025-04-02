@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?arrowdown.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -45,23 +45,23 @@
 <p class="p_Definition">Represents an interface that exposes information regarding an Arrow Down <a href="idrawingtool.htm" class="topiclink">IDrawingTool</a>.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Methods and Properties</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Anchor</p>
+<td ><p >Anchor</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >An <a href="idrawingtool.htm#chartanchor" class="topiclink">IDrawingTool's ChartAnchor</a> representing the point of the drawing object</p>
+<td ><p >An <a href="idrawingtool.htm#chartanchor" class="topiclink">IDrawingTool's ChartAnchor</a> representing the point of the drawing object</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >AreaBrush</p>
+<td ><p >AreaBrush</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >A <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx" target="_blank" class="weblink">Brush</a> object representing the fill color of the draw object</p>
+<td ><p >A <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx" target="_blank" class="weblink">Brush</a> object representing the fill color of the draw object</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >OutlineBrush</p>
+<td ><p >OutlineBrush</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx" target="_blank" class="weblink">Brush</a> object representing the color of the draw object's outline</p>
+<td ><p >A <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx" target="_blank" class="weblink">Brush</a> object representing the color of the draw object's outline</p>
 </td>
 </tr>
 </table>
@@ -69,20 +69,20 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Example</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Instantiate an ArrowDown object</span><br />
-<span class="f_CodeExample">ArrowDown</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">myArrow</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Draw.ArrowDown(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;tag1&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Time[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(</span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">*</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TickSize),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Green);</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >// Instantiate an ArrowDown object</span><br />
+<span class="f_CodeExample">ArrowDown</span><span class="f_CodeExample" > </span><span class="f_CodeExample">myArrow</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Draw.ArrowDown(</span><span class="f_CodeExample" >this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;tag1&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >true</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Time[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">],</span><span class="f_CodeExample" > </span><span class="f_CodeExample">High[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample">+</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(</span><span class="f_CodeExample" >2</span><span class="f_CodeExample" > </span><span class="f_CodeExample">*</span><span class="f_CodeExample" > </span><span class="f_CodeExample">TickSize),</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.Green);</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #008000;">// Set the outline color of the Arrow</span><br />
-<span class="f_CodeExample">myArrow.OutlineBrush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Black;</span></p>
+<span class="f_CodeExample" >// Set the outline color of the Arrow</span><br />
+<span class="f_CodeExample">myArrow.OutlineBrush</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.Black;</span></p>
 </td>
 </tr>
 </tbody>
@@ -109,6 +109,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>

@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -286,40 +286,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('AddingTabs_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AddingTabs\',\'AddingTabs_ICON\')');
-HMInitToggle('AddingTabs','hm.type','dropdown','hm.state','0');
-HMInitToggle('RemovingTabs_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'RemovingTabs\',\'RemovingTabs_ICON\')');
-HMInitToggle('RemovingTabs','hm.type','dropdown','hm.state','0');
-HMInitToggle('ReorderingTabs_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ReorderingTabs\',\'ReorderingTabs_ICON\')');
-HMInitToggle('ReorderingTabs','hm.type','dropdown','hm.state','0');
-HMInitToggle('TabsActions_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'TabsActions\',\'TabsActions_ICON\')');
-HMInitToggle('TabsActions','hm.type','dropdown','hm.state','0');
-HMInitToggle('Duplicatingawindowanditstabs_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Duplicatingawindowanditstabs\',\'Duplicatingawindowanditstabs_ICON\')');
-HMInitToggle('Duplicatingawindowanditstabs','hm.type','dropdown','hm.state','0');
-HMInitToggle('TabNameVariables_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'TabNameVariables\',\'TabNameVariables_ICON\')');
-HMInitToggle('TabNameVariables','hm.type','dropdown','hm.state','0');
-HMInitToggle('Switchingtabs_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Switchingtabs\',\'Switchingtabs_ICON\')');
-HMInitToggle('Switchingtabs','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

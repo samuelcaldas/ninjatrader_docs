@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -170,36 +170,6 @@ There are several options for cancelling orders within the NinjaTrader SuperDOM.
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('HowToModifyThePriceOfEntryAndExitOrders_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToModifyThePriceOfEntryAndExitOrders\',\'HowToModifyThePriceOfEntryAndExitOrders_ICON\')');
-HMInitToggle('HowToModifyThePriceOfEntryAndExitOrders','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToModifyThePriceOfStopLossAndProfitTargetOrders_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToModifyThePriceOfStopLossAndProfitTargetOrders\',\'HowToModifyThePriceOfStopLossAndProfitTargetOrders_ICON\')');
-HMInitToggle('HowToModifyThePriceOfStopLossAndProfitTargetOrders','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToModifyTheSizeOfAnOrder_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToModifyTheSizeOfAnOrder\',\'HowToModifyTheSizeOfAnOrder_ICON\')');
-HMInitToggle('HowToModifyTheSizeOfAnOrder','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToModifyStopLossAndProfitTargetOrdersWithASingleClick_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToModifyStopLossAndProfitTargetOrdersWithASingleClick\',\'HowToModifyStopLossAndProfitTargetOrdersWithASingleClick_ICON\')');
-HMInitToggle('HowToModifyStopLossAndProfitTargetOrdersWithASingleClick','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToCancelOrders_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCancelOrders\',\'HowToCancelOrders_ICON\')');
-HMInitToggle('HowToCancelOrders','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

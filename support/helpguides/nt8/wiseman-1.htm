@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -192,32 +192,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('WisemanAlligator_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_plus.gif','onclick','HMToggle(\'toggle\',\'WisemanAlligator\',\'WisemanAlligator_ICON\')');
-HMInitToggle('WisemanAlligator','hm.type','dropdown','hm.state','0');
-HMInitToggle('WisemanAwesomeOscillator_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_plus.gif','onclick','HMToggle(\'toggle\',\'WisemanAwesomeOscillator\',\'WisemanAwesomeOscillator_ICON\')');
-HMInitToggle('WisemanAwesomeOscillator','hm.type','dropdown','hm.state','0');
-HMInitToggle('WisemanFractal_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_plus.gif','onclick','HMToggle(\'toggle\',\'WisemanFractal\',\'WisemanFractal_ICON\')');
-HMInitToggle('WisemanFractal','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?atmstrategyclose.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -45,11 +45,11 @@
 <p class="p_Definition">Cancels any working orders and closes any open position of a strategy using the default <a href="closing_a_position_or_atm_stra.htm" class="topiclink">ATM strategy close behavior</a>.</p>
 <p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
 <h2 class="p_Heading2"><span class="f_Heading2">Method Return Value</span></h2>
-<p >Returns <span style="font-weight: bold;">true</span> if the specified ATM strategy was found; otherwise <span style="font-weight: bold;">false</span>. </p>
+<p >Returns <span >true</span> if the specified ATM strategy was found; otherwise <span >false</span>. </p>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<div ><table class="Note" >
 <tr class="Note">
-<td class="Note"><p ><span style="font-weight: bold;">Note</span>: &nbsp;A method return value of <span style="font-weight: bold;">true</span> in <span style="font-weight: bold;">NO WAY</span> indicates that the strategy in fact is closed. It indicates that the the specified ATM strategy was found and the internal close routine was triggered.</p>
+<td class="Note"><p ><span >Note</span>: &nbsp;A method return value of <span >true</span> in <span >NO WAY</span> indicates that the strategy in fact is closed. It indicates that the the specified ATM strategy was found and the internal close routine was triggered.</p>
 </td>
 </tr>
 </table>
@@ -60,11 +60,11 @@
 <p class="p_CodeExample"><span class="f_CodeExample">AtmStrategyClose(</span><span class="f_CodeExampleTypes">string</span><span class="f_CodeExample"> a</span><span class="f_CodeExampleParameters">tmStrategyId</span><span class="f_CodeExample">)</span></p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >atmStrategyId</p>
+<td ><p >atmStrategyId</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The unique identifier for the ATM strategy</p>
+<td ><p >The unique identifier for the ATM strategy</p>
 </td>
 </tr>
 </table>
@@ -72,20 +72,20 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >protected</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >override</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >void</span><span class="f_CodeExample" > </span><span class="f_CodeExample">OnBarUpdate()</span><br />
 <span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Check for valid condition and create an ATM Strategy</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(GetAtmStrategyUnrealizedProfitLoss(</span><span class="f_CodeExample" style="color: #800000;">&quot;idValue&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">500</span><span class="f_CodeExample">)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">AtmStrategyClose(</span><span class="f_CodeExample" style="color: #800000;">&quot;idValue&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >// Check for valid condition and create an ATM Strategy</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(GetAtmStrategyUnrealizedProfitLoss(</span><span class="f_CodeExample" >&quot;idValue&quot;</span><span class="f_CodeExample">)</span><span class="f_CodeExample" > </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >500</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">AtmStrategyClose(</span><span class="f_CodeExample" >&quot;idValue&quot;</span><span class="f_CodeExample">);</span><br />
 <span class="f_CodeExample">}</span></p>
 </td>
 </tr>
@@ -113,6 +113,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>

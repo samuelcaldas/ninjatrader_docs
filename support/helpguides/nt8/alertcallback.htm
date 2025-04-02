@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?alertcallback.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -44,10 +44,10 @@
         <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
 <p >Creates an alert event to be raised specified by a string &quot;id&quot; and a corresponding .wav file will be played matching the &quot;soundLocation&quot; parameter. Once an alert has triggered, its message is reflected in the &quot;Alerts Log&quot; window based on the background and foreground brushes provided in the callback. &nbsp; </p>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<div ><table class="Note" >
 <tr class="Note">
-<td class="Note"><p ><span style="font-weight: bold;">Notes</span>: &nbsp;</p>
-<p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>If the <span style="font-weight: bold;">AlertCallback()</span> method is called again with the same string &quot;id&quot; parameter <span style="font-style: italic;">before</span> the provided &quot;rearmSeconds&quot; duration has passed, the alert event will be reset based on the new &quot;rearmSeconds&quot; parameter provided. &nbsp;Doing so could consequently cause an alert to be reset inadvertently, in which case you should pass a &quot;rearmSeconds&quot; parameter of &quot;0&quot; to ensure the specified alert event is always raised.</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>The <span style="font-weight: bold;">AlertCallback()</span> method is the same core function used by the simpler <a href="alert.htm" class="topiclink">Alert()</a> method which can alternatively be used with NinjaScript indicators and strategies. &nbsp;The AlertCallback() was exposed for use with Add-ons or other more advance use cases. &nbsp;</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Providing a &quot;rearmSeconds&quot; &nbsp;parameter greater than &quot;0&quot; will add the matching alert id to a rearmed state, which only allows the alert to be reissued after the specified time interval in seconds has lapsed. &nbsp;You can reset an alert's rearm parameter by using the <a href="alert_rearmalert().htm" class="topiclink">ResetAlertRearmById()</a>.</p></td>
+<td class="Note"><p ><span >Notes</span>: &nbsp;</p>
+<p  ><span class="f_Normal" >1.</span>If the <span >AlertCallback()</span> method is called again with the same string &quot;id&quot; parameter <span >before</span> the provided &quot;rearmSeconds&quot; duration has passed, the alert event will be reset based on the new &quot;rearmSeconds&quot; parameter provided. &nbsp;Doing so could consequently cause an alert to be reset inadvertently, in which case you should pass a &quot;rearmSeconds&quot; parameter of &quot;0&quot; to ensure the specified alert event is always raised.</p><p  ><span class="f_Normal" >2.</span>The <span >AlertCallback()</span> method is the same core function used by the simpler <a href="alert.htm" class="topiclink">Alert()</a> method which can alternatively be used with NinjaScript indicators and strategies. &nbsp;The AlertCallback() was exposed for use with Add-ons or other more advance use cases. &nbsp;</p><p  ><span class="f_Normal" >3.</span>Providing a &quot;rearmSeconds&quot; &nbsp;parameter greater than &quot;0&quot; will add the matching alert id to a rearmed state, which only allows the alert to be reissued after the specified time interval in seconds has lapsed. &nbsp;You can reset an alert's rearm parameter by using the <a href="alert_rearmalert().htm" class="topiclink">ResetAlertRearmById()</a>.</p></td>
 </tr>
 </table>
 </div>
@@ -57,11 +57,11 @@
 <p >This method does not return a value.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
-<p class="p_CodeExample"><span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.AlertCallback(Instrument</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">instrument,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">object</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">source,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">id,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Priority</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">priority,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">message,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">soundLocation,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">backBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">foreBrush,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">rearmSeconds)</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.AlertCallback(Instrument</span><span class="f_CodeExample" > </span><span class="f_CodeExample">instrument,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >object</span><span class="f_CodeExample" > </span><span class="f_CodeExample">source,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >string</span><span class="f_CodeExample" > </span><span class="f_CodeExample">id,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" > </span><span class="f_CodeExample">time,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Priority</span><span class="f_CodeExample" > </span><span class="f_CodeExample">priority,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >string</span><span class="f_CodeExample" > </span><span class="f_CodeExample">message,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >string</span><span class="f_CodeExample" > </span><span class="f_CodeExample">soundLocation,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" > </span><span class="f_CodeExample">backBrush,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brush</span><span class="f_CodeExample" > </span><span class="f_CodeExample">foreBrush,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >int</span><span class="f_CodeExample" > </span><span class="f_CodeExample">rearmSeconds)</span></p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<div ><table class="Warning" >
 <tr class="Warning">
-<td class="Warning"><p ><span style="font-weight: bold;">Warning</span>: &nbsp;An &quot;id&quot; parameter <span style="font-weight: bold;">MUST</span> &nbsp;be provided otherwise a null argument exception will be generated</p>
+<td class="Warning"><p ><span >Warning</span>: &nbsp;An &quot;id&quot; parameter <span >MUST</span> &nbsp;be provided otherwise a null argument exception will be generated</p>
 </td>
 </tr>
 </table>
@@ -69,35 +69,35 @@
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >instrument</p>
+<td ><p >instrument</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >An <a href="instrument.htm" class="topiclink">Instrument</a> object associated with the alert. &nbsp;</p>
+<td ><p >An <a href="instrument.htm" class="topiclink">Instrument</a> object associated with the alert. &nbsp;</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >source</p>
+<td ><p >source</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >A generic object type which created the alert (e.g. &quot;this&quot;)</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >id</p>
-</td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A <span class="f_CodeExampleTypes">string</span> representing a unique id for the alert</p>
+<td ><p >A generic object type which created the alert (e.g. &quot;this&quot;)</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >time</p>
+<td ><p >id</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >The DateTime representing the time associated with the alert</p>
+<td ><p >A <span class="f_CodeExampleTypes">string</span> representing a unique id for the alert</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >priority</p>
+<td ><p >time</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the precedence of the alert in relation to other alerts.</p>
+<td ><p >The DateTime representing the time associated with the alert</p>
+</td>
+</tr>
+<tr>
+<td ><p >priority</p>
+</td>
+<td ><p >Sets the precedence of the alert in relation to other alerts.</p>
 <p >&nbsp;</p>
 <p >Any one of the following values:<br />
 &nbsp;<br />
@@ -107,44 +107,44 @@ Priority.High</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >message</p>
+<td ><p >message</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >A <span class="f_CodeExampleTypes">string</span> representing the Alert message</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >soundLocation</p>
-</td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A <span class="f_CodeExampleTypes">string</span> representing the absolute file path of the .wav file to play. &nbsp;</p>
+<td ><p >A <span class="f_CodeExampleTypes">string</span> representing the Alert message</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >backBrush</p>
+<td ><p >soundLocation</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Sets the background color of the Alerts window row for this alert when triggered (<a href="http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx" target="_blank" class="weblink">reference</a>)</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >foreBrush</p>
-</td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the foreground color of the Alerts window row for this alert when triggered (<a href="http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx" target="_blank" class="weblink">reference</a>)</p>
+<td ><p >A <span class="f_CodeExampleTypes">string</span> representing the absolute file path of the .wav file to play. &nbsp;</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >rearmSeconds</p>
+<td ><p >backBrush</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >An <span class="f_CodeExampleTypes">int</span> which sets the number of seconds an alert will rearm.</p>
+<td ><p >Sets the background color of the Alerts window row for this alert when triggered (<a href="http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx" target="_blank" class="weblink">reference</a>)</p>
+</td>
+</tr>
+<tr>
+<td ><p >foreBrush</p>
+</td>
+<td ><p >Sets the foreground color of the Alerts window row for this alert when triggered (<a href="http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx" target="_blank" class="weblink">reference</a>)</p>
+</td>
+</tr>
+<tr>
+<td ><p >rearmSeconds</p>
+</td>
+<td ><p >An <span class="f_CodeExampleTypes">int</span> which sets the number of seconds an alert will rearm.</p>
 <p >&nbsp;</p>
-<p ><span style="font-weight: bold;">Note</span>: If the same alert (identified by the id parameter) is called within a time window of the time of last alert + rearmSeconds, the alert will be ignored.</p>
+<p ><span >Note</span>: If the same alert (identified by the id parameter) is called within a time window of the time of last alert + rearmSeconds, the alert will be ignored.</p>
 </td>
 </tr>
 </table>
 </div>
 <p >&nbsp;</p>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<div ><table class="Tip" >
 <tr class="Tip">
-<td class="Tip"><p ><span style="font-weight: bold;">Tips:  </span>You can obtain the default NinjaTrader installation directory to access the sounds folder by using <span class="f_CodeExample">NinjaTrader.Core.Globals.InstallDir</span> property. &nbsp;Please see the example below for usage.</p>
+<td class="Tip"><p ><span >Tips:  </span>You can obtain the default NinjaTrader installation directory to access the sounds folder by using <span class="f_CodeExample">NinjaTrader.Core.Globals.InstallDir</span> property. &nbsp;Please see the example below for usage.</p>
 </td>
 </tr>
 </table>
@@ -152,16 +152,16 @@ Priority.High</p>
 <p >&nbsp;</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.AlertCallback(NinjaTrader.Cbi.Instrument.GetInstrument(</span><span class="f_CodeExample" style="color: #800000;">&quot;MSFT&quot;</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;someId&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.Core.Globals.Now,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Priority.High,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;message&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.Core.Globals.InstallDir+</span><span class="f_CodeExample" style="color: #800000;">@&quot;\sounds\Alert1.wav&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SolidColorBrush(Colors.Blue),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">new</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SolidColorBrush(Colors.White),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">);</span></p>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.AlertCallback(NinjaTrader.Cbi.Instrument.GetInstrument(</span><span class="f_CodeExample" >&quot;MSFT&quot;</span><span class="f_CodeExample">),</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;someId&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">NinjaTrader.Core.Globals.Now,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Priority.High,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;message&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">NinjaTrader.Core.Globals.InstallDir+</span><span class="f_CodeExample" >@&quot;\sounds\Alert1.wav&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >new</span><span class="f_CodeExample" > </span><span class="f_CodeExample">SolidColorBrush(Colors.Blue),</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >new</span><span class="f_CodeExample" > </span><span class="f_CodeExample">SolidColorBrush(Colors.White),</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >0</span><span class="f_CodeExample">);</span></p>
 </td>
 </tr>
 </tbody>
@@ -188,6 +188,6 @@ Priority.High</p>
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>

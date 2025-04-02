@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -225,48 +225,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingTickBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTickBars\',\'UnderstandingTickBars_ICON\')');
-HMInitToggle('UnderstandingTickBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingVolumeBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingVolumeBars\',\'UnderstandingVolumeBars_ICON\')');
-HMInitToggle('UnderstandingVolumeBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingRangeBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingRangeBars\',\'UnderstandingRangeBars_ICON\')');
-HMInitToggle('UnderstandingRangeBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTimeBasedBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTimeBasedBars\',\'UnderstandingTimeBasedBars_ICON\')');
-HMInitToggle('UnderstandingTimeBasedBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingHeikenAshiBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingHeikenAshiBars\',\'UnderstandingHeikenAshiBars_ICON\')');
-HMInitToggle('UnderstandingHeikenAshiBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingKagiBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingKagiBars\',\'UnderstandingKagiBars_ICON\')');
-HMInitToggle('UnderstandingKagiBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingRenkoBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingRenkoBars\',\'UnderstandingRenkoBars_ICON\')');
-HMInitToggle('UnderstandingRenkoBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingPointAndFigureBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingPointAndFigureBars\',\'UnderstandingPointAndFigureBars_ICON\')');
-HMInitToggle('UnderstandingPointAndFigureBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingLineBreakBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingLineBreakBars\',\'UnderstandingLineBreakBars_ICON\')');
-HMInitToggle('UnderstandingLineBreakBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingOrderFlowVolumetricBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingOrderFlowVolumetricBars\',\'UnderstandingOrderFlowVolumetricBars_ICON\')');
-HMInitToggle('UnderstandingOrderFlowVolumetricBars','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingOrderDeltaBars_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingOrderDeltaBars\',\'UnderstandingOrderDeltaBars_ICON\')');
-HMInitToggle('UnderstandingOrderDeltaBars','hm.type','dropdown','hm.state','0');
-</script>
 </body>
   </html>

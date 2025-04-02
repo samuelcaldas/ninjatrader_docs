@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -1557,34 +1557,6 @@ Do not attempt to do advanced calculations or try to access object references in
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('StateResourceManagement_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'StateResourceManagement\',\'StateResourceManagement_ICON\')');
-HMInitToggle('StateResourceManagement','hm.type','dropdown','hm.state','0');
-HMInitToggle('Errorhandling_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Errorhandling\',\'Errorhandling_ICON\')');
-HMInitToggle('Errorhandling','hm.type','dropdown','hm.state','0');
-HMInitToggle('Performance_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Performance\',\'Performance_ICON\')');
-HMInitToggle('Performance','hm.type','dropdown','hm.state','0');
-HMInitToggle('MiscellaneousPractices_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'MiscellaneousPractices\',\'MiscellaneousPractices_ICON\')');
-HMInitToggle('MiscellaneousPractices','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

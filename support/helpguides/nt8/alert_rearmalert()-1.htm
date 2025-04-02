@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html?alert_rearmalert().htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -44,9 +44,9 @@
         <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
 <p >Rearms an existing alert event by the string &quot;id&quot; parameter created via the <a href="alertcallback-1.htm" class="topiclink">AlertCallback()</a> method. &nbsp;A NinjaScript generated alert by may need to be rearmed after the alert is triggered depending on the Alert()'s rearmSeconds parameter.</p>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<div ><table class="Note">
 <tr class="Note">
-<td class="Note"><p ><span style="font-weight: bold;">Note</span>: &nbsp;The NinjaScriptBase has a non-static method implemented with the same name. &nbsp;Please see the <a href="rearmalert-1.htm" class="topiclink">RearmAlert()</a> method for Indicator or Strategies.</p>
+<td class="Note"><p ><span >Note</span>: &nbsp;The NinjaScriptBase has a non-static method implemented with the same name. &nbsp;Please see the <a href="rearmalert-1.htm" class="topiclink">RearmAlert()</a> method for Indicator or Strategies.</p>
 </td>
 </tr>
 </table>
@@ -57,15 +57,15 @@
 <p >This method does not return a value.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
-<p class="p_CodeExample"><span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.RearmAlert(</span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">id)</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.RearmAlert(</span><span class="f_CodeExample" >string</span><span class="f_CodeExample" > </span><span class="f_CodeExample">id)</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span><br>
 <span class="f_Heading2">Parameters</span></h2>
-<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:134px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >id</p>
+<td ><p >id</p>
 </td>
-<td style="vertical-align:top; width:911px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A unique <span class="f_CodeExampleTypes">string</span> id representing an alert id to reset</p>
+<td ><p >A unique <span class="f_CodeExampleTypes">string</span> id representing an alert id to reset</p>
 </td>
 </tr>
 </table>
@@ -73,19 +73,19 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div ><table id="Code1" class="NSExample">
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(resetCondition)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(resetCondition)</span><span class="f_CodeExample" > </span><br>
 <span class="f_CodeExample">{</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.ResetAlertRearmById(</span><span class="f_CodeExample" style="color: #800000;">&quot;someId&quot;</span><span class="f_CodeExample">);</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">resetCondition</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">;</span><br>
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.ResetAlertRearmById(</span><span class="f_CodeExample" >&quot;someId&quot;</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">resetCondition</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >false</span><span class="f_CodeExample">;</span><br>
 <span class="f_CodeExample">}</span></p>
 </td>
 </tr>
@@ -113,6 +113,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </div></body>
   </html>

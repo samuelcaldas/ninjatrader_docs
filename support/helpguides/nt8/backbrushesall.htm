@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?backbrushesall.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -51,9 +51,9 @@
 <p class="p_CodeExample"><span class="f_CodeExample">BackBrushesAll</span><br />
 <span class="f_CodeExample">BackBrushesAll[</span><span class="f_CodeExampleTypes">int</span><span class="f_CodeExample"> </span><span class="f_CodeExampleParameters">barsAgo</span><span class="f_CodeExample">]</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<div ><table class="Warning" >
 <tr class="Warning">
-<td class="Warning"><p ><span style="font-weight: bold;">Warning</span>: &nbsp;You may have up to 65,535 unique BackBrushAll instances, therefore, using <a href="working_with_brushes.htm" class="topiclink">static predefined brushes</a> should be favored. &nbsp;Alternatively, &nbsp;in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.</p>
+<td class="Warning"><p ><span >Warning</span>: &nbsp;You may have up to 65,535 unique BackBrushAll instances, therefore, using <a href="working_with_brushes.htm" class="topiclink">static predefined brushes</a> should be favored. &nbsp;Alternatively, &nbsp;in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.</p>
 </td>
 </tr>
 </table>
@@ -61,25 +61,25 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >protected</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >override</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >void</span><span class="f_CodeExample" > </span><span class="f_CodeExample">OnBarUpdate()</span><br />
 <span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(CurrentBar</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&lt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff9900;">1</span><span class="f_CodeExample">)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(CurrentBar</span><span class="f_CodeExample" > </span><span class="f_CodeExample">&lt;</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >1</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample" >return</span><span class="f_CodeExample">;</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Sets the color of the background on the current bar as blue on all chart panels.</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushesAll[</span><span class="f_CodeExample" style="color: #ff9900;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >// Sets the color of the background on the current bar as blue on all chart panels.</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushesAll[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.Blue;</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Sets the color of the background on the previous bar as orange on all chart panels.</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushesAll[</span><span class="f_CodeExample" style="color: #ff9900;">1</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Orange;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >// Sets the color of the background on the previous bar as orange on all chart panels.</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushesAll[</span><span class="f_CodeExample" >1</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.Orange;</span><br />
 <span class="f_CodeExample">}</span></p>
 </td>
 </tr>
@@ -107,6 +107,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>

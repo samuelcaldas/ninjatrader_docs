@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -429,52 +429,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingTheConditionBuilder_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheConditionBuilder\',\'UnderstandingTheConditionBuilder_ICON\')');
-HMInitToggle('UnderstandingTheConditionBuilder','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToMakePriceDataComparisons_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToMakePriceDataComparisons\',\'HowToMakePriceDataComparisons_ICON\')');
-HMInitToggle('HowToMakePriceDataComparisons','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToOffsetAnItemValue_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToOffsetAnItemValue\',\'HowToOffsetAnItemValue_ICON\')');
-HMInitToggle('HowToOffsetAnItemValue','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToMakeIndicatorToValueComparisons_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToMakeIndicatorToValueComparisons\',\'HowToMakeIndicatorToValueComparisons_ICON\')');
-HMInitToggle('HowToMakeIndicatorToValueComparisons','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToComparePlotValuesOfMultiplotIndicators_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToComparePlotValuesOfMultiplotIndicators\',\'HowToComparePlotValuesOfMultiplotIndicators_ICON\')');
-HMInitToggle('HowToComparePlotValuesOfMultiplotIndicators','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToUseUserDefinedInputsAndVariables_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToUseUserDefinedInputsAndVariables\',\'HowToUseUserDefinedInputsAndVariables_ICON\')');
-HMInitToggle('HowToUseUserDefinedInputsAndVariables','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToCreateACrossOverCondition_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCreateACrossOverCondition\',\'HowToCreateACrossOverCondition_ICON\')');
-HMInitToggle('HowToCreateACrossOverCondition','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToUseIndicatorInputsInOtherIndicators_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToUseIndicatorInputsInOtherIndicators\',\'HowToUseIndicatorInputsInOtherIndicators_ICON\')');
-HMInitToggle('HowToUseIndicatorInputsInOtherIndicators','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToCheckForVolumeExpansion_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCheckForVolumeExpansion\',\'HowToCheckForVolumeExpansion_ICON\')');
-HMInitToggle('HowToCheckForVolumeExpansion','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToCreateMarketPositionComparisons_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCreateMarketPositionComparisons\',\'HowToCreateMarketPositionComparisons_ICON\')');
-HMInitToggle('HowToCreateMarketPositionComparisons','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToCreateTimeComparisons_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCreateTimeComparisons\',\'HowToCreateTimeComparisons_ICON\')');
-HMInitToggle('HowToCreateTimeComparisons','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToNegateACondition_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToNegateACondition\',\'HowToNegateACondition_ICON\')');
-HMInitToggle('HowToNegateACondition','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToCreateTimeFilters_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCreateTimeFilters\',\'HowToCreateTimeFilters_ICON\')');
-HMInitToggle('HowToCreateTimeFilters','hm.type','dropdown','hm.state','0');
-</script>
 </body>
   </html>

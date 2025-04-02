@@ -16,17 +16,5 @@
 <p>You must have JavaScript enabled to use this version of the search engine.</p>
 </noscript>
 </div></body>
-<script type="text/javascript">
-function trackSearch(sbx) {
-  if ((parent.frames.length>0) && (parent.gaaccount)) {
-    parent.track("search", "/search?q=" + sbx.value.replace(/\s/g, "+"));
-  }
-}
-var inputs = document.getElementsByTagName("input");
-for (var i = 0; i < inputs.length; i++) {
-  if (inputs[i].className=="zoom_button") { var btn = inputs[i]; }
-  else if (inputs[i].className=="zoom_searchbox") { var sbx = inputs[i]; };
-}
-if ((btn)&&(sbx)) { btn.onclick = new Function("trackSearch(sbx);") }
-</script>
+
 </html>

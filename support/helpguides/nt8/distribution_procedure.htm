@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -129,34 +129,6 @@ Ex: If your custom assembly's name was MyCustomAssembly.dll and MyCustomAssembly
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('AddingCustomAssembliesOrNativeDlls_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AddingCustomAssembliesOrNativeDlls\',\'AddingCustomAssembliesOrNativeDlls_ICON\')');
-HMInitToggle('AddingCustomAssembliesOrNativeDlls','hm.type','dropdown','hm.state','0');
-HMInitToggle('AddingChartTemplates_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AddingChartTemplates\',\'AddingChartTemplates_ICON\')');
-HMInitToggle('AddingChartTemplates','hm.type','dropdown','hm.state','0');
-HMInitToggle('AddingWorkspaces_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AddingWorkspaces\',\'AddingWorkspaces_ICON\')');
-HMInitToggle('AddingWorkspaces','hm.type','dropdown','hm.state','0');
-HMInitToggle('AddingMarketAnalyzerTemplates_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'AddingMarketAnalyzerTemplates\',\'AddingMarketAnalyzerTemplates_ICON\')');
-HMInitToggle('AddingMarketAnalyzerTemplates','hm.type','dropdown','hm.state','0');
-</script>
 </body>
   </html>

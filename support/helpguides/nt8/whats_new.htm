@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -439,48 +439,6 @@ There is also a new facility to search for strings, and simply double clicking o
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('BetaG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'BetaG\',\'BetaG_ICON\')');
-HMInitToggle('BetaG','hm.type','dropdown','hm.state','0');
-HMInitToggle('ForexG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ForexG\',\'ForexG_ICON\')');
-HMInitToggle('ForexG','hm.type','dropdown','hm.state','0');
-HMInitToggle('TradeG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'TradeG\',\'TradeG_ICON\')');
-HMInitToggle('TradeG','hm.type','dropdown','hm.state','0');
-HMInitToggle('DatabaseG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'DatabaseG\',\'DatabaseG_ICON\')');
-HMInitToggle('DatabaseG','hm.type','dropdown','hm.state','0');
-HMInitToggle('MarketReG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'MarketReG\',\'MarketReG_ICON\')');
-HMInitToggle('MarketReG','hm.type','dropdown','hm.state','0');
-HMInitToggle('ChartG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ChartG\',\'ChartG_ICON\')');
-HMInitToggle('ChartG','hm.type','dropdown','hm.state','0');
-HMInitToggle('Playback_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Playback\',\'Playback_ICON\')');
-HMInitToggle('Playback','hm.type','dropdown','hm.state','0');
-HMInitToggle('StrategyG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'StrategyG\',\'StrategyG_ICON\')');
-HMInitToggle('StrategyG','hm.type','dropdown','hm.state','0');
-HMInitToggle('NSG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'NSG\',\'NSG_ICON\')');
-HMInitToggle('NSG','hm.type','dropdown','hm.state','0');
-HMInitToggle('ConnectivityG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'ConnectivityG\',\'ConnectivityG_ICON\')');
-HMInitToggle('ConnectivityG','hm.type','dropdown','hm.state','0');
-HMInitToggle('TradingG_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'TradingG\',\'TradingG_ICON\')');
-HMInitToggle('TradingG','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

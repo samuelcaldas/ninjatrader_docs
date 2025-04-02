@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -870,86 +870,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingProfit_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingProfit\',\'UnderstandingProfit_ICON\')');
-HMInitToggle('UnderstandingProfit','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTotalNetProfit_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTotalNetProfit\',\'UnderstandingTotalNetProfit_ICON\')');
-HMInitToggle('UnderstandingTotalNetProfit','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingGrossProfit_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingGrossProfit\',\'UnderstandingGrossProfit_ICON\')');
-HMInitToggle('UnderstandingGrossProfit','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingGrossLoss_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingGrossLoss\',\'UnderstandingGrossLoss_ICON\')');
-HMInitToggle('UnderstandingGrossLoss','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingCommission_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingCommission\',\'UnderstandingCommission_ICON\')');
-HMInitToggle('UnderstandingCommission','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingProfitFactor_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingProfitFactor\',\'UnderstandingProfitFactor_ICON\')');
-HMInitToggle('UnderstandingProfitFactor','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxDrawdown_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxDrawdown\',\'UnderstandingMaxDrawdown_ICON\')');
-HMInitToggle('UnderstandingMaxDrawdown','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingSharpeRatio_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingSharpeRatio\',\'UnderstandingSharpeRatio_ICON\')');
-HMInitToggle('UnderstandingSharpeRatio','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingSortinoRatio_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingSortinoRatio\',\'UnderstandingSortinoRatio_ICON\')');
-HMInitToggle('UnderstandingSortinoRatio','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingUlcerIndex_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingUlcerIndex\',\'UnderstandingUlcerIndex_ICON\')');
-HMInitToggle('UnderstandingUlcerIndex','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingProbability_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingProbability\',\'UnderstandingProbability_ICON\')');
-HMInitToggle('UnderstandingProbability','hm.type','dropdown','hm.state','0');
-HMInitToggle('Understandingtradetotals_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Understandingtradetotals\',\'Understandingtradetotals_ICON\')');
-HMInitToggle('Understandingtradetotals','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingAverageTrade_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingAverageTrade\',\'UnderstandingAverageTrade_ICON\')');
-HMInitToggle('UnderstandingAverageTrade','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingAverageWinningTrade_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingAverageWinningTrade\',\'UnderstandingAverageWinningTrade_ICON\')');
-HMInitToggle('UnderstandingAverageWinningTrade','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingAverageLosingTrade_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingAverageLosingTrade\',\'UnderstandingAverageLosingTrade_ICON\')');
-HMInitToggle('UnderstandingAverageLosingTrade','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingRatioAvgWinAvgLoss_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingRatioAvgWinAvgLoss\',\'UnderstandingRatioAvgWinAvgLoss_ICON\')');
-HMInitToggle('UnderstandingRatioAvgWinAvgLoss','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaximumConsecutiveWinners_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaximumConsecutiveWinners\',\'UnderstandingMaximumConsecutiveWinners_ICON\')');
-HMInitToggle('UnderstandingMaximumConsecutiveWinners','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaximumConsecutiveLosers_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaximumConsecutiveLosers\',\'UnderstandingMaximumConsecutiveLosers_ICON\')');
-HMInitToggle('UnderstandingMaximumConsecutiveLosers','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingLargestWinningTrade_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingLargestWinningTrade\',\'UnderstandingLargestWinningTrade_ICON\')');
-HMInitToggle('UnderstandingLargestWinningTrade','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingLargestLosingTrade_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingLargestLosingTrade\',\'UnderstandingLargestLosingTrade_ICON\')');
-HMInitToggle('UnderstandingLargestLosingTrade','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingAverageOfTradesPerDay_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingAverageOfTradesPerDay\',\'UnderstandingAverageOfTradesPerDay_ICON\')');
-HMInitToggle('UnderstandingAverageOfTradesPerDay','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingAverageTimeInMarket_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingAverageTimeInMarket\',\'UnderstandingAverageTimeInMarket_ICON\')');
-HMInitToggle('UnderstandingAverageTimeInMarket','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingProfitPerMonth_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingProfitPerMonth\',\'UnderstandingProfitPerMonth_ICON\')');
-HMInitToggle('UnderstandingProfitPerMonth','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxTimeToRecover_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxTimeToRecover\',\'UnderstandingMaxTimeToRecover_ICON\')');
-HMInitToggle('UnderstandingMaxTimeToRecover','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingLongestFlatPeriod_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingLongestFlatPeriod\',\'UnderstandingLongestFlatPeriod_ICON\')');
-HMInitToggle('UnderstandingLongestFlatPeriod','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingAverageMae_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingAverageMae\',\'UnderstandingAverageMae_ICON\')');
-HMInitToggle('UnderstandingAverageMae','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingAverageMfe_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingAverageMfe\',\'UnderstandingAverageMfe_ICON\')');
-HMInitToggle('UnderstandingAverageMfe','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingAverageEtd_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingAverageEtd\',\'UnderstandingAverageEtd_ICON\')');
-HMInitToggle('UnderstandingAverageEtd','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingCumulativeProfit_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingCumulativeProfit\',\'UnderstandingCumulativeProfit_ICON\')');
-HMInitToggle('UnderstandingCumulativeProfit','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingEntryExitAndTotalEfficiency_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingEntryExitAndTotalEfficiency\',\'UnderstandingEntryExitAndTotalEfficiency_ICON\')');
-HMInitToggle('UnderstandingEntryExitAndTotalEfficiency','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

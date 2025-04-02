@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?atmstrategychangeentryorder.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -45,30 +45,30 @@
 <p class="p_Definition">Changes the price of the specified entry order.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Method Return Value</span></h2>
-<p >Returns <span style="font-weight: bold;">true</span> if the specified order was found; otherwise <span style="font-weight: bold;">false</span>.</p>
+<p >Returns <span >true</span> if the specified order was found; otherwise <span >false</span>.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
-<p class="p_CodeExample"><span class="f_CodeExample">AtmStrategyChangeEntryOrder(</span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">limitPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">stopPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">orderId)</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">AtmStrategyChangeEntryOrder(</span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">limitPrice,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">stopPrice,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >string</span><span class="f_CodeExample" > </span><span class="f_CodeExample">orderId)</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >limitPrice</p>
+<td ><p >limitPrice</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Order limit price</p>
+<td ><p >Order limit price</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >stopPrice</p>
+<td ><p >stopPrice</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Order stop price</p>
+<td ><p >Order stop price</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >orderId</p>
+<td ><p >orderId</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The unique identifier for the entry order</p>
+<td ><p >The unique identifier for the entry order</p>
 </td>
 </tr>
 </table>
@@ -76,18 +76,18 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >protected</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >override</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >void</span><span class="f_CodeExample" > </span><span class="f_CodeExample">OnBarUpdate()</span><br />
 <span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">AtmStrategyChangeEntryOrder(GetCurrentBid(),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;orderIdValue&quot;</span><span class="f_CodeExample">);</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample">AtmStrategyChangeEntryOrder(GetCurrentBid(),</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;orderIdValue&quot;</span><span class="f_CodeExample">);</span><br />
 <span class="f_CodeExample">}</span></p>
 </td>
 </tr>
@@ -115,6 +115,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>

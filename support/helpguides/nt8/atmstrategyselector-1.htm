@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html?atmstrategyselector.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -45,35 +45,35 @@
 <p >AtmStrategySelector is an UI element users can interact with for selecting ATM Strategies.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Events and Properties</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Cleanup()</p>
+<td ><p >Cleanup()</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Disposes of the AtmStrategySelector &nbsp;(<span style="font-weight: bold;">Note</span>: calling the <a href="nttabpage_cleanup-1.htm" class="topiclink">NTTabPage base.Cleanup()</a> is sufficient to clean up this control)</p>
+<td ><p >Disposes of the AtmStrategySelector &nbsp;(<span >Note</span>: calling the <a href="nttabpage_cleanup-1.htm" class="topiclink">NTTabPage base.Cleanup()</a> is sufficient to clean up this control)</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >CustomPropertiesChanged</p>
+<td ><p >CustomPropertiesChanged</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Event handler for when properties have changed on the ATM strategy</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Id</p>
-</td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A string identifying the ATM Strategy selector</p>
+<td ><p >Event handler for when properties have changed on the ATM strategy</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >SelectedAtmStrategy</p>
+<td ><p >Id</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Returns an AtmStrategy representing the selected ATM strategy</p>
+<td ><p >A string identifying the ATM Strategy selector</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >SelectionChanged</p>
+<td ><p >SelectedAtmStrategy</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Event handler for when the selected ATM strategy has changed</p>
+<td ><p >Returns an AtmStrategy representing the selected ATM strategy</p>
+</td>
+</tr>
+<tr>
+<td ><p >SelectionChanged</p>
+</td>
+<td ><p >Event handler for when the selected ATM strategy has changed</p>
 </td>
 </tr>
 </table>
@@ -84,10 +84,10 @@
 <p >This example demonstrates how to use the ATM strategy selector and properly link its behavior with the quantity up/down and TIF selectors.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div ><table id="Code1" class="NSExample">
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><span class="f_Heading2">C#</span></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><span class="f_Heading2">C#</span></h2>
 </th>
 </tr>
 </thead>
@@ -139,8 +139,8 @@
 <p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AtmStrategy selectedAtmStrategy = args.AddedItems[0] </span><span class="f_CodeExampleTypes">as</span><span class="f_CodeExample"> AtmStrategy;</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExampleTypes">if</span><span class="f_CodeExample"> (selectedAtmStrategy != </span><span class="f_CodeExampleTypes">null</span><span class="f_CodeExample">)</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;tifSelector.SelectedTif = selectedAtmStrategy.TimeInForce;</span></p>
-<p class="p_CodeExample"><span style="width:48px;display:inline-block">&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_CodeExample">}</span></p>
-<p class="p_CodeExample"><span style="width:48px;display:inline-block">&nbsp;</span><span class="f_CodeExample">};</span></p>
+<p class="p_CodeExample"><span >&nbsp;</span> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_CodeExample">}</span></p>
+<p class="p_CodeExample"><span >&nbsp;</span><span class="f_CodeExample">};</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">}</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <p class="p_CodeExample"><span class="f_CodeExampleTypes">private void</span><span class="f_CodeExample"> OnAtmCustomPropertiesChanged(</span><span class="f_CodeExampleTypes">object</span><span class="f_CodeExample"> sender, NinjaScript.AtmStrategy.CustomPropertiesChangedEventArgs args)</span></p>
@@ -154,8 +154,8 @@
 <p class="p_CodeExampleComments"><span class="f_CodeExampleComments">// Called by TabControl when tab is being removed or window is closed</span></p>
 <p class="p_CodeExample"><span class="f_CodeExampleTypes">public override void</span><span class="f_CodeExample"> Cleanup()</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">{</span></p>
-<p class="p_CodeExample"><span class="f_CodeExampleComments"> &nbsp; </span><span class="f_CodeExample" style="color: #ffffff;">  </span><span class="f_CodeExample" style="color: #008000;">// Clean up our resources</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">base</span><span class="f_CodeExample">.Cleanup();</span></p>
+<p class="p_CodeExample"><span class="f_CodeExampleComments"> &nbsp; </span><span class="f_CodeExample" >  </span><span class="f_CodeExample" >// Clean up our resources</span><br>
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >base</span><span class="f_CodeExample">.Cleanup();</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">}</span></p>
 </td>
 </tr>
@@ -164,20 +164,20 @@
 </div>
 <p >&nbsp;</p>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div ><table id="Code1" class="NSExample">
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><span class="f_Heading2">XAML</span></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><span class="f_Heading2">XAML</span></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExampleTypes">&lt;</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">AtmStrategy</span><span class="f_CodeExampleTypes">:</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">AtmStrategySelector</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> x</span><span class="f_CodeExampleTypes">:</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;">Name</span><span class="f_CodeExampleTypes">=&quot;atmStrategySelector&quot;</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> LinkedQuantity</span><span class="f_CodeExampleTypes">=&quot;{</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">Binding</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> ElementName</span><span class="f_CodeExampleTypes">=qudSelector,</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> Path</span><span class="f_CodeExampleTypes">=Value,</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> Mode</span><span class="f_CodeExampleTypes">=OneWay}&quot;</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> Grid.Row</span><span class="f_CodeExampleTypes">=&quot;12&quot;</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> Grid.Column</span><span class="f_CodeExampleTypes">=&quot;2&quot;&gt;</span></p>
-<h2 class="p_Heading2"><span class="f_CodeExample"> &nbsp; &nbsp;  </span><span class="f_CodeExampleTypes">&lt;</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">AtmStrategy</span><span class="f_CodeExampleTypes">:</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">AtmStrategySelector.Margin</span><span class="f_CodeExampleTypes">&gt;</span></h2>
-<h2 class="p_Heading2"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExampleTypes">&lt;</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">Thickness</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> Left</span><span class="f_CodeExampleTypes">=&quot;{</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">StaticResource</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> MarginButtonLeft</span><span class="f_CodeExampleTypes">}&quot;</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> Top</span><span class="f_CodeExampleTypes">=&quot;{</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">StaticResource</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> MarginControl</span><span class="f_CodeExampleTypes">}&quot;</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> Right</span><span class="f_CodeExampleTypes">=&quot;{</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">StaticResource</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> MarginBase</span><span class="f_CodeExampleTypes">}&quot;</span><span style="font-size: 10pt; font-family: Consolas; color: #ff0000;"> Bottom</span><span class="f_CodeExampleTypes">=&quot;0&quot; /&gt;</span></h2>
-<h2 class="p_Heading2"><span class="f_CodeExample"> &nbsp; &nbsp;  </span><span class="f_CodeExampleTypes">&lt;/</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">AtmStrategy</span><span class="f_CodeExampleTypes">:</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">AtmStrategySelector.Margin</span><span class="f_CodeExampleTypes">&gt;</span></h2>
-<h2 class="p_Heading2"><span class="f_CodeExampleTypes">&lt;/</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">AtmStrategy</span><span class="f_CodeExampleTypes">:</span><span style="font-size: 10pt; font-family: Consolas; color: #a31515;">AtmStrategySelector</span><span class="f_CodeExampleTypes">&gt;</span></h2>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExampleTypes">&lt;</span><span >AtmStrategy</span><span class="f_CodeExampleTypes">:</span><span >AtmStrategySelector</span><span > x</span><span class="f_CodeExampleTypes">:</span><span >Name</span><span class="f_CodeExampleTypes">=&quot;atmStrategySelector&quot;</span><span > LinkedQuantity</span><span class="f_CodeExampleTypes">=&quot;{</span><span >Binding</span><span > ElementName</span><span class="f_CodeExampleTypes">=qudSelector,</span><span > Path</span><span class="f_CodeExampleTypes">=Value,</span><span > Mode</span><span class="f_CodeExampleTypes">=OneWay}&quot;</span><span > Grid.Row</span><span class="f_CodeExampleTypes">=&quot;12&quot;</span><span > Grid.Column</span><span class="f_CodeExampleTypes">=&quot;2&quot;&gt;</span></p>
+<h2 class="p_Heading2"><span class="f_CodeExample"> &nbsp; &nbsp;  </span><span class="f_CodeExampleTypes">&lt;</span><span >AtmStrategy</span><span class="f_CodeExampleTypes">:</span><span >AtmStrategySelector.Margin</span><span class="f_CodeExampleTypes">&gt;</span></h2>
+<h2 class="p_Heading2"><span class="f_CodeExample"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExampleTypes">&lt;</span><span >Thickness</span><span > Left</span><span class="f_CodeExampleTypes">=&quot;{</span><span >StaticResource</span><span > MarginButtonLeft</span><span class="f_CodeExampleTypes">}&quot;</span><span > Top</span><span class="f_CodeExampleTypes">=&quot;{</span><span >StaticResource</span><span > MarginControl</span><span class="f_CodeExampleTypes">}&quot;</span><span > Right</span><span class="f_CodeExampleTypes">=&quot;{</span><span >StaticResource</span><span > MarginBase</span><span class="f_CodeExampleTypes">}&quot;</span><span > Bottom</span><span class="f_CodeExampleTypes">=&quot;0&quot; /&gt;</span></h2>
+<h2 class="p_Heading2"><span class="f_CodeExample"> &nbsp; &nbsp;  </span><span class="f_CodeExampleTypes">&lt;/</span><span >AtmStrategy</span><span class="f_CodeExampleTypes">:</span><span >AtmStrategySelector.Margin</span><span class="f_CodeExampleTypes">&gt;</span></h2>
+<h2 class="p_Heading2"><span class="f_CodeExampleTypes">&lt;/</span><span >AtmStrategy</span><span class="f_CodeExampleTypes">:</span><span >AtmStrategySelector</span><span class="f_CodeExampleTypes">&gt;</span></h2>
 </td>
 </tr>
 </tbody>
@@ -204,6 +204,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </div></body>
   </html>

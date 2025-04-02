@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -105,34 +105,6 @@ You can redirect orders to a different instrument than the instrument that your 
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('HowToCreateANewTradestationWorkspace_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToCreateANewTradestationWorkspace\',\'HowToCreateANewTradestationWorkspace_ICON\')');
-HMInitToggle('HowToCreateANewTradestationWorkspace','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingWorkspaceNamingConventionFunctions_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingWorkspaceNamingConventionFunctions\',\'UnderstandingWorkspaceNamingConventionFunctions_ICON\')');
-HMInitToggle('UnderstandingWorkspaceNamingConventionFunctions','hm.type','dropdown','hm.state','0');
-HMInitToggle('WorkspaceNameExamples_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'WorkspaceNameExamples\',\'WorkspaceNameExamples_ICON\')');
-HMInitToggle('WorkspaceNameExamples','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMultipleWorkspaces_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMultipleWorkspaces\',\'UnderstandingMultipleWorkspaces_ICON\')');
-HMInitToggle('UnderstandingMultipleWorkspaces','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

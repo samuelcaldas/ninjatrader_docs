@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -318,40 +318,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('HowToChangeTheHorizontalScaleAndRangeOfAChart_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToChangeTheHorizontalScaleAndRangeOfAChart\',\'HowToChangeTheHorizontalScaleAndRangeOfAChart_ICON\')');
-HMInitToggle('HowToChangeTheHorizontalScaleAndRangeOfAChart','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToChangeTheVerticalScaleAndRangeOfAChart_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToChangeTheVerticalScaleAndRangeOfAChart\',\'HowToChangeTheVerticalScaleAndRangeOfAChart_ICON\')');
-HMInitToggle('HowToChangeTheVerticalScaleAndRangeOfAChart','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToScrollAChart_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToScrollAChart\',\'HowToScrollAChart_ICON\')');
-HMInitToggle('HowToScrollAChart','hm.type','dropdown','hm.state','0');
-HMInitToggle('Howtogotoaspecifictimeonthechart_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'Howtogotoaspecifictimeonthechart\',\'Howtogotoaspecifictimeonthechart_ICON\')');
-HMInitToggle('Howtogotoaspecifictimeonthechart','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToZoomInAndOutInAChart_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToZoomInAndOutInAChart\',\'HowToZoomInAndOutInAChart_ICON\')');
-HMInitToggle('HowToZoomInAndOutInAChart','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToChangeTheBarSpacingAndWidth_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToChangeTheBarSpacingAndWidth\',\'HowToChangeTheBarSpacingAndWidth_ICON\')');
-HMInitToggle('HowToChangeTheBarSpacingAndWidth','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToChangeTheCursorType_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToChangeTheCursorType\',\'HowToChangeTheCursorType_ICON\')');
-HMInitToggle('HowToChangeTheCursorType','hm.type','dropdown','hm.state','0');
-</script>
 </body>
   </html>

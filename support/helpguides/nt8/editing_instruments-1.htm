@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -196,34 +196,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingGeneralSection_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingGeneralSection\',\'UnderstandingGeneralSection_ICON\')');
-HMInitToggle('UnderstandingGeneralSection','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheSymbolMapSection_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheSymbolMapSection\',\'UnderstandingTheSymbolMapSection_ICON\')');
-HMInitToggle('UnderstandingTheSymbolMapSection','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingSplitsDividendsSection_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingSplitsDividendsSection\',\'UnderstandingSplitsDividendsSection_ICON\')');
-HMInitToggle('UnderstandingSplitsDividendsSection','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheContractMonthsSection_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheContractMonthsSection\',\'UnderstandingTheContractMonthsSection_ICON\')');
-HMInitToggle('UnderstandingTheContractMonthsSection','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -194,32 +194,6 @@ When using the Order Flow VWAP it is typical that users look for purchase signal
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('OrderFlowVWAPOverview_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowVWAPOverview\',\'OrderFlowVWAPOverview_ICON\')');
-HMInitToggle('OrderFlowVWAPOverview','hm.type','dropdown','hm.state','0');
-HMInitToggle('OrderFlowVWAPParameters_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowVWAPParameters\',\'OrderFlowVWAPParameters_ICON\')');
-HMInitToggle('OrderFlowVWAPParameters','hm.type','dropdown','hm.state','0');
-HMInitToggle('OrderFlowVWAPValuesNINJASCRIPTaccess_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'OrderFlowVWAPValuesNINJASCRIPTaccess\',\'OrderFlowVWAPValuesNINJASCRIPTaccess_ICON\')');
-HMInitToggle('OrderFlowVWAPValuesNINJASCRIPTaccess','hm.type','dropdown','hm.state','0');
-</script>
 </body>
   </html>

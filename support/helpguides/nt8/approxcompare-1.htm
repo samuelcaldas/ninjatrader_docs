@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html?approxcompare.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -44,41 +44,41 @@
         <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
 <p class="p_Definition">Compares two double or float values for equality or being greater than / less than the compared to value.</p>
 <p class="p_Definition"><span class="f_Definition">&nbsp;</span></p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<div ><table class="Note">
 <tr class="Note">
-<td class="Note"><p ><span style="font-weight: bold;">Note</span>:  Comparing for being greater than / less is done using an epsilon value of <span class="f_CodeExample" style="color: #ff6600;">1E19</span></p>
+<td class="Note"><p ><span >Note</span>:  Comparing for being greater than / less is done using an epsilon value of <span class="f_CodeExample" >1E19</span></p>
 </td>
 </tr>
 </table>
 </div>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Method Return Value</span></h2>
-<p >An <span class="f_CodeExample" style="color: #0000ff;">int</span> value representing the outcome of the comparison. Returns 0 if values are equal, 1 if value1 is greater than value2. -1 if value1 is less than value2.</p>
+<p >An <span class="f_CodeExample" >int</span> value representing the outcome of the comparison. Returns 0 if values are equal, 1 if value1 is greater than value2. -1 if value1 is less than value2.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
-<p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">.ApproxCompare(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">double1,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">double2)</span><br>
-<span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">.ApproxCompare(</span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">float </span><span class="f_CodeExample">float1,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">float2)</span><br>
+<p class="p_CodeExample"><span class="f_CodeExample" >this</span><span class="f_CodeExample">.ApproxCompare(</span><span class="f_CodeExample" >this</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">double1,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">double2)</span><br>
+<span class="f_CodeExample" >this</span><span class="f_CodeExample">.ApproxCompare(</span><span class="f_CodeExample" >this</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >float </span><span class="f_CodeExample">float1,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >double</span><span class="f_CodeExample" > </span><span class="f_CodeExample">float2)</span><br>
 <span class="f_CodeExample">&nbsp;</span></p>
 <h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >double1 / float1</p>
+<td ><p >double1 / float1</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >First value to compare against (not actually passed in)</p>
+<td ><p >First value to compare against (not actually passed in)</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >double2 / float2</p>
+<td ><p >double2 / float2</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Second passed in value to compare against</p>
+<td ><p >Second passed in value to compare against</p>
 </td>
 </tr>
 </table>
 </div>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
+<div ><table class="Tip">
 <tr class="Tip">
-<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp;Main use would be using it for equality comparisons to circumvent running into floating point considerations, value compares for &lt; or &gt; could be usually done more straightforward directly.</p>
+<td class="Tip"><p ><span >Tip</span>: &nbsp;Main use would be using it for equality comparisons to circumvent running into floating point considerations, value compares for &lt; or &gt; could be usually done more straightforward directly.</p>
 </td>
 </tr>
 </table>
@@ -86,20 +86,20 @@
 <p >&nbsp;</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div ><table id="Code1" class="NSExample">
 <thead>
 <tr class="NSExample">
-<th class="NSExample" colspan="2" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+<th class="NSExample" colspan="2" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample" style="width:25px;"><br>
+<td class="NSExample" ><br>
 </td>
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Build the High / Low difference and if 0 sets the indicator main Value series to 0</span><br>
-<span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">((High[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">-</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]).ApproxCompare(</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">)</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">Value[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">;</span></p>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >// Build the High / Low difference and if 0 sets the indicator main Value series to 0</span><br>
+<span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">((High[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample">-</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Low[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]).ApproxCompare(</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">)</span><span class="f_CodeExample" > </span><span class="f_CodeExample">==</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >0</span><span class="f_CodeExample">)</span><br>
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">Value[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >0</span><span class="f_CodeExample">;</span></p>
 </td>
 </tr>
 </tbody>
@@ -127,6 +127,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </div></body>
   </html>

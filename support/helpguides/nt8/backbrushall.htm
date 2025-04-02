@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?backbrushall.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -47,9 +47,9 @@
 <h2 class="p_Heading2"><span class="f_Heading2">Property Value</span></h2>
 <p >A <a href="http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx" target="_blank" class="weblink">Brush</a> object that represents the color of the current chart bar.</p>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<div ><table class="Tip" >
 <tr class="Tip">
-<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp;To reset the Chart background color to the default background color property, set the <span style="font-weight: bold;">BackBrushAll</span> to <span class="f_CodeExample" style="color: #0000ff;">null</span> for that bar.</p>
+<td class="Tip"><p ><span >Tip</span>: &nbsp;To reset the Chart background color to the default background color property, set the <span >BackBrushAll</span> to <span class="f_CodeExample" >null</span> for that bar.</p>
 </td>
 </tr>
 </table>
@@ -58,9 +58,9 @@
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
 <p class="p_CodeExample"><span class="f_CodeExample">BackBrushAll</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
+<div ><table class="Warning" >
 <tr class="Warning">
-<td class="Warning"><p ><span style="font-weight: bold;">Warning</span>: &nbsp;You may have up to 65,535 unique BackBrushAll instances, therefore, using <a href="working_with_brushes.htm" class="topiclink">static predefined brushes</a> should be favored. &nbsp;Alternatively, &nbsp;in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.</p>
+<td class="Warning"><p ><span >Warning</span>: &nbsp;You may have up to 65,535 unique BackBrushAll instances, therefore, using <a href="working_with_brushes.htm" class="topiclink">static predefined brushes</a> should be favored. &nbsp;Alternatively, &nbsp;in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.</p>
 </td>
 </tr>
 </table>
@@ -68,26 +68,26 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >protected</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >override</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >void</span><span class="f_CodeExample" > </span><span class="f_CodeExample">OnBarUpdate()</span><br />
 <span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Sets the back color to pale green</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushAll</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.PaleGreen;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >// Sets the back color to pale green</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushAll</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.PaleGreen;</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Sets the back color to null to use the default color set in the chart properties dialog window</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushAll</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >// Sets the back color to null to use the default color set in the chart properties dialog window</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushAll</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >null</span><span class="f_CodeExample">;</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Sets the back color to pink when the closing price is less than the 20 period SMA</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// and to lime green when above (see image below)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushAll</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff9900;">20</span><span class="f_CodeExample">)[</span><span class="f_CodeExample" style="color: #ff9900;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" style="color: #ff9900;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">?</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Pink</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">:</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.PaleGreen;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >// Sets the back color to pink when the closing price is less than the 20 period SMA</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample" >// and to lime green when above (see image below)</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; </span><span class="f_CodeExample">BackBrushAll</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" >20</span><span class="f_CodeExample">)[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample">&gt;=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Close[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample">?</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.Pink</span><span class="f_CodeExample" > </span><span class="f_CodeExample">:</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.PaleGreen;</span><br />
 <span class="f_CodeExample">}</span></p>
 </td>
 </tr>
@@ -96,7 +96,7 @@
 </div>
 <p >&nbsp;</p>
 <p >&nbsp;</p>
-<p ><img alt="MAPriceBars2" width="575" height="595" style="margin:0;width:575px;height:595px;border:none" src="mapricebars2.png"/></p>
+<p ><img alt="MAPriceBars2" width="575" height="595"  src="mapricebars2.png"/></p>
 
         
       </div>
@@ -118,6 +118,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>

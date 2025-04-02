@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -404,50 +404,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingTheColumnsWindow_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheColumnsWindow\',\'UnderstandingTheColumnsWindow_ICON\')');
-HMInitToggle('UnderstandingTheColumnsWindow','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToAddColumns_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToAddColumns\',\'HowToAddColumns_ICON\')');
-HMInitToggle('HowToAddColumns','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToEditAColumnsParameters_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToEditAColumnsParameters\',\'HowToEditAColumnsParameters_ICON\')');
-HMInitToggle('HowToEditAColumnsParameters','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheAPQApproximatePositionInQueueColumn_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheAPQApproximatePositionInQueueColumn\',\'UnderstandingTheAPQApproximatePositionInQueueColumn_ICON\')');
-HMInitToggle('UnderstandingTheAPQApproximatePositionInQueueColumn','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheNotesColumn_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheNotesColumn\',\'UnderstandingTheNotesColumn_ICON\')');
-HMInitToggle('UnderstandingTheNotesColumn','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingthePullingStackingColumn_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingthePullingStackingColumn\',\'UnderstandingthePullingStackingColumn_ICON\')');
-HMInitToggle('UnderstandingthePullingStackingColumn','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingtheRecentBidAskColumn_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingtheRecentBidAskColumn\',\'UnderstandingtheRecentBidAskColumn_ICON\')');
-HMInitToggle('UnderstandingtheRecentBidAskColumn','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingThePnLColumn_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingThePnLColumn\',\'UnderstandingThePnLColumn_ICON\')');
-HMInitToggle('UnderstandingThePnLColumn','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheVolumeColumn_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheVolumeColumn\',\'UnderstandingTheVolumeColumn_ICON\')');
-HMInitToggle('UnderstandingTheVolumeColumn','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToRemoveColumns_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToRemoveColumns\',\'HowToRemoveColumns_ICON\')');
-HMInitToggle('HowToRemoveColumns','hm.type','dropdown','hm.state','0');
-HMInitToggle('CustomizeTheDisplayOfColumns_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'CustomizeTheDisplayOfColumns\',\'CustomizeTheDisplayOfColumns_ICON\')');
-HMInitToggle('CustomizeTheDisplayOfColumns','hm.type','dropdown','hm.state','0');
-HMInitToggle('CustomColumnDevelopment_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'CustomColumnDevelopment\',\'CustomColumnDevelopment_ICON\')');
-HMInitToggle('CustomColumnDevelopment','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

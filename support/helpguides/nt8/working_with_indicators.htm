@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -246,40 +246,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingTheIndicatorsWindow_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheIndicatorsWindow\',\'UnderstandingTheIndicatorsWindow_ICON\')');
-HMInitToggle('UnderstandingTheIndicatorsWindow','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToAddAnIndicator_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToAddAnIndicator\',\'HowToAddAnIndicator_ICON\')');
-HMInitToggle('HowToAddAnIndicator','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToEditAnIndicatorsParameters_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToEditAnIndicatorsParameters\',\'HowToEditAnIndicatorsParameters_ICON\')');
-HMInitToggle('HowToEditAnIndicatorsParameters','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToRemoveAnIndicator_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToRemoveAnIndicator\',\'HowToRemoveAnIndicator_ICON\')');
-HMInitToggle('HowToRemoveAnIndicator','hm.type','dropdown','hm.state','0');
-HMInitToggle('CustomIndicatorDevelopment_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'CustomIndicatorDevelopment\',\'CustomIndicatorDevelopment_ICON\')');
-HMInitToggle('CustomIndicatorDevelopment','hm.type','dropdown','hm.state','0');
-HMInitToggle('WorkingWithIndicatorsInMarketAnalyzerColumns_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'WorkingWithIndicatorsInMarketAnalyzerColumns\',\'WorkingWithIndicatorsInMarketAnalyzerColumns_ICON\')');
-HMInitToggle('WorkingWithIndicatorsInMarketAnalyzerColumns','hm.type','dropdown','hm.state','0');
-HMInitToggle('WorkingWithIndicatorsInTheSuperDOM_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'WorkingWithIndicatorsInTheSuperDOM\',\'WorkingWithIndicatorsInTheSuperDOM_ICON\')');
-HMInitToggle('WorkingWithIndicatorsInTheSuperDOM','hm.type','dropdown','hm.state','0');
-</script>
 </body>
   </html>

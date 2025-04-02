@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#A41E22" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html?8_0_0_10.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -49,1102 +49,1102 @@
 <h2 class="p_Heading2"><span class="f_Heading2">Code Breaking Changes</span></h2>
 <p >There are no code-breaking changes which would impact the compilation of documented and supported NinjaScript code; your custom NinjaScript scripts should upgrade without errors from B9 to B10. &nbsp;If you run into errors, please contact the original author, or reach out for assistance on the <a href="http://www.ninjatrader.com/support/forum/index.php" target="_blank" onclick="return HMTrackTopiclink(this);" class="weblink">support forum</a>.</p>
 <p >&nbsp;</p>
-<p >Due to user feedback, we have changed the default Strategy behavior during optimizations which sometimes caused a strategy to return inconsistent results. &nbsp;To help reduce variance in each optimization run, we have changed the <span style="font-weight: bold;">IsInstantiatedOnEachOptimizationIteration</span> property to be to <span style="font-weight: bold;">true</span> by default. &nbsp;Please note, unless you have specifically coded your strategies to take advantage of re-using strategy data, <span style="font-weight: bold;">Strategy Optimizations</span> could potentially run slower. &nbsp;To take advantage of performance benefits during Strategy Optimization, please see our examples <a href="isinstantiatedoneachoptimizationiteration-1.htm" class="topiclink">IsInstantiatedOnEachOptimizationIteration</a> Help Guide entry.</p>
+<p >Due to user feedback, we have changed the default Strategy behavior during optimizations which sometimes caused a strategy to return inconsistent results. &nbsp;To help reduce variance in each optimization run, we have changed the <span >IsInstantiatedOnEachOptimizationIteration</span> property to be to <span >true</span> by default. &nbsp;Please note, unless you have specifically coded your strategies to take advantage of re-using strategy data, <span >Strategy Optimizations</span> could potentially run slower. &nbsp;To take advantage of performance benefits during Strategy Optimization, please see our examples <a href="isinstantiatedoneachoptimizationiteration-1.htm" class="topiclink">IsInstantiatedOnEachOptimizationIteration</a> Help Guide entry.</p>
 <p >&nbsp;</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Notes</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Status</span></p>
+<td ><p ><span >Status</span></p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Issue #</span></p>
+<td ><p ><span >Issue #</span></p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Category</span></p>
+<td ><p ><span >Category</span></p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Comments</span></p>
+<td ><p ><span >Comments</span></p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:55px; padding:10px; border:solid thin #dddddd;"><p >8717</p>
+<td ><p >8717</p>
 </td>
-<td style="vertical-align:top; width:224px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Issues could occur with rendering of the x-axis</p>
+<td ><p >Issues could occur with rendering of the x-axis</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >8896</p>
+<td ><p >8896</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >With Equidistant Bar Spacing enabled, bars with identical time stamps sometimes used the same time slot</p>
+<td ><p >With Equidistant Bar Spacing enabled, bars with identical time stamps sometimes used the same time slot</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:55px; padding:10px; border:solid thin #dddddd;"><p >9087</p>
+<td ><p >9087</p>
 </td>
-<td style="vertical-align:top; width:224px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Playback</p>
+<td ><p >Playback</p>
 </td>
-<td style="vertical-align:top; width:490px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Switching instruments in Playback sometimes caused large spikes in volume due to all ticks posting to a single bar</p>
+<td ><p >Switching instruments in Playback sometimes caused large spikes in volume due to all ticks posting to a single bar</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9182</p>
+<td ><p >9182</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Bars</p>
+<td ><p >Bars</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Switching instruments in window-linked charts could cause the application to crash</p>
+<td ><p >Switching instruments in window-linked charts could cause the application to crash</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9295</p>
+<td ><p >9295</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >ATM Strategies</p>
+<td ><p >ATM Strategies</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Orders submitted in NinjaScript strategies via AtmStrategyCreate() sometimes left an unprotected position at MAX speed when running Playback</p>
+<td ><p >Orders submitted in NinjaScript strategies via AtmStrategyCreate() sometimes left an unprotected position at MAX speed when running Playback</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9330</p>
+<td ><p >9330</p>
 </td>
-<td style="vertical-align:top; width:224px; height:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Indicator</p>
+<td ><p >Indicator</p>
 </td>
-<td style="vertical-align:top; width:490px; height:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Indicators with special handling for bars with IsRemoveLastBarSupported set to true returned incorrect values using a Calculation Mode other than Calculate.OnBarClose</p>
+<td ><p >Indicators with special handling for bars with IsRemoveLastBarSupported set to true returned incorrect values using a Calculation Mode other than Calculate.OnBarClose</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Change</p>
+<td ><p >Change</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9332</p>
+<td ><p >9332</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >NinjaScript</p>
+<td ><p >NinjaScript</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Changed positioning of Draw.Text objects to match NinjaTrader 7 implementation</p>
+<td ><p >Changed positioning of Draw.Text objects to match NinjaTrader 7 implementation</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9339</p>
+<td ><p >9339</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart canvas was rendering incorrectly in Windows 10</p>
+<td ><p >Chart canvas was rendering incorrectly in Windows 10</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9368</p>
+<td ><p >9368</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Strategy Analyzer</p>
+<td ><p >Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Optimization results sometimes differed between iterations of the same test if the strategy hosted additional data series</p>
+<td ><p >Optimization results sometimes differed between iterations of the same test if the strategy hosted additional data series</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9369</p>
+<td ><p >9369</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >ATI, Instruments</p>
+<td ><p >ATI, Instruments</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Emails from TradeStation 9.5 related to order submissions used incorrect instruments</p>
+<td ><p >Emails from TradeStation 9.5 related to order submissions used incorrect instruments</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9370</p>
+<td ><p >9370</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Database, HDS</p>
+<td ><p >Database, HDS</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Rollover offsets on the NinjaTrader Info Server provided &quot;0&quot; value for 06-15 futures contracts and prior</p>
+<td ><p >Rollover offsets on the NinjaTrader Info Server provided &quot;0&quot; value for 06-15 futures contracts and prior</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9371</p>
+<td ><p >9371</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >NinjaScript</p>
+<td ><p >NinjaScript</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >If an indicator called OnMarketData() with TickReplay enabled, the indicator did not produce historical results unless added directly to a chart. </p>
+<td ><p >If an indicator called OnMarketData() with TickReplay enabled, the indicator did not produce historical results unless added directly to a chart. </p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9374</p>
+<td ><p >9374</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >NinjaScript Editor</p>
+<td ><p >NinjaScript Editor</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >The NinjaScript Editor ran compilations twice each time</p>
+<td ><p >The NinjaScript Editor ran compilations twice each time</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9376</p>
+<td ><p >9376</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >NinjaScript Editor</p>
+<td ><p >NinjaScript Editor</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The NinjaScript Editor error list did not jump to errors when clicked</p>
+<td ><p >The NinjaScript Editor error list did not jump to errors when clicked</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9380</p>
+<td ><p >9380</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Market Replay, Playback</p>
+<td ><p >Market Replay, Playback</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Instruments added to a Market Analyzer during Playback did not appear until Playback was disconnected</p>
+<td ><p >Instruments added to a Market Analyzer during Playback did not appear until Playback was disconnected</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9381</p>
+<td ><p >9381</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >NinjaScript Editor</p>
+<td ><p >NinjaScript Editor</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A Custom.XML error was thrown when importing NinjaScript if a NinjaScript Editor using inline syntax checking was open</p>
+<td ><p >A Custom.XML error was thrown when importing NinjaScript if a NinjaScript Editor using inline syntax checking was open</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9382</p>
+<td ><p >9382</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Drawing Tool</p>
+<td ><p >Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Newly defined Drawing Tool Hot Keys did not apply to charts which were already open</p>
+<td ><p >Newly defined Drawing Tool Hot Keys did not apply to charts which were already open</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9383</p>
+<td ><p >9383</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Drawing Tool</p>
+<td ><p >Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The &quot;Remove&quot; option in the Drawing Objects window's Configured section could be obscured when a large number of objects with long tags were listed</p>
+<td ><p >The &quot;Remove&quot; option in the Drawing Objects window's Configured section could be obscured when a large number of objects with long tags were listed</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9384</p>
+<td ><p >9384</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >NinjaScript Editor</p>
+<td ><p >NinjaScript Editor</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Files in the ExportNinjaScript directory were included in compilation</p>
+<td ><p >Files in the ExportNinjaScript directory were included in compilation</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Task</p>
+<td ><p >Task</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9385</p>
+<td ><p >9385</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Data Grids</p>
+<td ><p >Data Grids</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Increased performance in Control Center and Account Data grids</p>
+<td ><p >Increased performance in Control Center and Account Data grids</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9386</p>
+<td ><p >9386</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Bar Widths were sometimes inconsistent on multi-series charts</p>
+<td ><p >Bar Widths were sometimes inconsistent on multi-series charts</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Added</p>
+<td ><p >Added</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9388</p>
+<td ><p >9388</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Playback</p>
+<td ><p >Playback</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Added default starting and ending dates for historical tick mode on the Playback connection</p>
+<td ><p >Added default starting and ending dates for historical tick mode on the Playback connection</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9392</p>
+<td ><p >9392</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Using the Range Bar Type with the Open/Close Chart Style, the &quot;Down Bar Outline&quot; property did not apply changes, and the &quot;Up Bar Outline&quot; property changed both up and down bars</p>
+<td ><p >Using the Range Bar Type with the Open/Close Chart Style, the &quot;Down Bar Outline&quot; property did not apply changes, and the &quot;Up Bar Outline&quot; property changed both up and down bars</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9393</p>
+<td ><p >9393</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart, Indicator</p>
+<td ><p >Chart, Indicator</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Indicator displacement plotted further than expected on higher time frame charts with Equidistant Bar Spacing enabled</p>
+<td ><p >Indicator displacement plotted further than expected on higher time frame charts with Equidistant Bar Spacing enabled</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Changed</p>
+<td ><p >Changed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9395</p>
+<td ><p >9395</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Updated the &quot;Save Chart Image&quot; feature</p>
+<td ><p >Updated the &quot;Save Chart Image&quot; feature</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9396</p>
+<td ><p >9396</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >SuperDOM</p>
+<td ><p >SuperDOM</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >SuperDOM price cells overlapped order flags on some DPI settings</p>
+<td ><p >SuperDOM price cells overlapped order flags on some DPI settings</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9397</p>
+<td ><p >9397</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Order Ticket</p>
+<td ><p >Order Ticket</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >High/Low/Open values unexpectedly truncated after resizing the window</p>
+<td ><p >High/Low/Open values unexpectedly truncated after resizing the window</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9399</p>
+<td ><p >9399</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Level II Window</p>
+<td ><p >Level II Window</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Level II window grid colors sometimes overlapped or left gaps</p>
+<td ><p >Level II window grid colors sometimes overlapped or left gaps</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Changed</p>
+<td ><p >Changed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9401</p>
+<td ><p >9401</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Share Adapter</p>
+<td ><p >Share Adapter</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Updated the feature to save images of window or tab contents on all relevant windows</p>
+<td ><p >Updated the feature to save images of window or tab contents on all relevant windows</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9402</p>
+<td ><p >9402</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >UI</p>
+<td ><p >UI</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Data Box was always on top of other windows, even when &quot;Always on Top&quot; was disabled</p>
+<td ><p >Data Box was always on top of other windows, even when &quot;Always on Top&quot; was disabled</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9404</p>
+<td ><p >9404</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Drawing Tool</p>
+<td ><p >Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >NinjaScript Drawing methods did not allow objects to be drawn beyond the current bar</p>
+<td ><p >NinjaScript Drawing methods did not allow objects to be drawn beyond the current bar</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9407</p>
+<td ><p >9407</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Adapter</p>
+<td ><p >Adapter</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The IQFeed adapter's connection timeout was more brief than expected</p>
+<td ><p >The IQFeed adapter's connection timeout was more brief than expected</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9408</p>
+<td ><p >9408</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Bars, Chart</p>
+<td ><p >Bars, Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >The &quot;Bar Width&quot; property did not always restore with Data Series presets</p>
+<td ><p >The &quot;Bar Width&quot; property did not always restore with Data Series presets</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9410</p>
+<td ><p >9410</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart panel scaling did not maintain its size when dragging plots within the same panel</p>
+<td ><p >Chart panel scaling did not maintain its size when dragging plots within the same panel</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9411</p>
+<td ><p >9411</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Workspaces</p>
+<td ><p >Workspaces</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Windows did not maintain their display order when stacked in a workspace</p>
+<td ><p >Windows did not maintain their display order when stacked in a workspace</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9412</p>
+<td ><p >9412</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Indicator</p>
+<td ><p >Indicator</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The Pivots indicator threw an unexpected error message when applied to a multi-series chart</p>
+<td ><p >The Pivots indicator threw an unexpected error message when applied to a multi-series chart</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9413</p>
+<td ><p >9413</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >The Mini Data Box sometimes showed &quot;N/A&quot; for indicator plot values if AddDataSeries was used in the indicator.</p>
+<td ><p >The Mini Data Box sometimes showed &quot;N/A&quot; for indicator plot values if AddDataSeries was used in the indicator.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9415</p>
+<td ><p >9415</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The Cross Hair locked to incorrect coordinates when locked via the right-click menu on a large chart</p>
+<td ><p >The Cross Hair locked to incorrect coordinates when locked via the right-click menu on a large chart</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9419</p>
+<td ><p >9419</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Bars, Chart</p>
+<td ><p >Bars, Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >The first Daily bar was not displayed when Equidistant Bar Spacing was disabled.</p>
+<td ><p >The first Daily bar was not displayed when Equidistant Bar Spacing was disabled.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9420</p>
+<td ><p >9420</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Adapter</p>
+<td ><p >Adapter</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >No pre-market or post-market data was displayed when connected to TD Ameritrade.</p>
+<td ><p >No pre-market or post-market data was displayed when connected to TD Ameritrade.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9421</p>
+<td ><p >9421</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >The Global Cross Hair consumed CPU resources when not moving.</p>
+<td ><p >The Global Cross Hair consumed CPU resources when not moving.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Changed</p>
+<td ><p >Changed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9422</p>
+<td ><p >9422</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >NinjaScript Editor</p>
+<td ><p >NinjaScript Editor</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Added an &quot;Export&quot; function to the right-click context menu of the NinjaScript Editor compile errors grid</p>
+<td ><p >Added an &quot;Export&quot; function to the right-click context menu of the NinjaScript Editor compile errors grid</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9423</p>
+<td ><p >9423</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Indicator</p>
+<td ><p >Indicator</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >The Woodies CCI &quot;Sidewinder&quot; plot did not display on charts with a Daily or higher interval</p>
+<td ><p >The Woodies CCI &quot;Sidewinder&quot; plot did not display on charts with a Daily or higher interval</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9425</p>
+<td ><p >9425</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Trading Hours</p>
+<td ><p >Trading Hours</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The EOD check box could not be left unchecked in any session of a new Trading Hours template</p>
+<td ><p >The EOD check box could not be left unchecked in any session of a new Trading Hours template</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9426</p>
+<td ><p >9426</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Strategy Analyzer</p>
+<td ><p >Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Statistics in the Optimizer &quot;Results&quot; grid were not affected by the selected Calculation Mode</p>
+<td ><p >Statistics in the Optimizer &quot;Results&quot; grid were not affected by the selected Calculation Mode</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9427</p>
+<td ><p >9427</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart Window thumbnails in the Windows task bar were scaled incorrectly.</p>
+<td ><p >Chart Window thumbnails in the Windows task bar were scaled incorrectly.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9428</p>
+<td ><p >9428</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Stop Limit orders could not be submitted via Chart Trader.</p>
+<td ><p >Stop Limit orders could not be submitted via Chart Trader.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9429</p>
+<td ><p >9429</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart Trader</p>
+<td ><p >Chart Trader</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Profit Target and Stop Loss quantity buttons did not function on Chart Trader</p>
+<td ><p >Profit Target and Stop Loss quantity buttons did not function on Chart Trader</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9432</p>
+<td ><p >9432</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Bars, Trading Hours</p>
+<td ><p >Bars, Trading Hours</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Tick charts were not built correctly in non-EOD sessions</p>
+<td ><p >Tick charts were not built correctly in non-EOD sessions</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9433</p>
+<td ><p >9433</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Drawing Tool</p>
+<td ><p >Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Extended Line anchor point calculations sometimes changed unexpectedly</p>
+<td ><p >Extended Line anchor point calculations sometimes changed unexpectedly</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9434</p>
+<td ><p >9434</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Market Analyzer</p>
+<td ><p >Market Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >An unexpected error was thrown when using the &quot;Realized Profit Loss&quot; Market Analyzer column while connected to multiple connections with their own accounts</p>
+<td ><p >An unexpected error was thrown when using the &quot;Realized Profit Loss&quot; Market Analyzer column while connected to multiple connections with their own accounts</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9437</p>
+<td ><p >9437</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Playback, UI</p>
+<td ><p >Playback, UI</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The Playback controller could not be set back to the start time of the selected date range</p>
+<td ><p >The Playback controller could not be set back to the start time of the selected date range</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9438</p>
+<td ><p >9438</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >NinjaScript</p>
+<td ><p >NinjaScript</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Draw.Line caused an Object reference exception and froze charts</p>
+<td ><p >Draw.Line caused an Object reference exception and froze charts</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9439</p>
+<td ><p >9439</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Chart, NinjaScript</p>
+<td ><p >Chart, NinjaScript</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The Z-Order was not setting correctly when one indicator was moved into the price panel, if the price panel contained another indicator</p>
+<td ><p >The Z-Order was not setting correctly when one indicator was moved into the price panel, if the price panel contained another indicator</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9440</p>
+<td ><p >9440</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >NinjaScript, Tick Replay</p>
+<td ><p >NinjaScript, Tick Replay</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >A deadlock occurred when accessing a Series in OnMarketData with Tick Replay enabled</p>
+<td ><p >A deadlock occurred when accessing a Series in OnMarketData with Tick Replay enabled</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9444</p>
+<td ><p >9444</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >NinjaScript Editor</p>
+<td ><p >NinjaScript Editor</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >An additional AddOns folder was created when creating a new Add On</p>
+<td ><p >An additional AddOns folder was created when creating a new Add On</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p >9459</p>
+<td ><p >9459</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Strategy Analyzer</p>
+<td ><p >Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p >Genetic optimizations failed to produce more than four results</p>
+<td ><p >Genetic optimizations failed to produce more than four results</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9460</p>
+<td ><p >9460</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Data Grids</p>
+<td ><p >Data Grids</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Realized PnL was not updating for the Sim101 account</p>
+<td ><p >Realized PnL was not updating for the Sim101 account</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:55px; padding:10px; border:solid thin #dddddd;"><p >9461</p>
+<td ><p >9461</p>
 </td>
-<td style="vertical-align:top; width:224px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Changing a Chart Style via the Data Series window did not affect the Chart Style icon on the chart toolbar</p>
+<td ><p >Changing a Chart Style via the Data Series window did not affect the Chart Style icon on the chart toolbar</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9464</p>
+<td ><p >9464</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Attach Order to Indicator</p>
+<td ><p >Attach Order to Indicator</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Attaching an order to a multi-plot indicator threw an unhandled object reference exception</p>
+<td ><p >Attaching an order to a multi-plot indicator threw an unhandled object reference exception</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9465</p>
+<td ><p >9465</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Chart</p>
+<td ><p >Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >The &quot;Remove&quot; function in the Drawing Objects window did not always remove objects</p>
+<td ><p >The &quot;Remove&quot; function in the Drawing Objects window did not always remove objects</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9466</p>
+<td ><p >9466</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Strategy Analyzer</p>
+<td ><p >Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The Strategy Analyzer threw an error when trying to re-run a test already saved in the Log panel</p>
+<td ><p >The Strategy Analyzer threw an error when trying to re-run a test already saved in the Log panel</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p >9468</p>
+<td ><p >9468</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Strategy Analyzer</p>
+<td ><p >Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p >Memory usage could increase when changing values for an optimization</p>
+<td ><p >Memory usage could increase when changing values for an optimization</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >9470</p>
+<td ><p >9470</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >NinjaScript Editor</p>
+<td ><p >NinjaScript Editor</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The default text in the &quot;Save As&quot; dialogue was not consistent with NinjaScript Wizard naming conventions</p>
+<td ><p >The default text in the &quot;Save As&quot; dialogue was not consistent with NinjaScript Wizard naming conventions</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:55px; padding:10px; border:solid thin #dddddd;"><p >Fixed</p>
+<td ><p >Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:55px; padding:10px; border:solid thin #dddddd;"><p >9473</p>
+<td ><p >9473</p>
 </td>
-<td style="vertical-align:top; width:224px; height:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy Analyzer</p>
+<td ><p class="p_Normal">Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When optimizing over a large number of parameters, the application sometimes became unresponsive or threw &quot;out of memory&quot; exceptions</p>
+<td ><p class="p_Normal">When optimizing over a large number of parameters, the application sometimes became unresponsive or threw &quot;out of memory&quot; exceptions</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9474</p>
+<td ><p class="p_Normal">9474</p>
 </td>
-<td style="vertical-align:top; width:224px; height:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart, Indicator</p>
+<td ><p class="p_Normal">Chart, Indicator</p>
 </td>
-<td style="vertical-align:top; width:490px; height:55px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">If an indicator threw a start-up error, a blank chart panel would be left when the indicator was removed</p>
+<td ><p class="p_Normal">If an indicator threw a start-up error, a blank chart panel would be left when the indicator was removed</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9475</p>
+<td ><p class="p_Normal">9475</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Drawing Tool, Templates</p>
+<td ><p class="p_Normal">Drawing Tool, Templates</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The location saved in the Drawing Object window's &quot;Save/Load Template&quot; dialogue unexpectedly changed after loading a template</p>
+<td ><p class="p_Normal">The location saved in the Drawing Object window's &quot;Save/Load Template&quot; dialogue unexpectedly changed after loading a template</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9477</p>
+<td ><p class="p_Normal">9477</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart, Templates</p>
+<td ><p class="p_Normal">Chart, Templates</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When an indicator used another instance of itself as the input series, the input series would be lost on multi-timeframe charts</p>
+<td ><p class="p_Normal">When an indicator used another instance of itself as the input series, the input series would be lost on multi-timeframe charts</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9478</p>
+<td ><p class="p_Normal">9478</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart</p>
+<td ><p class="p_Normal">Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Using weekly Pivots and switching to a one-week interval resulted in a deadlock</p>
+<td ><p class="p_Normal">Using weekly Pivots and switching to a one-week interval resulted in a deadlock</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9479</p>
+<td ><p class="p_Normal">9479</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy Analyzer</p>
+<td ><p class="p_Normal">Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Two clicks were required to select another optimization parameter after changing a parameter</p>
+<td ><p class="p_Normal">Two clicks were required to select another optimization parameter after changing a parameter</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9480</p>
+<td ><p class="p_Normal">9480</p>
 </td>
-<td style="vertical-align:top; width:224px; height:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Stock Import</p>
+<td ><p class="p_Normal">Stock Import</p>
 </td>
-<td style="vertical-align:top; width:490px; height:55px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Importing stock symbol lists threw an unexpected exception</p>
+<td ><p class="p_Normal">Importing stock symbol lists threw an unexpected exception</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9482</p>
+<td ><p class="p_Normal">9482</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">UI</p>
+<td ><p class="p_Normal">UI</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">NTMessageBox caused slower than expected performance</p>
+<td ><p class="p_Normal">NTMessageBox caused slower than expected performance</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9484</p>
+<td ><p class="p_Normal">9484</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Control Center, Database</p>
+<td ><p class="p_Normal">Control Center, Database</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Unhandled exceptions were thrown when adding simulation accounts</p>
+<td ><p class="p_Normal">Unhandled exceptions were thrown when adding simulation accounts</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9485</p>
+<td ><p class="p_Normal">9485</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Market Analyzer, Workspaces</p>
+<td ><p class="p_Normal">Market Analyzer, Workspaces</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Market Analyzer Column foreground and background colors did not visually restore with workspaces</p>
+<td ><p class="p_Normal">Market Analyzer Column foreground and background colors did not visually restore with workspaces</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9487</p>
+<td ><p class="p_Normal">9487</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart, Drawing Tool</p>
+<td ><p class="p_Normal">Chart, Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Global drawing objects disappeared from all charts if one chart containing the object was closed</p>
+<td ><p class="p_Normal">Global drawing objects disappeared from all charts if one chart containing the object was closed</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9488</p>
+<td ><p class="p_Normal">9488</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart</p>
+<td ><p class="p_Normal">Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart scale and pan location were lost when right clicking in a chart's x-axis, then clicking away</p>
+<td ><p class="p_Normal">Chart scale and pan location were lost when right clicking in a chart's x-axis, then clicking away</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9490</p>
+<td ><p class="p_Normal">9490</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart, Time and Sales</p>
+<td ><p class="p_Normal">Chart, Time and Sales</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart tabs did not load properly when linked with a Time and Sales window</p>
+<td ><p class="p_Normal">Chart tabs did not load properly when linked with a Time and Sales window</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Changed</p>
+<td ><p class="p_Normal">Changed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9491</p>
+<td ><p class="p_Normal">9491</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">NinjaScript, Strategy Analyzer</p>
+<td ><p class="p_Normal">NinjaScript, Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The IsInstantiatedOnEachOptimizationIteration property is now set to true by default.  <span style="font-weight: bold;">Note</span>: &nbsp;Strategy Optimizations could run slower. &nbsp;Please see Help Guide entry <a href="isinstantiatedoneachoptimizationiteration-1.htm" class="topiclink">IsInstantiatedOnEachOptimizationIteration</a> to take advantage of performance benefits.</p>
+<td ><p class="p_Normal">The IsInstantiatedOnEachOptimizationIteration property is now set to true by default.  <span >Note</span>: &nbsp;Strategy Optimizations could run slower. &nbsp;Please see Help Guide entry <a href="isinstantiatedoneachoptimizationiteration-1.htm" class="topiclink">IsInstantiatedOnEachOptimizationIteration</a> to take advantage of performance benefits.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9492</p>
+<td ><p class="p_Normal">9492</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart, Drawing Tool</p>
+<td ><p class="p_Normal">Chart, Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Exceptions were thrown when deleting data series with Global Drawing Objects attached</p>
+<td ><p class="p_Normal">Exceptions were thrown when deleting data series with Global Drawing Objects attached</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9496</p>
+<td ><p class="p_Normal">9496</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart</p>
+<td ><p class="p_Normal">Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Unhandled exceptions were thrown when moving data series to new panels</p>
+<td ><p class="p_Normal">Unhandled exceptions were thrown when moving data series to new panels</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9497</p>
+<td ><p class="p_Normal">9497</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Level II Window</p>
+<td ><p class="p_Normal">Level II Window</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Unhandled exceptions were thrown when switching instruments</p>
+<td ><p class="p_Normal">Unhandled exceptions were thrown when switching instruments</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9499</p>
+<td ><p class="p_Normal">9499</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Level II Window</p>
+<td ><p class="p_Normal">Level II Window</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An exception was thrown when double clicking the &quot;Details&quot; row (to add or remove tracked Markers Maker)</p>
+<td ><p class="p_Normal">An exception was thrown when double clicking the &quot;Details&quot; row (to add or remove tracked Markers Maker)</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9500</p>
+<td ><p class="p_Normal">9500</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Trade Performance</p>
+<td ><p class="p_Normal">Trade Performance</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Some trade statistics column headers in Trades grids used incorrect resource strings</p>
+<td ><p class="p_Normal">Some trade statistics column headers in Trades grids used incorrect resource strings</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9504</p>
+<td ><p class="p_Normal">9504</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart, SuperDOM</p>
+<td ><p class="p_Normal">Chart, SuperDOM</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Indicator dialog info/arrows did not function as expected</p>
+<td ><p class="p_Normal">Indicator dialog info/arrows did not function as expected</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9505</p>
+<td ><p class="p_Normal">9505</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">SuperDOM</p>
+<td ><p class="p_Normal">SuperDOM</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The SuperDOM price ladder sometimes rendered text incorrectly after an order was filled</p>
+<td ><p class="p_Normal">The SuperDOM price ladder sometimes rendered text incorrectly after an order was filled</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9509</p>
+<td ><p class="p_Normal">9509</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Localization, Strategy Analyzer</p>
+<td ><p class="p_Normal">Localization, Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Strategy Analyzer sometimes restored incorrect performance metric values when using the German region format</p>
+<td ><p class="p_Normal">The Strategy Analyzer sometimes restored incorrect performance metric values when using the German region format</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9510</p>
+<td ><p class="p_Normal">9510</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Visual Studio Integration</p>
+<td ><p class="p_Normal">Visual Studio Integration</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">NinjaScript auto-generated code did not update in Visual Studio</p>
+<td ><p class="p_Normal">NinjaScript auto-generated code did not update in Visual Studio</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9511</p>
+<td ><p class="p_Normal">9511</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Playback</p>
+<td ><p class="p_Normal">Playback</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Playback connection left unexpected executions on charts</p>
+<td ><p class="p_Normal">The Playback connection left unexpected executions on charts</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9514</p>
+<td ><p class="p_Normal">9514</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">SuperDOM</p>
+<td ><p class="p_Normal">SuperDOM</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The SuperDOM 's &quot;Cancel Order&quot; button was displayed after a Simulation account was reset</p>
+<td ><p class="p_Normal">The SuperDOM 's &quot;Cancel Order&quot; button was displayed after a Simulation account was reset</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9515</p>
+<td ><p class="p_Normal">9515</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Level II Window</p>
+<td ><p class="p_Normal">Level II Window</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Depth/Spread Columns' text did not populate after resizing the window</p>
+<td ><p class="p_Normal">Depth/Spread Columns' text did not populate after resizing the window</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9516</p>
+<td ><p class="p_Normal">9516</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart, Drawing Tool</p>
+<td ><p class="p_Normal">Chart, Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Performance was impacted when using an Extended Line with Equidistant Bar Spacing disabled</p>
+<td ><p class="p_Normal">Performance was impacted when using an Extended Line with Equidistant Bar Spacing disabled</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9517</p>
+<td ><p class="p_Normal">9517</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy Analyzer, Tick Replay</p>
+<td ><p class="p_Normal">Strategy Analyzer, Tick Replay</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Tick Replay was unexpectedly available for Renko bars</p>
+<td ><p class="p_Normal">Tick Replay was unexpectedly available for Renko bars</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9519</p>
+<td ><p class="p_Normal">9519</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Drawing Tool</p>
+<td ><p class="p_Normal">Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">NinjaScript Draw objects became attached to the wrong bars when multiple bars shared the same time stamp</p>
+<td ><p class="p_Normal">NinjaScript Draw objects became attached to the wrong bars when multiple bars shared the same time stamp</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9529</p>
+<td ><p class="p_Normal">9529</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart</p>
+<td ><p class="p_Normal">Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Charts zoomed when the border was clicked</p>
+<td ><p class="p_Normal">Charts zoomed when the border was clicked</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9530</p>
+<td ><p class="p_Normal">9530</p>
 </td>
-<td style="vertical-align:top; width:224px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">NinjaScript Wizard</p>
+<td ><p class="p_Normal">NinjaScript Wizard</p>
 </td>
-<td style="vertical-align:top; width:490px; height:19px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An incorrect OnConnectionStatusUpdate() method signature was added through the NinjaScript Wizard for new Strategies</p>
+<td ><p class="p_Normal">An incorrect OnConnectionStatusUpdate() method signature was added through the NinjaScript Wizard for new Strategies</p>
 </td>
 </tr>
 </table>
 </div>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9531</p>
+<td ><p class="p_Normal">9531</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">SuperDOM</p>
+<td ><p class="p_Normal">SuperDOM</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The &quot;PnL&quot; column calculated values incorrectly with the &quot;Ticks&quot; Calculation Mode when scaling into a position</p>
+<td ><p class="p_Normal">The &quot;PnL&quot; column calculated values incorrectly with the &quot;Ticks&quot; Calculation Mode when scaling into a position</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9532</p>
+<td ><p class="p_Normal">9532</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart</p>
+<td ><p class="p_Normal">Chart</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An exception was thrown when dragging a data series after copying it</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
-</td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9533</p>
-</td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Drawing Tool</p>
-</td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Trend Channel did not plot parallel lines when moving in some situations</p>
+<td ><p class="p_Normal">An exception was thrown when dragging a data series after copying it</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9534</p>
+<td ><p class="p_Normal">9533</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Drawing Tool</p>
+<td ><p class="p_Normal">Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Draw.HorizontalLine() could not be used with Equidistant Bar Spacing disabled</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
-</td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9535</p>
-</td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Adapter</p>
-</td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">^TICK historical data values all plotted above 0 on TD Ameritrade connections</p>
+<td ><p class="p_Normal">The Trend Channel did not plot parallel lines when moving in some situations</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9538</p>
+<td ><p class="p_Normal">9534</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Database</p>
+<td ><p class="p_Normal">Drawing Tool</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">After an order rejection, Tick Sizes or Point Values could not be changed, even when disconnected</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
-</td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9539</p>
-</td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy Analyzer</p>
-</td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">CFD's could not be backtested or optimized when the &quot;Include Commissions&quot; property was enabled</p>
+<td ><p class="p_Normal">Draw.HorizontalLine() could not be used with Equidistant Bar Spacing disabled</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9540</p>
+<td ><p class="p_Normal">9535</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Playback</p>
+<td ><p class="p_Normal">Adapter</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">NinjaScript strategies submitted orders when the Playback slider was updating to a future time</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
-</td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9542</p>
-</td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart</p>
-</td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Charts sometimes froze after copying and pasting or dragging and dropping chart objects</p>
+<td ><p class="p_Normal">^TICK historical data values all plotted above 0 on TD Ameritrade connections</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9546</p>
+<td ><p class="p_Normal">9538</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Database</p>
+<td ><p class="p_Normal">Database</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The UI could lock up when using the database rollover feature</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
-</td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9547</p>
-</td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Chart, NinjaScript</p>
-</td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Plot widths with a value of 1 were the same as those with a value of 2, and were semi-transparent</p>
+<td ><p class="p_Normal">After an order rejection, Tick Sizes or Point Values could not be changed, even when disconnected</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9563</p>
+<td ><p class="p_Normal">9539</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Licensing</p>
+<td ><p class="p_Normal">Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Incorrect list of available connection providers appeared with Simulated (@SIM) license keys</p>
+<td ><p class="p_Normal">CFD's could not be backtested or optimized when the &quot;Include Commissions&quot; property was enabled</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:100px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fixed</p>
+<td ><p class="p_Normal">Fixed</p>
 </td>
-<td style="vertical-align:top; width:61px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">9550, 9365</p>
+<td ><p class="p_Normal">9540</p>
 </td>
-<td style="vertical-align:top; width:224px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Alerts</p>
+<td ><p class="p_Normal">Playback</p>
 </td>
-<td style="vertical-align:top; width:490px; height:37px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Cross conditions triggered alerts even if a Line cross did not occur within the look back period</p>
+<td ><p class="p_Normal">NinjaScript strategies submitted orders when the Playback slider was updating to a future time</p>
+</td>
+</tr>
+<tr>
+<td ><p class="p_Normal">Fixed</p>
+</td>
+<td ><p class="p_Normal">9542</p>
+</td>
+<td ><p class="p_Normal">Chart</p>
+</td>
+<td ><p class="p_Normal">Charts sometimes froze after copying and pasting or dragging and dropping chart objects</p>
+</td>
+</tr>
+<tr>
+<td ><p class="p_Normal">Fixed</p>
+</td>
+<td ><p class="p_Normal">9546</p>
+</td>
+<td ><p class="p_Normal">Database</p>
+</td>
+<td ><p class="p_Normal">The UI could lock up when using the database rollover feature</p>
+</td>
+</tr>
+<tr>
+<td ><p class="p_Normal">Fixed</p>
+</td>
+<td ><p class="p_Normal">9547</p>
+</td>
+<td ><p class="p_Normal">Chart, NinjaScript</p>
+</td>
+<td ><p class="p_Normal">Plot widths with a value of 1 were the same as those with a value of 2, and were semi-transparent</p>
+</td>
+</tr>
+<tr>
+<td ><p class="p_Normal">Fixed</p>
+</td>
+<td ><p class="p_Normal">9563</p>
+</td>
+<td ><p class="p_Normal">Licensing</p>
+</td>
+<td ><p class="p_Normal">Incorrect list of available connection providers appeared with Simulated (@SIM) license keys</p>
+</td>
+</tr>
+<tr>
+<td ><p class="p_Normal">Fixed</p>
+</td>
+<td ><p class="p_Normal">9550, 9365</p>
+</td>
+<td ><p class="p_Normal">Alerts</p>
+</td>
+<td ><p class="p_Normal">Cross conditions triggered alerts even if a Line cross did not occur within the look back period</p>
 </td>
 </tr>
 </table>
@@ -1171,6 +1171,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </div></body>
   </html>

@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html?alert_and_debug_concepts.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -48,17 +48,17 @@
 <p >Instead of <a href="clearoutputwindow-1.htm" class="topiclink">ClearOutputWindow()</a>, use Output.Reset() to clear the output window.</p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Example</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div ><table id="Code1" class="NSExample">
 <tr class="NSExample">
-<td class="NSExample" style="vertical-align:middle; background-color:#F9F9F9;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+<td class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"></h2>
 </td>
 </tr>
 <tr class="NSExample">
 <td class="NSExample"><p >&nbsp;</p>
-<p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Instead of Print()</span><br>
-<span class="f_CodeExample">NinjaTrader.Code.Output.Process(</span><span class="f_CodeExample" style="color: #800000;">&quot;my message&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PrintTo.OutputTab1);</span><br>
+<p class="p_CodeExample"><span class="f_CodeExample" >// Instead of Print()</span><br>
+<span class="f_CodeExample">NinjaTrader.Code.Output.Process(</span><span class="f_CodeExample" >&quot;my message&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">PrintTo.OutputTab1);</span><br>
 <span class="f_CodeExample">&nbsp;</span><br>
-<span class="f_CodeExample" style="color: #008000;">// Instead of ClearOutputWindow()</span><br>
+<span class="f_CodeExample" >// Instead of ClearOutputWindow()</span><br>
 <span class="f_CodeExample">NinjaTrader.Code.Output.Reset()</span></p>
 </td>
 </tr>
@@ -71,17 +71,17 @@
 <p >Instead of <a href="rearmalert-1.htm" class="topiclink">ResetAlert()</a>, use <a href="alert-1.htm" class="topiclink">NinjaTrader.NinjaScript.Alert.RearmAlert()</a></p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Example</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div ><table id="Code1" class="NSExample">
 <tr class="NSExample">
-<td class="NSExample" style="vertical-align:middle; background-color:#F9F9F9;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+<td class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"></h2>
 </td>
 </tr>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Instead of Alert()</span><br>
-<span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.AlertCallback(NinjaTrader.Cbi.Instrument.GetInstrument(</span><span class="f_CodeExample" style="color: #800000;">&quot;MSFT&quot;</span><span class="f_CodeExample">),</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;someId&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.Core.Globals.Now,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Priority.High,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;message&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Blue,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.White,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">);</span><br>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >// Instead of Alert()</span><br>
+<span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.AlertCallback(NinjaTrader.Cbi.Instrument.GetInstrument(</span><span class="f_CodeExample" >&quot;MSFT&quot;</span><span class="f_CodeExample">),</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >this</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;someId&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">NinjaTrader.Core.Globals.Now,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Priority.High,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;message&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >null</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.Blue,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Brushes.White,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >0</span><span class="f_CodeExample">);</span><br>
 <span class="f_CodeExample">&nbsp;</span><br>
-<span class="f_CodeExample" style="color: #008000;">// Instead of ResetAlert()</span><br>
-<span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.ResetAlert(</span><span class="f_CodeExample" style="color: #800000;">&quot;someId&quot;</span><span class="f_CodeExample">);</span></p>
+<span class="f_CodeExample" >// Instead of ResetAlert()</span><br>
+<span class="f_CodeExample">NinjaTrader.NinjaScript.Alert.ResetAlert(</span><span class="f_CodeExample" >&quot;someId&quot;</span><span class="f_CodeExample">);</span></p>
 </td>
 </tr>
 </table>
@@ -93,9 +93,9 @@
 <p >Instead of <a href="playsound-1.htm" class="topiclink">PlaySound()</a>, use Globals.PlaySound() to play a sound.</p>
 <p >Instead of <a href="sendmail-1.htm" class="topiclink">SendMail()</a>, use Globals.SendMail() to send a mail.</p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
+<div ><table class="Tip">
 <tr class="Tip">
-<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: Both the Globals.PlaySound() and .SendMail() above could be used in a regular NinjaScript objects as well, however this is <span style="text-decoration: underline;">not recommended</span> practice since those would not ignore the calls outside State.Realtime which could yield unexpected results.</p>
+<td class="Tip"><p ><span >Tip</span>: Both the Globals.PlaySound() and .SendMail() above could be used in a regular NinjaScript objects as well, however this is <span >not recommended</span> practice since those would not ignore the calls outside State.Realtime which could yield unexpected results.</p>
 </td>
 </tr>
 </table>
@@ -103,20 +103,20 @@
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div ><table id="Code1" class="NSExample">
 <tr class="NSExample">
-<td class="NSExample" style="vertical-align:middle; background-color:#F9F9F9;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+<td class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"></h2>
 </td>
 </tr>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Instead of Log()</span><br>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >// Instead of Log()</span><br>
 <span class="f_CodeExample">NinjaScript.Log(&quot;My log message&quot;, LogLevel.Error);</span><br>
 <span class="f_CodeExample">&nbsp;</span><br>
-<span class="f_CodeExample" style="color: #008000;">// Instead of PlaySound()</span><br>
-<span class="f_CodeExample">NinjaTrader.Core.Globals.PlaySound(@</span><span class="f_CodeExample" style="color: #800000;">&quot;C:\mySound.wav&quot;</span><span class="f_CodeExample">);</span><br>
+<span class="f_CodeExample" >// Instead of PlaySound()</span><br>
+<span class="f_CodeExample">NinjaTrader.Core.Globals.PlaySound(@</span><span class="f_CodeExample" >&quot;C:\mySound.wav&quot;</span><span class="f_CodeExample">);</span><br>
 <span class="f_CodeExample">&nbsp;</span><br>
-<span class="f_CodeExample" style="color: #008000;">// Instead of SendMail()</span><br>
-<span class="f_CodeExample">NinjaTrader.Core.Globals.SendMail(</span><span class="f_CodeExample" style="color: #800000;">&quot;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bbd8cec8cfd4d6dec9c8fbded6dad2d795d8d4d6">[email&#160;protected]</a>&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="afccccf0dbc7cadccaf0dfcac0dfc3caefcac2cec6c381ccc0c2">[email&#160;protected]</a>&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Subject&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;Mail body&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">);</span></p>
+<span class="f_CodeExample" >// Instead of SendMail()</span><br>
+<span class="f_CodeExample">NinjaTrader.Core.Globals.SendMail(</span><span class="f_CodeExample" >&quot;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bbd8cec8cfd4d6dec9c8fbded6dad2d795d8d4d6">[email&#160;protected]</a>&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="afccccf0dbc7cadccaf0dfcac0dfc3caefcac2cec6c381ccc0c2">[email&#160;protected]</a>&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;Subject&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;Mail body&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >null</span><span class="f_CodeExample">);</span></p>
 </td>
 </tr>
 </table>
@@ -126,47 +126,47 @@
 <h2 class="p_Heading2"><span class="f_Heading2">Error Codes in Log Files</span></h2>
 <p class="p_CodeExample">The ErrorCode enumeration can be found in NinjaTrader logs from time to time when an error occurs, and these can provide further clues into the cause of unexpected behavior during your debugging. These error codes are not necessarily related to your code, but they can provide an indication of an issue to address outside of the scope of your code, saving you time in trying to find the source of errors in your code. Below is a list of ErrorCode enum values and their meanings:</p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >NoError</p>
+<td ><p >NoError</p>
 </td>
-<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >No errors were thrown</p>
+<td ><p >No errors were thrown</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p >LogOnFailed</p>
+<td ><p >LogOnFailed</p>
 </td>
-<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p >Failed to log on due to invalid credentials</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >OrderRejected</p>
-</td>
-<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Broker rejected the current order</p>
+<td ><p >Failed to log on due to invalid credentials</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p >UnableToCancelOrder</p>
+<td ><p >OrderRejected</p>
 </td>
-<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p >Order cannot be canceled now, but may be successfully canceled later</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >UnableToChangeOrder</p>
-</td>
-<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Either the exchange or broker does not support order updates for the instrument in question, or the order has not yet been submitted</p>
+<td ><p >Broker rejected the current order</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p >UserAbort</p>
+<td ><p >UnableToCancelOrder</p>
 </td>
-<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p >The operation was aborted by the user</p>
+<td ><p >Order cannot be canceled now, but may be successfully canceled later</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Panic</p>
+<td ><p >UnableToChangeOrder</p>
 </td>
-<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >An unspecified error was thrown</p>
+<td ><p >Either the exchange or broker does not support order updates for the instrument in question, or the order has not yet been submitted</p>
+</td>
+</tr>
+<tr>
+<td ><p >UserAbort</p>
+</td>
+<td ><p >The operation was aborted by the user</p>
+</td>
+</tr>
+<tr>
+<td ><p >Panic</p>
+</td>
+<td ><p >An unspecified error was thrown</p>
 </td>
 </tr>
 </table>
@@ -192,6 +192,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </div></body>
   </html>

@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -195,52 +195,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('UnderstandingMaxPercentProfitable_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxPercentProfitable\',\'UnderstandingMaxPercentProfitable_ICON\')');
-HMInitToggle('UnderstandingMaxPercentProfitable','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxAvgFavorableExcursion_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxAvgFavorableExcursion\',\'UnderstandingMaxAvgFavorableExcursion_ICON\')');
-HMInitToggle('UnderstandingMaxAvgFavorableExcursion','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxAvgProfite_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxAvgProfite\',\'UnderstandingMaxAvgProfite_ICON\')');
-HMInitToggle('UnderstandingMaxAvgProfite','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxNetProfit_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxNetProfit\',\'UnderstandingMaxNetProfit_ICON\')');
-HMInitToggle('UnderstandingMaxNetProfit','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxProfitFactor_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxProfitFactor\',\'UnderstandingMaxProfitFactor_ICON\')');
-HMInitToggle('UnderstandingMaxProfitFactor','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxRSquared_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxRSquared\',\'UnderstandingMaxRSquared_ICON\')');
-HMInitToggle('UnderstandingMaxRSquared','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxSharpeRatio_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxSharpeRatio\',\'UnderstandingMaxSharpeRatio_ICON\')');
-HMInitToggle('UnderstandingMaxSharpeRatio','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxSortinoRatio_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxSortinoRatio\',\'UnderstandingMaxSortinoRatio_ICON\')');
-HMInitToggle('UnderstandingMaxSortinoRatio','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxUlcerRatio_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxUlcerRatio\',\'UnderstandingMaxUlcerRatio_ICON\')');
-HMInitToggle('UnderstandingMaxUlcerRatio','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxWinLossRatio_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxWinLossRatio\',\'UnderstandingMaxWinLossRatio_ICON\')');
-HMInitToggle('UnderstandingMaxWinLossRatio','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxAvgAdverseExcursion_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxAvgAdverseExcursion\',\'UnderstandingMaxAvgAdverseExcursion_ICON\')');
-HMInitToggle('UnderstandingMaxAvgAdverseExcursion','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMinDrawDown_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMinDrawDown\',\'UnderstandingMinDrawDown_ICON\')');
-HMInitToggle('UnderstandingMinDrawDown','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingMaxStrength_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingMaxStrength\',\'UnderstandingMaxStrength_ICON\')');
-HMInitToggle('UnderstandingMaxStrength','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

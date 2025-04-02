@@ -32,7 +32,7 @@
         
         
         
-        <p id="switchtoggles"><a href="javascript:HMToggleExpandAll(!HMAnyToggleOpen())" title="Click to open/close expanding sections">Show/Hide Hidden Text</a></p>
+        <p id="switchtoggles"></p>
         
       </div>
     </div>
@@ -199,38 +199,6 @@
 
         
       </div>
-      <script type="text/javascript">
       
-      var lastSlashPos = document.URL.lastIndexOf("/") > document.URL.lastIndexOf("\\") ? document.URL.lastIndexOf("/") : document.URL.lastIndexOf("\\");
-      if (document.URL.substring(lastSlashPos + 1, lastSlashPos + 4).toLowerCase() != "~hh") {
-      if (document.all) setTimeout(function() {
-      nsrInit();
-      }, 20);
-      else nsrInit();
-      }
-      
-      
-      if ((!parent.hmNavigationFrame) && (parent.location) && (parent.location.href)) {
-      $('.sync-toc').show();
-      $('p.crumbs').hide();
-      }
-      
-      
-      </script>
-      <div id="bump" style="height: 25px"></div>
-    <script type="text/javascript">
-HMInitToggle('HowToSubmitAnOrder_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToSubmitAnOrder\',\'HowToSubmitAnOrder_ICON\')');
-HMInitToggle('HowToSubmitAnOrder','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingOrderOptionsInTheRightClickMenu_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingOrderOptionsInTheRightClickMenu\',\'UnderstandingOrderOptionsInTheRightClickMenu_ICON\')');
-HMInitToggle('UnderstandingOrderOptionsInTheRightClickMenu','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingTheQuickButtons_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingTheQuickButtons\',\'UnderstandingTheQuickButtons_ICON\')');
-HMInitToggle('UnderstandingTheQuickButtons','hm.type','dropdown','hm.state','0');
-HMInitToggle('HowToScaleInOrOutOfAnActiveATMStrategy_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'HowToScaleInOrOutOfAnActiveATMStrategy\',\'HowToScaleInOrOutOfAnActiveATMStrategy_ICON\')');
-HMInitToggle('HowToScaleInOrOutOfAnActiveATMStrategy','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingoneCancelsOtherocoOrders_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingoneCancelsOtherocoOrders\',\'UnderstandingoneCancelsOtherocoOrders_ICON\')');
-HMInitToggle('UnderstandingoneCancelsOtherocoOrders','hm.type','dropdown','hm.state','0');
-HMInitToggle('UnderstandingSimulatedStopOrders_ICON','hm.type','dropdown','hm.state','0','hm.src0','tog_plus.gif','hm.src1','tog_minus.gif','onclick','HMToggle(\'toggle\',\'UnderstandingSimulatedStopOrders\',\'UnderstandingSimulatedStopOrders_ICON\')');
-HMInitToggle('UnderstandingSimulatedStopOrders','hm.type','dropdown','hm.state','0');
-</script>
 </div></body>
   </html>

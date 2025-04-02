@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?atmstrategycreate.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -44,11 +44,11 @@
         <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
 <p >Submits an entry order that will execute a specified ATM Strategy. &nbsp;</p>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<div ><table class="Note" >
 <tr class="Note">
-<td class="Note"><p ><span style="font-weight: bold;">Notes</span>:</p>
+<td class="Note"><p ><span >Notes</span>:</p>
 <p >&nbsp;</p>
-<p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Please review the section on using <a href="using_atm_strategies.htm" class="topiclink">ATM Strategies</a> </p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>This method is <span style="font-weight: bold;">NOT</span> backtestable and will <span style="font-weight: bold;">NOT</span> execute on historical data </p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>See the <a href="atmstrategycancelentryorder.htm" class="topiclink">AtmStrategyCancelEntryOrder()</a> to cancel an entry order </p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>See the <a href="atmstrategychangeentryorder.htm" class="topiclink">AtmStrategyChangeEntryOrder()</a> to change the price of the entry order </p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The ATM Strategy will be created asyncronous on the hosting NinjaScripts UI Thread, a callback is provided <span style="font-weight: bold;">solely</span> to check when the ATM Strategy is started on that thread - accessing for example price data in that outside OnBarUpdate() context <span style="font-weight: bold;">is not possible</span>.</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Please see the SampleATMStrategy build into NinjaTrader for example usage.</p></td>
+<p  ><span class="f_Normal" >&#8226;</span>Please review the section on using <a href="using_atm_strategies.htm" class="topiclink">ATM Strategies</a> </p><p  ><span class="f_Normal" >&#8226;</span>This method is <span >NOT</span> backtestable and will <span >NOT</span> execute on historical data </p><p  ><span class="f_Normal" >&#8226;</span>See the <a href="atmstrategycancelentryorder.htm" class="topiclink">AtmStrategyCancelEntryOrder()</a> to cancel an entry order </p><p  ><span class="f_Normal" >&#8226;</span>See the <a href="atmstrategychangeentryorder.htm" class="topiclink">AtmStrategyChangeEntryOrder()</a> to change the price of the entry order </p><p  ><span class="f_Normal" >&#8226;</span>The ATM Strategy will be created asyncronous on the hosting NinjaScripts UI Thread, a callback is provided <span >solely</span> to check when the ATM Strategy is started on that thread - accessing for example price data in that outside OnBarUpdate() context <span >is not possible</span>.</p><p  ><span class="f_Normal" >&#8226;</span>Please see the SampleATMStrategy build into NinjaTrader for example usage.</p></td>
 </tr>
 </table>
 </div>
@@ -62,76 +62,76 @@
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div ><table >
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >action</p>
+<td ><p >action</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets if the entry order is a buy or sell order </p>
+<td ><p >Sets if the entry order is a buy or sell order </p>
 <p >&nbsp;</p>
 <p >Possible values are:</p>
 <p >&nbsp;</p>
-<p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>OrderAction.Buy</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>OrderAction.Sell</p></td>
+<p  ><span class="f_Normal" >&#8226;</span>OrderAction.Buy</p><p  ><span class="f_Normal" >&#8226;</span>OrderAction.Sell</p></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >orderType</p>
+<td ><p >orderType</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Sets the order type of the entry order</p>
+<td ><p >Sets the order type of the entry order</p>
 <p >&nbsp;</p>
 <p >Possible values are:</p>
 <p >&nbsp;</p>
-<p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>OrderType.Limit</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>OrderType.Market</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>OrderType.MIT</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>OrderType.StopMarket</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>OrderType.StopLimit</p></td>
+<p  ><span class="f_Normal" >&#8226;</span>OrderType.Limit</p><p  ><span class="f_Normal" >&#8226;</span>OrderType.Market</p><p  ><span class="f_Normal" >&#8226;</span>OrderType.MIT</p><p  ><span class="f_Normal" >&#8226;</span>OrderType.StopMarket</p><p  ><span class="f_Normal" >&#8226;</span>OrderType.StopLimit</p></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >limitPrice</p>
+<td ><p >limitPrice</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The limit price of the order</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >stopPrice</p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >The stop price of the order</p>
+<td ><p >The limit price of the order</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >timeInForce</p>
+<td ><p >stopPrice</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the time in force of the entry order</p>
+<td ><p >The stop price of the order</p>
+</td>
+</tr>
+<tr>
+<td ><p >timeInForce</p>
+</td>
+<td ><p >Sets the time in force of the entry order</p>
 <p >&nbsp;</p>
 <p >Possible values are:</p>
-<p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>TimeInForce.Day</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>TimeInForce.Gtc</p></td>
+<p  ><span class="f_Normal" >&#8226;</span>TimeInForce.Day</p><p  ><span class="f_Normal" >&#8226;</span>TimeInForce.Gtc</p></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >orderId</p>
+<td ><p >orderId</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >The unique identifier for the entry order</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >strategyTemplateName</p>
-</td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Specifies which strategy template will be used</p>
+<td ><p >The unique identifier for the entry order</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >atmStrategyId</p>
+<td ><p >strategyTemplateName</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >The unique identifier for the ATM strategy</p>
+<td ><p >Specifies which strategy template will be used</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >callback</p>
+<td ><p >atmStrategyId</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The callback action is used to check that the ATM Strategy is successfully started</p>
+<td ><p >The unique identifier for the ATM strategy</p>
+</td>
+</tr>
+<tr>
+<td ><p >callback</p>
+</td>
+<td ><p >The callback action is used to check that the ATM Strategy is successfully started</p>
 </td>
 </tr>
 </table>
 </div>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
+<div ><table class="Tip" >
 <tr class="Tip">
-<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp;Unlike NinjaScript Strategy orders (both <a href="managed_approach.htm" class="topiclink">managed</a> and <a href="unmanaged_approach.htm" class="topiclink">unmanaged</a>), ATM strategies generated by the AtmStrategyCreate() method can then be managed manually by any order entry window such as the SuperDOM or within your NinjaScript strategy.</p>
+<td class="Tip"><p ><span >Tip</span>: &nbsp;Unlike NinjaScript Strategy orders (both <a href="managed_approach.htm" class="topiclink">managed</a> and <a href="unmanaged_approach.htm" class="topiclink">unmanaged</a>), ATM strategies generated by the AtmStrategyCreate() method can then be managed manually by any order entry window such as the SuperDOM or within your NinjaScript strategy.</p>
 </td>
 </tr>
 </table>
@@ -139,55 +139,55 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">atmStrategyId;</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">atmStrategyOrderId;</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">private</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">isAtmStrategyCreated</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">false</span><span class="f_CodeExample">;</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >private</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >string</span><span class="f_CodeExample" > </span><span class="f_CodeExample">atmStrategyId;</span><br />
+<span class="f_CodeExample" >private</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >string</span><span class="f_CodeExample" > </span><span class="f_CodeExample">atmStrategyOrderId;</span><br />
+<span class="f_CodeExample" >private</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >bool</span><span class="f_CodeExample" > &nbsp; </span><span class="f_CodeExample">isAtmStrategyCreated</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >false</span><span class="f_CodeExample">;</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><br />
+<span class="f_CodeExample" >protected</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >override</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >void</span><span class="f_CodeExample" > </span><span class="f_CodeExample">OnBarUpdate()</span><br />
 <span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&lt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Realtime)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" > </span><span class="f_CodeExample">&lt;</span><span class="f_CodeExample" > </span><span class="f_CodeExample">State.Realtime)</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >return</span><span class="f_CodeExample">;</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(Close[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">)[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">])</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">atmStrategyId</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">GetAtmStrategyUniqueId();</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">atmStrategyOrderId</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">GetAtmStrategyUniqueId();</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(Close[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" > </span><span class="f_CodeExample">SMA(</span><span class="f_CodeExample" >20</span><span class="f_CodeExample">)[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">])</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">atmStrategyId</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">GetAtmStrategyUniqueId();</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">atmStrategyOrderId</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">GetAtmStrategyUniqueId();</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">AtmStrategyCreate(OrderAction.Buy,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OrderType.Market,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">TimeInForce.Day,</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">atmStrategyOrderId,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #800000;">&quot;MyTemplate&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">atmStrategyId,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(atmCallbackErrorCode,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">atmCallbackId)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">AtmStrategyCreate(OrderAction.Buy,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">OrderType.Market,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >0</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">TimeInForce.Day,</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">atmStrategyOrderId,</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >&quot;MyTemplate&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">atmStrategyId,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(atmCallbackErrorCode,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">atmCallbackId)</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=&gt;</span><span class="f_CodeExample" > </span><span class="f_CodeExample">{</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// checks that the call back is returned for the current atmStrategyId stored</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(atmCallbackId</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">atmStrategyId)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// check the atm call back for any error codes</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(atmCallbackErrorCode</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Cbi.ErrorCode.NoError)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// if no error, set private bool to true to indicate the atm strategy is created</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">isAtmStrategyCreated</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">true</span><span class="f_CodeExample">;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">});</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >// checks that the call back is returned for the current atmStrategyId stored</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(atmCallbackId</span><span class="f_CodeExample" > </span><span class="f_CodeExample">==</span><span class="f_CodeExample" > </span><span class="f_CodeExample">atmStrategyId)</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >// check the atm call back for any error codes</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(atmCallbackErrorCode</span><span class="f_CodeExample" > </span><span class="f_CodeExample">==</span><span class="f_CodeExample" > </span><span class="f_CodeExample">Cbi.ErrorCode.NoError)</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >// if no error, set private bool to true to indicate the atm strategy is created</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">isAtmStrategyCreated</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >true</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">});</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">}</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample">(isAtmStrategyCreated)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// atm logic</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample" >if</span><span class="f_CodeExample">(isAtmStrategyCreated)</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >// atm logic</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">}</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">else</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample">(!isAtmStrategyCreated)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// custom handling for a failed atm Strategy</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br />
-<span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span></p>
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample" >else</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >if</span><span class="f_CodeExample">(!isAtmStrategyCreated)</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >// custom handling for a failed atm Strategy</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample">}</span><span class="f_CodeExample" > &nbsp; </span></p>
 </td>
 </tr>
 </tbody>
@@ -214,6 +214,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>

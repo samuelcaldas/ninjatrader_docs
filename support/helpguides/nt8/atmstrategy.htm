@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table  cellspacing="0" cellpadding="0">
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?atmstrategy.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -43,9 +43,9 @@
         
         <p >AtmStrategy contains properties and methods used to manage <a href="advanced_trade_management_atm.htm" class="topiclink">ATM Strategies</a>. When working with an <a href="atmstrategyselector.htm" class="topiclink">AtmStrategySelector</a>, selected objects can be case to AtmStrategy to obtain or change their properties.</p>
 <p >&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
+<div ><table class="Note" >
 <tr class="Note">
-<td class="Note"><p ><span style="font-weight: bold;">Notes</span>: </p>
+<td class="Note"><p ><span >Notes</span>: </p>
 <p >1. For a complete, working example of this class in use, download framework example located on our <a href="developing_add_ons.htm" class="topiclink">Developing AddOns Overview</a></p>
 <p >2. For more information on working with the ATM strategies programmatically in general, please see the <a href="using_atm_strategies.htm" class="topiclink">Using ATM Strategies</a> section.</p>
 </td>
@@ -55,29 +55,29 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Example</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<div ><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></h2>
+<th class="NSExample" ><h2 class="p_Heading2"><img alt="ns" width="20" height="20"  src="ns.png"/></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Using AtmStrategy to handle user selections in an ATM Strategy Selector</span><br />
-<span class="f_CodeExample">myAtmStrategySelector.SelectionChanged</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(o,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">args)</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=&gt;</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >// Using AtmStrategy to handle user selections in an ATM Strategy Selector</span><br />
+<span class="f_CodeExample">myAtmStrategySelector.SelectionChanged</span><span class="f_CodeExample" > </span><span class="f_CodeExample">+=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(o,</span><span class="f_CodeExample" > </span><span class="f_CodeExample">args)</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=&gt;</span><br />
 <span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(myAtmStrategySelector.SelectedItem</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">return</span><span class="f_CodeExample">;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(args.AddedItems.Count</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Change the selected TIF in a TIF selector based on what is selected in the ATM Strategy Selector </span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">NinjaTrader.NinjaScript.AtmStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">selectedAtmStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">args.AddedItems[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">as</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">NinjaTrader.NinjaScript.AtmStrategy;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(selectedAtmStrategy</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">null</span><span class="f_CodeExample">)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">myTifSelector.SelectedTif</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">selectedAtmStrategy.TimeInForce;</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(myAtmStrategySelector.SelectedItem</span><span class="f_CodeExample" > </span><span class="f_CodeExample">==</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >null</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >return</span><span class="f_CodeExample">;</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(args.AddedItems.Count</span><span class="f_CodeExample" > </span><span class="f_CodeExample">&gt;</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >0</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >// Change the selected TIF in a TIF selector based on what is selected in the ATM Strategy Selector </span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">NinjaTrader.NinjaScript.AtmStrategy</span><span class="f_CodeExample" > </span><span class="f_CodeExample">selectedAtmStrategy</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">args.AddedItems[</span><span class="f_CodeExample" >0</span><span class="f_CodeExample">]</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >as</span><span class="f_CodeExample" > </span><span class="f_CodeExample">NinjaTrader.NinjaScript.AtmStrategy;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" >if</span><span class="f_CodeExample" > </span><span class="f_CodeExample">(selectedAtmStrategy</span><span class="f_CodeExample" > </span><span class="f_CodeExample">!=</span><span class="f_CodeExample" > </span><span class="f_CodeExample" >null</span><span class="f_CodeExample">)</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">{</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">myTifSelector.SelectedTif</span><span class="f_CodeExample" > </span><span class="f_CodeExample">=</span><span class="f_CodeExample" > </span><span class="f_CodeExample">selectedAtmStrategy.TimeInForce;</span><br />
+<span class="f_CodeExample" > &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" > &nbsp;  </span><span class="f_CodeExample">}</span><br />
 <span class="f_CodeExample">};</span></p>
 </td>
 </tr>
@@ -105,6 +105,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>
