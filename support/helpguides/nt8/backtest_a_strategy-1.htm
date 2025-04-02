@@ -43,17 +43,17 @@
         
         
         
-        <p class="p_Normal">A backtest allows you to analyze the historical performance of a strategy. In order to run a backtest you will need:</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin: 0 0 0 28px;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Access to <a href="data_by_provider-1.htm" class="topiclink">historical data</a></p><p class="p_Normal" style="text-indent: 0; padding-left: -9px; margin: 0 0 0 50px;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Custom NinjaScript *<a href="strategy-1.htm" class="topiclink">strategy</a> </p><p class="p_Normal">&nbsp;</p>
+        <p >A backtest allows you to analyze the historical performance of a strategy. In order to run a backtest you will need:</p>
+<p >&nbsp;</p>
+<p  style="text-indent: 0; padding-left: 13px; margin: 0 0 0 28px;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Access to <a href="data_by_provider-1.htm" class="topiclink">historical data</a></p><p  style="text-indent: 0; padding-left: -9px; margin: 0 0 0 50px;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Custom NinjaScript *<a href="strategy-1.htm" class="topiclink">strategy</a> </p><p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
 <tr class="Tip">
-<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;There are several pre-defined sample strategies that are installed with NinjaTrader that you can explore.</p>
+<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp;There are several pre-defined sample strategies that are installed with NinjaTrader that you can explore.</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Video">
 <tr class="Video">
 <td class="Video"><h2 class="p_Heading2"><img id="playVideoImg" alt="playVideo" width="150" height="30" style="margin:0;width:150px;height:30px;border:none" src="playvideo.jpg"></h2>
@@ -65,11 +65,11 @@
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
 <tr class="Note">
-<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: </p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>By default, the <span style="font-weight: bold;">Strategy Analyzer</span> downloads data from your market data provider which can slow down backtest progress for larger tests. &nbsp;If you wish to disable this feature and operate using existing data in your database, right click on the <span style="font-weight: bold;">Strategy Analyzer</span> &gt; select <span class="f_Menu">Properties</span> &gt; enable <span class="f_Menu">Use Local Data Only</span> </p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>The <a href="includetradehistoryinbacktest-1.htm" class="topiclink">IncludeTradeHistoryInBacktest</a> property is set to <span style="font-weight: bold;">false</span> by default when a strategy is applied in the <span style="font-weight: bold;">Strategy Analyzer</span> for backtesting. This provides for leaner memory usage, but at the expense of not being able to access <span style="font-weight: bold;">Trade</span> objects for historical trades. Thus, fields such as <a href="alltrades-1.htm" class="topiclink">SystemPerformance.AllTrades.Count</a> that rely on references to <span style="font-weight: bold;">Trade</span> objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set <span style="font-weight: bold;">IncludeTradeHistoryInBacktest</span> to <span style="font-weight: bold;">true</span> in the <span style="font-weight: bold;">Configure</span> state. For more information, see the <a href="strategyanalyzer_properties_2-1.htm" class="topiclink">Working with Historical Trade Data</a> page.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>A certain level of discrepancy between realtime and backtest results would be expected, especially on more exotic barstypes like Point &amp; Figure and Renko, please also review <a href="discrepancies_real-time_vs_bac-1.htm" class="topiclink">this page</a> for more details.</p></td>
+<td class="Note"><p ><span style="font-weight: bold;">Notes</span>: </p>
+<p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>By default, the <span style="font-weight: bold;">Strategy Analyzer</span> downloads data from your market data provider which can slow down backtest progress for larger tests. &nbsp;If you wish to disable this feature and operate using existing data in your database, right click on the <span style="font-weight: bold;">Strategy Analyzer</span> &gt; select <span class="f_Menu">Properties</span> &gt; enable <span class="f_Menu">Use Local Data Only</span> </p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>The <a href="includetradehistoryinbacktest-1.htm" class="topiclink">IncludeTradeHistoryInBacktest</a> property is set to <span style="font-weight: bold;">false</span> by default when a strategy is applied in the <span style="font-weight: bold;">Strategy Analyzer</span> for backtesting. This provides for leaner memory usage, but at the expense of not being able to access <span style="font-weight: bold;">Trade</span> objects for historical trades. Thus, fields such as <a href="alltrades-1.htm" class="topiclink">SystemPerformance.AllTrades.Count</a> that rely on references to <span style="font-weight: bold;">Trade</span> objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set <span style="font-weight: bold;">IncludeTradeHistoryInBacktest</span> to <span style="font-weight: bold;">true</span> in the <span style="font-weight: bold;">Configure</span> state. For more information, see the <a href="strategyanalyzer_properties_2-1.htm" class="topiclink">Working with Historical Trade Data</a> page.</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>A certain level of discrepancy between realtime and backtest results would be expected, especially on more exotic barstypes like Point &amp; Figure and Renko, please also review <a href="discrepancies_real-time_vs_bac-1.htm" class="topiclink">this page</a> for more details.</p></td>
 </tr>
 </table>
 </div>
@@ -77,14 +77,14 @@
 <div id="HowToRunABacktest" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
 <td class="Toggle" style="vertical-align:middle; width:50%; background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Start a Backtest</span></h2>
-<p class="p_Normal">To run a <span style="font-weight: bold;">Backtest</span> of a strategy:</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal"><img alt="StrategyAnalyzer_StartBacktest" width="834" height="665" style="margin:0;width:834px;height:665px;border:none" src="strategyanalyzer_startbacktest.png"></p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Select the <span class="f_Menu">Backtest type</span> of &quot;<span class="f_Menu">Backtest</span>&quot;</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Select the strategy you would like to backtest</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Set the strategy and backtest parameters (See the &quot;<span style="font-style: italic;">Understanding backtest properties</span>&quot; section below for property definitions) </p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>Select the instrument and Data Series you would like to backtest</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>Select the &quot;<span class="f_Menu">Run</span>&quot; button to start the backtest</p><p class="p_Normal">&nbsp;</p>
+<p >To run a <span style="font-weight: bold;">Backtest</span> of a strategy:</p>
+<p >&nbsp;</p>
+<p ><img alt="StrategyAnalyzer_StartBacktest" width="834" height="665" style="margin:0;width:834px;height:665px;border:none" src="strategyanalyzer_startbacktest.png"></p>
+<p >&nbsp;</p>
+<p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>Select the <span class="f_Menu">Backtest type</span> of &quot;<span class="f_Menu">Backtest</span>&quot;</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Select the strategy you would like to backtest</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>Set the strategy and backtest parameters (See the &quot;<span style="font-style: italic;">Understanding backtest properties</span>&quot; section below for property definitions) </p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>Select the instrument and Data Series you would like to backtest</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>Select the &quot;<span class="f_Menu">Run</span>&quot; button to start the backtest</p><p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
 <tr class="Tip">
-<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;You can optionally configure a sound to be played when the Backtest completes. &nbsp;To enable this option, right click on the <span style="font-weight: bold;">Strategy Analyzer</span> &gt;  <span class="f_Menu">Properties</span> &gt;  <span class="f_Menu">Play sound on complete</span> &gt; Choose the sound file you wish to play (must be a .WAV)</p>
+<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp;You can optionally configure a sound to be played when the Backtest completes. &nbsp;To enable this option, right click on the <span style="font-weight: bold;">Strategy Analyzer</span> &gt;  <span class="f_Menu">Properties</span> &gt;  <span class="f_Menu">Play sound on complete</span> &gt; Choose the sound file you wish to play (must be a .WAV)</p>
 </td>
 </tr>
 </table>
@@ -97,196 +97,196 @@
 <div id="UnderstandingBacktestProperties" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
 <td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Backtest Properties</span></h2>
-<p class="p_Normal">The following properties are available within the Backtest window:</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal"><img alt="StrategyAnalyzer_Settings_Properties" width="359" height="874" style="margin:0;width:359px;height:874px;border:none" src="strategyanalyzer_settings_properties.png"></p>
-<p class="p_Normal">&nbsp;</p>
+<p >The following properties are available within the Backtest window:</p>
+<p >&nbsp;</p>
+<p ><img alt="StrategyAnalyzer_Settings_Properties" width="359" height="874" style="margin:0;width:359px;height:874px;border:none" src="strategyanalyzer_settings_properties.png"></p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">General</span></p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">General</span></p>
 </td>
 <td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Backtest type</p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Backtest type</p>
 </td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the backtest type.</p>
-<p class="p_Normal">1. <a href="backtest_a_strategy-1.htm" class="topiclink">Backtest</a></p>
-<p class="p_Normal">2. <a href="optimize_a_strategy-1.htm" class="topiclink">Optimization</a></p>
-<p class="p_Normal">3. <a href="walk_forward_optimize_a_strate-1.htm" class="topiclink">Walk Forward Optimization</a></p>
-<p class="p_Normal">4. <a href="multi-objective_optimization-1.htm" class="topiclink">Multi-Objective Optimization</a></p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy</p>
-</td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the strategy you would like to test. </p>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Sets the backtest type.</p>
+<p >1. <a href="backtest_a_strategy-1.htm" class="topiclink">Backtest</a></p>
+<p >2. <a href="optimize_a_strategy-1.htm" class="topiclink">Optimization</a></p>
+<p >3. <a href="walk_forward_optimize_a_strate-1.htm" class="topiclink">Walk Forward Optimization</a></p>
+<p >4. <a href="multi-objective_optimization-1.htm" class="topiclink">Multi-Objective Optimization</a></p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Strategy parameters </span></p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Strategy</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the strategy you would like to test. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Strategy parameters </span></p>
 </td>
 <td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Parameters (...)</p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Parameters (...)</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Each strategy parameter is listed dynamically depending on the strategy selection</p>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Each strategy parameter is listed dynamically depending on the strategy selection</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Data Series</span></p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Data Series</span></p>
 </td>
 <td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument</p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Instrument</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the instrument or list you wish to test on</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Price based on</p>
-</td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the type of market data used to drive the Data Series</p>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the instrument or list you wish to test on</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Type</p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Price based on</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the bar type of the Data Series.</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Value</p>
-</td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the Data Series value.</p>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Sets the type of market data used to drive the Data Series</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Time frame</span></p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Type</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the bar type of the Data Series.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Value</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Sets the Data Series value.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Time frame</span></p>
 </td>
 <td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><br>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Start date</p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Start date</p>
 </td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the start date for the test period</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">End date</p>
-</td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the end date for the test period</p>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Sets the start date for the test period</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Trading hours</p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >End date</p>
 </td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the trading hour template for the Data Series. (See the &quot;<a href="trading_hours-1.htm" class="topiclink">Trading Hours</a>&quot; section of the Help Guide for more information)</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Break at EOD</p>
-</td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables or disables the bars being reset at EOD (End Of Day). (See the <a href="break_at_eod-1.htm" class="topiclink">&quot;Break at EOD&quot;</a> section of the Help Guide for more information)</p>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the end date for the test period</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Set up</span></p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Trading hours</p>
+</td>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Sets the trading hour template for the Data Series. (See the &quot;<a href="trading_hours-1.htm" class="topiclink">Trading Hours</a>&quot; section of the Help Guide for more information)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Break at EOD</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Enables or disables the bars being reset at EOD (End Of Day). (See the <a href="break_at_eod-1.htm" class="topiclink">&quot;Break at EOD&quot;</a> section of the Help Guide for more information)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Set up</span></p>
 </td>
 <td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Include commission</p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Include commission</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables or disables commissions in the backtest performance results (See the &quot;<a href="understanding_commissions-1.htm" class="topiclink">Commission Tab</a>&quot; section of the Help Guide for more information)</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Maximum bars look back</p>
-</td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Max number of bars used for calculating an indicator's value. &nbsp;The &quot;<a href="maximumbarslookback-1.htm" class="topiclink">TwoHundredFiftySix</a>&quot; setting is the most memory friendly.</p>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Enables or disables commissions in the backtest performance results (See the &quot;<a href="understanding_commissions-1.htm" class="topiclink">Commission Tab</a>&quot; section of the Help Guide for more information)</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Bars required to trade</p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Maximum bars look back</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the minimum number of bars required before orders will be allowed to be submitted</p>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Max number of bars used for calculating an indicator's value. &nbsp;The &quot;<a href="maximumbarslookback-1.htm" class="topiclink">TwoHundredFiftySix</a>&quot; setting is the most memory friendly.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Historical fill processing</span></p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Bars required to trade</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the minimum number of bars required before orders will be allowed to be submitted</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Historical fill processing</span></p>
 </td>
 <td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order fill resolution</p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Order fill resolution</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the order fill resolution to be used for the backtest. (See the &quot;<a href="understanding_historical_fill_-1.htm" class="topiclink">Understanding Historical Fill Processing</a>&quot; section of the Help Guide for more information)</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Fill limit orders on touch</p>
-</td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enables or disables the filling of limit orders on a single touch of price action. </p>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the order fill resolution to be used for the backtest. (See the &quot;<a href="understanding_historical_fill_-1.htm" class="topiclink">Understanding Historical Fill Processing</a>&quot; section of the Help Guide for more information)</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Slippage</p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Fill limit orders on touch</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Set the amount of slippage in ticks to apply to market / stop market / Market-if-touched order executions (default is 0)</p>
-<p class="p_Normal">Note: In the <span class="f_Menu">Summary</span> the <span class="f_Menu">Slippage</span> is displayed in points.</p>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Enables or disables the filling of limit orders on a single touch of price action. </p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Order handling</span></p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Slippage</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Set the amount of slippage in ticks to apply to market / stop market / Market-if-touched order executions (default is 0)</p>
+<p >Note: In the <span class="f_Menu">Summary</span> the <span class="f_Menu">Slippage</span> is displayed in points.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Order handling</span></p>
 </td>
 <td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Entries per direction</p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Entries per direction</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the maximum number of entries allowed per direction while a position is active based on the &quot;<a href="entryhandling-1.htm" class="topiclink">Entry handling</a>&quot; property</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Entry handling</p>
-</td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the manner in how entry orders are handled. If set to &quot;AllEntries&quot;, the strategy will process all entry orders until the maximum allowable entries set by the &quot;Entries per direction&quot; property has been reached while in an open position. If set to &quot;UniqueEntries&quot;, strategy will process entry orders until the maximum allowable entries set by the &quot;Entries per direction&quot; property per each uniquely named entry.</p>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets the maximum number of entries allowed per direction while a position is active based on the &quot;<a href="entryhandling-1.htm" class="topiclink">Entry handling</a>&quot; property</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Exit on session close</p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Entry handling</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">When enabled, open positions are closed on the last bar of a session</p>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Sets the manner in how entry orders are handled. If set to &quot;AllEntries&quot;, the strategy will process all entry orders until the maximum allowable entries set by the &quot;Entries per direction&quot; property has been reached while in an open position. If set to &quot;UniqueEntries&quot;, strategy will process entry orders until the maximum allowable entries set by the &quot;Entries per direction&quot; property per each uniquely named entry.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><span style="font-weight: bold;">Order properties</span></p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Exit on session close</p>
+</td>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >When enabled, open positions are closed on the last bar of a session</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p ><span style="font-weight: bold;">Order properties</span></p>
 </td>
 <td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><br>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Set order quantity</p>
+<td style="vertical-align:top; width:185px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Set order quantity</p>
 </td>
-<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets how the order size is determined, options are:</p>
-<p class="p_Normal">&quot;by default quantity&quot; - User defined order size</p>
-<p class="p_Normal">&quot;by strategy&quot; - Takes the order size specified programmatically within the strategy </p>
+<td style="vertical-align:top; width:1060px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Sets how the order size is determined, options are:</p>
+<p >&quot;by default quantity&quot; - User defined order size</p>
+<p >&quot;by strategy&quot; - Takes the order size specified programmatically within the strategy </p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Time in force</p>
+<td style="vertical-align:top; width:185px; padding:10px; border:solid thin #dddddd;"><p >Time in force</p>
 </td>
-<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Sets the order's time in force</p>
+<td style="vertical-align:top; width:1060px; padding:10px; border:solid thin #dddddd;"><p >Sets the order's time in force</p>
 </td>
 </tr>
 </table>

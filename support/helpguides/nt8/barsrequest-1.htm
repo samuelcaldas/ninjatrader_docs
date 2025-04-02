@@ -43,16 +43,16 @@
         
         <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
 <p class="p_Definition">BarsRequest can be used to request <a href="bars-1.htm" class="topiclink">Bars</a> data and subscribe to real-time Bars data events.</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
 <tr class="Note">
-<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: </p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>When using the DateTime fromLocal and toLocal parameters, the dates are converted to local daily timestamps (12:00 AM) and return a BarsRequest representing full trading days. If you need to request less than one full trading day, please use the barsBack parameter</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>A BarsRequest should be called only once and subscribe to the .Update event. Remember to unsubscribe from the .Update Event handler if you are no longer using the subscription.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>A BarsRequest provides underlying market data for an instrument, but is not synchronized with an indicator or strategies primary data series. &nbsp;You will need to implement your own BarsUpdateEvent logic. &nbsp;</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>BarsRequest data <span style="font-weight: bold;">CANNOT</span> be used as input for a NinjaTrader indicator</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>Performing a BarsRequest in Playback will always yield bars up to the current playback time / slider position.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">6.</span>The documented BarsRequest behavior would be the same for all NinjaScript types.</p></td>
+<td class="Note"><p ><span style="font-weight: bold;">Notes</span>: </p>
+<p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>When using the DateTime fromLocal and toLocal parameters, the dates are converted to local daily timestamps (12:00 AM) and return a BarsRequest representing full trading days. If you need to request less than one full trading day, please use the barsBack parameter</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>A BarsRequest should be called only once and subscribe to the .Update event. Remember to unsubscribe from the .Update Event handler if you are no longer using the subscription.</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>A BarsRequest provides underlying market data for an instrument, but is not synchronized with an indicator or strategies primary data series. &nbsp;You will need to implement your own BarsUpdateEvent logic. &nbsp;</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>BarsRequest data <span style="font-weight: bold;">CANNOT</span> be used as input for a NinjaTrader indicator</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>Performing a BarsRequest in Playback will always yield bars up to the current playback time / slider position.</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">6.</span>The documented BarsRequest behavior would be the same for all NinjaScript types.</p></td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
 <p class="p_CodeExample"><span class="f_CodeExample">BarsRequest(Cbi.Instrument</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">instrument,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">barsBack)</span><br>
 <span class="f_CodeExample">BarsRequest(Cbi.Instrument</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">instrument,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">fromLocal,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DateTime</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">toLocal)</span></p>
@@ -60,123 +60,123 @@
 <h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument</p>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Instrument</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The <a href="instrument-1.htm" class="topiclink">Instrument</a> to request</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">barsBack</p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An <span class="f_CodeExampleTypes">int</span> value determining the number of bars to request from the current time</p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The <a href="instrument-1.htm" class="topiclink">Instrument</a> to request</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">fromLocal</p>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p >barsBack</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A DateTime value determining the starting date to request</p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >An <span class="f_CodeExampleTypes">int</span> value determining the number of bars to request from the current time</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">toLocal</p>
+<td style="vertical-align:top; width:11%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >fromLocal</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A DateTime value determining the ending date to request</p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A DateTime value determining the starting date to request</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:11%; padding:10px; border:solid thin #dddddd;"><p >toLocal</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >A DateTime value determining the ending date to request</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Methods and Properties</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Bars</p>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Bars</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The <a href="bars-1.htm" class="topiclink">Bars</a> object returned from the request</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">BarsBack</p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An <span class="f_CodeExampleTypes">int</span> representing the number of bars back used in the request</p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The <a href="bars-1.htm" class="topiclink">Bars</a> object returned from the request</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">BarsPeriod</p>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >BarsBack</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The <a href="barsperiod-1.htm" class="topiclink">BarsPeriod</a> for the bars request</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">FromLocal</p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A DateTime representing the starting date used in the request</p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >An <span class="f_CodeExampleTypes">int</span> representing the number of bars back used in the request</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">IsDividendAdjusted</p>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >BarsPeriod</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">bool</span> representing if the bars request will be <a href="splits_and_dividends-1.htm" class="topiclink">dividend adjusted</a></p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">IsResetOnNewTradingDay</p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">bool</span> representing if the bars request will <a href="break_at_eod-1.htm" class="topiclink">Break at EOD</a></p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The <a href="barsperiod-1.htm" class="topiclink">BarsPeriod</a> for the bars request</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">IsSplitAdjusted</p>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >FromLocal</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">bool</span> representing if the bars request will be <a href="splits_and_dividends-1.htm" class="topiclink">split adjusted</a></p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument</p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The <a href="instrument-1.htm" class="topiclink">Instrument</a> of the bars request</p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >A DateTime representing the starting date used in the request</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">LookupPolicy</p>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >IsDividendAdjusted</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The lookup policies for the bars request. &nbsp;Possible Values are:<br>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A <span class="f_CodeExampleTypes">bool</span> representing if the bars request will be <a href="splits_and_dividends-1.htm" class="topiclink">dividend adjusted</a></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >IsResetOnNewTradingDay</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >A <span class="f_CodeExampleTypes">bool</span> representing if the bars request will <a href="break_at_eod-1.htm" class="topiclink">Break at EOD</a></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >IsSplitAdjusted</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A <span class="f_CodeExampleTypes">bool</span> representing if the bars request will be <a href="splits_and_dividends-1.htm" class="topiclink">split adjusted</a></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >Instrument</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >The <a href="instrument-1.htm" class="topiclink">Instrument</a> of the bars request</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >LookupPolicy</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The lookup policies for the bars request. &nbsp;Possible Values are:<br>
 &nbsp;</p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Provider - Queries the provider. The repository is updated on provider's reply</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Repository - Looks up the local repository only</p></td>
+<p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Provider - Queries the provider. The repository is updated on provider's reply</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Repository - Looks up the local repository only</p></td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="barsrequest_mergepolicy-1.htm" class="topiclink">MergePolicy</a></p>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p ><a href="barsrequest_mergepolicy-1.htm" class="topiclink">MergePolicy</a></p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The <a href="mergepolicy-1.htm" class="topiclink">merge policy</a> for the bars request. </p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="request-1.htm" class="topiclink">Request()</a></p>
-</td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Requests the bars as parametrized</p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >The <a href="mergepolicy-1.htm" class="topiclink">merge policy</a> for the bars request. </p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">TradingHours</p>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><a href="request-1.htm" class="topiclink">Request()</a></p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The <a href="tradinghours-1.htm" class="topiclink">trading hours</a> for the bars request</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">ToLocal</p>
-</td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A DateTime representing the end date used in the request</p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Requests the bars as parametrized</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Update</p>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >TradingHours</p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A BarsUpdateEvent handler for subscribing/unsubscribing to bar update events</p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >The <a href="tradinghours-1.htm" class="topiclink">trading hours</a> for the bars request</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >ToLocal</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >A DateTime representing the end date used in the request</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >Update</p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >A BarsUpdateEvent handler for subscribing/unsubscribing to bar update events</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">

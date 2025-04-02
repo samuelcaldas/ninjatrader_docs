@@ -43,12 +43,12 @@
         
         
         
-        <p class="p_Normal">Advanced order handling is reserved for <span style="font-weight: bold; color: #008000;">EXPERIENCED</span> programmers. Through advanced order handling you can submit, change and cancel orders at your discretion through any event-driven method within a strategy. Each order method within the &quot;Managed Approach&quot; section has a method overload designed for advanced handling.</p>
-<p class="p_Normal">&nbsp;</p>
+        <p >Advanced order handling is reserved for <span style="font-weight: bold; color: #008000;">EXPERIENCED</span> programmers. Through advanced order handling you can submit, change and cancel orders at your discretion through any event-driven method within a strategy. Each order method within the &quot;Managed Approach&quot; section has a method overload designed for advanced handling.</p>
+<p >&nbsp;</p>
 <p class="p_ToggleHeading"><img id="LiveUntilCancelledOrders_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','LiveUntilCancelledOrders','LiveUntilCancelledOrders_ICON')">Live&nbsp;Until&nbsp;Cancelled&nbsp;Orders</a></span></p>
 <div id="LiveUntilCancelledOrders" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
-<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">Orders can remain live until you call the <a href="managed_cancelorder-1.htm" class="topiclink">CancelOrder()</a> method, or until the order's time in force has expired, whichever comes first. This flexibility allows you to control exactly when an order should be cancelled instead of relying on the close of a bar. Each order method, such as <a href="enterlonglimit-1.htm" class="topiclink">EnterLongLimit()</a>, has a method overload designed to submit a &quot;live until canceled&quot; order. When using this overload, it is important to retain a reference to the Order object, so that it can be canceled via CancelOrder() at a later time.</p>
+<td class="Toggle" style="background-color:#FFFFFF;"><p >Orders can remain live until you call the <a href="managed_cancelorder-1.htm" class="topiclink">CancelOrder()</a> method, or until the order's time in force has expired, whichever comes first. This flexibility allows you to control exactly when an order should be cancelled instead of relying on the close of a bar. Each order method, such as <a href="enterlonglimit-1.htm" class="topiclink">EnterLongLimit()</a>, has a method overload designed to submit a &quot;live until canceled&quot; order. When using this overload, it is important to retain a reference to the Order object, so that it can be canceled via CancelOrder() at a later time.</p>
 </td>
 </tr>
 </table>
@@ -56,11 +56,11 @@
 <p class="p_ToggleHeading"><img id="TheOrderClass_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','TheOrderClass','TheOrderClass_ICON')">The&nbsp;Order&nbsp;Class</a></span></p>
 <div id="TheOrderClass" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
-<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">All order methods return an <a href="order-1.htm" class="topiclink">Order</a> object. There are several important items to note:</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>An Order object returned from calling an order method contains dynamic properties which will always reflect the current state of the associated order </p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The property &lt;Order&gt;.OrderId is <span style="font-weight: bold; color: #ff0000;">NOT</span> a unique value, since it can change throughout an order's lifetime. &nbsp;Please see the section below on &quot;<span style="font-style: italic;">Transitioning order references from historical to live&quot;</span> for details on how to handle.</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>To check for equality, you can compare Order objects directly</p><p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">The following example code demonstrates the submission of an order and the assignment of the Order return object to the variable &quot;entryOrder.&quot; After this, the object is checked in the OnOrderUpdate() method for equality, and then checked for the <span class="f_CodeExample">Filled</span> state.</p>
-<p class="p_Normal">&nbsp;</p>
+<td class="Toggle" style="background-color:#FFFFFF;"><p >All order methods return an <a href="order-1.htm" class="topiclink">Order</a> object. There are several important items to note:</p>
+<p >&nbsp;</p>
+<p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>An Order object returned from calling an order method contains dynamic properties which will always reflect the current state of the associated order </p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>The property &lt;Order&gt;.OrderId is <span style="font-weight: bold; color: #ff0000;">NOT</span> a unique value, since it can change throughout an order's lifetime. &nbsp;Please see the section below on &quot;<span style="font-style: italic;">Transitioning order references from historical to live&quot;</span> for details on how to handle.</p><p  style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>To check for equality, you can compare Order objects directly</p><p >&nbsp;</p>
+<p >The following example code demonstrates the submission of an order and the assignment of the Order return object to the variable &quot;entryOrder.&quot; After this, the object is checked in the OnOrderUpdate() method for equality, and then checked for the <span class="f_CodeExample">Filled</span> state.</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
 <thead>
@@ -106,28 +106,28 @@
 <p class="p_ToggleHeading"><img id="Transitioningorderreferencesfromhistoricaltolive_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','Transitioningorderreferencesfromhistoricaltolive','Transitioningorderreferencesfromhistoricaltolive_ICON')">Transitioning&nbsp;order&nbsp;references&nbsp;from&nbsp;historical&nbsp;to&nbsp;live</a></span></p>
 <div id="Transitioningorderreferencesfromhistoricaltolive" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
-<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">When starting a strategy on real-time data, the <a href="syncing_account_positions-1.htm" class="topiclink">starting behavior</a> will renew any active historical orders and resubmit these orders to your live or simulation account. &nbsp;This process includes updating the historical/backtest generated order ID to the account generated order ID, and any associated OCO IDs. &nbsp;If you are tracking order objects, is critical that you update the order reference to ensure that it is now using the correct order details.</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">This should be done in <a href="onorderupdate-1.htm" class="topiclink">OnOrderUpdate()</a> to ensure all cases of order transitions are handled.</p>
-<p class="p_Normal">&nbsp;</p>
+<td class="Toggle" style="background-color:#FFFFFF;"><p >When starting a strategy on real-time data, the <a href="syncing_account_positions-1.htm" class="topiclink">starting behavior</a> will renew any active historical orders and resubmit these orders to your live or simulation account. &nbsp;This process includes updating the historical/backtest generated order ID to the account generated order ID, and any associated OCO IDs. &nbsp;If you are tracking order objects, is critical that you update the order reference to ensure that it is now using the correct order details.</p>
+<p >&nbsp;</p>
+<p >This should be done in <a href="onorderupdate-1.htm" class="topiclink">OnOrderUpdate()</a> to ensure all cases of order transitions are handled.</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Critical">
 <tr class="Critical">
-<td class="Critical"><p class="p_Normal"><span style="font-weight: bold;">Critical</span>: &nbsp;If you <span style="font-weight: bold;">DO NOT</span> update a historical order reference, and then attempt to cancel/change that order <span style="font-style: italic;">after</span> it has been submitted in real-time, your strategy will be disabled with a message similar to:  <span style="font-style: italic;">&quot;Strategy has been disabled because it attempted to modify a historical order that has transitioned to a live order.&quot;</span></p>
+<td class="Critical"><p ><span style="font-weight: bold;">Critical</span>: &nbsp;If you <span style="font-weight: bold;">DO NOT</span> update a historical order reference, and then attempt to cancel/change that order <span style="font-style: italic;">after</span> it has been submitted in real-time, your strategy will be disabled with a message similar to:  <span style="font-style: italic;">&quot;Strategy has been disabled because it attempted to modify a historical order that has transitioned to a live order.&quot;</span></p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
 <tr class="Tip">
-<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;When the real-time order is submitted, there is a generic Order object passed into the <a href="onorderupdate-1.htm" class="topiclink">OnOrderUpdate()</a> method containing the live order details which can be used for debugging. &nbsp;It is recommended you use the helper <a href="getrealtimeorder-1.htm" class="topiclink">GetRealtimeOrder()</a> when your strategy transitions to real-time to update your order references &nbsp;</p>
+<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp;When the real-time order is submitted, there is a generic Order object passed into the <a href="onorderupdate-1.htm" class="topiclink">OnOrderUpdate()</a> method containing the live order details which can be used for debugging. &nbsp;It is recommended you use the helper <a href="getrealtimeorder-1.htm" class="topiclink">GetRealtimeOrder()</a> when your strategy transitions to real-time to update your order references &nbsp;</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Example</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
 <thead>
@@ -174,16 +174,16 @@
 <p class="p_ToggleHeading"><img id="WorkingWithAMultiinstrumentStrategy_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','WorkingWithAMultiinstrumentStrategy','WorkingWithAMultiinstrumentStrategy_ICON')">Working&nbsp;with&nbsp;a&nbsp;Multi-Instrument&nbsp;Strategy</a></span></p>
 <div id="WorkingWithAMultiinstrumentStrategy" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
-<td class="Toggle" style="background-color:#FFFFFF;"><p class="p_Normal">With advanced order handling, you can submit an order in the context of any <a href="bars-1.htm" class="topiclink">Bars</a> object by designating the &quot;BarsInProgress&quot; index. For example, if your primary bar series is &quot;MSFT&quot; and your secondary series added to the strategy through the AddDataSeries() method is &quot;AAPL&quot;, you can submit an order for either &quot;MSFT&quot; or &quot;AAPL&quot; from anywhere within the strategy. In addition to the information found in the <a href="multi-time_frame__instruments-1.htm" class="topiclink">multi-time frame and instrument strategies</a> page, this section specifically covers order submission.</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">As an example, consider the EnterLongLimit() method and one of its method overloads designed for advanced order handling: &nbsp; &nbsp; &nbsp; &nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<td class="Toggle" style="background-color:#FFFFFF;"><p >With advanced order handling, you can submit an order in the context of any <a href="bars-1.htm" class="topiclink">Bars</a> object by designating the &quot;BarsInProgress&quot; index. For example, if your primary bar series is &quot;MSFT&quot; and your secondary series added to the strategy through the AddDataSeries() method is &quot;AAPL&quot;, you can submit an order for either &quot;MSFT&quot; or &quot;AAPL&quot; from anywhere within the strategy. In addition to the information found in the <a href="multi-time_frame__instruments-1.htm" class="topiclink">multi-time frame and instrument strategies</a> page, this section specifically covers order submission.</p>
+<p >&nbsp;</p>
+<p >As an example, consider the EnterLongLimit() method and one of its method overloads designed for advanced order handling: &nbsp; &nbsp; &nbsp; &nbsp;</p>
+<p >&nbsp;</p>
 <p class="p_CodeExample"><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; </span><span class="f_CodeExample">EnterLongLimit(</span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">barsInProgressIndex,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">isLiveUntilCancelled,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">quantity,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">double</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">limitPrice,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">signalName)</span></p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">In this example, an &quot;MSFT 1 minute&quot; chart is the primary bar series on which the strategy is running. A secondary bar series is added for &quot;AAPL 1 minute&quot; via the AddDataSeries() method in the <a href="onstatechange-1.htm" class="topiclink">OnStateChange()</a> event handler. After adding the secondary <span class="f_CodeExample">Bars</span> object, MSFT has a <a href="barsinprogress-1.htm" class="topiclink">BarsInProgress</a> index of 0 and AAPL has an index value of 1.</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">The following example code demonstrates how to monitor for bar update events on the first instrument, while submitting orders to the second instrument. </p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >In this example, an &quot;MSFT 1 minute&quot; chart is the primary bar series on which the strategy is running. A secondary bar series is added for &quot;AAPL 1 minute&quot; via the AddDataSeries() method in the <a href="onstatechange-1.htm" class="topiclink">OnStateChange()</a> event handler. After adding the secondary <span class="f_CodeExample">Bars</span> object, MSFT has a <a href="barsinprogress-1.htm" class="topiclink">BarsInProgress</a> index of 0 and AAPL has an index value of 1.</p>
+<p >&nbsp;</p>
+<p >The following example code demonstrates how to monitor for bar update events on the first instrument, while submitting orders to the second instrument. </p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Example</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
 <thead>

@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table >
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT%20HelpGuide%20English.html?addrenko.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -43,108 +43,108 @@
         
         <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
 <p class="p_Definition">Similar to the <a href="adddataseries-1.htm" class="topiclink">AddDataSeries()</a> method for adding Bars objects, this method adds a Renko Bars object for multi-series NinjaScript. </p>
-<p class="p_Normal">&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
+<p >&nbsp;</p>
+<div >
 <tr class="Note">
-<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: &nbsp;</p>
-<p class="p_Definition" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>When running NinjaScript, you will be able to choose the first instrument and bar interval to run on. This first Bars object will carry a <a href="barsinprogress-1.htm" class="topiclink">BarsInProgress</a> index of 0.</p><p class="p_Definition" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span> In a multi-time frame and multi-instrument NinjaScript, supplementary Bars objects are added via this method in State.Configure state of the <a href="onstatechange-1.htm" class="topiclink">OnStateChange()</a> method and given an incremented BarsInProgress index value. See additional information on running <a href="multi-time_frame__instruments-1.htm" class="topiclink">multi-bars scripts</a>.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">3.</span>The <a href="barsinprogress-1.htm" class="topiclink">BarsInProgress</a> property can be used to filter updates between different bars series</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">4.</span>If using <a href="onmarketdata-1.htm" class="topiclink">OnMarketData()</a>, a subscription will be created on all bars series added in your indicator or strategy strategy (even if the instrument is the same). &nbsp;The market data subscription behavior occurs both in real-time and during <a href="developing_for__tick_replay-1.htm" class="topiclink">TickReplay</a> historical</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">5.</span>For adding regular Bars types please use <a href="adddataseries-1.htm" class="topiclink">AddDataSeries()</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">6.</span>A<span style="font-weight: bold;"> Tick Replay</span> indicator or strategy <span style="font-weight: bold;">CANNOT </span>use a <span style="font-weight: bold;">MarketDataType.Ask</span> or <span style="font-weight: bold;">MarketDataType.Bid </span>series. &nbsp;Please see <a href="developing_for__tick_replay-1.htm" class="topiclink">Developing for Tick Replay</a> for more information.</p></td>
+<td class="Note"><p ><span >Notes</span>: &nbsp;</p>
+<p class="p_Definition" >Developing for Tick Replay</a> for more information.</p></td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
-<p class="p_CodeExample"><span class="f_CodeExample">AddRenko(</span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">instrumentName,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">brickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Data.MarketDataType</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">marketDataType)</span><br>
-<span class="f_CodeExample">AddRenko(</span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">instrumentName,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">brickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Data.MarketDataType</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">marketDataType,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">tradingHoursName)</span><br>
-<span class="f_CodeExample">AddRenko(</span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">instrumentName,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">int</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">brickSize,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Data.MarketDataType</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">marketDataType,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">string</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">tradingHoursName,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">bool</span><span class="f_CodeExample">?isResetOnNewTradingDay)</span></p>
-<p class="p_Normal">&nbsp;</p>
-<div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning">
+<p class="p_CodeExample"><span class="f_CodeExample">AddRenko(</span><span class="f_CodeExample" >marketDataType)</span><br>
+<span class="f_CodeExample">AddRenko(</span><span class="f_CodeExample" >tradingHoursName)</span><br>
+<span class="f_CodeExample">AddRenko(</span><span class="f_CodeExample" >?isResetOnNewTradingDay)</span></p>
+<p >&nbsp;</p>
+<div >
 <tr class="Warning">
-<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warnings: &nbsp;</span></p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>This method should <span style="font-weight: bold;">ONLY</span> be called from the <a href="onstatechange-1.htm" class="topiclink">OnStateChange() </a>method during <span style="font-weight: bold;">State.Configure</span></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Should your script be the host for other scripts that are creating indicators and series dependent resources in <span style="font-weight: bold;">State.DataLoaded</span>, please make sure that the host is doing the same <span style="font-weight: bold;">AddRenko()</span> calls as those hosted scripts would. For further reference, please also review the 'Adding additional Bars Objects to NinjaScript' section in  <a href="multi-time_frame__instruments-1.htm" class="topiclink">Multi-Time Frame &amp; Instruments</a></p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_ExampleText" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>Arguments supplied to <span style="font-weight: bold;">AddRenko()</span> should be hardcoded and <span style="font-weight: bold;">NOT</span> dependent on run-time variables which cannot be reliably obtained during <a href="state-1.htm" class="topiclink">State.Configure</a> (e.g., <a href="instrument-1.htm" class="topiclink">Instrument</a>, <a href="bars-1.htm" class="topiclink">Bars</a>, or user input). &nbsp;Attempting to add a data series dynamically is <span style="font-weight: bold;">NOT</span> guaranteed and therefore should be avoided. &nbsp;Trying to load bars dynamically may result in an error similar to: <span class="f_ExampleText">Unable to load bars series. Your NinjaScript may be trying to use an additional data series dynamically in an unsupported manner.</span></p></td>
+<td class="Warning"><p ><span >Warnings: &nbsp;</span></p>
+<p  >Unable to load bars series. Your NinjaScript may be trying to use an additional data series dynamically in an unsupported manner.</span></p></td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
+<div >
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">instrumentName</span></p>
+<td >instrumentName</span></p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">string</span> determining instrument name such as &quot;MSFT&quot;</p>
+<td >string</span> determining instrument name such as &quot;MSFT&quot;</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">brickSize</span></p>
+<td >brickSize</span></p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An <span class="f_CodeExampleTypes">int</span> determining the size (in ticks) of each bar</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">marketDataType</span></p>
-</td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The MarketDataType used for the bars object (last, bid, ask)</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">Possible values are:</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>MarketDataType.Ask</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>MarketDataType.Bid</p><p class="p_Normal" style="text-indent: 0; padding-left: 13px; margin-left: 0;"><span class="f_Normal" style="font-family: Arial,'Lucida Sans Unicode','Lucida Grande','Lucida Sans';display:inline-block;width:13px;margin-left:-13px">&#8226;</span>MarketDataType.Last</p><p class="p_Normal">&nbsp;</p>
-<p class="p_Normal"><span style="font-weight: bold;">Note</span>: Please see the article <a href="using_historical_bid_ask_serie-1.htm" class="topiclink">here</a> on using Bid/Ask series.</p>
+<td >int</span> determining the size (in ticks) of each bar</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">tradingHoursName</span></p>
+<td >marketDataType</span></p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A <span class="f_CodeExampleTypes">string</span> determining the trading hours template for the instrument</p>
+<td >The MarketDataType used for the bars object (last, bid, ask)</p>
+<p >&nbsp;</p>
+<p >Possible values are:</p>
+<p >&nbsp;</p>
+<p  >&nbsp;</p>
+<p ><span >here</a> on using Bid/Ask series.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_CodeExample"><span class="f_CodeExample">isResetOnNewTradingDay</span></p>
+<td >tradingHoursName</span></p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A nullable <span class="f_CodeExampleTypes">bool</span>* determining if the Bars object should <a href="break_at_eod-1.htm" class="topiclink">Break at EOD</a></p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">*Will accept <span class="f_CodeExampleTypes">true</span>, <span class="f_CodeExampleTypes">false</span> or <span class="f_CodeExampleTypes">null</span> as the input. &nbsp;If null is used, the data series will use the settings of the primary data series.</p>
+<td >string</span> determining the trading hours template for the instrument</p>
+</td>
+</tr>
+<tr>
+<td >isResetOnNewTradingDay</span></p>
+</td>
+<td >Break at EOD</a></p>
+<p >&nbsp;</p>
+<p >*Will accept <span class="f_CodeExampleTypes">true</span>, <span class="f_CodeExampleTypes">false</span> or <span class="f_CodeExampleTypes">null</span> as the input. &nbsp;If null is used, the data series will use the settings of the primary data series.</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
+<p >&nbsp;</p>
+<p >&nbsp;</p>
+<div >
 <tr class="Tip">
-<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: You can optionally add the exchange name as a suffix to the symbol name. This is only advised if the instrument has multiple possible exchanges that it can trade on and it is configured within the Instruments window. For example: <span class="f_CodeExample">AddRenko(</span><span class="f_CodeExample" style="color: #800000;">&quot;MSFT Arca&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MarketDataType.Last)</span></p>
+<td class="Tip"><p ><span >MarketDataType.Last)</span></p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
+<div >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><h2 class="p_Heading2"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"></h2>
+<th class="NSExample" ></h2>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >OnStateChange()</span><br>
 <span class="f_CodeExample">{</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.Configure)</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Add a 1 minute Renko Bars object for the ES 03-18 contract - BarsInProgress index = 1 </span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample">AddRenko(</span><span class="f_CodeExample" style="color: #800000;">&quot;ES 03-18&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">MarketDataType.Last);</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">}</span><br>
-<span class="f_CodeExample">}</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br>
-<span class="f_CodeExample" style="color: #ffffff;">&nbsp;</span><br>
-<span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnBarUpdate()</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br>
-<span class="f_CodeExample">{</span><span class="f_CodeExample" style="color: #ffffff;"> </span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #008000;">// Ignore the primary Bars object and only process the Renko Bars object </span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(BarsInProgress</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">1</span><span class="f_CodeExample">)</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp;  </span><span class="f_CodeExample" style="color: #008000;">// Do something;</span><br>
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">}</span><br>
+<span class="f_CodeExample" >State.Configure)</span><br>
+<span class="f_CodeExample" >{</span><br>
+<span class="f_CodeExample" >// Add a 1 minute Renko Bars object for the ES 03-18 contract - BarsInProgress index = 1 </span><br>
+<span class="f_CodeExample" > </span><br>
+<span class="f_CodeExample" >}</span><br>
+<span class="f_CodeExample">}</span><span class="f_CodeExample" > </span><br>
+<span class="f_CodeExample" >&nbsp;</span><br>
+<span class="f_CodeExample" > </span><br>
+<span class="f_CodeExample">{</span><span class="f_CodeExample" > </span><br>
+<span class="f_CodeExample" >// Ignore the primary Bars object and only process the Renko Bars object </span><br>
+<span class="f_CodeExample" >)</span><br>
+<span class="f_CodeExample" >{</span><br>
+<span class="f_CodeExample" >// Do something;</span><br>
+<span class="f_CodeExample" >}</span><br>
 <span class="f_CodeExample">}</span></p>
 </td>
 </tr>
@@ -172,6 +172,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </div></body>
   </html>

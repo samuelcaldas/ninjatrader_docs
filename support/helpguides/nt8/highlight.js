@@ -30,7 +30,7 @@
 // If for some reason you can not modify the body tag of your page, an alternative
 // would be to put the following line after the </body> tag of your page:
 //
-//   <script type="text/javascript">highlight();</script>
+//   
 //
 // For more information, consult the Users Guide and our support website at:
 // http://www.wrensoft.com/zoom/support

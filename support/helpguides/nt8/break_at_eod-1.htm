@@ -42,20 +42,20 @@
         
         
         <h2 class="p_Heading2"><span class="f_Heading2">Break at EOD (End Of Day)</span></h2>
-<p class="p_Normal">You can optionally set NinjaTrader to break its bars on each new end of day session, or continue building until completed. &nbsp;This property can impact the way price is analyzed during the end of a trading session, and can therefore affect the way an indicator or strategy is calculated.</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">With <span style="font-weight: bold;">Break at EOD</span> enabled, your bars are ensured to have a known starting point of which to give you a consistent, repeatable chart. &nbsp;This is especially important for bar types that are not based on time such as Volume and Tick based charts. &nbsp;However, for other bar types such as Range, Point and Figure, or others which are built around price action, enabling this property may cause bars to complete before their criteria has been satisfied. &nbsp;If you prefer the bar to satisfy to completion before creating a new bar, regardless of the time of day, you will want to ensure you have <span style="font-style: italic;">disabled</span> the <span style="font-weight: bold;">Break EOD</span> property.</p>
-<p class="p_Normal">&nbsp;</p>
+<p >You can optionally set NinjaTrader to break its bars on each new end of day session, or continue building until completed. &nbsp;This property can impact the way price is analyzed during the end of a trading session, and can therefore affect the way an indicator or strategy is calculated.</p>
+<p >&nbsp;</p>
+<p >With <span style="font-weight: bold;">Break at EOD</span> enabled, your bars are ensured to have a known starting point of which to give you a consistent, repeatable chart. &nbsp;This is especially important for bar types that are not based on time such as Volume and Tick based charts. &nbsp;However, for other bar types such as Range, Point and Figure, or others which are built around price action, enabling this property may cause bars to complete before their criteria has been satisfied. &nbsp;If you prefer the bar to satisfy to completion before creating a new bar, regardless of the time of day, you will want to ensure you have <span style="font-style: italic;">disabled</span> the <span style="font-weight: bold;">Break EOD</span> property.</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Break EOD vs Non-Break EOD</span></h2>
-<p class="p_Normal">Below you will find a two examples which will compare how Range type bars will be handled at the end of a trading session depending on the Chart's <span style="font-weight: bold;">Break EOD</span> property.</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal"><img alt="Break_EOD" width="480" height="540" style="margin:0;width:480px;height:540px;border:none" src="break_eod.png"></p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">1. <span style="font-weight: bold;">Break EOD</span> <span style="font-style: italic;">enabled</span> - a new bar was formed during the new trading session before the 6 range bar had completed</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal"><img alt="Break_EOD_Off" width="480" height="540" style="margin:0;width:480px;height:540px;border:none" src="break_eod_off.png"></p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">2. <span style="font-weight: bold;">Break EOD</span> <span style="font-style: italic;">disabled -</span> a new bar was not formed until the criteria for the 6 point range was satisfied</p>
+<p >Below you will find a two examples which will compare how Range type bars will be handled at the end of a trading session depending on the Chart's <span style="font-weight: bold;">Break EOD</span> property.</p>
+<p >&nbsp;</p>
+<p ><img alt="Break_EOD" width="480" height="540" style="margin:0;width:480px;height:540px;border:none" src="break_eod.png"></p>
+<p >&nbsp;</p>
+<p >1. <span style="font-weight: bold;">Break EOD</span> <span style="font-style: italic;">enabled</span> - a new bar was formed during the new trading session before the 6 range bar had completed</p>
+<p >&nbsp;</p>
+<p ><img alt="Break_EOD_Off" width="480" height="540" style="margin:0;width:480px;height:540px;border:none" src="break_eod_off.png"></p>
+<p >&nbsp;</p>
+<p >2. <span style="font-weight: bold;">Break EOD</span> <span style="font-style: italic;">disabled -</span> a new bar was not formed until the criteria for the 6 point range was satisfied</p>
 
         
       </div>

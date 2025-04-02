@@ -41,62 +41,62 @@
         
         
         
-        <p class="p_Normal">The following section documents both .NET native and NinjaScript custom <a href="https://msdn.microsoft.com/en-us/library/5x6cd29c(v=vs.110).aspx" target="_blank" class="weblink">attributes</a> which are commonly used to define the behavior of a NinjaScript property or object. &nbsp;The <span style="font-weight: bold;">attributes</span> outlined in the section are primarily used to customize how properties display on the UI, but may also control or how the object is compiled and executed at run time. &nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+        <p >The following section documents both .NET native and NinjaScript custom <a href="https://msdn.microsoft.com/en-us/library/5x6cd29c(v=vs.110).aspx" target="_blank" class="weblink">attributes</a> which are commonly used to define the behavior of a NinjaScript property or object. &nbsp;The <span style="font-weight: bold;">attributes</span> outlined in the section are primarily used to customize how properties display on the UI, but may also control or how the object is compiled and executed at run time. &nbsp;</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
 <tr class="Note">
-<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Notes</span>: &nbsp;</p>
-<p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>The .NET Framework supplies many other pre-defined <a href="https://msdn.microsoft.com/en-us/library/2e39z096.aspx" target="_blank" class="weblink">system attributes</a> which can technically be used for custom NinjaScript programming, but are <span style="font-weight: bold;">NOT</span> covered in this section and therefore are considered <span style="font-weight: bold;">unsupported</span>. &nbsp;3rd party developers are encourage to explore additional usage, but the resulting behavior <span style="font-weight: bold;">CANNOT</span> be guaranteed.</p><p class="p_Normal" style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Not all <span style="font-weight: bold;">attributes</span> can be applied to all object types. &nbsp;For example, applying an <span style="font-weight: bold;">attribute</span> that is defined to target an class will <span style="font-weight: bold;">NOT</span> compile should you attempt to apply this <span style="font-weight: bold;">attribute</span> to a type of property.</p></td>
+<td class="Note"><p ><span style="font-weight: bold;">Notes</span>: &nbsp;</p>
+<p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">1.</span>The .NET Framework supplies many other pre-defined <a href="https://msdn.microsoft.com/en-us/library/2e39z096.aspx" target="_blank" class="weblink">system attributes</a> which can technically be used for custom NinjaScript programming, but are <span style="font-weight: bold;">NOT</span> covered in this section and therefore are considered <span style="font-weight: bold;">unsupported</span>. &nbsp;3rd party developers are encourage to explore additional usage, but the resulting behavior <span style="font-weight: bold;">CANNOT</span> be guaranteed.</p><p  style="text-indent: 0; padding-left: 20px; margin-left: 0;"><span class="f_Normal" style="display:inline-block;width:20px;margin-left:-20px">2.</span>Not all <span style="font-weight: bold;">attributes</span> can be applied to all object types. &nbsp;For example, applying an <span style="font-weight: bold;">attribute</span> that is defined to target an class will <span style="font-weight: bold;">NOT</span> compile should you attempt to apply this <span style="font-weight: bold;">attribute</span> to a type of property.</p></td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Common Attributes</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="browsableattribute.htm" class="topiclink">BrowsableAttribute</a></p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><a href="browsableattribute.htm" class="topiclink">BrowsableAttribute</a></p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines if a property should be displays in the NinjaTrader UI's property grid</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="categoryorderattribute.htm" class="topiclink">CategoryOrderAttribute</a></p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines the sequence in which a NinjaScript object's <a href="displayattribute.htm" class="topiclink">Display.GroupName</a> categories are arranged in relation to other categories in the UI.</p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Determines if a property should be displays in the NinjaTrader UI's property grid</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="displayattribute.htm" class="topiclink">DisplayAttribute</a></p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p ><a href="categoryorderattribute.htm" class="topiclink">CategoryOrderAttribute</a></p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines how a property is displays on the NinjaTrader UI's property grid. &nbsp;</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="ninjascriptpropertyattribute.htm" class="topiclink">NinjaScriptPropertyAttribute</a></p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines if a property should be included in the NinjaScript object's constructor as a parameter</p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Determines the sequence in which a NinjaScript object's <a href="displayattribute.htm" class="topiclink">Display.GroupName</a> categories are arranged in relation to other categories in the UI.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="rangeattribute.htm" class="topiclink">RangeAttribute</a></p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><a href="displayattribute.htm" class="topiclink">DisplayAttribute</a></p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines if the value of a property is valid within a specified range</p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Determines how a property is displays on the NinjaTrader UI's property grid. &nbsp;</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal"><a href="xmlignoreattribute.htm" class="topiclink">XmlIgnoreAttribute</a></p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p ><a href="ninjascriptpropertyattribute.htm" class="topiclink">NinjaScriptPropertyAttribute</a></p>
 </td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Determines if a property participates in the XML serialization routines (saving workspaces or templates)</p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Determines if a property should be included in the NinjaScript object's constructor as a parameter</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p ><a href="rangeattribute.htm" class="topiclink">RangeAttribute</a></p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Determines if the value of a property is valid within a specified range</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p ><a href="xmlignoreattribute.htm" class="topiclink">XmlIgnoreAttribute</a></p>
+</td>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >Determines if a property participates in the XML serialization routines (saving workspaces or templates)</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Applying Attributes</span></h2>
-<p class="p_Normal">Attributes are applied directly before the property, method, or class, and are identified by wrapping brackets:</p>
-<p class="p_Normal">&nbsp;</p>
+<p >Attributes are applied directly before the property, method, or class, and are identified by wrapping brackets:</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
 <thead>
 <tr class="NSExample">
@@ -118,7 +118,7 @@
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
 <tr class="Tip">
-<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp; Conventionally, the suffix &quot;attribute&quot; is provided to the object's name to help determine that is an <span style="font-weight: bold;">attribute</span>, however C# does not require you to specify the full name of an <span style="font-weight: bold;">attribute</span>. &nbsp;For example <span style="font-weight: bold;">DisplayAttribute()</span> will compile the same as <span style="font-weight: bold;">Display(</span>). &nbsp;</p>
+<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp; Conventionally, the suffix &quot;attribute&quot; is provided to the object's name to help determine that is an <span style="font-weight: bold;">attribute</span>, however C# does not require you to specify the full name of an <span style="font-weight: bold;">attribute</span>. &nbsp;For example <span style="font-weight: bold;">DisplayAttribute()</span> will compile the same as <span style="font-weight: bold;">Display(</span>). &nbsp;</p>
 </td>
 </tr>
 </table>

@@ -43,34 +43,34 @@
         
         <h2 class="p_Heading2"><span class="f_Heading2">Definition</span></h2>
 <p class="p_Definition">The number of historical bars required before the strategy starts processing order methods called in the <a href="onbarupdate.htm" class="topiclink">OnBarUpdate()</a> method. This property is generally set via the UI when starting a strategy.</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note" >
 <tr class="Note">
-<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;In a multi-series strategy this restriction applies only for the primary Bars object. &nbsp;This means your can run into situations where the primary bars required to trade have been reached, but the additional bars required have not. Should your strategy logic intertwine calculations across different Bars objects please ensure all Bars objects have met the BarsRequiredToTrade requirement before proceeding. This can be done via checks on the <a href="currentbars.htm" class="topiclink">CurrentBars</a> array.</p>
+<td class="Note"><p ><span style="font-weight: bold;">Note</span>: &nbsp;In a multi-series strategy this restriction applies only for the primary Bars object. &nbsp;This means your can run into situations where the primary bars required to trade have been reached, but the additional bars required have not. Should your strategy logic intertwine calculations across different Bars objects please ensure all Bars objects have met the BarsRequiredToTrade requirement before proceeding. This can be done via checks on the <a href="currentbars.htm" class="topiclink">CurrentBars</a> array.</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Property Value</span></h2>
-<p class="p_Normal">An <span class="f_CodeExampleTypes">int</span> value representing the number of historical bars. &nbsp;Default value is set to 20.</p>
-<p class="p_Normal">&nbsp;</p>
+<p >An <span class="f_CodeExampleTypes">int</span> value representing the number of historical bars. &nbsp;Default value is set to 20.</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Warning" >
 <tr class="Warning">
-<td class="Warning"><p class="p_Normal"><span style="font-weight: bold;">Warning</span>: &nbsp;This property should <span style="font-weight: bold;">ONLY</span> bet set from the <a href="onstatechange.htm" class="topiclink">OnStateChange()</a> method during <span style="font-weight: bold;">State.SetDefaults</span> or <span style="font-weight: bold;">State.Configure</span></p>
+<td class="Warning"><p ><span style="font-weight: bold;">Warning</span>: &nbsp;This property should <span style="font-weight: bold;">ONLY</span> bet set from the <a href="onstatechange.htm" class="topiclink">OnStateChange()</a> method during <span style="font-weight: bold;">State.SetDefaults</span> or <span style="font-weight: bold;">State.Configure</span></p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span></h2>
 <p class="p_CodeExample"><span class="f_CodeExample">BarsRequiredToTrade</span></p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <div style="text-align: left; text-indent: 0; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
 <tr class="Tip">
-<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;When working with a multi-series strategy, real-time bar update events for a particular Bars object are only received when that Bars object has satisfied the BarsRequiredToTrade requirement. To ensure this requirement is met, please use the CurrentBars array.</p>
+<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp;When working with a multi-series strategy, real-time bar update events for a particular Bars object are only received when that Bars object has satisfied the BarsRequiredToTrade requirement. To ensure this requirement is met, please use the CurrentBars array.</p>
 </td>
 </tr>
 </table>

@@ -45,60 +45,60 @@
 <p class="p_Definition">Returns the number of bars that have elapsed since the last exit. When a signal name is provided, the number of bars that have elapsed since that last specific exit will be returned.</p>
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <h2 class="p_Heading2"><span class="f_Heading2">Method Return Value</span></h2>
-<p class="p_Normal">An <span class="f_CodeExampleTypes">int</span> value that represents a number of bars. A value of -1 will be returned if a previous exit does not exist.</p>
-<p class="p_Normal">&nbsp;</p>
+<p >An <span class="f_CodeExampleTypes">int</span> value that represents a number of bars. A value of -1 will be returned if a previous exit does not exist.</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Syntax</span><br>
 <span class="f_CodeExample">BarsSinceExitExecution()</span><br>
 <span class="f_CodeExample">BarsSinceExitExecution(</span><span class="f_CodeExampleTypes">string</span><span class="f_CodeExample"> </span><span class="f_CodeExampleParameters">signalName</span><span class="f_CodeExample">)</span></h2>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <p class="p_CodeExample">The following method signature should be used when working with <a href="multi-time_frame__instruments-1.htm" class="topiclink">multi-time frame and instrument strategies</a>:</p>
-<p class="p_Normal">&nbsp;<br>
+<p >&nbsp;<br>
 <span class="f_CodeExample">BarsSinceExitExecution(</span><span class="f_CodeExampleTypes">int</span><span class="f_CodeExample"> </span><span class="f_CodeExampleParameters">barsInProgressIndex</span><span class="f_CodeExample">, </span><span class="f_CodeExampleTypes">string</span><span class="f_CodeExample"> </span><span class="f_CodeExampleParameters">signalName</span><span class="f_CodeExample">, </span><span class="f_CodeExampleTypes">int</span><span class="f_CodeExample"> </span><span class="f_CodeExampleParameters">exitExecutionsAgo</span><span class="f_CodeExample">)</span><br>
 <span class="f_CodeExample">&nbsp;</span></p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
 <tr class="Note">
-<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: When working with a multi-series strategy the <span class="f_CodeExample">BarsSinceExitExecution()</span> will return you the elapsed bars as determined by the first Bars object for the instrument specified in the barsInProgressIndex.</p>
+<td class="Note"><p ><span style="font-weight: bold;">Note</span>: When working with a multi-series strategy the <span class="f_CodeExample">BarsSinceExitExecution()</span> will return you the elapsed bars as determined by the first Bars object for the instrument specified in the barsInProgressIndex.</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Parameters</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">signalName</p>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >signalName</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The signal name of an exit order specified in an order exit method.</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">barsInProgressIndex</p>
-</td>
-<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The index of the Bars object the entry order was submitted against. </p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal"><span style="font-weight: bold;">Note</span>: &nbsp;See the <a href="barsinprogress-1.htm" class="topiclink">BarsInProgress</a> property.</p>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The signal name of an exit order specified in an order exit method.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">exitExecutionsAgo</p>
+<td style="vertical-align:top; width:30%; padding:10px; border:solid thin #dddddd;"><p >barsInProgressIndex</p>
 </td>
-<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Number of exit executions ago. Pass in 0 for the number of bars since the last exit execution.</p>
+<td style="vertical-align:top; padding:10px; border:solid thin #dddddd;"><p >The index of the Bars object the entry order was submitted against. </p>
+<p >&nbsp;</p>
+<p ><span style="font-weight: bold;">Note</span>: &nbsp;See the <a href="barsinprogress-1.htm" class="topiclink">BarsInProgress</a> property.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:30%; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >exitExecutionsAgo</p>
+</td>
+<td style="vertical-align:top; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Number of exit executions ago. Pass in 0 for the number of bars since the last exit execution.</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip">
 <tr class="Tip">
-<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: &nbsp;Please see <a href="setstoploss-1.htm" class="topiclink">SetStopLoss()</a>, <a href="setprofittarget-1.htm" class="topiclink">SetProfitTarget()</a> or <a href="settrailstop-1.htm" class="topiclink">SetTrailStop()</a> for their corresponding signal name</p>
+<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: &nbsp;Please see <a href="setstoploss-1.htm" class="topiclink">SetStopLoss()</a>, <a href="setprofittarget-1.htm" class="topiclink">SetProfitTarget()</a> or <a href="settrailstop-1.htm" class="topiclink">SetTrailStop()</a> for their corresponding signal name</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample">
 <thead>

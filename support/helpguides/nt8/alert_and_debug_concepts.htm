@@ -41,12 +41,12 @@
         
         
         
-        <p class="p_Normal">In most scenarios you can use the NinjaScript provided methods for triggering alerts and debugging functionality. However, when building your own custom objects, you may find yourself wanting to use this functionality outside the NinjaScript scope (e.g. when building a <a href="nttabpage_class.htm" class="topiclink">NTTabPage</a> for Add Ons).</p>
-<p class="p_Normal">&nbsp;</p>
+        <p >In most scenarios you can use the NinjaScript provided methods for triggering alerts and debugging functionality. However, when building your own custom objects, you may find yourself wanting to use this functionality outside the NinjaScript scope (e.g. when building a <a href="nttabpage_class.htm" class="topiclink">NTTabPage</a> for Add Ons).</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Using the NinjaScript Output</span></h2>
-<p class="p_Normal">Instead of <a href="print.htm" class="topiclink">Print()</a>, use Output.Process() to write a message.</p>
-<p class="p_Normal">Instead of <a href="clearoutputwindow.htm" class="topiclink">ClearOutputWindow()</a>, use Output.Reset() to clear the output window.</p>
-<p class="p_Normal">&nbsp;</p>
+<p >Instead of <a href="print.htm" class="topiclink">Print()</a>, use Output.Process() to write a message.</p>
+<p >Instead of <a href="clearoutputwindow.htm" class="topiclink">ClearOutputWindow()</a>, use Output.Reset() to clear the output window.</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Example</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
 <tr class="NSExample">
@@ -54,7 +54,7 @@
 </td>
 </tr>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_Normal">&nbsp;</p>
+<td class="NSExample"><p >&nbsp;</p>
 <p class="p_CodeExample"><span class="f_CodeExample" style="color: #008000;">// Instead of Print()</span><br />
 <span class="f_CodeExample">NinjaTrader.Code.Output.Process(</span><span class="f_CodeExample" style="color: #800000;">&quot;my message&quot;</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PrintTo.OutputTab1);</span><br />
 <span class="f_CodeExample">&nbsp;</span><br />
@@ -64,12 +64,12 @@
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Using Alerts</span></h2>
-<p class="p_Normal">Instead of <a href="alert.htm" class="topiclink">Alert()</a>, use <a href="alertcallback.htm" class="topiclink">NinjaTrader.NinjaScript.Alert.AlertCallback()</a> for sending an alert.</p>
-<p class="p_Normal">Instead of <a href="rearmalert.htm" class="topiclink">ResetAlert()</a>, use <a href="alert.htm" class="topiclink">NinjaTrader.NinjaScript.Alert.RearmAlert()</a></p>
-<p class="p_Normal">&nbsp;</p>
+<p >Instead of <a href="alert.htm" class="topiclink">Alert()</a>, use <a href="alertcallback.htm" class="topiclink">NinjaTrader.NinjaScript.Alert.AlertCallback()</a> for sending an alert.</p>
+<p >Instead of <a href="rearmalert.htm" class="topiclink">ResetAlert()</a>, use <a href="alert.htm" class="topiclink">NinjaTrader.NinjaScript.Alert.RearmAlert()</a></p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Example</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
 <tr class="NSExample">
@@ -86,22 +86,22 @@
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Miscellaneous</span></h2>
-<p class="p_Normal">Instead of <a href="log.htm" class="topiclink">Log()</a>, use NinjaScript.Log() to send a message to the NinjaTrader logs.</p>
-<p class="p_Normal">Instead of <a href="playsound.htm" class="topiclink">PlaySound()</a>, use Globals.PlaySound() to play a sound.</p>
-<p class="p_Normal">Instead of <a href="sendmail.htm" class="topiclink">SendMail()</a>, use Globals.SendMail() to send a mail.</p>
+<p >Instead of <a href="log.htm" class="topiclink">Log()</a>, use NinjaScript.Log() to send a message to the NinjaTrader logs.</p>
+<p >Instead of <a href="playsound.htm" class="topiclink">PlaySound()</a>, use Globals.PlaySound() to play a sound.</p>
+<p >Instead of <a href="sendmail.htm" class="topiclink">SendMail()</a>, use Globals.SendMail() to send a mail.</p>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Tip" >
 <tr class="Tip">
-<td class="Tip"><p class="p_Normal"><span style="font-weight: bold;">Tip</span>: Both the Globals.PlaySound() and .SendMail() above could be used in a regular NinjaScript objects as well, however this is <span style="text-decoration: underline;">not recommended</span> practice since those would not ignore the calls outside State.Realtime which could yield unexpected results.</p>
+<td class="Tip"><p ><span style="font-weight: bold;">Tip</span>: Both the Globals.PlaySound() and .SendMail() above could be used in a regular NinjaScript objects as well, however this is <span style="text-decoration: underline;">not recommended</span> practice since those would not ignore the calls outside State.Realtime which could yield unexpected results.</p>
 </td>
 </tr>
 </table>
 </div>
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
 <h2 class="p_Heading2"><span class="f_Heading2">Examples</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
 <tr class="NSExample">
@@ -128,45 +128,45 @@
 <p class="p_CodeExample"><span class="f_CodeExample">&nbsp;</span></p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">NoError</p>
+<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >NoError</p>
 </td>
-<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">No errors were thrown</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">LogOnFailed</p>
-</td>
-<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Failed to log on due to invalid credentials</p>
+<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >No errors were thrown</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">OrderRejected</p>
+<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p >LogOnFailed</p>
 </td>
-<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Broker rejected the current order</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">UnableToCancelOrder</p>
-</td>
-<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Order cannot be canceled now, but may be successfully canceled later</p>
+<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p >Failed to log on due to invalid credentials</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">UnableToChangeOrder</p>
+<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >OrderRejected</p>
 </td>
-<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Either the exchange or broker does not support order updates for the instrument in question, or the order has not yet been submitted</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">UserAbort</p>
-</td>
-<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The operation was aborted by the user</p>
+<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Broker rejected the current order</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Panic</p>
+<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p >UnableToCancelOrder</p>
 </td>
-<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An unspecified error was thrown</p>
+<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p >Order cannot be canceled now, but may be successfully canceled later</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >UnableToChangeOrder</p>
+</td>
+<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Either the exchange or broker does not support order updates for the instrument in question, or the order has not yet been submitted</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:175px; padding:10px; border:solid thin #dddddd;"><p >UserAbort</p>
+</td>
+<td style="vertical-align:top; width:1023px; padding:10px; border:solid thin #dddddd;"><p >The operation was aborted by the user</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:175px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Panic</p>
+</td>
+<td style="vertical-align:top; width:1023px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >An unspecified error was thrown</p>
 </td>
 </tr>
 </table>

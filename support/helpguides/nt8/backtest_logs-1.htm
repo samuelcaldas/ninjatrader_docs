@@ -43,93 +43,93 @@
         
         
         
-        <p class="p_Normal">The Strategy analyzer saves a log on each backtest. The logs can be seen by right clicking on the Strategy Analyzer and selecting &quot;<span class="f_Menu">Show Logs</span>&quot;. Logs offer a convenient way to keep a history of backtest results. They can be used as you work to develop a strategy and fine tune parameters and code to compare previous backtests to current backtests easily. </p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">The log also contains a saved snapshot version of the code used for the backtest, making it possible to look at or revert to previous code used. </p>
-<p class="p_Normal">&nbsp;</p>
+        <p >The Strategy analyzer saves a log on each backtest. The logs can be seen by right clicking on the Strategy Analyzer and selecting &quot;<span class="f_Menu">Show Logs</span>&quot;. Logs offer a convenient way to keep a history of backtest results. They can be used as you work to develop a strategy and fine tune parameters and code to compare previous backtests to current backtests easily. </p>
+<p >&nbsp;</p>
+<p >The log also contains a saved snapshot version of the code used for the backtest, making it possible to look at or revert to previous code used. </p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table class="Note">
 <tr class="Note">
-<td class="Note"><p class="p_Normal"><span style="font-weight: bold;">Note</span>: Code save functionality only works on open and unlocked NinjaScript Strategies. &nbsp; Strategies which are protected by the vendor cannot be used to save code.</p>
+<td class="Note"><p ><span style="font-weight: bold;">Note</span>: Code save functionality only works on open and unlocked NinjaScript Strategies. &nbsp; Strategies which are protected by the vendor cannot be used to save code.</p>
 </td>
 </tr>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal"><img alt="StrategyAnalyzer_ShowLog" width="698" height="578" style="margin:0;width:698px;height:578px;border:none" src="strategyanalyzer_showlog.png"></p>
-<p class="p_Normal">&nbsp;</p>
+<p >&nbsp;</p>
+<p ><img alt="StrategyAnalyzer_ShowLog" width="698" height="578" style="margin:0;width:698px;height:578px;border:none" src="strategyanalyzer_showlog.png"></p>
+<p >&nbsp;</p>
 <p class="p_ToggleHeading"><img id="UnderstandingLogs_ICON" class="dropdown-toggle-icon" alt="tog_minus" width="16" height="16" style="margin:0;width:16px;height:16px;border:none" src="tog_minus-1.gif"> &nbsp; &nbsp; &nbsp; &nbsp;<span class="f_ToggleHeading"><a class="dropdown-toggle" style="font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;" href="javascript:HMToggle('toggle','UnderstandingLogs','UnderstandingLogs_ICON')">Understanding&nbsp;what&nbsp;is&nbsp;saved&nbsp;in&nbsp;the&nbsp;logs</a></span></p>
 <div id="UnderstandingLogs" class="dropdown-toggle-body" style="text-align: left; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 32px;"><table class="Toggle">
 <tr class="Toggle">
 <td class="Toggle" style="background-color:#FFFFFF;"><h2 class="p_Heading2"><span class="f_Heading2">Understanding Logs</span></h2>
-<p class="p_Normal">NinjaTrader saves a log each time you perform a backtest in the strategyt analyzer. It saves several key information in the log which makes it easier to iterate on a strategy over time. </p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">The log saves the following information per test:</p>
-<p class="p_Normal">&nbsp;</p>
+<p >NinjaTrader saves a log each time you perform a backtest in the strategyt analyzer. It saves several key information in the log which makes it easier to iterate on a strategy over time. </p>
+<p >&nbsp;</p>
+<p >The log saves the following information per test:</p>
+<p >&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Instrument</p>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Instrument</p>
 </td>
-<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The instrument the test was performed on.</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Backtest</p>
-</td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The type of backtest that was performed</p>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The instrument the test was performed on.</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Date</p>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Backtest</p>
 </td>
-<td style="vertical-align:top; width:792px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The date the backtest was performed</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy</p>
-</td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The strategy used for the backtest</p>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >The type of backtest that was performed</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Data Series</p>
+<td style="vertical-align:top; width:224px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Date</p>
 </td>
-<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The data series used for the backtest</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Start date</p>
-</td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The start date used for the backtest</p>
+<td style="vertical-align:top; width:792px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The date the backtest was performed</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">End date</p>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Strategy</p>
 </td>
-<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The end date used for the backtest</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Parameters</p>
-</td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The parameters used for the backtest</p>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >The strategy used for the backtest</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Total net profit</p>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Data Series</p>
 </td>
-<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The total net profit for the backtest</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Notes</p>
-</td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An optional field to add user defined notes to more accurately recall the test. Double click the field to begin editing and when complete press enter on the keyboard to set the note. </p>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The data series used for the backtest</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Pinned</p>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Start date</p>
 </td>
-<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">An optional field to Pin a result &nbsp;to the top. Pinned results are useful for saving a specific backtest of note for reference later. </p>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >The start date used for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >End date</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The end date used for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Parameters</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >The parameters used for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Total net profit</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >The total net profit for the backtest</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Notes</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >An optional field to add user defined notes to more accurately recall the test. Double click the field to begin editing and when complete press enter on the keyboard to set the note. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Pinned</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >An optional field to Pin a result &nbsp;to the top. Pinned results are useful for saving a specific backtest of note for reference later. </p>
 </td>
 </tr>
 </table>
@@ -150,51 +150,51 @@
 <h2 class="p_Heading2"><span class="f_Heading2">&nbsp;</span></h2>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Open In Strategy Analyzer Tab</p>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Open In Strategy Analyzer Tab</p>
 </td>
-<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opens the backtest in a new tab in the current Strategy Analyzer window</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Open in New Strategy Analyzer</p>
-</td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opens the backtest in a new Strategy Analyzer</p>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Opens the backtest in a new tab in the current Strategy Analyzer window</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Open in NinjaScript Editor</p>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Open in New Strategy Analyzer</p>
 </td>
-<td style="vertical-align:top; width:792px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Opens the saves revision of the code as used when the backtest was run. You can restore any set of backtest</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Remove</p>
-</td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Removes the selected backtest log</p>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >Opens the backtest in a new Strategy Analyzer</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Remove All Non-Pinned</p>
+<td style="vertical-align:top; width:224px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Open in NinjaScript Editor</p>
 </td>
-<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Removes all backtest logs that are not pinned. </p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Filter By Strategy</p>
-</td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Only view backtest logs for a specific strategy</p>
+<td style="vertical-align:top; width:792px; height:16px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Opens the saves revision of the code as used when the backtest was run. You can restore any set of backtest</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Filter By Instrument</p>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Remove</p>
 </td>
-<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Only view backtest logs for a specific instrument</p>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >Removes the selected backtest log</p>
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Filter By Date</p>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Remove All Non-Pinned</p>
 </td>
-<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Only view backtest logs for a specific date range</p>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Removes all backtest logs that are not pinned. </p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Filter By Strategy</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >Only view backtest logs for a specific strategy</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Filter By Instrument</p>
+</td>
+<td style="vertical-align:top; width:792px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p >Only view backtest logs for a specific instrument</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:224px; padding:10px; border:solid thin #dddddd;"><p >Filter By Date</p>
+</td>
+<td style="vertical-align:top; width:792px; padding:10px; border:solid thin #dddddd;"><p >Only view backtest logs for a specific date range</p>
 </td>
 </tr>
 </table>

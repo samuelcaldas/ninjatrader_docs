@@ -9,7 +9,7 @@
 </div>
     <div id="idheader">
       <div id="idheaderbg">
-        <table style="width:100%;border:none;margin:0px;background:#DC3900" cellspacing="0" cellpadding="0">
+        <table >
           <tr valign="bottom">
             <td align="left" valign="bottom" class="topichead">
               <p class="sync-toc">&lt;&lt; <a rel="nofollow" href="NT HelpGuide English.html?adding_indicators_to_strategie.htm" target="_top">Click to Display Table of Contents</a> &gt;&gt;</p>
@@ -41,139 +41,139 @@
         
         
         
-        <p class="p_Normal">When backtesting strategies it can be useful to add the indicators you use for calculations onto the chart to make it easier to check your strategy for accuracy. Instead of doing this step manually every time you run the strategy you can program it to automatically load the indicators for you.</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">For example:</p>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">To add a volume indicator to your charts you need to add this code snippet into the <a href="onstatechange.htm" class="topiclink">OnStateChange</a> section of your code for the State: State.DataLoaded</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+        <p >When backtesting strategies it can be useful to add the indicators you use for calculations onto the chart to make it easier to check your strategy for accuracy. Instead of doing this step manually every time you run the strategy you can program it to automatically load the indicators for you.</p>
+<p >&nbsp;</p>
+<p >For example:</p>
+<p >&nbsp;</p>
+<p >To add a volume indicator to your charts you need to add this code snippet into the <a href="onstatechange.htm" class="topiclink">OnStateChange</a> section of your code for the State: State.DataLoaded</p>
+<div  >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><p class="p_Normal"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></p>
+<th class="NSExample" /></p>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" style="color: #0000ff;">protected</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">override</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #0000ff;">void</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">OnStateChange()</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample" >OnStateChange()</span><br />
 <span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="color: #0000ff;">if</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">(State</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">==</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">State.DataLoaded)</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">{</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="f_CodeExample">AddChartIndicator(VOL());</span><br />
-<span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample">}</span><br />
+<span class="f_CodeExample" >State.DataLoaded)</span><br />
+<span class="f_CodeExample" >{</span><br />
+<span class="f_CodeExample" >AddChartIndicator(VOL());</span><br />
+<span class="f_CodeExample" >}</span><br />
 <span class="f_CodeExample">}</span></p>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">To choose which panel you want your indicator plotted on you can use this code snippet into the State.DataLoaded state:</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<p >&nbsp;</p>
+<p >To choose which panel you want your indicator plotted on you can use this code snippet into the State.DataLoaded state:</p>
+<div  >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><p class="p_Normal"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></p>
+<th class="NSExample" /></p>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Panel</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">2</span><span class="f_CodeExample">;</span><br />
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Panel</span><span class="f_CodeExample" >;</span><br />
 <span class="f_CodeExample">AddChartIndicator(VOL());</span></p>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">To customize plot colors:</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<p >&nbsp;</p>
+<p >To customize plot colors:</p>
+<div  >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><p class="p_Normal"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></p>
+<th class="NSExample" /></p>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">].Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Red;</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp; &nbsp; </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Plots the VOL with a red plot</span></p>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" >// Plots the VOL with a red plot</span></p>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">To customize plot width:</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<p >&nbsp;</p>
+<p >To customize plot width:</p>
+<div  >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><p class="p_Normal"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></p>
+<th class="NSExample" /></p>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">].Width</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">4</span><span class="f_CodeExample">;</span><span class="f_CodeExample" style="color: #ffffff;"> &nbsp;  </span><span class="f_CodeExample" style="font-style: italic; color: #008000;">// Plots the VOL bars with a width of 4</span></p>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" >// Plots the VOL bars with a width of 4</span></p>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">To customize the plot dash style:</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<p >&nbsp;</p>
+<p >To customize the plot dash style:</p>
+<div  >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><p class="p_Normal"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></p>
+<th class="NSExample" /></p>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">].DashStyleHelper</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">DashStyleHelper.Dash;</span></p>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" >DashStyleHelper.Dash;</span></p>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">To customize the plot style:</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<p >&nbsp;</p>
+<p >To customize the plot style:</p>
+<div  >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><p class="p_Normal"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></p>
+<th class="NSExample" /></p>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">].PlotStyle</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">PlotStyle.Bar;</span></p>
-<p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">].AutoWidth</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">true;</span></p>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" >PlotStyle.Bar;</span></p>
+<p class="p_CodeExample"><span class="f_CodeExample">VOL().Plots[</span><span class="f_CodeExample" >true;</span></p>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">To customize lines you can do it the same way as above.</p>
-<div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table id="Code1" class="NSExample" >
+<p >&nbsp;</p>
+<p >To customize lines you can do it the same way as above.</p>
+<div  >
 <thead>
 <tr class="NSExample">
-<th class="NSExample" style="vertical-align:middle;"><p class="p_Normal"><img alt="ns" width="20" height="20" style="margin:0;width:20px;height:20px;border:none" src="ns.png"/></p>
+<th class="NSExample" /></p>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr class="NSExample">
-<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">RSI(</span><span class="f_CodeExample" style="color: #ff6600;">14</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">).Lines[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">].Value</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">20</span><span class="f_CodeExample">;</span><br />
-<span class="f_CodeExample">RSI(</span><span class="f_CodeExample" style="color: #ff6600;">14</span><span class="f_CodeExample">,</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample" style="color: #ff6600;">3</span><span class="f_CodeExample">).Lines[</span><span class="f_CodeExample" style="color: #ff6600;">0</span><span class="f_CodeExample">].Brush</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">=</span><span class="f_CodeExample" style="color: #ffffff;"> </span><span class="f_CodeExample">Brushes.Green;</span></p>
+<td class="NSExample"><p class="p_CodeExample"><span class="f_CodeExample">RSI(</span><span class="f_CodeExample" >;</span><br />
+<span class="f_CodeExample">RSI(</span><span class="f_CodeExample" >Brushes.Green;</span></p>
 </td>
 </tr>
 </tbody>
 </table>
 </div>
-<p class="p_Normal">&nbsp;</p>
-<p class="p_Normal">Remember, you need to use the <a href="addchartindicator.htm" class="topiclink">AddChartIndicator()</a> method to add your indicator if you wish to use any of the plot / line indicator customization examples.</p>
+<p >&nbsp;</p>
+<p >Remember, you need to use the <a href="addchartindicator.htm" class="topiclink">AddChartIndicator()</a> method to add your indicator if you wish to use any of the plot / line indicator customization examples.</p>
 
         
       </div>
@@ -195,6 +195,6 @@
       
       
       </script>
-      <div id="bump" style="height: 25px"></div>
+      <div id="bump" ></div>
     </body>
   </html>
