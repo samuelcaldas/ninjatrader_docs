@@ -1,0 +1,45 @@
+﻿
+
+
+
+GetPixelsForDistance()
+
+|  |  |
+| --- | --- |
+| << [Click to Display Table of Contents](.\getpixelsfordistance.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartScale](chartscale-1.htm) >  GetPixelsForDistance() | [Previous page](chartscale-1.htm) [Return to chapter overview](chartscale-1.htm) [Next page](getvaluebyy-1.htm) |
+
+Definition
+----------
+
+Returns the number of device pixels between the value passed to the method representing a series point value on the chart scale.
+
+Method Return Value
+-------------------
+
+A float representing the number of pixels between a value.
+
+Syntax 
+<chartScale>.GetPixelsForDistance(double distance)
+----------------------------------------------------------
+
+Method Parameters
+-----------------
+
+|  |  |
+| --- | --- |
+| distance | A double value representing the distance in points to be measured |
+
+Examples
+--------
+
+| ns |
+| --- |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale)  {           // the number of pixels between the point value passed as a distance to the method     float   pixelForDistance = chartScale.GetPixelsForDistance(0.25);        Print("pixelForDistance: " + pixelForDistance); //20 pixels per every 1 tick on the chart scale  } |
+
+ 
+
+ 
+
+In the image below, we pass a value of 1 for the distance, which tells us there are 76 pixels for every 1 point on the ES 06-15 chart scale.
+
+![GetPixelsForDistance](getpixelsfordistance.png)

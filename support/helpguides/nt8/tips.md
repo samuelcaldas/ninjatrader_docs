@@ -1,0 +1,13 @@
+﻿
+
+
+
+Tips
+
+|  |  |
+| --- | --- |
+| << [Click to Display Table of Contents](tips.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) >  Tips | [Previous page](using_trade_performance_statis.htm) [Return to chapter overview](educational_resources.htm) [Next page](adding_indicators_to_strategie.htm) |
+
+|  |
+| --- |
+| Tips Overview  ›[Adding Indicators to Strategies](adding_indicators_to_strategie.htm)  ›[Checking for Null References](checking_for_null_references.htm)  ›[Creating User Defined Input Parameters](creating_user_defined_input_pa.htm)  ›[Debugging your NinjaScript Code](debugging_your_ninjascript_cod.htm)  ›[Floating-Point Arithmetic](floating-point_arithmetic.htm)  ›[Formatting numbers](formatting_numbers.htm)  ›[How do I resolve NinjaScript Programming Errors?](how_do_i_resolve_ninjascript_p.htm)  ›[Make sure you have enough bars in the data series you are accessing](make_sure_you_have_enough_bars.htm)  ›[Order Types](order_types.htm)  ›[Parameter sequencing](parameter_sequencing.htm)  ›[Referencing the correct bar](referencing_the_correct_bar.htm)  ›[Strategy Position vs. Account Position](strategy_position_vs__account_.htm)  ›[TraceOrders](traceorders2.htm)  ›[User Definable Color Inputs](user_definable_color_inputs.htm)  ›[Using [] brackets](using__brackets.htm) |

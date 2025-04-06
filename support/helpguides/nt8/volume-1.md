@@ -1,0 +1,52 @@
+﻿
+
+
+
+Volume (VOL)
+
+|  |  |
+| --- | --- |
+| << [Click to Display Table of Contents](.\volume.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Volume (VOL) | [Previous page](ultimate_oscillator-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](volume_moving_average_volma-1.htm) |
+
+Description
+-----------
+
+Volume is simply the number of shares (or contracts) traded during a specified time frame (e.g., hour, day, week, month, etc). The analysis of volume is a basic yet very important element of technical analysis. Volume provides clues as to the intensity of a given price move.
+
+... Courtesy of [Market In Out](http://www.marketinout.com/technical_analysis.php?id=114)
+
+Syntax
+------
+
+VOL()  
+VOL(ISeries<double> input)
+
+ 
+
+Returns default value  
+VOL()[int barsAgo]  
+VOL(ISeries<double> input)[int barsAgo]
+
+Return Value
+------------
+
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
+
+Parameters
+----------
+
+|  |  |
+| --- | --- |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+
+Example
+-------
+
+| ns |
+| --- |
+| // Prints the current value VOL  double value = VOL()[0];  Print("The current VOL value is " + value.ToString()); |
+
+Source Code
+-----------
+
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

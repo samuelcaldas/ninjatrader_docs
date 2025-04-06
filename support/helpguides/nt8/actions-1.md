@@ -1,0 +1,35 @@
+﻿
+
+
+
+Actions
+
+|  |  |
+| --- | --- |
+| << [Click to Display Table of Contents](.\actions.md) >>  **Navigation:**  [Operations](operations-1.md) > [Strategy Builder](strategy_builder-1.md) >  Actions | [Previous page](strategybuilder_condition_builder-1.md) [Return to chapter overview](strategy_builder-1.md) [Next page](time__sales-1.md) |
+
+window allows you to select actions to execute for your script's conditions, for example executing an order or visualizing outcomes via draw objects.
+
+![tog_minus]()Understanding the Actions window
+
+|  |
+| --- |
+| Strategy Action Window Conditions and Actions Builder screen.    Within a NinjaScript strategy you can invoke miscellaneous actions, submit various order types for entering and exiting market positions, and have access to various drawing methods as shown in the images below. |
+
+![tog_minus]()How to enter a market position
+
+|  |
+| --- |
+| Entering a Market Position Order management actions, you can enter a position using market, limit, market-if-touched, stop limit and stop market orders.    Following is an example and represents one of many possible combinations.    Enter a long position by a limit order  value which allows you set the quantity when starting a strategy  property to any user defined value to identify the entry (you can also leave this name blank) - here we used LongEntry  window        are important in that they are used as unique identifiers if you have more than one unique entry in a strategy. By providing unique entry signal names for each entry on a strategy, you can then identify which position you want closed via the exit position methods. Signals names are also used to identify executions on a chart visually.    Bid  page of the Help Guide for more information)    Strategy_Builder_Actions5    OK button is pressed, an action is created that would translate to the following:    "Enter a buy limit order at a price 1 tick below the current bid price to enter a long position" |
+
+![tog_minus]()How to exit a market position
+
+|  |
+| --- |
+| Exiting a Market Position Order management actions, you can exit a position using market, limit, stop market and stop limit orders.    Following is an example and represents one of many possible combinations.    (exits via market order)  property to a named entry signal within the strategy (tied to our prior example, LongEntry is used). Providing a value will exit only the quantity associated to the position created by the named signal. Leaving it blank will exit the total net position.  property to any user defined value to identify the entry (we use LongExit here, but you can also leave this name blank)        OK button is pressed, an action is created that would translate to the following:    "Enter a sell market order to exit from entry signal 'Long Entry'." |
+
+![tog_minus]()How to draw on a chart
+
+|  |
+| --- |
+| Drawing on a Chart drawing methods in the NinjaScript Language Reference section of this Help Guide.    Following is an example and represents one of many possible combinations.    Diamond  parameter to "0" which will draw the diamond on the current bar x location  parameter to any desired color  parameter with a user defined name that identifies this drawing object. Providing a tag is of value if you are going to draw more than one of the same draw type object (Diamond in this case) on the same bar. Per default the builder will set this to the script name plus the draw object type, pressing the "set" button will display the String Builder window that would let you customize this further.  window        OK button is pressed, an action is created that would translate to the following:    "Draw a red diamond above the high of the current bar plus one tick"    If you want to further customize the drawing object tag's used, then the String Builder will offer the following :        1. Select your string separator here, possible values are - ; : or blank (which is the default)  window in the String fields  " buttons to add new string fields in or remove any of the currently added ones, the last filed will stay in any case, as a tag is needed for the object created.    For example if we added a 3rd string field in and added the Current bar from the Value window misc category, our drawing object would plot on each occurrence of the condition, so also for any historical triggers. |

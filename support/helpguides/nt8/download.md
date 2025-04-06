@@ -1,0 +1,15 @@
+﻿
+
+
+
+Download
+
+|  |  |
+| --- | --- |
+| << [Click to Display Table of Contents](download.htm) >>  **Navigation:**  [Operations](operations.htm) > [Historical Data](historical_data_manager.htm) >  Download | [Previous page](editing.htm) [Return to chapter overview](historical_data_manager.htm) [Next page](hot_key_manager.htm) |
+
+Historical data can be downloaded from the data provider via the Download section.
+
+|  |  |
+| --- | --- |
+| How to Download Historical Data To download historical data first make sure NinjaTrader is [connected](connecting.htm) and [historical data](data_by_provider.htm) is available from your data provider.    1  2  3  4 Press the "Download" button to begin the download    MarketDataArchives_Download    A message in the bottom right of the Historical Data Window will appear and display the status of the download.    To cancel a historical data request close the Historical Data Window window.    |  | | --- | | Notes:  •If you already have historical data for an instrument, please be sure to only select a date range in which your data provider offers historical data. If you choose a range older than what your data provider offers you may lose any data you had stored on those dates in that range outside of what your data provider offers.  •Downloading historical data will function based on the Merge Policy being used. Using MergeBackAdjusted or MergeNonBackAdjusted will switch what contract month is being downloaded based on the rollovers occurring during the selected date range. To download data for just the selected contract the Merge Policy will need to be set to DoNotMerge. See the [Merge Policy](merge_policy.htm) section for more information on Merge Policies. | |

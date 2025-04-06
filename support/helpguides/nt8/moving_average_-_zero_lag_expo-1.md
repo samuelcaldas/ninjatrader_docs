@@ -1,0 +1,53 @@
+﻿
+
+
+
+Moving Average - Zero Lag Exponential (ZLEMA)
+
+|  |  |
+| --- | --- |
+| << [Click to Display Table of Contents](.\moving_average_-_zero_lag_expo.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Moving Average - Zero Lag Exponential (ZLEMA) | [Previous page](moving_average_-_weighted_wma-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](moving_average_convergence-divergence_macd-1.htm) |
+
+Description
+-----------
+
+The Zero-Lag Exponential Moving Average is a variation on the Exponential Moving Average. The Zero-Lag keeps the benefit of the heavier weighting of recent values, but attempts to remove lag by subtracting older data to minimize the cumulative effect.
+
+... Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.htm?url=ZeroLagExpMA.htm)
+
+Syntax
+------
+
+ZLEMA(int period)  
+ZLEMA(ISeries<double> input, int period)
+
+ 
+
+Returns default value  
+ZLEMA(int period)[int barsAgo]  
+ZLEMA(ISeries<double> input, int period)[int barsAgo]
+
+Return Value
+------------
+
+double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
+
+Parameters
+----------
+
+|  |  |
+| --- | --- |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| period | Number of bars used in the calculation |
+
+Examples
+--------
+
+| ns |
+| --- |
+| // Prints the current value of a 20 period ZLEMA using default price type  double value = ZLEMA(20)[0];  Print("The current SMA value is " + value.ToString());     // Prints the current value of a 20 period ZLEMA using high price type  double value = ZLEMA(High, 20)[0];  Print("The current ZLEMA value is " + value.ToString()); |
+
+Source Code
+-----------
+
+You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.
