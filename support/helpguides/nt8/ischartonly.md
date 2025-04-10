@@ -6,7 +6,7 @@ IsChartOnly
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](ischartonly.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) >  IsChartOnly | [Previous page](indicatorbaseconverter.htm) [Return to chapter overview](indicator.htm) [Next page](issuspendedwhileinactive.htm) |
+| << [Click to Display Table of Contents](ischartonly.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) >  IsChartOnly | [Previous page](indicatorbaseconverter.md) [Return to chapter overview](indicator.md) [Next page](issuspendedwhileinactive.md) |
 
 Definition
 ----------
@@ -20,7 +20,7 @@ This property returns true if the indicator can only be used on a chart; otherwi
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

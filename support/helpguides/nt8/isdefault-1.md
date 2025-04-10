@@ -6,7 +6,7 @@ IsDefault
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\isdefault.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Share Service](share_service-1.htm) >  IsDefault | [Previous page](isconfigured-1.htm) [Return to chapter overview](share_service-1.htm) [Next page](isimageattachmentsupported-1.htm) |
+| << [Click to Display Table of Contents](.\isdefault.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Share Service](share_service-1.md) >  IsDefault | [Previous page](isconfigured-1.md) [Return to chapter overview](share_service-1.md) [Next page](isimageattachmentsupported-1.md) |
 
 Definition
 ----------
@@ -22,7 +22,7 @@ A bool value that represents if the current adapter is default Share Service use
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.htm) method during State.SetDefaults |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.md) method during State.SetDefaults |
 
 Syntax
 ------

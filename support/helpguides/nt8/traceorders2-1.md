@@ -6,9 +6,9 @@ TraceOrders
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\traceorders2.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Tips](tips-1.htm) >  TraceOrders | [Previous page](strategy_position_vs__account_-1.htm) [Return to chapter overview](tips-1.htm) [Next page](user_definable_color_inputs-1.htm) |
+| << [Click to Display Table of Contents](.\traceorders2.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Tips](tips-1.md) >  TraceOrders | [Previous page](strategy_position_vs__account_-1.md) [Return to chapter overview](tips-1.md) [Next page](user_definable_color_inputs-1.md) |
 
-[TraceOrders](traceorders-1.htm) is a useful property when debugging the behavior of your orders. With the use of this property, you can track orders placed, amended, and canceled. The traces displayed in the NinjaScript Output window or if used, in the OnOrderTrace Override in the script where this was set. This will provide meaningful information for diagnosis when NinjaTrader ignores, changes or cancels orders when various strategy order methods are called.
+[TraceOrders](traceorders-1.md) is a useful property when debugging the behavior of your orders. With the use of this property, you can track orders placed, amended, and canceled. The traces displayed in the NinjaScript Output window or if used, in the OnOrderTrace Override in the script where this was set. This will provide meaningful information for diagnosis when NinjaTrader ignores, changes or cancels orders when various strategy order methods are called.
 
 To enable TraceOrders, add this line into the OnStateChange() method in the state SetDefaults of your NinjaScript strategy:
 
@@ -52,7 +52,7 @@ This trace provides the reason why our Limit order was ignored.
 
 This trace tells us that our Limit order was canceled because it had expired.
 
-A new concept in NinjaTrader 8 is the [OnOrderTrace](onordertrace-1.htm) override method.
+A new concept in NinjaTrader 8 is the [OnOrderTrace](onordertrace-1.md) override method.
 
 This method prevents TraceOrders from printing the traces directly to the output window but instead sends this information to the OnOrderTrace override where you can do logic or format the trace how you would like and then print only what you need to see.
 
@@ -64,4 +64,4 @@ This method prevents TraceOrders from printing the traces directly to the output
 
 These examples illustrate the most common traces you will run across. They are mostly useful in determining the reason your orders are not submitted or cancelled. TraceOrders will only show you what is happening under the hood when you submit orders, but it will not tell you what happens after the order is submitted. To determine the behavior of your orders after submission you will need to look into your NinjaTrader trace logs. You can view those either through the "Log" tab on the "Control Center" or from the trace folder in My Documents\NinjaTrader 8\trace\.
 
-For more information on how to debug your NinjaScript please review the [Debugging](debugging_your_ninjascript_cod-1.htm) tip.
+For more information on how to debug your NinjaScript please review the [Debugging](debugging_your_ninjascript_cod-1.md) tip.

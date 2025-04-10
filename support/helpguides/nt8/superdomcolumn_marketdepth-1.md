@@ -6,7 +6,7 @@ MarketDepth
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\superdomcolumn_marketdepth.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [SuperDOM Column](superdom_column-1.htm) >  MarketDepth | [Previous page](superdom_column-1.htm) [Return to chapter overview](superdom_column-1.htm) [Next page](superdomcolumn_onmarketdata-1.htm) |
+| << [Click to Display Table of Contents](.\superdomcolumn_marketdepth.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [SuperDOM Column](superdom_column-1.md) >  MarketDepth | [Previous page](superdom_column-1.md) [Return to chapter overview](superdom_column-1.md) [Next page](superdomcolumn_onmarketdata-1.md) |
 
 Definition
 ----------

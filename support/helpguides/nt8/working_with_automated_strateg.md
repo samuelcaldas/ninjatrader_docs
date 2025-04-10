@@ -6,15 +6,15 @@ Working with Automated Strategies
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](working_with_automated_strateg.htm) >>  **Navigation:**  [Operations](operations.htm) > [Charts](charts.htm) >  Working with Automated Strategies | [Previous page](working_with_drawing_tools__ob.htm) [Return to chapter overview](charts.htm) [Next page](saving_chart_defaults_and_templates.htm) |
+| << [Click to Display Table of Contents](working_with_automated_strateg.md) >>  **Navigation:**  [Operations](operations.md) > [Charts](charts.md) >  Working with Automated Strategies | [Previous page](working_with_drawing_tools__ob.md) [Return to chapter overview](charts.md) [Next page](saving_chart_defaults_and_templates.md) |
 
-Automated NinjaScript strategies can be enabled within an open chart. Both real-time and historical strategy trades will be displayed on the chart. For more information on creating and managing NinjaScript strategies, see the [NinjaScript Overview](ninjascript.htm) page.
+Automated NinjaScript strategies can be enabled within an open chart. Both real-time and historical strategy trades will be displayed on the chart. For more information on creating and managing NinjaScript strategies, see the [NinjaScript Overview](ninjascript.md) page.
 
 ![tog_minus](tog_minus.gif)
 
 |  |
 | --- |
-| Please see the [Running a NinjaScript Strategy From a Chart](running_a_ninjascript_strategy.htm) page for more information on applying and enabling strategies from charts, as well as more information on managing strategy properties. |
+| Please see the [Running a NinjaScript Strategy From a Chart](running_a_ninjascript_strategy.md) page for more information on applying and enabling strategies from charts, as well as more information on managing strategy properties. |
 
 ![tog_minus](tog_minus.gif)
 
@@ -26,13 +26,13 @@ Automated NinjaScript strategies can be enabled within an open chart. Both real-
 
 |  |  |
 | --- | --- |
-| Executions Automated strategy trade executions will be displayed in the chart, depending on the Plot Executions parameter of the Data Series. The chart below shows several executions from orders placed by an automated strategy, and each execution is labeled with an appropriate name. Only executions pertaining to the strategy on the chart will be visible when the strategy is enabled. Any manual executions, or executions from strategies not applied to the chart, will NOT be shown. Execution markers are configured for each Data Series by selecting the Plot Executions parameter from the [Data Series window](working_with_price_data.htm).    StrategyExecutions    |  | | --- | | Note: You can view historical trades when a strategy is applied to a chart because the [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.htm) property is set to true by default when a strategy is applied to a chart. You can set this property to false in your code for leaner memory management, at the cost of not being able to access this information. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.htm) page. | |
+| Executions Automated strategy trade executions will be displayed in the chart, depending on the Plot Executions parameter of the Data Series. The chart below shows several executions from orders placed by an automated strategy, and each execution is labeled with an appropriate name. Only executions pertaining to the strategy on the chart will be visible when the strategy is enabled. Any manual executions, or executions from strategies not applied to the chart, will NOT be shown. Execution markers are configured for each Data Series by selecting the Plot Executions parameter from the [Data Series window](working_with_price_data.md).    StrategyExecutions    |  | | --- | | Note: You can view historical trades when a strategy is applied to a chart because the [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property is set to true by default when a strategy is applied to a chart. You can set this property to false in your code for leaner memory management, at the cost of not being able to access this information. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.md) page. | |
 
 ![tog_minus](tog_minus.gif)        Viewing strategy performance
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
-| Strategy Performance Real-time, Historical, or Historical & Real-time executions for the automated strategy can be accessed within the open chart by right mouse clicking in the chart and selecting the menu item Strategy Performance, then hovering the mouse over the desired automated strategy and selecting the type of executions you wish to view from the menu that appears. A [Performance window](performance_displays.htm) will appear where you can view and analyze the trade data.    StrategyPerformance    The following categories of performance data can be selected:    |  |  | | --- | --- | | Real-Time | Displays performance statistics for trades the strategy has taken in real-time ONLY | | Historical | Displays performance statistics for historical trades ONLY, calculated before any real-time trades are taken | | Real-Time and Historical | Combines historical and real-time performance statistics in a single report | |
+| Strategy Performance Real-time, Historical, or Historical & Real-time executions for the automated strategy can be accessed within the open chart by right mouse clicking in the chart and selecting the menu item Strategy Performance, then hovering the mouse over the desired automated strategy and selecting the type of executions you wish to view from the menu that appears. A [Performance window](performance_displays.md) will appear where you can view and analyze the trade data.    StrategyPerformance    The following categories of performance data can be selected:    |  |  | | --- | --- | | Real-Time | Displays performance statistics for trades the strategy has taken in real-time ONLY | | Historical | Displays performance statistics for historical trades ONLY, calculated before any real-time trades are taken | | Real-Time and Historical | Combines historical and real-time performance statistics in a single report | |
 
 ![tog_minus](tog_minus.gif)        Understanding strategy templates
 

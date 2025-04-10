@@ -6,12 +6,12 @@ Compare()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\compare.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Instruments](instruments_ninjascript-1.htm) > [Instrument](instrument-1.htm) > [MasterInstrument](masterinstrument-1.htm) >  Compare() | [Previous page](masterinstrument-1.htm) [Return to chapter overview](masterinstrument-1.htm) [Next page](masterinstrument_currency-1.htm) |
+| << [Click to Display Table of Contents](.\compare.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Instruments](instruments_ninjascript-1.md) > [Instrument](instrument-1.md) > [MasterInstrument](masterinstrument-1.md) >  Compare() | [Previous page](masterinstrument-1.md) [Return to chapter overview](masterinstrument-1.md) [Next page](masterinstrument_currency-1.md) |
 
 Definition
 ----------
 
-Compares two price values with respect to the Instrument [TickSize](ticksize-1.htm) to ensure accuracy when dealing with floating point math.
+Compares two price values with respect to the Instrument [TickSize](ticksize-1.md) to ensure accuracy when dealing with floating point math.
 
 Method Return Value
 -------------------

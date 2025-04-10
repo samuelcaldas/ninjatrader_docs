@@ -6,7 +6,7 @@ GetAtmStrategyRealizedProfitLoss()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getatmstrategyrealizedprofitlo.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [ATM Strategy Methods](atm_strategy_methods-1.htm) >  GetAtmStrategyRealizedProfitLoss() | [Previous page](getatmstrategypositionquantity-1.htm) [Return to chapter overview](atm_strategy_methods-1.htm) [Next page](getatmstrategystoptargetorders-1.htm) |
+| << [Click to Display Table of Contents](.\getatmstrategyrealizedprofitlo.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [ATM Strategy Methods](atm_strategy_methods-1.md) >  GetAtmStrategyRealizedProfitLoss() | [Previous page](getatmstrategypositionquantity-1.md) [Return to chapter overview](atm_strategy_methods-1.md) [Next page](getatmstrategystoptargetorders-1.md) |
 
 Definition
 ----------

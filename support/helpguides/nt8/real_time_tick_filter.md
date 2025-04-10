@@ -6,7 +6,7 @@ Real-time Tick Filter
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](real_time_tick_filter.htm) >>  **Navigation:**  [Configuration](configuration.htm) > [Options](options.htm) > [Market data](options_marketdata.htm) >  Real-time Tick Filter | [Previous page](merge_policy.htm) [Return to chapter overview](options_marketdata.htm) [Next page](multiple_connections.htm) |
+| << [Click to Display Table of Contents](real_time_tick_filter.md) >>  **Navigation:**  [Configuration](configuration.md) > [Options](options.md) > [Market data](options_marketdata.md) >  Real-time Tick Filter | [Previous page](merge_policy.md) [Return to chapter overview](options_marketdata.md) [Next page](multiple_connections.md) |
 
 What is tick filtering?
 -----------------------

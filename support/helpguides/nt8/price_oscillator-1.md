@@ -6,14 +6,14 @@ Price Oscillator
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\price_oscillator.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Price Oscillator | [Previous page](polarized_fractal_efficiency_p-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](prior_day_ohlc-1.htm) |
+| << [Click to Display Table of Contents](.\price_oscillator.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Price Oscillator | [Previous page](polarized_fractal_efficiency_p-1.md) [Return to chapter overview](indicators-1.md) [Next page](prior_day_ohlc-1.md) |
 
 Description
 -----------
 
-The Price Oscillator is an indicator based on the difference between two [moving averages](moving_average_-_exponential_e-1.htm), and is expressed as either a percentage or in absolute terms.
+The Price Oscillator is an indicator based on the difference between two [moving averages](moving_average_-_exponential_e-1.md), and is expressed as either a percentage or in absolute terms.
 
-... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_priceOscillator.html)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_priceOscillator.md)
 
 Syntax
 ------
@@ -37,10 +37,10 @@ Parameters
 
 |  |  |
 | --- | --- |
-| fast | The number of bars to calculate the fast [EMA](moving_average_-_exponential_e-1.htm) |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
-| slow | The number of bars to calculate the slow [EMA](moving_average_-_exponential_e-1.htm) |
-| smooth | The number of bars to calculate the [EMA](moving_average_-_exponential_e-1.htm) signal line |
+| fast | The number of bars to calculate the fast [EMA](moving_average_-_exponential_e-1.md) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
+| slow | The number of bars to calculate the slow [EMA](moving_average_-_exponential_e-1.md) |
+| smooth | The number of bars to calculate the [EMA](moving_average_-_exponential_e-1.md) signal line |
 
 Example
 -------

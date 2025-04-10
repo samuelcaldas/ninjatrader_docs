@@ -6,7 +6,7 @@ IsTradingHoursBreakLineVisible
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](istradinghoursbreaklinevisible.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  IsTradingHoursBreakLineVisible | [Previous page](isinstrategyanalyer.htm) [Return to chapter overview](strategy.htm) [Next page](iswaituntilflat.htm) |
+| << [Click to Display Table of Contents](istradinghoursbreaklinevisible.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  IsTradingHoursBreakLineVisible | [Previous page](isinstrategyanalyer.md) [Return to chapter overview](strategy.md) [Next page](iswaituntilflat.md) |
 
 Definition
 ----------
@@ -24,7 +24,7 @@ This property returns true if trading hours break lines are plotted on the indic
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

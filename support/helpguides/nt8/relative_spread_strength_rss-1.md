@@ -6,12 +6,12 @@ Relative Spread Strength (RSS)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\relative_spread_strength_rss.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Relative Spread Strength (RSS) | [Previous page](regression_channel-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](relative_strength_index_rsi-1.htm) |
+| << [Click to Display Table of Contents](.\relative_spread_strength_rss.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Relative Spread Strength (RSS) | [Previous page](regression_channel-1.md) [Return to chapter overview](indicators-1.md) [Next page](relative_strength_index_rsi-1.md) |
 
 Description
 -----------
 
-Developed by Ian Copsey, Relative Spread Strength is a variation to the [Relative Strength Index](relative_strength_index_rsi-1.htm).
+Developed by Ian Copsey, Relative Spread Strength is a variation to the [Relative Strength Index](relative_strength_index_rsi-1.md).
 
 Syntax
 ------
@@ -40,7 +40,7 @@ Parameters
 | --- | --- |
 | eMA1 | First EMA's period |
 | eMA2 | Second EMA's period |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | length | Number of bars used in the calculation |
 
 Examples

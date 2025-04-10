@@ -6,9 +6,9 @@ Price Selector
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](price_selector.htm) >>  **Navigation:**  [Operations](operations.htm) > [Order Entry](order_entry.htm) > [Trade Controls](trade_controls.htm) >  Price Selector | [Previous page](position_display.htm) [Return to chapter overview](trade_controls.htm) [Next page](quantity_selector.htm) |
+| << [Click to Display Table of Contents](price_selector.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) > [Trade Controls](trade_controls.md) >  Price Selector | [Previous page](position_display.md) [Return to chapter overview](trade_controls.md) [Next page](quantity_selector.md) |
 
-NinjaTrader order entry feature which have the ability to place custom orders for Stop-Market, Stop-Limit, Limit and MIT orders such as the [Order Ticket,](order_ticket.htm) [Basic Entry](basic_entry.htm), [FX Pro](fx_pro.htm), and [FX Board](fx_board.htm) use a standard Price Selector which is used to specify the exact price used for these types of orders.
+NinjaTrader order entry feature which have the ability to place custom orders for Stop-Market, Stop-Limit, Limit and MIT orders such as the [Order Ticket,](order_ticket.md) [Basic Entry](basic_entry.md), [FX Pro](fx_pro.md), and [FX Board](fx_board.md) use a standard Price Selector which is used to specify the exact price used for these types of orders.
 
 ![Shared_Trade_Controls_5](shared_trade_controls_5.png)
 

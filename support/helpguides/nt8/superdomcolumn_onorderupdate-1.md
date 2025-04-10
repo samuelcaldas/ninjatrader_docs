@@ -6,12 +6,12 @@ OnOrderUpdate()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\superdomcolumn_onorderupdate.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [SuperDOM Column](superdom_column-1.htm) >  OnOrderUpdate() | [Previous page](superdomcolumn_onmarketdata-1.htm) [Return to chapter overview](superdom_column-1.htm) [Next page](superdomcolumn_onpositionupdate-1.htm) |
+| << [Click to Display Table of Contents](.\superdomcolumn_onorderupdate.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [SuperDOM Column](superdom_column-1.md) >  OnOrderUpdate() | [Previous page](superdomcolumn_onmarketdata-1.md) [Return to chapter overview](superdom_column-1.md) [Next page](superdomcolumn_onpositionupdate-1.md) |
 
 Definition
 ----------
 
-Called every time an [order](order-1.htm) changes state. An order will change state when a change in order quantity, price or state (e.g. working to filled) occurs.
+Called every time an [order](order-1.md) changes state. An order will change state when a change in order quantity, price or state (e.g. working to filled) occurs.
 
 |  |
 | --- |

@@ -6,17 +6,17 @@ Bars
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\chartbars_bars.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartBars](chartbars-1.htm) >  Bars | [Previous page](chartbars-1.htm) [Return to chapter overview](chartbars-1.htm) [Next page](chartbars_count-1.htm) |
+| << [Click to Display Table of Contents](.\chartbars_bars.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartBars](chartbars-1.md) >  Bars | [Previous page](chartbars-1.md) [Return to chapter overview](chartbars-1.md) [Next page](chartbars_count-1.md) |
 
 Definition
 ----------
 
-Represents the data returned from the historical data repository in relation to the primary [ChartBars](chartbars-1.htm) object configured on the chart.  See also [Bars](bars-1.htm)
+Represents the data returned from the historical data repository in relation to the primary [ChartBars](chartbars-1.md) object configured on the chart.  See also [Bars](bars-1.md)
 
 Property Value
 --------------
 
-A [Bars](bars-1.htm) object
+A [Bars](bars-1.md) object
 
 Syntax
 ------

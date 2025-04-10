@@ -6,7 +6,7 @@ Woodies CCI
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](woodies_cci.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Woodies CCI | [Previous page](wiseman_awesome_oscillator.htm) [Return to chapter overview](indicators.htm) [Next page](woodies_pivots.htm) |
+| << [Click to Display Table of Contents](woodies_cci.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Woodies CCI | [Previous page](wiseman_awesome_oscillator.md) [Return to chapter overview](indicators.md) [Next page](woodies_pivots.md) |
 
 Description
 -----------
@@ -89,7 +89,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 Example
 -------

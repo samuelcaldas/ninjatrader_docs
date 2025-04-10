@@ -6,12 +6,12 @@ PlotBrushes
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](plotbrushes.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) > [AddPlot()](addplot.htm) >  PlotBrushes | [Previous page](displacement.htm) [Return to chapter overview](addplot.htm) [Next page](plots.htm) |
+| << [Click to Display Table of Contents](plotbrushes.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) > [AddPlot()](addplot.md) >  PlotBrushes | [Previous page](displacement.md) [Return to chapter overview](addplot.md) [Next page](plots.md) |
 
 Definition
 ----------
 
-Holds an array of color series objects holding historical bar colors. A color series object is added to this array when calling the [AddPlot()](addplot.htm) method in a custom Indicator for plots. Its purpose is to provide access to the color property of all bars.
+Holds an array of color series objects holding historical bar colors. A color series object is added to this array when calling the [AddPlot()](addplot.md) method in a custom Indicator for plots. Its purpose is to provide access to the color property of all bars.
 
 Property Value
 --------------

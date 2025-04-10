@@ -6,7 +6,7 @@ IDrawingTool
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](idrawingtool.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  IDrawingTool | [Previous page](drawingtools_drawobjects.htm) [Return to chapter overview](drawing.htm) [Next page](pricelevels.htm) |
+| << [Click to Display Table of Contents](idrawingtool.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  IDrawingTool | [Previous page](drawingtools_drawobjects.md) [Return to chapter overview](drawing.md) [Next page](pricelevels.md) |
 
 Definition
 ----------
@@ -22,16 +22,16 @@ Each specific IDrawingTool will have its own uniquely named ChartAnchor represen
 
 |  |
 | --- |
-| Note:  For implementing a custom Drawing Tool project, please see the [DrawingTools](drawing_tools.htm) section of this help guide. |
+| Note:  For implementing a custom Drawing Tool project, please see the [DrawingTools](drawing_tools.md) section of this help guide. |
 
 IDrawingTool Properties
 -----------------------
 
 |  |  |
 | --- | --- |
-| Anchors | A read-only collection of all of the [IDrawingTool's ChartAnchors](idrawingtool.htm#chartanchor) |
+| Anchors | A read-only collection of all of the [IDrawingTool's ChartAnchors](idrawingtool.md#chartanchor) |
 | AttachedTo | An enum determining where the drawing tool is attached.    Possible values are:  •AttachedToType.Bars,  •AttachedToType.GlobalInstrument,  •AttachedToType.Indicator,  •AttachedToType.Strategy |
-| DrawingState | The current [DrawingState](drawingstate.htm) of the drawing tool |
+| DrawingState | The current [DrawingState](drawingstate.md) of the drawing tool |
 | DrawnBy | An object value indicating which type of NinjaScript the drawing tool originated (null if user drawn) |
 | IsAttachedToNinjaScript | A read-only bool indicating if the drawing tool is attached to an indicator or strategy |
 | IgnoresUserInput | A read-only bool determining if the drawing tool can be interacted with by the user. |
@@ -52,7 +52,7 @@ ChartAnchor Properties
 | <ChartAnchor>.BarsAgo | An int representing the "barsAgo" value that was passed to the Draw method    Note:  This value will NOT be set for objects drawn manually |
 | <ChartAnchor>.DisplayName | A string representing name of the DrawingTool's chart anchor that is displaying on the UI |
 | <ChartAnchor>.DrawingTool | The IDrawingTool object which created the DrawingTool's chart anchor object |
-| <ChartAnchor>.DrawnOnBar | An int representing the [CurrentBar](currentbar.htm) value that the DrawingTool's chart anchor was drawn |
+| <ChartAnchor>.DrawnOnBar | An int representing the [CurrentBar](currentbar.md) value that the DrawingTool's chart anchor was drawn |
 | <ChartAnchor>.IsNinjaScriptDrawn | A bool indicating the object was drawn programmatically |
 | <ChartAnchor>.Price | A double representing the price the  DrawingTool's chart anchor was drawn |
 | <ChartAnchor>.SlotIndex | A double representing the DrawingTool's chart anchor index value the anchor was drawn |

@@ -6,7 +6,7 @@ Stroke Class
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](stroke_class.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) >  Stroke Class | [Previous page](scalejustification.htm) [Return to chapter overview](chart.htm) [Next page](usercontrolcollection.htm) |
+| << [Click to Display Table of Contents](stroke_class.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) >  Stroke Class | [Previous page](scalejustification.md) [Return to chapter overview](chart.md) [Next page](usercontrolcollection.md) |
 
 Definition
 ----------
@@ -33,7 +33,7 @@ Parameters
 | --- | --- |
 | brush | The brush used to draw the plot ([reference](http://msdn.microsoft.com/en-us/library/System.Windows.Media.Brush%28v=vs.110%29.aspx)) |
 | dashStyleHelper | Possible values:    DashStyleHelper.Dash  DashStyleHelper.DashDot  DashStyleHelper.DashDotDot  DashStyleHelper.Dot  DashStyleHelper.Solid |
-| stroke | The [stroke](stroke_class.htm) object |
+| stroke | The [stroke](stroke_class.md) object |
 | width | The width of the stroke |
 
 Properties
@@ -42,11 +42,11 @@ Properties
 |  |  |
 | --- | --- |
 | Brush | The System.Windows.Media.Brush used to construct the stroke ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
-| BrushDX | A [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.htm) used to actually render the stroke    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |
-| DashStyleDX | A [SharpDX.Direct2D1.DashStyle](sharpdx_direct2d1_strokestyle_dashstyle.htm) used to render the stroke style    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |
+| BrushDX | A [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) used to actually render the stroke    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |
+| DashStyleDX | A [SharpDX.Direct2D1.DashStyle](sharpdx_direct2d1_strokestyle_dashstyle.md) used to render the stroke style    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |
 | DashStyleHelper | A dashstyle used to construct the stroke. Possible values are:    •DashStyleHelper.Dash  •DashStyleHelper.DashDot  •DashStyleHelper.DashDotDot  •DashStyleHelper.Dot  •DashStyleHelper.Solid |
-| RenderTarget | The [RenderTarget](rendertarget.htm) drawing context used for the stroke.    Note: This property must be set before accessing a stroke's BrushDX property. Please see Warning and examples remarked below |
-| StrokeStyle | A [SharpDX.Direct2D1.StrokeStyle](sharpdx_direct2d1_strokestyle.htm) |
+| RenderTarget | The [RenderTarget](rendertarget.md) drawing context used for the stroke.    Note: This property must be set before accessing a stroke's BrushDX property. Please see Warning and examples remarked below |
+| StrokeStyle | A [SharpDX.Direct2D1.StrokeStyle](sharpdx_direct2d1_strokestyle.md) |
 | Width | A float representing the width in pixels |
 
 |  |
@@ -56,7 +56,7 @@ Properties
 Examples
 --------
 
-See the [AddPlot()](addplot.htm) method for additional examples.
+See the [AddPlot()](addplot.md) method for additional examples.
 
 | ns |
 | --- |

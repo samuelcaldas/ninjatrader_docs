@@ -6,7 +6,7 @@ EnterLong()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](enterlong.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [Order Methods](order_methods.htm) > [Managed Approach](managed_approach.htm) >  EnterLong() | [Previous page](managed_changeorder.htm) [Return to chapter overview](managed_approach.htm) [Next page](enterlonglimit.htm) |
+| << [Click to Display Table of Contents](enterlong.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Managed Approach](managed_approach.md) >  EnterLong() | [Previous page](managed_changeorder.md) [Return to chapter overview](managed_approach.md) [Next page](enterlonglimit.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Generates a buy market order to enter a long position.
 Method Return Value
 -------------------
 
-An [Order](order.htm) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.htm) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
 
 Syntax
 ------
@@ -28,7 +28,7 @@ EnterLong(int quantity)
 
 EnterLong(int quantity, string signalName)
 
-The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.htm) concepts:
+The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.md) concepts:
 
 EnterLong(int barsInProgressIndex, int quantity, string signalName)
 
@@ -49,7 +49,7 @@ Parameters
 | --- | --- |
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | quantity | Entry order quantity (if 0 is passed in, will be set to 1, except for stocks 100) |
-| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress.htm) property. |
+| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress.md) property. |
 
 Examples
 --------

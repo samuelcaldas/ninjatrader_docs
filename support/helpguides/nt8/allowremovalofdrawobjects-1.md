@@ -6,12 +6,12 @@ AllowRemovalOfDrawObjects
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\allowremovalofdrawobjects.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  AllowRemovalOfDrawObjects | [Previous page](brushes-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](backbrush-1.htm) |
+| << [Click to Display Table of Contents](.\allowremovalofdrawobjects.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  AllowRemovalOfDrawObjects | [Previous page](brushes-1.md) [Return to chapter overview](drawing-1.md) [Next page](backbrush-1.md) |
 
 Definition
 ----------
 
-Determines if programmatically drawn [DrawObjects](drawingtools_drawobjects-1.htm) are allowed to remove manually from the chart
+Determines if programmatically drawn [DrawObjects](drawingtools_drawobjects-1.md) are allowed to remove manually from the chart
 
  
 

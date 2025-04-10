@@ -6,9 +6,9 @@ IWorkspacePersistence Interface
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](iworkspacepersistence_interface.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  IWorkspacePersistence Interface | [Previous page](createtabpage.htm) [Return to chapter overview](add_on.htm) [Next page](iworkspacepersistence_restore.htm) |
+| << [Click to Display Table of Contents](iworkspacepersistence_interface.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  IWorkspacePersistence Interface | [Previous page](createtabpage.md) [Return to chapter overview](add_on.md) [Next page](iworkspacepersistence_restore.md) |
 
-When creating your [NTWindow](ntwindow.htm), be sure to implement the IWorkspacePersistence interface as well for the ability to save and restore your window with NinjaTrader workspaces.
+When creating your [NTWindow](ntwindow.md), be sure to implement the IWorkspacePersistence interface as well for the ability to save and restore your window with NinjaTrader workspaces.
 
 |  |
 | --- |
@@ -18,9 +18,9 @@ This interface contains two methods and one property which must be hidden by the
 
 |  |  |
 | --- | --- |
-| [Restore()](iworkspacepersistence_restore.htm) | Restores the window from workspaces. |
-| [Save()](iworkspacepersistence_save.htm) | Saves the window to workspaces. |
-| [WorkspaceOptions](workspaceoptions.htm) | Sets required workspace options. |
+| [Restore()](iworkspacepersistence_restore.md) | Restores the window from workspaces. |
+| [Save()](iworkspacepersistence_save.md) | Saves the window to workspaces. |
+| [WorkspaceOptions](workspaceoptions.md) | Sets required workspace options. |
 
 Examples
 --------

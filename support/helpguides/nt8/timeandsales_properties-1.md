@@ -6,7 +6,7 @@ Time & Sales Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\timeandsales_properties.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Time & Sales](time__sales-1.htm) >  Time & Sales Properties | [Previous page](timeandsales_usingthetimeandsaleswindow-1.htm) [Return to chapter overview](time__sales-1.htm) [Next page](timeandsales_windowlinking-1.htm) |
+| << [Click to Display Table of Contents](.\timeandsales_properties.md) >>  **Navigation:**  [Operations](operations-1.md) > [Time & Sales](time__sales-1.md) >  Time & Sales Properties | [Previous page](timeandsales_usingthetimeandsaleswindow-1.md) [Return to chapter overview](time__sales-1.md) [Next page](timeandsales_windowlinking-1.md) |
 
 Many of the Time & Sales visual display settings can be customized using the Time & Sales Properties window.
 
@@ -32,4 +32,4 @@ Many of the Time & Sales visual display settings can be customized using the Tim
 
 |  |
 | --- |
-| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the TIme & Sales Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.htm) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the TIme & Sales Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.md) page. |

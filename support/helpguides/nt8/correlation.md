@@ -6,7 +6,7 @@ Correlation
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](correlation.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Correlation | [Previous page](commodity_channel_index_cci.htm) [Return to chapter overview](indicators.htm) [Next page](current_day_ohl.htm) |
+| << [Click to Display Table of Contents](correlation.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Correlation | [Previous page](commodity_channel_index_cci.md) [Return to chapter overview](indicators.md) [Next page](current_day_ohl.md) |
 
 Description
 -----------
@@ -30,7 +30,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 | correlationSeries | The data series to compare to |
 

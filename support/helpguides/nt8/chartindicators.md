@@ -6,17 +6,17 @@ ChartIndicators
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chartindicators.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  ChartIndicators | [Previous page](barssinceexitexecution.htm) [Return to chapter overview](strategy.htm) [Next page](closestrategy.htm) |
+| << [Click to Display Table of Contents](chartindicators.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  ChartIndicators | [Previous page](barssinceexitexecution.md) [Return to chapter overview](strategy.md) [Next page](closestrategy.md) |
 
 Definition
 ----------
 
-Contains a collection of Indicators which have been added to the strategy instance using [AddChartIndicator()](addchartindicator.htm).
+Contains a collection of Indicators which have been added to the strategy instance using [AddChartIndicator()](addchartindicator.md).
 
 Property Value
 --------------
 
-An [Indicator](indicator.htm) object
+An [Indicator](indicator.md) object
 
 Syntax 
 ChartIndicators[int index]

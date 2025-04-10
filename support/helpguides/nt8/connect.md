@@ -6,7 +6,7 @@ Connect()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](connect.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Connection](connection_class.htm) >  Connect() | [Previous page](connection_cancelallorders.htm) [Return to chapter overview](connection_class.htm) [Next page](connectionstatusupdate.htm) |
+| << [Click to Display Table of Contents](connect.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Connection](connection_class.md) >  Connect() | [Previous page](connection_cancelallorders.md) [Return to chapter overview](connection_class.md) [Next page](connectionstatusupdate.md) |
 
 Definition
 ----------

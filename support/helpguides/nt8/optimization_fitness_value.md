@@ -6,7 +6,7 @@ Value
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](optimization_fitness_value.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Optimization Fitness](optimization_fitness.htm) >  Value | [Previous page](oncalculateperformancevalue.htm) [Return to chapter overview](optimization_fitness.htm) [Next page](optimizer.htm) |
+| << [Click to Display Table of Contents](optimization_fitness_value.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Optimization Fitness](optimization_fitness.md) >  Value | [Previous page](oncalculateperformancevalue.md) [Return to chapter overview](optimization_fitness.md) [Next page](optimizer.md) |
 
 Definition
 ----------

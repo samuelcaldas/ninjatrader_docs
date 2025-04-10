@@ -6,23 +6,23 @@ ToDirectWriteTextFormat()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\simplefont_todirectwritetextformat.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [SimpleFont](simplefont_class-1.htm) >  ToDirectWriteTextFormat() | [Previous page](simplefont_applyto-1.htm) [Return to chapter overview](simplefont_class-1.htm) [Next page](indicators-1.htm) |
+| << [Click to Display Table of Contents](.\simplefont_todirectwritetextformat.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [SimpleFont](simplefont_class-1.md) >  ToDirectWriteTextFormat() | [Previous page](simplefont_applyto-1.md) [Return to chapter overview](simplefont_class-1.md) [Next page](indicators-1.md) |
 
 Definition
 ----------
 
-Converts a [SimpleFont](simplefont_class-1.htm) object to a [SharpDX](sharpdx-1.htm) compatible font which can be used for chart rendering.
+Converts a [SimpleFont](simplefont_class-1.md) object to a [SharpDX](sharpdx-1.md) compatible font which can be used for chart rendering.
 
  
 
 |  |
 | --- |
-| Note:  For more information please see the educational resource on [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.htm) |
+| Note:  For more information please see the educational resource on [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.md) |
 
 Method Return Value
 -------------------
 
-A [DirectWrite.TextFormat](sharpdx_directwrite_textformat-1.htm) object
+A [DirectWrite.TextFormat](sharpdx_directwrite_textformat-1.md) object
 -----------------------------------------------------------------------
 
 |  |

@@ -6,7 +6,7 @@ Standard Deviation (StdDev)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](standard_deviation_stddev.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Standard Deviation (StdDev) | [Previous page](r_squared.htm) [Return to chapter overview](indicators.htm) [Next page](standard_error_stderror.htm) |
+| << [Click to Display Table of Contents](standard_deviation_stddev.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Standard Deviation (StdDev) | [Previous page](r_squared.md) [Return to chapter overview](indicators.md) [Next page](standard_error_stderror.md) |
 
 Description
 -----------
@@ -37,7 +37,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

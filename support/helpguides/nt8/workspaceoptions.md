@@ -6,7 +6,7 @@ WorkspaceOptions
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](workspaceoptions.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [IWorkspacePersistence Interface](iworkspacepersistence_interface.htm) >  WorkspaceOptions | [Previous page](iworkspacepersistence_save.htm) [Return to chapter overview](iworkspacepersistence_interface.htm) [Next page](nttabpage_class.htm) |
+| << [Click to Display Table of Contents](workspaceoptions.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [IWorkspacePersistence Interface](iworkspacepersistence_interface.md) >  WorkspaceOptions | [Previous page](iworkspacepersistence_save.md) [Return to chapter overview](iworkspacepersistence_interface.md) [Next page](nttabpage_class.md) |
 
 Definition
 ----------

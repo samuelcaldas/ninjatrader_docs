@@ -6,7 +6,7 @@ MarketDepth
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](marketdepth.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  MarketDepth | [Previous page](marketdata.htm) [Return to chapter overview](add_on.htm) [Next page](newsitems.htm) |
+| << [Click to Display Table of Contents](marketdepth.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  MarketDepth | [Previous page](marketdata.md) [Return to chapter overview](add_on.md) [Next page](newsitems.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ MarketDepth can be used to access snapshot market depth and for subscribing to m
 
 |  |
 | --- |
-| Notes:  1.Remember to unsubscribe if you are no longer using the subscription.  2.You should only unsubscribe to a market depth event if you are actually subscribed.  3.You must unsubscribe from the same thread where the subscription is made. It is therefore recommended to user an [Instrument's](instrument.htm) Dispatcher to ensure this is handled properly. |
+| Notes:  1.Remember to unsubscribe if you are no longer using the subscription.  2.You should only unsubscribe to a market depth event if you are actually subscribed.  3.You must unsubscribe from the same thread where the subscription is made. It is therefore recommended to user an [Instrument's](instrument.md) Dispatcher to ensure this is handled properly. |
 
 Properties
 ----------
@@ -24,7 +24,7 @@ Properties
 | --- | --- |
 | Asks | List of ask prices |
 | Bids | List of bid prices |
-| Instrument | [Instrument](instrument.htm) representing the instrument of the market depth event |
+| Instrument | [Instrument](instrument.md) representing the instrument of the market depth event |
 | Update | Event handler for subscribing/unsubscribing to market depth events |
 
 Syntax

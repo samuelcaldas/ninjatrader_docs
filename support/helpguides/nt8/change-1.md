@@ -6,12 +6,12 @@ Change()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\change.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) > [Account](account_class-1.htm) >  Change() | [Previous page](accounts_cancelallorders-1.htm) [Return to chapter overview](account_class-1.htm) [Next page](connection-1.htm) |
+| << [Click to Display Table of Contents](.\change.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [Account](account_class-1.md) >  Change() | [Previous page](accounts_cancelallorders-1.md) [Return to chapter overview](account_class-1.md) [Next page](connection-1.md) |
 
 Definition
 ----------
 
-Changes specified [Order](order-1.htm) object(s).
+Changes specified [Order](order-1.md) object(s).
 
 Syntax
 ------

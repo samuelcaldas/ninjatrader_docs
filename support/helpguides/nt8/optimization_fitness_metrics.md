@@ -6,7 +6,7 @@ Optimization Fitness Metrics
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](optimization_fitness_metrics.htm) >>  **Navigation:**  [Operations](operations.htm) > [Strategy Analyzer](strategy_analyzer.htm) > [Optimization](optimize_a_strategy.htm) >  Optimization Fitness Metrics | [Previous page](genetic_algorithm.htm) [Return to chapter overview](optimize_a_strategy.htm) [Next page](walk_forward_optimize_a_strate.htm) |
+| << [Click to Display Table of Contents](optimization_fitness_metrics.md) >>  **Navigation:**  [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) > [Optimization](optimize_a_strategy.md) >  Optimization Fitness Metrics | [Previous page](genetic_algorithm.md) [Return to chapter overview](optimize_a_strategy.md) [Next page](walk_forward_optimize_a_strate.md) |
 
 Optimization fitness metrics are used as the targets of optimization tests to determine the optimal mix of strategy parameter values. Below is a list of all pre-loaded optimization fitness metrics and their definitions. Custom optimization fitness metrics can be developed via NinjaScript, as well.
 
@@ -20,13 +20,13 @@ Optimization fitness metrics are used as the targets of optimization tests to de
 
 |  |
 | --- |
-| Max Average Favorable Excursion This metric represents the average maximum run-up in profit during an iteration.    See the "Percent" formula for [Average MFE](statistics_definitions.htm) on the Performance Statistics page. |
+| Max Average Favorable Excursion This metric represents the average maximum run-up in profit during an iteration.    See the "Percent" formula for [Average MFE](statistics_definitions.md) on the Performance Statistics page. |
 
 ![tog_minus](tog_minus.gif)
 
 |  |
 | --- |
-| Max Avg. Profit This metric represents the average profit of all trades in an iteration.    See the "Percent" formula for [Average Trade](statistics_definitions.htm) on the Performance Statistics page. |
+| Max Avg. Profit This metric represents the average profit of all trades in an iteration.    See the "Percent" formula for [Average Trade](statistics_definitions.md) on the Performance Statistics page. |
 
 ![tog_minus](tog_minus.gif)        Understanding Max Net Profit
 
@@ -38,7 +38,7 @@ Optimization fitness metrics are used as the targets of optimization tests to de
 
 |  |
 | --- |
-| Max Profit Factor This metric provides a ratio of total earnings to total loss in an iteration.   See the [Profit Factor](statistics_definitions.htm) formula on the Statistics Definitions page. |
+| Max Profit Factor This metric provides a ratio of total earnings to total loss in an iteration.   See the [Profit Factor](statistics_definitions.md) formula on the Statistics Definitions page. |
 
 ![tog_minus](tog_minus.gif)        Understanding Max R Squared (R^2)
 
@@ -62,7 +62,7 @@ Optimization fitness metrics are used as the targets of optimization tests to de
 
 |  |
 | --- |
-| Max Ulcer Ratio This metric measures downside risk, with values increasing as the market price moves farther from a recent high.   See the [Ulcer Index](statistics_definitions.htm) formula on the Statistics Definitions page. |
+| Max Ulcer Ratio This metric measures downside risk, with values increasing as the market price moves farther from a recent high.   See the [Ulcer Index](statistics_definitions.md) formula on the Statistics Definitions page. |
 
 ![tog_minus](tog_minus.gif)        Understanding Max Win/Loss Ratio
 
@@ -74,13 +74,13 @@ Optimization fitness metrics are used as the targets of optimization tests to de
 
 |  |
 | --- |
-| Minimum Avg. Adverse Excursion This metric represents the average run-down of trades in an iteration.    See the "Percent" formula for [Maximum Adverse Excursion](statistics_definitions.htm) on the Statistics Definitions page  Min Avg. Adverse Excursion finds the lowest value from the Maximum Adverse Excursion statistic |
+| Minimum Avg. Adverse Excursion This metric represents the average run-down of trades in an iteration.    See the "Percent" formula for [Maximum Adverse Excursion](statistics_definitions.md) on the Statistics Definitions page  Min Avg. Adverse Excursion finds the lowest value from the Maximum Adverse Excursion statistic |
 
 ![tog_minus](tog_minus.gif)        Understanding Min Drawdown
 
 |  |
 | --- |
-| Minimum Drawdown This fitness metric represents the smallest decrease (draw-down) in account size experienced from the highest high seen in each trade, and is used to find the iteration with the lowest draw-down.    See the [Maximum Drawdown](statistics_definitions.htm) formula on the Statistics Definitions page  Min Drawdown = the smallest single drawdown |
+| Minimum Drawdown This fitness metric represents the smallest decrease (draw-down) in account size experienced from the highest high seen in each trade, and is used to find the iteration with the lowest draw-down.    See the [Maximum Drawdown](statistics_definitions.md) formula on the Statistics Definitions page  Min Drawdown = the smallest single drawdown |
 
 ![tog_minus](tog_minus.gif)        Understanding Max Strength
 

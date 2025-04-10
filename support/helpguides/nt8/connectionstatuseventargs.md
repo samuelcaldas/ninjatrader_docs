@@ -6,12 +6,12 @@ ConnectionStatusEventArgs
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](connectionstatuseventargs.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [OnConnectionStatusUpdate()](onconnectionstatusupdate.htm) >  ConnectionStatusEventArgs | [Previous page](onconnectionstatusupdate.htm) [Return to chapter overview](onconnectionstatusupdate.htm) [Next page](onfundamentaldata.htm) |
+| << [Click to Display Table of Contents](connectionstatuseventargs.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnConnectionStatusUpdate()](onconnectionstatusupdate.md) >  ConnectionStatusEventArgs | [Previous page](onconnectionstatusupdate.md) [Return to chapter overview](onconnectionstatusupdate.md) [Next page](onfundamentaldata.md) |
 
 Definition
 ----------
 
-ConnectionStatusEventArgs contains [Connection](connection.htm)-related information to be passed as an argument to the [OnConnectionStatusUpdate()](onconnectionstatusupdate.htm) event.
+ConnectionStatusEventArgs contains [Connection](connection.md)-related information to be passed as an argument to the [OnConnectionStatusUpdate()](onconnectionstatusupdate.md) event.
 
  
 
@@ -19,7 +19,7 @@ ConnectionStatusEventArgs contains [Connection](connection.htm)-related informat
 
 |  |
 | --- |
-| Note:  For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](addon_development_overview.htm) |
+| Note:  For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](addon_development_overview.md) |
 
  
 

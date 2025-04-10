@@ -6,7 +6,7 @@ AverageMfe
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](averagemfe.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradesPerformanceValues](tradesperformancevalues.htm) >  AverageMfe | [Previous page](averagemae.htm) [Return to chapter overview](tradesperformancevalues.htm) [Next page](averageprofit.htm) |
+| << [Click to Display Table of Contents](averagemfe.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradesPerformanceValues](tradesperformancevalues.md) >  AverageMfe | [Previous page](averagemae.md) [Return to chapter overview](tradesperformancevalues.md) [Next page](averageprofit.md) |
 
 Definition
 ----------

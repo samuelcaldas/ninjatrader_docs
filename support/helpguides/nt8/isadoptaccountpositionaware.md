@@ -6,12 +6,12 @@ IsAdoptAccountPositionAware
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isadoptaccountpositionaware.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  IsAdoptAccountPositionAware | [Previous page](includetradehistoryinbacktest.htm) [Return to chapter overview](strategy.htm) [Next page](isexitonsessionclosestrategy.htm) |
+| << [Click to Display Table of Contents](isadoptaccountpositionaware.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  IsAdoptAccountPositionAware | [Previous page](includetradehistoryinbacktest.md) [Return to chapter overview](strategy.md) [Next page](isexitonsessionclosestrategy.md) |
 
 Definition
 ----------
 
-Determines if the strategy is programmed in a manner capable of handling  real-world account positions. Once set to true, your strategy's "[Start behavior](startbehavior.htm)" options will include an additional parameter named "Adopt account position" which can bet set at run-time.  Only set to true if you have specifically programmed your strategy to be able to adopt account positions.
+Determines if the strategy is programmed in a manner capable of handling  real-world account positions. Once set to true, your strategy's "[Start behavior](startbehavior.md)" options will include an additional parameter named "Adopt account position" which can bet set at run-time.  Only set to true if you have specifically programmed your strategy to be able to adopt account positions.
 
 Property Value
 --------------
@@ -20,7 +20,7 @@ This property returns true if the strategy can adopt account positions; otherwis
 
 |  |
 | --- |
-| Note:  This property should ONLY be set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults. |
+| Note:  This property should ONLY be set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults. |
 
 Syntax
 ------

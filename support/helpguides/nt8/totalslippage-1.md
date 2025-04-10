@@ -6,7 +6,7 @@ TotalSlippage
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\totalslippage.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [TradeCollection](tradecollection-1.htm) > [TradesPerformance](tradesperformance-1.htm) >  TotalSlippage | [Previous page](totalquantity-1.htm) [Return to chapter overview](tradesperformance-1.htm) [Next page](tradescount-1.htm) |
+| << [Click to Display Table of Contents](.\totalslippage.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [TradeCollection](tradecollection-1.md) > [TradesPerformance](tradesperformance-1.md) >  TotalSlippage | [Previous page](totalquantity-1.md) [Return to chapter overview](tradesperformance-1.md) [Next page](tradescount-1.md) |
 
 Definition
 ----------

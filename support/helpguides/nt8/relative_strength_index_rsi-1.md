@@ -6,14 +6,14 @@ Relative Strength Index (RSI)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\relative_strength_index_rsi.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Relative Strength Index (RSI) | [Previous page](relative_spread_strength_rss-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](relative_vigor_index-1.htm) |
+| << [Click to Display Table of Contents](.\relative_strength_index_rsi.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Relative Strength Index (RSI) | [Previous page](relative_spread_strength_rss-1.md) [Return to chapter overview](indicators-1.md) [Next page](relative_vigor_index-1.md) |
 
 Description
 -----------
 
 Developed by J. Welles Wilder and introduced in his 1978 book, New Concepts in Technical Trading Systems, the Relative Strength Index (RSI) is an extremely useful and popular momentum oscillator. The RSI compares the magnitude of a stock's recent gains to the magnitude of its recent losses and turns that information into a number that ranges from 0 to 100.
 
-... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_RSI.html)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_RSI.md)
 
 The original Wilder formula for an exponential moving average with a smoothing constant (k = 1/ Period) is used to calculate the RSI.
 
@@ -45,7 +45,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
 | smooth | Smoothing period |
 

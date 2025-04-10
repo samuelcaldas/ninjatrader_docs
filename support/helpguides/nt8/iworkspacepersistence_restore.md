@@ -6,7 +6,7 @@ Restore()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](iworkspacepersistence_restore.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [IWorkspacePersistence Interface](iworkspacepersistence_interface.htm) >  Restore() | [Previous page](iworkspacepersistence_interface.htm) [Return to chapter overview](iworkspacepersistence_interface.htm) [Next page](iworkspacepersistence_save.htm) |
+| << [Click to Display Table of Contents](iworkspacepersistence_restore.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [IWorkspacePersistence Interface](iworkspacepersistence_interface.md) >  Restore() | [Previous page](iworkspacepersistence_interface.md) [Return to chapter overview](iworkspacepersistence_interface.md) [Next page](iworkspacepersistence_save.md) |
 
 Restores the window from workspaces.
 

@@ -6,12 +6,12 @@ Percent
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](percent.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  Percent | [Previous page](netprofit.htm) [Return to chapter overview](tradesperformance.htm) [Next page](performancemetrics.htm) |
+| << [Click to Display Table of Contents](percent.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  Percent | [Previous page](netprofit.md) [Return to chapter overview](tradesperformance.md) [Next page](performancemetrics.md) |
 
 Definition
 ----------
 
-Returns a [TradesPerformanceValues](tradesperformancevalues.htm) object in percent.
+Returns a [TradesPerformanceValues](tradesperformancevalues.md) object in percent.
 
 Property Value
 --------------

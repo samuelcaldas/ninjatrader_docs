@@ -6,12 +6,12 @@ LastTimePainted
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\lasttimepainted.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartControl](chartcontrol-1.htm) >  LastTimePainted | [Previous page](lastslotpainted-1.htm) [Return to chapter overview](chartcontrol-1.htm) [Next page](mousedownpoint-1.htm) |
+| << [Click to Display Table of Contents](.\lasttimepainted.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartControl](chartcontrol-1.md) >  LastTimePainted | [Previous page](lastslotpainted-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](mousedownpoint-1.md) |
 
 Definition
 ----------
 
-Indicates the time of the most recently painted bar on the primary [Bars](bars-1.htm) object configured on the chart.
+Indicates the time of the most recently painted bar on the primary [Bars](bars-1.md) object configured on the chart.
 
 Property Value
 --------------

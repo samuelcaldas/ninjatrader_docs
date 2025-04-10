@@ -6,7 +6,7 @@ COT
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\cot.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Charts](charts-1.htm) >  COT | [Previous page](power_volume_indicators-1.htm) [Return to chapter overview](charts-1.htm) [Next page](wiseman-1.htm) |
+| << [Click to Display Table of Contents](.\cot.md) >>  **Navigation:**  [Operations](operations-1.md) > [Charts](charts-1.md) >  COT | [Previous page](power_volume_indicators-1.md) [Return to chapter overview](charts-1.md) [Next page](wiseman-1.md) |
 
 Description
 
@@ -32,4 +32,4 @@ The report is released every Friday at 3:30pm and contains position data supplie
 
 |  |
 | --- |
-| For information on how to access the COT values in NinjaScript, please see the [Commitment Of Traders (COT)](commitment-of-traders-(cot)-1.htm) page in the NinjaScript section of the Help Guide. |
+| For information on how to access the COT values in NinjaScript, please see the [Commitment Of Traders (COT)](commitment-of-traders-(cot)-1.md) page in the NinjaScript section of the Help Guide. |

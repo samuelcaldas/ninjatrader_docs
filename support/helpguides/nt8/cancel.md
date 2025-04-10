@@ -6,12 +6,12 @@ Cancel()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](cancel.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Account](account_class.htm) >  Cancel() | [Previous page](all.htm) [Return to chapter overview](account_class.htm) [Next page](accounts_cancelallorders.htm) |
+| << [Click to Display Table of Contents](cancel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) >  Cancel() | [Previous page](all.md) [Return to chapter overview](account_class.md) [Next page](accounts_cancelallorders.md) |
 
 Definition
 ----------
 
-Cancels specified [Order](order.htm) object(s).
+Cancels specified [Order](order.md) object(s).
 
 Syntax
 ------

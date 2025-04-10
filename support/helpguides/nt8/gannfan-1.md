@@ -6,20 +6,20 @@ GannFan
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\gannfan.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) > [Draw.GannFan()](draw_gannfan-1.htm) >  GannFan | [Previous page](draw_gannfan-1.htm) [Return to chapter overview](draw_gannfan-1.htm) [Next page](draw_horizontalline-1.htm) |
+| << [Click to Display Table of Contents](.\gannfan.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.GannFan()](draw_gannfan-1.md) >  GannFan | [Previous page](draw_gannfan-1.md) [Return to chapter overview](draw_gannfan-1.md) [Next page](draw_horizontalline-1.md) |
 
 Definition
 ----------
 
-Represents an interface that exposes information regarding a Gann Fan [IDrawingTool.](idrawingtool-1.htm)
+Represents an interface that exposes information regarding a Gann Fan [IDrawingTool.](idrawingtool-1.md)
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| Anchor | An [IDrawingTool's ChartAnchor](idrawingtool-1.htm#chartanchor) representing the starting point of the drawing object |
-| [PriceLevels](pricelevels-1.htm) | A collection of prices calculated by the drawing object |
+| Anchor | An [IDrawingTool's ChartAnchor](idrawingtool-1.md#chartanchor) representing the starting point of the drawing object |
+| [PriceLevels](pricelevels-1.md) | A collection of prices calculated by the drawing object |
 | GannFanDirection | Possible values:    GannFanDirection.DownLeft  GannFanDirection.DownRight  GannFanDirection.UpLeft  GannFanDirection.UpRight |
 | PointsPerBar | A double value representing the number of points per bar |
 | IsTextDisplayed | A bool value representing if text will be drawn along with the draw object |

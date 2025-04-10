@@ -6,25 +6,25 @@ OnOrderUpdate()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\onorderupdate.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  OnOrderUpdate() | [Previous page](onordertrace-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](onpositionupdate-1.htm) |
+| << [Click to Display Table of Contents](.\onorderupdate.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  OnOrderUpdate() | [Previous page](onordertrace-1.md) [Return to chapter overview](strategy-1.md) [Next page](onpositionupdate-1.md) |
 
 Definition
 ----------
 
-An event driven method which is called each time an order managed by a strategy changes state. An order will change state when a change in order quantity, price or state (working to filled) occurs. You can use this method to program your own [order rejection handling](realtimeerrorhandling-1.htm).
+An event driven method which is called each time an order managed by a strategy changes state. An order will change state when a change in order quantity, price or state (working to filled) occurs. You can use this method to program your own [order rejection handling](realtimeerrorhandling-1.md).
 
 |  |
 | --- |
-| Notes:  •Only orders which have been submitted and managed by the strategy will call OnOrderUpdate().  •Programming in this environment is reserved for the more [advanced user](advanced_order_handling-1.htm). If you are for example looking to protect a strategy managed position with a basic stop and target, then the [Set() methods](managed_approach-1.htm) would be more convenient.  •For triggering actions such as the submission of a stop loss order and target order using custom OCO logic when your entry order is filled, we recommend working directly in [OnExecutionUpdate()](onexecutionupdate-1.htm) instead.  •OnOrderUpdate() will run inside of order methods such as EnterLong() or SubmitOrderUnmanaged(), therefore attempting to assign an order object outside of OnOrderUpdate() may not return as soon as expected.  If your strategy is dependent on tracking the order object from the very first update, you should try to match your order objects by the order.Name (signal name) from during the OnOrderUpdate() as the order is first updated.  •Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. For an example on protecting positions with this approach, see [OnExecutionUpdate()](onexecutionupdate-1.htm) |
+| Notes:  •Only orders which have been submitted and managed by the strategy will call OnOrderUpdate().  •Programming in this environment is reserved for the more [advanced user](advanced_order_handling-1.md). If you are for example looking to protect a strategy managed position with a basic stop and target, then the [Set() methods](managed_approach-1.md) would be more convenient.  •For triggering actions such as the submission of a stop loss order and target order using custom OCO logic when your entry order is filled, we recommend working directly in [OnExecutionUpdate()](onexecutionupdate-1.md) instead.  •OnOrderUpdate() will run inside of order methods such as EnterLong() or SubmitOrderUnmanaged(), therefore attempting to assign an order object outside of OnOrderUpdate() may not return as soon as expected.  If your strategy is dependent on tracking the order object from the very first update, you should try to match your order objects by the order.Name (signal name) from during the OnOrderUpdate() as the order is first updated.  •Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. For an example on protecting positions with this approach, see [OnExecutionUpdate()](onexecutionupdate-1.md) |
 
 |  |
 | --- |
-| Critical: If you want to drive your strategy logic based on order fills you must use [OnExecutionUpdate()](onexecutionupdate-1.htm) instead of OnOrderUpdate(). OnExecutionUpdate() is always triggered after OnOrderUpdate(). There is internal strategy logic that is triggered after OnOrderUpdate() is called but before OnExecutionUpdate() that can adversely affect your strategy if you are relying on tracking fills within OnOrderUpdate(). |
+| Critical: If you want to drive your strategy logic based on order fills you must use [OnExecutionUpdate()](onexecutionupdate-1.md) instead of OnOrderUpdate(). OnExecutionUpdate() is always triggered after OnOrderUpdate(). There is internal strategy logic that is triggered after OnOrderUpdate() is called but before OnExecutionUpdate() that can adversely affect your strategy if you are relying on tracking fills within OnOrderUpdate(). |
 
 Playback Connection
 -------------------
 
-When connected to the [Playback Connection](playback_connection-1.htm), calling market order based methods such as EnterLong() and EnterShort() will result in order state events being fired prior to the order method return an Order object. This is done to ensure that all events are in sync at high speed playback.
+When connected to the [Playback Connection](playback_connection-1.md), calling market order based methods such as EnterLong() and EnterShort() will result in order state events being fired prior to the order method return an Order object. This is done to ensure that all events are in sync at high speed playback.
 
 Method Return Value
 -------------------
@@ -45,7 +45,7 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| order | An [Order](order-1.htm) object passed by reference representing the order object |
+| order | An [Order](order-1.md) object passed by reference representing the order object |
 | limitPrice | A double value representing the limit price of the order update |
 | stopPrice | A double value representing the stop price of the order update |
 | quantity | An int value representing the quantity of the order update |
@@ -79,7 +79,7 @@ OrderState Values
 Examples
 --------
 
-| ns Understanding the order object parameter vs updating value parameter ([Multi-Thread Considerations for NinjaScript](multi-threading-1.htm)) |
+| ns Understanding the order object parameter vs updating value parameter ([Multi-Thread Considerations for NinjaScript](multi-threading-1.md)) |
 | --- |
 | protected override void OnOrderUpdate(Cbi.Order order, double limitPrice, double stopPrice,                                       int quantity, int filled, double averageFillPrice,                                       Cbi.OrderState orderState, DateTime time, Cbi.ErrorCode error, string comment)  {     Print("The most current order state is: " + order.OrderState);   // OrderState.PartFilled     Print("This particular order update state is: " + orderState); // OrderState.Working  } |
 

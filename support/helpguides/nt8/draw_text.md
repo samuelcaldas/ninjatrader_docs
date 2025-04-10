@@ -6,7 +6,7 @@ Draw.Text()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_text.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.Text() | [Previous page](square.htm) [Return to chapter overview](drawing.htm) [Next page](text.htm) |
+| << [Click to Display Table of Contents](draw_text.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Text() | [Previous page](square.md) [Return to chapter overview](drawing.md) [Next page](text.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws text.
 Method Return Value
 -------------------
 
-A [Text](text.htm) object that represents the draw object.
+A [Text](text.md) object that represents the draw object.
 
 Syntax
 
@@ -42,7 +42,7 @@ Parameters
 | y | The y co-ordinate location the object will be drawn |
 | yPixelOffset | The offset value in pixels from within the text box area |
 | textBrush | The brush used to color the text of the draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.textalignment%28v=vs.110%29.aspx)) |
-| font | A [Simple Font](simplefont_class.htm) object |
+| font | A [Simple Font](simplefont_class.md) object |
 | alignment | TextAlignment.Center, TextAlignment.Left, TextAlignment.Right, TextAlignment.Justify  ([reference](https://msdn.microsoft.com/en-us/library/system.windows.textalignment(v=vs.110).aspx)) |
 | outlineBrush | The brush used to color the text box outline ([reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
 | areaBrush | The brush used to color the text box fill area ([reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
@@ -63,7 +63,7 @@ Examples
 
 |  |
 | --- |
-| Tip:  In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.htm) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.htm) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings. |
+| Tip:  In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.md) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings. |
 
 | ns |
 | --- |

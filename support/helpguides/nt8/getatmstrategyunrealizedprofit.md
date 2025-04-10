@@ -6,7 +6,7 @@ GetAtmStrategyUnrealizedProfitLoss()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getatmstrategyunrealizedprofit.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [ATM Strategy Methods](atm_strategy_methods.htm) >  GetAtmStrategyUnrealizedProfitLoss() | [Previous page](getatmstrategystoptargetorders.htm) [Return to chapter overview](atm_strategy_methods.htm) [Next page](getatmstrategyuniqueid.htm) |
+| << [Click to Display Table of Contents](getatmstrategyunrealizedprofit.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) >  GetAtmStrategyUnrealizedProfitLoss() | [Previous page](getatmstrategystoptargetorders.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](getatmstrategyuniqueid.md) |
 
 Definition
 ----------

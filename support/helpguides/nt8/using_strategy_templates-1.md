@@ -6,7 +6,7 @@ Working with Strategy Templates
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\using_strategy_templates.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Automated Trading](automated_trading-1.htm) > [Running NinjaScript Strategies](running_ninjascript_strategies-1.htm) >  Working with Strategy Templates | [Previous page](running_a_ninjascript_strateg2-1.htm) [Return to chapter overview](running_ninjascript_strategies-1.htm) [Next page](backup__restore-1.htm) |
+| << [Click to Display Table of Contents](.\using_strategy_templates.md) >>  **Navigation:**  [Operations](operations-1.md) > [Automated Trading](automated_trading-1.md) > [Running NinjaScript Strategies](running_ninjascript_strategies-1.md) >  Working with Strategy Templates | [Previous page](running_a_ninjascript_strateg2-1.md) [Return to chapter overview](running_ninjascript_strategies-1.md) [Next page](backup__restore-1.md) |
 
 NinjaTrader allows you to save your Strategy properties as a template that can be loaded or set as the default for new instance of a Strategy when starting the strategy to be used in real-time or for backtesting purposes.  There is no limit to the number of templates you can save.
 

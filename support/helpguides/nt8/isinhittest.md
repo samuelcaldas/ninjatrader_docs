@@ -6,7 +6,7 @@ IsInHitTest
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isinhittest.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [Rendering](rendering.htm) >  IsInHitTest | [Previous page](forcerefresh.htm) [Return to chapter overview](rendering.htm) [Next page](isselected.htm) |
+| << [Click to Display Table of Contents](isinhittest.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [Rendering](rendering.md) >  IsInHitTest | [Previous page](forcerefresh.md) [Return to chapter overview](rendering.md) [Next page](isselected.md) |
 
 Definition
 ----------

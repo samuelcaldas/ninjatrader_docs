@@ -6,18 +6,18 @@ OnRenderTargetChanged()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\onrendertargetchanged.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [Rendering](rendering-1.htm) >  OnRenderTargetChanged() | [Previous page](onrender-1.htm) [Return to chapter overview](rendering-1.htm) [Next page](panelui-1.htm) |
+| << [Click to Display Table of Contents](.\onrendertargetchanged.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) >  OnRenderTargetChanged() | [Previous page](onrender-1.md) [Return to chapter overview](rendering-1.md) [Next page](panelui-1.md) |
 
 Definition
 ----------
 
-Called whenever a Chart's [RenderTarget](rendertarget-1.htm) is created or destroyed. [OnRenderTargetChanged()](onrendertargetchanged-1.htm) is used for creating / cleaning up resources such as a SharpDX.Direct2D1.Brush used throughout your NinjaScript class.
+Called whenever a Chart's [RenderTarget](rendertarget-1.md) is created or destroyed. [OnRenderTargetChanged()](onrendertargetchanged-1.md) is used for creating / cleaning up resources such as a SharpDX.Direct2D1.Brush used throughout your NinjaScript class.
 
  
 
 |  |
 | --- |
-| Notes:  1. A [RenderTarget](rendertarget-1.htm) will be created and destroyed several times during the lifetime of a chart.  For example, a user resizing the chart would cause the RenderTarget to be re-created as the chart is rendered to reflect the new dimensions.  Another example is when a user clicks on the chart as a RenderTarget is used during [hit testing](isinhittest-1.htm).  Since there are multiple RenderTargets, you MUST ensure the resource being used belongs to the destination target.  In practice, all you need to understand is if you are using a device resource (e.g., custom [SharpDX Brush)](brushes-1.htm) throughout different event methods, you should recreate these resource during OnRenderTargetChanged() which ensures the device resource is updated correctly as the devices context changes.  2. During initialization your NinjaScript indicators and strategies are guaranteed to see [State.Configure](onstatechange-1.htm) before OnRenderTargetChanged() would be called. |
+| Notes:  1. A [RenderTarget](rendertarget-1.md) will be created and destroyed several times during the lifetime of a chart.  For example, a user resizing the chart would cause the RenderTarget to be re-created as the chart is rendered to reflect the new dimensions.  Another example is when a user clicks on the chart as a RenderTarget is used during [hit testing](isinhittest-1.md).  Since there are multiple RenderTargets, you MUST ensure the resource being used belongs to the destination target.  In practice, all you need to understand is if you are using a device resource (e.g., custom [SharpDX Brush)](brushes-1.md) throughout different event methods, you should recreate these resource during OnRenderTargetChanged() which ensures the device resource is updated correctly as the devices context changes.  2. During initialization your NinjaScript indicators and strategies are guaranteed to see [State.Configure](onstatechange-1.md) before OnRenderTargetChanged() would be called. |
 
 Method Return Value
 -------------------
@@ -37,7 +37,7 @@ public override void OnRenderTargetChanged()
 
 |  |
 | --- |
-| Warning:  Each DirectX [render target](rendertarget-1.htm) requires its own brushes. You must create a brushes directly in [OnRender()](onrender-1.htm) or using OnRenderTargetChanged().  If you do not you will receive an error at run time similar to:      "A direct X error has occured while rendering the chart: HRESULT: [0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR\_WRONG\_RESOURCE\_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().    Please see the example below on using OnRenderTargetChanged() with brush that needs to be recalculated, or [OnRender()](onrender-1.htm) for an example of recreating a static brush. |
+| Warning:  Each DirectX [render target](rendertarget-1.md) requires its own brushes. You must create a brushes directly in [OnRender()](onrender-1.md) or using OnRenderTargetChanged().  If you do not you will receive an error at run time similar to:      "A direct X error has occured while rendering the chart: HRESULT: [0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR\_WRONG\_RESOURCE\_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().    Please see the example below on using OnRenderTargetChanged() with brush that needs to be recalculated, or [OnRender()](onrender-1.md) for an example of recreating a static brush. |
 
  
 
@@ -50,7 +50,7 @@ This method does not accept any parameters
 
 |  |
 | --- |
-| Tips:  1.If you are exclusively using resources in OnRender() (e.g., not passing values from OnStateChange() or other events) you only need to create and dispose of the resource in OnRender().  The OnRenderTargetChanged() concepts illustrated below would not need to be applied.  2.For a walk through for using the SharpDX RenderTarget, please see the educational resource [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.htm) |
+| Tips:  1.If you are exclusively using resources in OnRender() (e.g., not passing values from OnStateChange() or other events) you only need to create and dispose of the resource in OnRender().  The OnRenderTargetChanged() concepts illustrated below would not need to be applied.  2.For a walk through for using the SharpDX RenderTarget, please see the educational resource [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.md) |
 
  
 

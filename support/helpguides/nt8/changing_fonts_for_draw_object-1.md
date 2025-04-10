@@ -6,7 +6,7 @@ Changing fonts for draw objects
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\changing_fonts_for_draw_object.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Reference Samples](reference_samples-1.htm) > [Indicator](indicator2-1.htm) >  Changing fonts for draw objects | [Previous page](calculating_the_highest_high_o-1.htm) [Return to chapter overview](indicator2-1.htm) [Next page](coloring_a_region-1.htm) |
+| << [Click to Display Table of Contents](.\changing_fonts_for_draw_object.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Indicator](indicator2-1.md) >  Changing fonts for draw objects | [Previous page](calculating_the_highest_high_o-1.md) [Return to chapter overview](indicator2-1.md) [Next page](coloring_a_region-1.md) |
 
 Drawing text on a chart can be useful for outputting information, but when all information is displayed with the same font and size it could be difficult to quickly see the key information. Since NinjaScript is based on C#, it is possible to use Font objects to create more styles for your text
 
@@ -20,9 +20,9 @@ Key concepts in this example
 Important related documentation
 -------------------------------
 
-•[Text()](text-1.htm)
+•[Text()](text-1.md)
 
-•[SimpleFont()](simplefont_class-1.htm)
+•[SimpleFont()](simplefont_class-1.md)
 
 Import instructions
 -------------------

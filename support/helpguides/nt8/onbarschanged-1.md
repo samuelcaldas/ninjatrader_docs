@@ -6,7 +6,7 @@ OnBarsChanged()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\onbarschanged.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) >  OnBarsChanged() | [Previous page](isuserdrawn-1.htm) [Return to chapter overview](drawing_tools-1.htm) [Next page](onmousedown-1.htm) |
+| << [Click to Display Table of Contents](.\onbarschanged.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) >  OnBarsChanged() | [Previous page](isuserdrawn-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](onmousedown-1.md) |
 
 Definition
 ----------

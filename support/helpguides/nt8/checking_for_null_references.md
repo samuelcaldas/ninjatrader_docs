@@ -6,7 +6,7 @@ Checking for Null References
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](checking_for_null_references.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Tips](tips.htm) >  Checking for Null References | [Previous page](adding_indicators_to_strategie.htm) [Return to chapter overview](tips.htm) [Next page](creating_user_defined_input_pa.htm) |
+| << [Click to Display Table of Contents](checking_for_null_references.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Tips](tips.md) >  Checking for Null References | [Previous page](adding_indicators_to_strategie.md) [Return to chapter overview](tips.md) [Next page](creating_user_defined_input_pa.md) |
 
 A common object-oriented programming error is not checking for null references on your object variables This will cause an "Object reference not set to an instance of an object" error.
 

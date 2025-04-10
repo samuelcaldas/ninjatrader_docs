@@ -6,7 +6,7 @@ ShowTransparentPlotsInDataBox
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](showtransparentplotsindatabox.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) >  ShowTransparentPlotsInDataBox | [Previous page](paintpricemarkers.htm) [Return to chapter overview](indicator.htm) [Next page](market_analyzer_column.htm) |
+| << [Click to Display Table of Contents](showtransparentplotsindatabox.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) >  ShowTransparentPlotsInDataBox | [Previous page](paintpricemarkers.md) [Return to chapter overview](indicator.md) [Next page](market_analyzer_column.md) |
 
 Definition
 ----------
@@ -20,7 +20,7 @@ This property returns true if transparent indicator plot(s) values display in th
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

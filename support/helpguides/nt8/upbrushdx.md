@@ -6,17 +6,17 @@ UpBrushDX
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](upbrushdx.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Chart Style](chart_style.htm) >  UpBrushDX | [Previous page](upbrush.htm) [Return to chapter overview](chart_style.htm) [Next page](drawing_tools.htm) |
+| << [Click to Display Table of Contents](upbrushdx.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Chart Style](chart_style.md) >  UpBrushDX | [Previous page](upbrush.md) [Return to chapter overview](chart_style.md) [Next page](drawing_tools.md) |
 
 Definition
 ----------
 
-A SharpDX [Brush](sharpdx_direct2d1_brush.htm) object used to paint the up bars for the ChartStyle.
+A SharpDX [Brush](sharpdx_direct2d1_brush.md) object used to paint the up bars for the ChartStyle.
 
 Property  Value
 ---------------
 
-A [SharpDX](sharpdx_direct2d1.htm) Brush object used to paint the up bars
+A [SharpDX](sharpdx_direct2d1.md) Brush object used to paint the up bars
 
 Syntax
 ------

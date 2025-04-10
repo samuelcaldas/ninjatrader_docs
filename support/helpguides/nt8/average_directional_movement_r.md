@@ -6,12 +6,12 @@ Average Directional Movement Rating (ADXR)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](average_directional_movement_r.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Average Directional Movement Rating (ADXR) | [Previous page](average_directional_index_adx.htm) [Return to chapter overview](indicators.htm) [Next page](average_true_range_atr.htm) |
+| << [Click to Display Table of Contents](average_directional_movement_r.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Average Directional Movement Rating (ADXR) | [Previous page](average_directional_index_adx.md) [Return to chapter overview](indicators.md) [Next page](average_true_range_atr.md) |
 
 Description
 -----------
 
-The ADXR is equal to the current [ADX](average_directional_index_adx.htm) plus the ADX from n bars ago divided by two.
+The ADXR is equal to the current [ADX](average_directional_index_adx.md) plus the ADX from n bars ago divided by two.
 
 Syntax
 ------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | interval | The interval between the first ADX value and the current ADX value |
 | period | Number of bars used in the calculation |
 

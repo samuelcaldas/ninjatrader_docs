@@ -6,12 +6,12 @@ IsTickReplay
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](istickreplay.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Bars](bars.htm) >  IsTickReplay | [Previous page](isresetonnewtradingday.htm) [Return to chapter overview](bars.htm) [Next page](percentcomplete.htm) |
+| << [Click to Display Table of Contents](istickreplay.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  IsTickReplay | [Previous page](isresetonnewtradingday.md) [Return to chapter overview](bars.md) [Next page](percentcomplete.md) |
 
 Definition
 ----------
 
-Indicates if the bar series is using the [Tick Replay](developing_for__tick_replay.htm) data series property.
+Indicates if the bar series is using the [Tick Replay](developing_for__tick_replay.md) data series property.
 
 Property Value
 --------------
@@ -24,7 +24,7 @@ Bars.IsTickReplay
 
 |  |
 | --- |
-| Warning: A Tick Replay indicator or strategy CANNOT use a MarketDataType.Ask or MarketDataType.Bid series.  Please see [Developing for Tick Replay](developing_for__tick_replay.htm) for more information. |
+| Warning: A Tick Replay indicator or strategy CANNOT use a MarketDataType.Ask or MarketDataType.Bid series.  Please see [Developing for Tick Replay](developing_for__tick_replay.md) for more information. |
 
 Examples
 --------

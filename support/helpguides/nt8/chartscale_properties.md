@@ -6,7 +6,7 @@ Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chartscale_properties.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartScale](chartscale.htm) >  Properties | [Previous page](panelindex.htm) [Return to chapter overview](chartscale.htm) [Next page](chartscale_scalejustification.htm) |
+| << [Click to Display Table of Contents](chartscale_properties.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartScale](chartscale.md) >  Properties | [Previous page](panelindex.md) [Return to chapter overview](chartscale.md) [Next page](chartscale_scalejustification.md) |
 
 Definition
 ----------

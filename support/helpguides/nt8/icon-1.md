@@ -6,12 +6,12 @@ Icon
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\icon.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Share Service](share_service-1.htm) >  Icon | [Previous page](charactersreservedpermedia-1.htm) [Return to chapter overview](share_service-1.htm) [Next page](isauthorizationrequired-1.htm) |
+| << [Click to Display Table of Contents](.\icon.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Share Service](share_service-1.md) >  Icon | [Previous page](charactersreservedpermedia-1.md) [Return to chapter overview](share_service-1.md) [Next page](isauthorizationrequired-1.md) |
 
 Definition
 ----------
 
-The shape which displays within the Share window when sharing content.  Since this is a standard object, any type of icon can be used (unicode characters, custom image file resource, geometry path, etc). For more information on using images to create icons, see the [Using Images with Custom Icons](using_images_and_geometry_with_custom_icons-1.htm) page.
+The shape which displays within the Share window when sharing content.  Since this is a standard object, any type of icon can be used (unicode characters, custom image file resource, geometry path, etc). For more information on using images to create icons, see the [Using Images with Custom Icons](using_images_and_geometry_with_custom_icons-1.md) page.
 
 |  |
 | --- |

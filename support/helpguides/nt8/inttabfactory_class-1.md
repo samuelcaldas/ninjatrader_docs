@@ -6,7 +6,7 @@ INTTabFactory Interface
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\inttabfactory_class.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) >  INTTabFactory Interface | [Previous page](iintervalprovider_barsperiod-1.htm) [Return to chapter overview](add_on-1.htm) [Next page](createparentwindow-1.htm) |
+| << [Click to Display Table of Contents](.\inttabfactory_class.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) >  INTTabFactory Interface | [Previous page](iintervalprovider_barsperiod-1.md) [Return to chapter overview](add_on-1.md) [Next page](createparentwindow-1.md) |
 
 If you wish to have tab page functionality like adding, removing, moving, duplicating tabs you must create a class which implements the INTTabFactory interface.
 

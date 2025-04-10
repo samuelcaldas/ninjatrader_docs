@@ -6,7 +6,7 @@ Creating a Backup Archive
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](creating_a_backup_archive.htm) >>  **Navigation:**  [Operations](operations.htm) > [Backup & Restore](backup__restore.htm) >  Creating a Backup Archive | [Previous page](backup__restore.htm) [Return to chapter overview](backup__restore.htm) [Next page](restoring_a_backup_archive.htm) |
+| << [Click to Display Table of Contents](creating_a_backup_archive.md) >>  **Navigation:**  [Operations](operations.md) > [Backup & Restore](backup__restore.md) >  Creating a Backup Archive | [Previous page](backup__restore.md) [Return to chapter overview](backup__restore.md) [Next page](restoring_a_backup_archive.md) |
 
 Running your first backup
 -------------------------
@@ -28,8 +28,8 @@ Complete the following steps to create a Backup Archive.
 |  |  |
 | --- | --- |
 | Configuration files | Contains user specific information such as license keys, account settings, and other user defined options |
-| Database (Historical trade data) | Contains your historical trade execution data which is used to build reports in the [Account Performance](trade_performance.htm) window |
-| Historical chart data\* | Chart data which has been recorded from a live connection, [downloaded](download.htm) from a data provider, or [manually imported](importing.htm) |
+| Database (Historical trade data) | Contains your historical trade execution data which is used to build reports in the [Account Performance](trade_performance.md) window |
+| Historical chart data\* | Chart data which has been recorded from a live connection, [downloaded](download.md) from a data provider, or [manually imported](importing.md) |
 | Log and Trace files | Diagnostic files written by the NinjaTrader application to record activity which can be analyzed by our customer service team during support inquiries |
 | Market replay\* | Data files used to drive the Level 1 and Level 2 price updates when using the Playback connection |
 | NinjaScript files | Custom developed indicators, strategy, other add-ons.  This option includes both user developed and 3rd party vendor files |

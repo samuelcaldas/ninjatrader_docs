@@ -6,7 +6,7 @@ GetCurrentBid()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getcurrentbid.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  GetCurrentBid() | [Previous page](getcurrentaskvolume.htm) [Return to chapter overview](market_data.htm) [Next page](getcurrentbidvolume.htm) |
+| << [Click to Display Table of Contents](getcurrentbid.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  GetCurrentBid() | [Previous page](getcurrentaskvolume.md) [Return to chapter overview](market_data.md) [Next page](getcurrentbidvolume.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Returns the current real-time bid price.
 
 |  |
 | --- |
-| Notes:  1. When accessed during State.Historical, the [Close](close.htm) price of the evaluated bar is substituted.  To access historical bid prices, please see [Developing for Tick Replay](developing_for__tick_replay.htm).  2. The GetCurrentBid() method runs on the bar series currently updating determined by the [BarsInProgress](barsinprogress.htm) property.  For [multi-instrument](multi-time_frame__instruments.htm) scripts, an additional int "barsSeriesIndex" parameter can be supplied which forces the method to run on an supplementary bar series. |
+| Notes:  1. When accessed during State.Historical, the [Close](close.md) price of the evaluated bar is substituted.  To access historical bid prices, please see [Developing for Tick Replay](developing_for__tick_replay.md).  2. The GetCurrentBid() method runs on the bar series currently updating determined by the [BarsInProgress](barsinprogress.md) property.  For [multi-instrument](multi-time_frame__instruments.md) scripts, an additional int "barsSeriesIndex" parameter can be supplied which forces the method to run on an supplementary bar series. |
 
 Method Return Value
 -------------------

@@ -6,7 +6,7 @@ Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\properties_option_chain.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Option Chain](option-chain-1.htm) >  Properties | [Previous page](submitting_orders_option_chain-1.htm) [Return to chapter overview](option-chain-1.htm) [Next page](order_entry-1.htm) |
+| << [Click to Display Table of Contents](.\properties_option_chain.md) >>  **Navigation:**  [Operations](operations-1.md) > [Option Chain](option-chain-1.md) >  Properties | [Previous page](submitting_orders_option_chain-1.md) [Return to chapter overview](option-chain-1.md) [Next page](order_entry-1.md) |
 
 The Options Chain window is highly efficient by design but can also be customized to your preferences through the Options Chain Properties menu.
 
@@ -32,4 +32,4 @@ The Options Chain window is highly efficient by design but can also be customize
 
 |  |
 | --- |
-| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Option Chain Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.htm) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Option Chain Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.md) page. |

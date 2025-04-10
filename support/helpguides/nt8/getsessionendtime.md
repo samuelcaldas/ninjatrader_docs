@@ -6,7 +6,7 @@ GetSessionEndTime()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getsessionendtime.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Bars](bars.htm) >  GetSessionEndTime() | [Previous page](getopen.htm) [Return to chapter overview](bars.htm) [Next page](gettime.htm) |
+| << [Click to Display Table of Contents](getsessionendtime.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  GetSessionEndTime() | [Previous page](getopen.md) [Return to chapter overview](bars.md) [Next page](gettime.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Returns the daily bar session ending time stamp relative to the current bar inde
 
 |  |
 | --- |
-| Note:  This method is ONLY intended for bars built from daily data.   If called on intraday data, GetSessionEndTime() will return the [Bars.GetTime()](gettime.htm) value. |
+| Note:  This method is ONLY intended for bars built from daily data.   If called on intraday data, GetSessionEndTime() will return the [Bars.GetTime()](gettime.md) value. |
 
  
 

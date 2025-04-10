@@ -6,7 +6,7 @@ AddBar()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](addbar.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  AddBar() | [Previous page](bars_type.htm) [Return to chapter overview](bars_type.htm) [Next page](applydefaultbaseperiodvalue.htm) |
+| << [Click to Display Table of Contents](addbar.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  AddBar() | [Previous page](bars_type.md) [Return to chapter overview](bars_type.md) [Next page](applydefaultbaseperiodvalue.md) |
 
 Definition
 ----------

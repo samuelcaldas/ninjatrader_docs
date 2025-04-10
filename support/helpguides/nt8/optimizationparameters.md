@@ -6,7 +6,7 @@ OptimizationParameters
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](optimizationparameters.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Optimizer](optimizer.htm) >  OptimizationParameters | [Previous page](onoptimize.htm) [Return to chapter overview](optimizer.htm) [Next page](runiteration.htm) |
+| << [Click to Display Table of Contents](optimizationparameters.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Optimizer](optimizer.md) >  OptimizationParameters | [Previous page](onoptimize.md) [Return to chapter overview](optimizer.md) [Next page](runiteration.md) |
 
 Definition
 ----------

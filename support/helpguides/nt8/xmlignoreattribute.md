@@ -6,7 +6,7 @@ XmlIgnoreAttribute
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](xmlignoreattribute.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Attributes](attributes.htm) >  XmlIgnoreAttribute | [Previous page](typeconverterattribute.htm) [Return to chapter overview](attributes.htm) [Next page](bars.htm) |
+| << [Click to Display Table of Contents](xmlignoreattribute.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Attributes](attributes.md) >  XmlIgnoreAttribute | [Previous page](typeconverterattribute.md) [Return to chapter overview](attributes.md) [Next page](bars.md) |
 
 Definition
 ----------
@@ -37,4 +37,4 @@ Examples
 
 |  |
 | --- |
-| Tip:  A complete example of the usage of XmlIgnore attribute and workspace serialization can be found in the tips section of our support forum on [User Definable Color Inputs](user_definable_color_inputs.htm) |
+| Tip:  A complete example of the usage of XmlIgnore attribute and workspace serialization can be found in the tips section of our support forum on [User Definable Color Inputs](user_definable_color_inputs.md) |

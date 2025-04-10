@@ -6,7 +6,7 @@ GetAtmStrategyMarketPosition()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getatmstrategymarketposition.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [ATM Strategy Methods](atm_strategy_methods.htm) >  GetAtmStrategyMarketPosition() | [Previous page](getatmstrategyentryorderstatus.htm) [Return to chapter overview](atm_strategy_methods.htm) [Next page](getatmstrategypositionaveragep.htm) |
+| << [Click to Display Table of Contents](getatmstrategymarketposition.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) >  GetAtmStrategyMarketPosition() | [Previous page](getatmstrategyentryorderstatus.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](getatmstrategypositionaveragep.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Gets the current market position of the specified ATM Strategy.
 
 |  |
 | --- |
-| Notes:    1. Changes to positions will not be reflected till at least the next [OnBarUpdate()](onbarupdate.htm) event after an order fill.  2. If the ATM Strategy does not exist then MarketPosition.Flat returns  3. Please note this provides access to the current ATM strategy position, which should not be confused with the NinjaScript strategy position or account position. For more information please see the [Using ATM Strategies](using_atm_strategies.htm) section. |
+| Notes:    1. Changes to positions will not be reflected till at least the next [OnBarUpdate()](onbarupdate.md) event after an order fill.  2. If the ATM Strategy does not exist then MarketPosition.Flat returns  3. Please note this provides access to the current ATM strategy position, which should not be confused with the NinjaScript strategy position or account position. For more information please see the [Using ATM Strategies](using_atm_strategies.md) section. |
 
 Method Return Value
 -------------------

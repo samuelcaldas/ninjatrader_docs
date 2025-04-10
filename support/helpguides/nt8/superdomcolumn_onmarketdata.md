@@ -6,7 +6,7 @@ OnMarketData()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](superdomcolumn_onmarketdata.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [SuperDOM Column](superdom_column.htm) >  OnMarketData() | [Previous page](superdomcolumn_marketdepth.htm) [Return to chapter overview](superdom_column.htm) [Next page](superdomcolumn_onorderupdate.htm) |
+| << [Click to Display Table of Contents](superdomcolumn_onmarketdata.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [SuperDOM Column](superdom_column.md) >  OnMarketData() | [Previous page](superdomcolumn_marketdepth.md) [Return to chapter overview](superdom_column.md) [Next page](superdomcolumn_onorderupdate.md) |
 
 Definition
 ----------
@@ -31,7 +31,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| marketDataUpdate | A [MarketDataEventArgs](marketdataeventargs.htm) representing the change in market data |
+| marketDataUpdate | A [MarketDataEventArgs](marketdataeventargs.md) representing the change in market data |
 
 Examples
 --------

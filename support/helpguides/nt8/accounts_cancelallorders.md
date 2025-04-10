@@ -6,12 +6,12 @@ CancelAllOrders()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](accounts_cancelallorders.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Account](account_class.htm) >  CancelAllOrders() | [Previous page](cancel.htm) [Return to chapter overview](account_class.htm) [Next page](change.htm) |
+| << [Click to Display Table of Contents](accounts_cancelallorders.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) >  CancelAllOrders() | [Previous page](cancel.md) [Return to chapter overview](account_class.md) [Next page](change.md) |
 
 Definition
 ----------
 
-Cancels all [Order](order.htm)s of an instrument.
+Cancels all [Order](order.md)s of an instrument.
 
 Syntax
 ------

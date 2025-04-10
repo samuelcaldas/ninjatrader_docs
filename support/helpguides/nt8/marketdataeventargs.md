@@ -6,12 +6,12 @@ MarketDataEventArgs
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](marketdataeventargs.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [OnMarketData()](onmarketdata.htm) >  MarketDataEventArgs | [Previous page](onmarketdata.htm) [Return to chapter overview](onmarketdata.htm) [Next page](onmarketdepth.htm) |
+| << [Click to Display Table of Contents](marketdataeventargs.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnMarketData()](onmarketdata.md) >  MarketDataEventArgs | [Previous page](onmarketdata.md) [Return to chapter overview](onmarketdata.md) [Next page](onmarketdepth.md) |
 
 Definition
 ----------
 
-Represents a change in level one market data and is passed as a parameter in the [OnMarketData()](onmarketdata.htm) method.
+Represents a change in level one market data and is passed as a parameter in the [OnMarketData()](onmarketdata.md) method.
 
 Methods and Parameters
 ----------------------
@@ -34,7 +34,7 @@ Methods and Parameters
 
 |  |
 | --- |
-| Critical: If used with [TickReplay](tick_replay.htm), please keep in mind Tick Replay ONLY replays the Last market data event, and only stores the best inside bid/ask price at the time of the last trade event.  You can think of this as the equivalent of the bid/ask price at the time a trade was reported. Please also see [Developing for Tick Replay](developing_for__tick_replay.htm). |
+| Critical: If used with [TickReplay](tick_replay.md), please keep in mind Tick Replay ONLY replays the Last market data event, and only stores the best inside bid/ask price at the time of the last trade event.  You can think of this as the equivalent of the bid/ask price at the time a trade was reported. Please also see [Developing for Tick Replay](developing_for__tick_replay.md). |
 
 |  |
 | --- |

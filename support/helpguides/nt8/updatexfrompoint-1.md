@@ -6,7 +6,7 @@ UpdateXFromPoint()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\updatexfrompoint.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) > [ChartAnchor](chartanchor-1.htm) >  UpdateXFromPoint() | [Previous page](updatefrompoint-1.htm) [Return to chapter overview](chartanchor-1.htm) [Next page](updateyfrompoint-1.htm) |
+| << [Click to Display Table of Contents](.\updatexfrompoint.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > [ChartAnchor](chartanchor-1.md) >  UpdateXFromPoint() | [Previous page](updatefrompoint-1.md) [Return to chapter overview](chartanchor-1.md) [Next page](updateyfrompoint-1.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ Anchors
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\anchors.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) >  Anchors | [Previous page](addpastedoffset-1.htm) [Return to chapter overview](drawing_tools-1.htm) [Next page](attachedto-1.htm) |
+| << [Click to Display Table of Contents](.\anchors.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) >  Anchors | [Previous page](addpastedoffset-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](attachedto-1.md) |
 
 Definition
 ----------
@@ -22,7 +22,7 @@ Returns a custom collection of ChartAnchors which will represent various points 
 Property Value
 --------------
 
-A virtual [IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0%28v=vs.110%29.aspx) interface consisting of [ChartAnchors](chartanchor-1.htm)
+A virtual [IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0%28v=vs.110%29.aspx) interface consisting of [ChartAnchors](chartanchor-1.md)
 
 Syntax
 ------

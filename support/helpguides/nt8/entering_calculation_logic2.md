@@ -6,9 +6,9 @@ Entering Calculation Logic
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](entering_calculation_logic2.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Indicators](developing_indicators.htm) > [Beginner - Indicator on Indicator](beginner_-_indicator_on_indica.htm) >  Entering Calculation Logic | [Previous page](set_up5.htm) [Return to chapter overview](beginner_-_indicator_on_indica.htm) [Next page](compiling2.htm) |
+| << [Click to Display Table of Contents](entering_calculation_logic2.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Beginner - Indicator on Indicator](beginner_-_indicator_on_indica.md) >  Entering Calculation Logic | [Previous page](set_up5.md) [Return to chapter overview](beginner_-_indicator_on_indica.md) [Next page](compiling2.md) |
 
-The [OnBarUpdate()](onbarupdate.htm) method is called for each incoming tick, or on the close of a bar (if enabled) when performing real-time calculations, and is called on each bar of a [Bars](bars.htm) object when re-calculating the indicator (For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed). This is the main method used for indicator calculations, and we will calculate our core indicator logic (calculating an average of volume) within this method.
+The [OnBarUpdate()](onbarupdate.md) method is called for each incoming tick, or on the close of a bar (if enabled) when performing real-time calculations, and is called on each bar of a [Bars](bars.md) object when re-calculating the indicator (For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed). This is the main method used for indicator calculations, and we will calculate our core indicator logic (calculating an average of volume) within this method.
 
 Calculating the Average
 -----------------------
@@ -32,7 +32,7 @@ Enter the following code into the OnBarUpdate() method and below the code snippe
 | --- |
 | // Set the calculated value to the plot  MyPlot[0] = average; |
 
-Here we assign the "average" value to the property that represents the plot data using the '=' assignment operator. We have just finished coding our simple moving average of volume. Your class code should look identical to the code below. You are now ready to [compile the indicator](compiling2.htm) and configure it on a chart.
+Here we assign the "average" value to the property that represents the plot data using the '=' assignment operator. We have just finished coding our simple moving average of volume. Your class code should look identical to the code below. You are now ready to [compile the indicator](compiling2.md) and configure it on a chart.
 
 | ns |
 | --- |

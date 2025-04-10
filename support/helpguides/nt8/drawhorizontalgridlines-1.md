@@ -6,7 +6,7 @@ DrawHorizontalGridLines
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\drawhorizontalgridlines.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Indicator](indicator-1.htm) >  DrawHorizontalGridLines | [Previous page](displayindatabox-1.htm) [Return to chapter overview](indicator-1.htm) [Next page](drawonpricepanel-1.htm) |
+| << [Click to Display Table of Contents](.\drawhorizontalgridlines.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Indicator](indicator-1.md) >  DrawHorizontalGridLines | [Previous page](displayindatabox-1.md) [Return to chapter overview](indicator-1.md) [Next page](drawonpricepanel-1.md) |
 
 Definition
 ----------
@@ -24,7 +24,7 @@ This property returns true if horizontal grid lines are plotted on the indicator
 
 |  |
 | --- |
-| Warning:  This property should ONLY be set from the [OnStateChange()](onstatechange-1.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY be set from the [OnStateChange()](onstatechange-1.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

@@ -6,7 +6,7 @@ ActualSessionBegin
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](actualsessionbegin.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [SessionIterator](sessioniterator.htm) >  ActualSessionBegin | [Previous page](sessioniterator.htm) [Return to chapter overview](sessioniterator.htm) [Next page](actualsessionend.htm) |
+| << [Click to Display Table of Contents](actualsessionbegin.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [SessionIterator](sessioniterator.md) >  ActualSessionBegin | [Previous page](sessioniterator.md) [Return to chapter overview](sessioniterator.md) [Next page](actualsessionend.md) |
 
 Definition
 ----------

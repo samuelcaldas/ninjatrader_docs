@@ -6,7 +6,7 @@ Functions
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](functions.htm) >>  **Navigation:**  [Operations](operations.htm) > [Automated Trading](automated_trading.htm) > [Automated Trading Interface (ATI)](automated_trading_interface_at.htm) > [DLL Interface](dll_interface.htm) >  Functions | [Previous page](dll_interface.htm) [Return to chapter overview](dll_interface.htm) [Next page](tradestation_email_integration.htm) |
+| << [Click to Display Table of Contents](functions.md) >>  **Navigation:**  [Operations](operations.md) > [Automated Trading](automated_trading.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at.md) > [DLL Interface](dll_interface.md) >  Functions | [Previous page](dll_interface.md) [Return to chapter overview](dll_interface.md) [Next page](tradestation_email_integration.md) |
 
 DLL Interface Functions
 -----------------------
@@ -46,7 +46,7 @@ Gets the cash value for the specified account. \*Not all brokerage technologies 
 int Command(string command, string account, string instrument, string action, int quantity, string orderType, double limitPrice, double stopPrice,   
  string timeInForce, string oco, string orderId, string strategy, string strategyId)
 
-Function for submitting, cancelling and changing orders, positions and strategies. Refer to the [Commands and Valid Parameters](commands_and_valid_parameters.htm) section for detailed information. The [Log](log_tab2.htm) tab will list context sensitive error information.
+Function for submitting, cancelling and changing orders, positions and strategies. Refer to the [Commands and Valid Parameters](commands_and_valid_parameters.md) section for detailed information. The [Log](log_tab2.md) tab will list context sensitive error information.
 
  
 

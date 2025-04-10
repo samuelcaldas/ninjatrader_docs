@@ -6,7 +6,7 @@ AddOn Development Overview
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\addon_development_overview.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) >  AddOn Development Overview | [Previous page](educational_resources-1.htm) [Return to chapter overview](educational_resources-1.htm) [Next page](developing_add_ons-1.htm) |
+| << [Click to Display Table of Contents](.\addon_development_overview.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) >  AddOn Development Overview | [Previous page](educational_resources-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](developing_add_ons-1.md) |
 
 AddOn Development Basics
 ------------------------
@@ -54,7 +54,7 @@ Creating Your Own AddOn Window
 
 NinjaScript developers can utilize the AddOn framework to create free-standing, independent windows to provide custom functionality. Helper classes are available in the framework to instantiate windows styled the same as pre-built NinjaTrader windows, including familiar functionality such as window linking, the tabbed interface, and the ability to save the window and its state in workspaces. In addition, general WPF user interface elements and XAML can be used to style and modify windows using the .NET framework.
 
-For a detailed walkthrough of creating your own window using NinjaScript helper classes, see the [Creating Your Own AddOn Window](creating_your_own_addon_window-1.htm) page.
+For a detailed walkthrough of creating your own window using NinjaScript helper classes, see the [Creating Your Own AddOn Window](creating_your_own_addon_window-1.md) page.
 
 ![AddOnFrameWorkExample]()
 
@@ -65,7 +65,7 @@ Other Uses for an AddOn
 
 An AddOn does not require its own window to function. It can instead be used to accomplish non-UI-driven functionality across the platform, such as monitoring market data or accessing account, position, and order information. AddOns can also be used to add functionality or interface elements to other NinjaTrader windows, such as charts.
 
-For detailed information on other common uses of an AddOn, see the [Other Uses for an AddOn](other_uses_for_an_addon-1.htm) page.
+For detailed information on other common uses of an AddOn, see the [Other Uses for an AddOn](other_uses_for_an_addon-1.md) page.
 
 ![AddOnFrameWorkExample3]()
 

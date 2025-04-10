@@ -6,7 +6,7 @@ Display Overview
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](display_overview_order_ticket.htm) >>  **Navigation:**  [Operations](operations.htm) > [Order Entry](order_entry.htm) > [Order Ticket](order_ticket.htm) >  Display Overview | [Previous page](order_ticket.htm) [Return to chapter overview](order_ticket.htm) [Next page](submitting_orders_order_ticket.htm) |
+| << [Click to Display Table of Contents](display_overview_order_ticket.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) > [Order Ticket](order_ticket.md) >  Display Overview | [Previous page](order_ticket.md) [Return to chapter overview](order_ticket.md) [Next page](submitting_orders_order_ticket.md) |
 
 To open the Order Ticket Window, select the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item Order Ticket.
 
@@ -38,4 +38,4 @@ The image below shows the two sections in the of the Order Ticket window:
 
 |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Right Click Menu Right mouse click on the Order Ticket window to access the right click menu.    OrderTicket_4    |  |  | | --- | --- | | Always On Top | Sets if the window should be always on top of other windows | | Show Tabs | Sets if the window should allow for tabs | | Print | Displays Print options | | Share | Displays Share options | | Properties | Sets the [Order Ticket properties](properties_order_ticket.htm) | |
+| Right Click Menu Right mouse click on the Order Ticket window to access the right click menu.    OrderTicket_4    |  |  | | --- | --- | | Always On Top | Sets if the window should be always on top of other windows | | Show Tabs | Sets if the window should allow for tabs | | Print | Displays Print options | | Share | Displays Share options | | Properties | Sets the [Order Ticket properties](properties_order_ticket.md) | |

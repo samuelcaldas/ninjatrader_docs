@@ -6,14 +6,14 @@ ExitOnSessionCloseSeconds
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\exitonsessioncloseseconds.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  ExitOnSessionCloseSeconds | [Previous page](execution-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](includecommission-1.htm) |
+| << [Click to Display Table of Contents](.\exitonsessioncloseseconds.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  ExitOnSessionCloseSeconds | [Previous page](execution-1.md) [Return to chapter overview](strategy-1.md) [Next page](includecommission-1.md) |
 
 Definition
 ----------
 
-The number of seconds before the actual session end time that the "[IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy-1.htm)" function will trigger.
+The number of seconds before the actual session end time that the "[IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy-1.md)" function will trigger.
 
-The time from which this property will be calculated is taken from the [Trading Hours](trading_hours-1.htm) EOD property set in the strategy's Trading Hours template. The ExitOnSessionCloseSeconds property can either be set programatically in the [OnStateChange()](onstatechange-1.htm) method or be driven by the UI at run time.
+The time from which this property will be calculated is taken from the [Trading Hours](trading_hours-1.md) EOD property set in the strategy's Trading Hours template. The ExitOnSessionCloseSeconds property can either be set programatically in the [OnStateChange()](onstatechange-1.md) method or be driven by the UI at run time.
 
  
 
@@ -28,7 +28,7 @@ An int representing the number of seconds.  Default value is 30.
 
 |  |
 | --- |
-| Warning: This property should ONLY bet set from the [OnStateChange()](onstatechange-1.htm) method during State.SetDefaults or State.Configure |
+| Warning: This property should ONLY bet set from the [OnStateChange()](onstatechange-1.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

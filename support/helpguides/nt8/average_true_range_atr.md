@@ -6,7 +6,7 @@ Average True Range (ATR)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](average_true_range_atr.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Average True Range (ATR) | [Previous page](average_directional_movement_r.htm) [Return to chapter overview](indicators.htm) [Next page](balance_of_power_bop.htm) |
+| << [Click to Display Table of Contents](average_true_range_atr.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Average True Range (ATR) | [Previous page](average_directional_movement_r.md) [Return to chapter overview](indicators.md) [Next page](balance_of_power_bop.md) |
 
 Description
 -----------
@@ -49,7 +49,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Example

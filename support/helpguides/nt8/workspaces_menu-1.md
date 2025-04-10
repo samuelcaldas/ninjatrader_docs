@@ -6,7 +6,7 @@ Workspaces Menu
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\workspaces_menu.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Control Center](control_center-1.htm) >  Workspaces Menu | [Previous page](tools_menu-1.htm) [Return to chapter overview](control_center-1.htm) [Next page](connections_menu-1.htm) |
+| << [Click to Display Table of Contents](.\workspaces_menu.md) >>  **Navigation:**  [Operations](operations-1.md) > [Control Center](control_center-1.md) >  Workspaces Menu | [Previous page](tools_menu-1.md) [Return to chapter overview](control_center-1.md) [Next page](connections_menu-1.md) |
 
 The following menus and items are available via the Workspaces menu of the NinjaTrader Control Center.
 
@@ -20,7 +20,7 @@ The following menus and items are available via the Workspaces menu of the Ninja
 
 •The currently active workspace has a filled green rectangle. You can only have one active workspace
 
-•You can toggle the currently displayed workspace by selecting the workspace you wish to display from the Workspaces menu or using the [Hot Key](hot_key_manager-1.htm) SHIFT + F3
+•You can toggle the currently displayed workspace by selecting the workspace you wish to display from the Workspaces menu or using the [Hot Key](hot_key_manager-1.md) SHIFT + F3
 
 •On application shut down you will be given the opportunity to save changes in all open workspaces
 
@@ -64,4 +64,4 @@ The following menus and items are available via the Workspaces menu of the Ninja
 
 |  |
 | --- |
-| Restore a Prior Version of Workspaces If you need to restore a previously saved version of a saved workpspace, you can do this within the Control Center by going to Tools and selecting Database Management. In here you will see a Restore Workspace section to complete the recovery. See the [Database Operations](database_operations-1.htm) section.    By default 10 previously saved versions of your workspaces will be retained. To modify how many recovery versions are available within the Control Center go to Tools and select Options. Within the General section go to Preferences and set the Versions of recovery workspaces. See the Options [General](general_section-1.htm) section.    If you are unable to recover a prior version, if a backup was done you can restore from a backup. See the [Backup & Restore](backup__restore-1.htm) section. |
+| Restore a Prior Version of Workspaces If you need to restore a previously saved version of a saved workpspace, you can do this within the Control Center by going to Tools and selecting Database Management. In here you will see a Restore Workspace section to complete the recovery. See the [Database Operations](database_operations-1.md) section.    By default 10 previously saved versions of your workspaces will be retained. To modify how many recovery versions are available within the Control Center go to Tools and select Options. Within the General section go to Preferences and set the Versions of recovery workspaces. See the Options [General](general_section-1.md) section.    If you are unable to recover a prior version, if a backup was done you can restore from a backup. See the [Backup & Restore](backup__restore-1.md) section. |

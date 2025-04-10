@@ -6,7 +6,7 @@ MarketDepthEventArgs
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](marketdeptheventargs.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [OnMarketDepth()](onmarketdepth.htm) >  MarketDepthEventArgs | [Previous page](onmarketdepth.htm) [Return to chapter overview](onmarketdepth.htm) [Next page](onstatechange.htm) |
+| << [Click to Display Table of Contents](marketdeptheventargs.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnMarketDepth()](onmarketdepth.md) >  MarketDepthEventArgs | [Previous page](onmarketdepth.md) [Return to chapter overview](onmarketdepth.md) [Next page](onstatechange.md) |
 
 Definition
 ----------

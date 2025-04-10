@@ -6,7 +6,7 @@ AverageEtd
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\averageetd.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [TradesPerformanceValues](tradesperformancevalues-1.htm) >  AverageEtd | [Previous page](tradesperformancevalues-1.htm) [Return to chapter overview](tradesperformancevalues-1.htm) [Next page](averagemae-1.htm) |
+| << [Click to Display Table of Contents](.\averageetd.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [TradesPerformanceValues](tradesperformancevalues-1.md) >  AverageEtd | [Previous page](tradesperformancevalues-1.md) [Return to chapter overview](tradesperformancevalues-1.md) [Next page](averagemae-1.md) |
 
 Definition
 ----------

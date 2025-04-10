@@ -6,7 +6,7 @@ Draw.Ray()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_ray.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.Ray() | [Previous page](polygon.htm) [Return to chapter overview](drawing.htm) [Next page](ray.htm) |
+| << [Click to Display Table of Contents](draw_ray.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Ray() | [Previous page](polygon.md) [Return to chapter overview](drawing.md) [Next page](ray.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a line which has an infinite end point in one direction.
 Method Return Value
 -------------------
 
-A [Ray](ray.htm) object that represents the draw object.
+A [Ray](ray.md) object that represents the draw object.
 
 Syntax
 ------

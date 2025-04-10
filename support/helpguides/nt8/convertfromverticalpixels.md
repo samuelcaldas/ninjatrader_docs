@@ -6,7 +6,7 @@ ConvertFromVerticalPixels
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](convertfromverticalpixels.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartingExtensions](chartingextensions.htm) >  ConvertFromVerticalPixels | [Previous page](convertfromhorizontalpixels.htm) [Return to chapter overview](chartingextensions.htm) [Next page](converttohorizontalpixels.htm) |
+| << [Click to Display Table of Contents](convertfromverticalpixels.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartingExtensions](chartingextensions.md) >  ConvertFromVerticalPixels | [Previous page](convertfromhorizontalpixels.md) [Return to chapter overview](chartingextensions.md) [Next page](converttohorizontalpixels.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Converts a y-axis pixel coordinate from device pixels to application pixels.
 
 |  |
 | --- |
-| Note:  For more information concerning the differences between application pixels and device pixels, please see the [Working with Pixel Coordinates](working_with_pixel_coordinates.htm) educational resource. |
+| Note:  For more information concerning the differences between application pixels and device pixels, please see the [Working with Pixel Coordinates](working_with_pixel_coordinates.md) educational resource. |
 
 Method Return Value
 -------------------
@@ -33,7 +33,7 @@ ChartingExtensions.ConvertFromVerticalPixels(this int x, PresentationSource targ
 |  |  |
 | --- | --- |
 | x | The vertical int coordinates in device pixels to convert |
-| target | The [PresenationSource](https://msdn.microsoft.com/en-us/library/system.windows.presentationsource(v=vs.110).aspx) representing the display surface used for the conversion    Note:  For Charts, see [ChartControl.PresentationSource](presentationsource.htm) |
+| target | The [PresenationSource](https://msdn.microsoft.com/en-us/library/system.windows.presentationsource(v=vs.110).aspx) representing the display surface used for the conversion    Note:  For Charts, see [ChartControl.PresentationSource](presentationsource.md) |
 
 Example
 -------

@@ -6,12 +6,12 @@ IsRemoveLastBarSupported
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isremovelastbarsupported.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  IsRemoveLastBarSupported | [Previous page](icon_barstype.htm) [Return to chapter overview](bars_type.htm) [Next page](barstype_istimebased.htm) |
+| << [Click to Display Table of Contents](isremovelastbarsupported.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  IsRemoveLastBarSupported | [Previous page](icon_barstype.md) [Return to chapter overview](bars_type.md) [Next page](barstype_istimebased.md) |
 
 Definition
 ----------
 
-Determines if the bars type can use the [RemoveLastBar()](removelastbar.htm) method when true, otherwise an exception will be thrown. Bar Types which use remove last bar concepts CANNOT be used with [Tick Replay](tick_replay.htm), and as a result Tick Replay will be disabled on the UI when IsRemoveLastBarSupported is set to true.
+Determines if the bars type can use the [RemoveLastBar()](removelastbar.md) method when true, otherwise an exception will be thrown. Bar Types which use remove last bar concepts CANNOT be used with [Tick Replay](tick_replay.md), and as a result Tick Replay will be disabled on the UI when IsRemoveLastBarSupported is set to true.
 
 |  |
 | --- |

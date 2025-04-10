@@ -6,7 +6,7 @@ Draw.Polygon()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\draw_polygon.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  Draw.Polygon() | [Previous page](pathtool-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](polygon-1.htm) |
+| << [Click to Display Table of Contents](.\draw_polygon.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  Draw.Polygon() | [Previous page](pathtool-1.md) [Return to chapter overview](drawing-1.md) [Next page](polygon-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a polygon which can have a user defined set of anchors.
 Method Return Value
 -------------------
 
-A [Polygon](polygon-1.htm) object that represents the draw object.
+A [Polygon](polygon-1.md) object that represents the draw object.
 
 Syntax
 ------

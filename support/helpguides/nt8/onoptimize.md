@@ -6,7 +6,7 @@ OnOptimize()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onoptimize.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Optimizer](optimizer.htm) >  OnOptimize() | [Previous page](numberofiterations.htm) [Return to chapter overview](optimizer.htm) [Next page](optimizationparameters.htm) |
+| << [Click to Display Table of Contents](onoptimize.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Optimizer](optimizer.md) >  OnOptimize() | [Previous page](numberofiterations.md) [Return to chapter overview](optimizer.md) [Next page](optimizationparameters.md) |
 
 Definition
 ----------

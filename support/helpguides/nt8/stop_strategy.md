@@ -6,12 +6,12 @@ Stop Strategy
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](stop_strategy.htm) >>  **Navigation:**  [Operations](operations.htm) > [Advanced Trade Management (ATM)](advanced_trade_management_atm.htm) > [ATM Strategy](atm_strategy.htm) >  Stop Strategy | [Previous page](atm_strategy_selection_mode.htm) [Return to chapter overview](atm_strategy.htm) [Next page](auto_breakeven.htm) |
+| << [Click to Display Table of Contents](stop_strategy.md) >>  **Navigation:**  [Operations](operations.md) > [Advanced Trade Management (ATM)](advanced_trade_management_atm.md) > [ATM Strategy](atm_strategy.md) >  Stop Strategy | [Previous page](atm_strategy_selection_mode.md) [Return to chapter overview](atm_strategy.md) [Next page](auto_breakeven.md) |
 
 ATM Stop Strategies
 -------------------
 
-ATM Stop Strategies provide additional functionality for the stop losses placed by an ATM Strategy, including [auto-breakeven](auto_breakeven.htm), [auto-trail](auto_trail.htm), and [Simulated Stop](simulated_stop_orders.htm) orders.
+ATM Stop Strategies provide additional functionality for the stop losses placed by an ATM Strategy, including [auto-breakeven](auto_breakeven.md), [auto-trail](auto_trail.md), and [Simulated Stop](simulated_stop_orders.md) orders.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 |  |
@@ -19,7 +19,7 @@ ATM Stop Strategies provide additional functionality for the stop losses placed 
 | playVideo |
 |  |
 
-A Stop Strategy is an extension of an ATM Strategy. It allows you to combine [Auto Breakeven](auto_breakeven.htm), [Auto Trail](auto_trail.htm), and [Simulated Stop](simulated_stop_orders.htm) strategies for the management and automatic adjustment of your Stop Loss orders.
+A Stop Strategy is an extension of an ATM Strategy. It allows you to combine [Auto Breakeven](auto_breakeven.md), [Auto Trail](auto_trail.md), and [Simulated Stop](simulated_stop_orders.md) strategies for the management and automatic adjustment of your Stop Loss orders.
 
 When setting up an ATM Strategy, you can select either <Custom>, <None>, or any pre-defined Stop Strategy template from the Stop Strategy control list.
 

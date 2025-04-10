@@ -6,7 +6,7 @@ Tick Replay Indicators
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](power_volume_indicators.htm) >>  **Navigation:**  [Operations](operations.htm) > [Charts](charts.htm) > [Tick Replay](tick_replay.htm) >  Tick Replay Indicators | [Previous page](tick_replay.htm) [Return to chapter overview](tick_replay.htm) [Next page](cot.htm) |
+| << [Click to Display Table of Contents](power_volume_indicators.md) >>  **Navigation:**  [Operations](operations.md) > [Charts](charts.md) > [Tick Replay](tick_replay.md) >  Tick Replay Indicators | [Previous page](tick_replay.md) [Return to chapter overview](tick_replay.md) [Next page](cot.md) |
 
 NinjaTrader includes several real-time volume based indicators that are designed to function in real time only. However, Tick Replay allows these indicators to be used on historical data by simulating real-time price movements within historical bars.
 

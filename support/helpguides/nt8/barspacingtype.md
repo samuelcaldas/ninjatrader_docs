@@ -6,12 +6,12 @@ BarSpacingType
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barspacingtype.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartControl](chartcontrol.htm) >  BarSpacingType | [Previous page](chartcontrol_barsarray.htm) [Return to chapter overview](chartcontrol.htm) [Next page](chartcontrol_barsperiod.htm) |
+| << [Click to Display Table of Contents](barspacingtype.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  BarSpacingType | [Previous page](chartcontrol_barsarray.md) [Return to chapter overview](chartcontrol.md) [Next page](chartcontrol_barsperiod.md) |
 
 Definition
 ----------
 
-Indicates the type of bar spacing used for the primary [Bars](bars.htm) object on the chart.
+Indicates the type of bar spacing used for the primary [Bars](bars.md) object on the chart.
 
 Property Value
 --------------

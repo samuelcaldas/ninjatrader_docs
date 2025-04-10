@@ -6,7 +6,7 @@ Draw.TriangleUp()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_triangleup.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.TriangleUp() | [Previous page](triangledown.htm) [Return to chapter overview](drawing.htm) [Next page](triangleup.htm) |
+| << [Click to Display Table of Contents](draw_triangleup.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.TriangleUp() | [Previous page](triangledown.md) [Return to chapter overview](drawing.md) [Next page](triangleup.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a triangle pointing up.
 Method Return Value
 -------------------
 
-A [TriangleUp](triangleup.htm) object that represents the draw object.
+A [TriangleUp](triangleup.md) object that represents the draw object.
 
 Syntax
 ------

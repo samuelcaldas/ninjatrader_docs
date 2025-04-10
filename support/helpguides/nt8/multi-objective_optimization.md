@@ -6,13 +6,13 @@ Multi-Objective Optimization
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](multi-objective_optimization.htm) >>  **Navigation:**  [Operations](operations.htm) > [Strategy Analyzer](strategy_analyzer.htm) >  Multi-Objective Optimization | [Previous page](walk_forward_optimize_a_strate.htm) [Return to chapter overview](strategy_analyzer.htm) [Next page](ai-generate.htm) |
+| << [Click to Display Table of Contents](multi-objective_optimization.md) >>  **Navigation:**  [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) >  Multi-Objective Optimization | [Previous page](walk_forward_optimize_a_strate.md) [Return to chapter overview](strategy_analyzer.md) [Next page](ai-generate.md) |
 
 Multi-Objective optimization takes standard optimization a step further by allowing you to choose multiple objectives to test for. When results are returned instead of a singlular list of best results ranked from best to least best instead you will be presented a graph. With multiple objective there is no single best result, instead its up to the trader to choose what is the best tradeoff between two objectives. To run a Multi-objective optimization you will need:
 
-•Access to [historical data](data_by_provider.htm)
+•Access to [historical data](data_by_provider.md)
 
-•Custom NinjaScript \*[strategy](strategy.htm)
+•Custom NinjaScript \*[strategy](strategy.md)
 
 •A thorough understanding of the Strategy Analyzer's backtesting and optimization capabilities
 
@@ -27,7 +27,7 @@ Multi-Objective optimization takes standard optimization a step further by allow
 
 |  |
 | --- |
-| Note: The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.htm) property is set to false by default when a strategy is applied in the Strategy Analyzer for optimization. This provides for leaner memory usage, but at the expense of not being able to access Trade objects for historical trades. Thus, fields such as [SystemPerformance.AllTrades.Count](alltrades.htm) that rely on references to Trade objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set IncludeTradeHistoryInBacktest to true in the Configure state. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.htm) page. |
+| Note: The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property is set to false by default when a strategy is applied in the Strategy Analyzer for optimization. This provides for leaner memory usage, but at the expense of not being able to access Trade objects for historical trades. Thus, fields such as [SystemPerformance.AllTrades.Count](alltrades.md) that rely on references to Trade objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set IncludeTradeHistoryInBacktest to true in the Configure state. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.md) page. |
 
 ![tog_minus](tog_minus.gif)
 
@@ -39,7 +39,7 @@ Multi-Objective optimization takes standard optimization a step further by allow
 
 |  |  |  |  |
 | --- | --- | --- | --- |
-| Setting Multiple Optimization Fitness  Apart from the "Optimize on" property described below, the properties are identical to the ones found in the Optimization properties window. Please see the "Understanding optimization properties" section of the [Optimize a Strategy](optimize_a_strategy.htm) page of the Help Guide for more information.    Multi-Objective Optimization is based on the best optimization fitness you select. If you set the property "Optimize on" to "Max. net profit", "Max profit factor", and "Min. draw down" the optimizer will seek the optimal input values based on those three optimization fitness objectives.  There are over 10 different optimization criterion you can select and can be customized via NinjaScript.    StrategyAnalyzer_Optimization_MultiObjectiveProperties    |  |  | | --- | --- | | Optimize on... | Sets the optimization fitness to base the optimization results on, left clicking on the field will open the "Edit Optimization Fitness" window where you can enable what optimization fitnesses you want to be tested and to be available for multi-objective analysis. |    |  | | --- | | Note: For running Multi-Objective Optimizations the Default optimizer will be used. |    StrategyAnalyzer_Optimization_OptimizationFitnessDialog |
+| Setting Multiple Optimization Fitness  Apart from the "Optimize on" property described below, the properties are identical to the ones found in the Optimization properties window. Please see the "Understanding optimization properties" section of the [Optimize a Strategy](optimize_a_strategy.md) page of the Help Guide for more information.    Multi-Objective Optimization is based on the best optimization fitness you select. If you set the property "Optimize on" to "Max. net profit", "Max profit factor", and "Min. draw down" the optimizer will seek the optimal input values based on those three optimization fitness objectives.  There are over 10 different optimization criterion you can select and can be customized via NinjaScript.    StrategyAnalyzer_Optimization_MultiObjectiveProperties    |  |  | | --- | --- | | Optimize on... | Sets the optimization fitness to base the optimization results on, left clicking on the field will open the "Edit Optimization Fitness" window where you can enable what optimization fitnesses you want to be tested and to be available for multi-objective analysis. |    |  | | --- | | Note: For running Multi-Objective Optimizations the Default optimizer will be used. |    StrategyAnalyzer_Optimization_OptimizationFitnessDialog |
 
 ![tog_minus](tog_minus.gif)        Understanding Multi-Objective results
 

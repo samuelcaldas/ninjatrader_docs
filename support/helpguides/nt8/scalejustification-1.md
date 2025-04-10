@@ -6,7 +6,7 @@ ScaleJustification
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\scalejustification.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) >  ScaleJustification | [Previous page](isseparatezorder-1.htm) [Return to chapter overview](chart-1.htm) [Next page](stroke_class-1.htm) |
+| << [Click to Display Table of Contents](.\scalejustification.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) >  ScaleJustification | [Previous page](isseparatezorder-1.md) [Return to chapter overview](chart-1.md) [Next page](stroke_class-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Determines which scale an indicator will be plotted on.
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.md) method during State.SetDefaults or State.Configure |
 
 Property Value
 --------------

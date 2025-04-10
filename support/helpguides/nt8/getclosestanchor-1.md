@@ -6,7 +6,7 @@ GetClosestAnchor()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getclosestanchor.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) >  GetClosestAnchor() | [Previous page](getattachedtochartbars-1.htm) [Return to chapter overview](drawing_tools-1.htm) [Next page](getcursor-1.htm) |
+| << [Click to Display Table of Contents](.\getclosestanchor.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) >  GetClosestAnchor() | [Previous page](getattachedtochartbars-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](getcursor-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Returns the closest chart anchor within a specified maximum distance from the mo
 Method Return Value
 -------------------
 
-This method returns an existing [ChartAnchor](chartanchor-1.htm)
+This method returns an existing [ChartAnchor](chartanchor-1.md)
 
 Syntax
 ------

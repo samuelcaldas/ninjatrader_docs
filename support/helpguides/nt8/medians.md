@@ -6,12 +6,12 @@ Medians
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](medians.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [ISeries<T>](iseriest.htm) > [PriceSeries<double>](priceseries.htm) >  Medians | [Previous page](median.htm) [Return to chapter overview](priceseries.htm) [Next page](open.htm) |
+| << [Click to Display Table of Contents](medians.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [ISeries<T>](iseriest.md) > [PriceSeries<double>](priceseries.md) >  Medians | [Previous page](median.md) [Return to chapter overview](priceseries.md) [Next page](open.md) |
 
 Definition
 ----------
 
-Holds an array of ISeries<double> objects holding historical bar median prices. An ISeries<double>> object is added to this array when calling the [AddDataSeries()](adddataseries.htm) method. Its purpose is to provide access to the median prices of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of ISeries<double> objects holding historical bar median prices. An ISeries<double>> object is added to this array when calling the [AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the median prices of all Bars objects in a multi-instrument or multi-time frame script.
 
 Property Value
 --------------

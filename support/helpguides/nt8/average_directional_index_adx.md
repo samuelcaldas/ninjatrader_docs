@@ -6,7 +6,7 @@ Average Directional Index (ADX)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](average_directional_index_adx.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Average Directional Index (ADX) | [Previous page](aroon_oscillator.htm) [Return to chapter overview](indicators.htm) [Next page](average_directional_movement_r.htm) |
+| << [Click to Display Table of Contents](average_directional_index_adx.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Average Directional Index (ADX) | [Previous page](aroon_oscillator.md) [Return to chapter overview](indicators.md) [Next page](average_directional_movement_r.md) |
 
 Description
 -----------
@@ -37,7 +37,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

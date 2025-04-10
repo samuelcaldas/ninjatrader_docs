@@ -6,7 +6,7 @@ True Strength Index (TSI)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](true_strength_index_tsi.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  True Strength Index (TSI) | [Previous page](trend-lines.htm) [Return to chapter overview](indicators.htm) [Next page](ultimate_oscillator.htm) |
+| << [Click to Display Table of Contents](true_strength_index_tsi.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  True Strength Index (TSI) | [Previous page](trend-lines.md) [Return to chapter overview](indicators.md) [Next page](ultimate_oscillator.md) |
 
 Description
 -----------
@@ -34,7 +34,7 @@ Parameters
 |  |  |
 | --- | --- |
 | fast | Period of the fast smoothing factor |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | slow | Period of the slow smoothing factor |
 
 Examples

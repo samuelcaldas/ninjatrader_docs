@@ -6,7 +6,7 @@ NumberOfIterations
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\numberofiterations.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Optimizer](optimizer-1.htm) >  NumberOfIterations | [Previous page](optimizer-1.htm) [Return to chapter overview](optimizer-1.htm) [Next page](onoptimize-1.htm) |
+| << [Click to Display Table of Contents](.\numberofiterations.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Optimizer](optimizer-1.md) >  NumberOfIterations | [Previous page](optimizer-1.md) [Return to chapter overview](optimizer-1.md) [Next page](onoptimize-1.md) |
 
 Definition
 ----------

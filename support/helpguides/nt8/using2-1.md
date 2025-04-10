@@ -6,7 +6,7 @@ Using
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\using2.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Developing Indicators](developing_indicators-1.htm) > [Beginner - Indicator on Indicator](beginner_-_indicator_on_indica-1.htm) >  Using | [Previous page](compiling2-1.htm) [Return to chapter overview](beginner_-_indicator_on_indica-1.htm) [Next page](beginner_-_using_price_variabl-1.htm) |
+| << [Click to Display Table of Contents](.\using2.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Developing Indicators](developing_indicators-1.md) > [Beginner - Indicator on Indicator](beginner_-_indicator_on_indica-1.md) >  Using | [Previous page](compiling2-1.md) [Return to chapter overview](beginner_-_indicator_on_indica-1.md) [Next page](beginner_-_using_price_variabl-1.md) |
 
 Your indicator is now ready for use and will be listed in the Indicator Dialog window.
 

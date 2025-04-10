@@ -6,12 +6,12 @@ GetPercentComplete()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getpercentcomplete.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  GetPercentComplete() | [Previous page](getinitiallookbackdays.htm) [Return to chapter overview](bars_type.htm) [Next page](icon_barstype.htm) |
+| << [Click to Display Table of Contents](getpercentcomplete.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  GetPercentComplete() | [Previous page](getinitiallookbackdays.md) [Return to chapter overview](bars_type.md) [Next page](icon_barstype.md) |
 
 Definition
 ----------
 
-Determines the value your BarsType would return for [Bars.PercentComplete](percentcomplete.htm)
+Determines the value your BarsType would return for [Bars.PercentComplete](percentcomplete.md)
 
 Method Return Value
 -------------------
@@ -23,7 +23,7 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| bars | The [bars](bars.htm) object chosen by the user when utilizing this Bars type |
+| bars | The [bars](bars.md) object chosen by the user when utilizing this Bars type |
 | now | The DateTime value to measure |
 
 Syntax 

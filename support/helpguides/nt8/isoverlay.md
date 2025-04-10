@@ -6,12 +6,12 @@ IsOverlay
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isoverlay.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) >  IsOverlay | [Previous page](isautoscale.htm) [Return to chapter overview](chart.htm) [Next page](isseparatezorder.htm) |
+| << [Click to Display Table of Contents](isoverlay.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) >  IsOverlay | [Previous page](isautoscale.md) [Return to chapter overview](chart.md) [Next page](isseparatezorder.md) |
 
 Definition
 ----------
 
-Determines if indicator plot(s) are drawn on the chart panel over top of price.  Setting this value to true will also allow an Indicator to be used as a [SuperDOM Indicator](working_with_indicators_superdom.htm).
+Determines if indicator plot(s) are drawn on the chart panel over top of price.  Setting this value to true will also allow an Indicator to be used as a [SuperDOM Indicator](working_with_indicators_superdom.md).
 
 Property Value
 --------------
@@ -20,7 +20,7 @@ This property returns true if any indicator plot(s) are drawn on the chart panel
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults |
 
 Syntax
 ------

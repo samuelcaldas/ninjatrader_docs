@@ -6,7 +6,7 @@ CancelOrder()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\managed_cancelorder.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [Order Methods](order_methods-1.htm) > [Managed Approach](managed_approach-1.htm) >  CancelOrder() | [Previous page](advanced_order_handling-1.htm) [Return to chapter overview](managed_approach-1.htm) [Next page](managed_changeorder-1.htm) |
+| << [Click to Display Table of Contents](.\managed_cancelorder.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [Order Methods](order_methods-1.md) > [Managed Approach](managed_approach-1.md) >  CancelOrder() | [Previous page](advanced_order_handling-1.md) [Return to chapter overview](managed_approach-1.md) [Next page](managed_changeorder-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Cancels a specified order.  This method is reserved for experienced programmers
 
 |  |
 | --- |
-| Notes:  1.This method sends a cancel request to the broker and does not guarantee that an order is completely cancelled. Most of the time you can expect your order to come back 100% cancelled.  2.An order can be completely filled or part filled in the time that you send the cancel request and the time the exchange receives the request. Check the [OnOrderUpdate()](onorderupdate-1.htm) method for the state of an order you attempted to cancelled. |
+| Notes:  1.This method sends a cancel request to the broker and does not guarantee that an order is completely cancelled. Most of the time you can expect your order to come back 100% cancelled.  2.An order can be completely filled or part filled in the time that you send the cancel request and the time the exchange receives the request. Check the [OnOrderUpdate()](onorderupdate-1.md) method for the state of an order you attempted to cancelled. |
 
 Syntax 
 CancelOrder(Order order)
@@ -23,14 +23,14 @@ CancelOrder(Order order)
 
 |  |
 | --- |
-| Warning:  If you have existing historical [order](order-1.htm) references which have transitioned to real-time, you MUST update the order object reference to the newly submitted real-time order; otherwise errors may occur as you attempt to cancel the order.  You may use the [GetRealtimeOrder()](getrealtimeorder-1.htm) helper method to assist in this transition. |
+| Warning:  If you have existing historical [order](order-1.md) references which have transitioned to real-time, you MUST update the order object reference to the newly submitted real-time order; otherwise errors may occur as you attempt to cancel the order.  You may use the [GetRealtimeOrder()](getrealtimeorder-1.md) helper method to assist in this transition. |
 
 Parameters
 ----------
 
 |  |  |
 | --- | --- |
-| order | An [Order](order-1.htm) object representing the order you wish to cancel. |
+| order | An [Order](order-1.md) object representing the order you wish to cancel. |
 
 Examples
 --------

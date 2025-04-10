@@ -6,20 +6,20 @@ NTTabPage Class
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\nttabpage_class.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) >  NTTabPage Class | [Previous page](workspaceoptions-1.htm) [Return to chapter overview](add_on-1.htm) [Next page](nttabpage_cleanup-1.htm) |
+| << [Click to Display Table of Contents](.\nttabpage_class.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) >  NTTabPage Class | [Previous page](workspaceoptions-1.md) [Return to chapter overview](add_on-1.md) [Next page](nttabpage_cleanup-1.md) |
 
-This is where the actual content for tabs inside the custom add on [NTWindow](ntwindow-1.htm) can be defined.
+This is where the actual content for tabs inside the custom add on [NTWindow](ntwindow-1.md) can be defined.
 
 |  |
 | --- |
-| Note: A class derived from NTTabPage has to be created if instrument link or interval link functionality is desired. [IInstrumentProvider](iinstrumentprovider_interface-1.htm) and [IIntervalProvider](iintervalprovider_interface-1.htm) interfaces should be implemented as well to ensure proper linking. |
+| Note: A class derived from NTTabPage has to be created if instrument link or interval link functionality is desired. [IInstrumentProvider](iinstrumentprovider_interface-1.md) and [IIntervalProvider](iintervalprovider_interface-1.md) interfaces should be implemented as well to ensure proper linking. |
 
 |  |  |
 | --- | --- |
-| [Cleanup()](nttabpage_cleanup-1.htm) | Unregisters LinkControls and calls Cleanup() on ICleanable controls on the NTTabPage |
-| [GetHeaderPart()](getheaderpart-1.htm) | Indicates the tab header name. |
-| [Restore()](nttabpage_restore-1.htm) | Restores any elements in our NTTabPage from the workspace. |
-| [Save()](nttabpage_save-1.htm) | Saves elements in our NTTabPage to the workspace. |
+| [Cleanup()](nttabpage_cleanup-1.md) | Unregisters LinkControls and calls Cleanup() on ICleanable controls on the NTTabPage |
+| [GetHeaderPart()](getheaderpart-1.md) | Indicates the tab header name. |
+| [Restore()](nttabpage_restore-1.md) | Restores any elements in our NTTabPage from the workspace. |
+| [Save()](nttabpage_save-1.md) | Saves elements in our NTTabPage to the workspace. |
 
 Examples
 --------

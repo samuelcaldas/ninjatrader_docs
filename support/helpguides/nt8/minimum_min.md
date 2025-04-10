@@ -6,7 +6,7 @@ Minimum (MIN)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](minimum_min.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Minimum (MIN) | [Previous page](mcclellan_oscillator.htm) [Return to chapter overview](indicators.htm) [Next page](momentum.htm) |
+| << [Click to Display Table of Contents](minimum_min.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Minimum (MIN) | [Previous page](mcclellan_oscillator.md) [Return to chapter overview](indicators.md) [Next page](momentum.md) |
 
 Description
 -----------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Example

@@ -6,9 +6,9 @@ Updating Splits and Dividends
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\updating_splits_and_dividends.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Instrument Lists](instrument_lists-1.htm) >  Updating Splits and Dividends | [Previous page](working_with_instrument_lists-1.htm) [Return to chapter overview](instrument_lists-1.htm) [Next page](instruments-1.htm) |
+| << [Click to Display Table of Contents](.\updating_splits_and_dividends.md) >>  **Navigation:**  [Operations](operations-1.md) > [Instrument Lists](instrument_lists-1.md) >  Updating Splits and Dividends | [Previous page](working_with_instrument_lists-1.md) [Return to chapter overview](instrument_lists-1.md) [Next page](instruments-1.md) |
 
-You can quickly update all Splits and Dividends on an instrument list via the Instrument Lists window. Please follow the guide [Adding Splits and Dividends](adding_splits_and_dividends-1.htm) for details on how to enable NinjaTrader to do updates on the selected instrument list.
+You can quickly update all Splits and Dividends on an instrument list via the Instrument Lists window. Please follow the guide [Adding Splits and Dividends](adding_splits_and_dividends-1.md) for details on how to enable NinjaTrader to do updates on the selected instrument list.
 
 Updating Splits and Dividends
 -----------------------------

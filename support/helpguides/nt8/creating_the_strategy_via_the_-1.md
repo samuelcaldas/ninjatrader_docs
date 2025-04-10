@@ -6,7 +6,7 @@ Creating the Strategy via the Wizard
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\creating_the_strategy_via_the_.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Developing Strategies](developing_strategies-1.htm) > [Beginner - Simple MA Cross Over](beginner_-_simple_ma_cross_ove-1.htm) >  Creating the Strategy via the Wizard | [Previous page](set_up10-1.htm) [Return to chapter overview](beginner_-_simple_ma_cross_ove-1.htm) [Next page](creating_the_strategy_via_self-1.htm) |
+| << [Click to Display Table of Contents](.\creating_the_strategy_via_the_.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Developing Strategies](developing_strategies-1.md) > [Beginner - Simple MA Cross Over](beginner_-_simple_ma_cross_ove-1.md) >  Creating the Strategy via the Wizard | [Previous page](set_up10-1.md) [Return to chapter overview](beginner_-_simple_ma_cross_ove-1.md) [Next page](creating_the_strategy_via_self-1.md) |
 
 1. Press the "Add" button to display the "Condition Builder" window as per the image below
 

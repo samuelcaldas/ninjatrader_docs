@@ -6,7 +6,7 @@ Trade Performance Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\trade_performance_properties.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Trade Performance](trade_performance-1.htm) >  Trade Performance Properties | [Previous page](profit_and_loss_calculation_modes-1.htm) [Return to chapter overview](trade_performance-1.htm) [Next page](trading_hours-1.htm) |
+| << [Click to Display Table of Contents](.\trade_performance_properties.md) >>  **Navigation:**  [Operations](operations-1.md) > [Trade Performance](trade_performance-1.md) >  Trade Performance Properties | [Previous page](profit_and_loss_calculation_modes-1.md) [Return to chapter overview](trade_performance-1.md) [Next page](trading_hours-1.md) |
 
 Many of the Trade Performance visual display settings can be customized using the Trade Performance Properties window.
 

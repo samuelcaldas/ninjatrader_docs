@@ -6,7 +6,7 @@ IsWaitUntilFlat
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\iswaituntilflat.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  IsWaitUntilFlat | [Previous page](istradinghoursbreaklinevisible-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](numberrestartattempts-1.htm) |
+| << [Click to Display Table of Contents](.\iswaituntilflat.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  IsWaitUntilFlat | [Previous page](istradinghoursbreaklinevisible-1.md) [Return to chapter overview](strategy-1.md) [Next page](numberrestartattempts-1.md) |
 
 Definition
 ----------
@@ -17,12 +17,12 @@ Indicates the strategy is currently waiting until a flat position is detected be
 
 |  |
 | --- |
-| Note: This property would only apply if the strategy [StartBehavior](startbehavior-1.htm) was set to StartBehavior.WaitUntilFlat or StartBehavior.WaitUntilFlatSynchronizeAccount. |
+| Note: This property would only apply if the strategy [StartBehavior](startbehavior-1.md) was set to StartBehavior.WaitUntilFlat or StartBehavior.WaitUntilFlatSynchronizeAccount. |
 
 Property Value
 --------------
 
-This property returns true if the strategy has detected it is either in a long or short position during [State.Transition](onstatechange-1.htm); otherwise false.  Default value is set to false.
+This property returns true if the strategy has detected it is either in a long or short position during [State.Transition](onstatechange-1.md); otherwise false.  Default value is set to false.
 
 Syntax
 ------

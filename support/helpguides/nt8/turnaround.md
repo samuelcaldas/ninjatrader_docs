@@ -6,7 +6,7 @@ Turnaround
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](turnaround.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradesPerformanceValues](tradesperformancevalues.htm) >  Turnaround | [Previous page](stddev.htm) [Return to chapter overview](tradesperformancevalues.htm) [Next page](ulcer.htm) |
+| << [Click to Display Table of Contents](turnaround.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradesPerformanceValues](tradesperformancevalues.md) >  Turnaround | [Previous page](stddev.md) [Return to chapter overview](tradesperformancevalues.md) [Next page](ulcer.md) |
 
 Definition
 ----------

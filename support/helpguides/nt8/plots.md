@@ -6,7 +6,7 @@ Plots
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](plots.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) > [AddPlot()](addplot.htm) >  Plots | [Previous page](plotbrushes.htm) [Return to chapter overview](addplot.htm) [Next page](barsrequiredtoplot.htm) |
+| << [Click to Display Table of Contents](plots.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) > [AddPlot()](addplot.md) >  Plots | [Previous page](plotbrushes.md) [Return to chapter overview](addplot.md) [Next page](barsrequiredtoplot.md) |
 
 Definition
 ----------
@@ -25,7 +25,7 @@ Plots[int index]
 
 |  |
 | --- |
-| Note: The example code below will change the color of an entire plot series. See [PlotBrushes](plotbrushes.htm) for information on changing only specific segments of a plot instead. |
+| Note: The example code below will change the color of an entire plot series. See [PlotBrushes](plotbrushes.md) for information on changing only specific segments of a plot instead. |
 
 Example
 -------

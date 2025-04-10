@@ -6,7 +6,7 @@ Commitment Of Traders (COT)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](commitment-of-traders-(cot).htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Commitment Of Traders (COT) | [Previous page](choppiness_index.htm) [Return to chapter overview](indicators.htm) [Next page](commodity_channel_index_cci.htm) |
+| << [Click to Display Table of Contents](commitment-of-traders-(cot).md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Commitment Of Traders (COT) | [Previous page](choppiness_index.md) [Return to chapter overview](indicators.md) [Next page](commodity_channel_index_cci.md) |
 
 Description
 -----------
@@ -15,7 +15,7 @@ The COT indicator plots weekly data from the Commitment Of Traders report, indic
 
 |  |
 | --- |
-| Notes:    1. Since the underlying COT reports are a weekly figure updated every Friday, it would not be meaningful to run this study outside [Calculate.OnBarClose](calculate.htm)  2. Default values of the 5 hard-coded plots are : 1 - Futures Non Commercial Net, 2 - Futures Commercial Net, 3 - Futures Non Reportable Positions Net, 4 - Futures Open Interest, 5 - Futures Total Net  3. To access other reports and report fields, please see the 2nd example below. All fields available could be seen via [Intelliprompt](intelliprompt.htm) in the NinjaScript editor.  4. In the CotReportField enum, "Pmpu" represents : "Producer/merchant/processor/user" where CotReportField.PmpuNet would represent : "Producer/merchant/processor/user Net"  5. If a CotReportField enum is used that is not supported by the ReportType, OpenInterest will be seen. |
+| Notes:    1. Since the underlying COT reports are a weekly figure updated every Friday, it would not be meaningful to run this study outside [Calculate.OnBarClose](calculate.md)  2. Default values of the 5 hard-coded plots are : 1 - Futures Non Commercial Net, 2 - Futures Commercial Net, 3 - Futures Non Reportable Positions Net, 4 - Futures Open Interest, 5 - Futures Total Net  3. To access other reports and report fields, please see the 2nd example below. All fields available could be seen via [Intelliprompt](intelliprompt.md) in the NinjaScript editor.  4. In the CotReportField enum, "Pmpu" represents : "Producer/merchant/processor/user" where CotReportField.PmpuNet would represent : "Producer/merchant/processor/user Net"  5. If a CotReportField enum is used that is not supported by the ReportType, OpenInterest will be seen. |
 
 Syntax
 ------

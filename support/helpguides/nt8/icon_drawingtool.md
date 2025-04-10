@@ -6,12 +6,12 @@ Icon
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](icon_drawingtool.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Drawing Tool](drawing_tools.htm) >  Icon | [Previous page](getselectionpoints.htm) [Return to chapter overview](drawing_tools.htm) [Next page](ignoressnapping.htm) |
+| << [Click to Display Table of Contents](icon_drawingtool.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) >  Icon | [Previous page](getselectionpoints.md) [Return to chapter overview](drawing_tools.md) [Next page](ignoressnapping.md) |
 
 Definition
 ----------
 
-The shape which displays next to the Drawing Tool menu item.  Since this is a standard object, any type of icon can be used (unicode characters, custom image file resource, geometry path, etc). For more information on using images to create icons, see the [Using Images with Custom Icons](using_images_and_geometry_with_custom_icons.htm) page.
+The shape which displays next to the Drawing Tool menu item.  Since this is a standard object, any type of icon can be used (unicode characters, custom image file resource, geometry path, etc). For more information on using images to create icons, see the [Using Images with Custom Icons](using_images_and_geometry_with_custom_icons.md) page.
 
 |  |
 | --- |

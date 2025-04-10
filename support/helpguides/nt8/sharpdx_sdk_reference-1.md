@@ -6,7 +6,7 @@ SharpDX SDK Reference
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\sharpdx_sdk_reference.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) >  SharpDX SDK Reference | [Previous page](onrestorevalues-1.htm) [Return to chapter overview](ninjascript-1.htm) [Next page](sharpdx-1.htm) |
+| << [Click to Display Table of Contents](.\sharpdx_sdk_reference.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) >  SharpDX SDK Reference | [Previous page](onrestorevalues-1.md) [Return to chapter overview](ninjascript-1.md) [Next page](sharpdx-1.md) |
 
 |  |
 | --- |
@@ -16,13 +16,13 @@ SharpDX is an [open-source](https://github.com/sharpdx/SharpDX) managed .NET wra
 
 |  |
 | --- |
-| Tip:  The concepts discussed in this section only apply to NinjaScript objects which use the Chart's [OnRender()](onrender-1.htm) method.   For code examples which demonstrate usage, please refer to the [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.htm) educational resource.  You may also use view the source code of various [ChartStyles](chartstyletype-1.htm), [DrawingTools](drawing_tools-1.htm), and [Indicators](indicators-1.htm) which come pre-installed in the NinjaTrader.Custom project (Documents\NinjaTrader 8\bin\Custom). |
+| Tip:  The concepts discussed in this section only apply to NinjaScript objects which use the Chart's [OnRender()](onrender-1.md) method.   For code examples which demonstrate usage, please refer to the [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.md) educational resource.  You may also use view the source code of various [ChartStyles](chartstyletype-1.md), [DrawingTools](drawing_tools-1.md), and [Indicators](indicators-1.md) which come pre-installed in the NinjaTrader.Custom project (Documents\NinjaTrader 8\bin\Custom). |
 
 In this section
 ---------------
 
 |  |  |
 | --- | --- |
-| [SharpDX](sharpdx-1.htm) | The SharpDX namespace contains fundamental classes used by SharpDX. |
-| [SharpDX.Direct2D1](sharpdx_direct2d1-1.htm) | The SharpDX.Direct2D1 namespace provides a managed Direct2D API.   Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high-quality rendering for 2-D geometry, bitmaps, and text. |
-| [SharpDX.DirectWrite](sharpdx_directwrite-1.htm) | The SharpDX.DirectWrite namespace provides a managed DirectWrite API.  DirectWrite supports high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layouts. |
+| [SharpDX](sharpdx-1.md) | The SharpDX namespace contains fundamental classes used by SharpDX. |
+| [SharpDX.Direct2D1](sharpdx_direct2d1-1.md) | The SharpDX.Direct2D1 namespace provides a managed Direct2D API.   Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high-quality rendering for 2-D geometry, bitmaps, and text. |
+| [SharpDX.DirectWrite](sharpdx_directwrite-1.md) | The SharpDX.DirectWrite namespace provides a managed DirectWrite API.  DirectWrite supports high-quality text rendering, resolution-independent outline fonts, and full Unicode text and layouts. |

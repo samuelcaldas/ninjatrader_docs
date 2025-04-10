@@ -6,7 +6,7 @@ TickSize
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\ticksize.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Analytical](market_data-1.htm) >  TickSize | [Previous page](slope-1.htm) [Return to chapter overview](market_data-1.htm) [Next page](today-1.htm) |
+| << [Click to Display Table of Contents](.\ticksize.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Analytical](market_data-1.md) >  TickSize | [Previous page](slope-1.md) [Return to chapter overview](market_data-1.md) [Next page](today-1.md) |
 
 Definition
 ----------
@@ -27,7 +27,7 @@ TickSize
 
 |  |
 | --- |
-| Warning:  This property should NOT be accessed during State.SetDefaults from within the [OnStateChange()](onstatechange-1.htm) method, all bars series would be guaranteed to have loaded in State.DataLoaded |
+| Warning:  This property should NOT be accessed during State.SetDefaults from within the [OnStateChange()](onstatechange-1.md) method, all bars series would be guaranteed to have loaded in State.DataLoaded |
 
 Examples
 --------

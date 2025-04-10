@@ -6,7 +6,7 @@ Compile Errors
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\compile_errors.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Editor](editor-1.htm) >  Compile Errors | [Previous page](code_snippets-1.htm) [Return to chapter overview](editor-1.htm) [Next page](intelliprompt-1.htm) |
+| << [Click to Display Table of Contents](.\compile_errors.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Editor](editor-1.md) >  Compile Errors | [Previous page](code_snippets-1.md) [Return to chapter overview](editor-1.md) [Next page](intelliprompt-1.md) |
 
 When compiling a custom indicator or strategy it is possible and likely that you will generate compile errors.
 --------------------------------------------------------------------------------------------------------------
@@ -19,7 +19,7 @@ When compiling a custom indicator or strategy it is possible and likely that you
 
 •Click on the error code to bring up Help Documentation on a specific error
 
-•Right click on the error to exclude the problem file from compilation (see the section on [Excluding a script from compilation](ns_explorer-1.htm) for more information)
+•Right click on the error to exclude the problem file from compilation (see the section on [Excluding a script from compilation](ns_explorer-1.md) for more information)
 
 The image below illustrates a compile error
 -------------------------------------------

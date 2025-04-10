@@ -6,16 +6,16 @@ PositionsAccount
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](positionsaccount.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  PositionsAccount | [Previous page](positions.htm) [Return to chapter overview](strategy.htm) [Next page](realtimeerrorhandling.htm) |
+| << [Click to Display Table of Contents](positionsaccount.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  PositionsAccount | [Previous page](positions.md) [Return to chapter overview](strategy.md) [Next page](realtimeerrorhandling.md) |
 
 Definition
 ----------
 
-Holds an array of [PositionAccount](positionaccount.htm) objects that represent positions managed by the strategy's account. This property should only be used when your strategy is executing orders against [multiple instruments](multi-time_frame__instruments.htm).
+Holds an array of [PositionAccount](positionaccount.md) objects that represent positions managed by the strategy's account. This property should only be used when your strategy is executing orders against [multiple instruments](multi-time_frame__instruments.md).
 
  
 
-Index value is based on the the array of Bars objects added via the [AddDataSeries()](adddataseries.htm) method. For example:
+Index value is based on the the array of Bars objects added via the [AddDataSeries()](adddataseries.md) method. For example:
 
 First Bars is ES 1 Minute   
 Secondary Bars is ES 5 Minute   
@@ -27,12 +27,12 @@ PositionsAccount[2] == NQ position
 
 |  |
 | --- |
-| Tips:  •For single instrument scripts, please see [PositionAccount](positionaccount.htm) object  •For Strategy Positions, please see [Positions](positions.htm) |
+| Tips:  •For single instrument scripts, please see [PositionAccount](positionaccount.md) object  •For Strategy Positions, please see [Positions](positions.md) |
 
 Property Value
 --------------
 
-An array of [PositionAccount](positionaccount.htm) objects.
+An array of [PositionAccount](positionaccount.md) objects.
 
 Syntax 
 PositionsAccount[int index]

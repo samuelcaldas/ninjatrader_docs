@@ -6,12 +6,12 @@ IsResetOnNewTradingDay
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\isresetonnewtradingday.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Bars](bars-1.htm) >  IsResetOnNewTradingDay | [Previous page](islastbarofsession-1.htm) [Return to chapter overview](bars-1.htm) [Next page](istickreplay-1.htm) |
+| << [Click to Display Table of Contents](.\isresetonnewtradingday.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Bars](bars-1.md) >  IsResetOnNewTradingDay | [Previous page](islastbarofsession-1.md) [Return to chapter overview](bars-1.md) [Next page](istickreplay-1.md) |
 
 Definition
 ----------
 
-Indicates if the bars series is using the [Break EOD](break_at_eod-1.htm) data series property.
+Indicates if the bars series is using the [Break EOD](break_at_eod-1.md) data series property.
 
 Property Value
 --------------
@@ -24,7 +24,7 @@ Bars.IsResetOnNewTradingDay
 
 |  |
 | --- |
-| Tip: This property can be helpful in determine on how to amend new bar data when working with a [BarType](bars_type-1.htm) |
+| Tip: This property can be helpful in determine on how to amend new bar data when working with a [BarType](bars_type-1.md) |
 
 Examples
 --------

@@ -6,12 +6,12 @@ OnWindowCreated()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onwindowcreated.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  OnWindowCreated() | [Previous page](numerictextbox.htm) [Return to chapter overview](add_on.htm) [Next page](onwindowdestroyed.htm) |
+| << [Click to Display Table of Contents](onwindowcreated.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  OnWindowCreated() | [Previous page](numerictextbox.md) [Return to chapter overview](add_on.md) [Next page](onwindowdestroyed.md) |
 
 Definition
 ----------
 
-This method is called whenever a new [NTWindow](ntwindow.htm) is created. It will be called in the thread of that window.  This is where you would install your AddOn to an existing window, or if creating your own custom window, add a Menu item to the NinjaTrader Control Center.
+This method is called whenever a new [NTWindow](ntwindow.md) is created. It will be called in the thread of that window.  This is where you would install your AddOn to an existing window, or if creating your own custom window, add a Menu item to the NinjaTrader Control Center.
 
 |  |
 | --- |

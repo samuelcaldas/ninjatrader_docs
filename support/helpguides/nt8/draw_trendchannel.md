@@ -6,7 +6,7 @@ Draw.TrendChannel()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_trendchannel.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.TrendChannel() | [Previous page](timecycles.htm) [Return to chapter overview](drawing.htm) [Next page](trendchannel.htm) |
+| << [Click to Display Table of Contents](draw_trendchannel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.TrendChannel() | [Previous page](timecycles.md) [Return to chapter overview](drawing.md) [Next page](trendchannel.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a trend channel.
 Method Return Value
 -------------------
 
-A [TrendChannel](trendchannel.htm) object that represents the draw object.
+A [TrendChannel](trendchannel.md) object that represents the draw object.
 
 Syntax
 ------

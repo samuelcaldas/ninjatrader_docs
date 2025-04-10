@@ -6,7 +6,7 @@ CrossBelow()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](crossbelow.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  CrossBelow() | [Previous page](crossabove.htm) [Return to chapter overview](market_data.htm) [Next page](getcurrentask.htm) |
+| << [Click to Display Table of Contents](crossbelow.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  CrossBelow() | [Previous page](crossabove.md) [Return to chapter overview](market_data.md) [Next page](getcurrentask.md) |
 
 Definition
 ----------

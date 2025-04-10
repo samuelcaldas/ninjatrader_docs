@@ -6,7 +6,7 @@ OnConnectionStatusUpdate()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\onconnectionstatusupdate.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) >  OnConnectionStatusUpdate() | [Previous page](update-1.htm) [Return to chapter overview](common-1.htm) [Next page](connectionstatuseventargs-1.htm) |
+| << [Click to Display Table of Contents](.\onconnectionstatusupdate.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) >  OnConnectionStatusUpdate() | [Previous page](update-1.md) [Return to chapter overview](common-1.md) [Next page](connectionstatuseventargs-1.md) |
 
 Definition
 ----------
@@ -36,7 +36,7 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| connectionStatusUpdate | A [ConnectionStatusEventArgs](connectionstatuseventargs-1.htm) object representing the most recent update in connection. |
+| connectionStatusUpdate | A [ConnectionStatusEventArgs](connectionstatuseventargs-1.md) object representing the most recent update in connection. |
 | Status | Represents the status of the key adapter functionality. If the adapter supports live orders it will set Status to Disconnected when its order system is not connected. |
 | PriceStatus | Represents the status of the price feed. |
 

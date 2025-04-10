@@ -6,12 +6,12 @@ Ticks
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\ticks.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [TradeCollection](tradecollection-1.htm) > [TradesPerformance](tradesperformance-1.htm) >  Ticks | [Previous page](sortinoratio-1.htm) [Return to chapter overview](tradesperformance-1.htm) [Next page](totalcommission-1.htm) |
+| << [Click to Display Table of Contents](.\ticks.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [TradeCollection](tradecollection-1.md) > [TradesPerformance](tradesperformance-1.md) >  Ticks | [Previous page](sortinoratio-1.md) [Return to chapter overview](tradesperformance-1.md) [Next page](totalcommission-1.md) |
 
 Definition
 ----------
 
-Returns a [TradesPerformanceValues](tradesperformancevalues-1.htm) object in ticks.
+Returns a [TradesPerformanceValues](tradesperformancevalues-1.md) object in ticks.
 
 Property Value
 --------------

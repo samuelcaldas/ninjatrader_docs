@@ -6,7 +6,7 @@ Import
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](import.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Distribution](distribution.htm) >  Import | [Previous page](considerations_for_compiled_assemblies.htm) [Return to chapter overview](distribution.htm) [Next page](export.htm) |
+| << [Click to Display Table of Contents](import.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Distribution](distribution.md) >  Import | [Previous page](considerations_for_compiled_assemblies.md) [Return to chapter overview](distribution.md) [Next page](export.md) |
 
 You should only import NinjaScript Archive files (.zip) that you have obtained from a trusted source.
 

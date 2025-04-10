@@ -6,17 +6,17 @@ Draw.TextFixed()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_textfixed.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.TextFixed() | [Previous page](text.htm) [Return to chapter overview](drawing.htm) [Next page](textfixed.htm) |
+| << [Click to Display Table of Contents](draw_textfixed.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.TextFixed() | [Previous page](text.md) [Return to chapter overview](drawing.md) [Next page](textfixed.md) |
 
 Definition
 ----------
 
-Draws text in one of 5 available pre-defined fixed locations on panel 1 (price panel) of a chart. Please note the [Z-Order](zordertype.htm) is internally set for the method to always be drawn on top.
+Draws text in one of 5 available pre-defined fixed locations on panel 1 (price panel) of a chart. Please note the [Z-Order](zordertype.md) is internally set for the method to always be drawn on top.
 
 Method Return Value
 -------------------
 
-A [TextFixed](textfixed.htm) object that represents the draw object.
+A [TextFixed](textfixed.md) object that represents the draw object.
 
 Syntax
 
@@ -56,7 +56,7 @@ Examples
 
 |  |
 | --- |
-| Tip:  In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.htm) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.htm) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings. |
+| Tip:  In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.md) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings. |
 
  
 

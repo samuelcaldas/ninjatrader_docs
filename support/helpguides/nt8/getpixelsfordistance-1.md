@@ -6,7 +6,7 @@ GetPixelsForDistance()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getpixelsfordistance.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartScale](chartscale-1.htm) >  GetPixelsForDistance() | [Previous page](chartscale-1.htm) [Return to chapter overview](chartscale-1.htm) [Next page](getvaluebyy-1.htm) |
+| << [Click to Display Table of Contents](.\getpixelsfordistance.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartScale](chartscale-1.md) >  GetPixelsForDistance() | [Previous page](chartscale-1.md) [Return to chapter overview](chartscale-1.md) [Next page](getvaluebyy-1.md) |
 
 Definition
 ----------

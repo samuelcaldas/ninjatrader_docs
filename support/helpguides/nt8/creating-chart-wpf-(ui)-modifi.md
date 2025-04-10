@@ -6,7 +6,7 @@ Creating Chart WPF (UI) Modifications from an Indicator
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](creating-chart-wpf-(ui)-modifi.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Indicator](indicator2.htm) >  Creating Chart WPF (UI) Modifications from an Indicator | [Previous page](using_try-catch_blocks.htm) [Return to chapter overview](indicator2.htm) [Next page](strategy2.htm) |
+| << [Click to Display Table of Contents](creating-chart-wpf-(ui)-modifi.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Creating Chart WPF (UI) Modifications from an Indicator | [Previous page](using_try-catch_blocks.md) [Return to chapter overview](indicator2.md) [Next page](strategy2.md) |
 
 NinjaTrader's extensive C# backend allows for powerful expandability that is unmatched in other trading platforms. Within the context of C# and NinjaScript it is possible to manipulate the window in which the NinjaScript is added. This example demonstrates how chart window modifications can be performed to add your own WPF controls to your chart for custom functionality. These window modifications could be, but are not limited to: adding custom buttons, menus or toolbars.
 
@@ -42,9 +42,9 @@ C#
 
 NinjaTrader
 
-•[NTMenuItem](ntmenuitem.htm)
+•[NTMenuItem](ntmenuitem.md)
 
-•[TabControlManager](tabcontrolmanager.htm)
+•[TabControlManager](tabcontrolmanager.md)
 
 Import instructions
 -------------------

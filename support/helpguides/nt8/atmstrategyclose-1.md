@@ -6,12 +6,12 @@ AtmStrategyClose()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\atmstrategyclose.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [ATM Strategy Methods](atm_strategy_methods-1.htm) >  AtmStrategyClose() | [Previous page](atmstrategychangestoptarget-1.htm) [Return to chapter overview](atm_strategy_methods-1.htm) [Next page](atmstrategycreate-1.htm) |
+| << [Click to Display Table of Contents](.\atmstrategyclose.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [ATM Strategy Methods](atm_strategy_methods-1.md) >  AtmStrategyClose() | [Previous page](atmstrategychangestoptarget-1.md) [Return to chapter overview](atm_strategy_methods-1.md) [Next page](atmstrategycreate-1.md) |
 
 Definition
 ----------
 
-Cancels any working orders and closes any open position of a strategy using the default [ATM strategy close behavior](closing_a_position_or_atm_stra-1.htm).
+Cancels any working orders and closes any open position of a strategy using the default [ATM strategy close behavior](closing_a_position_or_atm_stra-1.md).
 
  
 

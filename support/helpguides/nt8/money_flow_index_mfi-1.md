@@ -6,14 +6,14 @@ Money Flow Index (MFI)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\money_flow_index_mfi.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Money Flow Index (MFI) | [Previous page](momentum-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](money_flow_oscillator-1.htm) |
+| << [Click to Display Table of Contents](.\money_flow_index_mfi.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Money Flow Index (MFI) | [Previous page](momentum-1.md) [Return to chapter overview](indicators-1.md) [Next page](money_flow_oscillator-1.md) |
 
 Description
 -----------
 
 The Money Flow Index (MFI) is a momentum indicator that is similar to the Relative Strength Index (RSI) in both interpretation and calculation. However, MFI is a more rigid indicator in that it is volume-weighted, and is therefore a good measure of the strength of money flowing in and out of a security.
 
-... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_MFI.htm)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_MFI.md)
 
 Syntax
 ------
@@ -37,7 +37,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
 
 Example

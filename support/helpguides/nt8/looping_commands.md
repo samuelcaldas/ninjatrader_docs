@@ -6,7 +6,7 @@ Looping Commands
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\looping_commands.htm) >>  **Navigation:**  »No topics above this level«  Looping Commands | [Return to chapter overview](sharpdx_directwrite_textlayout-1.htm) |
+| << [Click to Display Table of Contents](.\looping_commands.md) >>  **Navigation:**  »No topics above this level«  Looping Commands | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
 
 Looping commands control execution flow of your script. If you wanted to print the word NinjaTrader 100 times, you could either use 100 lines of code or do the same using a looping command in only a few lines of code.
 

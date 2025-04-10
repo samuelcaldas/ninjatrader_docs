@@ -6,16 +6,16 @@ Merge Policy
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\merge_policy.htm) >>  **Navigation:**  [Configuration](configuration-1.htm) > [Options](options-1.htm) > [Market data](options_marketdata-1.htm) >  Merge Policy | [Previous page](splits_and_dividends-1.htm) [Return to chapter overview](options_marketdata-1.htm) [Next page](real_time_tick_filter-1.htm) |
+| << [Click to Display Table of Contents](.\merge_policy.md) >>  **Navigation:**  [Configuration](configuration-1.md) > [Options](options-1.md) > [Market data](options_marketdata-1.md) >  Merge Policy | [Previous page](splits_and_dividends-1.md) [Return to chapter overview](options_marketdata-1.md) [Next page](real_time_tick_filter-1.md) |
 
 Merge Policy
 ------------
 
-The Merge Policy option can be found in the [Market Data](options_marketdata-1.htm) category of the Options menu and sets how NinjaTrader handles the merging of historical data for futures contracts during a contract rollover.  For example: If requesting a chart of the ES 06-15 from March 1st through April 1st, two contract months were the front month during that time span (03-15 and 06-15).  The way the chart will display those contracts will depend on the following settings and are illustrated below.
+The Merge Policy option can be found in the [Market Data](options_marketdata-1.md) category of the Options menu and sets how NinjaTrader handles the merging of historical data for futures contracts during a contract rollover.  For example: If requesting a chart of the ES 06-15 from March 1st through April 1st, two contract months were the front month during that time span (03-15 and 06-15).  The way the chart will display those contracts will depend on the following settings and are illustrated below.
 
 |  |
 | --- |
-| Note: More information on Configuring Rollover Dates and Offsets can be found in the [Editing Instruments](editing_instruments-1.htm) section of the Help Guide. |
+| Note: More information on Configuring Rollover Dates and Offsets can be found in the [Editing Instruments](editing_instruments-1.md) section of the Help Guide. |
 
 MergeBackAdjusted
 

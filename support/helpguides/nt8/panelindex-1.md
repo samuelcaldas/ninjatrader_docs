@@ -6,7 +6,7 @@ PanelIndex
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\panelindex.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartScale](chartscale-1.htm) >  PanelIndex | [Previous page](chartscale_minvalue-1.htm) [Return to chapter overview](chartscale-1.htm) [Next page](chartscale_properties-1.htm) |
+| << [Click to Display Table of Contents](.\panelindex.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartScale](chartscale-1.md) >  PanelIndex | [Previous page](chartscale_minvalue-1.md) [Return to chapter overview](chartscale-1.md) [Next page](chartscale_properties-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ The panel on which the chart scale resides.
 
 |  |
 | --- |
-| Note:  This value is NOT the same value as the indicator's [PanelUI](panelui-1.htm). PanelIndex will provide the actual indexed value of the chart panel used for this chart scale. |
+| Note:  This value is NOT the same value as the indicator's [PanelUI](panelui-1.md). PanelIndex will provide the actual indexed value of the chart panel used for this chart scale. |
 
 Property Value
 --------------

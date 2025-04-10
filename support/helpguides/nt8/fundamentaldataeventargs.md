@@ -6,12 +6,12 @@ FundamentalDataEventArgs
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](fundamentaldataeventargs.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [OnFundamentalData()](onfundamentaldata.htm) >  FundamentalDataEventArgs | [Previous page](onfundamentaldata.htm) [Return to chapter overview](onfundamentaldata.htm) [Next page](onmarketdata.htm) |
+| << [Click to Display Table of Contents](fundamentaldataeventargs.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnFundamentalData()](onfundamentaldata.md) >  FundamentalDataEventArgs | [Previous page](onfundamentaldata.md) [Return to chapter overview](onfundamentaldata.md) [Next page](onmarketdata.md) |
 
 Definition
 ----------
 
-Represents a change in fundamental data and is passed as a parameter in the [OnFundamentalData()](onfundamentaldata.htm) method.
+Represents a change in fundamental data and is passed as a parameter in the [OnFundamentalData()](onfundamentaldata.md) method.
 
 Methods and Parameters
 ----------------------

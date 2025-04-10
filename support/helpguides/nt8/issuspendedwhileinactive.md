@@ -6,7 +6,7 @@ IsSuspendedWhileInactive
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](issuspendedwhileinactive.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) >  IsSuspendedWhileInactive | [Previous page](ischartonly.htm) [Return to chapter overview](indicator.htm) [Next page](paintpricemarkers.htm) |
+| << [Click to Display Table of Contents](issuspendedwhileinactive.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) >  IsSuspendedWhileInactive | [Previous page](ischartonly.md) [Return to chapter overview](indicator.md) [Next page](paintpricemarkers.md) |
 
 Definition
 ----------
@@ -29,7 +29,7 @@ Suspension occurs in the following scenarios:
 
 |  |
 | --- |
-| Note:  Since events in OnBarUpdate() will not be processed while the indicator is suspended, internal NinjaScript functions such as [Alert()](alert.htm), [PlaySound()](playsound.htm), [Share()](share.htm), [Print()](print.htm), etc - or any other method that would be used to notify a user of activity will NOT be processed until the indicator is un-suspended. |
+| Note:  Since events in OnBarUpdate() will not be processed while the indicator is suspended, internal NinjaScript functions such as [Alert()](alert.md), [PlaySound()](playsound.md), [Share()](share.md), [Print()](print.md), etc - or any other method that would be used to notify a user of activity will NOT be processed until the indicator is un-suspended. |
 
 Scenarios where suspension will not occur
 -----------------------------------------
@@ -37,11 +37,11 @@ Scenarios where suspension will not occur
 The IsSuspendedWhileInactive property will be ignored and real-time events will be processed as normal under the following cases:
 ---------------------------------------------------------------------------------------------------------------------------------
 
-•Indicators running in [Automated NinjaScript Strategies](running_a_ninjascript_strategy.htm)
+•Indicators running in [Automated NinjaScript Strategies](running_a_ninjascript_strategy.md)
 
-•Indicators which have [manually configured alerts](alerts_dialog.htm)
+•Indicators which have [manually configured alerts](alerts_dialog.md)
 
-•Indicators which have been [manually attached to orders](attachingorderstoindicators.htm)
+•Indicators which have been [manually attached to orders](attachingorderstoindicators.md)
 
 Property Value
 --------------
@@ -50,11 +50,11 @@ This property returns true if indicator can take advantage of suspension optimiz
 
 |  |
 | --- |
-| Note:  This property is overridden to "true" automatically by the [NinjaScript Code Wizard](ns_wizard.htm).  You will need to remove the property to return to the default value or manually set it to false to disable this behavior |
+| Note:  This property is overridden to "true" automatically by the [NinjaScript Code Wizard](ns_wizard.md).  You will need to remove the property to return to the default value or manually set it to false to disable this behavior |
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

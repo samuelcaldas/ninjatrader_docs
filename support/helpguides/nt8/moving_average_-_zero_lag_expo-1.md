@@ -6,14 +6,14 @@ Moving Average - Zero Lag Exponential (ZLEMA)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\moving_average_-_zero_lag_expo.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Moving Average - Zero Lag Exponential (ZLEMA) | [Previous page](moving_average_-_weighted_wma-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](moving_average_convergence-divergence_macd-1.htm) |
+| << [Click to Display Table of Contents](.\moving_average_-_zero_lag_expo.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Moving Average - Zero Lag Exponential (ZLEMA) | [Previous page](moving_average_-_weighted_wma-1.md) [Return to chapter overview](indicators-1.md) [Next page](moving_average_convergence-divergence_macd-1.md) |
 
 Description
 -----------
 
 The Zero-Lag Exponential Moving Average is a variation on the Exponential Moving Average. The Zero-Lag keeps the benefit of the heavier weighting of recent values, but attempts to remove lag by subtracting older data to minimize the cumulative effect.
 
-... Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.htm?url=ZeroLagExpMA.htm)
+... Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.md?url=ZeroLagExpMA.md)
 
 Syntax
 ------
@@ -37,7 +37,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

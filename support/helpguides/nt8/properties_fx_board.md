@@ -6,7 +6,7 @@ Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](properties_fx_board.htm) >>  **Navigation:**  [Operations](operations.htm) > [Order Entry](order_entry.htm) > [FX Board](fx_board.htm) >  Properties | [Previous page](managing_positions_fx_board.htm) [Return to chapter overview](fx_board.htm) [Next page](order_ticket.htm) |
+| << [Click to Display Table of Contents](properties_fx_board.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) > [FX Board](fx_board.md) >  Properties | [Previous page](managing_positions_fx_board.md) [Return to chapter overview](fx_board.md) [Next page](order_ticket.md) |
 
 The FX Board order entry window is highly efficient by design but can also be customized to your preferences through the FX Board Properties menu.
 
@@ -32,4 +32,4 @@ The FX Board order entry window is highly efficient by design but can also be cu
 
 |  |
 | --- |
-| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the FX Board Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.htm) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the FX Board Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |

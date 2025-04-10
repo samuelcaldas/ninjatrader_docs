@@ -6,7 +6,7 @@ UpdateBar()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\updatebar.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Bars Type](bars_type-1.htm) >  UpdateBar() | [Previous page](barstype_sessioniterator-1.htm) [Return to chapter overview](bars_type-1.htm) [Next page](chart_style-1.htm) |
+| << [Click to Display Table of Contents](.\updatebar.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Bars Type](bars_type-1.md) >  UpdateBar() | [Previous page](barstype_sessioniterator-1.md) [Return to chapter overview](bars_type-1.md) [Next page](chart_style-1.md) |
 
 Definition
 ----------

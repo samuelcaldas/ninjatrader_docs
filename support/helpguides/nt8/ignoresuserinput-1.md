@@ -6,7 +6,7 @@ IgnoresUserInput
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\ignoresuserinput.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) >  IgnoresUserInput | [Previous page](ignoressnapping-1.htm) [Return to chapter overview](drawing_tools-1.htm) [Next page](isattachedtoninjascript-1.htm) |
+| << [Click to Display Table of Contents](.\ignoresuserinput.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) >  IgnoresUserInput | [Previous page](ignoressnapping-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](isattachedtoninjascript-1.md) |
 
 Definition  
 Determines if the drawing tool can be clicked on by the user.

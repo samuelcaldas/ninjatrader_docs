@@ -6,11 +6,11 @@ Set Up
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](set_up9.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Indicators](developing_indicators.htm) > [Advanced - Custom Drawing](advanced_-_custom_drawing.htm) >  Set Up | [Previous page](advanced_-_custom_drawing.htm) [Return to chapter overview](advanced_-_custom_drawing.htm) [Next page](entering_calculation_logic6.htm) |
+| << [Click to Display Table of Contents](set_up9.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Advanced - Custom Drawing](advanced_-_custom_drawing.md) >  Set Up | [Previous page](advanced_-_custom_drawing.md) [Return to chapter overview](advanced_-_custom_drawing.md) [Next page](entering_calculation_logic6.md) |
 
 The first step in creating a custom indicator is to use the custom indicator wizard. The wizard will generate the required NinjaScript code that will serve as the foundation for your custom indicator.
 
-1. Within the NinjaTrader [Control Center](control_center.htm), select the New menu, then select the NinjaScript Editor menu item.
+1. Within the NinjaTrader [Control Center](control_center.md), select the New menu, then select the NinjaScript Editor menu item.
 
 2. Right mouse click the "Indicators" folder in the NinjaScript Explorer section, then select the New Indicator menu item to open the New Indicator Wizard.
 
@@ -64,4 +64,4 @@ The next page will allow us to define plots and static lines for the indicator. 
 
 1. The add button will allow you to configure plots and lines for the indicator.
 
-After this, click the Finish button, and the Indicator Wizard will generate a basic code structure implementing the parameters that you have set. You are now ready to move on to [entering calculation logic](entering_calculation_logic6.htm) in your code.
+After this, click the Finish button, and the Indicator Wizard will generate a basic code structure implementing the parameters that you have set. You are now ready to move on to [entering calculation logic](entering_calculation_logic6.md) in your code.

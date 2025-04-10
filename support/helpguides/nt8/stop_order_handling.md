@@ -6,11 +6,11 @@ Stop Order Handling
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](stop_order_handling.htm) >>  **Navigation:**  [Operations](operations.htm) > [Automated Trading](automated_trading.htm) > [Automated Trading Interface (ATI)](automated_trading_interface_at.htm) > [TradeStation Email Integration](tradestation_email_integration.htm) >  Stop Order Handling | [Previous page](order_handling_options.htm) [Return to chapter overview](tradestation_email_integration.htm) [Next page](workspace_options.htm) |
+| << [Click to Display Table of Contents](stop_order_handling.md) >>  **Navigation:**  [Operations](operations.md) > [Automated Trading](automated_trading.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at.md) > [TradeStation Email Integration](tradestation_email_integration.md) >  Stop Order Handling | [Previous page](order_handling_options.md) [Return to chapter overview](tradestation_email_integration.md) [Next page](workspace_options.md) |
 
 |  |  |
 | --- | --- |
-| There are several Stop Order Handling options available for the signals sent from TradeStation.  All Stop Order Handling options are available by selecting the Tools menu in the Control Center, selecting the menu name Options, selecting the Automated Trading interface category, and setting the Order handling "Submit" option to "Submit as is".    ATI_3    If you have "Submit market order on TS fill" or "Submit and forget" enabled via [Order Handling Options](order_handling_options.htm), the following Stop Order Handling is ignored.    |  | | --- | | Warning  Please review all of the following Stop Order Handling options on this page to ensure your stop orders are managed as expected. | |
+| There are several Stop Order Handling options available for the signals sent from TradeStation.  All Stop Order Handling options are available by selecting the Tools menu in the Control Center, selecting the menu name Options, selecting the Automated Trading interface category, and setting the Order handling "Submit" option to "Submit as is".    ATI_3    If you have "Submit market order on TS fill" or "Submit and forget" enabled via [Order Handling Options](order_handling_options.md), the following Stop Order Handling is ignored.    |  | | --- | | Warning  Please review all of the following Stop Order Handling options on this page to ensure your stop orders are managed as expected. | |
 
 ![tog_minus](tog_minus.gif)
 

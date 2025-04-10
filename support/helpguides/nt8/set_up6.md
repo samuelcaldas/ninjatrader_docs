@@ -6,11 +6,11 @@ Set Up
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](set_up6.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Indicators](developing_indicators.htm) > [Intermediate - Your own SMA](intermediate_-_your_own_sma.htm) >  Set Up | [Previous page](intermediate_-_your_own_sma.htm) [Return to chapter overview](intermediate_-_your_own_sma.htm) [Next page](entering_calculation_logic3.htm) |
+| << [Click to Display Table of Contents](set_up6.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Intermediate - Your own SMA](intermediate_-_your_own_sma.md) >  Set Up | [Previous page](intermediate_-_your_own_sma.md) [Return to chapter overview](intermediate_-_your_own_sma.md) [Next page](entering_calculation_logic3.md) |
 
 The first step in creating a custom indicator is to use the custom indicator wizard. The wizard will generate the required NinjaScript code that will serve as the foundation for your custom indicator.
 
-1. Within the NinjaTrader [Control Center](control_center.htm), select the New menu, then select the NinjaScript Editor menu item.
+1. Within the NinjaTrader [Control Center](control_center.md), select the New menu, then select the NinjaScript Editor menu item.
 
 2. Right mouse click the "Indicators" folder in the NinjaScript Explorer section, then select the New Indicator menu item to open the New Indicator Wizard.
 
@@ -33,7 +33,7 @@ The next page will allow you to set defaults for basic properties related to you
 Adding Additional Data
 ----------------------
 
-The next page will allow you to configure one or more additional [Bars](bars.htm) objects for use by the indicator. For our purposes, we will leave this page blank and move forward by clicking the Next > button.
+The next page will allow you to configure one or more additional [Bars](bars.md) objects for use by the indicator. For our purposes, we will leave this page blank and move forward by clicking the Next > button.
 
 ![NSTutAdditionalDataBlank](nstutadditionaldatablank.png)
 
@@ -68,4 +68,4 @@ The next page will allow us to define plots and static lines for the indicator. 
 
 2. The Plots and Lines dialogue can be used to define the plot
 
-After this, click the Finish button, and the Indicator Wizard will generate a basic code structure implementing the parameters that you have set. You are now ready to move on to [entering calculation logic](entering_calculation_logic3.htm) in your code.
+After this, click the Finish button, and the Indicator Wizard will generate a basic code structure implementing the parameters that you have set. You are now ready to move on to [entering calculation logic](entering_calculation_logic3.md) in your code.

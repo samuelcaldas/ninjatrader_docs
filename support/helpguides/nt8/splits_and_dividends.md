@@ -6,7 +6,7 @@ Splits and Dividends
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](splits_and_dividends.htm) >>  **Navigation:**  [Configuration](configuration.htm) > [Options](options.htm) > [Market data](options_marketdata.htm) >  Splits and Dividends | [Previous page](options_marketdata.htm) [Return to chapter overview](options_marketdata.htm) [Next page](merge_policy.htm) |
+| << [Click to Display Table of Contents](splits_and_dividends.md) >>  **Navigation:**  [Configuration](configuration.md) > [Options](options.md) > [Market data](options_marketdata.md) >  Splits and Dividends | [Previous page](options_marketdata.md) [Return to chapter overview](options_marketdata.md) [Next page](merge_policy.md) |
 
 Splits and Dividends
 --------------------
@@ -50,7 +50,7 @@ You can enable this data adjusting by selecting the Tools menu from the Control 
 Adding Splits and Dividends
 ---------------------------
 
-You must add splits and dividends per instrument in the Instruments window. Please see the [Adding Splits and Dividends](adding_splits_and_dividends.htm) section of the Help Guide for more information.
+You must add splits and dividends per instrument in the Instruments window. Please see the [Adding Splits and Dividends](adding_splits_and_dividends.md) section of the Help Guide for more information.
 
 •NinjaTrader stores historical data in it's local data repository in an unadjusted state
 

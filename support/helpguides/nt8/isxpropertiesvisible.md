@@ -6,7 +6,7 @@ IsXPropertiesVisible
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isxpropertiesvisible.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Drawing Tool](drawing_tools.htm) > [ChartAnchor](chartanchor.htm) >  IsXPropertiesVisible | [Previous page](isninjascriptdrawn.htm) [Return to chapter overview](chartanchor.htm) [Next page](isypropertyvisibile.htm) |
+| << [Click to Display Table of Contents](isxpropertiesvisible.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > [ChartAnchor](chartanchor.md) >  IsXPropertiesVisible | [Previous page](isninjascriptdrawn.md) [Return to chapter overview](chartanchor.md) [Next page](isypropertyvisibile.md) |
 
 Definition
 ----------

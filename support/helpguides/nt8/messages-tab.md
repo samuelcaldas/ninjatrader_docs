@@ -6,9 +6,9 @@ Messages Tab
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](messages-tab.htm) >>  **Navigation:**  [Operations](operations.htm) > [Control Center](control_center.htm) >  Messages Tab | [Previous page](log_tab2.htm) [Return to chapter overview](control_center.htm) [Next page](status_bar.htm) |
+| << [Click to Display Table of Contents](messages-tab.md) >>  **Navigation:**  [Operations](operations.md) > [Control Center](control_center.md) >  Messages Tab | [Previous page](log_tab2.md) [Return to chapter overview](control_center.md) [Next page](status_bar.md) |
 
-The Messages tab displays messages in relation to your account in a [data grid](data_grids.htm).
+The Messages tab displays messages in relation to your account in a [data grid](data_grids.md).
 
 ![tog_minus](tog_minus.gif)
 

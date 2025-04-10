@@ -6,12 +6,12 @@ RangeAttribute
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](rangeattribute.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Attributes](attributes.htm) >  RangeAttribute | [Previous page](ninjascriptpropertyattribute.htm) [Return to chapter overview](attributes.htm) [Next page](typeconverterattribute.htm) |
+| << [Click to Display Table of Contents](rangeattribute.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Attributes](attributes.md) >  RangeAttribute | [Previous page](ninjascriptpropertyattribute.md) [Return to chapter overview](attributes.md) [Next page](typeconverterattribute.md) |
 
 Definition
 ----------
 
-Determines if the value of the following declared property is valid within a specified range.  These values are checked when the NinjaScript object has reached [State.Configure](state.htm).  For configuration through the UI (e.g., the user has selected Apply or OK to configure the value from the indicator dialog box) and determines to be invalid, the value will be automatically rounded to the nearest minimum or maximum value. Should the property be set as a [NinjaScriptAttribute](ninjascriptpropertyattribute.htm) and called from a hosting NinjaScript object and determines to be invalid, an exception will be thrown and the hosted indicator will NOT execute.
+Determines if the value of the following declared property is valid within a specified range.  These values are checked when the NinjaScript object has reached [State.Configure](state.md).  For configuration through the UI (e.g., the user has selected Apply or OK to configure the value from the indicator dialog box) and determines to be invalid, the value will be automatically rounded to the nearest minimum or maximum value. Should the property be set as a [NinjaScriptAttribute](ninjascriptpropertyattribute.md) and called from a hosting NinjaScript object and determines to be invalid, an exception will be thrown and the hosted indicator will NOT execute.
 
 |  |
 | --- |

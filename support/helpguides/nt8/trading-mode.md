@@ -6,7 +6,7 @@ Trading Mode
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](trading-mode.htm) >>  **Navigation:**  [Configuration](configuration.htm) > [Connecting](connecting.htm) >  Trading Mode | [Previous page](log-in.htm) [Return to chapter overview](connecting.htm) [Next page](playback_connecting_connection.htm) |
+| << [Click to Display Table of Contents](trading-mode.md) >>  **Navigation:**  [Configuration](configuration.md) > [Connecting](connecting.md) >  Trading Mode | [Previous page](log-in.md) [Return to chapter overview](connecting.md) [Next page](playback_connecting_connection.md) |
 
 After Log In you will be presented with the Trading Mode window.
 

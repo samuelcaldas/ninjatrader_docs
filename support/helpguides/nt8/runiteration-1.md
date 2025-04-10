@@ -6,7 +6,7 @@ RunIteration()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\runiteration.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Optimizer](optimizer-1.htm) >  RunIteration() | [Previous page](optimizationparameters-1.htm) [Return to chapter overview](optimizer-1.htm) [Next page](supportsmultiobjectiveoptimiza-1.htm) |
+| << [Click to Display Table of Contents](.\runiteration.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Optimizer](optimizer-1.md) >  RunIteration() | [Previous page](optimizationparameters-1.md) [Return to chapter overview](optimizer-1.md) [Next page](supportsmultiobjectiveoptimiza-1.md) |
 
 Definition
 ----------

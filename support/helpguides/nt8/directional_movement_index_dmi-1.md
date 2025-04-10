@@ -6,14 +6,14 @@ Directional Movement Index (DMI)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\directional_movement_index_dmi.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Directional Movement Index (DMI) | [Previous page](directional_movement_dm-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](disparity_index-1.htm) |
+| << [Click to Display Table of Contents](.\directional_movement_index_dmi.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Directional Movement Index (DMI) | [Previous page](directional_movement_dm-1.md) [Return to chapter overview](indicators-1.md) [Next page](disparity_index-1.md) |
 
 Description
 -----------
 
 An indicator developed by J. Welles Wilder for identifying when a definable trend is present in an instrument. That is, the DMI tells whether an instrument is trending or not.
 
-...Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.htm?url=DX.htm)
+...Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.md?url=DX.md)
 
 Syntax
 ------
@@ -37,7 +37,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
 
 Example

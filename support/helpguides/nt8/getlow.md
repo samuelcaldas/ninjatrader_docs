@@ -6,7 +6,7 @@ GetLow()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getlow.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Bars](bars.htm) >  GetLow() | [Previous page](gethigh.htm) [Return to chapter overview](bars.htm) [Next page](getopen.htm) |
+| << [Click to Display Table of Contents](getlow.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  GetLow() | [Previous page](gethigh.md) [Return to chapter overview](bars.md) [Next page](getopen.md) |
 
 Definition
 ----------

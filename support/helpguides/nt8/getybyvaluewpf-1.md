@@ -6,7 +6,7 @@ GetYByValueWpf()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getybyvaluewpf.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartScale](chartscale-1.htm) >  GetYByValueWpf() | [Previous page](getybyvalue-1.htm) [Return to chapter overview](chartscale-1.htm) [Next page](height-1.htm) |
+| << [Click to Display Table of Contents](.\getybyvaluewpf.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartScale](chartscale-1.md) >  GetYByValueWpf() | [Previous page](getybyvalue-1.md) [Return to chapter overview](chartscale-1.md) [Next page](height-1.md) |
 
 Definition
 ----------
@@ -40,6 +40,6 @@ Examples
 
  
 
-In the image below, we pass the last bar close as the value (example logic avoids using a bars ago index, see also [OnRender()](onrender-1.htm) note #5), which in return tells us the last price displayed on the chart is at a WPF location of 207.30998 pixels.
+In the image below, we pass the last bar close as the value (example logic avoids using a bars ago index, see also [OnRender()](onrender-1.md) note #5), which in return tells us the last price displayed on the chart is at a WPF location of 207.30998 pixels.
 
 ![GetYByValueWpf](getybyvaluewpf.png)

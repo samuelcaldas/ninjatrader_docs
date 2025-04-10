@@ -6,7 +6,7 @@ Using a TypeConverter to Customize Property Grid Behavior
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\using_a_typeconverter_to_custo.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Reference Samples](reference_samples-1.htm) > [Indicator](indicator2-1.htm) >  Using a TypeConverter to Customize Property Grid Behavior | [Previous page](using_a_series_or_dataseries_o-1.htm) [Return to chapter overview](indicator2-1.htm) [Next page](using_custom_events_to_output_-1.htm) |
+| << [Click to Display Table of Contents](.\using_a_typeconverter_to_custo.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Indicator](indicator2-1.md) >  Using a TypeConverter to Customize Property Grid Behavior | [Previous page](using_a_series_or_dataseries_o-1.md) [Return to chapter overview](indicator2-1.md) [Next page](using_custom_events_to_output_-1.md) |
 
 The default behavior of the NinjaTrader property grid is designed to handle the most basic display of your custom Indicator and Strategy properties. However, there are special cases where you may want to control how unique properties display to other users. Since using a TypeConverter is more of a general C# concept used to convert values between data types (a string to an enum for example), so the possibilities of what you can do are within the bounds of the .NET Framework. This NinjaScript sample was produced to help NinjaScript developers understand how to leverage the IndicatorBaseConverter and StrategyBaseConverter helper classes to customize property grid behavior without affecting general NinjaTrader property behavior.
 
@@ -53,11 +53,11 @@ C#
 
 NinjaTrader
 
-•[IndicatorBaseConverter Class](indicatorbaseconverter-1.htm)
+•[IndicatorBaseConverter Class](indicatorbaseconverter-1.md)
 
-•[StrategyBaseConverter Class](strategybaseconverter-1.htm)
+•[StrategyBaseConverter Class](strategybaseconverter-1.md)
 
-•[TypeConverterAttribute](typeconverterattribute-1.htm)
+•[TypeConverterAttribute](typeconverterattribute-1.md)
 
  
 

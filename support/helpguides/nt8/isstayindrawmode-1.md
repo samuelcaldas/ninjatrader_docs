@@ -6,12 +6,12 @@ IsStayInDrawMode
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\isstayindrawmode.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartControl](chartcontrol-1.htm) >  IsStayInDrawMode | [Previous page](isscrollarrowvisible-1.htm) [Return to chapter overview](chartcontrol-1.htm) [Next page](isyaxisdisplayedleft-1.htm) |
+| << [Click to Display Table of Contents](.\isstayindrawmode.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartControl](chartcontrol-1.md) >  IsStayInDrawMode | [Previous page](isscrollarrowvisible-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](isyaxisdisplayedleft-1.md) |
 
 Definition
 ----------
 
-Indicates [Stay in Draw Mode](working_with_drawing_tools__ob-1.htm) is currently enabled on the chart.
+Indicates [Stay in Draw Mode](working_with_drawing_tools__ob-1.md) is currently enabled on the chart.
 
 Property Value
 --------------

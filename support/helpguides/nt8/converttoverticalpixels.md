@@ -6,7 +6,7 @@ ConvertToVerticalPixels()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](converttoverticalpixels.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Drawing Tool](drawing_tools.htm) >  ConvertToVerticalPixels() | [Previous page](updateyfrompoint.htm) [Return to chapter overview](drawing_tools.htm) [Next page](createanchor.htm) |
+| << [Click to Display Table of Contents](converttoverticalpixels.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) >  ConvertToVerticalPixels() | [Previous page](updateyfrompoint.md) [Return to chapter overview](drawing_tools.md) [Next page](createanchor.md) |
 
 Definition
 ----------

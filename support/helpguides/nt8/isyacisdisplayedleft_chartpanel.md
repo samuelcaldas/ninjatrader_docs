@@ -6,7 +6,7 @@ IsYAxisDisplayedLeft
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isyacisdisplayedleft_chartpanel.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartPanel](chartpanel.htm) >  IsYAxisDisplayedLeft | [Previous page](h_height_chartpanel.htm) [Return to chapter overview](chartpanel.htm) [Next page](isyaxisdisplayedoverlay_chartpanel.htm) |
+| << [Click to Display Table of Contents](isyacisdisplayedleft_chartpanel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartPanel](chartpanel.md) >  IsYAxisDisplayedLeft | [Previous page](h_height_chartpanel.md) [Return to chapter overview](chartpanel.md) [Next page](isyaxisdisplayedoverlay_chartpanel.md) |
 
 Definition
 ----------

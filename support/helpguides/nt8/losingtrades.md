@@ -6,21 +6,21 @@ LosingTrades
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](losingtrades.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) >  LosingTrades | [Previous page](gettrades.htm) [Return to chapter overview](tradecollection.htm) [Next page](tradesperformance.htm) |
+| << [Click to Display Table of Contents](losingtrades.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) >  LosingTrades | [Previous page](gettrades.md) [Return to chapter overview](tradecollection.md) [Next page](tradesperformance.md) |
 
 Definition
 ----------
 
-A subcollection of [Trade](trade.htm) objects consisting of only the losing trades in a [TradeCollection](tradecollection.htm). You can access a trade object by providing an index value. Trades are indexed sequentially meaning the oldest trade taken in a strategy will be at an index value of zero. The most recent trade taken will be at an index value of the total trades in the collection minus 1.
+A subcollection of [Trade](trade.md) objects consisting of only the losing trades in a [TradeCollection](tradecollection.md). You can access a trade object by providing an index value. Trades are indexed sequentially meaning the oldest trade taken in a strategy will be at an index value of zero. The most recent trade taken will be at an index value of the total trades in the collection minus 1.
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| [Count](tradecollection_tradescount.htm) | An int value representing the number of trades in the collection |
-| [GetTrades()](gettrades.htm) | Gets a [TradeCollection](tradecollection.htm) object representing a specified position |
-| [TradesPerformance](tradesperformance.htm) | Gets a [TradesPerformance](tradesperformance.htm) object |
+| [Count](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
+| [GetTrades()](gettrades.md) | Gets a [TradeCollection](tradecollection.md) object representing a specified position |
+| [TradesPerformance](tradesperformance.md) | Gets a [TradesPerformance](tradesperformance.md) object |
 
 Syntax 
 <TradeCollection>.LosingTrades

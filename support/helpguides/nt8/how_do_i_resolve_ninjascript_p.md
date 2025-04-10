@@ -6,7 +6,7 @@ How do I resolve NinjaScript Programming Errors?
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](how_do_i_resolve_ninjascript_p.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Tips](tips.htm) >  How do I resolve NinjaScript Programming Errors? | [Previous page](formatting_numbers.htm) [Return to chapter overview](tips.htm) [Next page](make_sure_you_have_enough_bars.htm) |
+| << [Click to Display Table of Contents](how_do_i_resolve_ninjascript_p.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Tips](tips.md) >  How do I resolve NinjaScript Programming Errors? | [Previous page](formatting_numbers.md) [Return to chapter overview](tips.md) [Next page](make_sure_you_have_enough_bars.md) |
 
 You may come across various situations where your NinjaScript files will not compile. This can include situations such as:
 

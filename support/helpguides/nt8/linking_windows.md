@@ -6,12 +6,12 @@ Using Window Linking
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](linking_windows.htm) >>  **Navigation:**  [Operations](operations.htm) > [Windows](window_tabs.htm) >  Using Window Linking | [Previous page](window_tabs.htm) [Return to chapter overview](window_tabs.htm) [Next page](usingtheinstrumentselector.htm) |
+| << [Click to Display Table of Contents](linking_windows.md) >>  **Navigation:**  [Operations](operations.md) > [Windows](window_tabs.md) >  Using Window Linking | [Previous page](window_tabs.md) [Return to chapter overview](window_tabs.md) [Next page](usingtheinstrumentselector.md) |
 
 Instrument Link
 ---------------
 
-[Charts](charts.htm), [Order entry](order_entry.htm), [Alerts](alerts_log.htm), [Time and Sales](time__sales.htm), [News](news.htm), FX Board and [Market Analyzer](market_analyzer.htm) windows all have link buttons in the top right hand corner. Any window that is linked by color (each link button is set to the same color) will receive the same change of instrument request. That means that if you change, or select, an instrument in one window, all other linked windows will also change to that instrument.
+[Charts](charts.md), [Order entry](order_entry.md), [Alerts](alerts_log.md), [Time and Sales](time__sales.md), [News](news.md), FX Board and [Market Analyzer](market_analyzer.md) windows all have link buttons in the top right hand corner. Any window that is linked by color (each link button is set to the same color) will receive the same change of instrument request. That means that if you change, or select, an instrument in one window, all other linked windows will also change to that instrument.
 
 ![WindowLink_Main](windowlink_main.png)
 

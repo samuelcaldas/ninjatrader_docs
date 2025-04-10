@@ -6,9 +6,9 @@ TradeStation Symbol Mapping
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](tradestation_symbol_mapping.htm) >>  **Navigation:**  [Operations](operations.htm) > [Instruments](instruments.htm) >  TradeStation Symbol Mapping | [Previous page](adding_splits_and_dividends.htm) [Return to chapter overview](instruments.htm) [Next page](importing_a_list_of_stock_symb.htm) |
+| << [Click to Display Table of Contents](tradestation_symbol_mapping.md) >>  **Navigation:**  [Operations](operations.md) > [Instruments](instruments.md) >  TradeStation Symbol Mapping | [Previous page](adding_splits_and_dividends.md) [Return to chapter overview](instruments.md) [Next page](importing_a_list_of_stock_symb.md) |
 
-The following section outlines the requirements for proper TradeStation to NinjaTrader symbol mapping when using the Automated Trading Interface (both [DLL](dll_interface.htm) or [Email interface](tradestation_email_integration.htm)).
+The following section outlines the requirements for proper TradeStation to NinjaTrader symbol mapping when using the Automated Trading Interface (both [DLL](dll_interface.md) or [Email interface](tradestation_email_integration.md)).
 
 Note: Mapping is NOT required for stocks or Forex symbols.
 

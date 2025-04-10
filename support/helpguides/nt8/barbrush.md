@@ -6,7 +6,7 @@ BarBrush
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barbrush.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  BarBrush | [Previous page](backbrushesall.htm) [Return to chapter overview](drawing.htm) [Next page](barbrushes.htm) |
+| << [Click to Display Table of Contents](barbrush.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  BarBrush | [Previous page](backbrushesall.md) [Return to chapter overview](drawing.md) [Next page](barbrushes.md) |
 
 Definition
 ----------
@@ -31,7 +31,7 @@ BarBrush
 
 |  |
 | --- |
-| Warning:  You may have up to 65,535 unique BarBrush instances, therefore, using [static predefined brushes](working_with_brushes.htm) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created. |
+| Warning:  You may have up to 65,535 unique BarBrush instances, therefore, using [static predefined brushes](working_with_brushes.md) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created. |
 
 Examples
 --------

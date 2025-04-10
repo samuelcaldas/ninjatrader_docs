@@ -6,7 +6,7 @@ RealtimeErrorHandling
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](realtimeerrorhandling.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  RealtimeErrorHandling | [Previous page](positionsaccount.htm) [Return to chapter overview](strategy.htm) [Next page](restartswithinminutes.htm) |
+| << [Click to Display Table of Contents](realtimeerrorhandling.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  RealtimeErrorHandling | [Previous page](positionsaccount.md) [Return to chapter overview](strategy.md) [Next page](restartswithinminutes.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Defines the behavior of a strategy when a strategy generated order is returned f
 
 |  |
 | --- |
-| Critical:  •Setting this property value to IgnoreAllErrors can have serious adverse affects on a running strategy unless you have programmed your own order rejection handling in the [OnOrderUpdate()](onorderupdate.htm) method  •User defined rejection handling is advanced and should ONLY be addressed by experienced programmers |
+| Critical:  •Setting this property value to IgnoreAllErrors can have serious adverse affects on a running strategy unless you have programmed your own order rejection handling in the [OnOrderUpdate()](onorderupdate.md) method  •User defined rejection handling is advanced and should ONLY be addressed by experienced programmers |
 
 Property Value
 --------------
@@ -30,7 +30,7 @@ An enum value determining how the strategy behaves.  Default value is set to Re
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

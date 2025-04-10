@@ -6,7 +6,7 @@ Draw.VerticalLine()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\draw_verticalline.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  Draw.VerticalLine() | [Previous page](triangleup-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](verticalline-1.htm) |
+| << [Click to Display Table of Contents](.\draw_verticalline.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  Draw.VerticalLine() | [Previous page](triangleup-1.md) [Return to chapter overview](drawing-1.md) [Next page](verticalline-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a vertical line.
 Method Return Value
 -------------------
 
-A [VerticalLine](verticalline-1.htm) object that represents the draw object.
+A [VerticalLine](verticalline-1.md) object that represents the draw object.
 
 Syntax
 ------

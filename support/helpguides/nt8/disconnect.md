@@ -6,7 +6,7 @@ Disconnect()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](disconnect.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Connection](connection_class.htm) >  Disconnect() | [Previous page](connectionstatusupdate.htm) [Return to chapter overview](connection_class.htm) [Next page](connections_options.htm) |
+| << [Click to Display Table of Contents](disconnect.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Connection](connection_class.md) >  Disconnect() | [Previous page](connectionstatusupdate.md) [Return to chapter overview](connection_class.md) [Next page](connections_options.md) |
 
 Definition
 ----------

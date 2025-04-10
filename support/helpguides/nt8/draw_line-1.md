@@ -6,7 +6,7 @@ Draw.Line()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\draw_line.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  Draw.Line() | [Previous page](horizontalline-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](line-1.htm) |
+| << [Click to Display Table of Contents](.\draw_line.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  Draw.Line() | [Previous page](horizontalline-1.md) [Return to chapter overview](drawing-1.md) [Next page](line-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a line between two points.
 Method Return Value
 -------------------
 
-A [Line](line-1.htm) object that represents the draw object.
+A [Line](line-1.md) object that represents the draw object.
 
 Syntax
 ------

@@ -6,7 +6,7 @@ Using a Series or DataSeries object to store calculations
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using_a_series_or_dataseries_o.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Indicator](indicator2.htm) >  Using a Series or DataSeries object to store calculations | [Previous page](using_a_secondary_series_as_an.htm) [Return to chapter overview](indicator2.htm) [Next page](using_a_typeconverter_to_custo.htm) |
+| << [Click to Display Table of Contents](using_a_series_or_dataseries_o.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Using a Series or DataSeries object to store calculations | [Previous page](using_a_secondary_series_as_an.md) [Return to chapter overview](indicator2.md) [Next page](using_a_typeconverter_to_custo.md) |
 
 When creating Indicators or Strategies you may find that you need to store values in a way that is similar to the way price data is stored in NinjaTrader.
 
@@ -24,7 +24,7 @@ Key concepts in this example
 Important related documentation
 -------------------------------
 
-•[Series<T>](seriest.htm)
+•[Series<T>](seriest.md)
 
 Import instructions
 -------------------

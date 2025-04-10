@@ -6,7 +6,7 @@ ToTime()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](totime.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  ToTime() | [Previous page](today.htm) [Return to chapter overview](market_data.htm) [Next page](attributes.htm) |
+| << [Click to Display Table of Contents](totime.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  ToTime() | [Previous page](today.md) [Return to chapter overview](market_data.md) [Next page](attributes.md) |
 
 Definition
 ----------
@@ -32,14 +32,14 @@ Parameters
 
 |  |  |
 | --- | --- |
-| time | A DateTime structure to calculate Note:  See also the [Time](time.htm) property |
+| time | A DateTime structure to calculate Note:  See also the [Time](time.md) property |
 | hour | An int value representing the hour used for the input |
 | minute | An int value representing the minute used for the input |
 | second | An int value representing the second used for the input |
 
 |  |
 | --- |
-| Tip:  NinjaScript uses the .NET DateTime structure which can be complicated for novice programmers. If you are familiar with C# you can directly use DateTime structure properties and methods for date and time comparisons otherwise use this method and the [ToDay()](today.htm) method. |
+| Tip:  NinjaScript uses the .NET DateTime structure which can be complicated for novice programmers. If you are familiar with C# you can directly use DateTime structure properties and methods for date and time comparisons otherwise use this method and the [ToDay()](today.md) method. |
 
 Examples
 --------

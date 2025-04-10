@@ -6,12 +6,12 @@ Percentage Price Oscillator (PPO)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\percentage_price_oscillator_pp.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Percentage Price Oscillator (PPO) | [Previous page](parabolic_sar-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](pivots-1.htm) |
+| << [Click to Display Table of Contents](.\percentage_price_oscillator_pp.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Percentage Price Oscillator (PPO) | [Previous page](parabolic_sar-1.md) [Return to chapter overview](indicators-1.md) [Next page](pivots-1.md) |
 
 Description
 -----------
 
-The Percentage Price Oscillator shows the percentage difference between two [exponential moving averages](moving_average_-_exponential_e-1.htm).
+The Percentage Price Oscillator shows the percentage difference between two [exponential moving averages](moving_average_-_exponential_e-1.md).
 
 Syntax
 ------
@@ -42,7 +42,7 @@ Parameters
 |  |  |
 | --- | --- |
 | fast | The number of bars to calculate the fast EMA |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | slow | The number of bars to calculate the slow EMA |
 | smooth | The number of bars to calculate the EMA signal line |
 

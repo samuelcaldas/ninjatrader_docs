@@ -6,7 +6,7 @@ EnterLongLimit()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](enterlonglimit.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [Order Methods](order_methods.htm) > [Managed Approach](managed_approach.htm) >  EnterLongLimit() | [Previous page](enterlong.htm) [Return to chapter overview](managed_approach.htm) [Next page](enterlongmit.htm) |
+| << [Click to Display Table of Contents](enterlonglimit.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Managed Approach](managed_approach.md) >  EnterLongLimit() | [Previous page](enterlong.md) [Return to chapter overview](managed_approach.md) [Next page](enterlongmit.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Generates a buy limit order to enter a long position.
 Method Return Value
 -------------------
 
-An [Order](order.htm) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.htm) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
 
 Syntax
 ------
@@ -28,7 +28,7 @@ EnterLongLimit(int quantity, double limitPrice)
 
 EnterLongLimit(int quantity, double limitPrice, string signalName)
 
-The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.htm) concepts:
+The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.md) concepts:
 
 EnterLongLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, string signalName)
 
@@ -50,8 +50,8 @@ Parameters
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | limitPrice | The limit price of the order. |
 | quantity | Entry order quantity  (if 0 is passed in, will be set to 1, except for stocks 100). |
-| isLiveUntilCancelled | The order will NOT expire at the end of a bar, but instead remain live until the [CancelOrder()](managed_cancelorder.htm) method is called or its time in force is reached. |
-| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress.htm) property. |
+| isLiveUntilCancelled | The order will NOT expire at the end of a bar, but instead remain live until the [CancelOrder()](managed_cancelorder.md) method is called or its time in force is reached. |
+| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress.md) property. |
 
 Examples
 --------

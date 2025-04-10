@@ -6,20 +6,20 @@ IsFirstTickOfBar
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\isfirsttickofbar.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [OnBarUpdate()](onbarupdate-1.htm) >  IsFirstTickOfBar | [Previous page](isdataseriesrequired-1.htm) [Return to chapter overview](onbarupdate-1.htm) [Next page](isresetonnewtradingdays-1.htm) |
+| << [Click to Display Table of Contents](.\isfirsttickofbar.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [OnBarUpdate()](onbarupdate-1.md) >  IsFirstTickOfBar | [Previous page](isdataseriesrequired-1.md) [Return to chapter overview](onbarupdate-1.md) [Next page](isresetonnewtradingdays-1.md) |
 
 Definition
 ----------
 
-Indicates if the incoming tick is the first tick of a new bar. This property is only of value in scripts that run tick by tick which is when the [Calculate](calculate-1.htm) property is set to Calculate.OnEachTick or Calculate.OnPriceChange.
+Indicates if the incoming tick is the first tick of a new bar. This property is only of value in scripts that run tick by tick which is when the [Calculate](calculate-1.md) property is set to Calculate.OnEachTick or Calculate.OnPriceChange.
 
 |  |
 | --- |
-| Warning: This property should NOT be accessed outside of the [OnBarUpdate()](onbarupdate-1.htm) method. |
+| Warning: This property should NOT be accessed outside of the [OnBarUpdate()](onbarupdate-1.md) method. |
 
 |  |
 | --- |
-| Note: If a bar type is set up to [remove the last bar](removelastbar-1.htm) on a chart, IsFirstTickOfBar will automatically be set to True. |
+| Note: If a bar type is set up to [remove the last bar](removelastbar-1.md) on a chart, IsFirstTickOfBar will automatically be set to True. |
 
 Property Value
 --------------
@@ -35,7 +35,7 @@ IsFirstTickOfBar
 
 |  |
 | --- |
-| Tip:  In NinjaTrader's event driven framework, bar closures are signaled by the tick that opens the next bar. The price of the last tick of a bar can be referenced by checking Close[1] on IsFirstTickOfBar. For volume and tick based bars, [Bars.TickCount](tickcount-1.htm) and Volume[0] can be referenced to see if the number of ticks / volume meet the criteria to build a new bar. |
+| Tip:  In NinjaTrader's event driven framework, bar closures are signaled by the tick that opens the next bar. The price of the last tick of a bar can be referenced by checking Close[1] on IsFirstTickOfBar. For volume and tick based bars, [Bars.TickCount](tickcount-1.md) and Volume[0] can be referenced to see if the number of ticks / volume meet the criteria to build a new bar. |
 
 Examples
 --------

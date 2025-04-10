@@ -6,7 +6,7 @@ CanvasLeft
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](canvasleft.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartControl](chartcontrol.htm) >  CanvasLeft | [Previous page](barwidtharray.htm) [Return to chapter overview](chartcontrol.htm) [Next page](canvasright.htm) |
+| << [Click to Display Table of Contents](canvasleft.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  CanvasLeft | [Previous page](barwidtharray.md) [Return to chapter overview](chartcontrol.md) [Next page](canvasright.md) |
 
 Definition
 ----------

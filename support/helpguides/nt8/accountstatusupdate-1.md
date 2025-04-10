@@ -6,7 +6,7 @@ AccountStatusUpdate
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\accountstatusupdate.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) > [Account](account_class-1.htm) >  AccountStatusUpdate | [Previous page](accountitemupdate-1.htm) [Return to chapter overview](account_class-1.htm) [Next page](all-1.htm) |
+| << [Click to Display Table of Contents](.\accountstatusupdate.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [Account](account_class-1.md) >  AccountStatusUpdate | [Previous page](accountitemupdate-1.md) [Return to chapter overview](account_class-1.md) [Next page](all-1.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ MoveAnchorX()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](moveanchorx.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Drawing Tool](drawing_tools.htm) > [ChartAnchor](chartanchor.htm) >  MoveAnchorX() | [Previous page](moveanchor.htm) [Return to chapter overview](chartanchor.htm) [Next page](moveanchory.htm) |
+| << [Click to Display Table of Contents](moveanchorx.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > [ChartAnchor](chartanchor.md) >  MoveAnchorX() | [Previous page](moveanchor.md) [Return to chapter overview](chartanchor.md) [Next page](moveanchory.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ TriggerCustomEvent()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\triggercustomevent.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) >  TriggerCustomEvent() | [Previous page](name-1.htm) [Return to chapter overview](common-1.htm) [Next page](add_on-1.htm) |
+| << [Click to Display Table of Contents](.\triggercustomevent.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) >  TriggerCustomEvent() | [Previous page](name-1.md) [Return to chapter overview](common-1.md) [Next page](add_on-1.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Provides a way to use your own custom events (such as a Timer object) so that in
 
 |  |
 | --- |
-| Note:  The TriggerCustomEvent() method does NOT execute before State.DataLoaded or during or after State.Terminated.  In effect, attempting to trigger custom events may be unavailable in some circumstances (e.g., while an indicator is terminating, or viewing the [Strategy Analyzer](strategy_analyzer-1.htm) chart display after backtest has completed, etc.) |
+| Note:  The TriggerCustomEvent() method does NOT execute before State.DataLoaded or during or after State.Terminated.  In effect, attempting to trigger custom events may be unavailable in some circumstances (e.g., while an indicator is terminating, or viewing the [Strategy Analyzer](strategy_analyzer-1.md) chart display after backtest has completed, etc.) |
 
  
 
@@ -39,13 +39,13 @@ Parameters
 
 |  |  |
 | --- | --- |
-| barsIndex | Index of the [bar series](barsinprogress-1.htm) you want to synchronize to |
+| barsIndex | Index of the [bar series](barsinprogress-1.md) you want to synchronize to |
 | customEvent | [Delegate](http://msdn.microsoft.com/en-us/library/018hxwa8%28v=vs.110%29.aspx) of your custom event method |
 | state | Any object you want passed into your custom event method |
 
 |  |
 | --- |
-| Tips:     •There may be scenarios in which you need to set a [Series<T>](seriest-1.htm) value outside of one of the core data event methods.  In these cases, you can use TriggerCustomEvent() to reliably synchronize the barAgo indexer to the recent.  current bar being updated.  Please see the example below.  •Usually the correct approach is to use the WPF Dispatcher timer, however in cases where you need the timer to update a WinForms window it opened - please use the [WinForms timer](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.timer?view=netframework-4.7.2). |
+| Tips:     •There may be scenarios in which you need to set a [Series<T>](seriest-1.md) value outside of one of the core data event methods.  In these cases, you can use TriggerCustomEvent() to reliably synchronize the barAgo indexer to the recent.  current bar being updated.  Please see the example below.  •Usually the correct approach is to use the WPF Dispatcher timer, however in cases where you need the timer to update a WinForms window it opened - please use the [WinForms timer](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.timer?view=netframework-4.7.2). |
 
  
 

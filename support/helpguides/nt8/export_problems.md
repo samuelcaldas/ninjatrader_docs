@@ -6,7 +6,7 @@ Export Problems
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](export_problems.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Distribution](distribution.htm) >  Export Problems | [Previous page](remove-ninjascript-assembly.htm) [Return to chapter overview](distribution.htm) [Next page](protection_dll_security.htm) |
+| << [Click to Display Table of Contents](export_problems.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Distribution](distribution.md) >  Export Problems | [Previous page](remove-ninjascript-assembly.md) [Return to chapter overview](distribution.md) [Next page](protection_dll_security.md) |
 
 If you are having difficulties exporting NinjaScript it could be due to one of the following reasons:
 

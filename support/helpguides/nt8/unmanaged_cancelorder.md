@@ -6,6 +6,6 @@ CancelOrder()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](unmanaged_cancelorder.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [Order Methods](order_methods.htm) > [Unmanaged Approach](unmanaged_approach.htm) >  CancelOrder() | [Previous page](unmanaged_approach.htm) [Return to chapter overview](unmanaged_approach.htm) [Next page](unmanaged_changeorder.htm) |
+| << [Click to Display Table of Contents](unmanaged_cancelorder.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Unmanaged Approach](unmanaged_approach.md) >  CancelOrder() | [Previous page](unmanaged_approach.md) [Return to chapter overview](unmanaged_approach.md) [Next page](unmanaged_changeorder.md) |
 
-Please see the "[CancelOrder()](managed_cancelorder.htm)" section under the "Managed Approach".
+Please see the "[CancelOrder()](managed_cancelorder.md)" section under the "Managed Approach".

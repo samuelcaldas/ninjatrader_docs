@@ -6,14 +6,14 @@ Icon
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](icon_barstype.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  Icon | [Previous page](getpercentcomplete.htm) [Return to chapter overview](bars_type.htm) [Next page](isremovelastbarsupported.htm) |
+| << [Click to Display Table of Contents](icon_barstype.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  Icon | [Previous page](getpercentcomplete.md) [Return to chapter overview](bars_type.md) [Next page](isremovelastbarsupported.md) |
 
 Definition
 ----------
 
 The shape which displays next to the Bars Type menu item.  Since this is a standard object, any type of icon can be used (unicode characters, custom image file resource, geometry path, etc).
 
-For more information on using images to create icons, see the [Using Images with Custom Icons](using_images_and_geometry_with_custom_icons.htm) page.
+For more information on using images to create icons, see the [Using Images with Custom Icons](using_images_and_geometry_with_custom_icons.md) page.
 
 |  |
 | --- |

@@ -6,7 +6,7 @@ Connections Menu
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\connections_menu.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Control Center](control_center-1.htm) >  Connections Menu | [Previous page](workspaces_menu-1.htm) [Return to chapter overview](control_center-1.htm) [Next page](help_menu-1.htm) |
+| << [Click to Display Table of Contents](.\connections_menu.md) >>  **Navigation:**  [Operations](operations-1.md) > [Control Center](control_center-1.md) >  Connections Menu | [Previous page](workspaces_menu-1.md) [Return to chapter overview](control_center-1.md) [Next page](help_menu-1.md) |
 
 The following menus and items are available via the Tools menu of the NinjaTrader Control Center.
 
@@ -16,7 +16,7 @@ The following menus and items are available via the Tools menu of the NinjaTrade
 
 •You can connect to multiple connections simultaneously.
 
-•The connection status is reported to the left of the connection name in the connections menu per provider. There is also an aggregated connection status in the bottom left hand corner of the Control Center. For more information please see the "[Connection Status](status_bar-1.htm)" section of the help guide.
+•The connection status is reported to the left of the connection name in the connections menu per provider. There is also an aggregated connection status in the bottom left hand corner of the Control Center. For more information please see the "[Connection Status](status_bar-1.md)" section of the help guide.
 
 •Connections menu will only show connections you are authorized to connect per your license key. If you need to connect to more connections or change the connection technology enabled on your license please contact [[email protected]](/cdn-cgi/l/email-protection)
 
@@ -42,4 +42,4 @@ The following menus and items are available via the Tools menu of the NinjaTrade
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pre-Built Connections Although you will need to configure your own connection to a real-time market data provider and your brokerage account, NinjaTrader comes pre-loaded with several connections which can be used for different purposes.    |  |  | | --- | --- | | Kinetick - End of Day (Free) | Provided free of charge by Kinetick, offers daily End-of-Day updates for several instrument types, including stocks, forex, and futures | | Playback Connection | Used to play [Playback](playback_connection-1.htm) data at various speeds (data must be [downloaded](set_up12-1.htm) prior to using the Playback connection) | | Simulated Data Feed | Creates simulated data locally on your PC (not based on real market movements) | |
+| Pre-Built Connections Although you will need to configure your own connection to a real-time market data provider and your brokerage account, NinjaTrader comes pre-loaded with several connections which can be used for different purposes.    |  |  | | --- | --- | | Kinetick - End of Day (Free) | Provided free of charge by Kinetick, offers daily End-of-Day updates for several instrument types, including stocks, forex, and futures | | Playback Connection | Used to play [Playback](playback_connection-1.md) data at various speeds (data must be [downloaded](set_up12-1.md) prior to using the Playback connection) | | Simulated Data Feed | Creates simulated data locally on your PC (not based on real market movements) | |

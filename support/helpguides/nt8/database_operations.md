@@ -6,7 +6,7 @@ Database Operations
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](database_operations.htm) >>  **Navigation:**  [Operations](operations.htm) > [Database](database.htm) >  Database Operations | [Previous page](database.htm) [Return to chapter overview](database.htm) [Next page](data_grids.htm) |
+| << [Click to Display Table of Contents](database_operations.md) >>  **Navigation:**  [Operations](operations.md) > [Database](database.md) >  Database Operations | [Previous page](database.md) [Return to chapter overview](database.md) [Next page](data_grids.md) |
 
 Various database operations can be performed from the Database window.
 
@@ -16,7 +16,7 @@ Various database operations can be performed from the Database window.
 
 |  |
 | --- |
-| Rollover Futures Instruments This will rollover your futures instrument to the most recent expiries across all open workspaces. If there are instruments open in the workspace that are eligible to be rolled forward they will be shown in the grid. For more information on this process please see the [rolling over a futures contract](rolling_over_a_futures_contrac.htm) section of the help guide. |
+| Rollover Futures Instruments This will rollover your futures instrument to the most recent expiries across all open workspaces. If there are instruments open in the workspace that are eligible to be rolled forward they will be shown in the grid. For more information on this process please see the [rolling over a futures contract](rolling_over_a_futures_contrac.md) section of the help guide. |
 
 ![tog_minus](tog_minus.gif)
 
@@ -52,13 +52,13 @@ Various database operations can be performed from the Database window.
 
 |  |  |
 | --- | --- |
-| Restore Workspace This can be used to restore a previous saved version of a saved workspace.  When selecting Restore you will be directed to the location of the recovery workspaces. They will be organized in folders with the names of the workspaces. Double click the folder of the workspace you want to recover and then select the recovery file with the date/time that you want to recover.    By default 10 previously saved versions of your workspaces will be retained. To modify how many recovery versions are available within the Control Center go to Tools and select Options. Within the General section go to Preferences and set the Versions of recovery workspaces. See the Options [General](general_section.htm) section.    |  | | --- | | Note: Deleted workspaces cannot be restored using this feature. However, if you have a backup you could restore it from there. See the [Backup & Restore](backup__restore.htm) section. | |
+| Restore Workspace This can be used to restore a previous saved version of a saved workspace.  When selecting Restore you will be directed to the location of the recovery workspaces. They will be organized in folders with the names of the workspaces. Double click the folder of the workspace you want to recover and then select the recovery file with the date/time that you want to recover.    By default 10 previously saved versions of your workspaces will be retained. To modify how many recovery versions are available within the Control Center go to Tools and select Options. Within the General section go to Preferences and set the Versions of recovery workspaces. See the Options [General](general_section.md) section.    |  | | --- | | Note: Deleted workspaces cannot be restored using this feature. However, if you have a backup you could restore it from there. See the [Backup & Restore](backup__restore.md) section. | |
 
 ![tog_minus](tog_minus.gif)        Reset DB
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
-| Reset the Database This will remove historical trade data from the database. It will not remove chart data or reset any [Simulation accounts](simulation.htm).    |  |  | | --- | --- | | Historical orders | Sets if the historical orders stored in the database will be removed | | Historical executions | Sets if the historical executions in the database will be removed | |
+| Reset the Database This will remove historical trade data from the database. It will not remove chart data or reset any [Simulation accounts](simulation.md).    |  |  | | --- | --- | | Historical orders | Sets if the historical orders stored in the database will be removed | | Historical executions | Sets if the historical executions in the database will be removed | |
 
 ![tog_minus](tog_minus.gif)        Repair DB
 

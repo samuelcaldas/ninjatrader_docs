@@ -6,7 +6,7 @@ GetInitialLookBackDays()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getinitiallookbackdays.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  GetInitialLookBackDays() | [Previous page](defaultchartstyle.htm) [Return to chapter overview](bars_type.htm) [Next page](getpercentcomplete.htm) |
+| << [Click to Display Table of Contents](getinitiallookbackdays.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  GetInitialLookBackDays() | [Previous page](defaultchartstyle.md) [Return to chapter overview](bars_type.md) [Next page](getpercentcomplete.md) |
 
 Definition
 ----------
@@ -25,8 +25,8 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| barsPeriod | The [bars period](barsperiod.htm) chosen by the user when utilizing this Bars type |
-| tradingHours | The [trading hours](tradinghours.htm) chosen by the user when utilizing this Bars type |
+| barsPeriod | The [bars period](barsperiod.md) chosen by the user when utilizing this Bars type |
+| tradingHours | The [trading hours](tradinghours.md) chosen by the user when utilizing this Bars type |
 | barsBack | The bars back chosen by the user when utilizing this Bars type |
 
 Syntax 

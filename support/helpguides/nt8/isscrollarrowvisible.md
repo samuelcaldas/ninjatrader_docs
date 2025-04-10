@@ -6,7 +6,7 @@ IsScrollArrowVisible
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isscrollarrowvisible.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartControl](chartcontrol.htm) >  IsScrollArrowVisible | [Previous page](chartcontrol_indicators.htm) [Return to chapter overview](chartcontrol.htm) [Next page](isstayindrawmode.htm) |
+| << [Click to Display Table of Contents](isscrollarrowvisible.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  IsScrollArrowVisible | [Previous page](chartcontrol_indicators.md) [Return to chapter overview](chartcontrol.md) [Next page](isstayindrawmode.md) |
 
 Definition
 ----------

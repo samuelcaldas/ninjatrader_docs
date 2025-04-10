@@ -6,7 +6,7 @@ Order Flow VWAP
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\order_flow_vwap2.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Order Flow VWAP | [Previous page](order_flow_volumetric_bars2-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](parabolic_sar-1.htm) |
+| << [Click to Display Table of Contents](.\order_flow_vwap2.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Order Flow VWAP | [Previous page](order_flow_volumetric_bars2-1.md) [Return to chapter overview](indicators-1.md) [Next page](parabolic_sar-1.md) |
 
 Description
 -----------
@@ -88,7 +88,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | resolution | The data the indicator will run off of:  Standard  Tick |
 | tradingHoursInstance | The trading hour template that will indicate when the VWAP resets |
 | numStandardDeviations | The number of standard deviations of the VWAP |

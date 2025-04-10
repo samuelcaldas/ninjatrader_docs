@@ -6,7 +6,7 @@ n Bars Up
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\n_bars_up.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  n Bars Up | [Previous page](n_bars_down-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](on_balance_volume_obv-1.htm) |
+| << [Click to Display Table of Contents](.\n_bars_up.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  n Bars Up | [Previous page](n_bars_down-1.md) [Return to chapter overview](indicators-1.md) [Next page](on_balance_volume_obv-1.md) |
 
 Description
 -----------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | barCount | The number of required consecutive higher closes |
 | barUp | Each bar's close must be higher than the open; true or false |
 | higherHigh | Consecutive higher highs required; true or false |

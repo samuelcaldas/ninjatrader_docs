@@ -6,12 +6,12 @@ Weighteds
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\weighteds.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [ISeries<T>](iseriest-1.htm) > [PriceSeries<double>](priceseries-1.htm) >  Weighteds | [Previous page](weighted-1.htm) [Return to chapter overview](priceseries-1.htm) [Next page](timeseries-1.htm) |
+| << [Click to Display Table of Contents](.\weighteds.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [ISeries<T>](iseriest-1.md) > [PriceSeries<double>](priceseries-1.md) >  Weighteds | [Previous page](weighted-1.md) [Return to chapter overview](priceseries-1.md) [Next page](timeseries-1.md) |
 
 Definition
 ----------
 
-Holds an array of ISeries<double> objects holding historical bar weighted prices. An ISeries<double> object is added to this array when calling the [AddDataSeries()](adddataseries-1.htm) method. Its purpose is to provide access to the weighted prices of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of ISeries<double> objects holding historical bar weighted prices. An ISeries<double> object is added to this array when calling the [AddDataSeries()](adddataseries-1.md) method. Its purpose is to provide access to the weighted prices of all Bars objects in a multi-instrument or multi-time frame script.
 
 Property Value
 --------------

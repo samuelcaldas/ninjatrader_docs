@@ -6,7 +6,7 @@ Intelliprompt
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\intelliprompt.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Editor](editor-1.htm) >  Intelliprompt | [Previous page](compile_errors-1.htm) [Return to chapter overview](editor-1.htm) [Next page](output-1.htm) |
+| << [Click to Display Table of Contents](.\intelliprompt.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Editor](editor-1.md) >  Intelliprompt | [Previous page](compile_errors-1.md) [Return to chapter overview](editor-1.md) [Next page](output-1.md) |
 
 What is Intelliprompt?
 ----------------------
@@ -17,7 +17,7 @@ Intelliprompt is a form of automated autocompletion popularized by the Microsoft
 
 |  |
 | --- |
-| Within the NinjaScript Editor you can type "this." to bring up the Intelliprompt list box. The list box contains all methods (functions) and properties available for use. You can select a method or property by simply selecting it via your mouse, or scrolling with your up or down arrow key. Pressing either the "Tab" or "Enter" key will automatically insert the code into the NinjaScript Editor. While in the list box, you can press any letter key to rapidly scroll down to the next property or method beginning with the letter of the key you pressed.   In the image below: 1. A property  2. A method    NS_Editor_2    If you know that you want to access the Simple Moving Average indicator method which is SMA(), and you think it starts with "SM" enter "SM" and press CTRL-Space Bar which would display the Intelliprompt list box below.    NS_Editor_3   Pressing CTRL + space bar after any text will always either •Bring up the Intelliprompt list box with related methods and properties  •Automatically insert code if the text can uniquely identify a method or property  •More keyboard shortcuts could be reviewed under [this link](editor_keyboard_shortcuts-1.htm). |
+| Within the NinjaScript Editor you can type "this." to bring up the Intelliprompt list box. The list box contains all methods (functions) and properties available for use. You can select a method or property by simply selecting it via your mouse, or scrolling with your up or down arrow key. Pressing either the "Tab" or "Enter" key will automatically insert the code into the NinjaScript Editor. While in the list box, you can press any letter key to rapidly scroll down to the next property or method beginning with the letter of the key you pressed.   In the image below: 1. A property  2. A method    NS_Editor_2    If you know that you want to access the Simple Moving Average indicator method which is SMA(), and you think it starts with "SM" enter "SM" and press CTRL-Space Bar which would display the Intelliprompt list box below.    NS_Editor_3   Pressing CTRL + space bar after any text will always either •Bring up the Intelliprompt list box with related methods and properties  •Automatically insert code if the text can uniquely identify a method or property  •More keyboard shortcuts could be reviewed under [this link](editor_keyboard_shortcuts-1.md). |
 
 ![tog_minus](tog_minus-1.gif)        Understanding Method Description and Signatures
 

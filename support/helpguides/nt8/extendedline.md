@@ -6,21 +6,21 @@ ExtendedLine
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](extendedline.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) > [Draw.ExtendedLine()](draw_extendedline.htm) >  ExtendedLine | [Previous page](draw_extendedline.htm) [Return to chapter overview](draw_extendedline.htm) [Next page](draw_fibonaccicircle.htm) |
+| << [Click to Display Table of Contents](extendedline.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.ExtendedLine()](draw_extendedline.md) >  ExtendedLine | [Previous page](draw_extendedline.md) [Return to chapter overview](draw_extendedline.md) [Next page](draw_fibonaccicircle.md) |
 
 Definition
 ----------
 
-Represents an interface that exposes information regarding an Extended Line [IDrawingTool](idrawingtool.htm).
+Represents an interface that exposes information regarding an Extended Line [IDrawingTool](idrawingtool.md).
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the end point of the drawing object |
-| Stroke | A [Stroke](stroke_class.htm) object used to draw the object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| Stroke | A [Stroke](stroke_class.md) object used to draw the object |
 
 Example
 -------

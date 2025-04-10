@@ -6,7 +6,7 @@ DaysToLoad
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\daystoload.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  DaysToLoad | [Previous page](connectionlosshandling-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](defaultquantity-1.htm) |
+| << [Click to Display Table of Contents](.\daystoload.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  DaysToLoad | [Previous page](connectionlosshandling-1.md) [Return to chapter overview](strategy-1.md) [Next page](defaultquantity-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Determines the number of trading days which will be configured when loading the 
 
 |  |
 | --- |
-| Notes:  1.This property does NOT affect a strategy configured of a Chart or the Strategy Analyzer.  2.A trading day is defined by a [Trading Hour](using_the_trading_hours_window-1.htm) template |
+| Notes:  1.This property does NOT affect a strategy configured of a Chart or the Strategy Analyzer.  2.A trading day is defined by a [Trading Hour](using_the_trading_hours_window-1.md) template |
 
 Property Value
 --------------

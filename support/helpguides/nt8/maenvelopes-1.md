@@ -6,7 +6,7 @@ MA Envelopes
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\maenvelopes.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  MA Envelopes | [Previous page](linear_regression_slope-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](maximum_max-1.htm) |
+| << [Click to Display Table of Contents](.\maenvelopes.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  MA Envelopes | [Previous page](linear_regression_slope-1.md) [Return to chapter overview](indicators-1.md) [Next page](maximum_max-1.md) |
 
 Description
 -----------
@@ -55,7 +55,7 @@ Parameters
 |  |  |
 | --- | --- |
 | envelopePercentage | Percentage around MA that envelopes will be drawn |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | mAType | Moving average type:  1 = EMA  2 = HMA  3 = SMA  4 = TMA  5 = TEMA  6 = WMA |
 | period | Number of bars used in the calculation |
 

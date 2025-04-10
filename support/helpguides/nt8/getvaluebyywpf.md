@@ -6,7 +6,7 @@ GetValueByYWpf()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getvaluebyywpf.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartScale](chartscale.htm) >  GetValueByYWpf() | [Previous page](getvaluebyy.htm) [Return to chapter overview](chartscale.htm) [Next page](getybyvalue.htm) |
+| << [Click to Display Table of Contents](getvaluebyywpf.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartScale](chartscale.md) >  GetValueByYWpf() | [Previous page](getvaluebyy.md) [Return to chapter overview](chartscale.md) [Next page](getybyvalue.md) |
 
 Definition
 ----------
@@ -40,6 +40,6 @@ Examples
 
  
 
-In the image below, we used the Chart Control property [MouseDownPoint](mousedownpoint.htm) as the "wpfy" variable, which in return tells us the user clicked on a Y value of 2105.499 on the chart scale.
+In the image below, we used the Chart Control property [MouseDownPoint](mousedownpoint.md) as the "wpfy" variable, which in return tells us the user clicked on a Y value of 2105.499 on the chart scale.
 
 ![getvaluebyywpf](getvaluebyywpf.png)

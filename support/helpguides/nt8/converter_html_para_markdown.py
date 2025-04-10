@@ -3,7 +3,7 @@ import glob
 from markdownify import markdownify as md
 
 # Encontrar todos os arquivos HTML/HTM no diretório atual
-html_files = glob.glob("*.html")
+html_files = glob.glob("*.md")
 html_files.extend(glob.glob("*.md"))
 
 print(f"Encontrados {len(html_files)} arquivos HTML/HTM para converter")

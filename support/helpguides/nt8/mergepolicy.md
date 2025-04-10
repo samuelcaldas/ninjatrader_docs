@@ -6,12 +6,12 @@ MergePolicy
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](mergepolicy.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Instruments](instruments_ninjascript.htm) > [Instrument](instrument.htm) > [MasterInstrument](masterinstrument.htm) >  MergePolicy | [Previous page](instrumenttype.htm) [Return to chapter overview](masterinstrument.htm) [Next page](masterinstrument_name.htm) |
+| << [Click to Display Table of Contents](mergepolicy.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > [Instrument](instrument.md) > [MasterInstrument](masterinstrument.md) >  MergePolicy | [Previous page](instrumenttype.md) [Return to chapter overview](masterinstrument.md) [Next page](masterinstrument_name.md) |
 
 Definition
 ----------
 
-Indicates the Merge Policy configured for the [Master Instrument properties](editing_instruments.htm).
+Indicates the Merge Policy configured for the [Master Instrument properties](editing_instruments.md).
 
 Property Value
 --------------

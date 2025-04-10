@@ -6,7 +6,7 @@ Alerts Log Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\alerts_log_properties.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Alerts Log](alerts_log-1.htm) >  Alerts Log Properties | [Previous page](using_the_alerts_log_window-1.htm) [Return to chapter overview](alerts_log-1.htm) [Next page](window_linking7-1.htm) |
+| << [Click to Display Table of Contents](.\alerts_log_properties.md) >>  **Navigation:**  [Operations](operations-1.md) > [Alerts Log](alerts_log-1.md) >  Alerts Log Properties | [Previous page](using_the_alerts_log_window-1.md) [Return to chapter overview](alerts_log-1.md) [Next page](window_linking7-1.md) |
 
 The Alerts Log window can be customized through the Alerts Log Properties window.
 

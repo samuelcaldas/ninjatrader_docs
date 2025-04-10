@@ -6,12 +6,12 @@ CalculateTradingDay()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\calculatetradingday.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [SessionIterator](sessioniterator-1.htm) >  CalculateTradingDay() | [Previous page](actualtradingdayexchange-1.htm) [Return to chapter overview](sessioniterator-1.htm) [Next page](getnextsession-1.htm) |
+| << [Click to Display Table of Contents](.\calculatetradingday.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [SessionIterator](sessioniterator-1.md) >  CalculateTradingDay() | [Previous page](actualtradingdayexchange-1.md) [Return to chapter overview](sessioniterator-1.md) [Next page](getnextsession-1.md) |
 
 Definition
 ----------
 
-Calculates the trading date of the time value passed in as the timeLocal argument. This method may need to be used before you can accurately determine various session properties such as [ActualSessionBegin](actualsessionbegin-1.htm) or [ActualTradingDayEndLocal](actualtradingdayendlocal-1.htm), etc. CalculateTradingDay() also checks the local date/time against the exchange's current date/time to ensure that the script is in sync with the exchange's current day.
+Calculates the trading date of the time value passed in as the timeLocal argument. This method may need to be used before you can accurately determine various session properties such as [ActualSessionBegin](actualsessionbegin-1.md) or [ActualTradingDayEndLocal](actualtradingdayendlocal-1.md), etc. CalculateTradingDay() also checks the local date/time against the exchange's current date/time to ensure that the script is in sync with the exchange's current day.
 
 |  |
 | --- |

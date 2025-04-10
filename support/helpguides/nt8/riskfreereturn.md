@@ -6,12 +6,12 @@ RiskFreeReturn
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](riskfreereturn.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  RiskFreeReturn | [Previous page](rsquared.htm) [Return to chapter overview](tradesperformance.htm) [Next page](sharperatio.htm) |
+| << [Click to Display Table of Contents](riskfreereturn.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  RiskFreeReturn | [Previous page](rsquared.md) [Return to chapter overview](tradesperformance.md) [Next page](sharperatio.md) |
 
 Definition
 ----------
 
-The risk free return used in calculations of [Sharpe](sharperatio.htm) and [Sortino](sortinoratio.htm) ratios.
+The risk free return used in calculations of [Sharpe](sharperatio.md) and [Sortino](sortinoratio.md) ratios.
 
 Property Value
 --------------

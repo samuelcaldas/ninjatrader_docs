@@ -6,7 +6,7 @@ BarBrushes
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\barbrushes.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  BarBrushes | [Previous page](barbrush-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](candleoutlinebrush-1.htm) |
+| << [Click to Display Table of Contents](.\barbrushes.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  BarBrushes | [Previous page](barbrush-1.md) [Return to chapter overview](drawing-1.md) [Next page](candleoutlinebrush-1.md) |
 
 Definition
 ----------
@@ -32,7 +32,7 @@ BarBrushes[int barsAgo]
 
 |  |
 | --- |
-| Warning:  You may have up to 65,535 unique BarBrushes instances, therefore, using [static predefined brushes](working_with_brushes-1.htm) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created. |
+| Warning:  You may have up to 65,535 unique BarBrushes instances, therefore, using [static predefined brushes](working_with_brushes-1.md) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created. |
 
 Examples
 --------

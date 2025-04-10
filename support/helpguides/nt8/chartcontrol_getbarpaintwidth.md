@@ -6,7 +6,7 @@ GetBarPaintWidth()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chartcontrol_getbarpaintwidth.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartControl](chartcontrol.htm) >  GetBarPaintWidth() | [Previous page](firsttimepainted.htm) [Return to chapter overview](chartcontrol.htm) [Next page](getslotindexbytime.htm) |
+| << [Click to Display Table of Contents](chartcontrol_getbarpaintwidth.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  GetBarPaintWidth() | [Previous page](firsttimepainted.md) [Return to chapter overview](chartcontrol.md) [Next page](getslotindexbytime.md) |
 
 Definition
 ----------
@@ -27,7 +27,7 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| chartBars | A [ChartBars](chartbars.htm) object to measure |
+| chartBars | A [ChartBars](chartbars.md) object to measure |
 
 Example
 -------

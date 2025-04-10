@@ -6,7 +6,7 @@ IsFalling()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](falling.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  IsFalling() | [Previous page](highestbar.htm) [Return to chapter overview](market_data.htm) [Next page](rising.htm) |
+| << [Click to Display Table of Contents](falling.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  IsFalling() | [Previous page](highestbar.md) [Return to chapter overview](market_data.md) [Next page](rising.md) |
 
 Definition
 ----------

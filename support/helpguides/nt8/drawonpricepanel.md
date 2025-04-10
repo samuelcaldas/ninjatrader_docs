@@ -6,7 +6,7 @@ DrawOnPricePanel
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](drawonpricepanel.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) >  DrawOnPricePanel | [Previous page](drawhorizontalgridlines.htm) [Return to chapter overview](indicator.htm) [Next page](drawverticalgridlines.htm) |
+| << [Click to Display Table of Contents](drawonpricepanel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) >  DrawOnPricePanel | [Previous page](drawhorizontalgridlines.md) [Return to chapter overview](indicator.md) [Next page](drawverticalgridlines.md) |
 
 Definition
 ----------
@@ -20,7 +20,7 @@ This property returns true if the indicator paints draw objects on the price pan
 
 |  |
 | --- |
-| Warning:  This property should ONLY be set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults. Dynamically using DrawOnPricePanel in an indicator outside of State.SetDefaults may show issues when working with that indicator through a hosting strategy via [AddChartIndicator()](addchartindicator.htm). |
+| Warning:  This property should ONLY be set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults. Dynamically using DrawOnPricePanel in an indicator outside of State.SetDefaults may show issues when working with that indicator through a hosting strategy via [AddChartIndicator()](addchartindicator.md). |
 
 Syntax
 ------

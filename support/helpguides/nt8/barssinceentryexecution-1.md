@@ -6,7 +6,7 @@ BarsSinceEntryExecution()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\barssinceentryexecution.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  BarsSinceEntryExecution() | [Previous page](barsrequiredtotrade-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](barssinceexitexecution-1.htm) |
+| << [Click to Display Table of Contents](.\barssinceentryexecution.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  BarsSinceEntryExecution() | [Previous page](barsrequiredtotrade-1.md) [Return to chapter overview](strategy-1.md) [Next page](barssinceexitexecution-1.md) |
 
 Definition
 ----------
@@ -24,7 +24,7 @@ BarsSinceEntryExecution(string signalName)
 
  
 
-The following method signature should be used when working with [multi-time frame and instrument strategies](multi-time_frame__instruments-1.htm):
+The following method signature should be used when working with [multi-time frame and instrument strategies](multi-time_frame__instruments-1.md):
 
  
 
@@ -40,7 +40,7 @@ Parameters
 |  |  |
 | --- | --- |
 | signalName | The signal name of an entry order specified in an order entry method. |
-| barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [BarsInProgress](barsinprogress-1.htm) property. |
+| barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [BarsInProgress](barsinprogress-1.md) property. |
 | entryExecutionsAgo | Number of entry executions ago. Pass in 0 for the number of bars since the last entry execution. |
 
 Examples

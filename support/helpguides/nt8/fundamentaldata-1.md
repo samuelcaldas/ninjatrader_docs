@@ -6,7 +6,7 @@ FundamentalData
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\fundamentaldata.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) >  FundamentalData | [Previous page](controlcenter-1.htm) [Return to chapter overview](add_on-1.htm) [Next page](marketdata-1.htm) |
+| << [Click to Display Table of Contents](.\fundamentaldata.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) >  FundamentalData | [Previous page](controlcenter-1.md) [Return to chapter overview](add_on-1.md) [Next page](marketdata-1.md) |
 
 Definition
 ----------
@@ -40,7 +40,7 @@ Properties
 | High52WeeksDate | A DateTime representing the date of the 52 week high price |
 | HistoricalVolatility | A double representing the historical volatility |
 | InsiderOwned | A double representing the insider owned amount |
-| Instrument | An [Instrument](instrument-1.htm) representing the instrument |
+| Instrument | An [Instrument](instrument-1.md) representing the instrument |
 | Low52Weeks | A double representing the 52 week low |
 | Low52WeeksDate | A DateTime representing the date of the 52 week low price |
 | MarketCap | A double representing the market capitalization |

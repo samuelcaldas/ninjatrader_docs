@@ -6,7 +6,7 @@ Name
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](name.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) >  Name | [Previous page](isvisible.htm) [Return to chapter overview](common.htm) [Next page](triggercustomevent.htm) |
+| << [Click to Display Table of Contents](name.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) >  Name | [Previous page](isvisible.md) [Return to chapter overview](common.md) [Next page](triggercustomevent.md) |
 
 Definition
 ----------

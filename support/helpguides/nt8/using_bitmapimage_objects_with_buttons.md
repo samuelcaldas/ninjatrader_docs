@@ -6,7 +6,7 @@ Using BitmapImage objects with Buttons
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using_bitmapimage_objects_with_buttons.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) >  Using BitmapImage objects with Buttons | [Previous page](using_atm_strategies.htm) [Return to chapter overview](educational_resources.htm) [Next page](using_historical_bid_ask_serie.htm) |
+| << [Click to Display Table of Contents](using_bitmapimage_objects_with_buttons.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) >  Using BitmapImage objects with Buttons | [Previous page](using_atm_strategies.md) [Return to chapter overview](educational_resources.md) [Next page](using_historical_bid_ask_serie.md) |
 
 Images as Buttons Overview
 --------------------------

@@ -6,7 +6,7 @@ Draw.ExtendedLine()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\draw_extendedline.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  Draw.ExtendedLine() | [Previous page](ellipse-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](extendedline-1.htm) |
+| << [Click to Display Table of Contents](.\draw_extendedline.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  Draw.ExtendedLine() | [Previous page](ellipse-1.md) [Return to chapter overview](drawing-1.md) [Next page](extendedline-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a line with infinite end points.
 Method Return Value
 -------------------
 
-An [ExtendedLine](extendedline-1.htm) object that represents the draw object.
+An [ExtendedLine](extendedline-1.md) object that represents the draw object.
 
 Syntax  
 Draw.ExtendedLine(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  

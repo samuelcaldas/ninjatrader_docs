@@ -6,7 +6,7 @@ DisplayName
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](indicator_displayname.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) >  DisplayName | [Previous page](description.htm) [Return to chapter overview](common.htm) [Next page](isvisible.htm) |
+| << [Click to Display Table of Contents](indicator_displayname.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) >  DisplayName | [Previous page](description.md) [Return to chapter overview](common.md) [Next page](isvisible.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Determines the text display on the chart panel.  This is also listed in the UI 
 
 |  |
 | --- |
-| Note:  For modifying the string which is used in the list of available indicators, please see the [Name](name.htm) property. |
+| Note:  For modifying the string which is used in the list of available indicators, please see the [Name](name.md) property. |
 
 Property Value
 --------------

@@ -6,12 +6,12 @@ BarsRequest
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\barsrequest.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) >  BarsRequest | [Previous page](submit-1.htm) [Return to chapter overview](add_on-1.htm) [Next page](request-1.htm) |
+| << [Click to Display Table of Contents](.\barsrequest.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) >  BarsRequest | [Previous page](submit-1.md) [Return to chapter overview](add_on-1.md) [Next page](request-1.md) |
 
 Definition
 ----------
 
-BarsRequest can be used to request [Bars](bars-1.htm) data and subscribe to real-time Bars data events.
+BarsRequest can be used to request [Bars](bars-1.md) data and subscribe to real-time Bars data events.
 
 |  |
 | --- |
@@ -30,7 +30,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| Instrument | The [Instrument](instrument-1.htm) to request |
+| Instrument | The [Instrument](instrument-1.md) to request |
 | barsBack | An int value determining the number of bars to request from the current time |
 | fromLocal | A DateTime value determining the starting date to request |
 | toLocal | A DateTime value determining the ending date to request |
@@ -40,18 +40,18 @@ Methods and Properties
 
 |  |  |
 | --- | --- |
-| Bars | The [Bars](bars-1.htm) object returned from the request |
+| Bars | The [Bars](bars-1.md) object returned from the request |
 | BarsBack | An int representing the number of bars back used in the request |
-| BarsPeriod | The [BarsPeriod](barsperiod-1.htm) for the bars request |
+| BarsPeriod | The [BarsPeriod](barsperiod-1.md) for the bars request |
 | FromLocal | A DateTime representing the starting date used in the request |
-| IsDividendAdjusted | A bool representing if the bars request will be [dividend adjusted](splits_and_dividends-1.htm) |
-| IsResetOnNewTradingDay | A bool representing if the bars request will [Break at EOD](break_at_eod-1.htm) |
-| IsSplitAdjusted | A bool representing if the bars request will be [split adjusted](splits_and_dividends-1.htm) |
-| Instrument | The [Instrument](instrument-1.htm) of the bars request |
+| IsDividendAdjusted | A bool representing if the bars request will be [dividend adjusted](splits_and_dividends-1.md) |
+| IsResetOnNewTradingDay | A bool representing if the bars request will [Break at EOD](break_at_eod-1.md) |
+| IsSplitAdjusted | A bool representing if the bars request will be [split adjusted](splits_and_dividends-1.md) |
+| Instrument | The [Instrument](instrument-1.md) of the bars request |
 | LookupPolicy | The lookup policies for the bars request.  Possible Values are:  •Provider - Queries the provider. The repository is updated on provider's reply  •Repository - Looks up the local repository only |
-| [MergePolicy](barsrequest_mergepolicy-1.htm) | The [merge policy](mergepolicy-1.htm) for the bars request. |
-| [Request()](request-1.htm) | Requests the bars as parametrized |
-| TradingHours | The [trading hours](tradinghours-1.htm) for the bars request |
+| [MergePolicy](barsrequest_mergepolicy-1.md) | The [merge policy](mergepolicy-1.md) for the bars request. |
+| [Request()](request-1.md) | Requests the bars as parametrized |
+| TradingHours | The [trading hours](tradinghours-1.md) for the bars request |
 | ToLocal | A DateTime representing the end date used in the request |
 | Update | A BarsUpdateEvent handler for subscribing/unsubscribing to bar update events |
 

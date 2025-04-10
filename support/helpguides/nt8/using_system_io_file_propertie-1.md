@@ -6,7 +6,7 @@ Using System.IO File properties to write to and read from a text file
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\using_system_io_file_propertie.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Reference Samples](reference_samples-1.htm) > [Indicator](indicator2-1.htm) >  Using System.IO File properties to write to and read from a text file | [Previous page](using_streamwriter_to_write_to-1.htm) [Return to chapter overview](indicator2-1.htm) [Next page](using_try-catch_blocks-1.htm) |
+| << [Click to Display Table of Contents](.\using_system_io_file_propertie.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Indicator](indicator2-1.md) >  Using System.IO File properties to write to and read from a text file | [Previous page](using_streamwriter_to_write_to-1.md) [Return to chapter overview](indicator2-1.md) [Next page](using_try-catch_blocks-1.md) |
 
 Using Stream objects can be cumbersome when you only want to write/read a small amount of data. Fortunately, you can handle this operation with another method. Keep in mind that in exchange for the convenience you will lose some performance.
 

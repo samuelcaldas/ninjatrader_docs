@@ -6,7 +6,7 @@ Working with Objects on Charts
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\chart_objects.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Charts](charts-1.htm) >  Working with Objects on Charts | [Previous page](chart_panels-1.htm) [Return to chapter overview](charts-1.htm) [Next page](working_with_price_data-1.htm) |
+| << [Click to Display Table of Contents](.\chart_objects.md) >>  **Navigation:**  [Operations](operations-1.md) > [Charts](charts-1.md) >  Working with Objects on Charts | [Previous page](chart_panels-1.md) [Return to chapter overview](charts-1.md) [Next page](working_with_price_data-1.md) |
 
 Charts in NinjaTrader can contain and display multiple objects, including Data Series, Drawing Objects, and indicator plots. Objects on charts can be managed in a number ways, such as dragging and dropping them to new panels, changing the axis of their price scale (if applicable), or changing the order in which they are painted on a chart.
 

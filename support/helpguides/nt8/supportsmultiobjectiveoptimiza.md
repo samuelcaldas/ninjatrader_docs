@@ -6,7 +6,7 @@ SupportsMultiObjectiveOptimization
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](supportsmultiobjectiveoptimiza.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Optimizer](optimizer.htm) >  SupportsMultiObjectiveOptimization | [Previous page](runiteration.htm) [Return to chapter overview](optimizer.htm) [Next page](performance_metrics.htm) |
+| << [Click to Display Table of Contents](supportsmultiobjectiveoptimiza.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Optimizer](optimizer.md) >  SupportsMultiObjectiveOptimization | [Previous page](runiteration.md) [Return to chapter overview](optimizer.md) [Next page](performance_metrics.md) |
 
 Definition
 ----------

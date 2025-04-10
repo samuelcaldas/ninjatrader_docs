@@ -6,13 +6,13 @@ NumericTextBox
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](numerictextbox.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  NumericTextBox | [Previous page](ntwindow.htm) [Return to chapter overview](add_on.htm) [Next page](onwindowcreated.htm) |
+| << [Click to Display Table of Contents](numerictextbox.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  NumericTextBox | [Previous page](ntwindow.md) [Return to chapter overview](add_on.md) [Next page](onwindowcreated.md) |
 
 NumericTextBox provides functionality for numeric text boxes to capture user input. This UI element can be defined in XAML for an AddOn if desired, with functionality and logic related to the text box defined in C#, as in the examples below.
 
 |  |
 | --- |
-| Note:  For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.htm) |
+| Note:  For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md) |
 
  
 

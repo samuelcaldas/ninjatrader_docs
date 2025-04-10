@@ -6,7 +6,7 @@ HighestBar()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](highestbar.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  HighestBar() | [Previous page](getmedian.htm) [Return to chapter overview](market_data.htm) [Next page](falling.htm) |
+| << [Click to Display Table of Contents](highestbar.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  HighestBar() | [Previous page](getmedian.md) [Return to chapter overview](market_data.md) [Next page](falling.md) |
 
 Definition
 

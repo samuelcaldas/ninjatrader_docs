@@ -6,6 +6,6 @@ ChangeOrderUnmanaged()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](unmanaged_changeorder.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [Order Methods](order_methods.htm) > [Unmanaged Approach](unmanaged_approach.htm) >  ChangeOrderUnmanaged() | [Previous page](unmanaged_cancelorder.htm) [Return to chapter overview](unmanaged_approach.htm) [Next page](ignoreoverfill.htm) |
+| << [Click to Display Table of Contents](unmanaged_changeorder.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Unmanaged Approach](unmanaged_approach.md) >  ChangeOrderUnmanaged() | [Previous page](unmanaged_cancelorder.md) [Return to chapter overview](unmanaged_approach.md) [Next page](ignoreoverfill.md) |
 
-Please see the "[ChangeOrder()](managed_changeorder.htm)" section under the "Managed Approach".
+Please see the "[ChangeOrder()](managed_changeorder.md)" section under the "Managed Approach".

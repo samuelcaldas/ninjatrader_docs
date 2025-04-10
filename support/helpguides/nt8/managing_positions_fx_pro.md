@@ -6,7 +6,7 @@ Modifying and Cancelling Orders
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](managing_positions_fx_pro.htm) >>  **Navigation:**  [Operations](operations.htm) > [Order Entry](order_entry.htm) > [FX Pro](fx_pro.htm) >  Modifying and Cancelling Orders | [Previous page](modifying_and_cancelling_orders_fx_pro.htm) [Return to chapter overview](fx_pro.htm) [Next page](properties_fx_pro.htm) |
+| << [Click to Display Table of Contents](managing_positions_fx_pro.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) > [FX Pro](fx_pro.md) >  Modifying and Cancelling Orders | [Previous page](modifying_and_cancelling_orders_fx_pro.md) [Return to chapter overview](fx_pro.md) [Next page](properties_fx_pro.md) |
 
 How to Manage Open Positions
 ----------------------------
@@ -17,4 +17,4 @@ How to Manage Open Positions
 
 ![FXPro_17](fxpro_17.png)
 
-Please see the help topic on [Closing a Position or ATM Strategy](closing_a_position_or_atm_stra.htm) for more information on the mechanics behind closing various types of positions.
+Please see the help topic on [Closing a Position or ATM Strategy](closing_a_position_or_atm_stra.md) for more information on the mechanics behind closing various types of positions.

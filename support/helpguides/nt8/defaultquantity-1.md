@@ -6,7 +6,7 @@ DefaultQuantity
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\defaultquantity.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  DefaultQuantity | [Previous page](daystoload-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](disconnectdelayseconds-1.htm) |
+| << [Click to Display Table of Contents](.\defaultquantity.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  DefaultQuantity | [Previous page](daystoload-1.md) [Return to chapter overview](strategy-1.md) [Next page](disconnectdelayseconds-1.md) |
 
 Definition
 ----------
@@ -20,7 +20,7 @@ An int value represents the number of contracts or shares to enter a position wi
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

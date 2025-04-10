@@ -6,7 +6,7 @@ DefaultChartStyle
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](defaultchartstyle.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  DefaultChartStyle | [Previous page](builtfrom.htm) [Return to chapter overview](bars_type.htm) [Next page](getinitiallookbackdays.htm) |
+| << [Click to Display Table of Contents](defaultchartstyle.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  DefaultChartStyle | [Previous page](builtfrom.md) [Return to chapter overview](bars_type.md) [Next page](getinitiallookbackdays.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Allows to set a default ChartStyle for usage with a NinjaTrader bars type
 Property Value
 --------------
 
-A ChartStyleTypeÂenum value representing the [ChartStyle](chartstyletype.htm) to be set as default. System defaults include:
+A ChartStyleTypeÂenum value representing the [ChartStyle](chartstyletype.md) to be set as default. System defaults include:
 
 •ChartStyleType.Box,
 

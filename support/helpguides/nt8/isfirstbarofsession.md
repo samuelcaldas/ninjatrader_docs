@@ -6,7 +6,7 @@ IsFirstBarOfSession
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isfirstbarofsession.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Bars](bars.htm) >  IsFirstBarOfSession | [Previous page](getvolume.htm) [Return to chapter overview](bars.htm) [Next page](isfirstbarofsessionbyindex.htm) |
+| << [Click to Display Table of Contents](isfirstbarofsession.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  IsFirstBarOfSession | [Previous page](getvolume.md) [Return to chapter overview](bars.md) [Next page](isfirstbarofsessionbyindex.md) |
 
 Definition
 ----------
@@ -30,7 +30,7 @@ This property returns true if the bar is the first processed in a session; other
 
 |  |
 | --- |
-| Warning:   This property will always return false on non-intraday bar periods (e.g., Day, Month, etc).  For checking for new non-intraday bar updates, please see [IsFirstTickOfBar](isfirsttickofbar.htm) |
+| Warning:   This property will always return false on non-intraday bar periods (e.g., Day, Month, etc).  For checking for new non-intraday bar updates, please see [IsFirstTickOfBar](isfirsttickofbar.md) |
 
 Syntax 
 Bars.IsFirstBarOfSession
@@ -38,7 +38,7 @@ Bars.IsFirstBarOfSession
 
 |  |
 | --- |
-| Tip:  For checking at a specified bar index, please see [IsFirstBarOfSessionByIndex()](isfirstbarofsessionbyindex.htm) |
+| Tip:  For checking at a specified bar index, please see [IsFirstBarOfSessionByIndex()](isfirstbarofsessionbyindex.md) |
 
 Examples
 --------

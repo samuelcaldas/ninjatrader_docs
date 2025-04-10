@@ -6,7 +6,7 @@ Draw.FibonacciTimeExtensions()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_fibonaccitimeextensions.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.FibonacciTimeExtensions() | [Previous page](fibonacciretracements.htm) [Return to chapter overview](drawing.htm) [Next page](fibonaccitimeextensions.htm) |
+| << [Click to Display Table of Contents](draw_fibonaccitimeextensions.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.FibonacciTimeExtensions() | [Previous page](fibonacciretracements.md) [Return to chapter overview](drawing.md) [Next page](fibonaccitimeextensions.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a fibonacci time extension.
 Method Return Value
 -------------------
 
-A [FibonacciTimeExtensions](fibonaccitimeextensions.htm) object that represents the draw object.
+A [FibonacciTimeExtensions](fibonaccitimeextensions.md) object that represents the draw object.
 
 Syntax  
 Draw.FibonacciTimeExtensions(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY)  

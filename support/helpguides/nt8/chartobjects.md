@@ -6,7 +6,7 @@ ChartObjects
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chartobjects.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartPanel](chartpanel.htm) >  ChartObjects | [Previous page](chartpanel.htm) [Return to chapter overview](chartpanel.htm) [Next page](h_height_chartpanel.htm) |
+| << [Click to Display Table of Contents](chartobjects.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartPanel](chartpanel.md) >  ChartObjects | [Previous page](chartpanel.md) [Return to chapter overview](chartpanel.md) [Next page](h_height_chartpanel.md) |
 
 Definition
 ----------

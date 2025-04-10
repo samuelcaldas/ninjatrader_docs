@@ -6,7 +6,7 @@ Trading crossovers
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\trading_crossovers.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Reference Samples](reference_samples-1.htm) > [Strategy](strategy2-1.htm) >  Trading crossovers | [Previous page](stopping_a_strategy_after_cons-1.htm) [Return to chapter overview](strategy2-1.htm) [Next page](using_a_time_filter_to_limit_t-1.htm) |
+| << [Click to Display Table of Contents](.\trading_crossovers.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Strategy](strategy2-1.md) >  Trading crossovers | [Previous page](stopping_a_strategy_after_cons-1.md) [Return to chapter overview](strategy2-1.md) [Next page](using_a_time_filter_to_limit_t-1.md) |
 
 Similar in concept to a breakout, many traders like to trade crossovers. This can be a crossover of price from a certain threshold or even an indicator crossing over another indicator.
 
@@ -32,17 +32,17 @@ Key concepts in this example
 Important related documentation
 -------------------------------
 
-•[Calculate](calculate-1.htm)
+•[Calculate](calculate-1.md)
 
-•[CrossAbove()](crossabove-1.htm)
+•[CrossAbove()](crossabove-1.md)
 
-•[CrossBelow()](crossbelow-1.htm)
+•[CrossBelow()](crossbelow-1.md)
 
-•[SetTrailStop()](settrailstop-1.htm)
+•[SetTrailStop()](settrailstop-1.md)
 
-•[SetStopLoss()](setstoploss-1.htm)
+•[SetStopLoss()](setstoploss-1.md)
 
-•[SetProfitTarget()](setprofittarget-1.htm)
+•[SetProfitTarget()](setprofittarget-1.md)
 
 Import instructions
 -------------------

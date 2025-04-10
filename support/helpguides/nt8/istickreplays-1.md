@@ -6,12 +6,12 @@ IsTickReplays
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\istickreplays.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [OnBarUpdate()](onbarupdate-1.htm) >  IsTickReplays | [Previous page](isresetonnewtradingdays-1.htm) [Return to chapter overview](onbarupdate-1.htm) [Next page](update-1.htm) |
+| << [Click to Display Table of Contents](.\istickreplays.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [OnBarUpdate()](onbarupdate-1.md) >  IsTickReplays | [Previous page](isresetonnewtradingdays-1.md) [Return to chapter overview](onbarupdate-1.md) [Next page](update-1.md) |
 
 Definition
 ----------
 
-Indicates the specified bar series is using Tick Replay.   Please see the help guide topic on using [Tick Replay](tick_replay-1.htm) for general information on this mode.
+Indicates the specified bar series is using Tick Replay.   Please see the help guide topic on using [Tick Replay](tick_replay-1.md) for general information on this mode.
 
 |  |
 | --- |
@@ -19,12 +19,12 @@ Indicates the specified bar series is using Tick Replay.   Please see the help 
 
 |  |
 | --- |
-| Warning:  This property should NOT be accessed within the [OnStateChange()](onstatechange-1.htm) method before the State has reached State.DataLoaded |
+| Warning:  This property should NOT be accessed within the [OnStateChange()](onstatechange-1.md) method before the State has reached State.DataLoaded |
 
 Property Value
 --------------
 
-A bool[] when true, indicates the specified [BarsArray](barsarray-1.htm) is setup to run Tick Replay; otherwise false.  Default value is false
+A bool[] when true, indicates the specified [BarsArray](barsarray-1.md) is setup to run Tick Replay; otherwise false.  Default value is false
 
 Syntax
 ------

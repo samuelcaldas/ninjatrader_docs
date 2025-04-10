@@ -6,7 +6,7 @@ StdDev
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](stddev.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradesPerformanceValues](tradesperformancevalues.htm) >  StdDev | [Previous page](profitpermonth.htm) [Return to chapter overview](tradesperformancevalues.htm) [Next page](turnaround.htm) |
+| << [Click to Display Table of Contents](stddev.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradesPerformanceValues](tradesperformancevalues.md) >  StdDev | [Previous page](profitpermonth.md) [Return to chapter overview](tradesperformancevalues.md) [Next page](turnaround.md) |
 
 Definition
 ----------

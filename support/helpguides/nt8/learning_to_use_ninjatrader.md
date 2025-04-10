@@ -6,7 +6,7 @@ Learning to Use NinjaTrader
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](learning_to_use_ninjatrader.htm) >>  **Navigation:**  [Introduction](introduction.htm) >  Learning to Use NinjaTrader | [Previous page](getting_help__support.htm) [Return to chapter overview](introduction.htm) [Next page](using_3rd_party_add-ons.htm) |
+| << [Click to Display Table of Contents](learning_to_use_ninjatrader.md) >>  **Navigation:**  [Introduction](introduction.md) >  Learning to Use NinjaTrader | [Previous page](getting_help__support.md) [Return to chapter overview](introduction.md) [Next page](using_3rd_party_add-ons.md) |
 
 NinjaTrader provides a variety of ways for free and licensed users to learn and master the platform, including this help guide, the Video Library, the Support Forum, and weekly free live training sessions.
 

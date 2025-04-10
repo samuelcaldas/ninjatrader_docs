@@ -6,7 +6,7 @@ Typical
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](typical.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [ISeries<T>](iseriest.htm) > [PriceSeries<double>](priceseries.htm) >  Typical | [Previous page](opens.htm) [Return to chapter overview](priceseries.htm) [Next page](typicals.htm) |
+| << [Click to Display Table of Contents](typical.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [ISeries<T>](iseriest.md) > [PriceSeries<double>](priceseries.md) >  Typical | [Previous page](opens.md) [Return to chapter overview](priceseries.md) [Next page](typicals.md) |
 
 Definition
 ----------

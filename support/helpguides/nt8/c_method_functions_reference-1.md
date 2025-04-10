@@ -6,7 +6,7 @@ C# Method (Functions) Reference
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\c_method_functions_reference.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) >  C# Method (Functions) Reference | [Previous page](other_uses_for_an_addon-1.htm) [Return to chapter overview](educational_resources-1.htm) [Next page](developing_for__tick_replay-1.htm) |
+| << [Click to Display Table of Contents](.\c_method_functions_reference.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) >  C# Method (Functions) Reference | [Previous page](other_uses_for_an_addon-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](developing_for__tick_replay-1.md) |
 
 Native Methods
 --------------

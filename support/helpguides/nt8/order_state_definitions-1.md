@@ -6,9 +6,9 @@ Order State Definitions
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\order_state_definitions.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Order Entry](order_entry-1.htm) >  Order State Definitions | [Previous page](simulated_stop_orders-1.htm) [Return to chapter overview](order_entry-1.htm) [Next page](fifo_optimization-1.htm) |
+| << [Click to Display Table of Contents](.\order_state_definitions.md) >>  **Navigation:**  [Operations](operations-1.md) > [Order Entry](order_entry-1.md) >  Order State Definitions | [Previous page](simulated_stop_orders-1.md) [Return to chapter overview](order_entry-1.md) [Next page](fifo_optimization-1.md) |
 
-The table below describes the various order States your orders can be in as well as the color that represents this state in NinjaTrader. The colors can be seen when submitting, modifying or cancelling orders in the [Order Entry](order_entry-1.htm) windows as well as the [Orders tab](orders_tab-1.htm) of the Control Center.
+The table below describes the various order States your orders can be in as well as the color that represents this state in NinjaTrader. The colors can be seen when submitting, modifying or cancelling orders in the [Order Entry](order_entry-1.md) windows as well as the [Orders tab](orders_tab-1.md) of the Control Center.
 
 NinjaTrader Order State Definitions
 -----------------------------------

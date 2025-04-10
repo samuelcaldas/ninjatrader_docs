@@ -6,13 +6,13 @@ Walk Forward Optimization
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](walk_forward_optimize_a_strate.htm) >>  **Navigation:**  [Operations](operations.htm) > [Strategy Analyzer](strategy_analyzer.htm) >  Walk Forward Optimization | [Previous page](optimization_fitness_metrics.htm) [Return to chapter overview](strategy_analyzer.htm) [Next page](anchored-walk-forward-optimiza.htm) |
+| << [Click to Display Table of Contents](walk_forward_optimize_a_strate.md) >>  **Navigation:**  [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) >  Walk Forward Optimization | [Previous page](optimization_fitness_metrics.md) [Return to chapter overview](strategy_analyzer.md) [Next page](anchored-walk-forward-optimiza.md) |
 
 Walk Forward optimization is the process by which you optimize strategy input parameters on a historical segment of market data, then test the strategy forward in time on data following the optimization segment using the optimized input values. The central idea is that you evaluate strategy performance data on the test data, not the data used in the optimization. This process is then repeated by moving the optimization and test segments forward in time. To run a walk forward optimization you will need:
 
-•Access to [historical data](data_by_provider.htm)
+•Access to [historical data](data_by_provider.md)
 
-•Custom NinjaScript \*[strategy](strategy.htm)
+•Custom NinjaScript \*[strategy](strategy.md)
 
 •A thorough understanding of the Strategy Analyzer's backtesting and optimization capabilities
 
@@ -27,7 +27,7 @@ Walk Forward optimization is the process by which you optimize strategy input pa
 
 |  |
 | --- |
-| Note: The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.htm) property is set to false by default when a strategy is applied in the Strategy Analyzer for optimization. This provides for leaner memory usage, but at the expense of not being able to access Trade objects for historical trades. Thus, fields such as [SystemPerformance.AllTrades.Count](alltrades.htm) that rely on references to Trade objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set IncludeTradeHistoryInBacktest to true in the Configure state. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.htm) page. |
+| Note: The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property is set to false by default when a strategy is applied in the Strategy Analyzer for optimization. This provides for leaner memory usage, but at the expense of not being able to access Trade objects for historical trades. Thus, fields such as [SystemPerformance.AllTrades.Count](alltrades.md) that rely on references to Trade objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set IncludeTradeHistoryInBacktest to true in the Configure state. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.md) page. |
 
 ![tog_minus](tog_minus.gif)
 
@@ -39,7 +39,7 @@ Walk Forward optimization is the process by which you optimize strategy input pa
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Walk Forward Properties Apart from the walk forward optimization specific properties described below, the properties are identical to the ones found in the Optimization properties window. Please see the "Understanding optimization properties" section of the [Optimize a Strategy](optimize_a_strategy.htm) page of the Help Guide for more information.    StrategyAnalyzer_Optimization_WFOParameters    |  | | --- | | Tip:  You can optionally "Optimize on" multiple objectives by using a [Multi-Objective optimization](multi-objective_optimization.htm) |    |  |  | | --- | --- | | Keep best # results | Sets the number of best results to display | | Optimize data series | If set to true, the Data Series Value property will be available for optimization (Not supported for Kagi, PointAndFigure, and Line Break period Types) | | Optimize on... | Sets the optimization fitness to base the optimization results on | | Optimizer | Sets the optimization algorithm that is used. NinjaTrader comes with "Default" and "[Genetic](genetic_algorithm.htm)" optimizer algorithms. When the "Genetic" option is selected, the genetic algorithm's optimization properties fields will appear below the Optimizer selection  You can program your own [optimization algorithm](optimizer.htm) using NinjaScript. | | Optimization period (days) | Sets the number of days used for the "in sample" optimization data set | | Test period (days) | Sets the number of days used for the "out of sample" real backtest using the optimized input values generated from the "in sample" period | |
+| Walk Forward Properties Apart from the walk forward optimization specific properties described below, the properties are identical to the ones found in the Optimization properties window. Please see the "Understanding optimization properties" section of the [Optimize a Strategy](optimize_a_strategy.md) page of the Help Guide for more information.    StrategyAnalyzer_Optimization_WFOParameters    |  | | --- | | Tip:  You can optionally "Optimize on" multiple objectives by using a [Multi-Objective optimization](multi-objective_optimization.md) |    |  |  | | --- | --- | | Keep best # results | Sets the number of best results to display | | Optimize data series | If set to true, the Data Series Value property will be available for optimization (Not supported for Kagi, PointAndFigure, and Line Break period Types) | | Optimize on... | Sets the optimization fitness to base the optimization results on | | Optimizer | Sets the optimization algorithm that is used. NinjaTrader comes with "Default" and "[Genetic](genetic_algorithm.md)" optimizer algorithms. When the "Genetic" option is selected, the genetic algorithm's optimization properties fields will appear below the Optimizer selection  You can program your own [optimization algorithm](optimizer.md) using NinjaScript. | | Optimization period (days) | Sets the number of days used for the "in sample" optimization data set | | Test period (days) | Sets the number of days used for the "out of sample" real backtest using the optimized input values generated from the "in sample" period | |
 
 ![tog_minus](tog_minus.gif)        Understanding Walk Forward results
 

@@ -6,7 +6,7 @@ MarketData
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](marketdata.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  MarketData | [Previous page](fundamentaldata.htm) [Return to chapter overview](add_on.htm) [Next page](marketdepth.htm) |
+| << [Click to Display Table of Contents](marketdata.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  MarketData | [Previous page](fundamentaldata.md) [Return to chapter overview](add_on.md) [Next page](marketdepth.md) |
 
 Definition
 ----------
@@ -22,17 +22,17 @@ Properties
 
 |  |  |
 | --- | --- |
-| Ask | A [MarketDataEventArgs](marketdataeventargs.htm) representing the ask price |
-| Bid | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the bid price |
-| DailyHigh | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the daily high |
-| DailyLow | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the daily low |
-| DailyVolume | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the daily volume |
-| Instrument | An [Instrument](instrument.htm) representing the instrument |
-| Last | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the last price |
-| LastClose | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the last close |
-| Opening | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the opening price |
-| OpenInterest | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the open interest |
-| Settlement | A [MarketDataEventArgs](marketdataeventargs.htm)  representing the settlement price |
+| Ask | A [MarketDataEventArgs](marketdataeventargs.md) representing the ask price |
+| Bid | A [MarketDataEventArgs](marketdataeventargs.md)  representing the bid price |
+| DailyHigh | A [MarketDataEventArgs](marketdataeventargs.md)  representing the daily high |
+| DailyLow | A [MarketDataEventArgs](marketdataeventargs.md)  representing the daily low |
+| DailyVolume | A [MarketDataEventArgs](marketdataeventargs.md)  representing the daily volume |
+| Instrument | An [Instrument](instrument.md) representing the instrument |
+| Last | A [MarketDataEventArgs](marketdataeventargs.md)  representing the last price |
+| LastClose | A [MarketDataEventArgs](marketdataeventargs.md)  representing the last close |
+| Opening | A [MarketDataEventArgs](marketdataeventargs.md)  representing the opening price |
+| OpenInterest | A [MarketDataEventArgs](marketdataeventargs.md)  representing the open interest |
+| Settlement | A [MarketDataEventArgs](marketdataeventargs.md)  representing the settlement price |
 | Update | Event handler for subscribing/unsubscribing to market depth events    Note:  Attempting to unsubscribe to this event before there is a subscription will generate errors. |
 
 Syntax

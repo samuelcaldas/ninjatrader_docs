@@ -6,7 +6,7 @@ Trade
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](trade.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  Trade | [Previous page](traceorders.htm) [Return to chapter overview](strategy.htm) [Next page](tradecollection.htm) |
+| << [Click to Display Table of Contents](trade.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  Trade | [Previous page](traceorders.md) [Return to chapter overview](strategy.md) [Next page](tradecollection.md) |
 
 Definition
 ----------
@@ -26,9 +26,9 @@ Methods and Properties
 |  |  |
 | --- | --- |
 | Commission | A double value representing the commission of the trade |
-| Entry | Gets an [Execution](execution.htm) object representing the entry |
+| Entry | Gets an [Execution](execution.md) object representing the entry |
 | EntryEfficiency | A double value representing the entry efficiency of the trade |
-| Exit | Gets an [Execution](execution.htm) object representing the exit |
+| Exit | Gets an [Execution](execution.md) object representing the exit |
 | ExitEfficiency | A double value representing the exit efficiency of the trade |
 | MaeCurrency | A double value representing max adverse excursion in currency |
 | MaePercent | A double value representing max adverse excursion as a percentage |

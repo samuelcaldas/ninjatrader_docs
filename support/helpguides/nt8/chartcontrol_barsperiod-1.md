@@ -6,12 +6,12 @@ BarsPeriod
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\chartcontrol_barsperiod.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartControl](chartcontrol-1.htm) >  BarsPeriod | [Previous page](barspacingtype-1.htm) [Return to chapter overview](chartcontrol-1.htm) [Next page](chartcontrol_barwidth-1.htm) |
+| << [Click to Display Table of Contents](.\chartcontrol_barsperiod.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartControl](chartcontrol-1.md) >  BarsPeriod | [Previous page](barspacingtype-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](chartcontrol_barwidth-1.md) |
 
 Definition
 ----------
 
-Provides the period (interval) used for the primary [Bars](bars-1.htm) object on the chart.
+Provides the period (interval) used for the primary [Bars](bars-1.md) object on the chart.
 
 Property Value
 --------------

@@ -6,7 +6,7 @@ ArePlotsConfigurable
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](areplotsconfigurable.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) > [AddPlot()](addplot.htm) >  ArePlotsConfigurable | [Previous page](addplot.htm) [Return to chapter overview](addplot.htm) [Next page](displacement.htm) |
+| << [Click to Display Table of Contents](areplotsconfigurable.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) > [AddPlot()](addplot.md) >  ArePlotsConfigurable | [Previous page](addplot.md) [Return to chapter overview](addplot.md) [Next page](displacement.md) |
 
 Definition
 ----------

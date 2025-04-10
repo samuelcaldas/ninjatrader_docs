@@ -6,9 +6,9 @@ Entering Calculation Logic
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](entering_calculation_logic3.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Indicators](developing_indicators.htm) > [Intermediate - Your own SMA](intermediate_-_your_own_sma.htm) >  Entering Calculation Logic | [Previous page](set_up6.htm) [Return to chapter overview](intermediate_-_your_own_sma.htm) [Next page](compiling3.htm) |
+| << [Click to Display Table of Contents](entering_calculation_logic3.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Intermediate - Your own SMA](intermediate_-_your_own_sma.md) >  Entering Calculation Logic | [Previous page](set_up6.md) [Return to chapter overview](intermediate_-_your_own_sma.md) [Next page](compiling3.md) |
 
-The [OnBarUpdate()](onbarupdate.htm) method is called for each incoming tick, or on the close of a bar (if enabled) when performing real-time calculations, and is called on each bar of a [Bars](bars.htm) object when re-calculating the indicator (For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed).. Therefore, this is the main method called for indicator calculation and we will use this method to enter the script that will calculate a simple moving average.
+The [OnBarUpdate()](onbarupdate.md) method is called for each incoming tick, or on the close of a bar (if enabled) when performing real-time calculations, and is called on each bar of a [Bars](bars.md) object when re-calculating the indicator (For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed).. Therefore, this is the main method called for indicator calculation and we will use this method to enter the script that will calculate a simple moving average.
 
 Are there enough bars?
 ----------------------
@@ -69,7 +69,7 @@ Enter the following code into the OnBarUpdate() method and below the code snippe
 | --- |
 | // Calculate and set the average value to the 'MyPlot' property  MyPlot[0] = sum / Period; |
 
-We can now calculate the final moving average value and assign it's value to the property that represents the plot data. We have just finished coding our simple moving average. The class code in your editor should look identical to the image below. You are now ready to [compile the indicator](compiling3.htm) and configure it on a chart.
+We can now calculate the final moving average value and assign it's value to the property that represents the plot data. We have just finished coding our simple moving average. The class code in your editor should look identical to the image below. You are now ready to [compile the indicator](compiling3.md) and configure it on a chart.
 
 | ns |
 | --- |
@@ -78,7 +78,7 @@ We can now calculate the final moving average value and assign it's value to the
 Alternate Implementation
 ------------------------
 
-In this tutorial we are using a "for" loop to iterate through a collection of prices and accumulate a sum value. We chose this approach to demonstrate the use of a loop. A simple moving average can actually be expressed in a more efficient manner using the built in [SUM](summation_sum.htm) indicator as show below.
+In this tutorial we are using a "for" loop to iterate through a collection of prices and accumulate a sum value. We chose this approach to demonstrate the use of a loop. A simple moving average can actually be expressed in a more efficient manner using the built in [SUM](summation_sum.md) indicator as show below.
 
 | ns |
 | --- |

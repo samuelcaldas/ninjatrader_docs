@@ -6,7 +6,7 @@ Least Recent Occurrence (LRO)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\least_recent_occurence_lro.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Analytical](market_data-1.htm) >  Least Recent Occurrence (LRO) | [Previous page](rising-1.htm) [Return to chapter overview](market_data-1.htm) [Next page](lowestbar-1.htm) |
+| << [Click to Display Table of Contents](.\least_recent_occurence_lro.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Analytical](market_data-1.md) >  Least Recent Occurrence (LRO) | [Previous page](rising-1.md) [Return to chapter overview](market_data-1.md) [Next page](lowestbar-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Returns the number of bars ago that the test condition evaluated to true within 
 
 |  |
 | --- |
-| Note: This method does NOT work on [multi-series](multi-time_frame__instruments-1.htm) strategies and indicators. |
+| Note: This method does NOT work on [multi-series](multi-time_frame__instruments-1.md) strategies and indicators. |
 
 Method Return Value
 -------------------
@@ -53,4 +53,4 @@ Examples
 | protected override void OnBarUpdate()  {     // Prints the high price of the least recent up bar over the last 10 bars (current bar + look back period's 9 bars before that)     int barsAgo = LRO(() => Close[0] > Open[0], 1, 9);     if (barsAgo > -1)         Print("The bar high was " + High[barsAgo]);           } |
 
 See Also  
-[Most Recent Occurrence(MRO)](most_recent_occurence_mro-1.htm)
+[Most Recent Occurrence(MRO)](most_recent_occurence_mro-1.md)

@@ -6,7 +6,7 @@ Balance of Power (BOP)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\balance_of_power_bop.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Balance of Power (BOP) | [Previous page](average_true_range_atr-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](block_volume-1.htm) |
+| << [Click to Display Table of Contents](.\balance_of_power_bop.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Balance of Power (BOP) | [Previous page](average_true_range_atr-1.md) [Return to chapter overview](indicators-1.md) [Next page](block_volume-1.md) |
 
 Description
 -----------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | smooth | The smoothing period |
 
 Example

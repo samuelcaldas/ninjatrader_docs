@@ -6,21 +6,21 @@ BarsInProgress
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barsinprogress.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [AddDataSeries()](adddataseries.htm) >  BarsInProgress | [Previous page](barsarray.htm) [Return to chapter overview](adddataseries.htm) [Next page](barsperiods.htm) |
+| << [Click to Display Table of Contents](barsinprogress.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [AddDataSeries()](adddataseries.md) >  BarsInProgress | [Previous page](barsarray.md) [Return to chapter overview](adddataseries.md) [Next page](barsperiods.md) |
 
 Definition
 ----------
 
-An index value of the current Bars object that has called the [OnBarUpdate()](onbarupdate.htm) method. In a multi-bars script, the OnBarUpdate() method is called for each Bars object of a script. This flexibility allows you to separate trading logic from different bar events.
+An index value of the current Bars object that has called the [OnBarUpdate()](onbarupdate.md) method. In a multi-bars script, the OnBarUpdate() method is called for each Bars object of a script. This flexibility allows you to separate trading logic from different bar events.
 
 |  |
 | --- |
-| Notes:  1.In a single Bars script this property will always return an index value of 0 representing the primary Bars and instrument the script is running on.  2.See additional information on running [multi-bars scripts](multi-time_frame__instruments.htm). |
+| Notes:  1.In a single Bars script this property will always return an index value of 0 representing the primary Bars and instrument the script is running on.  2.See additional information on running [multi-bars scripts](multi-time_frame__instruments.md). |
 
 Property Value
 --------------
 
-An int value represents the [Bars](bars.htm) object that is calling the OnBarUpdate() method.
+An int value represents the [Bars](bars.md) object that is calling the OnBarUpdate() method.
 
 Syntax
 ------

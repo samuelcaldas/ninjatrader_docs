@@ -6,7 +6,7 @@ CharactersReservedPerMedia
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\charactersreservedpermedia.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Share Service](share_service-1.htm) >  CharactersReservedPerMedia | [Previous page](characterlimit-1.htm) [Return to chapter overview](share_service-1.htm) [Next page](icon-1.htm) |
+| << [Click to Display Table of Contents](.\charactersreservedpermedia.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Share Service](share_service-1.md) >  CharactersReservedPerMedia | [Previous page](characterlimit-1.md) [Return to chapter overview](share_service-1.md) [Next page](icon-1.md) |
 
 Definition
 ----------
@@ -24,7 +24,7 @@ A int value that represents the number of characters reserved when attaching an 
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

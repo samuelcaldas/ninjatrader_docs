@@ -6,7 +6,7 @@ Accumulation/Distribution (ADL)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\accumulation_distribution_adl.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Accumulation/Distribution (ADL) | [Previous page](valid_input_data_for_indicator-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](adaptive_price_zone_apz-1.htm) |
+| << [Click to Display Table of Contents](.\accumulation_distribution_adl.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Accumulation/Distribution (ADL) | [Previous page](valid_input_data_for_indicator-1.md) [Return to chapter overview](indicators-1.md) [Next page](adaptive_price_zone_apz-1.md) |
 
 Description
 -----------

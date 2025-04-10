@@ -6,7 +6,7 @@ Options
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\connections_options.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) > [Connection](connection_class-1.htm) >  Options | [Previous page](disconnect-1.htm) [Return to chapter overview](connection_class-1.htm) [Next page](connections_pricestatus-1.htm) |
+| << [Click to Display Table of Contents](.\connections_options.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [Connection](connection_class-1.md) >  Options | [Previous page](disconnect-1.md) [Return to chapter overview](connection_class-1.md) [Next page](connections_pricestatus-1.md) |
 
 Definition
 ----------

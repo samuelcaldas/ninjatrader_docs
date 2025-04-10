@@ -6,7 +6,7 @@ Block Volume
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](block_volume.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Block Volume | [Previous page](balance_of_power_bop.htm) [Return to chapter overview](indicators.htm) [Next page](bollinger_bands.htm) |
+| << [Click to Display Table of Contents](block_volume.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Block Volume | [Previous page](balance_of_power_bop.md) [Return to chapter overview](indicators.md) [Next page](bollinger_bands.md) |
 
 Description
 -----------
@@ -30,7 +30,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | blockSize | The minimum volume a trade must be to be considered a block trade |
 | countType | The format to count the block trades. By number of block trades that occurred or total block trade volume |
 

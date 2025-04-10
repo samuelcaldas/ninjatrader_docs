@@ -6,7 +6,7 @@ ActualTradingDayExchange
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](actualtradingdayexchange.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [SessionIterator](sessioniterator.htm) >  ActualTradingDayExchange | [Previous page](actualtradingdayendlocal.htm) [Return to chapter overview](sessioniterator.htm) [Next page](calculatetradingday.htm) |
+| << [Click to Display Table of Contents](actualtradingdayexchange.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [SessionIterator](sessioniterator.md) >  ActualTradingDayExchange | [Previous page](actualtradingdayendlocal.md) [Return to chapter overview](sessioniterator.md) [Next page](calculatetradingday.md) |
 
 Definition
 ----------

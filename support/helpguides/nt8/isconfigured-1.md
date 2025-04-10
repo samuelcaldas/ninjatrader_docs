@@ -6,7 +6,7 @@ IsConfigured
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\isconfigured.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Share Service](share_service-1.htm) >  IsConfigured | [Previous page](isauthorizationrequired-1.htm) [Return to chapter overview](share_service-1.htm) [Next page](isdefault-1.htm) |
+| << [Click to Display Table of Contents](.\isconfigured.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Share Service](share_service-1.md) >  IsConfigured | [Previous page](isauthorizationrequired-1.md) [Return to chapter overview](share_service-1.md) [Next page](isdefault-1.md) |
 
 Definition
 ----------

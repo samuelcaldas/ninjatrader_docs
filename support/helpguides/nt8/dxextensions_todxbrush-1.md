@@ -6,12 +6,12 @@ ToDxBrush()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\dxextensions_todxbrush.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [Rendering](rendering-1.htm) > [DxExtensions](dxextensions-1.htm) >  ToDxBrush() | [Previous page](dxextensions-1.htm) [Return to chapter overview](dxextensions-1.htm) [Next page](dxextensions_tovector2-1.htm) |
+| << [Click to Display Table of Contents](.\dxextensions_todxbrush.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) > [DxExtensions](dxextensions-1.md) >  ToDxBrush() | [Previous page](dxextensions-1.md) [Return to chapter overview](dxextensions-1.md) [Next page](dxextensions_tovector2-1.md) |
 
 Definition
 ----------
 
-Converts a WPF Brush to a SharpDX Brush used for [SharpDX rendering](using_sharpdx_for_custom_chart_rendering-1.htm). Supports SolidColorBrush, LinearGradientBrush, and RadialGradientBrush types.
+Converts a WPF Brush to a SharpDX Brush used for [SharpDX rendering](using_sharpdx_for_custom_chart_rendering-1.md). Supports SolidColorBrush, LinearGradientBrush, and RadialGradientBrush types.
 
 |  |
 | --- |
@@ -20,7 +20,7 @@ Converts a WPF Brush to a SharpDX Brush used for [SharpDX rendering](using_sharp
 Method Return Value
 -------------------
 
-A new [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush-1.htm) constructed colors and brush properties of the WPF brush
+A new [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush-1.md) constructed colors and brush properties of the WPF brush
 
 Syntax
 ------
@@ -36,7 +36,7 @@ Parameters
 |  |  |
 | --- | --- |
 | brush | The [System.Windows.Media.Brush](https://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) to convert |
-| renderTarget | The [RenderTarget](rendertarget-1.htm) associated with the brush resource |
+| renderTarget | The [RenderTarget](rendertarget-1.md) associated with the brush resource |
 
 Example
 -------

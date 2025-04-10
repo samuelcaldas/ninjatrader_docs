@@ -6,7 +6,7 @@ How Trade Executions are Plotted
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](how_trade_executions_are_plott.htm) >>  **Navigation:**  [Operations](operations.htm) > [Charts](charts.htm) >  How Trade Executions are Plotted | [Previous page](how_bars_are_built.htm) [Return to chapter overview](charts.htm) [Next page](break_at_eod.htm) |
+| << [Click to Display Table of Contents](how_trade_executions_are_plott.md) >>  **Navigation:**  [Operations](operations.md) > [Charts](charts.md) >  How Trade Executions are Plotted | [Previous page](how_bars_are_built.md) [Return to chapter overview](charts.md) [Next page](break_at_eod.md) |
 
 Trade executions in NinjaTrader are tied to specific timestamps based on when the execution actually occurs as opposed to specific bars on the chart. NinjaTrader does it this way to allow you the flexibility of using  multiple charts of differing period types and still being able to visualize where the trade executions occurred. The following article outlines some scenarios with time based execution plotting.
 
@@ -14,7 +14,7 @@ Trade executions in NinjaTrader are tied to specific timestamps based on when th
 
 |  |
 | --- |
-| When a trade execution occurs in NinjaTrader it is timestamped natively by your provider if they support that or locally by NinjaTrader. One situation that can arise is that your PC clock is not in sync with your data feed. When this happens the trade execution may be shown on the chart on a bar where it seems like the fill is not feasible.    Example: Data feed bar is currently timestamped as 4:26PM. Local PC clock is 4:21PM.    When a market order is placed under the above situation, the trade execution will occur at 4:26PM prices, but be shown on the chart at 4:21PM.    To prevent these types of issues please ensure your local PC clock is in sync with your data feed. Please reference the [Historical & Real-Time Data](data_by_provider.htm) chart to see if your data provider timestamps their data or if the data is timestamped locally by your PC clock. It is important to maintain a sync between your PC clock and the data feed's timestamping. |
+| When a trade execution occurs in NinjaTrader it is timestamped natively by your provider if they support that or locally by NinjaTrader. One situation that can arise is that your PC clock is not in sync with your data feed. When this happens the trade execution may be shown on the chart on a bar where it seems like the fill is not feasible.    Example: Data feed bar is currently timestamped as 4:26PM. Local PC clock is 4:21PM.    When a market order is placed under the above situation, the trade execution will occur at 4:26PM prices, but be shown on the chart at 4:21PM.    To prevent these types of issues please ensure your local PC clock is in sync with your data feed. Please reference the [Historical & Real-Time Data](data_by_provider.md) chart to see if your data provider timestamps their data or if the data is timestamped locally by your PC clock. It is important to maintain a sync between your PC clock and the data feed's timestamping. |
 
 ![tog_minus](tog_minus.gif)
 

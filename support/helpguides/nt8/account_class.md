@@ -6,7 +6,7 @@ Account
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](account_class.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  Account | [Previous page](quantityupdown.htm) [Return to chapter overview](add_on.htm) [Next page](accountitem.htm) |
+| << [Click to Display Table of Contents](account_class.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  Account | [Previous page](quantityupdown.md) [Return to chapter overview](add_on.md) [Next page](accountitem.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ Chaikin Volatility
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chaikin_volatility.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Chaikin Volatility | [Previous page](chaikin_oscillator.htm) [Return to chapter overview](indicators.htm) [Next page](chande_momentum_oscillator_cmo.htm) |
+| << [Click to Display Table of Contents](chaikin_volatility.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Chaikin Volatility | [Previous page](chaikin_oscillator.md) [Return to chapter overview](indicators.md) [Next page](chande_momentum_oscillator_cmo.md) |
 
 Description
 -----------
@@ -33,7 +33,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | mAPeriod | Number of bars used in the moving average calculation |
 | rOCPeriod | Number of bars used in the rate of change calculation |
 

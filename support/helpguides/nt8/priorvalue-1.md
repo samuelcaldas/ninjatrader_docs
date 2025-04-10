@@ -6,12 +6,12 @@ PriorValue
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\priorvalue.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Market Analyzer Column](market_analyzer_column-1.htm) >  PriorValue | [Previous page](onrender2-1.htm) [Return to chapter overview](market_analyzer_column-1.htm) [Next page](optimization_fitness-1.htm) |
+| << [Click to Display Table of Contents](.\priorvalue.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Market Analyzer Column](market_analyzer_column-1.md) >  PriorValue | [Previous page](onrender2-1.md) [Return to chapter overview](market_analyzer_column-1.md) [Next page](optimization_fitness-1.md) |
 
 Definition
 ----------
 
-Contains the last value of [CurrentValue](currentvalue-1.htm). PriorValue is assigned the value of CurrentValue immediately before CurrentValue is updated.
+Contains the last value of [CurrentValue](currentvalue-1.md). PriorValue is assigned the value of CurrentValue immediately before CurrentValue is updated.
 
 Property Value
 --------------

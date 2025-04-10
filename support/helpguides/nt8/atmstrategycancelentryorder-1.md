@@ -6,7 +6,7 @@ AtmStrategyCancelEntryOrder()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\atmstrategycancelentryorder.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [ATM Strategy Methods](atm_strategy_methods-1.htm) >  AtmStrategyCancelEntryOrder() | [Previous page](atm_strategy_methods-1.htm) [Return to chapter overview](atm_strategy_methods-1.htm) [Next page](atmstrategychangeentryorder-1.htm) |
+| << [Click to Display Table of Contents](.\atmstrategycancelentryorder.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [ATM Strategy Methods](atm_strategy_methods-1.md) >  AtmStrategyCancelEntryOrder() | [Previous page](atm_strategy_methods-1.md) [Return to chapter overview](atm_strategy_methods-1.md) [Next page](atmstrategychangeentryorder-1.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Cancels the specified entry order determined by the string "orderId" parameter.
 
 |  |
 | --- |
-| Notes:  1.This method is intended ONLY for orders submitted as [Atm Entry Orders](atmstrategycreate-1.htm) and assumes the [OrderState](getatmstrategyentryorderstatus-1.htm) is NOT terminal (i.e., Cancelled, Filled, Rejected, Unknown).  2.If the specified order does not exist, the method returns false and an error is logged. |
+| Notes:  1.This method is intended ONLY for orders submitted as [Atm Entry Orders](atmstrategycreate-1.md) and assumes the [OrderState](getatmstrategyentryorderstatus-1.md) is NOT terminal (i.e., Cancelled, Filled, Rejected, Unknown).  2.If the specified order does not exist, the method returns false and an error is logged. |
 
  
 
@@ -37,7 +37,7 @@ AtmStrategyCancelEntryOrder(string orderId)
 
 |  |
 | --- |
-| Warning:  This method should ONLY be called once the strategy [State](state-1.htm) has reached State.Realtime |
+| Warning:  This method should ONLY be called once the strategy [State](state-1.md) has reached State.Realtime |
 
 Parameters
 ----------

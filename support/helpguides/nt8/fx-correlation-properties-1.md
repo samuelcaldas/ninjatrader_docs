@@ -6,7 +6,7 @@ FX Correlation Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\fx-correlation-properties.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [FX Correlation](fx-correlation-1.htm) >  FX Correlation Properties | [Previous page](using-the-fx-correlation-windo-1.htm) [Return to chapter overview](fx-correlation-1.htm) [Next page](window-linking-fx-correlation-1.htm) |
+| << [Click to Display Table of Contents](.\fx-correlation-properties.md) >>  **Navigation:**  [Operations](operations-1.md) > [FX Correlation](fx-correlation-1.md) >  FX Correlation Properties | [Previous page](using-the-fx-correlation-windo-1.md) [Return to chapter overview](fx-correlation-1.md) [Next page](window-linking-fx-correlation-1.md) |
 
 The FX Correlation window can be customized through the FX Correlation Properties window.
 
@@ -32,4 +32,4 @@ The FX Correlation window can be customized through the FX Correlation Propertie
 
 |  |
 | --- |
-| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the FX Correlation Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.htm) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the FX Correlation Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.md) page. |

@@ -6,7 +6,7 @@ Floating-Point Arithmetic
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](floating-point_arithmetic.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Tips](tips.htm) >  Floating-Point Arithmetic | [Previous page](debugging_your_ninjascript_cod.htm) [Return to chapter overview](tips.htm) [Next page](formatting_numbers.htm) |
+| << [Click to Display Table of Contents](floating-point_arithmetic.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Tips](tips.md) >  Floating-Point Arithmetic | [Previous page](debugging_your_ninjascript_cod.md) [Return to chapter overview](tips.md) [Next page](formatting_numbers.md) |
 
 Some common problems that you may encounter when comparing different double values are the caveats involved with floating-point arithmetic. Because of the way computers store floating-point numbers, under certain conditions your value will be an approximate of the actual decimal number you wanted. If this situation arises in your code, your comparison logic may not execute as you had intended even if your logic was mathematically sound on paper. To address this issue you will need to use a range comparison that takes into account the slight differences in the least significant digits of the floats.
 
@@ -78,6 +78,6 @@ The Compare() method returns a value of "1" if the first parameter is greater th
 
 For a more formal analysis of floating-point arithmetic, there are many resources online:
 
-<http://docs.sun.com/source/806-3568/ncg_goldberg.html>
+<http://docs.sun.com/source/806-3568/ncg_goldberg.md>
 
 <http://www.codeproject.com/dotnet/ExtremeFloatingPoint1.asp#terms>

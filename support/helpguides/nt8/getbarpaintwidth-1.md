@@ -6,7 +6,7 @@ GetBarPaintWidth()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getbarpaintwidth.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Chart Style](chart_style-1.htm) >  GetBarPaintWidth() | [Previous page](downbrushdx-1.htm) [Return to chapter overview](chart_style-1.htm) [Next page](icon_chartstyle-1.htm) |
+| << [Click to Display Table of Contents](.\getbarpaintwidth.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Chart Style](chart_style-1.md) >  GetBarPaintWidth() | [Previous page](downbrushdx-1.md) [Return to chapter overview](chart_style-1.md) [Next page](icon_chartstyle-1.md) |
 
 Definition
 ----------

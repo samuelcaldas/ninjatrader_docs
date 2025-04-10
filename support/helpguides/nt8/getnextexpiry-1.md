@@ -6,7 +6,7 @@ GetNextExpiry()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getnextexpiry.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Instruments](instruments_ninjascript-1.htm) > [Instrument](instrument-1.htm) > [MasterInstrument](masterinstrument-1.htm) >  GetNextExpiry() | [Previous page](masterinstrument_name-1.htm) [Return to chapter overview](masterinstrument-1.htm) [Next page](pointvalue-1.htm) |
+| << [Click to Display Table of Contents](.\getnextexpiry.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Instruments](instruments_ninjascript-1.md) > [Instrument](instrument-1.md) > [MasterInstrument](masterinstrument-1.md) >  GetNextExpiry() | [Previous page](masterinstrument_name-1.md) [Return to chapter overview](masterinstrument-1.md) [Next page](pointvalue-1.md) |
 
 Definition
 ----------

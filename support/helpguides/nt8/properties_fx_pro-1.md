@@ -6,7 +6,7 @@ Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\properties_fx_pro.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Order Entry](order_entry-1.htm) > [FX Pro](fx_pro-1.htm) >  Properties | [Previous page](managing_positions_fx_pro-1.htm) [Return to chapter overview](fx_pro-1.htm) [Next page](fx_board-1.htm) |
+| << [Click to Display Table of Contents](.\properties_fx_pro.md) >>  **Navigation:**  [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [FX Pro](fx_pro-1.md) >  Properties | [Previous page](managing_positions_fx_pro-1.md) [Return to chapter overview](fx_pro-1.md) [Next page](fx_board-1.md) |
 
 The FX Pro order entry window is highly efficient by design but can also be customized to your preferences through the FX Pro Properties menu.
 
@@ -32,4 +32,4 @@ The FX Pro order entry window is highly efficient by design but can also be cust
 
 |  |
 | --- |
-| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the FX Pro Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.htm) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the FX Pro Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.md) page. |

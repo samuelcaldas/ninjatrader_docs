@@ -6,7 +6,7 @@ Optimization Graphs
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\2d__3d_optimization_graphs.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Strategy Analyzer](strategy_analyzer-1.htm) >  Optimization Graphs | [Previous page](running_a_monte_carlo_simulati-1.htm) [Return to chapter overview](strategy_analyzer-1.htm) [Next page](discrepancies_real-time_vs_bac-1.htm) |
+| << [Click to Display Table of Contents](.\2d__3d_optimization_graphs.md) >>  **Navigation:**  [Operations](operations-1.md) > [Strategy Analyzer](strategy_analyzer-1.md) >  Optimization Graphs | [Previous page](running_a_monte_carlo_simulati-1.md) [Return to chapter overview](strategy_analyzer-1.md) [Next page](discrepancies_real-time_vs_bac-1.md) |
 
 The Optimization Graph can only be selected in the Display selector only after an optimization has been run. The optimization graph can be displayed in a 2D or 3D graph. A 2D graph is used when only graphing a single parameter. If you graph 2 parameters then a 3D graph is displayed.
 

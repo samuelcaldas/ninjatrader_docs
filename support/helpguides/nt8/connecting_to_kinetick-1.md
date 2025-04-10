@@ -6,7 +6,7 @@ Connecting to Kinetick - End Of Day (Free)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\connecting_to_kinetick.htm) >>  **Navigation:**  [Configuration](configuration-1.htm) > [Connecting](connecting-1.htm) > [Multi-provider Connections](multi-provider-connections-1.htm) >  Connecting to Kinetick - End Of Day (Free) | [Previous page](connecting-to-multi-provider-c-1.htm) [Return to chapter overview](multi-provider-connections-1.htm) [Next page](external_data_feed_connection-1.htm) |
+| << [Click to Display Table of Contents](.\connecting_to_kinetick.md) >>  **Navigation:**  [Configuration](configuration-1.md) > [Connecting](connecting-1.md) > [Multi-provider Connections](multi-provider-connections-1.md) >  Connecting to Kinetick - End Of Day (Free) | [Previous page](connecting-to-multi-provider-c-1.md) [Return to chapter overview](multi-provider-connections-1.md) [Next page](external_data_feed_connection-1.md) |
 
 ![connecting_to_kinetick_2](connecting_to_kinetick_2.png)
 

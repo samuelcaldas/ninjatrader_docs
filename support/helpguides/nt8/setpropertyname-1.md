@@ -6,7 +6,7 @@ SetPropertyName()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\setpropertyname.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Chart Style](chart_style-1.htm) >  SetPropertyName() | [Previous page](chartstyle_onrender-1.htm) [Return to chapter overview](chart_style-1.htm) [Next page](transformbrush-1.htm) |
+| << [Click to Display Table of Contents](.\setpropertyname.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Chart Style](chart_style-1.md) >  SetPropertyName() | [Previous page](chartstyle_onrender-1.md) [Return to chapter overview](chart_style-1.md) [Next page](transformbrush-1.md) |
 
 Definition
 ----------

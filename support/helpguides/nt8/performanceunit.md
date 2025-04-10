@@ -6,7 +6,7 @@ PerformanceUnit
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](performanceunit.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Performance Metrics](performance_metrics.htm) >  PerformanceUnit | [Previous page](onmergeperformancemetric.htm) [Return to chapter overview](performance_metrics.htm) [Next page](performancemetric_values.htm) |
+| << [Click to Display Table of Contents](performanceunit.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Performance Metrics](performance_metrics.md) >  PerformanceUnit | [Previous page](onmergeperformancemetric.md) [Return to chapter overview](performance_metrics.md) [Next page](performancemetric_values.md) |
 
 Definition
 ----------

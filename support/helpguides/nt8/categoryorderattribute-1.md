@@ -6,12 +6,12 @@ CategoryOrderAttribute
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\categoryorderattribute.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Attributes](attributes-1.htm) >  CategoryOrderAttribute | [Previous page](browsableattribute-1.htm) [Return to chapter overview](attributes-1.htm) [Next page](displayattribute-1.htm) |
+| << [Click to Display Table of Contents](.\categoryorderattribute.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Attributes](attributes-1.md) >  CategoryOrderAttribute | [Previous page](browsableattribute-1.md) [Return to chapter overview](attributes-1.md) [Next page](displayattribute-1.md) |
 
 Definition
 ----------
 
-Determines the sequence in which a NinjaScript object's [Display.GroupName](displayattribute-1.htm) categories are arranged in relation to other categories in the UI.   The default behavior will display each GroupName of an object in alphabetical order, however this behavior can be changed by defining the CategoryOrder attribute before the object's declaration.
+Determines the sequence in which a NinjaScript object's [Display.GroupName](displayattribute-1.md) categories are arranged in relation to other categories in the UI.   The default behavior will display each GroupName of an object in alphabetical order, however this behavior can be changed by defining the CategoryOrder attribute before the object's declaration.
 
 |  |
 | --- |
@@ -68,7 +68,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| category | A string identifying the [GroupName](displayattribute-1.htm) to be categorize |
+| category | A string identifying the [GroupName](displayattribute-1.md) to be categorize |
 | order | An int determining the sequence the Category displays |
 
 Examples

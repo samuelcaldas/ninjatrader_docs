@@ -6,7 +6,7 @@ ChartStyleType
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chartstyletype.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Chart Style](chart_style.htm) >  ChartStyleType | [Previous page](barwidthui.htm) [Return to chapter overview](chart_style.htm) [Next page](downbrush.htm) |
+| << [Click to Display Table of Contents](chartstyletype.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Chart Style](chart_style.md) >  ChartStyleType | [Previous page](barwidthui.md) [Return to chapter overview](chart_style.md) [Next page](downbrush.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Defines a unique identifier value used to register a custom ChartStyle.  There 
 
 |  |
 | --- |
-| Note: The ChartStyle property can allow a large number of ChartStyles to be registered on a single user's installation (up to 2,147,483,647).  However it's important to note that it is still possible for two installed ChartStyles on a user's computer to conflict should they be register to the same enumerator value. In this case, NinjaTrader will ignore the conflicting ChartStyle type and information pertaining to this conflict will be displayed on the [Log tab](log_tab2.htm) of the  NinjaTrader Control Center.    Added 1/31/2018 : We advise users to use values larger then 1023 when selecting an enum. As NinjaTrader from time to time may add a new enum value in that range which may cause conflicts. |
+| Note: The ChartStyle property can allow a large number of ChartStyles to be registered on a single user's installation (up to 2,147,483,647).  However it's important to note that it is still possible for two installed ChartStyles on a user's computer to conflict should they be register to the same enumerator value. In this case, NinjaTrader will ignore the conflicting ChartStyle type and information pertaining to this conflict will be displayed on the [Log tab](log_tab2.md) of the  NinjaTrader Control Center.    Added 1/31/2018 : We advise users to use values larger then 1023 when selecting an enum. As NinjaTrader from time to time may add a new enum value in that range which may cause conflicts. |
 
 Property  Value
 ---------------

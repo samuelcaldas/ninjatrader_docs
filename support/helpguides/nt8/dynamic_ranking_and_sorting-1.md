@@ -6,7 +6,7 @@ Dynamic Ranking and Sorting
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\dynamic_ranking_and_sorting.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Market Analyzer](market_analyzer-1.htm) >  Dynamic Ranking and Sorting | [Previous page](working_with_columns-1.htm) [Return to chapter overview](market_analyzer-1.htm) [Next page](creating_cell_and_filter_condi-1.htm) |
+| << [Click to Display Table of Contents](.\dynamic_ranking_and_sorting.md) >>  **Navigation:**  [Operations](operations-1.md) > [Market Analyzer](market_analyzer-1.md) >  Dynamic Ranking and Sorting | [Previous page](working_with_columns-1.md) [Return to chapter overview](market_analyzer-1.md) [Next page](creating_cell_and_filter_condi-1.md) |
 
 The Market Analyzer window can automatically rank and sort the data rows.
 
@@ -23,4 +23,4 @@ To enable ranking and sorting for a column:
 
 ![MarketAnalyzer_13](marketanalyzer_13.png)
 
-3. You can set the auto sort interval within the Market Analyzer [Properties](market_analyzer_properties-1.htm) window.
+3. You can set the auto sort interval within the Market Analyzer [Properties](market_analyzer_properties-1.md) window.

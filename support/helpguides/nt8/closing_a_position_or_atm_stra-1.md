@@ -6,7 +6,7 @@ Closing a Position or ATM Strategy Position
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\closing_a_position_or_atm_stra.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Order Entry](order_entry-1.htm) > [Trade Controls](trade_controls-1.htm) >  Closing a Position or ATM Strategy Position | [Previous page](trade_controls-1.htm) [Return to chapter overview](trade_controls-1.htm) [Next page](position_display-1.htm) |
+| << [Click to Display Table of Contents](.\closing_a_position_or_atm_stra.md) >>  **Navigation:**  [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [Trade Controls](trade_controls-1.md) >  Closing a Position or ATM Strategy Position | [Previous page](trade_controls-1.md) [Return to chapter overview](trade_controls-1.md) [Next page](position_display-1.md) |
 
 Closing a position or ATM Strategy with the Close button
 --------------------------------------------------------

@@ -6,7 +6,7 @@ SupportsAlerts
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\supportsalerts.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) >  SupportsAlerts | [Previous page](onmouseup-1.htm) [Return to chapter overview](drawing_tools-1.htm) [Next page](zordertype-1.htm) |
+| << [Click to Display Table of Contents](.\supportsalerts.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) >  SupportsAlerts | [Previous page](onmouseup-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](zordertype-1.md) |
 
 Definition
 ----------

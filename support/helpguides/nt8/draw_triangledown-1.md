@@ -6,7 +6,7 @@ Draw.TriangleDown()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\draw_triangledown.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  Draw.TriangleDown() | [Previous page](triangle-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](triangledown-1.htm) |
+| << [Click to Display Table of Contents](.\draw_triangledown.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  Draw.TriangleDown() | [Previous page](triangle-1.md) [Return to chapter overview](drawing-1.md) [Next page](triangledown-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a triangle pointing down.
 Method Return Value
 -------------------
 
-A [TriangleDown](triangledown-1.htm) object that represents the draw object.
+A [TriangleDown](triangledown-1.md) object that represents the draw object.
 
 Syntax
 ------

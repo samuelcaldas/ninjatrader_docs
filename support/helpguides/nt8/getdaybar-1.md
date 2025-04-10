@@ -6,7 +6,7 @@ GetDayBar()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getdaybar.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Bars](bars-1.htm) >  GetDayBar() | [Previous page](getclose-1.htm) [Return to chapter overview](bars-1.htm) [Next page](gethigh-1.htm) |
+| << [Click to Display Table of Contents](.\getdaybar.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Bars](bars-1.md) >  GetDayBar() | [Previous page](getclose-1.md) [Return to chapter overview](bars-1.md) [Next page](gethigh-1.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Returns a virtual historical Bar object that represents a trading day whose prop
 
 |  |
 | --- |
-| Notes:  1.The bar object returned is a "virtual bar" built from the underlying bar series and its configured session.  Since the bar object is virtual, its property values are calculated based on session definitions contained in the trading day only. The returned bar object does NOT necessarily represent the actual day.  For accessing a true "Daily" bar, please see use [AddDataSeries()](adddataseries-1.htm) and use the BarsPeriodType.Day as the bars period.  2.GetDayBar() should ONLY be used for accessing prior trading day data. To access current trading day data, use the [CurrentDayOHL()](current_day_ohl-1.htm) method. |
+| Notes:  1.The bar object returned is a "virtual bar" built from the underlying bar series and its configured session.  Since the bar object is virtual, its property values are calculated based on session definitions contained in the trading day only. The returned bar object does NOT necessarily represent the actual day.  For accessing a true "Daily" bar, please see use [AddDataSeries()](adddataseries-1.md) and use the BarsPeriodType.Day as the bars period.  2.GetDayBar() should ONLY be used for accessing prior trading day data. To access current trading day data, use the [CurrentDayOHL()](current_day_ohl-1.md) method. |
 
  
 

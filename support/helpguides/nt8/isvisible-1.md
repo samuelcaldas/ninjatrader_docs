@@ -6,7 +6,7 @@ IsVisible
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\isvisible.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) >  IsVisible | [Previous page](indicator_displayname-1.htm) [Return to chapter overview](common-1.htm) [Next page](name-1.htm) |
+| << [Click to Display Table of Contents](.\isvisible.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) >  IsVisible | [Previous page](indicator_displayname-1.md) [Return to chapter overview](common-1.md) [Next page](name-1.md) |
 
 Definition
 ----------

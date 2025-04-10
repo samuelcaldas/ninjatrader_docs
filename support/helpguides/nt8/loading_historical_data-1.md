@@ -6,7 +6,7 @@ Loading Historical Data
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\loading_historical_data.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Historical Data](historical_data_manager-1.htm) >  Loading Historical Data | [Previous page](historical_data_manager-1.htm) [Return to chapter overview](historical_data_manager-1.htm) [Next page](data_by_provider-1.htm) |
+| << [Click to Display Table of Contents](.\loading_historical_data.md) >>  **Navigation:**  [Operations](operations-1.md) > [Historical Data](historical_data_manager-1.md) >  Loading Historical Data | [Previous page](historical_data_manager-1.md) [Return to chapter overview](historical_data_manager-1.md) [Next page](data_by_provider-1.md) |
 
 NinjaTrader has 3 levels of data access: From provider, from cache, and from memory.
 
@@ -22,13 +22,13 @@ The reality is for any chart load, there typically will be data returned from mu
 
 |  |
 | --- |
-| Data that is currently being used will be in the memory and will first be used to populate your charts. Additionally, to minimize the need to load data and to speed up chart load times, NinjaTrader maintains an internal cache of your prior accessed data. When data is in this cache, NinjaTrader will use it to populate your charts instead of loading from your data provider.    There are two ways to ensure that the memory contains data for your instrument of interest:    1.Load the instrument into a [Market Analyzer](market_analyzer-1.htm) window along with an indicator column with the same chart parameters you plan to be loading.  2.Open and maintain a chart with the same data type and days to load that you plan on loading. |
+| Data that is currently being used will be in the memory and will first be used to populate your charts. Additionally, to minimize the need to load data and to speed up chart load times, NinjaTrader maintains an internal cache of your prior accessed data. When data is in this cache, NinjaTrader will use it to populate your charts instead of loading from your data provider.    There are two ways to ensure that the memory contains data for your instrument of interest:    1.Load the instrument into a [Market Analyzer](market_analyzer-1.md) window along with an indicator column with the same chart parameters you plan to be loading.  2.Open and maintain a chart with the same data type and days to load that you plan on loading. |
 
 ![tog_minus](tog_minus-1.gif)        When does NinjaTrader download historical data?
 
 |  |
 | --- |
-| NinjaTrader loads data from your data provider whenever it determines it could potentially not have all the data pertaining to the requested time period.    NinjaTrader will load data when:    1.The End date parameter of the [Data Series](working_with_price_data-1.htm) window contains the current day (this results in the current and prior day downloading)  2.The most recent day of data in your data request is not available in the data repository (this results in the most recent day from your data request and prior day downloading)  3.When the oldest day of data in your data request is not available in the data repository or it only goes up to that date (this results in all requested historical trading day data downloading and the prior day)    The prior day is included as many instruments trading days starts on the prior day. |
+| NinjaTrader loads data from your data provider whenever it determines it could potentially not have all the data pertaining to the requested time period.    NinjaTrader will load data when:    1.The End date parameter of the [Data Series](working_with_price_data-1.md) window contains the current day (this results in the current and prior day downloading)  2.The most recent day of data in your data request is not available in the data repository (this results in the most recent day from your data request and prior day downloading)  3.When the oldest day of data in your data request is not available in the data repository or it only goes up to that date (this results in all requested historical trading day data downloading and the prior day)    The prior day is included as many instruments trading days starts on the prior day. |
 
 ![tog_minus](tog_minus-1.gif)        What historical data is loaded from provider?
 

@@ -6,7 +6,7 @@ Width
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](width.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartScale](chartscale.htm) >  Width | [Previous page](chartscale_scalejustification.htm) [Return to chapter overview](chartscale.htm) [Next page](rendering.htm) |
+| << [Click to Display Table of Contents](width.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartScale](chartscale.md) >  Width | [Previous page](chartscale_scalejustification.md) [Return to chapter overview](chartscale.md) [Next page](rendering.md) |
 
 Definition
 ----------

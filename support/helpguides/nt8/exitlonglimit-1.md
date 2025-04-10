@@ -6,7 +6,7 @@ ExitLongLimit()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\exitlonglimit.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [Order Methods](order_methods-1.htm) > [Managed Approach](managed_approach-1.htm) >  ExitLongLimit() | [Previous page](exitlong-1.htm) [Return to chapter overview](managed_approach-1.htm) [Next page](exitlongmit-1.htm) |
+| << [Click to Display Table of Contents](.\exitlonglimit.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [Order Methods](order_methods-1.md) > [Managed Approach](managed_approach-1.md) >  ExitLongLimit() | [Previous page](exitlong-1.md) [Return to chapter overview](managed_approach-1.md) [Next page](exitlongmit-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Generates a sell limit order to exit a long position.
 Method Return Value
 -------------------
 
-An [Order](order-1.htm) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling-1.htm) section.
+An [Order](order-1.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling-1.md) section.
 
 Syntax   
 ExitLongLimit(double limitPrice)
@@ -30,7 +30,7 @@ ExitLongLimit(int quantity, double limitPrice, string signalName, string fromEnt
 
  
 
-The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling-1.htm) concepts:
+The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling-1.md) concepts:
 
  
 
@@ -46,7 +46,7 @@ Parameters
 | limitPrice | The limit price of the order. |
 | quantity | Entry order quantity. |
 | isLiveUntilCancelled | The order will NOT expire at the end of a bar but instead remain live until the CancelOrder() method is called or its time in force is reached. |
-| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress-1.htm) property. |
+| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress-1.md) property. |
 
 Examples
 --------
@@ -57,4 +57,4 @@ Examples
 
 |  |
 | --- |
-| Tips (also see [Overview](managed_approach-1.htm)):  •This method is ignored if a long position does not exist  •It is helpful to provide a signal name if your strategy has multiple exit points to help identify your exits on a chart  •You can tie an exit to an entry by providing the entry signal name in the parameter "fromEntrySignal"  •If you do not specify a quantity the entire position is exited rendering your strategy flat  •If you do not specify a "fromEntrySignal" parameter the entire position is exited rendering your strategy flat |
+| Tips (also see [Overview](managed_approach-1.md)):  •This method is ignored if a long position does not exist  •It is helpful to provide a signal name if your strategy has multiple exit points to help identify your exits on a chart  •You can tie an exit to an entry by providing the entry signal name in the parameter "fromEntrySignal"  •If you do not specify a quantity the entire position is exited rendering your strategy flat  •If you do not specify a "fromEntrySignal" parameter the entire position is exited rendering your strategy flat |

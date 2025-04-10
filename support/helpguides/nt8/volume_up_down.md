@@ -6,12 +6,12 @@ Volume Up Down
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](volume_up_down.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Volume Up Down | [Previous page](volume_rate_of_change_vroc.htm) [Return to chapter overview](indicators.htm) [Next page](vortex.htm) |
+| << [Click to Display Table of Contents](volume_up_down.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Volume Up Down | [Previous page](volume_rate_of_change_vroc.md) [Return to chapter overview](indicators.md) [Next page](vortex.md) |
 
 Description
 -----------
 
-Variation of the [VOL](volume.htm) (Volume) indicator that colors the volume histogram different color depending if the current bar is up or down bar.
+Variation of the [VOL](volume.md) (Volume) indicator that colors the volume histogram different color depending if the current bar is up or down bar.
 
 Syntax
 ------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 Example
 -------

@@ -6,7 +6,7 @@ AveragePrice
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\positionaccount_averageprice.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [PositionAccount](positionaccount-1.htm) >  AveragePrice | [Previous page](positionaccount-1.htm) [Return to chapter overview](positionaccount-1.htm) [Next page](positionaccount_getunrealizedprofitloss-1.htm) |
+| << [Click to Display Table of Contents](.\positionaccount_averageprice.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [PositionAccount](positionaccount-1.md) >  AveragePrice | [Previous page](positionaccount-1.md) [Return to chapter overview](positionaccount-1.md) [Next page](positionaccount_getunrealizedprofitloss-1.md) |
 
 Definition
 ----------

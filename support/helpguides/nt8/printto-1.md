@@ -6,12 +6,12 @@ PrintTo
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\printto.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Alert, Debug, Share](alert__debugging_and_sharing-1.htm) >  PrintTo | [Previous page](print-1.htm) [Return to chapter overview](alert__debugging_and_sharing-1.htm) [Next page](rearmalert-1.htm) |
+| << [Click to Display Table of Contents](.\printto.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Alert, Debug, Share](alert__debugging_and_sharing-1.md) >  PrintTo | [Previous page](print-1.md) [Return to chapter overview](alert__debugging_and_sharing-1.md) [Next page](rearmalert-1.md) |
 
 Definition
 ----------
 
-Determines either tab of the NinjaScript [Output window](output-1.htm) the [Print()](print-1.htm) and [ClearOutputWindow()](clearoutputwindow-1.htm) method targets
+Determines either tab of the NinjaScript [Output window](output-1.md) the [Print()](print-1.md) and [ClearOutputWindow()](clearoutputwindow-1.md) method targets
 
 Property Value
 --------------

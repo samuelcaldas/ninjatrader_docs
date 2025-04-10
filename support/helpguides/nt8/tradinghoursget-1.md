@@ -6,17 +6,17 @@ Get()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\tradinghoursget.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [TradingHours](tradinghours-1.htm) >  Get() | [Previous page](tradinghours-1.htm) [Return to chapter overview](tradinghours-1.htm) [Next page](getprevioustradingdayend-1.htm) |
+| << [Click to Display Table of Contents](.\tradinghoursget.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [TradingHours](tradinghours-1.md) >  Get() | [Previous page](tradinghours-1.md) [Return to chapter overview](tradinghours-1.md) [Next page](getprevioustradingdayend-1.md) |
 
 Definition
 ----------
 
-Returns the [TradingHours](tradinghours-1.htm) object for the specified Trading Hours template name, such as "CME US Index Futures RTH"
+Returns the [TradingHours](tradinghours-1.md) object for the specified Trading Hours template name, such as "CME US Index Futures RTH"
 
 Method Return Value
 -------------------
 
-A [TradingHours](tradinghours-1.htm) object representing the specified Trading Hours template name.
+A [TradingHours](tradinghours-1.md) object representing the specified Trading Hours template name.
 
 Syntax
 ------

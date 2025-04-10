@@ -6,12 +6,12 @@ Count
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\chartbars_count.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartBars](chartbars-1.htm) >  Count | [Previous page](chartbars_bars-1.htm) [Return to chapter overview](chartbars-1.htm) [Next page](chartbars_fromindex-1.htm) |
+| << [Click to Display Table of Contents](.\chartbars_count.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartBars](chartbars-1.md) >  Count | [Previous page](chartbars_bars-1.md) [Return to chapter overview](chartbars-1.md) [Next page](chartbars_fromindex-1.md) |
 
 Definition
 ----------
 
-The total number of [ChartBars](chartbars-1.htm) in the charts primary data series
+The total number of [ChartBars](chartbars-1.md) in the charts primary data series
 
 Property Value
 --------------

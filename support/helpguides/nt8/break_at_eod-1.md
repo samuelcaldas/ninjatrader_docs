@@ -6,7 +6,7 @@ Break at EOD
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\break_at_eod.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Charts](charts-1.htm) >  Break at EOD | [Previous page](how_trade_executions_are_plott-1.htm) [Return to chapter overview](charts-1.htm) [Next page](order_flow_plus-1.htm) |
+| << [Click to Display Table of Contents](.\break_at_eod.md) >>  **Navigation:**  [Operations](operations-1.md) > [Charts](charts-1.md) >  Break at EOD | [Previous page](how_trade_executions_are_plott-1.md) [Return to chapter overview](charts-1.md) [Next page](order_flow_plus-1.md) |
 
 Break at EOD (End Of Day)
 -------------------------

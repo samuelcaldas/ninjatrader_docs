@@ -6,14 +6,14 @@ R-squared
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](r_squared.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  R-squared | [Previous page](relative_volatility_index_rvi.htm) [Return to chapter overview](indicators.htm) [Next page](standard_deviation_stddev.htm) |
+| << [Click to Display Table of Contents](r_squared.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  R-squared | [Previous page](relative_volatility_index_rvi.md) [Return to chapter overview](indicators.md) [Next page](standard_deviation_stddev.md) |
 
 Description
 -----------
 
 The r-squared indicator calculates how well the price approximates a linear regression line. The indicator gets its name from the calculation, which is, the square of the correlation coefficient (referred to in mathematics by the Greek letter rho, or r). The range of the r-squared is from zero to one.
 
-... Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.htm?url=rsquared.htm)
+... Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.md?url=rsquared.md)
 
 Syntax
 ------
@@ -40,7 +40,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

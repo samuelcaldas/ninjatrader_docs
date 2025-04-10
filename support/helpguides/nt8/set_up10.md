@@ -6,9 +6,9 @@ Set Up
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](set_up10.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Strategies](developing_strategies.htm) > [Beginner - Simple MA Cross Over](beginner_-_simple_ma_cross_ove.htm) >  Set Up | [Previous page](beginner_-_simple_ma_cross_ove.htm) [Return to chapter overview](beginner_-_simple_ma_cross_ove.htm) [Next page](creating_the_strategy_via_the_.htm) |
+| << [Click to Display Table of Contents](set_up10.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Strategies](developing_strategies.md) > [Beginner - Simple MA Cross Over](beginner_-_simple_ma_cross_ove.md) >  Set Up | [Previous page](beginner_-_simple_ma_cross_ove.md) [Return to chapter overview](beginner_-_simple_ma_cross_ove.md) [Next page](creating_the_strategy_via_the_.md) |
 
-The first step in creating a custom strategy is to use the custom [Strategy Builder](strategy_builder.htm). The builder provides two options:
+The first step in creating a custom strategy is to use the custom [Strategy Builder](strategy_builder.md). The builder provides two options:
 
 •Allow you to create a functional strategy without any programming
 
@@ -27,14 +27,14 @@ The first step in creating a custom strategy is to use the custom [Strategy Buil
 Setting Default Properties
 --------------------------
 
-The next page will allow you to set defaults for basic properties related to your strategy, including it's [Calculate](calculate.htm) and [EntryHandling](entryhandling.htm) settings. Click the More Properties button to expose additional properties. For this tutorial, we will not change any basic properties' defaults, and instead will leave them all set to the values shown below:
+The next page will allow you to set defaults for basic properties related to your strategy, including it's [Calculate](calculate.md) and [EntryHandling](entryhandling.md) settings. Click the More Properties button to expose additional properties. For this tutorial, we will not change any basic properties' defaults, and instead will leave them all set to the values shown below:
 
 ![SimpleMACrossoverSetUp2](simplemacrossoversetup2.png)
 
 Adding Additional Data
 ----------------------
 
-The next page will allow you to configure one or more additional [Bars](bars.htm) objects for use by the strategy. For our purposes, we will leave this page blank and move forward by clicking the Next > button.
+The next page will allow you to configure one or more additional [Bars](bars.md) objects for use by the strategy. For our purposes, we will leave this page blank and move forward by clicking the Next > button.
 
 ![SimpleMACrossoverSetUp3](simplemacrossoversetup3.png)
 
@@ -67,6 +67,6 @@ Unlock Code - Pressing this button loads the strategy code in the NinjaScript ed
 
 ![SimpleMACrossoverSetUp6](simplemacrossoversetup6.png)
 
-If you want to proceed with this tutorial through [self programming continue here](creating_the_strategy_via_self.htm) after pressing the "Unlock Code" button.
+If you want to proceed with this tutorial through [self programming continue here](creating_the_strategy_via_self.md) after pressing the "Unlock Code" button.
 
-If you want to proceed with this tutorial through [using the Strategy Builder please click here](creating_the_strategy_via_the_.htm).
+If you want to proceed with this tutorial through [using the Strategy Builder please click here](creating_the_strategy_via_the_.md).

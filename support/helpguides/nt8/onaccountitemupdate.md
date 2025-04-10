@@ -6,7 +6,7 @@ OnAccountItemUpdate()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onaccountitemupdate.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  OnAccountItemUpdate() | [Previous page](numberrestartattempts.htm) [Return to chapter overview](strategy.htm) [Next page](accountitemeventargs.htm) |
+| << [Click to Display Table of Contents](onaccountitemupdate.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  OnAccountItemUpdate() | [Previous page](numberrestartattempts.md) [Return to chapter overview](strategy.md) [Next page](accountitemeventargs.md) |
 
 Definition
 ----------
@@ -37,8 +37,8 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| account | The [Account](account_class.htm) updated |
-| accountItem | The [AccountItem](accountitem.htm) updated |
+| account | The [Account](account_class.md) updated |
+| accountItem | The [AccountItem](accountitem.md) updated |
 | value | The value of the AccountItem updated |
 
 Examples

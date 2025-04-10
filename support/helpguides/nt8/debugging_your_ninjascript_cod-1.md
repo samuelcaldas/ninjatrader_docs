@@ -6,7 +6,7 @@ Debugging your NinjaScript Code
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\debugging_your_ninjascript_cod.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Tips](tips-1.htm) >  Debugging your NinjaScript Code | [Previous page](creating_user_defined_input_pa-1.htm) [Return to chapter overview](tips-1.htm) [Next page](floating-point_arithmetic-1.htm) |
+| << [Click to Display Table of Contents](.\debugging_your_ninjascript_cod.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Tips](tips-1.md) >  Debugging your NinjaScript Code | [Previous page](creating_user_defined_input_pa-1.md) [Return to chapter overview](tips-1.md) [Next page](floating-point_arithmetic-1.md) |
 
 Debugging can be a frustrating and time-consuming task. In order to make the most of your time, it is best to proceed in a methodical manner. The first step you should do is to strip your code down into simple code segments. You want to start your debugging at a point where you know the code works as expected. From there you can then add more layers of complexity. With each additional layer, you want to ensure it works as expected before adding more layers.
 
@@ -34,7 +34,7 @@ Example:
 
 Placing Print() commands throughout your code logic allows you to trace where you are exactly. You can see where your code goes and where it does not go by viewing the output from the Output Window. Coupled with reading the error log from the Log tab in the Control Center, you can pinpoint where your code is crashing or locking up and make changes accordingly.
 
-Debugging orders can be a bit harder though because you cannot discern the behavior state of your orders through the Print() command easily. In addition to Print(), you can use [TraceOrders](traceorders-1.htm) to help you decipher what is happening under the hood for orders. [TraceOrders](traceorders-1.htm) will print information into the Output Window that will contain details about your orders.
+Debugging orders can be a bit harder though because you cannot discern the behavior state of your orders through the Print() command easily. In addition to Print(), you can use [TraceOrders](traceorders-1.md) to help you decipher what is happening under the hood for orders. [TraceOrders](traceorders-1.md) will print information into the Output Window that will contain details about your orders.
 
 | ns |
 | --- |
@@ -42,7 +42,7 @@ Debugging orders can be a bit harder though because you cannot discern the behav
 
  
 
-When debugging stop or limit orders it can also be extremely useful to draw dots along your chart of the actual stop/limit prices. This way you can visually see where your orders are at and if they should have been filled or not. [Draw.Dot](draw_dot-1.htm)
+When debugging stop or limit orders it can also be extremely useful to draw dots along your chart of the actual stop/limit prices. This way you can visually see where your orders are at and if they should have been filled or not. [Draw.Dot](draw_dot-1.md)
 
 | ns |
 | --- |

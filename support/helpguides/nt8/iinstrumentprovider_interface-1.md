@@ -6,9 +6,9 @@ IInstrumentProvider Interface
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\iinstrumentprovider_interface.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) >  IInstrumentProvider Interface | [Previous page](playbackconnection-1.htm) [Return to chapter overview](add_on-1.htm) [Next page](iinstrumentprovider_instrument-1.htm) |
+| << [Click to Display Table of Contents](.\iinstrumentprovider_interface.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) >  IInstrumentProvider Interface | [Previous page](playbackconnection-1.md) [Return to chapter overview](add_on-1.md) [Next page](iinstrumentprovider_instrument-1.md) |
 
-When creating your [NTTabPage](nttabpage_class-1.htm), if you wish to use the [instrument link](linking_windows-1.htm), be sure to implement the IInstrumentProvider interface.
+When creating your [NTTabPage](nttabpage_class-1.md), if you wish to use the [instrument link](linking_windows-1.md), be sure to implement the IInstrumentProvider interface.
 
 Examples
 --------

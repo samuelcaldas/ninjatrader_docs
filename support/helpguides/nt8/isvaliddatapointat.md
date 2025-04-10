@@ -6,18 +6,18 @@ IsValidDataPointAt()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isvaliddatapointat.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [ISeries<T>](iseriest.htm) >  IsValidDataPointAt() | [Previous page](isvaliddatapoint.htm) [Return to chapter overview](iseriest.htm) [Next page](maximumbarslookback.htm) |
+| << [Click to Display Table of Contents](isvaliddatapointat.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [ISeries<T>](iseriest.md) >  IsValidDataPointAt() | [Previous page](isvaliddatapoint.md) [Return to chapter overview](iseriest.md) [Next page](maximumbarslookback.md) |
 
 Definition
 ----------
 
-Indicates if the specified input is set at a specified bar index value.  Please also see the [Reset()](reset.htm) method for more information.
+Indicates if the specified input is set at a specified bar index value.  Please also see the [Reset()](reset.md) method for more information.
 
  
 
 |  |
 | --- |
-| Notes:  •If called directly from the instance of the NinjaScript object, the value returned corresponds to the Inputs Series (e.g., Close, High, Low, SMA, etc.)  •When checking a [Bar](bars.htm) or [PriceSeries](priceseries.htm), IsValidDataPoint() returns true as long as the barIndex value falls between 0 and the total count for that series.  These are special series which always contain a value set at every slot index for multi-series scripting purposes (e.g., comparing two price series with various session templates, or one series has more ticks than the other)  •For a [Value](value.htm) series or custom [Series<T>](seriest.htm), IsValidDataPoint() returns true or false depending on if you have set a value at that index location |
+| Notes:  •If called directly from the instance of the NinjaScript object, the value returned corresponds to the Inputs Series (e.g., Close, High, Low, SMA, etc.)  •When checking a [Bar](bars.md) or [PriceSeries](priceseries.md), IsValidDataPoint() returns true as long as the barIndex value falls between 0 and the total count for that series.  These are special series which always contain a value set at every slot index for multi-series scripting purposes (e.g., comparing two price series with various session templates, or one series has more ticks than the other)  •For a [Value](value.md) series or custom [Series<T>](seriest.md), IsValidDataPoint() returns true or false depending on if you have set a value at that index location |
 
 Method Return Value
 -------------------

@@ -6,7 +6,7 @@ Y (Coordinate)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](y_coordinate_chartpanel.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartPanel](chartpanel.htm) >  Y (Coordinate) | [Previous page](x_coordinate_chartpanel.htm) [Return to chapter overview](chartpanel.htm) [Next page](chartscale.htm) |
+| << [Click to Display Table of Contents](y_coordinate_chartpanel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartPanel](chartpanel.md) >  Y (Coordinate) | [Previous page](x_coordinate_chartpanel.md) [Return to chapter overview](chartpanel.md) [Next page](chartscale.md) |
 
 Definition
 ----------

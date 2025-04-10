@@ -6,7 +6,7 @@ GetTimeBySlotIndex()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\gettimebyslotindex.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartControl](chartcontrol-1.htm) >  GetTimeBySlotIndex() | [Previous page](getslotindexbyx-1.htm) [Return to chapter overview](chartcontrol-1.htm) [Next page](gettimebyx-1.htm) |
+| << [Click to Display Table of Contents](.\gettimebyslotindex.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartControl](chartcontrol-1.md) >  GetTimeBySlotIndex() | [Previous page](getslotindexbyx-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](gettimebyx-1.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Returns a time value relative to the chart control corresponding to a specified 
 
 |  |
 | --- |
-| Notes:  •A "Slot" is used in Equidistant [bar spacing](barspacingtype-1.htm) and represents a position on the chart canvas background which may or may not contain a bar. The concept of "Slots" does NOT exist on a TimeBased bar spacing type.  •If you are looking for information on a bar series, please see [ChartBars.GetTimeByBarIdx()](chartbars_gettimebybaridx-1.htm)  •For slot index values in the future, an estimation of time will be returned.  It is not possible to predict the future time of a bar for all bar series (i.e., tick/volume based bars) |
+| Notes:  •A "Slot" is used in Equidistant [bar spacing](barspacingtype-1.md) and represents a position on the chart canvas background which may or may not contain a bar. The concept of "Slots" does NOT exist on a TimeBased bar spacing type.  •If you are looking for information on a bar series, please see [ChartBars.GetTimeByBarIdx()](chartbars_gettimebybaridx-1.md)  •For slot index values in the future, an estimation of time will be returned.  It is not possible to predict the future time of a bar for all bar series (i.e., tick/volume based bars) |
 
 Method Return Value
 -------------------

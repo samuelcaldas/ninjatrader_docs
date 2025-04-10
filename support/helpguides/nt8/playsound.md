@@ -6,7 +6,7 @@ PlaySound()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](playsound.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Alert, Debug, Share](alert__debugging_and_sharing.htm) >  PlaySound() | [Previous page](log.htm) [Return to chapter overview](alert__debugging_and_sharing.htm) [Next page](print.htm) |
+| << [Click to Display Table of Contents](playsound.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Alert, Debug, Share](alert__debugging_and_sharing.md) >  PlaySound() | [Previous page](log.md) [Return to chapter overview](alert__debugging_and_sharing.md) [Next page](print.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Plays a .wav file while running on real-time data.
 
 |  |
 | --- |
-| Notes:  1. This method will only execute once the [State](state.htm) has reached State.Realtime.  Calls to this method during State.Historical will be ignored (in contrast to the implementation for [AddOns](alert_and_debug_concepts.htm))  2.The default behavior is to play the .wav file in an asynchronous manner, which can result in calls to PlaySound() to play over one another.  Sound files can optionally be configured to execute in a synchronous manner by enabling the Tools > Options > Sounds > "Play consecutively" property |
+| Notes:  1. This method will only execute once the [State](state.md) has reached State.Realtime.  Calls to this method during State.Historical will be ignored (in contrast to the implementation for [AddOns](alert_and_debug_concepts.md))  2.The default behavior is to play the .wav file in an asynchronous manner, which can result in calls to PlaySound() to play over one another.  Sound files can optionally be configured to execute in a synchronous manner by enabling the Tools > Options > Sounds > "Play consecutively" property |
 
 Method Return Value
 -------------------

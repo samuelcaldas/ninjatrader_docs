@@ -6,17 +6,17 @@ Draw.TextFixed()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\draw_textfixed.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  Draw.TextFixed() | [Previous page](text-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](textfixed-1.htm) |
+| << [Click to Display Table of Contents](.\draw_textfixed.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  Draw.TextFixed() | [Previous page](text-1.md) [Return to chapter overview](drawing-1.md) [Next page](textfixed-1.md) |
 
 Definition
 ----------
 
-Draws text in one of 5 available pre-defined fixed locations on panel 1 (price panel) of a chart. Please note the [Z-Order](zordertype-1.htm) is internally set for the method to always be drawn on top.
+Draws text in one of 5 available pre-defined fixed locations on panel 1 (price panel) of a chart. Please note the [Z-Order](zordertype-1.md) is internally set for the method to always be drawn on top.
 
 Method Return Value
 -------------------
 
-A [TextFixed](textfixed-1.htm) object that represents the draw object.
+A [TextFixed](textfixed-1.md) object that represents the draw object.
 
 Syntax
 
@@ -56,7 +56,7 @@ Examples
 
 |  |
 | --- |
-| Tip:  In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties-1.htm) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class-1.htm) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings. |
+| Tip:  In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties-1.md) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class-1.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings. |
 
  
 

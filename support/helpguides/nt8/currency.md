@@ -6,12 +6,12 @@ Currency
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](currency.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  Currency | [Previous page](averagetotalefficiency.htm) [Return to chapter overview](tradesperformance.htm) [Next page](grossloss.htm) |
+| << [Click to Display Table of Contents](currency.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  Currency | [Previous page](averagetotalefficiency.md) [Return to chapter overview](tradesperformance.md) [Next page](grossloss.md) |
 
 Definition
 ----------
 
-Returns a [TradesPerformanceValues](tradesperformancevalues.htm) object in currency.
+Returns a [TradesPerformanceValues](tradesperformancevalues.md) object in currency.
 
 Property Value
 --------------

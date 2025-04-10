@@ -6,12 +6,12 @@ Moving Average - Triangular (TMA)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\moving_average_-_triangular_tm.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Moving Average - Triangular (TMA) | [Previous page](moving_average_-_t3_t3-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](moving_average_-_triple_expone-1.htm) |
+| << [Click to Display Table of Contents](.\moving_average_-_triangular_tm.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Moving Average - Triangular (TMA) | [Previous page](moving_average_-_t3_t3-1.md) [Return to chapter overview](indicators-1.md) [Next page](moving_average_-_triple_expone-1.md) |
 
 Description
 -----------
 
-The Triangular Moving Average is a form of [Weighted Moving Average](moving_average_-_weighted_wma-1.htm) wherein the weights are assigned in a triangular pattern. For example, the weights for a 7 period Triangular Moving Average would be 1, 2, 3, 4, 3, 2, 1. This gives more weight to the middle of the time series and less weight to the oldest and newest data.
+The Triangular Moving Average is a form of [Weighted Moving Average](moving_average_-_weighted_wma-1.md) wherein the weights are assigned in a triangular pattern. For example, the weights for a 7 period Triangular Moving Average would be 1, 2, 3, 4, 3, 2, 1. This gives more weight to the middle of the time series and less weight to the oldest and newest data.
 
 Syntax
 ------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

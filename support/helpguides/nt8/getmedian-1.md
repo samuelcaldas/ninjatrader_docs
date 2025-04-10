@@ -6,7 +6,7 @@ GetMedian()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getmedian.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Analytical](market_data-1.htm) >  GetMedian() | [Previous page](getcurrentbidvolume-1.htm) [Return to chapter overview](market_data-1.htm) [Next page](highestbar-1.htm) |
+| << [Click to Display Table of Contents](.\getmedian.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Analytical](market_data-1.md) >  GetMedian() | [Previous page](getcurrentbidvolume-1.md) [Return to chapter overview](market_data-1.md) [Next page](highestbar-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Returns the statistical median value of the specified series over the specified 
 
 |  |
 | --- |
-| Notes:  1. This method should NOT be confused with [Median](median-1.htm) prices defined as (High + Low) / 2. This method returns the statistical median of a series.  2. If an even number is passed as the look-back period, the average of the two middle values in the sorted values will be returned. |
+| Notes:  1. This method should NOT be confused with [Median](median-1.md) prices defined as (High + Low) / 2. This method returns the statistical median of a series.  2. If an even number is passed as the look-back period, the average of the two middle values in the sorted values will be returned. |
 
 Method Return Value
 -------------------

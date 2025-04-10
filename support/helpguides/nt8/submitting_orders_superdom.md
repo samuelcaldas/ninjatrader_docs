@@ -6,7 +6,7 @@ Submitting Orders
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](submitting_orders_superdom.htm) >>  **Navigation:**  [Operations](operations.htm) > [Order Entry](order_entry.htm) > [SuperDOM](superdom.htm) >  Submitting Orders | [Previous page](order_display.htm) [Return to chapter overview](superdom.htm) [Next page](modifying_and_cancelling_orders_superdom.htm) |
+| << [Click to Display Table of Contents](submitting_orders_superdom.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) > [SuperDOM](superdom.md) >  Submitting Orders | [Previous page](order_display.md) [Return to chapter overview](superdom.md) [Next page](modifying_and_cancelling_orders_superdom.htm) |
 
 |  |
 | --- |

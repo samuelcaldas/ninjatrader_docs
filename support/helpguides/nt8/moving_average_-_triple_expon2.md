@@ -6,7 +6,7 @@ Moving Average - Triple Exponential (TRIX)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](moving_average_-_triple_expon2.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Moving Average - Triple Exponential (TRIX) | [Previous page](moving_average_-_triple_expone.htm) [Return to chapter overview](indicators.htm) [Next page](moving_average_-_variable_vma.htm) |
+| << [Click to Display Table of Contents](moving_average_-_triple_expon2.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Moving Average - Triple Exponential (TRIX) | [Previous page](moving_average_-_triple_expone.md) [Return to chapter overview](indicators.md) [Next page](moving_average_-_variable_vma.md) |
 
 Description
 -----------
@@ -43,7 +43,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 | signalPeriod | Period for signal line |
 

@@ -6,7 +6,7 @@ Quantity Selector
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\quantity_selector.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Order Entry](order_entry-1.htm) > [Trade Controls](trade_controls-1.htm) >  Quantity Selector | [Previous page](price_selector-1.htm) [Return to chapter overview](trade_controls-1.htm) [Next page](tif_selector-1.htm) |
+| << [Click to Display Table of Contents](.\quantity_selector.md) >>  **Navigation:**  [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [Trade Controls](trade_controls-1.md) >  Quantity Selector | [Previous page](price_selector-1.md) [Return to chapter overview](trade_controls-1.md) [Next page](tif_selector-1.md) |
 
 The Quantity Selector is a standard control available from all order entry features which allows you to select the number of contracts that are prepared for an custom order.
 
@@ -14,7 +14,7 @@ The Quantity Selector is a standard control available from all order entry featu
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Minimum Quantity Size The Quantity Selector is smart in that it will automatically fill in the minimum quantity value depending on the type of instrument that is selected. This is particularly useful when switching from one instrument type to another.    The table below will show the minimum quantity for each instrument type:    |  |  | | --- | --- | | Instrument Type | Default Minimum Quantity | | Future | 1 | | Stock | 100 | | CFD | 1 | | Option | 1 | | Forex | Forex lot size - 100K (Full), 10K (Mini), or 1K (Micro) |    |  | | --- | | Note: Forex lot sizes are automatically determined by your Forex brokerage account connection. For Simulation account Forex lot size, see "Managing simulation accounts" section of the global [Trading](options_trading-1.htm) options | |
+| Minimum Quantity Size The Quantity Selector is smart in that it will automatically fill in the minimum quantity value depending on the type of instrument that is selected. This is particularly useful when switching from one instrument type to another.    The table below will show the minimum quantity for each instrument type:    |  |  | | --- | --- | | Instrument Type | Default Minimum Quantity | | Future | 1 | | Stock | 100 | | CFD | 1 | | Option | 1 | | Forex | Forex lot size - 100K (Full), 10K (Mini), or 1K (Micro) |    |  | | --- | | Note: Forex lot sizes are automatically determined by your Forex brokerage account connection. For Simulation account Forex lot size, see "Managing simulation accounts" section of the global [Trading](options_trading-1.md) options | |
 
 ![tog_minus](tog_minus-1.gif)        Increasing or Decreasing Quantity
 

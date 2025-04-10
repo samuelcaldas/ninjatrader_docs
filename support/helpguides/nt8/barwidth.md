@@ -6,7 +6,7 @@ BarWidth
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barwidth.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Chart Style](chart_style.htm) >  BarWidth | [Previous page](chart_style.htm) [Return to chapter overview](chart_style.htm) [Next page](barwidthui.htm) |
+| << [Click to Display Table of Contents](barwidth.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Chart Style](chart_style.md) >  BarWidth | [Previous page](chart_style.md) [Return to chapter overview](chart_style.md) [Next page](barwidthui.md) |
 
 Definition
 ----------

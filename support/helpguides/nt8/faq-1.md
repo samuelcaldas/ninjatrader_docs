@@ -6,7 +6,7 @@ FAQ
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\faq.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.htm) > [ATM Strategy](atm_strategy-1.htm) >  FAQ | [Previous page](shadow_strategy-1.htm) [Return to chapter overview](atm_strategy-1.htm) [Next page](server-side-atm-strategy-1.htm) |
+| << [Click to Display Table of Contents](.\faq.md) >>  **Navigation:**  [Operations](operations-1.md) > [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.md) > [ATM Strategy](atm_strategy-1.md) >  FAQ | [Previous page](shadow_strategy-1.md) [Return to chapter overview](atm_strategy-1.md) [Next page](server-side-atm-strategy-1.md) |
 
 Listed below are some common questions concerning building and implementing ATM Strategies.
 
@@ -14,7 +14,7 @@ Listed below are some common questions concerning building and implementing ATM 
 
 |  |
 | --- |
-| No, the Stop Loss and Profit Target orders submitted automatically through an ATM Strategy are OCO by default meaning that when your target is filled the stop will automatically be cancelled. The OCO function in each of the order entry windows can be used to manually link orders you place.    Please see the [Submitting Orders](submitting_orders_superdom-1.htm) section for more information and examples of the OCO function, or attend one of our [free live training events](http://www.ninjatrader.com/webnew/trading_online_events.htm) to see further examples. |
+| No, the Stop Loss and Profit Target orders submitted automatically through an ATM Strategy are OCO by default meaning that when your target is filled the stop will automatically be cancelled. The OCO function in each of the order entry windows can be used to manually link orders you place.    Please see the [Submitting Orders](submitting_orders_superdom-1.md) section for more information and examples of the OCO function, or attend one of our [free live training events](http://www.ninjatrader.com/webnew/trading_online_events.md) to see further examples. |
 
 ![tog_minus](tog_minus-1.gif)        Does NinjaTrader need to be connected for ATMs to work?
 
@@ -26,19 +26,19 @@ Listed below are some common questions concerning building and implementing ATM 
 
 |  |
 | --- |
-| Absolutely, NinjaTrader's Strategy Selection Modes allow you to limit the display in the SuperDOM so that you can run concurrent ATM Strategies.  One of the great features of NinjaTrader is its ability to manage multiple virtual positions in the same market. For example, this allows you to manage a long and short position in the same market simultaneously.    Here is how this is accomplished:    •Open 2 SuperDOMs and set them both to the same market  •Right click in one of the SuperDOMs and select the menu "Properties"  •Set the 'ATM Strategy selection mode' parameter to "DisplaySelectedAtmStrategyOnly"  •Repeat the last two instructions on the second SuperDOM  •Submit a buy order to open a long position in the first SuperDOM  •Submit a sell order to open a short position in the second SuperDOM    For more information please see the [ATM Strategy Selection Mode](atm_strategy_selection_mode-1.htm) section of the user help guide, or attend one of our [free live training events](http://www.ninjatrader.com/webnew/trading_online_events.htm). |
+| Absolutely, NinjaTrader's Strategy Selection Modes allow you to limit the display in the SuperDOM so that you can run concurrent ATM Strategies.  One of the great features of NinjaTrader is its ability to manage multiple virtual positions in the same market. For example, this allows you to manage a long and short position in the same market simultaneously.    Here is how this is accomplished:    •Open 2 SuperDOMs and set them both to the same market  •Right click in one of the SuperDOMs and select the menu "Properties"  •Set the 'ATM Strategy selection mode' parameter to "DisplaySelectedAtmStrategyOnly"  •Repeat the last two instructions on the second SuperDOM  •Submit a buy order to open a long position in the first SuperDOM  •Submit a sell order to open a short position in the second SuperDOM    For more information please see the [ATM Strategy Selection Mode](atm_strategy_selection_mode-1.md) section of the user help guide, or attend one of our [free live training events](http://www.ninjatrader.com/webnew/trading_online_events.md). |
 
 ![tog_minus](tog_minus-1.gif)        Can I have my Auto Trail loosen as I gain ticks in profit?
 
 |  |
 | --- |
-| Your Stop Strategy will never move your Stop Loss backward.  The Stop Strategy will only move your stop closer to the current trading price.    Example:  If the first step of your Auto Trail has the Stop Loss trailing by 5 ticks and then the second step of the Auto Trail tells the Stop Loss to trail by 10 ticks the Stop Loss will simply stay at its current price point until there is a 10 tick spread between the Stop Loss and the current trading price and then begin to trail by 10 ticks.  The Stop Loss will not move backwards when the second step of the Auto Trail is activated.    For more information on the Auto Trail feature please see the [Auto Trail](auto_trail-1.htm) section of the user help guide or attend one of our [free live training events](http://www.ninjatrader.com/webnew/trading_online_events.htm). |
+| Your Stop Strategy will never move your Stop Loss backward.  The Stop Strategy will only move your stop closer to the current trading price.    Example:  If the first step of your Auto Trail has the Stop Loss trailing by 5 ticks and then the second step of the Auto Trail tells the Stop Loss to trail by 10 ticks the Stop Loss will simply stay at its current price point until there is a 10 tick spread between the Stop Loss and the current trading price and then begin to trail by 10 ticks.  The Stop Loss will not move backwards when the second step of the Auto Trail is activated.    For more information on the Auto Trail feature please see the [Auto Trail](auto_trail-1.md) section of the user help guide or attend one of our [free live training events](http://www.ninjatrader.com/webnew/trading_online_events.md). |
 
 ![tog_minus](tog_minus-1.gif)        Why don't the following ATM Strategy parameters work?
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| |  |  |  |  | | --- | --- | --- | --- | |  | 1 Target | 2 Target | 3 Target | | Qty: | 1 | 1 | 1 | | Stop Loss: | 10 | 8 | 6 | | Profit Target: | 10 | 8 | 6 |   When building an ATM Strategy each Profit Target must be greater than the Profit Target before it.  Example: The Profit Target for 1 Target must be less than the Profit Target for 2 Target.  Also each Stop Loss must be must be equal to or greater than the Stop Loss before it.  Example: The Stop Loss for 1 Target must be equal to or less than the Stop Loss for 2 Target.  The Parameters listed below show the correct way to enter the values listed above.    |  |  |  |  | | --- | --- | --- | --- | |  | 1 Target | 2 Target | 3 Target | | Qty: | 1 | 1 | 1 | | Stop Loss: | 6 | 8 | 10 | | Profit Target: | 6 | 8 | 10 |   Please see the [ATM Strategy Parameters](atm_strategy_parameters-1.htm) section of the user help guide for further information. |
+| |  |  |  |  | | --- | --- | --- | --- | |  | 1 Target | 2 Target | 3 Target | | Qty: | 1 | 1 | 1 | | Stop Loss: | 10 | 8 | 6 | | Profit Target: | 10 | 8 | 6 |   When building an ATM Strategy each Profit Target must be greater than the Profit Target before it.  Example: The Profit Target for 1 Target must be less than the Profit Target for 2 Target.  Also each Stop Loss must be must be equal to or greater than the Stop Loss before it.  Example: The Stop Loss for 1 Target must be equal to or less than the Stop Loss for 2 Target.  The Parameters listed below show the correct way to enter the values listed above.    |  |  |  |  | | --- | --- | --- | --- | |  | 1 Target | 2 Target | 3 Target | | Qty: | 1 | 1 | 1 | | Stop Loss: | 6 | 8 | 10 | | Profit Target: | 6 | 8 | 10 |   Please see the [ATM Strategy Parameters](atm_strategy_parameters-1.md) section of the user help guide for further information. |
 
 ![tog_minus](tog_minus-1.gif)        Can I use the Auto Breakeven and Auto Trail strategies together?
 
@@ -50,7 +50,7 @@ Listed below are some common questions concerning building and implementing ATM 
 
 |  |
 | --- |
-| If you have opened a position which is currently unprotected by an ATM Strategy, you can easily add an pre-defined ATM Strategy to that position from the [Positions tab](positions_tab-1.htm) by right clicking on the instrument row, selecting Apply ATM Strategy and selecting the desired pre-defined [ATM Strategy Template](manage_atm_strategy_templates-1.htm) from this sub-menu.    ATM_40 |
+| If you have opened a position which is currently unprotected by an ATM Strategy, you can easily add an pre-defined ATM Strategy to that position from the [Positions tab](positions_tab-1.md) by right clicking on the instrument row, selecting Apply ATM Strategy and selecting the desired pre-defined [ATM Strategy Template](manage_atm_strategy_templates-1.md) from this sub-menu.    ATM_40 |
 
 ![tog_minus](tog_minus-1.gif)        Can I manually bracket a position without using an ATM Strategy?
 

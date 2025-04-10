@@ -6,7 +6,7 @@ GetOpen()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getopen.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Bars](bars.htm) >  GetOpen() | [Previous page](getlow.htm) [Return to chapter overview](bars.htm) [Next page](getsessionendtime.htm) |
+| << [Click to Display Table of Contents](getopen.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  GetOpen() | [Previous page](getlow.md) [Return to chapter overview](bars.md) [Next page](getsessionendtime.md) |
 
 Definition
 ----------

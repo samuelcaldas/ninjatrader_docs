@@ -6,7 +6,7 @@ OnShare()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onshare.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Share Service](share_service.htm) >  OnShare() | [Previous page](onauthorizeaccount.htm) [Return to chapter overview](share_service.htm) [Next page](signature.htm) |
+| << [Click to Display Table of Contents](onshare.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Share Service](share_service.md) >  OnShare() | [Previous page](onauthorizeaccount.md) [Return to chapter overview](share_service.md) [Next page](signature.md) |
 
 Definition
 ----------

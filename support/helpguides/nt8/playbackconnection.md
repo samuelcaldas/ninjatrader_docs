@@ -6,7 +6,7 @@ MethodName()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](playbackconnection.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Connection](connection_class.htm) >  MethodName() | [Previous page](reloadallhistoricaldata.htm) [Return to chapter overview](connection_class.htm) [Next page](iinstrumentprovider_interface.htm) |
+| << [Click to Display Table of Contents](playbackconnection.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Connection](connection_class.md) >  MethodName() | [Previous page](reloadallhistoricaldata.md) [Return to chapter overview](connection_class.md) [Next page](iinstrumentprovider_interface.md) |
 
 Definition
 ----------

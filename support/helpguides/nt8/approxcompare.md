@@ -6,7 +6,7 @@ ApproxCompare()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](approxcompare.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  ApproxCompare() | [Previous page](market_data.htm) [Return to chapter overview](market_data.htm) [Next page](countif.htm) |
+| << [Click to Display Table of Contents](approxcompare.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  ApproxCompare() | [Previous page](market_data.md) [Return to chapter overview](market_data.md) [Next page](countif.md) |
 
 Definition
 ----------

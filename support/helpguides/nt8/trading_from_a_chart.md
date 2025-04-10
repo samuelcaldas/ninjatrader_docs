@@ -6,6 +6,6 @@ Trading from a Chart
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](trading_from_a_chart.htm) >>  **Navigation:**  [Operations](operations.htm) > [Charts](charts.htm) >  Trading from a Chart | [Previous page](cross_hair.htm) [Return to chapter overview](charts.htm) [Next page](chart_properties.htm) |
+| << [Click to Display Table of Contents](trading_from_a_chart.md) >>  **Navigation:**  [Operations](operations.md) > [Charts](charts.md) >  Trading from a Chart | [Previous page](cross_hair.md) [Return to chapter overview](charts.md) [Next page](chart_properties.md) |
 
-Please see the [Chart Trader](chart_trader.htm) section under [Order Entry](order_entry.htm) section for more information on trading in the chart.
+Please see the [Chart Trader](chart_trader.md) section under [Order Entry](order_entry.md) section for more information on trading in the chart.

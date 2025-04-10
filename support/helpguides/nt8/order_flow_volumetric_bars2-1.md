@@ -6,7 +6,7 @@ Order Flow Volumetric Bars
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\order_flow_volumetric_bars2.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Order Flow Volumetric Bars | [Previous page](order_flow_cumulative_delta2-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](order_flow_vwap2-1.htm) |
+| << [Click to Display Table of Contents](.\order_flow_volumetric_bars2.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Order Flow Volumetric Bars | [Previous page](order_flow_cumulative_delta2-1.md) [Return to chapter overview](indicators-1.md) [Next page](order_flow_vwap2-1.md) |
 
 Description
 -----------
@@ -49,4 +49,4 @@ Example
 
 |  |
 | --- |
-| Note: Please note in the example above a [CurrentBar](currentbar-1.htm) reference is used as index, and not a BarsAgo reference. |
+| Note: Please note in the example above a [CurrentBar](currentbar-1.md) reference is used as index, and not a BarsAgo reference. |

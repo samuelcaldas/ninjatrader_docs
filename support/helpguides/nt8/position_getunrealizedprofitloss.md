@@ -6,7 +6,7 @@ GetUnrealizedProfitLoss()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](position_getunrealizedprofitloss.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [Position](position.htm) >  GetUnrealizedProfitLoss() | [Previous page](position_averageprice.htm) [Return to chapter overview](position.htm) [Next page](position_instrument.htm) |
+| << [Click to Display Table of Contents](position_getunrealizedprofitloss.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Position](position.md) >  GetUnrealizedProfitLoss() | [Previous page](position_averageprice.md) [Return to chapter overview](position.md) [Next page](position_instrument.md) |
 
 Definition
 ----------

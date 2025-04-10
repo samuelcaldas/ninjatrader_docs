@@ -6,12 +6,12 @@ PartialHolidays
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](partialholidays.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [TradingHours](tradinghours.htm) >  PartialHolidays | [Previous page](tradinghours_name.htm) [Return to chapter overview](tradinghours.htm) [Next page](tradinghours_sessions.htm) |
+| << [Click to Display Table of Contents](partialholidays.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [TradingHours](tradinghours.md) >  PartialHolidays | [Previous page](tradinghours_name.md) [Return to chapter overview](tradinghours.md) [Next page](tradinghours_sessions.md) |
 
 Definition
 ----------
 
-A collection of partial holidays which are configured for a Trading Hours template. Holidays are days which fall outside of the normal trading schedule, on which data will be excluded. For more information please see the "Understanding trading holidays" section of the [Using the Trading Hours](using_the_trading_hours_window.htm) window.
+A collection of partial holidays which are configured for a Trading Hours template. Holidays are days which fall outside of the normal trading schedule, on which data will be excluded. For more information please see the "Understanding trading holidays" section of the [Using the Trading Hours](using_the_trading_hours_window.md) window.
 
 Property Value
 --------------

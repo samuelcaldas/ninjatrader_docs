@@ -6,7 +6,7 @@ Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chartcontrol_properties.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartControl](chartcontrol.htm) >  Properties | [Previous page](presentationsource.htm) [Return to chapter overview](chartcontrol.htm) [Next page](slotspainted.htm) |
+| << [Click to Display Table of Contents](chartcontrol_properties.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  Properties | [Previous page](presentationsource.md) [Return to chapter overview](chartcontrol.md) [Next page](slotspainted.md) |
 
 Definition
 ----------

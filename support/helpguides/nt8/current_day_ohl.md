@@ -6,7 +6,7 @@ Current Day OHL
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](current_day_ohl.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Current Day OHL | [Previous page](correlation.htm) [Return to chapter overview](indicators.htm) [Next page](darvas.htm) |
+| << [Click to Display Table of Contents](current_day_ohl.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Current Day OHL | [Previous page](correlation.md) [Return to chapter overview](indicators.md) [Next page](darvas.md) |
 
 Description
 -----------
@@ -51,7 +51,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 Example
 -------

@@ -6,7 +6,7 @@ Removing draw objects from the chart
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](removing_draw_objects_from_the.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Strategy](strategy2.htm) >  Removing draw objects from the chart | [Previous page](plotting_from_within_a_ninjasc.htm) [Return to chapter overview](strategy2.htm) [Next page](resetting_values_at_the_beginn.htm) |
+| << [Click to Display Table of Contents](removing_draw_objects_from_the.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Strategy](strategy2.md) >  Removing draw objects from the chart | [Previous page](plotting_from_within_a_ninjasc.md) [Return to chapter overview](strategy2.md) [Next page](resetting_values_at_the_beginn.md) |
 
 Drawing objects can be used for a number of different purposes, like keeping track of where a strategy has its entry point, profit target, and stop loss. If a strategy draws an object(s) for every trade it takes, the chart could quickly become cluttered. This sample will show how to remove the objects that aren't necessary anymore.
 
@@ -26,17 +26,17 @@ Key concepts in this example
 Important related documentation
 -------------------------------
 
-•[Draw](drawing.htm)
+•[Draw](drawing.md)
 
-•[Line()](line.htm)
+•[Line()](line.md)
 
-•[RemoveDrawObject()](removedrawobject.htm)
+•[RemoveDrawObject()](removedrawobject.md)
 
-•[RemoveDrawObjects()](removedrawobjects.htm)
+•[RemoveDrawObjects()](removedrawobjects.md)
 
-•[CrossAbove()](crossabove.htm)
+•[CrossAbove()](crossabove.md)
 
-•[CrossBelow()](crossbelow.htm)
+•[CrossBelow()](crossbelow.md)
 
 Import instructions
 -------------------

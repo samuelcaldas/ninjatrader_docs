@@ -6,12 +6,12 @@ AddVolumetric()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](addvolumetric.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [AddDataSeries()](adddataseries.htm) >  AddVolumetric() | [Previous page](addrenko.htm) [Return to chapter overview](adddataseries.htm) [Next page](barsarray.htm) |
+| << [Click to Display Table of Contents](addvolumetric.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [AddDataSeries()](adddataseries.md) >  AddVolumetric() | [Previous page](addrenko.md) [Return to chapter overview](adddataseries.md) [Next page](barsarray.md) |
 
 Definition
 ----------
 
-Similar to the [AddDataSeries()](adddataseries.htm) method for adding Bars objects, this method adds a [Order Flow](order_flow_volumetric_bars.htm) Volumetric Bars object for multi-series NinjaScript.
+Similar to the [AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a [Order Flow](order_flow_volumetric_bars.md) Volumetric Bars object for multi-series NinjaScript.
 
 |  |
 | --- |

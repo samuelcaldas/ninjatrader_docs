@@ -6,7 +6,7 @@ IndicatorBaseConverter Class
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\indicatorbaseconverter.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Indicator](indicator-1.htm) >  IndicatorBaseConverter Class | [Previous page](drawverticalgridlines-1.htm) [Return to chapter overview](indicator-1.htm) [Next page](ischartonly-1.htm) |
+| << [Click to Display Table of Contents](.\indicatorbaseconverter.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Indicator](indicator-1.md) >  IndicatorBaseConverter Class | [Previous page](drawverticalgridlines-1.md) [Return to chapter overview](indicator-1.md) [Next page](ischartonly-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ A custom [TypeConverter](https://msdn.microsoft.com/en-us/library/system.compone
 
 |  |
 | --- |
-| Notes:  •A working NinjaScript demo can be found through the reference sample on "[Using a TypeConverter to Customize Property Grid Behavior](http://ninjatrader.com/support/forum/showthread.php?t=97919)"  •When applying the custom converter, you must fully qualify the name (e.g., "NinjaTrader.NinjaScript.Indicators.MyCustomConveter")  •Additional TypeConverter information can be found from the [MSDN documentation](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx)  •See also [TypeConverterAttribute](typeconverterattribute-1.htm)  •For Strategies, see the [StrategyBaseConverter](strategybaseconverter-1.htm) class |
+| Notes:  •A working NinjaScript demo can be found through the reference sample on "[Using a TypeConverter to Customize Property Grid Behavior](http://ninjatrader.com/support/forum/showthread.php?t=97919)"  •When applying the custom converter, you must fully qualify the name (e.g., "NinjaTrader.NinjaScript.Indicators.MyCustomConveter")  •Additional TypeConverter information can be found from the [MSDN documentation](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx)  •See also [TypeConverterAttribute](typeconverterattribute-1.md)  •For Strategies, see the [StrategyBaseConverter](strategybaseconverter-1.md) class |
 
 Relevant base methods
 ---------------------
@@ -38,7 +38,7 @@ public class IndicatorBaseConverter : TypeConverter
 
 |  |
 | --- |
-| Tip: Common indicator functions like Print() are not available to a type converter instance.  To debug a type converter class, you can use the AddOn [Debug Concepts](alert_and_debug_concepts-1.htm) or [attach to a debugger](visual_studio_debugging-1.htm) (recommended) |
+| Tip: Common indicator functions like Print() are not available to a type converter instance.  To debug a type converter class, you can use the AddOn [Debug Concepts](alert_and_debug_concepts-1.md) or [attach to a debugger](visual_studio_debugging-1.md) (recommended) |
 
 Examples
 --------

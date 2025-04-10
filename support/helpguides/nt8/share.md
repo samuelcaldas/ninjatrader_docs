@@ -6,7 +6,7 @@ Share()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](share.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Alert, Debug, Share](alert__debugging_and_sharing.htm) >  Share() | [Previous page](sendmail.htm) [Return to chapter overview](alert__debugging_and_sharing.htm) [Next page](market_data.htm) |
+| << [Click to Display Table of Contents](share.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Alert, Debug, Share](alert__debugging_and_sharing.md) >  Share() | [Previous page](sendmail.md) [Return to chapter overview](alert__debugging_and_sharing.md) [Next page](market_data.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Sends a message or screen shot to a social network or Share Service.
 
 |  |
 | --- |
-| Notes:  1.This method can only be called once the [State](state.htm) has reached State.Realtime.  Calls to this method in any other State will be silently ignored.  2.You MUST configure an account with a Share Service provider from the [General Options](general_section.htm) |
+| Notes:  1.This method can only be called once the [State](state.md) has reached State.Realtime.  Calls to this method in any other State will be silently ignored.  2.You MUST configure an account with a Share Service provider from the [General Options](general_section.md) |
 
 Method Return Value
 -------------------

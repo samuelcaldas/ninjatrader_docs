@@ -6,12 +6,12 @@ AndrewsPitchfork
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](andrewspitchfork.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) > [Draw.AndrewsPitchfork()](draw_andrewspitchfork.htm) >  AndrewsPitchfork | [Previous page](draw_andrewspitchfork.htm) [Return to chapter overview](draw_andrewspitchfork.htm) [Next page](draw_arc.htm) |
+| << [Click to Display Table of Contents](andrewspitchfork.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.AndrewsPitchfork()](draw_andrewspitchfork.md) >  AndrewsPitchfork | [Previous page](draw_andrewspitchfork.md) [Return to chapter overview](draw_andrewspitchfork.md) [Next page](draw_arc.md) |
 
 Definition
 ----------
 
-Represents an object that exposes information regarding an Andrews Pitchfork [IDrawingTool](idrawingtool.htm).
+Represents an object that exposes information regarding an Andrews Pitchfork [IDrawingTool](idrawingtool.md).
 
  
 
@@ -30,14 +30,14 @@ Methods and Properties
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the end point of the drawing object |
-| ExtensionAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the extension point of the drawing object |
-| [PriceLevels](pricelevels.htm) | A collection of prices calculated by the drawing object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| ExtensionAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the extension point of the drawing object |
+| [PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
 | CalculationMethod | The AndrewsPitchforkCalculationMethod property determining which method is used to calculate the pitchfork.    Possible values are:    •ModifiedSchiff  •Schiff  •StandardPitchfork |
 | IsTextDisplayed | A bool value determining if the draw object should display text on the chart. |
-| RetracementLineStroke | A [Stroke](stroke_class.htm) object used to draw the center retracement line of the object |
-| AnchorLineStroke | A [Stroke](stroke_class.htm) object used to draw the object |
+| RetracementLineStroke | A [Stroke](stroke_class.md) object used to draw the center retracement line of the object |
+| AnchorLineStroke | A [Stroke](stroke_class.md) object used to draw the object |
 
 Example
 -------

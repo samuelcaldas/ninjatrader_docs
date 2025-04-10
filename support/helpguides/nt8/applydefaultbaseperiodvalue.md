@@ -6,12 +6,12 @@ ApplyDefaultBasePeriodValue()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](applydefaultbaseperiodvalue.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  ApplyDefaultBasePeriodValue() | [Previous page](addbar.htm) [Return to chapter overview](bars_type.htm) [Next page](applydefaultvalue.htm) |
+| << [Click to Display Table of Contents](applydefaultbaseperiodvalue.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  ApplyDefaultBasePeriodValue() | [Previous page](addbar.md) [Return to chapter overview](bars_type.md) [Next page](applydefaultvalue.md) |
 
 Definition
 ----------
 
-Sets the default base values used for the [BarsPeriod](barsperiod.htm) selected by the user (e.g., the default PeriodValue, DaysToLoad, etc.) for your custom Bar Type.
+Sets the default base values used for the [BarsPeriod](barsperiod.md) selected by the user (e.g., the default PeriodValue, DaysToLoad, etc.) for your custom Bar Type.
 
 Method Return Value
 -------------------
@@ -23,7 +23,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| period | The [BarsPeriod](barsperiod.htm) chosen by the user when utilizing this Bars type |
+| period | The [BarsPeriod](barsperiod.md) chosen by the user when utilizing this Bars type |
 
 Syntax
 ------

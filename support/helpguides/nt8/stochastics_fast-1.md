@@ -6,7 +6,7 @@ Stochastics Fast
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\stochastics_fast.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Stochastics Fast | [Previous page](stochastics-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](stochastics_rsi_stochrsi-1.htm) |
+| << [Click to Display Table of Contents](.\stochastics_fast.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Stochastics Fast | [Previous page](stochastics-1.md) [Return to chapter overview](indicators-1.md) [Next page](stochastics_rsi_stochrsi-1.md) |
 
 Description
 -----------
@@ -43,7 +43,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | periodD | The period for the moving average of periodD |
 | periodK | The period for the moving average of periodK |
 

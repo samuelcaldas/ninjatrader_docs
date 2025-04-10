@@ -6,7 +6,7 @@ Connection Status
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\status_bar.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Control Center](control_center-1.htm) >  Connection Status | [Previous page](messages-tab-1.htm) [Return to chapter overview](control_center-1.htm) [Next page](database-1.htm) |
+| << [Click to Display Table of Contents](.\status_bar.md) >>  **Navigation:**  [Operations](operations-1.md) > [Control Center](control_center-1.md) >  Connection Status | [Previous page](messages-tab-1.md) [Return to chapter overview](control_center-1.md) [Next page](database-1.md) |
 
 Connection Status
 -----------------
@@ -22,7 +22,7 @@ ControlCenter_Status
 
 |  |
 | --- |
-| Tip:  If you're using [multiple connections](multiple_connections-1.htm), hovering your mouse cursor above the connection status will show a tool tip which will give you the individual status of each connection.  ControlCenter_MultipleConnectionsTip |
+| Tip:  If you're using [multiple connections](multiple_connections-1.md), hovering your mouse cursor above the connection status will show a tool tip which will give you the individual status of each connection.  ControlCenter_MultipleConnectionsTip |
 
 Please see the following connection states:
 

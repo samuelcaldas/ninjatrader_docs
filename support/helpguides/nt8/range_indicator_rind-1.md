@@ -6,7 +6,7 @@ Range Indicator (RIND)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\range_indicator_rind.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Range Indicator (RIND) | [Previous page](range-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](rate_of_change_roc-1.htm) |
+| << [Click to Display Table of Contents](.\range_indicator_rind.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Range Indicator (RIND) | [Previous page](range-1.md) [Return to chapter overview](indicators-1.md) [Next page](rate_of_change_roc-1.md) |
 
 Description
 -----------
@@ -37,7 +37,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | periodQ | The number of bars to include in the calculation for the short term stochastic range lookback |
 | smooth | The number of bars to include for the EMA smoothing of the indicator |
 

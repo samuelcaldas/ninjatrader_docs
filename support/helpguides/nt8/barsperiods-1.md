@@ -6,7 +6,7 @@ BarsPeriods
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\barsperiods.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [AddDataSeries()](adddataseries-1.htm) >  BarsPeriods | [Previous page](barsinprogress-1.htm) [Return to chapter overview](adddataseries-1.htm) [Next page](currentbars-1.htm) |
+| << [Click to Display Table of Contents](.\barsperiods.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [AddDataSeries()](adddataseries-1.md) >  BarsPeriods | [Previous page](barsinprogress-1.md) [Return to chapter overview](adddataseries-1.md) [Next page](currentbars-1.md) |
 
 Definition
 ----------
@@ -16,11 +16,11 @@ Holds an array of BarsPeriod objects synchronized to the number of unique Bars o
 Property Value
 --------------
 
-An array of [BarsPeriod](barsperiod-1.htm) objects.
+An array of [BarsPeriod](barsperiod-1.md) objects.
 
 |  |
 | --- |
-| Warning: This property should NOT be accessed within the [OnStateChange()](onstatechange-1.htm) method before the State has reached State.DataLoaded |
+| Warning: This property should NOT be accessed within the [OnStateChange()](onstatechange-1.md) method before the State has reached State.DataLoaded |
 
 Syntax  
 BarsPeriods[int barSeriesIndex]

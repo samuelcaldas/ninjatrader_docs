@@ -6,21 +6,21 @@ Ray
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](ray.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) > [Draw.Ray()](draw_ray.htm) >  Ray | [Previous page](draw_ray.htm) [Return to chapter overview](draw_ray.htm) [Next page](draw_rectangle.htm) |
+| << [Click to Display Table of Contents](ray.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Ray()](draw_ray.md) >  Ray | [Previous page](draw_ray.md) [Return to chapter overview](draw_ray.md) [Next page](draw_rectangle.md) |
 
 Definition
 ----------
 
-Represents an interface that exposes information regarding a Ray [IDrawingTool](idrawingtool.htm).
+Represents an interface that exposes information regarding a Ray [IDrawingTool](idrawingtool.md).
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the end point of the drawing object |
-| Stroke | A [Stroke](stroke_class.htm) object used to draw the object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| Stroke | A [Stroke](stroke_class.md) object used to draw the object |
 
 Example
 -------

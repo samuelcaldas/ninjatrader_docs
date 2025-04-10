@@ -6,7 +6,7 @@ High
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](high.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [ISeries<T>](iseriest.htm) > [PriceSeries<double>](priceseries.htm) >  High | [Previous page](closes.htm) [Return to chapter overview](priceseries.htm) [Next page](highs.htm) |
+| << [Click to Display Table of Contents](high.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [ISeries<T>](iseriest.md) > [PriceSeries<double>](priceseries.md) >  High | [Previous page](closes.md) [Return to chapter overview](priceseries.md) [Next page](highs.md) |
 
 Definition
 ----------

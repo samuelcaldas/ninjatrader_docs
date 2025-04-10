@@ -6,7 +6,7 @@ MarketPosition
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](position_marketposition.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [Position](position.htm) >  MarketPosition | [Previous page](position_instrument.htm) [Return to chapter overview](position.htm) [Next page](position_quantity.htm) |
+| << [Click to Display Table of Contents](position_marketposition.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Position](position.md) >  MarketPosition | [Previous page](position_instrument.md) [Return to chapter overview](position.md) [Next page](position_quantity.md) |
 
 Definition
 ----------

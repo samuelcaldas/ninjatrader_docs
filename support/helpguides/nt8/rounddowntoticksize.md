@@ -6,7 +6,7 @@ RoundDownToTickSize()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](rounddowntoticksize.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Instruments](instruments_ninjascript.htm) > [Instrument](instrument.htm) > [MasterInstrument](masterinstrument.htm) >  RoundDownToTickSize() | [Previous page](roundtoticksize.htm) [Return to chapter overview](masterinstrument.htm) [Next page](splits.htm) |
+| << [Click to Display Table of Contents](rounddowntoticksize.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > [Instrument](instrument.md) > [MasterInstrument](masterinstrument.md) >  RoundDownToTickSize() | [Previous page](roundtoticksize.md) [Return to chapter overview](masterinstrument.md) [Next page](splits.md) |
 
 Definition
 ----------

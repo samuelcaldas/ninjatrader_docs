@@ -6,7 +6,7 @@ PanelUI
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\panelui.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [Rendering](rendering-1.htm) >  PanelUI | [Previous page](onrendertargetchanged-1.htm) [Return to chapter overview](rendering-1.htm) [Next page](rendertarget-1.htm) |
+| << [Click to Display Table of Contents](.\panelui.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) >  PanelUI | [Previous page](onrendertargetchanged-1.md) [Return to chapter overview](rendering-1.md) [Next page](rendertarget-1.md) |
 
 Definition
 ----------

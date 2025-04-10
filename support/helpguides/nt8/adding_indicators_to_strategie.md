@@ -6,13 +6,13 @@ Adding Indicators to Strategies
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](adding_indicators_to_strategie.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Tips](tips.htm) >  Adding Indicators to Strategies | [Previous page](tips.htm) [Return to chapter overview](tips.htm) [Next page](checking_for_null_references.htm) |
+| << [Click to Display Table of Contents](adding_indicators_to_strategie.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Tips](tips.md) >  Adding Indicators to Strategies | [Previous page](tips.md) [Return to chapter overview](tips.md) [Next page](checking_for_null_references.md) |
 
 When backtesting strategies it can be useful to add the indicators you use for calculations onto the chart to make it easier to check your strategy for accuracy. Instead of doing this step manually every time you run the strategy you can program it to automatically load the indicators for you.
 
 For example:
 
-To add a volume indicator to your charts you need to add this code snippet into the [OnStateChange](onstatechange.htm) section of your code for the State: State.DataLoaded
+To add a volume indicator to your charts you need to add this code snippet into the [OnStateChange](onstatechange.md) section of your code for the State: State.DataLoaded
 
 |  |
 | --- |
@@ -54,4 +54,4 @@ To customize lines you can do it the same way as above.
 | --- |
 | RSI(;  RSI(Brushes.Green; |
 
-Remember, you need to use the [AddChartIndicator()](addchartindicator.htm) method to add your indicator if you wish to use any of the plot / line indicator customization examples.
+Remember, you need to use the [AddChartIndicator()](addchartindicator.md) method to add your indicator if you wish to use any of the plot / line indicator customization examples.

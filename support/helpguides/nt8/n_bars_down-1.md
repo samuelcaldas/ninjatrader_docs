@@ -6,7 +6,7 @@ n Bars Down
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\n_bars_down.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  n Bars Down | [Previous page](net_change_display-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](n_bars_up-1.htm) |
+| << [Click to Display Table of Contents](.\n_bars_down.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  n Bars Down | [Previous page](net_change_display-1.md) [Return to chapter overview](indicators-1.md) [Next page](n_bars_up-1.md) |
 
 Description
 -----------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | barCount | The number of required consecutive lower closes |
 | barDown | Each bar's open must be less than the close; true or false |
 | lowerHigh | Consecutive lower highs required; true or false |

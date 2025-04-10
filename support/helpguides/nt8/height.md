@@ -6,7 +6,7 @@ Height
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](height.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartScale](chartscale.htm) >  Height | [Previous page](getybyvaluewpf.htm) [Return to chapter overview](chartscale.htm) [Next page](chartscale_isvisible.htm) |
+| << [Click to Display Table of Contents](height.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartScale](chartscale.md) >  Height | [Previous page](getybyvaluewpf.md) [Return to chapter overview](chartscale.md) [Next page](chartscale_isvisible.md) |
 
 Definition
 ----------

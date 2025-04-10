@@ -7,7 +7,7 @@ Halting a Strategy Once User Defined Conditions Are Met
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](halting_a_strategy_once_user_d.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Strategy](strategy2.htm) > Halting a Strategy Once User Defined Conditions Are Met | [Previous page](getting_pnl_from_an_atm_strate.htm) [Return to chapter overview](strategy2.htm) [Next page](keeping_orders_alive.htm) |
+| << [Click to Display Table of Contents](halting_a_strategy_once_user_d.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Strategy](strategy2.md) > Halting a Strategy Once User Defined Conditions Are Met | [Previous page](getting_pnl_from_an_atm_strate.md) [Return to chapter overview](strategy2.md) [Next page](keeping_orders_alive.md) |
 
 For error-handling, money-management or any other reason you may want to halt your strategy from processing its' core program logic. Before you halt your strategy, it is best to close all positions and cancel all active orders to prevent the risk of having an unmanaged position in the market. We have provided two reference samples for these topics.
 
@@ -34,19 +34,19 @@ Key concepts in the SampleHaltAdvancedStrategy example\*\*
 Important related documentation
 -------------------------------
 
-•[CancelOrder()](cancel.htm)
+•[CancelOrder()](cancel.md)
 
-•[Order](order.htm)
+•[Order](order.md)
 
-•[SystemPerformance](systemperformance.htm)
+•[SystemPerformance](systemperformance.md)
 
-•[AllTrades\*](alltrades.htm)
+•[AllTrades\*](alltrades.md)
 
-•[TradesPerformance](tradesperformance.htm)
+•[TradesPerformance](tradesperformance.md)
 
-•[OnMarketData()](onmarketdata.htm)
+•[OnMarketData()](onmarketdata.md)
 
-•[OnOrderUpdate()](onorderupdate.htm)
+•[OnOrderUpdate()](onorderupdate.md)
 
 \* This reference sample uses the .AllTrades property. This property will include all historical virtual trades as well as real-time trades. If you wish to only make calculations based on real-time trades you can use the .RealtimeTrades property.
 

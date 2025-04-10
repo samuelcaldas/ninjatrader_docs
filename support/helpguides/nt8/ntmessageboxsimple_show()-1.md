@@ -6,7 +6,7 @@ NTMessageBoxSimple.Show()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\ntmessageboxsimple_show().htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) >  NTMessageBoxSimple.Show() | [Previous page](ntmenuitem-1.htm) [Return to chapter overview](add_on-1.htm) [Next page](ntwindow-1.htm) |
+| << [Click to Display Table of Contents](.\ntmessageboxsimple_show().md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) >  NTMessageBoxSimple.Show() | [Previous page](ntmenuitem-1.md) [Return to chapter overview](add_on-1.md) [Next page](ntwindow-1.md) |
 
 Definition
 ----------

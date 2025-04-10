@@ -6,7 +6,7 @@ Other Uses for an AddOn
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](other_uses_for_an_addon.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [AddOn Development Overview](addon_development_overview.htm) >  Other Uses for an AddOn | [Previous page](creating_your_own_addon_window.htm) [Return to chapter overview](addon_development_overview.htm) [Next page](c_method_functions_reference.htm) |
+| << [Click to Display Table of Contents](other_uses_for_an_addon.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [AddOn Development Overview](addon_development_overview.md) >  Other Uses for an AddOn | [Previous page](creating_your_own_addon_window.md) [Return to chapter overview](addon_development_overview.md) [Next page](c_method_functions_reference.md) |
 
 Modifying Existing NinjaTrader Windows
 --------------------------------------
@@ -48,10 +48,10 @@ From time to time, you may need to access certain global data, such as account v
 
 |  |  |
 | --- | --- |
-| <Account>.[AccountItemUpdate](accountitemupdate.htm) | Triggers on account item updates |
-| <Account>.[ExecutionUpdate](executionupdate.htm) | Triggers on any execution |
-| <Account>.[OrderUpdate](orderupdate.htm) | Triggers on any order state changes |
-| <Account>.[PositionUpdate](positionupdate.htm) | Triggers on any position updates |
+| <Account>.[AccountItemUpdate](accountitemupdate.md) | Triggers on account item updates |
+| <Account>.[ExecutionUpdate](executionupdate.md) | Triggers on any execution |
+| <Account>.[OrderUpdate](orderupdate.md) | Triggers on any order state changes |
+| <Account>.[PositionUpdate](positionupdate.md) | Triggers on any position updates |
 
 | ns |
 | --- |

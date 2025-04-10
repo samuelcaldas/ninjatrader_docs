@@ -6,7 +6,7 @@ CreateAnchor()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\createanchor.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) >  CreateAnchor() | [Previous page](converttoverticalpixels-1.htm) [Return to chapter overview](drawing_tools-1.htm) [Next page](displayonchartsmenus-1.htm) |
+| << [Click to Display Table of Contents](.\createanchor.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) >  CreateAnchor() | [Previous page](converttoverticalpixels-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](displayonchartsmenus-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Used to create a new chart anchor at a specified mouse point.
 Method Return Value
 -------------------
 
-A new [ChartAnchor](chartanchor-1.htm) at a specified point in device pixels.
+A new [ChartAnchor](chartanchor-1.md) at a specified point in device pixels.
 
 Syntax
 ------

@@ -6,7 +6,7 @@ Risk Disclosures
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\risk_disclosures.htm) >>  **Navigation:**  »No topics above this level«  Risk Disclosures | [Previous page](8_0_1_0-1.htm) [Return to chapter overview](welcome-1.htm) [Next page](risks_of_electronic_trading_wi-1.htm) |
+| << [Click to Display Table of Contents](.\risk_disclosures.md) >>  **Navigation:**  »No topics above this level«  Risk Disclosures | [Previous page](8_0_1_0-1.md) [Return to chapter overview](welcome-1.md) [Next page](risks_of_electronic_trading_wi-1.md) |
 
 Futures, foreign currency and options trading contains substantial risk and is not for every investor. An investor could potentially lose all or more than the initial investment. Risk capital is money that can be lost without jeopardizing ones financial security or lifestyle. Only risk capital should be used for trading and only those with sufficient risk capital should consider trading. Past performance is not necessarily indicative of future results.
 

@@ -6,7 +6,7 @@ Update()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](update.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [OnBarUpdate()](onbarupdate.htm) >  Update() | [Previous page](istickreplays.htm) [Return to chapter overview](onbarupdate.htm) [Next page](onconnectionstatusupdate.htm) |
+| << [Click to Display Table of Contents](update.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnBarUpdate()](onbarupdate.md) >  Update() | [Previous page](istickreplays.md) [Return to chapter overview](onbarupdate.md) [Next page](onconnectionstatusupdate.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Forces the OnBarUpdate() method to be called for all data series so that indicat
 
 |  |
 | --- |
-| Notes:  •This method is only relevant in specific use cases and should only used by advanced programmers  •The additional overload where a bar index and [BarsInProgress](barsinprogress.htm) are specified should only be used when an indicator needs to be updated to a bar index that is not the [CurrentBar](currentbar.htm) index. For example, updating an indicator's secondary 1 tick data series to indicator.BarsArray[1].Count - 1, which is not the [CurrentBar](currentbar.htm) index. This is required for the proper function of [Order Flow Cumulative Delta](order_flow_cumulative_delta2.htm) and [Order Flow VWAP](order_flow_vwap2.htm) |
+| Notes:  •This method is only relevant in specific use cases and should only used by advanced programmers  •The additional overload where a bar index and [BarsInProgress](barsinprogress.md) are specified should only be used when an indicator needs to be updated to a bar index that is not the [CurrentBar](currentbar.md) index. For example, updating an indicator's secondary 1 tick data series to indicator.BarsArray[1].Count - 1, which is not the [CurrentBar](currentbar.md) index. This is required for the proper function of [Order Flow Cumulative Delta](order_flow_cumulative_delta2.md) and [Order Flow VWAP](order_flow_vwap2.md) |
 
 When indicators are embedded (called) within a NinjaScript strategy, they are optimized to calculate only when they are called upon in a historical backtest. Since the NinjaTrader indicator model is very flexible, it is possible to create public properties on a custom indicator that return values of internal user defined variables. If these properties require that the OnBarUpdate() method is called before returning a value, include a call to this Update() method in the property getter.
 
@@ -34,7 +34,7 @@ Parameters
 |  |  |
 | --- | --- |
 | idx | The current bar index value to update to |
-| bip | The [BarsInProgress](barsinprogress.htm) to update |
+| bip | The [BarsInProgress](barsinprogress.md) to update |
 
 Examples
 --------

@@ -6,18 +6,18 @@ Alert()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\alert.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Alert, Debug, Share](alert__debugging_and_sharing-1.htm) >  Alert() | [Previous page](alert__debugging_and_sharing-1.htm) [Return to chapter overview](alert__debugging_and_sharing-1.htm) [Next page](clearoutputwindow-1.htm) |
+| << [Click to Display Table of Contents](.\alert.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Alert, Debug, Share](alert__debugging_and_sharing-1.md) >  Alert() | [Previous page](alert__debugging_and_sharing-1.md) [Return to chapter overview](alert__debugging_and_sharing-1.md) [Next page](clearoutputwindow-1.md) |
 
 Definition
 ----------
 
-Generates a visual/audible alert to display in the [Alerts Log](alerts_log-1.htm) window.
+Generates a visual/audible alert to display in the [Alerts Log](alerts_log-1.md) window.
 
  
 
 |  |
 | --- |
-| Notes:  1. This method can only be called once the [State](state-1.htm) has reached State.Realtime.  Calls to this method in any other State will be silently ignored.  2. For add-ons, please see the [AlertCallback()](alertcallback-1.htm) method |
+| Notes:  1. This method can only be called once the [State](state-1.md) has reached State.Realtime.  Calls to this method in any other State will be silently ignored.  2. For add-ons, please see the [AlertCallback()](alertcallback-1.md) method |
 
 Method Return Value
 -------------------

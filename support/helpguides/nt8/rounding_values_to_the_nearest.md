@@ -6,7 +6,7 @@ Rounding values to the nearest tick size
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](rounding_values_to_the_nearest.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Strategy](strategy2.htm) >  Rounding values to the nearest tick size | [Previous page](resetting_values_at_the_beginn.htm) [Return to chapter overview](strategy2.htm) [Next page](scaling_out_of_a_position.htm) |
+| << [Click to Display Table of Contents](rounding_values_to_the_nearest.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Strategy](strategy2.md) >  Rounding values to the nearest tick size | [Previous page](resetting_values_at_the_beginn.md) [Return to chapter overview](strategy2.md) [Next page](scaling_out_of_a_position.md) |
 
 When NinjaTrader receives a request to submit an order, it automatically rounds any limit price or stop price to the nearest tick for that specific instrument.
 
@@ -20,15 +20,15 @@ Key concepts in this example
 Important related documentation
 -------------------------------
 
-•[RoundToTickSize()](roundtoticksize.htm)
+•[RoundToTickSize()](roundtoticksize.md)
 
-•[EnterLongLimit()](enterlonglimit.htm)
+•[EnterLongLimit()](enterlonglimit.md)
 
-•[ExitLong()](exitlong.htm)
+•[ExitLong()](exitlong.md)
 
-•[CrossAbove()](crossabove.htm)
+•[CrossAbove()](crossabove.md)
 
-•[CrossBelow()](crossbelow.htm)
+•[CrossBelow()](crossbelow.md)
 
 Import instructions
 -------------------

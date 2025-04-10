@@ -6,7 +6,7 @@ Manipulating DateTime objects
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](manipulating_datetime_objects.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Indicator](indicator2.htm) >  Manipulating DateTime objects | [Previous page](getting_indicator_values_from_.htm) [Return to chapter overview](indicator2.htm) [Next page](manipulating_string_objects.htm) |
+| << [Click to Display Table of Contents](manipulating_datetime_objects.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Manipulating DateTime objects | [Previous page](getting_indicator_values_from_.md) [Return to chapter overview](indicator2.md) [Next page](manipulating_string_objects.md) |
 
 An essential element of any trader's strategies or indicators is time. You may find yourself wanting a high and low marker for a certain timeframe or you might want something drawn on your charts during those choppy lunch hours. DateTime objects are included in the .NET framework, and they can be used to do any time related action, like limiting trading hours or finding the highest high between 9:30AM and 10:30AM.
 

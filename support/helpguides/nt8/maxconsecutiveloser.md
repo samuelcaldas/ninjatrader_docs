@@ -6,7 +6,7 @@ MaxConsecutiveLoser
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](maxconsecutiveloser.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  MaxConsecutiveLoser | [Previous page](longestflatperiod.htm) [Return to chapter overview](tradesperformance.htm) [Next page](maxconsecutivewinner.htm) |
+| << [Click to Display Table of Contents](maxconsecutiveloser.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  MaxConsecutiveLoser | [Previous page](longestflatperiod.md) [Return to chapter overview](tradesperformance.md) [Next page](maxconsecutivewinner.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ OnMarketDepth()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\onmarketdepth.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) >  OnMarketDepth() | [Previous page](marketdataeventargs-1.htm) [Return to chapter overview](common-1.htm) [Next page](marketdeptheventargs-1.htm) |
+| << [Click to Display Table of Contents](.\onmarketdepth.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) >  OnMarketDepth() | [Previous page](marketdataeventargs-1.md) [Return to chapter overview](common-1.md) [Next page](marketdeptheventargs-1.md) |
 
 Definition
 ----------
@@ -45,7 +45,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| marketDepthUpdate | [MarketDepthEventArgs](marketdeptheventargs-1.htm) representing the recent change in market data |
+| marketDepthUpdate | [MarketDepthEventArgs](marketdeptheventargs-1.md) representing the recent change in market data |
 
 Examples
 --------
@@ -58,4 +58,4 @@ Examples
 
 |  |
 | --- |
-| Tips  1.With [multi-time frame and instrument strategies](multi-time_frame__instruments-1.htm), OnMarketDepth will be called for all unique instruments in your strategy. Use the [BarsInProgress](barsinprogress-1.htm) to filter the OnMarketDepth() method for a specific instrument. (BarsInProgress will return the first BarsInProgress series that matches the instrument for the event)  2.Do not leave an unused OnMarketDepth() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your strategy which uses unnecessary CPU cycles.  3.Should you wish to run comparisons against prior values you will need to store and update local variables to track the relevant values.  4.With NinjaTrader being multi-threaded, you should not rely on any particular sequence of events like OnMarketDepth() always being called before OnMarketData() or vice versa. |
+| Tips  1.With [multi-time frame and instrument strategies](multi-time_frame__instruments-1.md), OnMarketDepth will be called for all unique instruments in your strategy. Use the [BarsInProgress](barsinprogress-1.md) to filter the OnMarketDepth() method for a specific instrument. (BarsInProgress will return the first BarsInProgress series that matches the instrument for the event)  2.Do not leave an unused OnMarketDepth() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your strategy which uses unnecessary CPU cycles.  3.Should you wish to run comparisons against prior values you will need to store and update local variables to track the relevant values.  4.With NinjaTrader being multi-threaded, you should not rely on any particular sequence of events like OnMarketDepth() always being called before OnMarketData() or vice versa. |

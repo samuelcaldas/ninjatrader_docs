@@ -6,7 +6,7 @@ Adding Splits and Dividends
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\adding_splits_and_dividends.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Instruments](instruments-1.htm) >  Adding Splits and Dividends | [Previous page](rolling_over_a_futures_contrac-1.htm) [Return to chapter overview](instruments-1.htm) [Next page](tradestation_symbol_mapping-1.htm) |
+| << [Click to Display Table of Contents](.\adding_splits_and_dividends.md) >>  **Navigation:**  [Operations](operations-1.md) > [Instruments](instruments-1.md) >  Adding Splits and Dividends | [Previous page](rolling_over_a_futures_contrac-1.md) [Return to chapter overview](instruments-1.md) [Next page](tradestation_symbol_mapping-1.md) |
 
 You can automatically update an instrument with historical split adjustment data from within the Instrument window. You can choose to update split information from the following connections:
 

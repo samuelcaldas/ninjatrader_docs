@@ -6,11 +6,11 @@ Add On
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\add_on.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) >  Add On | [Previous page](triggercustomevent-1.htm) [Return to chapter overview](language_reference_wip-1.htm) [Next page](controls-1.htm) |
+| << [Click to Display Table of Contents](.\add_on.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) >  Add On | [Previous page](triggercustomevent-1.md) [Return to chapter overview](language_reference_wip-1.md) [Next page](controls-1.md) |
 
 Custom Add Ons can be used to extend NinjaTrader's functionality. The methods and properties covered in this section are unique to custom Add On development.
 
-For more information on the Add On development process please see [this](developing_add_ons-1.htm) article.
+For more information on the Add On development process please see [this](developing_add_ons-1.md) article.
 
 |  |  |
 | --- | --- |

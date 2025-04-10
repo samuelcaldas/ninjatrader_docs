@@ -6,32 +6,32 @@ ISeries<T>
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](iseriest.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) >  ISeries<T> | [Previous page](url.htm) [Return to chapter overview](common.htm) [Next page](seriest.htm) |
+| << [Click to Display Table of Contents](iseriest.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) >  ISeries<T> | [Previous page](url.md) [Return to chapter overview](common.md) [Next page](seriest.md) |
 
 Definition
 ----------
 
-ISeries<T> is an interface that is implemented by all NinjaScript classes that manage historical data as an ISeries<double> (Open, High, Low, Close, etc), used for indicator input, and other object data.  Please see the help guide article on [Working with Price Series](working_with_price_series.htm) for a basic overview on how to access this information.
+ISeries<T> is an interface that is implemented by all NinjaScript classes that manage historical data as an ISeries<double> (Open, High, Low, Close, etc), used for indicator input, and other object data.  Please see the help guide article on [Working with Price Series](working_with_price_series.md) for a basic overview on how to access this information.
 
 Types of ISeries
 ----------------
 
 |  |  |
 | --- | --- |
-| [Series<T>](seriest.htm) | Represents a generic custom data structure for custom development |
-| [PriceSeries](priceseries.htm) | Historical price data structured as an ISeries<double> interface (Close[0], High[0], Low[0], etc) |
-| [TimeSeries](timeseries.htm) | Historical time stamps structured as an ISeries<DateTime> interface (Time[0]) |
-| [VolumeSeries](volumeseries.htm) | Historical volume data structured as an ISeries<double> interface (Volume[0]) |
+| [Series<T>](seriest.md) | Represents a generic custom data structure for custom development |
+| [PriceSeries](priceseries.md) | Historical price data structured as an ISeries<double> interface (Close[0], High[0], Low[0], etc) |
+| [TimeSeries](timeseries.md) | Historical time stamps structured as an ISeries<DateTime> interface (Time[0]) |
+| [VolumeSeries](volumeseries.md) | Historical volume data structured as an ISeries<double> interface (Volume[0]) |
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| [GetValueAt()](getvalueat.htm) | Returns the underlying input value at a specified bar index value. |
-| [IsValidDataPoint()](isvaliddatapoint.htm) | Indicates if the specified input is set at a barsAgo value relative to the current bar. |
-| [IsValidDataPointAt()](isvaliddatapointat.htm) | Indicates if the specified input is set at a specified bar index value. |
-| [Count](iseries_count.htm) | Return the number total number of values in the ISeries array |
+| [GetValueAt()](getvalueat.md) | Returns the underlying input value at a specified bar index value. |
+| [IsValidDataPoint()](isvaliddatapoint.md) | Indicates if the specified input is set at a barsAgo value relative to the current bar. |
+| [IsValidDataPointAt()](isvaliddatapointat.md) | Indicates if the specified input is set at a specified bar index value. |
+| [Count](iseries_count.md) | Return the number total number of values in the ISeries array |
 
 |  |
 | --- |

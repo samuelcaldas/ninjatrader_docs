@@ -6,7 +6,7 @@ GetTrades()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](gettrades.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) >  GetTrades() | [Previous page](eventrades.htm) [Return to chapter overview](tradecollection.htm) [Next page](losingtrades.htm) |
+| << [Click to Display Table of Contents](gettrades.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) >  GetTrades() | [Previous page](eventrades.md) [Return to chapter overview](tradecollection.md) [Next page](losingtrades.md) |
 
 Definition
 ----------

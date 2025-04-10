@@ -6,7 +6,7 @@ Draw.ArrowDown()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\draw_arrowdown.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  Draw.ArrowDown() | [Previous page](arc-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](arrowdown-1.htm) |
+| << [Click to Display Table of Contents](.\draw_arrowdown.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  Draw.ArrowDown() | [Previous page](arc-1.md) [Return to chapter overview](drawing-1.md) [Next page](arrowdown-1.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws an arrow pointing down.
 Method Return Value
 -------------------
 
-An [ArrowDown](arrowdown-1.htm) object that represents the draw object.
+An [ArrowDown](arrowdown-1.md) object that represents the draw object.
 
 Syntax
 ------

@@ -6,7 +6,7 @@ Using trade performance statistics for money management
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using_trade_performance_statis.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Strategy](strategy2.htm) >  Using trade performance statistics for money management | [Previous page](using_isrising_and_isfalling_c.htm) [Return to chapter overview](strategy2.htm) [Next page](tips.htm) |
+| << [Click to Display Table of Contents](using_trade_performance_statis.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Strategy](strategy2.md) >  Using trade performance statistics for money management | [Previous page](using_isrising_and_isfalling_c.md) [Return to chapter overview](strategy2.md) [Next page](tips.md) |
 
 For money management reasons you may want to limit your strategy from aggressive daytrading or you may want to cut your losses short on volatile sessions that are not playing out in your favor. This can be done through the utilization of the Performance object.
 
@@ -22,11 +22,11 @@ Key concepts in this example
 Important related documentation
 -------------------------------
 
-•[SystemPerformance](systemperformance.htm)
+•[SystemPerformance](systemperformance.md)
 
-•[TradeCollection](tradecollection.htm)
+•[TradeCollection](tradecollection.md)
 
-•[AllTrades\*](alltrades.htm)
+•[AllTrades\*](alltrades.md)
 
 \* This reference sample uses the .AllTrades property. This property will include all historical virtual trades as well as real-time trades. If you wish to only make calculations based on real-time trades you can use the .RealtimeTrades property.
 

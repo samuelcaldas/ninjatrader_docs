@@ -6,7 +6,7 @@ Using the Alerts Log Window
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\using_the_alerts_log_window.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Alerts Log](alerts_log-1.htm) >  Using the Alerts Log Window | [Previous page](alerts_log-1.htm) [Return to chapter overview](alerts_log-1.htm) [Next page](alerts_log_properties-1.htm) |
+| << [Click to Display Table of Contents](.\using_the_alerts_log_window.md) >>  **Navigation:**  [Operations](operations-1.md) > [Alerts Log](alerts_log-1.md) >  Using the Alerts Log Window | [Previous page](alerts_log-1.md) [Return to chapter overview](alerts_log-1.md) [Next page](alerts_log_properties-1.md) |
 
 The Alerts Log window displays information for each alert that is triggered within NinjaTrader.
 

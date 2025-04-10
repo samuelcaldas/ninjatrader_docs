@@ -6,7 +6,7 @@ Draw.ArrowUp()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_arrowup.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.ArrowUp() | [Previous page](arrowline.htm) [Return to chapter overview](drawing.htm) [Next page](arrowup.htm) |
+| << [Click to Display Table of Contents](draw_arrowup.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.ArrowUp() | [Previous page](arrowline.md) [Return to chapter overview](drawing.md) [Next page](arrowup.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws an arrow pointing up.
 Method Return Value
 -------------------
 
-An [ArrowUp](arrowup.htm) object that represents the draw object.
+An [ArrowUp](arrowup.md) object that represents the draw object.
 
 Syntax
 ------

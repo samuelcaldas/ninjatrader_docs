@@ -6,7 +6,7 @@ Adaptive Price Zone (APZ)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\adaptive_price_zone_apz.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Adaptive Price Zone (APZ) | [Previous page](accumulation_distribution_adl-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](aroon-1.htm) |
+| << [Click to Display Table of Contents](.\adaptive_price_zone_apz.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Adaptive Price Zone (APZ) | [Previous page](accumulation_distribution_adl-1.md) [Return to chapter overview](indicators-1.md) [Next page](aroon-1.md) |
 
 Description
 -----------

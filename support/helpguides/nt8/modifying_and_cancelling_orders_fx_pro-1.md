@@ -6,7 +6,7 @@ Modifying and Cancelling Orders
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\modifying_and_cancelling_orders_fx_pro.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Order Entry](order_entry-1.htm) > [FX Pro](fx_pro-1.htm) >  Modifying and Cancelling Orders | [Previous page](submitting_orders_fx_pro-1.htm) [Return to chapter overview](fx_pro-1.htm) [Next page](managing_positions_fx_pro-1.htm) |
+| << [Click to Display Table of Contents](.\modifying_and_cancelling_orders_fx_pro.md) >>  **Navigation:**  [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [FX Pro](fx_pro-1.md) >  Modifying and Cancelling Orders | [Previous page](submitting_orders_fx_pro-1.md) [Return to chapter overview](fx_pro-1.md) [Next page](managing_positions_fx_pro-1.md) |
 
 You can modify an existing order's quantity, price, or cancel an order entirely from Order Grid display of the FX Pro window.
 

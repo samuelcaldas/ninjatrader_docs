@@ -6,7 +6,7 @@ IntervalSelector
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\intervalselector.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) > [NinjaTrader Controls](controls-1.htm) >  IntervalSelector | [Previous page](instrumentselector-1.htm) [Return to chapter overview](controls-1.htm) [Next page](tifselector-1.htm) |
+| << [Click to Display Table of Contents](.\intervalselector.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [NinjaTrader Controls](controls-1.md) >  IntervalSelector | [Previous page](instrumentselector-1.md) [Return to chapter overview](controls-1.md) [Next page](tifselector-1.md) |
 
 Definition
 ----------
@@ -18,7 +18,7 @@ Events and Properties
 
 |  |  |
 | --- | --- |
-| Cleanup() | Disposes of the IntervalSelector (Note: calling the [NTTabPage base.Cleanup()](nttabpage_cleanup-1.htm) is sufficient to clean up this control) |
+| Cleanup() | Disposes of the IntervalSelector (Note: calling the [NTTabPage base.Cleanup()](nttabpage_cleanup-1.md) is sufficient to clean up this control) |
 | Interval | A BarsPeriod representing the interval currently selected |
 | IntervalChanged | Event handler for when the interval changed |
 

@@ -6,7 +6,7 @@ Dynamic Momentum Index (DMIndex)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](dynamic_momentum_index_dmindex.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Dynamic Momentum Index (DMIndex) | [Previous page](double_stochastics.htm) [Return to chapter overview](indicators.htm) [Next page](ease_of_movement.htm) |
+| << [Click to Display Table of Contents](dynamic_momentum_index_dmindex.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Dynamic Momentum Index (DMIndex) | [Previous page](double_stochastics.md) [Return to chapter overview](indicators.md) [Next page](ease_of_movement.md) |
 
 Description
 -----------
@@ -37,7 +37,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | smooth | The number of bars to include in the calculation |
 
 Example

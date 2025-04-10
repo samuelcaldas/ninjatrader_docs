@@ -6,7 +6,7 @@ Manipulating string objects
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](manipulating_string_objects.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Indicator](indicator2.htm) >  Manipulating string objects | [Previous page](manipulating_datetime_objects.htm) [Return to chapter overview](indicator2.htm) [Next page](multi-colored_plots.htm) |
+| << [Click to Display Table of Contents](manipulating_string_objects.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Manipulating string objects | [Previous page](manipulating_datetime_objects.md) [Return to chapter overview](indicator2.md) [Next page](multi-colored_plots.md) |
 
 Dealing with strings and other related concepts are essential to many computer programs. This sample is a collection of some of the most common string and text related functions including splitting a string, replacing a string with another string, and a few other string functions.
 
@@ -34,13 +34,13 @@ C#
 
 NinjaTrader
 
-•[ClearOutputWindow()](http://www.ninjatrader.com/support/helpGuides/nt8/en-us/clearoutputwindow.htm?zoom_highlightsub=ClearOutputWindow)
+•[ClearOutputWindow()](http://www.ninjatrader.com/support/helpGuides/nt8/en-us/clearoutputwindow.md?zoom_highlightsub=ClearOutputWindow)
 
  
 
 |  |
 | --- |
-| Note: A related sample demonstrating how to format numbers can be found [here](formatting_numbers.htm). |
+| Note: A related sample demonstrating how to format numbers can be found [here](formatting_numbers.md). |
 
 Import instructions
 -------------------

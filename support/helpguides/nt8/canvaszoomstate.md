@@ -6,7 +6,7 @@ CanvasZoomState
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](canvaszoomstate.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartControl](chartcontrol.htm) >  CanvasZoomState | [Previous page](canvasright.htm) [Return to chapter overview](chartcontrol.htm) [Next page](chartpanels.htm) |
+| << [Click to Display Table of Contents](canvaszoomstate.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  CanvasZoomState | [Previous page](canvasright.md) [Return to chapter overview](chartcontrol.md) [Next page](chartpanels.md) |
 
 Definition
 ----------

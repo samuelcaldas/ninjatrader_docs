@@ -6,11 +6,11 @@ ATM Strategy Selection Mode
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](atm_strategy_selection_mode.htm) >>  **Navigation:**  [Operations](operations.htm) > [Advanced Trade Management (ATM)](advanced_trade_management_atm.htm) > [ATM Strategy](atm_strategy.htm) >  ATM Strategy Selection Mode | [Previous page](atm_strategy_parameters.htm) [Return to chapter overview](atm_strategy.htm) [Next page](stop_strategy.htm) |
+| << [Click to Display Table of Contents](atm_strategy_selection_mode.md) >>  **Navigation:**  [Operations](operations.md) > [Advanced Trade Management (ATM)](advanced_trade_management_atm.md) > [ATM Strategy](atm_strategy.md) >  ATM Strategy Selection Mode | [Previous page](atm_strategy_parameters.md) [Return to chapter overview](atm_strategy.md) [Next page](stop_strategy.md) |
 
 Most of the NinjaTrader order entry screens have three modes that you can set to determine the behavior of the ATM Strategy selection control list upon submission of an order that enters the market/initiates an ATM Strategy. You can set this mode via the order entry screen's Properties dialog window that is accessible via the right mouse click context menu.
 
-Before reviewing this section you should have a thorough understanding of how the strategy control list determines what actions (if any) to take when a submitted order is filled. Please review the video and content in the preceding page [ATM Strategy Parameters](atm_strategy_parameters.htm).
+Before reviewing this section you should have a thorough understanding of how the strategy control list determines what actions (if any) to take when a submitted order is filled. Please review the video and content in the preceding page [ATM Strategy Parameters](atm_strategy_parameters.md).
 
 |  |
 | --- |

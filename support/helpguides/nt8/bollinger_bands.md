@@ -6,7 +6,7 @@ Bollinger Bands
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](bollinger_bands.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Bollinger Bands | [Previous page](block_volume.htm) [Return to chapter overview](indicators.htm) [Next page](buysellpressure.htm) |
+| << [Click to Display Table of Contents](bollinger_bands.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Bollinger Bands | [Previous page](block_volume.md) [Return to chapter overview](indicators.md) [Next page](buysellpressure.md) |
 
 Description
 -----------
@@ -21,7 +21,7 @@ Developed by John Bollinger, Bollinger Bands are an indicator that allows users 
 
 Standard deviation is a statistical unit of measure that provides a good assessment of a price plot's volatility. Using the standard deviation ensures that the bands will react quickly to price movements and reflect periods of high and low volatility. Sharp price increases (or decreases), and hence volatility, will lead to a widening of the bands.
 
-... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_Bbands.html)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_Bbands.md)
 
 Syntax
 ------
@@ -51,7 +51,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

@@ -6,7 +6,7 @@ Strategy Analyzer Layout
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](strategy_analyzer_layout.htm) >>  **Navigation:**  [Operations](operations.htm) > [Strategy Analyzer](strategy_analyzer.htm) >  Strategy Analyzer Layout | [Previous page](strategy_analyzer.htm) [Return to chapter overview](strategy_analyzer.htm) [Next page](backtest_a_strategy.htm) |
+| << [Click to Display Table of Contents](strategy_analyzer_layout.md) >>  **Navigation:**  [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) >  Strategy Analyzer Layout | [Previous page](strategy_analyzer.md) [Return to chapter overview](strategy_analyzer.md) [Next page](backtest_a_strategy.md) |
 
 |  |
 | --- |
@@ -22,7 +22,7 @@ The Strategy Analyzer window contains the following items:
 
 2. The Settings panel sets the parameters to be used for the strategy backtest.
 
-3. Where [Performance results](performance_displays.htm) are displayed based on the display selection.
+3. Where [Performance results](performance_displays.md) are displayed based on the display selection.
 
 ![StrategyAnalyzer_Layout1](strategyanalyzer_layout1.png)
 

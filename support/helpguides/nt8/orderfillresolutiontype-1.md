@@ -6,7 +6,7 @@ OrderFillResolutionType
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\orderfillresolutiontype.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  OrderFillResolutionType | [Previous page](orderfillresolution-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](orderfillresolutionvalue-1.htm) |
+| << [Click to Display Table of Contents](.\orderfillresolutiontype.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  OrderFillResolutionType | [Previous page](orderfillresolution-1.md) [Return to chapter overview](strategy-1.md) [Next page](orderfillresolutionvalue-1.md) |
 
 Definition
 ----------
@@ -15,12 +15,12 @@ Determines the bars type which will be used for historical fill processing.
 
 |  |
 | --- |
-| Note: This property will only be valid if the [OrderFillResolution](orderfillresolution-1.htm) is set to OrderFillResolution.High |
+| Note: This property will only be valid if the [OrderFillResolution](orderfillresolution-1.md) is set to OrderFillResolution.High |
 
 Property Value
 --------------
 
-A [BarsPeriodType](barsperiod-1.htm) representing the type of bars during historical order processing.  Default value is set to BarsPeriodType.Minute.
+A [BarsPeriodType](barsperiod-1.md) representing the type of bars during historical order processing.  Default value is set to BarsPeriodType.Minute.
 
 Syntax 
 OrderFillResolutionType
@@ -28,7 +28,7 @@ OrderFillResolutionType
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.htm) method during State.SetDefaults |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.md) method during State.SetDefaults |
 
 Examples
 --------

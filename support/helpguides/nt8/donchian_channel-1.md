@@ -6,7 +6,7 @@ Donchian Channel
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\donchian_channel.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Donchian Channel | [Previous page](disparity_index-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](double_stochastics-1.htm) |
+| << [Click to Display Table of Contents](.\donchian_channel.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Donchian Channel | [Previous page](disparity_index-1.md) [Return to chapter overview](indicators-1.md) [Next page](double_stochastics-1.md) |
 
 Description
 -----------
@@ -47,7 +47,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

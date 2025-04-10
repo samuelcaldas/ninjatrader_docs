@@ -6,7 +6,7 @@ GetCurrentAskVolume()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getcurrentaskvolume.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  GetCurrentAskVolume() | [Previous page](getcurrentask.htm) [Return to chapter overview](market_data.htm) [Next page](getcurrentbid.htm) |
+| << [Click to Display Table of Contents](getcurrentaskvolume.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  GetCurrentAskVolume() | [Previous page](getcurrentask.md) [Return to chapter overview](market_data.md) [Next page](getcurrentbid.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Returns the current real-time ask volume.
 
 |  |
 | --- |
-| Notes:  1. When accessed during State.Historical, the [Volume](volume.htm) of the evaluated bar series is substituted.  To access historical Ask Volumes, please see [Developing for Tick Replay](developing_for__tick_replay.htm).  2. The GetCurrentAskVolume() method runs on the bar series currently updating determined by the [BarsInProgress](barsinprogress.htm) property.  For [multi-instrument](multi-time_frame__instruments.htm) scripts, an additional int "barsSeriesIndex" parameter can be supplied which forces the method to run on an supplementary bar series. |
+| Notes:  1. When accessed during State.Historical, the [Volume](volume.md) of the evaluated bar series is substituted.  To access historical Ask Volumes, please see [Developing for Tick Replay](developing_for__tick_replay.md).  2. The GetCurrentAskVolume() method runs on the bar series currently updating determined by the [BarsInProgress](barsinprogress.md) property.  For [multi-instrument](multi-time_frame__instruments.md) scripts, an additional int "barsSeriesIndex" parameter can be supplied which forces the method to run on an supplementary bar series. |
 
 Method Return Value
 -------------------

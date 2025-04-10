@@ -6,7 +6,7 @@ Historical Order Backfill Logic
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\historical_order_backfill_logic.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) >  Historical Order Backfill Logic | [Previous page](working_with_accounts-1.htm) [Return to chapter overview](educational_resources-1.htm) [Next page](multi-threading-1.htm) |
+| << [Click to Display Table of Contents](.\historical_order_backfill_logic.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) >  Historical Order Backfill Logic | [Previous page](working_with_accounts-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](multi-threading-1.md) |
 
 Understanding How Orders are backfilled for NinjaScript strategies
 ------------------------------------------------------------------
@@ -41,7 +41,7 @@ Step 1 - Prepare to Calculate Fill Prices
 
 4.Determine the strategy being run
 
-5.Determine the [Bars In Progress](barsinprogress-1.htm) the strategy is currently processing
+5.Determine the [Bars In Progress](barsinprogress-1.md) the strategy is currently processing
 
  
 

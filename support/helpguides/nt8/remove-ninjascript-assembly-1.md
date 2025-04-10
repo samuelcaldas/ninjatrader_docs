@@ -6,7 +6,7 @@ Remove NinjaScript Assembly
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\remove-ninjascript-assembly.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Distribution](distribution-1.htm) >  Remove NinjaScript Assembly | [Previous page](export-1.htm) [Return to chapter overview](distribution-1.htm) [Next page](export_problems-1.htm) |
+| << [Click to Display Table of Contents](.\remove-ninjascript-assembly.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Distribution](distribution-1.md) >  Remove NinjaScript Assembly | [Previous page](export-1.md) [Return to chapter overview](distribution-1.md) [Next page](export_problems-1.md) |
 
 This will allow you to remove installed NinjaScript assembly files.
 

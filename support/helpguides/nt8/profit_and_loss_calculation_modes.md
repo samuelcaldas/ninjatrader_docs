@@ -6,7 +6,7 @@ Profit and Loss Calculation Modes
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](profit_and_loss_calculation_modes.htm) >>  **Navigation:**  [Operations](operations.htm) > [Trade Performance](trade_performance.htm) >  Profit and Loss Calculation Modes | [Previous page](statistics_definitions.htm) [Return to chapter overview](trade_performance.htm) [Next page](trade_performance_properties.htm) |
+| << [Click to Display Table of Contents](profit_and_loss_calculation_modes.md) >>  **Navigation:**  [Operations](operations.md) > [Trade Performance](trade_performance.md) >  Profit and Loss Calculation Modes | [Previous page](statistics_definitions.md) [Return to chapter overview](trade_performance.md) [Next page](trade_performance_properties.md) |
 
 Trade Performance statistics are based on core PnL calculations, which differ for each selected Display Units (currency, percent, points, pips or ticks) calculation mode. Below is a list of the formulas used for each calculation mode.
 
@@ -34,4 +34,4 @@ Terms used
 | Exit | The last Exit execution |
 | Rate | The currency conversation rate used back to the account demonstration (E.g.,  A rate of 1 means no conversion took place) |
 | Lot Size | Default Forex Lot Size for the account.  1 for non-forex accounts. |
-| Point Value | Instrument value per point define in the [Instruments](instruments.htm) window |
+| Point Value | Instrument value per point define in the [Instruments](instruments.md) window |

@@ -6,7 +6,7 @@ IsInSession()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isinsession.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [SessionIterator](sessioniterator.htm) >  IsInSession() | [Previous page](gettradingdayendlocal.htm) [Return to chapter overview](sessioniterator.htm) [Next page](isnewsession.htm) |
+| << [Click to Display Table of Contents](isinsession.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [SessionIterator](sessioniterator.md) >  IsInSession() | [Previous page](gettradingdayendlocal.md) [Return to chapter overview](sessioniterator.md) [Next page](isnewsession.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Indicates a specified date is within the bounds of the current session, accordin
 
 |  |
 | --- |
-| Note:  Additionally this method will internally trigger a [GetNextSession()](getnextsession.htm) call to calculate the next available session relative to the "timeLocal" value used in the method's input. |
+| Note:  Additionally this method will internally trigger a [GetNextSession()](getnextsession.md) call to calculate the next available session relative to the "timeLocal" value used in the method's input. |
 
 Property Value
 --------------

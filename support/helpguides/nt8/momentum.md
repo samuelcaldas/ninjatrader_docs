@@ -6,7 +6,7 @@ Momentum
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](momentum.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Momentum | [Previous page](minimum_min.htm) [Return to chapter overview](indicators.htm) [Next page](money_flow_index_mfi.htm) |
+| << [Click to Display Table of Contents](momentum.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Momentum | [Previous page](minimum_min.md) [Return to chapter overview](indicators.md) [Next page](money_flow_index_mfi.md) |
 
 Description
 -----------
@@ -36,7 +36,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

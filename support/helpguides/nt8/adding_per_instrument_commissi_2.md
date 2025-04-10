@@ -6,7 +6,7 @@ Working With Commission Templates
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](adding_per_instrument_commissi_2.htm) >>  **Navigation:**  [Operations](operations.htm) > [Commissions](understanding_commissions.htm) >  Working With Commission Templates | [Previous page](understanding_commissions.htm) [Return to chapter overview](understanding_commissions.htm) [Next page](adding_per_instrument_commissi_3.htm) |
+| << [Click to Display Table of Contents](adding_per_instrument_commissi_2.md) >>  **Navigation:**  [Operations](operations.md) > [Commissions](understanding_commissions.md) >  Working With Commission Templates | [Previous page](understanding_commissions.md) [Return to chapter overview](understanding_commissions.md) [Next page](adding_per_instrument_commissi_3.md) |
 
 The Commission Templates to be applied to different trading accounts configured in NinjaTrader. These templates can be used to set minimum and per-unit commissions for all instruments of a certain type, or to set specific commissions for individual instruments, which will override any commissions set for the instrument type.
 

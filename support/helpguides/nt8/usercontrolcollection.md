@@ -6,12 +6,12 @@ UserControlCollection
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](usercontrolcollection.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) >  UserControlCollection | [Previous page](stroke_class.htm) [Return to chapter overview](chart.htm) [Next page](drawing.htm) |
+| << [Click to Display Table of Contents](usercontrolcollection.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) >  UserControlCollection | [Previous page](stroke_class.md) [Return to chapter overview](chart.md) [Next page](drawing.md) |
 
 Definition
 ----------
 
-An [observable collection](https://msdn.microsoft.com/en-us/library/ms668604(v=vs.110).aspx) of 3rd party [framework elements](https://msdn.microsoft.com/en-us/library/system.windows.frameworkelement(v=vs.110).aspx), the purpose of which is to allow developers to add a custom control to the chart (e.g., add a button or create your own data grid). This framework collection resides on top of the [ChartControl](chartcontrol.htm) in order to prevent 3rd party custom controls from interfering with native NinjaTrader chart framework members.  For example, if you wish to add a button to a chart, it is recommended to add it to this UserControlCollection rather than attempting to modify or add to any pre-existing NinjaTrader chart elements.
+An [observable collection](https://msdn.microsoft.com/en-us/library/ms668604(v=vs.110).aspx) of 3rd party [framework elements](https://msdn.microsoft.com/en-us/library/system.windows.frameworkelement(v=vs.110).aspx), the purpose of which is to allow developers to add a custom control to the chart (e.g., add a button or create your own data grid). This framework collection resides on top of the [ChartControl](chartcontrol.md) in order to prevent 3rd party custom controls from interfering with native NinjaTrader chart framework members.  For example, if you wish to add a button to a chart, it is recommended to add it to this UserControlCollection rather than attempting to modify or add to any pre-existing NinjaTrader chart elements.
 
 |  |
 | --- |

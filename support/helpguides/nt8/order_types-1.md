@@ -6,11 +6,11 @@ Order Types
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\order_types.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Tips](tips-1.htm) >  Order Types | [Previous page](make_sure_you_have_enough_bars-1.htm) [Return to chapter overview](tips-1.htm) [Next page](parameter_sequencing-1.htm) |
+| << [Click to Display Table of Contents](.\order_types.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Tips](tips-1.md) >  Order Types | [Previous page](make_sure_you_have_enough_bars-1.md) [Return to chapter overview](tips-1.md) [Next page](parameter_sequencing-1.md) |
 
 Understanding the different types of entry and exit orders you can place through NinjaScript is important. As a trader, it is critical you place the right type of order depending on the current market conditions and your trading style.
 
-[Order Methods](order_methods-1.htm)
+[Order Methods](order_methods-1.md)
 
 | ns |
 | --- |

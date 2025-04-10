@@ -6,7 +6,7 @@ Working with Hot Keys
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\working_with_hot_keys.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Hot Keys](hot_key_manager-1.htm) >  Working with Hot Keys | [Previous page](hot_key_manager-1.htm) [Return to chapter overview](hot_key_manager-1.htm) [Next page](trading_with_hot_keys-1.htm) |
+| << [Click to Display Table of Contents](.\working_with_hot_keys.md) >>  **Navigation:**  [Operations](operations-1.md) > [Hot Keys](hot_key_manager-1.md) >  Working with Hot Keys | [Previous page](hot_key_manager-1.md) [Return to chapter overview](hot_key_manager-1.md) [Next page](trading_with_hot_keys-1.md) |
 
 You can customize the Hot Keys by assigning the desired key stroke in the related action field. You also have the ability to print the full list of actions and their related Hot Keys for easy reference.
 
@@ -26,7 +26,7 @@ You can customize the Hot Keys by assigning the desired key stroke in the relate
 
 |  |
 | --- |
-| Hot Keys are window sensitive. This means that Hot Keys will only work when the active window is selected. The name of the window that needs to be active is located in the left column of the Hot Keys window.    HotKeys_Categories  Global Hot Keys assigned under the Global section are always active regardless of the active NinjaTrader window with the exception of a modal window having focus. See the "Understanding the risks in using Hot Keys for order entry" section of the [Trading with Hot Keys](trading_with_hot_keys-1.htm) page of the Help Guide for more information on the modal form exception.  Order Entry Hot Keys assigned under the Order Entry section are active whenever an order entry window is selected. Please see the [Trading with Hot Keys](trading_with_hot_keys-1.htm) section of the Help Guide for more information on this topic. |
+| Hot Keys are window sensitive. This means that Hot Keys will only work when the active window is selected. The name of the window that needs to be active is located in the left column of the Hot Keys window.    HotKeys_Categories  Global Hot Keys assigned under the Global section are always active regardless of the active NinjaTrader window with the exception of a modal window having focus. See the "Understanding the risks in using Hot Keys for order entry" section of the [Trading with Hot Keys](trading_with_hot_keys-1.md) page of the Help Guide for more information on the modal form exception.  Order Entry Hot Keys assigned under the Order Entry section are active whenever an order entry window is selected. Please see the [Trading with Hot Keys](trading_with_hot_keys-1.md) section of the Help Guide for more information on this topic. |
 
 ![tog_minus](tog_minus-1.gif)        How to print your Hot Keys for reference
 

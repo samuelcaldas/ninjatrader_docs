@@ -6,21 +6,21 @@ BarsArray
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barsarray.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [AddDataSeries()](adddataseries.htm) >  BarsArray | [Previous page](addvolumetric.htm) [Return to chapter overview](adddataseries.htm) [Next page](barsinprogress.htm) |
+| << [Click to Display Table of Contents](barsarray.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [AddDataSeries()](adddataseries.md) >  BarsArray | [Previous page](addvolumetric.md) [Return to chapter overview](adddataseries.md) [Next page](barsinprogress.md) |
 
 Definition
 ----------
 
-An array holding Bars objects that are added via the [AddDataSeries()](adddataseries.htm) method. BarsArray can be used as input for [indicator methods](indicators.htm). This property is of primary value when working with [multi-time frame or multi-instrument scripts](multi-time_frame__instruments.htm).
+An array holding Bars objects that are added via the [AddDataSeries()](adddataseries.md) method. BarsArray can be used as input for [indicator methods](indicators.md). This property is of primary value when working with [multi-time frame or multi-instrument scripts](multi-time_frame__instruments.md).
 
 Property Value
 --------------
 
-An array of [Bars](bars.htm) objects.
+An array of [Bars](bars.md) objects.
 
 |  |
 | --- |
-| Warning:  This property should NOT be accessed within the [OnStateChange()](onstatechange.htm) method before the State has reached State.DataLoaded |
+| Warning:  This property should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded |
 
 Syntax 
 BarsArray[int index]

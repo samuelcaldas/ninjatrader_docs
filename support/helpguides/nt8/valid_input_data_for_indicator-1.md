@@ -6,12 +6,12 @@ Valid Input Data for Indicator Methods
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\valid_input_data_for_indicator.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Valid Input Data for Indicator Methods | [Previous page](indicators-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](accumulation_distribution_adl-1.htm) |
+| << [Click to Display Table of Contents](.\valid_input_data_for_indicator.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Valid Input Data for Indicator Methods | [Previous page](indicators-1.md) [Return to chapter overview](indicators-1.md) [Next page](accumulation_distribution_adl-1.md) |
 
 System indicator methods require valid input data to function property. Indicator methods can accept the following forms of input data:
 
 Default Input 
-The default input (Inputs[[BarsInProgress](barsinprogress-1.htm)]) of the custom indicator, Market Analyzer row or strategy is used if input is not specified.
+The default input (Inputs[[BarsInProgress](barsinprogress-1.md)]) of the custom indicator, Market Analyzer row or strategy is used if input is not specified.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 | ns |
@@ -38,7 +38,7 @@ Indicators can be used as input for other indicators.
 | // Printing the current value of the 20 period simple moving average of a 14 period RSI  // using a data series of closing prices  double value = SMA(RSI(Close, 14, 3), 20)[0];  Print("The current SMA value is " + value.ToString()); |
 
 Series<double> 
-[Series<double>](seriest-1.htm) can be used as input for indicators.
+[Series<double>](seriest-1.md) can be used as input for indicators.
 ------------------------------------------------------------------------------------
 
 | ns |

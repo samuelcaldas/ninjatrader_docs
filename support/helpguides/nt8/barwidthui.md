@@ -6,12 +6,12 @@ BarWidthUI
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barwidthui.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Chart Style](chart_style.htm) >  BarWidthUI | [Previous page](barwidth.htm) [Return to chapter overview](chart_style.htm) [Next page](chartstyletype.htm) |
+| << [Click to Display Table of Contents](barwidthui.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Chart Style](chart_style.md) >  BarWidthUI | [Previous page](barwidth.md) [Return to chapter overview](chart_style.md) [Next page](chartstyletype.md) |
 
 Definition
 ----------
 
-The Bar width value which displays on the UI.  This value will be rounded from the internal [BarWidth](barwidth.htm) property which is updated as the ChartControl is resized
+The Bar width value which displays on the UI.  This value will be rounded from the internal [BarWidth](barwidth.md) property which is updated as the ChartControl is resized
 
 Property Value
 --------------

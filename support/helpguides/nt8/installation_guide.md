@@ -6,9 +6,9 @@ Installation Guide
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](installation_guide.htm) >>  **Navigation:**  [Configuration](configuration.htm) > [Installation](installation.htm) >  Installation Guide | [Previous page](minimum_system_requirements.htm) [Return to chapter overview](installation.htm) [Next page](clear_browser_cache.htm) |
+| << [Click to Display Table of Contents](installation_guide.md) >>  **Navigation:**  [Configuration](configuration.md) > [Installation](installation.md) >  Installation Guide | [Previous page](minimum_system_requirements.md) [Return to chapter overview](installation.md) [Next page](clear_browser_cache.md) |
 
-Follow the process outlined below to install NinjaTrader on your PC. To view minimum system requirements or recommended PC specifications, see the [Minimum System Requirements](minimum_system_requirements.htm) page.
+Follow the process outlined below to install NinjaTrader on your PC. To view minimum system requirements or recommended PC specifications, see the [Minimum System Requirements](minimum_system_requirements.md) page.
 
 Installation Steps
 ------------------

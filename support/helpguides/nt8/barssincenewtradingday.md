@@ -6,7 +6,7 @@ BarsSinceNewTradingDay
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barssincenewtradingday.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Bars](bars.htm) >  BarsSinceNewTradingDay | [Previous page](bars.htm) [Return to chapter overview](bars.htm) [Next page](getask.htm) |
+| << [Click to Display Table of Contents](barssincenewtradingday.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  BarsSinceNewTradingDay | [Previous page](bars.md) [Return to chapter overview](bars.md) [Next page](getask.md) |
 
 Definition
 ----------

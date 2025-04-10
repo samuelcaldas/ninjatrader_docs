@@ -6,7 +6,7 @@ DownBrush
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\downbrush.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Chart Style](chart_style-1.htm) >  DownBrush | [Previous page](chartstyletype-1.htm) [Return to chapter overview](chart_style-1.htm) [Next page](downbrushdx-1.htm) |
+| << [Click to Display Table of Contents](.\downbrush.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Chart Style](chart_style-1.md) >  DownBrush | [Previous page](chartstyletype-1.md) [Return to chapter overview](chart_style-1.md) [Next page](downbrushdx-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ A [Brush](https://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=
 
 |  |
 | --- |
-| Note: This Windows Presentation Forms (WPF) implementation of the Brush class is not directly used to paint bars on the chart. Instead it is converted to a SharpDX Brush in the [DownBrushDX](downbrushdx-1.htm) property. This property is used to capture user input for changing brush colors. |
+| Note: This Windows Presentation Forms (WPF) implementation of the Brush class is not directly used to paint bars on the chart. Instead it is converted to a SharpDX Brush in the [DownBrushDX](downbrushdx-1.md) property. This property is used to capture user input for changing brush colors. |
 
 Property  Value
 ---------------

@@ -6,7 +6,7 @@ Strategy Parameter Templates
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\saving_strategy_parameter_temp.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Strategy Analyzer](strategy_analyzer-1.htm) >  Strategy Parameter Templates | [Previous page](discrepancies_real-time_vs_bac-1.htm) [Return to chapter overview](strategy_analyzer-1.htm) [Next page](strategyanalyzer_properties-1.htm) |
+| << [Click to Display Table of Contents](.\saving_strategy_parameter_temp.md) >>  **Navigation:**  [Operations](operations-1.md) > [Strategy Analyzer](strategy_analyzer-1.md) >  Strategy Parameter Templates | [Previous page](discrepancies_real-time_vs_bac-1.md) [Return to chapter overview](strategy_analyzer-1.md) [Next page](strategyanalyzer_properties-1.md) |
 
 NinjaTrader allows a convenient way to save strategy parameters to easily transition to a live running strategy.
 

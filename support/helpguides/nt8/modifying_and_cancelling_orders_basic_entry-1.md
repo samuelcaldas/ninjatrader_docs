@@ -6,7 +6,7 @@ Modifying and Cancelling Orders
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\modifying_and_cancelling_orders_basic_entry.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Order Entry](order_entry-1.htm) > [Basic Entry](basic_entry-1.htm) >  Modifying and Cancelling Orders | [Previous page](submitting_orders_basic_entry-1.htm) [Return to chapter overview](basic_entry-1.htm) [Next page](managing_positions_basic_entry-1.htm) |
+| << [Click to Display Table of Contents](.\modifying_and_cancelling_orders_basic_entry.md) >>  **Navigation:**  [Operations](operations-1.md) > [Order Entry](order_entry-1.md) > [Basic Entry](basic_entry-1.md) >  Modifying and Cancelling Orders | [Previous page](submitting_orders_basic_entry-1.md) [Return to chapter overview](basic_entry-1.md) [Next page](managing_positions_basic_entry-1.md) |
 
 You can modify an existing order's quantity, price, or cancel an order entirely from Order Grid display of the Basic Entry window.
 

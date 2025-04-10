@@ -6,21 +6,21 @@ Line
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\line.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) > [Draw.Line()](draw_line-1.htm) >  Line | [Previous page](draw_line-1.htm) [Return to chapter overview](draw_line-1.htm) [Next page](draw_pathtool()-1.htm) |
+| << [Click to Display Table of Contents](.\line.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) > [Draw.Line()](draw_line-1.md) >  Line | [Previous page](draw_line-1.md) [Return to chapter overview](draw_line-1.md) [Next page](draw_pathtool()-1.md) |
 
 Definition
 ----------
 
-Represents an interface that exposes information regarding a Line [IDrawingTool](idrawingtool-1.htm).
+Represents an interface that exposes information regarding a Line [IDrawingTool](idrawingtool-1.md).
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool-1.htm#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool-1.htm#chartanchor) representing the end point of the drawing object |
-| Stroke | A [Stroke](stroke_class-1.htm) object used to draw the object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool-1.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool-1.md#chartanchor) representing the end point of the drawing object |
+| Stroke | A [Stroke](stroke_class-1.md) object used to draw the object |
 
 Example
 -------

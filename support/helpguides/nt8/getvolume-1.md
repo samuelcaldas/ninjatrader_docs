@@ -6,7 +6,7 @@ GetVolume()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getvolume.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Bars](bars-1.htm) >  GetVolume() | [Previous page](gettime-1.htm) [Return to chapter overview](bars-1.htm) [Next page](isfirstbarofsession-1.htm) |
+| << [Click to Display Table of Contents](.\getvolume.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Bars](bars-1.md) >  GetVolume() | [Previous page](gettime-1.md) [Return to chapter overview](bars-1.md) [Next page](isfirstbarofsession-1.md) |
 
 Definition
 ----------

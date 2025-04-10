@@ -6,7 +6,7 @@ Connection
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\connection_class.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) >  Connection | [Previous page](barsrequest_mergepolicy-1.htm) [Return to chapter overview](add_on-1.htm) [Next page](connection_cancelallorders-1.htm) |
+| << [Click to Display Table of Contents](.\connection_class.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) >  Connection | [Previous page](barsrequest_mergepolicy-1.md) [Return to chapter overview](add_on-1.md) [Next page](connection_cancelallorders-1.md) |
 
 Definition
 ----------
@@ -18,20 +18,20 @@ Static Connection Class Events and Properties
 
 |  |  |
 | --- | --- |
-| [CancelAllOrders()](connection_cancelallorders-1.htm) | Cancels all orders |
-| [Connect()](connect-1.htm) | Connects to a connection |
-| [ConnectionStatusUpdate](connectionstatusupdate-1.htm) | Event handler for connection status updates |
+| [CancelAllOrders()](connection_cancelallorders-1.md) | Cancels all orders |
+| [Connect()](connect-1.md) | Connects to a connection |
+| [ConnectionStatusUpdate](connectionstatusupdate-1.md) | Event handler for connection status updates |
 
 Events and Properties from Connection instances
 -----------------------------------------------
 
 |  |  |
 | --- | --- |
-| [Accounts](account_class-1.htm) | List of accounts from the connection |
-| [Disconnect()](disconnect-1.htm) | Disconnects from the connection |
-| [Options](connections_options-1.htm) | The connection's configuration options |
-| [PriceStatus](connections_pricestatus-1.htm) | A ConnectionStatus representing the status of the price feed. Possible values are:    ConnectionStatus.Connected  ConnectionStatus.Connecting   ConnectionStatus.ConnectionLost  ConnectionStatus.Disconnecting  ConnectionStatus.Disconnected |
-| [Status](connections_status-1.htm) | A ConnectionStatus representing the status of the order feed. Possible values are:    ConnectionStatus.Connected  ConnectionStatus.Connecting   ConnectionStatus.ConnectionLost  ConnectionStatus.Disconnecting  ConnectionStatus.Disconnected |
+| [Accounts](account_class-1.md) | List of accounts from the connection |
+| [Disconnect()](disconnect-1.md) | Disconnects from the connection |
+| [Options](connections_options-1.md) | The connection's configuration options |
+| [PriceStatus](connections_pricestatus-1.md) | A ConnectionStatus representing the status of the price feed. Possible values are:    ConnectionStatus.Connected  ConnectionStatus.Connecting   ConnectionStatus.ConnectionLost  ConnectionStatus.Disconnecting  ConnectionStatus.Disconnected |
+| [Status](connections_status-1.md) | A ConnectionStatus representing the status of the order feed. Possible values are:    ConnectionStatus.Connected  ConnectionStatus.Connecting   ConnectionStatus.ConnectionLost  ConnectionStatus.Disconnecting  ConnectionStatus.Disconnected |
 
 Example
 -------

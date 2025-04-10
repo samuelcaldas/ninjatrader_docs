@@ -6,7 +6,7 @@ IsNinjaScriptDrawn
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isninjascriptdrawn.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Drawing Tool](drawing_tools.htm) > [ChartAnchor](chartanchor.htm) >  IsNinjaScriptDrawn | [Previous page](isediting.htm) [Return to chapter overview](chartanchor.htm) [Next page](isxpropertiesvisible.htm) |
+| << [Click to Display Table of Contents](isninjascriptdrawn.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > [ChartAnchor](chartanchor.md) >  IsNinjaScriptDrawn | [Previous page](isediting.md) [Return to chapter overview](chartanchor.md) [Next page](isxpropertiesvisible.md) |
 
 Definition
 ----------

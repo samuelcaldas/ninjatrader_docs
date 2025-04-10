@@ -6,7 +6,7 @@ OnNextInstrument()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onnextinstrument.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Import Type](import_type.htm) >  OnNextInstrument() | [Previous page](import_type.htm) [Return to chapter overview](import_type.htm) [Next page](onnextdatapoint.htm) |
+| << [Click to Display Table of Contents](onnextinstrument.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Import Type](import_type.md) >  OnNextInstrument() | [Previous page](import_type.md) [Return to chapter overview](import_type.md) [Next page](onnextdatapoint.md) |
 
 Definifition
 ------------

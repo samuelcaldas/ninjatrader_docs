@@ -6,7 +6,7 @@ GetHigh()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](gethigh.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Bars](bars.htm) >  GetHigh() | [Previous page](getdaybar.htm) [Return to chapter overview](bars.htm) [Next page](getlow.htm) |
+| << [Click to Display Table of Contents](gethigh.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  GetHigh() | [Previous page](getdaybar.md) [Return to chapter overview](bars.md) [Next page](getlow.md) |
 
 Definition
 ----------

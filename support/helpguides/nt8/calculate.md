@@ -6,16 +6,16 @@ Calculate
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](calculate.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [OnBarUpdate()](onbarupdate.htm) >  Calculate | [Previous page](barsperiod.htm) [Return to chapter overview](onbarupdate.htm) [Next page](count.htm) |
+| << [Click to Display Table of Contents](calculate.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnBarUpdate()](onbarupdate.md) >  Calculate | [Previous page](barsperiod.md) [Return to chapter overview](onbarupdate.md) [Next page](count.md) |
 
 Definition
 ----------
 
-Determines how often [OnBarUpdate()](onbarupdate.htm) is called for each bar. OnBarClose means once at the close of the bar. OnEachTick means on every single tick. OnPriceChange means once for each price change. If there were two ticks in a row with the same price, the second tick would not trigger OnBarUpdate(). This can improve performance if calculations are only needed when new values are possible.
+Determines how often [OnBarUpdate()](onbarupdate.md) is called for each bar. OnBarClose means once at the close of the bar. OnEachTick means on every single tick. OnPriceChange means once for each price change. If there were two ticks in a row with the same price, the second tick would not trigger OnBarUpdate(). This can improve performance if calculations are only needed when new values are possible.
 
 |  |
 | --- |
-| Notes:  1.On a historical data set, only the OHLCVT of the bar is known and not each tick that made up the bar.  As a result, [State.Historical](state.htm) data processes OnBarUpdate() only on the close of each historical bar even if this property is set to OnEachTick or OnPriceChange.  You can use [TickReplay](tick_replay.htm) or a [Multi-time frame script](multi-time_frame__instruments.htm) to obtain intrabar data.  2.When set to Calculate OnPriceChange, the OnBarUpdate() method is ONLY called when the price has changed intrabar OR when the bar has closed |
+| Notes:  1.On a historical data set, only the OHLCVT of the bar is known and not each tick that made up the bar.  As a result, [State.Historical](state.md) data processes OnBarUpdate() only on the close of each historical bar even if this property is set to OnEachTick or OnPriceChange.  You can use [TickReplay](tick_replay.md) or a [Multi-time frame script](multi-time_frame__instruments.md) to obtain intrabar data.  2.When set to Calculate OnPriceChange, the OnBarUpdate() method is ONLY called when the price has changed intrabar OR when the bar has closed |
 
 Property Value
 --------------

@@ -6,17 +6,17 @@ BuiltFrom
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](builtfrom.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  BuiltFrom | [Previous page](applydefaultvalue.htm) [Return to chapter overview](bars_type.htm) [Next page](defaultchartstyle.htm) |
+| << [Click to Display Table of Contents](builtfrom.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  BuiltFrom | [Previous page](applydefaultvalue.md) [Return to chapter overview](bars_type.md) [Next page](defaultchartstyle.md) |
 
 Definition
 ----------
 
-Determines the base dataset used to build the BarsType (i.e., Tick, Minute, Day).   The BuiltFrom property will control the frequency in which [OnDataPoint()](ondatapoint.htm) processes historical data.
+Determines the base dataset used to build the BarsType (i.e., Tick, Minute, Day).   The BuiltFrom property will control the frequency in which [OnDataPoint()](ondatapoint.md) processes historical data.
 
 Property Value
 --------------
 
-A [BarsPeriodType](barsperiod.htm) enum.  Values that will be recognized include:
+A [BarsPeriodType](barsperiod.md) enum.  Values that will be recognized include:
 
 •BarsPeriodType.Tick
 

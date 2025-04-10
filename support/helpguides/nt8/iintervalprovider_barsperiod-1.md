@@ -6,7 +6,7 @@ BarsPeriod
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\iintervalprovider_barsperiod.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) > [IIntervalProvider Interface](iintervalprovider_interface-1.htm) >  BarsPeriod | [Previous page](iintervalprovider_interface-1.htm) [Return to chapter overview](iintervalprovider_interface-1.htm) [Next page](inttabfactory_class-1.htm) |
+| << [Click to Display Table of Contents](.\iintervalprovider_barsperiod.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [IIntervalProvider Interface](iintervalprovider_interface-1.md) >  BarsPeriod | [Previous page](iintervalprovider_interface-1.md) [Return to chapter overview](iintervalprovider_interface-1.md) [Next page](inttabfactory_class-1.md) |
 
 In order for interval linking to work properly in your Add On, BarsPeriod must be created.
 

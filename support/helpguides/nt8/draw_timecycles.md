@@ -6,7 +6,7 @@ Draw.TimeCycles()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_timecycles.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.TimeCycles() | [Previous page](textfixed.htm) [Return to chapter overview](drawing.htm) [Next page](timecycles.htm) |
+| << [Click to Display Table of Contents](draw_timecycles.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.TimeCycles() | [Previous page](textfixed.md) [Return to chapter overview](drawing.md) [Next page](timecycles.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a time cycle based on two points.
 Method Return Value
 -------------------
 
-A [TimeCycles](timecycles.htm) object that represents the draw object.
+A [TimeCycles](timecycles.md) object that represents the draw object.
 
 Syntax
 ------

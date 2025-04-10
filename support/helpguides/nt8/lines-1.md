@@ -6,7 +6,7 @@ Lines
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\lines.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Indicator](indicator-1.htm) > [AddLine()](addline-1.htm) >  Lines | [Previous page](line_class-1.htm) [Return to chapter overview](addline-1.htm) [Next page](addplot-1.htm) |
+| << [Click to Display Table of Contents](.\lines.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Indicator](indicator-1.md) > [AddLine()](addline-1.md) >  Lines | [Previous page](line_class-1.md) [Return to chapter overview](addline-1.md) [Next page](addplot-1.md) |
 
 Definition
 ----------

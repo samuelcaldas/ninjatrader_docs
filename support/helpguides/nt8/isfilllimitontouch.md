@@ -6,7 +6,7 @@ IsFillLimitOnTouch
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](isfilllimitontouch.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  IsFillLimitOnTouch | [Previous page](isexitonsessionclosestrategy.htm) [Return to chapter overview](strategy.htm) [Next page](isinstantiatedoneachoptimizationiteration.htm) |
+| << [Click to Display Table of Contents](isfilllimitontouch.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  IsFillLimitOnTouch | [Previous page](isexitonsessionclosestrategy.md) [Return to chapter overview](strategy.md) [Next page](isinstantiatedoneachoptimizationiteration.md) |
 
 Definition
 ----------
@@ -20,7 +20,7 @@ This property returns true if the strategy will fill limit orders when touched; 
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

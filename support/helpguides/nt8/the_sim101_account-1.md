@@ -6,7 +6,7 @@ The Sim101 Account
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\the_sim101_account.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Simulator](simulation-1.htm) >  The Sim101 Account | [Previous page](simulation-1.htm) [Return to chapter overview](simulation-1.htm) [Next page](multiple_simulation_accounts-1.htm) |
+| << [Click to Display Table of Contents](.\the_sim101_account.md) >>  **Navigation:**  [Operations](operations-1.md) > [Simulator](simulation-1.md) >  The Sim101 Account | [Previous page](simulation-1.md) [Return to chapter overview](simulation-1.md) [Next page](multiple_simulation_accounts-1.md) |
 
 What is the Sim101 account?
 ---------------------------

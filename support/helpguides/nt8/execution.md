@@ -6,30 +6,30 @@ Execution
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](execution.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  Execution | [Previous page](entryhandling.htm) [Return to chapter overview](strategy.htm) [Next page](exitonsessioncloseseconds.htm) |
+| << [Click to Display Table of Contents](execution.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  Execution | [Previous page](entryhandling.md) [Return to chapter overview](strategy.md) [Next page](exitonsessioncloseseconds.md) |
 
 Definition
 ----------
 
-Represents a read only interface that exposes information regarding an execution (filled order) resulting from an order and is passed as a parameter in the [OnExecutionUpdate()](onexecutionupdate.htm) method.
+Represents a read only interface that exposes information regarding an execution (filled order) resulting from an order and is passed as a parameter in the [OnExecutionUpdate()](onexecutionupdate.md) method.
 
 |  |
 | --- |
-| Note: Not all executions will have associated [Order](order.htm) objects (e.g [ExitOnSessionClose](isexitonsessionclosestrategy.htm) executions or [AtmStrategyCreate()](atmstrategycreate.htm) executions) |
+| Note: Not all executions will have associated [Order](order.md) objects (e.g [ExitOnSessionClose](isexitonsessionclosestrategy.md) executions or [AtmStrategyCreate()](atmstrategycreate.md) executions) |
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| Account | The [Account](account_class.htm) the execution occurred |
-| BarsInProgress | An int value representing the [BarsArray](barsarray.htm) in which the execution occurred |
+| Account | The [Account](account_class.md) the execution occurred |
+| BarsInProgress | An int value representing the [BarsArray](barsarray.md) in which the execution occurred |
 | Commission | A double value representing the commission of an execution |
 | ExecutionId | A string value representing the exchange generated execution id |
-| Instrument | An [Instrument](instrument.htm) value representing the instrument of an order |
+| Instrument | An [Instrument](instrument.md) value representing the instrument of an order |
 | MarketPosition | The position of the execution.    Possible values are:    •MarketPosition.Long  •MarketPosition.Short |
 | Name | A string representing the name of an order which can be provided by the entry or exit signal name |
-| Order | An [Order](order.htm) value representing an order associated to the execution. |
+| Order | An [Order](order.md) value representing an order associated to the execution. |
 | OrderId | A string representing the unique id of the order which was executed |
 | Position | An int value represents the current quantity of account position at the time of execution |
 | PositionStrategy | An int value represents the current quantity of strategy position at the time of execution |

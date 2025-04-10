@@ -6,7 +6,7 @@ IsTradingDayDefined()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](istradingdaydefined.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [SessionIterator](sessioniterator.htm) >  IsTradingDayDefined() | [Previous page](isnewsession.htm) [Return to chapter overview](sessioniterator.htm) [Next page](simplefont_class.htm) |
+| << [Click to Display Table of Contents](istradingdaydefined.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [SessionIterator](sessioniterator.md) >  IsTradingDayDefined() | [Previous page](isnewsession.md) [Return to chapter overview](sessioniterator.md) [Next page](simplefont_class.md) |
 
 Definition
 ----------

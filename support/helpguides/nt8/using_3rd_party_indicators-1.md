@@ -6,7 +6,7 @@ Using 3rd Party Indicators
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\using_3rd_party_indicators.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) >  Using 3rd Party Indicators | [Previous page](understanding_the_lifecycle_of-1.htm) [Return to chapter overview](educational_resources-1.htm) [Next page](using_atm_strategies-1.htm) |
+| << [Click to Display Table of Contents](.\using_3rd_party_indicators.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) >  Using 3rd Party Indicators | [Previous page](understanding_the_lifecycle_of-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](using_atm_strategies-1.md) |
 
 3rd Party Indicators Overview
 -----------------------------
@@ -19,7 +19,7 @@ You can use 3rd party indicators within your strategies or custom indicators. A 
 
 3rd party indicators can be provided to you in one of the following ways:
 
-•NinjaScript archive file that can be directly [imported](import-1.htm) into NinjaTrader
+•NinjaScript archive file that can be directly [imported](import-1.md) into NinjaTrader
 
 •A custom installer
 

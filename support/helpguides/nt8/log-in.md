@@ -6,7 +6,7 @@ Log In
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](log-in.htm) >>  **Navigation:**  [Configuration](configuration.htm) > [Connecting](connecting.htm) >  Log In | [Previous page](connecting.htm) [Return to chapter overview](connecting.htm) [Next page](trading-mode.htm) |
+| << [Click to Display Table of Contents](log-in.md) >>  **Navigation:**  [Configuration](configuration.md) > [Connecting](connecting.md) >  Log In | [Previous page](connecting.md) [Return to chapter overview](connecting.md) [Next page](trading-mode.md) |
 
 When starting NinjaTrader you will be presented with a Log In window.
 

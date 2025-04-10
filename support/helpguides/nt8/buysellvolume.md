@@ -6,7 +6,7 @@ BuySell Volume
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](buysellvolume.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  BuySell Volume | [Previous page](buysellpressure.htm) [Return to chapter overview](indicators.htm) [Next page](camarilla_pivots.htm) |
+| << [Click to Display Table of Contents](buysellvolume.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  BuySell Volume | [Previous page](buysellpressure.md) [Return to chapter overview](indicators.md) [Next page](camarilla_pivots.md) |
 
 Description
 -----------
@@ -15,7 +15,7 @@ The BuySellVolume indicator displays a real-time horizontal histogram of volume 
 
 |  |
 | --- |
-| Note:  For historical calculations, [Tick Replay](tick_replay.htm) must be enabled |
+| Note:  For historical calculations, [Tick Replay](tick_replay.md) must be enabled |
 
 Syntax
 ------
@@ -45,7 +45,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 Example
 -------

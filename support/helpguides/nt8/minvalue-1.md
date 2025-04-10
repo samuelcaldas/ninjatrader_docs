@@ -6,12 +6,12 @@ MinValue
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\minvalue.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [Rendering](rendering-1.htm) >  MinValue | [Previous page](maxvalue-1.htm) [Return to chapter overview](rendering-1.htm) [Next page](oncalculateminmax-1.htm) |
+| << [Click to Display Table of Contents](.\minvalue.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) >  MinValue | [Previous page](maxvalue-1.md) [Return to chapter overview](rendering-1.md) [Next page](oncalculateminmax-1.md) |
 
 Definition
 ----------
 
-The minimum value used for the automatic scaling of the y axis.  This property will only be used when the chart object is set to [IsAutoScale](isautoscale-1.htm)
+The minimum value used for the automatic scaling of the y axis.  This property will only be used when the chart object is set to [IsAutoScale](isautoscale-1.md)
 
 Property Value
 --------------

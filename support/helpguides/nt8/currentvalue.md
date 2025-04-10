@@ -6,7 +6,7 @@ CurrentValue
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](currentvalue.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Market Analyzer Column](market_analyzer_column.htm) >  CurrentValue | [Previous page](currenttext.htm) [Return to chapter overview](market_analyzer_column.htm) [Next page](datatype.htm) |
+| << [Click to Display Table of Contents](currentvalue.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Market Analyzer Column](market_analyzer_column.md) >  CurrentValue | [Previous page](currenttext.md) [Return to chapter overview](market_analyzer_column.md) [Next page](datatype.md) |
 
 Definition
 ----------

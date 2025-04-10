@@ -6,7 +6,7 @@ IsRising()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](rising.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  IsRising() | [Previous page](falling.htm) [Return to chapter overview](market_data.htm) [Next page](least_recent_occurence_lro.htm) |
+| << [Click to Display Table of Contents](rising.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  IsRising() | [Previous page](falling.md) [Return to chapter overview](market_data.md) [Next page](least_recent_occurence_lro.md) |
 
 Definition
 ----------

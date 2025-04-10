@@ -6,7 +6,7 @@ AddDataSeries()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\adddataseries.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) >  AddDataSeries() | [Previous page](common-1.htm) [Return to chapter overview](common-1.htm) [Next page](addheikenashi-1.htm) |
+| << [Click to Display Table of Contents](.\adddataseries.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) >  AddDataSeries() | [Previous page](common-1.md) [Return to chapter overview](common-1.md) [Next page](addheikenashi-1.md) |
 
 Definition
 ----------
@@ -66,7 +66,7 @@ Parameters
 
 |  |
 | --- |
-| Tips:  1. You can optionally add the exchange name as a suffix to the symbol name. This is only advised if the instrument has multiple possible exchanges that it can trade on and it is configured within the Instruments window. For example: AddDataSeries();  2. You can add a custom [BarsType](bars_type-1.htm) which is installed on your system by casting the registered enum value for that BarsPeriodType.  For example: AddDataSeries((BarsPeriodType)  3. You can specify optional [BarsPeriod](barsperiod-1.htm) values (such as [Value2](optimization_fitness_value-1.htm)) of a custom BarsType in the BarsPeriod object initializer.  For example: AddDataSeries(});  4. For the instrument name parameter null could be passed in, resulting in the primary data series instrument being used. |
+| Tips:  1. You can optionally add the exchange name as a suffix to the symbol name. This is only advised if the instrument has multiple possible exchanges that it can trade on and it is configured within the Instruments window. For example: AddDataSeries();  2. You can add a custom [BarsType](bars_type-1.md) which is installed on your system by casting the registered enum value for that BarsPeriodType.  For example: AddDataSeries((BarsPeriodType)  3. You can specify optional [BarsPeriod](barsperiod-1.md) values (such as [Value2](optimization_fitness_value-1.md)) of a custom BarsType in the BarsPeriod object initializer.  For example: AddDataSeries(});  4. For the instrument name parameter null could be passed in, resulting in the primary data series instrument being used. |
 
 Examples
 --------

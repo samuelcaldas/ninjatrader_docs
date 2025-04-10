@@ -6,7 +6,7 @@ Draw.Triangle()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_triangle.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.Triangle() | [Previous page](trendchannel.htm) [Return to chapter overview](drawing.htm) [Next page](triangle.htm) |
+| << [Click to Display Table of Contents](draw_triangle.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Triangle() | [Previous page](trendchannel.md) [Return to chapter overview](drawing.md) [Next page](triangle.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a triangle.
 Method Return Value
 -------------------
 
-A [Triangle](triangledown.htm) object that represents the draw object.
+A [Triangle](triangledown.md) object that represents the draw object.
 
 Syntax
 ------

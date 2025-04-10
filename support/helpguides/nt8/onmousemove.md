@@ -6,7 +6,7 @@ OnMouseMove()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onmousemove.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Drawing Tool](drawing_tools.htm) >  OnMouseMove() | [Previous page](onmousedown.htm) [Return to chapter overview](drawing_tools.htm) [Next page](onmouseup.htm) |
+| << [Click to Display Table of Contents](onmousemove.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) >  OnMouseMove() | [Previous page](onmousedown.md) [Return to chapter overview](drawing_tools.md) [Next page](onmouseup.md) |
 
 Definition
 ----------
@@ -37,10 +37,10 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| chartControl | A [ChartControl](chartcontrol.htm) representing the x-axis |
-| chartPanel | A [ChartPanel](chartpanel.htm) representing the the panel for the chart |
-| chartScale | A [ChartScale](chartscale.htm) representing the y-axis |
-| dataPoint | A [ChartAnchor](chartanchor.htm) representing a point where the user is moving the mouse |
+| chartControl | A [ChartControl](chartcontrol.md) representing the x-axis |
+| chartPanel | A [ChartPanel](chartpanel.md) representing the the panel for the chart |
+| chartScale | A [ChartScale](chartscale.md) representing the y-axis |
+| dataPoint | A [ChartAnchor](chartanchor.md) representing a point where the user is moving the mouse |
 
 Examples
 --------

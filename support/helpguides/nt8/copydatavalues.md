@@ -6,10 +6,10 @@ CopyDataValues()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](copydatavalues.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Drawing Tool](drawing_tools.htm) > [ChartAnchor](chartanchor.htm) >  CopyDataValues() | [Previous page](chartanchor.htm) [Return to chapter overview](chartanchor.htm) [Next page](displayname.htm) |
+| << [Click to Display Table of Contents](copydatavalues.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > [ChartAnchor](chartanchor.md) >  CopyDataValues() | [Previous page](chartanchor.md) [Return to chapter overview](chartanchor.md) [Next page](displayname.md) |
 
 Definition  
-Copies the ChartAnchor time and price values from on anchor to another.  This includes the [BarsAgo](barsago.htm), [SlotIndex](barindex.htm), [Time](time.htm), [Price](price.htm), and [DrawnOnBar](drawnonbar.htm) values.  This method is useful for updating a chart anchor to a recent data point when the user interacts with the drawing chart anchor.
+Copies the ChartAnchor time and price values from on anchor to another.  This includes the [BarsAgo](barsago.md), [SlotIndex](barindex.md), [Time](time.md), [Price](price.md), and [DrawnOnBar](drawnonbar.md) values.  This method is useful for updating a chart anchor to a recent data point when the user interacts with the drawing chart anchor.
 
 Method Return Value
 -------------------

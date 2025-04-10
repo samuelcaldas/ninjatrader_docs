@@ -6,12 +6,12 @@ Points
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\points.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [TradeCollection](tradecollection-1.htm) > [TradesPerformance](tradesperformance-1.htm) >  Points | [Previous page](pips-1.htm) [Return to chapter overview](tradesperformance-1.htm) [Next page](profitfactor-1.htm) |
+| << [Click to Display Table of Contents](.\points.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [TradeCollection](tradecollection-1.md) > [TradesPerformance](tradesperformance-1.md) >  Points | [Previous page](pips-1.md) [Return to chapter overview](tradesperformance-1.md) [Next page](profitfactor-1.md) |
 
 Definition
 ----------
 
-Returns a [TradesPerformanceValues](tradesperformancevalues-1.htm) object in points.
+Returns a [TradesPerformanceValues](tradesperformancevalues-1.md) object in points.
 
 Property Value
 --------------

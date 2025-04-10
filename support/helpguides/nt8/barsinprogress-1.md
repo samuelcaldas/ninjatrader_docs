@@ -6,21 +6,21 @@ BarsInProgress
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\barsinprogress.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [AddDataSeries()](adddataseries-1.htm) >  BarsInProgress | [Previous page](barsarray-1.htm) [Return to chapter overview](adddataseries-1.htm) [Next page](barsperiods-1.htm) |
+| << [Click to Display Table of Contents](.\barsinprogress.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [AddDataSeries()](adddataseries-1.md) >  BarsInProgress | [Previous page](barsarray-1.md) [Return to chapter overview](adddataseries-1.md) [Next page](barsperiods-1.md) |
 
 Definition
 ----------
 
-An index value of the current Bars object that has called the [OnBarUpdate()](onbarupdate-1.htm) method. In a multi-bars script, the OnBarUpdate() method is called for each Bars object of a script. This flexibility allows you to separate trading logic from different bar events.
+An index value of the current Bars object that has called the [OnBarUpdate()](onbarupdate-1.md) method. In a multi-bars script, the OnBarUpdate() method is called for each Bars object of a script. This flexibility allows you to separate trading logic from different bar events.
 
 |  |
 | --- |
-| Notes:  1.In a single Bars script this property will always return an index value of 0 representing the primary Bars and instrument the script is running on.  2.See additional information on running [multi-bars scripts](multi-time_frame__instruments-1.htm). |
+| Notes:  1.In a single Bars script this property will always return an index value of 0 representing the primary Bars and instrument the script is running on.  2.See additional information on running [multi-bars scripts](multi-time_frame__instruments-1.md). |
 
 Property Value
 --------------
 
-An int value represents the [Bars](bars-1.htm) object that is calling the OnBarUpdate() method.
+An int value represents the [Bars](bars-1.md) object that is calling the OnBarUpdate() method.
 
 Syntax
 ------

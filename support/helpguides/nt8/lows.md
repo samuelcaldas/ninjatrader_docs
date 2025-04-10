@@ -6,12 +6,12 @@ Lows
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](lows.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [ISeries<T>](iseriest.htm) > [PriceSeries<double>](priceseries.htm) >  Lows | [Previous page](low.htm) [Return to chapter overview](priceseries.htm) [Next page](median.htm) |
+| << [Click to Display Table of Contents](lows.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [ISeries<T>](iseriest.md) > [PriceSeries<double>](priceseries.md) >  Lows | [Previous page](low.md) [Return to chapter overview](priceseries.md) [Next page](median.md) |
 
 Definition
 ----------
 
-Holds an array of ISeries<double> objects holding historical bar low prices. An ISeries<double> object is added to this array when calling the [AddDataSeries()](adddataseries.htm) method. Its purpose is to provide access to the low prices of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of ISeries<double> objects holding historical bar low prices. An ISeries<double> object is added to this array when calling the [AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the low prices of all Bars objects in a multi-instrument or multi-time frame script.
 
 Property Value
 --------------

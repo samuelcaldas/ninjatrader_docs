@@ -6,7 +6,7 @@ GetAtmStrategyStopTargetOrderStatus()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getatmstrategystoptargetorders.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [ATM Strategy Methods](atm_strategy_methods.htm) >  GetAtmStrategyStopTargetOrderStatus() | [Previous page](getatmstrategyrealizedprofitlo.htm) [Return to chapter overview](atm_strategy_methods.htm) [Next page](getatmstrategyunrealizedprofit.htm) |
+| << [Click to Display Table of Contents](getatmstrategystoptargetorders.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) >  GetAtmStrategyStopTargetOrderStatus() | [Previous page](getatmstrategyrealizedprofitlo.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](getatmstrategyunrealizedprofit.md) |
 
 Definition
 ----------
@@ -20,7 +20,7 @@ Gets the current order state(s) of the specified stop or target order of a still
 Method Return Value
 -------------------
 
-A string[,] multi-dimensional array holding three dimensions that represent average fill price, filled amount and [order state](order_state_definitions.htm). The length (number of elements) represents the number of orders that represent the specified name.
+A string[,] multi-dimensional array holding three dimensions that represent average fill price, filled amount and [order state](order_state_definitions.md). The length (number of elements) represents the number of orders that represent the specified name.
 
 Syntax
 ------

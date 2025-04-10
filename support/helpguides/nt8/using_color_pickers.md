@@ -6,7 +6,7 @@ Using Color Pickers
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using_color_pickers.htm) >>  **Navigation:**  [Operations](operations.htm) > [Windows](window_tabs.htm) >  Using Color Pickers | [Previous page](printing_content.htm) [Return to chapter overview](window_tabs.htm) [Next page](ninjascript.htm) |
+| << [Click to Display Table of Contents](using_color_pickers.md) >>  **Navigation:**  [Operations](operations.md) > [Windows](window_tabs.md) >  Using Color Pickers | [Previous page](printing_content.md) [Return to chapter overview](window_tabs.md) [Next page](ninjascript.md) |
 
 Color Picker
 
@@ -39,4 +39,4 @@ The image above shows an RGB value typed in to produce a White color.
 
 |  |
 | --- |
-| Note: Custom colors typed in manually will only apply to the specific Color Picker in which they are typed, and will not be available after the next startup. However, colors can be added to all Color Pickers permanently by [creating your own skin](creating_your_own_skin.htm). |
+| Note: Custom colors typed in manually will only apply to the specific Color Picker in which they are typed, and will not be available after the next startup. However, colors can be added to all Color Pickers permanently by [creating your own skin](creating_your_own_skin.md). |

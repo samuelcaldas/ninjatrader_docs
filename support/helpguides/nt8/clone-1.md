@@ -6,7 +6,7 @@ Clone()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\clone.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) >  Clone() | [Previous page](timezoneinfo-1.htm) [Return to chapter overview](common-1.htm) [Next page](description-1.htm) |
+| << [Click to Display Table of Contents](.\clone.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) >  Clone() | [Previous page](timezoneinfo-1.md) [Return to chapter overview](common-1.md) [Next page](description-1.md) |
 
 Definition
 ----------

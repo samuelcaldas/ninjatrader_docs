@@ -6,7 +6,7 @@ BarsSinceExitExecution()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barssinceexitexecution.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  BarsSinceExitExecution() | [Previous page](barssinceentryexecution.htm) [Return to chapter overview](strategy.htm) [Next page](chartindicators.htm) |
+| << [Click to Display Table of Contents](barssinceexitexecution.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  BarsSinceExitExecution() | [Previous page](barssinceentryexecution.md) [Return to chapter overview](strategy.md) [Next page](chartindicators.md) |
 
 Definition
 ----------
@@ -23,7 +23,7 @@ BarsSinceExitExecution()
 BarsSinceExitExecution(string signalName)
 ---------------------------------------------------------------------------
 
-The following method signature should be used when working with [multi-time frame and instrument strategies](multi-time_frame__instruments.htm):
+The following method signature should be used when working with [multi-time frame and instrument strategies](multi-time_frame__instruments.md):
 
 BarsSinceExitExecution(int barsInProgressIndex, string signalName, int exitExecutionsAgo)  
  
@@ -38,12 +38,12 @@ Parameters
 |  |  |
 | --- | --- |
 | signalName | The signal name of an exit order specified in an order exit method. |
-| barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [BarsInProgress](barsinprogress.htm) property. |
+| barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [BarsInProgress](barsinprogress.md) property. |
 | exitExecutionsAgo | Number of exit executions ago. Pass in 0 for the number of bars since the last exit execution. |
 
 |  |
 | --- |
-| Tip:  Please see [SetStopLoss()](setstoploss.htm), [SetProfitTarget()](setprofittarget.htm) or [SetTrailStop()](settrailstop.htm) for their corresponding signal name |
+| Tip:  Please see [SetStopLoss()](setstoploss.md), [SetProfitTarget()](setprofittarget.md) or [SetTrailStop()](settrailstop.md) for their corresponding signal name |
 
 Examples
 --------

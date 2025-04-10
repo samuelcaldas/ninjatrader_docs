@@ -6,14 +6,14 @@ Icon
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](icon_chartstyle.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Chart Style](chart_style.htm) >  Icon | [Previous page](getbarpaintwidth.htm) [Return to chapter overview](chart_style.htm) [Next page](istransparent.htm) |
+| << [Click to Display Table of Contents](icon_chartstyle.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Chart Style](chart_style.md) >  Icon | [Previous page](getbarpaintwidth.md) [Return to chapter overview](chart_style.md) [Next page](istransparent.md) |
 
 Definition
 ----------
 
 The shape which displays next to the Chart Style menu item.  Since this is a standard object, any type of icon can be used (unicode characters, custom image file resource, geometry path, etc).
 
-For more information on using images to create icons, see the [Using Images with Custom Icons](using_images_and_geometry_with_custom_icons.htm) page.
+For more information on using images to create icons, see the [Using Images with Custom Icons](using_images_and_geometry_with_custom_icons.md) page.
 
 |  |
 | --- |

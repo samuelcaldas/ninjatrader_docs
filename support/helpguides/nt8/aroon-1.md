@@ -6,7 +6,7 @@ Aroon
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\aroon.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Aroon | [Previous page](adaptive_price_zone_apz-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](aroon_oscillator-1.htm) |
+| << [Click to Display Table of Contents](.\aroon.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Aroon | [Previous page](adaptive_price_zone_apz-1.md) [Return to chapter overview](indicators-1.md) [Next page](aroon_oscillator-1.md) |
 
 Description 
 Developed by Tushar Chande in 1995, Aroon is an indicator system that can be used to determine whether a stock is trending or not and how strong the trend is. "Aroon" means "Dawn's Early Light" in Sanskrit and Chande chose that name for this indicator since it is designed to reveal the beginning of a new trend.
@@ -44,7 +44,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

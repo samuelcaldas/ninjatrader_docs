@@ -6,7 +6,7 @@ Licensing/User Authentication
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](licensing_user_authentication.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Distribution](distribution.htm) > [Commercial Distribution](commercial_distribution.htm) >  Licensing/User Authentication | [Previous page](commercial_distribution.htm) [Return to chapter overview](commercial_distribution.htm) [Next page](best_practices.htm) |
+| << [Click to Display Table of Contents](licensing_user_authentication.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Distribution](distribution.md) > [Commercial Distribution](commercial_distribution.md) >  Licensing/User Authentication | [Previous page](commercial_distribution.md) [Return to chapter overview](commercial_distribution.md) [Next page](best_practices.md) |
 
 NinjaTrader provides a free vendor license management service for user authentication to qualified 3rd party developers.
 

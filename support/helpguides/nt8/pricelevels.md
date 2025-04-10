@@ -6,18 +6,18 @@ PriceLevels Collection
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](pricelevels.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  PriceLevels Collection | [Previous page](idrawingtool.htm) [Return to chapter overview](drawing.htm) [Next page](removedrawobject.htm) |
+| << [Click to Display Table of Contents](pricelevels.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  PriceLevels Collection | [Previous page](idrawingtool.md) [Return to chapter overview](drawing.md) [Next page](removedrawobject.md) |
 
 Definition
 ----------
 
-A collection of PriceLevel objects defining lines for multi-price-level [Drawing Tools](drawing.htm) (Fibonacci tools, etc.). Each PriceLevel within the collection can be configured programmatically or analyzed to obtain the parameters of user-drawn objects.
+A collection of PriceLevel objects defining lines for multi-price-level [Drawing Tools](drawing.md) (Fibonacci tools, etc.). Each PriceLevel within the collection can be configured programmatically or analyzed to obtain the parameters of user-drawn objects.
 
  
 
 |  |
 | --- |
-| Note: PriceLevels is only used with the following pre-built Drawing Tools, but it can be used with custom Drawing Tools, as well:    •[AndrewsPitchfork](draw_andrewspitchfork.htm)  •[FibonacciCircle](draw_fibonaccicircle.htm)  •[FibonacciExtensions](draw_fibonacciextensions.htm)  •[FibonacciRetracements](draw_fibonacciretracements.htm)  •[FibonacciTimeExtensions](draw_fibonaccitimeextensions.htm)  •[GannFan](draw_gannfan.htm)  •[TrendChannel](draw_trendchannel.htm) |
+| Note: PriceLevels is only used with the following pre-built Drawing Tools, but it can be used with custom Drawing Tools, as well:    •[AndrewsPitchfork](draw_andrewspitchfork.md)  •[FibonacciCircle](draw_fibonaccicircle.md)  •[FibonacciExtensions](draw_fibonacciextensions.md)  •[FibonacciRetracements](draw_fibonacciretracements.md)  •[FibonacciTimeExtensions](draw_fibonaccitimeextensions.md)  •[GannFan](draw_gannfan.md)  •[TrendChannel](draw_trendchannel.md) |
 
 Syntax
 ------

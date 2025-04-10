@@ -6,7 +6,7 @@ ExitShort()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](exitshort.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [Order Methods](order_methods.htm) > [Managed Approach](managed_approach.htm) >  ExitShort() | [Previous page](exitlongstopmarket.htm) [Return to chapter overview](managed_approach.htm) [Next page](exitshortlimit.htm) |
+| << [Click to Display Table of Contents](exitshort.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Order Methods](order_methods.md) > [Managed Approach](managed_approach.md) >  ExitShort() | [Previous page](exitlongstopmarket.md) [Return to chapter overview](managed_approach.md) [Next page](exitshortlimit.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Generates a buy to cover market order to exit a short position.
 Method Return Value
 -------------------
 
-An [Order](order.htm) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.htm) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
 
 Syntax  
 ExitShort()
@@ -28,7 +28,7 @@ ExitShort(string signalName, string fromEntrySignal)
 
 ExitShort(int quantity, string signalName, string fromEntrySignal)
 
-The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.htm) concepts:
+The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.md) concepts:
 
  
 
@@ -44,7 +44,7 @@ Parameters
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | fromEntrySignal | The entry signal name. This ties the exit to the entry and exits the position quantity represented by the actual entry.    Note:  Using an empty string will attach the exit order to all entries. |
 | quantity | Entry order quantity. |
-| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress.htm) property. |
+| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](barsinprogress.md) property. |
 
 Examples
 --------
@@ -55,4 +55,4 @@ Examples
 
 |  |
 | --- |
-| Tips (also see [Overview](managed_approach.htm)):  •This method is ignored if a short position does not exist  •It is helpful to provide a signal name if your strategy has multiple exit points to help identify your exits on a chart  •You can tie an exit to an entry by providing the entry signal name in the parameter "fromEntrySignal"  •If you do not specify a quantity the entire position is exited rendering your strategy flat  •If you do not specify a "fromEntrySignal" parameter the entire position is exited rendering your strategy flat |
+| Tips (also see [Overview](managed_approach.md)):  •This method is ignored if a short position does not exist  •It is helpful to provide a signal name if your strategy has multiple exit points to help identify your exits on a chart  •You can tie an exit to an entry by providing the entry signal name in the parameter "fromEntrySignal"  •If you do not specify a quantity the entire position is exited rendering your strategy flat  •If you do not specify a "fromEntrySignal" parameter the entire position is exited rendering your strategy flat |

@@ -6,18 +6,18 @@ Using Alerts
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using_alerts.htm) >>  **Navigation:**  [Operations](operations.htm) > [Alerts](alerts.htm) >  Using Alerts | [Previous page](alerts.htm) [Return to chapter overview](alerts.htm) [Next page](alerts_dialog.htm) |
+| << [Click to Display Table of Contents](using_alerts.md) >>  **Navigation:**  [Operations](operations.md) > [Alerts](alerts.md) >  Using Alerts | [Previous page](alerts.md) [Return to chapter overview](alerts.md) [Next page](alerts_dialog.md) |
 
 What can an alert do?
 ---------------------
 
 When an alert condition is triggered, you can define exactly how the alert behaves allowing you to:
 
-•Display a custom message on the [Alerts Log](alerts_log.htm)
+•Display a custom message on the [Alerts Log](alerts_log.md)
 
 •Play a sound
 
-•Share content to a specific [Sharing Service](general_section.htm)
+•Share content to a specific [Sharing Service](general_section.md)
 
 •Display a Pop Up Dialog with a custom message
 
@@ -25,7 +25,7 @@ When an alert condition is triggered, you can define exactly how the alert behav
 
 |  |
 | --- |
-| Notes:  1) While an alert will give you the ability to submit custom orders, they are natively limited in the type of account and order management information that is available.  If you are interested in developing a more complex system for an automated trading approach, please see our Help Guide articles on developing an [Automated NinjaScript Strategy](strategy.htm).  2) Alerts are not intended to be used with Playback while using an increased speed. Alerts are checked every 200 milliseconds, so using them in Playback could result in an alert not triggering. |
+| Notes:  1) While an alert will give you the ability to submit custom orders, they are natively limited in the type of account and order management information that is available.  If you are interested in developing a more complex system for an automated trading approach, please see our Help Guide articles on developing an [Automated NinjaScript Strategy](strategy.md).  2) Alerts are not intended to be used with Playback while using an increased speed. Alerts are checked every 200 milliseconds, so using them in Playback could result in an alert not triggering. |
 
 What kind of information can be used for an alert?
 --------------------------------------------------

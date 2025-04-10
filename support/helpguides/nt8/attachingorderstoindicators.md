@@ -6,14 +6,14 @@ Attaching Orders To Indicators
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](attachingorderstoindicators.htm) >>  **Navigation:**  [Operations](operations.htm) > [Order Entry](order_entry.htm) >  Attaching Orders To Indicators | [Previous page](order_entry.htm) [Return to chapter overview](order_entry.htm) [Next page](simulated_stop_orders.htm) |
+| << [Click to Display Table of Contents](attachingorderstoindicators.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) >  Attaching Orders To Indicators | [Previous page](order_entry.md) [Return to chapter overview](order_entry.md) [Next page](simulated_stop_orders.md) |
 
 Indicator Tracking
 ------------------
 
 Adding indicators to the SuperDOM or Chart Trader gives you the ability to "attach" a working order to the Indicator price level, which will automatically modify the price of the order as your indicator values change.  The frequency of the modifications will depend on the Calculate settings of the indicator.
 
-After you have configured an indicator to be displayed on the SuperDOM or Chart Trader, right clicking on a working order will now have a right click menu option called "Attach to Indicator".  This feature will be available for both manually placed Entry/Exit orders as well as pre-configured [ATM Strategy](atm_strategy.htm) Stop Loss and Profit Target orders.
+After you have configured an indicator to be displayed on the SuperDOM or Chart Trader, right clicking on a working order will now have a right click menu option called "Attach to Indicator".  This feature will be available for both manually placed Entry/Exit orders as well as pre-configured [ATM Strategy](atm_strategy.md) Stop Loss and Profit Target orders.
 
 |  |
 | --- |
@@ -22,7 +22,7 @@ After you have configured an indicator to be displayed on the SuperDOM or Chart 
 
 |  |
 | --- |
-| Note: ATM Strategies will only work with Attach to Indicator for stop orders which do not have a [Stop Strategy](stop_strategy.htm) configured.  Enabling Attach to Indicator on an ATM Strategy which has an associated Stop Strategy will disable the Stop Strategy and will then be managed by the indicator instead. |
+| Note: ATM Strategies will only work with Attach to Indicator for stop orders which do not have a [Stop Strategy](stop_strategy.md) configured.  Enabling Attach to Indicator on an ATM Strategy which has an associated Stop Strategy will disable the Stop Strategy and will then be managed by the indicator instead. |
 
 ![SuperDOM_40](superdom_40.png)
 

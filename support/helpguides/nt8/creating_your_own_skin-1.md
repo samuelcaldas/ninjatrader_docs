@@ -6,7 +6,7 @@ Creating your own Skin
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\creating_your_own_skin.htm) >>  **Navigation:**  [Configuration](configuration-1.htm) > [Options](options-1.htm) > [General](general_section-1.htm) >  Creating your own Skin | [Previous page](general_section-1.htm) [Return to chapter overview](general_section-1.htm) [Next page](enabling_disabling-multi-provi-1.htm) |
+| << [Click to Display Table of Contents](.\creating_your_own_skin.md) >>  **Navigation:**  [Configuration](configuration-1.md) > [Options](options-1.md) > [General](general_section-1.md) >  Creating your own Skin | [Previous page](general_section-1.md) [Return to chapter overview](general_section-1.md) [Next page](enabling_disabling-multi-provi-1.md) |
 
 You can create your own skin by creating a copy of the skin template located in the "My Documents > NinjaTrader > Templates > Skins" directory. Do not modify skin templates directly, as on each new installation they will be overwritten by the NinjaTrader installer. Instead, first make a copy of a skin directory, then rename the folder to the desired skin name. On restart of NinjaTrader, the new skin directory will be detected, allowing you to switch over to the skin to activate it.
 

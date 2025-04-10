@@ -6,7 +6,7 @@ Level II Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\levelii_properties.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Level II](level_ii-1.htm) >  Level II Properties | [Previous page](levelii_usingtheleveliiwindow-1.htm) [Return to chapter overview](level_ii-1.htm) [Next page](levelii_windowlinking-1.htm) |
+| << [Click to Display Table of Contents](.\levelii_properties.md) >>  **Navigation:**  [Operations](operations-1.md) > [Level II](level_ii-1.md) >  Level II Properties | [Previous page](levelii_usingtheleveliiwindow-1.md) [Return to chapter overview](level_ii-1.md) [Next page](levelii_windowlinking-1.md) |
 
 The Level II window can be customized through the Level II Properties window.
 
@@ -32,4 +32,4 @@ The Level II window can be customized through the Level II Properties window.
 
 |  |
 | --- |
-| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Level II Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.htm) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Level II Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs-1.md) page. |

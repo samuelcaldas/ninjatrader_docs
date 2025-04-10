@@ -6,7 +6,7 @@ Order Handling Options
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\order_handling_options.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Automated Trading](automated_trading-1.htm) > [Automated Trading Interface (ATI)](automated_trading_interface_at-1.htm) > [TradeStation Email Integration](tradestation_email_integration-1.htm) >  Order Handling Options | [Previous page](symbol_mapping-1.htm) [Return to chapter overview](tradestation_email_integration-1.htm) [Next page](stop_order_handling-1.htm) |
+| << [Click to Display Table of Contents](.\order_handling_options.md) >>  **Navigation:**  [Operations](operations-1.md) > [Automated Trading](automated_trading-1.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at-1.md) > [TradeStation Email Integration](tradestation_email_integration-1.md) >  Order Handling Options | [Previous page](symbol_mapping-1.md) [Return to chapter overview](tradestation_email_integration-1.md) [Next page](stop_order_handling-1.md) |
 
 |  |
 | --- |
@@ -46,4 +46,4 @@ Order Handling Options
 
 |  |
 | --- |
-| Special Handling for FX through FOREX.com/City Index FOREX.com will reject a limit order to buy at the offer or above or to sell at the bid or below. NinjaTrader can check the current market rate on limit order submission and automatically convert to market if the limit price is invalid according to FOREX.com but in your favor resulting in a fill. To have NinjaTrader check for these conditions, you must be subscribed to rate data for the currency pair being traded. We suggest opening a [Market Analyzer](market_analyzer-1.htm) (to open a Market Analyzer window select the File menu and then the menu name New) and adding all traded currency pairs to this grid. This ensures that there is available rate data for NinjaTrader to cross check an incoming limit price against. |
+| Special Handling for FX through FOREX.com/City Index FOREX.com will reject a limit order to buy at the offer or above or to sell at the bid or below. NinjaTrader can check the current market rate on limit order submission and automatically convert to market if the limit price is invalid according to FOREX.com but in your favor resulting in a fill. To have NinjaTrader check for these conditions, you must be subscribed to rate data for the currency pair being traded. We suggest opening a [Market Analyzer](market_analyzer-1.md) (to open a Market Analyzer window select the File menu and then the menu name New) and adding all traded currency pairs to this grid. This ensures that there is available rate data for NinjaTrader to cross check an incoming limit price against. |

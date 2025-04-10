@@ -6,12 +6,12 @@ Highs
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\highs.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [ISeries<T>](iseriest-1.htm) > [PriceSeries<double>](priceseries-1.htm) >  Highs | [Previous page](high-1.htm) [Return to chapter overview](priceseries-1.htm) [Next page](input-1.htm) |
+| << [Click to Display Table of Contents](.\highs.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [ISeries<T>](iseriest-1.md) > [PriceSeries<double>](priceseries-1.md) >  Highs | [Previous page](high-1.md) [Return to chapter overview](priceseries-1.md) [Next page](input-1.md) |
 
 Definition
 ----------
 
-Holds an array of ISeries<double> objects holding historical bar high prices. A ISeries<double> object is added to this array when calling the [AddDataSeries()](adddataseries-1.htm) method. Its purpose is to provide access to the high prices of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of ISeries<double> objects holding historical bar high prices. A ISeries<double> object is added to this array when calling the [AddDataSeries()](adddataseries-1.md) method. Its purpose is to provide access to the high prices of all Bars objects in a multi-instrument or multi-time frame script.
 
 Property Value
 --------------

@@ -6,12 +6,12 @@ D2DFactory
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](d2dfactory.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [Rendering](rendering.htm) >  D2DFactory | [Previous page](rendering.htm) [Return to chapter overview](rendering.htm) [Next page](directwritefactory.htm) |
+| << [Click to Display Table of Contents](d2dfactory.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [Rendering](rendering.md) >  D2DFactory | [Previous page](rendering.md) [Return to chapter overview](rendering.md) [Next page](directwritefactory.md) |
 
 Definition
 ----------
 
-Provides a default Direct2D1 factory used for creating [SharpDX.Direct2D1](sharpdx_direct2d1.htm) components.
+Provides a default Direct2D1 factory used for creating [SharpDX.Direct2D1](sharpdx_direct2d1.md) components.
 
 Property Value
 --------------
@@ -27,7 +27,7 @@ NinjaTrader.Core.Globals.D2DFactory
 
 |  |
 | --- |
-| Warning: Please ensure this property would only be accessed from [OnRender()](onrender.htm) or [OnRenderTargetChanged()](onrendertargetchanged.htm) (which run in the UI thread), as access from other threads outside those methods could cause a degradation in performance. |
+| Warning: Please ensure this property would only be accessed from [OnRender()](onrender.md) or [OnRenderTargetChanged()](onrendertargetchanged.md) (which run in the UI thread), as access from other threads outside those methods could cause a degradation in performance. |
 
  
 

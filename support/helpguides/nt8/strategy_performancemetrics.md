@@ -6,19 +6,19 @@ PerformanceMetrics
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](strategy_performancemetrics.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  PerformanceMetrics | [Previous page](orderfillresolutionvalue.htm) [Return to chapter overview](strategy.htm) [Next page](strategy_plots.htm) |
+| << [Click to Display Table of Contents](strategy_performancemetrics.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  PerformanceMetrics | [Previous page](orderfillresolutionvalue.md) [Return to chapter overview](strategy.md) [Next page](strategy_plots.md) |
 
 Definition
 ----------
 
-Holds an array of [PerformanceMetrics](performancemetrics.htm) objects that represent custom metrics that can be used for strategy calcuations.
+Holds an array of [PerformanceMetrics](performancemetrics.md) objects that represent custom metrics that can be used for strategy calcuations.
 
-Index value is based on the the array of Bars objects added via the [AddPerformanceMetric](addperformancemetric.htm) method.
+Index value is based on the the array of Bars objects added via the [AddPerformanceMetric](addperformancemetric.md) method.
 
 Property Value
 --------------
 
-An array of [PerformanceMetrics](performancemetrics.htm) objects.
+An array of [PerformanceMetrics](performancemetrics.md) objects.
 
 Syntax 
 PerformanceMetrics[int index]

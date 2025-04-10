@@ -6,12 +6,12 @@ OnWindowDestroyed()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onwindowdestroyed.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  OnWindowDestroyed() | [Previous page](onwindowcreated.htm) [Return to chapter overview](add_on.htm) [Next page](onwindowrestored.htm) |
+| << [Click to Display Table of Contents](onwindowdestroyed.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  OnWindowDestroyed() | [Previous page](onwindowcreated.md) [Return to chapter overview](add_on.md) [Next page](onwindowrestored.md) |
 
 Definition
 ----------
 
-This method is called whenever a new [NTWindow](ntwindow.htm) is destroyed. It will be called in the thread of that window.  A window is destroyed either by the user closing the window, closing a workspace, or on a shut down of NinjaTrader.
+This method is called whenever a new [NTWindow](ntwindow.md) is destroyed. It will be called in the thread of that window.  A window is destroyed either by the user closing the window, closing a workspace, or on a shut down of NinjaTrader.
 
 |  |
 | --- |

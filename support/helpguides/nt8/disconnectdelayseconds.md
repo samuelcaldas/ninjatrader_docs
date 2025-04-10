@@ -6,12 +6,12 @@ DisconnectDelaySeconds
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](disconnectdelayseconds.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  DisconnectDelaySeconds | [Previous page](defaultquantity.htm) [Return to chapter overview](strategy.htm) [Next page](entriesperdirection.htm) |
+| << [Click to Display Table of Contents](disconnectdelayseconds.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  DisconnectDelaySeconds | [Previous page](defaultquantity.md) [Return to chapter overview](strategy.md) [Next page](entriesperdirection.md) |
 
 Definition
 ----------
 
-Determines the amount of time a disconnect would have to last before [connection loss handling](connectionlosshandling.htm) takes action.
+Determines the amount of time a disconnect would have to last before [connection loss handling](connectionlosshandling.md) takes action.
 
 Property Value
 --------------

@@ -6,7 +6,7 @@ NinjaScript Editor Components
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\ns_editor_components.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Editor](editor-1.htm) >  NinjaScript Editor Components | [Previous page](nodoc-1.htm) [Return to chapter overview](editor-1.htm) [Next page](ns_explorer-1.htm) |
+| << [Click to Display Table of Contents](.\ns_editor_components.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Editor](editor-1.md) >  NinjaScript Editor Components | [Previous page](nodoc-1.md) [Return to chapter overview](editor-1.md) [Next page](ns_explorer-1.md) |
 
 Overview
 --------
@@ -21,7 +21,7 @@ The NinjaScript Editor is a powerful scripting editor that allows you to create 
 
 4. Line modification marking - Yellow flags indicate unsaved line modifications where green flags indicate saved modifications
 
-5. Tabs for creating new scripts via the [NinjaScript wizard](ns_wizard-1.htm) and working on multiple scripts.
+5. Tabs for creating new scripts via the [NinjaScript wizard](ns_wizard-1.md) and working on multiple scripts.
 
     ![NS_Editor_1](ns_editor_1.png)
 
@@ -37,7 +37,7 @@ Context menus can be opened by right-clicking in the NinjaScript Editor.
 | Context Menu Items |  |
 | Save | Saves pending changes to the currently open NinjaScript |
 | Save As | Creates a copy of the script and attempts to rename the class name so the new script is unique |
-| Insert Code Snippet | Inserts a code snippet (see [Code Snippets](code_snippets-1.htm) for more information) |
+| Insert Code Snippet | Inserts a code snippet (see [Code Snippets](code_snippets-1.md) for more information) |
 | Go To Line... | Moves the cursor to the line of code specified. |
 | Undo | Undoes the last modification |
 | Redo | Applies the modification that was last Undone |
@@ -46,12 +46,12 @@ Context menus can be opened by right-clicking in the NinjaScript Editor.
 | Paste | Pastes the text saved in the clipboard |
 | Remove | Removes the selected text |
 | Select All | Selects all text in the Code Editor |
-| Debug Mode | Sets if a debug dll should be generated on compilation (see [Visual Studio Debugging](visual_studio_debugging-1.htm) for more information) |
+| Debug Mode | Sets if a debug dll should be generated on compilation (see [Visual Studio Debugging](visual_studio_debugging-1.md) for more information) |
 | References... | Opens the list of dll references used by NinjaTrader. This includes dll's used by NinjaTrader and dll's installed with custom Add On's. |
 | Show Warnings | Enables Warning messages to be seen alongside compile errors |
 | Always On Top | Sets the  NinjaScript Editor to viewed on top of other windows |
-| Print | Allows printing the content of this window (see [Printing Content](printing_content-1.htm) for more information) |
-| Share | Allows sharing the content of this window (see [Sharing Content](sharing_content-1.htm) for more information) |
+| Print | Allows printing the content of this window (see [Printing Content](printing_content-1.md) for more information) |
+| Share | Allows sharing the content of this window (see [Sharing Content](sharing_content-1.md) for more information) |
 | Properties | Opens the Properties menu (see below) |
 
 Properties and Definitions
@@ -64,7 +64,7 @@ NinjaTrader_2020-12-03_10-03-00
 | --- | --- |
 | General |  |
 | Auto hide NinjaScript explorer | Sets if the NinjaScript explorer should be collapsed by default |
-| Debug mode | Sets if a debug dll should be generated on compilation (see [Visual Studio Debugging](visual_studio_debugging-1.htm) for more information) |
+| Debug mode | Sets if a debug dll should be generated on compilation (see [Visual Studio Debugging](visual_studio_debugging-1.md) for more information) |
 | Inline syntax checking | Sets if errors and warnings should be detected as code is written (without needing to compile) |
 | Auto bracket completion | Sets if opening characters should automatically bed appended closing characters. Works for (parentheses), [brackets], {braces}, <angled brackets> |
 | Show indentation lines | Displays vertical lines for code formatting |

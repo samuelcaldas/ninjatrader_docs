@@ -6,7 +6,7 @@ Auto Chase
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\auto_chase.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.htm) > [ATM Strategy](atm_strategy-1.htm) > [Advanced Options](advanced_options-1.htm) >  Auto Chase | [Previous page](advanced_options-1.htm) [Return to chapter overview](advanced_options-1.htm) [Next page](auto_reverse-1.htm) |
+| << [Click to Display Table of Contents](.\auto_chase.md) >>  **Navigation:**  [Operations](operations-1.md) > [Advanced Trade Management (ATM)](advanced_trade_management_atm-1.md) > [ATM Strategy](atm_strategy-1.md) > [Advanced Options](advanced_options-1.md) >  Auto Chase | [Previous page](advanced_options-1.md) [Return to chapter overview](advanced_options-1.md) [Next page](auto_reverse-1.md) |
 
 Auto Chase will automatically adjust the price of a limit order as the market moves away from it.
 

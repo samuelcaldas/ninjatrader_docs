@@ -6,7 +6,7 @@ Order Flow Cumulative Delta
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](order_flow_cumulative_delta2.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Order Flow Cumulative Delta | [Previous page](on_balance_volume_obv.htm) [Return to chapter overview](indicators.htm) [Next page](order_flow_volumetric_bars2.htm) |
+| << [Click to Display Table of Contents](order_flow_cumulative_delta2.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Order Flow Cumulative Delta | [Previous page](on_balance_volume_obv.md) [Return to chapter overview](indicators.md) [Next page](order_flow_volumetric_bars2.md) |
 
 Description
 -----------
@@ -64,7 +64,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | deltaType | The type of data to delta calculates on:  BidAsk  UpDownTick |
 | period | The period in which the delta accumulates:  Session  Bar |
 | sizeFilter | Input to exclude volume less than the selected value |

@@ -6,7 +6,7 @@ Draw.FibonacciExtensions()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_fibonacciextensions.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.FibonacciExtensions() | [Previous page](fibonaccicircle.htm) [Return to chapter overview](drawing.htm) [Next page](fibonacciextensions.htm) |
+| << [Click to Display Table of Contents](draw_fibonacciextensions.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.FibonacciExtensions() | [Previous page](fibonaccicircle.md) [Return to chapter overview](drawing.md) [Next page](fibonacciextensions.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a fibonacci extension.
 Method Return Value
 -------------------
 
-A [FibonacciExtensions](fibonacciextensions.htm) object that represents the draw object.
+A [FibonacciExtensions](fibonacciextensions.md) object that represents the draw object.
 
 Syntax
 ------

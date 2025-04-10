@@ -6,7 +6,7 @@ Ultimate Oscillator
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\ultimate_oscillator.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Ultimate Oscillator | [Previous page](true_strength_index_tsi-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](volume-1.htm) |
+| << [Click to Display Table of Contents](.\ultimate_oscillator.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Ultimate Oscillator | [Previous page](true_strength_index_tsi-1.md) [Return to chapter overview](indicators-1.md) [Next page](volume-1.md) |
 
 Description
 -----------
@@ -34,7 +34,7 @@ Parameters
 |  |  |
 | --- | --- |
 | fast | The number of bars to include in the short term period |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | intermediate | The number of bars to include in the intermediate term period |
 | slow | The number of bars to include in the long term period |
 

@@ -6,7 +6,7 @@ Manage Server Side ATM Templates
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](manage-server-side-atm-templat.htm) >>  **Navigation:**  [Operations](operations.htm) > [Advanced Trade Management (ATM)](advanced_trade_management_atm.htm) > [Server Side ATMs](server-side-atm-strategy.htm) >  Manage Server Side ATM Templates | [Previous page](server-side-stop-strategy.htm) [Return to chapter overview](server-side-atm-strategy.htm) [Next page](auto_close_position.htm) |
+| << [Click to Display Table of Contents](manage-server-side-atm-templat.md) >>  **Navigation:**  [Operations](operations.md) > [Advanced Trade Management (ATM)](advanced_trade_management_atm.md) > [Server Side ATMs](server-side-atm-strategy.md) >  Manage Server Side ATM Templates | [Previous page](server-side-stop-strategy.md) [Return to chapter overview](server-side-atm-strategy.md) [Next page](auto_close_position.md) |
 
 An ATM Strategy is defined by the parameters you enter into the ATM Strategy parameters section on any of the order entry screens. The collection of parameters that make up a strategy can be saved as a template that you can recall at a later date to automatically populate all of the ATM Strategy parameters. Templates are specific to your account and the selected instrument.
 

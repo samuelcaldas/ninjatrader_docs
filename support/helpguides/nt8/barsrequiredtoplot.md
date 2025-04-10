@@ -6,7 +6,7 @@ BarsRequiredToPlot
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](barsrequiredtoplot.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) >  BarsRequiredToPlot | [Previous page](plots.htm) [Return to chapter overview](indicator.htm) [Next page](displayindatabox.htm) |
+| << [Click to Display Table of Contents](barsrequiredtoplot.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) >  BarsRequiredToPlot | [Previous page](plots.md) [Return to chapter overview](indicator.md) [Next page](displayindatabox.md) |
 
 Definition
 ----------

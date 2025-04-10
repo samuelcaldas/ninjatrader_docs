@@ -6,7 +6,7 @@ ZOrder
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chart_zorder.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [Rendering](rendering.htm) >  ZOrder | [Previous page](setzorder.htm) [Return to chapter overview](rendering.htm) [Next page](formatpricemarker.htm) |
+| << [Click to Display Table of Contents](chart_zorder.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [Rendering](rendering.md) >  ZOrder | [Previous page](setzorder.md) [Return to chapter overview](rendering.md) [Next page](formatpricemarker.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ A unique identifier representing the index in which chart objects are drawn on t
 
 |  |
 | --- |
-| Note:  The ZOrder index should NOT be set using this property. Please use the dedicated [SetZOrder()](setzorder.htm) for this purpose. |
+| Note:  The ZOrder index should NOT be set using this property. Please use the dedicated [SetZOrder()](setzorder.md) for this purpose. |
 
 Property Value
 --------------

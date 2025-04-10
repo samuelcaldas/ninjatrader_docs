@@ -6,12 +6,12 @@ Using Images and Geometry with Custom Icons
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\using_images_and_geometry_with_custom_icons.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) >  Using Images and Geometry with Custom Icons | [Previous page](using_historical_bid_ask_serie-1.htm) [Return to chapter overview](educational_resources-1.htm) [Next page](using_sharpdx_for_custom_chart_rendering-1.htm) |
+| << [Click to Display Table of Contents](.\using_images_and_geometry_with_custom_icons.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) >  Using Images and Geometry with Custom Icons | [Previous page](using_historical_bid_ask_serie-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](using_sharpdx_for_custom_chart_rendering-1.md) |
 
 Custom Icon Overview
 --------------------
 
-When overriding the Icon method in a [Share Service](share_service-1.htm), [Drawing Object](drawing_tools-1.htm), or [Chart Style](chart_style-1.htm), you can use a variety of inputs to specify what will be displayed on the icon, including UniCode characters (if they exist in the icon pack for the font family used in NinjaTrader), custom Geometry Paths from the System.Windows.Shapes namespace, or image files. Using an image file for a custom icon can allow the flexibility of creating your icon's visuals outside of your code via image editing software. For more information about adding custom Icons, see the "Icon" page under the topics for each of the NinjaScript object types listed above.
+When overriding the Icon method in a [Share Service](share_service-1.md), [Drawing Object](drawing_tools-1.md), or [Chart Style](chart_style-1.md), you can use a variety of inputs to specify what will be displayed on the icon, including UniCode characters (if they exist in the icon pack for the font family used in NinjaTrader), custom Geometry Paths from the System.Windows.Shapes namespace, or image files. Using an image file for a custom icon can allow the flexibility of creating your icon's visuals outside of your code via image editing software. For more information about adding custom Icons, see the "Icon" page under the topics for each of the NinjaScript object types listed above.
 
 ![tog_minus](tog_minus-1.gif)        Using an Image as an Icon
 

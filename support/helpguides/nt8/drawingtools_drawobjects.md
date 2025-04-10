@@ -6,7 +6,7 @@ DrawObjects
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](drawingtools_drawobjects.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  DrawObjects | [Previous page](candleoutlinebrushes.htm) [Return to chapter overview](drawing.htm) [Next page](idrawingtool.htm) |
+| << [Click to Display Table of Contents](drawingtools_drawobjects.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  DrawObjects | [Previous page](candleoutlinebrushes.md) [Return to chapter overview](drawing.md) [Next page](idrawingtool.md) |
 
 Definition
 ----------
@@ -22,7 +22,7 @@ A collection holding all of the drawn chart objects on the chart, for all series
 Property Value
 --------------
 
-A collection of [IDrawingTool](idrawingtool.htm) objects.
+A collection of [IDrawingTool](idrawingtool.md) objects.
 
 Syntax
 ------
@@ -60,4 +60,4 @@ Examples
 
 |  |
 | --- |
-| Note: Typecasting as in the example above will not function the same way in a compiled assembly (DLL). For an alternative approach, see the [Considerations For Compiled Assemblies](considerations_for_compiled_assemblies.htm) page. |
+| Note: Typecasting as in the example above will not function the same way in a compiled assembly (DLL). For an alternative approach, see the [Considerations For Compiled Assemblies](considerations_for_compiled_assemblies.md) page. |

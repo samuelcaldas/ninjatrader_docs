@@ -6,7 +6,7 @@ Median
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\median.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [ISeries<T>](iseriest-1.htm) > [PriceSeries<double>](priceseries-1.htm) >  Median | [Previous page](lows-1.htm) [Return to chapter overview](priceseries-1.htm) [Next page](medians-1.htm) |
+| << [Click to Display Table of Contents](.\median.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [ISeries<T>](iseriest-1.md) > [PriceSeries<double>](priceseries-1.md) >  Median | [Previous page](lows-1.md) [Return to chapter overview](priceseries-1.md) [Next page](medians-1.md) |
 
 Definition
 ----------

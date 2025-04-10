@@ -6,7 +6,7 @@ Moving Average - Variable (VMA)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\moving_average_-_variable_vma.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Moving Average - Variable (VMA) | [Previous page](moving_average_-_triple_expon2-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](moving_average_-_volume_weight-1.htm) |
+| << [Click to Display Table of Contents](.\moving_average_-_variable_vma.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Moving Average - Variable (VMA) | [Previous page](moving_average_-_triple_expon2-1.md) [Return to chapter overview](indicators-1.md) [Next page](moving_average_-_volume_weight-1.md) |
 
 Description
 -----------
@@ -37,9 +37,9 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
-| volatilityPeriod | The number of bars used to calculate the [CMO](chande_momentum_oscillator_cmo-1.htm) based volatility index |
+| volatilityPeriod | The number of bars used to calculate the [CMO](chande_momentum_oscillator_cmo-1.md) based volatility index |
 
 Examples
 --------

@@ -6,12 +6,12 @@ PerformanceMetrics
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](performancemetrics.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  PerformanceMetrics | [Previous page](percent.htm) [Return to chapter overview](tradesperformance.htm) [Next page](pips.htm) |
+| << [Click to Display Table of Contents](performancemetrics.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  PerformanceMetrics | [Previous page](percent.md) [Return to chapter overview](tradesperformance.md) [Next page](pips.md) |
 
 Definition
 ----------
 
-Returns a collection of custom [Performance Metrics](performance_metrics.htm). These need to have been enabled in [Tools > Options > General](general_section.htm) to be able to use them.
+Returns a collection of custom [Performance Metrics](performance_metrics.md). These need to have been enabled in [Tools > Options > General](general_section.md) to be able to use them.
 
 Syntax 
 <TradeCollection>.TradesPerformance.PerformanceMetrics

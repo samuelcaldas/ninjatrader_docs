@@ -6,7 +6,7 @@ Moving Average - Triple Exponential (TEMA)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](moving_average_-_triple_expone.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Moving Average - Triple Exponential (TEMA) | [Previous page](moving_average_-_triangular_tm.htm) [Return to chapter overview](indicators.htm) [Next page](moving_average_-_triple_expon2.htm) |
+| << [Click to Display Table of Contents](moving_average_-_triple_expone.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Moving Average - Triple Exponential (TEMA) | [Previous page](moving_average_-_triangular_tm.md) [Return to chapter overview](indicators.md) [Next page](moving_average_-_triple_expon2.md) |
 
 Description
 -----------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

@@ -6,16 +6,16 @@ TestPeriod
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](testperiod.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  TestPeriod | [Previous page](shorttrades.htm) [Return to chapter overview](strategy.htm) [Next page](timeinforce.htm) |
+| << [Click to Display Table of Contents](testperiod.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  TestPeriod | [Previous page](shorttrades.md) [Return to chapter overview](strategy.md) [Next page](timeinforce.md) |
 
 Definition
 ----------
 
-Reserved for [Walk-Forward Optimization](walk_forward_optimize_a_strate.htm), this property determines the number of days used for the "out of sample" backtest period for a given strategy.  See also [OptimizationPeriod](optimizationperiod.htm).
+Reserved for [Walk-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "out of sample" backtest period for a given strategy.  See also [OptimizationPeriod](optimizationperiod.md).
 
 |  |
 | --- |
-| Note:  This property should ONLY be called from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults |
+| Note:  This property should ONLY be called from the [OnStateChange()](onstatechange.md) method during State.SetDefaults |
 
 Property Value
 --------------

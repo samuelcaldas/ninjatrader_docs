@@ -6,7 +6,7 @@ Performance Tips
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](performance_tips.htm) >>  **Navigation:**  [Operations](operations.htm) > [Market Analyzer](market_analyzer.htm) >  Performance Tips | [Previous page](working_with_templates.htm) [Return to chapter overview](market_analyzer.htm) [Next page](reloading_indicators__columns.htm) |
+| << [Click to Display Table of Contents](performance_tips.md) >>  **Navigation:**  [Operations](operations.md) > [Market Analyzer](market_analyzer.md) >  Performance Tips | [Previous page](working_with_templates.md) [Return to chapter overview](market_analyzer.md) [Next page](reloading_indicators__columns.md) |
 
 The following performance tips are specific to the Market Analyzer window.
 
@@ -32,4 +32,4 @@ Indicator Calculate on Bar Close Parameter
 Dynamic Ranking and Sorting Frequency
 -------------------------------------
 
-•Depending on the number of Instruments you have added to your Market Analyzer display, using a low "[Auto Sort seconds](market_analyzer_properties.htm)" value can cause your CPU to spike as the auto sort feature continues to re-evaluate the ranking of the column you are sorting.  For example, using a value of 1 second on 100 instruments could potentially overwork your CPU.  Setting this to a higher value, such as every 10-30 seconds, will reduce the CPU workload, and still maintain dynamic sorting at a customizable interval.  You should monitor your CPU workload to find the number of seconds that work for your system.
+•Depending on the number of Instruments you have added to your Market Analyzer display, using a low "[Auto Sort seconds](market_analyzer_properties.md)" value can cause your CPU to spike as the auto sort feature continues to re-evaluate the ranking of the column you are sorting.  For example, using a value of 1 second on 100 instruments could potentially overwork your CPU.  Setting this to a higher value, such as every 10-30 seconds, will reduce the CPU workload, and still maintain dynamic sorting at a customizable interval.  You should monitor your CPU workload to find the number of seconds that work for your system.

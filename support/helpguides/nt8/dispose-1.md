@@ -6,7 +6,7 @@ Dispose()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\dispose.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) >  Dispose() | [Previous page](displayonchartsmenus-1.htm) [Return to chapter overview](drawing_tools-1.htm) [Next page](drawingstate-1.htm) |
+| << [Click to Display Table of Contents](.\dispose.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) >  Dispose() | [Previous page](displayonchartsmenus-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](drawingstate-1.md) |
 
 Definition
 ----------

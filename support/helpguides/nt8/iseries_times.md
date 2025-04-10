@@ -6,12 +6,12 @@ Times
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](iseries_times.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [ISeries<T>](iseriest.htm) > [TimeSeries<DateTime>](timeseries.htm) >  Times | [Previous page](iseries_time.htm) [Return to chapter overview](timeseries.htm) [Next page](volumeseries.htm) |
+| << [Click to Display Table of Contents](iseries_times.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [ISeries<T>](iseriest.md) > [TimeSeries<DateTime>](timeseries.md) >  Times | [Previous page](iseries_time.md) [Return to chapter overview](timeseries.md) [Next page](volumeseries.md) |
 
 Definition
 ----------
 
-Holds an array of ISeries<DateTime> objects holding historical bar times. A ISeries<DateTime> object is added to this array when calling the [AddDataSeries()](adddataseries.htm) method. Its purpose is to provide access to the times of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of ISeries<DateTime> objects holding historical bar times. A ISeries<DateTime> object is added to this array when calling the [AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the times of all Bars objects in a multi-instrument or multi-time frame script.
 
 Property Value
 --------------

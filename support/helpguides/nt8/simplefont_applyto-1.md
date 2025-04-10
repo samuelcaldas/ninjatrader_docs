@@ -6,12 +6,12 @@ ApplyTo()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\simplefont_applyto.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [SimpleFont](simplefont_class-1.htm) >  ApplyTo() | [Previous page](simplefont_class-1.htm) [Return to chapter overview](simplefont_class-1.htm) [Next page](simplefont_todirectwritetextformat-1.htm) |
+| << [Click to Display Table of Contents](.\simplefont_applyto.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [SimpleFont](simplefont_class-1.md) >  ApplyTo() | [Previous page](simplefont_class-1.md) [Return to chapter overview](simplefont_class-1.md) [Next page](simplefont_todirectwritetextformat-1.md) |
 
 Definition
 ----------
 
-Applies a custom [SimpleFont](simplefont_class-1.htm) object's properties (family, size, and style) to a [Windows Control](https://msdn.microsoft.com/en-us/library/system.windows.controls.control(v=vs.110).aspx)
+Applies a custom [SimpleFont](simplefont_class-1.md) object's properties (family, size, and style) to a [Windows Control](https://msdn.microsoft.com/en-us/library/system.windows.controls.control(v=vs.110).aspx)
 
 Method Return Value
 -------------------

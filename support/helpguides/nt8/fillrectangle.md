@@ -6,7 +6,7 @@ FillRectangle()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\fillrectangle.htm) >>  **Navigation:**  »No topics above this level«  FillRectangle() | [Return to chapter overview](sharpdx_directwrite_textlayout-1.htm) |
+| << [Click to Display Table of Contents](.\fillrectangle.md) >>  **Navigation:**  »No topics above this level«  FillRectangle() | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
 
 Definition 
 Draws a rectangle between two points.

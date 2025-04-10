@@ -6,7 +6,7 @@ BackBrush
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](backbrush.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  BackBrush | [Previous page](allowremovalofdrawobjects.htm) [Return to chapter overview](drawing.htm) [Next page](backbrushall.htm) |
+| << [Click to Display Table of Contents](backbrush.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  BackBrush | [Previous page](allowremovalofdrawobjects.md) [Return to chapter overview](drawing.md) [Next page](backbrushall.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Sets the brush used for painting the chart panel's background color for the curr
 
 |  |
 | --- |
-| Note: This property will only set the back color for the panel the indicator is running.  To set background color for all panels, please see the [BackBrushAll](backbrushall.htm) property. |
+| Note: This property will only set the back color for the panel the indicator is running.  To set background color for all panels, please see the [BackBrushAll](backbrushall.md) property. |
 
  
 
@@ -35,7 +35,7 @@ BackBrush
 
 |  |
 | --- |
-| Warning:  You may have up to 65,535 unique BackBrush instances, therefore, using [static predefined brushes](working_with_brushes.htm) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created. |
+| Warning:  You may have up to 65,535 unique BackBrush instances, therefore, using [static predefined brushes](working_with_brushes.md) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created. |
 
 Examples
 --------

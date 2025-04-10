@@ -6,16 +6,16 @@ ToIndex
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\chartbars_toindex.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartBars](chartbars-1.htm) >  ToIndex | [Previous page](chartbars_tochartstring()-1.htm) [Return to chapter overview](chartbars-1.htm) [Next page](chartcontrol-1.htm) |
+| << [Click to Display Table of Contents](.\chartbars_toindex.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartBars](chartbars-1.md) >  ToIndex | [Previous page](chartbars_tochartstring()-1.md) [Return to chapter overview](chartbars-1.md) [Next page](chartcontrol-1.md) |
 
 Definition
 ----------
 
-An index value representing the last bar rendered on the chart.  See also [FromIndex](chartbars_fromindex-1.htm).
+An index value representing the last bar rendered on the chart.  See also [FromIndex](chartbars_fromindex-1.md).
 
 |  |
 | --- |
-| Note:  This value is NOT the last value that exists on the [ChartBars](chartbars-1.htm), but rather the last bar index that is within the viewable range of the chart canvas area.  This value changes as the user interacts with the [ChartControl](chartcontrol-1.htm) time-scale (x-axis). |
+| Note:  This value is NOT the last value that exists on the [ChartBars](chartbars-1.md), but rather the last bar index that is within the viewable range of the chart canvas area.  This value changes as the user interacts with the [ChartControl](chartcontrol-1.md) time-scale (x-axis). |
 
 Property Value
 --------------

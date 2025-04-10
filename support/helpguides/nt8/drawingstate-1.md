@@ -6,7 +6,7 @@ DrawingState
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\drawingstate.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) >  DrawingState | [Previous page](dispose-1.htm) [Return to chapter overview](drawing_tools-1.htm) [Next page](drawnby-1.htm) |
+| << [Click to Display Table of Contents](.\drawingstate.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) >  DrawingState | [Previous page](dispose-1.md) [Return to chapter overview](drawing_tools-1.md) [Next page](drawnby-1.md) |
 
 Definition
 ----------

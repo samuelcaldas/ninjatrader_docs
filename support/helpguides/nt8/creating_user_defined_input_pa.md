@@ -6,7 +6,7 @@ Creating User Defined Input Parameters
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](creating_user_defined_input_pa.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Tips](tips.htm) >  Creating User Defined Input Parameters | [Previous page](checking_for_null_references.htm) [Return to chapter overview](tips.htm) [Next page](debugging_your_ninjascript_cod.htm) |
+| << [Click to Display Table of Contents](creating_user_defined_input_pa.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Tips](tips.md) >  Creating User Defined Input Parameters | [Previous page](checking_for_null_references.md) [Return to chapter overview](tips.md) [Next page](debugging_your_ninjascript_cod.md) |
 
 You can create user defined input parameters for both NinjaScript Indicators and Strategies. Although user defined input parameters can be specified as part of the initial set up of NinjaScript Indicator or Strategies using the Wizard you may have a requirement to add new parameters at a later point in your development process. To create these parameters you will need to edit your NinjaScript code and follow these steps.
 

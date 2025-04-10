@@ -6,7 +6,7 @@ BackBrushesAll
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\backbrushesall.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Drawing](drawing-1.htm) >  BackBrushesAll | [Previous page](backbrushes-1.htm) [Return to chapter overview](drawing-1.htm) [Next page](barbrush-1.htm) |
+| << [Click to Display Table of Contents](.\backbrushesall.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Drawing](drawing-1.md) >  BackBrushesAll | [Previous page](backbrushes-1.md) [Return to chapter overview](drawing-1.md) [Next page](barbrush-1.md) |
 
 Definition
 ----------
@@ -28,7 +28,7 @@ BackBrushesAll[int barsAgo]
 
 |  |
 | --- |
-| Warning:  You may have up to 65,535 unique BackBrushAll instances, therefore, using [static predefined brushes](working_with_brushes-1.htm) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created. |
+| Warning:  You may have up to 65,535 unique BackBrushAll instances, therefore, using [static predefined brushes](working_with_brushes-1.md) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created. |
 
 Examples
 --------

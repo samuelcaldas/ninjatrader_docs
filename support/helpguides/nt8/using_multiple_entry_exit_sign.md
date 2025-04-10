@@ -6,7 +6,7 @@ Using multiple entry/exit signals simultaneously
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using_multiple_entry_exit_sign.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Strategy](strategy2.htm) >  Using multiple entry/exit signals simultaneously | [Previous page](using_cancelorder_method_to_ca.htm) [Return to chapter overview](strategy2.htm) [Next page](using_onorderupdate_and_onexec.htm) |
+| << [Click to Display Table of Contents](using_multiple_entry_exit_sign.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Strategy](strategy2.md) >  Using multiple entry/exit signals simultaneously | [Previous page](using_cancelorder_method_to_ca.md) [Return to chapter overview](strategy2.md) [Next page](using_onorderupdate_and_onexec.md) |
 
 Sometimes you want to trade an instrument with several different possible entry conditions. To keep track of which trade used which conditions can become cumbersome if done on paper.
 
@@ -22,22 +22,22 @@ The attached reference sample demonstrates the following key concepts:
 Important methods and properties used include:
 ----------------------------------------------
 
-•[AddChartIndicator()](addchartindicator.htm)
+•[AddChartIndicator()](addchartindicator.md)
 
-•[EntriesPerDirection\*](entriesperdirection.htm)
+•[EntriesPerDirection\*](entriesperdirection.md)
 
-•[EntryHandling\*](entryhandling.htm)
+•[EntryHandling\*](entryhandling.md)
 
 \* Entry handling properties can be either programmatically set or set through the Strategy dialog window
 
 Other methods and properties of interest include:
 -------------------------------------------------
 
-•[EnterLongLimit()](enterlonglimit.htm)
+•[EnterLongLimit()](enterlonglimit.md)
 
-•[EnterLongStopMarket()](enterlongstopmarket.htm)
+•[EnterLongStopMarket()](enterlongstopmarket.md)
 
-•[EnterLongStopLimit()](enterlongstoplimit.htm)
+•[EnterLongStopLimit()](enterlongstoplimit.md)
 
 Import instructions
 -------------------

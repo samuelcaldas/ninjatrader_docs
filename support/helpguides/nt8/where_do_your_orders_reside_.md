@@ -6,7 +6,7 @@ Where do your orders reside?
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](where_do_your_orders_reside_.htm) >>  **Navigation:**  [Operations](operations.htm) > [Order Entry](order_entry.htm) >  Where do your orders reside? | [Previous page](working_with_forex.htm) [Return to chapter overview](order_entry.htm) [Next page](trade_controls.htm) |
+| << [Click to Display Table of Contents](where_do_your_orders_reside_.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) >  Where do your orders reside? | [Previous page](working_with_forex.md) [Return to chapter overview](order_entry.md) [Next page](trade_controls.md) |
 
 NinjaTrader
 -----------
@@ -62,4 +62,4 @@ OCO (One Cancels Other) functionality is natively supported on their servers.
 
 |  |
 | --- |
-| Note: Please note that MIT orders and Simulated Orders, which are in [TriggerPending state](order_state_definitions.htm), could not be recovered by NinjaTrader, if the provider does not provide native support. The order state after connection recovery would then be 'Unknown'. |
+| Note: Please note that MIT orders and Simulated Orders, which are in [TriggerPending state](order_state_definitions.md), could not be recovered by NinjaTrader, if the provider does not provide native support. The order state after connection recovery would then be 'Unknown'. |

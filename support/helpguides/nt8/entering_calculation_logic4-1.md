@@ -6,7 +6,7 @@ Entering Calculation Logic
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\entering_calculation_logic4.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Developing Indicators](developing_indicators-1.htm) > [Intermediate - Historical Custom Data Series](intermediate_-_historical_cust-1.htm) >  Entering Calculation Logic | [Previous page](set_up7-1.htm) [Return to chapter overview](intermediate_-_historical_cust-1.htm) [Next page](compiling4-1.htm) |
+| << [Click to Display Table of Contents](.\entering_calculation_logic4.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Developing Indicators](developing_indicators-1.md) > [Intermediate - Historical Custom Data Series](intermediate_-_historical_cust-1.md) >  Entering Calculation Logic | [Previous page](set_up7-1.md) [Return to chapter overview](intermediate_-_historical_cust-1.md) [Next page](compiling4-1.md) |
 
 The OnBarUpdate() method is called for each incoming tick or on the close of a bar (user defined) when performing real-time calculations and is called on each bar of a data series when re-calculating the indicator. For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed. Therefore, this is the main method called for indicator calculation and we will use this method to enter the script that will do our calculations.
 
@@ -43,7 +43,7 @@ To plot our final calculation we will store the calculation in our plot called '
 | --- |
 | // Add the bar's range to the SMA value  MyPlot[0] = SMA(SMAPeriod)[0] + MySeries[0]; |
 
-Here we assign the SMA + Series<double> value to the property that represents the plot data using the "=" assignment operator. We have just finished coding our CustomSeries example. The class code in your editor should look identical to the below. You are now ready to [compile the indicator](compiling4-1.htm) and configure it on a chart.
+Here we assign the SMA + Series<double> value to the property that represents the plot data using the "=" assignment operator. We have just finished coding our CustomSeries example. The class code in your editor should look identical to the below. You are now ready to [compile the indicator](compiling4-1.md) and configure it on a chart.
 
 | ns |
 | --- |

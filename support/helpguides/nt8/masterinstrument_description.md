@@ -6,12 +6,12 @@ Description
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](masterinstrument_description.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Instruments](instruments_ninjascript.htm) > [Instrument](instrument.htm) > [MasterInstrument](masterinstrument.htm) >  Description | [Previous page](masterinstrument_currency.htm) [Return to chapter overview](masterinstrument.htm) [Next page](dividends.htm) |
+| << [Click to Display Table of Contents](masterinstrument_description.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > [Instrument](instrument.md) > [MasterInstrument](masterinstrument.md) >  Description | [Previous page](masterinstrument_currency.md) [Return to chapter overview](masterinstrument.md) [Next page](dividends.md) |
 
 Definition
 ----------
 
-Indicates the description configured for the [Master Instrument properties](editing_instruments.htm).
+Indicates the description configured for the [Master Instrument properties](editing_instruments.md).
 
 Property Value
 --------------

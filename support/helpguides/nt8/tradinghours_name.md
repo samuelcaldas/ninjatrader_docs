@@ -6,7 +6,7 @@ Name
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](tradinghours_name.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [TradingHours](tradinghours.htm) >  Name | [Previous page](holidays.htm) [Return to chapter overview](tradinghours.htm) [Next page](partialholidays.htm) |
+| << [Click to Display Table of Contents](tradinghours_name.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [TradingHours](tradinghours.md) >  Name | [Previous page](holidays.md) [Return to chapter overview](tradinghours.md) [Next page](partialholidays.md) |
 
 Definition
 ----------

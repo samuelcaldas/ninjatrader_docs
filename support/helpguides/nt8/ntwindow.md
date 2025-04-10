@@ -6,16 +6,16 @@ NTWindow
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](ntwindow.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  NTWindow | [Previous page](ntmessageboxsimple_show().htm) [Return to chapter overview](add_on.htm) [Next page](numerictextbox.htm) |
+| << [Click to Display Table of Contents](ntwindow.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  NTWindow | [Previous page](ntmessageboxsimple_show().md) [Return to chapter overview](add_on.md) [Next page](numerictextbox.md) |
 
 Definition
 ----------
 
-The NTWindow class defines parent windows for custom window creation. Instances of NTWindow act as containers for instances of [NTTabPage](nttabpage_class.htm), in which UI elements and their related logic are contained.
+The NTWindow class defines parent windows for custom window creation. Instances of NTWindow act as containers for instances of [NTTabPage](nttabpage_class.md), in which UI elements and their related logic are contained.
 
 |  |
 | --- |
-| Notes:  •The [IWorkspacePersistance](iworkspacepersistence_interface.htm) interface should be implemented if you want your window to be saved and restored with NinjaTrader workspaces.  •AddOn Classes which derive from NTWindow or implements IWorkspacePersistance CANNOT be a [nested type](https://msdn.microsoft.com/en-us/library/ms173120.aspx) of another class and MUST have a [default constructor](https://msdn.microsoft.com/en-us/library/ms173115.aspx) |
+| Notes:  •The [IWorkspacePersistance](iworkspacepersistence_interface.md) interface should be implemented if you want your window to be saved and restored with NinjaTrader workspaces.  •AddOn Classes which derive from NTWindow or implements IWorkspacePersistance CANNOT be a [nested type](https://msdn.microsoft.com/en-us/library/ms173120.aspx) of another class and MUST have a [default constructor](https://msdn.microsoft.com/en-us/library/ms173115.aspx) |
 
 Example
 -------
@@ -32,7 +32,7 @@ The example below shows how to instantiate an NTWindow while:
 
 |  |
 | --- |
-| Tip:  For a complete, working example of this class in use, download framework example located on our [AddOn Development Overview](addon_development_overview.htm) |
+| Tip:  For a complete, working example of this class in use, download framework example located on our [AddOn Development Overview](addon_development_overview.md) |
 
 | ns |
 | --- |

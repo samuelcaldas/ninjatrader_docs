@@ -6,7 +6,7 @@ Attributes
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\attributes.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) >  Attributes | [Previous page](totime-1.htm) [Return to chapter overview](common-1.htm) [Next page](browsableattribute-1.htm) |
+| << [Click to Display Table of Contents](.\attributes.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) >  Attributes | [Previous page](totime-1.md) [Return to chapter overview](common-1.md) [Next page](browsableattribute-1.md) |
 
 The following section documents both .NET native and NinjaScript custom [attributes](https://msdn.microsoft.com/en-us/library/5x6cd29c(v=vs.110).aspx) which are commonly used to define the behavior of a NinjaScript property or object.  The attributes outlined in the section are primarily used to customize how properties display on the UI, but may also control or how the object is compiled and executed at run time.
 
@@ -19,12 +19,12 @@ Common Attributes
 
 |  |  |
 | --- | --- |
-| [BrowsableAttribute](browsableattribute-1.htm) | Determines if a property should be displays in the NinjaTrader UI's property grid |
-| [CategoryOrderAttribute](categoryorderattribute-1.htm) | Determines the sequence in which a NinjaScript object's [Display.GroupName](displayattribute-1.htm) categories are arranged in relation to other categories in the UI. |
-| [DisplayAttribute](displayattribute-1.htm) | Determines how a property is displays on the NinjaTrader UI's property grid. |
-| [NinjaScriptPropertyAttribute](ninjascriptpropertyattribute-1.htm) | Determines if a property should be included in the NinjaScript object's constructor as a parameter |
-| [RangeAttribute](rangeattribute-1.htm) | Determines if the value of a property is valid within a specified range |
-| [XmlIgnoreAttribute](xmlignoreattribute-1.htm) | Determines if a property participates in the XML serialization routines (saving workspaces or templates) |
+| [BrowsableAttribute](browsableattribute-1.md) | Determines if a property should be displays in the NinjaTrader UI's property grid |
+| [CategoryOrderAttribute](categoryorderattribute-1.md) | Determines the sequence in which a NinjaScript object's [Display.GroupName](displayattribute-1.md) categories are arranged in relation to other categories in the UI. |
+| [DisplayAttribute](displayattribute-1.md) | Determines how a property is displays on the NinjaTrader UI's property grid. |
+| [NinjaScriptPropertyAttribute](ninjascriptpropertyattribute-1.md) | Determines if a property should be included in the NinjaScript object's constructor as a parameter |
+| [RangeAttribute](rangeattribute-1.md) | Determines if the value of a property is valid within a specified range |
+| [XmlIgnoreAttribute](xmlignoreattribute-1.md) | Determines if a property participates in the XML serialization routines (saving workspaces or templates) |
 
 Applying Attributes
 -------------------

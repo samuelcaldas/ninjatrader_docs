@@ -6,7 +6,7 @@ AtmStrategyChangeEntryOrder()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\atmstrategychangeentryorder.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) > [ATM Strategy Methods](atm_strategy_methods-1.htm) >  AtmStrategyChangeEntryOrder() | [Previous page](atmstrategycancelentryorder-1.htm) [Return to chapter overview](atm_strategy_methods-1.htm) [Next page](atmstrategychangestoptarget-1.htm) |
+| << [Click to Display Table of Contents](.\atmstrategychangeentryorder.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) > [ATM Strategy Methods](atm_strategy_methods-1.md) >  AtmStrategyChangeEntryOrder() | [Previous page](atmstrategycancelentryorder-1.md) [Return to chapter overview](atm_strategy_methods-1.md) [Next page](atmstrategychangestoptarget-1.md) |
 
 Definition
 ----------

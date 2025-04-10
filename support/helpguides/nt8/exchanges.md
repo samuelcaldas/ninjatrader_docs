@@ -6,12 +6,12 @@ Exchanges
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](exchanges.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Instruments](instruments_ninjascript.htm) > [Instrument](instrument.htm) > [MasterInstrument](masterinstrument.htm) >  Exchanges | [Previous page](dividends.htm) [Return to chapter overview](masterinstrument.htm) [Next page](formatprice.htm) |
+| << [Click to Display Table of Contents](exchanges.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > [Instrument](instrument.md) > [MasterInstrument](masterinstrument.md) >  Exchanges | [Previous page](dividends.md) [Return to chapter overview](masterinstrument.md) [Next page](formatprice.md) |
 
 Definition
 ----------
 
-A collection of exchange(s) configured for the [Master Instrument properties](editing_instruments.htm).
+A collection of exchange(s) configured for the [Master Instrument properties](editing_instruments.md).
 
 Property Value
 --------------

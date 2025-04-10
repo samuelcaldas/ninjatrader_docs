@@ -6,7 +6,7 @@ ProfitPerMonth
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](profitpermonth.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradesPerformanceValues](tradesperformancevalues.htm) >  ProfitPerMonth | [Previous page](largestwinner.htm) [Return to chapter overview](tradesperformancevalues.htm) [Next page](stddev.htm) |
+| << [Click to Display Table of Contents](profitpermonth.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradesPerformanceValues](tradesperformancevalues.md) >  ProfitPerMonth | [Previous page](largestwinner.md) [Return to chapter overview](tradesperformancevalues.md) [Next page](stddev.md) |
 
 Definition
 ----------

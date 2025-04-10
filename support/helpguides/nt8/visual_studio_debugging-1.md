@@ -6,7 +6,7 @@ Visual Studio Debugging
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\visual_studio_debugging.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Editor](editor-1.htm) >  Visual Studio Debugging | [Previous page](output-1.htm) [Return to chapter overview](editor-1.htm) [Next page](editor_keyboard_shortcuts-1.htm) |
+| << [Click to Display Table of Contents](.\visual_studio_debugging.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Editor](editor-1.md) >  Visual Studio Debugging | [Previous page](output-1.md) [Return to chapter overview](editor-1.md) [Next page](editor_keyboard_shortcuts-1.md) |
 
 You can debug your NinjaScript objects using Microsoft Visual Studio. NinjaScript objects are compiled into a single DLL, named "NinjaTrader.Custom.dll." When debugging, a special debug DLL is created for temporary use, with the same name as the release version.
 

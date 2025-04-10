@@ -6,7 +6,7 @@ AveragePrice
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](position_averageprice.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [Position](position.htm) >  AveragePrice | [Previous page](position.htm) [Return to chapter overview](position.htm) [Next page](position_getunrealizedprofitloss.htm) |
+| << [Click to Display Table of Contents](position_averageprice.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [Position](position.md) >  AveragePrice | [Previous page](position.md) [Return to chapter overview](position.md) [Next page](position_getunrealizedprofitloss.md) |
 
 Definition
 ----------

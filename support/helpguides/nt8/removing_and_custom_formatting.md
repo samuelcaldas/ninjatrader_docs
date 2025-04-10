@@ -6,7 +6,7 @@ Removing and Custom Formatting an Indicator’s Chart Label
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](removing_and_custom_formatting.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Indicator](indicator2.htm) >  Removing and Custom Formatting an Indicator’s Chart Label | [Previous page](multi-colored_plots.htm) [Return to chapter overview](indicator2.htm) [Next page](using_a_secondary_series_as_an.htm) |
+| << [Click to Display Table of Contents](removing_and_custom_formatting.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Removing and Custom Formatting an Indicator’s Chart Label | [Previous page](multi-colored_plots.md) [Return to chapter overview](indicator2.md) [Next page](using_a_secondary_series_as_an.md) |
 
 If you create a NinjaScript indicator or strategy with many customizable parameters, you will have a long label when you load the NinjaScript onto your chart. This may be visually cumbersome so you may want to trim the displayed label to a more manageable size that only contains the most important parameters.
 
@@ -18,11 +18,11 @@ Key concepts in this example:
 Important related documentation
 -------------------------------
 
-•[Draw.TextFixed()](draw_textfixed.htm)
+•[Draw.TextFixed()](draw_textfixed.md)
 
-•[Draw.Text()](draw_text.htm)
+•[Draw.Text()](draw_text.md)
 
-•[Override DisplayName()](indicator_displayname.htm)
+•[Override DisplayName()](indicator_displayname.md)
 
  
 

@@ -6,7 +6,7 @@ Format()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](format.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Performance Metrics](performance_metrics.htm) >  Format() | [Previous page](performance_metrics.htm) [Return to chapter overview](performance_metrics.htm) [Next page](onaddtrade.htm) |
+| << [Click to Display Table of Contents](format.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Performance Metrics](performance_metrics.md) >  Format() | [Previous page](performance_metrics.md) [Return to chapter overview](performance_metrics.md) [Next page](onaddtrade.md) |
 
 Definition
 ----------

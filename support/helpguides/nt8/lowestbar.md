@@ -6,7 +6,7 @@ LowestBar()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](lowestbar.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  LowestBar() | [Previous page](least_recent_occurence_lro.htm) [Return to chapter overview](market_data.htm) [Next page](most_recent_occurence_mro.htm) |
+| << [Click to Display Table of Contents](lowestbar.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  LowestBar() | [Previous page](least_recent_occurence_lro.md) [Return to chapter overview](market_data.md) [Next page](most_recent_occurence_mro.md) |
 
 Definition
 ----------

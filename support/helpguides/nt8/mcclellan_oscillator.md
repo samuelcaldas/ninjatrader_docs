@@ -6,7 +6,7 @@ McClellan Oscillator
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](mcclellan_oscillator.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  McClellan Oscillator | [Previous page](maximum_max.htm) [Return to chapter overview](indicators.htm) [Next page](minimum_min.htm) |
+| << [Click to Display Table of Contents](mcclellan_oscillator.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  McClellan Oscillator | [Previous page](maximum_max.md) [Return to chapter overview](indicators.md) [Next page](minimum_min.md) |
 
 Description
 -----------
@@ -31,7 +31,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | fastPeriod | Number of bars used in the fast moving average calculation |
 | slowPeriod | Number of bars used in the slow moving average calculation |
 

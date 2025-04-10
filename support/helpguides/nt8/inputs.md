@@ -6,12 +6,12 @@ Inputs
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](inputs.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [ISeries<T>](iseriest.htm) > [PriceSeries<double>](priceseries.htm) >  Inputs | [Previous page](input.htm) [Return to chapter overview](priceseries.htm) [Next page](low.htm) |
+| << [Click to Display Table of Contents](inputs.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [ISeries<T>](iseriest.md) > [PriceSeries<double>](priceseries.md) >  Inputs | [Previous page](input.md) [Return to chapter overview](priceseries.md) [Next page](low.md) |
 
 Definition
 ----------
 
-Holds an array of ISeries<double> objects holding the main data input. A ISeries<double> object is added to this array when calling the [AddDataSeries()](adddataseries.htm) method. Its purpose is to provide access to the main input all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of ISeries<double> objects holding the main data input. A ISeries<double> object is added to this array when calling the [AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the main input all Bars objects in a multi-instrument or multi-time frame script.
 
 Property Value
 --------------

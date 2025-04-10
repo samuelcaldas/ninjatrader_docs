@@ -6,18 +6,18 @@ ToChartString()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](tochartstring.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Bars](bars.htm) >  ToChartString() | [Previous page](tickcount.htm) [Return to chapter overview](bars.htm) [Next page](chart.htm) |
+| << [Click to Display Table of Contents](tochartstring.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  ToChartString() | [Previous page](tickcount.md) [Return to chapter overview](bars.md) [Next page](chart.md) |
 
 Definition
 ----------
 
-Returns the bars series as a formatted string, including the [Instrument.FullName](instrument_fullname.htm), [BarsPeriod](barsperiod.htm) Value, and BarsPeriodType name.
+Returns the bars series as a formatted string, including the [Instrument.FullName](instrument_fullname.md), [BarsPeriod](barsperiod.md) Value, and BarsPeriodType name.
 
  
 
 |  |
 | --- |
-| Note:  To obtain a return value which matches the user configured [ChartBars Label property](chartbars_properties.htm), please see the [ChartBars.ToChartString()](chartbars_tochartstring().htm) method |
+| Note:  To obtain a return value which matches the user configured [ChartBars Label property](chartbars_properties.md), please see the [ChartBars.ToChartString()](chartbars_tochartstring().md) method |
 
 Syntax
 ------

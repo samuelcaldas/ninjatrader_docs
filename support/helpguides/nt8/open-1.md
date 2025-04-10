@@ -6,7 +6,7 @@ Open
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\open.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [ISeries<T>](iseriest-1.htm) > [PriceSeries<double>](priceseries-1.htm) >  Open | [Previous page](medians-1.htm) [Return to chapter overview](priceseries-1.htm) [Next page](opens-1.htm) |
+| << [Click to Display Table of Contents](.\open.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [ISeries<T>](iseriest-1.md) > [PriceSeries<double>](priceseries-1.md) >  Open | [Previous page](medians-1.md) [Return to chapter overview](priceseries-1.md) [Next page](opens-1.md) |
 
 Definition
 ----------

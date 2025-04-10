@@ -6,12 +6,12 @@ CreateOrder()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](createorder.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Account](account_class.htm) >  CreateOrder() | [Previous page](connectoptions.htm) [Return to chapter overview](account_class.htm) [Next page](denomination.htm) |
+| << [Click to Display Table of Contents](createorder.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) >  CreateOrder() | [Previous page](connectoptions.md) [Return to chapter overview](account_class.md) [Next page](denomination.md) |
 
 Definition
 ----------
 
-Creates an [Order](order.htm) to be submitted via [Submit()](submit.htm).
+Creates an [Order](order.md) to be submitted via [Submit()](submit.md).
 
 Syntax
 ------
@@ -36,7 +36,7 @@ Parameters
 | limitPrice | Order limit price. Use "0" should this parameter be irrelevant for the OrderType being submitted. |
 | stopPrice | Order stop price. Use "0" should this parameter be irrelevant for the OrderType being submitted. |
 | oco | A string representing the OCO ID used to link OCO orders together |
-| name | A string representing the name of the order. Max 50 characters.    Note:  If using ATM Strategy [StartAtmStrategy()](startatmstrategy.htm), this value MUST be "Entry" |
+| name | A string representing the name of the order. Max 50 characters.    Note:  If using ATM Strategy [StartAtmStrategy()](startatmstrategy.md), this value MUST be "Entry" |
 | gtd | A DateTime value to be used with TimeInForce.Gtd - for all other cases you can pass in Core.Globals.MaxDate |
 | customOrder | Custom order if it is being used |
 

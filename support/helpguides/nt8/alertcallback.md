@@ -6,7 +6,7 @@ AlertCallback()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](alertcallback.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Alert and Debug Concepts](alert_and_debug_concepts.htm) >  AlertCallback() | [Previous page](alert_and_debug_concepts.htm) [Return to chapter overview](alert_and_debug_concepts.htm) [Next page](alert_rearmalert().htm) |
+| << [Click to Display Table of Contents](alertcallback.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Alert and Debug Concepts](alert_and_debug_concepts.md) >  AlertCallback() | [Previous page](alert_and_debug_concepts.md) [Return to chapter overview](alert_and_debug_concepts.md) [Next page](alert_rearmalert().md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Creates an alert event to be raised specified by a string "id" and a correspondi
 
 |  |
 | --- |
-| Notes:  1.If the AlertCallback() method is called again with the same string "id" parameter before the provided "rearmSeconds" duration has passed, the alert event will be reset based on the new "rearmSeconds" parameter provided.  Doing so could consequently cause an alert to be reset inadvertently, in which case you should pass a "rearmSeconds" parameter of "0" to ensure the specified alert event is always raised.  2.The AlertCallback() method is the same core function used by the simpler [Alert()](alert.htm) method which can alternatively be used with NinjaScript indicators and strategies.  The AlertCallback() was exposed for use with Add-ons or other more advance use cases.  3.Providing a "rearmSeconds"  parameter greater than "0" will add the matching alert id to a rearmed state, which only allows the alert to be reissued after the specified time interval in seconds has lapsed.  You can reset an alert's rearm parameter by using the [ResetAlertRearmById()](alert_rearmalert().htm). |
+| Notes:  1.If the AlertCallback() method is called again with the same string "id" parameter before the provided "rearmSeconds" duration has passed, the alert event will be reset based on the new "rearmSeconds" parameter provided.  Doing so could consequently cause an alert to be reset inadvertently, in which case you should pass a "rearmSeconds" parameter of "0" to ensure the specified alert event is always raised.  2.The AlertCallback() method is the same core function used by the simpler [Alert()](alert.md) method which can alternatively be used with NinjaScript indicators and strategies.  The AlertCallback() was exposed for use with Add-ons or other more advance use cases.  3.Providing a "rearmSeconds"  parameter greater than "0" will add the matching alert id to a rearmed state, which only allows the alert to be reissued after the specified time interval in seconds has lapsed.  You can reset an alert's rearm parameter by using the [ResetAlertRearmById()](alert_rearmalert().md). |
 
 Method Return Value
 -------------------
@@ -40,7 +40,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| instrument | An [Instrument](instrument.htm) object associated with the alert. |
+| instrument | An [Instrument](instrument.md) object associated with the alert. |
 | source | A generic object type which created the alert (e.g. "this") |
 | id | A string representing a unique id for the alert |
 | time | The DateTime representing the time associated with the alert |

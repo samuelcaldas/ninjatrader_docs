@@ -6,12 +6,12 @@ AddLineBreak()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](addlinebreak.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [AddDataSeries()](adddataseries.htm) >  AddLineBreak() | [Previous page](addkagi.htm) [Return to chapter overview](adddataseries.htm) [Next page](addpointandfigure.htm) |
+| << [Click to Display Table of Contents](addlinebreak.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [AddDataSeries()](adddataseries.md) >  AddLineBreak() | [Previous page](addkagi.md) [Return to chapter overview](adddataseries.md) [Next page](addpointandfigure.md) |
 
 Definition
 ----------
 
-Similar to the [AddDataSeries()](adddataseries.htm) method for adding Bars objects, this method adds a Line Break Bars object for multi-series NinjaScript.
+Similar to the [AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a Line Break Bars object for multi-series NinjaScript.
 
  
 

@@ -6,21 +6,21 @@ Arc
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](arc.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) > [Draw.Arc()](draw_arc.htm) >  Arc | [Previous page](draw_arc.htm) [Return to chapter overview](draw_arc.htm) [Next page](draw_arrowdown.htm) |
+| << [Click to Display Table of Contents](arc.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Arc()](draw_arc.md) >  Arc | [Previous page](draw_arc.md) [Return to chapter overview](draw_arc.md) [Next page](draw_arrowdown.md) |
 
 Definition
 ----------
 
-Represents an interface that exposes information regarding an Arc [IDrawingTool](idrawingtool.htm).
+Represents an interface that exposes information regarding an Arc [IDrawingTool](idrawingtool.md).
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the end point of the drawing object |
-| Stroke | A [Stroke](stroke_class.htm) object used to draw the object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| Stroke | A [Stroke](stroke_class.md) object used to draw the object |
 
 Example
 -------

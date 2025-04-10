@@ -6,7 +6,7 @@ Working with Pixel Coordinates
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\working_with_pixel_coordinates.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) >  Working with Pixel Coordinates | [Previous page](working_with_chart_object_coordinates-1.htm) [Return to chapter overview](educational_resources-1.htm) [Next page](working_with_price_series-1.htm) |
+| << [Click to Display Table of Contents](.\working_with_pixel_coordinates.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) >  Working with Pixel Coordinates | [Previous page](working_with_chart_object_coordinates-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](working_with_price_series-1.md) |
 
 Understanding Device Pixels vs. Application Pixels (WPF)
 --------------------------------------------------------
@@ -18,7 +18,7 @@ The physical size of an application-specific pixel can vary based on PC hardware
 Converting to Device Pixels
 ---------------------------
 
-NinjaScript provides helper methods to convert from application pixels to device pixels (or vice versa) within the [ChartingExtensions](chartingextensions-1.htm) class. Since some NinjaScript methods and properties return application pixels where device pixels are needed, using these helper methods can provide great flexibility by allowing you to define physical application pixels, then converting them to device independent pixels before passing them to a method. Using this process, the application pixel values used will result in objects being rendered exactly where intended.
+NinjaScript provides helper methods to convert from application pixels to device pixels (or vice versa) within the [ChartingExtensions](chartingextensions-1.md) class. Since some NinjaScript methods and properties return application pixels where device pixels are needed, using these helper methods can provide great flexibility by allowing you to define physical application pixels, then converting them to device independent pixels before passing them to a method. Using this process, the application pixel values used will result in objects being rendered exactly where intended.
 
 Example
 -------

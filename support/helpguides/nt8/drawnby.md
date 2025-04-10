@@ -6,7 +6,7 @@ DrawnBy
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](drawnby.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Drawing Tool](drawing_tools.htm) >  DrawnBy | [Previous page](drawingstate.htm) [Return to chapter overview](drawing_tools.htm) [Next page](getattachedtochartbars.htm) |
+| << [Click to Display Table of Contents](drawnby.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) >  DrawnBy | [Previous page](drawingstate.md) [Return to chapter overview](drawing_tools.md) [Next page](getattachedtochartbars.md) |
 
 Definition
 ----------

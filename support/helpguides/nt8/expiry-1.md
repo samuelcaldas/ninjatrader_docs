@@ -6,7 +6,7 @@ Expiry
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\expiry.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Instruments](instruments_ninjascript-1.htm) > [Instrument](instrument-1.htm) >  Expiry | [Previous page](exchange-1.htm) [Return to chapter overview](instrument-1.htm) [Next page](instrument_fullname-1.htm) |
+| << [Click to Display Table of Contents](.\expiry.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Instruments](instruments_ninjascript-1.md) > [Instrument](instrument-1.md) >  Expiry | [Previous page](exchange-1.md) [Return to chapter overview](instrument-1.md) [Next page](instrument_fullname-1.md) |
 
 Definition
 ----------

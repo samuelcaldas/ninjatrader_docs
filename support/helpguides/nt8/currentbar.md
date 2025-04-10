@@ -6,7 +6,7 @@ CurrentBar
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](currentbar.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [OnBarUpdate()](onbarupdate.htm) >  CurrentBar | [Previous page](count.htm) [Return to chapter overview](onbarupdate.htm) [Next page](isdataseriesrequired.htm) |
+| << [Click to Display Table of Contents](currentbar.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnBarUpdate()](onbarupdate.md) >  CurrentBar | [Previous page](count.md) [Return to chapter overview](onbarupdate.md) [Next page](isdataseriesrequired.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ A number representing the current bar in a Bars object that the OnBarUpdate() me
 
 |  |
 | --- |
-| Note:    In [multi series](multi-time_frame__instruments.htm) processing, the [CurrentBars](currentbars.htm) starting value will be -1 until all series have processed the first bar. |
+| Note:    In [multi series](multi-time_frame__instruments.md) processing, the [CurrentBars](currentbars.md) starting value will be -1 until all series have processed the first bar. |
 
 Property Value
 --------------

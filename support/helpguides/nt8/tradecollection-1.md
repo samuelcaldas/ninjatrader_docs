@@ -6,24 +6,24 @@ TradeCollection
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\tradecollection.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  TradeCollection | [Previous page](trade-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](tradecollection_tradescount-1.htm) |
+| << [Click to Display Table of Contents](.\tradecollection.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  TradeCollection | [Previous page](trade-1.md) [Return to chapter overview](strategy-1.md) [Next page](tradecollection_tradescount-1.md) |
 
 Definition
 ----------
 
-A collection of [Trade](trade-1.htm) objects. You can access a trade object by providing an index value. Trades are indexed sequentially meaning the oldest trade taken in a strategy will be at an index value of zero. The most recent trade taken will be at an index value of the total trades in the collection minus 1.
+A collection of [Trade](trade-1.md) objects. You can access a trade object by providing an index value. Trades are indexed sequentially meaning the oldest trade taken in a strategy will be at an index value of zero. The most recent trade taken will be at an index value of the total trades in the collection minus 1.
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| [TradesCount](tradecollection_tradescount-1.htm) | An int value representing the number of trades in the collection |
-| [EvenTrades](eventrades-1.htm) | Gets a TradeCollection object of even trades |
-| [GetTrades()](gettrades-1.htm) | Gets a TradeCollection object representing a specified position |
-| [LosingTrades](losingtrades-1.htm) | Gets a TradeCollection object of losing trades |
-| [TradesPerformance](tradesperformance-1.htm) | Gets a [TradesPerformance](tradesperformance-1.htm) object |
-| [WinningTrades](winningtrades-1.htm) | Gets a TradeCollection object of winning trades |
+| [TradesCount](tradecollection_tradescount-1.md) | An int value representing the number of trades in the collection |
+| [EvenTrades](eventrades-1.md) | Gets a TradeCollection object of even trades |
+| [GetTrades()](gettrades-1.md) | Gets a TradeCollection object representing a specified position |
+| [LosingTrades](losingtrades-1.md) | Gets a TradeCollection object of losing trades |
+| [TradesPerformance](tradesperformance-1.md) | Gets a [TradesPerformance](tradesperformance-1.md) object |
+| [WinningTrades](winningtrades-1.md) | Gets a TradeCollection object of winning trades |
 
 Examples
 --------

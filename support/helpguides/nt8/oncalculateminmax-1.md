@@ -6,18 +6,18 @@ OnCalculateMinMax()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\oncalculateminmax.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [Rendering](rendering-1.htm) >  OnCalculateMinMax() | [Previous page](minvalue-1.htm) [Return to chapter overview](rendering-1.htm) [Next page](onrender-1.htm) |
+| << [Click to Display Table of Contents](.\oncalculateminmax.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) >  OnCalculateMinMax() | [Previous page](minvalue-1.md) [Return to chapter overview](rendering-1.md) [Next page](onrender-1.md) |
 
 Definition
 ----------
 
-An event driven method which is called while the chart scale is being updated.  This method is used to determine the highest and lowest value that can be used for the chart scale. It is only called when the chart object is either set to [IsAutoScale](isautoscale-1.htm) while there are multiple charts objects rendered or only a single object would be rendered on the chart.
+An event driven method which is called while the chart scale is being updated.  This method is used to determine the highest and lowest value that can be used for the chart scale. It is only called when the chart object is either set to [IsAutoScale](isautoscale-1.md) while there are multiple charts objects rendered or only a single object would be rendered on the chart.
 
  
 
 |  |
 | --- |
-| Note:  The indexer used to look up a [Series<T>](seriest-1.htm) value through barsAgo is NOT guaranteed to be in sync when the OnCalculateMinMax() method is called.  You will need to use [GetValueAt()](getvalueat-1.htm) to obtain a historical value at a specified absolute index. |
+| Note:  The indexer used to look up a [Series<T>](seriest-1.md) value through barsAgo is NOT guaranteed to be in sync when the OnCalculateMinMax() method is called.  You will need to use [GetValueAt()](getvalueat-1.md) to obtain a historical value at a specified absolute index. |
 
 Method Return Value
 -------------------

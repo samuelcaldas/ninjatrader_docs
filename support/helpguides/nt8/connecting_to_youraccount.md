@@ -6,7 +6,7 @@ Connecting to your Account
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\connecting_to_youraccount.htm) >>  **Navigation:**  [Configuration](configuration-1.htm) > [Connecting](connecting-1.htm) >  Connecting to your Account | [Previous page](connecting-1.htm) [Return to chapter overview](connecting-1.htm) [Next page](connecting_to_kinetick-1.htm) |
+| << [Click to Display Table of Contents](.\connecting_to_youraccount.md) >>  **Navigation:**  [Configuration](configuration-1.md) > [Connecting](connecting-1.md) >  Connecting to your Account | [Previous page](connecting-1.md) [Return to chapter overview](connecting-1.md) [Next page](connecting_to_kinetick-1.md) |
 
 ![tog_minus](tog_minus-1.gif)        Understanding account connections
 

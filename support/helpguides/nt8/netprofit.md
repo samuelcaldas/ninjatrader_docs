@@ -6,7 +6,7 @@ NetProfit
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](netprofit.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  NetProfit | [Previous page](monthlyulcer.htm) [Return to chapter overview](tradesperformance.htm) [Next page](percent.htm) |
+| << [Click to Display Table of Contents](netprofit.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  NetProfit | [Previous page](monthlyulcer.md) [Return to chapter overview](tradesperformance.md) [Next page](percent.md) |
 
 Definition
 ----------

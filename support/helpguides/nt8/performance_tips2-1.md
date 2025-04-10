@@ -6,7 +6,7 @@ Performance Tips
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\performance_tips2.htm) >>  **Navigation:**  [Configuration](configuration-1.htm) >  Performance Tips | [Previous page](multiple_connections-1.htm) [Return to chapter overview](configuration-1.htm) [Next page](operations-1.htm) |
+| << [Click to Display Table of Contents](.\performance_tips2.md) >>  **Navigation:**  [Configuration](configuration-1.md) >  Performance Tips | [Previous page](multiple_connections-1.md) [Return to chapter overview](configuration-1.md) [Next page](operations-1.md) |
 
 Performance Factors
 -------------------
@@ -19,7 +19,7 @@ There are many variables that contribute to overall performance of the NinjaTrad
 
 •The capability of your PC hardware (are you running a brand new state of the art machine or a 4 year old PC with limited RAM)
 
-•A single bad 'setting' can cause performance issues and a single active Third Party script can cause general performance issue. See the [Understanding the impact of installing Add-Ons](using_3rd_party_add-ons-1.htm) section.
+•A single bad 'setting' can cause performance issues and a single active Third Party script can cause general performance issue. See the [Understanding the impact of installing Add-Ons](using_3rd_party_add-ons-1.md) section.
 
 |  |
 | --- |

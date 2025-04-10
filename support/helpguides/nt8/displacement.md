@@ -6,7 +6,7 @@ Displacement
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](displacement.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) > [AddPlot()](addplot.htm) >  Displacement | [Previous page](areplotsconfigurable.htm) [Return to chapter overview](addplot.htm) [Next page](plotbrushes.htm) |
+| << [Click to Display Table of Contents](displacement.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) > [AddPlot()](addplot.md) >  Displacement | [Previous page](areplotsconfigurable.md) [Return to chapter overview](addplot.md) [Next page](plotbrushes.md) |
 
 Definition
 ----------

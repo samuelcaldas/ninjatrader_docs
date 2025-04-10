@@ -6,12 +6,12 @@ CrosshairType
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](crosshairtype.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartControl](chartcontrol.htm) >  CrosshairType | [Previous page](chartpanels.htm) [Return to chapter overview](chartcontrol.htm) [Next page](firsttimepainted.htm) |
+| << [Click to Display Table of Contents](crosshairtype.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  CrosshairType | [Previous page](chartpanels.md) [Return to chapter overview](chartcontrol.md) [Next page](firsttimepainted.md) |
 
 Definition
 ----------
 
-Indicates the [Cross Hair](cross_hair.htm) type currently enabled on the chart.
+Indicates the [Cross Hair](cross_hair.md) type currently enabled on the chart.
 
 Property Value
 --------------

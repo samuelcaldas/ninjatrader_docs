@@ -6,7 +6,7 @@ StopTargetHandling
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](stoptargethandling.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  StopTargetHandling | [Previous page](startbehavior.htm) [Return to chapter overview](strategy.htm) [Next page](strategybaseconverter.htm) |
+| << [Click to Display Table of Contents](stoptargethandling.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  StopTargetHandling | [Previous page](startbehavior.md) [Return to chapter overview](strategy.md) [Next page](strategybaseconverter.md) |
 
 Definition
 ----------

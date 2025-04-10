@@ -6,7 +6,7 @@ Set Up
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](set_up.htm) >>  **Navigation:**  [Operations](operations.htm) > [Automated Trading](automated_trading.htm) > [Automated Trading Interface (ATI)](automated_trading_interface_at.htm) > [TradeStation Email Integration](tradestation_email_integration.htm) >  Set Up | [Previous page](running_concurrent_strategies_.htm) [Return to chapter overview](tradestation_email_integration.htm) [Next page](symbol_mapping.htm) |
+| << [Click to Display Table of Contents](set_up.md) >>  **Navigation:**  [Operations](operations.md) > [Automated Trading](automated_trading.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at.md) > [TradeStation Email Integration](tradestation_email_integration.md) >  Set Up | [Previous page](running_concurrent_strategies_.md) [Return to chapter overview](tradestation_email_integration.md) [Next page](symbol_mapping.md) |
 
 The following set up is for TradeStation Version 9.XX.  This section will walk you through the set up in both NinjaTrader and TradeStation as well as allow you to send a test email through the Email Interface you have created.
 
@@ -27,7 +27,7 @@ Setting up NinjaTrader
 
 6.Check the "Enabled" option under the TradeStation email interface category
 
-7.Set your [Order Handling](order_handling_options.htm) options
+7.Set your [Order Handling](order_handling_options.md) options
 
 8.Connect to your broker by selecting the File menu and then the menu item Connect within the Control Center window (make sure you have set up a [connection to your broker](%3C%25CONNECTIONGUIDE%25%3E))
 
@@ -40,7 +40,7 @@ Setting up NinjaTrader
 Symbol Mapping for Futures Contracts (Stocks and Forex traders may skip this step)
 ----------------------------------------------------------------------------------
 
-9.Set your [symbol mapping](tradestation_symbol_mapping.htm) for futures contracts
+9.Set your [symbol mapping](tradestation_symbol_mapping.md) for futures contracts
 
 Setting Up Antivirus Software
 -----------------------------
@@ -52,7 +52,7 @@ Setting Up TradeStation Workspace
 
 11. Start TradeStation
 
-12. Set up your [workspace options](workspace_options.htm)
+12. Set up your [workspace options](workspace_options.md)
 
 Setting Up TradeStation Email Notification
 ------------------------------------------

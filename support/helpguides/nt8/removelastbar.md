@@ -6,7 +6,7 @@ RemoveLastBar()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](removelastbar.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  RemoveLastBar() | [Previous page](ondatapoint.htm) [Return to chapter overview](bars_type.htm) [Next page](setpropertyname2.htm) |
+| << [Click to Display Table of Contents](removelastbar.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  RemoveLastBar() | [Previous page](ondatapoint.md) [Return to chapter overview](bars_type.md) [Next page](setpropertyname2.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Removes the last data point for the Bars Type.  There may be cases where your c
 
 |  |
 | --- |
-| Notes: •In order to use this method, the [IsRemoveLastBarSupported](isremovelastbarsupported.htm) method must be true.    •RemoveLastBar() CANNOT be used with [TickReplay](tick_replay.htm) |
+| Notes: •In order to use this method, the [IsRemoveLastBarSupported](isremovelastbarsupported.md) method must be true.    •RemoveLastBar() CANNOT be used with [TickReplay](tick_replay.md) |
 
 Syntax
 ------

@@ -6,12 +6,12 @@ Url
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\url.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Instruments](instruments_ninjascript-1.htm) > [Instrument](instrument-1.htm) > [MasterInstrument](masterinstrument-1.htm) >  Url | [Previous page](masterinstrument_ticksize-1.htm) [Return to chapter overview](masterinstrument-1.htm) [Next page](iseriest-1.htm) |
+| << [Click to Display Table of Contents](.\url.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Instruments](instruments_ninjascript-1.md) > [Instrument](instrument-1.md) > [MasterInstrument](masterinstrument-1.md) >  Url | [Previous page](masterinstrument_ticksize-1.md) [Return to chapter overview](masterinstrument-1.md) [Next page](iseriest-1.md) |
 
 Definition
 ----------
 
-Indicates the Url configured for the [Master Instrument properties](editing_instruments-1.htm).
+Indicates the Url configured for the [Master Instrument properties](editing_instruments-1.md).
 
 Property Value
 --------------

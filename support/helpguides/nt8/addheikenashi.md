@@ -6,12 +6,12 @@ AddHeikenAshi()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](addheikenashi.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [AddDataSeries()](adddataseries.htm) >  AddHeikenAshi() | [Previous page](adddataseries.htm) [Return to chapter overview](adddataseries.htm) [Next page](addkagi.htm) |
+| << [Click to Display Table of Contents](addheikenashi.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [AddDataSeries()](adddataseries.md) >  AddHeikenAshi() | [Previous page](adddataseries.md) [Return to chapter overview](adddataseries.md) [Next page](addkagi.md) |
 
 Definition
 ----------
 
-Similar to the [AddDataSeries()](adddataseries.htm) method for adding Bars objects, this method adds a Heiken Ashi Bars object for multi-series NinjaScript.
+Similar to the [AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a Heiken Ashi Bars object for multi-series NinjaScript.
 
 |  |
 | --- |

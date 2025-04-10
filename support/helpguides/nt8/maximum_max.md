@@ -6,7 +6,7 @@ Maximum (MAX)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](maximum_max.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Maximum (MAX) | [Previous page](maenvelopes.htm) [Return to chapter overview](indicators.htm) [Next page](mcclellan_oscillator.htm) |
+| << [Click to Display Table of Contents](maximum_max.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Maximum (MAX) | [Previous page](maenvelopes.md) [Return to chapter overview](indicators.md) [Next page](mcclellan_oscillator.md) |
 
 Description
 -----------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Example

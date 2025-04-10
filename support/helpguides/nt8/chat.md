@@ -6,7 +6,7 @@ Chat
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chat.htm) >>  **Navigation:**  [Operations](operations.htm) > [Control Center](control_center.htm) >  Chat | [Previous page](help_menu.htm) [Return to chapter overview](control_center.htm) [Next page](orders_tab.htm) |
+| << [Click to Display Table of Contents](chat.md) >>  **Navigation:**  [Operations](operations.md) > [Control Center](control_center.md) >  Chat | [Previous page](help_menu.md) [Return to chapter overview](control_center.md) [Next page](orders_tab.md) |
 
 The following window is available via the Chat menu of the NinjaTrader Control Center.
 

@@ -6,14 +6,14 @@ Moving Average Convergence-Divergence (MACD)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\moving_average_convergence-divergence_macd.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Moving Average Convergence-Divergence (MACD) | [Previous page](moving_average_-_zero_lag_expo-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](moving_average_ribbon-1.htm) |
+| << [Click to Display Table of Contents](.\moving_average_convergence-divergence_macd.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Moving Average Convergence-Divergence (MACD) | [Previous page](moving_average_-_zero_lag_expo-1.md) [Return to chapter overview](indicators-1.md) [Next page](moving_average_ribbon-1.md) |
 
 Description
 -----------
 
 MACD uses moving averages, which are lagging indicators, to include some trend-following characteristics. These lagging indicators are turned into a momentum oscillator by subtracting the longer moving average from the shorter moving average.
 
-... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_MACD1.html)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_MACD1.md)
 
 Syntax
 ------
@@ -49,8 +49,8 @@ Parameters
 
 |  |  |
 | --- | --- |
-| fast | The number of bars to calculate the fast [EMA](moving_average_-_exponential_e-1.htm) |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| fast | The number of bars to calculate the fast [EMA](moving_average_-_exponential_e-1.md) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | slow | The numbers of bars to calculate the slow EMA |
 | smooth | The number of bars to calculate the EMA signal line |
 

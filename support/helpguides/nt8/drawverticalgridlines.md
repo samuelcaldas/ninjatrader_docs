@@ -6,7 +6,7 @@ DrawVerticalGridLines
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](drawverticalgridlines.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) >  DrawVerticalGridLines | [Previous page](drawonpricepanel.htm) [Return to chapter overview](indicator.htm) [Next page](indicatorbaseconverter.htm) |
+| << [Click to Display Table of Contents](drawverticalgridlines.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) >  DrawVerticalGridLines | [Previous page](drawonpricepanel.md) [Return to chapter overview](indicator.md) [Next page](indicatorbaseconverter.md) |
 
 Definition
 ----------
@@ -24,7 +24,7 @@ This property returns true if vertical grid lines are plotted on the indicator p
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

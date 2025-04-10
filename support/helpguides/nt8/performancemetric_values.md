@@ -6,7 +6,7 @@ Values
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](performancemetric_values.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Performance Metrics](performance_metrics.htm) >  Values | [Previous page](performanceunit.htm) [Return to chapter overview](performance_metrics.htm) [Next page](share_service.htm) |
+| << [Click to Display Table of Contents](performancemetric_values.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Performance Metrics](performance_metrics.md) >  Values | [Previous page](performanceunit.md) [Return to chapter overview](performance_metrics.md) [Next page](share_service.md) |
 
 Definition
 ----------

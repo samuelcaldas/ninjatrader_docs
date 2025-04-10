@@ -6,12 +6,12 @@ SetState()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](setstate.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [OnStateChange()](onstatechange.htm) >  SetState() | [Previous page](onstatechange.htm) [Return to chapter overview](onstatechange.htm) [Next page](state.htm) |
+| << [Click to Display Table of Contents](setstate.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnStateChange()](onstatechange.md) >  SetState() | [Previous page](onstatechange.md) [Return to chapter overview](onstatechange.md) [Next page](state.md) |
 
 Definition
 ----------
 
-This method is used for changing the [State](state.htm) of any running NinjaScript object.
+This method is used for changing the [State](state.md) of any running NinjaScript object.
 
 |  |
 | --- |
@@ -30,14 +30,14 @@ SetState(State state)
 
 |  |
 | --- |
-| Warning:  This method should only be call after the [State](state.htm) reaches [State.DataLoaded](state.htm) |
+| Warning:  This method should only be call after the [State](state.md) reaches [State.DataLoaded](state.md) |
 
 Parameters
 ----------
 
 |  |  |
 | --- | --- |
-| state | The [State](state.htm) to be set |
+| state | The [State](state.md) to be set |
 
 Examples
 --------

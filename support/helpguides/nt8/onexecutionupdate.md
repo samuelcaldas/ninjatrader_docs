@@ -6,7 +6,7 @@ OnExecutionUpdate()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onexecutionupdate.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) >  OnExecutionUpdate() | [Previous page](accountitemeventargs.htm) [Return to chapter overview](strategy.htm) [Next page](onordertrace.htm) |
+| << [Click to Display Table of Contents](onexecutionupdate.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  OnExecutionUpdate() | [Previous page](accountitemeventargs.md) [Return to chapter overview](strategy.md) [Next page](onordertrace.md) |
 
 Definition
 ----------
@@ -15,15 +15,15 @@ An event driven method which is called on an incoming execution of an order mana
 
 •An order can generate multiple executions (partial fills)
 
-•OnExecutionUpdate is typically called after [OnOrderUpdate()](onorderupdate.htm) is called
+•OnExecutionUpdate is typically called after [OnOrderUpdate()](onorderupdate.md) is called
 
 •Only orders which have been submitted and managed by the strategy will call OnExecutionUpdate()
 
-•Executions drive the strategy [Position](position.htm) object, which is updated when this method is called
+•Executions drive the strategy [Position](position.md) object, which is updated when this method is called
 
 |  |
 | --- |
-| Notes:  •Programming in this environment is reserved for the more [advanced user](advanced_order_handling.htm). If you are for example looking to protect a strategy managed position with a basic stop and target, then the [Set() methods](managed_approach.htm) would be more convenient.  •When connected to the Playback connection, it is possible for OnExecutionUpdate() to trigger in the middle of a call to OnBarUpdate(). The Sim101 account adds a simulated random delay for processing execution events, but the Playback connection triggers executions immediately, for the sake of consistency in backtesting. Because of this, OnExecutionUpdate() can appear to be triggered earlier than it would in live trading, or when simulation trading on a live connection.  •Please also review [Multi-Thread Considerations for NinjaScript](multi-threading.htm)  •Its best practice to only work with the passed by value parameters and not reference parameters. This insures that you process each change of the underlying state.  •Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. |
+| Notes:  •Programming in this environment is reserved for the more [advanced user](advanced_order_handling.md). If you are for example looking to protect a strategy managed position with a basic stop and target, then the [Set() methods](managed_approach.md) would be more convenient.  •When connected to the Playback connection, it is possible for OnExecutionUpdate() to trigger in the middle of a call to OnBarUpdate(). The Sim101 account adds a simulated random delay for processing execution events, but the Playback connection triggers executions immediately, for the sake of consistency in backtesting. Because of this, OnExecutionUpdate() can appear to be triggered earlier than it would in live trading, or when simulation trading on a live connection.  •Please also review [Multi-Thread Considerations for NinjaScript](multi-threading.md)  •Its best practice to only work with the passed by value parameters and not reference parameters. This insures that you process each change of the underlying state.  •Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. |
 
 Method Return Value
 -------------------
@@ -45,11 +45,11 @@ Parameters
 
 |  |  |
 | --- | --- |
-| execution | An [Execution](execution.htm) object passed by reference representing the execution |
+| execution | An [Execution](execution.md) object passed by reference representing the execution |
 | executionId | A string value representing the execution id |
 | price | A double value representing the execution price |
 | quantity | An int value representing the execution quantity |
-| marketPosition | A [MarketPosition](position_marketposition.htm) object representing the position of the execution.  Possible values are:  •MarketPosition.Long  •MarketPosition.Short |
+| marketPosition | A [MarketPosition](position_marketposition.md) object representing the position of the execution.  Possible values are:  •MarketPosition.Long  •MarketPosition.Short |
 | orderId | A string representing the order id |
 | time | A [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx) value representing the time of the execution |
 

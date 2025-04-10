@@ -6,7 +6,7 @@ Swing
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](swing.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Swing | [Previous page](summation_sum.htm) [Return to chapter overview](indicators.htm) [Next page](time_series_forecast_tsf.htm) |
+| << [Click to Display Table of Contents](swing.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Swing | [Previous page](summation_sum.md) [Return to chapter overview](indicators.md) [Next page](time_series_forecast_tsf.md) |
 
 Description
 -----------
@@ -63,7 +63,7 @@ Parameters
 |  |  |
 | --- | --- |
 | barsAgo | The number of bars ago that serves as the starting bar from which to work backwards |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | instance | The occurrence to check for (1 is the most recent, 2 is the 2nd most recent, etc...) |
 | lookBackPeriod | Number of bars to look back to check for the test condition, which is evaluated on the current bar and the bars in the look back period. |
 | strength | The number of required bars to the left and right of the swing point |

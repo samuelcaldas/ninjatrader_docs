@@ -6,12 +6,12 @@ SharpeRatio
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](sharperatio.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  SharpeRatio | [Previous page](riskfreereturn.htm) [Return to chapter overview](tradesperformance.htm) [Next page](sortinoratio.htm) |
+| << [Click to Display Table of Contents](sharperatio.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  SharpeRatio | [Previous page](riskfreereturn.md) [Return to chapter overview](tradesperformance.md) [Next page](sortinoratio.md) |
 
 Definition
 ----------
 
-Returns the Sharpe ratio using a [risk free return](riskfreereturn.htm).
+Returns the Sharpe ratio using a [risk free return](riskfreereturn.md).
 
 Property Value
 --------------

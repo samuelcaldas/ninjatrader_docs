@@ -6,7 +6,7 @@ Working with Price Series
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\working_with_price_series.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) >  Working with Price Series | [Previous page](working_with_pixel_coordinates-1.htm) [Return to chapter overview](educational_resources-1.htm) [Next page](reference_samples-1.htm) |
+| << [Click to Display Table of Contents](.\working_with_price_series.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) >  Working with Price Series | [Previous page](working_with_pixel_coordinates-1.md) [Return to chapter overview](educational_resources-1.md) [Next page](reference_samples-1.md) |
 
 Price Data Overview
 -------------------
@@ -18,9 +18,9 @@ Definitions
 
 |  |  |
 | --- | --- |
-| [ISeries<T>](priceseries-1.htm) | Standard bar based price types such as closing, opening, high, low prices and volume |
-| [Indicator](indicator-1.htm) | Calculated values based on price type values such as a simple moving average |
-| Custom Historical [Series<T>](seriest-1.htm) | Custom calculated values that you wish to store and associate to each historical bar |
+| [ISeries<T>](priceseries-1.md) | Standard bar based price types such as closing, opening, high, low prices and volume |
+| [Indicator](indicator-1.md) | Calculated values based on price type values such as a simple moving average |
+| Custom Historical [Series<T>](seriest-1.md) | Custom calculated values that you wish to store and associate to each historical bar |
 
 Referencing Series
 ------------------
@@ -47,10 +47,10 @@ As you may have already figured out, referencing the current bar data is accompl
 
 |  |
 | --- |
-| Note:  In most cases, you will access the historical price series using a core event handler such as OnBarUpdate.  For more advance developers, you may find situations where you wish to access historical price series outside of the core event methods, such as your own custom mouse click.  In these advanced scenarios, you may run into situations where the barsAgo pointer is not in sync with the current bar, and may result in errors when trying to obtain this information.  In those cases, please use the Bars.Get...() methods with the absolute bar index (e.g., [Bars.GetClose(](getclose-1.htm)), [Bars.GetTime()](gettime-1.htm), etc.) |
+| Note:  In most cases, you will access the historical price series using a core event handler such as OnBarUpdate.  For more advance developers, you may find situations where you wish to access historical price series outside of the core event methods, such as your own custom mouse click.  In these advanced scenarios, you may run into situations where the barsAgo pointer is not in sync with the current bar, and may result in errors when trying to obtain this information.  In those cases, please use the Bars.Get...() methods with the absolute bar index (e.g., [Bars.GetClose(](getclose-1.md)), [Bars.GetTime()](gettime-1.md), etc.) |
 
 Referencing Indicator Data 
-NinjaScript includes a library of built in indicators that you can access. Please see the [Indicator Methods](indicators-1.htm) reference section for clear definitions for how to access each indicator.
+NinjaScript includes a library of built in indicators that you can access. Please see the [Indicator Methods](indicators-1.md) reference section for clear definitions for how to access each indicator.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 All indicator values can be accessed in the following way:
@@ -77,4 +77,4 @@ You could write a statement to see if a 14 period CCI indicator is rising like t
 
 Value of a 10 period CCI 1 bar ago = CCI(10)[1]
 
-Please review the [Indicator Methods](indicators-1.htm) section for proper syntax for accessing different indicator values.
+Please review the [Indicator Methods](indicators-1.md) section for proper syntax for accessing different indicator values.

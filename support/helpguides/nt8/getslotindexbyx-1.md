@@ -6,7 +6,7 @@ GetSlotIndexByX()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getslotindexbyx.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [ChartControl](chartcontrol-1.htm) >  GetSlotIndexByX() | [Previous page](getslotindexbytime-1.htm) [Return to chapter overview](chartcontrol-1.htm) [Next page](gettimebyslotindex-1.htm) |
+| << [Click to Display Table of Contents](.\getslotindexbyx.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [ChartControl](chartcontrol-1.md) >  GetSlotIndexByX() | [Previous page](getslotindexbytime-1.md) [Return to chapter overview](chartcontrol-1.md) [Next page](gettimebyslotindex-1.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Returns the slot index relative to the chart control corresponding to a specifie
 
 |  |
 | --- |
-| Notes:  •A "Slot" is used in Equidistant [bar spacing](barspacingtype-1.htm) and represents a position on the chart canvas background which may or may not contain a bar. The concept of "Slots" does NOT exist on a TimeBased bar spacing type.  •If you are looking for information on a bar series, please see [ChartBars.GetBarIdxByX()](chartbars_getbaridxbyx-1.htm)  •Since the slot index is based on the chart canvas, the value returned by GetSlotIndexByX() can be expected to change as new bars are painted, or as the chart is scrolled backward or forward on the x-axis. |
+| Notes:  •A "Slot" is used in Equidistant [bar spacing](barspacingtype-1.md) and represents a position on the chart canvas background which may or may not contain a bar. The concept of "Slots" does NOT exist on a TimeBased bar spacing type.  •If you are looking for information on a bar series, please see [ChartBars.GetBarIdxByX()](chartbars_getbaridxbyx-1.md)  •Since the slot index is based on the chart canvas, the value returned by GetSlotIndexByX() can be expected to change as new bars are painted, or as the chart is scrolled backward or forward on the x-axis. |
 
 Method Return Value
 -------------------

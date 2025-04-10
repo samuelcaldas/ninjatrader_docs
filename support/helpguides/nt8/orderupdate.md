@@ -6,7 +6,7 @@ OrderUpdate
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](orderupdate.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Account](account_class.htm) >  OrderUpdate | [Previous page](orders_account.htm) [Return to chapter overview](account_class.htm) [Next page](positions_account.htm) |
+| << [Click to Display Table of Contents](orderupdate.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) >  OrderUpdate | [Previous page](orders_account.md) [Return to chapter overview](account_class.md) [Next page](positions_account.md) |
 
 Definition
 ----------

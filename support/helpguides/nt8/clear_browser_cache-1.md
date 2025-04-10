@@ -6,7 +6,7 @@ Clear Browser Cache
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\clear_browser_cache.htm) >>  **Navigation:**  [Configuration](configuration-1.htm) > [Installation](installation-1.htm) >  Clear Browser Cache | [Previous page](installation_guide-1.htm) [Return to chapter overview](installation-1.htm) [Next page](connecting-1.htm) |
+| << [Click to Display Table of Contents](.\clear_browser_cache.md) >>  **Navigation:**  [Configuration](configuration-1.md) > [Installation](installation-1.md) >  Clear Browser Cache | [Previous page](installation_guide-1.md) [Return to chapter overview](installation-1.md) [Next page](connecting-1.md) |
 
 How to clear your browser cache
 -------------------------------

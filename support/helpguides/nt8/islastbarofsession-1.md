@@ -6,7 +6,7 @@ IsLastBarOfSession
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\islastbarofsession.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Bars](bars-1.htm) >  IsLastBarOfSession | [Previous page](isfirstbarofsessionbyindex-1.htm) [Return to chapter overview](bars-1.htm) [Next page](isresetonnewtradingday-1.htm) |
+| << [Click to Display Table of Contents](.\islastbarofsession.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Bars](bars-1.md) >  IsLastBarOfSession | [Previous page](isfirstbarofsessionbyindex-1.md) [Return to chapter overview](bars-1.md) [Next page](isresetonnewtradingday-1.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Indicates if the current bar processing is the last bar updated in a trading ses
 
 |  |
 | --- |
-| Notes:  •This property will always return false on non-intraday bar periods (e.g., Day, Month, etc.)  •When running Calculate.OnEachTick / OnPriceChange, this property will always return true on the most current real-time bar since it is the last bar that is updating in the trading session.  If you need to find a bar which coincides with the session end time, please use the [SessionIterator.ActualSessionEnd](actualsessionend-1.htm). |
+| Notes:  •This property will always return false on non-intraday bar periods (e.g., Day, Month, etc.)  •When running Calculate.OnEachTick / OnPriceChange, this property will always return true on the most current real-time bar since it is the last bar that is updating in the trading session.  If you need to find a bar which coincides with the session end time, please use the [SessionIterator.ActualSessionEnd](actualsessionend-1.md). |
 
  
 

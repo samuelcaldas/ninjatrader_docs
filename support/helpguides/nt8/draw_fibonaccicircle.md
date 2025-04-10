@@ -6,7 +6,7 @@ Draw.FibonacciCircle()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_fibonaccicircle.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.FibonacciCircle() | [Previous page](extendedline.htm) [Return to chapter overview](drawing.htm) [Next page](fibonaccicircle.htm) |
+| << [Click to Display Table of Contents](draw_fibonaccicircle.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.FibonacciCircle() | [Previous page](extendedline.md) [Return to chapter overview](drawing.md) [Next page](fibonaccicircle.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a fibonacci circle.
 Method Return Value
 -------------------
 
-A [FibonacciCircle](fibonaccicircle.htm) object that represents the draw object.
+A [FibonacciCircle](fibonaccicircle.md) object that represents the draw object.
 
 Syntax  
 Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY)  

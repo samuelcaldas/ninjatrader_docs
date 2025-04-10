@@ -6,12 +6,12 @@ IsSelected
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\isselected.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [Rendering](rendering-1.htm) >  IsSelected | [Previous page](isinhittest-1.htm) [Return to chapter overview](rendering-1.htm) [Next page](isvisibleonchart-1.htm) |
+| << [Click to Display Table of Contents](.\isselected.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) >  IsSelected | [Previous page](isinhittest-1.md) [Return to chapter overview](rendering-1.md) [Next page](isvisibleonchart-1.md) |
 
 Definition
 ----------
 
-Indicates a chart object is currently selected. When this property is set to true in a [DrawingTool](drawingtool-1.htm), the [GetSelectionPoints()](getselectionpoints-1.htm) will be called.
+Indicates a chart object is currently selected. When this property is set to true in a [DrawingTool](drawingtool-1.md), the [GetSelectionPoints()](getselectionpoints-1.md) will be called.
 
 Property Value
 --------------
@@ -20,7 +20,7 @@ This property returns true to indicate that the chart object is selected; otherw
 
 |  |
 | --- |
-| Warning:  This property value is ONLY guaranteed to be settable by the object to which it belongs (e.g., from within a [DrawingTool](drawing_tools-1.htm)).  Modifying its value from an external object (such as attempting to set a DrawingTool.IsSelected from an indicator) can result in the property automatically returning the value handled by its source.  In other words, unless you are working with a chart object type directly (e.g., building a custom drawing tool), the IsSelected property should be considered read-only. |
+| Warning:  This property value is ONLY guaranteed to be settable by the object to which it belongs (e.g., from within a [DrawingTool](drawing_tools-1.md)).  Modifying its value from an external object (such as attempting to set a DrawingTool.IsSelected from an indicator) can result in the property automatically returning the value handled by its source.  In other words, unless you are working with a chart object type directly (e.g., building a custom drawing tool), the IsSelected property should be considered read-only. |
 
 Syntax
 ------

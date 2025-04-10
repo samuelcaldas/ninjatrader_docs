@@ -6,7 +6,7 @@ AverageExitEfficiency
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](averageexitefficiency.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  AverageExitEfficiency | [Previous page](averageentryefficiency.htm) [Return to chapter overview](tradesperformance.htm) [Next page](averagetimeinmarket.htm) |
+| << [Click to Display Table of Contents](averageexitefficiency.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  AverageExitEfficiency | [Previous page](averageentryefficiency.md) [Return to chapter overview](tradesperformance.md) [Next page](averagetimeinmarket.md) |
 
 Definition
 ----------

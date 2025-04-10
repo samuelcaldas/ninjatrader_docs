@@ -6,7 +6,7 @@ Draw.Region()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_region.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.Region() | [Previous page](rectangle.htm) [Return to chapter overview](drawing.htm) [Next page](region.htm) |
+| << [Click to Display Table of Contents](draw_region.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Region() | [Previous page](rectangle.md) [Return to chapter overview](drawing.md) [Next page](region.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a region on a chart.
 Method Return Value
 -------------------
 
-A [Region](region.htm) object that represents the draw object.
+A [Region](region.md) object that represents the draw object.
 
 Syntax
 
@@ -48,7 +48,7 @@ Parameters
 | outlineBrush | The brush used to color the region outline of draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaBrush | The brush used to color the fill region area of the draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
-| displacement | An optional parameter which will offset the barsAgo value for the Series<double> value used to match the desired [Displacement](displacement.htm).  Default value is 0. |
+| displacement | An optional parameter which will offset the barsAgo value for the Series<double> value used to match the desired [Displacement](displacement.md).  Default value is 0. |
 
 Example
 -------

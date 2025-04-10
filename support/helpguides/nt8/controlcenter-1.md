@@ -6,7 +6,7 @@ ControlCenter
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\controlcenter.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) >  ControlCenter | [Previous page](atmstrategy-1.htm) [Return to chapter overview](add_on-1.htm) [Next page](fundamentaldata-1.htm) |
+| << [Click to Display Table of Contents](.\controlcenter.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) >  ControlCenter | [Previous page](atmstrategy-1.md) [Return to chapter overview](add_on-1.md) [Next page](fundamentaldata-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ ControlCenter is a XAML-defined class containing the layout and properties of th
 
 |  |
 | --- |
-| Note:  For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons-1.htm) |
+| Note:  For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons-1.md) |
 
 Example
 -------

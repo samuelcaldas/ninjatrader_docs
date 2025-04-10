@@ -6,12 +6,12 @@ GetBarIdxByX()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chartbars_getbaridxbyx.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartBars](chartbars.htm) >  GetBarIdxByX() | [Previous page](chartbars_getbaridxbytime.htm) [Return to chapter overview](chartbars.htm) [Next page](chartbars_gettimebybaridx.htm) |
+| << [Click to Display Table of Contents](chartbars_getbaridxbyx.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartBars](chartbars.md) >  GetBarIdxByX() | [Previous page](chartbars_getbaridxbytime.md) [Return to chapter overview](chartbars.md) [Next page](chartbars_gettimebybaridx.md) |
 
 Definition
 ----------
 
-Returns the [ChartBars](chartbars.htm) index value at a specified x-coordinate relative to the ChartControl.
+Returns the [ChartBars](chartbars.md) index value at a specified x-coordinate relative to the ChartControl.
 
  
 
@@ -29,7 +29,7 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| chartControl | The [ChartControl](chartcontrol.htm) object used to determine the chart's time axis |
+| chartControl | The [ChartControl](chartcontrol.md) object used to determine the chart's time axis |
 | x | The x-coordinate used to find a bar index value |
 
 Examples

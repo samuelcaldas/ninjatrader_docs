@@ -6,7 +6,7 @@ OnRender()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\onrender2.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Market Analyzer Column](market_analyzer_column-1.htm) >  OnRender() | [Previous page](iseditable-1.htm) [Return to chapter overview](market_analyzer_column-1.htm) [Next page](priorvalue-1.htm) |
+| << [Click to Display Table of Contents](.\onrender2.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Market Analyzer Column](market_analyzer_column-1.md) >  OnRender() | [Previous page](iseditable-1.md) [Return to chapter overview](market_analyzer_column-1.md) [Next page](priorvalue-1.md) |
 
 Definition
 ----------
@@ -28,7 +28,7 @@ This method is called during the following conditions:
 
 |  |
 | --- |
-| Note:  While similar to a Chart Indicator's [OnRender()](onrender-1.htm) method, the Market Analyzer Column uses [WPF Drawing Context](https://msdn.microsoft.com/en-us/library/system.windows.media.drawingcontext(v=vs.110).aspx) class, rather than the SharpDX library used for [chart rendering](rendering-1.htm).  Concepts between these two methods are guaranteed to be different. |
+| Note:  While similar to a Chart Indicator's [OnRender()](onrender-1.md) method, the Market Analyzer Column uses [WPF Drawing Context](https://msdn.microsoft.com/en-us/library/system.windows.media.drawingcontext(v=vs.110).aspx) class, rather than the SharpDX library used for [chart rendering](rendering-1.md).  Concepts between these two methods are guaranteed to be different. |
 
 Method Return Value
 -------------------
@@ -58,7 +58,7 @@ Method Parameters
 
 |  |
 | --- |
-| Tip:  In order to force OnRender() to be called under a specific condition, call the [OnPropertyChanged()](onpropertychanged-1.htm) method which will force the entire column to repaint.  This approach should be used instead of calling OnRender() directly. |
+| Tip:  In order to force OnRender() to be called under a specific condition, call the [OnPropertyChanged()](onpropertychanged-1.md) method which will force the entire column to repaint.  This approach should be used instead of calling OnRender() directly. |
 
 Examples
 --------

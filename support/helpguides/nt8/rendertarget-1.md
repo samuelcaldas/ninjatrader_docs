@@ -6,7 +6,7 @@ RenderTarget
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\rendertarget.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [Rendering](rendering-1.htm) >  RenderTarget | [Previous page](panelui-1.htm) [Return to chapter overview](rendering-1.htm) [Next page](setzorder-1.htm) |
+| << [Click to Display Table of Contents](.\rendertarget.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) >  RenderTarget | [Previous page](panelui-1.md) [Return to chapter overview](rendering-1.md) [Next page](setzorder-1.md) |
 
 Definition
 ----------
@@ -15,12 +15,12 @@ A SharpDX Direct2D1 RenderTarget creates objects and exposes methods used for dr
 
 |  |
 | --- |
-| Notes:  1.There are two RenderTarget's used in a chart.  This is important to understand when creating/destroying device resources.  Please see the [OnRenderTargetChanged()](onrendertargetchanged-1.htm) page for more information  2.For a walk through for using the SharpDX RenderTarget, please see the educational resource [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.htm) |
+| Notes:  1.There are two RenderTarget's used in a chart.  This is important to understand when creating/destroying device resources.  Please see the [OnRenderTargetChanged()](onrendertargetchanged-1.md) page for more information  2.For a walk through for using the SharpDX RenderTarget, please see the educational resource [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.md) |
 
 Property Value
 --------------
 
-A [SharpDX.Direct2D1.RenderTarget](sharpdx_direct2d1_rendertarget-1.htm)
+A [SharpDX.Direct2D1.RenderTarget](sharpdx_direct2d1_rendertarget-1.md)
 
 |  |  |
 | --- | --- |
@@ -34,4 +34,4 @@ RenderTarget
 
 |  |
 | --- |
-| Warning:  Each DirectX render target requires its own brushes. You must create a brushes directly in [OnRender()](onrender-1.htm) or using [OnRenderTargetChanged()](onrestorevalues-1.htm).  If you do not you will receive an error at run time similar to:      "A direct X error has occured while rendering the chart: HRESULT: [0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR\_WRONG\_RESOURCE\_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().    Please see [OnRenderTargetChanged()](onrendertargetchanged-1.htm) for examples with brush that needs to be recalculated, or [OnRender()](onrender-1.htm) for an example of recreating a static brush. |
+| Warning:  Each DirectX render target requires its own brushes. You must create a brushes directly in [OnRender()](onrender-1.md) or using [OnRenderTargetChanged()](onrestorevalues-1.md).  If you do not you will receive an error at run time similar to:      "A direct X error has occured while rendering the chart: HRESULT: [0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR\_WRONG\_RESOURCE\_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().    Please see [OnRenderTargetChanged()](onrendertargetchanged-1.md) for examples with brush that needs to be recalculated, or [OnRender()](onrender-1.md) for an example of recreating a static brush. |

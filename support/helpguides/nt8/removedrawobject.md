@@ -6,7 +6,7 @@ RemoveDrawObject()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](removedrawobject.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  RemoveDrawObject() | [Previous page](pricelevels.htm) [Return to chapter overview](drawing.htm) [Next page](removedrawobjects.htm) |
+| << [Click to Display Table of Contents](removedrawobject.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  RemoveDrawObject() | [Previous page](pricelevels.md) [Return to chapter overview](drawing.md) [Next page](removedrawobjects.md) |
 
 Definition
 ----------

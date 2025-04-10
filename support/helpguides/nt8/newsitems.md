@@ -6,7 +6,7 @@ NewsItems
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](newsitems.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) >  NewsItems | [Previous page](marketdepth.htm) [Return to chapter overview](add_on.htm) [Next page](newssubscription.htm) |
+| << [Click to Display Table of Contents](newsitems.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  NewsItems | [Previous page](marketdepth.md) [Return to chapter overview](add_on.md) [Next page](newssubscription.md) |
 
 Definition
 ----------

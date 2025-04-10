@@ -6,7 +6,7 @@ Minimum System Requirements
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\minimum_system_requirements.htm) >>  **Navigation:**  [Configuration](configuration-1.htm) > [Installation](installation-1.htm) >  Minimum System Requirements | [Previous page](installation-1.htm) [Return to chapter overview](installation-1.htm) [Next page](installation_guide-1.htm) |
+| << [Click to Display Table of Contents](.\minimum_system_requirements.md) >>  **Navigation:**  [Configuration](configuration-1.md) > [Installation](installation-1.md) >  Minimum System Requirements | [Previous page](installation-1.md) [Return to chapter overview](installation-1.md) [Next page](installation_guide-1.md) |
 
 Minimum PC Requirements
 -----------------------

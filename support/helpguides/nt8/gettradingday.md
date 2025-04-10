@@ -6,7 +6,7 @@ GetTradingDay()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](gettradingday.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [SessionIterator](sessioniterator.htm) >  GetTradingDay() | [Previous page](getnextsession.htm) [Return to chapter overview](sessioniterator.htm) [Next page](gettradingdaybeginlocal.htm) |
+| << [Click to Display Table of Contents](gettradingday.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [SessionIterator](sessioniterator.md) >  GetTradingDay() | [Previous page](getnextsession.md) [Return to chapter overview](sessioniterator.md) [Next page](gettradingdaybeginlocal.md) |
 
 Definition
 ----------
@@ -20,7 +20,7 @@ Returns the actual trading date based on the exchange, calculated from a DateTim
 Property Value
 --------------
 
-A DateTime object representing the [ActualTradingDayExchange](actualtradingdayexchange.htm) property.
+A DateTime object representing the [ActualTradingDayExchange](actualtradingdayexchange.md) property.
 
 Syntax
 ------

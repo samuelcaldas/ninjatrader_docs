@@ -6,7 +6,7 @@ GrossLoss
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](grossloss.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  GrossLoss | [Previous page](currency.htm) [Return to chapter overview](tradesperformance.htm) [Next page](grossprofit.htm) |
+| << [Click to Display Table of Contents](grossloss.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  GrossLoss | [Previous page](currency.md) [Return to chapter overview](tradesperformance.md) [Next page](grossprofit.md) |
 
 Definition
 ----------

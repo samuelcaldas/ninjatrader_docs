@@ -6,7 +6,7 @@ Using a time filter to limit trading hours
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using_a_time_filter_to_limit_t.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Reference Samples](reference_samples.htm) > [Strategy](strategy2.htm) >  Using a time filter to limit trading hours | [Previous page](trading_crossovers.htm) [Return to chapter overview](strategy2.htm) [Next page](using_cancelorder_method_to_ca.htm) |
+| << [Click to Display Table of Contents](using_a_time_filter_to_limit_t.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Strategy](strategy2.md) >  Using a time filter to limit trading hours | [Previous page](trading_crossovers.md) [Return to chapter overview](strategy2.md) [Next page](using_cancelorder_method_to_ca.md) |
 
 A common observation many traders have made is that certain hours of the day are more volatile than others.
 
@@ -22,13 +22,13 @@ Key concepts in this example
 Important related documentation
 -------------------------------
 
-•[DayOfWeek](tradinghours.htm)
+•[DayOfWeek](tradinghours.md)
 
-•[Time](time.htm)
+•[Time](time.md)
 
-•[ToTime()](totime.htm)
+•[ToTime()](totime.md)
 
-•[ToDay()](today.htm)
+•[ToDay()](today.md)
 
 Import instructions
 -------------------

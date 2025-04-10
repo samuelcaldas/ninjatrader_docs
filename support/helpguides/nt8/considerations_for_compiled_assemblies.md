@@ -6,7 +6,7 @@ Considerations For Compiled Assemblies
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](considerations_for_compiled_assemblies.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Distribution](distribution.htm) >  Considerations For Compiled Assemblies | [Previous page](distribution.htm) [Return to chapter overview](distribution.htm) [Next page](import.htm) |
+| << [Click to Display Table of Contents](considerations_for_compiled_assemblies.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Distribution](distribution.md) >  Considerations For Compiled Assemblies | [Previous page](distribution.md) [Return to chapter overview](distribution.md) [Next page](import.md) |
 
 Using Compiled Assemblies
 -------------------------
@@ -16,7 +16,7 @@ Compiled assemblies (DLL's) allow you to bundle your scripts into a format that 
 Using Custom enum Properties
 ----------------------------
 
-When creating custom enum properties, it is advised to create the enum outside of your NinjaScript class, and designating it in its own fully qualified namespace. For an example, please see [here](creating_a_user-defined_parame.htm). When using the enum in code, please use the fully qualified namespace as opposed to using a using directive to shorthand the expression.
+When creating custom enum properties, it is advised to create the enum outside of your NinjaScript class, and designating it in its own fully qualified namespace. For an example, please see [here](creating_a_user-defined_parame.md). When using the enum in code, please use the fully qualified namespace as opposed to using a using directive to shorthand the expression.
 
 Casting Types in a DLL (Using dynamic Types)
 --------------------------------------------
@@ -41,7 +41,7 @@ An obstacle arises with traditional typecasting in a compiled assembly, since th
 
  
 
-The above dynamic approach will work for primitive types. For instantiating more complex types / classes though, such as adding a new [PriceLevel](pricelevels.htm) programmatically to an existing drawing tool, [Reflection](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection) would need to used.
+The above dynamic approach will work for primitive types. For instantiating more complex types / classes though, such as adding a new [PriceLevel](pricelevels.md) programmatically to an existing drawing tool, [Reflection](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection) would need to used.
 
 | ns |
 | --- |
@@ -65,9 +65,9 @@ oExample: If you tried to access "line.tag" (improper capitalization) in the exa
 Adding XAML and Other Files Into a DLL
 --------------------------------------
 
-When [exporting a compiled assembly](export.htm) through NinjaTrader, no additional resource files can be added. There are two ways around this. The first is to export the DLL from NinjaTrader, then open the exported .zip file, add any additional files, and re-zip the archive, but this will result in your resource files being fully accessible to end users. The second and recommended approach is to use a fully featured IDE such as Visual Studio to build your DLL's.
+When [exporting a compiled assembly](export.md) through NinjaTrader, no additional resource files can be added. There are two ways around this. The first is to export the DLL from NinjaTrader, then open the exported .zip file, add any additional files, and re-zip the archive, but this will result in your resource files being fully accessible to end users. The second and recommended approach is to use a fully featured IDE such as Visual Studio to build your DLL's.
 
-For more information on how to accomplish this with Visual Studio, see the "AddOn Development Environment" section of the [AddOn Development Overview](addon_development_overview.htm) page. Although the page focuses on AddOn development, the sample project it provides can be used to develop other NinjaScript types, as well.
+For more information on how to accomplish this with Visual Studio, see the "AddOn Development Environment" section of the [AddOn Development Overview](addon_development_overview.md) page. Although the page focuses on AddOn development, the sample project it provides can be used to develop other NinjaScript types, as well.
 
 Exporting custom drawing tools as assembly / DLL
 ------------------------------------------------

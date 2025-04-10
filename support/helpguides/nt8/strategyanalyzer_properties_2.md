@@ -6,9 +6,9 @@ Working with Historical Trade Data
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](strategyanalyzer_properties_2.htm) >>  **Navigation:**  [Operations](operations.htm) > [Strategy Analyzer](strategy_analyzer.htm) >  Working with Historical Trade Data | [Previous page](strategyanalyzer_properties.htm) [Return to chapter overview](strategy_analyzer.htm) [Next page](strategy_builder.htm) |
+| << [Click to Display Table of Contents](strategyanalyzer_properties_2.md) >>  **Navigation:**  [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) >  Working with Historical Trade Data | [Previous page](strategyanalyzer_properties.md) [Return to chapter overview](strategy_analyzer.md) [Next page](strategy_builder.md) |
 
-The [Trade](trade.htm) class allows you to directly access information about historical trades. However, Trade objects are not always accessible from a NinjaScript strategy by default. The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.htm) property determines whether references are made in memory to Trade objects, allowing you access them programmatically after a trade has completed, or whether no references are made, freeing up memory for other uses.
+The [Trade](trade.md) class allows you to directly access information about historical trades. However, Trade objects are not always accessible from a NinjaScript strategy by default. The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property determines whether references are made in memory to Trade objects, allowing you access them programmatically after a trade has completed, or whether no references are made, freeing up memory for other uses.
 
 IncludeTradeHistoryInBacktest = True
 ------------------------------------

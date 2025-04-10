@@ -6,7 +6,7 @@ RSquared
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](rsquared.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  RSquared | [Previous page](profitfactor.htm) [Return to chapter overview](tradesperformance.htm) [Next page](riskfreereturn.htm) |
+| << [Click to Display Table of Contents](rsquared.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  RSquared | [Previous page](profitfactor.md) [Return to chapter overview](tradesperformance.md) [Next page](riskfreereturn.md) |
 
 Definition
 ----------

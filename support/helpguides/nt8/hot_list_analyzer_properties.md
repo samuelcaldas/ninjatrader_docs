@@ -6,7 +6,7 @@ Hot List Analyzer Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](hot_list_analyzer_properties.htm) >>  **Navigation:**  [Operations](operations.htm) > [Hot List Analyzer](hot_list_analyzer.htm) >  Hot List Analyzer Properties | [Previous page](customizing_the_hot_list_analy.htm) [Return to chapter overview](hot_list_analyzer.htm) [Next page](instrument_lists.htm) |
+| << [Click to Display Table of Contents](hot_list_analyzer_properties.md) >>  **Navigation:**  [Operations](operations.md) > [Hot List Analyzer](hot_list_analyzer.md) >  Hot List Analyzer Properties | [Previous page](customizing_the_hot_list_analy.md) [Return to chapter overview](hot_list_analyzer.md) [Next page](instrument_lists.md) |
 
 The Hot List Analyzer can be customized to your preferences in the Hot List Analyzer Properties window.
 

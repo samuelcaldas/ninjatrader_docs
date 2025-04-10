@@ -6,14 +6,14 @@ Commodity Channel Index (CCI)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\commodity_channel_index_cci.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Commodity Channel Index (CCI) | [Previous page](commitment-of-traders-(cot)-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](correlation-1.htm) |
+| << [Click to Display Table of Contents](.\commodity_channel_index_cci.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Commodity Channel Index (CCI) | [Previous page](commitment-of-traders-(cot)-1.md) [Return to chapter overview](indicators-1.md) [Next page](correlation-1.md) |
 
 Description
 -----------
 
 Developed by Donald Lambert, the Commodity Channel Index (CCI) was designed to identify cyclical turns in commodities. The assumption behind the indicator is that commodities (or stocks or bonds) move in cycles, with highs and lows coming at periodic intervals.
 
-... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_CCI.html)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_CCI.md)
 
 Syntax
 ------
@@ -37,7 +37,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

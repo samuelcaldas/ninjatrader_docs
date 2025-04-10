@@ -6,12 +6,12 @@ Entering Strategy Logic
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](entering_strategy_logic.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Strategies](developing_strategies.htm) > [Intermediate - RSI with Stop Loss & Profit Target](intermediate_-_rsi_with_stop_l.htm) >  Entering Strategy Logic | [Previous page](set_up11.htm) [Return to chapter overview](intermediate_-_rsi_with_stop_l.htm) [Next page](compiling8.htm) |
+| << [Click to Display Table of Contents](entering_strategy_logic.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Strategies](developing_strategies.md) > [Intermediate - RSI with Stop Loss & Profit Target](intermediate_-_rsi_with_stop_l.md) >  Entering Strategy Logic | [Previous page](set_up11.md) [Return to chapter overview](intermediate_-_rsi_with_stop_l.md) [Next page](compiling8.md) |
 
 Using the OnStateChange() Method to Configure the Strategy
 ----------------------------------------------------------
 
-The [OnStateChange()](onstatechange.htm) method is called once prior to running a strategy and can be used to set properties or call methods in preparation for running a strategy.
+The [OnStateChange()](onstatechange.md) method is called once prior to running a strategy and can be used to set properties or call methods in preparation for running a strategy.
 
 Enter the code contained within the OnStateChange() method in the image below into the OnStateChange() method when we are in the State.DataLoaded state in the NinjaScript Editor.
 
@@ -19,9 +19,9 @@ Enter the code contained within the OnStateChange() method in the image below in
 | --- |
 | protected override void OnStateChange()  {     if (State == State.SetDefaults)     {       Description                               = @"RSI with a Stop Loss and Profit Target";       Name                                     = "RSIwithStopAndTarget";       Calculate                                 = Calculate.OnBarClose;       EntriesPerDirection                       = 1;       EntryHandling                             = EntryHandling.AllEntries;       IsExitOnSessionCloseStrategy             = true;       ExitOnSessionCloseSeconds                 = 30;       IsFillLimitOnTouch                       = false;       MaximumBarsLookBack                       = MaximumBarsLookBack.TwoHundredFiftySix;       OrderFillResolution                       = OrderFillResolution.Standard;       Slippage                                 = 0;       StartBehavior                             = StartBehavior.WaitUntilFlat;       TimeInForce                               = TimeInForce.Gtc;       TraceOrders                               = false;       RealtimeErrorHandling                     = RealtimeErrorHandling.StopCancelClose;       StopTargetHandling                       = StopTargetHandling.PerEntryExecution;       BarsRequiredToTrade                       = 20;       // Disable this property for performance gains in Strategy Analyzer optimizations       // See the Help Guide for additional information       IsInstantiatedOnEachOptimizationIteration = true;       RSIPeriod                                 = 14;       RSISmooth                                 = 3;       ProfitTarget                             = 12;       StopLoss                                 = 6;     }     else if (State == State.DataLoaded)     {       AddChartIndicator(RSI(RSIPeriod, RSISmooth));               SetStopLoss(CalculationMode.Ticks, StopLoss);       SetProfitTarget(CalculationMode.Ticks, ProfitTarget);     }  } |
 
-For more information on the strategy properties added in State.SetDefaults, please see our complete [Strategy](strategy.htm) documentation.
+For more information on the strategy properties added in State.SetDefaults, please see our complete [Strategy](strategy.md) documentation.
 
-The [AddChartIndicator()](addchartindicator.htm) method is called and the RSI() indicator method is passed in which will automatically plot this indicator on a chart when the strategy runs.
+The [AddChartIndicator()](addchartindicator.md) method is called and the RSI() indicator method is passed in which will automatically plot this indicator on a chart when the strategy runs.
 
 The method signature for the RSI() indicator is:
 
@@ -48,7 +48,7 @@ However, instead of hard coding the period value to 14 and the smooth value to 3
 
 Allows us to change the period and smooth parameters of the embedded RSI indicator in the strategy at run time. This gives us a higher level of flexibility when working with our strategy.
 
-[SetStopLoss()](setstoploss.htm) and [SetProfitTarget()](setprofittarget.htm) are called with CalculationMode.Ticks. This means that when a position is opened, the strategy will immediately submit a stop and target order with a price that is calculated based on the StopLoss and ProfitTarget parameters passed in offset from the positions average entry price.
+[SetStopLoss()](setstoploss.md) and [SetProfitTarget()](setprofittarget.md) are called with CalculationMode.Ticks. This means that when a position is opened, the strategy will immediately submit a stop and target order with a price that is calculated based on the StopLoss and ProfitTarget parameters passed in offset from the positions average entry price.
 
 Using the OnBarUpdate() Method for the Core Strategy Logic
 ----------------------------------------------------------
@@ -69,7 +69,7 @@ if RSI crosses above a value of 20 within the last bar, go long
 
 To accomplish this we used the following methods and properties:
 
-[CurrentBar](currentbar.htm) - A value representing the current bar being processed (think of a chart where the left most bar would be equal to one)   
-[CrossAbove()](crossabove.htm) - Checks for a cross above condition and returns true or false   
-[RSI()](relative_strength_index_rsi.htm) - Returns the value of the RSI indicator   
-[EnterLong()](enterlong.htm) - Enters a market order long
+[CurrentBar](currentbar.md) - A value representing the current bar being processed (think of a chart where the left most bar would be equal to one)   
+[CrossAbove()](crossabove.md) - Checks for a cross above condition and returns true or false   
+[RSI()](relative_strength_index_rsi.md) - Returns the value of the RSI indicator   
+[EnterLong()](enterlong.md) - Enters a market order long

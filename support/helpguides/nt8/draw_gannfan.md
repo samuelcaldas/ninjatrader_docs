@@ -6,7 +6,7 @@ Draw.GannFan()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](draw_gannfan.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) >  Draw.GannFan() | [Previous page](fibonaccitimeextensions.htm) [Return to chapter overview](drawing.htm) [Next page](gannfan.htm) |
+| << [Click to Display Table of Contents](draw_gannfan.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.GannFan() | [Previous page](fibonaccitimeextensions.md) [Return to chapter overview](drawing.md) [Next page](gannfan.md) |
 
 Definition
 ----------
@@ -16,7 +16,7 @@ Draws a Gann Fan.
 Method Return Value
 -------------------
 
-A [GannFan](gannfan.htm) object that represents the draw object.
+A [GannFan](gannfan.md) object that represents the draw object.
 
 Syntax 
 Draw.GannFan(NinjaScriptBase owner, string tag, bool isAutoScale, int barsAgo, double y) 

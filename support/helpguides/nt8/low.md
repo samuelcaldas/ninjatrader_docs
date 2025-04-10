@@ -6,7 +6,7 @@ Low
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](low.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [ISeries<T>](iseriest.htm) > [PriceSeries<double>](priceseries.htm) >  Low | [Previous page](inputs.htm) [Return to chapter overview](priceseries.htm) [Next page](lows.htm) |
+| << [Click to Display Table of Contents](low.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [ISeries<T>](iseriest.md) > [PriceSeries<double>](priceseries.md) >  Low | [Previous page](inputs.md) [Return to chapter overview](priceseries.md) [Next page](lows.md) |
 
 Definition
 ----------

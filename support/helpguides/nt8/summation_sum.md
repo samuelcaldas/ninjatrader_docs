@@ -6,7 +6,7 @@ Summation (SUM)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](summation_sum.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Summation (SUM) | [Previous page](stochastics_rsi_stochrsi.htm) [Return to chapter overview](indicators.htm) [Next page](swing.htm) |
+| << [Click to Display Table of Contents](summation_sum.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Summation (SUM) | [Previous page](stochastics_rsi_stochrsi.md) [Return to chapter overview](indicators.md) [Next page](swing.md) |
 
 Description
 -----------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

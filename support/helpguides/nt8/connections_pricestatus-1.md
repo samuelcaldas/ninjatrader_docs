@@ -6,7 +6,7 @@ PriceStatus
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\connections_pricestatus.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) > [Connection](connection_class-1.htm) >  PriceStatus | [Previous page](connections_options-1.htm) [Return to chapter overview](connection_class-1.htm) [Next page](connections_status-1.htm) |
+| << [Click to Display Table of Contents](.\connections_pricestatus.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [Connection](connection_class-1.md) >  PriceStatus | [Previous page](connections_options-1.md) [Return to chapter overview](connection_class-1.md) [Next page](connections_status-1.md) |
 
 Definition
 ----------

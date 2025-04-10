@@ -78,6 +78,6 @@ The Compare() method returns a value of "1" if the first parameter is greater th
 
 For a more formal analysis of floating-point arithmetic, there are many resources online:
 
-<http://docs.sun.com/source/806-3568/ncg_goldberg.html>
+<http://docs.sun.com/source/806-3568/ncg_goldberg.md>
 
 <http://www.codeproject.com/dotnet/ExtremeFloatingPoint1.asp#terms>

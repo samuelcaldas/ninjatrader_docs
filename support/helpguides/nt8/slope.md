@@ -6,7 +6,7 @@ Slope()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](slope.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Analytical](market_data.htm) >  Slope() | [Previous page](most_recent_occurence_mro.htm) [Return to chapter overview](market_data.htm) [Next page](ticksize.htm) |
+| << [Click to Display Table of Contents](slope.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Analytical](market_data.md) >  Slope() | [Previous page](most_recent_occurence_mro.md) [Return to chapter overview](market_data.md) [Next page](ticksize.md) |
 
 Definition
 ----------

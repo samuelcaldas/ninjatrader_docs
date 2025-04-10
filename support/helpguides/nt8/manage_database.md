@@ -6,19 +6,19 @@ Managing Instruments
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](manage_database.htm) >>  **Navigation:**  [Operations](operations.htm) > [Instruments](instruments.htm) >  Managing Instruments | [Previous page](searching_for_instruments.htm) [Return to chapter overview](instruments.htm) [Next page](editing_instruments.htm) |
+| << [Click to Display Table of Contents](manage_database.md) >>  **Navigation:**  [Operations](operations.md) > [Instruments](instruments.md) >  Managing Instruments | [Previous page](searching_for_instruments.md) [Return to chapter overview](instruments.md) [Next page](editing_instruments.md) |
 
 NinjaTrader installs with a predefined database of commonly traded instruments that is updated by the NinjaTrader data server automatically. There will be rare occasions where you may need to manage the instruments manually in the Instruments window.
 
 Adding an Instrument 
-1. Press the "new" button which opens the [Instrument](editing_instruments.htm) window
+1. Press the "new" button which opens the [Instrument](editing_instruments.md) window
 ------------------------------------------------------------------------------------------------------------
 
 2. Add instrument parameters including the symbol mapping for your connectivity provider(s)
 
 3. Press the "OK" button
 
-Equities can be alternatively added by typing the symbol name into an open chart or Market Analyzer and pressing the "Enter" key on your keyboard. Please see the "How to change a Data Series" section of the [Working with Price Data](working_with_price_data.htm) page of the Help Guide for more information.
+Equities can be alternatively added by typing the symbol name into an open chart or Market Analyzer and pressing the "Enter" key on your keyboard. Please see the "How to change a Data Series" section of the [Working with Price Data](working_with_price_data.md) page of the Help Guide for more information.
 
 |  |
 | --- |
@@ -36,7 +36,7 @@ Editing an Instrument
 
 2. Double left click the Instrument or select the instrument and press "edit"
 
-For more information on editing instruments please see the [Editing Instruments](editing_instruments.htm) section of the help guide.
+For more information on editing instruments please see the [Editing Instruments](editing_instruments.md) section of the help guide.
 
 Editing or Removing Multiple Instruments at a Time
 --------------------------------------------------

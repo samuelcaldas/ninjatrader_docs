@@ -6,12 +6,12 @@ AddKagi()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](addkagi.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [AddDataSeries()](adddataseries.htm) >  AddKagi() | [Previous page](addheikenashi.htm) [Return to chapter overview](adddataseries.htm) [Next page](addlinebreak.htm) |
+| << [Click to Display Table of Contents](addkagi.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [AddDataSeries()](adddataseries.md) >  AddKagi() | [Previous page](addheikenashi.md) [Return to chapter overview](adddataseries.md) [Next page](addlinebreak.md) |
 
 Definition
 ----------
 
-Similar to the [AddDataSeries()](adddataseries.htm) method for adding Bars objects, this method adds a Kagi Bars object for multi-series NinjaScript.
+Similar to the [AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a Kagi Bars object for multi-series NinjaScript.
 
  
 

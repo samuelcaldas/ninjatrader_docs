@@ -6,7 +6,7 @@ Ulcer
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](ulcer.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradesPerformanceValues](tradesperformancevalues.htm) >  Ulcer | [Previous page](turnaround.htm) [Return to chapter overview](tradesperformancevalues.htm) [Next page](waitforococlosingbracket.htm) |
+| << [Click to Display Table of Contents](ulcer.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradesPerformanceValues](tradesperformancevalues.md) >  Ulcer | [Previous page](turnaround.md) [Return to chapter overview](tradesperformancevalues.md) [Next page](waitforococlosingbracket.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ Wiseman
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](wiseman.htm) >>  **Navigation:**  [Operations](operations.htm) > [Charts](charts.htm) >  Wiseman | [Previous page](cot.htm) [Return to chapter overview](charts.htm) [Next page](understanding_commissions.htm) |
+| << [Click to Display Table of Contents](wiseman.md) >>  **Navigation:**  [Operations](operations.md) > [Charts](charts.md) >  Wiseman | [Previous page](cot.md) [Return to chapter overview](charts.md) [Next page](understanding_commissions.md) |
 
 The Wiseman indicators group are provided by Profitunity and were developed by Bill M. Williams. Profitunity is an educational partner and offers courses on using the Wiseman indicators on their website [www.profitunity.com](http://www.profitunity.com)
 

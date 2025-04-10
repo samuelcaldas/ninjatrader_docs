@@ -6,7 +6,7 @@ Positions
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](positions_account.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Account](account_class.htm) >  Positions | [Previous page](orderupdate.htm) [Return to chapter overview](account_class.htm) [Next page](positionupdate.htm) |
+| << [Click to Display Table of Contents](positions_account.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) >  Positions | [Previous page](orderupdate.md) [Return to chapter overview](account_class.md) [Next page](positionupdate.md) |
 
 Definition
 ----------

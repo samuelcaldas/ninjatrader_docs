@@ -6,7 +6,7 @@ Getting Help & Support
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](getting_help__support.htm) >>  **Navigation:**  [Introduction](introduction.htm) >  Getting Help & Support | [Previous page](getting_started_operations.htm) [Return to chapter overview](introduction.htm) [Next page](learning_to_use_ninjatrader.htm) |
+| << [Click to Display Table of Contents](getting_help__support.md) >>  **Navigation:**  [Introduction](introduction.md) >  Getting Help & Support | [Previous page](getting_started_operations.md) [Return to chapter overview](introduction.md) [Next page](learning_to_use_ninjatrader.md) |
 
 NinjaTrader Support Policy
 --------------------------

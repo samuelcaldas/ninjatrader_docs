@@ -6,7 +6,7 @@ AddLine()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\addline.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Indicator](indicator-1.htm) >  AddLine() | [Previous page](indicator-1.htm) [Return to chapter overview](indicator-1.htm) [Next page](arelinesconfigurable-1.htm) |
+| << [Click to Display Table of Contents](.\addline.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Indicator](indicator-1.md) >  AddLine() | [Previous page](indicator-1.md) [Return to chapter overview](indicator-1.md) [Next page](arelinesconfigurable-1.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ H (Height)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](h_height_chartpanel.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartPanel](chartpanel.htm) >  H (Height) | [Previous page](chartobjects.htm) [Return to chapter overview](chartpanel.htm) [Next page](isyacisdisplayedleft_chartpanel.htm) |
+| << [Click to Display Table of Contents](h_height_chartpanel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartPanel](chartpanel.md) >  H (Height) | [Previous page](chartobjects.md) [Return to chapter overview](chartpanel.md) [Next page](isyacisdisplayedleft_chartpanel.md) |
 
 Definition
 ----------

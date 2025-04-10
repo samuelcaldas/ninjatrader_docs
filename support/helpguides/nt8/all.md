@@ -6,7 +6,7 @@ All
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](all.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Add On](add_on.htm) > [Account](account_class.htm) >  All | [Previous page](accountstatusupdate.htm) [Return to chapter overview](account_class.htm) [Next page](cancel.htm) |
+| << [Click to Display Table of Contents](all.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) >  All | [Previous page](accountstatusupdate.md) [Return to chapter overview](account_class.md) [Next page](cancel.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ TotalQuantity
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](totalquantity.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  TotalQuantity | [Previous page](totalcommission.htm) [Return to chapter overview](tradesperformance.htm) [Next page](totalslippage.htm) |
+| << [Click to Display Table of Contents](totalquantity.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  TotalQuantity | [Previous page](totalcommission.md) [Return to chapter overview](tradesperformance.md) [Next page](totalslippage.md) |
 
 Definition
 ----------

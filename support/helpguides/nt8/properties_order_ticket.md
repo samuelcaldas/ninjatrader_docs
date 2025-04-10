@@ -6,7 +6,7 @@ Properties
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](properties_order_ticket.htm) >>  **Navigation:**  [Operations](operations.htm) > [Order Entry](order_entry.htm) > [Order Ticket](order_ticket.htm) >  Properties | [Previous page](submitting_orders_order_ticket.htm) [Return to chapter overview](order_ticket.htm) [Next page](superdom.htm) |
+| << [Click to Display Table of Contents](properties_order_ticket.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) > [Order Ticket](order_ticket.md) >  Properties | [Previous page](submitting_orders_order_ticket.md) [Return to chapter overview](order_ticket.md) [Next page](superdom.md) |
 
 The Order Ticket order entry window is highly efficient by design but can also be customized to your preferences through the Order Ticket Properties menu.
 
@@ -32,4 +32,4 @@ The Order Ticket order entry window is highly efficient by design but can also b
 
 |  |
 | --- |
-| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Order Ticket Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.htm) page. |
+| Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Order Ticket Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page. |

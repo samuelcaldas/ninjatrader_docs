@@ -6,7 +6,7 @@ Standard Error (StdError)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](standard_error_stderror.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Standard Error (StdError) | [Previous page](standard_deviation_stddev.htm) [Return to chapter overview](indicators.htm) [Next page](stochastics.htm) |
+| << [Click to Display Table of Contents](standard_error_stderror.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Standard Error (StdError) | [Previous page](standard_deviation_stddev.md) [Return to chapter overview](indicators.md) [Next page](stochastics.md) |
 
 Description
 -----------
@@ -49,7 +49,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

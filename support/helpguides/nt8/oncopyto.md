@@ -6,7 +6,7 @@ OnCopyTo()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](oncopyto.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Performance Metrics](performance_metrics.htm) >  OnCopyTo() | [Previous page](onaddtrade.htm) [Return to chapter overview](performance_metrics.htm) [Next page](onmergeperformancemetric.htm) |
+| << [Click to Display Table of Contents](oncopyto.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Performance Metrics](performance_metrics.md) >  OnCopyTo() | [Previous page](onaddtrade.md) [Return to chapter overview](performance_metrics.md) [Next page](onmergeperformancemetric.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ Parameter sequencing
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](parameter_sequencing.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Tips](tips.htm) >  Parameter sequencing | [Previous page](order_types.htm) [Return to chapter overview](tips.htm) [Next page](referencing_the_correct_bar.htm) |
+| << [Click to Display Table of Contents](parameter_sequencing.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Tips](tips.md) >  Parameter sequencing | [Previous page](order_types.md) [Return to chapter overview](tips.md) [Next page](referencing_the_correct_bar.md) |
 
 Indicator and strategy parameters (user defined inputs) will always be displayed in an order that the user specifies in the NinjaScript file.
 

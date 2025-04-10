@@ -6,12 +6,12 @@ AddPlot()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](addplot.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Indicator](indicator.htm) >  AddPlot() | [Previous page](lines.htm) [Return to chapter overview](indicator.htm) [Next page](areplotsconfigurable.htm) |
+| << [Click to Display Table of Contents](addplot.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Indicator](indicator.md) >  AddPlot() | [Previous page](lines.md) [Return to chapter overview](indicator.md) [Next page](areplotsconfigurable.md) |
 
 Definition
 ----------
 
-Adds plot objects that define how an indicator or strategy data series render on a chart. When this method is called to add a plot, an associated [Series<double>](seriest.htm) object is created held in the [Values](value.htm) collection.
+Adds plot objects that define how an indicator or strategy data series render on a chart. When this method is called to add a plot, an associated [Series<double>](seriest.md) object is created held in the [Values](value.md) collection.
 
 |  |
 | --- |
@@ -64,7 +64,7 @@ Examples
 
  
 
-| Indicator using a public Series<double> to expose a plot with a friendly name. This is required for making plots accessible in the Strategy BuilderFor an example on exposing other variables publicly, see [Exposing Indicator values that are not plots](exposing_indicator_values_that.htm) |
+| Indicator using a public Series<double> to expose a plot with a friendly name. This is required for making plots accessible in the Strategy BuilderFor an example on exposing other variables publicly, see [Exposing Indicator values that are not plots](exposing_indicator_values_that.md) |
 | --- |
 | OnStateChange()  {  State.SetDefaults)  {  ;     // Adds a blue line style plot  );     // Adds a blue historgram style plot  );  }  }      OnBarUpdate()  {     MyPlot[​;    MyPlot[​;  }     [Browsable()]  [XmlIgnore]  MyPlot  {     get}  }     [Browsable()]  [XmlIgnore]  MyPlot2  {     get}  } |
 

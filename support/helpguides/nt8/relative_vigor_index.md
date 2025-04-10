@@ -6,7 +6,7 @@ Relative Vigor Index
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](relative_vigor_index.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Relative Vigor Index | [Previous page](relative_strength_index_rsi.htm) [Return to chapter overview](indicators.htm) [Next page](relative_volatility_index_rvi.htm) |
+| << [Click to Display Table of Contents](relative_vigor_index.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Relative Vigor Index | [Previous page](relative_strength_index_rsi.md) [Return to chapter overview](indicators.md) [Next page](relative_volatility_index_rvi.md) |
 
 Description
 -----------
@@ -30,7 +30,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

@@ -6,16 +6,16 @@ DrawnOnBar
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\drawnonbar.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Drawing Tool](drawing_tools-1.htm) > [ChartAnchor](chartanchor-1.htm) >  DrawnOnBar | [Previous page](drawingtool-1.htm) [Return to chapter overview](chartanchor-1.htm) [Next page](getpoint-1.htm) |
+| << [Click to Display Table of Contents](.\drawnonbar.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Drawing Tool](drawing_tools-1.md) > [ChartAnchor](chartanchor-1.md) >  DrawnOnBar | [Previous page](drawingtool-1.md) [Return to chapter overview](chartanchor-1.md) [Next page](getpoint-1.md) |
 
 Definition
 ----------
 
-Gets the current bar value that the chart anchor is drawn by a NinjaScript object.  Please see the [Drawing](drawing-1.htm) section for more information.
+Gets the current bar value that the chart anchor is drawn by a NinjaScript object.  Please see the [Drawing](drawing-1.md) section for more information.
 
 |  |
 | --- |
-| Note:  This value will NOT work on manually drawn objects.  This property is reserved for chart anchors which were drawn by another NinjaScript object (e.g, using a Draw method in an indicator).  For manually drawn objects, please see the [SlotIndex](barindex-1.htm) property |
+| Note:  This value will NOT work on manually drawn objects.  This property is reserved for chart anchors which were drawn by another NinjaScript object (e.g, using a Draw method in an indicator).  For manually drawn objects, please see the [SlotIndex](barindex-1.md) property |
 
 Property Value
 --------------

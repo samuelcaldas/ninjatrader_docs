@@ -6,7 +6,7 @@ Strategies
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](chartcontrol_strategies.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Charts](chart.htm) > [ChartControl](chartcontrol.htm) >  Strategies | [Previous page](slotspainted.htm) [Return to chapter overview](chartcontrol.htm) [Next page](timepainted.htm) |
+| << [Click to Display Table of Contents](chartcontrol_strategies.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  Strategies | [Previous page](slotspainted.md) [Return to chapter overview](chartcontrol.md) [Next page](timepainted.md) |
 
 Definition
 ----------

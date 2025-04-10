@@ -6,18 +6,18 @@ OnRender()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\onrender.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Charts](chart-1.htm) > [Rendering](rendering-1.htm) >  OnRender() | [Previous page](oncalculateminmax-1.htm) [Return to chapter overview](rendering-1.htm) [Next page](onrendertargetchanged-1.htm) |
+| << [Click to Display Table of Contents](.\onrender.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Charts](chart-1.md) > [Rendering](rendering-1.md) >  OnRender() | [Previous page](oncalculateminmax-1.md) [Return to chapter overview](rendering-1.md) [Next page](onrendertargetchanged-1.md) |
 
 Definition
 ----------
 
-Used to render custom drawing to a chart from various chart objects, such as an [Indicator](indicator-1.htm), [DrawingTool](drawingtool-1.htm) or [Strategy](strategy-1.htm).
+Used to render custom drawing to a chart from various chart objects, such as an [Indicator](indicator-1.md), [DrawingTool](drawingtool-1.md) or [Strategy](strategy-1.md).
 
  
 
 |  |
 | --- |
-| Notes:  1.This method uses the 3rd party SharpDX library to render custom Direct2D Text and Shapes.  For a walk through for using the SharpDX, please see the educational resource [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.htm)  2.The OnRender() method frequently runs once the [State](state-1.htm) has reached State.Realtime in response to market data updates or a user interacting with the chart (e.g., clicking, resizing, rescaling, etc.)  3.For performance optimizations, the timing of the calls to OnRender() are buffered to at least 250ms, and re-renders once internal logic determines that values may be out-of-date.  See also [ForceRefresh()](forcerefresh-1.htm) for more details  4.When using the [Strategy Analyzer](strategy_analyzer-1.htm), OnRender() does NOT call until you switch to the "Chart" display and renders from State.Terminated.  As a result, this method should NOT be relied on for historical Strategy backtesting logic and should ONLY be used for rendering purposes  5.Unlike market data events and strategy order related events, there is NO guarantee that the barsAgo indexer used for [Series<T>](seriest-1.htm) objects are in sync with the current bars in progress.  As a result, you should favor using an absolute index method to look up values (e.g., [<series>.GetValueAt()](getvalueat-1.htm), [Bars.GetOpen()](getopen-1.htm), etc)  6.While OnRender() is an excellent means for customizing and enhancing indicators and strategies, its application can easily be abused, resulting in unforeseen performance issues which you may not catch until the right conditions (e.g., in the hands of your users during an FOMC event)  7.Please limit any calculations or algorithms you may be tempted run in OnRender() simply to rendering. You should always favor precomputed values and store them for rendering later as the preferred approach to working with the OnRender() method (e.g., reusing brushes, passing values from [OnBarUpdate()](onbarupdate-1.htm), etc.).  See also [OnRenderTargetChanged()](onrendertargetchanged-1.htm) method for more information on reusing Brushes  8.If you are using this method as an opportunity to "hook" onto a user related event, such as when a user selects a 3rd party control, you should alternatively consider using the events of that control independent of official NinjaScript events. See also [TriggerCustomEvent()](triggercustomevent-1.htm) |
+| Notes:  1.This method uses the 3rd party SharpDX library to render custom Direct2D Text and Shapes.  For a walk through for using the SharpDX, please see the educational resource [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering-1.md)  2.The OnRender() method frequently runs once the [State](state-1.md) has reached State.Realtime in response to market data updates or a user interacting with the chart (e.g., clicking, resizing, rescaling, etc.)  3.For performance optimizations, the timing of the calls to OnRender() are buffered to at least 250ms, and re-renders once internal logic determines that values may be out-of-date.  See also [ForceRefresh()](forcerefresh-1.md) for more details  4.When using the [Strategy Analyzer](strategy_analyzer-1.md), OnRender() does NOT call until you switch to the "Chart" display and renders from State.Terminated.  As a result, this method should NOT be relied on for historical Strategy backtesting logic and should ONLY be used for rendering purposes  5.Unlike market data events and strategy order related events, there is NO guarantee that the barsAgo indexer used for [Series<T>](seriest-1.md) objects are in sync with the current bars in progress.  As a result, you should favor using an absolute index method to look up values (e.g., [<series>.GetValueAt()](getvalueat-1.md), [Bars.GetOpen()](getopen-1.md), etc)  6.While OnRender() is an excellent means for customizing and enhancing indicators and strategies, its application can easily be abused, resulting in unforeseen performance issues which you may not catch until the right conditions (e.g., in the hands of your users during an FOMC event)  7.Please limit any calculations or algorithms you may be tempted run in OnRender() simply to rendering. You should always favor precomputed values and store them for rendering later as the preferred approach to working with the OnRender() method (e.g., reusing brushes, passing values from [OnBarUpdate()](onbarupdate-1.md), etc.).  See also [OnRenderTargetChanged()](onrendertargetchanged-1.md) method for more information on reusing Brushes  8.If you are using this method as an opportunity to "hook" onto a user related event, such as when a user selects a 3rd party control, you should alternatively consider using the events of that control independent of official NinjaScript events. See also [TriggerCustomEvent()](triggercustomevent-1.md) |
 
 Method Return Value
 -------------------
@@ -36,7 +36,7 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 |  |
 | --- |
-| Warning:  Each DirectX [render target](rendertarget-1.htm) requires its own brushes. You must create a brushes directly in OnRender() or using [OnRenderTargetChanged()](onrendertargetchanged-1.htm).  If you do not you will receive an error at run time similar to:      "A direct X error has occured while rendering the chart: HRESULT: [0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR\_WRONG\_RESOURCE\_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().    Please see [OnRenderTargetChanged()](onrendertargetchanged-1.htm) for examples of a brush that needs to be recalculated, or the example below of recreating a static brush. |
+| Warning:  Each DirectX [render target](rendertarget-1.md) requires its own brushes. You must create a brushes directly in OnRender() or using [OnRenderTargetChanged()](onrendertargetchanged-1.md).  If you do not you will receive an error at run time similar to:      "A direct X error has occured while rendering the chart: HRESULT: [0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR\_WRONG\_RESOURCE\_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().    Please see [OnRenderTargetChanged()](onrendertargetchanged-1.md) for examples of a brush that needs to be recalculated, or the example below of recreating a static brush. |
 
  
 
@@ -45,12 +45,12 @@ Method Parameters
 
 |  |  |
 | --- | --- |
-| chartControl | A [ChartControl](chartcontrol-1.htm) object (the chart's bar-related properties and x-axis) |
-| chartScale | A [ChartScale](chartscale-1.htm) object (the chart's y-axis) |
+| chartControl | A [ChartControl](chartcontrol-1.md) object (the chart's bar-related properties and x-axis) |
+| chartScale | A [ChartScale](chartscale-1.md) object (the chart's y-axis) |
 
 |  |
 | --- |
-| Tips:  •Please see the help guide topic on [Working with Brushes](working_with_brushes-1.htm) for general information on using brushes and advanced brush concepts  •If you are using standard [Plots](plots-1.htm) along with custom rendering from an indicator or strategy, you will need to ensure to call the base.OnRender() method for those plots to display. |
+| Tips:  •Please see the help guide topic on [Working with Brushes](working_with_brushes-1.md) for general information on using brushes and advanced brush concepts  •If you are using standard [Plots](plots-1.md) along with custom rendering from an indicator or strategy, you will need to ensure to call the base.OnRender() method for those plots to display. |
 
 Examples
 --------

@@ -6,7 +6,7 @@ IsEditable
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](iseditable.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Market Analyzer Column](market_analyzer_column.htm) >  IsEditable | [Previous page](formatdecimals.htm) [Return to chapter overview](market_analyzer_column.htm) [Next page](onrender2.htm) |
+| << [Click to Display Table of Contents](iseditable.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Market Analyzer Column](market_analyzer_column.md) >  IsEditable | [Previous page](formatdecimals.md) [Return to chapter overview](market_analyzer_column.md) [Next page](onrender2.md) |
 
 Definition
 ----------

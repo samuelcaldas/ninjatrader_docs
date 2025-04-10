@@ -6,7 +6,7 @@ Using the Trading Hours window
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\using_the_trading_hours_window.htm) >>  **Navigation:**  [Operations](operations-1.htm) > [Trading Hours](trading_hours-1.htm) >  Using the Trading Hours window | [Previous page](trading_hours-1.htm) [Return to chapter overview](trading_hours-1.htm) [Next page](window_tabs-1.htm) |
+| << [Click to Display Table of Contents](.\using_the_trading_hours_window.md) >>  **Navigation:**  [Operations](operations-1.md) > [Trading Hours](trading_hours-1.md) >  Using the Trading Hours window | [Previous page](trading_hours-1.md) [Return to chapter overview](trading_hours-1.md) [Next page](window_tabs-1.md) |
 
 Within the Trading Hours window, Trading Hour Templates hold the session definitions for each day of the week can be created and edited based on any time zone.
 
@@ -14,7 +14,7 @@ Within the Trading Hours window, Trading Hour Templates hold the session definit
 
 |  |
 | --- |
-| Trading Hour Templates A Trading Hour Template is a collection of session definitions that can be used anywhere NinjaTrader utilizes data. When a template is applied, any data outside of the times in the session definitions will be ignored. NinjaTrader comes pre-loaded with the most common Trading Hour Templates and will also update these automatically from the NinjaTrader data server. You may also create your own custom Trading Hour Templates can also be created to suit your needs.   Where Trading Hour Templates can be Applied Trading Hour Templates can be applied in the following NinjaTrader dialogue windows under the property "Trading Hours":    •Chart panel via the [Data Series](working_with_price_data-1.htm) window  •Market Analyzer via customizing [columns](working_with_columns-1.htm)  •[Strategy Analyzer](strategy_analyzer-1.htm) window when configuring backtesting  •[Strategies tab](strategies_tab2.htm) of the Control Center when starting a strategy |
+| Trading Hour Templates A Trading Hour Template is a collection of session definitions that can be used anywhere NinjaTrader utilizes data. When a template is applied, any data outside of the times in the session definitions will be ignored. NinjaTrader comes pre-loaded with the most common Trading Hour Templates and will also update these automatically from the NinjaTrader data server. You may also create your own custom Trading Hour Templates can also be created to suit your needs.   Where Trading Hour Templates can be Applied Trading Hour Templates can be applied in the following NinjaTrader dialogue windows under the property "Trading Hours":    •Chart panel via the [Data Series](working_with_price_data-1.md) window  •Market Analyzer via customizing [columns](working_with_columns-1.md)  •[Strategy Analyzer](strategy_analyzer-1.md) window when configuring backtesting  •[Strategies tab](strategies_tab2.md) of the Control Center when starting a strategy |
 
 ![tog_minus](tog_minus-1.gif)        How to create and edit a Trading Hour Template
 

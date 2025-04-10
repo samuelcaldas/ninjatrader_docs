@@ -6,7 +6,7 @@ Parabolic SAR
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\parabolic_sar.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [System Indicator Methods](indicators-1.htm) >  Parabolic SAR | [Previous page](order_flow_vwap2-1.htm) [Return to chapter overview](indicators-1.htm) [Next page](percentage_price_oscillator_pp-1.htm) |
+| << [Click to Display Table of Contents](.\parabolic_sar.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [System Indicator Methods](indicators-1.md) >  Parabolic SAR | [Previous page](order_flow_vwap2-1.md) [Return to chapter overview](indicators-1.md) [Next page](percentage_price_oscillator_pp-1.md) |
 
 Description
 -----------
@@ -43,7 +43,7 @@ Parameters
 | acceleration | Acceleration value |
 | accelerationStep | Step value used to increment acceleration value |
 | accelerationMax | Max acceleration value |
-| input | Indicator source data ([?](valid_input_data_for_indicator-1.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator-1.md)) |
 
 Example
 -------

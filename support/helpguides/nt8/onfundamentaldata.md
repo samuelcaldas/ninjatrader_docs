@@ -6,7 +6,7 @@ OnFundamentalData()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](onfundamentaldata.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) >  OnFundamentalData() | [Previous page](connectionstatuseventargs.htm) [Return to chapter overview](common.htm) [Next page](fundamentaldataeventargs.htm) |
+| << [Click to Display Table of Contents](onfundamentaldata.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) >  OnFundamentalData() | [Previous page](connectionstatuseventargs.md) [Return to chapter overview](common.md) [Next page](fundamentaldataeventargs.md) |
 
 Definition
 ----------
@@ -46,7 +46,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| fundamentalDataUpdate | [FundamentalDataEventArgs](fundamentaldataeventargs.htm) representing the recent change in fundamental data |
+| fundamentalDataUpdate | [FundamentalDataEventArgs](fundamentaldataeventargs.md) representing the recent change in fundamental data |
 
 Examples
 --------
@@ -57,4 +57,4 @@ Examples
 
 |  |
 | --- |
-| Tips  1.With [multi-time frame and instrument strategies](multi-time_frame__instruments.htm), OnFundamentalData() will be called for all unique instruments in your strategy. Use the [BarsInProgress](barsinprogress.htm) to filter the OnFundamentalData() method for a specific instrument.  2.Do not leave an unused OnFundamentalData() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your script which uses unnecessary CPU cycles. |
+| Tips  1.With [multi-time frame and instrument strategies](multi-time_frame__instruments.md), OnFundamentalData() will be called for all unique instruments in your strategy. Use the [BarsInProgress](barsinprogress.md) to filter the OnFundamentalData() method for a specific instrument.  2.Do not leave an unused OnFundamentalData() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your script which uses unnecessary CPU cycles. |

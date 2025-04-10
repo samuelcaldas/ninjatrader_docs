@@ -6,7 +6,7 @@ Moving Average - Double Exponential (DEMA)
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](moving_average_-_double_expone.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [System Indicator Methods](indicators.htm) >  Moving Average - Double Exponential (DEMA) | [Previous page](money_flow_oscillator.htm) [Return to chapter overview](indicators.htm) [Next page](moving_average_-_exponential_e.htm) |
+| << [Click to Display Table of Contents](moving_average_-_double_expone.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Moving Average - Double Exponential (DEMA) | [Previous page](money_flow_oscillator.md) [Return to chapter overview](indicators.md) [Next page](moving_average_-_exponential_e.md) |
 
 Description
 -----------
@@ -35,7 +35,7 @@ Parameters
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([?](valid_input_data_for_indicator.htm)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 Examples

@@ -6,7 +6,7 @@ Plotting from within a NinjaScript Strategy
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\plotting_from_within_a_ninjasc.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Educational Resources](educational_resources-1.htm) > [Reference Samples](reference_samples-1.htm) > [Strategy](strategy2-1.htm) >  Plotting from within a NinjaScript Strategy | [Previous page](monitoring_stop-loss_and_profi-1.htm) [Return to chapter overview](strategy2-1.htm) [Next page](removing_draw_objects_from_the-1.htm) |
+| << [Click to Display Table of Contents](.\plotting_from_within_a_ninjasc.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Educational Resources](educational_resources-1.md) > [Reference Samples](reference_samples-1.md) > [Strategy](strategy2-1.md) >  Plotting from within a NinjaScript Strategy | [Previous page](monitoring_stop-loss_and_profi-1.md) [Return to chapter overview](strategy2-1.md) [Next page](removing_draw_objects_from_the-1.md) |
 
 When running a strategy on a chart you may find the need to plot values onto a chart. If these values are internal strategy calculations that are difficult to migrate to an indicator, you can use the following technique to achieve a plot.
 
@@ -15,7 +15,7 @@ With NinjaTrader 8 we introduced strategy plots which provide the ability for a 
 Important related documentation:
 --------------------------------
 
-•[Plotting from a strategy with Indicator plot methods](addplot-1.htm)
+•[Plotting from a strategy with Indicator plot methods](addplot-1.md)
 
 Import instructions
 -------------------

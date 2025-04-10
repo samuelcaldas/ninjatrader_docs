@@ -6,7 +6,7 @@ Using
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using6.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Indicators](developing_indicators.htm) > [Advanced - Custom Drawing](advanced_-_custom_drawing.htm) >  Using | [Previous page](compiling6.htm) [Return to chapter overview](advanced_-_custom_drawing.htm) [Next page](advanced_-_custom_plot_colors_.htm) |
+| << [Click to Display Table of Contents](using6.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Advanced - Custom Drawing](advanced_-_custom_drawing.md) >  Using | [Previous page](compiling6.md) [Return to chapter overview](advanced_-_custom_drawing.md) [Next page](advanced_-_custom_plot_colors_.md) |
 
 Your indicator is now ready for use and will be listed in the Indicator Dialog window.
 

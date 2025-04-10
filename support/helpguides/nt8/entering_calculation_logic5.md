@@ -6,7 +6,7 @@ Entering Calculation Logic
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](entering_calculation_logic5.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Indicators](developing_indicators.htm) > [Advanced - Custom Plot Colors via Thresholds](advanced_-_custom_plot_colors_.htm) >  Entering Calculation Logic | [Previous page](set_up8.htm) [Return to chapter overview](advanced_-_custom_plot_colors_.htm) [Next page](compiling5.htm) |
+| << [Click to Display Table of Contents](entering_calculation_logic5.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Advanced - Custom Plot Colors via Thresholds](advanced_-_custom_plot_colors_.md) >  Entering Calculation Logic | [Previous page](set_up8.md) [Return to chapter overview](advanced_-_custom_plot_colors_.md) [Next page](compiling5.md) |
 
 The OnBarUpdate() method is called for each incoming tick or on the close of a bar (user defined) when performing real-time calculations and is called on each bar of a data series when re-calculating the indicator. For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed. Therefore, this is the main method called for indicator calculation and we will use this method to enter the script that will calculate the ROC value.
 
@@ -47,7 +47,7 @@ Replace the wizard generated code with the following code into the OnBarUpdate()
 
 The calculation first checks to ensure there are enough bars to complete the calculation and then sets both plot lines to the ROC value.
 
-The class code in your editor should look identical to the image below. You are now ready to [compile the indicator](compiling5.htm) and configure it on a chart.
+The class code in your editor should look identical to the image below. You are now ready to [compile the indicator](compiling5.md) and configure it on a chart.
 
 | ns |
 | --- |

@@ -6,7 +6,7 @@ SetPropertyName()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](setpropertyname2.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Bars Type](bars_type.htm) >  SetPropertyName() | [Previous page](removelastbar.htm) [Return to chapter overview](bars_type.htm) [Next page](barstype_sessioniterator.htm) |
+| << [Click to Display Table of Contents](setpropertyname2.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  SetPropertyName() | [Previous page](removelastbar.md) [Return to chapter overview](bars_type.md) [Next page](barstype_sessioniterator.md) |
 
 Definition
 ----------

@@ -6,7 +6,7 @@ TotalCommission
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](totalcommission.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Strategy](strategy.htm) > [TradeCollection](tradecollection.htm) > [TradesPerformance](tradesperformance.htm) >  TotalCommission | [Previous page](ticks.htm) [Return to chapter overview](tradesperformance.htm) [Next page](totalquantity.htm) |
+| << [Click to Display Table of Contents](totalcommission.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  TotalCommission | [Previous page](ticks.md) [Return to chapter overview](tradesperformance.md) [Next page](totalquantity.md) |
 
 Definition
 ----------

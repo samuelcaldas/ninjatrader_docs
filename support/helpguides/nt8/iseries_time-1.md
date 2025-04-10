@@ -6,7 +6,7 @@ Time
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\iseries_time.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [ISeries<T>](iseriest-1.htm) > [TimeSeries<DateTime>](timeseries-1.htm) >  Time | [Previous page](timeseries-1.htm) [Return to chapter overview](timeseries-1.htm) [Next page](iseries_times-1.htm) |
+| << [Click to Display Table of Contents](.\iseries_time.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [ISeries<T>](iseriest-1.md) > [TimeSeries<DateTime>](timeseries-1.md) >  Time | [Previous page](timeseries-1.md) [Return to chapter overview](timeseries-1.md) [Next page](iseries_times-1.md) |
 
 Definition
 ----------

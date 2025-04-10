@@ -6,19 +6,19 @@ TimeCycles
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](timecycles.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Language Reference](language_reference_wip.htm) > [Common](common.htm) > [Drawing](drawing.htm) > [Draw.TimeCycles()](draw_timecycles.htm) >  TimeCycles | [Previous page](draw_timecycles.htm) [Return to chapter overview](draw_timecycles.htm) [Next page](draw_trendchannel.htm) |
+| << [Click to Display Table of Contents](timecycles.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.TimeCycles()](draw_timecycles.md) >  TimeCycles | [Previous page](draw_timecycles.md) [Return to chapter overview](draw_timecycles.md) [Next page](draw_trendchannel.md) |
 
 Definition
 ----------
 
-Represents an interface that exposes information regarding a TimeCyles [IDrawingTool](idrawingtool.htm).
+Represents an interface that exposes information regarding a TimeCyles [IDrawingTool](idrawingtool.md).
 
 Methods and Properties
 ----------------------
 
 |  |  |
 | --- | --- |
-| Anchor | An [IDrawingTool's ChartAnchor](idrawingtool.htm#chartanchor) representing the point of the drawing object |
+| Anchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the point of the drawing object |
 | OutlineStroke | A Stroke used for the outline of the region |
 | AreaBrush | A [Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object representing the fill color of the draw object |
 

@@ -6,12 +6,12 @@ IsInstantiatedOnEachOptimizationIteration
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\isinstantiatedoneachoptimizationiteration.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  IsInstantiatedOnEachOptimizationIteration | [Previous page](isfilllimitontouch-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](isinstrategyanalyer-1.htm) |
+| << [Click to Display Table of Contents](.\isinstantiatedoneachoptimizationiteration.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  IsInstantiatedOnEachOptimizationIteration | [Previous page](isfilllimitontouch-1.md) [Return to chapter overview](strategy-1.md) [Next page](isinstrategyanalyer-1.md) |
 
 Definition
 ----------
 
-Determines if the strategy should be re-instantiated (re-created) after each optimization run when using the [Strategy Analyzer Optimizer](optimize_a_strategy-1.htm).
+Determines if the strategy should be re-instantiated (re-created) after each optimization run when using the [Strategy Analyzer Optimizer](optimize_a_strategy-1.md).
 
  
 
@@ -19,7 +19,7 @@ The default behavior is to re-instantiate the strategy for each optimization bac
 
 |  |
 | --- |
-| Note:  If you choose to take advantage of the performance benefits during strategy optimization by setting the IsInstantiatedOnEachOptimizationIteration property to false, any objects you create in your code MUST be reset during the appropriate State within the [OnStateChange()](onstatechange-1.htm) method.  Please see the example below on "Manually resetting class level variables to take advantage of Strategy Analyzer optimizer performance benefits". |
+| Note:  If you choose to take advantage of the performance benefits during strategy optimization by setting the IsInstantiatedOnEachOptimizationIteration property to false, any objects you create in your code MUST be reset during the appropriate State within the [OnStateChange()](onstatechange-1.md) method.  Please see the example below on "Manually resetting class level variables to take advantage of Strategy Analyzer optimizer performance benefits". |
 
 Property Value
 --------------
@@ -28,7 +28,7 @@ This property returns true if the strategy is not recycled; otherwise, false. De
 
 |  |
 | --- |
-| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.htm) method during State.SetDefaults or State.Configure |
+| Warning:  This property should ONLY bet set from the [OnStateChange()](onstatechange-1.md) method during State.SetDefaults or State.Configure |
 
 Syntax
 ------

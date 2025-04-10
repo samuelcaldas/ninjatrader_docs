@@ -6,7 +6,7 @@ MergePolicy
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\barsrequest_mergepolicy.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Add On](add_on-1.htm) > [BarsRequest](barsrequest-1.htm) >  MergePolicy | [Previous page](request-1.htm) [Return to chapter overview](barsrequest-1.htm) [Next page](connection_class-1.htm) |
+| << [Click to Display Table of Contents](.\barsrequest_mergepolicy.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Add On](add_on-1.md) > [BarsRequest](barsrequest-1.md) >  MergePolicy | [Previous page](request-1.md) [Return to chapter overview](barsrequest-1.md) [Next page](connection_class-1.md) |
 
 Definition
 ----------
@@ -17,7 +17,7 @@ Determines the merge policy of the bars request.
 
 |  |
 | --- |
-| Notes:  •This property is ONLY applicable to Futures contracts  •General information regrading merge policies can be found from the [Market Data Configuration](merge_policy-1.htm) section  •For an Instruments configured merge policy, please see the [MasterInstrument.MergePolicy](merge_policy-1.htm) property |
+| Notes:  •This property is ONLY applicable to Futures contracts  •General information regrading merge policies can be found from the [Market Data Configuration](merge_policy-1.md) section  •For an Instruments configured merge policy, please see the [MasterInstrument.MergePolicy](merge_policy-1.md) property |
 
 Property Value
 --------------
@@ -32,7 +32,7 @@ Possible values are:
 | MergeBackAdjusted | Merge policy is applied between contracts along with rollover offsets |
 | MergeNonBackAdjusted | Merge policy is applied between contracts without offsets |
 | UseGlobalSettings | Uses the value configured from Tools -> Options -> Market Data |
-| UseDefault | Uses the default values configured for the [MasterInstrument](masterinstrument-1.htm) |
+| UseDefault | Uses the default values configured for the [MasterInstrument](masterinstrument-1.md) |
 
 Syntax
 ------

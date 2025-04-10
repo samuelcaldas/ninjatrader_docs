@@ -6,14 +6,14 @@ Positions
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\positions.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Strategy](strategy-1.htm) >  Positions | [Previous page](positionaccount_quantity-1.htm) [Return to chapter overview](strategy-1.htm) [Next page](positionsaccount-1.htm) |
+| << [Click to Display Table of Contents](.\positions.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Strategy](strategy-1.md) >  Positions | [Previous page](positionaccount_quantity-1.md) [Return to chapter overview](strategy-1.md) [Next page](positionsaccount-1.md) |
 
 Definition
 ----------
 
-Holds an array of [Position](position-1.htm) objects that represent positions managed by the strategy. This property should only be used when your strategy is executing orders against [multiple instruments](multi-time_frame__instruments-1.htm).
+Holds an array of [Position](position-1.md) objects that represent positions managed by the strategy. This property should only be used when your strategy is executing orders against [multiple instruments](multi-time_frame__instruments-1.md).
 
-Index value is based on the the array of Bars objects added via the [AddDataSeries()](adddataseries-1.htm) method. For example:
+Index value is based on the the array of Bars objects added via the [AddDataSeries()](adddataseries-1.md) method. For example:
 
 First Bars is ES 1 Minute   
 Secondary Bars is ES 5 Minute   
@@ -27,7 +27,7 @@ Positions[2] == NQ position
 
 |  |
 | --- |
-| Tips:  •For single instrument scripts, please see [Position](position-1.htm) object  •For a real-world Account Positions, please see [PositionsAccount](positions_account-1.htm) |
+| Tips:  •For single instrument scripts, please see [Position](position-1.md) object  •For a real-world Account Positions, please see [PositionsAccount](positions_account-1.md) |
 
 Property Value
 --------------

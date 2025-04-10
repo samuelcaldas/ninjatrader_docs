@@ -6,7 +6,7 @@ Best Practices for Distribution
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](best_practices.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Distribution](distribution.htm) > [Commercial Distribution](commercial_distribution.htm) >  Best Practices for Distribution | [Previous page](licensing_user_authentication.htm) [Return to chapter overview](commercial_distribution.htm) [Next page](distribution_procedure.htm) |
+| << [Click to Display Table of Contents](best_practices.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Distribution](distribution.md) > [Commercial Distribution](commercial_distribution.md) >  Best Practices for Distribution | [Previous page](licensing_user_authentication.md) [Return to chapter overview](commercial_distribution.md) [Next page](distribution_procedure.md) |
 
 The following are what we suggest for best practices for distribution.
 
@@ -25,12 +25,12 @@ In the event that you provide NinjaScript export archives (zip files) as your me
 Clean up your resources
 -----------------------
 
-Always free up resources such as external windows DLL's or license management related resources. Resources should be freed within the [OnStateChange()](onstatechange.htm) method in State.Terminate. NinjaTrader calls this method at the point at which a script is no longer used.
+Always free up resources such as external windows DLL's or license management related resources. Resources should be freed within the [OnStateChange()](onstatechange.md) method in State.Terminate. NinjaTrader calls this method at the point at which a script is no longer used.
 
 User Authentication Trigger
 ---------------------------
 
-If you use a proprietary user authentication process, ensure that it is triggered within the [OnStateChange()](onstatechange.htm) method in State.SetDefaults. This ensures that users are not forced to endure unnecessary delays on NinjaTrader start up or dialog windows that display available indicators and strategies as the windows are loaded. NinjaTrader, LLC provides a free licensing service for qualified 3rd party developers. For more information on this free service, contact your NinjaTrader Business Development representative.
+If you use a proprietary user authentication process, ensure that it is triggered within the [OnStateChange()](onstatechange.md) method in State.SetDefaults. This ensures that users are not forced to endure unnecessary delays on NinjaTrader start up or dialog windows that display available indicators and strategies as the windows are loaded. NinjaTrader, LLC provides a free licensing service for qualified 3rd party developers. For more information on this free service, contact your NinjaTrader Business Development representative.
 
 User Authentication Check State
 -------------------------------

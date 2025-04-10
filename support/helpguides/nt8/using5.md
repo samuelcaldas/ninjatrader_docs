@@ -6,7 +6,7 @@ Using
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](using5.htm) >>  **Navigation:**  [NinjaScript](ninjascript.htm) > [Educational Resources](educational_resources.htm) > [Developing Indicators](developing_indicators.htm) > [Advanced - Custom Plot Colors via Thresholds](advanced_-_custom_plot_colors_.htm) >  Using | [Previous page](compiling5.htm) [Return to chapter overview](advanced_-_custom_plot_colors_.htm) [Next page](intermediate_-_historical_cust.htm) |
+| << [Click to Display Table of Contents](using5.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Advanced - Custom Plot Colors via Thresholds](advanced_-_custom_plot_colors_.md) >  Using | [Previous page](compiling5.md) [Return to chapter overview](advanced_-_custom_plot_colors_.md) [Next page](intermediate_-_historical_cust.md) |
 
 Your indicator is now ready for use and will be listed in the Indicator Dialog window.
 

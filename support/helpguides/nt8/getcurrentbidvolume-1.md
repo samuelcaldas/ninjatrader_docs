@@ -6,7 +6,7 @@ GetCurrentBidVolume()
 
 |  |  |
 | --- | --- |
-| << [Click to Display Table of Contents](.\getcurrentbidvolume.htm) >>  **Navigation:**  [NinjaScript](ninjascript-1.htm) > [Language Reference](language_reference_wip-1.htm) > [Common](common-1.htm) > [Analytical](market_data-1.htm) >  GetCurrentBidVolume() | [Previous page](getcurrentbid-1.htm) [Return to chapter overview](market_data-1.htm) [Next page](getmedian-1.htm) |
+| << [Click to Display Table of Contents](.\getcurrentbidvolume.md) >>  **Navigation:**  [NinjaScript](ninjascript-1.md) > [Language Reference](language_reference_wip-1.md) > [Common](common-1.md) > [Analytical](market_data-1.md) >  GetCurrentBidVolume() | [Previous page](getcurrentbid-1.md) [Return to chapter overview](market_data-1.md) [Next page](getmedian-1.md) |
 
 Definition
 ----------
@@ -15,7 +15,7 @@ Returns the current real-time bid volume.
 
 |  |
 | --- |
-| Notes:  1. When accessed during State.Historical, the [Volume](volume-1.htm) of the evaluated bar series is substituted.  To access historical Bid Volumes, please see [Developing for Tick Replay](developing_for__tick_replay-1.htm).  2. The GetCurrentBidVolume() method runs on the bar series currently updating determined by the [BarsInProgress](barsinprogress-1.htm) property.  For [multi-instrument](multi-time_frame__instruments-1.htm) scripts, an additional int "barsSeriesIndex" parameter can be supplied which forces the method to run on an supplementary bar series. |
+| Notes:  1. When accessed during State.Historical, the [Volume](volume-1.md) of the evaluated bar series is substituted.  To access historical Bid Volumes, please see [Developing for Tick Replay](developing_for__tick_replay-1.md).  2. The GetCurrentBidVolume() method runs on the bar series currently updating determined by the [BarsInProgress](barsinprogress-1.md) property.  For [multi-instrument](multi-time_frame__instruments-1.md) scripts, an additional int "barsSeriesIndex" parameter can be supplied which forces the method to run on an supplementary bar series. |
 
 Method Return Value
 -------------------
