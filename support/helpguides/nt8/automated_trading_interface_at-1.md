@@ -12,7 +12,13 @@ You can enable the AT Interface on under [Automated trading interface](options_a
 
 |  |
 | --- |
-| Automated Trading Interface (ATI) Overview  NinjaTrader's ATI (Automated Trading Interface) provides efficient protocols to communicate trading signals from various external sources to NinjaTrader for the automation of order execution.    •Popular charting applications such as but not limited to TradeStation, eSignal, NeoTicker, and Investor RT  •Custom applications written in but not limited to Visual Studio .NET, Visual Basic, Delphi, and MS Excel  •Black box trading systems    NinjaTrader provides methods for automated trading through NinjaScript or from an outside source via the Automated Trading Interface (ATI).    ›[What can I do and how?](what_can_i_do_and_how_-1.md)  ›[Commands and Valid Parameters](commands_and_valid_parameters-1.md)  ›[Initialization](initialization-1.md)  ›[File Interface](file_interface-1.md)  ›[DLL Interface](dll_interface-1.md)  ›[TradeStation](tradestation_email_integration-1.md) |
+| Automated Trading Interface (ATI) Overview  NinjaTrader's ATI (Automated Trading Interface) provides efficient protocols to communicate trading signals from various external sources to NinjaTrader for the automation of order execution.    •Popular charting applications such as but not limited to TradeStation, eSignal, NeoTicker, and Investor RT  •Custom applications written in but not limited to Visual Studio .NET, Visual Basic, Delphi, and MS Excel  •Black box trading systems    NinjaTrader provides methods for automated trading through NinjaScript or from an outside source via the Automated Trading Interface (ATI).    
+- [What can I do and how?](what_can_i_do_and_how_-1.md)  
+- [Commands and Valid Parameters](commands_and_valid_parameters-1.md)  
+- [Initialization](initialization-1.md)  
+- [File Interface](file_interface-1.md)  
+- [DLL Interface](dll_interface-1.md)  
+- [TradeStation](tradestation_email_integration-1.md) |
 
 |  |
 | --- |

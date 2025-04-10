@@ -21,4 +21,10 @@ The interface works as follows:
 
 |  |
 | --- |
-| Email Interface  ›[Symbol Mapping](symbol_mapping.md)  ›[Running concurrent strategies](running_concurrent_strategies_.md)  ›[Set Up](set_up.md)  ›[Order Handling Options](order_handling_options.md)  ›[Stop Order Handling](stop_order_handling.md)  ›[Workspace Options](workspace_options.md) |
+| Email Interface  
+- [Symbol Mapping](symbol_mapping.md)  
+- [Running concurrent strategies](running_concurrent_strategies_.md)  
+- [Set Up](set_up.md)  
+- [Order Handling Options](order_handling_options.md)  
+- [Stop Order Handling](stop_order_handling.md)  
+- [Workspace Options](workspace_options.md) |

@@ -11,7 +11,22 @@ Advanced Trade Management (ATM)
 |  |  |
 | --- | --- |
 | ATM Overview  ATM Strategies can be accessed from the  ATM Strategy Selectors located in various [Order Entry](order_entry-1.md) interfaces    NinjaTrader provides you with the flexibility to trade with or without an Advanced Trade Management (ATM) Strategy. ATM Strategies are designed to provide discretionary traders with semi-automated features to manage their positions. This is NOT to be confused with NinjaScript Strategies for [automated trading](automated_trading-1.md) systems. | |
-| ATM Strategy  ›[Definition and Benefits](atm_strategy-1.md)  ›[ATM Strategy Parameters](atm_strategy_parameters-1.md)  ›[ATM Strategy Selection Mode](atm_strategy_selection_mode-1.md)  ›[Stop Strategy](stop_strategy-1.md)  ›[Auto Breakeven](auto_breakeven-1.md)  ›[Auto Trail](auto_trail-1.md)  ›[ATM Strategy Templates](manage_atm_strategy_templates-1.md)  ›[Example #1](tutorial_atm_strategy_example_-1.md)  ›[Example #2](tutorial_atm_strategy_example2-1.md) | Advanced Options  ›[Auto Chase](auto_chase-1.md)  ›[Auto Reverse](auto_reverse-1.md)  ›[Shadow Strategy](shadow_strategy-1.md)   Misc  ›[Close at Time](auto_close_position-1.md)  ›[Indicator Tracking](attachingorderstoindicators-1.md)  ›[FAQ](faq-1.md) |
+| ATM Strategy  
+- [Definition and Benefits](atm_strategy-1.md)  
+- [ATM Strategy Parameters](atm_strategy_parameters-1.md)  
+- [ATM Strategy Selection Mode](atm_strategy_selection_mode-1.md)  
+- [Stop Strategy](stop_strategy-1.md)  
+- [Auto Breakeven](auto_breakeven-1.md)  
+- [Auto Trail](auto_trail-1.md)  
+- [ATM Strategy Templates](manage_atm_strategy_templates-1.md)  
+- [Example #1](tutorial_atm_strategy_example_-1.md)  
+- [Example #2](tutorial_atm_strategy_example2-1.md) | Advanced Options  
+- [Auto Chase](auto_chase-1.md)  
+- [Auto Reverse](auto_reverse-1.md)  
+- [Shadow Strategy](shadow_strategy-1.md)   Misc  
+- [Close at Time](auto_close_position-1.md)  
+- [Indicator Tracking](attachingorderstoindicators-1.md)  
+- [FAQ](faq-1.md) |
 
 |  |
 | --- |

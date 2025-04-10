@@ -56,4 +56,10 @@ All internal NinjaTrader indicators come with full source code and can be viewed
 
 |  |
 | --- |
-| ›[Level 1](beginner_-_using_price_variabl-1.md) - Demonstrating the use of price variables  ›[Level 2](beginner_-_indicator_on_indica-1.md) - Demonstrating the use of indicator on indicator  ›[Level 3](intermediate_-_your_own_sma-1.md) - Demonstrating the use of a "for" loop to build a simple moving average indicator  ›[Level 4](intermediate_-_historical_cust-1.md) - Demonstrating the use of Indicator Series objects to retain historical custom calculations data series  ›[Level 5](advanced_-_custom_plot_colors_-1.md) - Demonstrating the use of custom plot coloring based on threshold values  ›[Level 6](advanced_-_custom_drawing-1.md) - Demonstrating the use of custom of drawing using bar color, back color and line colors |
+| 
+- [Level 1](beginner_-_using_price_variabl-1.md) - Demonstrating the use of price variables  
+- [Level 2](beginner_-_indicator_on_indica-1.md) - Demonstrating the use of indicator on indicator  
+- [Level 3](intermediate_-_your_own_sma-1.md) - Demonstrating the use of a "for" loop to build a simple moving average indicator  
+- [Level 4](intermediate_-_historical_cust-1.md) - Demonstrating the use of Indicator Series objects to retain historical custom calculations data series  
+- [Level 5](advanced_-_custom_plot_colors_-1.md) - Demonstrating the use of custom plot coloring based on threshold values  
+- [Level 6](advanced_-_custom_drawing-1.md) - Demonstrating the use of custom of drawing using bar color, back color and line colors |

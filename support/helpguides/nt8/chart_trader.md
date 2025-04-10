@@ -17,4 +17,10 @@ Chart Trader can be enabled within any chart window via the [chart properties](c
 
 |  |
 | --- |
-| Chart Trader Overview  When enabled, the Chart Trader panel will be visible on the right side of the chart window. You will be able to submit, modify and cancel orders directly from within the chart.    ›[Order & Position Display](order__position_display.md)  ›[Hidden View](collapsed_view.md)  ›[Submitting Orders](submitting_orders4.md)  ›[Modifying and Canceling Orders](modifying_and_cancelling_orde2.md)  ›[Attach to Indicator](charttrader_attachtoindicator.md)  ›[Chart Trader Properties](properties3.md) |
+| Chart Trader Overview  When enabled, the Chart Trader panel will be visible on the right side of the chart window. You will be able to submit, modify and cancel orders directly from within the chart.    
+- [Order & Position Display](order__position_display.md)  
+- [Hidden View](collapsed_view.md)  
+- [Submitting Orders](submitting_orders4.md)  
+- [Modifying and Canceling Orders](modifying_and_cancelling_orde2.md)  
+- [Attach to Indicator](charttrader_attachtoindicator.md)  
+- [Chart Trader Properties](properties3.md) |

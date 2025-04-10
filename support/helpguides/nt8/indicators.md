@@ -10,216 +10,323 @@ System Indicator Methods
 
 The "Indicators" reference provides definitions, syntax, parameter definitions and examples for NinjaTrader system indicator methods.
 
-›[Valid Input Data for Indicator Methods](valid_input_data_for_indicator.md)
 
-›[Accumulation/Distribution (ADL)](accumulation_distribution_adl.md)
+- [Valid Input Data for Indicator Methods](valid_input_data_for_indicator.md)
 
-›[Adaptive Price Zone (APZ)](adaptive_price_zone_apz.md)
 
-›[Aroon](aroon.md)
+- [Accumulation/Distribution (ADL)](accumulation_distribution_adl.md)
 
-›[Aroon Oscillator](aroon_oscillator.md)
 
-›[Average Directional Index (ADX)](average_directional_index_adx.md)
+- [Adaptive Price Zone (APZ)](adaptive_price_zone_apz.md)
 
-›[Average Directional Movement Rating (ADXR)](average_directional_movement_r.md)
 
-›[Average True Range (ATR)](average_true_range_atr.md)
+- [Aroon](aroon.md)
 
-›[Balance of Power (BOP)](balance_of_power_bop.md)
 
-›[Block Volume](block_volume.md)
+- [Aroon Oscillator](aroon_oscillator.md)
 
-›[Bollinger Bands](bollinger_bands.md)
 
-›[BuySell Pressure](buysellpressure.md)
+- [Average Directional Index (ADX)](average_directional_index_adx.md)
 
-›[BuySell Volume](buysellvolume.md)
 
-›[Camarilla Pivots](camarilla_pivots.md)
+- [Average Directional Movement Rating (ADXR)](average_directional_movement_r.md)
 
-›[CandleStickPattern](candlestickpattern.md)
 
-›[Chaikin Money Flow](chaikin_money_flow.md)
+- [Average True Range (ATR)](average_true_range_atr.md)
 
-›[Chaikin Oscillator](chaikin_oscillator.md)
 
-›[Chaikin Volatility](chaikin_volatility.md)
+- [Balance of Power (BOP)](balance_of_power_bop.md)
 
-›[Chande Momentum Oscillator (CMO)](chande_momentum_oscillator_cmo.md)
 
-›[Choppiness Index](choppiness_index.md)
+- [Block Volume](block_volume.md)
 
-›[Commodity Channel Index (CCI)](commodity_channel_index_cci.md)
 
-›[Correlation](correlation.md)
+- [Bollinger Bands](bollinger_bands.md)
 
-›[Current Day OHL](current_day_ohl.md)
 
-›[Darvas](darvas.md)
+- [BuySell Pressure](buysellpressure.md)
 
-›[Directional Movement (DM)](directional_movement_dm.md)
 
-›[Directional Movement Index (DMI)](directional_movement_index_dmi.md)
+- [BuySell Volume](buysellvolume.md)
 
-›[Disparity Index](disparity_index.md)
 
-›[Donchian Channel](donchian_channel.md)
+- [Camarilla Pivots](camarilla_pivots.md)
 
-›[Double Stochastics](double_stochastics.md)
 
-›[Dynamic Momentum Index (DMIndex)](dynamic_momentum_index_dmindex.md)
+- [CandleStickPattern](candlestickpattern.md)
 
-›[Ease of Movement](ease_of_movement.md)
 
-›[Fibonacci Pivots](fibonacci_pivots.md)
+- [Chaikin Money Flow](chaikin_money_flow.md)
 
-›[Fisher Transform](fisher_transform.md)
 
-›[Forecast Oscillator (FOSC)](forecast_oscillator_fosc.md)
+- [Chaikin Oscillator](chaikin_oscillator.md)
 
-›[Keltner Channel](keltner_channel.md)
 
-›[KeyReversalDown](keyreversaldown.md)
+- [Chaikin Volatility](chaikin_volatility.md)
 
-›[KeyReversalUp](keyreversalup.md)
 
-›[Linear Regression](linear_regression.md)
+- [Chande Momentum Oscillator (CMO)](chande_momentum_oscillator_cmo.md)
 
-›[Linear Regression Intercept](linear_regression_intercept.md)
 
-›[Linear Regression Slope](linear_regression_slope.md)
+- [Choppiness Index](choppiness_index.md)
 
-›[MA Envelopes](maenvelopes.md)
 
-›[Maximum (MAX)](maximum_max.md)
+- [Commodity Channel Index (CCI)](commodity_channel_index_cci.md)
 
-›[Minimum (MIN)](minimum_min.md)
 
-›[Momentum](momentum.md)
+- [Correlation](correlation.md)
 
-›[Money Flow Index (MFI)](money_flow_index_mfi.md)
 
-›[Moving Average - Double Exponential (DEMA)](moving_average_-_double_expone.md)
+- [Current Day OHL](current_day_ohl.md)
 
-›[Moving Average - Exponential (EMA)](moving_average_-_exponential_e.md)
 
-›[Moving Average - Hull (HMA)](moving_average_-_hull_hma.md)
+- [Darvas](darvas.md)
 
-›[Moving Average - Kaufman's Adaptive (KAMA)](moving_average_-_kaufmans_adap.md)
 
-›[Moving Average - Mesa Adaptive (MAMA)](moving_average_-_mesa_adaptive.md)
+- [Directional Movement (DM)](directional_movement_dm.md)
 
-›[Moving Average - Simple (SMA)](moving_average_-_simple_sma.md)
 
-›[Moving Average - T3 (T3)](moving_average_-_t3_t3.md)
+- [Directional Movement Index (DMI)](directional_movement_index_dmi.md)
 
-›[Moving Average - Triangular (TMA)](moving_average_-_triangular_tm.md)
 
-›[Moving Average - Triple Exponential (TEMA)](moving_average_-_triple_expone.md)
+- [Disparity Index](disparity_index.md)
 
-›[Moving Average - Triple Exponential (TRIX)](moving_average_-_triple_expon2.md)
 
-›[Moving Average - Variable (VMA)](moving_average_-_variable_vma.md)
+- [Donchian Channel](donchian_channel.md)
 
-›[Moving Average - Volume Weighted (VWMA)](moving_average_-_volume_weight.md)
 
-›[Moving Average - Weighted (WMA)](moving_average_-_weighted_wma.md)
+- [Double Stochastics](double_stochastics.md)
 
-›[Moving Average - Zero Lag Exponential (ZLEMA)](moving_average_-_zero_lag_expo.md)
 
-›[Moving Average Convergence-Divergence (MACD)](moving_average_convergence-divergence_macd.md)
+- [Dynamic Momentum Index (DMIndex)](dynamic_momentum_index_dmindex.md)
 
-›[Moving Average Ribbon](moving_average_ribbon.md)
 
-›[Net Change Display](net_change_display.md)
+- [Ease of Movement](ease_of_movement.md)
 
-›[n Bars Down](n_bars_down.md)
 
-›[n Bars Up](n_bars_up.md)
+- [Fibonacci Pivots](fibonacci_pivots.md)
 
-›[On Balance Volume (OBV)](on_balance_volume_obv.md)
 
-›[Order Flow Cumulative Delta](order_flow_cumulative_delta2.md)
+- [Fisher Transform](fisher_transform.md)
 
-›[Order Flow Volumetric Bars](order_flow_volumetric_bars2.md)
 
-›[Order Flow VWAP](order_flow_vwap2.md)
+- [Forecast Oscillator (FOSC)](forecast_oscillator_fosc.md)
 
-›[Parabolic SAR](parabolic_sar.md)
 
-›[Percentage Price Oscillator (PPO)](percentage_price_oscillator_pp.md)
+- [Keltner Channel](keltner_channel.md)
 
-›[Pivots](pivots.md)
 
-›[Polarized Fractal Efficiency (PFE)](polarized_fractal_efficiency_p.md)
+- [KeyReversalDown](keyreversaldown.md)
 
-›[Price Oscillator](price_oscillator.md)
 
-›[Prior Day OHLC](prior_day_ohlc.md)
+- [KeyReversalUp](keyreversalup.md)
 
-›[Psychological Line](psychological_line.md)
 
-›[Range](range.md)
+- [Linear Regression](linear_regression.md)
 
-›[Range Indicator (RIND)](range_indicator_rind.md)
 
-›[Rate of Change (ROC)](rate_of_change_roc.md)
+- [Linear Regression Intercept](linear_regression_intercept.md)
 
-›[Regression Channel](regression_channel.md)
 
-›[Relative Spread Strength (RSS)](relative_spread_strength_rss.md)
+- [Linear Regression Slope](linear_regression_slope.md)
 
-›[Relative Strength Index (RSI)](relative_strength_index_rsi.md)
 
-›[Relative Vigor Index](relative_vigor_index.md)
+- [MA Envelopes](maenvelopes.md)
 
-›[Relative Volatility Index (RVI)](relative_volatility_index_rvi.md)
 
-›[R-squared](r_squared.md)
+- [Maximum (MAX)](maximum_max.md)
 
-›[Standard Deviation (StdDev)](standard_deviation_stddev.md)
 
-›[Standard Error (StdError)](standard_error_stderror.md)
+- [Minimum (MIN)](minimum_min.md)
 
-›[Stochastics](stochastics.md)
 
-›[Stochastics Fast](stochastics_fast.md)
+- [Momentum](momentum.md)
 
-›[Stochastics RSI (StochRSI)](stochastics_rsi_stochrsi.md)
 
-›[Summation (SUM)](summation_sum.md)
+- [Money Flow Index (MFI)](money_flow_index_mfi.md)
 
-›[Swing](swing.md)
 
-›[Time Series Forecast (TSF)](time_series_forecast_tsf.md)
+- [Moving Average - Double Exponential (DEMA)](moving_average_-_double_expone.md)
 
-›[Trend Lines](trend-lines.md)
 
-›[True Strength Index (TSI)](true_strength_index_tsi.md)
+- [Moving Average - Exponential (EMA)](moving_average_-_exponential_e.md)
 
-›[Ultimate Oscillator](ultimate_oscillator.md)
 
-›[Volume (VOL)](volume.md)
+- [Moving Average - Hull (HMA)](moving_average_-_hull_hma.md)
 
-›[Volume Moving Average (VOLMA)](volume_moving_average_volma.md)
 
-›[Volume Oscillator](volume_oscillator.md)
+- [Moving Average - Kaufman's Adaptive (KAMA)](moving_average_-_kaufmans_adap.md)
 
-›[Volume Rate of Change (VROC)](volume_rate_of_change_vroc.md)
 
-›[Volume Up Down](volume_up_down.md)
+- [Moving Average - Mesa Adaptive (MAMA)](moving_average_-_mesa_adaptive.md)
 
-›[Vortex](vortex.md)
 
-›[Williams %R](williams_r.md)
+- [Moving Average - Simple (SMA)](moving_average_-_simple_sma.md)
 
-›[Wiseman Alligator](wiseman_alligator.md)
 
-›[Wiseman Awesom Oscillator](wiseman_awesome_oscillator.md)
+- [Moving Average - T3 (T3)](moving_average_-_t3_t3.md)
 
-›[Woodies CCI](woodies_cci.md)
 
-›[Woodies Pivots](woodies_pivots.md)
+- [Moving Average - Triangular (TMA)](moving_average_-_triangular_tm.md)
 
-›[ZigZag](zigzag.md)
+
+- [Moving Average - Triple Exponential (TEMA)](moving_average_-_triple_expone.md)
+
+
+- [Moving Average - Triple Exponential (TRIX)](moving_average_-_triple_expon2.md)
+
+
+- [Moving Average - Variable (VMA)](moving_average_-_variable_vma.md)
+
+
+- [Moving Average - Volume Weighted (VWMA)](moving_average_-_volume_weight.md)
+
+
+- [Moving Average - Weighted (WMA)](moving_average_-_weighted_wma.md)
+
+
+- [Moving Average - Zero Lag Exponential (ZLEMA)](moving_average_-_zero_lag_expo.md)
+
+
+- [Moving Average Convergence-Divergence (MACD)](moving_average_convergence-divergence_macd.md)
+
+
+- [Moving Average Ribbon](moving_average_ribbon.md)
+
+
+- [Net Change Display](net_change_display.md)
+
+
+- [n Bars Down](n_bars_down.md)
+
+
+- [n Bars Up](n_bars_up.md)
+
+
+- [On Balance Volume (OBV)](on_balance_volume_obv.md)
+
+
+- [Order Flow Cumulative Delta](order_flow_cumulative_delta2.md)
+
+
+- [Order Flow Volumetric Bars](order_flow_volumetric_bars2.md)
+
+
+- [Order Flow VWAP](order_flow_vwap2.md)
+
+
+- [Parabolic SAR](parabolic_sar.md)
+
+
+- [Percentage Price Oscillator (PPO)](percentage_price_oscillator_pp.md)
+
+
+- [Pivots](pivots.md)
+
+
+- [Polarized Fractal Efficiency (PFE)](polarized_fractal_efficiency_p.md)
+
+
+- [Price Oscillator](price_oscillator.md)
+
+
+- [Prior Day OHLC](prior_day_ohlc.md)
+
+
+- [Psychological Line](psychological_line.md)
+
+
+- [Range](range.md)
+
+
+- [Range Indicator (RIND)](range_indicator_rind.md)
+
+
+- [Rate of Change (ROC)](rate_of_change_roc.md)
+
+
+- [Regression Channel](regression_channel.md)
+
+
+- [Relative Spread Strength (RSS)](relative_spread_strength_rss.md)
+
+
+- [Relative Strength Index (RSI)](relative_strength_index_rsi.md)
+
+
+- [Relative Vigor Index](relative_vigor_index.md)
+
+
+- [Relative Volatility Index (RVI)](relative_volatility_index_rvi.md)
+
+
+- [R-squared](r_squared.md)
+
+
+- [Standard Deviation (StdDev)](standard_deviation_stddev.md)
+
+
+- [Standard Error (StdError)](standard_error_stderror.md)
+
+
+- [Stochastics](stochastics.md)
+
+
+- [Stochastics Fast](stochastics_fast.md)
+
+
+- [Stochastics RSI (StochRSI)](stochastics_rsi_stochrsi.md)
+
+
+- [Summation (SUM)](summation_sum.md)
+
+
+- [Swing](swing.md)
+
+
+- [Time Series Forecast (TSF)](time_series_forecast_tsf.md)
+
+
+- [Trend Lines](trend-lines.md)
+
+
+- [True Strength Index (TSI)](true_strength_index_tsi.md)
+
+
+- [Ultimate Oscillator](ultimate_oscillator.md)
+
+
+- [Volume (VOL)](volume.md)
+
+
+- [Volume Moving Average (VOLMA)](volume_moving_average_volma.md)
+
+
+- [Volume Oscillator](volume_oscillator.md)
+
+
+- [Volume Rate of Change (VROC)](volume_rate_of_change_vroc.md)
+
+
+- [Volume Up Down](volume_up_down.md)
+
+
+- [Vortex](vortex.md)
+
+
+- [Williams %R](williams_r.md)
+
+
+- [Wiseman Alligator](wiseman_alligator.md)
+
+
+- [Wiseman Awesom Oscillator](wiseman_awesome_oscillator.md)
+
+
+- [Woodies CCI](woodies_cci.md)
+
+
+- [Woodies Pivots](woodies_pivots.md)
+
+
+- [ZigZag](zigzag.md)

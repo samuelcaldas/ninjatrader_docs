@@ -11,4 +11,12 @@ Editor
 |  |  |
 | --- | --- |
 | NinjaScript Editor Overview  The NinjaScript Editor is a powerful scripting editor that allows you to create custom indicators and strategies efficiently.  The NinjaScript Editor includes powerful coding assistance and advanced debugging tools to help you custom build your indicator, strategy or any other supported NinjaScript type. | |
-| Display ›[Editor Components](ns_editor_components-1.md)  ›[NinjaScript Explorer](ns_explorer-1.md)  ›[NinjaScript Wizard](ns_wizard-1.md)   Errors/Debugging ›[Compile Errors](compile_errors-1.md)  ›[Visual Studio Debugging](visual_studio_debugging-1.md)  ›[Compile Error Codes](compile_error_codes-1.md) | Coding Assistance ›[Intelliprompt](intelliprompt-1.md)  ›[Code Snippets](code_snippets-1.md) |
+| Display 
+- [Editor Components](ns_editor_components-1.md)  
+- [NinjaScript Explorer](ns_explorer-1.md)  
+- [NinjaScript Wizard](ns_wizard-1.md)   Errors/Debugging 
+- [Compile Errors](compile_errors-1.md)  
+- [Visual Studio Debugging](visual_studio_debugging-1.md)  
+- [Compile Error Codes](compile_error_codes-1.md) | Coding Assistance 
+- [Intelliprompt](intelliprompt-1.md)  
+- [Code Snippets](code_snippets-1.md) |

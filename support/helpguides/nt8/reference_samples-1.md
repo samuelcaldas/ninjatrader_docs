@@ -10,4 +10,6 @@ Reference Samples
 
 |  |
 | --- |
-| Reference Samples Overview  ›[Indicator](indicator2-1.md)  ›[Strategy](strategy2-1.md) |
+| Reference Samples Overview  
+- [Indicator](indicator2-1.md)  
+- [Strategy](strategy2-1.md) |
