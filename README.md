@@ -3,7 +3,6 @@
 
 
 [![Back to Index](nt8logo.png)](welcome.md "Index")  
-[Search](nt8_ftsearch.md "Search")
 
 ---
 
