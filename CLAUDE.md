@@ -4,41 +4,93 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This repository contains the complete documentation and reference materials for **NinjaTrader 8 (NT8)** and **NinjaScript**, structured in Markdown format alongside reference C# sample projects and images.
+This repository contains the complete documentation, C# reference samples, and tooling for **NinjaTrader 8 (NT8)** and **NinjaScript**. The documentation is structured in Markdown under categorized directories with automated GitHub Wiki deployment and link verification pipelines.
 
-- `README.md`: Master table of contents and index linking to all documentation sections.
-- Root Markdown files (`*.md`): Topic-by-topic documentation pages covering NinjaTrader configuration, operations, UI windows, NinjaScript language reference, SharpDX Direct2D rendering, and release notes.
-- Root Image assets (`*.png`, `*.jpg`): Visual diagrams and UI screenshots referenced directly in documentation files.
-- `samples/`: Official NinjaTrader 8 NinjaScript reference implementations (Indicators, Strategies, AddOns in C# and WPF XAML) with corresponding `.zip` distribution bundles.
-- `content/`: Binary installers and supporting tool packages.
+## Source of Truth & Reference Branches
 
-## Structure & Architecture
+- **`origin/HTML` (Source of Truth)**: Contains the original unmodified Help & Manual HTML documentation files (`support/helpguides/nt8/*.htm`) and image assets. When refactoring formatting, repairing broken tables, or recovering missing text, consult `origin/HTML` as the ground truth.
+  ```bash
+  # Inspect original HTML source for an article
+  git show origin/HTML:support/helpguides/nt8/<topic_name>.htm
+  ```
+- **`markdown` (Active Development)**: The primary working branch containing clean Markdown files under `docs/`, organized into 9 categorized subfolders.
 
-- **Documentation Organization**:
-  - `welcome.md`, `introduction.md`, `configuration.md`, `operations.md`: Platform setup, configuration, and UI trading features.
-  - `ninjascript.md`, `language_reference_wip.md`, `common.md`: NinjaScript core concepts, lifecycle (`OnStateChange`, `OnBarUpdate`), event handlers, and indicator/strategy base classes.
-  - `sharpdx_sdk_reference.md`, `rendering.md`: SharpDX Direct2D/DirectWrite rendering subsystem for custom chart graphics.
-  - `addon_development_overview.md`, `developing_indicators.md`, `developing_strategies.md`: Developer guides and tutorials.
-- **NinjaScript Samples (`samples/`)**:
-  - Follows standard NinjaScript directory layout: `Indicators/`, `Strategies/`, and `AddOns/`.
-  - Built against the NinjaTrader 8 API using .NET / C# and WPF.
+## Repository Architecture
+
+```text
+ninjatrader_docs/
+├── README.md                            # Documentation landing portal with category hubs
+├── .github/workflows/deploy-wiki.yml    # CI/CD pipeline for validation and Wiki deployment
+├── docs/                                # Full documentation tree (1,550+ Markdown articles)
+│   ├── README.md                        # Master alphabetical topic index
+│   ├── images/                          # Visual diagrams, UI screenshots, and icons (1,168 assets)
+│   ├── getting_started/README.md        # Platform setup, licensing, and workspaces (39 articles)
+│   ├── operations/README.md             # Charting, SuperDOM, Market Analyzer, and ATI (158 articles)
+│   ├── ninjascript/README.md            # NinjaScript core lifecycle and best practices (84 articles)
+│   ├── language_reference/README.md     # C# API reference (classes, methods, properties) (454 articles)
+│   ├── indicators/README.md             # Indicator calculations, plots, and series (197 articles)
+│   ├── strategies/README.md             # Automated trade execution, ATM templates, backtests (310 articles)
+│   ├── drawing_tools/README.md          # Drawing tools and SharpDX Direct2D reference (169 articles)
+│   ├── addons/README.md                 # AddOns and custom WPF NTWindow interfaces (93 articles)
+│   └── release_notes/README.md          # Version changelogs and API migration guides (50 articles)
+├── samples/                             # Official NinjaTrader 8 reference C# and WPF projects
+├── content/                             # Distribution packages and installer tools
+├── tools/                               # Maintenance and deployment automation scripts
+│   ├── clean_tables.py                  # Table standardizer, toggle unwrapper, code highlighter
+│   ├── deploy_wiki.py                   # GitHub Wiki flattener, sidebar generator, and deployer
+│   ├── generate_readme.py               # Master README and category index builder
+│   └── verify_docs.py                   # Strict markdown link and image validator
+└── tests/                               # Automated Python test suite
+    ├── test_repository_validation.py    # Link, image, and structure unit tests
+    └── test_wiki_deployment.py          # Wiki distribution staging and sidebar tests
+```
 
 ## Common Operations & Commands
 
-- **Search Documentation**:
-  ```bash
-  # Search for a specific API method, class, or error code
-  grep -rn "OnBarUpdate" *.md
-  grep -rn "CS0246" *.md
-```
+### 1. Document Validation & Tests
 
-- **Verify Documentation Links & Assets**:
+- **Run Full Test Suite**:
   ```bash
-  # Find broken local markdown links or missing images
-  python3 -c "import os, re; [print(f'{f}: missing {m}') for f in os.listdir('.') if f.endswith('.md') for m in re.findall(r'\]\(([^)#]+)', open(f, errors='ignore').read()) if not os.path.exists(m) and not m.startswith('http')]"
-```
+  python3 -m unittest discover -s tests
+  ```
 
-- **Inspect / Work with NinjaScript Samples**:
-  - Sample C# sources are located in `samples/<SampleProjectName>/{Indicators,Strategies,AddOns}/`.
-  - Reference indicator patterns: `samples/Sample*`
-  - Reference AddOn UI windows: `samples/NinjaTraderAddOnProject/` and `samples/Addon_Framework_NinjaScript_Basic/`
+- **Run a Specific Test File or Case**:
+  ```bash
+  python3 -m unittest tests/test_repository_validation.py
+  python3 -m unittest tests.test_wiki_deployment.TestWikiDeployment.test_sidebar_generation
+  ```
+
+- **Validate Markdown Links & Image Assets**:
+  ```bash
+  python3 tools/verify_docs.py
+  ```
+
+### 2. Maintenance & Formatting Automation
+
+- **Clean & Standardize Tables, Code Blocks, and Toggles**:
+  ```bash
+  python3 tools/clean_tables.py
+  ```
+
+- **Regenerate Master README and Subfolder Index Hubs**:
+  ```bash
+  python3 tools/generate_readme.py
+  ```
+
+### 3. GitHub Wiki Staging & Deployment
+
+- **Stage Flat GitHub Wiki Distribution (Dry Run)**:
+  ```bash
+  python3 tools/deploy_wiki.py --stage-only
+  ```
+
+- **Deploy Wiki with Git Authentication**:
+  ```bash
+  python3 tools/deploy_wiki.py
+  ```
+
+## Working with NinjaScript Samples (`samples/`)
+
+- C# source files follow NinjaTrader 8 directory layout: `Indicators/`, `Strategies/`, and `AddOns/`.
+- UI extensions utilize WPF (`System.Windows.Controls`, XAML) and `NTWindow` helper classes (`samples/NinjaTraderAddOnProject/` and `samples/Addon_Framework_NinjaScript_Basic/`).
+- Direct2D custom rendering utilizes SharpDX (`SharpDX.Direct2D1`, `SharpDX.DirectWrite`).
