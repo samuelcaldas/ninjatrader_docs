@@ -14,8 +14,6 @@ Display Overview NS_Wizard_3
 
 ---
 
----
-
 1. Wizard Navigation Menu
 
 Used to navigate to various pages of the wizard.  You can skip ahead or return to any page in the wizard at any time.
@@ -33,8 +31,6 @@ Buttons used to perform various actions pertaining to the script that is being c
 ## Understanding the Wizard Screens
 
 Optional Pages The NinjaScript Wizard has a number of different pages available used to define various steps of your custom script.  Please note that the table below describes ALL of the pages available from the Wizard, but does not imply that these steps will be available for the script you are currently creating.
-
----
 
 ---
 

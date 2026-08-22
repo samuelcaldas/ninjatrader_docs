@@ -8,8 +8,6 @@ The following chart properties are available for configuration within the Chart 
 
 ---
 
----
-
 General
 
 Allow the selection or drag/drop of chart series

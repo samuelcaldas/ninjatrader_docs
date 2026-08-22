@@ -6,8 +6,6 @@ Available Parameters and Valid Values
 
 ---
 
----
-
 Parameters
 
 Values
@@ -65,30 +63,6 @@ STRATEGY ID
 Any string value (must be unique for each line/file)
 
 Available Commands The following table displays required (R) and optional (O) values for each different command value.
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
 
 ---
 

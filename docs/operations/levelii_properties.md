@@ -8,8 +8,6 @@ The following properties are available for configuration within the Level II Pro
 
 ---
 
----
-
 General
 
 Grid font

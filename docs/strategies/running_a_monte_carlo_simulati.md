@@ -12,8 +12,6 @@ Running a Monte Carlo Simulation To run a Monte Carlo Simulation:    1.Open the 
 
 ---
 
----
-
 Graph
 
 Sets the statistic to generate the report on

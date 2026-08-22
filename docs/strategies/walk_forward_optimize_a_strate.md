@@ -10,8 +10,6 @@ Walk Forward optimization is the process by which you optimize strategy input pa
 
 > **Tip:** There are several pre-defined sample strategies that are installed with NinjaTrader that you can explore.
 
-> playVideo
-
 > **Note:** The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property is set to false by default when a strategy is applied in the Strategy Analyzer for optimization. This provides for leaner memory usage, but at the expense of not being able to access Trade objects for historical trades. Thus, fields such as [SystemPerformance.AllTrades.Count](alltrades.md) that rely on references to Trade objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set IncludeTradeHistoryInBacktest to true in the Configure state. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.md) page.
 
 | Name / Option | Description |
@@ -38,19 +36,7 @@ Walk Forward Properties Apart from the walk forward optimization specific proper
 | --- | --- |
 | Understanding Walk Forward Test Results From the Start date to the End date the walk forward optimization will do a standard optimization on the number of days set for parameter "Optimization period (days)". This is known as the "In Sample" test period. After the optimization period NinjaTrader will use the best parameter combination found and test that forward on non-optimized data that has not been seen yet for the number of days set for parameter "Test period (days)". This is known as the "Out of sample" test period. Please see the graph below for a better understanding of how the walk forward results are found. walkforward_graph  The results for each "Test period" are returned and shown in the Optimization Results Grid along with the Start date, End date, and the best combination found by the optimization period.    StrategyAnalyzer_Optimization_BestResults1      |  
 
-▶️
-
-▶️
-
-▶️
-
-▶️
-
 ![Strategyanalyzer Optimization Wforun](../images/strategyanalyzer_optimization_wforun.png)
-
-▶️
-
-▶️
 
 > **Note:** NinjaTrader does save the "Keep best # results" for each Optimization period, if you want to see each individual optimization results you can right click on the walk forward result and select "View Optimization Results".
 

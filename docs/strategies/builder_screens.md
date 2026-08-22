@@ -2,8 +2,6 @@
 
 The Builder point and click interface is a powerful entrypoint into NinjaScript strategy development for non programmers. Even if you target more deeper custom coding later on in the development cycle, the Builder can provide a great foundation to start with. To get started directly into full fledged programming a strategy object in the NinjaScript editor, please check into [NinjaScript Wizard](../ninjascript/ns_wizard.md).
 
-> playVideo
-
 > Welcome Screen Layout This is the first screen and starting point in the Strategy Builder.     Strategy_Builder_1     1.In the Strategy drop-down select New Strategy to create a new strategy script - all other Builder made scripts will be listed as well, so should you wish to modify a script - please select the desired one and proceed through the screens.  2.Press the View Code button at any time to view the Builder generated NinjaScript code.  3.Press the Unlock Code button at any time to open the NinjaScript editor and edit your strategy code.      Once the code is unlocked, you can no longer use the Builder for subsequent strategy editing  4. Press the Compile button at any time to compile your strategy code.  5. Press the <Back or Next> buttons to move back or forth between Builder screens - you can also directly jump to a specific screen by using the left side navigation menu.  6. Press the Cancel button to leave the Strategy Builder    Note: Should you want to make a copy of your strategy, you can select your saved script in the Strategy drop-down and select 'save as' - this opens a file dialog, where you can enter a new name to save the script copy under.    Strategy_Builder_2
 
 ## Understanding the General screen
@@ -13,8 +11,6 @@ The Builder point and click interface is a powerful entrypoint into NinjaScript 
 ## Understanding the Default properties screen
 
 Default properties screen Layout The Default properties screen is where you can set the default values for your custom strategy properties.     Strategy_Builder_4     1. Per default only the Calculate section is visible, click the More properties to expand the selection to include all strategy default properties as well to set for your Builder script.
-
----
 
 ---
 
@@ -92,8 +88,6 @@ Strategy_Builder_5     1. Press the add button to be able to configure a new ser
 
 ---
 
----
-
 Use primary instrument
 
 Checking this will use the primary instrument the strategy is applied to
@@ -128,8 +122,6 @@ Type
 Inputs and Variables screen Layout The Inputs and Variables screen allows you to define the user inputs of your strategy. User inputs are important if you require input values that may vary the performance of your strategy. If for example you have a simple moving average cross over system, you may want to create an input for the fast moving average and another for the slow moving average. This then allows you to change the values of the moving averages at run time from the UI. Inputs are also required if you plan to use the NinjaTrader [Strategy Analyzer's optimization](strategy_analyzer.md) capabilities.    Strategy_Builder_8    1. Press the add button to add a new user input.  2. Press the edit button to edit an existing, selected user input.  3. Press the remove button to remove the selected user input.
 
 ![Strategy Builder 8](../images/strategy_builder_8.png)
-
----
 
 ---
 
@@ -181,14 +173,6 @@ Type
 
 > Finish screen Layout Once you reach this screen you are finished with developing your strategy. Press the Finish button to compile your strategy which will then be ready for [backtesting](backtest_a_strategy.md) or [live execution](../ninjascript/running_ninjascript_strategies.md).    Strategy_Builder_13
 
-▶️
-
-▶️
-
-▶️
-
-▶️
-
 ![Strategy Builder 13](../images/strategy_builder_13.png)
 
 ![Strategy Builder 1](../images/strategy_builder_1.png)
@@ -197,6 +181,3 @@ Type
 
 ![Strategy Builder 4](../images/strategy_builder_4.png)
 
-▶️
-
-▶️

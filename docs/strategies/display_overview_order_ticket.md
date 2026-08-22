@@ -22,8 +22,6 @@ Order Entry Controls The Order Control region of the Order Ticket is used to spe
 
 ---
 
----
-
 Instrument
 
 Sets the Instrument
@@ -69,8 +67,6 @@ Submits an order to sell
 Right Click Menu Right mouse click on the Order Ticket window to access the right click menu.    OrderTicket_4
 
 ![Orderticket 4](../images/orderticket_4.png)
-
----
 
 ---
 

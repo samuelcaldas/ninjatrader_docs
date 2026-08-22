@@ -2,8 +2,6 @@
 
 Alerts can be created using conditions which monitor various "objects" which exist on the chart, or market analyzer display.  Possible Condition Objects include a chart's data series, indicators, drawing tools, or any Market Analyzer column value.
 
-> playVideo
-
 > Adding an alert from the alert dialog You can create a new generic alert by first accessing the [Alerts Dialog](alerts_dialog.md) window, and selecting the "add" text which will add a new alert to your configured alerts panel.    Alerts_3    Any suitable object which currently exists on the window or tab will be available to use as a Condition Object for the alert.  For example, if you have a Market Analyzer with several customized columns added, you will be able to use any of those columns as a Condition Object.  A Chart will work the same way in that any data series, indicator, or drawing object that currently exists on the chart will be available as a Condition Object.   Creating an alert from a chart indicator If you have an indicator configured on an existing chart you wish to use in your alert condition, you can easily access this by first left mouse clicking on the indicator plot to select the indicator, and then selecting Alert    Alerts_4    Doing so will automatically add the selected indicator as an object that is used in the Conditions properties.    Alerts_5    Adding an alert from a chart drawing object Drawing tools which exist on a chart can also be added as a condition object by first left clicking on the drawing tool, then selecting Alert.    Alerts_7    Doing so will automatically add the selected drawing tool as an object that is used in the Conditions properties.    Alerts_8   Adding an alert from a chart data series If you have multiple data series on your chart (e.g., 5 minute and 10 minute data series), you can select one of these series to be used as an condition object. Simply left mouse click on the chart data series itself, and select Alert    Alerts_6    Doing so will automatically add the selected data series as an object that is used in the Conditions properties.    Alerts_9
 
 ![Alerts 3](../images/alerts_3.png)
@@ -11,8 +9,6 @@ Alerts can be created using conditions which monitor various "objects" which exi
 ## Understand the general alert properties
 
 General Alert Properties The General section allow you to configure the following alert properties:
-
----
 
 ---
 
@@ -31,8 +27,6 @@ Determines which instrument(s) are used to be monitored by the alert. This prope
 Rearm type
 
 Sets under what condition the alert will rearm.  Possible options are listed in the table below:
-
----
 
 ---
 
@@ -65,10 +59,6 @@ Rearm seconds
 Sets the number of seconds an alert will rearm. If the same alert is called within a time window of the time of last alert Rearm seconds, the alert will be ignored (only visible if Rearm type option 'On timer' is selected)
 
 \*The On connect rearm type is aware of 4 different types of connection events which will define how the On connect rearm type behaves:
-
----
-
----
 
 ---
 
@@ -116,8 +106,6 @@ Alert Conditions The Alert Conditions allow you to define the exactly what the a
 
 ---
 
----
-
 If Any
 
 Alert if any of the listed conditions are true
@@ -133,8 +121,6 @@ Alert only if all of the listed conditions are true
 ## Understanding the alert message properties
 
 Alert Message The alert message properties allow you to define general settings for how the alert is treated when the condition is satisfied.  All alerts that are generated are sent to to the [Alerts Log](alerts_log.md) window and will display the message you configured in this section.  You will also be able to control the priority of the alert, as well as background and foreground colors used.
-
----
 
 ---
 
@@ -160,8 +146,6 @@ Actions When an alert has been triggered, there are a number of customizable act
 
 ---
 
----
-
 Play Sound
 
 Play a user defined sound file.  Sounds can include system default sounds, or custom sound files
@@ -180,10 +164,6 @@ Submit a custom order
 
 Configuring Actions To access these actions, you will need to make sure the Actions group is expanded by selecting the arrow next to this field in the Alerts properties menu as per the screen shot below:    Alerts_16    Selecting the "add" text will open the Actions window where you can define the custom actions.  You can setup as many custom actions as you would like.  This means you can have an alert do more than one custom action as you want.  For example, you can set an alert to Play a Sound and Share a message to a Sharing Service under he same condition.    Alerts_17   Working with Actions Templates After configuring Actions, you can right click within the Actions columns, select Template, and Save As to create a template. Within the right click menu is also where you would be able to load any saved templates    Alerts_18   Actions Property Definitions
 
-▶️
-
-▶️
-
 ![Alerts 17](../images/alerts_17.png)
 
 ![Alerts 9](../images/alerts_9.png)
@@ -191,10 +171,6 @@ Configuring Actions To access these actions, you will need to make sure the Acti
 ![Alerts 8](../images/alerts_8.png)
 
 ![Alerts 5](../images/alerts_5.png)
-
-▶️
-
----
 
 ---
 
@@ -220,15 +196,9 @@ Screenshot type
 
 - Window - A screen shot of the entire window that generated the alert will be sent | | Share to | Selects the [Sharing Service](../getting_started/general_section.md) that the alert message is sent to. | | Pop Up Dialog |  | |  | Note:  There is no property for this section and is intentionally left blank.  The pop up dialog will use the "Message" that is configured on the Alert Message section of the Alerts window | | Submit Order |  | | Account | Selects the account the order is submitted | | Instrument | Selects the instrument to submit the order to. Using @INSTRUMENT will submit to the primary instrument. | | Limit Price | Sets the limit price used for the order | | Order action | Selects the type of action used.  Possible order actions are:
 
-▶️
-
-▶️
-
 ![Alerts 16](../images/alerts_16.png)
 
 ![Alerts 12](../images/alerts_12.png)
-
-▶️
 
 - Buy
 - Buy to cover

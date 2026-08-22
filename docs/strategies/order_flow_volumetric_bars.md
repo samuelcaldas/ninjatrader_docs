@@ -30,8 +30,6 @@ Data series:
 
 ---
 
----
-
 Base period type
 
 Sets the base period type the Volumetric bars should be calculated on, possible values include:    Tick,  Volume,  Second,  Minute,  Day,  Week,  Month,  Year,  Range
@@ -61,8 +59,6 @@ Tick replay
 Check to allow indicators or strategies to access Tick replay data, the main Volumetric bars though will always be built off a 1 tick series.
 
 Chart style:
-
----
 
 ---
 
@@ -173,8 +169,6 @@ Sets the text color used for the displaying the Volumetric cell values
 Show bar statistics
 
 Enables the display of the Volumetric bar statistics in the lower portion (static location) of the chart. You can checkmark each desired statistic, possible statistics are -
-
----
 
 ---
 

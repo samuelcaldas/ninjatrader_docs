@@ -6,8 +6,6 @@ Opening the Mini Data Box  To access the Mini Data Box, hover your mouse cursor 
 
 ---
 
----
-
 Date
 
 Date of the bar corresponding to the location of your cursor

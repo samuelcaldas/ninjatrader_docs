@@ -1,16 +1,8 @@
-▶️
-
-▶️
-
-▶️
-
 # Stop Strategy
 
 ## ATM Stop Strategies
 
 ## ATM Stop Strategies provide additional functionality for the stop losses placed by an ATM Strategy, including [auto-breakeven](auto_breakeven.md), [auto-trail](auto_trail.md), and [Simulated Stop](simulated_stop_orders.md) orders.
-
-> playVideo
 
 A Stop Strategy is an extension of an ATM Strategy. It allows you to combine [Auto Breakeven](auto_breakeven.md), [Auto Trail](auto_trail.md), and [Simulated Stop](simulated_stop_orders.md) strategies for the management and automatic adjustment of your Stop Loss orders.
 
@@ -26,8 +18,3 @@ You can enter the appropriate values to enable any of the Stop Loss automation s
 
 > **Note:** The parameter type of Currency or Price cannot be used for stop strategies. Tick will be used instead, which is indicated by the (t) next to Auto Breakeven and Auto Trail in the stop strategy parameters.
 
-▶️
-
-▶️
-
-▶️

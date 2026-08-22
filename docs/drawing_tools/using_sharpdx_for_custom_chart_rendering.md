@@ -69,8 +69,6 @@ Understanding SharpDX Brush Resources To color or "paint" an area of the chart, 
 
 ---
 
----
-
 [Direct2D1.SolidColorBrush](sharpdx_direct2d1_solidcolorbrush.md)
 
 Paints an area with a solid color.
@@ -161,8 +159,6 @@ Please see the [Best Practices for SharpDX Resources](using_sharpdx_for_custom_c
 ## SharpDX Lines and Shapes
 
 RenderTarget Draw Methods All drawings consistent of a few basic shapes which can be called through a handful of RenderTarget commands.  "Draw..." methods create just the outline of the shape, and "Fill..." will paint the interior of the shape.
-
----
 
 ---
 

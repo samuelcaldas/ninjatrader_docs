@@ -49,6 +49,8 @@ def resolve_href(href, current_cat):
         return ""
     if href.startswith("http://") or href.startswith("https://") or href.startswith("mailto:"):
         return href
+    if href.startswith("javascript:"):
+        return ""
 
     parts = href.split("#")
     file_part = parts[0]

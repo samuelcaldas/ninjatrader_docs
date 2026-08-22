@@ -31,8 +31,6 @@ Understanding Risk Definitions Each risk definition applies to an individual ins
 
 ---
 
----
-
 Buy Intraday Margin
 
 Sets the intraday margin required for buy orders.

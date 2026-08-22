@@ -10,8 +10,6 @@ NinjaTrader will attempt to use FIFO when possible, but there are a few scenario
 
 ---
 
----
-
 Increase quantity of preexisting order
 
 When modifying quantity or price on an aggregated order NinjaTrader will modify the order with the least time in the market via a cancel/replace operation.

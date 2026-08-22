@@ -34,8 +34,6 @@ Understanding Session Definitions Each session is defined with a start day and t
 
 ---
 
----
-
 Start day
 
 Sets the Start day of the session definition.
@@ -61,8 +59,6 @@ Sets if the session is the last session for the trading day.
 Understanding Trading Holidays  NinjaTrader will exclude trading holidays that are defined in the Trading Hour Template.   TradingHours_Holidays  Each Holiday has a Trading Date, Type, Start date, Start Time, End date, End time, and Description. The Holidays type will determine what fields are available.   Holiday Types
 
 ![Tradinghours Newtemplate](../images/tradinghours_newtemplate.png)
-
----
 
 ---
 

@@ -67,10 +67,6 @@ The Synchronize All Strategies option is found on the [Strategies tab](../addons
 
 ---
 
----
-
----
-
 Strategy Name
 
 Strategy Position

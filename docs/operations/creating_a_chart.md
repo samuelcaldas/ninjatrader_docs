@@ -2,7 +2,6 @@
 
 The following section covers how to open a NinjaTrader chart.
 
-> **playVideo**
 > 
 
 > Opening a New Chart To create a new chart, select the New menu from the NinjaTrader Control Center, then select the menu item Chart. The Data Series window will open where you can choose an instrument and an optional [Template](saving_chart_defaults_and_templates.md) to apply to the chart. Please see the "[Working with Price Data](working_with_price_data.md)" page of the Help Guide for more information.    NinjaTrader does not limit the number of chart windows that can be opened, however more open windows will require more PC resources. Please see the [Performance Tips](../getting_started/performance_tips2.md) page for more information on improving PC performance.   Selecting an Instrument Once inside the Data Series window, there are multiple ways to choose an instrument. You can select an instrument from the available instrument lists, type the instrument symbol into the empty instrument field and press the enter key, or use the instrument lookup window by pressing the magnifying glass button next to the instrument field. Please see the "[Working with Price Data](working_with_price_data.md) section of the Help Guide for more information on selecting instruments.
@@ -12,8 +11,6 @@ The following section covers how to open a NinjaTrader chart.
 Chart Display Overview Each NinjaTrader chart is a free floating window that can be manually resized by dragging the edges of the window for arrangement within the open [Workspace](workspaces_menu.md).    Chart_ChartDisplay2    The chart image displays some of the common features you will see inside a NinjaTrader chart window:
 
 ![Chart Chartdisplay2](../images/chart_chartdisplay2.png)
-
----
 
 ---
 
@@ -41,14 +38,3 @@ Scrolls the horizontal axis left and right. (See the "[Navigating a Chart](navig
 
 Displays the tabs enabled in the chart window. Tabs can be switched by clicking any configured tab with the left mouse button.
 
-▶️
-
-▶️
-
-▶️
-
-▶️
-
-▶️
-
-▶️

@@ -8,8 +8,6 @@ The following properties are available for configuration within the Order Ticket
 
 ---
 
----
-
 General
 
 Close tab on order submission

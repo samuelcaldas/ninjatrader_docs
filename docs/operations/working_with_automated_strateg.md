@@ -22,8 +22,6 @@ Strategy Performance Real-time, Historical, or Historical & Real-time executions
 
 ---
 
----
-
 Real-Time
 
 Displays performance statistics for trades the strategy has taken in real-time ONLY

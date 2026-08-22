@@ -22,8 +22,6 @@ Total net profit This statistic returns a monetary value representing a final cu
 
 ---
 
----
-
 Currency, Pips, Points, Ticks
 
 SUM(gross profit and gross loss) of all trades
@@ -38,8 +36,6 @@ SUM((1 + gross profit in percent) \* ( 1 + gross loss in percent) - 1) of all tr
 - This statistic may also display in selected Display Units (percent, points, pips or ticks).  To see the base calculation behind each execution, view the [Profit and Loss Calculation Modes](profit_and_loss_calculation_modes.md) page. | |
 
 Gross Profit This statistic returns a monetary value representing a summation of all the money earned across all your trades.
-
----
 
 ---
 
@@ -58,8 +54,6 @@ SUM((1 + Current gross profit in percent) \* ( 1 + gross profit in percent) - 1)
 ## Understanding Gross Loss
 
 Gross Loss This statistic returns a monetary value representing a summation of all the money lost across all your trades.
-
----
 
 ---
 
@@ -124,8 +118,6 @@ Ulcer Index This statistic measures downside risk, the Ulcer Index becomes highe
 
 ---
 
----
-
 Currency
 
 SQRT(Summation((cumulative currency profit - maximum realized currency profit) ^2 ) / Total # of trades)
@@ -153,8 +145,6 @@ SQRT((Summation((cumulative point profit - maximum realized point profit) ^2) / 
 ## Understanding Winning, Losing, Even, and Total Number of Trades
 
 Trade totals These are a simple statistics used to gauge the overall performance of the performance report.
-
----
 
 ---
 
@@ -188,8 +178,6 @@ Average Trade This statistic returns a value representing the average profit you
 
 ---
 
----
-
 Currency
 
 SUM(profit \* quantity \* point value) of all trades / # of trades
@@ -216,8 +204,6 @@ Average Winning Trade This statistic returns a value representing the average pr
 
 ---
 
----
-
 Currency
 
 SUM(profit \* quantity \* point value) of all winning trades / # of winning trades
@@ -241,8 +227,6 @@ SUM(profit \* quantity / tick size) of all winning trades / # of winning trades
 ## Understanding Average Losing Trade
 
 Average Losing Trade This statistic returns a value representing the average loss you experience from all of your losing trades. It is useful for getting an idea of how much you could expect to lose on losing trades.
-
----
 
 ---
 
@@ -312,8 +296,6 @@ Profit Per Month This statistic returns a value that can be used as a performanc
 
 ---
 
----
-
 Currency
 
 cumulative profit \* (30.5 / # days)
@@ -352,8 +334,6 @@ Average MAE  (Maximum Adverse Excursion) This statistic returns a value represen
 
 ---
 
----
-
 Currency
 
 SUM(MAE \* quantity \* point value) of all trades / # of trades
@@ -384,8 +364,6 @@ SUM(MAE \* quantity / tick size) of all trades / # of trades
 ## Understanding Average MFE
 
 Average MFE  (Maximum Favorable Excursion) This statistic returns a value representing the average maximum run-up your strategy experiences. This information helps you gauge how well your strategy’s entry conditions predict upcoming price movements. A high percentage here is desirable since it would imply high profitability opportunities.
-
----
 
 ---
 
@@ -423,8 +401,6 @@ SUM(MFE \* quantity / tick size) of all torades / # of trades
 ## Understanding Cumulative Profit
 
 Cumulative profit This statistic returns a value representing a summation of all the profit earned by all your trades. It can be interpreted as a performance measure.
-
----
 
 ---
 

@@ -8,8 +8,6 @@ Log Display Log events are categorized and color coded based on four distinct al
 
 ---
 
----
-
 Always On Top
 
 Sets if the window will be always on top of other windows
@@ -41,8 +39,6 @@ Configure the positions grid properties
 ## Log tab properties
 
 ControlCenter_Log_Properties   Log Tab Properties
-
----
 
 ---
 

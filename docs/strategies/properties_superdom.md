@@ -8,8 +8,6 @@ SuperDOM_58
 
 ---
 
----
-
 General
 
 # of market depth levels

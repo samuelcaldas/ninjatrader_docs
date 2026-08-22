@@ -8,8 +8,6 @@ The following properties are available for configuration within the Strategy Ana
 
 ---
 
----
-
 General
 
 Use local data only

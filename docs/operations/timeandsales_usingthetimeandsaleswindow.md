@@ -1,7 +1,5 @@
 # Using the Time & Sales Window
 
-> playVideo
-
 > There are multiple ways to select an Instrument in the Time & Sales window.
 - Right clicking on the Time & Sales window and selecting the menu Instruments.
 - With the Time & Sales window selected begin typing the instrument symbol directly on the keyboard. Typing will trigger the Overlay Instrument Selector.    For more Information on instrument selection and management please see [Instruments](../language_reference/instruments.md) section of the Help Guide.
@@ -16,8 +14,6 @@ T&S_Window   1 Quotes The Quotes section displays the current bid and ask price.
 
 ---
 
----
-
 Bid
 
 The current bid price followed by the number of contracts at the current bid.
@@ -27,8 +23,6 @@ Ask
 The current ask price followed by the number of contracts at the current ask
 
 You can disable the Quotes section by clicking on your right mouse button and deselecting the menu item Show Quotes.   2 Time & Sales Grid The Time & Sales Grid displays Bid, Ask, and Last data.
-
----
 
 ---
 
@@ -56,12 +50,6 @@ You can enable or disable the columns by right mouse clicking within the Time & 
 
 > **Note:** Selecting an instrument outside of market hours will display snapshot data from the data provider. This can result in the first price information being from the previous close.
 
-▶️
-
-▶️
-
-▶️
-
    Right Click Menu Right mouse click on the Time & Sales window to access the right click menu.  T&S_RightClickMenu    |  |  | | --- | --- | | Instruments | Selects the instrument | | Prices | Selects what level 1 data to display, you can choose to display bid, ask, and last data in the Time & Sales window. | | Show Quotes | Sets if the quotes section is displayed | | Always On Top | Sets if the window should be always on top of other windows | | Print | Displays Print options | | Share | Displays Share options | | Properties... | Sets the [Time & Sales properties](timeandsales_properties.md) | |
 
 ![T&S Rightclickmenu](../images/t&s_rightclickmenu.png)
@@ -72,8 +60,3 @@ You can enable or disable the columns by right mouse clicking within the Time & 
 
 > Using Tabs Please see the "[Using Tabs](using_tabs.md)" section of the help guide for more information.
 
-▶️
-
-▶️
-
-▶️

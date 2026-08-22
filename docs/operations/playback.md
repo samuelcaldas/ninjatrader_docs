@@ -16,8 +16,6 @@ Playback Control Once connected to the Playback connection (see the "How to conn
 
 ---
 
----
-
 Playback Type
 
 Select either "Market Replay" or "Historical"
@@ -51,8 +49,6 @@ Right Click Menu Right mouse clicking in the Replay control window will bring up
 ![Playback Contextmenu](../images/playback_contextmenu.png)
 
 ![Playback](../images/playback.png)
-
----
 
 ---
 

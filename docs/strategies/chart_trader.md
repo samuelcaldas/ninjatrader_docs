@@ -2,8 +2,6 @@
 
 Chart Trader can be enabled within any chart window via the [chart properties](../operations/chart_properties.md) dialog window or by left mouse clicking on the Chart Trader icon in the chart toolbar.
 
-> playVideo
-
 |  |
 | --- |
 | Chart Trader Overview  When enabled, the Chart Trader panel will be visible on the right side of the chart window. You will be able to submit, modify and cancel orders directly from within the chart.    
@@ -14,14 +12,3 @@ Chart Trader can be enabled within any chart window via the [chart properties](.
 - [Attach to Indicator](../indicators/charttrader_attachtoindicator.md)  
 - [Chart Trader Properties](properties3.md) |
 
-▶️
-
-▶️
-
-▶️
-
-▶️
-
-▶️
-
-▶️

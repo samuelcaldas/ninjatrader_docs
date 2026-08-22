@@ -8,8 +8,6 @@ The following properties are available for configuration within the Option Chain
 
 ---
 
----
-
 General
 
 Tab name

@@ -1,7 +1,5 @@
 # Using the Level II Window
 
-> playVideo
-
 > There are multiple ways to select an Instrument in the Level II window.
 - Right clicking on the Level II window and selecting the menu Instruments.
 - With the Level II window selected begin typing the instrument symbol directly on the keyboard. Typing will trigger the Overlay Instrument Selector.    For more Information on instrument selection and management please see [Instruments](../language_reference/instruments.md) section of the Help Guide.
@@ -10,121 +8,11 @@
 
 ---
 
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
 ![Levelii Window](../images/levelii_window.png)
 
 ![1](../images/1.png)
 
 LevelII_Window   1 Quotes The Quotes section displays various market data items.
-
----
 
 ---
 
@@ -168,8 +56,6 @@ You can disable the Quotes section by clicking on your right mouse button and de
 
 ---
 
----
-
 Price
 
 The bid price by ask price
@@ -194,8 +80,6 @@ You can disable the Summary section by clicking on your right mouse button and s
 
 ---
 
----
-
 ID
 
 The Market Maker or ECN identification
@@ -215,8 +99,6 @@ The last time the bid/ask was refreshed by the Market Maker or ECN
 You can disable the Details section by clicking on your right mouse button and de-selecting the menu item Show Details.   Right Click Menu Right mouse click on the Level II window to access the right click menu.  LevelII_ContextMenu
 
 ![Levelii Contextmenu](../images/levelii_contextmenu.png)
-
----
 
 ---
 
@@ -264,14 +146,3 @@ Sets the [Level II properties](levelii_properties.md)
 
 > The Level II window is a tabbed interface, this gives you the ability to have multiple Level II tabs configured in the same window. Please see the [Using Tabs](using_tabs.md) section of the help guide for more information.
 
-▶️
-
-▶️
-
-▶️
-
-▶️
-
-▶️
-
-▶️

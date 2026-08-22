@@ -14,8 +14,6 @@ Quick Buttons You can enter orders rapidly by pressing on any one of the quick o
 
 ---
 
----
-
 Buy Bid
 
 Submits a Buy Limit order at the best bid price

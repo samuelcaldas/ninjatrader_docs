@@ -2,7 +2,6 @@
 
 The following section covers navigation and display of NinjaTrader charts.
 
-> **playVideo**
 > 
 
 > Horizontal Scaling To compress or decompress the horizontal axis, left mouse click in the x-axis margin and move the mouse cursor to the left or right. Alternatively, use the Hot Keys CTRL + Up and CTRL + Down.    1.  Click and drag to the right will compress the chart's time scale    Chart_Compressed    2.  Click and drag to the left will decompress the chart's time scale    Chart_Decompressed
@@ -20,8 +19,6 @@ The following section covers navigation and display of NinjaTrader charts.
 ## How to scroll a chart (panning)
 
 Horizontal Scrolling (panning chart left or right) You can pan the chart left or right via the following controls:
-
----
 
 ---
 
@@ -48,8 +45,6 @@ Mouse scroll wheel
 CTRL key + mouse scroll wheel
 
 9 bars at a time
-
----
 
 ---
 
@@ -83,10 +78,6 @@ To the very end (current bar)
 
 Range Icon If the horizontal axis is scrolled to the left or right from its starting location, a "return" icon will appear in the top right hand corner of the chart. Left mouse click on the icon to return the horizontal axis to view the last "live" data on the chart.    Chart_RangeIcon   Vertical Scrolling (panning chart up or down) To pan the chart up or down:    CTRL + Left mouse click and hold on chart margin and drag up or down as depicted in the images below.    1. CTRL + Click and drag down will shift the chart's price scale up   Chart_DragCursorDown  2. CTRL + Click and drag up will shift the chart's price scale down   Chart_DragCursorUp   Free Mode Scrolling You can also navigate the chart by changing both the price axis and time axis at the same time by holding down the CTRL key + Left mouse clicking and dragging in the chart area.  This will allow you to move both the price and time axis in whichever direction the mouse is dragged.
 
-▶️
-
-▶️
-
 ![Chart Scaleshrink](../images/chart_scaleshrink.png)
 
 ![Chart Scalestretch](../images/chart_scalestretch.png)
@@ -94,8 +85,6 @@ Range Icon If the horizontal axis is scrolled to the left or right from its star
 ![Chart Dragcursordown](../images/chart_dragcursordown.png)
 
 ![Chart Fixedicon](../images/chart_fixedicon.png)
-
-▶️
 
 ## How to go to a specific time on the chart
 
@@ -139,8 +128,6 @@ Cursor Type You can have either the standard windows pointer, [cross hair or glo
 
 ---
 
----
-
 CTRL + R
 
 Pointer
@@ -153,13 +140,7 @@ CTRL + G
 
 Global Cross Hair (links crosshairs when enabled on two or more charts)
 
-▶️
-
-▶️
-
 ![Chart Cursormenu](../images/chart_cursormenu.png)
-
-▶️
 
 Chart_CursorMenu
 

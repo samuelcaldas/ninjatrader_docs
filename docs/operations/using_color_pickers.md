@@ -54,8 +54,6 @@ Hexadecimal values can optionally include an Alpha component where 00 is fully t
 
 ---
 
----
-
 Alpha component
 
 Opacity

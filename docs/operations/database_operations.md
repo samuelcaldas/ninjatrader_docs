@@ -10,8 +10,6 @@ Update Instruments This will replace and update all instruments to current serve
 
 ---
 
----
-
 General properties
 
 Sets if the General properties of each instrument will be replaced with the server definition
@@ -66,8 +64,6 @@ Sets if instruments created by the user will also be removed
 ## Reset DB
 
 Reset the Database This will remove historical trade data from the database. It will not remove chart data or reset any [Simulation accounts](simulation.md).
-
----
 
 ---
 

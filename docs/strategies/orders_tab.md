@@ -6,8 +6,6 @@ Order Grid The order grid displays detailed information regarding the current da
 
 ---
 
----
-
 Instrument
 
 The instrument on which the order is placed
@@ -84,8 +82,6 @@ The following additional columns can be applied through the grid's Properties wi
 
 ---
 
----
-
 Price
 
 The price at which the order will be triggered. For Stop Limit orders, "Price" represents the order's Stop Price
@@ -105,8 +101,6 @@ The "Account Name" -- not to be confused with the "Account Display Name." These 
 Right Click Menu Right mouse clicking within the orders grid opens the following menu:    ControlCenter_OrderContextMenu
 
 ![Controlcenter Ordercontextmenu](../images/controlcenter_ordercontextmenu.png)
-
----
 
 ---
 
@@ -140,8 +134,6 @@ Filter Orders
 ## Orders Tab Properties
 
 ControlCenter_OrderProperties   Orders Tab Properties
-
----
 
 ---
 

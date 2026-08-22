@@ -8,8 +8,6 @@ The following Chart Trader properties are available for configuration within the
 
 ---
 
----
-
 ATM Strategy selection mode
 
 Sets the behavior of the ATM Strategy dropdown menu (see the [ATM Strategy Selection Mode](atm_strategy_selection_mode.md) page for more information)

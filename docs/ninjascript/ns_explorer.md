@@ -6,8 +6,6 @@ Folder Displays The NinjaScript Explorer will organize each script installed on 
 
 ---
 
----
-
 1. Locked scripts
 
 Pre-built system scripts which come installed with NinjaTrader which can be viewed as read-only and are required for compilation (of course you can safe a custom copy of those to modify)
@@ -23,8 +21,6 @@ Custom scripts which have been excluded from compilation (see the "Excluding a s
 NS_Editor_17  Pinning the NinjaScript Explorer 1.  By default the NinjaScript Explorer will be "pinned" to the right side of the NinjaScript editor, however it can be collapsed out of view by pressing the pin icon NS_Editor_14    NS_Editor_12    2. Once the NinjaScript Explorer is collapsed, you can quickly bring it back in view simply by selecting the NinjaTrader Explorer tab located on the right side. Selecting the pin icon NS_Editor_15 again will re-pin the NinjaScript Explorer to the NinjaScript Editor.    NS_Editor_13   Right Click Menu Right clicking on an individual folder or script will give you a number of different menu items to help with the management of your custom scripts.    NS_Editor_16
 
 ![Ns Editor 14](../images/ns_editor_14.png)
-
----
 
 ---
 

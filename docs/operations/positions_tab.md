@@ -6,8 +6,6 @@ Positions Display Open positions are displayed in the data grid.    ControlCente
 
 ---
 
----
-
 Connectivity Provider
 
 Position calculation
@@ -48,8 +46,6 @@ Columns can be re-ordered and re-sized at will, and individual columns can be en
 
 ---
 
----
-
 Instrument
 
 The instrument in which the position is held
@@ -82,8 +78,6 @@ The following additional columns can be applied through the grid's Properties wi
 
 ---
 
----
-
 Account Name
 
 The "Account Name" -- not to be confused with the "Account Display Name." These two can differ for live brokerage accounts, and the "Account Display Name" tends to be more descriptive.
@@ -103,8 +97,6 @@ The number of unfilled Sell orders currently resting on the account
 Right Click Menu Right mouse clicking within the positions grid section opens the following menu:    ControlCenter_Positions_ContextMenu
 
 ![Controlcenter Positions Contextmenu](../images/controlcenter_positions_contextmenu.png)
-
----
 
 ---
 
@@ -161,8 +153,6 @@ Configure the positions grid properties
 ## Position tab properties
 
 ControlCenter_Positions_Properties   Position Tab Properties
-
----
 
 ---
 

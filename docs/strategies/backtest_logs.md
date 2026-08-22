@@ -12,8 +12,6 @@ Understanding Logs NinjaTrader saves a log each time you perform a backtest in t
 
 ---
 
----
-
 Instrument
 
 The instrument the test was performed on.
@@ -61,8 +59,6 @@ An optional field to Pin a result  to the top. Pinned results are useful for sav
 Using LogsLogs are integrated with the Strategy Analyzer and can be double clicked to quickly restore the parameters and backtest information for that backtest. Giving you freedom to experiment with different configurations while maintaining the ability to compare previous backtests and restore a previous backtest at any time. Right clicking on a backtest log yields the following context menu: StrategyAnalyzer_RightClickMenu
 
 ![Strategyanalyzer Rightclickmenu](../images/strategyanalyzer_rightclickmenu.png)
-
----
 
 ---
 

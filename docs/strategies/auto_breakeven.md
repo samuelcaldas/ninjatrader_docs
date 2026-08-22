@@ -6,8 +6,6 @@ Auto Breakeven Parameters
 
 ---
 
----
-
 Profit Trigger
 
 Sets the amount of profit required to move the Stop Loss to a breakeven value

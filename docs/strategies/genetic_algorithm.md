@@ -2,8 +2,6 @@
 
 Very simply put the Genetic Algorithm attempts to find the most optimal set of parameters for a strategy. It does this not by brute force testing each individual combination as the default optimization method does, but instead using the concept of evolutionary theory borrowed from biology where only the fittest parents (combined with mutation and crossover) produce children for the next generation. Through testing of multiple generations you should have narrowed down on the most optimal parameters and therefore saving you time from having to test every single parameter combination.
 
-> playVideo
-
 | Name / Option | Description |
 | --- | --- |
 | Overview The general idea of how the GA solves an optimization problem is analogous to the concept of how evolution via natural selection adapts a species to the environment. In biology, only the strongest individuals will be able to reproduce and pass on their superior genes to the next generation. Assuming each generation can only pass on the strongest genes, after several iterations we would be left with the optimal attributes for the environment. Through this same mechanism, the GA will test a random preset of your parameters. Through multiple generations of testing, the parameters will zero in on an optimum solution.    |  
@@ -17,8 +15,6 @@ Very simply put the Genetic Algorithm attempts to find the most optimal set of p
 Please see the "[Optimize a Strategy](optimize_a_strategy.md)" article for how to run an optimization.    When you select the Genetic optimizer you will see the following optimization properties after you left click the triangle to the left of "GO Properties" to expand the properties.    StrategyAnalyzer_Optimization_GOParams
 
 ![Strategyanalyzer Optimization Goparams](../images/strategyanalyzer_optimization_goparams.png)
-
----
 
 ---
 
@@ -50,21 +46,9 @@ Mutation strength (%)
 
 Sets the maximum offset from crossover values that an offspring marked for mutation can have its parameters changed (applies only to input parameters of type double)
 
-▶️
-
-▶️
-
-▶️
-
 Reset size (%)
 
 When each new generation is created, all individuals from previous generations are possible parents for the new offsprings. If the top performing x% (stability size %) of children from the newly created generation is the same as the top performing x% of parents, reset all parents and repopulate a new generation randomly while leaving only the top performing y% of parents (reset size %) for future generations. Note: This occurs before convergence threashold is tested.
-
-▶️
-
-▶️
-
-▶️
 
 Stability size (%)
 

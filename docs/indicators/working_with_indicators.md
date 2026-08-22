@@ -2,7 +2,6 @@
 
 NinjaTrader comes with over 100 pre-built technical indicators, which can be added, removed and edited via the Indicators window. Indicators can be applied to [charts](../operations/charts.md), the [SuperDOM](../strategies/superdom.md), or [Market Analyzer](../operations/working_with_columns.md) columns, and custom technical indicators can be created via the [NinjaScript Editor](../ninjascript/editor.md).
 
-> **playVideo**
 > 
 
 > The Indicators window is used to add, remove and edit all indicators within a chart.  Accessing the Indicators Window from a Chart There are multiple ways to access the Indicators window from a chart:
@@ -19,8 +18,6 @@ NinjaTrader comes with over 100 pre-built technical indicators, which can be add
 ## How to edit an Indicator's parameters
 
 Editing an Indicator  You can customize any indicator from the Indicators window.    1.Open the Indicators window (see the "Understanding the Indicators window" section above)  2.Highlight the indicator you would like to edit from the list of applied indicators  3.Once highlighted, this indicator's parameters will be available to edit in the "Properties" section.   Chart Indicator Parameters The following parameters are common to all indicators applied on a chart:    Indicators2
-
----
 
 ---
 
@@ -81,12 +78,6 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 
 > **Note:** To take advantage of this feature NinjaScript indicators will need to implement the [Input](../language_reference/input.md) ISeries as their main data input.
 
-▶️
-
-▶️
-
-▶️
-
  |
 
 ## How to remove an Indicator
@@ -100,15 +91,9 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 
 > In addition to the indicators that come pre-built with the NinjaTrader application, you also have the ability to create custom indicators of your own. For example, you could create your own custom multi-series indicators using price and volume data to apply to your charts or share with fellow traders.    For more information on using NinjaScript to build custom indicators please see the [NinjaScript section](../ninjascript/ninjascript.md) of the user help guide, or click [here](indicator.md) to view NinjaScript indicator-development tutorials.
 
-▶️
-
-▶️
-
 ![Indicators4](../images/indicators4.png)
 
 ![Indicators2](../images/indicators2.png)
-
-▶️
 
 ## Working with Indicators in Market Analyzer columns
 

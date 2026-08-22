@@ -6,8 +6,6 @@ General Properties General properties can be set in the Options window with the 
 
 ---
 
----
-
 Preferences
 
 Confirm on window or tab close
@@ -92,8 +90,6 @@ Share Services The Share Services dialog allows you to set up your various socia
 
 ---
 
----
-
 Credentials
 
 Service name
@@ -141,8 +137,6 @@ Sends a test email through the server
 Notes: Port 465 is not supported for SMTP servers.  AOL uses an App Password for the Password field. This is different than your AOL Password and needs to be configured within AOL's Account Security settings
 
 Text Message Via Email Service Setup To setup a text messages account that can be used to send messages from NinjaTrader select Text message via email from the available section and click add.  The Properties section is now available to enter the needed information to set up your Text message via email Share Service. An email share service must be set up before configuring the Text message via email share service. NinjaTrader needs  SMS address and MMS address for the entered phone number. Typical settings for some of the most common providers can be quickly entered by selecting your provider from the Preconfigured settings menu.   Options_SharingServicesText
-
----
 
 ---
 

@@ -17,19 +17,7 @@ Critical: Equity instruments are not supported. There is a limitation in which o
 
 ---
 
----
-
----
-
----
-
----
-
----
-
 Base volume range on
-
----
 
 ---
 
@@ -56,8 +44,6 @@ Input that indicates how many levels of depth on the bid and ask side to show. H
 ![Depthmaprealtime](../images/depthmaprealtime.png)
 
 Opacity distribution
-
----
 
 ---
 

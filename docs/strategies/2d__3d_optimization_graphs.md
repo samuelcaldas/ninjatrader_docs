@@ -16,8 +16,6 @@ StrategyAnalyzer_OptimizationGraph3d  Understanding the 3D Optimization Graph Th
 
 ---
 
----
-
 Pan
 
 Press the Middle Mouse Button to pan the graph

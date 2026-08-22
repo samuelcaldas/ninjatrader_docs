@@ -35,8 +35,6 @@ Determines the manner in which the value parameter is calculated    Possible val
 
 ---
 
----
-
 CalculationMode.Percent
 
 Percentage away from the average entry, based on the average entry price.

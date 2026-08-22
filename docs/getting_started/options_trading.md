@@ -6,8 +6,6 @@ Trading Properties Trading properties can be set in the Options window with the 
 
 ---
 
----
-
 General
 
 Confirm order placement
@@ -65,8 +63,6 @@ Time
 Sets the time at which NinjaTrader will attempt to automatically close positions held in the instruments set in the instruments field. Note: The time will be based upon the timezone set up in the [General](general_section.md) section of the Options window.
 
 Auto Close Position NinjaTrader can be set to automatically attempt to close a position at a designated time that is configured in the Tools > Options > Trading menu, you can also add instruments through the NinjaTrader trading interfaces via right click and selecting Auto close position.    Options_AutoClosePosition1
-
----
 
 ---
 

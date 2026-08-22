@@ -28,8 +28,6 @@ ControlCenter_Strategies_Properties   Strategy Tab Properties
 
 ---
 
----
-
 General
 
 Filter only active strategies

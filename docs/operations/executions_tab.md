@@ -6,8 +6,6 @@ Executions Data Grid The current day's execution information will be shown in th
 
 ---
 
----
-
 Instrument
 
 The Instrument on which the execution took place
@@ -68,8 +66,6 @@ The following additional columns can be applied through the grid's Properties wi
 
 ---
 
----
-
 Account Name
 
 The "Account Name" -- not to be confused with the "Account Display Name." These two can differ for live brokerage accounts, and the "Account Display Name" tends to be more descriptive.
@@ -77,8 +73,6 @@ The "Account Name" -- not to be confused with the "Account Display Name." These 
 Right Click Menu Right mouse clicking within the executions grid opens the following menu:    ControlCenter_Executions_ContextMenu
 
 ![Controlcenter Executions Contextmenu](../images/controlcenter_executions_contextmenu.png)
-
----
 
 ---
 
@@ -129,8 +123,6 @@ Forex ExecutionsForex executions hold additional data such as Rate and Account L
 ## Executions tab properties
 
 ControlCenter_Executions_Properties   Executions Tab Properties
-
----
 
 ---
 

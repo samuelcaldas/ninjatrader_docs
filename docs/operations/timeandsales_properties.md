@@ -10,8 +10,6 @@ TimeAndSales_Properties   Property Definitions
 
 ---
 
----
-
 General
 
 Aggregation (seconds)
@@ -64,8 +62,6 @@ Sets the display format for the time column, format can be customized using the 
 
 ---
 
----
-
 d
 
 The day of the month, from 1 through 31.
@@ -109,8 +105,6 @@ The second, from 00 through 59.
 tt
 
 The AM/PM designator.
-
----
 
 ---
 
@@ -187,8 +181,6 @@ Sets the back color for trades at the daily low
 Display Background
 
 Sets the back color of the display rows
-
----
 
 ---
 

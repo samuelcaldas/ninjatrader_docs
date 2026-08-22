@@ -2,24 +2,11 @@
 
 A chart is comprised of Panels that contain chart objects such as [Data Series](working_with_price_data.md), [Indicators](../indicators/working_with_indicators.md) and [Drawing Tools](../drawing_tools/working_with_drawing_tools__ob.md). Panels are added to a chart during the process of adding/editing a Data Series or Indicator. Every Panel has three independent scales to which you can associate a chart object to. Each scale can be uniquely customized via the panel properties (see "Understanding panel properties" sub-section below for more information).
 
-> **playVideo**
 > 
 
 - Left
 - Right
 - Overlay    With the exception of the Overlay scale, a price scale will only be displayed in a Panel if there is one or more chart objects justified to it. The Overlay scale does not have a visible price scale however, any chart objects justified to this scale will display their price markers first on the Right scale if one exists otherwise they are displayed on the Left scale. All scales can be shared by multiple chart objects.    |  
-
-▶️
-
-▶️
-
-▶️
-
-▶️
-
-▶️
-
-▶️
 
 > **Tip:** In addition to changing a chart objects scale justification property via the Data Series window or Indicators window, you can drag and drop a chart object onto different scales. Please see the section "How to drag and drop chart objects" section located on the [Working with Chart Objects](working_with_chart_objects.md) topic page.
 
@@ -30,8 +17,6 @@ A chart is comprised of Panels that contain chart objects such as [Data Series](
 Panel Properties The Panel Properties menu can be opened by double left mouse clicking within the price scale or selecting the Properties menu via the Panel Context menu discussed above. The Panel Properties window will list the properties below grouped by each scale that is currently active on the Panel.    The following properties can be adjusted:
 
 ![Chart Panelcontext](../images/chart_panelcontext.png)
-
----
 
 ---
 

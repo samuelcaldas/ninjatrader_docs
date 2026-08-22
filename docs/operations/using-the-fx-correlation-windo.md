@@ -16,8 +16,6 @@ FXCorrelation_Window   1 Range  The Range drop down menu indicates over how long
 
 ---
 
----
-
 Add Instruments
 
 Selects the Forex instrument to add

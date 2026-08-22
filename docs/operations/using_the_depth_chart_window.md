@@ -10,8 +10,6 @@ DepthChart_Window   1 Quotes  The Quotes section displays various market data it
 
 ---
 
----
-
 Bid
 
 The current bid price
@@ -45,8 +43,6 @@ You can disable the Quotes section by clicking on your right mouse button and de
 ![Depthchart Contextmenu](../images/depthchart_contextmenu.png)
 
 ![Depthchartzoom](../images/depthchartzoom.png)
-
----
 
 ---
 

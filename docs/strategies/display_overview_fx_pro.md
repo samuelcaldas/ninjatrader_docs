@@ -26,8 +26,6 @@ Order Grid Display The Order Grid displays active orders for the account and ins
 
 ---
 
----
-
 Name
 
 Order name such as Stop1 or Target1
@@ -80,8 +78,6 @@ The FX Pro has several buttons which are used to invoke a number of order relate
 
 ---
 
----
-
 BE (Break-even)
 
 Adjusts any open stop orders opposite of your position to the positions average entry price
@@ -111,8 +107,6 @@ Please see the [Submitting Orders](submitting_orders_fx_pro.md) section for more
 ## Understanding the order control section
 
 Order Entry Controls The Order Control section of the FX Pro is used to specify several attributes for a pending order to be submitted.  FXPro_6
-
----
 
 ---
 

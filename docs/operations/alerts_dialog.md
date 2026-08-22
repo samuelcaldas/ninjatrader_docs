@@ -12,8 +12,6 @@ The Alerts Dialog will list any configured alerts for the current tab as well as
 
 ---
 
----
-
 1.  General
 
 Define general alert settings

@@ -1,16 +1,6 @@
 # Creating a Market Analyzer Window
 
-> playVideo
-
 Market Analyzer Display Overview Each NinjaTrader Market Analyzer is a free floating window that can be manually resized by dragging the edges of the window and moved by left mouse clicking and dragging in the upper most margin for arrangement within the open [Workspace](workspaces_menu.md).    The image below shows some of the common features of a Market Analyzer window:
-
-▶️
-
-▶️
-
-▶️
-
----
 
 ---
 
@@ -39,8 +29,6 @@ Displays the sum of all rows for a specific column. Can be applied in the Market
 Display a message indicating when an indicator or historical data is being loaded into the Market Analyzer
 
 MarketAnalyzer_6   Right Click Menu All functions of the Market Analyzer can be accessed by pressing on your right mouse button within the Market Analyzer window to bring up the right click menu.    MarketAnalyzer_7
-
----
 
 ---
 
@@ -124,8 +112,3 @@ Set the Market Analyzer properties
 
 ![Marketanalyzer 6](../images/marketanalyzer_6.png)
 
-▶️
-
-▶️
-
-▶️

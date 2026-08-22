@@ -4,8 +4,6 @@ Most of the NinjaTrader order entry screens have three modes that you can set to
 
 Before reviewing this section you should have a thorough understanding of how the strategy control list determines what actions (if any) to take when a submitted order is filled. Please review the video and content in the preceding page [ATM Strategy Parameters](atm_strategy_parameters.md).
 
-> playVideo
-
 As a quick reminder, when the strategy control list is set to:
 
 <None> - Orders submitted take no action once filled or part filled (no stops or targets are placed)
@@ -54,20 +52,9 @@ There are three available ATM Strategy Selection Modes:
 - When you do not have any active ATM Strategies selected, the SuperDOM position display will display your net account position
 - Pressing the "CLOSE" button while an active ATM Strategy is selected will close only that ATM Strategy. If anything else is selected, it will close the entire account position including all other working ATM Strategies.    ATM_15   |  | | --- | | Critical: When a SuperDOM is set to this mode, it will only display orders associated to the active selected ATM Strategy in the ATM Strategy control list. This means that if there are other orders working in the selected market that are not associated to the ATM Strategy, you will not see them displayed. The risk is that you could have orders working, you forget about them or did not even know they were still working, they are filled and you could damage your trading account. Please fully understand how to use this powerful feature before putting it to use. | |
 
-▶️
-
-▶️
-
-▶️
-
-▶️
-
 ![Atm 15](../images/atm_15.png)
 
 ![Atm 14](../images/atm_14.png)
 
 ![Atm 12](../images/atm_12.png)
 
-▶️
-
-▶️

@@ -13,23 +13,7 @@ Description
 
 ---
 
----
-
----
-
----
-
----
-
----
-
----
-
----
-
 Reset Interval
-
----
 
 ---
 
@@ -46,8 +30,6 @@ Month
 Resets VWAP calculations monthly\*
 
 Resolution
-
----
 
 ---
 

@@ -18,8 +18,6 @@ Strategy Properties The image below shows the adjustable properties for a strate
 
 ---
 
----
-
 Data Series
 
 Sets the data series on which the strategy will run
@@ -96,8 +94,6 @@ Set order quantity
 ## Viewing strategy performance of a NinjaScript Strategy applied to a chart
 
 Strategy Performance Real-time, Historical, or Historical & Real-time executions for the automated strategy can be accessed within the open chart by right mouse clicking in the chart and selecting the menu item Strategy Performance, then hovering the mouse over the desired automated strategy and selecting the type of executions you wish to view from the menu that appears. A [Performance window](../operations/performance_displays.md) will appear where you can view and analyze the trade data.    StrategyPerformance    The following categories of performance data can be selected:
-
----
 
 ---
 

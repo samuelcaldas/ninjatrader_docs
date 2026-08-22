@@ -16,8 +16,6 @@ The Auto Breakeven feature will adjust your Stop Loss order to breakeven (averag
 
 ---
 
----
-
 Profit Trigger
 
 Sets the amount of profit required to move the Stop Loss to a breakeven value
@@ -32,8 +30,6 @@ Sets the amount added to the breakeven (average entry price for the ATM Strategy
 ## Understanding the server side Auto Trail parameters
 
 Auto Trail is a powerful stop strategy that allows you to be more liberal with your Stop Loss at the early stage of your trade and tighten your Stop Loss as your profits in your trade increase.    Auto Trail Parameters
-
----
 
 ---
 
@@ -59,8 +55,6 @@ Auto Trail is a powerful stop strategy that allows you to be more liberal with y
 
 ---
 
----
-
 Profit Trigger
 
 Sets the amount of profit required to move the Stop Loss to a breakeven value
@@ -70,8 +64,6 @@ Plus
 Sets the amount added to the breakeven (average entry price for the ATM Strategy position) value
 
 Auto Trail Parameters
-
----
 
 ---
 

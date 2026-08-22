@@ -15,23 +15,7 @@ Description
 
 ---
 
----
-
----
-
----
-
----
-
----
-
----
-
----
-
 Base large volume on
-
----
 
 ---
 
@@ -62,8 +46,6 @@ Maximum marker size
 Indicates the diameter in pixels of the marker which has the largest volume
 
 Base marker size on
-
----
 
 ---
 

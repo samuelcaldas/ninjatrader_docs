@@ -8,8 +8,6 @@ The following properties are available for configuration within the FX Board pro
 
 ---
 
----
-
 General
 
 ATM strategy selection mode

@@ -2,8 +2,6 @@
 
 The Market Analyzer allows you to add a variety of columns ranging from indicators to position information.  To add, remove, and customize columns in your Market Analyzer window please review the information below.
 
-> playVideo
-
 > The Columns window is used to add, remove, and edit columns within the Market Analyzer window.   Accessing the Columns Window To access the Columns window press down on your right mouse button in the Market Analyzer window and select the menu item Columns...   Sections of the Columns Window The image below displays the four sections of the Columns window.    1.List of available columns  2.Current columns applied to the Market Analyzer  3.Selected column's parameters    MarketAnalyzer_22
 
 ## How to add columns
@@ -27,10 +25,6 @@ The Market Analyzer allows you to add a variety of columns ranging from indicato
 
 > See the [Dynamic Ranking and Sorting](dynamic_ranking_and_sorting.md) section of the user help guide for information on sorting and raking your Market Analyzer columns.
 
-▶️
-
-▶️
-
 ![Marketanalyzer 25](../images/marketanalyzer_25.png)
 
 ![Marketanalyzer 24](../images/marketanalyzer_24.png)
@@ -39,12 +33,5 @@ The Market Analyzer allows you to add a variety of columns ranging from indicato
 
 ![Marketanalyzer 22](../images/marketanalyzer_22.png)
 
-▶️
-
-▶️
-
 ![Marketanalyzer 26](../images/marketanalyzer_26.png)
 
-▶️
-
-▶️

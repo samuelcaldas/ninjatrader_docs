@@ -1,12 +1,8 @@
 # Order Display
 
-> playVideo
-
 Orders are displayed in a highly visual manner. Different order types and order objectives (stop loss or profit target orders) are uniquely color coded.
 
 Order Display  All orders are displayed by coloring a cell or group of cells within the Price Ladder
-
----
 
 ---
 
@@ -46,12 +42,6 @@ The image below shows a working limit, stop-market, and stop-limit order for one
 
 ## Understanding how Stop Loss and Profit Target orders are displayed
 
-▶️
-
-▶️
-
-▶️
-
 > Stop Loss and Profit Target display Orders submitted as Stop Loss and Profit Target orders are uniquely displayed by coloring all three cells in the price row where the order(s) are working. This makes it very easy to visualize your stop and profit objectives relative to the current market. All other orders are displayed by coloring a single cell in either the BUY or SELL column.    The two below displays an image of a Stop Loss and Profit Target pair, notice that the Size Marker displays the number of contracts remaining to be filled, and that they are sell orders since they are displayed on the sell side of the Price Ladder. Also note the brown colored cell at price level 1974.25, this represents the average entry price for the open position.      SuperDOM_10
 
 ![Superdom 10](../images/superdom_10.png)
@@ -70,12 +60,6 @@ The image below shows a working limit, stop-market, and stop-limit order for one
 
 > **Note:** This function only works if "Single Click Order Modification" is set to False in the [SuperDOM Properties](properties_superdom.md) window. If set to true, middle click will instantly modify your Stop Loss or Profit Target orders.  Please see the help topic on [Modifying and Cancelling Orders](modifying_and_cancelling_orders_superdom.md) for more information on that feature
 
-▶️
-
-▶️
-
 ![Superdom 13](../images/superdom_13.png)
-
-▶️
 
  |

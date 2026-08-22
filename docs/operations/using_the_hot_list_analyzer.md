@@ -1,29 +1,13 @@
 # Using the Hot List Analyzer
 
-> playVideo
-
 > What are hot lists? Hot lists are a unique list of stocks which are constantly being monitored and updated by your data provider.  These lists will give you valuable information which meet a specific criteria.  For example, if you wanted to know which stocks trading on the NYSE had the highest amount of volume today, you could select the "NYSE Most Actives" hot list.  Who can I use hot lists with? Hot lists can be used with the following data providers:
-
-▶️
-
-▶️
-
-▶️
 
 - Interactive Brokers
 - TD AMERITRADE  What type of hot lists are there? Hot lists are not hard coded into NinjaTrader and the type of lists that are available will vary depending on your data provider and are subjected to change. NinjaTrader's Hot list selector will display all current available hot lists from your provider.  If you would like to know what types of hot lists you can get with your data provider, the best way to determine this information is to establish a connection to the data provider and browse the Hot List Selector on the title bar of the Hot List Analyzer.
 
-▶️
-
-▶️
-
-▶️
-
 ## Understanding the Hot List Analyzer Display
 
 Display OverviewHot_List_1
-
----
 
 ---
 
@@ -44,8 +28,6 @@ Grid displays various instrument related information, similar to the [Market Ana
 Displays the value of each instrument in the current selected hot list
 
 Right Click MenuHot_List_2
-
----
 
 ---
 

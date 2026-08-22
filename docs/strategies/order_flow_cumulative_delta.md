@@ -23,19 +23,7 @@ Critical: Forex instruments are not supported with the Delta type Bid Ask. Since
 
 ---
 
----
-
----
-
----
-
----
-
----
-
 Delta type
-
----
 
 ---
 
@@ -48,8 +36,6 @@ Up Down Tick
 Accumulates the volume of up ticks vs down ticks. Up ticks are considered buying pressure. Down ticks are considered selling pressure. If the current tick price is the same as the previous tick price, the volume will be recorded to the same pressure as the previous tick.
 
 Period
-
----
 
 ---
 

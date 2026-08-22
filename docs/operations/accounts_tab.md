@@ -4,13 +4,9 @@
 
 The Accounts tab displays current account information in a [data grid](data_grids.md). The account values that are displayed is dependent on your connectivity provider. Not all connectivity providers transmit complete account data.
 
-> playVideo
-
 ## Understanding the accounts tab
 
 Understanding the Accounts Tab ControlCenter_AccountsGrid    Columns can be re-ordered and re-sized at will, and individual columns can be enabled or disabled via the Accounts grid by default:
-
----
 
 ---
 
@@ -70,8 +66,6 @@ The following additional columns can be applied through the grid's Properties wi
 
 ---
 
----
-
 Close
 
 Contains a button which will allow you to close the position
@@ -103,12 +97,6 @@ Projected maintenance margin requirement as of the next period's margin change
 Name
 
 The name of the account. This can differ from the account's Display Name
-
-▶️
-
-▶️
-
-▶️
 
 Net Liquidation by Currency
 
@@ -162,8 +150,6 @@ Right Click Menu Right mouse clicking within the positions grid section opens th
 
 ---
 
----
-
 Add Simulation Account
 
 Opens the Account window to configure a new simulation account
@@ -213,8 +199,6 @@ Edit Account Menu Right mouse clicking within the positions grid section then se
 ![Controlcenter Accounts Contextmenu](../images/controlcenter_accounts_contextmenu.png)
 
 ![Editaccount](../images/editaccount.png)
-
----
 
 ---
 
@@ -273,26 +257,6 @@ Account Values Supported by Provider The account values that are displayed depen
 ![How Bars Are Built 1](../images/how_bars_are_built_1.png)
 
 ![How Bars Are Built 1](../images/how_bars_are_built_1.png)
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
 
 ---
 
@@ -372,17 +336,11 @@ TD Ameritrade commissions)
 
 ![Controlcenter Accountsgrid](../images/controlcenter_accountsgrid.png)
 
-▶️
-
 ## How to preset property defaults
 
 Once you have your properties set to your preference, you can left mouse click on the "save" will save these settings as the default settings used every time you open a new window/tab.
 
 ![Controlcenter Accounts Properties](../images/controlcenter_accounts_properties.png)
-
-▶️
-
-▶️
 
 If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset text and select the option to restore to return to the original factory settings - please note though that you cannot save a custom default to restore to.
 

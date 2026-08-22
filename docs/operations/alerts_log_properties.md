@@ -8,8 +8,6 @@ The following properties are available for configuration within the Alerts Log P
 
 ---
 
----
-
 General
 
 Grid font

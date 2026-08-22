@@ -6,8 +6,6 @@ Alerts Log Window Display When an alert is triggered, the following information 
 
 ---
 
----
-
 Clear
 
 Clears the Alerts Log history
@@ -67,8 +65,6 @@ Set the Alerts Log properties
 Filtering AlertsBy default, all alerts triggered in the workspace will be displayed in the Alerts Log window.  However, each Alerts Log window and tab has the capability to only display certain alerts based on a number of alert attributes.    The following alert filter attributes will be available from the Alerts Log right click menu:
 
 ![Alerts Log 2](../images/alerts_log_2.png)
-
----
 
 ---
 

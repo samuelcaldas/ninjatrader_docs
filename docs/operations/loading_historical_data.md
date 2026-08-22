@@ -18,10 +18,6 @@ Examples of when NinjaTrader will fetch data if the data repository contains dat
 
 ---
 
----
-
----
-
 Scenario
 
 Requested from Local Repository

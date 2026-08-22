@@ -8,8 +8,6 @@ Display Overview
 
 ---
 
----
-
 1. Output table
 
 The main component of the Output window, will display any Print or Information message sent from a script
@@ -27,8 +25,6 @@ Two tabs available allowing you to separate the Print information for separate s
 Left clicking on a line will highlight a particular point of interest and will remain highlighted as the Output window updates or is scrolled up and down
 
 Output_1   Right click menu
-
----
 
 ---
 
@@ -87,8 +83,6 @@ Sets the Output window properties
 ## Output window properties
 
 The following properties are available for configuration within the NinjaScript Output properties window: Output_5
-
----
 
 ---
 

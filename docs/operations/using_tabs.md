@@ -30,8 +30,6 @@ Right Click Menu Right mouse click on the tab to access the right click menu to 
 
 ---
 
----
-
 Close Tab
 
 Removed the selected tab

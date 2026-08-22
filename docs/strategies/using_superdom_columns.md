@@ -1,7 +1,5 @@
 # Using SuperDOM Columns
 
-> playVideo
-
 In addition to the standard [Price Column](price_ladder_display.md) used to display bid/ask data, the NinjaTrader SuperDOM has the ability to add additional columns for even further analysis for real-time market prices. NinjaTrader comes with 4 pre-built system columns (displayed in the image below), with many more which can be downloaded to extend functionality.
 
 ![SuperDOM_46](../images/superdom_46.png)
@@ -17,8 +15,6 @@ In addition to the standard [Price Column](price_ladder_display.md) used to disp
 ## How to edit a column's parameters
 
 Editing a Column You can customize any column from the Columns window:  1. Open the columns window (see the "Understanding the columns window" section above)  2. Highlight the column you would like to edit from the list of applied columns (as shown in the image below).  3. Once highlighted this column's parameters will be available to edit on the right hand side.    SuperDOM_49   Column Parameters The following parameters are common to most columns:
-
----
 
 ---
 
@@ -50,12 +46,6 @@ Sets the hours used for historical bar calculations
 
 Each column will have its own set of parameters specific to that column.  Please see the "Understanding the default systems columns" section below for more information on each of NinjaTrader's pre-built columns.  For any custom columns that have been downloaded, please refer to the column's developer for more information on settings specific to their custom column.
 
-▶️
-
-▶️
-
-▶️
-
 ## Understanding the APQ (Approximate Position in Queue) Column
 
 | Name / Option | Description |
@@ -76,8 +66,6 @@ Pulling/Stacking Columns The Pulling/Stack column is a customizable display that
 
 ---
 
----
-
 Display
 
 Sets the ability to display values for Ask, Bid, or Ask & Bid
@@ -93,8 +81,6 @@ This is a conditional item for Reset When so that if the change occurs, but retu
 ## Understanding the Recent Bid/Ask Column
 
 Recent Bid/Ask Columns The Recent Bid/Ask column is a customizable display that indicates the recent volume that occurred at the bid or ask prices on the SuperDOM.    SuperDOM_61    Example:  in the above screenshot we can see a volume of 1 occurred at the bid price and a volume of 4 occurred at the ask.   Column Properties
-
----
 
 ---
 
@@ -144,15 +130,9 @@ Volume Column The Volume Column will display the number of contracts that have t
 
 - Left mouse click and drag to meet the width you desire    SuperDOM_56  Trade Control On Left By default, the Trade Control will be displayed on the bottom of the SuperDOM.  However you can optionally set the Trade Control to be displayed on the left of the SuperDOM Price Ladder for a more compacted view which has been optimized for using multiple columns on the SuperDOM.  To enable this display, simply right click on the SuperDOM window and select the Trade Control On Left menu item.    SuperDOM_57
 
-▶️
-
-▶️
-
 ![Superdom 57](../images/superdom_57.png)
 
 ![Superdom 56](../images/superdom_56.png)
-
-▶️
 
 ## Custom column development
 

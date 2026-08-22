@@ -2,8 +2,6 @@
 
 You can access the Trade Performance window from within the NinjaTrader Control Center window by left mouse clicking on the menu New, and then selecting the menu item Trade Performance.
 
-> playVideo
-
 Performance Report To generate a performance report:    1.Select the From date  2.Select the To date  3.Press the Generate button    Performance data is generated and displayed in the various [Performance Displays](performance_displays.md).    TradePerformance_1    The Generate button only needs to be pressed when adjusting the From and To dates or if since generating the report new trades have been placed within the From and To dates.
 
 > **Note:** It is possible to have before the From date being listed in your report. NinjaTrader generates reports from the last time you were flat. If a particular instrument was already in the middle of a position at the beginning of the From date, NinjaTrader will report all trades prior to this date up to the point where the position was flat. This will ensure you have a complete picture in terms of your performance on any specific date instead of "jumping" into the middle of a position which may cause inaccurate overall performance.
@@ -29,12 +27,6 @@ Performance Report To generate a performance report:    1.Select the From date  
 
 Filter Options Pressing the Filter_Icon Filter icon will expand the Performance tab to include parameters that you can use to filter your performance reports. This filtering is done on an executions basis and not a trades basis.
 
-▶️
-
-▶️
-
-▶️
-
 ---
 
 Notes:  Adjustments to the filters will automatically update within the Trade Performance window. The Generate button does not need to be selected.  If the From and To dates are adjusted and then Generate is pressed unchecked filter items will become rechecked since the Generate button created a new scan to see what item are applicable for the time window.
@@ -42,8 +34,6 @@ Notes:  Adjustments to the filters will automatically update within the Trade Pe
 ![Tradeperformance 2](../images/tradeperformance_2.png)
 
 TradePerformance_2
-
----
 
 ---
 
@@ -60,12 +50,6 @@ Sets the instruments name or type to be included in the performance report
 Sets the ATM strategies to be included in the performance report
 
 ![Tradeperformance 1](../images/tradeperformance_1.png)
-
-▶️
-
-▶️
-
-▶️
 
 > **Tip:** The checkbox inline with the filter label will toggle the check mark for all items in that list. Allowing you to quickly select or deselect the entire list.
 

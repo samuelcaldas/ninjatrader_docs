@@ -2,8 +2,6 @@
 
 To open the Basic Entry Window, select the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item Basic Entry.
 
-> playVideo
-
 The image below shows each of the four sections in the Basic Entry window
 
 1. Order Grid
@@ -23,8 +21,6 @@ Please see the sections below for more information on each on: Order Grid, Marke
 ## Understanding the order grid section
 
 Order Grid Display The Order Grid displays active orders for the account and instrument selected in the Basic Entry window.    BasicEntry_2   Column Definitions
-
----
 
 ---
 
@@ -56,19 +52,11 @@ Cancels the order(s)
 
 > Market Data Display The market display section of the Basic Entry window is used to display market prices and position information.  The market price displays will change colors when an uptick or a downtick has been detected.    1. Current best ask price and size  2. Current best bid price and size  3. Last traded price and size  4. Market position (FLAT or green background with position size for long, red background for short)  5. Position average entry price  6. Unrealized profit or loss for current position (Clicking on this cell with your left mouse button will change the display between points, ticks, currency, percent, and pips)    BasicEntry_1
 
-▶️
-
-▶️
-
 ![Basicentry 1](../images/basicentry_1.png)
-
-▶️
 
 ## Understanding the action buttons section
 
 Action Buttons The Basic Entry has several buttons which are used to invoke a number of order related actions.    BasicEntry_4
-
----
 
 ---
 
@@ -124,8 +112,6 @@ Order Controls The Order Control section of the Basic Entry is used to specify s
 
 ---
 
----
-
 Type
 
 Selects the order Type to be submitted
@@ -175,8 +161,3 @@ Selects the ATM Strategy
 
 ![Basicentry 9](../images/basicentry_9.png)
 
-▶️
-
-▶️
-
-▶️

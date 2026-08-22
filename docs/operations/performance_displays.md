@@ -16,8 +16,6 @@ Analysis Display Displays data based on various time periods for analysis.    Ac
 
 ---
 
----
-
 Period
 
 - Daily

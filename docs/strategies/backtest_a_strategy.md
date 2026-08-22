@@ -8,15 +8,7 @@ A backtest allows you to analyze the historical performance of a strategy. In or
 
 > **Tip:** There are several pre-defined sample strategies that are installed with NinjaTrader that you can explore.
 
-> playVideo
-
 > **Notes:** 1.By default, the Strategy Analyzer downloads data from your market data provider which can slow down backtest progress for larger tests.  If you wish to disable this feature and operate using existing data in your database, right click on the Strategy Analyzer > select Properties > enable Use Local Data Only  2.The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property is set to false by default when a strategy is applied in the Strategy Analyzer for backtesting. This provides for leaner memory usage, but at the expense of not being able to access Trade objects for historical trades. Thus, fields such as [SystemPerformance.AllTrades.Count](alltrades.md) that rely on references to Trade objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set IncludeTradeHistoryInBacktest to true in the Configure state. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.md) page.  3.A certain level of discrepancy between realtime and backtest results would be expected, especially on more exotic barstypes like Point & Figure and Renko, please also review [this page](discrepancies_real-time_vs_bac.md) for more details.
-
-▶️
-
-▶️
-
-▶️
 
 | Name / Option | Description |
 | --- | --- |
@@ -24,19 +16,11 @@ A backtest allows you to analyze the historical performance of a strategy. In or
 
 > **Tip:** You can optionally configure a sound to be played when the Backtest completes.  To enable this option, right click on the Strategy Analyzer > Properties > Play sound on complete > Choose the sound file you wish to play (must be a .WAV)
 
-▶️
-
-▶️
-
-▶️
-
  |
 
 ## Understanding backtest properties
 
 Backtest Properties The following properties are available within the Backtest window:    StrategyAnalyzer_Settings_Properties
-
----
 
 ---
 

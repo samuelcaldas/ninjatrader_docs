@@ -36,8 +36,6 @@ Server Side ATMs There are 3 Parameter type selection for server side ATMs. They
 
 ---
 
----
-
 Ticks
 
 Ticks away from the average entry.
@@ -51,8 +49,6 @@ $ Value
 Cash value away from the average entry, based on to Tick value of the instrument.
 
 ServerVLocalATM9  Local ATMs There are 5 Parameter type selections for local ATMs. Each functions differently than the other.
-
----
 
 ---
 
@@ -87,8 +83,6 @@ Ticks away from entry average entry.
 ServerVLocalATM10
 
 ## Miscellaneous differences
-
----
 
 ---
 

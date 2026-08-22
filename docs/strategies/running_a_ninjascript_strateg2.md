@@ -17,8 +17,6 @@ Strategy Properties (see image below) The image below shows the adjustable prope
 
 ---
 
----
-
 Data Series
 
 Instrument

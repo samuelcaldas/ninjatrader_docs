@@ -2,8 +2,6 @@
 
 Following are a few examples of Alerts which can be set up on charts or Market Analyzer windows. Each example shows a different type of alert condition, along with a different action or combination of actions. Feel free to copy and modify these examples for your own uses, or simply use them as a guide to reinforce the material covered on the previous pages.
 
-> playVideo
-
 > Preparation
 - Open a [chart](creating_a_chart.md)
 - Apply an SMA [indicator](../indicators/working_with_indicators.md) to the chart   Overview This basic alert triggers when the current market price crosses above a 20-period Simple Moving Average. The image below shows the fully configured alert.   Alerts_SMACross1 Conditions and Actions The Conditions and Actions windows for this alert can be seen below:   Alerts_SMACross2  1. In the Conditions window pictured above, the ES data series is selected in the left panel    2. The "CrossAbove" condition is selected    3. The 20-period SMA (one of two SMAs applied to the chart) is selected in the right panel    We now have a condition which translates to "When the current price crosses above the 20 SMA."  Alerts_SMACross3  1. In the Actions window, the "Play a Sound" option is selected    2. A sound named "Alert1" is selected to be played when the alert triggers
@@ -14,12 +12,6 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 - Open a [chart](creating_a_chart.md)
 - Apply a MACD [indicator](../indicators/working_with_indicators.md) to the chart
 - Apply a Stochastics indicator to the chart   Overview This alert is a bit more advanced than the example above. This alert demonstrates a multi-plot crossover scenario, detecting when one specific plot of an indicator crosses a different plot of the same indicator. In this example, plots within the MACD and the Stochastics indicators must cross other plots within the same indicators. The image below shows the fully configured alert.  Alerts_MACDStochCross1 Conditions and Actions The Conditions and Actions windows for this alert can be seen below:  Alerts_MACDStochCross2  1. In the Conditions window, the D plot of the Stochastics indicator is selected in the left panel    2. The CrossBelow condition is selected, and a value of 1 is entered for the look-back period    3. The K plot of the Stochastics indicator is selected in the right panel    We now have a condition that translates to "When Stochastics D crosses below Stochastics K within the last one bar."  Alerts_MACDStochCross3  1. In the Conditions window for the second condition, the Avg plot of the MACD indicator is selected in the left panel    2. Just like the previous condition, the CrossBelow operator is used with a look-back period of 1    3. The Diff plot of the MACD indicator is selected in the right panel    We now have a second condition that translates to "When MACD Avg crosses below MACD Diff within the last 1 bar."  Alerts_MACDStochCross4  1. In the Actions window, the "Play a Sound" option is selected    2. A sound named "Alert1" is selected to be played when the alert triggers
-
-▶️
-
-▶️
-
-▶️
 
 ## Hot List Analyzer Net Change
 
@@ -74,10 +66,6 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 - Open a chart
 - Apply a custom indicator to the chart  oThis example will use a custom indicator which is not pre-loaded in NinjaTrader. You will not have access to the PriceVol indicator in your installation, but this process can be used with any custom indicator that you havee developed   Overview This alert compares the current market price and the pre-built VOL indicator to different plots of a custom indicator developed with NinjaScript. In this example, the custom indicator is named "PriceVol." This alert will trigger when the current value of the VOL indicator crosses above a historical average of volume calculated by PriceVol, if the current market price is greater than the instrument's 52-week High (also calculated by PriceVol). The image below shows the fully configured alert.    Alerts_PriceVol1   Conditions and Actions The Conditions and Actions windows for this alert can be seen below:    Alerts_PriceVol2    1. In the Conditions window, the VOL indicator is selected in the left panel    2. The Cross Above condition is selected.    3. The AvgVol plot of the PriceVol indicator is selected in the right panel. For this custom indicator, the AvgVol plot contains a 14-period average of volume    We now have a condition that translates to "When the current volume crosses above the 14-period average of volume."    Alerts_PriceVol3    1. In the Conditions window for the second condition, the primary data series applied to the chart is selected in the left panel    2. The Cross Above condition is selected, just like the first condition    3. The YearlyHigh plot of the PriceVol custom indicator is selected in the right panel. This contains the 52-week High for the instrument.    We now have a second condition that translates to "When the current market price crosses above the instrument's 52-week High."    Since this alert does not define any actions, it will simply display the specified message in the Alerts Log window.
 
-▶️
-
-▶️
-
 ![Alerts Pricevol3](../images/alerts_pricevol3.png)
 
 ![Alerts Pricevol2](../images/alerts_pricevol2.png)
@@ -128,4 +116,3 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 
 ![Hmfile Hash 23D0Ded9](../images/hmfile_hash_23d0ded9.png)
 
-▶️

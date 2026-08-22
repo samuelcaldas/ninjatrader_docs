@@ -6,8 +6,6 @@ Order Display A resting order is displayed on the chart as a color-coded line co
 
 ---
 
----
-
 Limit Order
 
 Default color is cyan with the text "LMT"

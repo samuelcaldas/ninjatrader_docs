@@ -28,8 +28,6 @@ The report is released every Friday at 3:30pm and contains position data supplie
 
 ---
 
----
-
 Number of COT plots
 
 Indicates how many plots you would like the indicator to have from 1-5
@@ -37,8 +35,6 @@ Indicates how many plots you would like the indicator to have from 1-5
 ![Cot5](../images/cot5.png)
 
 COT #
-
----
 
 ---
 

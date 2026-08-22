@@ -16,8 +16,6 @@ ATM Strategy Parameters Select Custom to define a new ATM Strategy or select the
 
 ---
 
----
-
 Order quantity
 
 Replicated from the order entry display and sets the initial quantity used for the entry order.
@@ -29,8 +27,6 @@ Replicated from the order entry display and sets the TIF used for entry, profit 
 Parameter type
 
 Sets the type of parameter to display the ATM values in. All Parameter types function the same
-
----
 
 ---
 

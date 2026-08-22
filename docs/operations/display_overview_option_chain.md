@@ -16,8 +16,6 @@ Quotes Grid The Quotes Grid displays current day quotes for the underlying secur
 
 ---
 
----
-
 Bid
 
 The bid price

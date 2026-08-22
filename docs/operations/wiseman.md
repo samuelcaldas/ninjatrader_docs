@@ -6,8 +6,6 @@ Description The Wiseman Alligator is an indicator that consists of 3 moving aver
 
 ---
 
----
-
 Jaw period
 
 The moving average period of the blue jaw line
@@ -38,8 +36,6 @@ Description The Wiseman Awesome Oscillator is a momentum indicator to identify t
 
 ---
 
----
-
 Width
 
 The width of the bars
@@ -61,8 +57,6 @@ Color for bar values lower than the previous bar
 ## Wiseman Fractal
 
 Description The Wiseman Fractal identifies areas of reversals. This is signaled by highs surrounded by bars with lower highs or lows surrounded by bars with higher lows.   Display and using the Wiseman Fractal A green arrow is formed when there is a high surrounded by lower highs per the Strength input.  A red arrow is formed when there is a low surrounded by higher lows per the Strength input.    WisemanFractal   Wiseman Fractal Properties
-
----
 
 ---
 

@@ -16,12 +16,6 @@ Base Data Types Used to Build Bars A chart bar (period type) requires a base dat
 
 ---
 
----
-
----
-
----
-
 Period type
 
 Base data type values

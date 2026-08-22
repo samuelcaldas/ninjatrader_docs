@@ -8,8 +8,6 @@ General Section The General Section in the Instrument window displays parameters
 
 ---
 
----
-
 Master instrument
 
 The NinjaTrader master name of the instrument

@@ -6,8 +6,6 @@ Minimum Quantity Size The Quantity Selector is smart in that it will automatical
 
 ---
 
----
-
 Instrument Type
 
 Default Minimum Quantity
@@ -39,8 +37,6 @@ Forex lot size - 100K (Full), 10K (Mini), or 1K (Micro)
 > Adjusting Quantity The Quantity Selector allows you to type directly in the quantity field to specify an exact quantity with your keyboard.    You can also control the quantity using the up/down arrows next to the quantity selector, or by using the scroll wheel on your mouse.  These methods will change the quantity depending on the instrument type's minimum values described in the "Default Order Quantities" section above.    For example with a Stock selected, simply scrolling up with your mouse will change a quantity of 100 to 200.  Holding the CTRL key on your keyboard and modifying the order quantity will increase or decreasing the value by 10.  This means if you were to hold the CTRL key while scrolling on the Quantity Selector will increase Stock quantity from 100 to 1,100.
 
 Using Preset Quantities Middle mouse clicking on the Quantify Selector will display a Preset Quantity Pad which will allow you to optionally predefine the number of contracts used as the quantity.    Shared_Trade_Controls_2
-
----
 
 ---
 

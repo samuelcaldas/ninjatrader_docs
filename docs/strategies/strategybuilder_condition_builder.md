@@ -22,8 +22,6 @@ Offsetting an Item Value You can offset the value of most items available in the
 
 ---
 
----
-
 Arithmetic
 
 Offsets by an arithmetic equation you can setup by the absolute value and the arithmetic offset operator to the left (+ - \* /)

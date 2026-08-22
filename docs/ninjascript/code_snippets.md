@@ -11,8 +11,6 @@ Using the keyboard Enter the text in the left column and press the "Tab" key wit
 
 ---
 
----
-
 cb
 
 CurrentBar
@@ -38,8 +36,6 @@ i
 Input[0]
 
 Previous Bar Values
-
----
 
 ---
 
@@ -71,8 +67,6 @@ Indicator Plotting
 
 ---
 
----
-
 line
 
 AddLine(new Stroke(Brushes.Blue, 1), 0, "Line");
@@ -82,8 +76,6 @@ plot
 AddPlot(new Stroke(Brushes.Blue, 1), PlotStyle.Line, "Plot");
 
 Arithmetic
-
----
 
 ---
 
@@ -100,8 +92,6 @@ max
 Math.Max(value1, value2)
 
 Event Handler Callback Methods
-
----
 
 ---
 
@@ -197,8 +187,6 @@ Control Statements
 
 ---
 
----
-
 if
 
 if (expression)  {     }  else  {     }
@@ -212,8 +200,6 @@ switch
 switch (expression)  {    case value1:           break;    case value2:           break;     default:           break;  }
 
 Drawing
-
----
 
 ---
 

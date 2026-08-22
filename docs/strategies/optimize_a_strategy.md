@@ -10,8 +10,6 @@ You can fine tune the input parameters of a strategy through optimization. Optim
 
 > **Tip:** There are several pre-defined sample strategies that are installed with NinjaTrader that you can explore.
 
-> playVideo
-
 | Name / Option | Description |
 | --- | --- |
 | Running an Optimization To run an Optimization select the Backtest type of "Optimization" in the settings panel of the Strategy Analyzer.    StrategyAnalyzer_OptimizationRiun    |  
@@ -38,8 +36,6 @@ Basket test Running an optimization across a list of instruments works very much
 
 ---
 
----
-
 Aggregated
 
 If set to True, NinjaTrader attempts to find the optimal results for the whole basket of instruments. The COMBINED row in the results tab will show an aggregation of results across the basket of instruments. (This parameter is only available when an [Instrument List](../operations/instrument_lists.md) is selected for optimization.)
@@ -56,22 +52,12 @@ managing the exit of a trade.
 Historical Trade Data The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property is set to false by default when a strategy is applied in the Strategy Analyzer for optimization. This provides for leaner memory usage, but at the expense of not being able to access Trade objects for historical trades. Thus, fields such as [SystemPerformance.AllTrades.Count](alltrades.md) that rely on references to Trade objects will not have any such references to work with. If you would like to save these objects for reference in your code, you can set IncludeTradeHistoryInBacktest to true in the Configure state, but this can result in greater memory usage. For more information, see the [Working with Historical Trade Data](strategyanalyzer_properties_2.md) page.
 Running Efficient Optimizations Strategy optimizations are expected to consume a good deal of CPU resources, simply due to the nature of the iterative data processing they perform. Strategies with a relatively large number of parameters for optimization can multiply this impact. When working with strategies with a large number of parameters, avoid using "1" as the increment value for the optimizer, to avoid forcing the optimizer algorithm to run the maximum number of permutations. Changing the increment value to as little as "2" can cut the number of permutations in half, and increasing this value can have progressively less of an impact.
 
-▶️
-
-▶️
-
-▶️
-
 The [Genetic Algorithm](genetic_algorithm.md) can offer an alternative solution to increasing parameter increment values. Rather than running brute-force tests by iterating over all permutations, the Genetic Algorithm intentionally ignores parameter combinations which are likely to produce sub-optimal results.
 Especially on larger parameter sets with finer increment values, the upper limits of potential permutations / parameter combinations could be reached for both approaches to optimization - the error message "The strategy needs at least one parameter to optimize" would be then an indication to rework the # of parameters or increase the increment values to reach a more meaningful permutation count.
 
 ![Strategyanalyzer Optimization Bestresults](../images/strategyanalyzer_optimization_bestresults.png)
 
 Using a virtual / cloud server If you are using a virtual or cloud server as basis for your setup when running optimization testing in the Strategy Analyzer, please keep in mind that such environments can typically allocate available resources on demand. NinjaTrader will still take advantage of all available threads for it's processing, however those resources available would be determined at the start-up of the NinjaTrader platform. So if your virtual resources would have changed while you were in a working session, then please restart fresh to ensure performance will be optimal.
-
-▶️
-
-▶️
 
 ![Strategyanalyzer Optimization Aggregated](../images/strategyanalyzer_optimization_aggregated.png)
 
@@ -82,7 +68,5 @@ Using a virtual / cloud server If you are using a virtual or cloud server as bas
 ![Strategyanalyzer Optimization Paramters](../images/strategyanalyzer_optimization_paramters.png)
 
 ![Strategyanalyzer Optimization Bestresults1](../images/strategyanalyzer_optimization_bestresults1.png)
-
-▶️
 
 ```

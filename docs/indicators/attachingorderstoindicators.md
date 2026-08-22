@@ -6,8 +6,6 @@ Adding indicators to the SuperDOM or Chart Trader gives you the ability to "atta
 
 After you have configured an indicator to be displayed on the SuperDOM or Chart Trader, right clicking on a working order will now have a right click menu option called "Attach to Indicator".  This feature will be available for both manually placed Entry/Exit orders as well as pre-configured [ATM Strategy](../strategies/atm_strategy.md) Stop Loss and Profit Target orders.
 
-> playVideo
-
 > **Note:** ATM Strategies will only work with Attach to Indicator for stop orders which do not have a [Stop Strategy](../strategies/stop_strategy.md) configured.  Enabling Attach to Indicator on an ATM Strategy which has an associated Stop Strategy will disable the Stop Strategy and will then be managed by the indicator instead.
 
 ![SuperDOM_40](../images/superdom_40.png)
@@ -15,8 +13,6 @@ After you have configured an indicator to be displayed on the SuperDOM or Chart 
 ## Attaching an order to an indicator
 
 Configuring Attach to Indicator Properties To setup the parameters to Attach to Indicator:    1.Right mouse click on a submitted order  2.Hover your mouse cursor over the order details  3.Navigate to the Attach to Indicator menu  4.Left mouse click on the Attach to Indicator Properties menu item    This will open an Attach to Indicator Properties window which will allow you to define the following properties:
-
----
 
 ---
 
@@ -44,18 +40,7 @@ SuperDOM_41    After you have configured your desired settings, pressing the OK 
 
 > Disabling Indicator Tracking Orders that are attached to an indicator will be 100% managed by the Attach to Indicator feature.  Should you attempt to manually modify an order, you will receive a prompt reminding you that this order is being managed by an Indicator.  If you wish to manually modify the order, you can select "Yes" to on this prompt to disable the indicator management and allow you to change the order price if desired.    SuperDOM_43    You can also disable Attach to Indicator through the right click menu on the order itself allowing you to re-configure your Attach to Indicator Properties if desired.    1.Right mouse click on a submitted order  2.Hover your mouse cursor over the order details  3.Navigate to the Attach to Indicator menu  4.Uncheck Enabled which will disable indicator tracking    As long as the order has not been filled/cancelled, you can always go back to this menu and re-check enabled to turn the Attach to Indicator  feature back on.
 
-▶️
-
-▶️
-
-▶️
-
-▶️
-
 ![Superdom 43](../images/superdom_43.png)
 
 ![Superdom 42](../images/superdom_42.png)
 
-▶️
-
-▶️

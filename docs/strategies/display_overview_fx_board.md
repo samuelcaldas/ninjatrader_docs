@@ -1,13 +1,5 @@
 # Display Overview
 
-> playVideo
-
-▶️
-
-▶️
-
-▶️
-
 To open the FX Board window, select the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item FX Board.
 
 The FX Board is divided into two sections:
@@ -22,12 +14,6 @@ Please see the sections below for more information on: Market Display and Order 
 
  
 
-▶️
-
-▶️
-
-▶️
-
 > **Note:** Positions and orders will only display for the selected Account and Instruments.
 
 ## Understanding the market data section
@@ -39,8 +25,6 @@ Please see the sections below for more information on: Market Display and Order 
 ## Understanding the order grid section
 
 Order Grid Display The Order Grid displays active orders for the account and instrument tiles selected in the FX Board window.    FXBoard_3   Column Definitions
-
----
 
 ---
 

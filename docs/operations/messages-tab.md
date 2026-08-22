@@ -8,8 +8,6 @@ Messages Display Unread messages will be displayed in bold and have the Mark as 
 
 ---
 
----
-
 Mark All As Read
 
 Marks all unread messages as read

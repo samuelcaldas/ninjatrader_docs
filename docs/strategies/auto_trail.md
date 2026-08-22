@@ -6,8 +6,6 @@ Auto Trail Parameters
 
 ---
 
----
-
 Stop Loss
 
 Sets the value of the Stop Loss order as an offset behind the Profit Trigger/Frequency

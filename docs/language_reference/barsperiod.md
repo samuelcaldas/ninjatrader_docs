@@ -18,8 +18,6 @@ The type of bars used for the period, as well as the enumeration value under whi
 
 ---
 
----
-
 BarsPeriodType.Tick
 
 0

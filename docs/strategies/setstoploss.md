@@ -32,8 +32,6 @@ Determines the manner in which the value parameter is calculated    Possible val
 
 ---
 
----
-
 CalculationMode.Currency
 
 PnL away from average entry. Calculated by the dollar per tick value for the order quantity used. When this mode is used, [StopTargetHandling](stoptargethandling.md) will automatically be set to ByStrategyPosition

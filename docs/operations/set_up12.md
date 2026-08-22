@@ -4,14 +4,6 @@ You can Playback either Market Replay data or historical tick data. For the most
 
 > **Notes:** 1.Market Replay data holds the exact sequence level I and Level II (market depth) data and must be recorded or downloaded by NinjaTrader.  2.Alternatively, historical tick data can be used to playback chart data (without market depth). The granularity and accuracy of historical mode will be dependent on your [data provider](data_by_provider.md).  3.The Playback101 account properties (e.g., Commissions, Risk, etc.) are created from the Sim101 account when connecting to the Playback Connection and cannot be reset while connected. The Playback101 account will reset with current Sim101 account properties when reconnecting.  4.TimeInForce logic such as order expiration / cancellation at the end of a session, is not supported for the Sim101 or Playback101 accounts.  5.It is recommended to close and save your live workspaces then use dedicated workspaces for Playback before connecting to Playback to ensure items, such as drawing objects, are not affected in your live workspaces.
 
-▶️
-
-▶️
-
-▶️
-
-> playVideo
-
 Downloading Market Replay data for the Playback connection Market Replay data holds the exact sequence level I and Level II (market depth) data. NinjaTrader offers a limited amount of Market Replay data free to download for playback purposes. Only the most common instruments are currently available.
 
 ---
@@ -19,12 +11,6 @@ Downloading Market Replay data for the Playback connection Market Replay data ho
 Notes:  1.Enable market recording for playback must be disabled from the Market Data category of the Options menu before downloading replay data.  2.Downloading Market Replay data is NOT available when connected to the [Playback connection](playback_connection.md). You must disconnect from Playback connection prior to downloading.
 
 To download playback data:  1.Open the Historical Data window. This window will also appear when connecting to Playback. The Historical Data window will open when initially connection to Playback or by going to the Control Center and selecting Tools then Historical Data. Here the section "Get Market Replay data" can be expanded.  2.Select the instrument and date of the desired replay data and press the OK button to begin the download.    Playback_Download    The status of the download will appear in the lower right hand corner of the Historical Data Window.
-
-▶️
-
-▶️
-
-▶️
 
 > **Note:** Closing the [Historical Data Window](historical_data_manager.md) will cancel the download.
 

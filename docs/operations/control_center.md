@@ -1,13 +1,5 @@
 # Control Center
 
-> playVideo
-
-▶️
-
-▶️
-
-▶️
-
 | Control Center Overview  The Control Center window is the default window which appears when NinjaTrader is first installed and will always be displayed while NinjaTrader is running.    The NinjaTrader Control Center provides a centralized view of account, execution, order, historical log, and position information. It also provides access to all of the various NinjaTrader function windows and enables/disables global application features and commands.   Menu System  
 - [New Menu](new_menu.md)  
 - [Tools Menu](tools_menu.md)  
@@ -22,8 +14,3 @@
 - [Messages Tab](messages-tab.md)  
 - [Connection Status](status_bar.md) |
 
-▶️
-
-▶️
-
-▶️

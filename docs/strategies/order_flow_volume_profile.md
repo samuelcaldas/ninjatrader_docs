@@ -7,8 +7,6 @@ Profile TypesOrder Flow Volume Profile has many settings which can be customized
 
 ---
 
----
-
 Volume Profile  Volume profiles display last traded volume data using your selected source data 'resolution' is used to build the profile.
 
 vp2
@@ -22,10 +20,6 @@ Tick Profile   Tick profiles display the count of 'ticks' or trades that occur a
 vp4
 
 Profile Components    vp6   1.Profile: Overlaid behind the bars each bar represents the profile per price. Multiple price levels can be aggregated using 'Ticks per level'.  2.POC: The point of control (POC) is the single largest data point in the profile.  3.Value area:  The range where 68% (configurable) of the volume traded, can be referenced as 'VA' and has opacity settings to visually separate this area from the rest of the profile.  4.Range: The highest price and lowest price of the profile.  5.Profile Summary: The total volume and range of a volume profile. Range metric is configurable.  Profile Periods There are 3 methods to select the 'period' you which to generate a profile for, each one renders slightly differently. It is not uncommon to use multiple profile types on the same chart as each profile gives you a different view on the underlying data.
-
----
-
----
 
 ---
 
@@ -48,8 +42,6 @@ When Bars is selected, one profile per bar is rendered. Space is added between t
 A composite profile is a single profile drawn as an overlay on the entire chart that is composed of data defined by the 'Compose by' sub property that is exposed when this mode is selected.
 
 Display Modes Multiple display modes can be used. By default there are 5 render modes available which is changed with the 'Display mode' property on the indicator.
-
----
 
 ---
 
@@ -97,8 +89,6 @@ Composite Profiles  A composite profile is a singular large profile rendered on 
 
 ---
 
----
-
 Weeks Back
 
 The number of weeks back to be factored in this profile.
@@ -143,25 +133,9 @@ vp23
 
 ---
 
----
-
----
-
----
-
----
-
----
-
----
-
----
-
 Profile type
 
 This is the top level parameter for selecting the type of profile you would like to generate. Each one of these profiles can be completely different since its constructed with different source data. Volume and tick share rendering options however price is unique in that its rendered using blocks or letters.
-
----
 
 ---
 
@@ -180,8 +154,6 @@ Price profiles displays a letter or block if underlying trades inside of a speci
 Display mode
 
 Defines how the profile will be rendered and what data is impressed.    Volume & Tick Display Modes:
-
----
 
 ---
 
@@ -213,8 +185,6 @@ Price Display Modes:
 
 ---
 
----
-
 Letters
 
 A letter is displayed if the last price traded anywhere in the price range in a 30 minute window. The letter definitions can be found in the 'Times' category in the indicator properties. Capital 'A' letter starts at 8:00 AM CST. When not enough space is available for a 'letter' to be rendered, the profile we default to 'Boxes' display mode below.
@@ -226,8 +196,6 @@ Instead of displaying a letter as per 'letter' mode above, only the correspondin
 Delta type (Only visible when Buy Sell or Delta Display mode is selected)
 
 Sets how the delta is calculated for buy / sell aggressor classification.
-
----
 
 ---
 
@@ -245,8 +213,6 @@ Profile period
 
 ---
 
----
-
 Sessions
 
 Each session as defined by the Charts Data Series or the manual Trading hours selected gets a rendered Volume Profile. The profile by default is displayed below the bars and across all bars that make up the session. You can group multiple sessions by defining the property 'Sessions' greater then 1 (count is run from left to right, so forward).
@@ -258,8 +224,6 @@ When Bars is selected, one profile per bar is rendered. Space is added between t
 Composite
 
 A composite profile is a single profile drawn as an overlay on the entire chart that is composed of data defined by the 'Compose by' sub property that is exposed when this mode is selected.    Compose by:
-
----
 
 ---
 
@@ -295,19 +259,7 @@ The profile will dynamically update based on the data determined from the first 
 
 ---
 
----
-
----
-
----
-
----
-
----
-
 Profile alignment
-
----
 
 ---
 
@@ -385,8 +337,6 @@ The 'Lines' section defined all available and configurable line plots. Each line
 
 ---
 
----
-
 POC
 
 Enable and customize display of the Point of Control line. Please see 'Profile Components' section in the Order Flow Concepts section for more information.
@@ -438,8 +388,6 @@ The 'Lines' section defined all available and configurable line plots. Each line
 ![Vp19](../images/vp19.png)
 
 ![Vp18](../images/vp18.png)
-
----
 
 ---
 

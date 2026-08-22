@@ -2,8 +2,6 @@
 
 NinjaTrader support sharing messages and images via Email or Text message via email.
 
-> playVideo
-
 ## Setting up Sharing Services
 
 You must first setup your sharing services before you are able to share content.
@@ -20,12 +18,6 @@ Once you have completed setup of the sharing service. You can now use this shari
 
 > **Note:** The default check box can only be checked for a single account for each Sharing Services. This is the account that is used when any automated process attempts to share something, such as an strategy tweeting a new position is just got into. For more information on the NinjaScript method to share please see the following section of the help guide.
 
-▶️
-
-▶️
-
-▶️
-
 ## Sharing from a NinjaTrader Window
 
 ![Sharing_ContextMenu](../images/sharing_contextmenu.png)
@@ -40,12 +32,6 @@ Right clicking on a NinjaTrader window that has sharing enabled you will see the
 | Window... | Opens the share window with a screenshot of the window attached to the message. |
 
 Once you make a selection the Share dialog will be launched where you can customize the message and select what service you would like to share too.
-
-▶️
-
-▶️
-
-▶️
 
 ![Windows_Sharing_ShareDialog](../images/windows_sharing_sharedialog.png)
 

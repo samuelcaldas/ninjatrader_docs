@@ -6,8 +6,6 @@ ATM Strategy Properties This property group sets [ATM strategy](../strategies/at
 
 ---
 
----
-
 ATM Strategy
 
 Use server side ATMs (beta)
@@ -31,8 +29,6 @@ Use last price for auto trail and auto breakeven
 When enabled, the last traded price is used to trigger auto trail or auto breakeven functions. When disabled, the Bid is used for long positions, and the Ask is used for short positions. This setting is only available when Use server side ATMs is disabled.
 
 NinjaScript properties This property group controls how NinjaTrader will run your NinjaScript strategies.    Options_Strategies_NS
-
----
 
 ---
 

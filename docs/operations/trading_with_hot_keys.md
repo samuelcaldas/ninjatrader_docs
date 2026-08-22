@@ -12,8 +12,6 @@ Order Entry Hot Keys will only submit from the the active order entry window. Th
 
 ---
 
----
-
 HotKeys_ActiveLeft
 
 HotKeys_ActiveRight
@@ -23,8 +21,6 @@ HotKeys_ActiveRight
 ![Hotkeys Predefinedorder](../images/hotkeys_predefinedorder.png)
 
 HotKeys_PredefinedOrder Pre-defined order actions
-
----
 
 ---
 

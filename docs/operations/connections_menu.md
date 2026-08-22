@@ -28,8 +28,6 @@ Pre-Built Connections Although you will need to configure your own connection to
 
 ---
 
----
-
 Kinetick - End of Day (Free)
 
 Provided free of charge by Kinetick, offers daily End-of-Day updates for several instrument types, including stocks, forex, and futures

@@ -27,12 +27,6 @@ For more information please see the [ATM Strategy Selection Mode](atm_strategy_s
 
 ---
 
----
-
----
-
----
-
 1 Target
 
 2 Target
@@ -64,12 +58,6 @@ Profit Target:
 6
 
 When building an ATM Strategy each Profit Target must be greater than the Profit Target before it.  Example: The Profit Target for 1 Target must be less than the Profit Target for 2 Target.  Also each Stop Loss must be must be equal to or greater than the Stop Loss before it.  Example: The Stop Loss for 1 Target must be equal to or less than the Stop Loss for 2 Target.  The Parameters listed below show the correct way to enter the values listed above.
-
----
-
----
-
----
 
 ---
 

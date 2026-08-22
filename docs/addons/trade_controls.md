@@ -2,14 +2,6 @@
 
 Trade Controls are located in various Order Entry windows available throughout the product.
 
-▶️
-
-▶️
-
-▶️
-
-> playVideo
-
 |  |
 | --- |
 | Trade Controls  Many of the NinjaTrader Order Entry features will have a number of shared controls design to aid you in setting various order parameters such as Quantity, Price, TIF, or used to display account/instrument Position information. These controls are designed to behave in the same manner no matter which order entry feature you're using.    
@@ -19,8 +11,3 @@ Trade Controls are located in various Order Entry windows available throughout t
 -  [Quantity Selector](quantity_selector.md)  
 -  [TIF Selector](tif_selector.md) |
 
-▶️
-
-▶️
-
-▶️
