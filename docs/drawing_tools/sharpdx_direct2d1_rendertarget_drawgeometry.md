@@ -22,7 +22,7 @@ RenderTarget.DrawGeometry(Geometry geometry, Brush brush, float strokeWidth, Str
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | An int which represents the method input |
 | geometry | The [SharpDX.Direct2D1.Geometry](sharpdx_direct2d1_pathgeometry.md) to draw |

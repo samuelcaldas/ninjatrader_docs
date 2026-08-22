@@ -6,7 +6,7 @@ Represents an interface that exposes information regarding a Triangle [IDrawingT
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
 | MiddleAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the middle point of the drawing object |

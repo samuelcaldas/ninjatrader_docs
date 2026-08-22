@@ -6,7 +6,7 @@ Represents an interface that exposes information regarding a Text [IDrawingTool]
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Anchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the point of the drawing object |
 | YPixelOffset | An int value representing the offset value in pixels from within the text box area |

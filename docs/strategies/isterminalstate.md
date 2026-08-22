@@ -16,7 +16,7 @@ IsTerminalState(OrderState orderState)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | orderState | The OrderState to compare |
 

@@ -24,7 +24,7 @@ This method does not return a value.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | state | The [State](state.md) to be set |
 

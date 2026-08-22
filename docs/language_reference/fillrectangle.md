@@ -9,7 +9,7 @@ Definition
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | rect | A RectangleF representing the rectangle to be drawn |
 | brush | A Brush representing the brush to draw with |

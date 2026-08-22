@@ -14,7 +14,7 @@ An int value representing a value of bars ago.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | period | The number of bars to include in the calculation |
 | series | Any `Series<double>` type object such as an indicator, Close, High, Low, etc... |

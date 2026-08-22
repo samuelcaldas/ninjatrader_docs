@@ -4,7 +4,7 @@ The following menus and items are available via the New menu of the NinjaTrader 
 
 ![ControlCenter_FileMenu](../images/controlcenter_filemenu.png)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Basic Entry](../strategies/basic_entry.md) | Creates new Basic Entry window |
 | [FX Pro](../strategies/fx_pro.md) | Creates a new FX Pro window |

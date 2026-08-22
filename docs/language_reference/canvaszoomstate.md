@@ -8,7 +8,7 @@ Indicates the current state of the Zoom tool on the chart. This property reveals
 
 An enum representing the state of the Zoom tool on the chart. Possible values are listed below:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | None | The Zoom tool is not currently being used |
 | Selected | The Zoom tool is selected, but has not yet been used to zoom in |

@@ -27,7 +27,7 @@ IsValidDataPoint(int barsAgo)
 
 Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | barsAgo | An int representing from the current bar the number of historical bars the method will check. |
 

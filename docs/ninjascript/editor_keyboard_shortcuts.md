@@ -2,7 +2,7 @@
 
 The NinjaScript Editor includes a range of keyboard shortcuts not available in other areas of the platform. Below is a list of available shortcuts and the actions they perform:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Ctrl + C, Ctrl + Insert | Copy to Clipboard |
 | Ctrl + X, Shift + Delete | Cut to Clipboard |

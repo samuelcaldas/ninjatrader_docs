@@ -288,7 +288,7 @@ There are several other changes to implementation which are not covered in detai
 
 ![tog_minus](../images/tog_minus.gif)        Name Changes Overview
 
-```
+```text
 Renamed During the NinjaTrader 8 development process, one of our goals to make sure that our core framework matched various coding standards which have been set out in the industry.
 As a result of meeting these coding standards, many NinjaTrader methods and properties needed to been renamed.
 While the functionality of these methods and properties remains the same, we chose to rename these variables to follow a semantically context specific naming convention which is generally agreed upon to favor readability.

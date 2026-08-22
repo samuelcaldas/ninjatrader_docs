@@ -19,7 +19,7 @@ GetRealtimeOrder(Order historicalOrder)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | historicalOrder | The historical [order](order.md) object to update to real-time |
 

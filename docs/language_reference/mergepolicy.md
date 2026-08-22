@@ -10,7 +10,7 @@ Represents the MergePolicy that is configured for the current master instrument.
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | DoNotMerge | No merge policy is applied |
 | MergeBackAdjusted | Merge policy is applied between contracts along with rollover offsets |

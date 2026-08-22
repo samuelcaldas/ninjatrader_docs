@@ -16,7 +16,7 @@ A SharpDX.ExtendMode enum value which determines how a brush paints areas outsid
 
 Possible values include:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Clamp | Repeat the edge pixels of the brush's content for all regions outside the normal content area. |
 | Wrap | Repeat the brush's content. |

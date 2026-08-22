@@ -10,7 +10,7 @@ The TabControlManager class can be used to set or check several properties of a 
 
 ## Setters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | SetCanAddTabs(DependencyObject obj, bool value) | Sets a TabControl can add new tabs |
 | SetCanDuplicateTabs(DependencyObject obj, bool value) | Sets a TabControl can duplicate tabs in new tabs or new windows |
@@ -21,7 +21,7 @@ The TabControlManager class can be used to set or check several properties of a 
 
 ## Getters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | GetCanAddTabs(DependencyObject obj) | Indicates a TabControl can add new tabs |
 | GetCanDuplicateTabs(DependencyObject obj) | Indicates a TabControl can duplicate tabs in new tabs or new windows |

@@ -8,7 +8,7 @@ You can customize the Hot Keys by assigning the desired key stroke in the relate
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Assigning a Hot Key You can assign a key stroke as a Hot Key to the desired action by completing the following steps:    1. Move your mouse over the action field where you want your Hot Key assigned, "Click to record hot key" should display  2. Left mouse click on the field to begin recording  3. Use the keyboard to select the Hot Key combination  4. Recording will finish as you input the hot key on your keyboard or press esc to cancel the recording    HotKeys_Recording    |  | | --- | | Note: If you try to assign a Hot Key that would conflict with an already defined Hot Key you will be asked to reassign. |   HotKeys_Reassign   Removing a Hot Key To remove a Hot Key left mouse click in the action field on the "X" icon.    HotKeys_Remove |
 

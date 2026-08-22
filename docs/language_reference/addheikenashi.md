@@ -18,7 +18,7 @@ AddHeikenAshi(isResetOnNewTradingDay)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrumentName | string determining instrument name such as "MSFT" |
 | baseBarsPeriodType | The underlying BarsType used for the Heiken Ashi bars period.   Possible values are:

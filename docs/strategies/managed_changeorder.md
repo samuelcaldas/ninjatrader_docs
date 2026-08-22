@@ -18,7 +18,7 @@ ChangeOrder(Order order, int quantity, double limitPrice, double stopPrice)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | order | [Order object](order.md) of the order you wish to amend |
 | quantity | Order quantity |

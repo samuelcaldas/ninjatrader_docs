@@ -12,7 +12,7 @@ A collection of properties related to the configuration of the Chart
 
 A ChartControlProperties object containing values for all properties configured on the specified ChartBars object.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Property | Return Type and Description |
 | AllowSelectionDragging | A bool indicating selected chart objects can be moved within a chart panel or dragged to a new chart panel |

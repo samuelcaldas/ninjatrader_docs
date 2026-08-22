@@ -27,7 +27,7 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | A [ChartControl](chartcontrol.md) object (the chart's bar-related properties and x-axis) |
 | chartScale | A [ChartScale](chartscale.md) object (the chart's y-axis) |

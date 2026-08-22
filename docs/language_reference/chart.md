@@ -4,7 +4,7 @@ The following section covers information related to accessing chart related data
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | 1. [ChartBars](chartbars.md) | The Chart's Primary Data Series which the NinjaScript object is running |
 | 2. [ChartControl](chartcontrol.md) | The entire grid hosting the chart including the X-axis, additional panels, and chart related properties |

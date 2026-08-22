@@ -18,6 +18,6 @@ A bool value which is true if the area filled by the geometry contains point; ot
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | point | The [SharpDX.Vector2](sharpdx_vector2.md) point to test. |

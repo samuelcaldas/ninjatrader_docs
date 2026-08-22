@@ -15,7 +15,7 @@ enum DrawTextOptions
    
 Enumerators
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | NoSnap | Text is not vertically snapped to pixel boundaries. This setting is recommended for text that is being animated. |
 | Clip | Text is clipped to the layout rectangle. |

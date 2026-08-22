@@ -8,7 +8,7 @@ SharpDX is an [open-source](https://github.com/sharpdx/SharpDX) managed .NET wra
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [SharpDX](sharpdx.md) | The SharpDX namespace contains fundamental classes used by SharpDX. |
 | [SharpDX.Direct2D1](sharpdx_direct2d1.md) | The SharpDX.Direct2D1 namespace provides a managed Direct2D API.   Direct2D is a hardware-accelerated, immediate-mode, 2-D graphics API that provides high performance and high-quality rendering for 2-D geometry, bitmaps, and text. |

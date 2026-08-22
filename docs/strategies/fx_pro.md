@@ -2,7 +2,7 @@
 
 The FX Pro window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the FX Pro menu item.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | FX Pro Overview  The FX Pro order entry window is comprised of several components: the Order Grid, the Level II panel (optional), position and level 1 display, as well as order entry and ATM Strategy management. | |
 | Display  

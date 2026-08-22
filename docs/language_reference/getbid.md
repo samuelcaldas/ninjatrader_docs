@@ -18,7 +18,7 @@ Bars.GetBid(int index)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | index | The absolute bar index value used |
 

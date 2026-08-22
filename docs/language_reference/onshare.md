@@ -10,7 +10,7 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | text | The message being sent to the social network or other Share provider. This is what appears in the textbox of the Share window |
 | imageFilePath | Optional path to screenshot or other image to be sent to the social network or other Share provider |

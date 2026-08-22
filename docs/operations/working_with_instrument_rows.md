@@ -4,7 +4,7 @@ The Market Analyzer window allows you to display a variety of real-time quotes, 
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Adding an Instrument You can add an individual instrument to the Market Analyzer through one of the techniques below:
 - Press down on your right mouse button in the Market Analyzer window and select the menu item Add Instrument(s).  Through the Instrument  Selector menu, you can navigate through various instrument lists to locate the instrument you desire, and left click on the instrument to add the individual instrument to the Market Analyzer.    MarketAnalyzer_8

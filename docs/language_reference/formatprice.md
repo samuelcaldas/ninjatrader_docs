@@ -20,7 +20,7 @@ Bars.Instrument.MasterInstrument.FormatPrice(double price, [bool round])
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | price | A double value representing a price |
 | round | An optional bool when true (default) will round the price value to the nearest tick size |

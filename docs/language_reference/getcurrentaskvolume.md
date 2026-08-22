@@ -18,7 +18,7 @@ GetCurrentAskVolume(int barsSeriesIndex)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | barsSeriesIndex | An int value determining the bar series the method runs. Note:  This optional parameter is reserved for multi-instrument scripts |
 

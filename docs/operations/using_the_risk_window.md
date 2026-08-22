@@ -4,7 +4,7 @@ Within the Risk window, Risk Templates hold the risk definitions for local simul
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Risk Templates A Risk Template is a collection of risk definitions that can be used by Simulation accounts to track the amount of Margin being used.   Where Risk Templates can be Applied Risk Templates can be applied via the Control Center or Account Data Accounts tab.
 - Right click on a Simulation Account

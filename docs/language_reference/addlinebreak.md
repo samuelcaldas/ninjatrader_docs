@@ -20,7 +20,7 @@ AddLineBreak(isResetOnNewTradingDay)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrumentName | string determining instrument name such as "MSFT" |
 | baseBarsPeriodType | The underlying BarsType used for the LineBreak bars period   Possible values are:  BarsPeriodType.Day  BarsPeriodType.Minute  BarsPeriodType.Second  BarsPeriodType.Tick  BarsPeriodType.Volume |

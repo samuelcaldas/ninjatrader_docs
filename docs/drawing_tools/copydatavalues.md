@@ -13,7 +13,7 @@ This method does not return a value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | toAnchor | The ChartAnchor to copy |
 

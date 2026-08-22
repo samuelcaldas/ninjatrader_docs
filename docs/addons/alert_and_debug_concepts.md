@@ -60,7 +60,7 @@ The ErrorCode enumeration can be found in NinjaTrader logs from time to time whe
 
  
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | NoError | No errors were thrown |
 | LogOnFailed | Failed to log on due to invalid credentials |

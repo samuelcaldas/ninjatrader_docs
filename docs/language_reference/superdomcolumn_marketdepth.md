@@ -8,7 +8,7 @@
 
 ## Property Value
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | SuperDom.MarketDepth | A collection of MarketDepthRows |
 | SuperDom.MarketDepth.Asks | A collection of orders on the ask side of the market |

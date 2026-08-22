@@ -16,7 +16,7 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | window | A [Window](https://msdn.microsoft.com/en-us/library/system.windows.window(v=vs.110).aspx) object which is being saved to the workspace |
 | element | A [XElement](https://msdn.microsoft.com/en-us/library/system.xml.linq.xelement(v=vs.110).aspx) object representing the workspace being saved |

@@ -12,7 +12,7 @@ A unique identifier representing the index in which chart objects are drawn on t
 
 A int value representing the order that the object is drawn.  Default value is categorized by the type of object drawn, which will then increment for each instance of the chart object that is drawn.  Each type of object will have a different default starting value to keep these objects separate:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Chart Bars | 1 |
 | NinjaScript Objects | 10001 |

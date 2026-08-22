@@ -14,7 +14,7 @@ This method returns true if a rising condition is present; otherwise, false.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | series | Any `Series<double>` type object such as an indicator, Close, High, Low, etc... |
 

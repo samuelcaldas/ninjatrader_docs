@@ -8,7 +8,7 @@ Represents a read only interface that exposes information regarding an execution
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Account | The [Account](../addons/account_class.md) the execution occurred |
 | BarsInProgress | An int value representing the [BarsArray](../language_reference/barsarray.md) in which the execution occurred |

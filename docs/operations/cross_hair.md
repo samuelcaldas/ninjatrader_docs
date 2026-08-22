@@ -11,7 +11,7 @@ The Cross Hair changes the cursor to a pair of intersecting vertical and horizon
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Enabling the Global Cross Hair  Just like the Cross Hair, there are multiple ways to enable the Global Cross Hair within a chart window:    GlobalCrossHair_ChartIcon
 - Left mouse click on the Cursor icon in the chart toolbar and select the Global menu item.

@@ -8,7 +8,7 @@ Cancels all orders for the specified instrument on the connection.
 
 <Connection>.CancelAllOrders(Instrument instrument)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrument | An Instrument object used to identify the instrument for which to cancel orders |
 

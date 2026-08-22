@@ -16,7 +16,7 @@ class StrokeStyle
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new StrokeStyle(Factory factory, [StrokeStyleProperties](sharpdx_direct2d1_strokestyleproperties.md) properties) | Creates an StrokeStyle that describes start cap, dash pattern, and other features of a stroke. |
 | new StrokeStyle(Factory factory, [StrokeStyleProperties](sharpdx_direct2d1_strokestyleproperties.md) properties, float[] dashes) | Creates an StrokeStyle that describes start cap, dash pattern, and other features of a stroke. |
@@ -25,7 +25,7 @@ class StrokeStyle
 
 ## Method and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [DashCap](sharpdx_direct2d1_strokestyle_dashcap.md) | Gets a value that specifies how the ends of each dash are drawn. |
 | [DashesCount](sharpdx_direct2d1_strokestyle_dashescount.md) | Retrieves the number of entries in the dashes array. |

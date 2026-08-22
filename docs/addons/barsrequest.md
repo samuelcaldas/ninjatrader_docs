@@ -15,7 +15,7 @@ BarsRequest(Cbi.Instrument instrument, DateTime fromLocal, DateTime toLocal)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Instrument | The [Instrument](../language_reference/instrument.md) to request |
 | barsBack | An int value determining the number of bars to request from the current time |
@@ -24,7 +24,7 @@ BarsRequest(Cbi.Instrument instrument, DateTime fromLocal, DateTime toLocal)
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Bars | The [Bars](../language_reference/bars.md) object returned from the request |
 | BarsBack | An int representing the number of bars back used in the request |

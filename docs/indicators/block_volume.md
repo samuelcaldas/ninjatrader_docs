@@ -16,7 +16,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | blockSize | The minimum volume a trade must be to be considered a block trade |

@@ -13,7 +13,7 @@ A custom [TypeConverter](https://msdn.microsoft.com/en-us/library/system.compone
 
 ## Relevant base methods
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [TypeConverter.GetProperties()](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter.getproperties(v=vs.110).aspx) | When overriding GetProperties(), calling base.GetProperties() ensures that all default property grid behavior works as designed |
 | [TypeConverter.GetPropertiesSupported()](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter.getpropertiessupported(v=vs.110).aspx) | In your custom converter class, you must override GetPropertiesSupported() and return a value of true in order for your custom type converter to work |

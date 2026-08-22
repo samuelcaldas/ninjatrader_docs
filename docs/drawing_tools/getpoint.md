@@ -14,7 +14,7 @@ A [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.1
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | A [ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
 | chartPanel | A [ChartPanel](../language_reference/chartpanel.md) representing the a panel of the chart |

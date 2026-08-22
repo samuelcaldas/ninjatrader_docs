@@ -18,6 +18,6 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | fillMode | The [SharpDX.Direct2D1.FillMode](sharpdx_direct2d1_fillmode.md) used to determine whether a given point is part of the geometry. |

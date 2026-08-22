@@ -14,7 +14,7 @@ AtmStrategyChangeStopTarget(double limitPrice, double stopPrice, string orderNam
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | limitPrice | Order limit price |
 | stopPrice | Order stop price |

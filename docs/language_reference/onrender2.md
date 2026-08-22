@@ -33,7 +33,7 @@ protected override void OnRender(DrawingContext dc, System.Windows.Size renderSi
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | dc | The [drawing context](https://msdn.microsoft.com/en-us/library/system.windows.media.drawingcontext(v=vs.110).aspx) for the column |
 | renderSize | The rendering size for the column |

@@ -24,7 +24,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | eMA1 | First EMA's period |
 | eMA2 | Second EMA's period |

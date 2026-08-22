@@ -28,7 +28,7 @@ ExitShort(int barsInProgressIndex, int quantity, string signalName, string fromE
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | fromEntrySignal | The entry signal name. This ties the exit to the entry and exits the position quantity represented by the actual entry.    Note:  Using an empty string will attach the exit order to all entries. |

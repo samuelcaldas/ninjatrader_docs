@@ -74,7 +74,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | resolution | The data the indicator will run off of:  Standard  Tick |

@@ -16,7 +16,7 @@ GetAtmStrategyRealizedProfitLoss(string atmStrategyId)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | atmStrategyId | The unique identifier for the ATM strategy |
 

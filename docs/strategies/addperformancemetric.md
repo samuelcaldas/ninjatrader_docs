@@ -16,7 +16,7 @@ This method does not return a value.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | performanceMetric | The performance metric object to be added |
 

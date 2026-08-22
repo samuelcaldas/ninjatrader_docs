@@ -14,7 +14,7 @@ AccountItemEventArgs contains [Account](../addons/account_class.md)-related info
 
 The properties listed below are accessible from an instance of AccountItemEventArgs:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Account | The Account for which OnAccountItemUpdate() was called |
 | AccountItem | AccountItem which has updated, resulting in the call to OnAccountItemUpdate() |

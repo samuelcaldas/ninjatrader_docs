@@ -6,7 +6,7 @@ The ChartingExtensions class provides helper methods useful for converting a pix
 
 ## ChartingExtensions Helper Methods
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [ConvertFromHorizontalPixels](convertfromhorizontalpixels.md) | Converts a horizontal coordinate (x) from device pixels to application pixels |
 | [ConvertFromVerticalPixels](convertfromverticalpixels.md) | Converts a vertical coordinate (y) from device pixels to application pixels |

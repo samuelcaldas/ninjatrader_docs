@@ -14,7 +14,7 @@ The SharpDX.DirectWrite.WordWraping enum value which determines the word wrappin
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Wrap | Indicates that words are broken across lines to avoid text overflowing the layout box. |
 | NoWrap | Indicates that words are kept within the same line even when it overflows the layout box. This option is often used with scrolling to reveal overflow text. |

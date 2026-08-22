@@ -1,6 +1,6 @@
 # Order Entry
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Order Entry Overview  Various Order Entry windows can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the name of order entry window.    NinjaTrader provides six graphical interfaces for order, position, and [ATM Strategy](atm_strategy.md) management.  These interfaces provide complete functionality for the management of orders, positions and discretionary exit and stop strategies in a highly visual and efficient manner. The majority of your time using NinjaTrader will be spent in one of these six interfaces if you are primarily a discretionary trader. | |
 | Order Entry Windows  

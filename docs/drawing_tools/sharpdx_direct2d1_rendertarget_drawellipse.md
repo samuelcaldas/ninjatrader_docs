@@ -22,7 +22,7 @@ RenderTarget.DrawEllipse(Ellipse ellipse, Brush brush, float strokeWidth, Stroke
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ellipse | The [SharpDX.Direct2D1.Ellipse](sharpdx_direct2d1_ellipse.md) position and radius of the ellipse to draw, in device-independent pixels. |
 | brush | The [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) used to paint the ellipse's outline. |

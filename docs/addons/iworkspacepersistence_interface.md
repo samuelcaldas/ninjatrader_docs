@@ -6,7 +6,7 @@ When creating your [NTWindow](ntwindow.md), be sure to implement the IWorkspaceP
 
 This interface contains two methods and one property which must be hidden by the implementing class:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Restore()](iworkspacepersistence_restore.md) | Restores the window from workspaces. |
 | [Save()](iworkspacepersistence_save.md) | Saves the window to workspaces. |

@@ -28,7 +28,7 @@ SetProfitTarget(string fromEntrySignal, CalculationMode mode, double value, bool
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | currency | Sets the profit target amount in currency ($500 profit for example) |
 | isMIT | Sets the profit target as a market-if-touched order |

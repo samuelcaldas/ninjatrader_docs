@@ -26,7 +26,7 @@ The Condition Builder is a very powerful feature that allows you to define compl
 
 ![tog_minus](../images/tog_minus.gif)        How to create a cross over condition
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Cross Over Conditions You can check for either a Cross Above or Cross Below condition with a user defined look back period. The look back period sets the number of bars to look back to check for the cross over condition.    The following is an an example and represents one of many possible combinations.  We have already added two EMA indicators (9 period EMA and 20 period EMA) to our chart so they are both available as [condition objects](configuring_alerts.md).    1.Under the Indicators category, select the 9 period EMA indicator  2.Select "cross above" relational operator  3.Set the Look back period  4.Under the Indicators category, select the 20 period EMA indicator       |  | | --- | | Notes:
 - The Look back period must be at least 1 to function.
@@ -38,6 +38,6 @@ The Condition Builder is a very powerful feature that allows you to define compl
 
 ![tog_minus](../images/tog_minus.gif)        How to create time comparisons
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Creating Time Comparisons You can compare a chart bar's time data to a user defined time or date value.     The following is an an example and represents one of many possible combinations.     |  | | --- | | Note: Time series represents a collection of bar Date/Time values of a bar series which are available from a chart |     1.Select the Time category and select the Data Series series  2.Select the "greater equal" relational operator  3.Expand the Time value category  4.Set the Time value parameter to a user defined value of "10:00 AM"    Alerts_ConditionBuilder_TimeComparison1    Once the OK button is pressed, a condition is created that would translate to the following:    "Current bar's time is greater or equal to 10:00 AM" |

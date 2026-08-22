@@ -15,7 +15,7 @@ You can export NinjaScript for others to import in several formats:
 
 ![tog_minus](../images/tog_minus.gif)        Exporting NinjaScript as Assembly
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | You may want to provide other NinjaTrader users with access to your proprietary indicators or strategies in a secure format preventing them from being able to see your proprietary source code. You can do this by exporting your NinjaScript indicators as a compiled Microsoft .NET assembly (DLL) file.
 - This is a great distribution option if your proprietary indicator or strategy files do not reference external DLL's

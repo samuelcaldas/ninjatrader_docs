@@ -23,7 +23,7 @@ CrossBelow(`ISeries<double>` series1, double value, int lookBackPeriod)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | lookBackPeriod | Number of bars back to check the cross below condition |
 | series1 & series2 | Any `Series<double>` type object such as an indicator, Close, High, Low, etc... |

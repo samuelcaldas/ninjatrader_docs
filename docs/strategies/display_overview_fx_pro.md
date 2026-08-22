@@ -36,7 +36,7 @@ Please see the sections below for more information on each of these sections.
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the market display section 
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Market Display The Market Display panel shows the inside bid and ask along with current position information.   Market Display Definitions 1.The current spread between the best bid and best ask (the image below is showing a spread of 2.5 pips)  2.Position information  3.The handle of the current bid (current ask is on the right side of the spread)  4.The current bid  5.Tenth-pip value. In the image below, the current bid is 0.9401 and 0/10 of a pip displayed as 0.9401'0  6.Current volume (displayed as 100K when volume is not available)  7.The direction of the last tick (blue up arrow for an uptick, red down arrow for down tick)    FXPro_4      |  | | --- | | Note:  FX brokerage technologies that do not support an ECN model will NOT display sub pips, nor will bid/ask volume be displayed. | |
 

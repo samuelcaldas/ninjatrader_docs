@@ -17,7 +17,7 @@ DxExtensions.ToVector2(this System.Windows.Point point)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | point | The [System.Windows.Point](https://msdn.microsoft.com/en-us/library/system.windows.point(v=vs.110).aspx) point to convert |
 

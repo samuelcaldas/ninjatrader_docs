@@ -6,7 +6,7 @@ NewsItems can be used to store news articles.
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Items | Collection of NewsEventArgs representing news articles |
 | NewsToMaintain | An int representing the number of articles to maintain |

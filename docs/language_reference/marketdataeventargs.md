@@ -6,7 +6,7 @@ Represents a change in level one market data and is passed as a parameter in the
 
 ## Methods and Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Ask | A double value representing the ask price |
 | Bid | A double value representing the bid price |

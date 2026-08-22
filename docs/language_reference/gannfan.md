@@ -6,7 +6,7 @@ Represents an interface that exposes information regarding a Gann Fan [IDrawingT
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Anchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
 | [PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |

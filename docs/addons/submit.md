@@ -12,7 +12,7 @@ Submit(IEnumerable<Order> orders)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | orders | Order(s) to submit |
 

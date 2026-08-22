@@ -141,7 +141,7 @@ protected override void OnWindowCreated(Window window)
 
 From time to time, you may need to access certain global data, such as account values, order states, position info, etc. In these cases, you can subscribe to an appropriate event using a custom event handler method. Below is a list of a few such events which can be captured:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | <Account>.[AccountItemUpdate](../addons/accountitemupdate.md) | Triggers on account item updates |
 | <Account>.[ExecutionUpdate](../addons/executionupdate.md) | Triggers on any execution |

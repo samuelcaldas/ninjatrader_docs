@@ -8,7 +8,7 @@ NumericTextBox provides functionality for numeric text boxes to capture user inp
 
 NumericTextBox inherits from [System.Windows.Controls.Textbox](https://msdn.microsoft.com/en-us/library/system.windows.controls.textbox(v=vs.110).aspx), and the following additional properties can be accessed for an instance the class:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Minimum | Determines the minimum value which can be entered |
 | Maximum | Determines the maximum value which can be entered |

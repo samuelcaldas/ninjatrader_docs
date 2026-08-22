@@ -28,7 +28,7 @@ protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | marketDepthUpdate | [MarketDepthEventArgs](marketdeptheventargs.md) representing the recent change in market data |
 

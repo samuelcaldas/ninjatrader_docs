@@ -12,7 +12,7 @@ Connection.Connect(ConnectOptions options)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | options | The connection option of what you want to connect to |
 

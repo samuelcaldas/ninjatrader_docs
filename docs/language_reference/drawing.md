@@ -4,7 +4,7 @@ You can use NinjaScript to draw custom shapes, lines, text and colors on price a
 
 ## Draw Methods and Associated Return Types
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Draw Method | Return Type |
 | [Draw.AndrewsPitchfork()](draw_andrewspitchfork.md) | [AndrewsPitchfork](andrewspitchfork.md) |
@@ -45,7 +45,7 @@ You can use NinjaScript to draw custom shapes, lines, text and colors on price a
 
 Drawing Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Property | Description |
 | [AllowRemovalOfDrawObjects](allowremovalofdrawobjects.md) | Determines if programmatically drawn DrawObjects can be manually removed from the chart |

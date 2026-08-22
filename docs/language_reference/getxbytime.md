@@ -18,7 +18,7 @@ An int representing a chart-canvas x-coordinate
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | time | A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object used to determine an x-coordinate |
 

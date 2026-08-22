@@ -10,7 +10,7 @@ Please see [Understanding Historical Fill Processing](understanding_historical_f
 
 An enum value that determines how the strategy orders are filled.  Default value is set to OrderFillResolution.Standard.  Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | OrderFillResolution.Standard | Faster - Uses the existing bar type and interval that you are running the backtest on to fill your orders. |
 | OrderFillResolution.High | More granular - Allows you to set a secondary bar series to be used as the price data to fill your orders.   (See also [OrderFillResolutionType](orderfillresolutiontype.md) and [OrderFillResolutionValue](orderfillresolutionvalue.md)) |

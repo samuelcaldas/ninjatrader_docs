@@ -19,7 +19,7 @@ protected override void OnOrderUpdate(OrderEventArgs orderUpdate)
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | orderUpdate | An OrderEventArgs representing the change in order state |
 

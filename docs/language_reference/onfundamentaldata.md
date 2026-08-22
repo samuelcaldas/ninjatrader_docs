@@ -29,7 +29,7 @@ protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDa
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | fundamentalDataUpdate | [FundamentalDataEventArgs](fundamentaldataeventargs.md) representing the recent change in fundamental data |
 

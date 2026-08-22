@@ -8,7 +8,7 @@ A collection of partial holidays which are configured for a Trading Hours templa
 
 A [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.110).aspx) holding a collection of holiday Dates and PartialHoliday objects for each partial holiday.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Date | A DateTime representing the trading date of the Trading Hours holiday |
 | PartialHoliday | An object containing a DateTime representing the date of the early close or late begin, a description of the partial holiday, and two bool properties, IsEarlyClose and IsLateBegin |

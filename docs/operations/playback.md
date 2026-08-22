@@ -4,7 +4,7 @@ Once market replay data or historical tick data is available by either recording
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Connecting to Replay Data To connect to Market Replay data:    1.Left mouse click on the Connections menu in the Control Center  2.Select the menu item Playback Connection menu item    Playback    The Playback connection should now be connected and the Playback Control should be visible.    Playback_PlaybackControl      |  | | --- | | Note: When disconnecting, the Playback account's trade history will be reset. | |
 

@@ -8,12 +8,12 @@ Represents historical time stamps as an `ISeries<DateTime>` interface which can 
 
 ## Single `ISeries<DateTime>`
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Time | A collection of historical bar time stamp values. |
 
 ## Multi-Time Frame `ISeries<DateTime>`
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Times | Holds an array of `ISeries<DateTime>` objects holding historical bar times |

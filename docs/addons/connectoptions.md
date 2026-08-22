@@ -18,7 +18,7 @@ Properties accessible from an instance of ConnectOptions include:
 
  
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | BrandName | A string representing the provider name |
 | CanEnableHds | A bool determining the connection can use NinjaTrader Historical Data Servers. Related properties include HasHdsAlwaysEnabled and IsHdsEnabled |

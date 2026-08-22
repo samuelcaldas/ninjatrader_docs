@@ -10,7 +10,7 @@ A bool value when true indicates that the date passed in as an argument is defin
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | date | The DateTime value representing the date to check |
 

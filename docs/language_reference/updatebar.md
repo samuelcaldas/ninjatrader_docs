@@ -10,7 +10,7 @@ UpdateBar(Bars bars, double high, double low, double close, DateTime time, long 
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | bars | The Bars object of your bars type |
 | high | A double value representing the high price |

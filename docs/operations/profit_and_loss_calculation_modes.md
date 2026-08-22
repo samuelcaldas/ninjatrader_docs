@@ -4,7 +4,7 @@ Trade Performance statistics are based on core PnL calculations, which differ fo
 
 ## Calculation Modes
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Currency | Rate of Exit \* Profit in Points \* Lot Size of Exit \* Point Value of Exit |
 | Percent | (Profit in Points \* Lot Size of Entry) / (Quantity \* Higher of .01 or Absolute Value of Entry Price) |
@@ -18,7 +18,7 @@ Trade Performance statistics are based on core PnL calculations, which differ fo
 
 ## Terms used
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Entry | The last Entry execution |
 | Exit | The last Exit execution |

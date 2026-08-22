@@ -4,13 +4,13 @@ Various windows in NinjaTrader are now a tabbed interface, this gives you the ab
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Adding Tabs Pressing the + tab will create a new Time & Sales tab in this window.    Tabs_Add    |  | | --- | | Note: With the Time & Sales window selected you may also start typing "++" followed by the instrument symbol into the Overlay Instrument Selector to quickly create a new tab with that instrument preselected. Example: "++MSFT" | |
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Removing Tabs Moving your mouse over the tab handle and selecting the x icon to remove that specific tab.    Tabs_RemoveIcon    |  | | --- | | Note: You cannot remove the last remaining tab as you must have at least one tab per window. | |
 

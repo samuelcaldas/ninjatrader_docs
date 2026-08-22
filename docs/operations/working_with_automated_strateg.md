@@ -12,7 +12,7 @@ Automated NinjaScript strategies can be enabled within an open chart. Both real-
 
 ![tog_minus](../images/tog_minus.gif)        Viewing automated strategy executions in a chart
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Executions Automated strategy trade executions will be displayed in the chart, depending on the Plot Executions parameter of the Data Series. The chart below shows several executions from orders placed by an automated strategy, and each execution is labeled with an appropriate name. Only executions pertaining to the strategy on the chart will be visible when the strategy is enabled. Any manual executions, or executions from strategies not applied to the chart, will NOT be shown. Execution markers are configured for each Data Series by selecting the Plot Executions parameter from the [Data Series window](working_with_price_data.md).    StrategyExecutions    |  | | --- | | Note: You can view historical trades when a strategy is applied to a chart because the [IncludeTradeHistoryInBacktest](../strategies/includetradehistoryinbacktest.md) property is set to true by default when a strategy is applied to a chart. You can set this property to false in your code for leaner memory management, at the cost of not being able to access this information. For more information, see the [Working with Historical Trade Data](../strategies/strategyanalyzer_properties_2.md) page. | |
 

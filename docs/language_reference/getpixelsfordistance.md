@@ -14,7 +14,7 @@ A float representing the number of pixels between a value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | distance | A double value representing the distance in points to be measured |
 

@@ -12,7 +12,7 @@ Submitting orders within the FX Board order entry window is both easy and effici
 
 ![tog_minus](../images/tog_minus.gif)        How to submit custom orders
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Custom Orders You can place a custom order by setting order parameters.    1. Set the order Quantity field ([info](../addons/quantity_selector.md))  2. Select the order Type  3. Set the Limit price if applicable  4. Set the Stop price if applicable  5. Set the ATM Strategy option ([info](atm_strategy_parameters.md))  6. Left mouse click on the Sell button to submit a SELL order  - or  -  7. Left mouse click on the Buy button to submit a BUY order    FXBoard_18    |  | | --- | | Tips  1. You can quickly retrieve the current last, bid, or ask price to be used in the Limit price field or Stop price field using the following commands:
 - Middle click in the price field to retrieve the last traded price

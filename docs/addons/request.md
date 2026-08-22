@@ -12,7 +12,7 @@ BarsRequest.Request(`Action<BarsRequest, ErrorCode, string>` callback)
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | BarsRequest | A BarsRequest representing the bars |
 | ErrorCode | An ErrorCode representing error status |

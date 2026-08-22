@@ -16,7 +16,7 @@ ToTime(DateTime time)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | time | A DateTime structure to calculate Note:  See also the [Time](../drawing_tools/time.md) property |
 | hour | An int value representing the hour used for the input |

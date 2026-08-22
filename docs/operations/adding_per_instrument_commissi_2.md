@@ -8,12 +8,12 @@ The Commission Templates to be applied to different trading accounts configured 
 
 ![tog_plus](../images/tog_plus.gif)Managing commissions per instrument type
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Adding Commissions Per Instrument Type To add a commission for an entire asset class (instrument type), first select an asset class listed in the "Commission Per Instrument Type" grid, then click the edit button. Alternatively, you can double-click on any row in the grid to open the OK.    Commissions3    |  | | --- | | Notes:  Forex instrument types, "Per-unit commission" should be divided by the accounts FX lot size per trade.  For example, if your commissions were $0.06 per 1000 FX lot, you would use "0.00006" as the Per-unit commission value (e.g., 0.06 / 1000) | |
 
 ![tog_plus](../images/tog_plus.gif)Managing instrument-specific commissions
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Adding Instrument-Specific Commissions To add commissions for specific instruments, first click the add button below the "Commission Per Instrument" section to open the OK.    Commissions4    |  | | --- | | Notes:  Forex instrument types, "Per-unit" commission should be divided by the account FX lot size per trade.  For example, if your commissions were $0.06 per 1000 FX lot, you would use "0.00006" as the Per-unit commission value (e.g., 0.06 / 1000) |     Editing Instrument-Specific Commissions To edit an instrument-specific commission, first select it in the list of instrument-specific commissions for your chosen edit button. You can then follow the process outlined above to change the instrument or commission values.   Removing Instrument-Specific Commissions To remove an instrument-specific commission, first select it in the list of instrument-specific commissions for your chosen remove button.    Commissions5    1) The edit button can be used to edit an existing instrument-specific commission.    2) The remove button can be used to remove an instrument-specific commission. |

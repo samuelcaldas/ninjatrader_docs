@@ -15,13 +15,13 @@ struct LinearGradientBrushProperties
    
 Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new LinearGradientBrushProperties() | Initializes a new instance of the LinearGradientBrushProperties structure |
 
 Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | StartPoint | A [SharpDX.Vector2](sharpdx_vector2.md) representing brush's coordinate space, the starting point of the gradient axis. |
 | EndPoint | A [SharpDX.Vector2](sharpdx_vector2.md) representing the brush's coordinate space, the endpoint of the gradient axis. |

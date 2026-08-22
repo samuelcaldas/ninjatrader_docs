@@ -20,7 +20,7 @@ A SharpDX.DirectWrite.FontWeight enum value that indicates the type of weight (s
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Thin | Predefined font weight : Thin (100). |
 | ExtraLight | Predefined font weight : Extra-light (200). |

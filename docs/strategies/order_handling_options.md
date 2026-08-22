@@ -8,7 +8,7 @@
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Submit "as-is" Submits orders as specified (limit, market, stop, stop-limit) when NinjaTrader receives a "strategy active order" notification email from TradeStation. Upon receiving the subsequent "strategy filled order" notification email from TradeStation, NinjaTrader will convert any unfilled shares/contracts to either market order or marketable limit order (substantially higher than inside market if buying or below market if selling) depending on the instrument type after a user defined number of seconds.    |  | | --- | | Note: If trading currencies (Forex) it is advised to start a market data stream (any order entry window) for the market you are trading. Since limit buy orders above the offer or limit sell below the bid are invalid orders that are rejected from your broker, NinjaTrader will check the TradeStation requested limit price against the current market price and if it would result in a rejected order, it will convert to a market order. | |
 

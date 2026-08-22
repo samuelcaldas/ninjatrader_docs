@@ -14,7 +14,7 @@ An double value representing a WPF coordinate on the chart scale
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | val | A double value which usually represents a price or indicator value |
 

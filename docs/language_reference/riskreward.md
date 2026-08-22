@@ -6,7 +6,7 @@ Represents an interface that exposes information regarding a Risk Reward [IDrawi
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | EntryAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the entry point of the drawing object |
 | RiskAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the stop loss point of the drawing object |

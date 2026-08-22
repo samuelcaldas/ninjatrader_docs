@@ -16,7 +16,7 @@ When using ConnectionLossHandling.Recalculate, recalculations will only occur if
 
 An enum determining how the strategy will behave.  Default value is set to ConnectionLossHandling.Recalculate Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ConnectionLossHandling.KeepRunning | Keeps the strategy running.  When the connection is reestablished the strategy will resume as if no disconnect occurred. |
 | ConnectionLossHandling.Recalculate | Strategies will attempt to recalculate its strategy position when a connection is reestablished. |

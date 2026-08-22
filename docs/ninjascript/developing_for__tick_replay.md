@@ -20,7 +20,7 @@ As you can see from the table above, the Calculate setting will have a varying d
 
 NinjaTrader stores the best bid price and best ask price as the last trade occurs during the [MarketDataType.Last](../language_reference/marketdataeventargs.md) event and provides it per the table below:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | marketDataUpdate.Price | The current market data price of the last trade event |
 | marketDataUpdate.Ask | The current asking price at the time of the last trade event |

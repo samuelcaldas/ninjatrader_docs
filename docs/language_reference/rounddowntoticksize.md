@@ -14,7 +14,7 @@ Instrument.MasterInstrument.RoundDownToTickSize(double price)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | price | A double value representing a price |
 

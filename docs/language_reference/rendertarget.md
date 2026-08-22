@@ -10,7 +10,7 @@ A SharpDX Direct2D1 RenderTarget creates objects and exposes methods used for dr
 
 A [SharpDX.Direct2D1.RenderTarget](../drawing_tools/sharpdx_direct2d1_rendertarget.md)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | SharpDX.Direct2D1.WindowRenderTarget | Used to render the actual contents of the chart to the window |
 | SharpDX.Direct2D1.WicRenderTarget | Used to render a bitmap for a few scenarios:    1.  A user clicks on a chart area; a bitmap is used to do any hit detection to determine where the user clicked    2.  User clicks on the Windows task bar; a bitmap is used to rendered the preview the contents of the chart display through a thumbnail on the task bar    3.  A user re-sizes the chart; a bitmap is used to render the current contents of the chart, which is redrawn using the WindowRenderTarget after the desired changes have been set |

@@ -1,6 +1,6 @@
 # Charts
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Charts Overview  NinjaTrader charts support a multitude of intervals, indicators and drawing tools, as well as discretionary trading using [Chart Trader](../strategies/chart_trader.md), and automated trading using NinjaScript [strategies](../strategies/strategy.md). The chart window itself is highly customizable and supports a wide range of user definable options. | |
 | Management  

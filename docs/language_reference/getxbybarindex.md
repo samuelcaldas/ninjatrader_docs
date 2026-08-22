@@ -18,7 +18,7 @@ An int representing a chart-canvas x-coordinate
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartBars | The [ChartBars](chartbars.md) object to check |
 | barIndex | The slot index used to determine an x-coordinate |

@@ -18,7 +18,7 @@ This property returns true if the bar is the first bar of a session; otherwise, 
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | index | An int representing an absolute bar index value |
 

@@ -8,7 +8,7 @@ The SharpDX.DirectWrite namespace provides a managed DirectWrite API. DirectWrit
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [TextFormat](sharpdx_directwrite_textformat.md) | The TextFormat interface describes the font and paragraph properties used to format text, and it describes locale information. |
 | [TextLayout](sharpdx_directwrite_textlayout.md) | The TextLayout interface represents a block of text after it has been fully analyzed and formatted. |

@@ -8,7 +8,7 @@ A `Series<T>` is a special generic type of data structure that can be constructe
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | `Series<T>`(ninjaScriptBase) | Creates a `Series<T>` object synchronized to the primary data series of the provided NinjaScript |
 | `Series<T>`(ninjaScriptBase, maximumBarsLookBack) | Creates a `Series<T>` object synchronized to the primary data series of the provided NinjaScript. This constructor also allows controlling the `Series<T>`'s [MaximumBarsLookBack](maximumbarslookback.md) |
@@ -17,7 +17,7 @@ A `Series<T>` is a special generic type of data structure that can be constructe
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ninjaScriptBase | The NinjaScript object used to create the Series |
 | bars | The [Bars](bars.md) object used to create the Series |
@@ -25,7 +25,7 @@ A `Series<T>` is a special generic type of data structure that can be constructe
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [GetValueAt()](getvalueat.md) | Returns the underlying input value at a specified bar index value. |
 | [IsValidDataPoint()](isvaliddatapoint.md) | Determines if the specified input is set at a barsAgo value relative to the current bar. |

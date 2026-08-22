@@ -6,7 +6,7 @@ The ChartScale class includes a range of properties related to the Y-Axis values
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [GetPixelsForDistance()](getpixelsfordistance.md) | Returns the number of device pixels between the value passed to the method representing a series point value on the chart scale |
 | [GetValueByY()](getvaluebyy.md) | Returns the series value on the chart scale determined by a y pixel coordinate on the chart |

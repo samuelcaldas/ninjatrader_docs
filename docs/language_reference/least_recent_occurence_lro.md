@@ -18,7 +18,7 @@ An int value representing the number of bars ago. Returns a value of -1 if the s
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | condition | A true/false expression |
 | instance | The occurrence to check for (1 is the least recent, 2 is the 2nd least recent, etc...) |

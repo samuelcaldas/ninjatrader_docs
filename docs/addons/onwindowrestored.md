@@ -16,7 +16,7 @@ OnWindowRestored(Window window, XElement element)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | window | A [Window](https://msdn.microsoft.com/en-us/library/system.windows.window(v=vs.110).aspx) object which is being restored from a workspace |
 | element | The [XElement](https://msdn.microsoft.com/en-us/library/system.xml.linq.xelement(v=vs.110).aspx) object representing the workspace being restored |

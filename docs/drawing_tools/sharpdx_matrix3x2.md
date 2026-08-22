@@ -14,13 +14,13 @@ struct Matrix3x2
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new Matrix3x2() | Initializes a new instance of the Matrix3x2 struct |
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Identity | Gets the identity matrix. |
 | M11 | A float for the first element of the first row. |

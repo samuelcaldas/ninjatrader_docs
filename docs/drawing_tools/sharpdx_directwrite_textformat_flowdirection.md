@@ -14,7 +14,7 @@ A SharpDX.DirectWrite.FlowDirection enum which determines text lines flow within
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | TopToBottom | Specifies that text lines are placed from top to bottom. |
 

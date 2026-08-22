@@ -20,7 +20,7 @@ Position.GetUnrealizedProfitLoss(PerformanceUnit unit, [double price])
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | unit | Possible values:  PerformanceUnit.Currency  PerformanceUnit.Percent  PerformanceUnit.Pips  PerformanceUnit.Points  PerformanceUnit.Ticks |
 | price | Optional price passed in used to calculate the PnL such as Close[0]. This value is used as the current price and compared against your entry price for the PnL. |

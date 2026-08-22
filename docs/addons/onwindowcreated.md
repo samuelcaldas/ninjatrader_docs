@@ -18,7 +18,7 @@ OnWindowCreated(Window window)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | window | A Window object which is being added to the workspace |
 

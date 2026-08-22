@@ -14,7 +14,7 @@ A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | The [ChartControl](chartcontrol.md) object used to determine the chart's time axis |
 | barIndex | An int value representing a bar index used to convert to a ChartBar index value |

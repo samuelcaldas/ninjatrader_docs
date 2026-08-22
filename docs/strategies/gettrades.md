@@ -14,7 +14,7 @@ A TradeCollection object.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrument | An instrument name such as "MSFT" |
 | entrySignalName | The name of your entry signal |

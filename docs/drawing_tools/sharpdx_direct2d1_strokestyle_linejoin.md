@@ -16,7 +16,7 @@ A SharpDX.Direct2D1.LineJoin enum value that specifies the type of joint used at
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Miter | Regular angular vertices. |
 | Bevel | Beveled vertices. |

@@ -8,7 +8,7 @@ A tradable symbol.  Represents an instance of a [Master Instrument](masterinstru
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Exchange](exchange.md) | Exchange of the current instrument |
 | [Expiry](expiry.md) | Expiration date of the futures contract |

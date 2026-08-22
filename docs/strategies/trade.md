@@ -4,7 +4,7 @@
 
 A Trade is a completed buy/sell or sell/buy transaction. It consists of an entry and exit execution.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Example 1 | Example 2 |
 | Buy 1 contract at a price of 1000 and sell 1 contract at a price of 1001 is one complete trade. | Buy 2 contracts at a price of 1000 and sell the 1st contract at a price of 1001, then sell the 2nd contract at a price of 1002 are two completed trades. |
@@ -13,7 +13,7 @@ In the second example above, two trade objects are created to represent each ind
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Commission | A double value representing the commission of the trade |
 | Entry | Gets an [Execution](execution.md) object representing the entry |

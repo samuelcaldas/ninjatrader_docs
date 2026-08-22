@@ -16,7 +16,7 @@ enum CapStyle
 
 ## Enumerators
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Flat | A cap that does not extend past the last point of the line. Comparable to cap used for objects other than lines. |
 | Square | Half of a square that has a length equal to the line thickness. |

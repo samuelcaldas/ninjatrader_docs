@@ -172,7 +172,7 @@ protected override void OnBarUpdate()
 - A position is open and an order submitted by an enter method ([EnterLongLimit()](enterlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
 - A position is open and an order submitted by a non market order exit method ([ExitLongLimit()](exitlonglimit.md) for example) is active |
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Advanced Order Handling](advanced_order_handling.md) | Through advanced order handling you can submit, change and cancel orders at your discretion through any event-driven method within a strategy. |
 | [CancelOrder()](managed_cancelorder.md) | Cancels a specified order. |

@@ -19,7 +19,7 @@ public override Point[] GetSelectionPoints(ChartControl chartControl, ChartScale
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | A [ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
 | chartScale | A [ChartScale](../language_reference/chartscale.md) representing the y-axis |

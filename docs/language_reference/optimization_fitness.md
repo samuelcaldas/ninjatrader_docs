@@ -4,7 +4,7 @@ Custom Optimization Fitnesses can be used when optimizing to help you choose cus
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [OnCalculatePerformanceValue()](oncalculateperformancevalue.md) | This method calculates the value for the Optimization Fitness. |
 | [Value](optimization_fitness_value.md) | The value an optimization would be calculating against when using this Optimization Fitness. |

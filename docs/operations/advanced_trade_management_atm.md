@@ -1,6 +1,6 @@
 # Advanced Trade Management (ATM)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ATM Overview  ATM Strategies can be accessed from the  ATM Strategy Selectors located in various [Order Entry](../strategies/order_entry.md) interfaces    NinjaTrader provides you with the flexibility to trade with or without an Advanced Trade Management (ATM) Strategy. ATM Strategies are designed to provide discretionary traders with semi-automated features to manage their positions. This is NOT to be confused with NinjaScript Strategies for [automated trading](automated_trading.md) systems. | |
 | ATM Strategy  

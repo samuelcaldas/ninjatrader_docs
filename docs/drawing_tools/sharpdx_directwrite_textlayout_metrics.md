@@ -14,7 +14,7 @@ Contains the metrics associated with text after layout. All coordinates are in d
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Left | A float value that indicates the left-most point of formatted text relative to the layout box, while excluding any glyph overhang. |
 | Top | A float value that indicates the top-most point of formatted text relative to the layout box, while excluding any glyph overhang. |

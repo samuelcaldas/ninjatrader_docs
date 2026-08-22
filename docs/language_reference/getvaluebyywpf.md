@@ -14,7 +14,7 @@ A double value representing a series value on the chart scale.  This is normally
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | y | A double value representing a WPF coordinate on the chart scale |
 

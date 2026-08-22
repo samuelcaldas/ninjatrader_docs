@@ -8,7 +8,7 @@ An instrument's configuration settings.  These are settings and properties which
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Compare()](compare.md) | Returns an int value compares two price values with respect to the Instrument tick size |
 | [Currency](../strategies/currency.md) | The currency that the instrument traded in |

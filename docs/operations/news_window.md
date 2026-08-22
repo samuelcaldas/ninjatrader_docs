@@ -4,7 +4,7 @@ News sent from the connectivity provider is displayed in the News window. Alerts
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | News Window Display The News window give you the ability to:    1.Filter news based on individual instruments or instrument list  2.Setup user defined Keyword filters  3.View a list of real-time news headlines    News_1   Reading Pane  And optional Reading Pane can be enabled below the list of real-time news headlines by right clicking on the News window and selecting Show Reading Pane.       News_2   Headline Window  Double clicking on a headline will open the Headline Window which will display the content of the news article.     News_3     |  | | --- | | Note: For the News window to populate information, you must be connected to a data provider that supports real-time news. See the [Data by Provider](data_by_provider.md) section for information on what providers support news. | |
 

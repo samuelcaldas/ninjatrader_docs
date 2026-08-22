@@ -2,7 +2,7 @@
 
 The Order Ticket window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the Order Ticket menu item.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Order Ticket Overview  The Order Ticket order entry window allows you to view market data and submit orders. | |
 | Display  

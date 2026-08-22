@@ -17,7 +17,7 @@ CountIf(`Func<bool>` condition, int period)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | condition | A true/false expression |
 | period | Number of bars to check for the test condition |

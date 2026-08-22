@@ -16,7 +16,7 @@ enum ArcSize
 
 ## Enumerators
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Small | An arc's sweep should be 180 degrees or less. |
 | Large | An arc's sweep should be 180 degrees or greater. |

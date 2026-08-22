@@ -18,6 +18,6 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | arc | The [SharpDX.Direct2D1.ArcSegment](sharpdx_direct2d1_arcsegment.md) segment to add to the figure. |

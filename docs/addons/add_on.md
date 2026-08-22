@@ -4,7 +4,7 @@ Custom Add Ons can be used to extend NinjaTrader's functionality. The methods an
 
 For more information on the Add On development process please see [this](developing_add_ons.md) article.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | NinjaTrader Controls | This section contains controls that are native NinjaTrader controls. |
 | Account | The Account class can be used to subscribe to account related events as well as accessing account related information. |

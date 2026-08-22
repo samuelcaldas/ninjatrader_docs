@@ -14,7 +14,7 @@ There are three main SharpDX namespaces you need to be familiar with:
 
  
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [SharpDX](sharpdx.md) | Contains basic objects used by SharpDX. |
 | [SharpDX.Direct2D1](sharpdx_direct2d1.md) | Contains objects used for rendering for 2D geometry, bitmaps, and text. |
@@ -57,11 +57,9 @@ Common utilities fall under 4 key components, and you can learn more about their
 
 ```
 | | --- | --- | | [ChartControl](../language_reference/chartcontrol.md) | The entire hosting grid of the Chart | | [ChartBars](../language_reference/chartbars.md) | The primary bars series configured on the Chart | | [ChartPanel](../language_reference/chartpanel.md) | The panel on which the calling script resides | | [ChartScale](../language_reference/chartscale.md) | The Y-Axis values of the configured ChartPanel |
-|
-| | --- | | Note:
 For full absolute device coordinates always use ChartPanel X, Y, W, H values. ChartScale and ChartControl properties return WPF units, so they can be drastically different depending on DPI of the user's display.
 You can learn about [Working with Pixel Coordinates](../ninjascript/working_with_pixel_coordinates.md) on another topic. |
-```
+```csharp
 
 ![tog_minus](../images/tog_minus.gif)        SharpDX Brush Resources
 
@@ -83,13 +81,11 @@ Alternatively, you can set the "transparency" of an existing brush by accessing 
 
 csharp
 
-```
+```text
 | | --- | | Note:
 Unlike their [WPF counterparts](../ninjascript/working_with_brushes.md), SharpDX brushes are thread-safe and do NOT need to be frozen. |
 Converting SharpDX Brushes SharpDX Brushes are device-dependent resources, which means they can only be used with the device (i.e., [RenderTarget](sharpdx_direct2d1_rendertarget.md)) which created them.
 In practice, this mean you should ONLY create your SharpDX brushes during the chart object's [OnRender()](../language_reference/onrender.md) or [OnRenderTargetChanged()](../language_reference/onrendertargetchanged.md) methods.
-|
-| | --- | | Warning:
 Failure to create device-dependent resources during the OnRender() or OnRenderTargetChanged() can lead to a host of issues including memory and application corruption which can negatively impact the stability of NinjaTrader.
 Please be careful your SharpDX device-dependent resources are only created and updated during either of these two run-time methods.
 Please see the [Best Practices for SharpDX Resources](using_sharpdx_for_custom_chart_rendering.md#bestpracticesforsharpdxresources) section on this page for more information. |
@@ -132,12 +128,10 @@ Therefore, it is not possible to sequence your chart object's RenderTarget to dr
 Using the RenderTarget with Device Resources Throughout the lifetime of a chart, the render target is created and destroyed several times to satisfy various user commands. As a result, any resources that are created need to be recreated and destroyed as that render target is updated.
 The NinjaTrader [OnRenderTargetChanged()](../language_reference/onrendertargetchanged.md) method was designed to help with this process and will be called anytime the RenderTarget has changed.
 You should use this method if you have objects which are passed around from various other resources.
-|
-| | --- | | Warning:
 Failure to create device-dependent resources during the OnRender() or OnRenderTargetChanged() can lead to a host of issues including memory and application corruption which can negatively impact the stability of NinjaTrader.
 Please be careful your SharpDX device-dependent resources are only created and updated during either of these two run-time methods.
 Please see the [Best Practices for SharpDX Resources](using_sharpdx_for_custom_chart_rendering.md#bestpracticesforsharpdxresources) section on this page for more information. |
-```
+```csharp
 
 ![tog_minus](../images/tog_minus.gif)        SharpDX Lines and Shapes
 
@@ -230,7 +224,7 @@ RenderTarget.FillGeometry(trianglePathGeometry, customDXBrush);
 ```
 | | --- | | Tip:
 For more examples of using Shapes for custom rendering, many of the DrawingTools included in the NinjaTrader.Custom project use these types of SharpDX objects and methods extensively. |
-```
+```text
 
 ![tog_minus](../images/tog_minus.gif)        SharpDX Text Rendering
 
@@ -297,7 +291,7 @@ textLayout.Dispose();
 textFormat.Dispose();
 customDXBrush.Dispose(); | | render_target_drawtextlayout
 
-```
+```text
 | | --- | | Note:
 The TextLayout.Metrics height and width properties return the text pixel height, including the line spacing of the font.
 Due to the nature of most font families, there will be an amount of line spacing above and below the text.

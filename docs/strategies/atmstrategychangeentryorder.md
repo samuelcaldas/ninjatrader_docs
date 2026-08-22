@@ -16,7 +16,7 @@ AtmStrategyChangeEntryOrder(double limitPrice, double stopPrice, string orderId)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | limitPrice | Order limit price |
 | stopPrice | Order stop price |

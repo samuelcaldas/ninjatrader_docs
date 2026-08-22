@@ -16,7 +16,7 @@ An int value representing the bar index
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | The [ChartControl](chartcontrol.md) object used to determine the chart's time axis |
 | x | The x-coordinate used to find a bar index value |

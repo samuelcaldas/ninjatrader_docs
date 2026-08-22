@@ -10,7 +10,7 @@ This method does not return a value.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | period | The [BarsPeriod](barsperiod.md) chosen by the user when utilizing this Bars type |
 

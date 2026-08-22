@@ -18,7 +18,7 @@ This method does not return a value.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | indicator | An indicator object |
 

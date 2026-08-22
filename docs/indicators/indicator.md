@@ -6,7 +6,7 @@ The methods and properties covered in this section are unique to custom indicato
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AddLine()](addline.md) | Adds line objects on a chart. |
 | [AddPlot()](addplot.md) | Adds plot objects that define how an indicator or strategy data series render on a chart. |

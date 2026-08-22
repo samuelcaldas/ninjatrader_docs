@@ -14,7 +14,7 @@ A SharpDX.DirectWrite.FontStyle enum value which indicates the type of font styl
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Normal | The characters in a normal, or roman, font are upright. |
 | Oblique | The characters in an oblique font are artificially slanted. |

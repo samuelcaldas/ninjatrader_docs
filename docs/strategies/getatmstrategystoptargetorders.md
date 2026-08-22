@@ -18,7 +18,7 @@ GetAtmStrategyStopTargetOrderStatus(string orderName, string atmStrategyId)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | orderName | The order name such as "Stop1" or "Target2" |
 | atmStrategyId | The unique identifier for the ATM strategy |

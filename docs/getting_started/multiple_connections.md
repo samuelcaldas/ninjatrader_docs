@@ -8,7 +8,7 @@
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Determining which data source is being used When connecting to multiple connections, you must choose which provider will be supplying your real-time and historical data in NinjaTrader.    By default NinjaTrader will attempt to get real-time and historical data from the first connected data provider for the instrument type for which you are attempting to receive data.    The instrument types used for lookup are as follows, for determining which data feed supports which instrument types, please see the [Data by Provider](../operations/data_by_provider.md) page.
 - CFD's

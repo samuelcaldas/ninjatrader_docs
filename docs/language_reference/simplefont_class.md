@@ -10,7 +10,7 @@ Defines a particular font configuration.
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | SimpleFont() | Creates a SimpleFont object using a family name of "Arial" and a size of "12" |
 | SimpleFont(string familyName, int size) | Creates a SimpleFont object using the specified family name and size |
@@ -19,7 +19,7 @@ Defines a particular font configuration.
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Bold | A bool value determining if the the Font is bold style |
 | Family | A [FontFamily](https://msdn.microsoft.com/en-us/library/system.windows.media.fontfamily(v=vs.110).aspx) representing a family of Fonts |

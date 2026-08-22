@@ -108,7 +108,7 @@ C# provides a large set of operators, which are symbols that specify which opera
 
 Arithmetic
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | + | addition |
 | - | subtraction |
@@ -136,7 +136,7 @@ The code above would print a value of 1 to the NinjaScript Output window.
 
 Logical
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | && | AND |
 | || | OR |
@@ -155,7 +155,7 @@ The above example will print "true" to the NinjaScript Output window if the vari
 
 Relational
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | == | equal to |
 | != | not equal to |
@@ -182,7 +182,7 @@ if (myDouble < 1000 || myDouble > 1001)
 
 Assignment
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | = | equals |
 | += | x += y is equivalent to x = x + y |

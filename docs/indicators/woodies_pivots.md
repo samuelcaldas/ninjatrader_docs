@@ -35,7 +35,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | priorDayHLC | Sets how the prior range High, Low, Close values are calculated. Possible values are:  HLCCalculationModeWoodie.CalcFromIntradayData  HLCCalculationModeWoodie.DailyBars  HLCCalculationModeWoodie.UserDefinedValues |

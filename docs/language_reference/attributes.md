@@ -6,7 +6,7 @@ The following section documents both .NET native and NinjaScript custom [attribu
 
 ## Common Attributes
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [BrowsableAttribute](browsableattribute.md) | Determines if a property should be displays in the NinjaTrader UI's property grid |
 | [CategoryOrderAttribute](../strategies/categoryorderattribute.md) | Determines the sequence in which a NinjaScript object's [Display.GroupName](displayattribute.md) categories are arranged in relation to other categories in the UI. |

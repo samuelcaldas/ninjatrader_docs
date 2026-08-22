@@ -16,7 +16,7 @@ A DateTime object representing the [ActualTradingDayExchange](actualtradingdayex
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | timeLocal | The DateTime value used to calculate the next trading day. |
 

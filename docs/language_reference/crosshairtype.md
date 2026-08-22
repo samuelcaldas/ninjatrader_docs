@@ -8,7 +8,7 @@ Indicates the [Cross Hair](../operations/cross_hair.md) type currently enabled o
 
 An enum specifying the type of Cross Hair currently enabled on the chart. Possible values are listed below:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Local | The local (single-chart) Cross Hair is enabled |
 | Global | Global Cross Hair |

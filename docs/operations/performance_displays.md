@@ -4,7 +4,7 @@ The Account Performance window displays performance data in a variety of ways.
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Summary Display Displays all performance statistics and metrics.    TradePerformance_3    Please see the [Statistic Definition](statistics_definitions.md) section of the help guide for details on how each statistic is calculated.    |  | | --- | | Tip:  You can add your own Custom Performance Metrics through NinjaScript programming, or install other performance metrics developed by 3rd parties. Please see [this](../language_reference/performance_metrics.md) section of the help guide for more information on how to develop and add a custom performance metric | |
 
@@ -32,7 +32,7 @@ The Account Performance window displays performance data in a variety of ways.
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the Executions display
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Executions Display The Executions display shows all historical executions in a [data grid](data_grids.md).   The columns listed in the data grid use the same layout you would see from the Executions Tab of the Control Center.  For definitions of each column, please see the [Understanding the executions tab](executions_tab.md) section.   Charting Executions You can go to the exact chart location of an execution by doing the following:    1.Select the execution  2.Right mouse click and select the menu item Chart.    NinjaTrader will open a temporary chart to the location of the execution    |  | | --- | | Notes:
 - The trade performance Chart is a non-configurable 1-minute interval and does not have all the standard features of a regular chart
@@ -52,6 +52,6 @@ The Account Performance window displays performance data in a variety of ways.
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the Journal display
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Journal Display The Journal tab is only visible in the Account Performance window. The Journal tab allows you to keep journal entries on your trading activities. Enter your comments in the text area and press "add". The data grid will display your journal entries by date.    |  | | --- | | Tip: You can also add Journal entries based on a Execution or Trade via the Executions Display and Trades Display. Right click on an execution and select "Add Journal Entry". | |

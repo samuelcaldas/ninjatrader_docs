@@ -41,7 +41,7 @@ Bars.GetDayBar(int tradingDaysBack).Volume
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | tradingDaysBack | An int representing the number of the trading day to get OHLCV and time information from |
 

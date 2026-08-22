@@ -14,7 +14,7 @@ struct StrokeStyleProperties
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | StartCap | The [StartCap](sharpdx_direct2d1_strokestyle_startcap.md) value applied to the start of all the open figures in a stroked geometry. |
 | EndCap | The [EndCap](sharpdx_direct2d1_strokestyle_endcap.md) value applied to the end of all the open figures in a stroked geometry. |

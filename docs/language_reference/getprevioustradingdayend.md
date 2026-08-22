@@ -22,7 +22,7 @@ GetPreviousTradingDayEnd(DateTime timeLocal)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | timeLocal | An DateTime structure which is used to calculate the current trading day |
 

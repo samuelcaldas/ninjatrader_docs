@@ -2,7 +2,7 @@
 
 The following section documents properties and methods used to trigger alerts from a NinjaScript object, send debug messages to the NinjaScript Output Window, or utilize Share Services to send emails or post to social-media networks.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Alert()](alert.md) | Generates a visual/audible alert for the [Alerts Log](../operations/alerts_log.md) window |
 | [ClearOutputWindow()](clearoutputwindow.md) | Clears all data from the NinjaTrader [Output Window](../ninjascript/output.md) |

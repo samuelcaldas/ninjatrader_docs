@@ -14,7 +14,7 @@ Determines the sequence in which a NinjaScript object's [Display.GroupName](../l
 
 The follow table applies for Indicators configured from a Chart Indicator, Market Analyzer Indicator Column, or SuperDOM Indicator:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Parameters | 1000000 |
 | Data Series | 2000000 |
@@ -28,7 +28,7 @@ The follow table applies for Indicators configured from a Chart Indicator, Marke
 
 The following table applies to Chart Strategies, Control Center Strategies Grid, and the Strategy Analyzer
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Parameters | 1000000 |
 | Data Series | 2000000 |
@@ -51,7 +51,7 @@ The following table applies to Chart Strategies, Control Center Strategies Grid,
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | category | A string identifying the [GroupName](../language_reference/displayattribute.md) to be categorize |
 | order | An int determining the sequence the Category displays |

@@ -16,7 +16,7 @@ Complete the following steps to create a Backup Archive.
 
 ![BackupAndRestore_1](../images/backupandrestore_1.png)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Configuration files | Contains user specific information such as license keys, account settings, and other user defined options |
 | Database (Historical trade data) | Contains your historical trade execution data which is used to build reports in the [Account Performance](trade_performance.md) window |

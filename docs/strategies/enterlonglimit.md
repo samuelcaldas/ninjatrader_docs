@@ -31,7 +31,7 @@ EnterLongLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity,
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | limitPrice | The limit price of the order. |

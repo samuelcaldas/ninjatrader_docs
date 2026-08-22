@@ -22,7 +22,7 @@ This attribute does not require any parameters; default value is true and usage 
 public Brush MyBrush
 { get; set; }
 #endregion
-```
+```text
 
 > **Tip:** A complete example of the usage of XmlIgnore attribute and workspace serialization can be found in the tips section of our support forum on [User Definable Color Inputs](../ninjascript/user_definable_color_inputs.md)
 

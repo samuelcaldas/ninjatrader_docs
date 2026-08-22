@@ -14,7 +14,7 @@ CreateAnchor(Point point, ChartControl chartControl, ChartScale chartScale)
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | point | A Point in device pixels representing the current mouse cursor position |
 | chartControl | A ChartControl representing the x-axis |

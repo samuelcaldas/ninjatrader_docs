@@ -14,7 +14,7 @@ A DateTime object representing the exchange-based trading day begin time convert
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | tradingDayExchange | The DateTime value used to calculate the trading day. |
 

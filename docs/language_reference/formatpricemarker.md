@@ -23,7 +23,7 @@ public override string FormatPriceMarker(double price)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | price | A double value representing the value to be overridden. |
 

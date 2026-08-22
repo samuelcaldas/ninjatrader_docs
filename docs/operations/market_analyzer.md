@@ -1,6 +1,6 @@
 # Market Analyzer
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Market Analyzer Overview  You can access the Market Analyzer window from within the NinjaTrader Control Center window by left mouse clicking on the menu New, and then selecting the menu item Market Analyzer.    The Market Analyzer window is a high powered quote sheet that enables real-time market scanning of multiple instruments based on your own custom criteria.  You can use the Market Analyzer to display indicator, market and trade data in a highly customizable manner. | |
 | Management  

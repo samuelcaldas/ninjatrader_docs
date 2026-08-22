@@ -30,7 +30,7 @@ EnterShortStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int qua
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | stopPrice | The stop price of the order. |

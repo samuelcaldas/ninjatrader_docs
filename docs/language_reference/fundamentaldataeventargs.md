@@ -6,7 +6,7 @@ Represents a change in fundamental data and is passed as a parameter in the [OnF
 
 ## Methods and Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | DateTimeValue | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) value representing the time |
 | DoubleValue | A double value representing fundamental data |

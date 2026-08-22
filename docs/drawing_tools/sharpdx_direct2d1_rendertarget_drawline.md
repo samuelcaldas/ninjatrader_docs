@@ -22,7 +22,7 @@ RenderTarget.DrawLine(Vector2 point0, Vector2 point1, Brush brush, float strokeW
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | The [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) brush used to paint the line's stroke. |
 | point0 | A [SharpDX.Vector2](sharpdx_vector2.md) which determines the start point of the line, in device-independent pixels. |

@@ -16,7 +16,7 @@ Instrument.GetInstrument(string instrumentName)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrumentName | A string value representing a name of an instrument |
 

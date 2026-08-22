@@ -6,7 +6,7 @@ A collection of [Trade](trade.md) objects. You can access a trade object by prov
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [TradesCount](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
 | [EvenTrades](eventrades.md) | Gets a TradeCollection object of even trades |

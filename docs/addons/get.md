@@ -16,7 +16,7 @@ Get(AccountItem itemType, Cbi.Currency currency)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | itemType | The desired AccountItem to return |
 | Currency | The account currency the value should be denoted (required parameter, but has no effect on returned value) |

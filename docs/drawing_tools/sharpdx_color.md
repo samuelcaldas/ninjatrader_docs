@@ -14,7 +14,7 @@ struct Color
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new Color() | Initializes a new instance of the Color struct |
 | new Color(float red, float green, float blue) | Initializes a new instance of the Color struct using float values |
@@ -26,7 +26,7 @@ struct Color
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | R | The red component of the color |
 | G | The green component of the color |

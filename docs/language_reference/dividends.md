@@ -10,7 +10,7 @@ A collection of Dividends configured for the current instrument.
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Amount | A double value representing the amount in dollars which was paid on the date of the dividend |
 | Date | A DateTime structure representing the date of the dividend |

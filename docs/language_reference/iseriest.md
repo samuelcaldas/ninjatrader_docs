@@ -6,7 +6,7 @@
 
 ## Types of ISeries
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [`Series<T>`](seriest.md) | Represents a generic custom data structure for custom development |
 | [PriceSeries](priceseries.md) | Historical price data structured as an `ISeries<double>` interface (Close[0], High[0], Low[0], etc) |
@@ -15,7 +15,7 @@
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [GetValueAt()](getvalueat.md) | Returns the underlying input value at a specified bar index value. |
 | [IsValidDataPoint()](isvaliddatapoint.md) | Indicates if the specified input is set at a barsAgo value relative to the current bar. |

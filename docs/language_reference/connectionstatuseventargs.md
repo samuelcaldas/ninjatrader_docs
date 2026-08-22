@@ -16,7 +16,7 @@ ConnectionStatusEventArgs contains [Connection](../addons/connection.md)-related
 
 The properties listed below are accessible from an instance of ConnectionStatusEventArgs:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Connection | The Connection object for which OnConnectionStatusUpdate() was called |
 | Error | An ErrorCode thrown by the Connection object in question |

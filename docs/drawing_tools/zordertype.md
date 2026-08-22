@@ -8,7 +8,7 @@ Determines the order in which the drawing tool will be rendered. This will help 
 
 An enum determining the drawing tool's ZOrder type.  Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | DrawingToolZOrder.Normal | Default behavior, drawing tools are rendered as they appear in the [ZOrder](../strategies/chart_zorder.md) index |
 | DrawingToolZOrder.AlwaysDrawnFirst | Ensures the drawing tool is always the first to be rendered |

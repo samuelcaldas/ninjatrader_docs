@@ -14,7 +14,7 @@ CreateOrder(Instrument instrument, OrderAction action, OrderType orderType, Orde
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrument | Order instrument |
 | orderAction | Possible values:     OrderAction.Buy  OrderAction.BuyToCover  OrderAction.Sell  OrderAction.SellShort |

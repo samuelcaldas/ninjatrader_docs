@@ -23,7 +23,7 @@ RenderTarget.DrawText(string text, int stringLength, TextFormat textFormat, Rect
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | defaultForegroundBrush | The [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) used to paint the text. |
 | layoutRect | A [SharpDX.RectangleF](sharpdx_rectanglef.md) which determines size and position of the area in which the text is drawn. |

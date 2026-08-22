@@ -14,7 +14,7 @@ A SharpDX.DirectWrite.TextAlignment enum value of the current paragraph.
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Leading | The leading edge of the paragraph text is aligned to the leading edge of the layout box. |
 | Trailing | The trailing edge of the paragraph text is aligned to the trailing edge of the layout box. |

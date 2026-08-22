@@ -21,7 +21,7 @@ chartScale)
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | panel | A ChartPanel representing the the panel for the chart |
 | chartScale | A ChartScale representing the Y-axis |

@@ -12,7 +12,7 @@ This method returns an int value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | barsPeriod | The [bars period](barsperiod.md) chosen by the user when utilizing this Bars type |
 | tradingHours | The [trading hours](tradinghours.md) chosen by the user when utilizing this Bars type |

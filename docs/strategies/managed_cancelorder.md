@@ -14,7 +14,7 @@ Cancels a specified order.  This method is reserved for experienced programmers 
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | order | An [Order](order.md) object representing the order you wish to cancel. |
 

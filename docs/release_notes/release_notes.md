@@ -2,7 +2,7 @@
 
 NinjaTrader release notes can be found below, if you have any questions on a specific release please contact [email protected](mailto:platformsupport@ninjatrader.com)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Version | Released |
 | [8.1.3.1](8_1_3_1.md) | April 10, 2024 |

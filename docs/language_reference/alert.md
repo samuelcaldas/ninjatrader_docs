@@ -18,7 +18,7 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | id | A string representing a unique id for the alert |
 | priority | Sets the precedence of the alert in relation to other alerts    Possible values include:     Priority.High  Priority.Low  Priority.Medium |

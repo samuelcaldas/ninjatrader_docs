@@ -14,7 +14,7 @@ LineMetrics[int idx]
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Baseline | A float for the distance from the top of the text line to its baseline. |
 | Height | A float for the height of the text line. |

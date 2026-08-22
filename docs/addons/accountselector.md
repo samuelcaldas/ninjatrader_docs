@@ -6,7 +6,7 @@ AccountSelector can be used as an UI element users can interact with for selecti
 
 ## Events and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Cleanup() | NTTabPage base.Cleanup() is sufficient to clean up this control) |
 | SelectedAccount | Account representing the selected account |

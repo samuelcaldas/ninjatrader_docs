@@ -16,8 +16,6 @@ AllowRemovalOfDrawObjects
 
 ## Examples
 
-|  |  |
-| --- | --- |
 
 ```csharp
 protected override void OnStateChange()

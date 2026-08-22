@@ -10,7 +10,7 @@ Represents position related information that pertains to an instance of a strate
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Account | An [Account](../addons/account_class.md) object which corresponds to the position |
 | [AveragePrice](position_averageprice.md) | Gets the average entry price of the strategy position |

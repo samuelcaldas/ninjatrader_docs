@@ -27,7 +27,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | bandPct | The number of standard deviations |
 | input | ?) |

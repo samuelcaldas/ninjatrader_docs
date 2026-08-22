@@ -2,7 +2,7 @@
 
 The FX Board  window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the FX Board menu item.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | FX Board Overview  The FX Board is a real-time dealing rates interface which can be used to execute live custom orders for any number of Forex and CFD instruments. | |
 | Display  

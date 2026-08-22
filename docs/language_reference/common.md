@@ -2,7 +2,7 @@
 
 The following section documents methods and properties available to every NinjaScript type that access various forms of data including bar data, price data, and statistical forms of data. The Common section is broken into several categories pertaining to distinct NinjaScript objects or concepts. An index of topics under the Common section can be found below:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Attributes](attributes.md) | Documents both .NET native and NinjaScript custom [attributes](https://msdn.microsoft.com/en-us/library/5x6cd29c(v=vs.110).aspx) which are commonly used to define the behavior of a NinjaScript property or object |
 | [Alert, Debug, Share](alert__debugging_and_sharing.md) | Documents methods for triggering alerts, printing debug messages, and using Share Services |

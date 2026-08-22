@@ -18,7 +18,7 @@ class RenderTarget
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AntialiasMode](sharpdx_direct2d1_rendertarget_antialiasmode.md) | Retrieves or sets the current antialiasing mode for nontext drawing operations. |
 | [DrawEllipse()](sharpdx_direct2d1_rendertarget_drawellipse.md) | Draws the outline of the specified ellipse using the specified stroke style. |

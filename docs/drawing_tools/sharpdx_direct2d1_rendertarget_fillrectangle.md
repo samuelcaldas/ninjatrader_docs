@@ -20,7 +20,7 @@ RenderTarget.FillRectangle(RectangleF rect, Brush brush)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | The [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) used to paint the rectangle's interior. |
 | rect | A [SharpDX.RectangleF](sharpdx_rectanglef.md) describing the dimension of the rectangle to paint, in device-independent pixels. |

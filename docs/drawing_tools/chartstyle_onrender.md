@@ -19,7 +19,7 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | A ChartControl representing the x-axis |
 | chartScale | A ChartScale representing the y-axis |

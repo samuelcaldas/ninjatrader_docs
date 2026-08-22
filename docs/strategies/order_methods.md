@@ -2,7 +2,7 @@
 
 > **Note:** You will not be able to mix and match the two approaches. If you decide to go with the Managed approach you will only be able to use the Managed order methods. If you decide to go with the Unmanaged approach you will only be able to use the Unmanaged order methods.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Order Methods Overview  NinjaScript provides several approaches you can use for order placement within your NinjaScript strategy. The main approaches can be categorized as a Managed approach and an Unmanaged approach. | |
 | Managed  The Managed approach offers you order methods that are wrapped with an invisible convenience layer that allows you to focus on your system's trading rules leaving the underlying mechanics of order management and the relationships between entry and exit orders and positions to NinjaTrader. The cost for having the convenience layer is that there are [order handling rules](managed_approach.md) that must be followed to prevent order errors.    

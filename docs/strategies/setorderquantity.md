@@ -10,7 +10,7 @@ An enum determining how order quantities are set.  Default value is set to SetOr
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | SetOrderQuantity.DefaultQuantity | User defined order size based on the [DefaultQuantity](defaultquantity.md) property |
 | SetOrderQuantity.Strategy | Takes the order size specified programmatically within the strategy |

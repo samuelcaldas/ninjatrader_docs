@@ -35,7 +35,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | fast | The number of bars to calculate the fast [EMA](moving_average_-_exponential_e.md) |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |

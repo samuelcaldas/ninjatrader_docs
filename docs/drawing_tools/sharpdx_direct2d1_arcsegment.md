@@ -15,7 +15,7 @@ struct ArcSegment
    
 Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Point | The end point of the arc. |
 | Size | The x-radius and y-radius of the arc. |

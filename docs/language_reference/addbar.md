@@ -12,7 +12,7 @@ AddBar(Bars bars, double open, double high, double low, double close, DateTime t
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | bars | The Bars object of your bars type |
 | open | double value representing the open price |

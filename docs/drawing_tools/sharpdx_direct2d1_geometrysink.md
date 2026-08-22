@@ -16,7 +16,7 @@ interface GeometrySink
 
 ## Methods
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AddArc()](sharpdx_direct2d1_geometrysink_addarc.md) | Adds a single arc to the path geometry. |
 | [AddLine()](sharpdx_direct2d1_geometrysink_addline.md) | Creates a line segment between the current point and the specified end point and adds it to the geometry sink. |

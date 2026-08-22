@@ -14,7 +14,7 @@ This method does not return a value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | propertyName | A string representing the property to be renamed. Possible values include:
 - UpBrush

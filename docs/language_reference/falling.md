@@ -13,7 +13,7 @@ IsFalling(`ISeries<double>` series)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | series | Any `Series<double>` type object such as an indicator, Close, High, Low, etc... |
 

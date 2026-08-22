@@ -11,7 +11,7 @@ Please see the examples below.
 ```
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ArePlotsConfigurable | Determines if the plot(s) used in an indicator are configurable within the indicator dialog window. |
 | Displacement | An offset value that shifts the visually displayed value of an indicator. |
@@ -29,7 +29,7 @@ AddPlot(Strokename)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | Brush object used to construct the plot |
 | name | string representing the name of the plot |

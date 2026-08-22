@@ -26,7 +26,7 @@ There are three available ATM Strategy Selection Modes:
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the "Select Active ATM Strategy on Order Submission" mode
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Select Active ATM Strategy on Order Submission This mode will automatically select the newly created active ATM Strategy on entry order submission in the ATM Strategy control list. This is the default setting upon initial NinjaTrader installation.   Who is this mode designed for? This mode is designed for traders who want the existing strategy Stop Loss and Profit Targets to be automatically amended when they scale into or out of a position being managed by an ATM Strategy by default.   Example (see image below) 1. A user defined ATM Strategy is selected.  2. Once the entry order is submitted, the ATM Strategy selection control automatically selects the active ATM Strategy that you just created (< active_atm My Strategy Template Name - X>).    ATM_12    ATM_13    |  | | --- | | Note: When using multiple tabs, all tabs will select the same ATM or their own active ATM. With Select Active ATM Strategy on Order Submission, once you place an order your active ATM will be selected. Since the other tabs with different instruments would not be using that same active ATM, they will be set back to None or their own active ATM. | |
 
@@ -36,7 +36,7 @@ There are three available ATM Strategy Selection Modes:
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the "Display Selected ATM Strategy Only" mode
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Display Selected ATM Strategy Only This mode is an advanced mode and should only be used once you have become very familiar with the NinjaTrader application.   Who is this mode designed for? This mode is designed for traders who want to run concurrent ATM Strategies (trades) in the same market. This mode will visually separate all concurrent running ATM Strategies thereby allowing you to have multiple SuperDOMs open, tracking the same market but displaying different trade strategies. A practical example might be that you have taken a day long intra day swing trade against a fifteen minute chart for five contracts. Throughout the day, you scalp the same market on a one minute time frame. This mode allows you to have two SuperDOMs open, one allocated to manage and only display your day long intra day swing trade, the other used to manage and only display your scalp trades.   Example (see image below) In the image right, you can see two separate SuperDOMs monitoring the same ES 09-14 market. In the ATM Strategy control list, there are two different ATM Strategies running and each is displayed separately in an individual SuperDOM. Orders, positions, average entry and unrealized profit are displayed individually for each separate running ATM Strategy.
 - When running multiple concurrent ATM Strategies by changing the selected active strategy in the strategy control list you can change which strategy will be displayed

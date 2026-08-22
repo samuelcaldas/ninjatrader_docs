@@ -6,7 +6,7 @@ The DxExtensions class provides helper methods useful for converting WPF resourc
 
 ## DxExtensions Helper Methods
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [ToDxBrush()](dxextensions_todxbrush.md) | Converts a WPF Brush to a SharpDX Brush |
 | [ToVector2()](dxextensions_tovector2.md) | Converts a System.Windows.Point structure to a SharpDX.Vector2 |

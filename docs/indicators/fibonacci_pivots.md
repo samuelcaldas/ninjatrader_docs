@@ -57,7 +57,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | pivotRangeType | Sets the range for the type of pivot calculated. Possible values are:  PivotRange.Daily  PivotRange.Weekly  PivotRange.Monthly |

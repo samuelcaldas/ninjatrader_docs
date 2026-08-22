@@ -12,14 +12,14 @@ struct Size2F
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new Size2F() | Initializes a new instance of the SizeF struct |
 | new Size2F(float width, float height) | Initializes a new instance of the SizeF struct from the specified dimensions. |
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Height | Gets or sets the vertical component of this SizeF structure. |
 | Width | Gets or sets the horizontal component of this SizeF structure. |

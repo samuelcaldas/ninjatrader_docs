@@ -10,7 +10,7 @@ Base class for a [System.IDisposable](https://msdn.microsoft.com/en-us/library/a
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | IsDisposed | Gets a value indicating whether this instance is disposed. |
 | Dispose() | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Implements [IDisposable.Dispose()](https://msdn.microsoft.com/en-us/library/es4s3w1d)) |

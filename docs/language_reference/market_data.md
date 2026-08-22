@@ -4,7 +4,7 @@ NinjaScript provides a number of methods and properties useful for analyzing and
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [CountIf()](countif.md) | Counts the number of occurrences of the test condition |
 | [CrossAbove()](crossabove.md) | Evaluates a cross above condition |

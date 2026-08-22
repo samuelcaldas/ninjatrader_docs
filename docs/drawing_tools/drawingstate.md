@@ -10,7 +10,7 @@ Represents the current state of the drawing tool to perform various actions, suc
 
 An enum representing the current state of the drawing tool.  Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | DrawingState.Building | The initial state when a drawing tool is first being drawn, allowing for the anchors to be set for the drawing. |
 | DrawingState.Editing | Allows for changing the values of any of the drawing tools anchors |

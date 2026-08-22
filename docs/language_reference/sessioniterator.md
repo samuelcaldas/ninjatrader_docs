@@ -14,7 +14,7 @@ Allows you to traverse through various trading hours data elements which apply t
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | bars | The [Bars](bars.md) object used to create the SessionIterator |
 
@@ -22,7 +22,7 @@ Allows you to traverse through various trading hours data elements which apply t
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [ActualSessionBegin](actualsessionbegin.md) | Obtains the sessions start day and start time converted to the PC's local time zone |
 | [ActualSessionEnd](actualsessionend.md) | Obtains the sessions end day and end time converted to the PC's local time zone |

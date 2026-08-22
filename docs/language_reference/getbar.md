@@ -18,7 +18,7 @@ An int value representing an absolute bar index value.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | time | Time stamp to be converted to an absolute bar index |
 

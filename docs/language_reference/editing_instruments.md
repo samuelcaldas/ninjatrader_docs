@@ -20,7 +20,7 @@ In the Instruments window, once an instrument is selected in the instrument grid
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the Contract months section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Contract Months The Contract months section shows the contract months with associated rollover dates. This information is automatically downloaded from the NinjaTrader server whenever you are connected to your live data feed or the [Simulated Data Feed](../getting_started/simulated_data_feed_connection.md).    Instruments_InstrumentContractMonths      You can open up the defined contract months by left mouse clicking in the Contract months field.    Instruments_ContractMonths    You can add and remove contract months by selecting the add and remove buttons in the bottom of the Configured section.  You can also copy contract months that are defined in another instrument by right clicking in the Configured section then selecting Load rollovers from instrument...    Instruments_ContractMonths2   Contract Month Properties Once a contract is selected in the Configured section you may edit it properties. The Contract month, Offset value, and Rollover date are used when NinjaTrader automatically merges historical data.    The Offset value is used to connect the last value of a contract month with the next one.    Although NinjaTrader will attempt to download the Offset values from the data server, if they do not exist on the data server, they will be calculated locally. Offsets are only downloaded when the "Offset" field is left blank and the rollover date matches the date defined on the server.    When NinjaTrader will calculate the Offset value locally:
 - The Offset field in the Contract Months window is blank

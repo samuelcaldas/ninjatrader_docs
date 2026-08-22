@@ -12,7 +12,7 @@ Change(IEnumerable<Order> orders)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | orders | Order(s) to change |
 

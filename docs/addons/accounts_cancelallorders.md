@@ -12,7 +12,7 @@ CancelAllOrders(Instrument )
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrument | Instrument of the orders to be cancelled |
 

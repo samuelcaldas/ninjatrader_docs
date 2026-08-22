@@ -10,7 +10,7 @@ Represents the current progression of the object as it advances from setup, proc
 
 An enum value representing the current state of the object.  Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | SetDefaults | Default values are set (pushed to UI). |
 | Configure | User the presses the OK or Apply button. |

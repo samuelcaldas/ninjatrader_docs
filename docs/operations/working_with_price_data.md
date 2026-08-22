@@ -6,7 +6,7 @@ A Data Series represents a series of price data, which can be displayed on a cha
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | The Data Series window is used to configure the Data Series within a chart, edit Data Series parameters, and save default values for different Period Types.   Accessing the Data Series Window There are multiple ways to access the Data Series window:
 - Select the New menu from the NinjaTrader Control Center, then select the Chart menu item.
@@ -17,7 +17,7 @@ A Data Series represents a series of price data, which can be displayed on a cha
 
 ![tog_minus](../images/tog_minus.gif)        How to add a Data Series
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Adding a Data Series  Multiple Data Series objects can be applied within a single chart. A new panel is automatically created for each Data Series added, unless the "Panel" property is manually changed to an existing panel. There are multiple ways to add a Data Series to a chart using the Data Series window:    1.Use the Instrument Selector dropdown menu to select a recently used or pinned instrument, or any instrument in an Instrument List.  2.Type the instrument symbol (including the contract month for futures instruments) directly into the Instrument Selector, then press the "Enter" key.  3.Left mouse click on the magnifying glass icon next to the Instrument Selector. In the window that appears, use the search field to search available instruments by symbol or description, then double left mouse click on an instrument in the search results to add it to the list of applied Data Series.    The added Data Series will now be visible in the list in the "Applied" section, allowing you to change any parameters to desired values (see the "How to edit Data Series parameters" section below).    |  | | --- | | Tip: A Data Series can also be added by typing directly into an open chart. Type the plus symbol (+) followed by the instrument symbol, contract month for Futures, and appropriate interval value. For example, typing "+ES ##-## 5M" will add a 5 minute ES continuous contract Data Series to the selected chart (See the "How to change a Data Series" section below for more information). |      PriceData2    In the image above, we can use the [Instrument Selector](usingtheinstrumentselector.md) to add a recently viewed or pinned instrument, as well as any instruments in an Instrument List. |
 

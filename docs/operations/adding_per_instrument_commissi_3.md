@@ -4,6 +4,6 @@ Once a [Commission Template](adding_per_instrument_commissi_2.md) has been creat
 
 ![tog_plus](../images/tog_plus.gif)Applying commission templates to accounts
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | The Accounts Tab Trade Performance window.     |  | | --- | | Commission Template is dictated by the Sim101 it duplicates. |    Commissions1 |

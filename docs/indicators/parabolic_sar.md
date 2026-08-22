@@ -26,7 +26,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | acceleration | Acceleration value |
 | accelerationStep | Step value used to increment acceleration value |

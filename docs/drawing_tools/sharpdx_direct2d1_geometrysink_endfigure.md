@@ -18,6 +18,6 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | figureEnd | A [SharpDX.Direct2D1.FigureEnd](sharpdx_direct2d1_figureend.md) value that indicates whether the current figure is closed. If the figure is closed, a line is drawn between the current point and the start point specified by [BeginFigure()](sharpdx_direct2d1_geometrysink_beginfigure.md). |

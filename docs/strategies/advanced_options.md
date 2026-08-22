@@ -4,7 +4,7 @@ All NinjaTrader order entry windows that offer ATM Strategies also include the A
 
 ![ATM_5](../images/atm_5.png)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Reverse at Stop | This will enter a position in the opposite direction, using the same ATM parameters, when a stop loss is hit |
 | Reverse at Target | This will enter a position in the opposite direction, using the same ATM parameters, when a profit target is hit |

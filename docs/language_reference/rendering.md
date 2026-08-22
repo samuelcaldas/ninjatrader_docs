@@ -6,7 +6,7 @@ Rendering methods and properties can be useful when carrying out custom drawing 
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [RenderTarget](rendertarget.md) | Creates objects and exposes methods used for drawing in the chart area. |
 | [ForceRefresh()](forcerefresh.md) | Forces OnRender() to be called, which will re-paint the chart |

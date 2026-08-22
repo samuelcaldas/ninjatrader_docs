@@ -12,7 +12,7 @@ Represents various [ChartBar](chartbars.md) properties configured from the Chart
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | AutoScale | A bool indicating if the Chart Data Series participates in the chart's auto scaling methods |
 | BarsBack | An int representing the Chart's Data Series configured "Bars to load" when the RangeType.Bars is selected |

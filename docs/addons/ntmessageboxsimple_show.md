@@ -18,7 +18,7 @@ NTMessageBoxSimple.Show(Window input, string messageTxt, string caption, Message
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | parent | A Window (DependencyObject) which represents the owning window |
 | messageTxt | The message body of the MessageBox window |

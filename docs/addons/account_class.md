@@ -6,7 +6,7 @@ The Account class can be used to subscribe to account related events as well as 
 
 ## Static Account Class Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | All | A collection of Account objects |
 | AccountStatusUpdate | Event handler for account status updates |
@@ -14,7 +14,7 @@ The Account class can be used to subscribe to account related events as well as 
 
 ## Methods and Properties From Account instances
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | AccountItem | Represents various account variables used to reflect values the status of the account |
 | AccountItemUpdate | Event handler for changes to account values |

@@ -15,13 +15,13 @@ struct RadialGradientBrushProperties
    
 Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new RadialGradientBrushProperties() | Initializes a new instance of the RadialGradientBrushProperties structure |
 
 Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Center | A [SharpDX.Vector2](sharpdx_vector2.md) representing the brush's coordinate space, the center of the gradient ellipse. |
 | GradientOriginOffset | A [SharpDX.Vector2](sharpdx_vector2.md) representing brush's coordinate space, the offset of the gradient origin relative to the gradient ellipse's center. |

@@ -20,7 +20,7 @@ The FX Pro window is designed for efficient order-entry. In addition to entry an
 
 ![tog_minus](../images/tog_minus.gif)        How to submit custom orders
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Custom OrdersYou can place a custom order by setting order parameters.1. Select the order Type2. Set the Limit price if applicable3. Set the Stop price if applicable4. Left mouse click either the BUY or SELL button FXPro_12  |  | | --- | | Tips: 1.You can quickly retrieve the current bid or ask price in the Limit and Stop price fields using the following commands:
 - CTRL + middle click in the filed to retrieve the best ask price
@@ -28,7 +28,7 @@ The FX Pro window is designed for efficient order-entry. In addition to entry an
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the OCO (One Cancel Other) function
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | OCO Orders (One Cancels Other)Stop Loss and Profit Target orders (submitted automatically via an [ATM Strategy](atm_strategy.md)) are always sent as OCO, however, you can submit entry or exit orders as OCO orders as well. Why? The market may be trading in a channel and you wish to sell at resistance or buy at support, whichever comes first by placing two limit orders at either end of the channel. To place OCO orders, press down on your right mouse button inside the FX Pro window and select the menu name "OCO Order or use the short cut key CTRL+Z. FXPro_13 The "OC" (OCO indicator) will light up green at the top of the FX Pro window. All orders placed while this indicator is lit will be part of the same OCO group. Once any order of this group is either filled or cancelled, all other orders that belong to this group will be cancelled. FXPro_14 If you want each OCO order to create it's own set of Stop Loss and Profit Target orders ensure that the ATM Strategy control list is set to either <Custom> or a strategy template name before you submit each OCO order. After you have placed your orders, it is advised to disable the OCO function via the right click menu, or use the short cut key CTRL+Z. |  | | --- | | Warning: On 8.1.2.1 and older, after placing two orders within the same OCO group, it is important to disable OCO functionality before submitting any other orders. If you wish to place another set of OCO orders immediately after placing an initial set, first disable, then re-enable OCO before placing the second set of orders. This will generate a new OCO ID, rather than adding the new orders to an existing OCO group. On 8.1.3.0 and newer, OCO IDs will be reset when two orders have been placed with the same OCO ID, an order an OCO is canceled or rejected, and when an order with an OCO is filled. | Break Out/Fade Entry ExampleOne of the great features of NinjaTrader is its ability to submit two entry orders, one of which will cancel if the other is filled.You can accomplish a breakout/breakdown approach by:
 - Right clicking in the FX Pro window and selecting the menu item "OCO Order" to enable the OCO function

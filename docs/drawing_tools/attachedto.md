@@ -6,7 +6,7 @@ An object which holds information regarding where the drawing tool is attached.
 
 ## Available Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | AttachedToType | An enum representing the type of object the drawing to is attached.  Possible values are:
 - Bars - The chart bars of the parent chart

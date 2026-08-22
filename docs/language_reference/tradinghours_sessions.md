@@ -6,7 +6,7 @@ A collection of session definitions of the configured Trading Hours template.
 
 ## Available Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | BeginDay | A [DayOfWeek](https://msdn.microsoft.com/en-us/library/system.dayofweek(v=vs.90).aspx) value representing the begin day |
 | BeginTime | An int value representing the begin time |

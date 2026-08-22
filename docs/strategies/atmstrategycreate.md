@@ -24,7 +24,7 @@ AtmStrategyCreate(OrderAction action, OrderType orderType, double limitPrice, do
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | action | Sets if the entry order is a buy or sell order    Possible values are:
 - OrderAction.Buy

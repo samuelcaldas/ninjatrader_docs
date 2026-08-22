@@ -17,7 +17,7 @@ ChartingExtensions.ConvertFromVerticalPixels(this int x, PresentationSource targ
 
  
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | x | The vertical int coordinates in device pixels to convert |
 | target | The [PresenationSource](https://msdn.microsoft.com/en-us/library/system.windows.presentationsource(v=vs.110).aspx) representing the display surface used for the conversion    Note:  For Charts, see [ChartControl.PresentationSource](presentationsource.md) |

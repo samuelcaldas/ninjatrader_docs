@@ -14,7 +14,7 @@ This method does not return a value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | startPoint | The chart anchor's original starting point value |
 | deltaPoint | The chart anchor's new point value to be updated |

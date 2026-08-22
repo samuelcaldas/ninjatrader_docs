@@ -4,7 +4,7 @@ Creating custom Bars Types allows for incredible flexibility in the way you want
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AddBar()](addbar.md) | Adds new data points for the Bars Type. |
 | [ApplyDefaultBasePeriodValue](applydefaultbaseperiodvalue.md) | Sets the default base values used for the [BarsPeriod](barsperiod.md) selected by the user (e.g., the default PeriodValue, DaysToLoad, etc.) for your custom Bar Type. |

@@ -24,7 +24,7 @@ BarsSinceEntryExecution(int barsInProgressIndex, string signalName, int entryExe
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | signalName | The signal name of an entry order specified in an order entry method. |
 | barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [BarsInProgress](../language_reference/barsinprogress.md) property. |

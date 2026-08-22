@@ -11,7 +11,7 @@ Additional Access Information
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [BarsSinceNewTradingDay](barssincenewtradingday.md) | Number of bars that have elapsed since the start of the trading day |
 | [GetAsk()](getask.md) | Returns the Ask price |

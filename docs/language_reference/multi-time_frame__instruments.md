@@ -50,7 +50,7 @@ protected override void OnStateChange()
 ```
 | | --- | | Note: To maximize data loading performance, any NinjaScript object (indicator or strategy as host) which references a multi-series indicator which calls AddDataSeries must include it's own calls to AddDataSeries(). For example, if the code above was included in an indicator, and that indicator was referenced in a
 NinjaScript strategy, then the hosting strategy will need to include the same calls to AddDataSeries(). When the strategy adds the additional Bars objects, the calls to AddDataSeries() within the indicator will be ignored. If the Bars objects are not added by the strategy in such cases, and error will be thrown in the Log tab of the Control Center that would read - "A hosted indicator tried to load additional data. All data must first be loaded by the hosting NinjaScript in its configure state." |
-```
+```csharp
 
 ![tog_minus](../images/tog_minus.gif)        Creating `Series<T>` Objects
 
@@ -201,7 +201,7 @@ What is also important to understand is the concept of context. When the OnBarUp
 - The default [CloseStrategy()](../strategies/closestrategy.md) handling will only be applied to the primary series of a MultiSeries NinjaScript strategy.
 - An indicator / strategy with multiple DataSeries of the same instrument will only process realtime OnBarUpdate() calls when a tick occurs in session of the trading hour templates of all added series.
 Any ticks not processed will be queued and processed as a tick comes in for all subsequent DataSeries. |
-```
+```csharp
 
 ![tog_minus](../images/tog_minus.gif)        Accessing the Price Data in a Multi-Bars NinjaScript
 

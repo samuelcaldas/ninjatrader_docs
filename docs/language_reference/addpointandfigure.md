@@ -20,7 +20,7 @@ AddPointAndFigure(isResetOnNewTradingDay)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrumentName | string determining instrument name such as "MSFT" |
 | baseBarsPeriodType | The underlying BarsType used for the Point-and-Figure bars period   Possible values are:    BarsPeriodType.Volume |

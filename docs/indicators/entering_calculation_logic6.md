@@ -166,7 +166,7 @@ This will conditionally change the color of the CCI plot (referenced by Values[0
 
 PlotBrushes holds a collection of brushes used for the various plots in the indicator. In addition to this, there are several other collections that serve similar purposes, which can be used in the same way. Some examples of these collections are below:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [BackBrushes](../language_reference/backbrushes.md) | A collection of Brushes used for chart background color at specific bar indexes |
 | [BarBrushes](../language_reference/barbrushes.md) | A collection of Brushes used to paint bars at specific indexes |

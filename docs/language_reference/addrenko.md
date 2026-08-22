@@ -16,7 +16,7 @@ AddRenko(?isResetOnNewTradingDay)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrumentName | string determining instrument name such as "MSFT" |
 | brickSize | int determining the size (in ticks) of each bar |

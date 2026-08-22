@@ -20,7 +20,7 @@ SendMail(string to, string subject, string text)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | to | The email recipient |
 | subject | Subject line of email |

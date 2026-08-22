@@ -6,7 +6,7 @@ Represents an interface that exposes information regarding a TimeCyles [IDrawing
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Anchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the point of the drawing object |
 | OutlineStroke | A Stroke used for the outline of the region |

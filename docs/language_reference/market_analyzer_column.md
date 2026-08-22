@@ -4,7 +4,7 @@ Custom Market Analyzer columns can be used to further enhance your Market Analyz
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [CurrentText](currenttext.md) | Sets text to be displayed in the Market Analyzer column. |
 | [CurrentValue](currentvalue.md) | The value to be displayed in the Market Analyzer Column. |

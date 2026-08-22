@@ -4,7 +4,7 @@ Custom Optimizers can be used to optimize your Strategy through different algori
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [NumberOfIterations](numberofiterations.md) | Informs the Strategy Analyzer how many iterations of optimizing it needs to do. |
 | [OnOptimize()](onoptimize.md) | This method must be overridden in order to optimize a strategy. |

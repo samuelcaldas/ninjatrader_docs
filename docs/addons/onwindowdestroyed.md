@@ -18,7 +18,7 @@ OnWindowDestroyed(Window window)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | window | A Window object which is being removed from the workspace |
 

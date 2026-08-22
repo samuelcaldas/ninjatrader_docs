@@ -4,7 +4,7 @@ Custom Drawing Tools can be used to render custom shapes to a point on the chart
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AddPastedOffset()](addpastedoffset.md) | A [virtual method](https://msdn.microsoft.com/en-us/library/9fkccyh4.aspx) which is called every time a Drawing Tool is copied and pasted to a chart |
 | [Anchors](anchors.md) | Creates a collection of Chart Anchors which will represent various points of the drawing tool |

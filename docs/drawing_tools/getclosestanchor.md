@@ -14,7 +14,7 @@ GetClosestAnchor(ChartControl chartControl, ChartPanel chartPanel, ChartScale ch
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | A ChartControl representing the x-axis |
 | chartPanel | A ChartPanel representing the the panel for the chart |

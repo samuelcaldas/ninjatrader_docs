@@ -1,6 +1,6 @@
 # Importing a List of Stock Symbols
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Importing a Stock List Importing a list of stock symbols is an efficient way to add instruments to the instruments database in bulk.    Within the Control Center window select the Tools menu. Then select the menu item Import and left mouse click on the menu item Stock Symbol List...    1    The text file must contain valid symbols separated by either -
 - User defined character such as a semicolon or comma

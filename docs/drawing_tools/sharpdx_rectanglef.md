@@ -14,14 +14,14 @@ struct RectangleF
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new RectangleF() | Initializes a new instance of the RectangleF struct. |
 | new RectangleF(float x, float y, float width, float height) | Initializes a new instance of the RectangleF with specific dimensions |
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Bottom | Gets or sets the bottom. |
 | Height | Gets or sets the height. |

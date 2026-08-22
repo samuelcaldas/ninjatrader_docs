@@ -16,7 +16,7 @@ double
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | PerformanceUnit | Format of the calculation of net change |

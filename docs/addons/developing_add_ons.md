@@ -18,7 +18,7 @@ The process to make an Add On is fairly simple once the structure is understood.
 
 Once the functionality of your Add On is determined you can use the following building blocks to create your Add On:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AddOnBase](add_on.md) | This is where you create the entry point for the Add On. |
 | [NTWindow](ntwindow.md) | This is where you define the parent window container for your Add On. Tabs would reside within this parent window should you choose. This is also where workspace persistence would be created. |

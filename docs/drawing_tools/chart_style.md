@@ -4,7 +4,7 @@ Custom Chart Styles can be used on charts to present bars information in a diffe
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [BarWidth](barwidth.md) | The painted width of a ChartStyle bar |
 | [BarWidthUI](barwidthui.md) | The Bar width value which displays on the UI |

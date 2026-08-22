@@ -398,8 +398,6 @@ private void myCustomClickHandler(object sender, MouseButtonEventArgs e)
 If you have programming requirements which rely on a PriceSeries indexer, you can use the [TriggerCustomEvent()](../language_reference/triggercustomevent.md) delegate which will update the internal pointers and indexes before executing the logic you specify. |
 Casting safely Avoid type casting and type conversion as much as possible.
 Casting from a mixed collection of types is also prone to exceptions especially in situations that may not occur when you originally test your code.
-|
-| | --- | | Why:
 The practice to avoid code below could work in some scenarios but would generate errors if other types were added to that collection that you were not anticipating. |
 
 ```csharp
@@ -495,8 +493,6 @@ protected override void OnBarUpdate()
 The example above demonstrates using a draw object, but the practice can be extended to any object you store in memory (e.g., orders, brushes, custom objects, etc) |
 Disposing of custom resources
 Dispose of objects that inherit from IDisposable or put into a Using statement.
-|
-| | --- | | Why:
 NinjaTrader is not guaranteed to dispose of objects for you.
 To avoid unnecessary memory consumption, always manage your resources by creating a variable and dispose of the object. |
 
@@ -646,8 +642,6 @@ Responding to user events
 Do NOT use OnRender() for purposes other than rendering.
 If you need events to hook into user interactions, consider adding your own event handler.
 The example below shows registering the ChartPanel MouseDown event and registering a custom WPF control
-|
-| | --- | | Why: OnRender() may call more or less frequently than you anticipated.
 Using your own custom event handlers allows you control and isolate user event logic you are looking to capture |
 
 ```csharp

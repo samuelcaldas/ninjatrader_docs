@@ -13,7 +13,7 @@ struct Color4
    
 Constructor
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Color4() | Initializes a new instance of the Color4 struct |
 | Color4([Color3](sharpdx_color3.md) color) | Initializes a new instance of the Color4 struct using a [SharpDX.Color3](sharpdx_color3.md) struct |
@@ -22,7 +22,7 @@ Constructor
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Black | The Black color (0, 0, 0, 1) |
 | White | The White color (1, 1, 1, 1) |

@@ -14,7 +14,7 @@ enum FigureEnd
 
 ## Enumerators
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Open | The figure is open. |
 | Closed | The figure is closed. |

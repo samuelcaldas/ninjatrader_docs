@@ -24,7 +24,7 @@ You must cast ChartStyleType from an int using the following syntax:
 
 Reserved enumeration values are listed below:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | 0 | Box |
 | 1 | CandleStick |

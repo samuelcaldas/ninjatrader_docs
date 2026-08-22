@@ -4,7 +4,7 @@ The methods and properties covered in this section are unique to custom strategy
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Account](strategy_account.md) | Represents the real-world or simulation Account configured for the strategy. |
 | [AddChartIndicator()](../indicators/addchartindicator.md) | Adds an indicator to the strategy only for the purpose of displaying it on a chart. |

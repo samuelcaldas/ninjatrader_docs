@@ -4,7 +4,7 @@ Majority of NinjaTrader's order entry interfaces house the same control for defi
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | The Strategy Control List The drop down list shown in the image below is very important to understand as it defines how your orders will be handled once submitted. There are two main categories of options that will be displayed in this drop-down list; None, Custom or strategy template names. Strategy templates are specific to your account and instrument.    ServerSideATM_1   None When this option is selected, any orders placed in the entry window will not be applied to an active ATM Strategy nor will it initiate a new ATM strategy.   Custom or ATM Strategy Template Names When an ATM Strategy template name is selected, all of the parameters will update to reflect your pre-defined ATM Strategy, or when Custom is selected, you have the ability to define a new ATM Strategy on the fly. Once an order is submitted, the ATM Strategy parameters specified will be initiated when the order is partially or completely filled.    |  | | --- | | Note: If a server side ATM template was created on Web, it may include features not available on Desktop. The template will still submit and function as it was saved. | |
 

@@ -6,7 +6,7 @@ Objects derived from the Line class are used to characterize how an oscillator l
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Brush | The System.Windows.Media.Brush used to construct the line ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | BrushDX | A [SharpDX.Direct2D1.Brush](../drawing_tools/sharpdx_direct2d1_brush.md) used to actually render the line    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |

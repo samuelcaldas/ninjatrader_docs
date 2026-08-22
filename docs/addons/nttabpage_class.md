@@ -4,7 +4,7 @@ This is where the actual content for tabs inside the custom add on [NTWindow](nt
 
 > **Note:** A class derived from NTTabPage has to be created if instrument link or interval link functionality is desired. [IInstrumentProvider](iinstrumentprovider_interface.md) and [IIntervalProvider](iintervalprovider_interface.md) interfaces should be implemented as well to ensure proper linking.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Cleanup()](nttabpage_cleanup.md) | Unregisters LinkControls and calls Cleanup() on ICleanable controls on the NTTabPage |
 | [GetHeaderPart()](getheaderpart.md) | Indicates the tab header name. |

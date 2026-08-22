@@ -23,7 +23,7 @@ Tip:  If you are trading using multiple ATM Strategies, it is possible to reconf
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Average Entry Price  When in a position, the Average Entry Price Display will show you the current price which is being used to calculate your open PnL.  As you scale in and scale out of position at different prices, your Average Entry Price will be recalculated to reflect the new average price.  The way this is calculated is set under the [Trading](../getting_started/options_trading.md) category of NinjaTrader's general options menu.    |  | | --- | | Note:  The SuperDOM's average entry price will be displayed directly on the [Price ladder display](../strategies/price_ladder_display.md) rather than a text field. | |
 

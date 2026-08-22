@@ -23,7 +23,7 @@ public override int GetBarPaintWidth(int barWidth)
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | barWidth | An int value representing the current width of the bar to calculate |
 

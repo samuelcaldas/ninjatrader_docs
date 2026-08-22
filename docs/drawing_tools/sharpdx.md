@@ -6,7 +6,7 @@ The SharpDX namespace contains fundamental classes used by SharpDX.
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Color](sharpdx_color.md) | Represents a 32-bit color (4 bytes) in the form of RGBA (in byte order: R, G, B, A). |
 | [Color3](sharpdx_color3.md) | Represents a color in the form of rgb. |

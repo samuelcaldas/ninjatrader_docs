@@ -10,7 +10,7 @@ A RolloversCollection configured for the current instrument.
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ContractMonth | A DateTime structure representing the expiry month of a futures contract |
 | Date | A DateTime structure representing the date of the rollover |

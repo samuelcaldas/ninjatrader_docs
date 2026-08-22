@@ -24,7 +24,7 @@ TriggerCustomEvent(`Action<object>` customEvent, int barsSeriesIndex, object sta
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | barsIndex | Index of the [bar series](barsinprogress.md) you want to synchronize to |
 | customEvent | [Delegate](http://msdn.microsoft.com/en-us/library/018hxwa8%28v=vs.110%29.aspx) of your custom event method |

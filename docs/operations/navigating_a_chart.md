@@ -11,7 +11,7 @@ The following section covers navigation and display of NinjaTrader charts.
 
 ![tog_minus](../images/tog_minus.gif)        How to change the vertical scale and price range of a chart
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Vertical Scaling To compress or decompress the chart's vertical axis, left mouse click in the y-axis margin and move the mouse cursor up or down as shown in the images below:    1.  Click and drag down will shrink the chart's price scale    Chart_ScaleShrink    2.  Click and drag up will stretch the chart's price scale    Chart_ScaleStretch    |  | | --- | | Tip:  You can also manually set the chart's price scale to a specific fixed price range from the [Chart Panel Properties](chart_panels.md) window. |   Fixed vs Automatic Scaling A box with an "F" (Fixed) will appear in the upper right corner of the chart margin any time the vertical chart axis is manually adjusted. This signifies the chart axis is set to a "fixed" scale. Left mouse click this button to return to automatic scale.    Chart_FixedIcon |
 
@@ -31,7 +31,7 @@ The following section covers navigation and display of NinjaTrader charts.
 
 ![tog_minus](../images/tog_minus.gif)        How to change the bar spacing and width
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Bar Spacing To change the spacing between bars:
 - CTRL + Up arrow key decreases bar spacing

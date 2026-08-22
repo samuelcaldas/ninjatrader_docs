@@ -10,7 +10,7 @@ Represents a number of properties available to the Chart Scale which can be conf
 
 ## Property Values
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | YAxisRangeType | An YAxisRangeType enum, possible values are:
 - Automatic

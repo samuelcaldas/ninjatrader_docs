@@ -19,7 +19,7 @@ DxExtensions.ToDxBrush(this System.Windows.Media.Brush brush, RenderTarget rende
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | The [System.Windows.Media.Brush](https://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) to convert |
 | renderTarget | The [RenderTarget](rendertarget.md) associated with the brush resource |

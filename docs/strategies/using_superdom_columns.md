@@ -22,7 +22,7 @@ In addition to the standard [Price Column](price_ladder_display.md) used to disp
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the APQ (Approximate Position in Queue) Column
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | APQ (Approximate Position in Queue) Column The APQ column will calculate the number of contract resting ahead of your Limit orders based on the number of contracts that were advertised at the time the order was submitted, in other words - it will give you the worst possible position in the queue for your order - so you know conservatively how many contracts need to be filled before it's your orders turn.    SuperDOM_50  1.  Let's say you place a Buy limit order at a price of 1963.50, and at the time the order was confirmed as working from the exchange, there were 1233 contracts working at this level ahead of you.  2. APQ will assume that your order has a queue position of 1234, and will continue to monitor the number of contracts that are advertised at this level, and give you the number of contracts that are remaining based off the volume updates that occur at that price level.    |  | | --- | | Notes:
 - The value displayed in the APQ is a calculation based on the level II volume from your data provider.  For simulated orders, there is no way to accurately track your order against the live orders that are being sent from the data provider and filled at a live exchange, and as a result, the estimate will have little to no value to your simulation orders.  An order placed on a live account would be more accurately reflected, however it should be noted that this calculation is a client side calculated theoretical value.

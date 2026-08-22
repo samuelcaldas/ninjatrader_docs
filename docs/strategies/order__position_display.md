@@ -10,7 +10,7 @@ Chart Trader allows for the placement of orders, and the management of orders an
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Position Display An open position is displayed slightly differently. A position is displayed on the chart as a colored line connecting an entry price label in the right margin of the chart with a second label displaying the position size and current unrealized profit or loss. The text displaying the profit and loss is color coded, with green representing profit and red representing loss. The quantity displayed in the left-hand label is color coded, as well, with green representing a long position and red representing a short position.    Note: The display of unrealized PnL in Chart Trader can be switched between points, currency, pips, ticks, and percent by either left mouse clicking in the PnL field in the Chart Trader panel, or via the Chart Trader [Properties](properties3.md) window.    The image below displays the chart with an active position managed by an [Advanced Trade Management](../operations/advanced_trade_management_atm.md) strategy.    ChartTrader2    1. Two profit target orders  2. Position size and PnL flag for 2 contracts long  3. Two stop loss orders\*  4. Average entry price  5. PnL in Chart Trader panel    \* The stop loss line and flag represents two orders, as indicated by the letter "s" next to the qty number "2."    |  | | --- | | Note: Positions will only display for the selected Account and Instrument. | |
 

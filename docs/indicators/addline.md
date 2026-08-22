@@ -10,7 +10,7 @@ Please see the examples below.
 ```
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | AreLinesConfigurable | line(s) used in an indicator are configurable from within the indicator dialog window. |
 | Line Class | Objects derived from the Line class are used to characterize how an oscillator line is visually displayed (plotted) on a chart. |
@@ -27,7 +27,7 @@ AddLine(Strokename)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | Brush object used to construct the line |
 | name | string value representing the name of the line |

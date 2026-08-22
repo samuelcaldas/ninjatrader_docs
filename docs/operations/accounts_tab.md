@@ -38,7 +38,7 @@ The Accounts tab displays current account information in a [data grid](data_grid
 
 ## Accounts Tab Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | General |  |
 | Filter by account | Filters accounts display by selected account |

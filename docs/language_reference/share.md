@@ -19,7 +19,7 @@ Share(string serviceName, string message, string screenshotPath, object[] args)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | serviceName | A string value representing the share service to be used |
 | message | A string value representing the text body sent to the social network or other Share providers. Note:  The message is what appears in the text box of the Share window |

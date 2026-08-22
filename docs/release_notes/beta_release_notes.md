@@ -2,7 +2,7 @@
 
 NinjaTrader release notes can be found below, if you have any questions on a specific release please contact [email protected](mailto:platformsupport@ninjatrader.com)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Version | Released |
 | [8.0.0.14 (RC2)](8_0_0_14.md) | October 6, 2016 |

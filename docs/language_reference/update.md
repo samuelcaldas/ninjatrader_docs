@@ -20,7 +20,7 @@ Update(int idx, int bip)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | idx | The current bar index value to update to |
 | bip | The [BarsInProgress](barsinprogress.md) to update |

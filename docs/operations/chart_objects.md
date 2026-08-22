@@ -8,7 +8,7 @@ Charts in NinjaTrader can contain and display multiple objects, including Data S
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Copy and Paste A Data Series, indicator, or Drawing Object can be copied and pasted to various areas of a chart to quickly duplicate an object and its properties. Chart objects can be copied in one of two ways:
 - Left mouse click the chart object to select it. Next, right mouse click the object, then click the copy menu item.
@@ -18,6 +18,6 @@ Charts in NinjaTrader can contain and display multiple objects, including Data S
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Z-Order Objects within a panel can be adjusted to appear behind or in front of another chart object. The specific layer on which an object sits is referred to as the "z-order."    You can change the z-order (paint order) of all chart objects within each individual panel. Each chart object is assigned a z-order value, which informs you where in the paint order that particular object resides. As a rule of thumb, there are as many z-order levels in a panel as there are chart objects in that panel. For example, if you had a Data Series and an SMA indicator in the same panel, there would be two painting levels. Level 1 is the top most level, which means that any chart object on Level 1 will be painted above all others. Continuing our example, if the Data Series was on Level 1 of 2 and the SMA indicator was on Level 2 of 2, that would mean the Data Series would be painted on top of the indicator.    The image below depicts a "Rectangle" drawing object set at z-order Level 3 of 3, which is behind both the Stochastics indicator (Level 2 of 3) and the ES ##-## Data Series (Level 1 of 3).    ChartObjects1    To adjust the z-order of an object:    1.Select the chart object by left mouse clicking on it  2.Hold down the "Shift" key on your keyboard and roll the mouse scroll wheel up or down to change the z-order of the object. As you scroll, the object's z-order will be displayed near your mouse cursor.    |  | | --- | | Note: Drawing Objects originating from a NinjaScript indicator or strategy will all generally share the same z-order as the script. In this case, the z-order of objects must be changed within the code of the indicator or strategy. | |

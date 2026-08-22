@@ -40,7 +40,7 @@ Various database operations can be performed from the Database window.
 
 ![tog_minus](../images/tog_minus.gif)        Restore workspace
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Restore Workspace This can be used to restore a previous saved version of a saved workspace.  When selecting Restore you will be directed to the location of the recovery workspaces. They will be organized in folders with the names of the workspaces. Double click the folder of the workspace you want to recover and then select the recovery file with the date/time that you want to recover.    By default 10 previously saved versions of your workspaces will be retained. To modify how many recovery versions are available within the Control Center go to Tools and select Options. Within the General section go to Preferences and set the Versions of recovery workspaces. See the Options [General](../getting_started/general_section.md) section.    |  | | --- | | Note: Deleted workspaces cannot be restored using this feature. However, if you have a backup you could restore it from there. See the [Backup & Restore](backup__restore.md) section. | |
 

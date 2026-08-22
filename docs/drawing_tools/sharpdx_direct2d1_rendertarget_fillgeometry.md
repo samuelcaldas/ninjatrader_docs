@@ -21,7 +21,7 @@ RenderTarget.FillGeometry(Geometry geometry, Brush brush, Brush opacityBrush)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | The [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) used to paint the geometry's interior. |
 | geometry | The [SharpDX.Direct2D1.Geometry](sharpdx_direct2d1_pathgeometry.md) to paint. |

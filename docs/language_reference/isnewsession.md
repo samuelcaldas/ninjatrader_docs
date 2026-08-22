@@ -10,7 +10,7 @@ A bool value when true indicates the specified time is later than ActualSessionE
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | time | The DateTime value used to compare |
 | includesEndTimeStamp | A bool determining if a timestamp of <n>:00 should fall into the current session. (e.g., used for time based intraday series such as minute or second). |

@@ -6,7 +6,7 @@ To open the SuperDOM Window, select the New menu from the NinjaTrader Control Ce
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | The price ladder is broken down into three functional columns by default, and can be extended to display any number of additional custom columns.   Buy Column The left column is the Buy 1
 - Submit buy orders
@@ -34,7 +34,7 @@ To open the SuperDOM Window, select the New menu from the NinjaTrader Control Ce
 
 ![tog_minus](../images/tog_minus.gif)        How to display the daily high and low prices
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Daily High and Low The market's daily high 1 and daily low 2 can be optionally displayed.  To enable this feature:
 - Right click on the SuperDOM, select Properties, check Show daily high/low markers    You can further customize the color of the markers in the [SuperDOM Properties](properties_superdom.md) dialog window.    SuperDOM_5    |  | | --- | | Note: Daily High and Low values are not calculated by NinjaTrader and are sent from your data provider.  Not all data providers provide this information for all instrument types. | |

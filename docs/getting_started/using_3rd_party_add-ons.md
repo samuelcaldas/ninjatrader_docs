@@ -6,7 +6,7 @@ NinjaTrader’s comprehensive and flexible development environment empowers 3rd 
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Installing 3rd Party Add-Ons After you have downloaded 3rd Party Add-On, they can be imported from the NinjaTrader Control Center.     1. From the Control Center window select the menu Tools > Import> NinjaScript Add-On... to open the "Import" dialog window   2. Select the file you want to import   3. Press the "Import" button    |  | | --- | | Notes:  1.Your vendor may have different instructions for installing their 3rd Party Add-Ons.  Please check with the vendor for any specific guidelines they may require for installing their products.  2.If you receive an error during importing "You have custom NinjaScript files on your PC that have programming errors...", please see the following post for information on how to resolve: [How do I resolve NinjaScript Programming Errors?](../ninjascript/how_do_i_resolve_ninjascript_p.md) | |
 
@@ -23,7 +23,7 @@ NinjaTrader’s comprehensive and flexible development environment empowers 3rd 
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Updating Add-Ons Developers can issue updates to fix issues or add functionality. If you have obtained an updated copy of your 3rd Party Add-On, you can import the new version using the same steps you originally used to install by going to Tools > Import > NinjaScript Add-On... and selecting the new file.  During the import process, you will be given an option to replace the current Add-Ons which exists on your PC, which you should accept for each file you wish to update.    |  | | --- | | Note:  You should always restart NinjaTrader after installing an update to ensure you are running the most recent code. |   Removing 3rd Party Add-Ons Should you identify a problem, or suspect a 3rd Party Add-On is causing problems, you may wish to remove these files from your system.  The exact steps to remove will depend on how it was distributed. 3rd Party Add-ons can be installed either as a "Protected Assembly" or "Non-Protected".  Please see the information below on how to proceed.   Removing Protected 3rd Party Add-Ons Assemblies If you have purchased a 3rd Party Add-On, it is likely distributed as a Protected Assembly.  These protected files can be uninstalled by going to Tools > Remove NinjaScript Assembly.  If you cannot find the 3rd Party Add-On from this dialog, your Add-On is most likely a non-protected assembly.   Removing Non-Protected 3rd Party Add-Ons Most free 3rd Party Add Ons downloaded from online forums and other communities are distributed as unprotected c# scripts.  These open-source files can be uninstalled using the following steps:    1.From the Control Center window select the menu New > NinjsScript Editor to open the [NinjaScript Editor](../ninjascript/editor.md)  2.On the right side, under the "NinjaScript Explorer" expand the type of folder of the 3rd Party Add-On you are trying to uninstall  3.Locate the name of the 3rd Party Add-On (Note: 3rd Party Add-Ons can be installed in several sub-folders)  4.Right click on entry > select "Remove" |
 

@@ -12,14 +12,14 @@ struct Color3
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new Color3() | Initializes a new instance of the Color3 struct. |
 | new Color3(float red, float green, float blue) | Initializes a new instance of the Color3 struct using float values for red, green, blue |
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Black | The Black color (0, 0, 0) |
 | White | The White color (1, 1, 1) |

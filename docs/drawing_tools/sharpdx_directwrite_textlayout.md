@@ -16,7 +16,7 @@ class TextLayout
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new TextLayout(Factory factory, string text, [TextFormat](sharpdx_directwrite_textformat.md) textFormat, float maxWidth, float maxHeight) | Takes a string, text format, and associated constraints, and produces an object that represents the fully analyzed and formatted result. |
 
@@ -24,7 +24,7 @@ class TextLayout
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Dispose()](sharpdx_disposebase_dispose.md) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from [SharpDX.DisposeBase](sharpdx_disposebase.md).) |
 | [FlowDirection](sharpdx_directwrite_textformat_flowdirection.md) | Gets or sets the direction that text lines flow. (Inherited from [TextFormat](sharpdx_directwrite_textformat.md).) |

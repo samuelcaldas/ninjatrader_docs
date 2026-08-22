@@ -21,7 +21,7 @@ A double representing a slot index; returns -1 on a time based bar spacing type
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | x | An int used to determine a slot index |
 

@@ -14,7 +14,7 @@ This method does not return a value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | point | The chart anchor's point value to be updated |
 | chartScale | A ChartScale representing the y-axis |

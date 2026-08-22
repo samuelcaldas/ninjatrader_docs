@@ -14,7 +14,7 @@ A double representing the pixel width of bars on the chart
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartBars | A [ChartBars](chartbars.md) object to measure |
 

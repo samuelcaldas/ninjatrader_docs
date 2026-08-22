@@ -35,7 +35,7 @@ protected override void OnExecutionUpdate(Execution execution, string executionI
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | execution | An [Execution](execution.md) object passed by reference representing the execution |
 | executionId | A string value representing the execution id |

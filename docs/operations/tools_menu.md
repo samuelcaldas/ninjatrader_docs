@@ -4,7 +4,7 @@ The following menus and items are available via the Tools menu of the NinjaTrade
 
 ![ControlCenter_ToolsMenu](../images/controlcenter_toolsmenu.png)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Instruments](../language_reference/instruments.md) | Opens the Instruments window |
 | [Instrument Lists](instrument_lists.md) | Opens the Instrument Lists window |

@@ -12,7 +12,7 @@ NinjaTrader.NinjaScript.AtmStrategy.StartAtmStrategy(string atmStrategyTemplateN
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | atmStrategyTemplate | An AtmStrategy representing the ATM strategy you wish to use |
 | atmStrategyTemplateName | A string representing the name of the ATM strategy you wish to use |

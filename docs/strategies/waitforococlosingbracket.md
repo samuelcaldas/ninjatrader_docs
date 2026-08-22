@@ -22,8 +22,6 @@ WaitForOcoClosingBracket
 
 ## Examples
 
-|  |  |
-| --- | --- |
 
 ```csharp
 protected override void OnStateChange()

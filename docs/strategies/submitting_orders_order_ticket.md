@@ -17,6 +17,6 @@ The Order Ticket window is used to quickly define and submit custom orders.  Thi
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the OCO (One Cancel Other) function
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | OCO Orders (One Cancels Other) The Order Ticket window allows you to specify a custom user defined OCO ID using any combination of numbers and letters in the OCO field.    The image below shows the Order Ticket window configured a pending order in which we've input an OCO ID of "OCO1".    OrderTicket_5    In the example above, any additional orders placed with the OCO ID set to "OCO1" will be tied together in an order group as long as these orders are active. If one order in the group is either filled, cancelled or rejected, all orders in the group with the same OCO id will be cancelled.    |  | | --- | | Warning:  If an order which was part of an OCO group has already been filled or cancelled, you will need to submit the pending order with a new OCO ID otherwise the pending order will be rejected. | |

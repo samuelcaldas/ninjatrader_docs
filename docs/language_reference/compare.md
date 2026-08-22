@@ -19,7 +19,7 @@ A value of "0" if price1 is equal to price2
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | price1 | A double value representing a price |
 | price2 | A double value representing a price |

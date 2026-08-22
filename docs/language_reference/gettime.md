@@ -18,7 +18,7 @@ Bars.GetTime(int index)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | index | An int representing an absolute bar index value |
 

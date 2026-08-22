@@ -12,7 +12,7 @@ class ChartAnchor
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new ChartAnchor() | Initializes a new instance of the ChartAnchor object |
 | new ChartAnchor(DateTime time, double price, [ChartControl](../language_reference/chartcontrol.md) chartControl) | Initializes a new instance of the ChartAnchor object using time, price, and relative chart control |
@@ -20,7 +20,7 @@ class ChartAnchor
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [CopyDataValues()](copydatavalues.md) | Copies the ChartAnchor time and price values from on anchor to another |
 | [DisplayName](displayname.md) | A string value which sets the name prefix used for all properties for a chart anchor |

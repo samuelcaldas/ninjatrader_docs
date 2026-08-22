@@ -16,7 +16,7 @@ class TextFormat
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new TextFormat(Factory factory, string fontFamilyName, float fontSize) | Creates a text format object used for text layout with normal weight, style and stretch. |
 | new TextFormat(Factory factory, string fontFamilyName, [FontWeight](sharpdx_directwrite_textformat_fontweight.md) fontWeight, [FontStyle](sharpdx_directwrite_textformat_fontstyle.md) fontStyle, float fontSize) | Creates a text format object used for text layout with normal stretch. |
@@ -26,7 +26,7 @@ class TextFormat
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Dispose()](sharpdx_disposebase_dispose.md) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from [SharpDX.DisposeBase](sharpdx_disposebase.md).) |
 | [FlowDirection](sharpdx_directwrite_textformat_flowdirection.md) | Gets or sets the direction that text lines flow. |

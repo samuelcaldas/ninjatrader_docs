@@ -8,7 +8,7 @@ NewsSubscription can be used for subscribing to News events.
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Update | Event handler for subscribing/unsubscribing to market depth events |
 

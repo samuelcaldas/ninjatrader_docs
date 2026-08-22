@@ -8,12 +8,12 @@ Represents historical volume data as `ISeries<double>` interface which can be us
 
 ## Single `ISeries<double>`
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Volume](iseries_volume.md) | A collection of historical bar volume values. |
 
 ## Multi-Time Frame `ISeries<double>`
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Volumes](iseries_volumes.md) | Holds an array of `ISeries<double>` objects holding historical bar volume. |

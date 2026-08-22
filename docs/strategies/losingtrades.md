@@ -6,7 +6,7 @@ A subcollection of [Trade](trade.md) objects consisting of only the losing trade
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Count](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
 | [GetTrades()](gettrades.md) | Gets a [TradeCollection](tradecollection.md) object representing a specified position |

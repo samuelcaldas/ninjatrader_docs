@@ -31,7 +31,7 @@ EnterLong(int barsInProgressIndex, int quantity, string signalName)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | quantity | Entry order quantity (if 0 is passed in, will be set to 1, except for stocks 100) |

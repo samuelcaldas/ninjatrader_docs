@@ -6,7 +6,7 @@ The core objective of developing custom Indicators and Strategies with NinjaScri
 
 ## Definitions
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [`ISeries<T>`](../language_reference/priceseries.md) | Standard bar based price types such as closing, opening, high, low prices and volume |
 | [Indicator](../indicators/indicator.md) | Calculated values based on price type values such as a simple moving average |

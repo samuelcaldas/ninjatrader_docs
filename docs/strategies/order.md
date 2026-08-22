@@ -14,7 +14,7 @@ Represents a read only interface that exposes information regarding an order.
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Account | The [Account](../addons/account_class.md) the order resides |
 | AverageFillPrice | A double value representing the average fill price of an order |
@@ -44,7 +44,7 @@ Represents a read only interface that exposes information regarding an order.
 
 ## OrderState Values
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | OrderState.Initialized | Order is initialized in NinjaTrader |
 | OrderState.Submitted | Order is submitted to the broker |
@@ -69,8 +69,6 @@ Represents a read only interface that exposes information regarding an order.
 
 ## Examples
 
-|  |  |
-| --- | --- |
 
 ```csharp
 private Order entryOrder = null;

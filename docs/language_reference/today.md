@@ -22,7 +22,7 @@ An int value representing date structure
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | time | A DateTime structure to calculate Note:  See also the [Time](../drawing_tools/time.md) property |
 

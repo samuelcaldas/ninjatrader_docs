@@ -8,7 +8,7 @@ A method must first be declared before you can use it in your script:
 
 [Access Modifier] [Return Type] [Name] (Optional parameters)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Access Modifier | Sets the access level to the method. In developing NinjaScript objects, you will likely use the private access modifier more often than any other. |
 | Return Type | Sets the value type that the method will return. If it returns nothing, you will set the return type to void. |

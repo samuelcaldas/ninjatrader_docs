@@ -8,7 +8,7 @@ NinjaTrader order entry feature which have the ability to place custom orders fo
 
 The price selector allows you type directly into the editor to specify a price, however you can also use a few shortcuts to obtain current market prices, as well as make quick adjustments to the selected price using your mouse.  The table below shows the various shortcuts that can be used with the Price Selector:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Middle Mouse Click | Sets the current Last Price |
 | Ctrl + Middle Mouse Click | Sets the current Ask Price |

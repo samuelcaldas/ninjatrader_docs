@@ -6,7 +6,7 @@ Performance profile of a [collection](tradecollection.md) of [Trade](trade.md) o
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AverageBarsInTrade](averagebarsintrade.md) | A double value representing the average number of bars per trade |
 | [AverageEntryEfficiency](averageentryefficiency.md) | A double value representing the average entry efficiency |

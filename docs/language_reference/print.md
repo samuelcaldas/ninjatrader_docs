@@ -22,7 +22,7 @@ Print(object value)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | value | The object to print to the output window |
 

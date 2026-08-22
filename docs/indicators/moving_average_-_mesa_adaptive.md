@@ -27,7 +27,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | fastLimit | Upper limit of the alpha value |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |

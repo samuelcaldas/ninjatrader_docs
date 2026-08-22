@@ -17,7 +17,7 @@ protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | marketDataUpdate | A [MarketDataEventArgs](marketdataeventargs.md) representing the change in market data |
 

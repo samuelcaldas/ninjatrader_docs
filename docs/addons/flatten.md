@@ -12,7 +12,7 @@ Flatten(ICollection<Instrument> instruments)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instruments | A collection of Instruments for orders to be cancelled and positions closed |
 

@@ -8,7 +8,7 @@ Indicates the type of bar spacing used for the primary [Bars](bars.md) object on
 
 An enum representing one of the values below:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | EquidistantSingle | Indicates Equidistant Bar Spacing is used, and only one Bars object exists on the chart |
 | EquidistantMulti | Indicates Equidistant Bar Spacing is used, and more than one Bars objects exist on the chart |

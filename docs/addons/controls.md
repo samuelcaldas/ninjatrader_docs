@@ -4,7 +4,7 @@ The following section contains controls that are native NinjaTrader controls. To
 
 > **Note:** For cleaning up these resources, please see the [NTTabPage.Cleanup()](nttabpage_cleanup.md) method
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AccountSelector](accountselector.md) | AccountSelector can be used as an UI element users can interact with for selecting accounts. |
 | [AtmStrategySelector](atmstrategyselector.md) | AtmStrategySelector is an UI element users can interact with for selecting ATM Strategies. |

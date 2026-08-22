@@ -23,7 +23,7 @@ PriceLevels[int idx].GetY(ChartScale chartScale, double startPrice, double total
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | GetPrice() | Returns a double which repents the price value at the specified price level |
 | GetY() | Returns a float representing the y-pixel coordinate at the specified price level |

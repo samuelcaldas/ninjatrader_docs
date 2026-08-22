@@ -4,7 +4,7 @@ NinjaTrader allows you to save many of your customized chart settings as default
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Each Period Type and Chart Style can have different default settings saved for the customizable Data Series parameters. Once saved as default, the customized parameters will load when the Period Type is selected.   What is Saved For Period Types, all parameter settings are saved, with the following exceptions:
 - Bar width
@@ -26,7 +26,7 @@ NinjaTrader allows you to save many of your customized chart settings as default
 
 ![tog_minus](../images/tog_minus.gif)        Understanding chart property default settings
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Customized chart properties can be saved as default. Once saved as default, the customized properties will be loaded whenever a new chart is opened. The Chart Properties window can be opened by left mouse clicking on the Properties icon in the chart toolbar, by selecting the menu item Properties from the right click menu in the chart, or via the default CTRL + T [Hot Key](hot_key_manager.md).   What is Saved All property settings are saved.   Saving Custom Chart Property Settings To save custom chart parameters as default:    1.Set parameters to the desired values  2.Right mouse click within the chart window, then select the Templates menu item, then select Save as Default.    All chart properties can be restored to NinjaTrader default settings by left mouse clicking on the preset text within the Chart Properties window, then selecting restore.    In the image below, all chart properties will be saved as the default for new charts.    ChartDefaults4    |  | | --- | | Tip: Chart Templates (including the default chart template) will overrule chart property default settings. If you wish to use your preset chart property defaults, select <None> as the chart template when opening a new chart. | |
 
@@ -40,6 +40,6 @@ NinjaTrader allows you to save many of your customized chart settings as default
 
 ![tog_minus](../images/tog_minus.gif)        How to load, remove, or rename a Chart Template
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Loading a Chart Template A Chart Template that was previously saved can be loaded on any chart that has the same number of Data Series as the chart which was used to save it.    To load a Chart Template:    1.Right mouse click and select the menu item Templates followed by the Load menu item  2.The Load window will appear. Select the template to load from the list of templates, then press the Load button.    |  | | --- | | Note:  If a Chart Template is loaded, settings from that template will take precedence over any settings manually configured on the [Data Series](working_with_price_data.md).  For example, Trading Hours currently configured will be ignored, and the chart will use the Trading Hours which were saved in the Chart Template. |     Removing a Chart Template To remove a Chart Template from the list of saved templates:    1.Right mouse click within a chart and select the menu item Templates followed by either the Save As or Load menu items  2.The Save or Load window will appear, depending on which menu item you selected. Right mouse click the template for removal from the list of templates, then select the Remove menu item.   Renaming a Chart Template To rename an existing Chart Template from the list of saved templates:    3.Right mouse click within a chart and select the menu item Templates followed by either the Save As or Load menu items  4.The Save or Load window will appear, depending on which menu item you selected. Right mouse click the template from the list of templates, then select the Rename menu item.    In the image below, we can either remove or rename the selected Chart Template.    ChartDefaults6 |

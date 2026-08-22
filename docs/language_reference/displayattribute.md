@@ -23,7 +23,7 @@ Determines how the following declared property display on the NinjaTrader UI's p
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Name | A string which sets the text used to display the property on the UI |
 | Description | A string which sets the tool tip used to describe the property from the UI    Note:  Expandable properties will NOT display a tool tip (e.g., [SimpleFont](simplefont_class.md), [Stroke](stroke_class.md), or any custom component which are a type of an ExpandableObjectConverter) |

@@ -8,7 +8,7 @@
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AntialiasMode](sharpdx_direct2d1_antialiasmode.md) | Specifies how the edges of nontext primitives are rendered. |
 | [ArcSegment](sharpdx_direct2d1_arcsegment.md) | Describes an elliptical arc between two points. |

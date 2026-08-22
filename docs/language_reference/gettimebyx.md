@@ -18,7 +18,7 @@ A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | x | The x-coordinate used to find a time value |
 

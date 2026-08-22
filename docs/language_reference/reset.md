@@ -4,7 +4,7 @@
 
 Resets the internal marker which is used for [IsValidDataPoint()](isvaliddatapoint.md) back to false.  Calling the Reset() method is unique and can be very powerful for custom indicator development. [`Series<T>`](seriest.md) objects will always contain a value which is assigned, however calling Reset() simply means you effectively ignore the value of the current bar for plotting purposes. For calculation purposes you will want to use [IsValidDataPoint()](isvaliddatapoint.md) to ensure you are not calculating off of any reset values assigned by the Reset() method.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Series Type | Value after Reset() |
 | `Series<bool>` | false |
@@ -28,7 +28,7 @@ Reset(int barsAgo)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | barsAgo | An int representing from the current bar the number of historical bars the method will check.  If no barsAgo value is supplied, the current bar value will be reset instead (barsAgo 0) |
 

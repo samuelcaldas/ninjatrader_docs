@@ -18,6 +18,6 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | pointsRef | A [SharpDX.Vector2](sharpdx_vector2.md) array of one or more points that describe the lines to draw. A line is drawn from the geometry sink's current point (the end point of the last segment drawn or the location specified by [BeginFigure()](sharpdx_direct2d1_geometrysink_beginfigure.md) to the first point in the array. If the array contains additional points, a line is drawn from the first point to the second point in the array, from the second point to the third point, and so on. |

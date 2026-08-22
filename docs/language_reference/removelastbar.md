@@ -14,7 +14,7 @@ RemoveLastBar(Bars bars)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | bars | The Bars object of your bars type |
 

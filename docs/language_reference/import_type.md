@@ -4,7 +4,7 @@ Custom data Import Types can be developed to allow for the importing of historic
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [OnNextInstrument()](onnextinstrument.md) | Called at the beginning of the import process |
 | [OnNextDataPoint()](onnextdatapoint.md) | Called for each line of data contained in the file being imported |

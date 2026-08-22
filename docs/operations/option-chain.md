@@ -2,7 +2,7 @@
 
 The Option Chain window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the Option Chain menu item.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Option Chain Overview  The Option Chain window displays a listing of all available options contracts, along with current quotes, for the selected security. | |
 | Display  

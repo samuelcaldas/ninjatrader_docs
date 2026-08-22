@@ -22,7 +22,7 @@ SubmitOrderUnmanaged(int selectedBarsInProgress, OrderAction orderAction, OrderT
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | selectedBarsInProgress | The index of the Bars object the order is to be submitted against. This determines what instrument the order is submitted for.    Note:  See the [BarsInProgress](../language_reference/barsinprogress.md) property. |
 | orderAction | Determines if the order is a buy or sell order    Possible values:     OrderAction.Buy  OrderAction.BuyToCover  OrderAction.Sell  OrderAction.SellShort |

@@ -10,7 +10,7 @@ Represents historical data as an `ISeries<double>` interface which can be used f
 
 ## Single `ISeries<double>`
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Close](close.md) | A collection of historical bar close prices. |
 | [High](high.md) | A collection of historical bar high prices. |
@@ -24,7 +24,7 @@ Represents historical data as an `ISeries<double>` interface which can be used f
 
 ## Multi-Time Frame `ISeries<double>`
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Closes](closes.md) | Holds an array of `ISeries<double>` objects holding historical bar close prices. |
 | [Highs](highs.md) | Holds an array of `ISeries<double>` objects holding historical bar high prices. |

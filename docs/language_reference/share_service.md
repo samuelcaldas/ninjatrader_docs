@@ -4,7 +4,7 @@ Custom Share Services can be developed in order to enable users to share content
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [CharacterLimit](characterlimit.md) | Determines the maximum number of characters the social network allows. |
 | [CharactersReservedPerMedia](charactersreservedpermedia.md) | Sets the number of characters allowed when attaching an image to ensure that character count is properly calculated. |

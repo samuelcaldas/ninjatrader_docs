@@ -16,7 +16,7 @@ This method does not return a value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | bars | The Bars object of your bars type |
 | open | A double value representing the open price |

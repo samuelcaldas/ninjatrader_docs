@@ -12,7 +12,7 @@ RenderTarget.DrawLine(Vector2 point0, Vector2 point1, Brush brush, float strokeW
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | point0 | A Vector2 representing the first point to draw between |
 | point1 | A Vector2 representing the second point to draw between |

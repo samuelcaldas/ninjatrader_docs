@@ -18,7 +18,7 @@ RearmAlert(string id)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | id | A unique string id representing an alert id to rearm |
 

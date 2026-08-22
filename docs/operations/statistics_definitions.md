@@ -10,7 +10,7 @@ The following are definitions and formulas used for Trade Performance statistics
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Profit The difference in price between the entry and exit execution.  This value may be positive or negative and is used to determine winning vs losing trades
 - (exit price – entry price) for long trades
@@ -38,7 +38,7 @@ The following are definitions and formulas used for Trade Performance statistics
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Commission
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Commission This statistic returns a monetary value that is the summation of all the commission fees associated with the trades executed.    SUM(commission of all traded executions)     |  | | --- | | Note:  Commissions must be setup on the account using a [Commission template](understanding_commissions.md) | |
 
@@ -48,13 +48,13 @@ The following are definitions and formulas used for Trade Performance statistics
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Max. Drawdown
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Max. Drawdown The maximum drawdown statistic provides you with information regarding the biggest decrease (drawdown) in account size experienced from the highest high seen. Drawdown is often used as an indicator of risk.    Drawdown = local maximum realized profit – local minimum realized loss  Max Drawdown = single largest Drawdown     As an example, your account rises from $25,000 to $50,000. It then subsequently drops to $40,000 but rises again to $60,000. The drawdown in this case would be $10,000 or -20%. Take note that drawdown does not necessarily have to correspond with a loss in your original account principal.    |  | | --- | | Note:  This statistic may also display in selected Display Units (percent, points, pips or ticks).  To see the base calculation behind each execution, view the [Profit and Loss Calculation Modes](profit_and_loss_calculation_modes.md) page. | |
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Sharpe Ratio
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Sharpe Ratio This statistic returns a ratio that measures the risk premium per unit of risk of your strategy. It can help you make decisions based on the excess risk of your strategies. You may have a high-return strategy, but the high returns may come at a cost of excess risk. The Sharpe ratio will help you determine if it is an appropriate increase in risk for the higher return or not. Generally, a ratio of 1 or greater is good, 2 or greater is very good, and 3 and up is great.    (Profit per Month – risk free Rate of Return) / standard deviation of monthly profits        |  | | --- | | Notes:
 - See also Understanding Profit Per Month on this page
@@ -64,7 +64,7 @@ The following are definitions and formulas used for Trade Performance statistics
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Sortino Ratio
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Sortino Ratio This statistic is used the same as Sharpe Ratio, the only difference being that Sortino only takes into account the downside deviation. You would want to use this statistic if you wanted to differentiate between harmful volatility from volatility in general (Sharpe Ratio).    (Profit per Month – risk free Rate of Return) / standard deviation of monthly drawdown     See also Understanding Profit Per Month on this page.    |  | | --- | | Notes:
 - NinjaTrader hard sets "risk-free Rate of Return" to a value of zero
@@ -119,13 +119,13 @@ The following are definitions and formulas used for Trade Performance statistics
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Largest Winning Trade
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Largest winning tradeThis statistic returns the the most profitable trade value from the collection of trades   |  | | --- | | Note:  This statistic may also display in selected Display Units (percent, points, pips or ticks).  To see the base calculation behind each execution, view the [Profit and Loss Calculation Modes](profit_and_loss_calculation_modes.md) page. | |
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Largest Losing Trade
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Largest losing tradeThis statistic returns the the least profitable trade value from the collection of trades  |  | | --- | | Note:  This statistic may also display in selected Display Units (percent, points, pips or ticks).  To see the base calculation behind each execution, view the [Profit and Loss Calculation Modes](profit_and_loss_calculation_modes.md) page. | |
 
@@ -183,7 +183,7 @@ The following are definitions and formulas used for Trade Performance statistics
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Entry, Exit, and Total Efficiency
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Following are the formulas for the calculation of the entry, exit, and total efficiency.    Assume the following:  - Enter long at price of 100  - Market moves down to a price of 90  - Market moves up to a price of 130  - Exit at a price of 110   Entry Efficiency is Calculated as:    (maximum price seen - entry price) / (maximum price seen - minimum price seen)  = (130 - 100) / (130 - 90)  = 75%  = The entry took 75% of the trade range   Exit Efficiency is Calculated as:   (exit price - minimum price seen) / (maximum price seen - minimum price seen)  = (110 - 90) / (130 - 90)  = 50%  = The exit took 50% of the available trade range   Total Efficiency is Calculated as:   (exit price - entry price) / (maximum price seen - minimum price seen)  = (110 - 100) / (130 - 90)  = 25%  = The trade represented only 25% of the trade range    |  | | --- | | Note:
 - The formulas are reversed for short

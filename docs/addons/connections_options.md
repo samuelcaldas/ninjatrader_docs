@@ -6,7 +6,7 @@ The connection's configuration options
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ConnectOnStartup | A bool representing if this connection auto connects on startup |
 | Name | A string representing the connection's name |

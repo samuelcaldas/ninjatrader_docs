@@ -20,14 +20,14 @@ class SolidColorBrush
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new SolidColorBrush(RenderTarget renderTarget, Color4 color) | Creates a new SolidColorBrush that has the specified color and opacity. |
 | new SolidColorBrush(RenderTarget renderTarget, Color4 color, `Nullable<BrushProperties>` brushProperties) | Creates a new SolidColorBrush that has the specified color and opacity. |
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Color](sharpdx_direct2d1_solidcolorbrush_color.md) | Retrieves or sets the color of the solid color brush. |
 | [Dispose()](sharpdx_disposebase_dispose.md) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from [SharpDX.DisposeBase](sharpdx_disposebase.md).) |

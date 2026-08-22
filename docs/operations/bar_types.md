@@ -17,19 +17,19 @@ NinjaTrader supports a large variety of chart Bar Types. This page explains how 
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Range bars
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Range Bars A Range bar is based on a specified tick price range. The bar will continue to develop until the price range is broken, at which point a new bar will be created.    |  | | --- | | Note: A tick in this instance is different from a tick in a Tick bar described in the sub-section above. A tick in a Tick bar represents the point at which an actual trade occurred, whereas a tick in a Range bar represents a price increment, or a movement on the price axis of the chart. This increment is the smallest price movement the instrument can make, and may differ by instrument. For example, a tick on the e-mini S&P 500 (ES) equates to a movement of 0.25, while a tick on AAPL stock equates to a movement of 0.01. More information on setting an instrument's Tick Size can be found on the [Editing Instruments](../language_reference/editing_instruments.md) page. |      BarTypes3    1. Each historical bar in the 4 Range chart shown below represents exactly 4 ticks of price movement.  2. The Ruler [Drawing Tool](../drawing_tools/working_with_drawing_tools__ob.md) verifies that each bar consists of 4 ticks. (The "Y value" of 1.00 shown in the Ruler's display flag is equivalent to 4 ticks for the e-mini S&P 500 continuous contract instrument on the chart.) |
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Time based bars
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Time Bars Second, Minute, Day, Week, Month, and Year bars are all built based on the passage of time. A bar will develop for a specified amount of time, and once this time is exceeded, a new bar will begin.    BarTypes4    1. Each historical bar in the 1 Minute chart shown below represents price movement during one minute in time.  2. The "Bar Timer" [indicator](../indicators/working_with_indicators.md) has been applied to the chart to show the time remaining for the current bar.     |  | | --- | | Note: Intraday time based charts are built off the [Trading Hours](trading_hours.md) definitions set for the individual chart's [DataSeries](working_with_price_data.md). For daily charts and higher this is not the case though, here the Trading Hours are governed by the provider recording the data. For the NinjaTrader Historical Data Servers daily bars will be recorded using the ETH (Electronic Trading Hours) definitions for the respective instrument. Further for providers which support accessing the official settlement value, NinjaTrader will use this value as the daily bar close - for more information regarding your specific provider please consult [this link](data_by_provider.md). | |
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Heiken Ashi bars
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Heiken Ashi Bars Heiken Ashi in Japanese translates to "Average Bar" in English. These bars are intended as a way to isolate ongoing trends. Heiken Ashi bars may appear to plot the Open, High, Low, and Close of price within a specified time period, similar to Candlestick bars. However, these bars use unique formulas to calculate OHLC values based on mathematical averages. Like Candlesticks, Heiken Ashi bars are based on the passage of time, and can be set to any Second, Minute, Day, Week, Month, or Year interval.    |  | | --- | | Note:  Calculated value will be rounded to the instrument's nearest tick size.  This is done to ensure accuracy in order submission and execution during backtesting. |    The chart below displays Heiken Ashi bars based on a 2-minute interval:    BarTypes9 |
 
@@ -43,7 +43,7 @@ NinjaTrader supports a large variety of chart Bar Types. This page explains how 
 
 ![tog_minus](../images/tog_minus.gif)        Understanding Point and Figure bars
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | PointAndFigure Bars PointAndFigure bars are built based on price movement. Each bar plots a column made up of either X's representing a rising price or O's representing a decreasing price. Each X or O is referred to as a "box" and represents the price distance defined by the Box size (set in terms of ticks). A new X or O box will be added to the bar when price moves more than the Box size, warranting the addition of another box.    Another parameter, called the Reversal, sets the amount of price movement needed from the High or Low to change from X's to O's, or from O's to X's. A column will continue indefinitely until a price reversal equal to the Reversal amount (set in number of boxes) occurs. There can never be two columns of X's or O's next to each other for a given session, as any additional X's or O's would be added to the current column instead. When a reversal occurs, the next column begins one box size above the last Low for X's, or one box size below the last High for O's.    For example, the chart below shows PointAndFigure bars based on a 1 Minute Data Series. The Box size is set to 4 and the Reversal is set to 3.    |  | | --- | | Note: The prices of the X's and O's are represented by the exact middle of the X or O, rather than the top or bottom. |    BarTypes7 |
 

@@ -6,7 +6,7 @@ Once custom performance metrics are created be sure to enable their usage in [To
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Format()](format.md) | This method allows you to customize the rendering of the performance value on the Summary grid. |
 | [OnAddTrade()](onaddtrade.md) | This method is called as each trade is added. |

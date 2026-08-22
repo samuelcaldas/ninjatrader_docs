@@ -21,7 +21,7 @@ A bool value set to true if the geometry's stroke contains the specified point; 
    
 Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | point | The [SharpDX.Vector2](sharpdx_vector2.md) point to test for containment. |
 | strokeStyle | The [SharpDX.Direct2D1.StrokeStyle](sharpdx_direct2d1_strokestyle.md) style of stroke to apply. |

@@ -21,7 +21,7 @@ protected override void OnAccountItemUpdate(Account account, AccountItem account
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | account | The [Account](../addons/account_class.md) updated |
 | accountItem | The [AccountItem](../addons/accountitem.md) updated |

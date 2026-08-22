@@ -2,7 +2,7 @@
 
 Historical data can be downloaded from the data provider via the Download section.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | How to Download Historical Data To download historical data first make sure NinjaTrader is [connected](../getting_started/connecting.md) and [historical data](data_by_provider.md) is available from your data provider.    1  2  3  4 Press the "Download" button to begin the download    MarketDataArchives_Download    A message in the bottom right of the Historical Data Window will appear and display the status of the download.    To cancel a historical data request close the Historical Data Window window.    |  | | --- | | Notes:
 - If you already have historical data for an instrument, please be sure to only select a date range in which your data provider offers historical data. If you choose a range older than what your data provider offers you may lose any data you had stored on those dates in that range outside of what your data provider offers.

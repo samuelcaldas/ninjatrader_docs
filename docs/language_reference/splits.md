@@ -10,7 +10,7 @@ A collection of Splits configured for the current instrument.
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Date | A DateTime structure representing the date of the split |
 | Factor | A double value representing the number of points the stock split |

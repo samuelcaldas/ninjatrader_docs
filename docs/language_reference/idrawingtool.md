@@ -14,7 +14,7 @@ IDrawingTool Properties are standard properties that are shared by all drawing t
 
 ## IDrawingTool Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Anchors | A read-only collection of all of the [IDrawingTool's ChartAnchors](idrawingtool.md#chartanchor) |
 | AttachedTo | An enum determining where the drawing tool is attached.    Possible values are:
@@ -40,7 +40,7 @@ IDrawingTool Properties are standard properties that are shared by all drawing t
 
 ## ChartAnchor Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | <ChartAnchor>.BarsAgo | An int representing the "barsAgo" value that was passed to the Draw method    Note:  This value will NOT be set for objects drawn manually |
 | <ChartAnchor>.DisplayName | A string representing name of the DrawingTool's chart anchor that is displaying on the UI |

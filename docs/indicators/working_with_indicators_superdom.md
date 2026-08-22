@@ -26,7 +26,7 @@ NinjaTrader comes with over 30 pre-built indicators which can be added the Super
 
 ![tog_minus](../images/tog_minus.gif)        Understanding how indicators are displayed
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Indicator Display  Once an indicator has been configured and applied to the SuperDOM, the indicator plot will be displayed in the Price column above the corresponding price row. SuperDOM_45  In the image above, you can see an orange highlighted price row at 1959.75, rounded to nearest price from the calculated EMA indicator (1959.63).  Hovering your mouse cursor over the indicator plot will display a tool tip which will give you details pertaining to input settings of the indicator.    |  | | --- | | Note: It is possible for indicators to be calculated out of range of the current Price Ladder Display.  You can right click on the SuperDOM and uncheck Auto Center which will allow you to scroll up or down on the Price Ladder Display to locate the indicator that has been added. | |
 
@@ -37,6 +37,6 @@ NinjaTrader comes with over 30 pre-built indicators which can be added the Super
 
 ![tog_minus](../images/tog_minus.gif)        Custom indicator development
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | In addition to the over 30 price action indicators that come pre-built with the NinjaTrader application, you also have the ability to create custom indicators of your own.  For example, you could create your own custom multi-series indicators to apply to your NinjaTrader SuperDOMs.    |  | | --- | | Note:  In order for a custom indicator to show up in the list of available SuperDOM Indicators, you must set the [IsOverlay](../language_reference/isoverlay.md) property to true in the indicator's State.SetDefaults. |      For more information on using NinjaScript to build custom indicators please see the [NinjaScript section](../ninjascript/ninjascript.md) of the user help guide. Click [here](indicator.md) to view NinjaScript tutorials.    The option to hire a [NinjaScript Consultant](https://ninjatraderecosystem.com/search-results/?fwp_category=programming-services) to build your custom indicators is also available. |

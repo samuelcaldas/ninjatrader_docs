@@ -12,7 +12,7 @@ A collection of full holidays configured for a Trading Hours template. Holidays 
 
 A [Dictionary](https://msdn.microsoft.com/en-us/library/xfhwa508(v=vs.110).aspx) holding a collection of holiday Dates and Descriptions of each holiday.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Date | A DateTime representing the date of the trading hours holiday |
 | Description | A string which is used to describe the holiday (e.g., Christmas) |

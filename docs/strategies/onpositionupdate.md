@@ -28,7 +28,7 @@ protected override void OnPositionUpdate(Position position, double averagePrice,
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | position | A [Position](position.md) object passed by reference representing the current position object |
 | averageFillPrice | A double value representing the updating average fill price of a position |

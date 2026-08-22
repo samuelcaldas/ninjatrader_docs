@@ -14,7 +14,7 @@ Orders are modified within the SuperDOM by selecting the order and clicking on t
 
 ![tog_minus](../images/tog_minus.gif)        How to modify the size of an order
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Modifying the size of an order  To modify the size of an order, click on the Size Marker (marked by the green arrow in the image below) with your left mouse button    SuperDOM_30    The quantity field will appear which allows you to set the new order quantity by either entering a new quantity or using the mouse wheel to scroll the value higher or lower.  Either press the "OK" button to submit the change or the "X" button to cancel the operation.    SuperDOM_31    Order size changes are handled according to NinjaTrader's advanced FIFO optimization capabilities.    |  | | --- | | Tips:  1.Holding the Ctrl key + scrolling will increment order quantities by a value of 10  2.Middle clicking on the order quantity will bring up the [Quantity Selector](../addons/quantity_selector.md) | |
 

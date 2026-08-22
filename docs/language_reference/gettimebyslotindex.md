@@ -21,7 +21,7 @@ A DateTime object corresponding the a specified slot index; returns DateTime val
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | slotIndex | The slot index used to determine a time value |
 

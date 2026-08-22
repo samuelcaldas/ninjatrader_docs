@@ -8,7 +8,7 @@ Many of the NinjaTrader Order Flow Volumetric Bar and Bar Statistics values coul
 
 ## Methods and Properties the VolumetricBarsType exposes
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | BarDelta | Gets a long value with the total bar's delta |
 | CumulativeDelta | Gets a long value with the cumulative delta (Note: the accumulation is reset at the session break) |

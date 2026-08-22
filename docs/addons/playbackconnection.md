@@ -18,7 +18,7 @@ MethodName(int input)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | input | An int which represents the method input |
 

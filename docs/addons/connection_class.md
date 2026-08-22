@@ -6,7 +6,7 @@ The Connection class can be used to monitor connection related events as well as
 
 ## Static Connection Class Events and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | CancelAllOrders() | Cancels all orders |
 | Connect() | Connects to a connection |
@@ -14,7 +14,7 @@ The Connection class can be used to monitor connection related events as well as
 
 ## Events and Properties from Connection instances
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Accounts | List of accounts from the connection |
 | Disconnect() | Disconnects from the connection |

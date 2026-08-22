@@ -18,7 +18,7 @@ class GradientStopCollection
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new GradientStopCollection([RenderTarget](sharpdx_direct2d1_rendertarget.md) renderTarget, [GradientStop](sharpdx_direct2d1_gradientstop.md)[] gradientStops) | Creates an GradientStopCollection from the specified gradient stops, a Gamma.StandardRgb, and ExtendMode.Clamp |
 | new GradientStopCollection([RenderTarget](sharpdx_direct2d1_rendertarget.md) renderTarget, [GradientStop](sharpdx_direct2d1_gradientstop.md)[[[] gradientStops, [ExtendMode](sharpdx_direct2d1_gradientstopcollection_extendmode.md) extendMode) | Creates an GradientStopCollection from the specified gradient stops, color Gamma.StandardRgb, and extend mode |
@@ -30,7 +30,7 @@ class GradientStopCollection
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [ColorInterpolationGamma](sharpdx_direct2d1_gradientstopcollection_colorinterpolationgamma.md) | Indicates the gamma space in which the gradient stops are interpolated |
 | [Dispose()](sharpdx_disposebase_dispose.md) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from [SharpDX.DisposeBase](sharpdx_disposebase.md).) |

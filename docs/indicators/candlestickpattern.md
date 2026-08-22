@@ -23,7 +23,7 @@ Accessing this method via an index value [int barsAgo] returns the indicator val
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | pattern | Possible values are:     ChartPattern.BearishBeltHold  ChartPattern.BearishEngulfing  ChartPattern.BearishHarami  ChartPattern.BearishHaramiCross  ChartPattern.BullishBeltHold  ChartPattern.BullishEngulfing  ChartPattern.BullishHarami  ChartPattern.BullishHaramiCross  ChartPattern.DarkCloudCover  ChartPattern.Doji  ChartPattern.DownsideTasukiGap  ChartPattern.EveningStar  ChartPattern.FallingThreeMethods  ChartPattern.Hammer  ChartPattern.HangingMan  ChartPattern.InvertedHammer  ChartPattern.MorningStart  ChartPattern.PiercingLine  ChartPattern.RisingThreeMethods  ChartPattern.ShootingStar  ChartPattern.StickSandwich  ChartPattern.ThreeBlackCrows  ChartPattern.ThreeWhiteSoldiers  ChartPattern.UpsideGapTwoCrows  ChartPattern.UpsideTasukiGap |

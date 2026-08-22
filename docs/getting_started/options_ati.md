@@ -8,7 +8,7 @@ The Automated trading interface section sets options for the [Automated Trading 
 
 This property group sets the general ATI (Automated trading interface) properties.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | General |  |
 | AT Interface | Sets if the automated trading interface is enabled. This will not affect the remaining API methods. |
@@ -20,7 +20,7 @@ This property group sets the general ATI (Automated trading interface) propertie
 
 This property group sets the TradeStation email interface properties. Detailed information on the TradeStation email interface can be found [here](tradestation_email_integration.md "e").
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Enabled | Sets if the Tradestation email interface is enabled. |
 | Order handling |  |

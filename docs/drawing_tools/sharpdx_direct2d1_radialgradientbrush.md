@@ -20,7 +20,7 @@ class SolidColorBrush
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new RadialGradientBrush([RenderTarget](sharpdx_direct2d1_rendertarget.md) renderTarget, [RadialGradientBrushProperties](sharpdx_direct2d1_radialgradientbrushproperties.md) radialGradientBrushProperties,  [GradientStopCollection](sharpdx_direct2d1_gradientstopcollection.md) gradientStopCollection) | Creates an RadialGradientBrush that contains the specified gradient stops and has the specified transform and base opacity. |
 | new RadialGradientBrush([RenderTarget](sharpdx_direct2d1_rendertarget.md) renderTarget, [RadialGradientBrushProperties](sharpdx_direct2d1_radialgradientbrushproperties.md) radialGradientBrushProperties, [GradientStopCollection](sharpdx_direct2d1_gradientstopcollection.md) gradientStopCollection) | Creates an RadialGradientBrush that contains the specified gradient stops and has the specified transform and base opacity. |
@@ -29,7 +29,7 @@ class SolidColorBrush
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Center](sharpdx_direct2d1_radialgradientbrush_center.md) | Retrieves or sets the center of the gradient ellipse. |
 | [Dispose()](sharpdx_disposebase_dispose.md) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from [SharpDX.DisposeBase](sharpdx_disposebase.md).) |

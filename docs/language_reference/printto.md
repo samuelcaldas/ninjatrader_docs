@@ -10,7 +10,7 @@ An enum value representing the target Output Tab.  The default value is PrintTo.
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | PrintTo.OutputTab1 | Output Windows tab named "Output 1" |
 | PrintTo.OutputTab2 | Output Windows tab named "Output 2" |

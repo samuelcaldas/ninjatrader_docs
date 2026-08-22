@@ -10,7 +10,7 @@ NinjaTrader supports a large variety of Chart Styles. This page explains how eac
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Candlestick Chart Style The Candlestick Chart Style plots four data points per bar: Open, High, Low, and Close. Candlesticks are generally painted one color for up bars (green by default), and another color for down bars (red by default).   Reading a Candlestick Chart Candlesticks are broken into two main sections, a candle body and a wick. In an up bar, the top of the candle body represents the Close price, and the bottom represents the Open price. In a down bar, the top of the candle body represents the Open price, and bottom represents the Close price. In either up or down bars, the high point of the wick represents the High price, and the low point of the wick represents the Low price.   ChartStyles2    |  | | --- | | Tip: NinjaTrader's pre-loaded "Candlestick Pattern" [indicator](../indicators/working_with_indicators.md) is designed to identify common candlestick patterns when using this Chart Style. | |
 
@@ -20,7 +20,7 @@ NinjaTrader supports a large variety of Chart Styles. This page explains how eac
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the Hollow Candlestick Chart Style
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Hollow Candlestick Chart Style The Hollow Candlestick Chart Style plots four data points per bar: Open, High, Low, and Close. Hollow Candlesticks are generally painted one color for up bars (green by default), another color for down bars (red by default), and another color for doji base (dim gray by defaut).   Reading a Hollow Candlestick Chart Hollow Candlesticks are broken into two main sections, a candle body and a wick. In an up bar, the top of the candle body represents the Close price, and the bottom represents the Open price. In a down bar, the top of the candle body represents the Open price, and bottom represents the Close price. In either up or down bars, the high point of the wick represents the High price, and the low point of the wick represents the Low price. In a doji bar, the Open price and Close price are the same, represented by a line on the wick.   HollowCandles    |  | | --- | | Tip: NinjaTrader's pre-loaded "Candlestick Pattern" [indicator](../indicators/working_with_indicators.md) is designed to identify common candlestick patterns when using this Chart Style. | |
 
@@ -34,7 +34,7 @@ NinjaTrader supports a large variety of Chart Styles. This page explains how eac
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the Mountain Chart Style
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Mountain Chart Style The Mountain Chart Style functions similarly to the Line on Close style covered in the previous section. The Mountain style connects Close prices of a chosen interval with straight line segments, and also colors the region below the connected line segments with a solid color.   Reading a Line on Close Chart When looking at a Mountain chart, it is important to differentiate between the line itself and the pivots between the line's many segments. Each point at which the line pivots represents a Close price for the instrument, while the lines between those points do not necessarily represent true historical prices. Instead, they are drawn as a way to smooth the transition from one Close price to another. It is also important to understand that the shaded area does not necessarily represent historical price points, but is intended simply as a visual aid.    ChartStyles5    |  | | --- | | Note: The outline color, fill color, and opacity of this Chart Style can be changed via the [Data Series](../operations/working_with_price_data.md) window. | |
 
@@ -44,19 +44,19 @@ NinjaTrader supports a large variety of Chart Styles. This page explains how eac
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the HLC Chart Style
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | HLC Chart Style The HLC Chart Style plots three data points per bar: High, Low, and Close. Like OHLC bars, HLC bars are generally painted one color for up bars (green by default), and another color for down bars (red by default).   Reading an HLC Chart HLC bars include only one flag extending to the right of each bar, as opposed to OHLC bars, which include both left- and right-facing flags. The right-facing flag represents the Close price of a bar, while the extreme upper and lower points of the bar represent the High and Low, respectively.    ChartStyles9    |  | | --- | | Note: Some day traders prefer HLC bars to OHLC bars because they assume that the Open price of any bar should always be one tick away from the Close price of the prior bar. Note that this will not necessarily be the case with Daily or higher time intervals. | |
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the HiLo Chart Style
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | HiLo Chart Style The HiLo Chart Style plots two data points per bar: High and Low. Like OHLC bars, HiLo bars are generally painted one color for up bars (green by default), and another color for down bars (red by default).   Reading a HiLo Chart HiLo bars remove the left- and right-facing flags found on OHLC and HLC bars. The upper and lower points of each bar represent the High and Low, respectively.    ChartStyles10    |  | | --- | | Tip: This Bar Type can be useful to quickly determine the trading range of a higher-timeframe interval, such as one week or one month, while eliminating intra-bar price-action noise that is not useful in defining a range. | |
 
 ![tog_minus](../images/tog_minus.gif)        Understanding the Open/Close Chart Style
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Open/Close Chart Style The Open/Close Chart Style simplifies intra-bar noise by taking High and Low prices out of the equation. This Chart Style paints up bars in a green color by default, and down bars in a red color by default, and simply plots the difference between the Open and Close during a chosen interval.   Reading Open/Close Charts In an up bar, the bottom of an Open/Close bar represents the Open price, while the top of the bar represents the Close price. In a down bar, the top represents the Open, while the bottom represents the Close.    ChartStyles7    |  | | --- | | Tip: When drawing support/resistance or trend lines, some traders prefer to anchor these lines to candle bodies while ignoring wicks. If this is your chosen method, then the Open/Close Chart Style can be a good alternative to traditional Candlesticks. | |
 

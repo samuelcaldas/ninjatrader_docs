@@ -16,6 +16,6 @@ NinjaTrader allows you to save your customized Market Analyzer layout as a templ
 
 ![tog_minus](../images/tog_minus.gif)        How to remove a Market Analyzer Template
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Removing a Market Analyzer Template To remove a saved Market Analyzer template:    1.Right mouse click within the Market Analyzer  2.Select the menu item Templates  3.Select the menu item Load  4.Right click on the template you wish to remove from the Load dialog menu and select the Remove menu item    MarketAnalyzer_17    |  | | --- | | Note  If you wish to rename an existing template, you can select Rename from the same menu | |

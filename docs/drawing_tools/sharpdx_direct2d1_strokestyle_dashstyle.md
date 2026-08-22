@@ -16,7 +16,7 @@ A SharpDX.Direct2D1.DashStyle enum value that describes the predefined dash patt
 
 Possible Values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Solid | A solid line with no breaks. |
 | Dash | A dash followed by a gap of equal length. The dash and the gap are each twice as long as the stroke thickness.  The equivalent dash array for Dash is {2, 2}. |

@@ -21,7 +21,7 @@ protected override void OnOrderTrace(DateTime timestamp, string message)
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | timestamp | The time that the order trace was generated |
 | message | The message that is generated |

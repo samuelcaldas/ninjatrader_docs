@@ -14,7 +14,7 @@ Bars.Instrument.MasterInstrument.GetNextExpiry(DateTime afterDate)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | afterDate | A DateTime value representing to be compared |
 

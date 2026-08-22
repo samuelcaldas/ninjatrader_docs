@@ -8,7 +8,7 @@ The TIF Selector is a standard control available from all order entry features w
 
 The available TIF options are determined by the connection technology of the current selected account.  If a provider's connection technology does not support a certain TIF, it will not be listed to ensure a valid TIF is always been used.  Possible TIF options are described in the table below:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | DAY | Orders will remain active until the end of the trading session for the current day |
 | GTC (Good 'Til Cancelled) | Orders will remain active until explicitly cancelled |

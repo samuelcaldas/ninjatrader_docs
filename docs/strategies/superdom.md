@@ -2,7 +2,7 @@
 
 The SuperDOM window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting either the Static SuperDOM or Dynamic SuperDOM menu items.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | SuperDOM Overview  The SuperDOM provides complete functionality for the management of orders, positions, and discretionary exit and stop strategies in a highly visual and efficient manner.  The DOM at the end of SuperDOM stands for Depth of Market which you can see displayed in the Buy and Sell columns of the NinjaTrader SuperDOM. | |
 | Display  

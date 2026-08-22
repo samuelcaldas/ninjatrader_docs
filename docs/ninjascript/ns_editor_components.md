@@ -22,7 +22,7 @@ Context menus can be opened by right-clicking in the NinjaScript Editor.
 
 ![NinjaScriptEditorContextMenu](../images/ninjascripteditorcontextmenu.png)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Context Menu Items |  |
 | Save | Saves pending changes to the currently open NinjaScript |
@@ -48,7 +48,7 @@ Context menus can be opened by right-clicking in the NinjaScript Editor.
 
 ## NinjaTrader_2020-12-03_10-03-00
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | General |  |
 | Auto hide NinjaScript explorer | Sets if the NinjaScript explorer should be collapsed by default |

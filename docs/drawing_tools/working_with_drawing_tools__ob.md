@@ -36,7 +36,7 @@ There are many customizable Drawing Tools and objects available to use in NinjaT
 
 ![tog_minus](../images/tog_minus.gif)        How to remove drawing objects
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Removing Drawing Objects  To remove a single Drawing Object:    1.Left mouse click on the Drawing Object to select it (when selected, the anchor points will appear)  2.Press the Delete key on the keyboard or right mouse click on the drawing object and select the Remove menu item    To remove multiple Drawing Objects at the same time:    1.Select the Drawing Tools menu via right mouse clicking in chart or via left mouse clicking the Drawing Tools icon in the chart toolbar  2.Left mouse click on the Remove All Drawing Objects menu item, and dialogue box will appear to confirm that you wish to remove all drawing object.  3.Click the Yes button to confirm    |  | | --- | | Notes:
 - Removing a Global Drawing Object will remove the object from all charts.
@@ -44,7 +44,7 @@ There are many customizable Drawing Tools and objects available to use in NinjaT
 
 ![tog_minus](../images/tog_minus.gif)        Understanding local vs. global drawing objects
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Drawing Objects can be applied to a specific chart (local), or to all charts of the same instrument (global).  How to Enable a Global Drawing Object To enable a Global Drawing Object:    1.Apply a Drawing Object to the chart (see the "How to draw on chart" section above)  2.Access the Drawing Object's properties from the Drawing Objects dialogue (see the "Understanding drawing object properties" section above)  3.Locate the "Attach to" drop down menu and select "Instrument name" (All charts)    The Drawing Object will now be applied to all charts for that specific instrument as well as any new charts opened for that instrument. Global Drawing Objects are stored even when a chart of the instrument is not open.    DrawObjects5    |  | | --- | | Tips:
 - You can set Global Drawing Objects to be drawn in all currently open workspaces in the General section of the Options window. To access the Options window, select the Tools menu from the Control Center, then select the Options menu item. In the General section of the Options window, enable or disable the "Global drawing objects across workspaces" property.
@@ -54,7 +54,7 @@ There are many customizable Drawing Tools and objects available to use in NinjaT
 
 ![tog_minus](../images/tog_minus.gif)        Understanding drawing object levels
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Drawing Object Levels Drawing Tools that include lines drawn at multiple, customizable price levels, such as Fibonacci Retracements, include a "Levels" property which can be used to add, remove, or edit levels displayed in objects drawn with that Drawing Tool.    The following Drawing Tools include a "Levels" property in the Drawing Objects dialogue:
 - Fibonacci Retracements

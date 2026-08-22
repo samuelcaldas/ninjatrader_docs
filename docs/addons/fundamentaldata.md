@@ -10,7 +10,7 @@ FundamentalData is used to access fundamental snapshot data and for subscribing 
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | AverageDailyVolume | A double representing the average daily volume |
 | Beta | A double representing the beta |

@@ -6,7 +6,7 @@
 
 ![tog_minus](../images/tog_minus-1.gif)        How to create an account connection
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Creating an Account Connection Within the Connections menu you can add a connection, change a connection or remove a connection. The following steps use Kinetick as the connectivity provider. This provider is used for demonstration purposes. You can access broker/technology specific connection help information via the NinjaTrader [Connection Guide](https://ninjatrader.com/Help-Connection-Guides).    To create an account connection:    1. Open the Connections window by going to the Connections menu within the Control Center and selecting "configure"    ControlCenter_ConnectionsConfigure    2. Select the connection provider you want to create a connection for in the Available section and select "add".    ControlCenter_Connections_ConnectionsWindow    3. After selecting "add" you will be prompted to supply the following information:
 - User defined connection name (Only use alphanumeric characters in the connection name)

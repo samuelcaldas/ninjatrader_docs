@@ -10,7 +10,7 @@ Performance values of a [collection](tradecollection.md) of [Trade](trade.md) ob
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AverageEtd](averageetd.md) | A double value representing avg end trade draw down |
 | [AverageMae](averagemae.md) | A double value representing avg maximum adverse excursion |

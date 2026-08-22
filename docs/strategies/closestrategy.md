@@ -33,7 +33,7 @@ public override void CloseStrategy(string signalName)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | signalName | The signal name which will be used to identify the closing order.  If no signal name exists or is null, "Close" will be substituted instead. |
 

@@ -17,14 +17,14 @@ struct Vector2
    
 Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Vector2() | Initializes a new instance of the Vector2 struct. |
 | Vector2(float x, float y) | Initializes a new instance of the Vector2 struct using float values for x and y components |
 
 Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | X | A float for the X component of the vector. |
 | Y | A float for the Y component of the vector. |

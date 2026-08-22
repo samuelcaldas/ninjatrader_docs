@@ -11,7 +11,7 @@ A Simulated Stop order (SS) is a conditional locally held (PC simulated) order t
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Risks
 - SS orders are held and simulated locally on your PC and are therefore subject to issues such as loss of internet connection and computer crashes
@@ -20,7 +20,7 @@ A Simulated Stop order (SS) is a conditional locally held (PC simulated) order t
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Volume Trigger A SS order requires a Volume Trigger value to be set. This is the number of shares/contracts that represents a floor that once penetrated will trigger the SS order. SS orders trigger once the market price is trading at the SS order price and the Volume Trigger condition is breached. Volume Triggers for Stop Loss orders are set as part of a Stop Strategy, Volume Triggers for all other stop orders are set via the properties dialog window of any order entry window.    SS orders are set to Initialized state (see [Order State Definitions](order_state_definitions.md)) and are color coded yellow in all of the NinjaTrader order display windows. Once triggered, either a limit order or a market order is submitted.    |  | | --- | | Note:  Simulated Stop Volume Triggers are not supported for Forex instruments. NinjaTrader will ignore this value when set for Forex instruments and instead will submit the stop order when price trades at the Simulated Stop price level. | |
 

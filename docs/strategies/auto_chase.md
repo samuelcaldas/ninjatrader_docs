@@ -4,7 +4,7 @@ Auto Chase will automatically adjust the price of a limit order as the market mo
 
 ## Auto Chase Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | 1.  Chase Limit | The maximum amount that Auto Chase will adjust your limit order price |
 | 2.  Chase | Enables Auto Chase on your entry orders |

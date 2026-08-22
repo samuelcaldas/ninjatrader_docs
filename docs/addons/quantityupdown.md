@@ -6,7 +6,7 @@ QuantityUpDown can be used as an UI element users can interact with for selectin
 
 ## Events and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Value | An int representing the quantity |
 

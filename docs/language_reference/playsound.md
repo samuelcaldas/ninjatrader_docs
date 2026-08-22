@@ -20,7 +20,7 @@ PlaySound(string fileName)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | fileName | The absolute file path of the .wav file to play |
 

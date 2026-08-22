@@ -8,13 +8,13 @@ NinjaTrader supports trading and viewing market data for spot forex pairs, in ad
 
 ![tog_minus](../images/tog_minus.gif)        Pips in ATM Strategies
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ATM Strategy Parameters The Parameter Type field within the ATM Strategy Parameters window can be changed to "Pips" to affect the way that stop loss and profit target prices are set by an ATM strategy. Just like the Pips PnL calculation mode, the Pips parameter type is based on a multiplicative factor of the Ticks parameter type (1 Pip = 10 Ticks). For example, rather than entering 200 ticks for your profit target (200 ticks = 20 pips), you can simply specify 20 pips.    Forex4    |  | | --- | | Note: If your forex data provider supports tenth-pip quotes, then you can also use the Ticks parameter type to set ATM orders with a sub-pip granularity. | |
 
 ![tog_minus](../images/tog_minus.gif)        Forex Lot Sizes
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Setting Your FX Lot Size  A "Forex Lot Size" property can be set for accounts shown in the Accounts tab of the Control Center. This setting affects the default position size populated in trading windows when a forex instrument is selected. To access this property, first select the Accounts  tab in the Control Center. Next, right click on the account you wish to edit, and select the Edit Account menu item. In the window that appears, set the Forex Lot Size property to your desired value. You can enter any amount here, whether or not it corresponds to a standard position size (Lot, Mini-Lot, Micro-Lot). For example, you could enter "102000" to automatically use a position size equal to one standard lot (100,000) plus two micro lots (2,000).    Forex6    |  | | --- | | Notes:
 - The Forex Lot Size property does not prevent you from entering or selecting different position sizes in trading windows, but only controls what is populated in the Quantity field by default. | |
@@ -25,7 +25,7 @@ NinjaTrader supports trading and viewing market data for spot forex pairs, in ad
 
 ![tog_minus](../images/tog_minus.gif)        How Bars Are Built and Orders Filled
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Building Bars with "Last Price" Data Type Forex price quotes do not use the concept of "Last Price" the same as other markets; only Bid and Ask quotes are available. Thus, when building bars using the default "Last" price type, the Bid price will be used instead. Using this price type, all bars on a chart will be built using Bid price updates, but you can choose to use the Ask price instead, if you wish. To change the price type used, first open the Data Series window on a chart, then toggle the value in the "Price Based On" field to your desired type.   Realtime Order Fills vs. Backtesting Due to the absence of a last traded price quote in forex, all Buy orders in a live market are filled at the Ask price, and all Sell orders are filled at the Bid. However, when backtesting NinjaScript strategies, all simulated order fills will occur at the Bid price, regardless of whether they were Buy or Sells orders    Forex5    1.Ask Price: All realtime Buy orders are filled at the Ask  2.Bid Price: All realtime Sell orders and all backtest Buys and Sells are filled at the Bid   |  | | --- | | Note: In backtesting, a slippage value can be set to recreate the impact of the Bid/Ask spread on trade profit and loss. NinjaScript developers can calculate the spread in strategy logic, then dynamically set the [Slippage](slippage.md) property before entering orders. For non-programmers, an estimated slippage value can be applied to all trades via the Backtest/Optimization Properties section in the [Strategy Analyzer](strategy_analyzer.md). | |
 
@@ -35,6 +35,6 @@ NinjaTrader supports trading and viewing market data for spot forex pairs, in ad
 
 ![tog_minus](../images/tog_minus.gif)        Calculating Pip Value
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | How to Calculate the Pip Value for a Forex Pair Multiplying the pip size of your currency pair by the lot size of your order will provide you the pip value. This will be in the quote/counter currency of the forex pair. The quote/counter currency is the second currency in the pair.   Example in USD for an USD Quote/Counter Currency In the following example we will do this for a 10,000 lot on the EURUSD. The quote/counter currency is USD and the EURUSD's point size is 0.0001.  10,000 x 0.0001 = 1  This indicates that 1 pip would be $1 USD.    CalculatigPip_USD   Example in USD for a GBP Base Currency In the following example we will use the EURGBP. Let's say our account is in USD and we want to convert the pip value to USD. Again we will say we are trading a 10,000 lot size and the pip value for the EURGBP is 0.0001.  10,000 x 0.0001 = 1  This indicates that 1 pip would be £1 GBP. We would then multiply this by what the GBPUSD is trading at.  In this example the GBPUSD is trading at $1.26 (rounded).  1 x 1.26 = 1.26  This indicates that 1 pip would be $1.26 USD.    CalculatigPip_GBP       |  | | --- | | Note: If the conversion rate is not available the PnL information will be in the counter/quote currency of the pair. This would create a discrepancy in your Trade Performance. | |

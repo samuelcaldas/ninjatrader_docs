@@ -8,7 +8,7 @@ MarketData can be used to access snapshot market data and for subscribing to mar
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Ask | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md) representing the ask price |
 | Bid | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the bid price |

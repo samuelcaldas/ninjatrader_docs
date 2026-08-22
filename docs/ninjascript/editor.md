@@ -1,6 +1,6 @@
 # Editor
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | NinjaScript Editor Overview  The NinjaScript Editor is a powerful scripting editor that allows you to create custom indicators and strategies efficiently.  The NinjaScript Editor includes powerful coding assistance and advanced debugging tools to help you custom build your indicator, strategy or any other supported NinjaScript type. | |
 | Display 

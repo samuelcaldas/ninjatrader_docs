@@ -20,7 +20,7 @@ AddVolumetric(isResetOnNewTradingDay) (R17 and higher only)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrumentName | string determining instrument name such as "MSFT" |
 | baseBarsPeriodType | The underlying BarsType used for the Volumetric bars period.   Possible values are:

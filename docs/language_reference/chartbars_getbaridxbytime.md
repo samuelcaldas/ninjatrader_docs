@@ -14,7 +14,7 @@ An int representing the bar index value at a specific time
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | The [ChartControl](chartcontrol.md) object used to determine the chart's time axis |
 | time | The [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) value used to convert to a ChartBar index value |

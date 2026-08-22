@@ -18,7 +18,7 @@ Stroke(Brush brush, DashStyle dashStyleHelper, float width)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | The brush used to draw the plot ([reference](http://msdn.microsoft.com/en-us/library/System.Windows.Media.Brush%28v=vs.110%29.aspx)) |
 | dashStyleHelper | Possible values:    DashStyleHelper.Dash  DashStyleHelper.DashDot  DashStyleHelper.DashDotDot  DashStyleHelper.Dot  DashStyleHelper.Solid |
@@ -27,7 +27,7 @@ Stroke(Brush brush, DashStyle dashStyleHelper, float width)
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Brush | The System.Windows.Media.Brush used to construct the stroke ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | BrushDX | A [SharpDX.Direct2D1.Brush](../drawing_tools/sharpdx_direct2d1_brush.md) used to actually render the stroke    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |

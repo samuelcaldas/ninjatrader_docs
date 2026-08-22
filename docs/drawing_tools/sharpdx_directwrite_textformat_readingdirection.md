@@ -14,7 +14,7 @@ A SharpDX.DirectWrite.ReadingDirection enum value that indicates the current rea
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | LeftToRight | Indicates that reading progresses from left to right. |
 | RightToLeft | Indicates that reading progresses from right to left. |

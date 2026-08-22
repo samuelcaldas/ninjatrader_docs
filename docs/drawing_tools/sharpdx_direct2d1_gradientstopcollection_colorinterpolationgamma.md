@@ -16,7 +16,7 @@ A SharpDX.Direct2D1.Gamma enum value specifies which gamma is used for interpola
 
 Possible values include:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | StandardRgb | Interpolation is performed in the standard RGB (sRGB) gamma. |
 | Linear | Interpolation is performed in the linear-gamma color space. |

@@ -6,7 +6,7 @@ Adds a Bars object for developing a multi-series (multi-time frame or multi-inst
 
 Related Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | AddHeikenAshi() | This method adds a Heiken Ashi Bars object for multi-series NinjaScript. |
 | AddKagi() | This method adds a Kagi Bars object for multi-series NinjaScript. |
@@ -40,7 +40,7 @@ AddDataSeries(//only for R15 and higher
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrumentName | string determining instrument name such as "MSFT" |
 | barsPeriod | BarsPeriod object (period type and interval) |

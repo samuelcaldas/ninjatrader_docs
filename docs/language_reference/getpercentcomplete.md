@@ -10,7 +10,7 @@ This method returns a double value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | bars | The [bars](bars.md) object chosen by the user when utilizing this Bars type |
 | now | The DateTime value to measure |

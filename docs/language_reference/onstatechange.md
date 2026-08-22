@@ -14,7 +14,7 @@ An event driven method which is called whenever the script enters a new [State](
 
 Related Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [SetState()](setstate.md) | Method is used for changing the State of any running NinjaScript object. |
 | [State](state.md) | Represents the current progression of the object as it advances from setup, processing data, to termination. |
@@ -72,7 +72,7 @@ After State.Configure, each type of NinjaScript type has its own state managemen
 
 The table below lists each NinjaScript type and it's designed state management system:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | NinjaScript Type | State Management System |
 | AddOns\* | Active state |

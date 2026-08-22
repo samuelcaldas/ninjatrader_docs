@@ -17,7 +17,7 @@ Represents the MergePolicy used for the bars request.
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | DoNotMerge | No merge policy is applied |
 | MergeBackAdjusted | Merge policy is applied between contracts along with rollover offsets |

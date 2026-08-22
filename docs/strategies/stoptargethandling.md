@@ -8,7 +8,7 @@ Determines how stop and target orders are submitted during an entry order execut
 
 An enum value that determines how the strategy behaves.  Default value is set to StopTargetHandling.PerEntryExecution.  Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | StopTargetHandling.ByStrategyPosition | Stop and Target order quantities will match the current strategy position.  (Stops and targets may result in "stacked" orders on partial fills) |
 | StopTargetHandling.PerEntryExecution | Stop and Target orders will match the total entry execution. (Stops and targets order quantities may not match strategy position under a partial fill scenario) |

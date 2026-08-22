@@ -16,7 +16,7 @@ struct GradientStop
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Position | A float value that indicates the relative position of the gradient stop in the brush. This value must be in the [0.0f, 1.0f] range if the gradient stop is to be seen explicitly. |
 | Color | The [SharpDX.Color](sharpdx_color.md) of the gradient stop. |

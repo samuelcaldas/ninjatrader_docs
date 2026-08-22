@@ -8,7 +8,7 @@ MarketDepth can be used to access snapshot market depth and for subscribing to m
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Asks | List of ask prices |
 | Bids | List of bid prices |

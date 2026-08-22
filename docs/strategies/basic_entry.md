@@ -2,7 +2,7 @@
 
 The Basic Entry window can be opened by left mouse clicking on the New menu within the NinjaTrader Control Center and selecting the Basic Entry menu item.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Basic Entry Overview  The Basic Entry order entry window is comprised of several components: market data display, Order Grid, action buttons, as well as order entry and ATM Strategy management. | |
 | Display  

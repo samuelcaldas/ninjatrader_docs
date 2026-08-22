@@ -21,7 +21,7 @@ BarsSinceExitExecution(int barsInProgressIndex, string signalName, int exitExecu
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | signalName | The signal name of an exit order specified in an order exit method. |
 | barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [BarsInProgress](../language_reference/barsinprogress.md) property. |

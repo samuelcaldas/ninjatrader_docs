@@ -4,7 +4,7 @@ The Market data section sets options related to market data and database managem
 
 ![Options_Marketdata](../images/options_marketdata.png)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | General |  |
 | Preferred connections - historical | Sets a connection to be used by NinjaTrader for historical data if it is connected. You can choose a separate preferred connection for each instrument type, expand the triangle to the left of the property name to set a preferred connection. |

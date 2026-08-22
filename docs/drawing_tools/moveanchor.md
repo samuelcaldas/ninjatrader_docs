@@ -14,7 +14,7 @@ This method does not return a value.
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | startPoint | The chart anchor's original starting location value represented by a point structure |
 | startDataPoint | A chart anchor's original starting location value represented by a chart anchor |

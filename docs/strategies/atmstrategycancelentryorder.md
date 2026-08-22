@@ -26,7 +26,7 @@ AtmStrategyCancelEntryOrder(string orderId)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | orderId | The unique identifier for the entry order |
 

@@ -21,7 +21,7 @@ public override bool IsVisibleOnChart(ChartControl chartControl, ChartScale char
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | A [ChartControl](chartcontrol.md) representing the x-axis |
 | chartScale | A [ChartScale](chartscale.md) representing the y-axis |

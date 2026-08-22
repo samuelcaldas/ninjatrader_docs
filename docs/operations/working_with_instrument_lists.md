@@ -8,7 +8,7 @@ NinjaTrader comes predefined with a few instrument lists that are kept up to dat
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Adding an Instrument List To create a new instrument list:    1.Select "add" in the Lists section of the Instrument Lists window  2.Type in the name of the instrument list you wish to add    InstrumentLists_Lists  Removing an Instrument List To remove an instrument list:   1. Select the list you wish to remove in the Lists section of the Instrument Lists window.  2. Select remove    |  | | --- | | Note: A predefined instrument lists cannot be removed. | |
 

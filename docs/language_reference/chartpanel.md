@@ -6,7 +6,7 @@ The ChartPanel class includes a range of properties related to the [panel](../op
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ChartObjects | A collection of objects configured on the chart panel |
 | H | Indicates the height (in pixels) of the chart panel |

@@ -20,6 +20,6 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | vector2 | A [SharpDX.Vector2](sharpdx_vector2.md) which represents the end point of the line to draw. |

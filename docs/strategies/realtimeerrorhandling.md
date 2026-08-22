@@ -12,7 +12,7 @@ Defines the behavior of a strategy when a strategy generated order is returned f
 
 An enum value determining how the strategy behaves.  Default value is set to RealtimeErrorHandling.StopCancelClose. Possible values include:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | RealtimeErrorHandling.IgnoreAllErrors | Ignores any order errors received by the strategy and will continue running. |
 | RealtimeErrorHandling.StopCancelClose | Default behavior of a strategy |

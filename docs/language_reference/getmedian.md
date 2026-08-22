@@ -16,7 +16,7 @@ A double value representing the median value of the series.
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | lookBackPeriod | Number of bars back to include in the calculation |
 | series | Any `Series<double>` type object such as an indicator, Close, High, Low, etc... |

@@ -15,7 +15,7 @@ enum MeasuringMode
    
 Enumerators
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Natural | Specifies that text is measured using glyph ideal metrics whose values are independent to the current display resolution. |
 | GdiClassic | Specifies that text is measured using glyph display-compatible metrics whose values tuned for the current display resolution. |

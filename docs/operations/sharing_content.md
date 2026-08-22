@@ -24,7 +24,7 @@ Once you have completed setup of the sharing service. You can now use this shari
 
 Right clicking on a NinjaTrader window that has sharing enabled you will see the the "Share" menu. On mouse over the "Share" all items that you can share will be available for selection. In the screenshot you have the following actions available, however please note that these will change depending on the window context you have right clicked in.
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Position... | Opens the share window with the current instrument position pre populated for message. |
 | Price... | Opens the share window with the current instrument price pre populated for message. |

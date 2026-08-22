@@ -4,7 +4,7 @@ The following menus and items are available via the Help menu of the NinjaTrader
 
 ![ControlCenter_HelpMenu](../images/controlcenter_helpmenu.png)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Resources | Opens the NinjaTrader Support web page |
 | Help Guide | Opens the application help guide (or press F1) |

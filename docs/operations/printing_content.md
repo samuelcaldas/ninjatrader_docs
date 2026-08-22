@@ -8,7 +8,7 @@ NinjaTrader has a generic approach to printing which can be accessed via the rig
 
 The print options available to you will vary depending on the window you choose to print from, in the screenshot above there are two options:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Tab Contents... | Opens the print dialog to configure print options for printing a screenshot of the Tab |
 | Window... | Opens the print dialog to configure print options for printing a screenshot of the window. |

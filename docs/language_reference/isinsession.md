@@ -12,7 +12,7 @@ A bool value when true indicates the specified time is within the current tradin
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | timeLocal | The DateTime value used to calculate the next trading day. |
 | includesEndTimeStamp | A bool determining if a timestamp of <n>:00 should fall into the current session. (e.g., used for time based intraday series such as minute or second). |

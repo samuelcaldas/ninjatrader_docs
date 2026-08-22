@@ -26,7 +26,7 @@ IsValidDataPointAt(int barIndex)
    
 Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | barIndex | An int representing an absolute bar index value |
 

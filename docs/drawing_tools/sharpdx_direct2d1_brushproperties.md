@@ -15,13 +15,13 @@ struct BrushProperties
    
 Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new BrushProperties() | Initializes a new instance of the BrushProperties structure |
 
 Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Opacity | A value between 0.0f and 1.0f, inclusive, that specifies the degree of opacity of the brush. |
 | Transform | The transformation that is applied to the brush. |

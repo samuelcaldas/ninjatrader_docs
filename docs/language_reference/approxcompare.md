@@ -20,7 +20,7 @@ this.ApproxCompare(this float float1, double float2)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | double1 / float1 | First value to compare against (not actually passed in) |
 | double2 / float2 | Second passed in value to compare against |

@@ -16,7 +16,7 @@ Get(string name)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | name | The name of the desired TradingHours object to return |
 

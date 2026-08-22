@@ -19,7 +19,7 @@ Draw.ArrowDown(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime tim
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | owner | The hosting NinjaScript object which is calling the draw method    Typically will be the object which is calling the draw method (e.g., "this") |
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |

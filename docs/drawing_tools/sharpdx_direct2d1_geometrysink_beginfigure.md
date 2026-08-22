@@ -18,7 +18,7 @@ This method does not return a value
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | vector2 | The [SharpDX.Vector2](sharpdx_vector2.md) at which to begin the new figure. |
 | figureBegin | The [SharpDX.Direct2D1.FigureBegin](sharpdx_direct2d1_figurebegin.md) which determines whether the new figure should be hollow or filled. |

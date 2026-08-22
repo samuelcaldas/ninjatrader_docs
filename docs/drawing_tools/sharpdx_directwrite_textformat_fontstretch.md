@@ -20,7 +20,7 @@ A SharpDX.DirectWrite.FontStretch enum value which indicates the type of font st
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Undefined | Predefined font stretch : Not known (0). |
 | UltraCondensed | Predefined font stretch : Ultra-condensed (1). |

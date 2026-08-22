@@ -22,7 +22,7 @@ protected override void OnPositionUpdate(PositionEventArgs positionUpdate)
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | positionUpdate | A PositionEventArgs representing the change in position |
 

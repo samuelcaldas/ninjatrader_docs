@@ -34,7 +34,7 @@ The following menus and items are available via the Workspaces menu of the Ninja
 
 ![tog_minus](../images/tog_minus.gif)        Removing a workspace
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | ControlCenter_WorkspacesRemove Remove a Workspace 1.From the NinjaTrader Control Center select the menu Workspaces  2.Move your mouse over the workspace you would like to remove  3.Select "remove". You will get a dialog asking you to confirm the delete as any remove operation cannot be undone    |  | | --- | | Note: Removing a workspace will also remove previous versions from the restore utility. However, it will not remove it from backups | |
 

@@ -6,7 +6,7 @@ Represents a change in level two market data also known as market depth and is p
 
 ## Methods and Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Instrument | A Instrument object representing the instrument of the market data |
 | IsReset | A bool value representing if a UI reset is needed after a manual disconnect.    Note: This is only relevant for columns. Whenever this property is true, the UI needs to be reset. |

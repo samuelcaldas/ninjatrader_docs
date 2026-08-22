@@ -14,7 +14,7 @@ Determines if the value of the following declared property is valid within a spe
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | maximum | Defines the highest allowed value the user can set for the property |
 | minimum | Defines the lowest allowed value the user can set for the property |

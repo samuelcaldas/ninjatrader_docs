@@ -14,7 +14,7 @@ enum SweepDirection
 
 ## Enumerators
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | CounterClockwise | Arcs are drawn in a counterclockwise (negative-angle) direction. |
 | Clockwise | Arcs are drawn in a clockwise (positive-angle) direction. |

@@ -14,7 +14,7 @@ A MaximumBarsLookBack enum value. Default value is MaximumBarsLookBack.TwoHundre
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | MaximumBarsLookBack.TwoHundredFiftySix | Only the last 256 values of the series object will be stored in memory and accessible for reference (improves memory performance) |
 | MaximumBarsLookBack.Infinite | Allow full access of the series, but you will then not be able to utilize the benefits of memory optimization |

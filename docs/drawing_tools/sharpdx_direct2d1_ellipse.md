@@ -14,14 +14,14 @@ struct Ellipse
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new Ellipse() | Initializes a new instance of the Ellipse struct |
 | new Ellipse(Vector2 center, float radiusX, float radiusY) | Initializes a new instance of the Ellipse struct with specific dimensions |
 
 ## Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Point | A [SharpDX.Vector](sharpdx_vector2.md) for the center point of the ellipse |
 | RadiusX | A float for the X-radius of the ellipse |

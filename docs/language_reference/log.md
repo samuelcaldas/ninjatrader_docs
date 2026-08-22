@@ -20,7 +20,7 @@ Log(string message, LogLevel logLevel)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | message | A string value representing the message to be logged |
 | logLevel | Sets the message level for the log event.  Different levels are color coded in the NinjaTrader log.

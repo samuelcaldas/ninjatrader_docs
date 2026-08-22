@@ -6,7 +6,7 @@ Custom SuperDOM Columns can be used to add additional functionality to the [Supe
 
 ## In this section
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [MarketDepth](../operations/superdom_marketdepth.md) | Provides Level 2 information for a SuperDOMColumn. |
 | [OnMarketData()](superdomcolumn_onmarketdata.md) | Called and guaranteed to be in the correct sequence for every change in level one market data for the underlying instrument. The OnMarketData() method updates can include but is not limited to the bid, ask, last price and volume. |

@@ -20,14 +20,14 @@ class SolidColorBrush
 
 ## Constructors
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | new LinearGradientBrush([RenderTarget](sharpdx_direct2d1_rendertarget.md) renderTarget, [LinearGradientBrushProperties](sharpdx_direct2d1_lineargradientbrushproperties.md) linearGradientBrushProperties, [GradientStopCollection](sharpdx_direct2d1_gradientstopcollection.md) gradientStopCollection) | Creates an LinearGradientBrush that contains the specified gradient stops and has the specified transform and base opacity. |
 | new LinearGradientBrush([RenderTarget](sharpdx_direct2d1_rendertarget.md) renderTarget, [LinearGradientBrushProperties](sharpdx_direct2d1_lineargradientbrushproperties.md) linearGradientBrushProperties, Nullable<[BrushProperties](sharpdx_direct2d1_brushproperties.md)> brushProperties, [GradientStopCollection](sharpdx_direct2d1_gradientstopcollection.md) gradientStopCollection) | Creates an LinearGradientBrush that contains the specified gradient stops and has the specified transform and base opacity. |
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Dispose()](sharpdx_disposebase_dispose.md) | Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. (Inherited from [SharpDX.DisposeBase](sharpdx_disposebase.md).) |
 | [EndPoint](sharpdx_direct2d1_lineargradientbrush_endpoint.md) | Retrieves or sets the ending coordinates of the linear gradient. |

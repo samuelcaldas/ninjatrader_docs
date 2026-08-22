@@ -24,7 +24,7 @@ This method returns a double value indicating the slope of a line;  A value of 0
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | series | Any `Series<double>` type object such as an indicator, Close, High, Low, etc... |
 | startBarsAgo | The starting point of a series to be evaluated |

@@ -43,7 +43,7 @@ protected override void OnRender(DrawingContext dc, double renderWidth)
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | dc | The [drawing context](https://msdn.microsoft.com/en-us/library/system.windows.media.drawingcontext(v=vs.110).aspx) for the column |
 | renderWidth | The rendering width for the column |

@@ -20,7 +20,7 @@ RenderTarget.FillEllipse(Ellipse ellipse, Brush brush)
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | A [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) used to paint the interior of the ellipse. |
 | ellipse | A [SharpDX.Direct2D1.Ellipse](sharpdx_direct2d1_ellipse.md) which describes the position and radius, in device-independent pixels, of the ellipse to paint. |

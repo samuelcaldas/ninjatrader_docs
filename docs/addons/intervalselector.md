@@ -6,7 +6,7 @@ IntervalSelector is as a UI element users can interact with for selecting interv
 
 ## Events and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Cleanup() | Disposes of the IntervalSelector (Note: calling the [NTTabPage base.Cleanup()](nttabpage_cleanup.md) is sufficient to clean up this control) |
 | Interval | A BarsPeriod representing the interval currently selected |

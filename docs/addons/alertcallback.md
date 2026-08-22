@@ -22,7 +22,7 @@ NinjaTrader.NinjaScript.Alert.AlertCallback(Instrument instrument, object source
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | instrument | An [Instrument](../language_reference/instrument.md) object associated with the alert. |
 | source | A generic object type which created the alert (e.g. "this") |

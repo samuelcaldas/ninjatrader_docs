@@ -10,7 +10,7 @@ An event driven method which is called whenever a bar is updated. The frequency 
 
 ## Related Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [BarsPeriod](barsperiod.md) | The primary Bars object time frame (period type and interval). |
 | [Calculate](calculate.md) | Determines how often [OnBarUpdate()](onbarupdate.md) is called for each bar. |

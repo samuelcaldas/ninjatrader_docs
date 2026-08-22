@@ -32,7 +32,7 @@ protected override void OnOrderUpdate(Order order, double limitPrice, double sto
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | order | An [Order](order.md) object passed by reference representing the order object |
 | limitPrice | A double value representing the limit price of the order update |
@@ -47,7 +47,7 @@ protected override void OnOrderUpdate(Order order, double limitPrice, double sto
 
 ## OrderState Values
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | OrderState.Initialized | Order is initialized in NinjaTrader |
 | OrderState.Submitted | Order is submitted to the broker |

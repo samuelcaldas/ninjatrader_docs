@@ -14,7 +14,7 @@ A SharpDX.DirectWrite.ParagraphAlignment enum value that indicates the current p
 
 Possible values are:
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Near | The top of the text flow is aligned to the top edge of the layout box. |
 | Far | The bottom of the text flow is aligned to the bottom edge of the layout box. |

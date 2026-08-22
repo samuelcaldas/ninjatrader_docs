@@ -4,7 +4,7 @@ You can run a NinjaScript strategy in real-time in a live or simulation account 
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | Setup Tips Following are some key points and instructions on on how to run a NinjaScript strategy from the Strategies tab of the Control Center window:
 - NinjaTrader MUST be connected to a live brokerage or market data vendor

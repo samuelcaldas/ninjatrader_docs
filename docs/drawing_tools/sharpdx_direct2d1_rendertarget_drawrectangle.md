@@ -22,7 +22,7 @@ RenderTarget.DrawRectangle(RectangleF rect, Brush brush, float strokeWidth, Stro
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | brush | The [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) used to paint the rectangle's stroke. |
 | rect | The [SharpDX.RectangleF](sharpdx_rectanglef.md) which determines the dimensions of the rectangle to draw, in device-independent pixels. |

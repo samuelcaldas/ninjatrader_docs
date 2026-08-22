@@ -8,7 +8,7 @@ Represents the Trading Hours information returned from the current bars series. 
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Get()](tradinghoursget.md) | Returns the Trading Hours object for the specified Trading Hours template name |
 | [GetPreviousTradingDayEnd()](getprevioustradingdayend.md) | Returns the end date and time of the previous trading session relative to the time passed in the methods parameters. |

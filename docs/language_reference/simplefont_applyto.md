@@ -12,7 +12,7 @@ Applies a custom [SimpleFont](simplefont_class.md) object's properties (family, 
 
 <SimpleFont>.ApplyTo(DependencyObject target)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | target | The [DependencyObject](https://msdn.microsoft.com/en-us/library/system.windows.dependencyobject(v=vs.110).aspx) to apply the SimpleFont object |
 

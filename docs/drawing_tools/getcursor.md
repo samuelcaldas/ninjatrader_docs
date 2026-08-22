@@ -22,7 +22,7 @@ public override Cursor GetCursor(ChartControl chartControl, ChartPanel chartPane
 
 ## Method Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | chartControl | A [ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
 | chartPanel | A [ChartPanel](../language_reference/chartpanel.md) representing the the panel for the chart |

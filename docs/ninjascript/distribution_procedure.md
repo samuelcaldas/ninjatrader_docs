@@ -14,7 +14,7 @@ Critical: It is important to let your customers know that NinjaTrader 8 indicato
 
 ![tog_minus](../images/tog_minus.gif)
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | 1. Locate your base .zip distribution package  2. Open the .zip  3. Add to the .zip file your assemblies and/or your DLL files to the root directory of the .zip. These files cannot be behind any extra directory structures and must be directly in the root of the .zip    For custom assemblies, you will also need to add to the root of the .zip a .txt file called AdditionalReferences.txt    1.Bring up the Windows Start Menu  2.Go to the Run field and type "notepad" without the quotes and press Enter  3.In Notepad, type the name of your custom assembly and then save the file as a text file with the name "AdditionalReferences".     Ex: If your custom assembly's name was MyCustomAssembly.dll and MyCustomAssembly.cs, in the AdditionalReferences.txt file you would type "MyCustomAssembly" without the quotes.  |  | | --- | | Note: If you have multiple custom assemblies to add you can append each of the assembly's names into the same AdditionalReferences.txt file on new lines | |
 

@@ -18,7 +18,7 @@ The ChartControl class provides access to a wide range of properties and methods
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [AxisXHeight](axisxheight.md) | Measures the distance (in pixels) between the x-axis and the top of the horizontal scroll bar |
 | [AxisYLeftWidth](axisyleftwidth.md) | Measures the distance (in pixels) between the y-axis and the left margin of a chart |

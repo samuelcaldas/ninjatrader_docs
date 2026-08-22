@@ -40,7 +40,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | barsAgo | The number of bars ago that serves as the starting bar and works backwards |
 | deviationType | Possible values are:  DeviationType.Points  DeviationType.Percent |

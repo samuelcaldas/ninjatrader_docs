@@ -10,7 +10,7 @@ The ChartBars class provides GUI access related methods and properties to the pr
 
 ## Methods and Properties
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | [Bars](chartbars_bars.md) | Data returned from the historical data repository. |
 | [Count](chartbars_count.md) | The total number of ChartBars that exist on the chart |

@@ -40,7 +40,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | envelopePercentage | Percentage around MA that envelopes will be drawn |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |

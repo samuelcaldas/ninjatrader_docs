@@ -21,7 +21,7 @@ RenderTarget.DrawTextLayout(Vector2 origin, TextLayout textLayout, Brush default
 
 ## Parameters
 
-|  |  |
+| Name / Option | Description |
 | --- | --- |
 | defaultForegroundBrush | The [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) used to paint any text in textLayout that does not already have a brush associated with it as a drawing effect (specified by the SetDrawingEffect method). |
 | options | A [SharpDX.Direct2D1.DrawTextOptions](sharpdx_direct2d1_drawtextoptions.md) value that indicates whether the text should be snapped to pixel boundaries and whether the text should be clipped to the layout rectangle. The default value is None, which indicates that text should be snapped to pixel boundaries and it should not be clipped to the layout rectangle. |
