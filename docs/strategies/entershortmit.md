@@ -38,6 +38,8 @@ EnterShortMIT(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, 
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

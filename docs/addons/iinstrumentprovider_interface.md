@@ -4,6 +4,8 @@ When creating your [NTTabPage](nttabpage_class.md), if you wish to use the [inst
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public class MyWindowTabPage : NTTabPage, IInstrumentProvider
 {

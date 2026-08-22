@@ -1,3 +1,81 @@
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 # NinjaScript Best Practices
 
 There are some best practices to be aware of when developing NinjaScript classes. The following tables present a non-exhaustive list of considerations to keep in mind when designing and implementing your code.
@@ -65,7 +143,9 @@ protected override void OnStateChange()
     }
 }
 
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     // Complex operations should be delayed to >= State.Configure
@@ -411,7 +491,9 @@ foreach (HorizontalLine hLine in DrawObjects)
 }
 If you must cast, do so safely and avoid implicit casts to types which may not be guaranteed to succeeded
 
-csharp
+```
+
+```csharp
 // Use the base IDrawingTool type and then cast to the desired type within the for loop
 foreach (IDrawingTool hLine in DrawObjects)
 {
@@ -533,7 +615,9 @@ if (Bars.IsFirstBarOfSession)
 }
 The same considerations would apply to variables or function calls that would not change their output value for the currently processed bar on [Calculate.OnEachTick](../language_reference/calculate.md) or [.OnPriceChange](../language_reference/calculate.md), thus there would be no need handling them outside of [IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
 
-csharp
+```
+
+```csharp
 // dedicated logic to cache the prior sum on each tick of bar
 // While it is a good practice, this can cause problems for bar types which may remove last bar (see below)
 if (IsFirstTickOfBar)
@@ -544,7 +628,9 @@ Caching values on bars which remove last bar
 Building on the previous example, be careful when caching values on the first tick of bar if using bars types which are [IsRemoveLastBarSupported](../language_reference/isremovelastbarsupported.md).
 To see how to handle these situations best, take a look at the default SMA indicator which has an additional logic branch which disables caching on those bar types:
 
-csharp
+```
+
+```csharp
 // logic below disables first tick of bar caching only on bar types which remove last bar
 if (BarsArray[0].BarsType.IsRemoveLastBarSupported)
 {
@@ -574,7 +660,9 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
     // render myValue
 }
 
-csharp
+```
+
+```csharp
 private double myValue;
 protected override void OnBarUpdate()
 {
@@ -624,7 +712,9 @@ protected override void OnBarUpdate()
 With just a little extra code (much less than what is in the Draw methods) custom SharpDX rendering greatly reduces CPU and Memory consumption
 Please ensure a Direct2D1 factory would only be instantiated from [OnRender()](../language_reference/onrender.md) or [OnRenderTargetChanged()](../language_reference/onrendertargetchanged.md) (which run in the UI thread), as access from other threads outside those methods could cause a degradation in performance.
 
-csharp
+```
+
+```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {
     // achieves the same effect of drawing a dot on every bar
@@ -697,7 +787,9 @@ protected override void OnBarUpdate()
 }
 Instead, try using a Timer object if you need to delay logic execution.
 
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     if (IsFirstTickOfBar && State == State.Realtime)
@@ -734,7 +826,9 @@ if (Value[0] == Close[0])
     // do something
 }
 
-csharp
+```
+
+```csharp
 Best practice | | --- | | // you can avoid these precision issues by rewriting the comparison to evaluate within a certain tolerance.
 if (Math.Abs(Value[0] - Close[0]) < TickSize)
 {

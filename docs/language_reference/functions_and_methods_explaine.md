@@ -88,11 +88,26 @@ private void ExampleMethod()
 
 You can declare variables within a method. These variables are local in scope, which means they can only be accessed within the method and not outside of it, such as in your main script.
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Example method using a variable
+
+![Ns](../images/ns.png)
+
 private double MyMethod()
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 {
     double myDouble = 100.25
     return myDouble \* 10;
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 }
 ```

@@ -20,6 +20,8 @@ Priority
 
 Filters alerts by user defined priority
 
+![Alerts Log 1](../images/alerts_log_1.png)
+
 Source
 
 Filters alerts by originating source
@@ -63,6 +65,8 @@ Set the Alerts Log properties
 ## Setting up alert filters
 
 Filtering AlertsBy default, all alerts triggered in the workspace will be displayed in the Alerts Log window.  However, each Alerts Log window and tab has the capability to only display certain alerts based on a number of alert attributes.    The following alert filter attributes will be available from the Alerts Log right click menu:
+
+![Alerts Log 2](../images/alerts_log_2.png)
 
 ---
 

@@ -32,6 +32,8 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 The image below shows the output of the code example above, while applied in a chart panel with three objects.
 
+![Ns](../images/ns.png)
+
  
 
 ![ChartPanel_ChartObjects](../images/chartpanel_chartobjects.png)

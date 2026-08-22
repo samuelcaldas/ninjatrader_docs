@@ -14,6 +14,8 @@ A Currency object containing information about the currency denomination specifi
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private Account myAccount;
 protected override void OnStateChange()

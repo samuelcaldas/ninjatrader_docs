@@ -36,6 +36,8 @@ Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, int st
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Draws a Fibonacci circle
 Draw.FibonacciCircle(this, "tag1", true, 10, Low[10], 0, High[0]);

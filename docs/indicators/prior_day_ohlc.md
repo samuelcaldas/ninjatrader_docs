@@ -47,6 +47,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the value of the prior session low
 double value = PriorDayOHLC().PriorLow[0];

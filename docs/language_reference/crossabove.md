@@ -28,6 +28,8 @@ CrossAbove(`ISeries<double>` series1, `ISeries<double>` series2, int lookBackPer
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

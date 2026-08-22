@@ -48,6 +48,12 @@ Instead of [SendMail()](../language_reference/sendmail.md), use Globals.SendMail
 
 ## Examples
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 > ns  // Instead of Log()  NinjaScript.Log("My log message", LogLevel.Error);     // Instead of PlaySound()  NinjaTrader.Core.Globals.PlaySound(@"C:\mySound.wav");     // Instead of SendMail()  NinjaTrader.Core.Globals.SendMail("[email protected](mailto:platformsupport@ninjatrader.com)", "[email protected](mailto:platformsupport@ninjatrader.com)", "Subject", "Mail body", null);
 
  

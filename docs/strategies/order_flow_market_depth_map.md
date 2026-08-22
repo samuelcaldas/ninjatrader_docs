@@ -53,6 +53,8 @@ Input that indicates what value would have the least opacity
 
 Input that indicates how many levels of depth on the bid and ask side to show. How many levels can be displayed will be limited by how many levels the data provider supplies.
 
+![Depthmaprealtime](../images/depthmaprealtime.png)
+
 Opacity distribution
 
 ---
@@ -76,3 +78,13 @@ Display mode
 - Realtime and Historical Depth (default)
 - Realtime Depth
 - Historical Depth | | Real time depth width | The margin of pixels (between the last price and time axis) to display the currently building realtime depth map | | Extend last known volume | If enabled, areas where no market depth was reported, but a market depth was reported to the previous bar’s price level, the value will be carried over to the next bar. It will continue carrying over until a new market depth is received at that price. | | Color for bid depth | Color for depth on the bid side of the market | | Color for ask depth | Color for depth on the ask side of the market | | Show bid/ask line on close | If enabled show the line on close for the bid and ask prices | |
+
+![Ofmdm4](../images/ofmdm4.png)
+
+![Ofmdm3](../images/ofmdm3.png)
+
+![Ofmdm2](../images/ofmdm2.png)
+
+![Ofmdm1](../images/ofmdm1.png)
+
+![Ofmdm5](../images/ofmdm5.png)

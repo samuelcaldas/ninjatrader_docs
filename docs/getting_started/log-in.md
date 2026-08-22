@@ -24,6 +24,8 @@ Once you have your NinjaTrader credentials, you can enter them under the Usernam
 
 If you registered for a demo using your Google or Apple account, you can select to connect with those options.
 
+![Login](../images/login.png)
+
 ## Forgot Username or Password
 
 To retrieve a forgotten username or password select Need help?.

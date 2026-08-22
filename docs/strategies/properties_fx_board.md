@@ -121,3 +121,5 @@ Enables / Disables the Order Grid display
 ## Using Tab Name Variables
 
 > Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the FX Board Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](../operations/using_tabs.md) page.
+
+![Fxboard 25](../images/fxboard_25.png)

@@ -23,6 +23,8 @@ A double value representing the median value of the series.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

@@ -19,6 +19,8 @@ Here we declared the variable "average" which is of type double. This serves as 
 
 Enter the following code into the OnBarUpdate() method and below the code snippet you entered above:
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Set the calculated value to the plot
 MyPlot[0] = average;
@@ -53,6 +55,9 @@ public class VolSMA : Indicator
             = true;
             ScaleJustification
             = NinjaTrader.Gui.Chart.ScaleJustification.Right;
+
+![Ns](../images/ns.png)
+
             //Disable this property if your indicator requires custom values that cumulate with each new market data event.
             //See Help Guide for additional information.
             IsSuspendedWhileInactive
@@ -74,6 +79,9 @@ public class VolSMA : Indicator
     }
     #region Properties
     [NinjaScriptProperty]
+
+![Ns](../images/ns.png)
+
     [Range(1, int.MaxValue)]
     [Display(Name="Periods", Description="Number of periods", Order=1, GroupName="Parameters")]
     public int Periods

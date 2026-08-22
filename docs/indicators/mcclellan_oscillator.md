@@ -24,6 +24,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // An ADV and DECL data series must be added to OnStateChange() else if (State == State.Configure){ AddDataSeries("^ADV"); AddDataSeries("^DECL");} // Prints the current value of the McClellan Oscillator with a 19 fast period moving average & 39 slow period
 double value = McClellanOscillator(19, 39)[0];

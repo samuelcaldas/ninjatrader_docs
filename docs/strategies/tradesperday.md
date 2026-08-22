@@ -14,6 +14,8 @@ An int value that represents the average number of trades per day.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

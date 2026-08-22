@@ -23,6 +23,9 @@ Stroke(Brush brush, DashStyle dashStyleHelper, float width)
 | brush | The brush used to draw the plot ([reference](http://msdn.microsoft.com/en-us/library/System.Windows.Media.Brush%28v=vs.110%29.aspx)) |
 | dashStyleHelper | Possible values:    DashStyleHelper.Dash  DashStyleHelper.DashDot  DashStyleHelper.DashDotDot  DashStyleHelper.Dot  DashStyleHelper.Solid |
 | stroke | The [stroke](stroke_class.md) object |
+
+![Ns](../images/ns.png)
+
 | width | The width of the stroke |
 
 ## Properties
@@ -47,6 +50,8 @@ Stroke(Brush brush, DashStyle dashStyleHelper, float width)
 ## Examples
 
 See the [AddPlot()](../indicators/addplot.md) method for additional examples.
+
+![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnStateChange()
@@ -79,7 +84,9 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 [NinjaScriptProperty]
 [Description("My Stroke")]
 public Stroke MyStroke { get; set; }
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.SetDefaults)

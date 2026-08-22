@@ -16,6 +16,8 @@ Very simply put the Genetic Algorithm attempts to find the most optimal set of p
 
 Please see the "[Optimize a Strategy](optimize_a_strategy.md)" article for how to run an optimization.    When you select the Genetic optimizer you will see the following optimization properties after you left click the triangle to the left of "GO Properties" to expand the properties.    StrategyAnalyzer_Optimization_GOParams
 
+![Strategyanalyzer Optimization Goparams](../images/strategyanalyzer_optimization_goparams.png)
+
 ---
 
 ---
@@ -48,9 +50,13 @@ Mutation strength (%)
 
 Sets the maximum offset from crossover values that an offspring marked for mutation can have its parameters changed (applies only to input parameters of type double)
 
+![Playvideo](../images/playvideo.jpg)
+
 Reset size (%)
 
 When each new generation is created, all individuals from previous generations are possible parents for the new offsprings. If the top performing x% (stability size %) of children from the newly created generation is the same as the top performing x% of parents, reset all parents and repopulate a new generation randomly while leaving only the top performing y% of parents (reset size %) for future generations. Note: This occurs before convergence threashold is tested.
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
 
 Stability size (%)
 

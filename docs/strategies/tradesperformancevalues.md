@@ -28,6 +28,8 @@ Performance values of a [collection](tradecollection.md) of [Trade](trade.md) ob
 ## Examples
 
 ```csharp
+![Ns](../images/ns.png)
+
 protected override void OnBarUpdate()
 {
     // If the profit on real-time trades is > $1000 stop trading

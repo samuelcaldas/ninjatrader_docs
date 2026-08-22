@@ -12,6 +12,8 @@ Majority of NinjaTrader's order entry interfaces house the same control for defi
 
 ATM Strategy Parameters Select Custom to define a new ATM Strategy or select the saved ATM Strategy template and select "edit" in the ATM Strategy combo box as seen below.    ServerSideATM_2    In the image below there are parameters that define the ATM Strategy. This strategy is a single quantity strategy that will automatically place its target at 10 ticks above the average entry price and stop loss 10 ticks below.    ServerSideATM_3    Selecting the "add" will allow you to configure additional Targets for your ATM Strategy.  You can add as many targets as you desire.  Selecting "remove" will reduce the number of configured Targets that are configured.    ServerSideATM_4
 
+![Serversideatm 2](../images/serversideatm_2.png)
+
 ---
 
 ---
@@ -44,6 +46,8 @@ $ Value
 
 Cash value away from the average entry, based on to Tick value of the instrument.
 
+![Serversideatm 1](../images/serversideatm_1.png)
+
 Example: Long 1 contract on the ES at 4,000.00. If you wanted your Profit target to be at 4,001.00 you would use: Ticks - 4, Delta Price 1.00, or $ Value - 50.00
 
 Quantity
@@ -57,6 +61,10 @@ Sets the value that determines the Stop Loss price. If the value is set to 4 (ti
 Profit
 
 Sets the value that determines the Profit target price. If the value is set to 4 (ticks) and your average entry for initiating the order is 1000 and you are long, your Profit target would be submitted at AvgEntry + Profit target = 1000 + 4 ticks = 1001 Profit target. This assumes that each tick is valued at 0.25.
+
+![Serversideatm 4](../images/serversideatm_4.png)
+
+![Serversideatm 3](../images/serversideatm_3.png)
 
 Stop Strategy
 

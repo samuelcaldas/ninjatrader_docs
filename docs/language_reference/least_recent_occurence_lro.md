@@ -28,6 +28,8 @@ An int value representing the number of bars ago. Returns a value of -1 if the s
 
 `Examples`
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

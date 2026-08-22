@@ -16,6 +16,8 @@ Represents an interface that exposes information regarding a Region [IDrawingToo
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a Region object
 Region myRegion = Draw.Region(this, "tag1", CurrentBar, 0, Bollinger(2, 14).Upper, Bollinger(2, 14).Lower, null, Brushes.Blue, 50);

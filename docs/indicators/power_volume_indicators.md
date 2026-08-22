@@ -13,3 +13,15 @@ NinjaTrader includes several real-time volume based indicators that are designed
 ## Volume Profile
 
 > Volume Profile Indicator The VolumeProfile indicator plots a real-time volume profile as a vertical histogram on a chart. Each bar represents the volume (number of trades) that accumulate at each bar from the time the indicator is started or re-started on the chart. Bars are color coded to represent the number of Buys (trades at the Ask or higher), Sells (trades at the Bid or lower) and neutrals (trades between the market). This indicator provides you with instant feedback to identify support and resistance levels and determine whether accumulation or distribution is taking place at those levels. A cyan colored diamond is automatically drawn at the starting bar of the VolumeProfile indicator.    TickReplay5    1) In the image above, the VolumeProfile indicator has just been applied with Tick Replay enabled, allowing it to display historical data.    TickReplay6    2) In the image above, the VolumeProfile indicator has just been applied with Tick Replay disabled, limiting it to only displaying what has been calculated in real time.
+
+![Tickreplay6](../images/tickreplay6.png)
+
+![Tickreplay5](../images/tickreplay5.png)
+
+![Tickreplay4](../images/tickreplay4.png)
+
+![Tickreplay3](../images/tickreplay3.png)
+
+![Tickreplay2](../images/tickreplay2.png)
+
+![Tickreplay1](../images/tickreplay1.png)

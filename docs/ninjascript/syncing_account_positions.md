@@ -108,4 +108,6 @@ Immediately submit
 
 > **Note:** The reconciliatory market order is submitted outside of the strategy so your strategy will not be able to manage it from methods like OnOrderUpdate(), OnExecution(), etc.
 
+![Sync Strategies](../images/sync_strategies.png)
+
  |

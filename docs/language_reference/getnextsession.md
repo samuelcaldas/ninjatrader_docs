@@ -25,6 +25,10 @@ A bool value when true indicates the method was able to successfully calculate t
 
 ## Example
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 SessionIterator sessionIterator;
 protected override void OnStateChange()
@@ -43,7 +47,9 @@ protected override void OnBarUpdate()
         sessionIterator.GetNextSession(Time[0], true);
     }
 }
-csharp
+```
+
+```csharp
 SessionIterator rthSessionIterator;
 protected override void OnStateChange()
 {

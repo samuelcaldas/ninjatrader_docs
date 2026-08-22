@@ -14,6 +14,8 @@ A bool value which when true will display the anchor data values from the drawin
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {

@@ -13,12 +13,34 @@ The FX Board can be setup for use with an unlimited number of Forex or CFD instr
 
 > Flipping Tiles Each instrument tile located on the FX Board display has a reverse side which can be flipped over allowing for custom order entry.  To flip a tile, simply click the FXBoard_8 icon on the top right corner of the instrument tile.    FXBoard_7  Once the tile has been flipped, you will see a number of additional controls which can be used to define and submit custom orders.    FXBoard_9  Please see the section on [Submitting Orders](submitting_orders_fx_board.md) for more information on how to use these controls.    Tip:  It is possible to add two tiles of the same instrument, allowing you to display the 1 Market Display and 2 Custom Order Entry sides simultaneously.    FXBoard_10
 
+![Fxboard 10](../images/fxboard_10.png)
+
 ## Customizing tiles
 
 - Right click on the FX Board window, select Properties, locate the Tile size property and select: Small, Medium, or Large   Disabling Quick Order Entry By default, Sell and Buy buttons of each instrument tile will act as a order entry feature to quickly submit and execute market orders.  However, this feature can be disabled which will allow you to only use the front of the instrument tile for market data and position display.    To disable Quick Order Entry, right click on the FX Board and uncheck Quick Order Entry.  With his configuration, you will still have the ability to flip the instrument tile and use the custom controls to place orders.  Highlight Duration  When a new tick is received on an instrument, the Sell or Buy button of an instrument tile will highlight to represent the direction of the current tick.  The default duration for this highlight is 1000ms, or 1 second.  The FX Board will allow you increase, or decrease the amount of time the tile will remain highlighted to your preferences.    To configure this property:
+
+![Fxboard 9](../images/fxboard_9.png)
+
 - Right click on the FX Board window, select Properties, locate the Highlight duration (ms) property and input a custom value (in milliseconds).    The higher the value used, the longer the tile will remained highlighted.  Setting the highlight duration to a value of "0" (zero) will disable highlighting all together.   Market Data Display Text Instrument tiles will display the current daily high/low value for the selected instrument as determined by your data provider.  However, this text can be changed to display the amount of time since last tick, or the text can disabled completely.    To configure this setting:
+
+![Fxboard 12](../images/fxboard_12.png)
+
+![Fxboard 11](../images/fxboard_11.png)
+
 - Right click on the FX Board window, select Properties, locate the Display property, and choose from one of the following display options in the table below    |  |  |  | | --- | --- | --- | | Daily High low | Time last tick | None | | FXBoard_13 | FXBoard_11 | FXBoard_12 |   |  
 
+![Fxboard 13](../images/fxboard_13.png)
+
+![2](../images/2.png)
+
 > **Note:** Customizations will apply to the entire FX Board window, and will not be applied on a per instrument tile basis.
+
+![1](../images/1.png)
+
+![Fxboard 7](../images/fxboard_7.png)
+
+![Fxboard 8](../images/fxboard_8.png)
+
+![Fxboard 15](../images/fxboard_15.png)
 
     For further customization of the FX Board window, please see the [FX Board Properties](properties_fx_board.md) topic. |

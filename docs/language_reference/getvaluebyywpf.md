@@ -20,6 +20,8 @@ A double value representing a series value on the chart scale.  This is normally
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

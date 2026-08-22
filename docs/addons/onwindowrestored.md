@@ -23,6 +23,8 @@ OnWindowRestored(Window window, XElement element)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnWindowRestored(Window window, XElement element)
 {

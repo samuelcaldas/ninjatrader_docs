@@ -1,5 +1,7 @@
 # NumericTextBox
 
+![Ns](../images/ns.png)
+
 NumericTextBox provides functionality for numeric text boxes to capture user input. This UI element can be defined in XAML for an AddOn if desired, with functionality and logic related to the text box defined in C#, as in the examples below.
 
 > **Note:** For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)
@@ -16,6 +18,8 @@ NumericTextBox inherits from [System.Windows.Controls.Textbox](https://msdn.micr
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 <!-- Create a grid in which to place the NumericTextBox -->
 <Grid>
@@ -27,7 +31,9 @@ NumericTextBox inherits from [System.Windows.Controls.Textbox](https://msdn.micr
 </t:NumericTextBox.Margin>
 </t:NumericTextBox>
 </Grid>
-csharp
+```
+
+```csharp
 private NumericTextBox daysBack;
 private DependencyObject LoadXAML()
 {

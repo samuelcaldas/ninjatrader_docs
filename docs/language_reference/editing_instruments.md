@@ -60,6 +60,10 @@ The website address of the instrument definition
 
 > Splits & Dividends With an equity instrument selected, the Splits & Dividends section will be available for editing. NinjaTrader will split and dividend adjust historical chart data based on the information defined per instrument and if [options are enabled](../getting_started/options_marketdata.md) to do so. Some market data providers provide already adjusted data while others do not. Please see the [Adding Splits and Dividends](adding_splits_and_dividends.md) page of the help guide for more information on adding split and dividend data to an instrument.    Clicking the Update button will attempt to download Split & Dividend data directly from your provider so that manual entry is not necessary.    Instruments_InstrumentSplitsAndDividends
 
+![Instruments Instrumentsplitsanddividends](../images/instruments_instrumentsplitsanddividends.png)
+
+![Instruments Instrumentsymbolmap](../images/instruments_instrumentsymbolmap.png)
+
 ## Understanding the Contract months section
 
 | Name / Option | Description |
@@ -75,3 +79,11 @@ The website address of the instrument definition
 - One day prior to the rollover date, calculate the difference between the close price of the new expiry and the close price of the old expiry. This is the Offset value.
 - If you wish to overwrite the calculated Offset value you can input in your own
 - When using minute data, the close price at the ending time as defined in the default session template for the instrument will be used    |  | | --- | | Notes:  1.If you inputted your own Offset value, it will be overwritten by values downloaded from the data server if it exists there. To prevent this you will need to ensure that your rollover date is not the same as the ones coming from the data server.  2.The rollover date is the date to roll into the selected contract month and NOT out of. | |
+
+![Instruments Instrumentcontractmonths](../images/instruments_instrumentcontractmonths.png)
+
+![Instruments Contractmonths](../images/instruments_contractmonths.png)
+
+![Instruments Instrumentwindow](../images/instruments_instrumentwindow.png)
+
+![Instruments Contractmonths2](../images/instruments_contractmonths2.png)

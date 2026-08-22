@@ -14,6 +14,8 @@ OrderUpdate
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 /\* Example of subscribing/unsubscribing to order update events from an Add On. The concept can be carried over
 to any NinjaScript object you may be working on. \*/

@@ -24,6 +24,8 @@ DrawObjects.Count
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -42,7 +44,9 @@ protected override void OnBarUpdate()
         // Do something drawing tool line
     }
 }
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     if (DrawObjects.Count == 3)
@@ -50,7 +54,9 @@ protected override void OnBarUpdate()
         // Do something
     }
 }
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // Loops through the DrawObjects collection via a threadsafe list copy
@@ -61,6 +67,11 @@ protected override void OnBarUpdate()
         {
             DrawingTools.Line globalLine = draw as DrawingTools.Line;
             // Changes the line color and prints its starting and end points
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
             globalLine.Stroke.Brush = Brushes.Black;
             Print("Start: " + globalLine.StartAnchor.SlotIndex + " End: " + globalLine.EndAnchor.SlotIndex);
         }

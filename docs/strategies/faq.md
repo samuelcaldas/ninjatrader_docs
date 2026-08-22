@@ -124,6 +124,8 @@ Please see the [ATM Strategy Parameters](atm_strategy_parameters.md) section of 
 - Then place a stop order where you want to exit at a loss
 - Lastly, right click again and select the menu item "OCO Order" to disable the OCO order placement    Now you have a target and a stop placed protecting your open position, and when one of these orders is filled the other will be cancelled automatically.    ATM_41
 
+![Atm 41](../images/atm_41.png)
+
 ## How do I make one target a "runner" so that it has a Stop Loss only and no Profit Target?
 
 > If you want a target in your ATM Strategy to have a Stop Loss only then set the Profit Target to zero.
@@ -131,3 +133,5 @@ Please see the [ATM Strategy Parameters](atm_strategy_parameters.md) section of 
 ## What happens as one of my ATM orders are rejected?
 
 > If an ATM Strategy Entry is rejected, the stops and targets for the Entry will not be entered.  If a Stop Loss or Profit Target order is rejected, all Stop Losses and Profit Targets for the ATM will be canceled. This includes all Stop Losses and Profit Targets to an ATM you are scaling into.
+
+![Atm 40](../images/atm_40.png)

@@ -18,6 +18,10 @@ protected override void OnStateChange()
 
 To choose which panel you want your indicator plotted on you can use this code snippet in `State.DataLoaded`:
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 VOL().Panel = 1;
 AddChartIndicator(VOL());
@@ -52,6 +56,17 @@ To customize lines you can do it the same way as above:
 
 ```csharp
 RSI(14, 3).Lines[0].Brush = Brushes.Green;
+
+![Ns](../images/ns.png)
+
 ```
 
 Remember, you need to use the [AddChartIndicator()](addchartindicator.md) method to add your indicator if you wish to use any of the plot / line indicator customization examples.
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)

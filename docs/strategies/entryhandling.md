@@ -25,6 +25,8 @@ EntryHandling
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Example #1
 protected override void OnStateChange()
@@ -40,8 +42,13 @@ protected override void OnBarUpdate()
     if (CrossAbove(SMA(10), SMA(20), 1)
     EnterLong("SMA Cross Entry");
 }
-csharp
+```
+
+```csharp
 // Example #2
+
+![Ns](../images/ns.png)
+
 protected override void OnStateChange()
 {
     if (State == State.SetDefaults)

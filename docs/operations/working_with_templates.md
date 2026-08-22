@@ -8,6 +8,8 @@ NinjaTrader allows you to save your customized Market Analyzer layout as a templ
 - Market Analyzer [properties](market_analyzer_properties.md)
 - Instrument Rows   Saving a Market Analyzer Template To save a Market Analyzer template (shown in the image below):    1.Configure your desired Market Analyzer columns and properties ( see the "[Working with Columns](working_with_columns.md)" and "[Market Analyzer Properties](market_analyzer_properties.md)" sections of the Help Guide for more information)  2.Right mouse click within the Market Analyzer  3.Select the menu item Templates  4.Select the menu item Save As...  (You can optionally select the menu item Save As Default to save the current settings as default. Any new Market Analyzer will load with these new default settings)    MarketAnalyzer_15    5. Enter a name for your Market Analyzer template  6. Optionally check Save Instruments to save the current display of instrument rows in the Market Analyzer template     MarketAnalyzer_16  7. Press the Save button
 
+![Marketanalyzer 15](../images/marketanalyzer_15.png)
+
 ## How to load a Market Analyzer Template
 
 > Loading a Market Analyzer Template To load a saved Market Analyzer template:    1.Right mouse click within the Market Analyzer  2.Select the menu item Templates  3.Select the menu item Load  4.Select the template you wish to load from the Load dialog menu and press the OK button
@@ -17,3 +19,7 @@ NinjaTrader allows you to save your customized Market Analyzer layout as a templ
 | Name / Option | Description |
 | --- | --- |
 | Removing a Market Analyzer Template To remove a saved Market Analyzer template:    1.Right mouse click within the Market Analyzer  2.Select the menu item Templates  3.Select the menu item Load  4.Right click on the template you wish to remove from the Load dialog menu and select the Remove menu item    MarketAnalyzer_17    |  | | --- | | Note  If you wish to rename an existing template, you can select Rename from the same menu | |
+
+![Marketanalyzer 17](../images/marketanalyzer_17.png)
+
+![Marketanalyzer 16](../images/marketanalyzer_16.png)

@@ -2,6 +2,8 @@
 
 ## Definition
 
+![Ns](../images/ns.png)
+
 A collection of PriceLevel objects defining lines for multi-price-level [Drawing Tools](drawing.md) (Fibonacci tools, etc.). Each PriceLevel within the collection can be configured programmatically or analyzed to obtain the parameters of user-drawn objects.
 
  
@@ -34,6 +36,8 @@ PriceLevels[int idx].GetY(ChartScale chartScale, double startPrice, double total
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Define a FibonacciRetracements object outside of OnBarUpdate(), so the same object can be re-used
 FibonacciRetracements myRetracements;
@@ -52,7 +56,9 @@ protected override void OnBarUpdate()
         Print(p.GetPrice(myRetracements.StartAnchor.Price, myRetracements.EndAnchor.Price - myRetracements.StartAnchor.Price, false));
     }
 }
-csharp
+```
+
+```csharp
 // Define a TrendChannel object outside of OnBarUpdate(), so the same object can be re-used
 TrendChannel myTCh;
 protected override void OnBarUpdate()

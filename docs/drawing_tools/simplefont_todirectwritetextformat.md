@@ -22,6 +22,8 @@ Converts a [SimpleFont](../language_reference/simplefont_class.md) object to a [
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

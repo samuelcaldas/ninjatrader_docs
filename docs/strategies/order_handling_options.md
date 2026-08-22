@@ -2,6 +2,8 @@
 
 > There are several Order Handling options available for the signals sent from TradeStation.  All Order Handling options are available by selecting the Tools menu in the Control Center, selecting the menu name Options, and then selecting the Automated trading interface category.  Please review all of the following Order Handling options to ensure your orders are managed as expected.    ATI_2
 
+![Ati 2](../images/ati_2.png)
+
 > Submit market order on TS fill Submits a market order when NinjaTrader receives a "strategy filled order" notification email from TradeStation. This is the recommended option.
 
 | Name / Option | Description |

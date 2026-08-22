@@ -29,6 +29,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current value of a 20 period TSF using default price type
 double value = TSF(3, 20)[0];

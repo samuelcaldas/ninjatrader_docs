@@ -12,6 +12,8 @@ NinjaScript provides helper methods to convert from application pixels to device
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

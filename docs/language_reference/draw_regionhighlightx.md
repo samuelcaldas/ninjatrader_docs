@@ -39,6 +39,8 @@ Draw.RegionHighlightX(NinjaScriptBase owner, string tag, int startBarsAgo, int e
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Fills in the region between the startBar and endBar
 Draw.RegionHighlightX(this, "tag1", 10, 0, Brushes.Blue);

@@ -4,6 +4,8 @@ In order for instrument linking to work properly in your Add On, Instrument must
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // IInstrumentProvider member
 public Instrument Instrument

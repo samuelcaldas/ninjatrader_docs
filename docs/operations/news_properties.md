@@ -55,3 +55,5 @@ Sets if the Reading Pane is displayed
 ## How to preset property defaults
 
 > Once you have your properties set to your preference, you can left mouse click on the "preset" text located in the bottom right of the properties dialog. Selecting the option "save" will save these settings as the default settings used every time you open a new window/tab.    If you change your settings and later wish to go back to the original settings, you can left mouse click on the "preset" text and select the option to "restore" to return to the original settings.
+
+![News 6](../images/news_6.png)

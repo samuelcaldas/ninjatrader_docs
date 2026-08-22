@@ -37,6 +37,8 @@ ExitShortLimit();
 
 Limit orders allow you to specify the price you want to be filled at. These orders are useful on low volatility instruments because they ensure you get filled at the price you specified or better. Take note that limit orders are not guaranteed to execute and may cause only partial fills.
 
+![Ns](../images/ns.png)
+
 ```csharp
 EnterLongStopLimit();
 EnterShortStopLimit();
@@ -58,3 +60,11 @@ ExitShortMIT();
  
 
 The MIT (Market If Touched) order allows the order to be submitted at Market once the price is touched. This order is similar to a stop order except the buy and sell actions are reversed. For example, a buy MIT order is submitted below market where a buy Stop would be submitted above market.
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)

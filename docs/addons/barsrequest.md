@@ -45,6 +45,8 @@ BarsRequest(Cbi.Instrument instrument, DateTime fromLocal, DateTime toLocal)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 /\* Example of subscribing/unsubscribing to bars data events from an Add On as well as making bars requests.
 The concept can be carried over to any NinjaScript object you may be working on. \*/

@@ -10,6 +10,8 @@ This interface contains two methods which must be hidden:
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public class MyWindowFactory : INTTabFactory
 {

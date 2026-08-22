@@ -16,6 +16,8 @@ A double value representing the width of the chart scale.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

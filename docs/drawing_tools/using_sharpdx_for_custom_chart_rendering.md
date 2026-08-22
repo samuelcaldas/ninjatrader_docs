@@ -1,6 +1,16 @@
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 # Using SharpDX for Custom Chart Rendering
 
 ## Understanding the SharpDX .NET Library
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
 
 NinjaTrader Chart objects (such as Indicators, Strategies, DrawingTools, ChartStyles) implement an [OnRender()](../language_reference/onrender.md) method aimed to render custom lines, shapes, and text to the chart.  To achieve the level of performance required to keep up with market data events, NinjaTrader uses a 3rd-party open-source .NET library named [SharpDX](http://sharpdx.org/).  This 3rd party library provides a C# wrapper for the powerful [Microsoft DirectX API](https://msdn.microsoft.com/en-us/library/windows/desktop/ee663274(v=vs.85).aspx) used for graphics processing and known for its hardware-accelerated performance, including 2D vector and text layout graphics used for NinjaTrader Chart Rendering.  The SharpDX/DirectX library is extensive, although NinjaTrader only uses a handful of namespaces and classes, which are documented as a guide in this reference.  In addition to this educational resource, we have also compiled a more focused collection of [SharpDX SDK Reference](sharpdx_sdk_reference.md) resources to help you learn the SharpDX concepts used in NinjaTrader Chart Rendering.
 
@@ -25,6 +35,8 @@ There are three main SharpDX namespaces you need to be familiar with:
 The rest of this page will help you navigate the fundamental concepts needed to achieve custom rendering to your charts.
 
 ```csharp
+![Ns](../images/ns.png)
+
 // creates a vector located at the top left corner of the chart
 float x = 0;
 float y = 0;
@@ -39,16 +51,24 @@ Vector2 objects contain X and Y properties helpful to recalculate new properties
 ```csharp
 Additionally, you can recalculate a new vector from existing vector objects:
 
-csharp
+```
+
+```csharp
 It is also helpful to know that Vector2 objects are similar to the [Windows Point](https://msdn.microsoft.com/en-us/library/system.windows.point(v=vs.110).aspx) structure and these two types can be used interchangeably.
 Depending on the mechanism used to obtain user input or other application values, you may receive the coordinates in a Point.
+![Ns](../images/ns.png)
+
 For convenience, NinjaTrader provides a [DXExtension.ToVector2()](../language_reference/dxextensions_tovector2.md) method used for converting between these two objects if needed:
 
-csharp
+```
+
+```csharp
 Calculating Chart Coordinates If you simply used a vector with static values, your Vector2 objects would never change, and your drawing would remain fixed on a particular area of the chart (which may be desired).
 However, since NinjaTrader charts are dynamic and responded to various market data updates, scroll, resize, and scale operations - you also need a way to recalculate vectors to display information dynamically. To assist in this process, NinjaTrader provides some GUI related utilities to help navigate the chart and calculate values for your custom rendering.
 
-csharp
+```
+
+```csharp
 Common utilities fall under 4 key components, and you can learn more about their specific functions from the help guide topics linked in the table below:
 
 ```
@@ -81,7 +101,9 @@ Paints an area with a linear gradient.
 SharpDX.Direct2D1.SolidColorBrush customDXBrush = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.DodgerBlue);
 You can also use a [SharpDX.Color3](sharpdx_color3.md) or [SharpDX.Color4](sharpdx_color4.md) structure as a way to get more customizable colors in your rendering:
 
-csharp
+```text
+
+```csharp
 // create a 3 component color using rgb values in float notation
 SharpDX.Color3 dxColor3 = new SharpDX.Color3(1.0f, 0.0f, 0.0f);
 // create a 4 component color using rgb + alpha (transparency) in float notation
@@ -97,6 +119,8 @@ csharp
 > **Note:** Unlike their [WPF counterparts](../ninjascript/working_with_brushes.md), SharpDX brushes are thread-safe and do NOT need to be frozen.
 
 Converting SharpDX Brushes SharpDX Brushes are device-dependent resources, which means they can only be used with the device (i.e., [RenderTarget](sharpdx_direct2d1_rendertarget.md)) which created them.
+![Ns](../images/ns.png)
+
 In practice, this mean you should ONLY create your SharpDX brushes during the chart object's [OnRender()](../language_reference/onrender.md) or [OnRenderTargetChanged()](../language_reference/onrendertargetchanged.md) methods.
 Failure to create device-dependent resources during the OnRender() or OnRenderTargetChanged() can lead to a host of issues including memory and application corruption which can negatively impact the stability of NinjaTrader.
 Please be careful your SharpDX device-dependent resources are only created and updated during either of these two run-time methods.
@@ -116,15 +140,21 @@ Please see the [Best Practices for SharpDX Resources](using_sharpdx_for_custom_c
 RenderTarget.DrawLine(startPoint, endPoint, areaBrushDx)
 It is commonly used for creating various resources such as Brushes and other SharpDX objects:
 
-csharp
+```
+
+```csharp
 It can also be used to set various properties to describe how the RenderTarget should render:
 
-csharp
+```
+
+```csharp
 RenderTarget.AntialiasMode
 = SharpDX.Direct2D1.AntialiasMode.PerPrimitive;
 Sequencing RenderTarget commands If the sequence in which objects render is essential to your custom rendering, you will need to be mindful of the order in which you call various RenderTarget members. For example, we can draw a second line which uses a different [AntialiasMode](sharpdx_direct2d1_antialiasmode.md) and the renders each line in the order the render target received its commands:
 
-csharp
+```
+
+```csharp
 RenderTarget.AntialiasMode = SharpDX.Direct2D1.AntialiasMode.Aliased;
 RenderTarget.DrawLine(startPoint, endPoint, areaBrushDx, 8);
 RenderTarget.AntialiasMode = SharpDX.Direct2D1.AntialiasMode.PerPrimitive;
@@ -193,7 +223,9 @@ RenderTarget.DrawLine(startPoint, endPoint, customDXBrush, 2);
 // always dispose of a brush when finished customDXBrush.Dispose(); | | render_target_drawline
 Rectangle Using either the [RenderTarget.FillRectangle()](sharpdx_direct2d1_rendertarget_fillrectangle.md) or [RenderTarget.DrawRectangle()](sharpdx_direct2d1_rendertarget_drawrectangle.md) requires a [SharpDX.RectangleF](sharpdx_rectanglef.md) structure, constructed using four values to represent the location (x, y) and size (width, height) of the rectangle to draw.
 
-csharp
+```
+
+```csharp
 // create two vectors to position the rectangle
 SharpDX.Vector2 startPoint = new SharpDX.Vector2(ChartPanel.X, ChartPanel.Y);
 SharpDX.Vector2 endPoint = new SharpDX.Vector2(ChartPanel.X + ChartPanel.W, ChartPanel.Y + ChartPanel.H);
@@ -210,7 +242,9 @@ RenderTarget.FillRectangle(rect, customDXBrush);
 Ellipse Similar to the Rectangle, you can draw an Ellipse (or circle) using either the [RenderTarget.FillEllipse()](sharpdx_direct2d1_rendertarget_fillellipse.md) or [RenderTarget.DrawEllipse()](sharpdx_direct2d1_rendertarget_drawellipse.md) methods using a [SharpDX Direct2D1 Ellipse](sharpdx_direct2d1_ellipse.md) struct.
 For this structure, you will need to use a [Vector2](sharpdx_vector2.md) object to determine the Center position of the ellipse, a RadiusX, and a RadiusY which determines the size of the ellipse:
 
-csharp
+```
+
+```csharp
 // create two vectors to position the ellipse
 SharpDX.Vector2 startPoint = new SharpDX.Vector2(ChartPanel.X, ChartPanel.Y);
 SharpDX.Vector2 endPoint = new SharpDX.Vector2(ChartPanel.X + ChartPanel.W, ChartPanel.Y + ChartPanel.H);
@@ -289,7 +323,9 @@ SharpDX.DirectWrite.TextFormat textFormat = new SharpDX.DirectWrite.TextFormat(C
 Once the text formatting has been described, you can use this object to immediately start rendering text in the DrawText() method.
 This approach also requires a [SharpDX.RectangleF](sharpdx_rectanglef.md) to help determine the size and position the text renders on the chart.
 
-csharp
+```text
+
+```csharp
 // define the point for the text to render
 SharpDX.Vector2 startPoint = new SharpDX.Vector2(ChartPanel.X, ChartPanel.Y);
 // construct the text format with desired font family and size
@@ -307,24 +343,32 @@ customDXBrush.Dispose(); | | render_target_drawtext
 Converting Text One common approach to text formatting is to use the same formats as existing chart objects.
 This provides familiar text format matching other objects which exist on the chart. To accomplish this, you can simply use the ChartControl NinjaTrader[.Gui.SimpleFont](../language_reference/simplefont_class.md) object and convert to SharpDX using the [ToDirectWriteTextFormat()](simplefont_todirectwritetextformat.md) method.
 
-csharp
+```text
+
+```csharp
 Text Layouts The TextLayout object works in combination with the TextFormat object by extending its functionality and providing an interface more powerful than a simple Rectangle, enabling you to position, measure, or clip the text to a surrounding shape.
 When constructing the TextLayout object, you will pass in the exact text as a string you wish to render, along with the desired TextFormat.
 This gives you the ability to measure the text string after it has been formatted.
 During construction, you also have an opportunity to specify the maximum height and width of the TextLayout.
 For example, we can set the text layout to bound to height and width chart panel:
 
-csharp
+```text
+
+```csharp
 After the text has its format and layout,
 you can use the [RenderTarget.DrawTextLayout()](sharpdx_direct2d1_rendertarget_drawtextlayout.md) method to specify the exact location as a [Vector2](sharpdx_vector2.md), as well as the [Brush](sharpdx_direct2d1_brush.md) used to draw the text.
 
-csharp
+```text
+
+```csharp
 Measuring Text Layouts Working with an existing TextLayout object, you can use its [TextLayout.Metrics](sharpdx_directwrite_textlayout_metrics.md) object to retrieve metadata related to the size of the formatted text.
 This is helpful if you are unsure of the size of the text before it is rendered.
 For example, you may wish to draw a rectangle around the formatted text calculated width and height.
 Using the approach below, the rectangle will dynamically resize to fit the text values used:
 
-csharp
+```text
+
+```csharp
 // define the point for the text to render
 SharpDX.Vector2 startPoint = new SharpDX.Vector2(ChartPanel.X + 20, ChartPanel.Y + 20);
 // construct the text format with desired font family and size
@@ -382,7 +426,9 @@ By setting the [StrokeStyle.DashStyle](sharpdx_direct2d1_strokestyle_dashstyle.m
 The code example creates a single StrokeStyle object using custom dash style properties.
 The example then uses those the custom stroke style object with user defined dashes for overriding the default NinjaTrader plot appearances, and using the same stroke style in a [RenderTarget.DrawLine()](sharpdx_direct2d1_rendertarget_drawline.md) command.
 
-csharp
+```
+
+```csharp
 // a SharpDX.Direct2D1.StrokeStyle is device independent
 // it only needs to be setup once throughout the lifetime of your script
 private SharpDX.Direct2D1.StrokeStyle dxStrokeStyle;
@@ -435,9 +481,15 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
     Plots[0].StrokeStyle = dxStrokeStyle;
     base.OnRender(chartControl, chartScale);
     // use the custom dash style in a RenderTarget.DrawLine() commands
+
+![Ns](../images/ns.png)
+
     using ( SharpDX.Direct2D1.SolidColorBrush dxBrush = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.Blue))
     {
         RenderTarget.DrawLine(new SharpDX.Vector2(ChartPanel.X, ChartPanel.Y), new SharpDX.Vector2(ChartPanel.X + ChartPanel.W, ChartPanel.Y + ChartPanel.H), dxBrush, 2, dxStrokeStyle);
+
+![Sharpdx Strokestyle](../images/sharpdx_strokestyle.png)
+
     }
 } | | SharpDX_StrokeStyle
 ```
@@ -468,6 +520,9 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 - [RadialGradientBrush](sharpdx_direct2d1_radialgradientbrush.md)
 - [SolidColorBrush](sharpdx_direct2d1_solidcolorbrush.md)
 - [StrokeStyle](sharpdx_direct2d1_strokestyle.md)
+
+![Ns](../images/ns.png)
+
 - [TextFormat](sharpdx_directwrite_textformat.md)
 - [TextLayout](sharpdx_directwrite_textlayout.md)    |  
 
@@ -476,6 +531,11 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
     Since there is no guarantee that NinjaTrader will release objects from memory when your script is terminated, it is best to protect these resources from issues and call [Dispose()](sharpdx_disposebase_dispose.md) as soon as possible.  This commonly involves calling Dispose() at the end of [OnRender()](../language_reference/onrender.md),or during [OnRenderTargetChanged()](../language_reference/onrendertargetchanged.md) when dealing with device- dependent resources such as brush.  Device-independent resources can be created once and then retained for the life of your application.    
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 {
     // 1 - setup your resource
     SharpDX.Direct2D1.SolidColorBrush customDXBrush = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.DodgerBlue
@@ -516,7 +576,27 @@ if(!customDXBrush.IsDisposed)
 You should also favor managing these resources yourself, which means methods which accept a SharpDX DisposeBase object as an argument should be created before they are passed into the method and disposed of after they are used.
 For example, the code below should be avoided:
 
-csharp
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+```
+
+```csharp
 // do NOT convert an object as it is passed to an argument.
 // You may have no chance to Dispose of the object!
 // Finalizer is not guaranteed to release of these resources
@@ -524,17 +604,47 @@ RenderTarget.DrawLine(startPoint, endPoint, Brushes.AliceBlue.ToDxBrush(RenderTa
 MyCustomMethod(Brushes.AliceBlue.ToDxBrush(RenderTarget));
 Instead, you should manage these objects yourself:
 
-csharp
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+```
+
+```csharp
 // Do create and store this reference yourself so you can control when it is released (Y)
+
+![Ns](../images/ns.png)
+
 SharpDX.Direct2D1.Brush customDXBrush = WPFBrush.ToDxBrush(RenderTarget);
 RenderTarget.DrawLine(startPoint, endPoint, customDXBrush));
+
+![Ns](../images/ns.png)
+
 MyCustomMethod(customDXBrush);
 customDXBrush.Dipose()
+
+![Render Target Drawtextlayout](../images/render_target_drawtextlayout.png)
+
+![Render Target Drawtext](../images/render_target_drawtext.png)
+
+![Render Target Fillgeometry](../images/render_target_fillgeometry.png)
+
+![Render Target Drawellipse](../images/render_target_drawellipse.png)
+
+![Render Target Drawrectangle](../images/render_target_drawrectangle.png)
+
+![Render Target Drawline](../images/render_target_drawline.png)
+
 Other Best Practices
 If possible, you should avoid using the [ToDxBrush()](../language_reference/dxextensions_todxbrush.md) method if it is not necessary.
+
+![Ns](../images/ns.png)
+
 It is relatively harmless to use this approach for a few brushes, but can introduce performance issues if used too liberally.
 
-csharp
+```
+
+```csharp
 // do NOT convert from WPF brushes unnecessarily
 SharpDX.Direct2D1.Brush dxBrush1 = System.Windows.Media.Brushes.Blue.ToDxBrush(RenderTarget);
 SharpDX.Direct2D1.Brush dxBrush2 = System.Windows.Media.Brushes.Red.ToDxBrush(RenderTarget);
@@ -544,7 +654,11 @@ SharpDX.Direct2D1.Brush dxBrush5 = System.Windows.Media.Brushes.Orange.ToDxBrush
 SharpDX.Direct2D1.Brush dxBrush6 = System.Windows.Media.Brushes.Yellow.ToDxBrush(RenderTarget);
 Instead, you should construct a SharpDX Brush directly if a WPF brush is not ever needed:
 
-csharp
+![Ns](../images/ns.png)
+
+```
+
+```csharp
 // Do create SharpDX Brushes directly if you have a large amount of brushes
 SharpDX.Direct2D1.Brush dxBrush1 = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.Blue);
 SharpDX.Direct2D1.Brush dxBrush2 = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.Red);
@@ -553,14 +667,36 @@ SharpDX.Direct2D1.Brush dxBrush4 = new SharpDX.Direct2D1.SolidColorBrush(RenderT
 SharpDX.Direct2D1.Brush dxBrush5 = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.Orange);
 SharpDX.Direct2D1.Brush dxBrush6 = new SharpDX.Direct2D1.SolidColorBrush(RenderTarget, SharpDX.Color.Yellow);
 Rendering with anti-aliasing disabled can be used to render a higher qualify shapes but comes as a performance impact.
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 You should make sure to set this render target property back to its default when you are finished with a render routine.
 
-csharp
+![Ns](../images/ns.png)
+
+```
+
+```csharp
 // AntialiasMode.PerPrimitive is more resource intensive
 // store the old reference before setting the desired value
 SharpDX.Direct2D1.AntialiasMode oldAntialiasMode = RenderTarget.AntialiasMode;
 RenderTarget.AntialiasMode = SharpDX.Direct2D1.AntialiasMode.PerPrimitive;
 // execute your render routines
+
+![Ns](../images/ns.png)
+
 // and then set back to initial AntialiasMode when finished
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 RenderTarget.AntialiasMode = oldAntialiasMode;
+
+![Ns](../images/ns.png)
+
 ```

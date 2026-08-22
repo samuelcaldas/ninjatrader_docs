@@ -2,6 +2,8 @@
 
 ## Definition
 
+![Ns](../images/ns.png)
+
 The TabControl class provides functionality for working with [NTTabPage](nttabpage_class.md) objects within an [NTWindow](ntwindow.md). TabControl should be instantiated within the constructor for an NTWindow instance, in order to configure the window to be able to host and work with tabs.
 
 > **Note:** For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)

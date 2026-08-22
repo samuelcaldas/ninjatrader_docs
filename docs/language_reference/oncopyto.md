@@ -13,6 +13,8 @@ protected override void OnCopyTo(PerformanceMetricBase target)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnCopyTo(PerformanceMetricBase target)
 {

@@ -20,6 +20,8 @@ Bars.Instrument.MasterInstrument.GetNextExpiry(DateTime afterDate)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Indicates what the current expiry is in the bottom right of the chart
 Draw.TextFixed(this, "tag1", "The current expiry is " + Bars.Instrument.MasterInstrument.GetNextExpiry(DateTime.Now).ToString("MM-yy"), TextPosition.BottomRight);

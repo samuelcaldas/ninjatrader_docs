@@ -26,6 +26,8 @@ AddBar(Bars bars, double open, double high, double low, double close, DateTime t
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 AddBar(bars,bars.BarsPeriod.Value));
 ```

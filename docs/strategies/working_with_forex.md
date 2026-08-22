@@ -4,11 +4,15 @@ NinjaTrader supports trading and viewing market data for spot forex pairs, in ad
 
 > Pips vs. Ticks The "Pips" Calculation Mode can be used to calculate PnL and performance metrics throughout the platform. This mode allows you to tailor performance reporting specifically to your forex trades. Similar to the "Ticks" mode, "Pips" takes the lowest granularity of price movement for a forex instrument (called a tick in NinjaTrader), then divides it by 10 to arrive at the pip value for the instrument. For example, when viewing a USD/JPY quote of 113.67'5, the "7" would be the pip value, and the "5" would be the tick. Using the Pips Calculation Mode, the number of ticks in profit (the "5" in the example) will be divided by 10 to arrive at the number of pips of profit or loss.    Forex1   Setting the Pips Calculation Mode The Pips calculation mode can be used in realized/unrealized PnL fields in trading windows ([Chart Trader](chart_trader.md), [SuperDOM](superdom.md), [Basic Entry](basic_entry.md), etc.), the [Trade Performance](../operations/trade_performance.md) window, and the [Strategy Analyzer](strategy_analyzer.md). In Trading Windows, the calculation mode can be changed by left-clicking within the PnL field, or by opening the window's Properties dialogue. For more information, see the relevant pages for each trading window.    Forex2    In the Trade Performance window and Strategy Analyzer, the calculation mode can be changed via the Display dropdown menu, which affects all relevant statistics.    Forex3
 
+![Forex3](../images/forex3.png)
+
 ## Pips in ATM Strategies
 
 | Name / Option | Description |
 | --- | --- |
 | ATM Strategy Parameters The Parameter Type field within the ATM Strategy Parameters window can be changed to "Pips" to affect the way that stop loss and profit target prices are set by an ATM strategy. Just like the Pips PnL calculation mode, the Pips parameter type is based on a multiplicative factor of the Ticks parameter type (1 Pip = 10 Ticks). For example, rather than entering 200 ticks for your profit target (200 ticks = 20 pips), you can simply specify 20 pips.    Forex4    |  
+
+![Forex4](../images/forex4.png)
 
 > **Note:** If your forex data provider supports tenth-pip quotes, then you can also use the Ticks parameter type to set ATM orders with a sub-pip granularity.
 
@@ -19,6 +23,9 @@ NinjaTrader supports trading and viewing market data for spot forex pairs, in ad
 | Name / Option | Description |
 | --- | --- |
 | Setting Your FX Lot Size  A "Forex Lot Size" property can be set for accounts shown in the Accounts tab of the Control Center. This setting affects the default position size populated in trading windows when a forex instrument is selected. To access this property, first select the Accounts  tab in the Control Center. Next, right click on the account you wish to edit, and select the Edit Account menu item. In the window that appears, set the Forex Lot Size property to your desired value. You can enter any amount here, whether or not it corresponds to a standard position size (Lot, Mini-Lot, Micro-Lot). For example, you could enter "102000" to automatically use a position size equal to one standard lot (100,000) plus two micro lots (2,000).    Forex6    |  | | --- | | Notes:
+
+![Forex6](../images/forex6.png)
+
 - The Forex Lot Size property does not prevent you from entering or selecting different position sizes in trading windows, but only controls what is populated in the Quantity field by default. | |
 
 ## Forex-Specific Trading Windows
@@ -33,11 +40,17 @@ NinjaTrader supports trading and viewing market data for spot forex pairs, in ad
 
 > **Note:** In backtesting, a slippage value can be set to recreate the impact of the Bid/Ask spread on trade profit and loss. NinjaScript developers can calculate the spread in strategy logic, then dynamically set the [Slippage](slippage.md) property before entering orders. For non-programmers, an estimated slippage value can be applied to all trades via the Backtest/Optimization Properties section in the [Strategy Analyzer](strategy_analyzer.md).
 
+![Forex5](../images/forex5.png)
+
+![Forex1](../images/forex1.png)
+
  |
 
 ## Forex Trading Hours
 
 > Forex Trading Hours Template All forex instruments are configured to use the pre-defined "Forex" Trading Hours template, which runs 24 hours per day from 5:00pm EST on Sunday to 5:00pm EST on Friday, with an End-of-Day session break at 5:00pm each day. This covers the full range of forex trading throughout the week, but other Trading Hours templates can be applied to restrict the data on your charts to be in line with any local market timing on which you may wish to focus. For more information, see the [Trading Hours](../operations/trading_hours.md) page.    forex7
+
+![Forex7](../images/forex7.png)
 
 ## Calculating Pip Value
 
@@ -45,6 +58,12 @@ NinjaTrader supports trading and viewing market data for spot forex pairs, in ad
 | --- | --- |
 | How to Calculate the Pip Value for a Forex Pair Multiplying the pip size of your currency pair by the lot size of your order will provide you the pip value. This will be in the quote/counter currency of the forex pair. The quote/counter currency is the second currency in the pair.   Example in USD for an USD Quote/Counter Currency In the following example we will do this for a 10,000 lot on the EURUSD. The quote/counter currency is USD and the EURUSD's point size is 0.0001.  10,000 x 0.0001 = 1  This indicates that 1 pip would be $1 USD.    CalculatigPip_USD   Example in USD for a GBP Base Currency In the following example we will use the EURGBP. Let's say our account is in USD and we want to convert the pip value to USD. Again we will say we are trading a 10,000 lot size and the pip value for the EURGBP is 0.0001.  10,000 x 0.0001 = 1  This indicates that 1 pip would be £1 GBP. We would then multiply this by what the GBPUSD is trading at.  In this example the GBPUSD is trading at $1.26 (rounded).  1 x 1.26 = 1.26  This indicates that 1 pip would be $1.26 USD.    CalculatigPip_GBP       |  
 
+![Forex2](../images/forex2.png)
+
 > **Note:** If the conversion rate is not available the PnL information will be in the counter/quote currency of the pair. This would create a discrepancy in your Trade Performance.
+
+![Calculatigpip Gbp](../images/calculatigpip_gbp.png)
+
+![Calculatigpip Usd](../images/calculatigpip_usd.png)
 
  |

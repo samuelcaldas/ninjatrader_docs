@@ -105,9 +105,15 @@ Real-Time
 
 Displays performance statistics for trades the strategy has taken in real-time ONLY
 
+![Strategiesfromchart1](../images/strategiesfromchart1.png)
+
+![Strategiesfromchart2](../images/strategiesfromchart2.png)
+
 Historical
 
 Displays performance statistics for historical trades ONLY, calculated before any real-time trades are taken
+
+![Strategyperformance](../images/strategyperformance.png)
 
 Real-Time and Historical
 

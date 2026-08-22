@@ -42,9 +42,15 @@ Speed control
 
 Each successive click increases the speed of the playback. Playback of "Max" will process data at fastest possible speed.
 
+![Playback Playbackcontrol](../images/playback_playbackcontrol.png)
+
 Playback_PlaybackControl
 
 Right Click Menu Right mouse clicking in the Replay control window will bring up the right click menu with the two following menu items:    Playback_ContextMenu
+
+![Playback Contextmenu](../images/playback_contextmenu.png)
+
+![Playback](../images/playback.png)
 
 ---
 
@@ -71,6 +77,8 @@ Playback from start
 Market Replay data is played back for every day between the start point of the slider and the end point of the slider. This will be slower as NinjaTrader must process more data, but is useful when you are back testing a strategy in playback.
 
 > **Tip:** Should you be using the Playback for testing a NinjaScript strategy, please be sure the chart you apply the strategy onto has bars populating it prior to the start time of your replay.
+
+![Playback Playbackcontrol](../images/playback_playbackcontrol.png)
 
  |
 

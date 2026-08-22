@@ -18,6 +18,8 @@ EntriesPerDirection
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Example #1
 protected override void OnStateChange()
@@ -35,8 +37,13 @@ protected override void OnBarUpdate()
     if (CrossAbove(RSI(14, 3), 30, 1)
     EnterLong("RSI Cross Entry);
 }
-csharp
+```
+
+```csharp
 // Example #2
+
+![Ns](../images/ns.png)
+
 protected override void OnStateChange()
 {
     EntriesPerDirection = 1;

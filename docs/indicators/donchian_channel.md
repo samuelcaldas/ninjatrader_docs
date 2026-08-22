@@ -40,6 +40,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current upper value of a 20 period DonchianChannel using default price type
 double value = DonchianChannel(20).Upper[0];

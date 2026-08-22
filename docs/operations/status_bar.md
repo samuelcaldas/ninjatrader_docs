@@ -10,7 +10,11 @@ The connection status is reported in the connections menu per provider. There is
 
 2.Connection Status icon displayed in the Control Center
 
+![Connectiongreen](../images/connectiongreen.png)
+
 > **Tip:** If you're using [multiple connections](../getting_started/multiple_connections.md), hovering your mouse cursor above the connection status will show a tool tip which will give you the individual status of each connection.  ControlCenter_MultipleConnectionsTip
+
+![Controlcenter Status](../images/controlcenter_status.png)
 
 Please see the following connection states:
 
@@ -40,6 +44,16 @@ Indicates that NinjaTrader has lost connection to the order server
 
 ConnectionGray
 
+![Controlcenter Multipleconnectionstip](../images/controlcenter_multipleconnectionstip.png)
+
 Disconnected
 
 Indicates that NinjaTrader is not connected
+
+![Connectionyellow](../images/connectionyellow.png)
+
+![Connectionorange](../images/connectionorange.png)
+
+![Connectionred](../images/connectionred.png)
+
+![Connectiongray](../images/connectiongray.png)

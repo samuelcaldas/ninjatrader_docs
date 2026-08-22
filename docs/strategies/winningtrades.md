@@ -19,6 +19,8 @@ A subcollection of [Trade](trade.md) objects consisting of only the winning trad
 ## Examples
 
 ```csharp
+![Ns](../images/ns.png)
+
 protected override void OnBarUpdate()
 {
     // Accesses the first/last winning trade in the strategy (oldest trade is at index 0)

@@ -34,6 +34,10 @@ Draw.TextFixed(NinjaScriptBase owner, string tag, string text, TextPosition text
 
 ## Examples
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 // Draws text in the upper right corner of panel 1
 Draw.TextFixed(this, "tag1", "Text to draw", TextPosition.TopRight);

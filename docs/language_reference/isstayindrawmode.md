@@ -14,6 +14,8 @@ A bool value. When True, indicates that Stay in Draw Mode is enabled on the char
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

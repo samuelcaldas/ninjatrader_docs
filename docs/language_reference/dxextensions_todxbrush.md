@@ -32,6 +32,9 @@ protected override void OnStateChange()
     if (State == State.SetDefaults)
     {
         Name = "Example ToDXBrush";
+
+![Ns](../images/ns.png)
+
         // pushes the WPF brush to the UI for user to configure
         TextBrush = System.Windows.Media.Brushes.DodgerBlue;
     }

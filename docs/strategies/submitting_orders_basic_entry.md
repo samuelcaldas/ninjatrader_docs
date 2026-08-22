@@ -53,6 +53,8 @@ Submits a Sell Limit order at the current bid price
 | --- | --- |
 | OCO Orders (One Cancels Other)Stop Loss and Profit Target orders (submitted automatically via an [ATM Strategy](atm_strategy.md)) are always sent as OCO, however, you can submit entry or exit orders as OCO orders as well. Why? The market may be trading in a channel and you wish to sell at resistance or buy at support, whichever comes first by placing two limit orders at either end of the channel. To place OCO orders, press down on your right mouse button inside the Basic Entry window and select the menu name "OCO Order or use the short cut key CTRL+Z. BasicEntry_15 The "OC" (OCO indicator) will light up green at the top of the Basic Entry window. All orders placed while this indicator is lit will be part of the same OCO group. Once any order of this group is either filled or cancelled, all other orders that belong to this group will be cancelled. BasicEntry_16 If you want each OCO order to create it's own set of Stop Loss and Profit Target orders ensure that the ATM Strategy control list is set to either <Custom> or a strategy template name before you submit each OCO order. After you have placed your orders, it is advised to disable the OCO function via the right click menu, or use the short cut key CTRL+Z. |  
 
+![Basicentry 15](../images/basicentry_15.png)
+
 > **Warning:** If an order which was part of an OCO group has already been filled or cancelled, you will need to submit the pending order with a new OCO ID otherwise the pending order will be rejected. To reset an OCO ID, simply disable the OCO function, and re-enable.  This will generate a new OCO ID and allow you to place new orders.
 
  Break Out/Fade Entry ExampleOne of the great features of NinjaTrader is its ability to submit two entry orders, one of which will cancel if the other is filled.You can accomplish a breakout/breakdown approach by:
@@ -61,8 +63,21 @@ Submits a Sell Limit order at the current bid price
 - Submit your stop order to buy above the market
 - For your second order, select the desired option from the "ATM Strategy" drop down list
 - Submit your stop order to sell below the market
+
+![Basicentry 14](../images/basicentry_14.png)
+
+![Basicentry 13](../images/basicentry_13.png)
+
 - CRITICAL: Right click in the Basic Entry window and select the menu item "OCO Order" to disable OCO for future orders. For a market fade approach just substitute limit orders for stop orders. |
 
 ## How to submit Simulated Stop Orders (Simulated Order)
 
 > Simulated Stop Orders (Simulated Order)To submit a Simulated Stop Order (entry and exit NOT Stop Loss; simulated Stop Loss orders are enabled via an [ATM stop strategy](stop_strategy.md)) you must enable Simulated Order mode via the right mouse click context menu by selecting the Simulated Order menu item.. BasicEntry_17 The "SO" (Simulated Order indicator) will light up green at the top of the Basic Entry window. All stop orders placed while this indicator is lit will be submitted as a [Simulated Stop Orders](simulated_stop_orders.md). BasicEntry_18
+
+![Basicentry 18](../images/basicentry_18.png)
+
+![Basicentry 17](../images/basicentry_17.png)
+
+![Basicentry 16](../images/basicentry_16.png)
+
+![Basicentry 12](../images/basicentry_12.png)

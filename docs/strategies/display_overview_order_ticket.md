@@ -14,6 +14,8 @@ The image below shows the two sections in the of the Order Ticket window:
 
 > Market Display The Order Ticket will display current market data information for the selected instrument.   Market Display Definitions 1.Instrument Description  2.Last Price  3.Current day net change  4.Best ask price and ask size  5.Best bid price and bid size  6.Current day high, low, and open    OrderTicket_1
 
+![Orderticket 1](../images/orderticket_1.png)
+
 ## Understanding the order control section
 
 Order Entry Controls The Order Control region of the Order Ticket is used to specify several attributes for a pending order to be submitted.    OrderTicket_2
@@ -66,6 +68,8 @@ Submits an order to sell
 
 Right Click Menu Right mouse click on the Order Ticket window to access the right click menu.    OrderTicket_4
 
+![Orderticket 4](../images/orderticket_4.png)
+
 ---
 
 ---
@@ -89,3 +93,5 @@ Displays Share options
 Properties
 
 Sets the [Order Ticket properties](properties_order_ticket.md)
+
+![Orderticket 2](../images/orderticket_2.png)

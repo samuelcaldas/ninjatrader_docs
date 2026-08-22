@@ -1,3 +1,5 @@
+![Ns](../images/ns.png)
+
 # State
 
 ## Definition
@@ -31,12 +33,16 @@ State
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {
     Print(DateTime.Now + ": Current State is State."+State);
 }
-csharp
+```
+
+```csharp
 ns
 protected override void OnBarUpdate()
 {

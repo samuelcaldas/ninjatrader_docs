@@ -3,6 +3,8 @@
 The Unmanaged approach is reserved for VERY EXPERIENCED programmers. In place of the convenience layer that the [Managed](managed_approach.md) approach offered, the Unmanaged approach instead offers ultimate flexibility in terms of order submission and management. This section will discuss some of the basics of working with Unmanaged order methods.
 
 ```csharp
+![Ns](../images/ns.png)
+
 protected override void OnStateChange()
 {
     if (State == State.SetDefaults)
@@ -26,7 +28,9 @@ It is critical to assign an [Order](order.md) object to keep track of your order
 •To check for equality you can compare Order objects directly
 Order Modification Unlike the Managed approach where you could modify a working order by calling the entry order method again with your new parameters, the Unmanaged approach requires the utilization of the [ChangeOrder()](managed_changeorder.md) method. The ChangeOrder() method requires you to have access to the Order object you wish to modify so it is important to hold onto those for any active order you have in your strategy.
 
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // Raise stop loss to breakeven when you are at least 4 ticks in profit
@@ -35,10 +39,15 @@ protected override void OnBarUpdate()
 }
 Order Cancellation Similar to the live until canceled technique from the Managed approach, canceling orders can be done through the [CancelOrder()](unmanaged_cancelorder.md) method.
 
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // Cancel entry order if price is moving away from our limit price
+
+![Ns](../images/ns.png)
+
     if (entryOrder != null && Close[0] < entryOrder.LimitPrice - 4 \* TickSize)
     {
         CancelOrder(entryOrder);
@@ -62,4 +71,9 @@ Methods utilizing signal names like [BarsSinceEntryExecution()](barssinceentryex
 | [ChangeOrder()](unmanaged_changeorder.md) | Amends a specified [Order](order.md). |
 | [IgnoreOverfill](ignoreoverfill.md) | An [unmanaged order property](unmanaged_approach.md) which defines the behavior of a strategy when an overfill is detected. |
 | [IsUnmanaged](isunmanaged.md) | Determines if the strategy will be using Unmanaged order methods. |
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 | [SubmitOrderUnmanaged()](submitorderunmanaged.md) | Generates an [Unmanaged](isunmanaged.md) order. |

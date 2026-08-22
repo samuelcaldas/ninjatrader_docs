@@ -152,3 +152,21 @@ Selects the ATM Strategy
 
 - Right clicking on the FX Pro window itself will bring up menu items specific to the FX Pro
 - Right clicking in the Order Grid will bring up menu items specific to orders  FX Pro Control Right Click Menu Right clicking on the FX Pro window itself will bring up a number of menu items specific to the FX Pro  FXPro_9  |  |  | | --- | --- | | Auto Close Position | Automatically Closes the current instruments position at a specified time | | OCO Order | Enables/Disables the OCO (one cancels other) function for a pending order | | Simulated Order | Enables/Disables the Simulated Order functionality for a pending order | | Cancel All Orders | Cancels all active orders on the current account | | Flatten Everything | Closes all open positions and cancels all open orders on every account associated with NinjaTrader | | Show Level II | Enables/Disables the Level II display panel | | Always On Top | Sets if the window should be always on top of other windows | | Show Tabs | Sets if the window should allow for tabs | | Print | Displays Print options | | Share | Select to share via your share connections | | Properties | Configure the [FX Pro window properties](properties_fx_pro.md) |  Order Grid Control Right Click MenuRight clicking in an empty grid will bring up a number of general menu items specific to the Order Grid FXPro_7  |  |  | | --- | --- | | Cancel All Orders | Cancels all active orders on the current account | | Export... | Exports the grid contents to "CSV" or "Excel" file format | | Find... | Search for a term in the grid | | Print | Displays Print options | | Share | Select to share via your share connections | | Properties | Configure the [FX Pro Window's properties](properties_fx_pro.md) |  By moving your mouse cursor over an order and pressing down on your right mouse button, you will see a context menu listing all individual orders consolidated at the corresponding price and any relevant actions that you can perform on those orders. FXPro_8  |  |  | | --- | --- | | Cancel order | Cancels the individual order selected | | Increase Price | Changes the price of the order +1 tick | | Decrease Price | Changes the price of the order -1 tick | | Cancel All Orders | Cancels all active orders on the current account | |
+
+![Fxpro 8](../images/fxpro_8.png)
+
+![Fxpro 7](../images/fxpro_7.png)
+
+![Fxpro 9](../images/fxpro_9.png)
+
+![Fxpro 6](../images/fxpro_6.png)
+
+![Fxpro 5](../images/fxpro_5.png)
+
+![Fxpro 4](../images/fxpro_4.png)
+
+![Fxpro 3](../images/fxpro_3.png)
+
+![Fxpro 2](../images/fxpro_2.png)
+
+![Fxpro 1](../images/fxpro_1.png)

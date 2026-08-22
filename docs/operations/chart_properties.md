@@ -99,3 +99,5 @@ Defaults for the Chart Properties window can be saved by left mouse click on the
 ## Using Tab Name Variables
 
 > Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Chart Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page.
+
+![Chartproperties](../images/chartproperties.png)

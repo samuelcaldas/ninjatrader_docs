@@ -1,3 +1,5 @@
+![Ns](../images/ns.png)
+
 # OnOrderUpdate()
 
 ## Definition
@@ -66,6 +68,8 @@ protected override void OnOrderUpdate(Order order, double limitPrice, double sto
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnOrderUpdate(Cbi.Order order, double limitPrice, double stopPrice,
 int quantity, int filled, double averageFillPrice,
@@ -75,7 +79,9 @@ Cbi.OrderState orderState, DateTime time, Cbi.ErrorCode error, string comment)
     // OrderState.PartFilled
     Print("This particular order update state is: " + orderState); // OrderState.Working
 }
-csharp
+```
+
+```csharp
 private Order entryOrder = null;
 protected override void OnBarUpdate()
 {

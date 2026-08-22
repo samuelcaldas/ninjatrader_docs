@@ -12,3 +12,9 @@ Intelliprompt is a form of automated autocompletion popularized by the Microsoft
 ## Understanding Method Description and Signatures
 
 > When selecting a method 1. Type in "(" to display the method description and signature   2. A light yellow colored frame will appear with the method description and available signatures  3. In the image below you will see "1 of 3" which means that we are looking at the first of three available method signatures. You can scroll through all available signatures by pressing on the arrow up and down keys.      NS_Editor_21   What is a method signature?  A method signature is a common term used in object-orientated programming to uniquely identify a method. This usually includes the method name, the number and type of its parameters and its return type.  From the image above, the DMI() method represents the Dynamic Momentum Index indicator has two method signatures:    DMI(int period)   DMI(IDataSeries inputData, int period)
+
+![Ns Editor 21](../images/ns_editor_21.png)
+
+![Ns Editor 3](../images/ns_editor_3.png)
+
+![Ns Editor 2](../images/ns_editor_2.png)

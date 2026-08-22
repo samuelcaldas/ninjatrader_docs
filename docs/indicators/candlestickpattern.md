@@ -31,6 +31,8 @@ Accessing this method via an index value [int barsAgo] returns the indicator val
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Go long if the current bar is a bullish engulfing pattern
 if (CandlestickPattern(ChartPattern.BullishEngulfing, 4)[0] == 1)

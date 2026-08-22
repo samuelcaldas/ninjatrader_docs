@@ -21,6 +21,8 @@ A bool value when true indicates the specified time is later than ActualSessionE
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 bool takeTrades;
 protected override void OnBarUpdate()

@@ -14,8 +14,18 @@ Changing the Price of an Order 1.You can increase the price of an order in tenth
 
 > **Note:** Changing the quantity of an existing order will submit a new order the same price to preserve your place in queue.  Your orders will now show up as "stacked" indicated by the small letter "s" next to the order.
 
+![Fxboard 26](../images/fxboard_26.png)
+
   FXBoard_20 If you would like to break up these orders to manage individually, you can right click on the order row and select Unstack FXBoard_21 |
 
 ## Cancelling orders
 
 > Cancelling an Individual Order 1. You can cancel an order by left mouse clicking on the "X" button.  2. You can also right click on the order itself and press the "Cancel Order" menu item   Cancelling Stacked Orders If you have stacked orders, indicated by the small letter "s" in the Quantity column, you can cancel one of the orders, and leave the other(s) remaining using the steps below:    1. Right click on the stacked order row  2. Move your mouse over the order individual order  3. Select "Cancel Order"    FXBoard_22
+
+![Fxboard 22](../images/fxboard_22.png)
+
+![Fxboard 21](../images/fxboard_21.png)
+
+![Fxboard 20](../images/fxboard_20.png)
+
+![Fxboard 19](../images/fxboard_19.png)

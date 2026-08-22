@@ -50,6 +50,8 @@ Sets the hours used for historical bar calculations
 
 Each column will have its own set of parameters specific to that column.  Please see the "Understanding the default systems columns" section below for more information on each of NinjaTrader's pre-built columns.  For any custom columns that have been downloaded, please refer to the column's developer for more information on settings specific to their custom column.
 
+![Playvideo](../images/playvideo.jpg)
+
 ## Understanding the APQ (Approximate Position in Queue) Column
 
 | Name / Option | Description |
@@ -61,6 +63,8 @@ Each column will have its own set of parameters specific to that column.  Please
 ## Understanding the Notes Column
 
 > Notes Columns The Notes column will give you the ability to record custom user-defined text at any price row on the SuperDOM.  This will allow you to monitor and track individual price levels with any text you may find useful.    To record a note:  1.Double click on the corresponding price row in the Notes column to enter the text-edit mode  2.Using your keyboard, type in the text you wish to display  3.Press Enter on your Keyboard accept the text.    SuperDOM_51    Your custom note will now be synchronized with the price corresponding price row and will remain at that price level as your scroll up or down on the SuperDOM.    To remove a note, simply double click on the note row to re-enter the text-edit mode which will allow you to erase the text using your backspace or delete key on your keyboard.
+
+![Superdom 51](../images/superdom_51.png)
 
 ## Understanding the Pulling/Stacking Column
 
@@ -112,7 +116,11 @@ Volume Column The Volume Column will display the number of contracts that have t
 
 > **Note:** The SuperDOM Volume Column will reset as the first tick of the next session comes in. If you open a fresh SuperDOM Volume Column outside of the instruments trading hours you will not see any Volume until the next sessions opening tick.
 
+![Superdom 49](../images/superdom_49.png)
+
     |  |  | | --- | --- | | Display value in |  | | Volume | Displays the actual number of contracts executed at each price level | | Percent | Displays a value percentage based off of the total number of contracts traded in the session | | Type |  | | 1. Standard | Trades are represented as the cumulative number of contracts that have been executed at each price level | | 2. BuySell | Trades are categorized as a buy (at the ask or above) or as a sell (at the bid or below) and then color coded based on the color parameters used in the Visual section (see "How to edit a column's parameters" section above |  |  |  |  | | --- | --- | --- | | SuperDOM_54 |  | SuperDOM_53 | |
+
+![Superdom 52](../images/superdom_52.png)
 
 ## How to remove columns
 
@@ -127,8 +135,33 @@ Volume Column The Volume Column will display the number of contracts that have t
 - Left mouse click "up" to move the selected applied column left in the SuperDOM window
 - Left mouse click "down" to move the selected applied column right in the SuperDOM window    SuperDOM_55    To resize the width of a column:
 - Move your cursor to the edge of the column you wish to resize, where your cursor will turn into a left and right facing arrow
+
+![Superdom 50](../images/superdom_50.png)
+
 - Left mouse click and drag to meet the width you desire    SuperDOM_56  Trade Control On Left By default, the Trade Control will be displayed on the bottom of the SuperDOM.  However you can optionally set the Trade Control to be displayed on the left of the SuperDOM Price Ladder for a more compacted view which has been optimized for using multiple columns on the SuperDOM.  To enable this display, simply right click on the SuperDOM window and select the Trade Control On Left menu item.    SuperDOM_57
+
+![Superdom 57](../images/superdom_57.png)
+
+![Superdom 56](../images/superdom_56.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
 
 ## Custom column development
 
 > In addition to the 4 system columns that come pre-built with the NinjaTrader application, you also have the ability to create custom columns of your own.  For example, you could create your own custom volume column to apply to your NinjaTrader SuperDOMs.    For more information on using NinjaScript to build custom SuperDOM Columns please see the NinjaScript section of the user help guide.    The option to hire a <https://ninjatraderecosystem.com/search-results/?fwp_category=programming-services> to build your custom indicators is also available.
+
+![Superdom 48](../images/superdom_48.png)
+
+![Superdom 47](../images/superdom_47.png)
+
+![Superdom 59](../images/superdom_59.png)
+
+![Superdom 61](../images/superdom_61.png)
+
+![Info Icon](../images/info_icon.png)
+
+![Superdom 54](../images/superdom_54.png)
+
+![Superdom 53](../images/superdom_53.png)
+
+![Superdom 55](../images/superdom_55.png)

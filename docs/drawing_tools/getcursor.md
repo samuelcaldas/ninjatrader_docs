@@ -31,6 +31,8 @@ public override Cursor GetCursor(ChartControl chartControl, ChartPanel chartPane
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override Cursor GetCursor(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, Point point)
 {

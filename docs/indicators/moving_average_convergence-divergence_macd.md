@@ -44,6 +44,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current MACD value
 double value = MACD(12, 26, 9)[0];

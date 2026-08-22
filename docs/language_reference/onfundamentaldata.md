@@ -35,6 +35,8 @@ protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDa
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDataUpdate)
 {

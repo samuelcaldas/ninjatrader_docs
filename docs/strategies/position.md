@@ -22,6 +22,8 @@ Represents position related information that pertains to an instance of a strate
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

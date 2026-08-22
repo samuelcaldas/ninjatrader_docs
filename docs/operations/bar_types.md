@@ -17,6 +17,8 @@ NinjaTrader supports a large variety of chart Bar Types. This page explains how 
 | --- | --- |
 | Range Bars A Range bar is based on a specified tick price range. The bar will continue to develop until the price range is broken, at which point a new bar will be created.    |  
 
+![Bartypes1](../images/bartypes1.png)
+
 > **Note:** A tick in this instance is different from a tick in a Tick bar described in the sub-section above. A tick in a Tick bar represents the point at which an actual trade occurred, whereas a tick in a Range bar represents a price increment, or a movement on the price axis of the chart. This increment is the smallest price movement the instrument can make, and may differ by instrument. For example, a tick on the e-mini S&P 500 (ES) equates to a movement of 0.25, while a tick on AAPL stock equates to a movement of 0.01. More information on setting an instrument's Tick Size can be found on the [Editing Instruments](../language_reference/editing_instruments.md) page.
 
       BarTypes3    1. Each historical bar in the 4 Range chart shown below represents exactly 4 ticks of price movement.  2. The Ruler [Drawing Tool](../drawing_tools/working_with_drawing_tools__ob.md) verifies that each bar consists of 4 ticks. (The "Y value" of 1.00 shown in the Ruler's display flag is equivalent to 4 ticks for the e-mini S&P 500 continuous contract instrument on the chart.) |
@@ -55,13 +57,27 @@ NinjaTrader supports a large variety of chart Bar Types. This page explains how 
 | --- | --- |
 | PointAndFigure Bars PointAndFigure bars are built based on price movement. Each bar plots a column made up of either X's representing a rising price or O's representing a decreasing price. Each X or O is referred to as a "box" and represents the price distance defined by the Box size (set in terms of ticks). A new X or O box will be added to the bar when price moves more than the Box size, warranting the addition of another box.    Another parameter, called the Reversal, sets the amount of price movement needed from the High or Low to change from X's to O's, or from O's to X's. A column will continue indefinitely until a price reversal equal to the Reversal amount (set in number of boxes) occurs. There can never be two columns of X's or O's next to each other for a given session, as any additional X's or O's would be added to the current column instead. When a reversal occurs, the next column begins one box size above the last Low for X's, or one box size below the last High for O's.    For example, the chart below shows PointAndFigure bars based on a 1 Minute Data Series. The Box size is set to 4 and the Reversal is set to 3.    |  
 
+![Bartypes6](../images/bartypes6.png)
+
+![Bartypes5](../images/bartypes5.png)
+
+![Bartypes9](../images/bartypes9.png)
+
 > **Note:** The prices of the X's and O's are represented by the exact middle of the X or O, rather than the top or bottom.
+
+![Bartypes7](../images/bartypes7.png)
 
     BarTypes7 |
 
 ## Understanding Line Break bars
 
 > Line Break Bars  Line Break bars are built based on price movement. Line Break bars must break above or below the High or Low of a specific set of prior bars before a new bar will be drawn. The "Line Breaks" parameter sets the number of previous bars in the set whose High or Low the current price must break.    For example, if the "Line Breaks" parameter is set to 2, as shown in the chart below, the first bar will be drawn based on whether the Close was above or below the Open. The second bar in the chart is drawn with a green color by default if price exceeds the first bar's High and red by default if price drops below the Low of the first bar. No new bar is drawn if price does not exceed the High or Low of the previous bar. The third bar is only plotted once price breaks the High/Low of the last 2 bars, since the LineBreaks parameter is set to 2. If the last break occurred on the upside, a color change will occur when price breaks the last Low. If the last break occurred on the downside, a color change will occur when price breaks the last High.    BarTypes8
+
+![Bartypes8](../images/bartypes8.png)
+
+![Bartypes4](../images/bartypes4.png)
+
+![Bartypes2](../images/bartypes2.png)
 
 ## Understanding Order Flow Volumetric Bars
 
@@ -70,3 +86,5 @@ NinjaTrader supports a large variety of chart Bar Types. This page explains how 
 ## Understanding Order Delta Bars
 
 > For information on how to work with the Order Flow Delta Bars, please see the [Order Flow Delta Bars](../strategies/order_flow_volumetric_bars.md) page in the [OrderFlow +](../strategies/order_flow_plus.md) section of the Help Guide.
+
+![Bartypes3](../images/bartypes3.png)

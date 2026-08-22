@@ -8,14 +8,26 @@ You can customize the Hot Keys by assigning the desired key stroke in the relate
 | --- | --- |
 | Assigning a Hot Key You can assign a key stroke as a Hot Key to the desired action by completing the following steps:    1. Move your mouse over the action field where you want your Hot Key assigned, "Click to record hot key" should display  2. Left mouse click on the field to begin recording  3. Use the keyboard to select the Hot Key combination  4. Recording will finish as you input the hot key on your keyboard or press esc to cancel the recording    HotKeys_Recording    |  
 
+![Hotkeys Recording](../images/hotkeys_recording.png)
+
 > **Note:** If you try to assign a Hot Key that would conflict with an already defined Hot Key you will be asked to reassign.
 
    HotKeys_Reassign   Removing a Hot Key To remove a Hot Key left mouse click in the action field on the "X" icon.    HotKeys_Remove |
+
+![Hotkeys Remove](../images/hotkeys_remove.png)
+
+![Hotkeys Reassign](../images/hotkeys_reassign.png)
 
 ## Understanding when Hot Keys are active
 
 > Hot Keys are window sensitive. This means that Hot Keys will only work when the active window is selected. The name of the window that needs to be active is located in the left column of the Hot Keys window.    HotKeys_Categories  Global Hot Keys assigned under the Global section are always active regardless of the active NinjaTrader window with the exception of a modal window having focus. See the "Understanding the risks in using Hot Keys for order entry" section of the [Trading with Hot Keys](trading_with_hot_keys.md) page of the Help Guide for more information on the modal form exception.  Order Entry Hot Keys assigned under the Order Entry section are active whenever an order entry window is selected. Please see the [Trading with Hot Keys](trading_with_hot_keys.md) section of the Help Guide for more information on this topic.
 
+![Hotkeys Window](../images/hotkeys_window.png)
+
 ## How to print your Hot Keys for reference
 
 > NinjaTrader gives you the ability to print your assigned Hot Keys for convenient reference.   Printing Hot Keys 1.To print a full list of your Hot Keys, right mouse click in the Hot Key Manager and select the Print Hot Keys... menu item.  HotKeys_Print
+
+![Hotkeys Print](../images/hotkeys_print.png)
+
+![Hotkeys Categories](../images/hotkeys_categories.png)

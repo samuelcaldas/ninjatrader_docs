@@ -18,6 +18,8 @@ Applies a custom [SimpleFont](simplefont_class.md) object's properties (family, 
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Define the custom button control object
 System.Windows.Controls.Button myButton = new System.Windows.Controls.Button

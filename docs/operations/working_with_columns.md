@@ -26,3 +26,17 @@ The Market Analyzer allows you to add a variety of columns ranging from indicato
 ## Dynamic ranking and sorting
 
 > See the [Dynamic Ranking and Sorting](dynamic_ranking_and_sorting.md) section of the user help guide for information on sorting and raking your Market Analyzer columns.
+
+![Marketanalyzer 25](../images/marketanalyzer_25.png)
+
+![Marketanalyzer 24](../images/marketanalyzer_24.png)
+
+![Marketanalyzer 23](../images/marketanalyzer_23.png)
+
+![Marketanalyzer 22](../images/marketanalyzer_22.png)
+
+![Playvideo](../images/playvideo.jpg)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
+![Marketanalyzer 26](../images/marketanalyzer_26.png)

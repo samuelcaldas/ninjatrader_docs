@@ -14,6 +14,8 @@ Represents an interface that exposes information regarding a Horizontal Line [ID
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a HorizontalLine object
 HorizontalLine myLine = Draw.HorizontalLine(this, "tag1", 1000, Brushes.Black);

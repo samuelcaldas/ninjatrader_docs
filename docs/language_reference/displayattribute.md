@@ -34,6 +34,8 @@ Determines how the following declared property display on the NinjaTrader UI's p
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 #region Properties
 // set how the property displays from the UI property grid
 [Display(Name="My Period", Order=1, GroupName="My Parameters")]

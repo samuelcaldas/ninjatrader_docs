@@ -28,6 +28,8 @@ protected override void OnOrderTrace(DateTime timestamp, string message)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnOrderTrace(DateTime timestamp, string message)
 {

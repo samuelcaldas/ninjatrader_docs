@@ -12,9 +12,13 @@ An ATM Strategy is defined by the parameters you enter into the ATM Strategy par
 
 ## From the presented file dialog give the template a custom name, then press Save.
 
+![Serversideatm 10](../images/serversideatm_10.png)
+
 ## ServerSideATM_10
 
 ## Removing an ATM Strategy Templates
+
+![Serversideatm 9](../images/serversideatm_9.png)
 
 Within the ATM Strategy dropdown menu, hover your mouse over the ATM Strategy you want to remove, then select remove.
 

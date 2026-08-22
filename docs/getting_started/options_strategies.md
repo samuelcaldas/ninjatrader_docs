@@ -53,3 +53,7 @@ Handling
 - If data feed disconnects for longer than the time specified in “Disconnect delay seconds”, the strategy is stopped and the disconnection is logged.
 - If the order feed disconnects and the strategy places an order while disconnected, the strategy is stopped and the disconnection is logged.
 - If both the data and order feeds disconnect for longer than the time specified in “Disconnect delay seconds”, the strategy is stopped and the disconnection is logged.    Stop Strategy: Automatically stops the strategy and logs the disconnection when disconnected for more than "Disconnect Delay Seconds". No action will be taken when a connection is reestablished. | | Disconnect delay seconds | Sets the number of seconds a disconnection must persist before it is recognized by the Disconnect Handling logic | | Number of restart attempts | Sets the number of times NinjaTrader will attempt to restart a strategy within the "Restarts within x minutes" time span. The strategy will only restart on a reestablished connection when there have been fewer restart attempts than "Number of restart attempts" within the last "Restarts within x minutes" time span. Otherwise the strategy will simply halt, and no further restart attempts will be made. | | Restarts within x minutes | Sets the number of minutes for the "Restarts within x minutes" time span used by "Number of restart attempts". | |
+
+![Options Strategies1](../images/options_strategies1.png)
+
+![Options Strategies Ns](../images/options_strategies_ns.png)

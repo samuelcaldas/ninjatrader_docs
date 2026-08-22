@@ -14,6 +14,8 @@ A TimeSpan measuring the difference between the earliest and latest times at whi
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

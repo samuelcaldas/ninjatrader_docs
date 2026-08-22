@@ -16,6 +16,8 @@ Definition
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 RectangleF rect = new RectangleF();
 rect.X

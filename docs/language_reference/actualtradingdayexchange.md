@@ -18,6 +18,8 @@ A DateTime structure that represents the trading day.
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 SessionIteratorsessionIterator;
 OnStateChange()

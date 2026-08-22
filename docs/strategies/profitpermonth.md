@@ -14,6 +14,8 @@ A double value that represents the profit per month of the collection as a perce
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

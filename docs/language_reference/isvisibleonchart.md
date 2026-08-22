@@ -30,6 +30,8 @@ public override bool IsVisibleOnChart(ChartControl chartControl, ChartScale char
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override bool IsVisibleOnChart(ChartControl chartControl, ChartScale chartScale, DateTime firstTimeOnChart, DateTime lastTimeOnChart)
 {

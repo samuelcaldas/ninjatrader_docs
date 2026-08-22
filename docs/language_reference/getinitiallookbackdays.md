@@ -30,6 +30,8 @@ public override int GetInitialLookBackDays(BarsPeriod barsPeriod, TradingHours t
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override int GetInitialLookBackDays(BarsPeriod barsPeriod, TradingHours tradingHours, int barsBack)
 {

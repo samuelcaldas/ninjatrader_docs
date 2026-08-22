@@ -14,6 +14,8 @@ Represents an interface that exposes information regarding a Triangle Up [IDrawi
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a TriangleUp object
 TriangleUp myTri = Draw.TriangleUp(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);

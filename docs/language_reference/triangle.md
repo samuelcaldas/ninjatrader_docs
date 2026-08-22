@@ -17,6 +17,8 @@ Represents an interface that exposes information regarding a Triangle [IDrawingT
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a Triangle object
 Triangle myTri = Draw.Triangle(this, "tag1", 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue);

@@ -14,6 +14,8 @@ An DateTime value representing a time value
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, Point point)
 {

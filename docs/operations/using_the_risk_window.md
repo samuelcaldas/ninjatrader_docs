@@ -25,6 +25,10 @@ Within the Risk window, Risk Templates hold the risk definitions for local simul
 
 Understanding Risk Definitions Each risk definition applies to an individual instrument. You can only have one instrument definition per instrument.  Risk_2
 
+![Risk 2](../images/risk_2.png)
+
+![Risk 1](../images/risk_1.png)
+
 ---
 
 ---

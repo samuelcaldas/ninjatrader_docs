@@ -16,6 +16,8 @@ An int value representing the panel as an index value which starts at 0 and will
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

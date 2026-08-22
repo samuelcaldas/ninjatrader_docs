@@ -21,6 +21,8 @@ CandleOutlineBrushes[int barsAgo]
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Sets the outline color of the current bar to black.
 CandleOutlineBrushes[0] = Brushes.Black;

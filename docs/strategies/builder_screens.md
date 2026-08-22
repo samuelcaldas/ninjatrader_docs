@@ -86,6 +86,8 @@ Additional data screen Layout The Additional data screen is where you can option
 
 Critical: You will want to make sure to add any additional series in this section that a hosted / called MultiSeries indicator in your Builder script would use, such as for example the [Pivots](../indicators/pivots.md), [Camarilla Pivots](../indicators/camarilla_pivots.md) or [Fibonacci Pivots](../indicators/fibonacci_pivots.md) indicators.
 
+![Strategy Builder 5](../images/strategy_builder_5.png)
+
 Strategy_Builder_5     1. Press the add button to be able to configure a new series to add  2. Press the edit button to be able to configure an existing series  3. Press the remove button to be able to remove an existing series    Data Series Selector Layout Select your instrument data series to add here     Strategy_Builder_6
 
 ---
@@ -125,6 +127,8 @@ Type
 
 Inputs and Variables screen Layout The Inputs and Variables screen allows you to define the user inputs of your strategy. User inputs are important if you require input values that may vary the performance of your strategy. If for example you have a simple moving average cross over system, you may want to create an input for the fast moving average and another for the slow moving average. This then allows you to change the values of the moving averages at run time from the UI. Inputs are also required if you plan to use the NinjaTrader [Strategy Analyzer's optimization](strategy_analyzer.md) capabilities.    Strategy_Builder_8    1. Press the add button to add a new user input.  2. Press the edit button to edit an existing, selected user input.  3. Press the remove button to remove the selected user input.
 
+![Strategy Builder 8](../images/strategy_builder_8.png)
+
 ---
 
 ---
@@ -140,6 +144,11 @@ Type
 - String
 - Int
 - Time | | Default | Set the default value your user input will have | | Min | Set the minimum value your user input will have | | Description | Enter an optional description for your user input here |    Strategy_Builder_9    1. Press the add button to add a new user variable.  2. Press the edit button to edit an existing, selected user variable.  3. Press the remove button to remove the selected user variable.    |  |  | | --- | --- | | Name | Set the name for your user variable | | Type | Selects the data type of the user variable, possible values for the Builder interface are -
+
+![Strategy Builder 7](../images/strategy_builder_7.png)
+
+![Strategy Builder 6](../images/strategy_builder_6.png)
+
 - Bool
 - Double
 - String
@@ -148,16 +157,38 @@ Type
 
 > **Note:** If an input is named the same as the generated code for an indicator, the strategy will not be able to successfully compile.
 
+![Strategy Builder 9](../images/strategy_builder_9.png)
+
  |
 
 ## Understanding the Conditions and Actions screen
 
 > Conditions and Actions screen Layout The Conditions and Actions screen allows you to set conditions and subsequent actions that control the flow of your strategy.    Conditions - Take the specified action when true  Actions - Execute an action (submit orders, draw objects on the chart etc ...) based on its parent condition evaluating to true     Via the Builder, you can have an unlimited set of conditions with related actions and you also group conditions into a condition group (for example for a certain set of filter rules like time)     Conditions and condition groups are created using the [Condition Builder](strategybuilder_condition_builder.md). Actions are specified by the [Strategy Actions](actions.md) window.     Strategy_Builder_10     1. Selects if all of the individual conditions have to be met in order to trigger an action, or if any will be sufficient.  2. Displays the conditions associated with the currently selected condition set  3. Adds, opens condition grouping(\*), edits or removes a condition (a double click on selected item will also allow editing)  4. Displays the actions associated with the currently selected condition set  5. Adds, edits or removes an action (a double click on selected item will also allow editing)  6. Selects the condition set you wish to edit    \* For an example on working condition groups, please see "How to create a Time Filter' in the [Condition Builder](strategybuilder_condition_builder.md) section    You can copy and paste conditions from one set to another and you can even save a condition set as a template and load for future use via the right mouse button click context menu as show in the image below. To save a condition set as a template, select the Save As... menu item and then to re-use it in another strategy or condition set at a later time, select the Load... menu item.    Strategy_Builder_11
 
+![Strategy Builder 10](../images/strategy_builder_10.png)
+
 ## Understanding the Stops and Targets screen
 
 > Stops and Targets screen Layout The Stops and Targets allows you to set stop loss, trail stop, parabolic stop (R15 and higher) and profit target orders that are automatically submitted and managed once your strategy opens a position.    Strategy_Builder_12    1. Displays stops and targets associated with your strategy  2. Adds a stop or target to your strategy  3. Edits the selected stop or target in your strategy (a double click on the selected item will also allow editing)  4. Removes the selected stop or target from your strategy
 
+![Strategy Builder 12](../images/strategy_builder_12.png)
+
+![Strategy Builder 11](../images/strategy_builder_11.png)
+
 ## Understanding the Finish screen
 
+![Strategy Builder 2](../images/strategy_builder_2.png)
+
 > Finish screen Layout Once you reach this screen you are finished with developing your strategy. Press the Finish button to compile your strategy which will then be ready for [backtesting](backtest_a_strategy.md) or [live execution](../ninjascript/running_ninjascript_strategies.md).    Strategy_Builder_13
+
+![Strategy Builder 13](../images/strategy_builder_13.png)
+
+![Strategy Builder 1](../images/strategy_builder_1.png)
+
+![Strategy Builder 3](../images/strategy_builder_3.png)
+
+![Strategy Builder 4](../images/strategy_builder_4.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
+![Playvideo](../images/playvideo.jpg)

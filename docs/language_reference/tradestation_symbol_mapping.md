@@ -9,3 +9,7 @@ Note: Mapping is NOT required for stocks or Forex symbols.
 > Mapping a Continuous Futures Contract NinjaTrader can map continuous contracts in one of two ways:
 - Automatically map to the next closest expiration date
 - User defined contract mapping    For automatic mapping, follow the instructions above for "How to map an individual futures contract" otherwise follow the instructions below.    If you run the TradeStation Automated Trading Interface through the email protocol follow the instructions below. We will use the "@ES" continuous contract symbol and front month of June 2014 for example purposes.    1. From the NinjaTrader Control Center window select the menu Tools and select the Instruments menu item.  2. Highlight the ES contract from the main grid which is the NinjaTrader S&P 500 Emini contract.  3. Press the "edit" button to bring up the Instrument window.  5. In the Symbol Map category for the External data feed set the value to "ES|06-14".  6. Press the "OK" button.    \* The symbol map name "ES|06-14" in the image below needs to be the TradeStation symbol base name.    Instruments_TradeStationSymbolMapC    Automated Trading Interface - Orders generated for "@ES" will now be routed to the NinjaTrader "ES 06-14" contract.    Please remember to change this when the contract rolls over.
+
+![Instruments Tradestationsymbolmapc](../images/instruments_tradestationsymbolmapc.png)
+
+![Instruments Tradestationsymbolmap](../images/instruments_tradestationsymbolmap.png)

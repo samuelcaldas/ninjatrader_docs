@@ -35,6 +35,8 @@ Notice three things in the image below:
 
 3) The output of the example code displays the zero-based index of Panel #2, which is at index 1
 
+![Ns](../images/ns.png)
+
  
 
 ![ChartPanel_PanelIndex](../images/chartpanel_panelindex.png)

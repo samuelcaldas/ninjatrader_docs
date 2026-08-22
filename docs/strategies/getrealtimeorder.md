@@ -25,6 +25,8 @@ GetRealtimeOrder(Order historicalOrder)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private Order myOrder;
 protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError){

@@ -8,6 +8,8 @@ StrategyBase contains properties and methods for managing a [Strategy](../strate
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // A button called acctStratButton in an NTTabPage displays all ATM and NinjaScript strategies configured on a selected Account when clicked
 private void OnButtonClick(object sender, RoutedEventArgs e)

@@ -16,6 +16,8 @@ A bool determining if the BarsType can remove the last; default value is false.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // allows RemoveLastBar() to be called
 public override bool IsRemoveLastBarSupported { get { return true; } }

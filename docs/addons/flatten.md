@@ -1,3 +1,5 @@
+![Ns](../images/ns.png)
+
 # Flatten()
 
 ## Definition
@@ -18,9 +20,13 @@ Flatten(ICollection<Instrument> instruments)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 Account.Flatten(new [] { Instrument.GetInstrument("ES 12-15") });
-csharp
+```
+
+```csharp
 // Please note that your 'Using declarations' section needs to have
 //
 // using System.Collections.ObjectModel;

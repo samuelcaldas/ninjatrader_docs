@@ -29,9 +29,13 @@ Performance Report To generate a performance report:    1.Select the From date  
 
 Filter Options Pressing the Filter_Icon Filter icon will expand the Performance tab to include parameters that you can use to filter your performance reports. This filtering is done on an executions basis and not a trades basis.
 
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
 ---
 
 Notes:  Adjustments to the filters will automatically update within the Trade Performance window. The Generate button does not need to be selected.  If the From and To dates are adjusted and then Generate is pressed unchecked filter items will become rechecked since the Generate button created a new scan to see what item are applicable for the time window.
+
+![Tradeperformance 2](../images/tradeperformance_2.png)
 
 TradePerformance_2
 
@@ -51,6 +55,12 @@ Sets the instruments name or type to be included in the performance report
 
 Sets the ATM strategies to be included in the performance report
 
+![Tradeperformance 1](../images/tradeperformance_1.png)
+
+![Playvideo](../images/playvideo.jpg)
+
 > **Tip:** The checkbox inline with the filter label will toggle the check mark for all items in that list. Allowing you to quickly select or deselect the entire list.
+
+![Filter Icon](../images/filter_icon.png)
 
  |

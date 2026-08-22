@@ -14,6 +14,8 @@ An array of `ISeries<DateTime>` objects.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {

@@ -27,13 +27,19 @@ Bars.Instrument.MasterInstrument.FormatPrice(double price, [bool round])
 
 ## Examples
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {
     // called without setting the optional bool parameter, which is defaulted to true then
     Print(Bars.Instrument.MasterInstrument.FormatPrice(Close[0]));
 }
-csharp
+```
+
+```csharp
 protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 {
     Print(marketDataUpdate.Instrument.MasterInstrument.FormatPrice(marketDataUpdate.Price));

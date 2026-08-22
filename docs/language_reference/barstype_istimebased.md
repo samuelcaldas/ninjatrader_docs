@@ -14,6 +14,10 @@ A bool which when true tells other objects the bars are built from time; default
 
 ## Examples
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {
@@ -25,7 +29,9 @@ protected override void OnStateChange()
         = true; // indicates to the core the these bars are built using time.
     }
 }
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // include milliseconds time stamps for tick based bars

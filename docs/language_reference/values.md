@@ -16,6 +16,8 @@ Values[int index]
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // OnBarUpdate method of a custom indicator
 protected override void OnBarUpdate()

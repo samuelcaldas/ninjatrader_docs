@@ -1,3 +1,5 @@
+![Playvideo](../images/playvideo.jpg)
+
 # Price Ladder Display
 
 The SuperDOM is designed to allow the trader to view market prices, market depth, current inside market, indicator price levels, PnL, current positions, and pending orders at a glance.  The unique display of each item within the SuperDOM Price Ladder display makes managing open orders and positions easy and efficient.
@@ -49,6 +51,34 @@ To open the SuperDOM Window, select the New menu from the NinjaTrader Control Ce
 
 > PnL Display  The PnL field in the bottom of the Price column will show the current unrealized profit/loss for your current open position, and read as PnL when you are FLAT.    You can optionally enable "Show PnL when flat" in the [SuperDOM Properties](properties_superdom.md) to view your daily account PnL when FLAT    SuperDOM_6   Current Position Display The cell between the CLOSE button and the REV button will tell you your current position.    When long the field will show as green and list the number of contracts, and when short field will show as red and list the number of contracts. When you do not have an open position the field will say FLAT.
 
+![Superdom 6](../images/superdom_6.png)
+
+![2](../images/2.png)
+
 ## How to adjust the Price Ladder display
 
 > [playVideo](http://www.ninjatrader.com/support/movies/nt7/helpGuide/operations/orderEntry/superDOM/adjustingThePriceLadderDisplay/Adjusting-The-Price-Ladder-Display.md)    Adjusting the Price Ladder display  Move your cursor into the Price Ladder region and use your mouse scroll wheel to adjust market prices up or down.    You can also left mouse click on the "C" button at any time to center the inside market.    Optionally, the Auto Center property will automatically center the inside market price should the last traded price trade outside the visible range on the Price Ladder. You can enable or disable Auto Center at any time by clicking on your right mouse button in the border of the SuperDOM and selecting the menu name Auto Center.    SuperDOM_7     Number of Visible Price Rows The number of price rows will be dynamically adjusted by vertically re-sizing the SuperDOM window.  The larger the size of the SuperDOM window, the more price levels will be added in automatically.    This achieved in the same manner you would use to resize any other sort of general application window, by moving your mouse cursor to the edge of the window and clicking and dragging until you have reached your desired size.   Increasing / Decreasing the Number of Market Depth Levels By default, the SuperDOM will display 10 levels of market depth.  However you can configure additional levels of depth to be displayed and is only limited by the number of levels provided by the exchange/data provider combination you are using.  For example, an exchange might provide 20 levels of market depth for an instrument you are trading.  If you would like to view all 20 of these levels on the SuperDOM, simply right click on the SuperDOM, select Properties, and set the # of market depth levels property value to 20 and the press OK.    SuperDOM_8
+
+![Superdom 8](../images/superdom_8.png)
+
+![Superdom 7](../images/superdom_7.png)
+
+![Superdom 5](../images/superdom_5.png)
+
+![1](../images/1.png)
+
+![Superdom 4](../images/superdom_4.png)
+
+![Superdom 2](../images/superdom_2.png)
+
+![4](../images/4.png)
+
+![Superdom 1](../images/superdom_1.png)
+
+![3](../images/3.png)
+
+![2](../images/2.png)
+
+![1](../images/1.png)
+
+![Superdom 3](../images/superdom_3.png)

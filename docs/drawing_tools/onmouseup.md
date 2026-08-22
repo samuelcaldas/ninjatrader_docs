@@ -31,6 +31,8 @@ public override void OnMouseUp(ChartControl chartControl, ChartPanel chartPanel,
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override void OnMouseUp(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {

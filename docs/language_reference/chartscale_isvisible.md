@@ -14,6 +14,8 @@ A bool value, which when true the series used to build the scale is viewable; ot
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

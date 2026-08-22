@@ -28,6 +28,8 @@ protected override void OnPositionUpdate(PositionEventArgs positionUpdate)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnPositionUpdate(PositionEventArgs positionUpdate)
 {

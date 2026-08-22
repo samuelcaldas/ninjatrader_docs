@@ -21,6 +21,8 @@ Represents an interface that exposes information regarding a Text Fixed [IDrawin
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a TextFixed object
 TextFixed myTF = Draw.TextFixed(this, "tag1", "Text to draw", TextPosition.TopRight);

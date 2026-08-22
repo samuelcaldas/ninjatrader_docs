@@ -58,6 +58,8 @@ The following table applies to Chart Strategies, Control Center Strategies Grid,
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 [Gui.CategoryOrder("My Strings", 1)] // display "My Strings" first
 [Gui.CategoryOrder("My Bools", 2)] // then "My Bools"

@@ -13,6 +13,8 @@ public override string Format(object value, Cbi.PerformanceUnit unit, string pro
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override string Format(object value, Cbi.PerformanceUnit unit, string propertyName)
 {

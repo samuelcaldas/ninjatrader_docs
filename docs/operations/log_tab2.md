@@ -4,6 +4,8 @@ The Log tab displays historical application and trading events for the current d
 
 Log Display Log events are categorized and color coded based on four distinct alert levels; Information, Warning, Error and Alert.    ControlCenter_LogGrid    Each log event is displayed by date, category and message. In some cases, the length of the message may be larger than the width of the "Message" column. In this situation, you can hover your mouse above the message in order to have it display in a pop-up type window.   Right Click Menu Right mouse clicking within the log display section opens the following menu:    ControlCenter_Log_ContextMenu
 
+![Controlcenter Log Contextmenu](../images/controlcenter_log_contextmenu.png)
+
 ---
 
 ---
@@ -64,6 +66,8 @@ Error
 
 Sets the color used for background for Error log messages
 
+![Controlcenter Loggrid](../images/controlcenter_loggrid.png)
+
 Information
 
 Sets the color used for background for Information log messages
@@ -77,6 +81,8 @@ Window
 Sets that window management features are enabled or disabled
 
 How to preset property defaults Once you have your properties set to your preference, you can left mouse click on the "preset" text located in the bottom right of the properties dialog. Selecting the option "save" will save these settings as the default settings used every time you open a new window/tab.    If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset text and select the option to restore to return to the original factory settings - please note though that you cannot save a custom default to restore to.
+
+![Controlcenter Log Properties](../images/controlcenter_log_properties.png)
 
 ---
 

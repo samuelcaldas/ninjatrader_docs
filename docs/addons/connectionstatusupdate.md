@@ -16,6 +16,9 @@ ConnectionStatusUpdate
 
 ```csharp
 /\* Example of subscribing/unsubscribing to connection update events from an Add On. The concept can be carried over
+
+![Ns](../images/ns.png)
+
 to any NinjaScript object you may be working on. \*/
 public class MyAddOnTab : NTTabPage
 {

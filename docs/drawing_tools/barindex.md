@@ -16,6 +16,8 @@ ChartAnchor.SlotIndex
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {

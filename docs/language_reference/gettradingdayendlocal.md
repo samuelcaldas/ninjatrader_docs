@@ -22,6 +22,8 @@ A DateTime object representing the exchange-based trading day end time converted
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 private SessionIterator sessionIterator;
 protected override void OnStateChange()

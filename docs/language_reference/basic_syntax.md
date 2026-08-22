@@ -6,6 +6,12 @@ NinjaScript is an extension to the powerful Microsoft C# language. The following
 
 A statement is analogous to a complete sentence in the English language.
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 Example:
 
 I like trading.
@@ -15,6 +21,8 @@ This is clear and easy to understand. Compared to:
 I like.
 
 Anyone reading this would not know what you like. This is not a complete sentence. The same logic applies to a C# statement, it forms a complete instruction that can be interpreted by the compiler.
+
+![Ns](../images/ns.png)
 
 ```csharp
 sum = 10 + 10;
@@ -52,7 +60,13 @@ You can enclose several comment lines using the "/\*" characters to start the co
 
 ```csharp
 /\* These are comments to illustrate a multi line comment
+
+![Ns](../images/ns.png)
+
 block within NinjaScript \*/
+
+![Ns](../images/ns.png)
+
 ```
 
 ## Case Sensitivity
@@ -128,6 +142,9 @@ For example:
 
 ```csharp
 // Example of using the ABS method of the System.Math class
+
+![Ns](../images/ns.png)
+
 double myDouble = Math.Abs(5 - 6);
 Print(myDouble.ToString());
 ```
@@ -202,9 +219,13 @@ Print(myInteger.ToString());
 
 The above conditional statement says "assign the value 3 to the variable myInt if 10 is greater than 12, else assign the value 4 to the variable myInt." The example will then print the value of 4 to the NinjaScript Output window, since 10 is not greater than 12.
 
+![Ns](../images/ns.png)
+
 ## String Concatenation
 
 "String Concatenation" refers to appending one string onto another. To do this, use the "+" character.
+
+![Ns](../images/ns.png)
 
 ```csharp
 // Example of string concatenation
@@ -214,3 +235,7 @@ Print(wordOne.ToString() + wordTwo.ToString());
 ```
 
 The above example would print out "NinjaTrader" to the NinjaScript Output window.
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)

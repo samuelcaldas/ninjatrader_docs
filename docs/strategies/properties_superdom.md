@@ -179,3 +179,5 @@ Sets if the SuperDOM Trade Control is displayed on the left of the price column
 ## Using Tab Name Variables
 
 > Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the SuperDOM Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](../operations/using_tabs.md) page.
+
+![Superdom 58](../images/superdom_58.png)

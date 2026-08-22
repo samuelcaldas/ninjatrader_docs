@@ -44,6 +44,8 @@ class ChartAnchor
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public ChartAnchor MyAnchor { get; set; }
 // declares the "MyAnchor" ChartAnchor object

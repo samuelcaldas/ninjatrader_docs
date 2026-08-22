@@ -13,6 +13,8 @@ IsUserDrawn
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 if (IsUserDrawn)
 {

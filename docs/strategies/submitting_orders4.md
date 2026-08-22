@@ -16,6 +16,8 @@ There are several methods that can be used to submit orders directly from a char
 
 > Quick Buttons You can quickly submit orders via the Chart Trader panel's Quick Buttons.    ChartTrader5   Button Actions   Buy Mkt - Submits Buy order at market    Sell Mkt - Submits Sell order at market    Buy Ask - Submits a Buy Limit order at the Ask price    Sell Ask - Submits a Sell Limit order at the Ask price    Buy Bid - Submits a Buy Limit order at the Bid price    Sell Bid - Submits a Sell Limit order at the Bid price
 
+![Charttrader5](../images/charttrader5.png)
+
 ## How to scale in or out of an active ATM strategy
 
 | Name / Option | Description |
@@ -36,10 +38,23 @@ There are several methods that can be used to submit orders directly from a char
 
     Example:  Below are steps for submitting a Sell Limit and a Buy Limit order via OCO.    ChartTrader6    1. Enable OCO    ChartTrader7    2. Notice that there is a green OC at the top right of the chart, indicating OCO is enabled. Place a Buy Limit order    ChartTrader8    3. If you are initiating two orders to enter a new strategy, then re-select the strategy in the strategy selection list    ChartTrader9    4. Place a Sell Limit order    ChartTrader10    5. Disable OCO (it is critical that you disable OCO before submitting another OCO group) |
 
+![Charttrader9](../images/charttrader9.png)
+
+![Charttrader4](../images/charttrader4.png)
+
 ## Understanding simulated stop orders
 
 | Name / Option | Description |
 | --- | --- |
 | Simulated Stop Orders (Simulated Order) [Simulated Stop Orders](simulated_stop_orders.md) allow you to place orders that trigger at a specific price but try to fill at a better price. To submit a Simulated Stop order, you must enable Simulated Orders via the right click menu and select the Simulated Order menu item, or use a user-defined Hot Key. All stop orders placed while this setting is enabled will be submitted as a Simulated Stop order.    |  | | --- | | Notes:
 - This applies to entry and exit orders specifically, NOT Stop Loss orders; simulated Stop Loss orders are enabled via a [stop strategy](stop_strategy.md)
+
+![Charttrader7](../images/charttrader7.png)
+
 - When a Simulated Stop order is displayed in the chart panel via Chart Trader, it's line and type/quantity label will be colored yellow by default to differentiate it from a Stop Limit order |    One of the powerful features of Simulated Stop orders is that you can submit a "negative limit stop-limit" order. This means that you can place an order in which the Limit price is better than the Stop price. As an example, you may want to buy on strength indicated by a move up to a particular price. Once that occurs, you want to enter at a better price using a limit order several ticks below the stop price. Any stop-limit order submitted with a negative limit offset automatically becomes a simulated order and will be held on your PC until the stop is triggered or canceled. |
+
+![Charttrader10](../images/charttrader10.png)
+
+![Charttrader8](../images/charttrader8.png)
+
+![Charttrader6](../images/charttrader6.png)

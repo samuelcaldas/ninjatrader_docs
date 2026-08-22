@@ -14,6 +14,8 @@ Represents an interface that exposes information regarding an Arrow Up [IDrawing
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate an ArrowDown object
 ArrowUp myArrow = Draw.ArrowUp(this, "tag1", true, Time[0], Low[0] - (2 \* TickSize), Brushes.Green);

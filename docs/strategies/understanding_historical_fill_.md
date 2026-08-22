@@ -11,5 +11,14 @@ Our Historical Fill Algorithm will run on existing data that you are backtesting
 | Name / Option | Description |
 | --- | --- |
 | Order Fill Resolution NinjaTrader allows you to pull in additional historical data that will be more granular than what you are using for the strategy backtest to be used to give you more data points of which to fill orders. Allowing for more accuracy in the order fill simulation.    StrategyAnalyzer_OrderFillProcessing    Order fill resolution of "Standard (Fastest)" is the default setting and will use the existing bar type and interval that you are running the backtest on to fill your orders. This means that the historical fill algorithm will use the same Open, High, Low, Close, Time values that are available to the strategy for running the order fill simulation.    Selecting order fill resolution of "High" will allow you to set a secondary bar series to be used as the price data to fill your orders, this allows you to bring in more granular data then you are currently running the strategy on. For example you may have a strategy that you run on "Daily" bars but then want to bring in "Minute" bars for the historical fill algorithm to be based on.    The secondary bar series will mimic the 'price based on' setting in your Strategy Analyzer settings, should you wish to mix different prices types, for example generate signals of last based data and execute those to a bid / ask series, this could be achieved with further [custom programming](../ninjascript/using_historical_bid_ask_serie.md).    |  | | --- | | Notes:
+
+![Strategyanalyzer Ofp Openclosertohigh](../images/strategyanalyzer_ofp_openclosertohigh.png)
+
+![Strategyanalyzer Ofp Openclosertolow](../images/strategyanalyzer_ofp_openclosertolow.png)
+
+![Strategyanalyzer Orderfillprocessing](../images/strategyanalyzer_orderfillprocessing.png)
+
 - You could choose to always use the most granular order fill resolution such as a  1 Tick Data Series. However this forces NinjaTrader to process this additional data for use in the historical fill algorithm. This results in longer backtest times due to the additional data that needs to be processed. NinjaTrader will only start the backtest after we have loaded historical data for both the strategy and the order fill resolution.
 - Order fill resolution cannot be used with Multi Time Frame/Multi Instrument strategies, or when Tick Replay is used. For those cases, a strategy should be written to [submit orders to a single tick data series.](backtesting_ninjascript_strate.md) | |
+
+![Strategyanalyzer Orderfillprocessing](../images/strategyanalyzer_orderfillprocessing.png)

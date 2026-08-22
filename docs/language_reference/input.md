@@ -15,16 +15,26 @@ Input[int barsAgo]
 
 ## Examples
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the the current value of input
 Print(Input[0].ToString());
-csharp
+```
+
+```csharp
 // Prints the the current type of input passed to the object, so we can detect if we're working on a price based series such as OHLCV or a derivative such as an SMA indicator
 if (Input is PriceSeries)
 Print("Price Series Input");
 if (Input is Indicator)
 Print("Indicator Input");
-csharp
+```
+
+```csharp
 // Prints the the current selected price type for the input series
 else if (State == State.DataLoaded)
 {

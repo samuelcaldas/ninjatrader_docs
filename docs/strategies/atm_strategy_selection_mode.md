@@ -41,6 +41,11 @@ There are three available ATM Strategy Selection Modes:
 ## Understanding the "Display Selected ATM Strategy Only" mode
 
 | Name / Option | Description |
+
+![Atm 13](../images/atm_13.png)
+
+![Atm 12](../images/atm_12.png)
+
 | --- | --- |
 | Display Selected ATM Strategy Only This mode is an advanced mode and should only be used once you have become very familiar with the NinjaTrader application.   Who is this mode designed for? This mode is designed for traders who want to run concurrent ATM Strategies (trades) in the same market. This mode will visually separate all concurrent running ATM Strategies thereby allowing you to have multiple SuperDOMs open, tracking the same market but displaying different trade strategies. A practical example might be that you have taken a day long intra day swing trade against a fifteen minute chart for five contracts. Throughout the day, you scalp the same market on a one minute time frame. This mode allows you to have two SuperDOMs open, one allocated to manage and only display your day long intra day swing trade, the other used to manage and only display your scalp trades.   Example (see image below) In the image right, you can see two separate SuperDOMs monitoring the same ES 09-14 market. In the ATM Strategy control list, there are two different ATM Strategies running and each is displayed separately in an individual SuperDOM. Orders, positions, average entry and unrealized profit are displayed individually for each separate running ATM Strategy.
 - When running multiple concurrent ATM Strategies by changing the selected active strategy in the strategy control list you can change which strategy will be displayed
@@ -48,3 +53,13 @@ There are three available ATM Strategy Selection Modes:
 - The position display will display the number of contracts being managed by the ATM Strategy and then your net position size. The box is color coded to the ATM Strategy's market position. So if your ATM Strategy is long, the box will be colored green. Using the first image on the right as an example, it shows "3 - 4L" in a green box. Green indicates the ATM Strategy is long, the number 3 indicates that there are 3 contracts being managed by that ATM Strategy and 4L indicates the account actually holds 4 contracts long. What it is saying is; that we are running a long ATM Strategy that is managing 3 of 4 contracts that are held long in my account. The image on the right is managing 1 of the 4 long contracts.
 - When you do not have any active ATM Strategies selected, the SuperDOM position display will display your net account position
 - Pressing the "CLOSE" button while an active ATM Strategy is selected will close only that ATM Strategy. If anything else is selected, it will close the entire account position including all other working ATM Strategies.    ATM_15   |  | | --- | | Critical: When a SuperDOM is set to this mode, it will only display orders associated to the active selected ATM Strategy in the ATM Strategy control list. This means that if there are other orders working in the selected market that are not associated to the ATM Strategy, you will not see them displayed. The risk is that you could have orders working, you forget about them or did not even know they were still working, they are filled and you could damage your trading account. Please fully understand how to use this powerful feature before putting it to use. | |
+
+![Atm 15](../images/atm_15.png)
+
+![Atm 14](../images/atm_14.png)
+
+![Atm 12](../images/atm_12.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
+![Playvideo](../images/playvideo.jpg)

@@ -338,3 +338,7 @@ dv
 Draw.VerticalLine(this, "MyVerticalLine", 0, Brushes.Blue);
 
 > Via mouse or pressing the F2 key 1. Right mouse click in the NinjaScript Editor and select the menu name "Insert Code Snippet"    NS_Editor_10    2. A menu will display all available code snippets.    NS_Editor_11
+
+![Ns Editor 11](../images/ns_editor_11.png)
+
+![Ns Editor 10](../images/ns_editor_10.png)

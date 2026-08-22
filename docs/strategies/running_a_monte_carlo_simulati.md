@@ -18,6 +18,8 @@ Graph
 
 Sets the statistic to generate the report on
 
+![Strategyanalyzer Montecarlooptions2](../images/strategyanalyzer_montecarlooptions2.png)
+
 W/L
 
 Sets the results to show only winners, only loser, or both
@@ -45,3 +47,7 @@ Sets the # of trades in each simulation (will default to the # of trades in the 
 ## Understanding the Monte Carlo Simulation report
 
 > Monte Carlo Simulation Report The results of the Monte Carlo Simulation are displayed in a graph below the parameters.    StrategyAnalyzer_MonteCarloGraph   X-Axis The horizontal axis of the Monte Carlo Simulation graph shows the percentage of simulations that have fallen below the Y - axis value. For example, if you run a Monte Carlo Simulation setting the # of Simulations to "100" and using the Cumulative Profit graph, the intersection of the 50% X - value and the associated Y value means that 50 of your simulations will be below that cumulative profit/loss value, and oppositely the remaining 50 simulations will have a greater cumulative profit/loss. This type of report allows you to analyze if the risk/reward ratio between worst and best case scenarios is acceptable or not.   Y-Axis The vertical axis of the Monte Carlo Simulation graph displays the measured unit for the Graph item selected such as Profit/Loss, statistical information, or time and changes based on the Graph selection.
+
+![Strategyanalyzer Montecarlograph](../images/strategyanalyzer_montecarlograph.png)
+
+![Strategyanalyzer Montecarlodisplay](../images/strategyanalyzer_montecarlodisplay.png)

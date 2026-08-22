@@ -22,6 +22,8 @@ A collection of session definitions of the configured Trading Hours template.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Print details for all sessions in the Trading Hours template
 for (int i = 0; i < TradingHours.Sessions.Count; i++)

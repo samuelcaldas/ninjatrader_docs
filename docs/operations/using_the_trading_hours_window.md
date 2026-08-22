@@ -60,6 +60,8 @@ Sets if the session is the last session for the trading day.
 
 Understanding Trading Holidays  NinjaTrader will exclude trading holidays that are defined in the Trading Hour Template.   TradingHours_Holidays  Each Holiday has a Trading Date, Type, Start date, Start Time, End date, End time, and Description. The Holidays type will determine what fields are available.   Holiday Types
 
+![Tradinghours Newtemplate](../images/tradinghours_newtemplate.png)
+
 ---
 
 ---
@@ -83,6 +85,10 @@ Replace the start time/date for the first session after the Holidays Trading Dat
 Modify
 
 Modifies the starting sessions start time and ending sessions end time for the Holidays Trading Date. Note: In contracts to "replace" this keeps all existing sessions defined in between the start and end session.
+
+![Tradinghours Session](../images/tradinghours_session.png)
+
+![Tradinghours Holidays](../images/tradinghours_holidays.png)
 
 > **Note:** Trade Holidays are automatically updated from the NinjaTrader data server, to report an issue with a trade holiday or a missing holiday please contact [email protected](mailto:platformsupport@ninjatrader.com)
 

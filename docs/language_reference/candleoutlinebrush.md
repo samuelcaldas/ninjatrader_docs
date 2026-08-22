@@ -18,6 +18,8 @@ CandleOutlineBrush
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Sets the candle outline color to black
 CandleOutlineBrush = Brushes.Black;

@@ -47,6 +47,8 @@ Draw.Triangle(NinjaScriptBase owner, string tag, DateTime startTime, double star
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Paints a blue triangle on the chart
 Draw.Triangle(this, "tag1", 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue);

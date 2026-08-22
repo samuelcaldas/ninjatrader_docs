@@ -14,6 +14,8 @@ A bool value. When True, indicates that the scroll arrow is visible on the chart
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

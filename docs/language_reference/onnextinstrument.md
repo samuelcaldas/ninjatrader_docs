@@ -14,6 +14,8 @@ See example below. The NinjaScript code wizard automatically generates the metho
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 private int currentInstrumentIdx = -1;
 public string[] FileNames

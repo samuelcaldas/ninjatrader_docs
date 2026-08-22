@@ -51,3 +51,5 @@ Sets if the window should allow for tabs
 ## Using Tab Name Variables
 
 > Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Order Ticket Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](../operations/using_tabs.md) page.
+
+![Orderticket 7](../images/orderticket_7.png)

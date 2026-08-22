@@ -14,6 +14,8 @@ Represents an interface that exposes information regarding a Ray [IDrawingTool](
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a Ray object
 Ray myRay = Draw.Ray(this, "tag1", 10, 1000, 0, 1001, Brushes.LimeGreen);

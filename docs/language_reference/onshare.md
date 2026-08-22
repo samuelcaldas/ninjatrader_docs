@@ -25,6 +25,8 @@ public override void OnShare(string text, string imageFilePath)
 ```
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override void OnShare(string text, string imgFilePath)
 {

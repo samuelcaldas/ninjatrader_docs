@@ -31,6 +31,8 @@ MergePolicy
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // request the last 365 1 day bars
 BarsRequest useGlobalRequest = new BarsRequest(Instrument.GetInstrument("ES 09-16"), 365);

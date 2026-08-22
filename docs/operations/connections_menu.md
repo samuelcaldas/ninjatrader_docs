@@ -38,6 +38,12 @@ Playback Connection
 
 Used to play [Playback](playback_connection.md) data at various speeds (data must be [downloaded](set_up12.md) prior to using the Playback connection)
 
+![Controlcenter Connectionsconfigure](../images/controlcenter_connectionsconfigure.png)
+
+![Controlcenter Connectiondisconnect](../images/controlcenter_connectiondisconnect.png)
+
+![Controlcenter Connecting](../images/controlcenter_connecting.png)
+
 Simulated Data Feed
 
 Creates simulated data locally on your PC (not based on real market movements)

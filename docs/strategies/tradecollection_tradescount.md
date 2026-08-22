@@ -14,6 +14,8 @@ An int value that represents the number of trades in the collection.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

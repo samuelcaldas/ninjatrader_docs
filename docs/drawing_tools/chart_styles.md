@@ -42,6 +42,8 @@ NinjaTrader supports a large variety of Chart Styles. This page explains how eac
 | --- | --- |
 | Mountain Chart Style The Mountain Chart Style functions similarly to the Line on Close style covered in the previous section. The Mountain style connects Close prices of a chosen interval with straight line segments, and also colors the region below the connected line segments with a solid color.   Reading a Line on Close Chart When looking at a Mountain chart, it is important to differentiate between the line itself and the pivots between the line's many segments. Each point at which the line pivots represents a Close price for the instrument, while the lines between those points do not necessarily represent true historical prices. Instead, they are drawn as a way to smooth the transition from one Close price to another. It is also important to understand that the shaded area does not necessarily represent historical price points, but is intended simply as a visual aid.    ChartStyles5    |  
 
+![Chartstyles1](../images/chartstyles1.png)
+
 > **Note:** The outline color, fill color, and opacity of this Chart Style can be changed via the [Data Series](../operations/working_with_price_data.md) window.
 
  |
@@ -49,6 +51,10 @@ NinjaTrader supports a large variety of Chart Styles. This page explains how eac
 ## Understanding the OHLC Chart Style
 
 > OHLC Chart Style The OHLC Chart Style plots four data points per bar: Open, High, Low, and Close. Like Candlesticks, OHLC bars are generally painted one color for up bars (green by default), and another color for down bars (red by default).   Reading an OHLC Chart The small left- and right-facing flags on each bar hold the key to interpreting OHLC charts. When the right-facing flag is higher on the bar than the left-facing flag, this indicates an up bar, and when the left-facing flag is higher, this represents a down bar. This should correspond to the colors of the bars, as well. The space between the flags represents the Open-to-Close price action, while the parts of the bar extending beyond the flags represent the High and Low (regardless of bar direction).    ChartStyles6
+
+![Chartstyles6](../images/chartstyles6.png)
+
+![Equivolume](../images/equivolume.png)
 
 ## Understanding the HLC Chart Style
 
@@ -76,10 +82,28 @@ NinjaTrader supports a large variety of Chart Styles. This page explains how eac
 | --- | --- |
 | Open/Close Chart Style The Open/Close Chart Style simplifies intra-bar noise by taking High and Low prices out of the equation. This Chart Style paints up bars in a green color by default, and down bars in a red color by default, and simply plots the difference between the Open and Close during a chosen interval.   Reading Open/Close Charts In an up bar, the bottom of an Open/Close bar represents the Open price, while the top of the bar represents the Close price. In a down bar, the top represents the Open, while the bottom represents the Close.    ChartStyles7    |  
 
+![Chartstyles10](../images/chartstyles10.png)
+
+![Chartstyles9](../images/chartstyles9.png)
+
+![Chartstyles5](../images/chartstyles5.png)
+
 > **Tip:** When drawing support/resistance or trend lines, some traders prefer to anchor these lines to candle bodies while ignoring wicks. If this is your chosen method, then the Open/Close Chart Style can be a good alternative to traditional Candlesticks.
+
+![Chartstyles7](../images/chartstyles7.png)
+
+![Hollowcandles](../images/hollowcandles.png)
 
  |
 
 ## Understanding the Point and Figure Chart Style
 
 > Point and Figure Chart Style The Point and Figure Chart Style was specifically designed to function with the Point and Figure Bar Type, which is an alternative way of analyzing price action from a different perspective than traditional time-based bars.   Reading a Point and Figure Chart For more information on reading and setting up Point and Figure charts, see the "Understanding Point and Figure Bars" section of the [Bar Types](../operations/bar_types.md) page.    ChartStyles8
+
+![Chartstyles8](../images/chartstyles8.png)
+
+![Chartstyles4](../images/chartstyles4.png)
+
+![Chartstyles3](../images/chartstyles3.png)
+
+![Chartstyles2](../images/chartstyles2.png)

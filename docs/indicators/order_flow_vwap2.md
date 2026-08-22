@@ -86,6 +86,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // A 1 tick data series must be added to the OnStateChange() if using a Tick Resolution (our second example call below in OnBarUpdate()) else if (State == State.Configure){ AddDataSeries(Data.BarsPeriodType.Tick, 1);}
 // OnBarUpdate() logic

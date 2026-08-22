@@ -42,6 +42,8 @@ Draw.ExtendedLine(NinjaScriptBase owner, string tag, DateTime startTime, double 
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Draws a dotted lime green
 Draw.ExtendedLine(this, "tag1", 10, Close[10], 0, Close[0], Brushes.LimeGreen, DashStyleHelper.Dot, 2);

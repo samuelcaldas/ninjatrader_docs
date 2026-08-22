@@ -49,6 +49,8 @@ A ChartControlProperties object containing values for all properties configured 
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

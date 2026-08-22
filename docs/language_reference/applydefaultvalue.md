@@ -29,6 +29,8 @@ public override void ApplyDefaultValue(BarsPeriod period)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override void ApplyDefaultValue(BarsPeriod period)
 {

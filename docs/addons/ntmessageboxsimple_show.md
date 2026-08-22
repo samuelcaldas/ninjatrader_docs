@@ -33,7 +33,9 @@ NTMessageBoxSimple.Show(Window input, string messageTxt, string caption, Message
 ChartControl.Dispatcher.InvokeAsync(new Action(() => {
     NinjaTrader.Gui.Tools.NTMessageBoxSimple.Show(Window.GetWindow(ChartControl.OwnerChart as DependencyObject), "Message Body", "Message Header", MessageBoxButton.OK, MessageBoxImage.None);
 }));
-csharp
+```
+
+```csharp
 // Create a MessageBox window from a button press in an AddOn
 private void OnMenuItemClick(object sender, RoutedEventArgs e)
 {

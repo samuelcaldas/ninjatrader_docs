@@ -23,9 +23,13 @@ The Market Analyzer window allows you to display a variety of real-time quotes, 
 
 > Label rows are user defined and can be used to separate groups of instruments in any way (by asset class, instrument list, etc.). Adding Label Rows in the Market Analyzer Window Press down on your right mouse button inside the Market Analyzer window and select the menu Add Label Row.  Once the Label row is added you can type in any user defined name.    MarketAnalyzer_3   Editing the Label Row Name If you have an existing Label row you wish to go back and change the text, double clicking on the exiting Label row text will give you a flashing cursor, allowing you to type in a new name for the Label row.   Dynamic Sorting within Label Rows Instruments you drag or add under a Label row will "auto-sort" with only the other instruments under the same Label row. For example, if you have one Label row for futures and one for stocks, when you sort the columns, the instruments listed under the futures label would be sorted only against other instruments under the futures label, while instruments under the stocks label would be sorted only against instruments under the stocks label.  For more information on ranking and sorting within the Market Analyzer see the [Dynamic Ranking and Sorting](dynamic_ranking_and_sorting.md) section of the user help guide.    Aligning a Label Row  The label of a Label Row can be aligned to the left, center or right of the row. This is done by right mouse clicking within the Market Analyzer and selecting the Properties menu. Change the property Label row text alignment to either "Left", "Center", or "Right".
 
+![Marketanalyzer 3](../images/marketanalyzer_3.png)
+
 ## How to add Blank rows
 
 > Adding Blank rows to the Market Analyzer window Blank rows can be used to create space between instruments in the Market Analyzer window or if you need to add more instruments. To add a Blank row press down on your right mouse button in the Market Analyzer window and select the menu Add Blank Row.  The Blank row will be added above the row you right clicked in.    MarketAnalyzer_4
+
+![Marketanalyzer 4](../images/marketanalyzer_4.png)
 
 ## How to move Instrument, Label and Blank rows
 
@@ -39,6 +43,22 @@ The Market Analyzer window allows you to display a variety of real-time quotes, 
 
 > A Total row can total any column of values and is displayed at the top of the Market Analyzer window.  For example, you could choose to display your total Realized PnL and total Traded Contracts for all instruments displayed in the Market Analyzer.    MarketAnalyzer_9 Adding the Total row to the Market Analyzer window To add a Total row in the Market Analyzer you must enable both the Total row and the columns you would like totalled with the following steps:   1.Press down on your right mouse button in the Market Analyzer window and select the menu Properties.  2.In the Properties menu scroll down to the 1 Total Row section and check the box to enable.  You can also choose to customize the color of this row with the 2 Total row background property.  3.Press the Apply button to apply the changes or press the OK button to apply the changes and exit the Properties menu.     MarketAnalyzer_10     4.To show each column’s total in the Total row press down on your right mouse button inside the Market Analyzer window and select the menu Columns.  5.Check the Show in Total row property each column you want totaled in the Total row.    MarketAnalyzer_11    6.Press the Apply button to apply the changes or press the OK button to apply the changes and exit the Columns window.   Removing the Total row from the Market Analyzer window To remove the Total row press down on your right mouse button inside the Market Analyzer window and select the menu Properties.  Scroll down to the Total Row section and uncheck the property.  Then press the Apply button to apply the changes or press the OK button to apply the changes and exit the Properties window.
 
+![Marketanalyzer 11](../images/marketanalyzer_11.png)
+
+![2](../images/2.png)
+
+![Marketanalyzer 2](../images/marketanalyzer_2.png)
+
 ## Understanding Row Filtering
 
 > Row Filtering allows you to filter out (hide) rows from the Market Analyzer grid display based on a cell's value. Filter conditions can be setup for any column applied to the Market Analyzer.    To enable Row Filtering:  1.Press down on your right mouse button in the Market Analyzer window and select the menu Row Filter.  2.To access the Columns menu where you can add filtering conditions to each column press down on your right mouse button and select the menu Columns.    For more information on Row Filtering see the [Creating Filter Conditions](creating_cell_and_filter_condi.md) section of the user help guide.
+
+![Marketanalyzer 10](../images/marketanalyzer_10.png)
+
+![1](../images/1.png)
+
+![Marketanalyzer 5](../images/marketanalyzer_5.png)
+
+![Marketanalyzer 8](../images/marketanalyzer_8.png)
+
+![Marketanalyzer 9](../images/marketanalyzer_9.png)

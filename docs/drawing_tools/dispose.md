@@ -18,6 +18,8 @@ This method does not accept any parameters
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {

@@ -239,6 +239,8 @@ UpDownTick
 
 Last trade happens while Ask > Last Ask is considered buying, Last trade happens while Bid < Last Bid considered selling, all volume in between is added to the prior direction - this mode is an important proxy for markets / data providers where best bid / ask information is not available with last price tick data
 
+![Vp20](../images/vp20.png)
+
 Profile period
 
 ---
@@ -321,6 +323,8 @@ Display in margin
 
 Only available for Profile period Composite, if selected will display the profile and including lines in the right side margin
 
+![Vp7](../images/vp7.png)
+
 Profile width (%) or (px)
 
 This will be in pixels or in percentage, depending on the profile period selection. With percentage it indicates what percentage of space between sessions the bars will take. With pixels it will be how many pixels of space the bars will take.
@@ -340,6 +344,10 @@ Enables the display of the value area.
 Value area opacity
 
 Volume bars which are within the value area are plotted with less opacity then the profile, allowing them to standout. To disable this, set the opacity to the same value as the 'Profile opacity'
+
+![Vp9](../images/vp9.png)
+
+![Vp8](../images/vp8.png)
 
 Color for POC
 
@@ -364,6 +372,8 @@ In 'Heat' draw mode, this property defines the top gradient for the highest volu
 Color for low heat
 
 In 'Heat' draw mode, this property defines the bottom gradient for the lowest volume seen in the profile.
+
+![Vp3](../images/vp3.png)
 
 Hide bars
 
@@ -417,9 +427,17 @@ Extended naked Value Area
 
 Enable and customize display of the Extended Value Area lines. Please see 'Extended 'Naked' POC and Value Area'  section in the Order Flow Concepts section for more information.
 
+![Vp16](../images/vp16.png)
+
+![Vp10](../images/vp10.png)
+
 ## Order Flow Volume Profile 'Label' Parameters
 
 The 'Lines' section defined all available and configurable line plots. Each line property once extended can have its Color, Dash style, Width, Visible, and Label property defined.
+
+![Vp19](../images/vp19.png)
+
+![Vp18](../images/vp18.png)
 
 ---
 
@@ -437,14 +455,34 @@ Show profile summary
 
 This shows total volume, and range information as summary statistics in the bottom left of the profile range.
 
+![Vp13](../images/vp13.png)
+
 Summary display unit
 
 Configure the range display unit for summary data (Price, Percent, Ticks, Currency, Pips)
+
+![Vp12](../images/vp12.png)
+
+![Vp11](../images/vp11.png)
 
 Color for volume labels
 
 Sets the text color used when 'Show volume labels' is enabled.
 
+![Vp15](../images/vp15.png)
+
+![Vp4](../images/vp4.png)
+
 Color for profile summary
 
 Sets the text color used when 'Show profile summary' is enabled.
+
+![Vp23](../images/vp23.png)
+
+![Vp17](../images/vp17.png)
+
+![Vp14](../images/vp14.png)
+
+![Vp6](../images/vp6.png)
+
+![Vp2](../images/vp2.png)

@@ -1,3 +1,5 @@
+![Ns](../images/ns.png)
+
 # `ISeries<T>`
 
 ## Definition
@@ -26,6 +28,8 @@
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 //create custom a method named DoubleTheValue that accepts any object that implements
 // the ISeries<double> interface as a parameter
@@ -41,7 +45,9 @@ protected override void OnBarUpdate()
     //and the second time passing in a 20 period simple moving average.
     Print(DoubleTheValue(SMA(20)));
 }
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // Only set our plot if the input is a valid value

@@ -14,6 +14,8 @@ A TradesPerformanceValues object that is represented in ticks.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

@@ -15,6 +15,8 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 - Apply a MACD [indicator](../indicators/working_with_indicators.md) to the chart
 - Apply a Stochastics indicator to the chart   Overview This alert is a bit more advanced than the example above. This alert demonstrates a multi-plot crossover scenario, detecting when one specific plot of an indicator crosses a different plot of the same indicator. In this example, plots within the MACD and the Stochastics indicators must cross other plots within the same indicators. The image below shows the fully configured alert.  Alerts_MACDStochCross1 Conditions and Actions The Conditions and Actions windows for this alert can be seen below:  Alerts_MACDStochCross2  1. In the Conditions window, the D plot of the Stochastics indicator is selected in the left panel    2. The CrossBelow condition is selected, and a value of 1 is entered for the look-back period    3. The K plot of the Stochastics indicator is selected in the right panel    We now have a condition that translates to "When Stochastics D crosses below Stochastics K within the last one bar."  Alerts_MACDStochCross3  1. In the Conditions window for the second condition, the Avg plot of the MACD indicator is selected in the left panel    2. Just like the previous condition, the CrossBelow operator is used with a look-back period of 1    3. The Diff plot of the MACD indicator is selected in the right panel    We now have a second condition that translates to "When MACD Avg crosses below MACD Diff within the last 1 bar."  Alerts_MACDStochCross4  1. In the Actions window, the "Play a Sound" option is selected    2. A sound named "Alert1" is selected to be played when the alert triggers
 
+![Playvideo](../images/playvideo.jpg)
+
 ## Hot List Analyzer Net Change
 
 > Preparation
@@ -33,11 +35,17 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 - Open a Market Analyzer
 - Apply a "Realized Profit/Loss" column to the Market Analyzer (see image below)   Overview This alert uses the Market Analyzer's "Realized Profit/Loss" column to trigger an alert when a certain level of loss has occurred. In the image below, the "Realized Profit/Loss" column is configured in a Market Analyzer window.    Alerts_PnL2    The image below shows the fully configured alert.    Alerts_PnL1   Conditions and Actions The Conditions and Actions windows for this alert can be seen below:    Alerts_PnL3    1. In the Conditions window, the "Realized Profit/Loss" column is selected in the right panel. Note that this column was manually added to the Market Analyzer before opening the Alerts window.    2. The Less Equal condition is selected.    3. The Numeric Value property is selected in the right panel, and a value of -1,000 is entered.    We now have a condition that translates to "When the value of the "Realized Profit/Loss" column is -1,000 or less."    Alerts_PnL4    1. In the Actions window, the "Show a pop up dialog" action is selected    2. "@MESSAGE" is entered for the text to be displayed in the dialog. This will populate the dialog with the message entered in the "Message" section of the Alerts window.
 
+![Alerts Pnl4](../images/alerts_pnl4.png)
+
 ## Price and Fibonacci Retracements
 
 > Preparation
 - Open a [chart](creating_a_chart.md)
 - [Draw](../drawing_tools/working_with_drawing_tools__ob.md) a Fibonacci Retracements object anywhere on the chart   Overview This alert compares the current market price to the 50% line drawn by a Fibonacci Retracements [Drawing Tool](../drawing_tools/working_with_drawing_tools__ob.md). The image below shows the fully configured alert.    Alerts_Fib1   Conditions and Actions The Conditions and Actions windows for this alert can be seen below:    Alerts_Fib2    1. The ES ##-## data series is selected in the left panel, and the "Close" price type is selected (which will contain the Last price on the current bar)    2. The CrossAbove condition is selected    3. The Drawing Tool named "Fibonacci Retracements 2" is selected in the left panel. This is a specific drawing object which has already been drawn on the chart to which this alert is attached    4. The 50% line of the Fibonacci drawing object is selected    We now have a condition that translates to "When the current price of ES crosses above the 50% line of the Fibonacci Retracements object on the chart."    Alerts_Fib3    1. In the Actions window, the "Submit an Order" option is selected    2. Parameters for the order are set in the Actions window, as well
+
+![Alerts Macdstochcross4](../images/alerts_macdstochcross4.png)
+
+![Alerts Macdstochcross3](../images/alerts_macdstochcross3.png)
 
 ## Price and User-Drawn Objects
 
@@ -45,13 +53,71 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 - Open a [chart](creating_a_chart.md)
 - Use the Triangle Drawing Tool to [draw a triangle](../drawing_tools/working_with_drawing_tools__ob.md) on the chart. Make sure that the current market price is within the bounds of the triangle.   Overview This alert detects when the current market price breaks outside of a user-drawn shape on the chart. The shape used in this alert can be seen below:    Alerts_tri1    The image below shows the fully configured alert.    Alerts_tri2   Conditions and Actions The Conditions and Actions windows for this alert can be seen below:    Alerts_tri3    1. The ES ##-## data series is selected in the left panel    2. The Cross Outside condition is selected. This condition populates when a Drawing Object is selected in either the left or right panel    3. The custom-drawn triangle drawn on the chart is selected in the right panel (your object may have a difference name)    We now have an alert that translates to "When the current market price breaks outside of the Drawing Object named 'Triangle 6'."    Alerts_tri4    1. In the Actions window, the "Play a Sound" option is selected    2. A sound named "Alert1" is selected to be played when the alert triggers    Alerts_tri5    1. In the Actions window, the "Submit an Order" option is selected for a second action    2. Parameters for the order are set in the Actions window, as well. We now have two actions associated with this Alert.
 
+![Alerts Tri4](../images/alerts_tri4.png)
+
 ## Time-Based Alert
 
 > Preparation
 - Open a chart   Overview This alert is based upon the timestamps of bars on a chart. The alert will trigger when the timestamp of the current bar is greater equal to 2:15pm. The image below shows the fully configured alert.    Alerts_Session Break 1   Conditions and Actions The Conditions and Actions windows for this alert can be seen below:    Alerts_Session Break 2    1. The ES 09-18 data series is selected in the left panel under the Time folder    2. The "Greater equal" condition is selected    3. The "Time Value" property is selected in the right panel, and a time of 2:15pm is entered directly below    We now have a condition that translates to "When the time stamp of the current bar on the ES data series is greater equal to 2:15pm." This means the alert would trigger at about 2:14:01pm since bars are timestamped on the bar close time.    Alerts_Session Break 3    1. In the Actions window, the "Play a Sound" option is selected    2. A sound named "Alert1" is selected to be played when the alert triggers
+
+![Hmfile Hash 1E5Baa30](../images/hmfile_hash_1e5baa30.png)
+
+![Alerts Hotlist1](../images/alerts_hotlist1.png)
 
 ## Conditions for custom indicators
 
 > Preparation
 - Open a chart
 - Apply a custom indicator to the chart  oThis example will use a custom indicator which is not pre-loaded in NinjaTrader. You will not have access to the PriceVol indicator in your installation, but this process can be used with any custom indicator that you havee developed   Overview This alert compares the current market price and the pre-built VOL indicator to different plots of a custom indicator developed with NinjaScript. In this example, the custom indicator is named "PriceVol." This alert will trigger when the current value of the VOL indicator crosses above a historical average of volume calculated by PriceVol, if the current market price is greater than the instrument's 52-week High (also calculated by PriceVol). The image below shows the fully configured alert.    Alerts_PriceVol1   Conditions and Actions The Conditions and Actions windows for this alert can be seen below:    Alerts_PriceVol2    1. In the Conditions window, the VOL indicator is selected in the left panel    2. The Cross Above condition is selected.    3. The AvgVol plot of the PriceVol indicator is selected in the right panel. For this custom indicator, the AvgVol plot contains a 14-period average of volume    We now have a condition that translates to "When the current volume crosses above the 14-period average of volume."    Alerts_PriceVol3    1. In the Conditions window for the second condition, the primary data series applied to the chart is selected in the left panel    2. The Cross Above condition is selected, just like the first condition    3. The YearlyHigh plot of the PriceVol custom indicator is selected in the right panel. This contains the 52-week High for the instrument.    We now have a second condition that translates to "When the current market price crosses above the instrument's 52-week High."    Since this alert does not define any actions, it will simply display the specified message in the Alerts Log window.
+
+![Alerts Pricevol3](../images/alerts_pricevol3.png)
+
+![Alerts Pricevol2](../images/alerts_pricevol2.png)
+
+![Hmfile Hash F1184F68](../images/hmfile_hash_f1184f68.png)
+
+![Alerts Tri3](../images/alerts_tri3.png)
+
+![Alerts Tri1](../images/alerts_tri1.png)
+
+![Alerts Fib3](../images/alerts_fib3.png)
+
+![Alerts Fib2](../images/alerts_fib2.png)
+
+![Alerts Pnl3](../images/alerts_pnl3.png)
+
+![Alerts Pnl2](../images/alerts_pnl2.png)
+
+![Hmfile Hash F2768Da2](../images/hmfile_hash_f2768da2.png)
+
+![Hmfile Hash E6735E2A](../images/hmfile_hash_e6735e2a.png)
+
+![Alerts Hotlist2](../images/alerts_hotlist2.png)
+
+![Alerts Macdstochcross2](../images/alerts_macdstochcross2.png)
+
+![Alerts Smacross3](../images/alerts_smacross3.png)
+
+![Alerts Smacross2](../images/alerts_smacross2.png)
+
+![Alerts Smacross1](../images/alerts_smacross1.png)
+
+![Alerts Macdstochcross1](../images/alerts_macdstochcross1.png)
+
+![Alerts Hotlist3](../images/alerts_hotlist3.png)
+
+![Alerts Pnl1](../images/alerts_pnl1.png)
+
+![Alerts Fib1](../images/alerts_fib1.png)
+
+![Alerts Tri2](../images/alerts_tri2.png)
+
+![Alerts Tri5](../images/alerts_tri5.png)
+
+![Alerts Pricevol1](../images/alerts_pricevol1.png)
+
+![Hmfile Hash Cbe7Caff](../images/hmfile_hash_cbe7caff.png)
+
+![Hmfile Hash 23D0Ded9](../images/hmfile_hash_23d0ded9.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)

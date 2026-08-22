@@ -34,6 +34,8 @@ This method returns a double value indicating the slope of a line;  A value of 0
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

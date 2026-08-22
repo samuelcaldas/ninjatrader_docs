@@ -1,5 +1,9 @@
 # Code Breaking Changes
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 The following document is intended as a high level overview of the NinjaScript changes you can expect between NinjaTrader 7 and NinjaTrader 8.  For specific information on a particular method or property, you can refer to the dynamically formatted Code Breaking table at the bottom of this page.  We recommend using the Filter and Sorting features built into the table, as well checking the Summary column and expanding the Details section of each entry for general information.  Referring to the conveniently linked NinjaTrader 8 and NinjaTrader 7 documentation will provide specific information on syntax, usage, and examples of any new implementation or element names.
 
 > **Note:** Information on this page focuses on supported (documented) NinjaTrader methods and properties shared between versions.  NinjaTrader 8 has seen a significant increase in supported NinjaTrader code, however if you were using previously undocumented NinjaTrader 7 methods or properties, they will NOT be covered in this topic.  You may be able to find more information on previously undocumented methods and properties in the NinjaTrader 8 Help Guide, or our support staff will also be happy to personally point you in the right direction.
@@ -12,8 +16,13 @@ For questions or comments, please contact us at [email protected](mailto:platfor
 protected override void OnStateChange()
 {
     if (State == State.SetDefaults)
+
+![Ns](../images/ns.png)
+
     {
         // set the default properties
+![Ns](../images/ns.png)
+
         Name = "My Indicator";
         Fast = 10;
         Slow = 25;
@@ -23,7 +32,9 @@ protected override void OnStateChange()
 }
 If you have custom resources that need to be setup before the NinjaTrader object is active and processing data, instead of using the Initialize() method, you can now set this up once the OnStateChange() method has reached State.Configure state:
 
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.Configure)
@@ -42,7 +53,9 @@ NinjaTrader 7 had no concept to detect when your NinjaTrader object was transiti
 Now with NinjaTrader 8, the OnStateChange() method provides a State.Transition state which will notify you when this change is about to occur.
 If your NinjaTrader 7 indicators or strategies were using custom methods to try to detect this transition, your custom methods may be refactored under this new state:
 
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.Transition)
@@ -53,7 +66,9 @@ protected override void OnStateChange()
 }
 When your NinjaTrader object is shutting down, and you need clean up any custom device resources, instead of using OnTermination(), you should now clean up these resources once the OnStateChange() method has reached the State.Terminated state:
 
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.Terminated)
@@ -64,9 +79,13 @@ protected override void OnStateChange()
     }
 }
 NinjaTrader previously used a Historical bool property to notify when an indicator or strategy bar was being processed historically or real-time.
+![Ns](../images/ns.png)
+
 The NinjaTrader 8 OnStateChange() approach has now introduced a class level variable State where you can check for State.Historical or State.Realtime in any of the other event methods which will allow you to take action depending on the desired state:
 
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // only process on real-time data
@@ -75,6 +94,8 @@ protected override void OnBarUpdate()
     else if (State >= State.Realtime)
     // rest of logic
 }
+![Ns](../images/ns.png)
+
 Strategies, Orders, and Accounts Low level access has been provided to allow more flexibility with the information pertaining to trade data.
 •IOrders, IExecution, and IPosition interfaces have all been replaced directly with the corresponding object
 •The signatures of the related NinjaScript events have changed to match the NinjaTrader internal Update events
@@ -113,12 +134,18 @@ Cbi.OrderState orderState, DateTime time, Cbi.ErrorCode error, string comment)
 Data Series Previously there had been type specific Data Series implementations (e.g., IntSeries, TimeSeries, BoolSeries, etc).
 Now there just is a template [Series<T>](../language_reference/seriest.md) class which could be used generically and even allows support for additional types:
 
-csharp
+```
+
+```csharp
 Series<double> mySeries = new Series<double>(this);
 Series<DateTime> myTimeSeries = new Series<DateTime>(this);
 The DataSeries.Set() method used to assign Data Series or Plot values has been removed and values can now be stored using a single assignment operator:
 
-csharp
+![Ns](../images/ns.png)
+
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // set public plotting data series close value of current bar
@@ -144,14 +171,20 @@ Draw.Line(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, in
 Draw.Line(this, "tag1", true, 10, Low[0], 0, Brushes.Red);
 Casting a member of the DrawObjects[] collection must be done safely using the "as" keyword, otherwise you may receive exceptions at run time should another instance of the object (e.g., matching tag) exist from another owner:
 
-csharp
+```
+
+```csharp
 DrawingTools anchor fields such as "Time" or "Price", etc have been moved to a ChartAnchor object owned by the drawing tool, rather than a direct field on the drawing object interface.
 Please refer to the NinjaTrader 8 documentation for specific changes for each drawing tool:
 
-csharp
+```
+
+```csharp
 Objects which previously used System.Drawing.Font now uses new NinjaTrader.Gui.Tools.SimpleFont class:
 
-csharp
+```
+
+```csharp
 Properties and other methods/objects which previously [System.Drawing.Color](https://msdn.microsoft.com/en-us/library/system.drawing.color(v=vs.110).aspx) structure now use the [System.Windows.Media.Brushes](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx) class:
 
 csharp
@@ -210,7 +243,9 @@ Partial Class Example Template | | --- | | namespace NinjaTrader.NinjaScript.Ind
 }
 Below is an example of using one of the methods in this partial class from within an Indicator:
 
-csharp
+```
+
+```csharp
 Partial Class Usage | | --- | | protected override void OnBarUpdate()
 {
     if (CurrentBar < 1) return;
@@ -222,6 +257,9 @@ Partial Class Usage | | --- | | protected override void OnBarUpdate()
 ```
 
 > **Tip:** At the time of the Beta implementation, the NinjaScript Editor does NOT include a partial class generator wizard, as it does for core NinjaScript Types such as Drawing Tools, Market Analyzer Columns, or Strategies. However, we are currently tracking a suggestion to implement a wizard for partial classes, under ID # SFT-341.
+
+![Ns](../images/ns.png)
+
 Please feel free to contact [email protected](mailto:platformsupport@ninjatrader.com) if you would like to add your vote for this enhancement.
 
 Prevention of Redundant Data Loading In NinjaTrader 7, multiple Data Series could be added within a script, such as an indicator, and that script could then be hosted by another script, such as a strategy. While this is still possible in NinjaTrader 8, there is a new safeguard in place to prevent redundant data loading in both the hosting script and the hosted indicator.
@@ -241,8 +279,15 @@ Hosted Indicator Loads Additional Data | | --- | | public class MyCustomIndicato
     }
 }
 
-csharp
+```
+
+```csharp
 Hosting Strategy Mirrors AddDataSeries() calls | | --- | | public class MyCustomStrategy : Strategy
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 {
     // Define a MyCustomIndicator
     MyCustomIndicator myIndicator;
@@ -263,13 +308,23 @@ Bars with 0 Volume In previous versions, the NinjaTrader core was designed to re
 This resulted in all ticks having a volume value of at least 1.
 NinjaTrader 8 has removed that design policy and will now allow ticks with a volume of 0 to be processed.
 This policy change may require logic changes to any custom bar types, indicators, or strategies which may have previously assumed volume would always be greater than 0.
+
+![Ns](../images/ns.png)
+
 Multi-Series default "Trading Hours" templates The default behavior in NinjaTrader 8 will ensure that a bars series added to a script using [AddDataSeries()](../language_reference/adddataseries.md) will use the same "[TradingHours](../language_reference/tradinghours.md)" template as the primary series configured by the user. In contrast, the NinjaTrader 7 behavior was highly dependent on a number of variables.
 We have updated this behavior to help with consistences and synchronization issues between multiple series; however if you your script relies on two times frames using different trading hours templates, you may consider using one of the new tradingHours string overloaded used in [AddDataSeries()](../language_reference/adddataseries.md):
 
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.Configure)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
     {
         // adds a 1 minute AAPL bars with a default 24/7 session tempalte.
         AddDataSeries("AAPL", new BarsPeriod { BarsPeriodType = BarsPeriodType.Minute, Value = 1 }, "Default 24 x 7");
@@ -287,7 +342,11 @@ There are several other changes to implementation which are not covered in detai
 | --- | --- |
 | Signature A large number of the NinjaTrader methods which were available in NinjaTrader 7 have remained largely the same and should not generate any errors on compilation.  However there are a handful of existing methods signatures which have been updated in NinjaTrader 8 in order to fit within new framework which you would need to be aware of in order to transfer these functions from NinjaTrader 7 to NinjaTrader 8.  In most cases, the fundamental argument type has been restructured, which may result in compile errors depending on the type of object that is being used within the methods signature.    |  
 
+![Ns](../images/ns.png)
+
 > **Tip:** Methods may now have additional signatures which add functionality which was not previously available.  Be sure to check the NinjaTrader 8 documentation which will cover all the available signatures available.
+
+![Ns](../images/ns.png)
 
  |
 
@@ -303,18 +362,29 @@ For an example:
 - The property FirstTickOfBar may have been hard to distinguish precisely what it represented without having to look up documentation.
 In NinjaTrader 8, this property has been renamed to IsFirstTickOfBar, which now gives this property a more readable identifier name when you read this line of code as "is the first tick of bar true?"
 - Another example is the case of BarsSinceEntry() which was renamed to BarsSinceEntryExecution(), which now specifies that this method is looking for an entry execution.
+
+![Ns](../images/ns.png)
+
 - NinjaTrader 7 sometimes had methods or properties which shared names, but references different data or actions.
 For example Add() could have been used in reference to adding DataSeries to a script, adding a Plot, or adding a Line.
 To be more specific, NinjaTrader 8 has renamed these to AddDataSeries(), AddPlot(), and AddLine() respectively.
+
+![Ns](../images/ns.png)
+
 - There may be cases where the property or method name has changed simply because the type of data it interacted with has changed.
 (e.g., BarColor vs. BarBrush)
 - There are other cases where properties may have used unnecessary brevity and was renamed to favor readability (e.g., AvgPrice vs AveragePrice)
 These are just a few examples of the many name changes found in NinjaTrader 8 and some of the rational behind the number of these changes.
 For simplicity, you will find a list of all the renamed properties in the table at the bottom of this document by filtering by the "Renamed" keyword.
+
+![Ns](../images/ns.png)
+
 ```
 ## Code Breaking Table
 
 Below you will find a reference table which lists all of the supported NinjaScript changes between NinjaTrader 7 and NinjaTrader 8.
+
+![Ns](../images/ns.png)
 
 | Category | Base | NT7 Method/Property | NT8 Method/Property | Summary |  |
 | --- | --- | --- | --- | --- | --- |

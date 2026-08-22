@@ -30,6 +30,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Evaluates if the current bar FOCS is above zero
 if (FOSC(14)[0] > 0)

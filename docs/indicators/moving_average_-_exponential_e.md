@@ -28,6 +28,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current value of a 20 period EMA using default price type
 double value = EMA(20)[0];

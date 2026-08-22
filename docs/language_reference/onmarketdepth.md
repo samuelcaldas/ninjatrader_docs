@@ -34,6 +34,8 @@ protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
 {
@@ -41,7 +43,9 @@ protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
     if (marketDepthUpdate.MarketDataType == MarketDataType.Ask && marketDepthUpdate.Operation == Operation.Update)
     Print(string.Format("The most recent ask change is {0} {1}", marketDepthUpdate.Price, marketDepthUpdate.Volume));
 }
-csharp
+```
+
+```csharp
 Tips
 1.With [multi-time frame and instrument strategies](multi-time_frame__instruments.md), OnMarketDepth will be called for all unique instruments in your strategy. Use the [BarsInProgress](barsinprogress.md) to filter the OnMarketDepth() method for a specific instrument. (BarsInProgress will return the first BarsInProgress series that matches the instrument for the event)
 2.Do not leave an unused OnMarketDepth() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your strategy which uses unnecessary CPU cycles.

@@ -48,6 +48,8 @@ protected override void OnStateChange()
         // Disable this property for performance gains in Strategy Analyzer optimizations
         // See the Help Guide for additional information
         IsInstantiatedOnEachOptimizationIteration = true;
+![Ns](../images/ns.png)
+
         RSIPeriod
         = 14;
         RSISmooth
@@ -103,6 +105,10 @@ The OnBarUpdate() method is called for each incoming tick or on the close of a b
 
 Enter the code contained within the OnBarUpdate() method in the image below into the OnBarUpdate() method in the NinjaScript Editor:
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -121,7 +127,12 @@ if RSI crosses above a value of 20 within the last bar, go long
 
 To accomplish this we used the following methods and properties:
 
+![Ns](../images/ns.png)
+
 [CurrentBar](../language_reference/currentbar.md) - A value representing the current bar being processed (think of a chart where the left most bar would be equal to one)   
 [CrossAbove()](../language_reference/crossabove.md) - Checks for a cross above condition and returns true or false   
 [RSI()](../indicators/relative_strength_index_rsi.md) - Returns the value of the RSI indicator   
+
+![Ns](../images/ns.png)
+
 [EnterLong()](enterlong.md) - Enters a market order long

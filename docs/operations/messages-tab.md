@@ -4,6 +4,8 @@ The Messages tab displays messages in relation to your account in a [data grid](
 
 Messages Display Unread messages will be displayed in bold and have the Mark as read button enabled. The Date and time the message was sent is included. The tab will display in a highlighted color if there are unread messages and indicate how many unread messages there are.    Messages   Right Click Menu Right mouse clicking within the log display section opens the following menu:    Messages2
 
+![Messages2](../images/messages2.png)
+
 ---
 
 ---
@@ -11,6 +13,8 @@ Messages Display Unread messages will be displayed in bold and have the Mark as 
 Mark All As Read
 
 Marks all unread messages as read
+
+![Messages](../images/messages.png)
 
 Always On Top
 

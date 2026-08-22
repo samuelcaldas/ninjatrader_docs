@@ -41,6 +41,8 @@ Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, int entryBa
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // draw a risk/reward tool starting from the current bar to 10 bars ago
 // with calcuate a ratio of 2 based on stop level

@@ -23,6 +23,9 @@ protected override void OnStateChange()
     {
         Name
         = "Example Indicator";
+
+![Ns](../images/ns.png)
+
         // set this to true to call CalculateMinMix() to ensure drawing tool is fully rendered in chart scale
         IsAutoScale = true;
     }

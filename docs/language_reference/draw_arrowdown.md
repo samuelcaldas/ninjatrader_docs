@@ -36,6 +36,8 @@ Draw.ArrowDown(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime tim
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Paints a red down arrow on the current bar 1 tick above the high
 Draw.ArrowDown(this, "tag1", true, 0, High[0] + TickSize, Brushes.Red);

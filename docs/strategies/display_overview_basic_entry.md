@@ -56,6 +56,10 @@ Cancels the order(s)
 
 > Market Data Display The market display section of the Basic Entry window is used to display market prices and position information.  The market price displays will change colors when an uptick or a downtick has been detected.    1. Current best ask price and size  2. Current best bid price and size  3. Last traded price and size  4. Market position (FLAT or green background with position size for long, red background for short)  5. Position average entry price  6. Unrealized profit or loss for current position (Clicking on this cell with your left mouse button will change the display between points, ticks, currency, percent, and pips)    BasicEntry_1
 
+![Basicentry 1](../images/basicentry_1.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
 ## Understanding the action buttons section
 
 Action Buttons The Basic Entry has several buttons which are used to invoke a number of order related actions.    BasicEntry_4
@@ -154,3 +158,17 @@ Selects the ATM Strategy
 
 - Right clicking on the Basic Entry window itself will bring up menu items specific to the Basic Entry
 - Right clicking in the Order Grid will bring up menu items specific to orders  Basic Entry Control Right Click Menu Right clicking on the Basic Entry window itself will bring up a number of menu items specific to the Basic Entry  BasicEntry_9  |  |  | | --- | --- | | Auto Close Position | Automatically Closes the current instruments position at a specified time | | OCO Order | Enables/Disables the OCO (one cancels other) function for a pending order | | Simulated Order | Enables/Disables the Simulated Order functionality for a pending order | | Cancel All Orders | Cancels all active orders on the current account | | Flatten Everything | Closes all open positions and cancels all open orders on every account associated with NinjaTrader | | Always On Top | Sets if the window should be always on top of other windows | | Show Tabs | Sets if the window should allow for tabs | | Print | Displays Print options | | Share | Select to share via your share connections | | Properties | Configure the [Basic Entry window properties](properties_basic_entry.md) |  Order Grid Control Right Click MenuRight clicking in an empty grid will bring up a number of general menu items specific to the Order Grid BasicEntry_6  |  |  | | --- | --- | | Cancel All Orders | Cancels all active orders on the current account | | Export... | Exports the grid contents to "CSV" or "Excel" file format | | Find... | Search for a term in the grid | | Print | Displays Print options | | Share | Select to share via your share connections | | Properties | Configure the [Basic Entry window properties](properties_basic_entry.md) |  By moving your mouse cursor over an order and pressing down on your right mouse button, you will see a context menu listing all individual orders consolidated at the corresponding price and any relevant actions that you can perform on those orders. BasicEntry_3  |  |  | | --- | --- | | Cancel order | Cancels the individual order selected | | Increase Price | Changes the price of the order +1 tick | | Decrease Price | Changes the price of the order -1 tick | | Cancel All Orders | Cancels all active orders on the current account | |
+
+![Basicentry 3](../images/basicentry_3.png)
+
+![Basicentry 6](../images/basicentry_6.png)
+
+![Basicentry 5](../images/basicentry_5.png)
+
+![Basicentry 4](../images/basicentry_4.png)
+
+![Basicentry 2](../images/basicentry_2.png)
+
+![Basicentry 9](../images/basicentry_9.png)
+
+![Playvideo](../images/playvideo.jpg)

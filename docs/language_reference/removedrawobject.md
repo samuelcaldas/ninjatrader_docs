@@ -24,6 +24,8 @@ Removes a draw object from the chart based on its tag value.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Removes a draw object with the tag "tag1"
 RemoveDrawObject("tag1");

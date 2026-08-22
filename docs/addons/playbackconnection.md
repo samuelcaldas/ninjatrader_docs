@@ -24,6 +24,8 @@ MethodName(int input)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 1
 ```

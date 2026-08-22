@@ -7,6 +7,10 @@ Description
 
 Display  There are 2 view of the Order Flow Cumulative Delta, both of which can be calculated on a Delta type of Bid Ask or Up Down Tick. 1) Session, in which the delta will accumulate over the session. Each close price will be carried over to the open of the next bar.2) Bar, in which the delta will accumulate over a bar. Each bars open will start over and have an open of zero. OFCD1 Using the Order Flow Cumulative DeltaA common function of the Order Flow Cumulative Delta is to confirm trends. In the image below we can see that the price is bullish. However, this was not confirmed by the Order Flow Cumulative Delta which was bearish. The market then became bearish. OFCD2 Another common function is to confirm new daily highs or lows. In this image we can see that the price reached a new low for the day, but this was not confirmed by the Order Flow Cumulative Delta. The bears could not hold momentum and then the market became bullish. OFCD3
 
+![Ofcd3](../images/ofcd3.png)
+
+![Ofcd2](../images/ofcd2.png)
+
 ---
 
 Notes:  1. To plot historically with Delta type Bid Ask requires historical bid ask stamped tick data. See the [Data by Provider](../operations/data_by_provider.md) section for information on what providers offer historical bid/ask stamped tick data.  2. Volume bars could split a single tick into multiple bars for both historical and real-time data. As such Order Flow Cumulative Delta could run into tracking limitations on the internally added 1 tick series, as all the volume would be processed on the first 1 tick bar / delta calculation.
@@ -76,6 +80,8 @@ Color for bars that have a close less than the open
 Color for up bars
 
 Color for bars that have an open greater than the open
+
+![Ofcd1](../images/ofcd1.png)
 
 ## Order Flow Cumulative Delta Values NinjaScript access
 

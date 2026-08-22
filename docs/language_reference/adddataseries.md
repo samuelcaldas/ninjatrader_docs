@@ -56,6 +56,8 @@ AddDataSeries(//only for R15 and higher
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 OnStateChange()
 {
@@ -72,7 +74,9 @@ OnStateChange()
     // Go long if we have three up bars on all bars objects
     EnterLong();
 }
-csharp
+```
+
+```csharp
 OnStateChange()
 {
     State.Configure)
@@ -90,3 +94,5 @@ OnStateChange()
     }
 }
 ```
+
+![Ns](../images/ns.png)

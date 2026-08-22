@@ -32,6 +32,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current value of a 20 period PriceOscillator using default price type
 double value = PriceOscillator(12, 26, 9)[0];

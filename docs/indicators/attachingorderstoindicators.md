@@ -36,8 +36,18 @@ SuperDOM_41    After you have configured your desired settings, pressing the OK 
 
 > **Note:** Many indicators will have multiple plots.  Please ensure you are selecting the correct plot and that the current values would be valid for the order you are attaching to the indicator to prevent unwanted fills or order rejections.  For example, attaching a Buy Limit order to the Upper Band of a Bollinger indicator that is currently above the current market price will automatically modify that order to above the market price resulting in an immediate fill.
 
+![Superdom 41](../images/superdom_41.png)
+
  |
 
 ## Disabling indicator tracking
 
 > Disabling Indicator Tracking Orders that are attached to an indicator will be 100% managed by the Attach to Indicator feature.  Should you attempt to manually modify an order, you will receive a prompt reminding you that this order is being managed by an Indicator.  If you wish to manually modify the order, you can select "Yes" to on this prompt to disable the indicator management and allow you to change the order price if desired.    SuperDOM_43    You can also disable Attach to Indicator through the right click menu on the order itself allowing you to re-configure your Attach to Indicator Properties if desired.    1.Right mouse click on a submitted order  2.Hover your mouse cursor over the order details  3.Navigate to the Attach to Indicator menu  4.Uncheck Enabled which will disable indicator tracking    As long as the order has not been filled/cancelled, you can always go back to this menu and re-check enabled to turn the Attach to Indicator  feature back on.
+
+![Superdom 43](../images/superdom_43.png)
+
+![Superdom 42](../images/superdom_42.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
+![Playvideo](../images/playvideo.jpg)

@@ -118,6 +118,10 @@
 
 ---
 
+![Levelii Window](../images/levelii_window.png)
+
+![1](../images/1.png)
+
 LevelII_Window   1 Quotes The Quotes section displays various market data items.
 
 ---
@@ -210,6 +214,8 @@ The last time the bid/ask was refreshed by the Market Maker or ECN
 
 You can disable the Details section by clicking on your right mouse button and de-selecting the menu item Show Details.   Right Click Menu Right mouse click on the Level II window to access the right click menu.  LevelII_ContextMenu
 
+![Levelii Contextmenu](../images/levelii_contextmenu.png)
+
 ---
 
 ---
@@ -232,7 +238,11 @@ Sets if the quotes section is displayed
 
 Show Summary
 
+![2](../images/2.png)
+
 Sets if the summary section is displayed
+
+![3](../images/3.png)
 
 Always On Top
 
@@ -253,3 +263,7 @@ Sets the [Level II properties](levelii_properties.md)
 ## Using Tabs
 
 > The Level II window is a tabbed interface, this gives you the ability to have multiple Level II tabs configured in the same window. Please see the [Using Tabs](using_tabs.md) section of the help guide for more information.
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
+![Playvideo](../images/playvideo.jpg)

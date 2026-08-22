@@ -14,6 +14,8 @@ A TimeSpan value that represents the longest duration of being flat.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

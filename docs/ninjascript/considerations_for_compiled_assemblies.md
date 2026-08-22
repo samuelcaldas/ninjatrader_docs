@@ -90,6 +90,10 @@ When planning to distribute your custom drawing tools via assemblies, please und
 
 The NinjaTrader default drawing tools would implement this via a partial class, for example you would see -
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 public static partial class Draw
 {
@@ -99,6 +103,8 @@ public static partial class Draw
  
 
 However since partial classes could not span across two assemblies, therefore a custom non partial Draw. method for your NinjaScript drawing tool would be needed.
+
+![Ns](../images/ns.png)
 
  
 
@@ -116,4 +122,8 @@ This is known to happen every time a new type (e.g. Enum) was introduced, since 
 
 Typically an error message like the following would be seen:
 
+![Ns](../images/ns.png)
+
 "Error on calling 'SetState' method: Could not load type 'NinjaTrader.NinjaScript.Indicators.CumulativeDeltaType' from assembly 'NinjaTrader.Vendor, Version=8.0.12.0, Culture=neutral, PublicKeyToken=null'."
+
+![Ns](../images/ns.png)

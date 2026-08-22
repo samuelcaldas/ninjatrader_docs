@@ -14,6 +14,8 @@ See example below. The NinjaScript code wizards automatically generate the metho
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 private StreamReader reader;
 protected override void OnNextDataPoint()

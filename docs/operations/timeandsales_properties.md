@@ -6,6 +6,8 @@ Many of the Time & Sales visual display settings can be customized using the Tim
 
 TimeAndSales_Properties   Property Definitions
 
+![Timeandsales Properties](../images/timeandsales_properties.png)
+
 ---
 
 ---

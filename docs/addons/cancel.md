@@ -18,6 +18,8 @@ Cancel(IEnumerable<Order> orders)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private Account myAccount;
 Order stopOrder = null;

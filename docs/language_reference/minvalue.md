@@ -14,6 +14,8 @@ MinValue
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override void OnCalculateMinMax()
 {

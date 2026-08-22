@@ -29,6 +29,11 @@ Although we have made large advancements with NinjaTrader 8, existing users will
 - Enhanced the “Auto Close” feature to enable users to specify a list of instruments on which to close positions at a specific time
 - Added “Confirm on Window/Tab Close” option, which will prevent the unintentional closing of windows
 - Added support for multiple languages. German, Spanish, and Russian will be included at launch, with the ability to add more languages in the future     Application Skins  We've added the ability to apply different "skins" to customize the look of NinjaTrader 8. In addition to the five pre-built skins available in the platform, users can create their own custom skins for endless customizability of colors, margins, and other layout elements.    Light Skin  Skin_Light    Dark Skin  Skin_Dark    Slate Gray Skin  Skin_SlateGray    Slate Light Skin  Skin_SlateLight    Slate Dark Skin  Skin_SlateDark    New Trading Hours  Formerly named the “Session Manager”, our new [Trading Hours](../operations/trading_hours.md) window was designed for easier management of the templates used for charting, indicator calculations, real-time strategy execution, and strategy backtesting periods.  Each session now has an “EOD” (End of Day) option to support multiple trading session definitions within a single day.  We also added Holiday support to handle various scheduled breaks in exchange hours (Early Close, Late Open, or Full Day Holiday).  clip0011  Sessions and Holidays can now be downloaded and updated from NinjaTrader servers, providing the ability for exchange mandated changes to be pushed to all users, rather than needing to reconfigure these updates individually.     Changes to Managing Workspaces  clip0012  The [Workspaces](../operations/workspaces_menu.md) menu has been integrated directly into Control Center toolbar for faster switching and workspace management.  Inactive workspaces are visible from the Workspaces menu for a more functional approach to workspace organization. All windows opened outside of the viewable range of a monitor can be moved back in view of the primary screen with a single click.  New Feature to Apply an ATM Strategy to an Unprotected Position  From the Positions grid, you can now apply an ATM Strategy to an open unprotected position. This allows you to add a layer of semi-automated risk management to a position after it has been filled.  clip0043  Improved Instrument Linking
+
+![Clip0037](../images/clip0037.jpg)
+
+![Clip0035](../images/clip0035.jpg)
+
 - Added “Link All Mode” to group changes to specific window
 - New “Interval Link” which allows for simultaneous changing time frames on charts
 - Added “Global Link button across workspaces” allowing users to keep instruments in separate workspaces unlinked if desired  clip0044     Miscellaneous Enhancements
@@ -71,6 +76,9 @@ Although we have made large advancements with NinjaTrader 8, existing users will
 ## Market Research
 
 > New Advanced Alert Features  Our [alerts](../operations/alerts.md) functionality has been completely redesigned to allow the execution of complex conditions without programming of any kind. Multi-object alert conditions are now supported, allowing you to compare two data series or indicators. Alert conditions have been extended to work natively on charts, and now manually drawn Chart Objects can be used as an input condition for any alerts.  Alerts are also flexible, in that you have the option to apply alerts to all instruments, or even a specific typeset of instruments, as well as define “if all” or “if any” conditions would need to be satisfied in order for the alert to trigger.  clip0017  Once an alert condition has been satisfied as true, the following actions can be automatically triggered:  oPlay Sound  oShare (Twitter, Email, etc.)  oShow custom message box  oSubmit an Order  New “Re-arm” types have been added in order to reset an alert upon a few different events:  oOn Timer – after so many seconds have elapsed  oOn Bar Close – after the selected data series has generated a new bar  oOn Condition Reversed – when the condition becomes false  oOn Connect – after NinjaTrader 8 has been manually connected to a data feed  Improved Alerts Log  The [Alerts Log](../operations/alerts_log.md) has been improved to now show all alerts generated in the session, rather than alerts since the window was open. A new feature allows users to display all alerts from all open workspaces in a single Alerts Log window, or to suppress any alerts originating in inactive workspaces. The new "Go To Alert" feature will immediately bring the window which triggered an alert into focus in your workspace. We’ve also added options to filter and sort by Instrument Type and Source (Charts, Market Analyzer, NinjaScript, etc.).     New Hot List Analyzer  Similar to the Market Analyzer, the new [Hot List Analyzer](../operations/hot_list_analyzer.md) dynamically loads “hot lists” from market data providers who supply this information, such as Kinetick. This new window retains all the behavior of the Market Analyzer, allowing you to add columns and indicators for adaptive market analysis. We’ve also included the ability to create an instrument list directly from the Hot List Analyzer to easily access these lists from anywhere in the platform.     clip0018  Numerous Hot Lists are available, depending upon what an specific data provider supports. Examples include:  oMost Active  oTop Gainers  oTop Losers  oTop 52-week Highs or Lows  oVolume Increase  oUnusually High Volume     Market Analyzer  The [Market Analyzer](../operations/market_analyzer.md) has been improved to allow for more robust management of different groups of instruments and columns. From the Instrument Search, you can now select multiple instruments to quickly add to or remove from the Market Analyzer display. You can also apply Cell or Filter conditions to a specific instrument name(s) to allow for more customizable conditions.  We now support custom Market Analyzer column development in NinjaScript, which means that you can develop your own custom columns to run directly within the Market Analyzer.  Instruments lists can now be created from an open Market Analyzer window. Simply select Create Instrument List in the Market Analyzer's right-click menu to add all selected instruments to a new Instrument List.     clip0019     Trading Hours templates can now be applied to each indicator column to help control data requirements for specific columns. Using Trading Hours templates allows you to restrict the data used in historical and real-time data processing in a specific column.  Performance Improvements:
+
+![Clip0018](../images/clip0018.jpg)
+
 - Indicator columns load at least 300% faster than NinjaTrader 7
 - Indicator columns no longer reload when changing Market Analyzer properties
 - “Days to load” now supported, improving bar loading times  New Data Columns:
@@ -115,6 +123,8 @@ Although we have made large advancements with NinjaTrader 8, existing users will
 
 > New Playback  clip0028  Market Replay was renamed to [Playback](../operations/playback_connection.md) and now has the option to play back historical tick data downloaded from a market data provider such as Kinetick in addition to the classic Market Replay data files, just like previous versions. We’ve also enhanced the Market Replay data structure by storing Level 1 and Level 2 data in a single file, which ensures 100% accurate replay sequencing.  Playback Performance Improvements  Playback now pre-loads the current day when connecting, which ensures that during fast forward operations the entire day is replayed. This ensure that every session is fully stable. We also added faster playback speeds (100/200/300/500/1000) and a new “Max” speed which will process as many ticks as your CPU can handle.
 
+![Clip0028](../images/clip0028.jpg)
+
 ## Strategy Analyzer
 
 > General Enhancements  The Strategy Analyzer has benefited from many of the general performance enhancements done to the NinjaTrader 8 codebase, which has improved the speed of backtesting and optimizing substantially.  We’ve added the ability to save a Strategy Analyzer session in the workspace. When restored, a Strategy Analyzer saved in a workspace will restore the last tested result summary, allowing you to pick up where you left off after a restart. You can also now save multiple templates of individual strategy settings, permitting you to research and track many different scenarios using the same strategy.
@@ -122,10 +132,17 @@ Although we have made large advancements with NinjaTrader 8, existing users will
 - Order Fill Resolution and Fill engine enhanced for greater precision and accuracy
 - Standard Fill Resolution breaks bars in to three virtual bars to simulate the direction of the price which was used to form the bar
 - High Resolution mode automatically adds a secondary data series as the additional resolution used for fills, without needing to custom program     Improved Optimization  We’ve addressed several performance limitations in terms of optimizing time values, boolean variables, and enumerated constants, to ensure that the optimizer takes full advantage of multi-threaded processors. Additionally, the 64-bit version of NinjaTrader will automatically store trade details for each backtest in memory, which allows for quicker analysis.     New 3D Optimization Graph  In addition to the general 2D graphs used to review strategy performance, we’ve introduced a new 3D graph for analysis when using two or more parameters in an optimization test, helping you visualize how each input parameter influences the results of your overall strategy performance.     clip0030     New Multi-Objective Optimization  You can now select multiple optimization objectives to test the best tradeoff between the performance of different parameter combinations on individual fitness metrics. Once completed, you can display results in the form of a Pareto Graph which shows the set of parameter combinations for which there are no superior alternatives on all metrics tested.
+
+![Break Eod Off](../images/break_eod_off.png)
+
 - Graphing the Pareto Frontier reveals the optimal tradeoff between two statistics (out of any number of tested metrics)
 - Test all fitness metrics, or any subset of available metrics
 - Include custom-developed fitness metrics in multi-objective optimizations
 - Combine different fitness combinations in real time  oExample: Find the results of the most profitable strategy with the least draw down risk, and every best combination thereof.     clip0031     Walk Forward Optimization  The new Trading Hours templates allow for more accurate optimization when performing walk forward analysis, especially while using trading hours which span multiple days.
+
+![Clip0031](../images/clip0031.jpg)
+
+![Clip0029](../images/clip0029.jpg)
 
 ## NinjaScript
 
@@ -153,6 +170,9 @@ Although we have made large advancements with NinjaTrader 8, existing users will
 - Only a single .DLL File provided for both 32-bit and 64-bit systems
 - The export process has been improved to more clearly identify which references are required for an export
 - Agile.net protection improved significantly  oRequires a purchase of an Agile.net license to take advantage of more secure protection methods     NinjaScript® Code Wizard  Our NinjaScript® Code Wizard, which is used to generate minimum required code for new scripts, has been updated to include all supported NinjaScript object types. We’ve also enhanced the available configuration options to help generate the desired script base in a much more efficient manner.
+
+![Clip0044](../images/clip0044.png)
+
 - Use an unlimited number of Input Parameters
 - Optionally select additional data series
 - Select any additional event methods to use relevant to NinjaScript object type (OnConnectionLoss, OnMarketData, OnMarketDepth, etc.)     New NinjaScript Suspension Optimization  Newly added NinjaScript Suspension Optimization allows programmers to halt market data events from being processed when an indicator is not visible (such as Chart window minimized or another window is on top of the window hosting the indicator), saving CPU resources when not in use.     New Tick Replay Engine  We’ve included an optional NinjaScript feature which will replay OnMarketData on each tick stored in the database. This will ensure that your indicators and strategies receive the exact sequence of stored events for the most accurate calculations on historical data that include the historical bid/ask price, just as you would expect in real-time.     Expanded NinjaScript® Access  NinjaTrader 8 will introduce a new level of depth and breadth which will allow developers to build incredibly rich and integrated trading applications limited only by their imagination.  Developers will have access to:
@@ -161,10 +181,17 @@ Although we have made large advancements with NinjaTrader 8, existing users will
 - Controls such as Instrument Selector, Account Selector and Quantity Selector, Instrument Link, Interval Link etc.
 - Window and Workspace methods
 - Access to control, modify and interact with UI elements via Windows Presentation Foundation (WPF)  NinjaScript is no longer limited to writing custom indicators and strategies. The possibilities are truly endless. Build what you can dream of and integrate it directly into the NinjaTrader 8 application.     NinjaScript Editor  The NinjaScript Editor has been redesigned to include a new NinjaScript Explorer menu which is pinned to the right side of the editor. This new explorer feature allows developers to nest and organize different NinjaScript files into custom folders, in order to easily locate and reference other scripts directly from the editor itself.     Additionally, we’ve included the ability to exclude scripts from compilation if they are still under development or contain code breaking changes that would have previously prevented developers from working on secondary scripts.  This new feature gives developers the flexibility to keep their undeveloped scripts installed on their system and accessible from the Editor until the scripts are ready to be compiled.  clip0032     The NinjaScript Editor now supports direct Visual Studio Integration, which means you can open, edit, and debug your classes directly in Visual Studio. This allows the NinjaScript Editor to detect changes made outside of itself and automatically reload these changes in order to compile. This functionally applies to any other text editor of your choice, giving the ability to directly edit files outside of NinjaTrader 8 should you desire.     NinjaScript Strategies Working With Real-World Data  Strategies can now work with real-world order, execution, and account information. This greatly improves the startup behavior of the strategy, allowing it to adopt the real-world position and continue operation as if the strategy was running.
+
+![Clip0032](../images/clip0032.jpg)
+
+![Clip0012](../images/clip0012.jpg)
+
 - Exposed Real World Order, Execution, and Account Access
 - Improved Start Behavior, including adopting Real World Position
 - Improved Real-time Error Handling to provide ability to filter for rejections and handle terminal order states in code
 - Access commission rates     NinjaScript Output Window  The NinjaScript Output window has received a number of upgrades. Firstly, we’ve introduced a new smooth scrolling operation to help track and navigate data as it added to the output window.  The Output Window is now separated into two tabs, and you can choose which tab to use when outputting data via NinjaScript. This allows for a Dual View mode and synchronized scrolling operation to help compare data output from two scripts.     There is also a new facility to search for strings, and simply double clicking on a string token will quickly highlight any other strings that match that token.     clip0033
+
+![Clip0033](../images/clip0033.png)
 
 ## Connectivity
 
@@ -182,10 +209,16 @@ Although we have made large advancements with NinjaTrader 8, existing users will
 - Supports all 10 levels of market depth on futures
 - Improved pre/post market real-time data
 - Added Hotlist Support  FXCM
+
+![Clip0008](../images/clip0008.jpg)
+
 - Native OCO support  Interactive Brokers
 - Updated to the latest API
 - Now supports TWS: Gateway  IQfeed
 - Updated to the latest API  TDA
+
+![Clip0005](../images/clip0005.jpg)
+
 - Updated API
 - 64-bit support  Rithmic
 - Updated API
@@ -197,12 +230,97 @@ Although we have made large advancements with NinjaTrader 8, existing users will
 - Added Pips and Ticks to PnL display
 - Order Types and TIF selectors only load the supported order types and TIF settings supported by the selected account
 - Account selector now attempts to auto-select the last selected account when connected
+
+![Clip0004](../images/clip0004.jpg)
+
 - Order Type and Order State colors are now integrated into one color system and standardized across entire application, where the color of the order represents a specific order type unless order is pending/cancelled  Quantity Selector  We updated the quantity selector to provide users with quick access to preset quantity values, as well as increment values which can be customized ahead of time.  clip0034     clip0035    ATM Strategies  ATM Strategies have largely remained the same, with some slight improvements based on customer feedback over the years. Most significantly, you can now set an unlimited number of Stop Loss and Profit Target orders, resulting in more dynamic trade management. Profit target orders can optionally use the Market If Touched (MIT) order type rather than Limit orders.  Hovering your mouse cursor over a selected ATM Strategy will now display informative tooltips displaying details of the strategy parameters without having to open the ATM Strategy Parameters itself.     clip0036     clip0037    We removed the ATM Strategy template files from the database, and now store them in individual XML files for portability between computers.     Chart Trader  The Chart Trader interface has been improved, and can now be used on mulit-instrument charts. Previously, Chart Trader would only allow you to trade the primary instrument on the chart. Now we’ve given users the option to select which instrument on the chart they would like to trade.  The TIF option is now always visible, improving the control of the order types used on this interface.  clip0038  The indicator tracking feature discussed in the General section of this document is also available from Chart Trader, allowing you to synchronize orders on Chart Trader with indicators which have been added to the chart.    Hot Keys
+
+![Clip0038](../images/clip0038.jpg)
+
+![Clip0034](../images/clip0034.jpg)
+
+![Break Eod](../images/break_eod.png)
+
+![Clip0049](../images/clip0049.png)
+
+![Clip0026](../images/clip0026.jpg)
+
+![Clip0024](../images/clip0024.jpg)
+
+![Clip0023](../images/clip0023.jpg)
+
+![Clip0019](../images/clip0019.jpg)
+
+![Clip0048](../images/clip0048.png)
+
+![Clip0047](../images/clip0047.png)
+
+![Clip0013](../images/clip0013.jpg)
+
+![Clip0011](../images/clip0011.jpg)
+
+![Skin Light](../images/skin_light.jpg)
+
+![Skin Dark](../images/skin_dark.jpg)
+
+![Skin Slategray](../images/skin_slategray.jpg)
+
+![Skin Slatelight](../images/skin_slatelight.jpg)
+
+![Skin Slatedark](../images/skin_slatedark.jpg)
+
+![Clip0010](../images/clip0010.jpg)
+
+![Clip0002](../images/clip0002.jpg)
+
+![Clip0001](../images/clip0001.jpg)
+
 - Improved hot key setup process to allow for recording keystrokes
 - Added various user-requested hot keys
 - Added SuperDOM hot key category  SuperDOM  The SuperDOM has been redesigned to provide significant performance and usability improvements, and can now plot indicator values on the price ladder itself. The number of rows and size of the price ladder display will now dynamically update as you resize the window. The number of market depth levels is only limited by your data provider, meaning if your provider offers 10 levels of market depth, the SuperDOM can be configured to display all 10 of these levels.     clip0039  The Dynamic SuperDOM’s “Hold” button has been removed and replaced by a new “hover” mode which will temporarily freeze the price display when the mouse cursor hovers over the price display, allowing for a quicker and more intuitive order management process.  We’ve also introduced the ability to add Columns next to the Price Ladder, and a new “Trade Control on Left” mode. NinjaTrader 8 will install with several columns by default, and also allow users to create their own custom Columns via NinjaScript:
+
+![Clip0039](../images/clip0039.jpg)
+
+![Clip0036](../images/clip0036.jpg)
+
+![Clip0030](../images/clip0030.jpg)
+
+![Clip0022](../images/clip0022.jpg)
+
+![Clip0021](../images/clip0021.png)
+
+![Clip0020](../images/clip0020.jpg)
+
+![Clip0017](../images/clip0017.jpg)
+
+![Clip0015](../images/clip0015.jpg)
+
+![Clip0046](../images/clip0046.png)
+
+![Clip0045](../images/clip0045.png)
+
+![Clip0043](../images/clip0043.png)
+
+![Clip0009](../images/clip0009.jpg)
+
+![Clip0042](../images/clip0042.png)
+
+![Clip0007](../images/clip0007.jpg)
+
+![Clip0006](../images/clip0006.jpg)
+
+![Clip0003](../images/clip0003.jpg)
+
+![C](../images/c.jpg)
+
 - PnL
 - APQ (Approximate Position in Queue)
 - Volume
 - Notes
 - Custom NinjaScript Columns supported  clip0040
+
+![Clip0040](../images/clip0040.jpg)
+
+![Clip0027](../images/clip0027.jpg)
+
+![Clip0041](../images/clip0041.png)

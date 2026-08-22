@@ -61,3 +61,13 @@ The daily volume
 ## Understanding the option quotes grid section
 
 > Option Quotes The Option Quotes displays calls and puts quotes for each strike price of the expanded options ticker in the Option Chain window.    OptionsChain5    1) Columns display - the last, bid, ask, and strike columns (additional columns can be added in the Properties)  2) Calls & Puts quotes - call quotes are on the left and put quotes are on the right  3) In The Money (ITM) options - indicated by the shaded area the ITM triangle is pointing towards on the calls and puts section  4) Last price for the underlying security - indicated by the marker on top of the strike prices   Changing Sort Direction of Strike Prices Clicking on the Strike column header will change the sort direction of the strike prices. This can also be adjusted in the Properties.    OptionsChain6
+
+![Optionschain6](../images/optionschain6.png)
+
+![Optionschain4](../images/optionschain4.png)
+
+![Optionschain2](../images/optionschain2.png)
+
+![Optionschain3](../images/optionschain3.png)
+
+![Optionschain5](../images/optionschain5.png)

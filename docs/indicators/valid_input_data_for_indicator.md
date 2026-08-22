@@ -5,6 +5,8 @@ System indicator methods require valid input data to function property. Indicato
 Default Input 
 ## The default input (Inputs[BarsInProgress](../language_reference/barsinprogress.md)]) of the custom indicator, Market Analyzer row or strategy is used if input is not specified.
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Printing the current value of the 10 period SMA of closing prices
 // using the default input.
@@ -48,6 +50,12 @@ double value = SMA(myDataSeries, 20)[0];
 Bars Object 
 ## A Bars object (which holds a series that contains OHLC data) can be used as input for indicators.
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 // Passing in the second Bars object held in a multi-instrument and timeframe strategy
 // The default value used for the SMA calculation is the close price
@@ -57,5 +65,10 @@ Print("The current SMA value is " + value.ToString());;
 
 ```csharp
 // Using the hosting indicator in this way will cause errors with recursive loops
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 double value = SMA(this, 20)[0];
 ```

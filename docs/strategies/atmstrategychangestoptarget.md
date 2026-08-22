@@ -23,6 +23,8 @@ AtmStrategyChangeStopTarget(double limitPrice, double stopPrice, string orderNam
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

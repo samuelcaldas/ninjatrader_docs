@@ -53,3 +53,7 @@ Sets the order quantity used to an exact pre-defined quantity
 Increases the current order quantity value by pre-defined value
 
 For example if your current quantity was set to a value of 1, and you wanted to quickly set the quantity to 10, you would simply select 10 from the left side of the Preset Quantity Pad. If you wanted to increase the current quantity by 2, you would select the +2  from the right side of the Preset Quantity Pad. Doing so will increase the current value from 1 to 3. Selecting +2 again would then change the quantity from 3 to 5.    Selecting the "clear" button will reset the current order quantity to the instrument's minimum order quantity size.   Customizing Preset Quantities You can customize the preset quantity values that are displayed in these fields by selecting the "configure" button from the Preset Quantity Pad.    Shared_Trade_Controls_3   Adding a Custom Preset 1.Select the desired Preset (Quick or Increment) from the left side Presets panel  2.Press the "add" button in the right panel  3.Set the desired Quantity value  4.Press OK   Removing a Custom Preset  1. Select the desired Quantity/Increment value from the right side Quantities panel 2. Select the "remove" button    Note: Order quantities will always be organized from low to high values
+
+![Shared Trade Controls 3](../images/shared_trade_controls_3.png)
+
+![Shared Trade Controls 2](../images/shared_trade_controls_2.png)

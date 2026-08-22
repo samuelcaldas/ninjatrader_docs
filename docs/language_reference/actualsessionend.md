@@ -18,6 +18,8 @@ A DateTime structure that represents end of a trading session.
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 SessionIteratorsessionIterator;
 OnStateChange()

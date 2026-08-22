@@ -1,3 +1,5 @@
+![Ns](../images/ns.png)
+
 # Draw.Text()
 
 ## Definition
@@ -40,6 +42,8 @@ Draw.Text(NinjaScriptBase owner, string tag, bool isAutoScale, string text, Date
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
 ## Examples
+
+![Ns](../images/ns.png)
 
 ```csharp
 // Draws text

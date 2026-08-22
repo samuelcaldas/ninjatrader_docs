@@ -37,6 +37,8 @@ public override string FormatPriceMarker(double price)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // FormatPriceMarker method of a custom indicator
 public override string FormatPriceMarker(double price)

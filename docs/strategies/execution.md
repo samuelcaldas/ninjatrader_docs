@@ -32,6 +32,8 @@ Represents a read only interface that exposes information regarding an execution
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Example #1
 private Order entryOrder = null;
@@ -49,8 +51,13 @@ protected override void OnExecutionUpdate(Execution execution, string executionI
     if (entryOrder != null && entryOrder == execution.Order)
     Print(execution.ToString());
 }
-csharp
+```
+
+```csharp
 // Example #2
+
+![Ns](../images/ns.png)
+
 protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time)
 {
     // Remember to check the underlying Order object for null before trying to access its properties

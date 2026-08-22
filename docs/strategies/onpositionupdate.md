@@ -10,6 +10,9 @@ An event driven method which is called each time a PositionUpdate is received fo
 
 > **Notes:**
 - You will NOT receive position updates for manually placed orders, or orders managed by other strategies (including any [ATM strategies](../ninjascript/using_atm_strategies.md)) in OnPositionUpdate(). The Account class contains a pre-built event handler ([PositionUpdate](../addons/positionupdate.md)) which can be used to filter position updates on a specified account.
+
+![Ns](../images/ns.png)
+
 - Its best practice to only work with the passed by value parameters and not reference parameters. This insures that you process each change of the underlying state.
 - Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. For an example on protecting positions with this approach, see [OnExecutionUpdate()](onexecutionupdate.md)
 
@@ -40,6 +43,8 @@ protected override void OnPositionUpdate(Position position, double averagePrice,
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnPositionUpdate(Cbi.Position position, double averagePrice,
 int quantity, Cbi.MarketPosition marketPosition)
@@ -49,7 +54,9 @@ int quantity, Cbi.MarketPosition marketPosition)
         // Do something like reset some variables here
     }
 }
-csharp
+```
+
+```csharp
 protected override void OnPositionUpdate(Cbi.Position position, double averagePrice,
 int quantity, Cbi.MarketPosition marketPosition)
 {

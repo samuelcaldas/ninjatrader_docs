@@ -1,3 +1,5 @@
+![Marketdataarchives Import](../images/marketdataarchives_import.png)
+
 # Importing
 
 Historical data can be imported from a text file with a ".txt" extension within the Loaded section of the Historical Data Window. Several formats and data types are supported and NinjaTrader can optionally build 'Minute' bars from tick data as well as 'Day' bars from tick or minute data.
@@ -20,6 +22,20 @@ Historical data can be imported from a text file with a ".txt" extension within 
 - Data points will be rounded to the instruments tick size as it is imported if the price is not evenly divisible by the instrument's tick size
 - Imported data, regardless of time zone, will be converted to the local time zone.   Importing Historical Text Data To import historical data from a text file into NinjaTrader:    MarketDataArchives_ImportSteps    1Choose the Format and Data type that correctly represent the data in the import file (see  the "Understanding the import options" section above)  2Optionally select any of the Generate... choices to have NinjaTrader create other bar types from the import data  3Select the Time zone of the imported data (Note: Any data exported from NinjaTrader is always exported in UTC time zone)  4Press the Import button  5Select the text file from your PC to import and press the "Open" button.    NinjaTrader will attempt to import the text file. If successful, a window will appear confirming this. If unsuccessful, an error window will appear and you should check the [Log tab](log_tab2.md) of the Control Center to view the error(s).
 
+![2](../images/2.png)
+
 ## Formatting data from Tick Data, LLC
 
 > When exporting data from Tick Data, LLC with their TickWrite utility, the data must be exported in a format NinjaTrader can import and then the file will need to be properly renamed.   Formatting dataDownload the following file then unzip it to access the NinjaTrader.twj file: [TickDataLLC.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/TickDataLLC.zip). Within TickWrite you can go to File and select Open Job to select the NinjaTrader.twj file.  Now you can configure what data you want to export and when you execute the job the data will be in the required format.    TickWrite   Formatting the File Name When using the NinjaTrader format, the name of the text file to be imported must be the NinjaTrader instrument name followed by a period and "Last", "Bid", or "Ask" depending on the data type. For example:    MSFT.Last.txt for Microsoft stock last price data  ES 12-09.Bid.txt for the S&P E-mini December contract bid price data  EURUSD.Ask.txt for the Euro/U.S. dollar currency pair ask price data
+
+![Tickwrite](../images/tickwrite.png)
+
+![4](../images/4.png)
+
+![1](../images/1.png)
+
+![Marketdataarchives Importsteps](../images/marketdataarchives_importsteps.png)
+
+![5](../images/5.png)
+
+![3](../images/3.png)

@@ -31,9 +31,19 @@ CrossAbove(ISeries<double> series1, double value, int lookBackPeriod)
 
 This means the first variable must always be a `ISeries<double>` object, and the second variable can be either another `ISeries<double>` or a double value (100, 70.25, etc). To specify a `ISeries<double>` object, you can just leave off the square brackets. For example if(CrossAbove(SMA(14), SMA(28), 1)) checks if the 14 period SMA has crossed above the 28 period SMA within the last bar. if(CrossAbove(SMA(14)[0], SMA(28)[0], 1)) would give you a compile error because it expects a `ISeries<double>` as input, not a double value (which is returned when an index is present).
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 if (CrossAbove(SMA(14), SMA(28), 1)) // works fine
 if (CrossAbove(SMA(14), 1000, 1)) // works fine, this uses a double for the second argument. See the above overload.
+
+![Ns](../images/ns.png)
+
 if (CrossAbove(SMA(14)[0], SMA(28)[0], 1)) // compile error: SMA(14)[0] is a double, not a ISeries<double>
 if (CrossAbove(SMA(14), SMA(28)[0], 1)) // would work fine with a ISeries<double> as first argument and a double as the second argument
+
+![Ns](../images/ns.png)
+
 ```

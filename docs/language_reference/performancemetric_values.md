@@ -39,6 +39,11 @@ public double[] Values
 // The attribute determines the name of the performance value on the grid
 [Display("MyPerformanceMetric", Order = 0)]
 public double[] Values
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 {
     get
     {

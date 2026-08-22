@@ -32,6 +32,8 @@ Historical
 
 Displays performance statistics for historical trades ONLY, calculated before any real-time trades are taken
 
+![Strategyperformance](../images/strategyperformance.png)
+
 Real-Time and Historical
 
 Combines historical and real-time performance statistics in a single report
@@ -41,3 +43,11 @@ Combines historical and real-time performance statistics in a single report
 > Each NinjaScript strategy's parameters can be saved as a template for later use, and multiple templates can be saved for each strategy. Once saved in a template, the customized parameters can be loaded quickly whenever the specified template is applied to an instance of the strategy for which it was created.   What is Saved All parameter settings are saved, with the following exceptions:
 - Account defaults to the Sim101 account
 - Enabled defaults to False   Saving Custom Strategy Settings To save custom NinjaScript strategy parameters as default:    1.Set parameters to desired values  2. Left mouse click on the template text located in the bottom right of the properties dialog. Selecting save will open the Save Strategy Template window, in which you can enter a name for a new template or overwrite an existing template.    If you wish to load a previously saved template, you can select the load option after left mouse clicking on the template text.  If you change your settings and later wish to go back to the original settings, you can left mouse click on the template text and select the restore option.    ChartDefaults9    1. In the image above, the "Sample MA Crossover" strategy is applied, as seen in the "Configured" section.  2. A new template can be saved for the selected by clicking the template text, then selecting save.    ChartDefaults8    The Save Strategy Template window will allow you to name and save a new template for the configured strategy.
+
+![Chartdefaults8](../images/chartdefaults8.png)
+
+![Chartdefaults9](../images/chartdefaults9.png)
+
+![Strategyexecutions](../images/strategyexecutions.png)
+
+![Reloadninjascript](../images/reloadninjascript.png)

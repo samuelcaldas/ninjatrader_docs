@@ -5,6 +5,10 @@ Description
 
 > Display  The VWAP line is the green and red line. The VWAP by default is LimeGreen when below the price and Red when above the price.The blue bands are the standard deviations of the VWAP. By default the closest one is a 1X multiplier, followed by a 2X multiplier, and a 3X multiplier. OFVWAP1 Using the Order Flow VWAP  When using the Order Flow VWAP it is typical that users look for purchase signals when the price is below the VWAP. This would indicate that the purchase would be at a lower price than what is the average purchase per share for traders during the VWAP period. The price being below the VWAP can also result in pressure for the market to move back towards the VWAP. The opposite would be true for when the VWAP is above the price. OFVWAP2 The VWAP and standard deviations are often used to indicate potential levels of support and resistance. OFVWAP3  Since the Order Flow VWAP is a cumulative indicator, the longer it runs for the more the VWAP can lag. Using the Trading hours parameter you can adjust during what times the indicator will run for. These settings work in combination with the selected Data Series Trading hours and will not calculate outside of that.   OFVWAP4
 
+![Ofvwap4](../images/ofvwap4.png)
+
+![Ofvwap3](../images/ofvwap3.png)
+
 ## Order Flow VWAP Parameters
 
 ---
@@ -75,6 +79,8 @@ Std Dev 3 multiplier
 
 Input for what multiplier to use for standard deviation 3
 
+![Ofvwap1](../images/ofvwap1.png)
+
 Color for above price
 
 Color for when the VWAP line is above the price
@@ -82,6 +88,8 @@ Color for when the VWAP line is above the price
 Color for below price
 
 Color for when the VWAP line is below the price
+
+![Ofvwap2](../images/ofvwap2.png)
 
 Color for band area
 

@@ -83,13 +83,33 @@ To the very end (current bar)
 
 Range Icon If the horizontal axis is scrolled to the left or right from its starting location, a "return" icon will appear in the top right hand corner of the chart. Left mouse click on the icon to return the horizontal axis to view the last "live" data on the chart.    Chart_RangeIcon   Vertical Scrolling (panning chart up or down) To pan the chart up or down:    CTRL + Left mouse click and hold on chart margin and drag up or down as depicted in the images below.    1. CTRL + Click and drag down will shift the chart's price scale up   Chart_DragCursorDown  2. CTRL + Click and drag up will shift the chart's price scale down   Chart_DragCursorUp   Free Mode Scrolling You can also navigate the chart by changing both the price axis and time axis at the same time by holding down the CTRL key + Left mouse clicking and dragging in the chart area.  This will allow you to move both the price and time axis in whichever direction the mouse is dragged.
 
+![Chart Scaleshrink](../images/chart_scaleshrink.png)
+
+![Chart Scalestretch](../images/chart_scalestretch.png)
+
+![Chart Dragcursordown](../images/chart_dragcursordown.png)
+
+![Chart Fixedicon](../images/chart_fixedicon.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
 ## How to go to a specific time on the chart
 
 > Go To... You can go to a specific date and time on a chart by right clicking on the scroll bar and selecting Go To...    GoTo1    A Go To... window will appear in which you can enter the desired date and time. Once complete, select OK to go to that time.    GoTo2
 
+![Goto2](../images/goto2.png)
+
+![Goto1](../images/goto1.png)
+
+![Chart Decompressed](../images/chart_decompressed.png)
+
+![Chart Compressed](../images/chart_compressed.png)
+
 ## How to zoom in and out in a chart
 
 > Zoom In To create a zoom frame around a chart area you want to focus in on:    1.Left mouse click on the Zoom In icon in the tool bar, select the Zoom In menu item within the right mouse button click context menu, or use the zoom in Hot Key CTRL+ ALT + Z  2.Left mouse click and while holding down the left mouse button, draw a zoom frame region and release the button.    The chart display area will zoom in to the selected frame area.    Chart_Zoom   Zoom Out Each zoom in can be undone to the prior zoom level with a zoom out. To zoom out, left mouse click on the Zoom Out icon in the chart tool bar, select the Zoom Out menu item within the right mouse button click context menu, or use the zoom out [Hot Key](hot_key_manager.md) CTRL+ ALT + O.
+
+![Chart Zoom](../images/chart_zoom.png)
 
 ## How to change the bar spacing and width
 
@@ -101,7 +121,11 @@ Range Icon If the horizontal axis is scrolled to the left or right from its star
 - ALT + Up arrow key decreases bar width
 - ALT + Down arrow key increases bar width    Alternatively, left mouse click on the "Chart style" chart toolbar icon to access bar spacing and width functions    Chart_ChartStyleToolBar    |  
 
+![Chart Dragcursorup](../images/chart_dragcursorup.png)
+
 > **Note:** On a multi-series chart, before changing bar spacing or width, you must select the Data Series you want to adjust by left mouse clicking on it. If none is selected, the primary Data Series of the chart will be adjusted.
+
+![Chart Chartstyletoolbar](../images/chart_chartstyletoolbar.png)
 
  |
 
@@ -125,4 +149,10 @@ CTRL + G
 
 Global Cross Hair (links crosshairs when enabled on two or more charts)
 
+![Chart Cursormenu](../images/chart_cursormenu.png)
+
+![Playvideo](../images/playvideo.jpg)
+
 Chart_CursorMenu
+
+![Chart Rangeicon](../images/chart_rangeicon.png)

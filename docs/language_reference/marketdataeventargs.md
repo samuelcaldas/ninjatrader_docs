@@ -30,6 +30,8 @@ Represents a change in level one market data and is passed as a parameter in the
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 {

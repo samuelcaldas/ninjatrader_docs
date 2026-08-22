@@ -14,6 +14,8 @@ A double value that represents the net profit.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

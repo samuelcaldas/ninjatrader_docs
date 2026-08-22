@@ -6,6 +6,8 @@ Determines if the strategy should be re-instantiated (re-created) after each opt
 
  
 
+![Ns](../images/ns.png)
+
 The default behavior is to re-instantiate the strategy for each optimization backtest run. However, the process of re-instantiating a strategy requires more time and computer resources to return results, which could impact the amount of time it takes to run an optimization.  When false, the strategy is re-used to save time and computer resources.  Under this design, internal properties are reset to default values after each iteration, but it is possible that user-defined properties and other custom resources may carry their state over from the previous iteration into a new backtest run.  To take advantage of performance optimizations, developers may need to reset class level variables in the strategy otherwise unexpected results can occur.
 
 > **Note:** If you choose to take advantage of the performance benefits during strategy optimization by setting the IsInstantiatedOnEachOptimizationIteration property to false, any objects you create in your code MUST be reset during the appropriate State within the [OnStateChange()](../language_reference/onstatechange.md) method.  Please see the example below on "Manually resetting class level variables to take advantage of Strategy Analyzer optimizer performance benefits".
@@ -80,11 +82,16 @@ public int Fast
 [Display(Name = "Slow", GroupName = "NinjaScriptStrategyParameters", Order = 1)]
 public int Slow
 { get; set; }
-csharp
+```
+
+```csharp
 // A custom trades dictionary is declared when strategy is first optimized,
 // but not instantiated until later in State.DataLoaded,
 private Dictionary<DateTime, string> myTrades;
 // examples of other fields which need to be reset
+
+![Ns](../images/ns.png)
+
 private double myDouble;
 private bool myBool;
 private DateTime myDateTime;

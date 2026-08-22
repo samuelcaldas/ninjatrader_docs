@@ -14,6 +14,8 @@ Represents an interface that exposes information regarding an Extended Line [IDr
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a dotted lime green Extended Line
 ExtendedLine myLine = Draw.ExtendedLine(this, "tag1", 10, Close[10], 0, Close[0], Brushes.LimeGreen, DashStyleHelper.Dot, 2);

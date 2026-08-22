@@ -25,6 +25,8 @@ TradingHours.Holidays
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Print all holidays included in the Bars object's Trading Hours template
 foreach(KeyValuePair<DateTime, string> holiday in TradingHours.Holidays)

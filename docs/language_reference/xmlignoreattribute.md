@@ -17,6 +17,8 @@ This attribute does not require any parameters; default value is true and usage 
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 #region Properties
 [XmlIgnore] // ensures that the property will NOT be saved/recovered as part of a chart template or workspace
 public Brush MyBrush

@@ -33,6 +33,8 @@ You can save this ATM Strategy as a template by clicking the Save as Template bu
 
 Once you press the save button, a template is created for this ATM Strategy, and it will become available in the strategy control list of all order entry windows. You can now place an order which, once filled, will automatically trigger the ATM Strategy to submit the Stop Loss and Profit Target. In the image below, an order was submitted and filled at 1978.75 as depicted by the brown colored cell.
 
+![Playvideo](../images/playvideo.jpg)
+
 ![ATM_30](../images/atm_30.png)
 
 7. A Profit Target was submitted at 1980.75 which is 8 ticks from our entry price of 1978.75
@@ -42,3 +44,5 @@ Once you press the save button, a template is created for this ATM Strategy, and
 9. An active strategy named "![active_atm](../images/active_atm.png) 8 Tick 1 Target - 1" is created and listed under the ATM Strategy control list.
 
 If under SuperDOM Properties you have the "[ATM Strategy selection mode](atm_strategy_selection_mode.md)" set to "SelectActiveATMStrategyOnOrderSubmission", NinjaTrader will automatically set the ATM Strategy control list to the newly created ATM Strategy. The importance of this is if you place another order, any fills resulting from the order will be applied to the existing Stop Loss and Profit Target orders.  As an example, if we were filled on an additional contract, our Stop Loss and Profit Target would automatically be modified from 1 contract to 2 contracts. Both Stop Loss and Profit Target orders are tied via OCO which means if one of the orders is filled, the other will automatically be cancelled. If the option in the first sentence was not checked, the ATM Strategy control list would be set to the "8 Tick 1 Target" ATM Strategy template we just created. Any subsequent orders would create an additional ATM Strategy that would submit another set of Stop Loss and Profit Target orders.
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)

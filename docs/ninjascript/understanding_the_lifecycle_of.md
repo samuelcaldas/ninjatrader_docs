@@ -8,6 +8,8 @@ There are two categories of instances instantiated by NinjaTrader:
 
 - "UI" instances representing its default properties on various user interfaces
 
+![Ns](../images/ns.png)
+
 - The "configured" instance executing your custom instructions
 
 In both categories, [OnStateChange()](../language_reference/onstatechange.md) is called at least twice:  once to State.SetDefaults acquiring various default property values, and then again to State.Terminated handling internal references cleanup.
@@ -79,6 +81,9 @@ protected override void OnStateChange()
         // add a custom tool bar using a custom method
         AddToolBarButton(); // this is a pseudo-method for example purposes
         toolBarNeedsReset = true; // use a flag to track this logic was executed
+
+![Lifetime Of Ninjascript Indicator](../images/lifetime_of_ninjascript_indicator.png)
+
     }
     else if (State == State.Terminated)
     {

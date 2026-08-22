@@ -18,6 +18,8 @@ Submit(IEnumerable<Order> orders)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 Order stopOrder = null;
 stopOrder = myAccount.CreateOrder(myInstrument, OrderAction.Sell, OrderType.StopMarket, TimeInForce.Day, 1, 0, 1400, "myOCO", "stopOrder", null);

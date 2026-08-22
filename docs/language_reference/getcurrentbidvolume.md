@@ -31,12 +31,19 @@ protected override void OnBarUpdate()
     Print("The Current Bid volume is: " + currentBidVolume);
     //The Current Bid volume is: 158
 }
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.SetDefaults)
     {
         Name = "Examples Indicator";
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
     }
     if (State == State.Configure)
     {

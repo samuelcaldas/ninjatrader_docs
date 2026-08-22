@@ -14,6 +14,8 @@ An [Indicator](indicator.md) object
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 if (State == State.DataLoaded)
 {

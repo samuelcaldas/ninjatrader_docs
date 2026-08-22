@@ -37,6 +37,8 @@ Draw.VerticalLine(NinjaScriptBase owner, string tag, DateTime time, bool isGloba
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Draws a vertical line
 Draw.VerticalLine(this, "tag1", 10, Brushes.Black);

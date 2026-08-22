@@ -36,6 +36,9 @@ protected override void OnStateChange()
     if (State == State.SetDefaults)
     {
         Name = "ExampleStrategy";
+
+![Ns](../images/ns.png)
+
     }
     else if (State == State.Configure)
     {

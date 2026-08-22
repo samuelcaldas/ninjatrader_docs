@@ -26,6 +26,8 @@ RealtimeErrorHandling
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private Order stopLossOrder = null;
 private Order entryOrder = null;

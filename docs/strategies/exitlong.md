@@ -41,6 +41,8 @@ ExitLong(int barsInProgressIndex, int quantity, string signalName, string fromEn
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

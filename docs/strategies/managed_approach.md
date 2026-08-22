@@ -17,6 +17,8 @@ A few key points to keep in mind:
 \* Via the [SetProfitTarget()](setprofittarget.md), [SetStopLoss()](setstoploss.md), [SetTrailStop()](settrailstop.md) and [SetParabolicStop](setparabolicstop.md) methods
 
 ```csharp
+![Ns](../images/ns.png)
+
 protected override void OnBarUpdate()
 {
     // Entry condition
@@ -24,6 +26,9 @@ protected override void OnBarUpdate()
     EnterLongLimit(GetCurrentBid());
 }
 This technique allows you the quickest and easiest order submission method suitable for programmers of all levels. Should you want to submit an order and not have to keep re-submitting it to keep it alive you can use an [advanced approach](advanced_order_handling.md) reserved for experienced programmers, which includes an option to keep orders alive until specifically canceled in code.
+
+![Ns](../images/ns.png)
+
 ```
 
 - Used to tie an exit method to a specific position
@@ -45,7 +50,9 @@ Defining how Entry Methods are Processed in a Strategy You can limit how many en
 •[EntryHandling](entryhandling.md) property - Determines if EntriesPerDirection applies across all entries or for entries with specified signal names
 The example code below illustrates how the above properties control the processing of entry methods. The code contains two entry conditions and two EnterLong methods, each tagged with unique signal names.
 
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.SetDefaults)
@@ -66,7 +73,9 @@ protected override void OnBarUpdate()
 Entry Methods on Multi-Instrument Strategies
 When running strategies that submit orders to multiple instruments, entry methods will submit orders to the instrument referenced by the [BarsInProgress](../language_reference/barsinprogress.md). The following example assumes that the strategy is running on a 1 minute E-Mini S&P 500 chart. It adds an NQ data series, then enters a position on both instruments.
 
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     AddDataSeries("NQ 09-14", BarsPeriodType.Minute, 1);
@@ -98,7 +107,9 @@ protected override void OnBarUpdate()
 }
 FromEntrySignal -- Using Signal Names in Exit Methods Identifying entries with a signal name allows you to place multiple unique entries within a single strategy and call exit methods with specified signal names, so that only a position created with the specified signal name is closed. In the example below, there are two entry conditions which create positions, and two exit conditions specifying which position to close based on the signal name.
 
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // Entry condition 1
@@ -148,6 +159,8 @@ protected override void OnBarUpdate()
 
 To prevent situations in real-time in which you may have multiple orders working to accomplish the same task, there are some "under the hood" rules that a NinjaScript strategy follows when Managed order methods are called. For example, if your strategy had a limit order for 1 contract working as a Profit Target, but then your strategy was also programmed to reverse the position at the price very close to the target limit order, then submitting both orders can be risky, since it could lead to a larger position than the strategy is designed to enter if both orders got filled in quick succession by the exchange.
 
+![Ns](../images/ns.png)
+
 > **Note:** These rules do not apply to market orders, such as ExitLong() or ExitShort().
 
     For the most part, you do not need to be intimately familiar with these rules as you develop your strategies. It is all taken care of for you internally within a strategy. If a rule is violated, you will be notified through an error log in the Control Center Log tab.    |  
@@ -164,6 +177,8 @@ To prevent situations in real-time in which you may have multiple orders working
 - A position is open and an order submitted by a set method ([SetStopLoss()](setstoploss.md) for example) is active    Set() methods that generate orders to exit a position will be ignored if:
 - A position is open and an order submitted by an enter method ([EnterLongLimit()](enterlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
 - A position is open and an order submitted by a non market order exit method ([ExitLongLimit()](exitlonglimit.md) for example) is active |
+
+![Ns](../images/ns.png)
 
 | Name / Option | Description |
 | --- | --- |
@@ -195,3 +210,9 @@ To prevent situations in real-time in which you may have multiple orders working
 | [SetProfitTarget()](setprofittarget.md) | Generates a profit target order with the signal name "Profit target" to exit a position. |
 | [SetStopLoss()](setstoploss.md) | Generates a stop loss order with the signal name "Stop loss" used to exit a position. |
 | [SetTrailStop()](settrailstop.md) | Generates a trail stop order with the signal name "Trail stop" to exit a position. |
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)

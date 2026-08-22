@@ -14,6 +14,8 @@ Represents an interface that exposes information regarding an Arrow Down [IDrawi
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate an ArrowDown object
 ArrowDown myArrow = Draw.ArrowDown(this, "tag1", true, Time[0], High[0] + (2 \* TickSize), Brushes.Green);

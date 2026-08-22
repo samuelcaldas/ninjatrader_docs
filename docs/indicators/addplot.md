@@ -2,6 +2,8 @@
 
 ## Definition
 
+![Ns](../images/ns.png)
+
 Adds plot objects that define how an indicator or strategy data series render on a chart. When this method is called to add a plot, an associated [`Series<double>`](../language_reference/seriest.md) object is created held in the [Values](../language_reference/value.md) collection.
 
 ```csharp
@@ -40,6 +42,8 @@ AddPlot(Strokename)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Indicator using various AddPlot() signatures
 OnStateChange()
@@ -57,8 +61,15 @@ OnStateChange()
         );
     }
 }
-csharp
+```
+
+```csharp
 // Indicator using a public Series<double> to expose a plot with a friendly name. This is required for making plots accessible in the Strategy BuilderFor an example on exposing other variables publicly, see [Exposing Indicator values that are not plots](exposing_indicator_values_that.md)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 OnStateChange()
 {
     State.SetDefaults)
@@ -87,7 +98,9 @@ MyPlot2
 {
     get}
 }
-csharp
+```
+
+```csharp
 // Indicator which adds three value series
 OnStateChange()
 {
@@ -106,7 +119,9 @@ OnBarUpdate()
     // Red "Plot B"
     // Green "Plot C"
 }
-csharp
+```
+
+```csharp
 // Indicator which dynamically adds a plot in State.Configure
 OnStateChange()
 {

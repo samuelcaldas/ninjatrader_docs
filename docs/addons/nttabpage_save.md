@@ -4,6 +4,8 @@ Saves elements in our NTTabPage to the workspace (e.g. Selected accounts or inst
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // NTTabPage member. Required for saving elements to workspaces
 public void Save(XElement element)

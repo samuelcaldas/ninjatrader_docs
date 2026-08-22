@@ -15,7 +15,11 @@ A collection of [Trade](trade.md) objects. You can access a trade object by prov
 | [TradesPerformance](tradesperformance.md) | Gets a [TradesPerformance](tradesperformance.md) object |
 | [WinningTrades](winningtrades.md) | Gets a TradeCollection object of winning trades |
 
+![Ns](../images/ns.png)
+
 ## Examples
+
+![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnBarUpdate()
@@ -30,7 +34,9 @@ protected override void OnBarUpdate()
         Print("The first trade profit is " + firstTrade.ProfitPercent);
     }
 }
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     // Once the strategy has executed 20 trades loop through the losing trades

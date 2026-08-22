@@ -18,6 +18,10 @@ SetZOrder(int DesiredZOrderLevel)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {
@@ -27,7 +31,9 @@ protected override void OnStateChange()
         SetZOrder(-1);
     }
 }
-csharp
+```
+
+```csharp
 protected override void OnRender(ChartControl cc, ChartScale cs)
 {
     Print(ChartPanel.ChartObjects.Max(co => co.ZOrder));

@@ -2,6 +2,8 @@
 
 ## Definition
 
+![Ns](../images/ns.png)
+
 Converts object data to a string format and appends the specified value as text to the NinjaScript [Output window](../ninjascript/output.md). Printing data to the NinjaScript Output window is a useful debugging technique to verify values while developing your custom NinjaScript object.
 
  
@@ -30,6 +32,8 @@ Print(object value)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -44,7 +48,9 @@ protected override void OnBarUpdate()
     Print(SMA(Close, 20)[0]);
     //Output: 2110.5;
 }
-csharp
+```
+
+```csharp
 protected override void OnBarUpdate()
 {
     //Format and Print each bar value to the output window
@@ -52,7 +58,9 @@ protected override void OnBarUpdate()
     //Output:
     2/24/2015 11:01:00 AM;2110.5;2110.5;2109.75;2110;1702
 }
-csharp
+```
+
+```csharp
 ns
 protected override void OnBarUpdate()
 {
@@ -60,6 +68,8 @@ protected override void OnBarUpdate()
     double myValue = Close[0];
     //create and store a custom error message
     string myError = string.Format("Error on Bar {0}, value {1} was not expected", CurrentBar, myValue);
+![Ns](../images/ns.png)
+
     //\*Storing the value adds better reusability of the error message above for other objects
     //For example later down on line #19 we replace myValue = Close[0] with another double value Low[0]
     //This allows you to reuse the custom error formatted above on line #7 without repeating yourself

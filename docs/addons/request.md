@@ -20,6 +20,8 @@ BarsRequest.Request(`Action<BarsRequest, ErrorCode, string>` callback)
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Request the bars
 barsRequest.Request(new Action<BarsRequest, ErrorCode, string>((bars, errorCode, errorMessage) =>

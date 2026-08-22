@@ -18,3 +18,5 @@
  |
 
 > Preferred data feed connections Within the NinjaTrader Control Center window, select the Tools menu, and then select Options menu item. In the Options window, select the "Market Data" category and expand the triangle to the left of Preferred connections - historical and Preferred connections - real-time. Here you may select a connection technology to use as the preferred connection per instrument type for real-time and historical data, independent of connection order. Setting your preferred connection for both historical and real-time has the advantage of being able to use a different data feed for your live connection and your historical connection.    Example:  1. Set NinjaTrader Continuum as the preferred real-time data feed provider for Futures.  2. Set Kinetick as the preferred historical data feed provider for Futures.  3. Connect to a NinjaTrader Continuum broker technology  4. Connect to a Kinetick data feed    In this example all futures real-time data would come from NinjaTrader Continuum and all futures historical data would come from Kinetick.    Connecting_Preferred
+
+![Connecting Preferred](../images/connecting_preferred.png)

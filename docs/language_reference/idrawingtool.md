@@ -53,6 +53,8 @@ IDrawingTool Properties are standard properties that are shared by all drawing t
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 Text myText;
 protected override void OnBarUpdate()

@@ -1,6 +1,10 @@
 # Connecting to Multi-provider Connections
 
+![Controlcenter Connections Connectionswindow](../images/controlcenter_connections_connectionswindow.png)
+
 > Account Connections Account connections can be managed under the Control Center window by selecting the Connections menu. Connected connections will have a green circle next to them. You can select what connections you want to connect to or disconnect to. When Multi-provider is enabled, you will be able to configure any additional connection or connect to ones already configured. See the [Enabling/Disabling Muli-provider Mode](enabling_disabling-multi-provi.md) section of the Help Guide. A connection is where you set up your user name, password and any relevant information that allows you to establish a connection to your broker and/or data feed service.    ControlCenter_ConnectionsMain
+
+![Controlcenter Connectionsmain](../images/controlcenter_connectionsmain.png)
 
 - User defined connection name (Only use alphanumeric characters in the connection name)
 - Optionally select "Connect on start up" to automatically connect to this connection when NinjaTrader is started.    |  
@@ -9,6 +13,10 @@
 
 - Various Settings which are specific to your connection. Please see the NinjaTrader [Connection Guide](https://ninjatrader.com/Help-Connection-Guides) for more information.    ControlCenter_Connections_ConnectionsWindow2    4. Press the "OK" button to finish configuring the connection. Now in the NinjaTrader Control Center connections menu you will be able to select the newly created connection by its connection name to connect.    |  
 
+![Controlcenter Connections Connectionswindow2](../images/controlcenter_connections_connectionswindow2.png)
+
 > **Warning:** All configured Multi-provider connections will be saved to your local system and anyone logging in on your local system will be able to access them.
+
+![Controlcenter Connectionsconfigure](../images/controlcenter_connectionsconfigure.png)
 
  |

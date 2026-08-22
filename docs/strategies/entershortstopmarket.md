@@ -40,6 +40,8 @@ EnterShortStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int qua
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

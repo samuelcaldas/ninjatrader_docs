@@ -21,6 +21,8 @@ Bars.Instrument.MasterInstrument.Dividends
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 foreach(Dividend dividends in Bars.Instrument.MasterInstrument.Dividends)
 {

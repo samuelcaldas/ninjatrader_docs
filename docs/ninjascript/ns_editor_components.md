@@ -46,6 +46,8 @@ Context menus can be opened by right-clicking in the NinjaScript Editor.
 
 ## Properties and Definitions
 
+![Ninjatrader 2020-12-03 10-03-00](../images/ninjatrader_2020-12-03_10-03-00.png)
+
 ## NinjaTrader_2020-12-03_10-03-00
 
 | Name / Option | Description |

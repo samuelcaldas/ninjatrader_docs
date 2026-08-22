@@ -14,6 +14,8 @@ A TradesPerformanceValues object that is represented in percent.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

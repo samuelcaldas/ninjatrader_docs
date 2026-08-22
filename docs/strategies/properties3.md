@@ -57,3 +57,7 @@ Sets the color, dash style, and width of lines used to represent specific order 
 ## How to set the default properties
 
 > Once you have your Chart Trader properties set to your liking, you can left mouse click on the preset text, then click the save option to save these properties as default.    ChartTrader15    If you change your settings and later wish to go back to the original settings, you can left mouse click on the preset text, then click the restore option.
+
+![Charttrader15](../images/charttrader15.png)
+
+![Charttrader14](../images/charttrader14.png)

@@ -24,6 +24,8 @@ ChartingExtensions.ConvertToVerticalPixels(this double x, PresentationSource tar
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 int devicePixelY;
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)

@@ -1,3 +1,5 @@
+![Playvideo](../images/playvideo.jpg)
+
 # Modifying and Canceling Orders
 
 > playVideo
@@ -5,6 +7,8 @@
 Orders are modified within the SuperDOM by selecting the order and clicking on the new price cell. Optionally you can also enable Single Click Order Modification of your Profit Target and Stop Loss orders within the [SuperDOM Properties](properties_superdom.md).
 
 > Modifying entry and exit orders  Pending orders in NinjaTrader may be modified by clicking to select the order and clicking once more at the new price point. This approach is more effective than drag and drop because it eliminates the potential errors made by accidentally letting go of your mouse button and dropping an order on the wrong price.  1.Click using your left mouse button on the order you wish to modify.  2.Once selected, you will see the cursor change to a hand from an arrow, then choose the price you are modifying the order to and click using your left mouse button to complete the modify process.    SuperDOM_28    The left mouse button is used to modify the price of limit, stop-market, stop-limit, and MIT orders. You can cancel out of a price modification (remove the hand cursor) by pressing the ESC key.    You can also increase or decrease the price of an order by pressing down on the right mouse button with the mouse cursor hovering over the order, which will display all orders consolidated at that price. You can then select any individual order to increase price or decrease price in one tick increments    SuperDOM_33
+
+![Superdom 33](../images/superdom_33.png)
 
 ## How to modify the price of Stop Loss and Profit Target orders
 
@@ -19,6 +23,10 @@ Orders are modified within the SuperDOM by selecting the order and clicking on t
 ## How to modify Stop Loss and Profit Target orders with a single click
 
 Single Click Order Modification  You have the option of enabling Single Click Order Modification for ATM Stop Loss and Profit Target orders via the [SuperDOM Properties](properties_superdom.md) dialog window accessible by right mouse click context menu. This is an advanced feature that can provide you with the clear advantage of efficiently modifying orders in fast moving markets. If you are a scalper then this option is for you.    Once enabled, to modify Stop Loss and Profit Target orders click in the center/PRICE column. Clicking in the PRICE column on the BID or above when long will adjust your Profit Target order prices, below the BID will adjust Stop Loss order prices. Clicking in the PRICE column on the ASK or below when short will adjust your Profit Target order prices, above the ASK will adjust your Stop Loss order prices.
+
+![Superdom 29](../images/superdom_29.png)
+
+![Superdom 28](../images/superdom_28.png)
 
 ---
 
@@ -43,3 +51,13 @@ Notes:  1.Single Click order Modification for Stops and Targets are limited to o
 ## How to cancel orders
 
 > Cancelling Orders  There are several options for cancelling orders within the NinjaTrader SuperDOM.   1.Pressing down on the left mouse button on the black "X" will cancel all orders consolidated at the corresponding price level.  2.Pressing down on the right mouse button with the mouse cursor hovering over the order will display all orders consolidated at that price. You can then select any individual order for cancellation.  3.Pressing on the large "X" will cancel all orders on either the "BUY" side (in this example) or the sell side.    SuperDOM_32    You can also cancel "ALL" orders by right mouse clicking inside the SuperDOM and selecting the menu item Cancel All Orders.
+
+![Superdom 32](../images/superdom_32.png)
+
+![Superdom 31](../images/superdom_31.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
+![Superdom 30](../images/superdom_30.png)
+
+![Playvideo](../images/playvideo.jpg)

@@ -14,6 +14,8 @@ Represents an interface that exposes information regarding a TimeCyles [IDrawing
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a Time Cycles object
 TimeCycles myTimeCycles = (this, "tag1", 0, 10, Brushes.CornflowerBlue, Brushes.CornflowerBlue, 40);

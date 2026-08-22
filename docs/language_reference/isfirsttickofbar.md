@@ -22,6 +22,8 @@ IsFirstTickOfBar
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // On a tick by tick strategy the only way you know when a bar is closed is when
 // the IsFirsTickOfBar is true.

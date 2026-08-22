@@ -102,6 +102,8 @@ The number of unfilled Sell orders currently resting on the account
 
 Right Click Menu Right mouse clicking within the positions grid section opens the following menu:    ControlCenter_Positions_ContextMenu
 
+![Controlcenter Positions Contextmenu](../images/controlcenter_positions_contextmenu.png)
+
 ---
 
 ---
@@ -182,11 +184,15 @@ Columns
 
 Sets that columns are enabled or disabled in the order grid.
 
+![Controlcenter Positionsgrid](../images/controlcenter_positionsgrid.png)
+
 Window
 
 Sets that window management features are enabled or disabled
 
 How to preset property defaults Once you have your properties set to your preference, you can left mouse click on the "preset" text located in the bottom right of the properties dialog. Selecting the option "save" will save these settings as the default settings used every time you open a new window/tab.    If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset text and select the option to restore to return to the original factory settings - please note though that you cannot save a custom default to restore to.
+
+![Controlcenter Positions Properties](../images/controlcenter_positions_properties.png)
 
 > **Note:** A number of pre-defined variables can be used in the "Tab Name" field. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page.
 

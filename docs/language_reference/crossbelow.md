@@ -31,6 +31,8 @@ CrossBelow(`ISeries<double>` series1, double value, int lookBackPeriod)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

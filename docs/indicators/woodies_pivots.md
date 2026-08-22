@@ -43,6 +43,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current pivot point value
 double ppValue = WoodiesPivots(HLCCalculationModeWoodie.CalcFromIntradayData, 20).PP[0];
@@ -57,6 +59,9 @@ Print("The current Woodies Pivots' S2 pivot value is " + s2Value);
 ```csharp
 // Evaluates that this is a valid Woodies Pivots value
 if (WoodiesPivots(HLCCalculationModeWoodie.DailyBars, 20).PP.IsValidDataPoint(0))
+
+![Ns](../images/ns.png)
+
 {
     // Prints the current pivot point value
     double value = WoodiesPivots(HLCCalculationModeWoodie.DailyBars, 20).PP[0];

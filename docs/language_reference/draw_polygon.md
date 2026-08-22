@@ -58,6 +58,8 @@ Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime Ancho
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Draws a Polygon object based on bars ago and y anchors
 Draw.Polygon(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);

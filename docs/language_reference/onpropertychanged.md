@@ -18,6 +18,8 @@ This method does not require any parameters
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Repaint the SuperDOM column
 OnPropertyChanged();

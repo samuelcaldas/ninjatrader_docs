@@ -24,6 +24,8 @@ A bool value when true indicates the specified time is within the current tradin
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 private SessionIterator sessionIterator;
 protected override void OnStateChange()

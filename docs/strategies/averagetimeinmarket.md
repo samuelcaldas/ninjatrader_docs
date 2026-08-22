@@ -14,6 +14,8 @@ A TimeSpan value that represents the quantity-weighted average duration of a tra
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

@@ -14,6 +14,8 @@ A IDrawingTool object representing the owner of the chart anchor
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {

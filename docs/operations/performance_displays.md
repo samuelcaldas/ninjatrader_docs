@@ -12,6 +12,8 @@ The Account Performance window displays performance data in a variety of ways.
 
 Analysis Display Displays data based on various time periods for analysis.    AccountPerformance_Analysis    Analysis view displays both a grid of data in the selected period format and a graph that you choose to display based on the period data. It allows an easy way to see trends in the data set and make correlations.   Period Grid The period grid has options that let you select what data to display, note that the data in the grid drives the data shown in the selected graph type below.
 
+![Accountperformance Analysis](../images/accountperformance_analysis.png)
+
 ---
 
 ---
@@ -61,6 +63,8 @@ Trades Display The Trades display shows all historical executions in a [data gri
 
 > **Tip:** Please see the [Statistic Definition](statistics_definitions.md) section of the help guide for additional details regrading trade value calculations
 
+![Tradeperformance 3](../images/tradeperformance_3.png)
+
    Charting Trades You can go to the exact chart location of an trade by doing the following:    1.Select the trade  2.Right mouse click and select the menu item Chart.    NinjaTrader will open a temporary chart to the location of the trade.    |  | | --- | | Notes:
 - The temporary Chart is a non-configurable 1-minute interval and does not have all the standard features of a regular chart
 - Charting Executions only work if you have access to historical data for that date range via a connection or in your local database | |
@@ -74,6 +78,10 @@ Trades Display The Trades display shows all historical executions in a [data gri
 | Name / Option | Description |
 | --- | --- |
 | Journal Display The Journal tab is only visible in the Account Performance window. The Journal tab allows you to keep journal entries on your trading activities. Enter your comments in the text area and press "add". The data grid will display your journal entries by date.    |  
+
+![Accountperformance Graph](../images/accountperformance_graph.png)
+
+![Controlcenter Executions Addexecution](../images/controlcenter_executions_addexecution.png)
 
 > **Tip:** You can also add Journal entries based on a Execution or Trade via the Executions Display and Trades Display. Right click on an execution and select "Add Journal Entry".
 

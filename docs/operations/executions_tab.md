@@ -76,6 +76,8 @@ The "Account Name" -- not to be confused with the "Account Display Name." These 
 
 Right Click Menu Right mouse clicking within the executions grid opens the following menu:    ControlCenter_Executions_ContextMenu
 
+![Controlcenter Executions Contextmenu](../images/controlcenter_executions_contextmenu.png)
+
 ---
 
 ---
@@ -122,6 +124,8 @@ Forex ExecutionsForex executions hold additional data such as Rate and Account L
 
   Account Lot Size Executions track the Account Lot Size used for the account when the execution occured. This is used for accurate Pip PnL calculations as a 1 pip gain in EURUSD for a 10,000 QTY sized mini lot trader is different then a 1 pip gain in EURUSD for a 1,000 QTY sized micro lot trader. Account Lot Size is used by NinjaTrader to normalize your Pip PnL reporting so that it is accurate to your accounts base Forex lot size. The Account Lot Size is normally provided from your broker automatically, however if the broker does not send the account lot size then the connection settings for the account in NinjaTrader will have an option for you to define the property "Forex lot size". |
 
+![Controlcenter Executionsgrid](../images/controlcenter_executionsgrid.png)
+
 ## Executions tab properties
 
 ControlCenter_Executions_Properties   Executions Tab Properties
@@ -149,6 +153,8 @@ Columns
 Sets that columns are enabled or disabled in the order grid.
 
 How to set preset property defaults Once you have your properties set to your preference, you can left mouse click on the "preset" text located in the bottom right of the properties dialog. Selecting the option "save" will save these settings as the default settings used every time you open a new window/tab.    If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset text and select the option to restore to return to the original factory settings - please note though that you cannot save a custom default to restore to.
+
+![Controlcenter Executions Properties](../images/controlcenter_executions_properties.png)
 
 > **Note:** A number of pre-defined variables can be used in the "Tab Name" field. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page.
 

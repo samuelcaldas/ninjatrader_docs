@@ -18,6 +18,8 @@ PerformanceUnit.Ticks
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 //Prints unrealized PnL in ticks at the close of each bar
 Print(Position.GetUnrealizedProfitLoss(PerformanceUnit.Ticks, Close[0]));

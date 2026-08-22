@@ -30,6 +30,8 @@ An array of Position objects.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {

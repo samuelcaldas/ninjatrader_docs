@@ -13,4 +13,6 @@ The following section covers information related to accessing chart related data
 
 A chart's objects can be broken down into the four following areas:
 
+![Guichart](../images/guichart.png)
+
 ## GuiChart

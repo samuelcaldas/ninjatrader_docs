@@ -35,6 +35,8 @@ SubmitOrderUnmanaged(int selectedBarsInProgress, OrderAction orderAction, OrderT
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private Order entryOrder = null;
 protected override void OnBarUpdate()

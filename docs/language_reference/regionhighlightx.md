@@ -16,6 +16,8 @@ Represents an interface that exposes information regarding a Region Highlight X 
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a RegionHighlightX object
 RegionHighlightX myReg = Draw.RegionHighlightX(this, "tag1", 10, 0, Brushes.Blue);

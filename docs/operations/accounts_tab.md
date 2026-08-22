@@ -1,12 +1,12 @@
 # Accounts Tab
 
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
 The Accounts tab displays current account information in a [data grid](data_grids.md). The account values that are displayed is dependent on your connectivity provider. Not all connectivity providers transmit complete account data.
 
 > playVideo
 
-
 ## Understanding the accounts tab
-
 
 Understanding the Accounts Tab ControlCenter_AccountsGrid    Columns can be re-ordered and re-sized at will, and individual columns can be enabled or disabled via the Accounts grid by default:
 
@@ -103,6 +103,8 @@ Projected maintenance margin requirement as of the next period's margin change
 Name
 
 The name of the account. This can differ from the account's Display Name
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
 
 Net Liquidation by Currency
 
@@ -204,6 +206,10 @@ Configure the positions grid properties
 
 Edit Account Menu Right mouse clicking within the positions grid section then selecting Edit Account opens the following menu:    EditAccount
 
+![Controlcenter Accounts Contextmenu](../images/controlcenter_accounts_contextmenu.png)
+
+![Editaccount](../images/editaccount.png)
+
 ---
 
 ---
@@ -249,6 +255,20 @@ Sets the minimum cash value that must be available to place an order
 Notes:  The Playback101 account cannot be edited, it inherits its settings from the Sim101.  Adjusting the denomination requires a reconnect.  \*Some providers will always display the denomination in US Dollars.  Not all properties display for all accounts.
 
 Account Values Supported by Provider The account values that are displayed depend upon your connectivity provider. Some connectivity providers transmit partial account data, while others do not transmit anything. Below is a table of the various account values displayed by different connectivity providers.
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
 
 ---
 
@@ -306,6 +326,8 @@ CQG commissions)
 
 FOREX.com
 
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
 FXCM
 
 Interactive Brokers commissions)
@@ -320,15 +342,17 @@ TD Ameritrade commissions)
 
 > :  If a commissions template is applied, some values may include commissions, locally calculated.
 
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
 ## Understanding Currency Conversion
 
 ## NinjaTrader will attempt to convert currency for forex and futures trades.
 
 > :  Due to the CME FX Futures being mostly limited to US cross rates conversion will only occur to US Dollar account denomination for futures trades.
 
-
 ## Accounts tab properties
-
 
 > 
 
@@ -342,10 +366,88 @@ TD Ameritrade commissions)
 | Tab name | Sets the tab name |
 | Columns | Sets that columns are enabled or disabled in the accounts grid. |
 
+![Controlcenter Accountsgrid](../images/controlcenter_accountsgrid.png)
+
+![Playvideo](../images/playvideo.jpg)
+
 ## How to preset property defaults
 
 Once you have your properties set to your preference, you can left mouse click on the "save" will save these settings as the default settings used every time you open a new window/tab.
 
+![Controlcenter Accounts Properties](../images/controlcenter_accounts_properties.png)
+
 If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset text and select the option to restore to return to the original factory settings - please note though that you cannot save a custom default to restore to.
 
 > Using Tabs page.
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)
+
+![How Bars Are Built 1](../images/how_bars_are_built_1.png)

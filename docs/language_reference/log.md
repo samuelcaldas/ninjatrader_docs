@@ -31,6 +31,8 @@ Log(string message, LogLevel logLevel)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Generates a log message
 Log("This is a log message", LogLevel.Information);

@@ -33,6 +33,8 @@ Share(string serviceName, string message, string screenshotPath, object[] args)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // using "args" as the Mail "To" and "Subject" parameters
 Share("Gmail", "Test Message", new object[[[]{ "[email protected](mailto:platformsupport@ninjatrader.com)", "Test Subject Line" });

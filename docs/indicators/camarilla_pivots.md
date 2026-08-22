@@ -75,6 +75,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current R1 pivotvalue
 double valueR1 = CamarillaPivots(PivotRange.Daily, HLCCalculationMode.CalcFromIntradayData, 0, 0, 0, 20).R1[0];
@@ -91,6 +93,9 @@ You can view this indicator method source code by selecting the menu New > Ninja
 ```csharp
 // Evaluates that this is a valid pivot point value
 if (CamarillaPivots(PivotRange.Daily, HLCCalculationMode.DailyBars, 0, 0, 0, 20).Pp.IsValidDataPoint(0))
+
+![Ns](../images/ns.png)
+
 {
     // Prints the current pivot point value
     double valuePp = CamarillaPivots(PivotRange.Daily, HLCCalculationMode.DailyBars, 0, 0, 0, 20).Pp[0];

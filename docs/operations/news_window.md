@@ -6,6 +6,8 @@ News sent from the connectivity provider is displayed in the News window. Alerts
 | --- | --- |
 | News Window Display The News window give you the ability to:    1.Filter news based on individual instruments or instrument list  2.Setup user defined Keyword filters  3.View a list of real-time news headlines    News_1   Reading Pane  And optional Reading Pane can be enabled below the list of real-time news headlines by right clicking on the News window and selecting Show Reading Pane.       News_2   Headline Window  Double clicking on a headline will open the Headline Window which will display the content of the news article.     News_3     |  
 
+![News 2](../images/news_2.png)
+
 > **Note:** For the News window to populate information, you must be connected to a data provider that supports real-time news. See the [Data by Provider](data_by_provider.md) section for information on what providers support news.
 
  |
@@ -14,6 +16,16 @@ News sent from the connectivity provider is displayed in the News window. Alerts
 
 > Creating a Filter Condition  The News window gives you the ability to filter News Articles based off of user-defined Keywords     To enable this type of conditional filtering:     1.Select the Filter Icon Filter_Icon  from the News window  2.From the Filter window, insert the Keywords you wish to filter (multiple keywords can be separated by commas)  3.Optionally uncheck any Sources you may wish to exclude from your results  4.Press OK  News_4 Filtering on specified instrument(s)  You can also define news filters based on a specific instrument, or even a list of predefined instruments.     To enable this type of filtering, simply select the desired Instrument or Instrument List from the Instrument Selector of the News Window     News_5
 
+![News 4](../images/news_4.png)
+
+![Filter Icon](../images/filter_icon.png)
+
 ## How to create an alert on news article
 
 > An alert will visually and audibly notify you when a new article is received.     Enabling News Alert    To turn on/off the Alerts feature:     Right click on the News window and check or uncheck Alert on New Article     You can customize the sound file, priority, and colors of the Alerts which are generated from the [News Properties](news_properties.md)     Alerts will be sent to the [Alerts Log](alerts_log.md) window
+
+![News 1](../images/news_1.png)
+
+![News 3](../images/news_3.png)
+
+![News 5](../images/news_5.png)

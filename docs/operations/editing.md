@@ -8,6 +8,30 @@ Historical data saved in NinjaTrader can be edited via the Edit section of the H
 - Excluding data - Right mouse click on the desired row and select the menu item Exclude to exclude the data. Excluded data is data that is intentionally ignored and not used. NinjaTrader will remember this excluded data on a historical data reload.
 - Any changes that are made are both color coded as well as shown in the Status column. The status column will report when any data has been modified from original values.    MarketDataArchives_Status    Once the desired changes are made, press "save" in the bottom right hand corner of the Edit tab to save the changes within NinjaTrader.    Note: If more than one row contains the same Date, Time and price values, all similar rows will be edited.  Excluding Data To exclude data right click on the row of data to be excluded and select "Exclude". Note: All rows with the same date and time will be automatically excluded by NinjaTrader.    MarketDataArchives_Excluded   Using the Edit Logs 1 Once any changes are saved to the historical data by pressing "save", an Edit Logs node appears under the instrument node.  2 The Edit Logs node contains all edits made to historical data for a specific instrument. Edits can be undone by right mouse clicking on the change you wish to undue and selecting the menu item Remove Exclusion. All edits can be removed by right mouse clicking over the edit node and selecting the menu item Remove All Edits.    MarketDataArchives_EditLog
 
+![Marketdataarchives Editlog](../images/marketdataarchives_editlog.png)
+
+![Marketdataarchives Status](../images/marketdataarchives_status.png)
+
+![3](../images/3.png)
+
 ## How to delete historical data
 
 > Historical data saved in NinjaTrader can be deleted via the Loaded section of the Historical Data Window.   Deleting Historical Data It is important to understand that the historical data you wish to delete must currently be saved in NinjaTrader as provided by the data provider or collected live.    MarketDataArchives_Delete    To delete historical data saved in NinjaTrader:    1.Left mouse click on any node available in the Edit tab of the Historical Data Window to select it.  2.Right mouse click and select the menu item Delete or press the 'Delete' key on your keyboard to delete all data contained in the node.    Note: Deleted historical data will be replaced when data is reloaded from the connectivity provider. Please see the "Excluding Data" sub-section of the "How to edit historical data" section above for more information on excluding data, which will remain excluded when reloading data from the data provider.
+
+![Marketdataarchives Delete](../images/marketdataarchives_delete.png)
+
+![2](../images/2.png)
+
+![Marketdataarchives Excluded](../images/marketdataarchives_excluded.png)
+
+![Marketdataarchives Editinghistorical](../images/marketdataarchives_editinghistorical.png)
+
+![1](../images/1.png)
+
+![5](../images/5.png)
+
+![4](../images/4.png)
+
+![2](../images/2.png)
+
+![1](../images/1.png)

@@ -48,6 +48,8 @@ Draw.TimeCycles(NinjaScriptBase owner, string tag, int startBarsAgo, int endBars
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Draws a Time Cycles object based on 10 bars back to the current bar that is cornflower blue with an opacity of 40
 Draw.TimeCycles(this, "tag1", 0, 10, Brushes.CornflowerBlue, Brushes.CornflowerBlue, 40);

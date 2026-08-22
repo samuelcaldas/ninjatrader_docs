@@ -27,6 +27,8 @@ PositionAccount.GetUnrealizedProfitLoss(PerformanceUnit unit, [double price])
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

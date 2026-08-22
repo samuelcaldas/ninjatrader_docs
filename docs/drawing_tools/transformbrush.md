@@ -23,6 +23,8 @@ This method does not return a value.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale, ChartBars chartBars)
 {

@@ -35,6 +35,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current value of ParabolicSAR using default price type
 double value = ParabolicSAR(0.02, 0.2, 0.02)[0];

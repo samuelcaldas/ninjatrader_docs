@@ -104,6 +104,8 @@ The "Account Name" -- not to be confused with the "Account Display Name." These 
 
 Right Click Menu Right mouse clicking within the orders grid opens the following menu:    ControlCenter_OrderContextMenu
 
+![Controlcenter Ordercontextmenu](../images/controlcenter_ordercontextmenu.png)
+
 ---
 
 ---
@@ -155,6 +157,10 @@ Filter orders
 - Active Orders
 - Filled Orders
 - Rejected Orders | | Grid font | Sets the font for the order grid | | Tab name | Sets the tab name | | Colors |  | | Order - limit | Sets the color used for background of the State column for working limit orders | | Order - MIT | Sets the color used for background of the State column for working MIT orders | | Order - profit target | Sets the color used for background of the State column for working ATM profit target orders | | Order - stop limit | Sets the color used for background of the State column for working stop-limit orders | | Order - stop loss | Sets the color used for background of the State column for working ATM stop loss orders | | Order - stop-market | Sets the color used for background of the State column for working stop-market orders | | Columns | Sets that columns are enabled or disabled in the order grid. |  How to preset property defaults Once you have your properties set to your preference, you can left mouse click on the "preset" text located in the bottom right of the properties dialog. Selecting the option "save" will save these settings as the default settings used every time you open a new window/tab.    If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset text and select the option to restore to return to the original factory settings - please note though that you cannot save a custom default to restore to.    |  
+
+![Controlcenter Orderproperties](../images/controlcenter_orderproperties.png)
+
+![Controlcenter Ordergrid](../images/controlcenter_ordergrid.png)
 
 > **Note:** A number of pre-defined variables can be used in the "Tab Name" field. For more information, see the "Tab Name Variables" section of the [Using Tabs](../operations/using_tabs.md) page.
 

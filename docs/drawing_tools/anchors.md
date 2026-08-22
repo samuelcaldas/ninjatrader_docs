@@ -23,6 +23,8 @@ public override IEnumerable<ChartAnchor> Anchors
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 //defines the chart anchors used for the drawing tool
 public ChartAnchor

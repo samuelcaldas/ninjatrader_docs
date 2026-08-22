@@ -38,6 +38,10 @@ TriggerCustomEvent(`Action<object>` customEvent, int barsSeriesIndex, object sta
 
 ## Examples
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -91,7 +95,9 @@ protected override void OnStateChange()
         }
     }
 }
-csharp
+```
+
+```csharp
 // using the virtual on render method for demonstration
 // but concept could apply to any custom event that does not rely on bars data
 // e.g., from a custom mouse event or other 3rd party dependency

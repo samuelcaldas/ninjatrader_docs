@@ -16,6 +16,8 @@ A int value that value which the current bar the chart anchor is drawn.  This pr
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 //Places text if high is 2419 and prints what bar the text was drawn on
 if (High[0] == 2419)

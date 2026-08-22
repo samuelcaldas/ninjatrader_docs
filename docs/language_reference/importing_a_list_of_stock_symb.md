@@ -7,6 +7,24 @@
 - White space
 - Carriage return  2  3  4Select the currency the instruments are traded in  5Optionally add the instruments to an [Instrument List](../operations/instrument_lists.md) (optionally create a new one by selecting "New" in the combo box.)  6Select a [Session template](../operations/trading_hours.md) for the instruments  7Enter any user defined separator characters  8Press the OK button to import    Instruments_ImportStockList    |  
 
+![6](../images/6.png)
+
+![2](../images/2.png)
+
+![1](../images/1.png)
+
 > **Note:** Instruments with illegal characters such as a period will be converted to use an underscore instead automatically when running through the import or migration process.
+
+![Instruments Importstocklist](../images/instruments_importstocklist.png)
+
+![8](../images/8.png)
+
+![7](../images/7.png)
+
+![5](../images/5.png)
+
+![4](../images/4.png)
+
+![3](../images/3.png)
 
  |

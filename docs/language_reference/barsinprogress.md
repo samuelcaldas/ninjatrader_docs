@@ -16,6 +16,8 @@ BarsInProgress
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {

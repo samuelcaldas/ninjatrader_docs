@@ -65,6 +65,8 @@ The entry signal name. This ties the trail stop exit to the entry and exits the 
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {
@@ -74,7 +76,9 @@ protected override void OnStateChange()
         SetTrailStop(CalculationMode.Ticks, 12);
     }
 }
-csharp
+```
+
+```csharp
 Tips (also see [Overview](managed_approach.md)):
 •It is suggested to call this method from within the strategy [OnStateChange()](../language_reference/onstatechange.md) method if your trail stop price/offset is static
 •You may call this method from within the strategy [OnBarUpdate()](../language_reference/onbarupdate.md) method should you wish to dynamically change the trail stop price while in an open position

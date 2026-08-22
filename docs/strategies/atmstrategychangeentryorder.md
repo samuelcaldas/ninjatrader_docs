@@ -24,6 +24,8 @@ AtmStrategyChangeEntryOrder(double limitPrice, double stopPrice, string orderId)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

@@ -18,6 +18,8 @@ TickSize
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the ticksize to the output window
 Print("The ticksize of this instrument is " + TickSize);

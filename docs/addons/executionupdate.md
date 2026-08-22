@@ -2,6 +2,8 @@
 
 ## Definition
 
+![Ns](../images/ns.png)
+
 ExecutionUpdate is used for subscribing to execution update events.
 
 > **Note:** Remember to unsubscribe if you are no longer using the subscription.

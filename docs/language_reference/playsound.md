@@ -28,6 +28,8 @@ PlaySound(string fileName)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Plays the wav file mySound.wav
 PlaySound(@"C:\mySound.wav");

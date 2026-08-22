@@ -56,6 +56,8 @@ protected override void OnRender(DrawingContext dc, double renderWidth)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(DrawingContext dc, double renderWidth)
 {

@@ -46,6 +46,11 @@ protected override void OnStateChange()
     if (State == State.SetDefaults)
     {
         Name = "ExampleStrategy";
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
     }
     else if (State == State.Transition)
     StartTime = Core.Globals.Now;
@@ -56,7 +61,9 @@ protected override void OnBarUpdate()
     if(Position.MarketPosition != MarketPosition.Flat && Time[0] >= StartTime.AddMinutes(45))
     CloseStrategy("My Custom Close");
 }
-csharp
+```
+
+```csharp
 public override void CloseStrategy(string signalName)
 {
     Print("Executing Custom Close Logic");

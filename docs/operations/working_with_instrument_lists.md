@@ -1,3 +1,5 @@
+![Instrumentlists Window](../images/instrumentlists_window.png)
+
 # Working with Instrument Lists
 
 NinjaTrader comes predefined with a few instrument lists that are kept up to date on our server. You also can create and manage your own instrument lists via this dialog.
@@ -15,3 +17,9 @@ NinjaTrader comes predefined with a few instrument lists that are kept up to dat
 ## Adding or Removing instruments to a list
 
 > The collection of instruments that are associated to the selected instrument list are displayed in the "Instruments" section.   Adding an Instrument To add an instrument to an instrument list    InstrumentLists_Instruments    1.Start typing on the keyboard or select "add" for the overlay instrument selector to be triggered.    InstrumentLists_Overlay    2.Type in the instrument that you want to add or select the magnifying glass to search for an instrument.    The instrument is added to the instrument list and will now be available throughout the NinjaTrader application.   Removing an Instrument To remove an instrument from an instrument list:    1.Left mouse click on the instrument you wish to remove from the instrument list in the right pane of the Instrument Lists window.  2.Press remove
+
+![Instrumentlists Overlay](../images/instrumentlists_overlay.png)
+
+![Instrumentlists Lists](../images/instrumentlists_lists.png)
+
+![Instrumentlists Instruments](../images/instrumentlists_instruments.png)

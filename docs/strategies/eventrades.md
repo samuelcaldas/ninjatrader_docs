@@ -22,6 +22,8 @@ A subcollection of [Trade](trade.md) objects consisting of only the non-winning 
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

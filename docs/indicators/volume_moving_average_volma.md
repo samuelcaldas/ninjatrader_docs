@@ -28,6 +28,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Evaluates if the current volume is greater than the 20 period EMA of volume
 if (Volume[0] > VOLMA(20)[0])

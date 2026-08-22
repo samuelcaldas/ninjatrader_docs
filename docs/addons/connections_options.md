@@ -16,6 +16,9 @@ The connection's configuration options
 
 ```csharp
 // Example of accessing information on all connected connections
+
+![Ns](../images/ns.png)
+
 public class MyAddOnTab : NTTabPage
 {
     public MyAddOnTab()

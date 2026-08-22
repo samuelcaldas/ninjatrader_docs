@@ -46,7 +46,15 @@ The image below shows a working limit, stop-market, and stop-limit order for one
 
 ## Understanding how Stop Loss and Profit Target orders are displayed
 
+![Playvideo](../images/playvideo.jpg)
+
 > Stop Loss and Profit Target display Orders submitted as Stop Loss and Profit Target orders are uniquely displayed by coloring all three cells in the price row where the order(s) are working. This makes it very easy to visualize your stop and profit objectives relative to the current market. All other orders are displayed by coloring a single cell in either the BUY or SELL column.    The two below displays an image of a Stop Loss and Profit Target pair, notice that the Size Marker displays the number of contracts remaining to be filled, and that they are sell orders since they are displayed on the sell side of the Price Ladder. Also note the brown colored cell at price level 1974.25, this represents the average entry price for the open position.      SuperDOM_10
+
+![Superdom 10](../images/superdom_10.png)
+
+![Superdom 12](../images/superdom_12.png)
+
+![Superdom 9](../images/superdom_9.png)
 
 ## How to view out of range Stop Loss and Profit Target orders
 
@@ -54,6 +62,12 @@ The image below shows a working limit, stop-market, and stop-limit order for one
 | --- | --- |
 | Displaying Stop Loss and Profit Target orders outside the visible range There may be times when your Stop Loss or Profit Target orders are outside of the visible price range of the SuperDOM price ladder. You can easily bring these orders in range by first disabling Auto Center from the SuperDOM right click menu, and then clicking with your middle mouse button in the Price column.    As long as Auto Center is disabled, clicking on the bid or above with your middle mouse button will bring into visible range the first stop loss or profit target order above the highest displayed price of the price ladder. Clicking below the bid with your middle mouse button will bring into visible range the first stop loss or profit target order below the lowest displayed price of the Price Ladder.    You can then quickly navigate back to the last traded price by either re-enabling Auto Center, or pressing the C button to manually re-center the price.    |  
 
+![Superdom 11](../images/superdom_11.png)
+
 > **Note:** This function only works if "Single Click Order Modification" is set to False in the [SuperDOM Properties](properties_superdom.md) window. If set to true, middle click will instantly modify your Stop Loss or Profit Target orders.  Please see the help topic on [Modifying and Cancelling Orders](modifying_and_cancelling_orders_superdom.md) for more information on that feature
+
+![Superdom 13](../images/superdom_13.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
 
  |

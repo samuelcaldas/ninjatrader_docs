@@ -14,6 +14,8 @@ A double value that represents the Sortino ratio using a risk free return.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

@@ -25,3 +25,11 @@ ATM_19    There are 3 available steps for Auto Trail parameters. Each step can h
 ## Auto Trail Examples
 
 > Auto Trail Example #1: The settings in the image below are saying:    1."Once our trade has 4 ticks in profit..."    2."...move our Stop Loss back 6 ticks..."  3."...and also move it up for every additional 2 ticks in profit."    ATM_21    Average Entry - 1000 Long (SP Emini contract)    The market moves up to 1001 and the Auto Trail is triggered (Average Entry + Profit Trigger = 1000 + 4 ticks = 1001) and the Stop Loss is adjusted to 999.50 (1001 - Stop Loss = 1001 - 6 ticks = 999.50). For every additional 2 ticks (Frequency of 2 ticks) the Stop Loss will be adjusted by 2 ticks.   Auto Trail Example #2 building on top of Example #1: The settings in the image below are saying:  Step 1  1."Once our trade has 4 ticks in profit..."  2."...move our Stop Loss back 6 ticks..."  3."...and also move it up for every additional 2 ticks in profit."  Step 2  4."Then once our trade has 10 ticks in profit...  5."...tighten and move our Stop Loss back 3 ticks..."  6."...and increase the rate at which the Stop Loss is adjusted and move it up for every additional 1 tick in profit."    ATM_22    Average Entry - 1000 Long (SP Emini contract)    The market moves up to 1001 and the Auto Trail is triggered (Average Entry + Profit Trigger = 1000 + 4 ticks = 1001) and the Stop Loss is adjusted to 999.50 (1001 - Stop Loss = 1001 - 6 ticks = 999.50). For every additional 2 ticks (Frequency of 2 ticks) the Stop Loss will be adjusted by 2 ticks (same as Example #1). Then the market moves to 1002.50 and the 2nd step of the Auto Trail strategy is triggered and the Stop Loss is adjusted to 1001.75 and moves up by 1 tick with every additional tick in profit.
+
+![Atm 22](../images/atm_22.png)
+
+![Atm 21](../images/atm_21.png)
+
+![Atm 20](../images/atm_20.png)
+
+![Atm 19](../images/atm_19.png)

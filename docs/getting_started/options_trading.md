@@ -52,6 +52,8 @@ Enable
 
 Sets if NinjaTrader will close out any positions automatically at the specified time. For see more information, see the "Understanding the auto close position function" section below.
 
+![Options Trading](../images/options_trading.png)
+
 Instruments
 
 Sets the instruments for which NinjaTrader will attempt to close positions at the specified time. This is set for each individual order-entry window, and can be set here by selecting the Instruments field and clicking add in the window that appears.  If Auto close on all instruments is checked, this will globally work on all instruments in the platform, meaning disabling Auto close on an order entry window will have no affect since it is already globally set to close.
@@ -79,3 +81,5 @@ Sets the instruments for which NinjaTrader will attempt to close positions at th
 Time
 
 Sets the time at which NinjaTrader will attempt to automatically close positions held in the instruments set in the instruments field. Note: The time will be based upon the timezone set up in the [General](general_section.md) section of the Options window.
+
+![Options Autocloseposition1](../images/options_autocloseposition1.png)

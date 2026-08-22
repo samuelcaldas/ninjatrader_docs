@@ -1,3 +1,5 @@
+![Ns](../images/ns.png)
+
 # BarsRequiredToTrade
 
 ## Definition
@@ -24,6 +26,8 @@ BarsRequiredToTrade
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnStateChange()
 {
@@ -32,7 +36,9 @@ protected override void OnStateChange()
         BarsRequiredToTrade = 20;
     }
 }
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.SetDefaults)

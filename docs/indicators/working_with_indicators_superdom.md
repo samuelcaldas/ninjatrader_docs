@@ -4,6 +4,8 @@
 
 The SuperDOM's [Price Ladder display](../strategies/price_ladder_display.md) has the ability to add any number of price action indicators which can be used to visualize and analyze indicator values in relation to the SuperDOM display, as well as attaching working orders to the indicator price level for a hand-free trade management system.
 
+![Playvideo](../images/playvideo.jpg)
+
 ![SuperDOM_44](../images/superdom_44.png)
 
 NinjaTrader comes with over 30 pre-built indicators which can be added the SuperDOM. Indicators can be added, removed and edited via the Indicators window.
@@ -89,6 +91,8 @@ Saving an Indicator's Parameters as Default You can optionally save your customi
 
 Indicator Input Series  The indicator Input Series window allows you to select the input series for your indicator's calculations.  This allows you to configure different data types, such as the High, or Open price, or even calculate your indicators based off of multiple nested indicators.    To access this window, move your mouse over the Input Series field, which will change to an "Edit input..." button.    1.  You can then select the Close, High, Low, Median, Open, Typical, or Weighted value of any Data Series within a SuperDOM.  2.  Additionally, you can also choose another indicator as the input series.  When you select another indicator as the input series, you can define the properties used in the input series for the second indicator. Once you have selected the input series of your choice left mouse click the OK button to exit the Input Series window.    SuperDOM_39
 
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
 ## Understanding how indicators are displayed
 
 | Name / Option | Description |
@@ -96,6 +100,8 @@ Indicator Input Series  The indicator Input Series window allows you to select t
 | Indicator Display  Once an indicator has been configured and applied to the SuperDOM, the indicator plot will be displayed in the Price column above the corresponding price row. SuperDOM_45  In the image above, you can see an orange highlighted price row at 1959.75, rounded to nearest price from the calculated EMA indicator (1959.63).  Hovering your mouse cursor over the indicator plot will display a tool tip which will give you details pertaining to input settings of the indicator.    |  
 
 > **Note:** It is possible for indicators to be calculated out of range of the current Price Ladder Display.  You can right click on the SuperDOM and uncheck Auto Center which will allow you to scroll up or down on the Price Ladder Display to locate the indicator that has been added.
+
+![Superdom 38](../images/superdom_38.png)
 
  |
 
@@ -110,6 +116,16 @@ Indicator Input Series  The indicator Input Series window allows you to select t
 | --- | --- |
 | In addition to the over 30 price action indicators that come pre-built with the NinjaTrader application, you also have the ability to create custom indicators of your own.  For example, you could create your own custom multi-series indicators to apply to your NinjaTrader SuperDOMs.    |  
 
+![Superdom 45](../images/superdom_45.png)
+
+![Superdom 39](../images/superdom_39.png)
+
 > **Note:** In order for a custom indicator to show up in the list of available SuperDOM Indicators, you must set the [IsOverlay](../language_reference/isoverlay.md) property to true in the indicator's State.SetDefaults.
 
       For more information on using NinjaScript to build custom indicators please see the [NinjaScript section](../ninjascript/ninjascript.md) of the user help guide. Click [here](indicator.md) to view NinjaScript tutorials.    The option to hire a [NinjaScript Consultant](https://ninjatraderecosystem.com/search-results/?fwp_category=programming-services) to build your custom indicators is also available. |
+
+![Superdom 37](../images/superdom_37.png)
+
+![Superdom 36](../images/superdom_36.png)
+
+![Info Icon](../images/info_icon.png)

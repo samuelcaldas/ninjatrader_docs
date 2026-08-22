@@ -32,6 +32,8 @@ AddHeikenAshi(isResetOnNewTradingDay)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 OnStateChange()
 {

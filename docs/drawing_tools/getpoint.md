@@ -23,6 +23,8 @@ A [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.1
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 //gets the chart anchors data points
 Point anchorPoint = MyAnchor.GetPoint(chartControl, chartPanel, chartScale);

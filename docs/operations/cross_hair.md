@@ -23,3 +23,11 @@ The Cross Hair changes the cursor to a pair of intersecting vertical and horizon
 
 - You can optionally lock the crosshair in a specific point in time.  To lock the time (vertical) line of the Cross Hair or Global Cross Hair, while retaining the ability to move the horizontal line, you can enable the Locked property within the Crosshair section of the [Chart Properties](chart_properties.md) window, or use the default CTRL +L [Hot Key](hot_key_manager.md). When using the Global Cross Hair, locking will apply to all charts with Global Cross Hair enabled.
 - Additional options related to the Cross Hair or Global Cross Hair can be set in the [Chart Properties](chart_properties.md) window. The following properties can be set:    |  |  | | --- | --- | | Color | Sets the color for the Cross Hair lines | | Crosshair Type | Sets the type of Cross Hair to be enabled, including Local, Global, Global (No Time Scroll), and Off | | Dash Style | Sets the style to be used for the Cross Hair lines, including Solid, Dash, Dash Dot, Dash Dot Dot, and Dot | | Draw cursor only | Enables or disables drawing only a mini Cross Hair without the full lines but including the price / time axis labels. This mode can improve performance for setups operating with a lesser powerful GPU. | | Locked | Enables or disables Cross Hair locking | | Width | Sets the width of the Cross Hair lines | |
+
+![Globalcrosshair Oneminchart](../images/globalcrosshair_oneminchart.png)
+
+![Crosshair Charticon](../images/crosshair_charticon.png)
+
+![Globalcrosshair Charticon](../images/globalcrosshair_charticon.png)
+
+![Globalcrosshair Fiveminchart](../images/globalcrosshair_fiveminchart.png)

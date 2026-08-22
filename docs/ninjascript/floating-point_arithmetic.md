@@ -24,6 +24,8 @@ double y = 90.1
 
 Unfortunately, as demonstrated by this code segment, they are not.
 
+![Ns](../images/ns.png)
+
 ```csharp
 bool c = (x == y);
 Print("x equals y: " + c);
@@ -33,6 +35,8 @@ Print("x equals y: " + c);
 
 This segment outputs the following:
 
+![Ns](../images/ns.png)
+
 ```csharp
 x equals y: False
 ```
@@ -40,6 +44,8 @@ x equals y: False
  
 
 This means when we try to check for equality it would never evaluate to true even if it does mathematically.
+
+![Ns](../images/ns.png)
 
 ```csharp
 if (x == y)
@@ -73,7 +79,13 @@ You can also use a Compare() method to accurately compare floating-point numbers
 ```csharp
 double newPriceRange = Close[0] - Open[0];
 double oldPriceRange = Close[1] - Open[1];
+
+![Ns](../images/ns.png)
+
 if (Instrument.MasterInstrument.Compare(newPriceRange, oldPriceRange) == 1)
+
+![Ns](../images/ns.png)
+
 {
     // Do something
 }
@@ -81,8 +93,14 @@ if (Instrument.MasterInstrument.Compare(newPriceRange, oldPriceRange) == 1)
 
 The Compare() method returns a value of "1" if the first parameter is greater than the second, "-1" if the first parameter is less than the second, and "0" if the first parameter is equal to the second.
 
+![Ns](../images/ns.png)
+
 For a more formal analysis of floating-point arithmetic, there are many resources online:
 
 <http://docs.sun.com/source/806-3568/ncg_goldberg.md>
 
 <http://www.codeproject.com/dotnet/ExtremeFloatingPoint1.asp#terms>
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)

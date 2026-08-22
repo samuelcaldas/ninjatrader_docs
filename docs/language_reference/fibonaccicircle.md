@@ -16,6 +16,8 @@ Represents an interface that exposes information regarding a Fibonacci Circle [I
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a Fibonacci circle
 FibonacciCircle myFibCirc = Draw.FibonacciCircle(this, "tag1", true, 10, Low[10], 0, High[0]);

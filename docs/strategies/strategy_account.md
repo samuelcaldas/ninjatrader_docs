@@ -14,6 +14,8 @@ Account
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 //Displays text on chart indicating what account the strategy is applied to
 Draw.TextFixed(this, "tag1", "Strategy is applied to " + Account.Name, TextPosition.BottomRight);

@@ -55,6 +55,8 @@ The above example will print "My Algorithm" to the NinjaScript Output window, si
 
 The switch statement executes a set of logic depending on the value of a given parameter.
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Switch example
 int x = 2;
@@ -73,3 +75,9 @@ switch (x)
 ```
 
 The above example will print out "x is equal to two" to the NinjaScript Output window. The other two case statements will not be executed, since their conditions do not evaluate to true.
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)

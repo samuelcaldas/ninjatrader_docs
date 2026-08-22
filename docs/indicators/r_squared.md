@@ -33,6 +33,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current value of a 20 period R-squared using default price type
 double value = RSquared(20)[0];

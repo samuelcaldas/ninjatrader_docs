@@ -97,6 +97,10 @@ BarsPeriodType.Volumetric
 
 ## Examples
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
 ```csharp
 // Calculate only if there is a 100 tick chart or greater
 protected override void OnBarUpdate()
@@ -106,7 +110,9 @@ protected override void OnBarUpdate()
         // Indicator calculation logic here
     }
 }
-csharp
+```
+
+```csharp
 protected override void OnStateChange()
 {
     if (State == State.Configure)

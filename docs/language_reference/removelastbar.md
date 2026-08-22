@@ -20,6 +20,8 @@ RemoveLastBar(Bars bars)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 RemoveLastBar(bars);
 ```

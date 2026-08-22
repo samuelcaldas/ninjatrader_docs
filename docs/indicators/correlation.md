@@ -23,6 +23,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // The correlation data series must be added to OnStateChange() as this indicator runs off the correlation data series data
 else if (State == State.Configure)

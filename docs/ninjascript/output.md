@@ -78,6 +78,8 @@ Sets the Output window properties
 
 > Using the Find Tool If you would like to search for a specific value or text displayed in your Output window, you can use the Find tool to both highlight and navigate any terms that match your search.  To bring up the Find menu, right click on the Output window and select Find (or use CTRL + F as a keyboard shortcut).    To search for a specific term:  1.  Enter the text/value you wish to search for  2.  Specify which Output tab you would like to search  3.  Optionally check Match case to only look for terms which contain the exact text case of your term (i.e., Close would not be the same as close)  4.  Select the Find button which will navigate to and highlight the next matching term (indicated by the green arrow in the image below)  5.  The search will also highlight any other matches in the output window that match the search    Selecting the Find button again will continue to search through the Output window and will highlight the next match.    Output_4     Tip: Without the Find tool, you can also highlight terms simply by double clicking on the text in the output window.  Doing so will automatically search the highlighted term and highlight all results.
 
+![Output 4](../images/output_4.png)
+
 ## Clearing and saving output information
 
 > Clearing Output Information After some time, you may feel the need to erase all the current information in the current output tab.  To do so, simply right click on the current output tab and select "Clear".  Tip: You can also use the [ClearOutputWindow()](../language_reference/clearoutputwindow.md) method in directly your script to automatically clear the output content at a specific event or interval   Saving Output Information If you would like to save the current results of your output, you can right mouse click on the desired output tab and select "Save As". Doing so will provide you with a Save As dialog window which will allow you to save your output in a Text (.txt) file at any location on your computer.
@@ -112,9 +114,17 @@ Synchronize vertical scrolling
 
 Enables/Disables where both tabs will scroll up/down at the same time and pace
 
+![Output 1](../images/output_1.png)
+
 ## NinjaScript Utilization Monitor
 
 > The NinjaScript Utilization monitor is opened via a right click in the NinjaScript Output window and will be mainly used as a diagnostic tool for performance issues.    It will track any NinjaScript objects total resource time from the moment the window was opened:
 - NinjaScript Utilization monitor window will not be saved in any workspace file
 - NinjaScript Utilization monitor window works across all workspaces using a single window instance
 - NinjaScript Utilization monitor window will work even if hidden / non-visible    When using it as debugging aid, it's recommended to focus on the top resource using NinjaScript's, while absolute total time is negligible.    Also it's important to understand that a resource heavy NinjaScript could be meaning:    a) the NinjaScript may not be coded as efficiently as possible and would be worthwhile to review if everything has been done to achieve optimal performance  b) it could be doing intense / steady calculations by design and a higher than average resource use therefore could likely not be avoided.    It should be thought of a gauge to see where likely performance / code optimization time is likely most wisely spend if the overall performance footprint is to be reduced.    Our support team is trained with this process and is available to assist.    NinjaScriptUtilizationMonitor
+
+![Ninjascriptutilizationmonitor](../images/ninjascriptutilizationmonitor.png)
+
+![Output 3](../images/output_3.png)
+
+![Output 5](../images/output_5.png)

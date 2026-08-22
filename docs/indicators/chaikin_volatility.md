@@ -27,6 +27,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current value of the 20 period Chaikin Volatility
 double value = ChaikinVolatility(20, 20)[0];

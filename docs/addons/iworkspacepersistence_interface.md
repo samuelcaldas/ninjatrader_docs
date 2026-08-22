@@ -14,6 +14,8 @@ This interface contains two methods and one property which must be hidden by the
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public class MyWindow : NTWindow, IWorkspacePersistence
 {

@@ -67,3 +67,5 @@ Sets if the window will allow for tab support
 ## Using Tab Name Variables
 
 > Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the FX Correlation Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page.
+
+![Fxcorrelation Properties](../images/fxcorrelation_properties.png)

@@ -91,3 +91,9 @@ Sets the value of how frequent the Stop Loss order is adjusted after the Profit 
 - Plus - 2 ticks    Auto Trail
 - Profit Trigger - 4 ticks
 - Frequency - 2 ticks    Average Entry - 1000 Long (SP Emini contract)  The market moves up to 1002.50 and the Auto Breakeven Profit Trigger is activated (Average Entry + Auto Breakeven Profit Trigger = 1000 + 4 ticks = 1002.50) and the Auto Breakeven Plus adjusts the Stop Loss to 1000 (Average Entry + Auto Breakeven Plus = 1000 + 0  = 1000).  Next, the market moved up to 1003.75 and the Auto Trail Profit Trigger is activated (Average Entry + Auto Trail Profit Trigger = 1000 + 15 ticks = 1003.75) and the Stop loss is adjusted to 1002.50 (1003.75 - Stop loss = 1003.75 - 5 ticks = 1002.50). For every additional tick (Frequency of 1) the Stop loss will be adjusted by 1 tick. |
+
+![Serversideatm 8](../images/serversideatm_8.png)
+
+![Serversideatm 7](../images/serversideatm_7.png)
+
+![Serversideatm 6](../images/serversideatm_6.png)

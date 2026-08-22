@@ -43,6 +43,8 @@ Represents a number of properties available to the Chart Scale which can be conf
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

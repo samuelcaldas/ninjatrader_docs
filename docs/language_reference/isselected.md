@@ -1,3 +1,5 @@
+![Ns](../images/ns.png)
+
 # IsSelected
 
 ## Definition
@@ -15,6 +17,8 @@ This property returns true to indicate that the chart object is selected; otherw
 IsSelected
 
 ## Examples
+
+![Ns](../images/ns.png)
 
 ```csharp
 ns
@@ -37,7 +41,9 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
         }
     }
 }
-csharp
+```
+
+```csharp
 ns
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {

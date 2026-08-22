@@ -20,6 +20,20 @@ NinjaTrader allows you to save your Strategy properties as a template that can b
 | --- | --- |
 | Removing a Strategy Template To remove a saved Strategy Template:   1.  Open the Load Strategy Template dialog window (see "How to load a strategy template" in the section above)  2.  Right click on the template you wish to remove from the Load dialog menu and select the Remove menu item    Running_NS_8    |  
 
+![Running Ns 6](../images/running_ns_6.png)
+
+![Running Ns 7](../images/running_ns_7.png)
+
+![Running Ns 5](../images/running_ns_5.png)
+
+![Running Ns 4](../images/running_ns_4.png)
+
+![Running Ns 3](../images/running_ns_3.png)
+
+![Running Ns 2](../images/running_ns_2.png)
+
 > **Tip:** If you wish to rename an existing template, you can select Rename from the same menu
+
+![Running Ns 8](../images/running_ns_8.png)
 
  |

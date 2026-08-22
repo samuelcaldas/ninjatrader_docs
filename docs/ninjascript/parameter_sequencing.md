@@ -26,8 +26,13 @@ public int Fast
 { get; set; }
 [Range(1, int.MaxValue), NinjaScriptProperty]
 [Display(ResourceType = typeof(Custom.Resource), Name = "Slow", GroupName = "NinjaScriptStrategyParameters", Order = 0)]
+
+![Ns](../images/ns.png)
+
 public int Slow
 { get; set; }
 ```
 
 ... the Slow property will show first and the Fast property second.
+
+![Ns](../images/ns.png)

@@ -17,6 +17,8 @@ Represents an interface that exposes information regarding a Fibonacci Retraceme
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a FibonacciRetracements object
 FibonacciRetracements myFibRet = Draw.FibonacciRetracements(this, "tag1", true, 10, Low[10], 0, High[0]);

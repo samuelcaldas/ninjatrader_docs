@@ -8,6 +8,8 @@ The [OnBarUpdate()](../language_reference/onbarupdate.md) method is called for e
 
 Enter the code contained within the OnBarUpdate() method in the image below into the OnBarUpdate() method in the NinjaScript Editor:
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

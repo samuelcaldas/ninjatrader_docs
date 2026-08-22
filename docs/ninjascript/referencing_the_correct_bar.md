@@ -51,6 +51,10 @@ double openValue = Open[Bars.BarsSinceNewTradingDay];
 
 The example used in the discussion about CurrentBar can also be done with Bars.BarsSinceNewTradingDay if you wanted to calculate values based on the current session instead of the start of the chart too.
 
+![Ns](../images/ns.png)
+
+![Ns](../images/ns.png)
+
  
 
 > **Note:** If you wish to access values older than 256 bars ago you will need to ensure the [MaximumBarsLookBack](../language_reference/maximumbarslookback.md)is set to .Infinite.
@@ -58,6 +62,8 @@ The example used in the discussion about CurrentBar can also be done with Bars.B
 ## Other Properties and Methods
 
 There are also a number of other properties and methods that can be useful in helping you locate the correct bars index to reference. Please take a look at these in the help guide:
+
+![Ns](../images/ns.png)
 
 [BarsSinceEntryExecution()](../strategies/barssinceentryexecution.md)
 

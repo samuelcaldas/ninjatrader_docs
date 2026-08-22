@@ -29,6 +29,8 @@ this.ApproxCompare(this float float1, double float2)
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Build the High / Low difference and if 0 sets the indicator main Value series to 0
 if ((High[0] - Low[0]).ApproxCompare(0) == 0)

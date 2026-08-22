@@ -45,6 +45,8 @@ Draw.Arc(NinjaScriptBase owner, string tag, DateTime startTime, double startY, D
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Draws a dotted lime green arc
 Draw.Arc(this, "tag1", false, 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2);

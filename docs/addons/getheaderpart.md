@@ -6,6 +6,8 @@ Indicates the tab header name.
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // NTTabPage member. Required for determining the tab header name
 protected override string GetHeaderPart(string variable)

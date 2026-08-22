@@ -26,6 +26,9 @@ protected override void OnStateChange()
     if(State == State.SetDefaults)
     {
         Name = "Examples Indicator";
+
+![Ns](../images/ns.png)
+
     }
     else if (State == State.Configure)
     {

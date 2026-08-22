@@ -14,6 +14,8 @@ A double value representing highest value on the chart scale as a y value.
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

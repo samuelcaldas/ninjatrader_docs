@@ -22,3 +22,21 @@ Market Analyzer columns can have cell and filter conditions applied to them for 
 | Applying conditions to specific instruments When setting up Cell and Filter conditions, the default behavior is to apply these conditions to all instruments in the Market Analyzer.       MarketAnalyzer_27     However, you can optionally reconfigure these conditions to apply to instruments with specific names.  For example, if you had a Market Analyzer setup with several different instruments (as per the screen shot above), but only wanted your Cell conditions to work on only the Futures instruments, you can redefine your conditions to only include those instruments by:     1.Select your Configured condition  2.Press the Magnify glass icon next to the Apply to field    MarketAnalyzer_28    3.From the newly opened Instruments window, select the instruments you wish to apply the condition    |  | | --- | | Tip    Multi-select is supported in the Instrument window:
 - To select a consecutive instruments, click the first instrument, press and hold down the Shift key, and then click the last instrument.
 - To select non-consecutive instruments, press and hold down the Ctrl key, and then click each instrument that you want to select. |    4. Press OK on the Instruments window    MarketAnalyzer_29    5. Your Apply to field will now list the instrument names you selected earlier, indicating that conditions will only be triggered on instruments contained in this list.  6. Press OK Conditions window    MarketAnalyzer_30    Your Market Analyzer window will now only apply these conditions to the instruments which mach the name you configured     MarketAnalyzer_31 |
+
+![Marketanalyzer 31](../images/marketanalyzer_31.png)
+
+![Marketanalyzer 30](../images/marketanalyzer_30.png)
+
+![Marketanalyzer 29](../images/marketanalyzer_29.png)
+
+![Marketanalyzer 28](../images/marketanalyzer_28.png)
+
+![Marketanalyzer 21](../images/marketanalyzer_21.png)
+
+![Marketanalyzer 20](../images/marketanalyzer_20.png)
+
+![Marketanalyzer 19](../images/marketanalyzer_19.png)
+
+![Marketanalyzer 18](../images/marketanalyzer_18.png)
+
+![Marketanalyzer 27](../images/marketanalyzer_27.png)

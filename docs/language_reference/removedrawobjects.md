@@ -16,6 +16,8 @@ Removes all draw objects originating from the indicator or strategy from the cha
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Removes all draw objects
 RemoveDrawObjects();

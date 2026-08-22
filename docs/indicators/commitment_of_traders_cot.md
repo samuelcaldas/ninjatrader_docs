@@ -51,7 +51,9 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 // Prints the current value of COT 4th plot (default Futures Open Interest), the COT(4) would allow us to access the Cot1, Cot2, Cot3 and Cot4 plots, but not Cot5 (since not enabled)
 double value = COT(4).Cot4[0];
 Print("The current COT Futures Open Interest value is " + value.ToString());
-csharp
+```
+
+```csharp
 // Advanced example where two plots in total are enabled (COT(2)). Next, the ReportType and Field are custom set per each plot.
 else if (State == State.DataLoaded)
 {

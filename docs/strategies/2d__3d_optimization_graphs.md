@@ -26,6 +26,8 @@ Orbit
 
 Pres the Left Mouse Button to rotate / orbit the graph
 
+![Strategyanalyzer Optimizationgraph3D](../images/strategyanalyzer_optimizationgraph3d.png)
+
 Zoom
 
 Use the Scroll Wheel to zoom in / out

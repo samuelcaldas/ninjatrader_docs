@@ -37,6 +37,8 @@ ExitShortStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int quan
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private double stopPrice = 0;
 protected override void OnBarUpdate()

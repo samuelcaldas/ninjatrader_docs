@@ -8,3 +8,5 @@ The Market Watch can be setup for use with an unlimited number of instrument til
 
 > Creating an Instrument List If you have a Market Watch setup with a number of different instruments you would like to save for later, you can quickly add the entire display of instruments into an Instrument List for quick access.
 - Press down on your right mouse button in the Market Watch window and select the menu item Create Instrument List, then give the Instrument List a unique name and press OK.    You will now be able to access this list from other features of NinjaTrader using the [Instrument Selector](../addons/instrumentselector.md).  You can further edit this list by using the [Instrument Lists](instrument_lists.md) window
+
+![Marketwatch1](../images/marketwatch1.png)

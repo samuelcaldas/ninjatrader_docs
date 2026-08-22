@@ -14,6 +14,8 @@ IsAttachedToNinjaScript
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override void OnMouseMove(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {

@@ -16,6 +16,8 @@ Account.Positions
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private Account myAccount; protected override void OnStateChange(){
     if (State == State.SetDefaults)

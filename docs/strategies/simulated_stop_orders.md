@@ -38,6 +38,10 @@ Sell Stop-Market Example Order Type - Sell Stop-Market  Stop Price - 1975.00  Vo
 
    Sell Stop with Improved Limit Price Example Order Type - Sell Stop-Limit  Stop Price - 1975.25  Limit Price - 1976.25 (- 4 tick offset)  Volume Trigger - 100    5.  This example will once again trigger as the Bid price trades at our Stop Price of 1975.25 and the Bid volume is less than 100 contracts.  6.  The interesting thing about this set up is that what we are doing is triggering a limit order at a higher price in order to try and get a better fill. This order strategy is not possible with standard order types and can only be done using NinjaTrader SS technology. Once triggered, a limit order is submitted to sell at a price of 1976.25, 4 tics above our Stop Price.    SimStops_5SimStops_6    |  
 
+![Simstops 4](../images/simstops_4.png)
+
+![Sim Stops 3](../images/sim_stops_3.png)
+
 > **Note:** If this was a Buy order, the Ask volume would be monitored.
 
  |
@@ -49,3 +53,11 @@ Sell Stop-Market Example Order Type - Sell Stop-Market  Stop Price - 1975.00  Vo
 - During major economic events that can substantially affect volatility
 - Markets that consistently trade with a large spread between the ask and bid price
 - Markets that trade where the ask or bid price can consistently change by more than one tick
+
+![Sim Stops 2](../images/sim_stops_2.png)
+
+![Sim Stops 1](../images/sim_stops_1.png)
+
+![Simstops 5](../images/simstops_5.png)
+
+![Simstops 6](../images/simstops_6.png)

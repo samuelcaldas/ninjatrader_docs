@@ -23,6 +23,8 @@ DxExtensions.ToVector2(this System.Windows.Point point)
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // gets the application/user WPF point and converts to a SharpDX Vector
 System.Windows.Point wpfPoint = ChartControl.MouseDownPoint;

@@ -55,3 +55,5 @@ Set if the log feature is enabled or disabled.
 ## How to preset property defaults
 
 > Once you have your properties set to your preference, you can left mouse click on the "template" text located in the bottom right of the properties dialog. Selecting the option "save" and naming it "Default" will save these settings as the default settings used every time you open a new window/tab. Saving the template with other names will allow you to save additional configuration that you could load.    If you change your settings and later wish to go back to the original settings, you can left mouse click on the "template" text and select the option to "reset" to return to the original settings.
+
+![Strategy Analyzer Properties](../images/strategy_analyzer_properties.png)

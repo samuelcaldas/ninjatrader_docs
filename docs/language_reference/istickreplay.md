@@ -16,6 +16,8 @@ This property returns true if the bar series is using tick replay; otherwise, fa
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private double askPrice;
 protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)

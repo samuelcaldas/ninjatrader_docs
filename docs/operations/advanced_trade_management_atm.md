@@ -2,6 +2,8 @@
 
 | Name / Option | Description |
 | --- | --- |
+![Playvideo](../images/playvideo.jpg)
+
 | ATM Overview  ATM Strategies can be accessed from the  ATM Strategy Selectors located in various [Order Entry](../strategies/order_entry.md) interfaces    NinjaTrader provides you with the flexibility to trade with or without an Advanced Trade Management (ATM) Strategy. ATM Strategies are designed to provide discretionary traders with semi-automated features to manage their positions. This is NOT to be confused with NinjaScript Strategies for [automated trading](automated_trading.md) systems. | |
 | ATM Strategy  
 - [Definition and Benefits](../strategies/atm_strategy.md)  
@@ -25,6 +27,8 @@
 ## What is an ATM Strategy?
 
 Before you enter a trade you already know where you are going to place your Profit Target(s), where you will set your Stop Loss, and how many contracts you will trade. You may also have rules and conditions for managing your trade such as; once there is 1 point in profit you will move your Stop Loss to breakeven and once there is 2 points in profit you will move your Stop Loss to protect 1 point in profit. These rules and conditions make up your personal trade methodology, or as we call it, your strategy. In NinjaTrader, an ATM Strategy is a collection of orders that represent your entries, exits, stops and targets along with sub-strategies (Auto Breakeven, Auto Chase, Auto Trail etc...) that govern how these orders are managed. By pre-defining your personal trading strategy in NinjaTrader, you are free to concentrate on the trade and not on the management of orders and positions. NinjaTrader does this all for you automatically.
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
 
 ## Do I have to use an ATM Strategy?
 

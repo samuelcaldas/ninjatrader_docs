@@ -37,6 +37,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current up/down values of a 20 period Aroon indicator
 double upValue = Aroon(20).Up[0];

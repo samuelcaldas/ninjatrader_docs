@@ -4,6 +4,8 @@ Restores any elements in our NTTabPage from the workspace. (e.g. Selected accoun
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // NTTabPage member. Required for restoring elements from workspaces
 public void Restore(XElement element)

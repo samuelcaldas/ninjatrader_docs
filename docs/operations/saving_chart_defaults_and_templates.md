@@ -16,6 +16,8 @@ NinjaTrader allows you to save many of your customized chart settings as default
 
   Saving Custom Data Series Settings by Period Type To save Data Series parameters as default for a particular Period Type:    1. Set the Data Series parameters to desired values  2. Left mouse click on the preset text located in the bottom right of the properties dialog. Selecting the option save will save these settings as the default used every time you select that period type for a Data Series.    If you change your settings and later wish to go back to the original settings, you can left mouse click on the preset text and select the restore option to return to the original settings.    ChartDefaults1    1. In the image above, we have selected the Minute Period Type.    2. Notice the preset text changes to preset minute. By clicking save, data series parameters will be saved for the Minute Period Type specifically.   Saving Custom Data Series Settings by Chart Style To save Data Series parameters as default for a particular Chart Style:    1. Set the Chart Style parameters to desired values  2. Right mouse click on the Chart Style dropdown menu, then select Set Preset For "X" Chart Style, where X represents the currently selected Chart Style.    In the image below, we can set the defaults for the Candlestick Chart Style specifically.    ChartDefaults10 |
 
+![Chartdefaults10](../images/chartdefaults10.png)
+
 ## Understanding indicator default settings
 
 > Each individual indicator's parameters can be saved as default or as a custom template. Once saved as default, the customized parameters will load whenever the specified indicator is added to a chart.   What is Saved All parameter settings are saved, with the following exceptions:
@@ -44,6 +46,8 @@ NinjaTrader allows you to save many of your customized chart settings as default
 
 > Chart properties, chart panel properties, and indicator settings can be saved as a Chart Template. A Chart Template can be applied to a new chart or an open chart to load customized chart settings, provided the template and chart share the same number of Data Series objects.  Since templates are intended to be able to be applied to any data series, they do not include items that would be unique to the data series, such as drawing objects. A Trend Channel drawn on AAPL would not be relevant on a COKE chart.   Saving a Chart Template To save a Chart Template:    1.Once you have a chart set up to your liking, right mouse click within the chart and select the menu item Templates, followed by Save As  2.The Save As window will appear. Enter a name for your template and press the save button.    In the image below, we are saving a new chart template named "MyChartTemplate."    ChartDefaults5   Changing the Default Chart Template A Chart Template can be saved as the default template used for all new charts. Once saved, the default template will determine the properties of each new chart opened, unless you specify a different template.    To save a Chart Template as default:    1.Right mouse click within an open chart and select the Templates menu  2.Select the menu item Save as Default
 
+![Chartdefaults5](../images/chartdefaults5.png)
+
 ## How to load, remove, or rename a Chart Template
 
 | Name / Option | Description |
@@ -52,4 +56,12 @@ NinjaTrader allows you to save many of your customized chart settings as default
 
 > **Note:** If a Chart Template is loaded, settings from that template will take precedence over any settings manually configured on the [Data Series](working_with_price_data.md).  For example, Trading Hours currently configured will be ignored, and the chart will use the Trading Hours which were saved in the Chart Template.
 
+![Chartdefaults1](../images/chartdefaults1.png)
+
      Removing a Chart Template To remove a Chart Template from the list of saved templates:    1.Right mouse click within a chart and select the menu item Templates followed by either the Save As or Load menu items  2.The Save or Load window will appear, depending on which menu item you selected. Right mouse click the template for removal from the list of templates, then select the Remove menu item.   Renaming a Chart Template To rename an existing Chart Template from the list of saved templates:    3.Right mouse click within a chart and select the menu item Templates followed by either the Save As or Load menu items  4.The Save or Load window will appear, depending on which menu item you selected. Right mouse click the template from the list of templates, then select the Rename menu item.    In the image below, we can either remove or rename the selected Chart Template.    ChartDefaults6 |
+
+![Chartdefaults3](../images/chartdefaults3.png)
+
+![Chartdefaults4](../images/chartdefaults4.png)
+
+![Chartdefaults6](../images/chartdefaults6.png)

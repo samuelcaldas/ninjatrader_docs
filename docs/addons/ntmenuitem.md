@@ -10,6 +10,8 @@ NTMenuItem is used to create new menu entries. For example, an instance of this 
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 private NTMenuItem myNewMenuItem;
 private NTMenuItem existingControlCenterNewMenu;

@@ -24,6 +24,8 @@ This property returns true if the bar is the last processed in a session; otherw
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnBarUpdate()
 {

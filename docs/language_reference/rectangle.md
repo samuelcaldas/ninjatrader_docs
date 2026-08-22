@@ -16,6 +16,8 @@ Represents an interface that exposes information regarding a Rectangle [IDrawing
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a Rectangle object
 Rectangle myRec = Draw.Rectangle(this, "tag1", 10, Low[10] - TickSize, 5, High[5] + TickSize, Brushes.Blue);

@@ -24,6 +24,9 @@ NinjaTrader.NinjaScript.AtmStrategy.StartAtmStrategy(string atmStrategyTemplateN
 
 ```csharp
 /\* Example of starting an ATM strategy from an Add On window. The concept can be carried over
+
+![Ns](../images/ns.png)
+
 to any NinjaScript object you may be working on. \*/
 public class MyAddOnTab : NTTabPage
 {

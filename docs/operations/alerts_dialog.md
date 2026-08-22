@@ -32,3 +32,7 @@ Define alert message details generated when alert condition is triggered
 - Share
 - Pop Up Dialog
 - Submit an order |    Alerts_2 |
+
+![Alerts 2](../images/alerts_2.png)
+
+![Alerts 1](../images/alerts_1.png)

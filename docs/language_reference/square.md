@@ -14,6 +14,8 @@ Represents an interface that exposes information regarding a Square [IDrawingToo
 
 ## Example
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Instantiate a Square object
 Square mySquare = Draw.Square(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);

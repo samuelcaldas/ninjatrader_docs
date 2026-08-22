@@ -38,6 +38,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Prints the current %D value
 double value = Stochastics(7, 14, 3).D[0];

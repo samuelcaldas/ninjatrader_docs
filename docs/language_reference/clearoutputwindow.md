@@ -24,6 +24,9 @@ protected override void OnStateChange()
     if (State == State.SetDefaults)
     {
         Name = "Examples Indicator";
+
+![Ns](../images/ns.png)
+
         Description = @"An indicator used to demonstrate various NinjaScript methods and properties";
     }
     else if (State == State.Configure)

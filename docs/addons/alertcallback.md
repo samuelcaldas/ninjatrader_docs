@@ -39,6 +39,8 @@ NinjaTrader.NinjaScript.Alert.AlertCallback(Instrument instrument, object source
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 NinjaTrader.NinjaScript.Alert.AlertCallback(NinjaTrader.Cbi.Instrument.GetInstrument("MSFT"), this, "someId", NinjaTrader.Core.Globals.Now, Priority.High, "message", NinjaTrader.Core.Globals.InstallDir+@"\sounds\Alert1.wav", new SolidColorBrush(Colors.Blue), new SolidColorBrush(Colors.White), 0);
 ```

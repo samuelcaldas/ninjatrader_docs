@@ -26,6 +26,8 @@ Walk Forward optimization is the process by which you optimize strategy input pa
 
 Walk Forward Properties Apart from the walk forward optimization specific properties described below, the properties are identical to the ones found in the Optimization properties window. Please see the "Understanding optimization properties" section of the [Optimize a Strategy](optimize_a_strategy.md) page of the Help Guide for more information.    StrategyAnalyzer_Optimization_WFOParameters
 
+![Strategyanalyzer Optimization Wfoparameters](../images/strategyanalyzer_optimization_wfoparameters.png)
+
 > **Tip:** You can optionally "Optimize on" multiple objectives by using a [Multi-Objective optimization](multi-objective_optimization.md)
 
     |  |  | | --- | --- | | Keep best # results | Sets the number of best results to display | | Optimize data series | If set to true, the Data Series Value property will be available for optimization (Not supported for Kagi, PointAndFigure, and Line Break period Types) | | Optimize on... | Sets the optimization fitness to base the optimization results on | | Optimizer | Sets the optimization algorithm that is used. NinjaTrader comes with "Default" and "[Genetic](genetic_algorithm.md)" optimizer algorithms. When the "Genetic" option is selected, the genetic algorithm's optimization properties fields will appear below the Optimizer selection  You can program your own [optimization algorithm](../language_reference/optimizer.md) using NinjaScript. | | Optimization period (days) | Sets the number of days used for the "in sample" optimization data set | | Test period (days) | Sets the number of days used for the "out of sample" real backtest using the optimized input values generated from the "in sample" period | |
@@ -36,6 +38,18 @@ Walk Forward Properties Apart from the walk forward optimization specific proper
 | --- | --- |
 | Understanding Walk Forward Test Results From the Start date to the End date the walk forward optimization will do a standard optimization on the number of days set for parameter "Optimization period (days)". This is known as the "In Sample" test period. After the optimization period NinjaTrader will use the best parameter combination found and test that forward on non-optimized data that has not been seen yet for the number of days set for parameter "Test period (days)". This is known as the "Out of sample" test period. Please see the graph below for a better understanding of how the walk forward results are found. walkforward_graph  The results for each "Test period" are returned and shown in the Optimization Results Grid along with the Start date, End date, and the best combination found by the optimization period.    StrategyAnalyzer_Optimization_BestResults1      |  
 
+![Strategyanalyzer Optimization Wforun](../images/strategyanalyzer_optimization_wforun.png)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
+![Playvideo](../images/playvideo.jpg)
+
 > **Note:** NinjaTrader does save the "Keep best # results" for each Optimization period, if you want to see each individual optimization results you can right click on the walk forward result and select "View Optimization Results".
+
+![Walkforward Graph](../images/walkforward_graph.png)
+
+![Strategyanalyzer Optimization Paramters](../images/strategyanalyzer_optimization_paramters.png)
+
+![Strategyanalyzer Optimization Bestresults1](../images/strategyanalyzer_optimization_bestresults1.png)
 
  |

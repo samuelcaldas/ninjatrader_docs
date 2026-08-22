@@ -24,9 +24,13 @@ Start a Multi-Objective Optimization To run a Multi-Objective Optimization selec
 
     StrategyAnalyzer_Optimization_Paramters    Min.  - The starting value you want to test   Max.  - The last value to test   Increment - The increment value (step value) used to increment the starting value by for each subsequent optimization pass    In the image above, the input "Fast" has a starting (initial) value of 10 and an ending value of 30 with an increment of 1. This means that the first value tested will be 10, then 11, then 12 all the way through 30. The input "Slow" has a starting value of 6, ending value of 16 with an increment of 1. Based on these settings, a total of 200 (20 unique values for "Fast" multiplied by 10 unique values for "Slow") backtest iterations will be processed in order to find the optimal combination of input values based on the best optimization fitness. |
 
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
 ## Understanding Multi-Objective  properties
 
 Setting Multiple Optimization Fitness  Apart from the "Optimize on" property described below, the properties are identical to the ones found in the Optimization properties window. Please see the "Understanding optimization properties" section of the [Optimize a Strategy](optimize_a_strategy.md) page of the Help Guide for more information.    Multi-Objective Optimization is based on the best optimization fitness you select. If you set the property "Optimize on" to "Max. net profit", "Max profit factor", and "Min. draw down" the optimizer will seek the optimal input values based on those three optimization fitness objectives.  There are over 10 different optimization criterion you can select and can be customized via NinjaScript.    StrategyAnalyzer_Optimization_MultiObjectiveProperties
+
+![Strategyanalyzer Optimization Multiobjectiveproperties](../images/strategyanalyzer_optimization_multiobjectiveproperties.png)
 
 ---
 
@@ -43,3 +47,15 @@ Sets the optimization fitness to base the optimization results on, left clicking
 ## Understanding Multi-Objective results
 
 > Understanding Multi-Objective Results Multi-objective results are displayed on a graph instead of a grid. The reason we use a graph is with a multi-objective problem there is no one best solution and instead you must compare individual tradeoff between two often competing objectives. Please see the image below to the left with some sample data, each optimization has been performed and the results of each test plotted on the graph. We can narrow down our solution further by only showing results that have the best tradeoff between both objectives  known as a Pareto optimal result. In the graph to the right the line drawn connects the 5 single results that are Pareto optimal forming the Paretor frontier. Any result that falls behind the Pareto frontier is discarded leaving us with 5 best tradeoff solutions between the two objectives. pareto_frontier_graphUsing the Multi-Objective Graph There are two combo box selections to choose the optimization fitness will be graphed. You will be able to choose any optimization fitness that you have enabled in the optimize on field in the optimization strategies. See the multi-objective optimization properties section above for more information.    StrategyAnalyzer_Optimization_Multi-Objective    Left clicking on one of the dots will select that optimization run and NinjaTrader will run a backtest with these strategy parameters to retrieve the detailed trade data for further analysis.
+
+![Strategyanalyzer Optimization Multi-Objective](../images/strategyanalyzer_optimization_multi-objective.png)
+
+![Pareto Frontier Graph](../images/pareto_frontier_graph.png)
+
+![Strategyanalyzer Optimization Optimizationfitnessdialog](../images/strategyanalyzer_optimization_optimizationfitnessdialog.png)
+
+![Strategyanalyzer Optimization Moorun](../images/strategyanalyzer_optimization_moorun.png)
+
+![Strategyanalyzer Optimization Paramters](../images/strategyanalyzer_optimization_paramters.png)
+
+![Playvideo](../images/playvideo.jpg)

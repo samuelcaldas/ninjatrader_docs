@@ -14,6 +14,10 @@ Server side ATMs can be enabled/disabled under Tools> Options> Strategies> ATM S
 
 > Server Side ATM Server side ATMs function independently of one and another. There is no active ATM strategy to select to scale in/out of. Every entry you make will place it's stops and profit in relation to your entry order.  Example: If you entered long 1 contract on the ES at 3976.50 with a stop loss and profit of 10, your stop loss would be placed at 3974.00 and your profit would be placed at 3979.00. If you then scaled in 1 contract with your ATM at 3976.00 a new stop loss would be placed at 3973.50 and a new profit would be placed at 3979.00    ServerVLocalATM1    The same would be true if you were to enter long 1 contract with your ATM and then enter short 1 contract with your ATM. In this scenario you would be flat, but your stop losses and profits would still be running. You would want to click Close to exit your position and cancel the the stop loss/profit.  Example:  If you entered long 1 contract on the ES at 3976.50 with a stop loss and profit of 10, your stop loss would be placed at 3974.00 and your profit would be placed at 3979.00. If you then entered short 1 contract with your ATM a new stop loss would be entered at 3978.25 and a new profit would be placed at 3973.25, but you would be flat.      ServerVLocalATM2   Local ATM With local ATMs there is an active ATM which you can choose to scale in/out of. There is a property called ATM Strategy Selection Mod, which defaults if the active ATM should be selected or not. The Keep selected ATM strategy template on order submission selection functions similar to server side ATMs. However, the default that many people are familiar with works differently. The default is Select active ATM strategy on order submission. There is also a Display selected TM strategy only mode. For more information on all these modes, see the [ATM Strategy Selection Mode](../strategies/atm_strategy_selection_mode.md) section of the help guide. However, for this example we will focus on the default setting.  By default, after entering into a position with an ATM your active ATM will be selected. As you scale in/out, that will then add/subtract to the nearest stop loss/profit of your ATM.  Example: If you entered long 1 contract on the ES at 3976.50 with a stop loss and profit of 10, your stop loss would be placed at 3974.00 and your profit would be placed at 3979.00. If you then scaled in 1 contract with your ATM at 3976.00 your existing stop loss and target would get stacked with an additional order at the same price.    ServerVLocalATM3    The same would be true if you were to enter long 1 contract with your ATM and then enter short 1 contract with your ATM. In this scenario you would be flat, but the scaling out of the ATM would also remove the stop loss and target.    ServerVLocalATM4
 
+![Servervlocalatm2](../images/servervlocalatm2.png)
+
+![Servervlocalatm1](../images/servervlocalatm1.png)
+
 ## Selecting Rev On an ATM Position
 
 > Server Side ATM With server server side ATMs clicking Rev while in an ATM will exit your position, cancel your orders, and enter your into a position on the other side of the market without an ATM strategy.  Example: Enter long 1 contract with an ATM, press Rev. Now you are short 1 contract without a protected stop loss and profit. ServerVLocalATM5 Local ATM With local ATMs clicking Rev while in an ATM will exit your position, cancel your orders, and enter your into a position on the other side of the market with an ATM strategy.  Example: Enter long 1 contract with an ATM, press Rev. Now you are short 1 contract with a protected stop loss and profit. ServerVLocalATM6
@@ -68,9 +72,17 @@ Price
 
 The absolute price point specified.
 
+![Servervlocalatm3](../images/servervlocalatm3.png)
+
 Ticks
 
 Ticks away from entry average entry.
+
+![Servervlocalatm10](../images/servervlocalatm10.png)
+
+![Servervlocalatm8](../images/servervlocalatm8.png)
+
+![Servervlocalatm7](../images/servervlocalatm7.png)
 
 ServerVLocalATM10
 
@@ -96,6 +108,8 @@ Templates are specific to the instrument
 
 Templates can be used on any instrument
 
+![Servervlocalatm9](../images/servervlocalatm9.png)
+
 Order quantity and TIF are not part of the template
 
 Order quantity and TIF are part of the template
@@ -103,6 +117,8 @@ Order quantity and TIF are part of the template
 Can be set up to have only a stop loss or only a profit
 
 Can be set up to have just a stop loss. Cannot be set up to have just a profit.
+
+![Servervlocalatm4](../images/servervlocalatm4.png)
 
 Can't place OCO order with ATMs attached
 
@@ -131,6 +147,10 @@ Three step Auto Trail
 Can't enable/disabled stop strategy on a working ATM
 
 Can enable/disable stop strategy on a working ATM
+
+![Servervlocalatm6](../images/servervlocalatm6.png)
+
+![Servervlocalatm5](../images/servervlocalatm5.png)
 
 No configurable settings under Options> Strategies> ATM Strategies
 

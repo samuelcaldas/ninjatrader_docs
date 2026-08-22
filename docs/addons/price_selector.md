@@ -21,3 +21,13 @@ The price selector allows you type directly into the editor to specify a price, 
 Upon selecting an order type, the relevant fields specific to that type of order will be enabled to allow you to edit the order price before submitting the order.  If a field is not relevant to an order type, it will be disabled.  Note that a Stop-Limit order has both fields enabled which implies that both fields must have a value in order to place this type of order.
 
 > Limit Order - Limit Field  Shared_Trade_Controls_6  Market Order - No Fields  Shared_Trade_Controls_7  MIT Order - Stop Field  Shared_Trade_Controls_8  Stop-Limit Order - Stop and Limit Fields  Shared_Trade_Controls_9  Stop-Market Order - Stop Field  Shared_Trade_Controls_10
+
+![Shared Trade Controls 10](../images/shared_trade_controls_10.png)
+
+![Shared Trade Controls 9](../images/shared_trade_controls_9.png)
+
+![Shared Trade Controls 8](../images/shared_trade_controls_8.png)
+
+![Shared Trade Controls 7](../images/shared_trade_controls_7.png)
+
+![Shared Trade Controls 6](../images/shared_trade_controls_6.png)

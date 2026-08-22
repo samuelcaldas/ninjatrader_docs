@@ -40,6 +40,8 @@ Draw.Dot(NinjaScriptBase owner, string tag, bool isAutoScale, int barsAgo, doubl
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Paints a red dot on the current bar 1 tick below the low
 Draw.Dot(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);

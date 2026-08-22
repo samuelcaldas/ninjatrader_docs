@@ -22,6 +22,8 @@ Custom scripts which have been excluded from compilation (see the "Excluding a s
 
 NS_Editor_17  Pinning the NinjaScript Explorer 1.  By default the NinjaScript Explorer will be "pinned" to the right side of the NinjaScript editor, however it can be collapsed out of view by pressing the pin icon NS_Editor_14    NS_Editor_12    2. Once the NinjaScript Explorer is collapsed, you can quickly bring it back in view simply by selecting the NinjaTrader Explorer tab located on the right side. Selecting the pin icon NS_Editor_15 again will re-pin the NinjaScript Explorer to the NinjaScript Editor.    NS_Editor_13   Right Click Menu Right clicking on an individual folder or script will give you a number of different menu items to help with the management of your custom scripts.    NS_Editor_16
 
+![Ns Editor 14](../images/ns_editor_14.png)
+
 ---
 
 ---
@@ -41,6 +43,8 @@ Opens the selected script(s) in a new NinjaScript Editor window
 Exclude From Compilation
 
 Prevents the selected script(s) from being compiled (see the "Excluding a script from compilation" section below for more information)
+
+![Ns Editor 17](../images/ns_editor_17.png)
 
 Remove
 
@@ -66,11 +70,25 @@ Renames the current selected file or folder
 
 - To ignore a script, right click on script name and select Exclude From Compilation    When a script is ignored, it will be faded from the NinjaScript explorer to indicate that it will not be compiled.    NS_Editor_19    To include this script for the next compilation, simply right click on the script from the NinjaScript Explorer and uncheck Exclude From Compilation    |  
 
+![Ns Editor 12](../images/ns_editor_12.png)
+
 > **Note:** You cannot excluded a locked system script or folder
+
+![Ns Editor 18](../images/ns_editor_18.png)
 
     |  
 
 > **Tip:** You will also find an option to exclude scripts from compilation by right clicking on the listed of errors generated at the bottom of the NinjaScript editor
 
+![Ns Editor 16](../images/ns_editor_16.png)
+
 - Selecting Exclude From Compilation will ignore only the NinjaScript file selected
 - Selecting Exclude All From Compilation will exclude all the NinjaScript files currently with errors    NS_Editor_20 |
+
+![Ns Editor 20](../images/ns_editor_20.png)
+
+![Ns Editor 19](../images/ns_editor_19.png)
+
+![Ns Editor 15](../images/ns_editor_15.png)
+
+![Ns Editor 13](../images/ns_editor_13.png)

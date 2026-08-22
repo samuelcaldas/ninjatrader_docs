@@ -51,3 +51,5 @@ Sets if the window should allow for tabs
 ## Using Tab Name Variables
 
 > Tab Name Variables A number of pre-defined variables can be used in the "Tab Name" field of the Option Chain Properties window. For more information, see the "Tab Name Variables" section of the [Using Tabs](using_tabs.md) page.
+
+![Optionchain10](../images/optionchain10.png)

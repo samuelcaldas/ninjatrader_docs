@@ -11,6 +11,8 @@ The following section covers how to open a NinjaTrader chart.
 
 Chart Display Overview Each NinjaTrader chart is a free floating window that can be manually resized by dragging the edges of the window for arrangement within the open [Workspace](workspaces_menu.md).    Chart_ChartDisplay2    The chart image displays some of the common features you will see inside a NinjaTrader chart window:
 
+![Chart Chartdisplay2](../images/chart_chartdisplay2.png)
+
 ---
 
 ---
@@ -38,3 +40,7 @@ Scrolls the horizontal axis left and right. (See the "[Navigating a Chart](navig
 6. Chart Tabs
 
 Displays the tabs enabled in the chart window. Tabs can be switched by clicking any configured tab with the left mouse button.
+
+![Playvideo](../images/playvideo.jpg)
+
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)

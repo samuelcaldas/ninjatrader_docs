@@ -15,6 +15,8 @@ Median[int barsAgo]
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // Current bar median price
 double barMedianPrice = Median[0];

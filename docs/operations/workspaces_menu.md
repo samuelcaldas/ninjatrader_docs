@@ -47,3 +47,15 @@ The following menus and items are available via the Workspaces menu of the Ninja
 ## How to recover workspaces
 
 > Restore a Prior Version of Workspaces If you need to restore a previously saved version of a saved workpspace, you can do this within the Control Center by going to Tools and selecting Database Management. In here you will see a Restore Workspace section to complete the recovery. See the [Database Operations](database_operations.md) section.    By default 10 previously saved versions of your workspaces will be retained. To modify how many recovery versions are available within the Control Center go to Tools and select Options. Within the General section go to Preferences and set the Versions of recovery workspaces. See the Options [General](../getting_started/general_section.md) section.    If you are unable to recover a prior version, if a backup was done you can restore from a backup. See the [Backup & Restore](backup__restore.md) section.
+
+![Controlcenter Workspacesnew](../images/controlcenter_workspacesnew.png)
+
+![Controlcenter Workspacessave](../images/controlcenter_workspacessave.png)
+
+![Controlcenter Workspacessaveas](../images/controlcenter_workspacessaveas.png)
+
+![Controlcenter Workspacesopen](../images/controlcenter_workspacesopen.png)
+
+![Controlcenter Workspacesclose](../images/controlcenter_workspacesclose.png)
+
+![Controlcenter Workspacesremove](../images/controlcenter_workspacesremove.png)

@@ -6,6 +6,8 @@ The information on this page is to be used as a standard overview of the various
 
 > Creating a new NinjaScript file The NinjaScript Wizard can be opened from the NinjaScript Editor by selecting the + symbol on the tab row, and then selecting the NinjaScript object type you wish to develop.    NS_Wizard_1    You can also right click on any of the NinjaScript categories listed in the [NinjaScript Explorer](ns_explorer.md) and select "New..."    NS_Wizard_2
 
+![Ns Wizard 1](../images/ns_wizard_1.png)
+
 ## Understand the NinjaScript Wizard Display
 
 Display Overview NS_Wizard_3
@@ -21,6 +23,8 @@ Used to navigate to various pages of the wizard.  You can skip ahead or return t
 2. Wizard Screen
 
 Displays relevant information pertaining to the step of wizard you have navigated to and will provide instructions to help you define your script at various stages.
+
+![Ns Wizard 3](../images/ns_wizard_3.png)
 
 3. Wizard Controls
 
@@ -65,3 +69,5 @@ Optionally add visual plots or lines to your script for charting purposes
 Finish
 
 Last page of the Wizard, gives you a chance to go back and review each page if desired before finishing generating the script.
+
+![Ns Wizard 2](../images/ns_wizard_2.png)

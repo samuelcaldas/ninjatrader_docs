@@ -17,6 +17,8 @@ IsInStrategyAnalyzer
  
 
 ```csharp
+![Ns](../images/ns.png)
+
 protected override void OnBarUpdate()
 {
     // Only draw the ArrowUp on our condition if we're not in the Strategy Analyzer chart

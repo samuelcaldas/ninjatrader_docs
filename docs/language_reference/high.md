@@ -15,6 +15,8 @@ High[int barsAgo]
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 // OnBarUpdate method
 protected override void OnBarUpdate()

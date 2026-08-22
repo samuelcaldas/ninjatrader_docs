@@ -23,6 +23,8 @@ This method does not require any parameters
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 public override void OnRestoreValues()
 {

@@ -21,6 +21,8 @@ Represents a change in level two market data also known as market depth and is p
 
 ## Examples
 
+![Ns](../images/ns.png)
+
 ```csharp
 protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
 {

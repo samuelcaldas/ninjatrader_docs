@@ -81,6 +81,8 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 
 > **Note:** To take advantage of this feature NinjaScript indicators will need to implement the [Input](../language_reference/input.md) ISeries as their main data input.
 
+![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+
  |
 
 ## How to remove an Indicator
@@ -94,6 +96,12 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 
 > In addition to the indicators that come pre-built with the NinjaTrader application, you also have the ability to create custom indicators of your own. For example, you could create your own custom multi-series indicators using price and volume data to apply to your charts or share with fellow traders.    For more information on using NinjaScript to build custom indicators please see the [NinjaScript section](../ninjascript/ninjascript.md) of the user help guide, or click [here](indicator.md) to view NinjaScript indicator-development tutorials.
 
+![Indicators4](../images/indicators4.png)
+
+![Indicators2](../images/indicators2.png)
+
+![Playvideo](../images/playvideo.jpg)
+
 ## Working with Indicators in Market Analyzer columns
 
 > Please see the [Working With Columns](../operations/working_with_columns.md) page for information on working with indicators in Market Analyzer columns.
@@ -101,3 +109,5 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 ## Working with Indicators in the SuperDOM
 
 > Please see the SuperDOM [Working with Indicators](working_with_indicators_superdom.md) page for information on working with indicators in the SuperDOM.
+
+![Indicators1](../images/indicators1.png)

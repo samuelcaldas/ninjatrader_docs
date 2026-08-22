@@ -10,4 +10,6 @@ To trigger and update of all Split and Dividend data on all instruments on a spe
 
 1.Right click on the Instrument List you want to trigger the mass update for and select Update Splits & Dividends.
 
+![Instrumentlists Updatesplits](../images/instrumentlists_updatesplits.png)
+
 NinjaTrader will now request historical splits and dividend information from your provider and populate the information in your local database.
