@@ -1,0 +1,23 @@
+# TrendChannel
+
+## Definition
+
+Represents an interface that exposes information regarding a Trend Channel [[[IDrawingTool](idrawingtool.md).
+
+## Methods and Properties
+
+|  |  |
+| --- | --- |
+| TrendStartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| TrendEndAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| ParallelStartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the second line used in the trend channel |
+| [[[PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
+
+## Example
+
+```csharp
+// Instantiate a TrendChannel object
+TrendChannel myTC = Draw.TrendChannel(this, "tag1", true, 10, Low[10], 0, High[0], 10, High[10] + 5 \* TickSize);
+// Increase the y-axis position of the object's TrendEndAnchor
+myTC.TrendEndAnchor.Price += 15;
+```

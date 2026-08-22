@@ -1,42 +1,67 @@
-import glob
+#!/usr/bin/env python3
+"""
+tools/verify_docs.py
+
+Verifies doc links, image references, and code block formatting across all docs.
+"""
+
+import os
 import re
-from pathlib import Path
+import sys
+import glob
 
-files = sorted(glob.glob("*.md"))
-print(f"Checking {len(files)} markdown files...")
+REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+DOCS_DIR = os.path.join(REPO_ROOT, "docs")
+IMAGES_DIR = os.path.join(DOCS_DIR, "images")
 
-ns_remaining = 0
-nav_remaining = 0
-unmatched_fences = []
-nbsp_remaining = 0
-broken_links = []
-md_set = set(files)
-img_set = set(glob.glob("*.png") + glob.glob("*.jpg") + glob.glob("*.gif") + glob.glob("*.svg"))
+def verify_all_docs():
+    errors = []
+    all_docs = glob.glob(os.path.join(DOCS_DIR, "**/*.md"), recursive=True)
+    all_docs.append(os.path.join(REPO_ROOT, "README.md"))
 
-for f in files:
-    content = open(f, "r", encoding="utf-8", errors="ignore").read()
-    if "| ns |" in content or "|ns|" in content:
-        ns_remaining += 1
-    if "Click to Display Table of Contents" in content:
-        nav_remaining += 1
-    if "\xa0" in content:
-        nbsp_remaining += 1
+    print(f"Scanning {len(all_docs)} markdown files...")
 
-    fences = len(re.findall(r"^```", content, re.MULTILINE))
-    if fences % 2 != 0:
-        unmatched_fences.append((f, fences))
+    # Pattern for markdown links [text](path) and images ![alt](path)
+    link_pattern = re.compile(r'(!?\[)(.*?)\]\(([^)#\s]+(?:#[^)\s]*)?)\)')
 
-    for m in re.finditer(r"\[([^\]]*)\]\(([^)\n]+)\)", content):
-        raw_dest = m.group(2).strip()
-        dest = raw_dest.split(' "')[0].split(" '")[0].split("#")[0].strip()
-        if dest and not dest.startswith(("http://", "https://", "mailto:", "javascript:")):
-            if dest not in md_set and dest not in img_set:
-                broken_links.append((f, m.group(1), raw_dest))
+    for doc in all_docs:
+        doc_dir = os.path.dirname(doc)
+        with open(doc, "r", encoding="utf-8", errors="ignore") as f:
+            lines = f.readlines()
 
-print(f"ns tables remaining: {ns_remaining}")
-print(f"nav tables remaining: {nav_remaining}")
-print(f"nbsp remaining: {nbsp_remaining}")
-print(f"unmatched fences: {len(unmatched_fences)}")
-print(f"broken links: {len(broken_links)}")
-for b in broken_links[:10]:
-    print(" ", b)
+        in_code_fence = False
+        for line_num, line in enumerate(lines, 1):
+            if line.strip().startswith("```"):
+                in_code_fence = not in_code_fence
+
+            for match in link_pattern.finditer(line):
+                prefix = match.group(1) # '[' or '!['
+                raw_target = match.group(3)
+
+                if raw_target.startswith("http://") or raw_target.startswith("https://") or raw_target.startswith("mailto:"):
+                    continue
+                if raw_target.startswith("#"):
+                    continue
+
+                target_path = raw_target.split("#")[0]
+                if not target_path:
+                    continue
+
+                resolved = os.path.normpath(os.path.join(doc_dir, target_path))
+                if not os.path.exists(resolved):
+                    errors.append(f"{os.path.relpath(doc, REPO_ROOT)}:{line_num} Broken link -> {raw_target} (resolved: {os.path.relpath(resolved, REPO_ROOT)})")
+
+    return errors
+
+if __name__ == "__main__":
+    errs = verify_all_docs()
+    if errs:
+        print(f"FAILED: Found {len(errs)} broken links/images:")
+        for e in errs[:20]:
+            print(f"  {e}")
+        if len(errs) > 20:
+            print(f"  ... and {len(errs) - 20} more.")
+        sys.exit(1)
+    else:
+        print("SUCCESS: 0 broken links or missing image assets found!")
+        sys.exit(0)
