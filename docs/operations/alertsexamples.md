@@ -17,6 +17,10 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 
 ▶️
 
+▶️
+
+▶️
+
 ## Hot List Analyzer Net Change
 
 > Preparation
@@ -69,6 +73,10 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 > Preparation
 - Open a chart
 - Apply a custom indicator to the chart  oThis example will use a custom indicator which is not pre-loaded in NinjaTrader. You will not have access to the PriceVol indicator in your installation, but this process can be used with any custom indicator that you havee developed   Overview This alert compares the current market price and the pre-built VOL indicator to different plots of a custom indicator developed with NinjaScript. In this example, the custom indicator is named "PriceVol." This alert will trigger when the current value of the VOL indicator crosses above a historical average of volume calculated by PriceVol, if the current market price is greater than the instrument's 52-week High (also calculated by PriceVol). The image below shows the fully configured alert.    Alerts_PriceVol1   Conditions and Actions The Conditions and Actions windows for this alert can be seen below:    Alerts_PriceVol2    1. In the Conditions window, the VOL indicator is selected in the left panel    2. The Cross Above condition is selected.    3. The AvgVol plot of the PriceVol indicator is selected in the right panel. For this custom indicator, the AvgVol plot contains a 14-period average of volume    We now have a condition that translates to "When the current volume crosses above the 14-period average of volume."    Alerts_PriceVol3    1. In the Conditions window for the second condition, the primary data series applied to the chart is selected in the left panel    2. The Cross Above condition is selected, just like the first condition    3. The YearlyHigh plot of the PriceVol custom indicator is selected in the right panel. This contains the 52-week High for the instrument.    We now have a second condition that translates to "When the current market price crosses above the instrument's 52-week High."    Since this alert does not define any actions, it will simply display the specified message in the Alerts Log window.
+
+▶️
+
+▶️
 
 ![Alerts Pricevol3](../images/alerts_pricevol3.png)
 

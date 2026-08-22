@@ -70,6 +70,10 @@ With this configuration, the middle mouse button will now submit stop-market ord
 - Submit your stop order to sell below the market
 ▶️
 
+▶️
+
+▶️
+
 - CRITICAL: Right click in the SuperDOM and select the menu item OCO Order to disable OCO from being applied to subsequent orders.      SuperDOM_22    For a market fade approach just substitute limit orders for stop orders.   Using the OCO Function to Bracket an Open Position If you have an open position without an ATM strategy attached, and you wish to add limit and stop orders to protect the position follow these steps:
 - Set the ATM strategy in the ATM Strategy selection drop down box to a value of <None>
 - Right click in the SuperDOM and enable OCO order placement by selecting the menu name "OCO Order"
@@ -80,6 +84,10 @@ With this configuration, the middle mouse button will now submit stop-market ord
 ## How to submit simulated stop orders (Simulated Order)
 
 > Simulated Stop Orders To submit a Simulated Stop Order (entry and exit NOT stop loss; simulated stop loss orders are enabled via an ATM stop strategy) you must enable Simulated Order mode via the right mouse click context menu by selecting the "Simulated Order" menu item or use the shortcut key Ctrl + A. The "so" (Simulated Order indicator) will light up green. All stop orders placed while this indicator is lit will be submitted as a Simulated Stop Orders.    SuperDOM_24   SuperDOM_25    One of the powerful features of Simulated Stop Orders is that you can submit a "negative limit stop-limit" order. This means that you can place an order where the limit price is better than the stop price. As an example, you may want to buy on strength indicated by a move up to a particular price. Once that occurs, you want to enter at a better price using a limit order several ticks below (if you are buying) the stop price.    For more information please visit the [Simulated Stop Orders](simulated_stop_orders.md) section of the user Help Guide.
+
+▶️
+
+▶️
 
 ![Superdom 20](../images/superdom_20.png)
 

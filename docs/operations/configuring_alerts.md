@@ -180,6 +180,10 @@ Submit a custom order
 
 Configuring Actions To access these actions, you will need to make sure the Actions group is expanded by selecting the arrow next to this field in the Alerts properties menu as per the screen shot below:    Alerts_16    Selecting the "add" text will open the Actions window where you can define the custom actions.  You can setup as many custom actions as you would like.  This means you can have an alert do more than one custom action as you want.  For example, you can set an alert to Play a Sound and Share a message to a Sharing Service under he same condition.    Alerts_17   Working with Actions Templates After configuring Actions, you can right click within the Actions columns, select Template, and Save As to create a template. Within the right click menu is also where you would be able to load any saved templates    Alerts_18   Actions Property Definitions
 
+▶️
+
+▶️
+
 ![Alerts 17](../images/alerts_17.png)
 
 ![Alerts 9](../images/alerts_9.png)
@@ -215,6 +219,10 @@ Screenshot type
 ![Alerts 10](../images/alerts_10.png)
 
 - Window - A screen shot of the entire window that generated the alert will be sent | | Share to | Selects the [Sharing Service](../getting_started/general_section.md) that the alert message is sent to. | | Pop Up Dialog |  | |  | Note:  There is no property for this section and is intentionally left blank.  The pop up dialog will use the "Message" that is configured on the Alert Message section of the Alerts window | | Submit Order |  | | Account | Selects the account the order is submitted | | Instrument | Selects the instrument to submit the order to. Using @INSTRUMENT will submit to the primary instrument. | | Limit Price | Sets the limit price used for the order | | Order action | Selects the type of action used.  Possible order actions are:
+
+▶️
+
+▶️
 
 ![Alerts 16](../images/alerts_16.png)
 

@@ -52,6 +52,8 @@ Enable
 
 Sets if NinjaTrader will close out any positions automatically at the specified time. For see more information, see the "Understanding the auto close position function" section below.
 
+![Settings Trading](../images/settings_trading.png)
+
 ![Options Trading](../images/options_trading.png)
 
 Instruments

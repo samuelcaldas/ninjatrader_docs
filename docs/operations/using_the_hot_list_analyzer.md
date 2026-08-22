@@ -6,8 +6,16 @@
 
 ▶️
 
+▶️
+
+▶️
+
 - Interactive Brokers
 - TD AMERITRADE  What type of hot lists are there? Hot lists are not hard coded into NinjaTrader and the type of lists that are available will vary depending on your data provider and are subjected to change. NinjaTrader's Hot list selector will display all current available hot lists from your provider.  If you would like to know what types of hot lists you can get with your data provider, the best way to determine this information is to establish a connection to the data provider and browse the Hot List Selector on the title bar of the Hot List Analyzer.
+
+▶️
+
+▶️
 
 ▶️
 

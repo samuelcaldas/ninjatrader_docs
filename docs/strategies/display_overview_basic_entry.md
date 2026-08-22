@@ -56,6 +56,10 @@ Cancels the order(s)
 
 > Market Data Display The market display section of the Basic Entry window is used to display market prices and position information.  The market price displays will change colors when an uptick or a downtick has been detected.    1. Current best ask price and size  2. Current best bid price and size  3. Last traded price and size  4. Market position (FLAT or green background with position size for long, red background for short)  5. Position average entry price  6. Unrealized profit or loss for current position (Clicking on this cell with your left mouse button will change the display between points, ticks, currency, percent, and pips)    BasicEntry_1
 
+▶️
+
+▶️
+
 ![Basicentry 1](../images/basicentry_1.png)
 
 ▶️
@@ -170,5 +174,9 @@ Selects the ATM Strategy
 ![Basicentry 2](../images/basicentry_2.png)
 
 ![Basicentry 9](../images/basicentry_9.png)
+
+▶️
+
+▶️
 
 ▶️

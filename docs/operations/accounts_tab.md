@@ -106,6 +106,10 @@ The name of the account. This can differ from the account's Display Name
 
 ▶️
 
+▶️
+
+▶️
+
 Net Liquidation by Currency
 
 Same as Net Liquidation, but for individual currencies
@@ -375,6 +379,10 @@ TD Ameritrade commissions)
 Once you have your properties set to your preference, you can left mouse click on the "save" will save these settings as the default settings used every time you open a new window/tab.
 
 ![Controlcenter Accounts Properties](../images/controlcenter_accounts_properties.png)
+
+▶️
+
+▶️
 
 If you change your settings and later wish to go back to the original factory settings, you can left mouse click on the preset text and select the option to restore to return to the original factory settings - please note though that you cannot save a custom default to restore to.
 

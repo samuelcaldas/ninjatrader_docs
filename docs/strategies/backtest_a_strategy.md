@@ -14,11 +14,19 @@ A backtest allows you to analyze the historical performance of a strategy. In or
 
 ▶️
 
+▶️
+
+▶️
+
 | Name / Option | Description |
 | --- | --- |
 | Start a Backtest To run a Backtest of a strategy:    StrategyAnalyzer_StartBacktest    1.Select the Backtest type of "Backtest"  2.Select the strategy you would like to backtest  3.Set the strategy and backtest parameters (See the "Understanding backtest properties" section below for property definitions)  4.Select the instrument and Data Series you would like to backtest  5.Select the "Run" button to start the backtest    |  
 
 > **Tip:** You can optionally configure a sound to be played when the Backtest completes.  To enable this option, right click on the Strategy Analyzer > Properties > Play sound on complete > Choose the sound file you wish to play (must be a .WAV)
+
+▶️
+
+▶️
 
 ▶️
 

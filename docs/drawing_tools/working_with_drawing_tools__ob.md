@@ -86,6 +86,10 @@ Each Drawing Tool can be customized using the Drawing Objects window.   Accessin
 - Andrew's Pitchfork
 - Trend Channel   Managing Drawing Object Levels To add, remove, or edit levels, first left mouse click on a Drawing Object to select it, then either double-left mouse click the Drawing Object, or right mouse click it and select the Properties menu item to open the Drawing Objects dialogue. The Levels field will display the number of levels currently applied. Left mouse click within this field to open the Levels dialogue, in which you can manage the levels applied to that object.    DrawObjects6   Adding Drawing Object Levels In the Levels dialogue, click the add option to add a new price level. A new level will be added to the bottom of the list in the "Configured" section, and will be automatically selected for editing. You can then customize the new level's line color, dash style, width and value (in percent) the "Properties" section. You can also enable or disable visibility of the level in this section.    |  
 
+▶️
+
+▶️
+
 ![Drawobjects5](../images/drawobjects5.png)
 
 ![Drawobjects1](../images/drawobjects1.png)
@@ -97,6 +101,10 @@ Each Drawing Tool can be customized using the Drawing Objects window.   Accessin
 ![Drawobjects11](../images/drawobjects11.png)
 
    Removing Drawing Object Levels To remove a level from within the Levels dialogue, first select the level you wish to remove from the list, then select the remove option.   Editing Drawing Object Levels To edit an existing level from within the Levels dialogue, first select the level you wish to edit, then change any of the properties for that level in the Properties section. When all properties are set to your desired values, click the OK button to save the changes and close the window.    DrawObjects7    1. Add new price levels with the add option  2. Remove existing price levels with the remove option  3. Edit properties for new or existing levels in the Properties section |
+
+▶️
+
+▶️
 
 ![Drawobjects7](../images/drawobjects7.png)
 

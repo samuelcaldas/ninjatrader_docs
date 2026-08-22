@@ -38,6 +38,14 @@ Walk Forward Properties Apart from the walk forward optimization specific proper
 | --- | --- |
 | Understanding Walk Forward Test Results From the Start date to the End date the walk forward optimization will do a standard optimization on the number of days set for parameter "Optimization period (days)". This is known as the "In Sample" test period. After the optimization period NinjaTrader will use the best parameter combination found and test that forward on non-optimized data that has not been seen yet for the number of days set for parameter "Test period (days)". This is known as the "Out of sample" test period. Please see the graph below for a better understanding of how the walk forward results are found. walkforward_graph  The results for each "Test period" are returned and shown in the Optimization Results Grid along with the Start date, End date, and the best combination found by the optimization period.    StrategyAnalyzer_Optimization_BestResults1      |  
 
+▶️
+
+▶️
+
+▶️
+
+▶️
+
 ![Strategyanalyzer Optimization Wforun](../images/strategyanalyzer_optimization_wforun.png)
 
 ▶️

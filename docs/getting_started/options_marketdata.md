@@ -2,6 +2,8 @@
 
 The Market data section sets options related to market data and database management.
 
+![Settings Market Data](../images/settings_market_data.png)
+
 ![Options_Marketdata](../images/options_marketdata.png)
 
 | Name / Option | Description |

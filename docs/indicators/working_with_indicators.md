@@ -83,6 +83,10 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 
 ▶️
 
+▶️
+
+▶️
+
  |
 
 ## How to remove an Indicator
@@ -95,6 +99,10 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 ## Custom Indicator development
 
 > In addition to the indicators that come pre-built with the NinjaTrader application, you also have the ability to create custom indicators of your own. For example, you could create your own custom multi-series indicators using price and volume data to apply to your charts or share with fellow traders.    For more information on using NinjaScript to build custom indicators please see the [NinjaScript section](../ninjascript/ninjascript.md) of the user help guide, or click [here](indicator.md) to view NinjaScript indicator-development tutorials.
+
+▶️
+
+▶️
 
 ![Indicators4](../images/indicators4.png)
 

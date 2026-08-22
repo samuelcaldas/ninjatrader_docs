@@ -98,6 +98,12 @@ Closes your open position and any related ATM orders and submits a market order 
 
 > NinjaTrader allows you to create custom order actions within the Order Entry section of the Hot Key window.    HotKeys_CustomOrder    HotKeys_CustomOrderDialog   To create a Custom Order action with an associated Hot Key 1.Select the Order Entry category of the Hot Key window.  2.Left click "add".  3.Select an Action.  4.Select an Order type (Limit offset allows you to enter the number of ticks your limit order will be  submitted away from the stop order when using a StopLimit Order type).  5.Select the price the order will be submitted at. You can choose a number of ticks above (Plus) or below (Minus) the current Ask or Bid.  6.Select the hot key to use to submit the Custom Order.  7.Press the OK button.   To remove Custom Order actions Left click the Custom Order and select "remove"
 
+![Hotkeys Customquantitiesdialog](../images/hotkeys_customquantitiesdialog.png)
+
+![Hotkeys Customquantities](../images/hotkeys_customquantities.png)
+
+![Hotkeys Chartmouseorders](../images/hotkeys_chartmouseorders.png)
+
 ![Hotkeys Customorderdialog](../images/hotkeys_customorderdialog.png)
 
 ![Hotkeys Customorder](../images/hotkeys_customorder.png)

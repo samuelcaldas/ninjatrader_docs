@@ -44,3 +44,11 @@ Displays the tabs enabled in the chart window. Tabs can be switched by clicking 
 ▶️
 
 ▶️
+
+▶️
+
+▶️
+
+▶️
+
+▶️

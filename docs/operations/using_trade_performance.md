@@ -31,6 +31,10 @@ Filter Options Pressing the Filter_Icon Filter icon will expand the Performance 
 
 ▶️
 
+▶️
+
+▶️
+
 ---
 
 Notes:  Adjustments to the filters will automatically update within the Trade Performance window. The Generate button does not need to be selected.  If the From and To dates are adjusted and then Generate is pressed unchecked filter items will become rechecked since the Generate button created a new scan to see what item are applicable for the time window.
@@ -56,6 +60,10 @@ Sets the instruments name or type to be included in the performance report
 Sets the ATM strategies to be included in the performance report
 
 ![Tradeperformance 1](../images/tradeperformance_1.png)
+
+▶️
+
+▶️
 
 ▶️
 

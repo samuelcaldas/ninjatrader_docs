@@ -1,5 +1,9 @@
 ▶️
 
+▶️
+
+▶️
+
 # Stop Strategy
 
 ## ATM Stop Strategies
@@ -21,5 +25,9 @@ If <Custom> or any template is selected ("Stop 1" in the image below is a templa
 You can enter the appropriate values to enable any of the Stop Loss automation strategies. You can also save commonly used parameters as a Stop Strategy template.
 
 > **Note:** The parameter type of Currency or Price cannot be used for stop strategies. Tick will be used instead, which is indicated by the (t) next to Auto Breakeven and Auto Trail in the stop strategy parameters.
+
+▶️
+
+▶️
 
 ▶️

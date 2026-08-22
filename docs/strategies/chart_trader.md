@@ -17,3 +17,11 @@ Chart Trader can be enabled within any chart window via the [chart properties](.
 ▶️
 
 ▶️
+
+▶️
+
+▶️
+
+▶️
+
+▶️

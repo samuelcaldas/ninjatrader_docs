@@ -83,6 +83,10 @@ To the very end (current bar)
 
 Range Icon If the horizontal axis is scrolled to the left or right from its starting location, a "return" icon will appear in the top right hand corner of the chart. Left mouse click on the icon to return the horizontal axis to view the last "live" data on the chart.    Chart_RangeIcon   Vertical Scrolling (panning chart up or down) To pan the chart up or down:    CTRL + Left mouse click and hold on chart margin and drag up or down as depicted in the images below.    1. CTRL + Click and drag down will shift the chart's price scale up   Chart_DragCursorDown  2. CTRL + Click and drag up will shift the chart's price scale down   Chart_DragCursorUp   Free Mode Scrolling You can also navigate the chart by changing both the price axis and time axis at the same time by holding down the CTRL key + Left mouse clicking and dragging in the chart area.  This will allow you to move both the price and time axis in whichever direction the mouse is dragged.
 
+▶️
+
+▶️
+
 ![Chart Scaleshrink](../images/chart_scaleshrink.png)
 
 ![Chart Scalestretch](../images/chart_scalestretch.png)
@@ -148,6 +152,10 @@ Cross Hair
 CTRL + G
 
 Global Cross Hair (links crosshairs when enabled on two or more charts)
+
+▶️
+
+▶️
 
 ![Chart Cursormenu](../images/chart_cursormenu.png)
 

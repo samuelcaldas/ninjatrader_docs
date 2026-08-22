@@ -58,12 +58,20 @@ Running Efficient Optimizations Strategy optimizations are expected to consume a
 
 ▶️
 
+▶️
+
+▶️
+
 The [Genetic Algorithm](genetic_algorithm.md) can offer an alternative solution to increasing parameter increment values. Rather than running brute-force tests by iterating over all permutations, the Genetic Algorithm intentionally ignores parameter combinations which are likely to produce sub-optimal results.
 Especially on larger parameter sets with finer increment values, the upper limits of potential permutations / parameter combinations could be reached for both approaches to optimization - the error message "The strategy needs at least one parameter to optimize" would be then an indication to rework the # of parameters or increase the increment values to reach a more meaningful permutation count.
 
 ![Strategyanalyzer Optimization Bestresults](../images/strategyanalyzer_optimization_bestresults.png)
 
 Using a virtual / cloud server If you are using a virtual or cloud server as basis for your setup when running optimization testing in the Strategy Analyzer, please keep in mind that such environments can typically allocate available resources on demand. NinjaTrader will still take advantage of all available threads for it's processing, however those resources available would be determined at the start-up of the NinjaTrader platform. So if your virtual resources would have changed while you were in a working session, then please restart fresh to ensure performance will be optimal.
+
+▶️
+
+▶️
 
 ![Strategyanalyzer Optimization Aggregated](../images/strategyanalyzer_optimization_aggregated.png)
 

@@ -13,6 +13,14 @@ A chart is comprised of Panels that contain chart objects such as [Data Series](
 
 ▶️
 
+▶️
+
+▶️
+
+▶️
+
+▶️
+
 > **Tip:** In addition to changing a chart objects scale justification property via the Data Series window or Indicators window, you can drag and drop a chart object onto different scales. Please see the section "How to drag and drop chart objects" section located on the [Working with Chart Objects](working_with_chart_objects.md) topic page.
 
     Chart_Scales    The image above depicts the continuous ES futures contract justified to the Right scale and a Stochastics indicator justified to the Left scale within the same Panel.   Panel Context Menu Right mouse click within the price scale to access the panel context menu.    Chart_PanelContext    The following actions are available:    |  |  | | --- | --- | | Move Up | Moves the panel up by one | | Move Down | Moves the panel down by one | | Maximize | Maximizes the panel | | Restore | Restores the maximized window to the original size | | Arrange All | Arranges all panels to default proportions | | Remove | Deletes the panel from the chart | | Properties | Opens the panel properties window |     Maximized panel display Selecting Maximize from the panel context will change selected panel to be the only displayed panel on the chart tab. Using the left facing arrow "<" or right facing arrow ">" will navigate through each panel on the chart in a maximized display.  Selecting the "M" button will restore the panels to their original default display.    Chart_PanelMax    The image above depicts the continuous ES futures 1-minute Data Series panel which has been Maximized and displays the controls available to navigate through a maximized panel display. |

@@ -1,5 +1,9 @@
 ▶️
 
+▶️
+
+▶️
+
 # Modifying and Canceling Orders
 
 > playVideo
@@ -52,6 +56,10 @@ Notes:  1.Single Click order Modification for Stops and Targets are limited to o
 
 > Cancelling Orders  There are several options for cancelling orders within the NinjaTrader SuperDOM.   1.Pressing down on the left mouse button on the black "X" will cancel all orders consolidated at the corresponding price level.  2.Pressing down on the right mouse button with the mouse cursor hovering over the order will display all orders consolidated at that price. You can then select any individual order for cancellation.  3.Pressing on the large "X" will cancel all orders on either the "BUY" side (in this example) or the sell side.    SuperDOM_32    You can also cancel "ALL" orders by right mouse clicking inside the SuperDOM and selecting the menu item Cancel All Orders.
 
+▶️
+
+▶️
+
 ![Superdom 32](../images/superdom_32.png)
 
 ![Superdom 31](../images/superdom_31.png)
@@ -59,5 +67,9 @@ Notes:  1.Single Click order Modification for Stops and Targets are limited to o
 ▶️
 
 ![Superdom 30](../images/superdom_30.png)
+
+▶️
+
+▶️
 
 ▶️

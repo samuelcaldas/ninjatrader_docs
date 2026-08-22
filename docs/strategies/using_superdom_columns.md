@@ -52,6 +52,10 @@ Each column will have its own set of parameters specific to that column.  Please
 
 ▶️
 
+▶️
+
+▶️
+
 ## Understanding the APQ (Approximate Position in Queue) Column
 
 | Name / Option | Description |
@@ -139,6 +143,10 @@ Volume Column The Volume Column will display the number of contracts that have t
 ![Superdom 50](../images/superdom_50.png)
 
 - Left mouse click and drag to meet the width you desire    SuperDOM_56  Trade Control On Left By default, the Trade Control will be displayed on the bottom of the SuperDOM.  However you can optionally set the Trade Control to be displayed on the left of the SuperDOM Price Ladder for a more compacted view which has been optimized for using multiple columns on the SuperDOM.  To enable this display, simply right click on the SuperDOM window and select the Trade Control On Left menu item.    SuperDOM_57
+
+▶️
+
+▶️
 
 ![Superdom 57](../images/superdom_57.png)
 

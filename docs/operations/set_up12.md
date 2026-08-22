@@ -6,6 +6,10 @@ You can Playback either Market Replay data or historical tick data. For the most
 
 ▶️
 
+▶️
+
+▶️
+
 > playVideo
 
 Downloading Market Replay data for the Playback connection Market Replay data holds the exact sequence level I and Level II (market depth) data. NinjaTrader offers a limited amount of Market Replay data free to download for playback purposes. Only the most common instruments are currently available.
@@ -15,6 +19,10 @@ Downloading Market Replay data for the Playback connection Market Replay data ho
 Notes:  1.Enable market recording for playback must be disabled from the Market Data category of the Options menu before downloading replay data.  2.Downloading Market Replay data is NOT available when connected to the [Playback connection](playback_connection.md). You must disconnect from Playback connection prior to downloading.
 
 To download playback data:  1.Open the Historical Data window. This window will also appear when connecting to Playback. The Historical Data window will open when initially connection to Playback or by going to the Control Center and selecting Tools then Historical Data. Here the section "Get Market Replay data" can be expanded.  2.Select the instrument and date of the desired replay data and press the OK button to begin the download.    Playback_Download    The status of the download will appear in the lower right hand corner of the Historical Data Window.
+
+▶️
+
+▶️
 
 ▶️
 

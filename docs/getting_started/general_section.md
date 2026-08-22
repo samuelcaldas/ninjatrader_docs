@@ -86,6 +86,8 @@ All alert sounds are listed in alphabetical order by alert name. Sound files can
 
 Share Services The Share Services dialog allows you to set up your various social media accounts. NinjaTrader ships with Sharing Adapters for Email  and Text message via email, and it is possible for developers to create their own ShareService in NinjaScript to access other social media outlets.    Options_General_SharingServices    Depending on the available sharing service you are configuring changes the settings needed to complete the setup. Please see the below guides for setting up each of the sharing services pre loaded with NinjaTrader 8   Email Service Setup To setup an Email account that can be used to send messages from NinjaTrader select Email from the available section and click add. The Properties section is now available to enter the needed information to set up your Email Share Service. NinjaTrader needs valid SMTP email server that it can use to send outbound emails. Typical settings for some of the most common providers can be quickly entered by selecting your provider from the Preconfigured settings menu.    Options_SharingServicesAddEmailAdd
 
+![Settings General](../images/settings_general.png)
+
 ![Options General](../images/options_general.png)
 
 ---

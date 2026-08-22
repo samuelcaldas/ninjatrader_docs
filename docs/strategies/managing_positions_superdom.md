@@ -1,5 +1,9 @@
 ▶️
 
+▶️
+
+▶️
+
 # Managing Positions
 
 > playVideo
@@ -25,6 +29,10 @@ The SuperDOM has action buttons that allow you to quickly: close open positions,
 ## Adding or Removing Targets
 
 > How to Add or Remove Targets If you have an active ATM strategy displayed in the SuperDOM, you can add or remove targets. For example, you may have a 2 contract position with 1 Stop Loss and Profit Target for 2 contracts each. You may decide to split this target (add target) so you can exit the final contract at a higher price.    It is important to understand the following logic:
+
+▶️
+
+▶️
 
 ▶️
 

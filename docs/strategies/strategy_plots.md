@@ -14,11 +14,19 @@ Indicator
 
 ✅
 
+✅
+
+✅
+
 check
 
 error
 
 [AddLine()](../indicators/addline.md)
+
+✅
+
+✅
 
 ✅
 
@@ -30,11 +38,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [AllowRemovalOfDrawObjects](../language_reference/allowremovalofdrawobjects.md)
+
+✅
+
+✅
 
 ✅
 
@@ -46,11 +62,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [ArePlotsConfigurable](../indicators/areplotsconfigurable.md)
+
+✅
+
+✅
 
 ✅
 
@@ -68,6 +92,10 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
@@ -79,6 +107,18 @@ check
 check
 
 [BackBrushesAll](../language_reference/backbrushesall.md)
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
 
 ✅
 
@@ -102,6 +142,14 @@ check
 
 ✅
 
+✅
+
+✅
+
+✅
+
+✅
+
 check
 
 check
@@ -118,11 +166,23 @@ check
 
 ✅
 
+✅
+
+✅
+
+✅
+
+✅
+
 check
 
 check
 
 [ChartBars](../language_reference/chartbars.md)
+
+✅
+
+✅
 
 ✅
 
@@ -134,11 +194,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [ChartIndicators[](../indicators/chartindicators.md)
+
+✅
+
+✅
 
 ✅
 
@@ -150,6 +218,10 @@ error
 
 ❌
 
+❌
+
+❌
+
 error
 
 check
@@ -158,11 +230,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [DisplayInDataBox](../indicators/displayindatabox.md)
+
+✅
+
+✅
 
 ✅
 
@@ -180,6 +260,10 @@ check
 
 ❌
 
+❌
+
+❌
+
 error
 
 check
@@ -194,11 +278,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [DrawVerticalGridLines](../indicators/drawverticalgridlines.md)
+
+❌
+
+❌
 
 ❌
 
@@ -210,11 +302,19 @@ check
 
 ❌
 
+❌
+
+❌
+
 error
 
 check
 
 [FormatPriceMarker()](../language_reference/formatpricemarker.md)
+
+✅
+
+✅
 
 ✅
 
@@ -226,11 +326,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [IsAutoScale](../language_reference/isautoscale.md)
+
+✅
+
+✅
 
 ✅
 
@@ -242,6 +350,10 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
@@ -250,11 +362,19 @@ check
 
 ❌
 
+❌
+
+❌
+
 error
 
 check
 
 [IsValidDataPoint()](../language_reference/isvaliddatapoint.md)
+
+✅
+
+✅
 
 ✅
 
@@ -368,11 +488,223 @@ check
 
 ❌
 
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+❌
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+❌
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+❌
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+❌
+
 check
 
 check
 
 [MaxValue](../language_reference/maxvalue.md)
+
+✅
+
+✅
 
 ✅
 
@@ -384,11 +716,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [OnCalculateMinMax()](../language_reference/oncalculateminmax.md)
+
+✅
+
+✅
 
 ✅
 
@@ -408,11 +748,23 @@ check
 
 ✅
 
+✅
+
+✅
+
+✅
+
+✅
+
 check
 
 check
 
 [PaintPriceMarkers](../indicators/paintpricemarkers.md)
+
+❌
+
+❌
 
 ❌
 
@@ -432,11 +784,23 @@ check
 
 ✅
 
+✅
+
+✅
+
+✅
+
+✅
+
 check
 
 check
 
 [PlotBrushes[](../indicators/plotbrushes.md)
+
+✅
+
+✅
 
 ✅
 
@@ -466,11 +830,31 @@ check
 
 ✅
 
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
 check
 
 check
 
 [RenderTarget](../language_reference/rendertarget.md)
+
+✅
+
+✅
 
 ✅
 
@@ -482,11 +866,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [SetZOrder()](setzorder.md)
+
+✅
+
+✅
 
 ✅
 
@@ -500,6 +892,14 @@ check
 
 ✅
 
+✅
+
+✅
+
+✅
+
+✅
+
 check
 
 check
@@ -508,11 +908,19 @@ check
 
 ✅
 
+✅
+
+✅
+
 check
 
 check
 
 [ZOrder](chart_zorder.md)
+
+✅
+
+✅
 
 ✅
 

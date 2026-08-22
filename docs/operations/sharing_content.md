@@ -22,6 +22,10 @@ Once you have completed setup of the sharing service. You can now use this shari
 
 ▶️
 
+▶️
+
+▶️
+
 ## Sharing from a NinjaTrader Window
 
 ![Sharing_ContextMenu](../images/sharing_contextmenu.png)
@@ -36,6 +40,10 @@ Right clicking on a NinjaTrader window that has sharing enabled you will see the
 | Window... | Opens the share window with a screenshot of the window attached to the message. |
 
 Once you make a selection the Share dialog will be launched where you can customize the message and select what service you would like to share too.
+
+▶️
+
+▶️
 
 ▶️
 

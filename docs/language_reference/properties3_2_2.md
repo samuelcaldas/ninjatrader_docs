@@ -4,6 +4,10 @@ The SuperDOM provides the ability to attach an order to an indicator value, auto
 
 ▶️
 
+▶️
+
+▶️
+
 > playVideo
 
 ## How to attach an order to an indicator
@@ -13,6 +17,10 @@ The SuperDOM provides the ability to attach an order to an indicator value, auto
 ## Attach to Indicator properties
 
 Attach to Indicator Properties The Attach to Indicator Properties window can be accessed in one of two ways. Using the process outlined above to attach an order to an indicator will bring up this window automatically, allowing you to set parameters for the indicator tracking before attaching an order. Alternatively, you can use the process outlined below:  1.Right mouse click the label connected to the order line for an order on the chart  2.Hover your cursor over the order listed in the right click menu that appears  3.Select the Attach to Indicator menu item  4.Select the Properties menu item    The Attach to Indicator Properties window allows you to set the following properties:    ChartTrader19
+
+▶️
+
+▶️
 
 ![Charttrader19](../images/charttrader19.png)
 

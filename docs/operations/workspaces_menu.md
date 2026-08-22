@@ -54,6 +54,8 @@ The following menus and items are available via the Workspaces menu of the Ninja
 
 ![Controlcenter Workspacessaveas](../images/controlcenter_workspacessaveas.png)
 
+![Controlcenter Workspacesimportexport](../images/controlcenter_workspacesimportexport.png)
+
 ![Controlcenter Workspacesopen](../images/controlcenter_workspacesopen.png)
 
 ![Controlcenter Workspacesclose](../images/controlcenter_workspacesclose.png)

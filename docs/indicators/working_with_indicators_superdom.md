@@ -6,6 +6,10 @@ The SuperDOM's [Price Ladder display](../strategies/price_ladder_display.md) has
 
 ▶️
 
+▶️
+
+▶️
+
 ![SuperDOM_44](../images/superdom_44.png)
 
 NinjaTrader comes with over 30 pre-built indicators which can be added the SuperDOM. Indicators can be added, removed and edited via the Indicators window.
@@ -90,6 +94,10 @@ Allows you to customize the appearance of the indicator by changing the Color or
 Saving an Indicator's Parameters as Default You can optionally save your customized indicator's parameters as a default preset. Doing so will recall your customized settings the next time you add this specific indicator to a SuperDOM.    Once you have your indictor's properties set to your preference, you can left mouse click on the "preset" text located in the bottom right of the properties dialog. Selecting the option "save" will save these settings as the default settings used every time you open a new window/tab.    If you change your settings and later wish to go back to the original settings, you can left mouse click on the "preset" text and select the option to "restore" to return to the original settings.
 
 Indicator Input Series  The indicator Input Series window allows you to select the input series for your indicator's calculations.  This allows you to configure different data types, such as the High, or Open price, or even calculate your indicators based off of multiple nested indicators.    To access this window, move your mouse over the Input Series field, which will change to an "Edit input..." button.    1.  You can then select the Close, High, Low, Median, Open, Typical, or Weighted value of any Data Series within a SuperDOM.  2.  Additionally, you can also choose another indicator as the input series.  When you select another indicator as the input series, you can define the properties used in the input series for the second indicator. Once you have selected the input series of your choice left mouse click the OK button to exit the Input Series window.    SuperDOM_39
+
+▶️
+
+▶️
 
 ▶️
 

@@ -6,9 +6,17 @@
 
 ▶️
 
+▶️
+
+▶️
+
 - [Linking Windows](linking_windows.md)  
 - [Using the overlay instrument selector](instrument_overlay_selector.md)  
 - [Using Tabs](using_tabs.md) |
+
+▶️
+
+▶️
 
 ▶️
 

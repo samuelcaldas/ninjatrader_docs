@@ -56,3 +56,6 @@ Handling
 
 ![Options Strategies1](../images/options_strategies1.png)
 
+![Settings Strategies1](../images/settings_strategies1.png)
+
+![Settings Strategies2](../images/settings_strategies2.png)

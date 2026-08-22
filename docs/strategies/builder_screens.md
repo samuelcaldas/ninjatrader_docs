@@ -181,6 +181,14 @@ Type
 
 > Finish screen Layout Once you reach this screen you are finished with developing your strategy. Press the Finish button to compile your strategy which will then be ready for [backtesting](backtest_a_strategy.md) or [live execution](../ninjascript/running_ninjascript_strategies.md).    Strategy_Builder_13
 
+▶️
+
+▶️
+
+▶️
+
+▶️
+
 ![Strategy Builder 13](../images/strategy_builder_13.png)
 
 ![Strategy Builder 1](../images/strategy_builder_1.png)

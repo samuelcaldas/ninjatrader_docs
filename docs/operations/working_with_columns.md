@@ -27,6 +27,10 @@ The Market Analyzer allows you to add a variety of columns ranging from indicato
 
 > See the [Dynamic Ranking and Sorting](dynamic_ranking_and_sorting.md) section of the user help guide for information on sorting and raking your Market Analyzer columns.
 
+▶️
+
+▶️
+
 ![Marketanalyzer 25](../images/marketanalyzer_25.png)
 
 ![Marketanalyzer 24](../images/marketanalyzer_24.png)
@@ -40,3 +44,7 @@ The Market Analyzer allows you to add a variety of columns ranging from indicato
 ▶️
 
 ![Marketanalyzer 26](../images/marketanalyzer_26.png)
+
+▶️
+
+▶️

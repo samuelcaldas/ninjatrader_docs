@@ -4,6 +4,10 @@ Trade Controls are located in various Order Entry windows available throughout t
 
 ▶️
 
+▶️
+
+▶️
+
 > playVideo
 
 |  |
@@ -14,5 +18,9 @@ Trade Controls are located in various Order Entry windows available throughout t
 -  [Price Selector](price_selector.md)  
 -  [Quantity Selector](quantity_selector.md)  
 -  [TIF Selector](tif_selector.md) |
+
+▶️
+
+▶️
 
 ▶️

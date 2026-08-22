@@ -4,6 +4,10 @@
 
 ▶️
 
+▶️
+
+▶️
+
 To open the FX Board window, select the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item FX Board.
 
 The FX Board is divided into two sections:
@@ -17,6 +21,10 @@ The FX Board is divided into two sections:
 Please see the sections below for more information on: Market Display and Order Grid
 
  
+
+▶️
+
+▶️
 
 ▶️
 

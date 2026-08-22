@@ -477,6 +477,8 @@ Color for profile summary
 
 Sets the text color used when 'Show profile summary' is enabled.
 
+![Vp24](../images/vp24.png)
+
 ![Vp23](../images/vp23.png)
 
 ![Vp17](../images/vp17.png)

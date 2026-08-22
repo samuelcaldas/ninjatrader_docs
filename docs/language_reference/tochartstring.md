@@ -1,32 +1,47 @@
 # ToChartString()
 
+﻿
+
+    NinjaScript > Language Reference > Common > Charts > ChartBars > ToChartString()
+
+ToChartString()
+
 ## Definition
 
-Returns the bars series as a formatted string, including the [Instrument.FullName](instrument_fullname.md), [BarsPeriod](barsperiod.md) Value, and BarsPeriodType name.
+Returns a formatted string representing the [ChartBars.Properties.Label](chartbars_properties.md) property, [BarsPeriod](barsperiod.md) Value, and BarsPeriodType name.
 
- 
+ 
 
-> **Note:** To obtain a return value which matches the user configured [ChartBars Label property](chartbars_properties.md), please see the [ChartBars.ToChartString()](chartbars_tochartstring.md).md) method
+[](../operations/working_with_price_data.md)[](tochartstring.md)
+
+> **Note:** The property returned is dependent on a user configured Data Series property, and results may return differently than expected.  See also Bars.ToChartString() for a return value which is not subject to user-defined variables.
+
+ 
+
+ 
 
 ## Syntax
 
-Bars.ToChartString()
+ChartBars.ToChartString()
+
+ 
 
 ## Return Value
 
-A string value that represents the bars series
+A string value that represents the ChartBars label and configured bars period
+
+ 
 
 ## Parameters
 
 This method does not accept any parameters
 
+##  
+
 ## Examples
 
-```csharp
-protected override void OnBarUpdate()
-{
-    // print the chart string on start up
-    if(CurrentBar == 0)
-    Print(Bars.ToChartString()); // ES 09-15 (60 Minute)
-}
-```
+##
+
+|  |
+| --- |
+| protected override void OnRender(ChartControl chartControl, ChartScale chartScale)<br>{<br>   if (ChartBars != null)<br>      Print(ChartBars.ToChartString()); // My Favorite Instrument (1 Minute)<br>} |

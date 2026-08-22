@@ -6,6 +6,10 @@ Market Analyzer Display Overview Each NinjaTrader Market Analyzer is a free floa
 
 ▶️
 
+▶️
+
+▶️
+
 ---
 
 ---
@@ -119,5 +123,9 @@ Properties
 Set the Market Analyzer properties
 
 ![Marketanalyzer 6](../images/marketanalyzer_6.png)
+
+▶️
+
+▶️
 
 ▶️

@@ -1,34 +1,52 @@
 # RearmAlert()
 
+﻿
+
+    NinjaScript > Language Reference > Add On > Alert and Debug Concepts > RearmAlert()
+
+RearmAlert()
+
 ## Definition
 
-Rearms an alert created via the [Alert()](alert.md) method.
+Rearms an existing alert event by the string "id" parameter created via the [AlertCallback()](../addons/alertcallback.md) method.  A NinjaScript generated alert by may need to be rearmed after the alert is triggered depending on the Alert()'s rearmSeconds parameter.
 
- 
+ 
 
-> **Note:** A NinjaScript generated alert by may need to be rearmed after the alert is triggered depending on the Alert() methods rearmSeconds parameter.
+[](rearmalert.md)
+
+> **Note:** The NinjaScriptBase has a non-static method implemented with the same name.  Please see the RearmAlert() method for Indicator or Strategies.
+
+ 
+
+ 
 
 ## Method Return Value
 
 This method does not return a value.
 
+ 
+
 ## Syntax
 
-RearmAlert(string id)
+NinjaTrader.NinjaScript.Alert.RearmAlert(string id)
 
-## Parameters
+ 
 
-| Name / Option | Description |
+##  
+
+Parameters
+
+| id | A unique string id representing an alert id to reset |
 | --- | --- |
-| id | A unique string id representing an alert id to rearm |
+
+##  
+
+ 
 
 ## Examples
 
-```csharp
-protected override void OnBarUpdate()
-{
-    //rearms "myAlert" on each new trading session
-    if(Bars.IsFirstBarOfSession)
-    RearmAlert("myAlert");
-}
-```
+##
+
+|  |
+| --- |
+| if (resetCondition) <br>{<br>    NinjaTrader.NinjaScript.Alert.ResetAlertRearmById("someId");<br>    resetCondition = false;<br>} |
