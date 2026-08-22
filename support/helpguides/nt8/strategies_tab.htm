@@ -205,9 +205,45 @@
 <p class="p_Normal">&nbsp;</p>
 <div style="text-align: left; text-indent: 0; line-height: 1.38; padding: 0 0 0 0; margin: 0 0 0 0;"><table style="width:80%; background-color:#ffffff; border:none; border-spacing:0; border-collapse:collapse;">
 <tr>
-<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy</p>
+<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Account Display Name</p>
 </td>
-<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The name of the strategy</p>
+<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Display Name of the account on which the strategy is enabled</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Account Name</p>
+</td>
+<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The name of the account. This can differ from the account's Display Name</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Acct. Position</p>
+</td>
+<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Account Position (includes positions not entered by the strategy)</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Avg. Price</p>
+</td>
+<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Average price of positions entered by the strategy</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Connection</p>
+</td>
+<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The connection on which the strategy is running. This column will be blank for disabled strategies</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Data Series</p>
+</td>
+<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The interval type and value associated with the strategy's instrument</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enabled</p>
+</td>
+<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A checkbox indicating whether the strategy is enabled. This box can be checked or unchecked to enable or disable a strategy.</p>
 </td>
 </tr>
 <tr>
@@ -217,9 +253,9 @@
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Data Series</p>
+<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Number of trades</p>
 </td>
-<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The interval type and value associated with the strategy's instrument</p>
+<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Shwos how many trades the strategy has placed</p>
 </td>
 </tr>
 <tr>
@@ -235,9 +271,9 @@
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Acct. Position</p>
+<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Realized</p>
 </td>
-<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Account Position (includes positions not entered by the strategy)</p>
+<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Any realized profit or loss of positions entered by the strategy</p>
 </td>
 </tr>
 <tr>
@@ -251,9 +287,9 @@
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Avg. Price</p>
+<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Strategy</p>
 </td>
-<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Average price of positions entered by the strategy</p>
+<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The name of the strategy</p>
 </td>
 </tr>
 <tr>
@@ -263,27 +299,9 @@
 </td>
 </tr>
 <tr>
-<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Realized</p>
+<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Workspace</p>
 </td>
-<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Any realized profit or loss of positions entered by the strategy</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Account Display Name</p>
-</td>
-<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The Display Name of the account on which the strategy is enabled</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:164px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Connection</p>
-</td>
-<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">The connection on which the strategy is running. This column will be blank for disabled strategies</p>
-</td>
-</tr>
-<tr>
-<td style="vertical-align:top; width:164px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Enabled</p>
-</td>
-<td style="vertical-align:top; width:961px; background-color:#F9F9F9; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">A checkbox indicating whether the strategy is enabled. This box can be checked or unchecked to enable or disable a strategy.</p>
+<td style="vertical-align:top; width:961px; padding:10px; border:solid thin #dddddd;"><p class="p_Normal">Shows the name of the Workspace the strategy is attached to</p>
 </td>
 </tr>
 </table>
