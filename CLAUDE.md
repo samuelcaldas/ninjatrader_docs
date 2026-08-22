@@ -71,6 +71,26 @@ ninjatrader_docs/
 
 ### 2. Maintenance & Formatting Automation
 
+- **Run Full Automated Crawl, Sync, Conversion & Verification Pipeline**:
+  ```bash
+  python3 tools/sync_and_convert_docs.py
+  ```
+
+- **Scrape Latest Official Online Documentation**:
+  ```bash
+  python3 tools/scrape_nt8_docs.py
+  ```
+
+- **Restore Missing Media & Diagrams from `origin/HTML`**:
+  ```bash
+  python3 tools/restore_missing_media.py
+  ```
+
+- **Replace Repetitive Decorative Icons with Unicode/Markdown**:
+  ```bash
+  python3 tools/replace_icon_images.py
+  ```
+
 - **Clean & Standardize Tables, Code Blocks, and Toggles**:
   ```bash
   python3 tools/clean_tables.py
