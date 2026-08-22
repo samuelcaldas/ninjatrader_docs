@@ -21,6 +21,7 @@ class TestRepositoryValidation(unittest.TestCase):
         """Root directory should only contain standard top-level project directories and files."""
         allowed_root_files = {
             ".git",
+            ".github",
             ".gitignore",
             ".claude",
             ".wiki_dist",

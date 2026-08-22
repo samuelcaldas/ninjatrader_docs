@@ -1,0 +1,111 @@
+name: Validate and Deploy GitHub Wiki
+
+on:
+  push:
+    branches:
+      - markdown
+      - master
+      - main
+    paths:
+      - "docs/**"
+      - "README.md"
+      - "tools/**"
+      - "tests/**"
+      - ".github/workflows/deploy-wiki.yml"
+  pull_request:
+    branches:
+      - markdown
+      - master
+      - main
+    paths:
+      - "docs/**"
+      - "README.md"
+      - "tools/**"
+      - "tests/**"
+  workflow_dispatch:
+    inputs:
+      force_deploy:
+        description: "Force deploy even if no changes detected"
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: github-wiki-deployment
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    name: Validate Documentation & Links
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Verify Documentation Links and Assets
+        run: python3 tools/verify_docs.py
+
+      - name: Run Test Suite
+        run: python3 -m unittest discover -s tests
+
+  deploy-wiki:
+    name: Deploy to GitHub Wiki
+    needs: validate
+    if: (github.event_name == 'push' && (github.ref == 'refs/heads/markdown' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')) || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Stage Wiki Distribution
+        run: python3 tools/deploy_wiki.py --stage-only
+
+      - name: Clone and Synchronize Wiki
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_SLUG: ${{ github.repository }}
+        run: |
+          WIKI_REMOTE="https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO_SLUG}.wiki.git"
+
+          # Clone existing wiki or initialize if clone fails (e.g. empty/new wiki)
+          if git clone "$WIKI_REMOTE" wiki_repo; then
+            cd wiki_repo
+            rsync -av --delete --exclude='.git' ../.wiki_dist/ ./
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+
+            if git diff --cached --quiet; then
+              echo "Wiki is already up to date. No changes to deploy."
+              exit 0
+            fi
+
+            git commit -m "Deploy NT8 Wiki update from commit ${GITHUB_SHA::8} [skip ci]"
+            git push origin HEAD
+          else
+            echo "Wiki repository not initialized or inaccessible via standard clone. Using direct push..."
+            cd .wiki_dist
+            git init
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            git commit -m "Initialize/Deploy NT8 Wiki from commit ${GITHUB_SHA::8} [skip ci]"
+            git push --force "$WIKI_REMOTE" master || echo "Push completed or wiki initialization required in Web UI."
+          fi
