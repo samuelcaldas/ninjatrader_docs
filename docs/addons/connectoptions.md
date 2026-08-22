@@ -2,11 +2,11 @@
 
 ## Definition
 
-ConnectOptions is an abstract class used to configure options for a specific configured [[[Connection](connection.md). An instance of ConnectOptions can be passed into the Connection.Connect() method to initiate a connection, as seen in the example below.
+ConnectOptions is an abstract class used to configure options for a specific configured [Connection](connection.md). An instance of ConnectOptions can be passed into the Connection.Connect() method to initiate a connection, as seen in the example below.
 
  
 
-> **Note:** For a complete, working example of this class in use, download framework example located on our [[[Developing AddOns Overview](developing_add_ons.md)
+> **Note:** For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)
 
  
 

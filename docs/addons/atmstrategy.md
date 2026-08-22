@@ -1,8 +1,8 @@
 # AtmStrategy
 
-AtmStrategy contains properties and methods used to manage [[[ATM Strategies](../operations/advanced_trade_management_atm.md). When working with an [[[AtmStrategySelector](atmstrategyselector.md), selected objects can be case to AtmStrategy to obtain or change their properties.
+AtmStrategy contains properties and methods used to manage [ATM Strategies](../operations/advanced_trade_management_atm.md). When working with an [AtmStrategySelector](atmstrategyselector.md), selected objects can be case to AtmStrategy to obtain or change their properties.
 
-> **Notes:** 1. For a complete, working example of this class in use, download framework example located on our [[[Developing AddOns Overview](developing_add_ons.md)  2. For more information on working with the ATM strategies programmatically in general, please see the [[[Using ATM Strategies](../ninjascript/using_atm_strategies.md) section.
+> **Notes:** 1. For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)  2. For more information on working with the ATM strategies programmatically in general, please see the [Using ATM Strategies](../ninjascript/using_atm_strategies.md) section.
 
 ## Example
 

@@ -4,7 +4,7 @@
 
 Returns the statistical median value of the specified series over the specified look-back period. This method sorts the values of the specified look back period in ascending order and return the middle value.
 
-> **Notes:** 1. This method should NOT be confused with [[[Median](median.md) prices defined as (High + Low) / 2. This method returns the statistical median of a series.  2. If an even number is passed as the look-back period, the average of the two middle values in the sorted values will be returned.
+> **Notes:** 1. This method should NOT be confused with [Median](median.md) prices defined as (High + Low) / 2. This method returns the statistical median of a series.  2. If an even number is passed as the look-back period, the average of the two middle values in the sorted values will be returned.
 
 ## Method Return Value
 

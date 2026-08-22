@@ -1,24 +1,24 @@
 # Set Up
 
-Our first tutorial covered using the [[[Strategy Builder](../strategies/strategy_builder.md) to create simple NinjaScript strategies or to build the framework needed for a more complex strategy.
+Our first tutorial covered using the [Strategy Builder](../strategies/strategy_builder.md) to create simple NinjaScript strategies or to build the framework needed for a more complex strategy.
 
-This tutorial will cover another approach, using the NinjaScript [[[Editor](editor.md) and [[[New Strategy Wizard](ns_wizard.md).
+This tutorial will cover another approach, using the NinjaScript [Editor](editor.md) and [New Strategy Wizard](ns_wizard.md).
 
 1. Within the NinjaTrader Control Center window select the New NinjaScript  Editor... menu item
 
-![[[NSTutControlCenter](../images/nstutcontrolcenter.png)
+![NSTutControlCenter](../images/nstutcontrolcenter.png)
 
-![[[NSTutControlCenter2](../images/nstutcontrolcenter2.png)
+![NSTutControlCenter2](../images/nstutcontrolcenter2.png)
 
 2. Click the "+" tab in the lower left, and select New Strategy to open a New Strategy Wizard
 
-![[[RSIwithStopAndTargetSetUp1](../images/rsiwithstopandtargetsetup1.png)
+![RSIwithStopAndTargetSetUp1](../images/rsiwithstopandtargetsetup1.png)
 
 3. Enter the information as shown below
 
 4. Press the "Next >" button until we are at the Inputs and Parameters page
 
-![[[RSIwithStopAndTargetSetUp2](../images/rsiwithstopandtargetsetup2.png)
+![RSIwithStopAndTargetSetUp2](../images/rsiwithstopandtargetsetup2.png)
 
 ## Defining Input Parameters
 
@@ -28,12 +28,12 @@ Below you will define your strategy's input parameters. These are any input para
 
 6. Fill out the Input Parameters window and click OK to create the input parameter (See item 2 in the screenshot below)
 
-![[[RSIwithStopAndTargetSetUp3](../images/rsiwithstopandtargetsetup3.png)
+![RSIwithStopAndTargetSetUp3](../images/rsiwithstopandtargetsetup3.png)
 
 7. Add the inputs as per the image below
 
-![[[RSIwithStopAndTargetSetUp4](../images/rsiwithstopandtargetsetup4.png)
+![RSIwithStopAndTargetSetUp4](../images/rsiwithstopandtargetsetup4.png)
 
 8. Press the "Generate" button to generate the code in the NinjaScript Editor.
 
-You are now ready to continue to the [[[Entering Strategy Logic](../strategies/entering_strategy_logic.md) page of this tutorial.
+You are now ready to continue to the [Entering Strategy Logic](../strategies/entering_strategy_logic.md) page of this tutorial.

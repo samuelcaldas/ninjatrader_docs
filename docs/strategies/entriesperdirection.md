@@ -2,15 +2,15 @@
 
 ## Definition
 
-Determines the maximum number of entries allowed per direction while a position is active based on the [[[EntryHandling](entryhandling.md) property.
+Determines the maximum number of entries allowed per direction while a position is active based on the [EntryHandling](entryhandling.md) property.
 
-> **Note:** This property ONLY applies to Managed order methods.  When [[[IsUnmanaged](isunmanaged.md) is set to true, Entry Handling properties will be hidden from the UI.
+> **Note:** This property ONLY applies to Managed order methods.  When [IsUnmanaged](isunmanaged.md) is set to true, Entry Handling properties will be hidden from the UI.
 
 ## Property Value
 
 An int value represents the maximum number of entries allowed.  Default value is 1.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

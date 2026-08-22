@@ -22,9 +22,9 @@ Another example for when you would want to use this is if you were trying to acc
 
 ## Important related documentation
 
-- [[[IsValidDataPoint()](../language_reference/isvaliddatapoint.md)
+- [IsValidDataPoint()](../language_reference/isvaliddatapoint.md)
 
-- [[[Series](../language_reference/seriest.md)
+- [Series](../language_reference/seriest.md)
 
 ## Import instructions
 
@@ -34,4 +34,4 @@ Another example for when you would want to use this is if you were trying to acc
 
 3.Select the downloaded file
 
-[[[SampleEveryNBarTest\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleEveryNBarTest_NT8.zip)
+[SampleEveryNBarTest\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleEveryNBarTest_NT8.zip)

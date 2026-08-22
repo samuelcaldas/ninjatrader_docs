@@ -5,7 +5,7 @@
 Defines the behavior of a strategy when a strategy generated order is returned from the broker's server in a "Rejected" state. Default behavior is to stop the strategy, cancel any remaining working orders, and then close any open positions managed by the strategy by submitting one "Close" order for each unique position.
 
 > **Critical:**
-- Setting this property value to IgnoreAllErrors can have serious adverse affects on a running strategy unless you have programmed your own order rejection handling in the [[[OnOrderUpdate()](onorderupdate.md) method
+- Setting this property value to IgnoreAllErrors can have serious adverse affects on a running strategy unless you have programmed your own order rejection handling in the [OnOrderUpdate()](onorderupdate.md) method
 - User defined rejection handling is advanced and should ONLY be addressed by experienced programmers
 
 ## Property Value
@@ -18,7 +18,7 @@ An enum value determining how the strategy behaves.  Default value is set to Rea
 | RealtimeErrorHandling.StopCancelClose | Default behavior of a strategy |
 | RealtimeErrorHandling.StopCancelCloseIgnoreRejects | Will perform default behavior on all errors except order rejections |
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

@@ -18,7 +18,7 @@ NinjaTrader.NinjaScript.AtmStrategy.StartAtmStrategy(string atmStrategyTemplateN
 | atmStrategyTemplateName | A string representing the name of the ATM strategy you wish to use |
 | entryOrder | An Order representing the entry order |
 
-> **Critical:** The "name" argument on the [[[CreateOrder()](createorder.md) method MUST be named "Entry" for the ATM Strategy to be started successfully.
+> **Critical:** The "name" argument on the [CreateOrder()](createorder.md) method MUST be named "Entry" for the ATM Strategy to be started successfully.
 
 ## Example
 

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Holds an array of `ISeries<double>` objects holding historical bar low prices. An `ISeries<double>` object is added to this array when calling the [[[AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the low prices of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of `ISeries<double>` objects holding historical bar low prices. An `ISeries<double>` object is added to this array when calling the [AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the low prices of all Bars objects in a multi-instrument or multi-time frame script.
 
 ## Property Value
 

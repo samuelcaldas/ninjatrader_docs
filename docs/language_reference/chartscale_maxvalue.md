@@ -30,4 +30,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 In the image below, the highest value displayed as text on the y-axis reads 2106.00, however as you can see, there are a few pixels on the chart scale above this tick.  The absolute rendered MaxValue on the chart scale is calculated as 2106.21
 
-![[[MaxValue](../images/maxvalue.png)
+![MaxValue](../images/maxvalue.png)

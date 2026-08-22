@@ -30,4 +30,4 @@ Based on the image below, IsYAxisDisplayedRight confirms that the y-axis is not 
 
  
 
-![[[ChartControl_IsYAxisDisplayedRight](../images/chartcontrol_isyaxisdisplayedright.png)
+![ChartControl_IsYAxisDisplayedRight](../images/chartcontrol_isyaxisdisplayedright.png)

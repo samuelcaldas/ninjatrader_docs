@@ -2,7 +2,7 @@
 
 ## Definition
 
-Rounds the value contained in [[[CurrentValue](currentvalue.md) to a specified number of decimal places before displaying it in the Market Analyzer column.
+Rounds the value contained in [CurrentValue](currentvalue.md) to a specified number of decimal places before displaying it in the Market Analyzer column.
 
 ## Property Value
 

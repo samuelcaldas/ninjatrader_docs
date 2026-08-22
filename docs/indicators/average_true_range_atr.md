@@ -14,7 +14,7 @@ The True Range indicator is the greatest of the following:
 
 The Average True Range is a moving average (generally 14-days) of the True Ranges.
 
-... Courtesy of [[[Investopedia](http://www.investopedia.com/terms/a/atr.asp)
+... Courtesy of [Investopedia](http://www.investopedia.com/terms/a/atr.asp)
 
 The original Wilder formula for an exponential moving average with a smoothing constant (k = 1/ Period) is used to calculate the ATR.
 
@@ -37,7 +37,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Example

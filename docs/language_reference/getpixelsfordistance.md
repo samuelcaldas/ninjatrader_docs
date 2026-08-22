@@ -36,4 +36,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 In the image below, we pass a value of 1 for the distance, which tells us there are 76 pixels for every 1 point on the ES 06-15 chart scale.
 
-![[[GetPixelsForDistance](../images/getpixelsfordistance.png)
+![GetPixelsForDistance](../images/getpixelsfordistance.png)

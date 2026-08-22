@@ -10,9 +10,9 @@ Drawing text on a chart can be useful for outputting information, but when all i
 
 ## Important related documentation
 
-- [[[Text()](../language_reference/text.md)
+- [Text()](../language_reference/text.md)
 
-- [[[SimpleFont()](../language_reference/simplefont_class.md)
+- [SimpleFont()](../language_reference/simplefont_class.md)
 
 ## Import instructions
 
@@ -22,4 +22,4 @@ Drawing text on a chart can be useful for outputting information, but when all i
 
 3.Select the downloaded file
 
-[[[SampleChangeFont\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleChangeFont_NT8.zip)
+[SampleChangeFont\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleChangeFont_NT8.zip)

@@ -2,18 +2,18 @@
 
 ## Definition
 
-A collection of [[[Trade](trade.md) objects. You can access a trade object by providing an index value. Trades are indexed sequentially meaning the oldest trade taken in a strategy will be at an index value of zero. The most recent trade taken will be at an index value of the total trades in the collection minus 1.
+A collection of [Trade](trade.md) objects. You can access a trade object by providing an index value. Trades are indexed sequentially meaning the oldest trade taken in a strategy will be at an index value of zero. The most recent trade taken will be at an index value of the total trades in the collection minus 1.
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| [[[TradesCount](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
-| [[[EvenTrades](eventrades.md) | Gets a TradeCollection object of even trades |
-| [[[GetTrades()](gettrades.md) | Gets a TradeCollection object representing a specified position |
-| [[[LosingTrades](losingtrades.md) | Gets a TradeCollection object of losing trades |
-| [[[TradesPerformance](tradesperformance.md) | Gets a [[[TradesPerformance](tradesperformance.md) object |
-| [[[WinningTrades](winningtrades.md) | Gets a TradeCollection object of winning trades |
+| [TradesCount](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
+| [EvenTrades](eventrades.md) | Gets a TradeCollection object of even trades |
+| [GetTrades()](gettrades.md) | Gets a TradeCollection object representing a specified position |
+| [LosingTrades](losingtrades.md) | Gets a TradeCollection object of losing trades |
+| [TradesPerformance](tradesperformance.md) | Gets a [TradesPerformance](tradesperformance.md) object |
+| [WinningTrades](winningtrades.md) | Gets a TradeCollection object of winning trades |
 
 ## Examples
 

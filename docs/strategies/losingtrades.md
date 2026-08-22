@@ -2,15 +2,15 @@
 
 ## Definition
 
-A subcollection of [[[Trade](trade.md) objects consisting of only the losing trades in a [[[TradeCollection](tradecollection.md). You can access a trade object by providing an index value. Trades are indexed sequentially meaning the oldest trade taken in a strategy will be at an index value of zero. The most recent trade taken will be at an index value of the total trades in the collection minus 1.
+A subcollection of [Trade](trade.md) objects consisting of only the losing trades in a [TradeCollection](tradecollection.md). You can access a trade object by providing an index value. Trades are indexed sequentially meaning the oldest trade taken in a strategy will be at an index value of zero. The most recent trade taken will be at an index value of the total trades in the collection minus 1.
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| [[[Count](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
-| [[[GetTrades()](gettrades.md) | Gets a [[[TradeCollection](tradecollection.md) object representing a specified position |
-| [[[TradesPerformance](tradesperformance.md) | Gets a [[[TradesPerformance](tradesperformance.md) object |
+| [Count](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
+| [GetTrades()](gettrades.md) | Gets a [TradeCollection](tradecollection.md) object representing a specified position |
+| [TradesPerformance](tradesperformance.md) | Gets a [TradesPerformance](tradesperformance.md) object |
 
 ## Syntax
 

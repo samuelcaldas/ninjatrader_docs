@@ -12,17 +12,17 @@ A common technique used by discretionary traders is scaling in and scaling out o
 
 ## Important related documentation
 
-- [[[MarketPosition](position_marketposition.md)
+- [MarketPosition](position_marketposition.md)
 
-- [[[SetProfitTarget()](setprofittarget.md)
+- [SetProfitTarget()](setprofittarget.md)
 
-- [[[SetTrailStop()](settrailstop.md)
+- [SetTrailStop()](settrailstop.md)
 
-- [[[EntriesPerDirection\*](entriesperdirection.md)
+- [EntriesPerDirection\*](entriesperdirection.md)
 
-- [[[EntryHandling\*](entryhandling.md)
+- [EntryHandling\*](entryhandling.md)
 
-- [[[SetStopLoss()](setstoploss.md)
+- [SetStopLoss()](setstoploss.md)
 
 \* Entry handling properties can be either programmatically set or set through the Strategy dialog window
 
@@ -34,4 +34,4 @@ A common technique used by discretionary traders is scaling in and scaling out o
 
 3.Select the downloaded file
 
-[[[SampleScaleOut\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleScaleOut_NT8.zip)
+[SampleScaleOut\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleScaleOut_NT8.zip)

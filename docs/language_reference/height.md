@@ -29,4 +29,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 ## In the image below, the entire of height of the chart scale is represented by the blue line which is calculated at 300 pixels.
 
-![[[Height](../images/height.png)
+![Height](../images/height.png)

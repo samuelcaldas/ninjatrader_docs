@@ -2,7 +2,7 @@
 
 ## Definition
 
-This method is called whenever a new [[[NTWindow](ntwindow.md) is created. It will be called in the thread of that window.  This is where you would install your AddOn to an existing window, or if creating your own custom window, add a Menu item to the NinjaTrader Control Center.
+This method is called whenever a new [NTWindow](ntwindow.md) is created. It will be called in the thread of that window.  This is where you would install your AddOn to an existing window, or if creating your own custom window, add a Menu item to the NinjaTrader Control Center.
 
 > **Note:** This method will also be called on a recompile of the NinjaTrader.Custom project (e.g., when you compile an indicator, strategy, or add-on)
 

@@ -2,11 +2,11 @@
 
 ## Definition
 
-A SharpDX [[[Brush](sharpdx_direct2d1_brush.md) object used to paint the down bars for the ChartStyle.
+A SharpDX [Brush](sharpdx_direct2d1_brush.md) object used to paint the down bars for the ChartStyle.
 
 ## Property  Value
 
-A [[[SharpDX](sharpdx_direct2d1.md) Brush object used to paint the down bars
+A [SharpDX](sharpdx_direct2d1.md) Brush object used to paint the down bars
 
 ## Syntax
 

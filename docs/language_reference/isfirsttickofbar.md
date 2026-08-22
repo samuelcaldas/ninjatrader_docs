@@ -2,11 +2,11 @@
 
 ## Definition
 
-Indicates if the incoming tick is the first tick of a new bar. This property is only of value in scripts that run tick by tick which is when the [[[Calculate](calculate.md) property is set to Calculate.OnEachTick or Calculate.OnPriceChange.
+Indicates if the incoming tick is the first tick of a new bar. This property is only of value in scripts that run tick by tick which is when the [Calculate](calculate.md) property is set to Calculate.OnEachTick or Calculate.OnPriceChange.
 
-> **Warning:** This property should NOT be accessed outside of the [[[OnBarUpdate()](onbarupdate.md) method.
+> **Warning:** This property should NOT be accessed outside of the [OnBarUpdate()](onbarupdate.md) method.
 
-> **Note:** If a bar type is set up to [[[remove the last bar](removelastbar.md) on a chart, IsFirstTickOfBar will automatically be set to True.
+> **Note:** If a bar type is set up to [remove the last bar](removelastbar.md) on a chart, IsFirstTickOfBar will automatically be set to True.
 
 ## Property Value
 

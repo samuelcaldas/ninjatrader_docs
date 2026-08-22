@@ -32,7 +32,7 @@ if (Close[0] > Open[0])
 
 Placing Print() commands throughout your code logic allows you to trace where you are exactly. You can see where your code goes and where it does not go by viewing the output from the Output Window. Coupled with reading the error log from the Log tab in the Control Center, you can pinpoint where your code is crashing or locking up and make changes accordingly.
 
-Debugging orders can be a bit harder though because you cannot discern the behavior state of your orders through the Print() command easily. In addition to Print(), you can use [[[TraceOrders](../strategies/traceorders.md) to help you decipher what is happening under the hood for orders. [[[TraceOrders](../strategies/traceorders.md) will print information into the Output Window that will contain details about your orders.
+Debugging orders can be a bit harder though because you cannot discern the behavior state of your orders through the Print() command easily. In addition to Print(), you can use [TraceOrders](../strategies/traceorders.md) to help you decipher what is happening under the hood for orders. [TraceOrders](../strategies/traceorders.md) will print information into the Output Window that will contain details about your orders.
 
 ```csharp
 protected override void OnStateChange()
@@ -46,7 +46,7 @@ protected override void OnStateChange()
 
  
 
-When debugging stop or limit orders it can also be extremely useful to draw dots along your chart of the actual stop/limit prices. This way you can visually see where your orders are at and if they should have been filled or not. [[[Draw.Dot](../language_reference/draw_dot.md)
+When debugging stop or limit orders it can also be extremely useful to draw dots along your chart of the actual stop/limit prices. This way you can visually see where your orders are at and if they should have been filled or not. [Draw.Dot](../language_reference/draw_dot.md)
 
 ```csharp
 Draw.Dot(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);
@@ -60,12 +60,12 @@ External references can also be very useful when debugging. They are great for g
 
 Some useful resources:
 
-[[[NinjaScript Debugging](http://www.ninjatrader.com/support/forum/showthread.php?p=23415#post23415)
+[NinjaScript Debugging](http://www.ninjatrader.com/support/forum/showthread.php?p=23415#post23415)
 
-[[[CSharp Essentials](http://www.techotopia.com/index.php/C_Sharp_Essentials)
+[CSharp Essentials](http://www.techotopia.com/index.php/C_Sharp_Essentials)
 
-[[[C# Station](https://csharp-station.com/)
+[C# Station](https://csharp-station.com/)
 
-[[[Microsoft Developer Network](http://msdn2.microsoft.com/en-us/library/aa139615.aspx)
+[Microsoft Developer Network](http://msdn2.microsoft.com/en-us/library/aa139615.aspx)
 
-[[[The Code Project](http://www.codeproject.com/)
+[The Code Project](http://www.codeproject.com/)

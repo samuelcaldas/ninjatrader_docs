@@ -8,7 +8,7 @@ Tick replay is a property that can be optionally enabled on NinjaScript indicato
 
 > **Note:** Tick Replay is not intended to function in NinjaScript strategy backtests, and will not provide the same results as running a strategy on live data with Tick Replay enabled. For greater order-fill resolution in strategy backtests, you can use the High Fill Resolution in the Strategy Analyzer.
 
-Indicators and Strategies will only be able to take advantage of tick replay if they have been explicitly programmed to calculate these market data events.  If you are a programmer and would like to learn how to use Tick Replay with your custom scripts, please see the [[[using tick replay](../ninjascript/developing_for__tick_replay.md) section of our NinjaScript Help Guide.
+Indicators and Strategies will only be able to take advantage of tick replay if they have been explicitly programmed to calculate these market data events.  If you are a programmer and would like to learn how to use Tick Replay with your custom scripts, please see the [using tick replay](../ninjascript/developing_for__tick_replay.md) section of our NinjaScript Help Guide.
 
 ## Setting up Tick Replay
 
@@ -16,10 +16,10 @@ By default, tick replay will not be enabled.  In order to expose this property f
 
 - Navigate to the Control Center > Tools > Options menu, and under the Market data category, check "Show Tick Replay"
 
-![[[Tick_Replay_1](../images/tick_replay_1.png)
+![Tick_Replay_1](../images/tick_replay_1.png)
 
-Once the "Show Tick Replay" option has been enabled from the Market data category of the [[[Options](../getting_started/options.md) menu, you will find a "Tick Replay" option which you can select when setting up your indicators or strategies, or when running a strategy in the Strategy Analyzer.
+Once the "Show Tick Replay" option has been enabled from the Market data category of the [Options](../getting_started/options.md) menu, you will find a "Tick Replay" option which you can select when setting up your indicators or strategies, or when running a strategy in the Strategy Analyzer.
 
-> **Note:** The system [[[bar types](bar_types.md) "Line Break" and "Renko" cannot be used with Tick Replay and as a result, the Tick Replay option will be disabled when configured with those bar types.  There may be other 3rd party bar types which may also disable Tick Replay by design.  If you are a developer, please see the property [[[IsRemoveLastBarSupported](../language_reference/isremovelastbarsupported.md) for more information.
+> **Note:** The system [bar types](bar_types.md) "Line Break" and "Renko" cannot be used with Tick Replay and as a result, the Tick Replay option will be disabled when configured with those bar types.  There may be other 3rd party bar types which may also disable Tick Replay by design.  If you are a developer, please see the property [IsRemoveLastBarSupported](../language_reference/isremovelastbarsupported.md) for more information.
 
-![[[Tick_Replay_2](../images/tick_replay_2.png)
+![Tick_Replay_2](../images/tick_replay_2.png)

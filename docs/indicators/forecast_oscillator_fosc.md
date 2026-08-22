@@ -4,7 +4,7 @@
 
 The Forecast Oscillator calculates the percentage difference between the actual price and the Time Series Forecast (the endpoint of a linear regression line). When the price and the forecast are equal, the Oscillator is zero. When the price is greater than the forecast, the Oscillator is greater than zero. When the price is less than the forecast, the Oscillator is less than zero.
 
-... Courtesy of [[[FM Labs](http://www.fmlabs.com/reference/default.md?url=ForecastOscillator.md)
+... Courtesy of [FM Labs](http://www.fmlabs.com/reference/default.md?url=ForecastOscillator.md)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Example

@@ -10,9 +10,9 @@ When starting NinjaTrader you will be presented with a Log In window.
 
 ## Log In credentials
 
-You will log in with the Username and Password you use on [[[account.ninjatrader.com](https://account.ninjatrader.com/welcome)
+You will log in with the Username and Password you use on [account.ninjatrader.com](https://account.ninjatrader.com/welcome)
 
-If you do not have an account, you can register for an account at [[[account.ninjatrader.com/register](https://account.ninjatrader.com/register)
+If you do not have an account, you can register for an account at [account.ninjatrader.com/register](https://account.ninjatrader.com/register)
 
 You can also set up a log in using your Google or Apple account. This is only available for a demo.
 

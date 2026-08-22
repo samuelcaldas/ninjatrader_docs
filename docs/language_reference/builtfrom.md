@@ -2,11 +2,11 @@
 
 ## Definition
 
-Determines the base dataset used to build the BarsType (i.e., Tick, Minute, Day).   The BuiltFrom property will control the frequency in which [[[OnDataPoint()](ondatapoint.md) processes historical data.
+Determines the base dataset used to build the BarsType (i.e., Tick, Minute, Day).   The BuiltFrom property will control the frequency in which [OnDataPoint()](ondatapoint.md) processes historical data.
 
 ## Property Value
 
-A [[[BarsPeriodType](barsperiod.md) enum.  Values that will be recognized include:
+A [BarsPeriodType](barsperiod.md) enum.  Values that will be recognized include:
 
 - BarsPeriodType.Tick
 

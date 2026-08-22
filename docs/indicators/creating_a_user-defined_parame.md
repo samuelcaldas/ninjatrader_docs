@@ -10,9 +10,9 @@ Creating user-defined parameters allows you to present the user with hard coded 
 
 ## Important related documentation
 
-- [[[enum](http://csharp-station.com/Tutorial/CSharp/Lesson17)
+- [enum](http://csharp-station.com/Tutorial/CSharp/Lesson17)
 
-- [[[branching statements](http://csharp-station.com/Tutorial/CSharp/Lesson03)
+- [branching statements](http://csharp-station.com/Tutorial/CSharp/Lesson03)
 
 ## Import instructions
 
@@ -22,4 +22,4 @@ Creating user-defined parameters allows you to present the user with hard coded 
 
 3.Select the downloaded file
 
-[[[SampleUniversalMovingAverage\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleUniversalMovingAverage_NT8.zip)
+[SampleUniversalMovingAverage\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleUniversalMovingAverage_NT8.zip)

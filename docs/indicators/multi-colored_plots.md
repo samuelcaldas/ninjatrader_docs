@@ -10,13 +10,13 @@ With multi-colored plots it becomes easy to pick out changes in value of your in
 
 ## Important related documentation
 
-- [[[AddPlot()](addplot.md)
+- [AddPlot()](addplot.md)
 
-- [[[IsFalling()](../language_reference/falling.md)
+- [IsFalling()](../language_reference/falling.md)
 
-- [[[IsRising()](../language_reference/rising.md)
+- [IsRising()](../language_reference/rising.md)
 
-- [[[PlotBrushes](plotbrushes.md)
+- [PlotBrushes](plotbrushes.md)
 
 ## Import instructions
 
@@ -26,4 +26,4 @@ With multi-colored plots it becomes easy to pick out changes in value of your in
 
 3.Select the downloaded file
 
-[[[SampleMultiColoredPlot\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleMultiColoredPlot_NT8.zip)
+[SampleMultiColoredPlot\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleMultiColoredPlot_NT8.zip)

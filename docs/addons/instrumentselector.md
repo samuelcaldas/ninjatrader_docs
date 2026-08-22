@@ -8,7 +8,7 @@ InstrumentSelector is a UI element users can interact with for selecting instrum
 
 |  |  |
 | --- | --- |
-| Cleanup() | Disposes of the InstrumentSelector (Note: calling the [[[NTTabPage base.Cleanup()](nttabpage_cleanup.md) is sufficient to clean up this control) |
+| Cleanup() | Disposes of the InstrumentSelector (Note: calling the [NTTabPage base.Cleanup()](nttabpage_cleanup.md) is sufficient to clean up this control) |
 | Instrument | An Instrument representing the selected instrument |
 | InstrumentChanged | Event handler for when the instrument changes on the instrument selector |
 

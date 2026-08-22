@@ -6,7 +6,7 @@ A number representing the current bar in a Bars object that the OnBarUpdate() me
 
  
 
-> **Note:** In [[[multi series](multi-time_frame__instruments.md) processing, the [[[CurrentBars](currentbars.md) starting value will be -1 until all series have processed the first bar.
+> **Note:** In [multi series](multi-time_frame__instruments.md) processing, the [CurrentBars](currentbars.md) starting value will be -1 until all series have processed the first bar.
 
 ## Property Value
 

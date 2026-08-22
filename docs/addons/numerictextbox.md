@@ -2,11 +2,11 @@
 
 NumericTextBox provides functionality for numeric text boxes to capture user input. This UI element can be defined in XAML for an AddOn if desired, with functionality and logic related to the text box defined in C#, as in the examples below.
 
-> **Note:** For a complete, working example of this class in use, download framework example located on our [[[Developing AddOns Overview](developing_add_ons.md)
+> **Note:** For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)
 
  
 
-NumericTextBox inherits from [[[System.Windows.Controls.Textbox](https://msdn.microsoft.com/en-us/library/system.windows.controls.textbox(v=vs.110).aspx), and the following additional properties can be accessed for an instance the class:
+NumericTextBox inherits from [System.Windows.Controls.Textbox](https://msdn.microsoft.com/en-us/library/system.windows.controls.textbox(v=vs.110).aspx), and the following additional properties can be accessed for an instance the class:
 
 |  |  |
 | --- | --- |

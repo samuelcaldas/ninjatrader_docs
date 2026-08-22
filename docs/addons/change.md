@@ -2,7 +2,7 @@
 
 ## Definition
 
-Changes specified [[[Order](../strategies/order.md) object(s).
+Changes specified [Order](../strategies/order.md) object(s).
 
 ## Syntax
 

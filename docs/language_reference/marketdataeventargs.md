@@ -2,7 +2,7 @@
 
 ## Definition
 
-Represents a change in level one market data and is passed as a parameter in the [[[OnMarketData()](onmarketdata.md) method.
+Represents a change in level one market data and is passed as a parameter in the [OnMarketData()](onmarketdata.md) method.
 
 ## Methods and Parameters
 
@@ -14,7 +14,7 @@ Represents a change in level one market data and is passed as a parameter in the
 | IsReset | A bool value representing if a UI reset is needed after a manual disconnect.    Note: This is only relevant for columns. Whenever this property is true, the UI needs to be reset. |
 | MarketDataType | Possible values are:  MarketDataType.Ask  MarketDataType.Bid  MarketDataType.DailyHigh  MarketDataType.DailyLow  MarketDataType.DailyVolume  MarketDataType.Last  MarketDataType.LastClose (prior session close)  MarketDataType.Opening  MarketDataType.OpenInterest (supported by IQFeed, Kinetick)  MarketDataType.Settlement |
 | Price | A double value representing the price |
-| Time | A [[[DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the time |
+| Time | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the time |
 | ToString() | A string representation of the MarketDataEventArgs object |
 | Volume | A long value representing volume |
 
@@ -22,7 +22,7 @@ Represents a change in level one market data and is passed as a parameter in the
 
  
 
-> **Critical:** If used with [[[TickReplay](../operations/tick_replay.md), please keep in mind Tick Replay ONLY replays the Last market data event, and only stores the best inside bid/ask price at the time of the last trade event.  You can think of this as the equivalent of the bid/ask price at the time a trade was reported. Please also see [[[Developing for Tick Replay](../ninjascript/developing_for__tick_replay.md).
+> **Critical:** If used with [TickReplay](../operations/tick_replay.md), please keep in mind Tick Replay ONLY replays the Last market data event, and only stores the best inside bid/ask price at the time of the last trade event.  You can think of this as the equivalent of the bid/ask price at the time a trade was reported. Please also see [Developing for Tick Replay](../ninjascript/developing_for__tick_replay.md).
 
 > Tips
 - Not all connectivity providers support all MarketDataTypes.

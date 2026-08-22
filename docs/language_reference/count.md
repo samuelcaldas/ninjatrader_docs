@@ -24,4 +24,4 @@ if (Count < 365)
 
  
 
-> **Tip:** [[[CurrentBar](currentbar.md) value is guaranteed to be <= Count - 1. This is because of the NinjaTrader multi-threaded architecture, the Count value can have additional bars as inflight ticks come in to the system.
+> **Tip:** [CurrentBar](currentbar.md) value is guaranteed to be <= Count - 1. This is because of the NinjaTrader multi-threaded architecture, the Count value can have additional bars as inflight ticks come in to the system.

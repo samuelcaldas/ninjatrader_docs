@@ -8,7 +8,7 @@ A collection of Account objects
 
 ## Property Value
 
-A [[[Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx) of Account objects
+A [Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx) of Account objects
 
 ## Syntax
 

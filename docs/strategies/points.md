@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns a [[[TradesPerformanceValues](tradesperformancevalues.md) object in points.
+Returns a [TradesPerformanceValues](tradesperformancevalues.md) object in points.
 
 ## Property Value
 

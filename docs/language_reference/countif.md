@@ -4,7 +4,7 @@
 
 Counts the number of instances the test condition occurs over the look-back period expressed in bars.
 
-> **Note:** This method does NOT work on [[[multi-series](multi-time_frame__instruments.md) strategies and indicators.
+> **Note:** This method does NOT work on [multi-series](multi-time_frame__instruments.md) strategies and indicators.
 
 ## Method Return Value
 
@@ -22,7 +22,7 @@ CountIf(`Func<bool>` condition, int period)
 | condition | A true/false expression |
 | period | Number of bars to check for the test condition |
 
-> **Tip:** The syntax for the "condition" parameter uses [[[lambda expression](http://msdn.microsoft.com/en-us/library/bb397687.aspx) ## Syntax
+> **Tip:** The syntax for the "condition" parameter uses [lambda expression](http://msdn.microsoft.com/en-us/library/bb397687.aspx) ## Syntax
 
 `Examples`
 

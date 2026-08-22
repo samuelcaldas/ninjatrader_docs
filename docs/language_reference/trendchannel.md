@@ -2,16 +2,16 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Trend Channel [[[IDrawingTool](idrawingtool.md).
+Represents an interface that exposes information regarding a Trend Channel [IDrawingTool](idrawingtool.md).
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| TrendStartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| TrendEndAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
-| ParallelStartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the second line used in the trend channel |
-| [[[PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
+| TrendStartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| TrendEndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| ParallelStartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the second line used in the trend channel |
+| [PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
 
 ## Example
 

@@ -6,7 +6,7 @@ Cancels the specified entry order determined by the string "orderId" parameter.
 
  
 
-> **Notes:** 1.This method is intended ONLY for orders submitted as [[[Atm Entry Orders](atmstrategycreate.md) and assumes the [[[OrderState](getatmstrategyentryorderstatus.md) is NOT terminal (i.e., Cancelled, Filled, Rejected, Unknown).  2.If the specified order does not exist, the method returns false and an error is logged.
+> **Notes:** 1.This method is intended ONLY for orders submitted as [Atm Entry Orders](atmstrategycreate.md) and assumes the [OrderState](getatmstrategyentryorderstatus.md) is NOT terminal (i.e., Cancelled, Filled, Rejected, Unknown).  2.If the specified order does not exist, the method returns false and an error is logged.
 
  
 
@@ -22,7 +22,7 @@ AtmStrategyCancelEntryOrder(string orderId)
 
  
 
-> **Warning:** This method should ONLY be called once the strategy [[[State](../language_reference/state.md) has reached State.Realtime
+> **Warning:** This method should ONLY be called once the strategy [State](../language_reference/state.md) has reached State.Realtime
 
 ## Parameters
 

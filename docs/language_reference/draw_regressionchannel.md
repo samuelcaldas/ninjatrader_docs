@@ -6,7 +6,7 @@ Draws a regression channel.
 
 ## Method Return Value
 
-A [[[RegressionChannel](regressionchannel.md) object that represents the draw object.
+A [RegressionChannel](regressionchannel.md) object that represents the draw object.
 
 Syntax 
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, Brush brush) 
@@ -27,9 +27,9 @@ Draw.RegressionChannel(NinjaScriptBase owner, string tag, int startBarsAgo, int 
 | startTime | The starting time where the draw object will be drawn. |
 | endBarsAgo | The end bar (x axis co-ordinate) where the draw object will terminate |
 | endTime | The end time where the draw object will terminate |
-| brush | The brush used to color the outline of draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color the outline of draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | upperDashStyle,  middleDashStyle,  lowerDashStyle | DashStyleHelper.Dash   DashStyleHelper.DashDot   DashStyleHelper.DashDotDot   DashStyleHelper.Dot   DashStyleHelper.Solid    Note: Fancier DashStyles like DashDotDot will require more resources than simple DashStyles like Solid. |
-| upperBrush,  middleBrush,  lowerBrush | The line colors ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| upperBrush,  middleBrush,  lowerBrush | The line colors ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | upperWidth,  middleWidth,  lowerWidth | The line width |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |

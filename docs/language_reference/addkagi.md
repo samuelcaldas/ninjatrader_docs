@@ -2,7 +2,7 @@
 
 ## Definition
 
-Similar to the [[[AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a Kagi Bars object for multi-series NinjaScript.
+Similar to the [AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a Kagi Bars object for multi-series NinjaScript.
 
  
 

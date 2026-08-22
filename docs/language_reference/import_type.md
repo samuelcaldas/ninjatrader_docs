@@ -6,5 +6,5 @@ Custom data Import Types can be developed to allow for the importing of historic
 
 |  |  |
 | --- | --- |
-| [[[OnNextInstrument()](onnextinstrument.md) | Called at the beginning of the import process |
-| [[[OnNextDataPoint()](onnextdatapoint.md) | Called for each line of data contained in the file being imported |
+| [OnNextInstrument()](onnextinstrument.md) | Called at the beginning of the import process |
+| [OnNextDataPoint()](onnextdatapoint.md) | Called for each line of data contained in the file being imported |

@@ -2,7 +2,7 @@
 
 ## Definition
 
-The Bar width value which displays on the UI.  This value will be rounded from the internal [[[BarWidth](barwidth.md) property which is updated as the ChartControl is resized
+The Bar width value which displays on the UI.  This value will be rounded from the internal [BarWidth](barwidth.md) property which is updated as the ChartControl is resized
 
 ## Property Value
 

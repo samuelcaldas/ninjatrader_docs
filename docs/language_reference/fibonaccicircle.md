@@ -2,15 +2,15 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Fibonacci Circle [[[IDrawingTool](idrawingtool.md).
+Represents an interface that exposes information regarding a Fibonacci Circle [IDrawingTool](idrawingtool.md).
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
-| [[[PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| [PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
 | IsTimePriceDividedSeparately | A bool value which when true determines if the time and price are calculated together as a ratio, or independently |
 | IsTextDisplayed | A bool value determining if the draw object should display text on the chart. |
 

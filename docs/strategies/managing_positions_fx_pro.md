@@ -6,6 +6,6 @@
 
 2. Clicking on the "Close" button with your left mouse button will close the current position and cancel any working orders associated to the instrument/account combination. Clicking on this button with your middle mouse button (scroll wheel) will close the selected active ATM Strategy only. This means that the position size of the ATM Strategy will be closed and any working orders associated to that ATM Strategy will be cancelled.
 
-![[[FXPro_17](../images/fxpro_17.png)
+![FXPro_17](../images/fxpro_17.png)
 
-Please see the help topic on [[[Closing a Position or ATM Strategy](../addons/closing_a_position_or_atm_stra.md) for more information on the mechanics behind closing various types of positions.
+Please see the help topic on [Closing a Position or ATM Strategy](../addons/closing_a_position_or_atm_stra.md) for more information on the mechanics behind closing various types of positions.

@@ -14,7 +14,7 @@ Note: Rolling over futures instruments will update the expiry of the instruments
 
 Note: NinjaScript strategies are not rolled forward and must be manually rolled over.
 
-![[[Instruments_AutomaticRollOver](../images/instruments_automaticrollover.png)
+![Instruments_AutomaticRollOver](../images/instruments_automaticrollover.png)
 
 ## Manual Rollover
 
@@ -30,4 +30,4 @@ When rolling over, your drawing objects will be kept at the same price level the
 
 If you have a strategy that places drawing objects, the drawing objects will be redrawn when rolling over based on the bar's placement after rollover.
 
-For more information on merge policies, see the [[[Merge Policy](../getting_started/merge_policy.md) section of this guide.
+For more information on merge policies, see the [Merge Policy](../getting_started/merge_policy.md) section of this guide.

@@ -2,17 +2,17 @@
 
 The Quantity Selector is a standard control available from all order entry features which allows you to select the number of contracts that are prepared for an custom order.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Minimum Quantity Size The Quantity Selector is smart in that it will automatically fill in the minimum quantity value depending on the type of instrument that is selected. This is particularly useful when switching from one instrument type to another.    The table below will show the minimum quantity for each instrument type:    |  |  | | --- | --- | | Instrument Type | Default Minimum Quantity | | Future | 1 | | Stock | 100 | | CFD | 1 | | Option | 1 | | Forex | Forex lot size - 100K (Full), 10K (Mini), or 1K (Micro) |    |  | | --- | | Note: Forex lot sizes are automatically determined by your Forex brokerage account connection. For Simulation account Forex lot size, see "Managing simulation accounts" section of the global [[[Trading](../getting_started/options_trading.md) options | |
+| Minimum Quantity Size The Quantity Selector is smart in that it will automatically fill in the minimum quantity value depending on the type of instrument that is selected. This is particularly useful when switching from one instrument type to another.    The table below will show the minimum quantity for each instrument type:    |  |  | | --- | --- | | Instrument Type | Default Minimum Quantity | | Future | 1 | | Stock | 100 | | CFD | 1 | | Option | 1 | | Forex | Forex lot size - 100K (Full), 10K (Mini), or 1K (Micro) |    |  | | --- | | Note: Forex lot sizes are automatically determined by your Forex brokerage account connection. For Simulation account Forex lot size, see "Managing simulation accounts" section of the global [Trading](../getting_started/options_trading.md) options | |
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 > Adjusting Quantity The Quantity Selector allows you to type directly in the quantity field to specify an exact quantity with your keyboard.    You can also control the quantity using the up/down arrows next to the quantity selector, or by using the scroll wheel on your mouse.  These methods will change the quantity depending on the instrument type's minimum values described in the "Default Order Quantities" section above.    For example with a Stock selected, simply scrolling up with your mouse will change a quantity of 100 to 200.  Holding the CTRL key on your keyboard and modifying the order quantity will increase or decreasing the value by 10.  This means if you were to hold the CTRL key while scrolling on the Quantity Selector will increase Stock quantity from 100 to 1,100.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |

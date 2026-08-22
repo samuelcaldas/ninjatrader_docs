@@ -6,8 +6,8 @@ Custom Optimizers can be used to optimize your Strategy through different algori
 
 |  |  |
 | --- | --- |
-| [[[NumberOfIterations](numberofiterations.md) | Informs the Strategy Analyzer how many iterations of optimizing it needs to do. |
-| [[[OnOptimize()](onoptimize.md) | This method must be overridden in order to optimize a strategy. |
-| [[[OptimizationParameters](optimizationparameters.md) | The optimization parameters selected for the optimization run. |
-| [[[RunIteration()](runiteration.md) | Runs an iteration of backtesting for the optimizer. |
-| [[[SupportsMultiObjectiveOptimization](supportsmultiobjectiveoptimiza.md) | Informs the Strategy Analyzer if this Optimizer can do multi-objective optimizations. |
+| [NumberOfIterations](numberofiterations.md) | Informs the Strategy Analyzer how many iterations of optimizing it needs to do. |
+| [OnOptimize()](onoptimize.md) | This method must be overridden in order to optimize a strategy. |
+| [OptimizationParameters](optimizationparameters.md) | The optimization parameters selected for the optimization run. |
+| [RunIteration()](runiteration.md) | Runs an iteration of backtesting for the optimizer. |
+| [SupportsMultiObjectiveOptimization](supportsmultiobjectiveoptimiza.md) | Informs the Strategy Analyzer if this Optimizer can do multi-objective optimizations. |

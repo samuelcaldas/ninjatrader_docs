@@ -12,21 +12,21 @@ Sometimes you want to trade an instrument with several different possible entry 
 
 ## Important methods and properties used include:
 
-- [[[AddChartIndicator()](../indicators/addchartindicator.md)
+- [AddChartIndicator()](../indicators/addchartindicator.md)
 
-- [[[EntriesPerDirection\*](entriesperdirection.md)
+- [EntriesPerDirection\*](entriesperdirection.md)
 
-- [[[EntryHandling\*](entryhandling.md)
+- [EntryHandling\*](entryhandling.md)
 
 \* Entry handling properties can be either programmatically set or set through the Strategy dialog window
 
 ## Other methods and properties of interest include:
 
-- [[[EnterLongLimit()](enterlonglimit.md)
+- [EnterLongLimit()](enterlonglimit.md)
 
-- [[[EnterLongStopMarket()](enterlongstopmarket.md)
+- [EnterLongStopMarket()](enterlongstopmarket.md)
 
-- [[[EnterLongStopLimit()](enterlongstoplimit.md)
+- [EnterLongStopLimit()](enterlongstoplimit.md)
 
 ## Import instructions
 
@@ -36,4 +36,4 @@ Sometimes you want to trade an instrument with several different possible entry 
 
 3.Select the downloaded file
 
-[[[SampleMultipleEntryExitSignals\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleMultipleEntryExitSignals_NT8.zip)
+[SampleMultipleEntryExitSignals\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleMultipleEntryExitSignals_NT8.zip)

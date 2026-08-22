@@ -6,7 +6,7 @@ With NinjaTrader 8 we introduced strategy plots which provide the ability for a 
 
 ## Important related documentation:
 
-- [[[Plotting from a strategy with Indicator plot methods](../indicators/addplot.md)
+- [Plotting from a strategy with Indicator plot methods](../indicators/addplot.md)
 
 ## Import instructions
 
@@ -16,4 +16,4 @@ With NinjaTrader 8 we introduced strategy plots which provide the ability for a 
 
 3.Select the downloaded file
 
-[[[SampleStrategyPlot\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleStrategyPlot_NT8.zip)
+[SampleStrategyPlot\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleStrategyPlot_NT8.zip)

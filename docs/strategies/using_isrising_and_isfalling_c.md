@@ -12,15 +12,15 @@ NinjaTrader's Strategy Builder includes access to many methods and properties, i
 
 ## Important methods and properties used include
 
-- [[[IsRising()](../language_reference/rising.md)
+- [IsRising()](../language_reference/rising.md)
 
-- [[[IsFalling()](../language_reference/falling.md)
+- [IsFalling()](../language_reference/falling.md)
 
 ## Other methods and properties of interest include:
 
-- [[[EnterLong()](enterlong.md)
+- [EnterLong()](enterlong.md)
 
-- [[[ExitLong()](exitlong.md)
+- [ExitLong()](exitlong.md)
 
 ## Import instructions
 
@@ -30,4 +30,4 @@ NinjaTrader's Strategy Builder includes access to many methods and properties, i
 
 3.Select the downloaded file
 
-[[[SampleIsFallingIsRising.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleIsFallingIsRising.zip)
+[SampleIsFallingIsRising.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleIsFallingIsRising.zip)

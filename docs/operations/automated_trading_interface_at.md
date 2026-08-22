@@ -1,6 +1,6 @@
 # Automated Trading Interface (ATI)
 
-You can enable the AT Interface on under [[[Automated trading interface](../getting_started/options_ati.md) category from the General [[[Options](../getting_started/options.md) menu.
+You can enable the AT Interface on under [Automated trading interface](../getting_started/options_ati.md) category from the General [Options](../getting_started/options.md) menu.
 
 |  |
 | --- |
@@ -8,11 +8,11 @@ You can enable the AT Interface on under [[[Automated trading interface](../gett
 - Popular charting applications such as but not limited to TradeStation, eSignal, NeoTicker, and Investor RT
 - Custom applications written in but not limited to Visual Studio .NET, Visual Basic, Delphi, and MS Excel
 - Black box trading systems    NinjaTrader provides methods for automated trading through NinjaScript or from an outside source via the Automated Trading Interface (ATI).    
-- [[[What can I do and how?](what_can_i_do_and_how_.md)  
-- [[[Commands and Valid Parameters](commands_and_valid_parameters.md)  
-- [[[Initialization](initialization.md)  
-- [[[File Interface](file_interface.md)  
-- [[[DLL Interface](dll_interface.md)  
-- [[[TradeStation](tradestation_email_integration.md) |
+- [What can I do and how?](what_can_i_do_and_how_.md)  
+- [Commands and Valid Parameters](commands_and_valid_parameters.md)  
+- [Initialization](initialization.md)  
+- [File Interface](file_interface.md)  
+- [DLL Interface](dll_interface.md)  
+- [TradeStation](tradestation_email_integration.md) |
 
-> **Note:** This interface is ONLY used for processing trade signals generated from external applications and is NOT a full blown brokerage/market data API. If you are interested in automated trading using native NinjaScript strategies please proceed to the following [[[help guide section](../ninjascript/running_ninjascript_strategies.md).
+> **Note:** This interface is ONLY used for processing trade signals generated from external applications and is NOT a full blown brokerage/market data API. If you are interested in automated trading using native NinjaScript strategies please proceed to the following [help guide section](../ninjascript/running_ninjascript_strategies.md).

@@ -2,7 +2,7 @@
 
 If you have not done so already, press the "Unlock Code" button within the wizard to launch the NinjaScript Editor.
 
-The [[[OnBarUpdate()](../language_reference/onbarupdate.md) method is called for each incoming tick or on the close of a bar (user defined) when performing real-time calculations. Therefore, this is the main method called for strategy calculation and we will use this method to enter the script that check for entry and exit conditions.
+The [OnBarUpdate()](../language_reference/onbarupdate.md) method is called for each incoming tick or on the close of a bar (user defined) when performing real-time calculations. Therefore, this is the main method called for strategy calculation and we will use this method to enter the script that check for entry and exit conditions.
 
 ## The Entry and Exit Condition
 
@@ -26,8 +26,8 @@ if the fast simple moving average crosses below the slow simple moving average w
 
 To accomplish this we used the following methods:
 
-[[[CrossAbove()](../language_reference/crossabove.md) - Checks for a cross above condition and returns true or false   
-[[[CrossBelow()](../language_reference/crossbelow.md) - Checks for a cross below condition and returns true or false   
-[[[SMA()](../indicators/moving_average_-_simple_sma.md) - Returns the value of a simple moving average   
-[[[EnterLong()](enterlong.md) - Enters a market order long   
-[[[EnterShort()](entershort.md) - Enters a market order short
+[CrossAbove()](../language_reference/crossabove.md) - Checks for a cross above condition and returns true or false   
+[CrossBelow()](../language_reference/crossbelow.md) - Checks for a cross below condition and returns true or false   
+[SMA()](../indicators/moving_average_-_simple_sma.md) - Returns the value of a simple moving average   
+[EnterLong()](enterlong.md) - Enters a market order long   
+[EnterShort()](entershort.md) - Enters a market order short

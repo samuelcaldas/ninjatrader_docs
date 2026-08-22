@@ -2,11 +2,11 @@
 
 ## Definition
 
-Determines memory performance of custom [[[`Series<T>`](seriest.md) objects (such as `Series<double>`, `Series<long>`, etc.).  When using MaximumBarsLookBack.TwoHundredFiftySix, only the last 256 values of the series object will be stored in memory and be accessible for reference. This results in significant memory savings when using multiple series objects. In the rare case should you need older values you can use MaximumBarsLookBack.Infinite to allow full access of the series.
+Determines memory performance of custom [`Series<T>`](seriest.md) objects (such as `Series<double>`, `Series<long>`, etc.).  When using MaximumBarsLookBack.TwoHundredFiftySix, only the last 256 values of the series object will be stored in memory and be accessible for reference. This results in significant memory savings when using multiple series objects. In the rare case should you need older values you can use MaximumBarsLookBack.Infinite to allow full access of the series.
 
 > **Notes:**
 - `ISeries<T>` objects that hold bar data (such as Close, High, Volume, Time, etc) always use MaximumBarsLookBack.Infinite which ensures all data points are always accessible during the lifetime of your NinjaScript indicator or strategy.
-- `Series<double>` objects that hold indicator [[[plot values](values.md) always use MaximumBarsLookBack.Infinite which ensures that charts always display the entire indicator's calculated values.
+- `Series<double>` objects that hold indicator [plot values](values.md) always use MaximumBarsLookBack.Infinite which ensures that charts always display the entire indicator's calculated values.
 
 ## Property Value
 

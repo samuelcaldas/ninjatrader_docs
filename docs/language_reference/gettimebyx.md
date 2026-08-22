@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns a time value related to the primary [[[Bars](bars.md)' slot index at a specified x-coordinate relative to the ChartControl.
+Returns a time value related to the primary [Bars](bars.md)' slot index at a specified x-coordinate relative to the ChartControl.
 
  
 
@@ -10,7 +10,7 @@ Returns a time value related to the primary [[[Bars](bars.md)' slot index at a s
 
 ## Method Return Value
 
-A [[[DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object corresponding to a slot index at a specified x-coordinate
+A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object corresponding to a slot index at a specified x-coordinate
 
 ## Syntax
 

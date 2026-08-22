@@ -4,7 +4,7 @@
 
 The Zero-Lag Exponential Moving Average is a variation on the Exponential Moving Average. The Zero-Lag keeps the benefit of the heavier weighting of recent values, but attempts to remove lag by subtracting older data to minimize the cumulative effect.
 
-... Courtesy of [[[FMLabs](http://www.fmlabs.com/reference/default.md?url=ZeroLagExpMA.md)
+... Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.md?url=ZeroLagExpMA.md)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Examples

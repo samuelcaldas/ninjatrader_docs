@@ -2,9 +2,9 @@
 
 ## Definition
 
-The number of seconds before the actual session end time that the "[[[IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy.md)" function will trigger.
+The number of seconds before the actual session end time that the "[IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy.md)" function will trigger.
 
-The time from which this property will be calculated is taken from the [[[Trading Hours](../operations/trading_hours.md) EOD property set in the strategy's Trading Hours template. The ExitOnSessionCloseSeconds property can either be set programatically in the [[[OnStateChange()](../language_reference/onstatechange.md) method or be driven by the UI at run time.
+The time from which this property will be calculated is taken from the [Trading Hours](../operations/trading_hours.md) EOD property set in the strategy's Trading Hours template. The ExitOnSessionCloseSeconds property can either be set programatically in the [OnStateChange()](../language_reference/onstatechange.md) method or be driven by the UI at run time.
 
  
 
@@ -14,7 +14,7 @@ The time from which this property will be calculated is taken from the [[[Tradin
 
 An int representing the number of seconds.  Default value is 30.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

@@ -2,7 +2,7 @@
 
 Within the Risk window, Risk Templates hold the risk definitions for local simulation accounts. A risk definition holds the amount of margin needed per contract, it also limits the amount of contracts allowed to trade. To define your Live or Simulation NinjaTrader risk, you can go to the Client Dashboard under Tools.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |
 | --- | --- |
@@ -11,17 +11,17 @@ Within the Risk window, Risk Templates hold the risk definitions for local simul
 - Select "Edit Account"
 - Change the selected "Risk" template parameter    |  | | --- | | Note:  Risk definitions are activated as soon as the template is applied. However, there are some values (i.e., Intraday margin, Initial margin, Maintenance margin) which are calculated only as the position is updated.  Should you be in a position when the risk template is applied, these values would NOT calculate until the position is updated.  You can force this calculation by disconnecting and reconnecting to your data account connection. | |
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 > Creating a Risk Template  If your desired session risk settings are not found within the pre-loaded Risk Templates, you can create a new template.    To create a Risk Template:  1.Left mouse click on "add"  2.Type in the name of the Risk Template  3.Select "add" to add a new risk definition, see "Understanding risk definitions" below for more information. Repeat for as many risk definitions as required.  4.Press the Apply button to save the configured session times in the Risk Template.    Risk_1
 
-![[[tog_minus](../images/tog_minus.gif)        Working with Risk Templates
+![tog_minus](../images/tog_minus.gif)        Working with Risk Templates
 
 > A saved Risk Template can be selected via the Template section to the left of the Risk window. Selecting the template will allow you to configure individual risk definitions for that template.  Editing Risk Templates Risk Templates can be edited in the following ways:
 - Left mouse click the "copy" button in the templates section and insert a new template name to copy the current Risk Template.
 - Left mouse click the "remove" button in the templates section to delete the selected Risk Template.
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding risk definitions
+![tog_minus](../images/tog_minus.gif)        Understanding risk definitions
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

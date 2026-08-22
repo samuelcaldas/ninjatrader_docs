@@ -6,7 +6,7 @@ Indicates a time zone that is configured by a Trading Hours template
 
 ## Property Value
 
-A [[[TimeZoneInfo](https://msdn.microsoft.com/en-us/library/system.timezoneinfo(v=vs.110).aspx) object the represents the time zone for a configured Trading Hours template.
+A [TimeZoneInfo](https://msdn.microsoft.com/en-us/library/system.timezoneinfo(v=vs.110).aspx) object the represents the time zone for a configured Trading Hours template.
 
 ## Syntax
 

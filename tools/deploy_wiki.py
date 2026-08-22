@@ -171,17 +171,12 @@ def stage_wiki():
 
     print(f"Staged {len(os.listdir(WIKI_DIST))} files in .wiki_dist/")
 
-def deploy_wiki(token=None, dry_run=False):
+def deploy_wiki(dry_run=False):
     """Initializes and pushes .wiki_dist to GitHub Wiki remote."""
     stage_wiki()
 
-    auth_token = token or os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    auth_token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     repo_slug = os.environ.get("GITHUB_REPOSITORY", "samuelcaldas/ninjatrader_docs")
-
-    if auth_token:
-        wiki_remote = f"https://x-access-token:{auth_token}@github.com/{repo_slug}.wiki.git"
-    else:
-        wiki_remote = f"git@github.com:{repo_slug}.wiki.git"
 
     print(f"Deploying to GitHub Wiki: {repo_slug}.wiki")
 
@@ -199,13 +194,21 @@ def deploy_wiki(token=None, dry_run=False):
         commit_msg = "Deploy NinjaTrader 8 complete documentation and assets to GitHub Wiki"
         subprocess.run(["git", "commit", "-m", commit_msg], check=True)
 
+        if auth_token:
+            wiki_remote = f"https://x-access-token:{auth_token}@github.com/{repo_slug}.wiki.git"
+        else:
+            wiki_remote = f"git@github.com:{repo_slug}.wiki.git"
+
         print("Checking remote wiki repository and pushing...")
         res = subprocess.run(["git", "push", "--force", wiki_remote, "master"], capture_output=True, text=True)
         if res.returncode == 0:
             print("Wiki successfully deployed to GitHub!")
         else:
-            print(f"Wiki push notice: {res.stderr.strip() or res.stdout.strip()}")
-            # If in CI (GITHUB_ACTIONS set), raise or exit appropriately
+            # Mask any token from output if present
+            err_msg = res.stderr.strip() or res.stdout.strip()
+            if auth_token and auth_token in err_msg:
+                err_msg = err_msg.replace(auth_token, "***")
+            print(f"Wiki push notice: {err_msg}")
             if os.environ.get("GITHUB_ACTIONS"):
                 sys.exit(res.returncode)
     finally:
@@ -216,10 +219,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Stage and deploy NinjaTrader 8 documentation to GitHub Wiki.")
     parser.add_argument("--stage-only", action="store_true", help="Stage wiki distribution without deploying.")
     parser.add_argument("--dry-run", action="store_true", help="Perform staging and local commit check without pushing.")
-    parser.add_argument("--token", type=str, help="GitHub token for authenticated HTTPS deployment.")
     args = parser.parse_args()
 
     if args.stage_only:
         stage_wiki()
     else:
-        deploy_wiki(token=args.token, dry_run=args.dry_run)
+        deploy_wiki(dry_run=args.dry_run)

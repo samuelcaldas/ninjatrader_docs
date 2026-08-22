@@ -1,16 +1,16 @@
 # IWorkspacePersistence Interface
 
-When creating your [[[NTWindow](ntwindow.md), be sure to implement the IWorkspacePersistence interface as well for the ability to save and restore your window with NinjaTrader workspaces.
+When creating your [NTWindow](ntwindow.md), be sure to implement the IWorkspacePersistence interface as well for the ability to save and restore your window with NinjaTrader workspaces.
 
-> **Note:** AddOn Classes which derive from NTWindow or implements IWorkspacePersistance CANNOT be a [[[nested type](https://msdn.microsoft.com/en-us/library/ms173120.aspx) of another class and MUST have a [[[default constructor](https://msdn.microsoft.com/en-us/library/ms173115.aspx)
+> **Note:** AddOn Classes which derive from NTWindow or implements IWorkspacePersistance CANNOT be a [nested type](https://msdn.microsoft.com/en-us/library/ms173120.aspx) of another class and MUST have a [default constructor](https://msdn.microsoft.com/en-us/library/ms173115.aspx)
 
 This interface contains two methods and one property which must be hidden by the implementing class:
 
 |  |  |
 | --- | --- |
-| [[[Restore()](iworkspacepersistence_restore.md) | Restores the window from workspaces. |
-| [[[Save()](iworkspacepersistence_save.md) | Saves the window to workspaces. |
-| [[[WorkspaceOptions](workspaceoptions.md) | Sets required workspace options. |
+| [Restore()](iworkspacepersistence_restore.md) | Restores the window from workspaces. |
+| [Save()](iworkspacepersistence_save.md) | Saves the window to workspaces. |
+| [WorkspaceOptions](workspaceoptions.md) | Sets required workspace options. |
 
 ## Examples
 

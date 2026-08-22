@@ -4,7 +4,7 @@
 
 Developed by Donald Lambert, the Commodity Channel Index (CCI) was designed to identify cyclical turns in commodities. The assumption behind the indicator is that commodities (or stocks or bonds) move in cycles, with highs and lows coming at periodic intervals.
 
-... Courtesy of [[[StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_CCI.md)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_CCI.md)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Examples

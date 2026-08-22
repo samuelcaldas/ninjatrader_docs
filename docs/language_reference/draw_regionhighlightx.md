@@ -6,7 +6,7 @@ Draws a region highlight x on a chart.
 
 ## Method Return Value
 
-A [[[RegionHighlightX](regionhighlightx.md) object that represents the draw object.
+A [RegionHighlightX](regionhighlightx.md) object that represents the draw object.
 
 Syntax
 
@@ -31,8 +31,8 @@ Draw.RegionHighlightX(NinjaScriptBase owner, string tag, int startBarsAgo, int e
 | startTime | The starting time where the draw object will be drawn. |
 | endBarsAgo | The end bar (x axis co-ordinate) where the draw object will terminate |
 | endTime | The end time where the draw object will terminate |
-| brush | The brush used to color the outline of draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
-| areaBrush | The brush used to color the fill area of the draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color the outline of draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| areaBrush | The brush used to color the fill area of the draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |

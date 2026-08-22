@@ -8,11 +8,11 @@ Debugging your NinjaScript code can be time consuming and frustrating. When Ninj
 
 ## Important related documentation
 
-- [[[Log()](../language_reference/log.md)
+- [Log()](../language_reference/log.md)
 
-- [[[Print()](../language_reference/print.md)
+- [Print()](../language_reference/print.md)
 
-- [[[PrintTo()](../language_reference/printto.md)
+- [PrintTo()](../language_reference/printto.md)
 
 ## Import instructions
 
@@ -22,4 +22,4 @@ Debugging your NinjaScript code can be time consuming and frustrating. When Ninj
 
 3.Select the downloaded file
 
-[[[SampleTryCatch\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleTryCatch_NT8.zip)
+[SampleTryCatch\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleTryCatch_NT8.zip)

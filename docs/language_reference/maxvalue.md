@@ -2,7 +2,7 @@
 
 ## Definition
 
-The maximum value used for the automatic scaling of the y axis.  This property will only be used when the chart object is set to [[[IsAutoScale](isautoscale.md)
+The maximum value used for the automatic scaling of the y axis.  This property will only be used when the chart object is set to [IsAutoScale](isautoscale.md)
 
 ## Property Value
 

@@ -6,7 +6,7 @@ Draws a rectangle.
 
 ## Method Return Value
 
-A [[[Rectangle](rectangle.md) object that represents the draw object.
+A [Rectangle](rectangle.md) object that represents the draw object.
 
 ## Syntax
 
@@ -36,8 +36,8 @@ Draw.Rectangle(NinjaScriptBase owner, string tag, DateTime startTime, double sta
 | endBarsAgo | The end bar (x axis co-ordinate) where the draw object will terminate |
 | endTime | The end time where the draw object will terminate |
 | endY | The end y value co-ordinate where the draw object will terminate |
-| brush | The brush used to color the outline of draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
-| areaBrush | The brush used to color the fill area of the draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color the outline of draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| areaBrush | The brush used to color the fill area of the draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
 | drawOnPricePanel | Determines if the draw-object should be on the price panel or a separate panel |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |

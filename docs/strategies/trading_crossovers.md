@@ -20,17 +20,17 @@ Similar in concept to a breakout, many traders like to trade crossovers. This ca
 
 ## Important related documentation
 
-- [[[Calculate](../language_reference/calculate.md)
+- [Calculate](../language_reference/calculate.md)
 
-- [[[CrossAbove()](../language_reference/crossabove.md)
+- [CrossAbove()](../language_reference/crossabove.md)
 
-- [[[CrossBelow()](../language_reference/crossbelow.md)
+- [CrossBelow()](../language_reference/crossbelow.md)
 
-- [[[SetTrailStop()](settrailstop.md)
+- [SetTrailStop()](settrailstop.md)
 
-- [[[SetStopLoss()](setstoploss.md)
+- [SetStopLoss()](setstoploss.md)
 
-- [[[SetProfitTarget()](setprofittarget.md)
+- [SetProfitTarget()](setprofittarget.md)
 
 ## Import instructions
 
@@ -40,4 +40,4 @@ Similar in concept to a breakout, many traders like to trade crossovers. This ca
 
 3.Select the downloaded file
 
-[[[SampleHighLowCross\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleHighLowCross_NT8.zip)
+[SampleHighLowCross\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleHighLowCross_NT8.zip)

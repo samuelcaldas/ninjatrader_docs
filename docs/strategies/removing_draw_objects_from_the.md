@@ -14,17 +14,17 @@ Drawing objects can be used for a number of different purposes, like keeping tra
 
 ## Important related documentation
 
-- [[[Draw](../language_reference/drawing.md)
+- [Draw](../language_reference/drawing.md)
 
-- [[[Line()](../language_reference/line.md)
+- [Line()](../language_reference/line.md)
 
-- [[[RemoveDrawObject()](../language_reference/removedrawobject.md)
+- [RemoveDrawObject()](../language_reference/removedrawobject.md)
 
-- [[[RemoveDrawObjects()](../language_reference/removedrawobjects.md)
+- [RemoveDrawObjects()](../language_reference/removedrawobjects.md)
 
-- [[[CrossAbove()](../language_reference/crossabove.md)
+- [CrossAbove()](../language_reference/crossabove.md)
 
-- [[[CrossBelow()](../language_reference/crossbelow.md)
+- [CrossBelow()](../language_reference/crossbelow.md)
 
 ## Import instructions
 
@@ -34,4 +34,4 @@ Drawing objects can be used for a number of different purposes, like keeping tra
 
 3.Select the downloaded file
 
-[[[SampleRemoveDrawObjects\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleRemoveDrawObjects_NT8.zip)
+[SampleRemoveDrawObjects\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleRemoveDrawObjects_NT8.zip)

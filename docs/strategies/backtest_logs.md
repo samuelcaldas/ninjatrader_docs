@@ -6,15 +6,15 @@ The log also contains a saved snapshot version of the code used for the backtest
 
 > **Note:** Code save functionality only works on open and unlocked NinjaScript Strategies.   Strategies which are protected by the vendor cannot be used to save code.
 
-![[[StrategyAnalyzer_ShowLog](../images/strategyanalyzer_showlog.png)
+![StrategyAnalyzer_ShowLog](../images/strategyanalyzer_showlog.png)
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Understanding Logs NinjaTrader saves a log each time you perform a backtest in the strategyt analyzer. It saves several key information in the log which makes it easier to iterate on a strategy over time.    The log saves the following information per test:    |  |  | | --- | --- | | Instrument | The instrument the test was performed on. | | Backtest | The type of backtest that was performed | | Date | The date the backtest was performed | | Strategy | The strategy used for the backtest | | Data Series | The data series used for the backtest | | Start date | The start date used for the backtest | | End date | The end date used for the backtest | | Parameters | The parameters used for the backtest | | Total net profit | The total net profit for the backtest | | Notes | An optional field to add user defined notes to more accurately recall the test. Double click the field to begin editing and when complete press enter on the keyboard to set the note. | | Pinned | An optional field to Pin a result  to the top. Pinned results are useful for saving a specific backtest of note for reference later. | |
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -6,7 +6,7 @@ Provides trading session information to the bars type.  Must be built using the 
 
 ## Property Value
 
-A [[[SessionIterator](sessioniterator.md) object which is used to to calculate trading day/session information.
+A [SessionIterator](sessioniterator.md) object which is used to to calculate trading day/session information.
 
 ## Syntax
 

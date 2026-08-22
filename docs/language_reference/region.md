@@ -2,16 +2,16 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Region [[[IDrawingTool.](idrawingtool.md)
+Represents an interface that exposes information regarding a Region [IDrawingTool.](idrawingtool.md)
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
 | AreaOpacity | An int value representing the opacity of the area color |
-| AreaBrush | A [[[Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object representing the fill color of the draw object |
+| AreaBrush | A [Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object representing the fill color of the draw object |
 | OutlineStroke | A Stroke used for the outline of the region |
 
 ## Example

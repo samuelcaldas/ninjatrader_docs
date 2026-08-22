@@ -1,6 +1,6 @@
 # Instrument Types
 
-NinjaTrader supports the following Instrument types, although what your individual connected to provider can support will vary. Please consult [[[this link](../operations/data_by_provider.md) for more info.
+NinjaTrader supports the following Instrument types, although what your individual connected to provider can support will vary. Please consult [this link](../operations/data_by_provider.md) for more info.
 
 ## CFD (Contract for Difference)
 
@@ -14,7 +14,7 @@ NinjaTrader supports the following Instrument types, although what your individu
 
 - Cryptocurrencies can be charted but not traded.
 
-- They have a dedicated [[[Depth Chart](../operations/depth_chart.md) window for analysis
+- They have a dedicated [Depth Chart](../operations/depth_chart.md) window for analysis
 
 ## Forex
 
@@ -30,7 +30,7 @@ NinjaTrader supports the following Instrument types, although what your individu
 
 - They need to be requested with the specific desired expiry
 
-- Per default NinjaTrader will built continuous 'merged' contracts, for more info please consult [[[this link](mergepolicy.md).
+- Per default NinjaTrader will built continuous 'merged' contracts, for more info please consult [this link](mergepolicy.md).
 
 - The PnL will be currency converted to the account base denomination, NinjaTrader uses the CME FX futures (6A, 6B, 6E, etc) to make the conversion.
 
@@ -48,10 +48,10 @@ NinjaTrader supports the following Instrument types, although what your individu
 
 - Options can be charted (real-time only) and traded
 
-- Options master instruments and properties are dynamically injected into the database and therefore are not search-able. Also they are removed as the database file is [[[reset](../operations/database_operations.md) or deleted.
+- Options master instruments and properties are dynamically injected into the database and therefore are not search-able. Also they are removed as the database file is [reset](../operations/database_operations.md) or deleted.
 
-- Options are requested through the dedicated [[[Options Chain window](../operations/option-chain.md)
+- Options are requested through the dedicated [Options Chain window](../operations/option-chain.md)
 
-- Options can be less liquid than futures, especially before major economic data releases or in less popular expiration's or strikes. Using market orders including use of [[[Close](../addons/closing_a_position_or_atm_stra.md) or [[[Flatten all](../addons/flatten.md) could result in a fill worse than using limit orders.
+- Options can be less liquid than futures, especially before major economic data releases or in less popular expiration's or strikes. Using market orders including use of [Close](../addons/closing_a_position_or_atm_stra.md) or [Flatten all](../addons/flatten.md) could result in a fill worse than using limit orders.
 
 - Options are not supported for NinjaScript usage

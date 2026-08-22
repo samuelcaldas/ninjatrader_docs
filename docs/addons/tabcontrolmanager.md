@@ -2,9 +2,9 @@
 
 ## Definition
 
-The TabControlManager class can be used to set or check several properties of a [[[TabControl](tabcontrol.md) object. Rather than instantiating a TabControlManager object, you can use the public static methods of the class to set specific properties for a specified TabControl, as in the example code below.
+The TabControlManager class can be used to set or check several properties of a [TabControl](tabcontrol.md) object. Rather than instantiating a TabControlManager object, you can use the public static methods of the class to set specific properties for a specified TabControl, as in the example code below.
 
-> **Note:** For a complete, working example of this class in use, download framework example located on our [[[Developing AddOns Overview](developing_add_ons.md)
+> **Note:** For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)
 
  
 

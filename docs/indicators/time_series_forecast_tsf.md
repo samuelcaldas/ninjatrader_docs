@@ -24,7 +24,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 |  |  |
 | --- | --- |
 | forecast | Forecast period |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Example

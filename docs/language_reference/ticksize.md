@@ -14,7 +14,7 @@ TickSize
 
  
 
-> **Warning:** This property should NOT be accessed during State.SetDefaults from within the [[[OnStateChange()](onstatechange.md) method, all bars series would be guaranteed to have loaded in State.DataLoaded
+> **Warning:** This property should NOT be accessed during State.SetDefaults from within the [OnStateChange()](onstatechange.md) method, all bars series would be guaranteed to have loaded in State.DataLoaded
 
 ## Examples
 

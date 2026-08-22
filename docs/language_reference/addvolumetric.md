@@ -2,7 +2,7 @@
 
 ## Definition
 
-Similar to the [[[AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a [[[Order Flow](../strategies/order_flow_volumetric_bars.md) Volumetric Bars object for multi-series NinjaScript.
+Similar to the [AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a [Order Flow](../strategies/order_flow_volumetric_bars.md) Volumetric Bars object for multi-series NinjaScript.
 
 > **Notes:** here.
 

@@ -4,7 +4,7 @@
 
 The panel on which the chart scale resides.
 
-> **Note:** This value is NOT the same value as the indicator's [[[PanelUI](panelui.md). PanelIndex will provide the actual indexed value of the chart panel used for this chart scale.
+> **Note:** This value is NOT the same value as the indicator's [PanelUI](panelui.md). PanelIndex will provide the actual indexed value of the chart panel used for this chart scale.
 
 ## Property Value
 

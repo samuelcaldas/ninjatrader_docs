@@ -10,7 +10,7 @@ The FX Board is divided into two sections:
 
 2.  Order Grid Display (optional)
 
-![[[FXBoard_1](../images/fxboard_1.png)
+![FXBoard_1](../images/fxboard_1.png)
 
 Please see the sections below for more information on: Market Display and Order Grid
 
@@ -18,17 +18,17 @@ Please see the sections below for more information on: Market Display and Order 
 
 > **Note:** Positions and orders will only display for the selected Account and Instruments.
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding the market data section
+![tog_minus](../images/tog_minus.gif)        Understanding the market data section
 
-> Market Display The Market Display panel shows the inside bid and ask along with current position information.  Each tile will have two panels, representing the bid and ask price, where each respective panel will flash to represent when a tick has been received and the direction of the tick.   Market Display Definitions 1. The current spread between the best bid and best ask (the image below is showing a spread of 2.5 pips)  2. Position information  3. The handle of the current bid (current ask is on the right side of the spread)  4. The current bid  5. Sub pip value  6. The direction of the current tick (blue panel for an up tick, red panel for down tick)  7. The direction of the last tick received (blue arrow for an up tick, red arrow for down tick)  8. Current day high/low values    FXBoard_2    Instrument tiles also give you the ability to quickly place orders, or can be "flipped" to place custom orders.  Please see the section on [[[Submitting Orders](submitting_orders_fx_board.md) for more information.
+> Market Display The Market Display panel shows the inside bid and ask along with current position information.  Each tile will have two panels, representing the bid and ask price, where each respective panel will flash to represent when a tick has been received and the direction of the tick.   Market Display Definitions 1. The current spread between the best bid and best ask (the image below is showing a spread of 2.5 pips)  2. Position information  3. The handle of the current bid (current ask is on the right side of the spread)  4. The current bid  5. Sub pip value  6. The direction of the current tick (blue panel for an up tick, red panel for down tick)  7. The direction of the last tick received (blue arrow for an up tick, red arrow for down tick)  8. Current day high/low values    FXBoard_2    Instrument tiles also give you the ability to quickly place orders, or can be "flipped" to place custom orders.  Please see the section on [Submitting Orders](submitting_orders_fx_board.md) for more information.
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding the order grid section
+![tog_minus](../images/tog_minus.gif)        Understanding the order grid section
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Order Grid Display The Order Grid displays active orders for the account and instrument tiles selected in the FX Board window.    FXBoard_3   Column Definitions |  |  | | --- | --- | | Instrument | Name of the instrument | | Name | Order name such as Stop1 or Target1 | | Action | Buy or Sell | | Type | Order type | | Quantity | Number of contracts submitted | | Price | Order price | | State | State of the order | | Remaining | Quantity remaining to be filled | | Strategy | Name of ATM Strategy associated with the order | | Cancel | Cancels the order(s) |     Order Grouping Orders that are submitted to the same instrument will be grouped together in the Order Grid and displayed in an aggregated view to consolidate these orders together.     1. Orders that are part of an ATM Strategy will be further aggregated by the ATM Strategy template name, as well as control specific to ATM Strategies (see the section on [[[Managing Positions](managing_positions_fx_board.md) for more information on these controls)  2. Orders that are not part of an ATM Strategy will be aggregated under the row heading name "Unmanaged Orders" indicating that there is no ATM Strategy associated with that particular order     Tip:  You can collapse orders under an instrument header by selecting the down arrow next to the instrument name.     FXBoard_27 |
+| Order Grid Display The Order Grid displays active orders for the account and instrument tiles selected in the FX Board window.    FXBoard_3   Column Definitions |  |  | | --- | --- | | Instrument | Name of the instrument | | Name | Order name such as Stop1 or Target1 | | Action | Buy or Sell | | Type | Order type | | Quantity | Number of contracts submitted | | Price | Order price | | State | State of the order | | Remaining | Quantity remaining to be filled | | Strategy | Name of ATM Strategy associated with the order | | Cancel | Cancels the order(s) |     Order Grouping Orders that are submitted to the same instrument will be grouped together in the Order Grid and displayed in an aggregated view to consolidate these orders together.     1. Orders that are part of an ATM Strategy will be further aggregated by the ATM Strategy template name, as well as control specific to ATM Strategies (see the section on [Managing Positions](managing_positions_fx_board.md) for more information on these controls)  2. Orders that are not part of an ATM Strategy will be aggregated under the row heading name "Unmanaged Orders" indicating that there is no ATM Strategy associated with that particular order     Tip:  You can collapse orders under an instrument header by selecting the down arrow next to the instrument name.     FXBoard_27 |
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding the right click menu
+![tog_minus](../images/tog_minus.gif)        Understanding the right click menu
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

@@ -6,7 +6,7 @@ Draws an Andrew's Pitchfork.
 
 ## Method Return Value
 
-An [[[AndrewsPitchfork](andrewspitchfork.md) object that represents the draw object.
+An [AndrewsPitchfork](andrewspitchfork.md) object that represents the draw object.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, DateT
 | anchor3BarsAgo | The number of bars ago (x value) of the 3rd anchor point |
 | anchor3Time | The time of the 3rd anchor point |
 | anchor3Y | The y value of the 3rd anchor point |
-| brush | The brush used to color draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | dashStyle | DashStyleHelper.Dash   DashStyleHelper.DashDot   DashStyleHelper.DashDotDot   DashStyleHelper.Dot   DashStyleHelper.Solid    Note: Drawing objects with y values very far off the visible canvas can lead to performance hits. Fancier DashStyles like DashDotDot will also require more resources than simple DashStyles like Solid. |
 | width | The width of the draw object |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |

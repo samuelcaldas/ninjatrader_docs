@@ -7,8 +7,8 @@ Returns a time value relative to the chart control corresponding to a specified 
  
 
 > **Notes:**
-- A "Slot" is used in Equidistant [[[bar spacing](barspacingtype.md) and represents a position on the chart canvas background which may or may not contain a bar. The concept of "Slots" does NOT exist on a TimeBased bar spacing type.
-- If you are looking for information on a bar series, please see [[[ChartBars.GetTimeByBarIdx()](chartbars_gettimebybaridx.md)
+- A "Slot" is used in Equidistant [bar spacing](barspacingtype.md) and represents a position on the chart canvas background which may or may not contain a bar. The concept of "Slots" does NOT exist on a TimeBased bar spacing type.
+- If you are looking for information on a bar series, please see [ChartBars.GetTimeByBarIdx()](chartbars_gettimebybaridx.md)
 - For slot index values in the future, an estimation of time will be returned.  It is not possible to predict the future time of a bar for all bar series (i.e., tick/volume based bars)
 
 ## Method Return Value

@@ -31,7 +31,7 @@ Based on the image below, AxisYLeftWidth reveals that the space between the y-ax
 
  
 
-![[[ChartControl_AxisYLeftWidth](../images/chartcontrol_axisyleftwidth.png)
+![ChartControl_AxisYLeftWidth](../images/chartcontrol_axisyleftwidth.png)
 
  
 

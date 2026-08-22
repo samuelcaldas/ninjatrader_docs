@@ -6,7 +6,7 @@ A collection of StrategyBase objects generated for the specified account
 
 ## Property Value
 
-An [[[Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx) of StrategyBase objects
+An [Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx) of StrategyBase objects
 
 ## Syntax
 

@@ -12,13 +12,13 @@ Depending on the trader's style they may want to trade only during the volatile 
 
 ## Important related documentation
 
-- [[[DayOfWeek](../language_reference/tradinghours.md)
+- [DayOfWeek](../language_reference/tradinghours.md)
 
-- [[[Time](../drawing_tools/time.md)
+- [Time](../drawing_tools/time.md)
 
-- [[[ToTime()](../language_reference/totime.md)
+- [ToTime()](../language_reference/totime.md)
 
-- [[[ToDay()](../language_reference/today.md)
+- [ToDay()](../language_reference/today.md)
 
 ## Import instructions
 
@@ -28,4 +28,4 @@ Depending on the trader's style they may want to trade only during the volatile 
 
 3.Select the downloaded file
 
-[[[SampleTimeFilter\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleTimeFilter_NT8.zip)
+[SampleTimeFilter\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleTimeFilter_NT8.zip)

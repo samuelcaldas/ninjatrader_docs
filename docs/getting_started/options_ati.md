@@ -1,8 +1,8 @@
 # Automated trading interface
 
-The Automated trading interface section sets options for the [[[Automated Trading Interface](../operations/automated_trading_interface_at.md).
+The Automated trading interface section sets options for the [Automated Trading Interface](../operations/automated_trading_interface_at.md).
 
-![[[Options_AutomatedTradingInterface](../images/options_automatedtradinginterface.png)
+![Options_AutomatedTradingInterface](../images/options_automatedtradinginterface.png)
 
 ## General Properties
 
@@ -28,5 +28,5 @@ This property group sets the TradeStation email interface properties. Detailed i
 | Delay conversion of unfilled amount to market after TS fill (secs) | Number of seconds NinjaTrader will delay converting any unfilled NinjaTrader orders after Tradestation reports it has filled the orders. This only applies to the order handling "Submit as is" mode. |
 | Synchronization timeout (secs) | Number of seconds NinjaTrader will provide a pop up notification if order are out of synchronization (For example; TS reports a fill but NinjaTrader live order is not filled) |
 | Stop Orders |  |
-| Submit | Sets how NinjaTrader will handle stop orders submitted from the email interface. This property only applies to the order handling mode "Submit as is".    Submit as is: Submits the specified stop order when NinjaTrader receives a strategy active order email notification from TradeStation    Convert to stop limit: Submits a stop-limit order when NinjaTrader receives a strategy active order email notification from TradeStation for any stop order type. The property "Limit price offset as ticks" will be made available where you set the amount of ticks the limit price is offset from the stop price.    Submit as simulated stop: Submits a locally simulated stop-market order when NinjaTrader receives a strategy active order email notification from TradeStation for any stop order type. See more information on simulated stops [[[here](../strategies/simulated_stop_orders.md). |
-| Submit market order if stop order was rejected | If a stop order is rejected for any reason, a market order will be sent. Please see the [[[following section for disclaimer and risks](../strategies/stop_order_handling.md) of this feature. |
+| Submit | Sets how NinjaTrader will handle stop orders submitted from the email interface. This property only applies to the order handling mode "Submit as is".    Submit as is: Submits the specified stop order when NinjaTrader receives a strategy active order email notification from TradeStation    Convert to stop limit: Submits a stop-limit order when NinjaTrader receives a strategy active order email notification from TradeStation for any stop order type. The property "Limit price offset as ticks" will be made available where you set the amount of ticks the limit price is offset from the stop price.    Submit as simulated stop: Submits a locally simulated stop-market order when NinjaTrader receives a strategy active order email notification from TradeStation for any stop order type. See more information on simulated stops [here](../strategies/simulated_stop_orders.md). |
+| Submit market order if stop order was rejected | If a stop order is rejected for any reason, a market order will be sent. Please see the [following section for disclaimer and risks](../strategies/stop_order_handling.md) of this feature. |

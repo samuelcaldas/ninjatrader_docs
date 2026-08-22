@@ -2,7 +2,7 @@
 
 ## Definition
 
-Rearms an alert created via the [[[Alert()](alert.md) method.
+Rearms an alert created via the [Alert()](alert.md) method.
 
  
 

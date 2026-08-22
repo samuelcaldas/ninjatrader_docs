@@ -2,7 +2,7 @@
 
 ## Definition
 
-Provides an default DirectWrite factory used for creating [[[SharpDX.DirectWrite](sharpdx_directwrite.md) components.
+Provides an default DirectWrite factory used for creating [SharpDX.DirectWrite](sharpdx_directwrite.md) components.
 
 ## Property Value
 

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Contains the last value of [[[CurrentValue](currentvalue.md). PriorValue is assigned the value of CurrentValue immediately before CurrentValue is updated.
+Contains the last value of [CurrentValue](currentvalue.md). PriorValue is assigned the value of CurrentValue immediately before CurrentValue is updated.
 
 ## Property Value
 

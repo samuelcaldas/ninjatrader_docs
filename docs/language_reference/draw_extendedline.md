@@ -6,7 +6,7 @@ Draws a line with infinite end points.
 
 ## Method Return Value
 
-An [[[ExtendedLine](extendedline.md) object that represents the draw object.
+An [ExtendedLine](extendedline.md) object that represents the draw object.
 
 Syntax  
 Draw.ExtendedLine(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
@@ -33,7 +33,7 @@ Draw.ExtendedLine(NinjaScriptBase owner, string tag, DateTime startTime, double 
 | endBarsAgo | The end bar (x axis co-ordinate) where the draw object will terminate |
 | endTime | The end time where the draw object will terminate |
 | endY | The end y value co-ordinate where the draw object will terminate |
-| brush | The brush used to color draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | dashStyle | DashStyleHelper.Dash   DashStyleHelper.DashDot   DashStyleHelper.DashDotDot   DashStyleHelper.Dot   DashStyleHelper.Solid    Note: Drawing objects with y values very far off the visible canvas can lead to performance hits. Fancier DashStyles like DashDotDot will also require more resources than simple DashStyles like Solid. |
 | width | The width of the draw object |
 | drawOnPricePanel | Determines if the draw-object should be on the price panel or a separate panel |

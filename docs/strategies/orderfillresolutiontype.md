@@ -4,17 +4,17 @@
 
 Determines the bars type which will be used for historical fill processing.
 
-> **Note:** This property will only be valid if the [[[OrderFillResolution](orderfillresolution.md) is set to OrderFillResolution.High
+> **Note:** This property will only be valid if the [OrderFillResolution](orderfillresolution.md) is set to OrderFillResolution.High
 
 ## Property Value
 
-A [[[BarsPeriodType](../language_reference/barsperiod.md) representing the type of bars during historical order processing.  Default value is set to BarsPeriodType.Minute.
+A [BarsPeriodType](../language_reference/barsperiod.md) representing the type of bars during historical order processing.  Default value is set to BarsPeriodType.Minute.
 
 ## Syntax
 
 `OrderFillResolutionType`
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults
 
 ## Examples
 

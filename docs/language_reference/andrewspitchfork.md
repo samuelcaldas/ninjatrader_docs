@@ -2,7 +2,7 @@
 
 ## Definition
 
-Represents an object that exposes information regarding an Andrews Pitchfork [[[IDrawingTool](idrawingtool.md).
+Represents an object that exposes information regarding an Andrews Pitchfork [IDrawingTool](idrawingtool.md).
 
  
 
@@ -20,17 +20,17 @@ As further alternation the Modified Schiff Pitchfork variant is found by moving 
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
-| ExtensionAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the extension point of the drawing object |
-| [[[PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| ExtensionAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the extension point of the drawing object |
+| [PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
 | CalculationMethod | The AndrewsPitchforkCalculationMethod property determining which method is used to calculate the pitchfork.    Possible values are:
 - ModifiedSchiff
 - Schiff
 - StandardPitchfork |
 | IsTextDisplayed | A bool value determining if the draw object should display text on the chart. |
-| RetracementLineStroke | A [[[Stroke](stroke_class.md) object used to draw the center retracement line of the object |
-| AnchorLineStroke | A [[[Stroke](stroke_class.md) object used to draw the object |
+| RetracementLineStroke | A [Stroke](stroke_class.md) object used to draw the center retracement line of the object |
+| AnchorLineStroke | A [Stroke](stroke_class.md) object used to draw the object |
 
 ## Example
 

@@ -47,7 +47,7 @@ To plot our final calculation we will store the calculation in our plot called '
 MyPlot[0] = SMA(SMAPeriod)[0] + MySeries[0];
 ```
 
-Here we assign the SMA + `Series<double>` value to the property that represents the plot data using the "=" assignment operator. We have just finished coding our CustomSeries example. The class code in your editor should look identical to the below. You are now ready to [[[compile the indicator](compiling4.md) and configure it on a chart.
+Here we assign the SMA + `Series<double>` value to the property that represents the plot data using the "=" assignment operator. We have just finished coding our CustomSeries example. The class code in your editor should look identical to the below. You are now ready to [compile the indicator](compiling4.md) and configure it on a chart.
 
 ```csharp
 public class CustomSeries : Indicator

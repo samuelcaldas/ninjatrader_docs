@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns the [[[ChartBars](chartbars.md) index value calculated from the time parameter provided.
+Returns the [ChartBars](chartbars.md) index value calculated from the time parameter provided.
 
 ## Method Return Value
 
@@ -16,8 +16,8 @@ An int representing the bar index value at a specific time
 
 |  |  |
 | --- | --- |
-| chartControl | The [[[ChartControl](chartcontrol.md) object used to determine the chart's time axis |
-| time | The [[[DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) value used to convert to a ChartBar index value |
+| chartControl | The [ChartControl](chartcontrol.md) object used to determine the chart's time axis |
+| time | The [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) value used to convert to a ChartBar index value |
 
 ## Examples
 

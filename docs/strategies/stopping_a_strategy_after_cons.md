@@ -8,19 +8,19 @@ Trending days or ranging days can make or break a strategy. If you have a system
 
 ## Important related documentation
 
-- [[[SystemPerformance](systemperformance.md)
+- [SystemPerformance](systemperformance.md)
 
-- [[[TradeCollection](tradecollection.md)
+- [TradeCollection](tradecollection.md)
 
-- [[[AllTrades\*](alltrades.md)
+- [AllTrades\*](alltrades.md)
 
-- [[[EnterLong()](enterlong.md)
+- [EnterLong()](enterlong.md)
 
-- [[[ExitLong()](exitlong.md)
+- [ExitLong()](exitlong.md)
 
-- [[[IsFirstBarOfSession](../language_reference/isfirstbarofsession.md)
+- [IsFirstBarOfSession](../language_reference/isfirstbarofsession.md)
 
-- [[[IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
+- [IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
 
 \* This reference sample uses the .AllTrades property. This property will include all historical virtual trades as well as real-time trades. If you wish to only make calculations based on real-time trades you can use the .RealtimeTrades property.
 
@@ -32,4 +32,4 @@ Trending days or ranging days can make or break a strategy. If you have a system
 
 3.Select the downloaded file
 
-[[[SampleTradeObjects\_Nt8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleTradeObjects_Nt8.zip)
+[SampleTradeObjects\_Nt8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleTradeObjects_Nt8.zip)

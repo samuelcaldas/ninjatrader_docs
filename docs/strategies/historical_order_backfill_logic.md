@@ -30,7 +30,7 @@ The steps involved in determining the appropriate fill price for an order are do
 
 4.Determine the strategy being run
 
-5.Determine the [[[Bars In Progress](../language_reference/barsinprogress.md) the strategy is currently processing
+5.Determine the [Bars In Progress](../language_reference/barsinprogress.md) the strategy is currently processing
 
  
 

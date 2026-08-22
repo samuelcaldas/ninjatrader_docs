@@ -4,11 +4,11 @@ There are some best practices to be aware of when developing NinjaScript classes
 
 > **Note:** NinjaTrader is multi-threaded and event driven. Always assume that any of the methods you implement in NinjaScript could be called from another thread.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Managing Resources The [[[OnStateChange(](../language_reference/onstatechange.md)) method is called anytime there has been a change of [[[State](../language_reference/state.md) and can be used to help you setup, manage, and destroy several types of resources.  Where these values are setup is highly dependent on the kind of resource you are using.  The section below will cover how to manage various resources throughout different states.   Setting Default UI Property Grid values Reserve State.SetDefaults for defaulting any public properties you wish to have exposed on the UI property grid.   You should also use this State for setting default desired NinjaScript property behavior which can be overridden from the property grid (e.g. [[[Calculate](../language_reference/calculate.md), [[[IsOverlay](../language_reference/isoverlay.md), etc.).  For Plots and Lines you wish to configure, [[[AddPlot()](../indicators/addplot.md), [[[AddLine()](../indicators/addline.md) should also have their default values set during this State    |  | | --- | | Why: Public values of the NinjaScript object in SetDefaults are pushed to the UI property grid for an opportunity to change settings of your object. |     
+| Managing Resources The [OnStateChange(](../language_reference/onstatechange.md)) method is called anytime there has been a change of [State](../language_reference/state.md) and can be used to help you setup, manage, and destroy several types of resources.  Where these values are setup is highly dependent on the kind of resource you are using.  The section below will cover how to manage various resources throughout different states.   Setting Default UI Property Grid values Reserve State.SetDefaults for defaulting any public properties you wish to have exposed on the UI property grid.   You should also use this State for setting default desired NinjaScript property behavior which can be overridden from the property grid (e.g. [Calculate](../language_reference/calculate.md), [IsOverlay](../language_reference/isoverlay.md), etc.).  For Plots and Lines you wish to configure, [AddPlot()](../indicators/addplot.md), [AddLine()](../indicators/addline.md) should also have their default values set during this State    |  | | --- | | Why: Public values of the NinjaScript object in SetDefaults are pushed to the UI property grid for an opportunity to change settings of your object. |     
 ```csharp
 protected override void OnStateChange()
 {
@@ -22,18 +22,18 @@ protected override void OnStateChange()
         AddLine(Brushes.Gray, 100, "Threshold");
     }
 }
-For public properties you do NOT wish exposed to the UI property grid, set the [[[Browsable](../language_reference/browsableattribute.md) attribute to false:
+For public properties you do NOT wish exposed to the UI property grid, set the [Browsable](../language_reference/browsableattribute.md) attribute to false:
 
 csharp
 [Browsable(false)] // prevents from showing up on the UI property grid
 public int Communicator { get; set; }
-On indicators, properties you wish to set from other objects, set the [[[NinjaScriptPropertyAttribute](../language_reference/ninjascriptpropertyattribute.md):
+On indicators, properties you wish to set from other objects, set the [NinjaScriptPropertyAttribute](../language_reference/ninjascriptpropertyattribute.md):
 
 csharp
 [NinjaScriptProperty] // can now call MyIndicator(20) from another object
 public int Period { get; set; }
 The default behavior is to serialize any public properties and fields to a Workspace or Template file when saving. However, not all objects can be serialized - or you may wish to exclude a property from being saved and restored.
-For these scenarios, set the [[[XMLIgnore](../language_reference/xmlignoreattribute.md) attribute to the property:
+For these scenarios, set the [XMLIgnore](../language_reference/xmlignoreattribute.md) attribute to the property:
 
 csharp
 [XmlIgnore] // removes from serialization
@@ -42,12 +42,12 @@ public Brush DownBrush
 As a best practice as well, your NinjaScript should not have any public fields, since those would get serialized as well - which means their state would be persisted, which in turn could lead to unexpected outcomes.
 
 ```
-| | --- | | Tip: See the [[[Working with Brushes](working_with_brushes.md) section of the Help Guide for information on properly serializing brushes |
+| | --- | | Tip: See the [Working with Brushes](working_with_brushes.md) section of the Help Guide for information on properly serializing brushes |
 Calculating run-time object values
 Do not attempt to do advanced calculations or try to access object references in State.SetDefaults.
 This State should be kept as lean as possible, and any calculation logic should be delayed until at least State.Configure
 |
-| | --- | | Why: Your object will be called in situations you may not be expecting. You can read more about this subject on [[[Understanding the life cycle of your NinjaScript objects](understanding_the_lifecycle_of.md) |
+| | --- | | Why: Your object will be called in situations you may not be expecting. You can read more about this subject on [Understanding the life cycle of your NinjaScript objects](understanding_the_lifecycle_of.md) |
 
 ```csharp
 protected override void OnStateChange()
@@ -103,7 +103,7 @@ Resetting class level variables for Strategy Analyzer Optimization To take advan
 
 ```
 | | --- | | Why:
-When optimizing a strategy, instances may or may not be recycled depending on the strategy [[[IsInstantiatedOnEachOptimizationIteration](../strategies/isinstantiatedoneachoptimizationiteration.md) setting. |
+When optimizing a strategy, instances may or may not be recycled depending on the strategy [IsInstantiatedOnEachOptimizationIteration](../strategies/isinstantiatedoneachoptimizationiteration.md) setting. |
 
 ```csharp
 // examples of fields which need to be reset
@@ -169,9 +169,9 @@ protected override void OnStateChange()
 }
 
 ```
-| | --- | | Note: All additional data series must be added in State.Configure (this includes series that any hosted script potentially needs as well - [[[more info](http://ninjatrader.com/support/helpGuides/nt8/en-us/adddataseries.md)). Since objects such as [[[Instrument](../language_reference/instrument.md), [[[BarsPeriod](../language_reference/barsperiod.md), [[[TradingHours](../language_reference/tradinghours.md), etc. are NOT guaranteed to be available until State.DataLoaded, you cannot reliably use the primary instrument properties as arguments in [[[AddDataSeries()](../language_reference/adddataseries.md).
+| | --- | | Note: All additional data series must be added in State.Configure (this includes series that any hosted script potentially needs as well - [more info](http://ninjatrader.com/support/helpGuides/nt8/en-us/adddataseries.md)). Since objects such as [Instrument](../language_reference/instrument.md), [BarsPeriod](../language_reference/barsperiod.md), [TradingHours](../language_reference/tradinghours.md), etc. are NOT guaranteed to be available until State.DataLoaded, you cannot reliably use the primary instrument properties as arguments in [AddDataSeries()](../language_reference/adddataseries.md).
 Attempting to add a data series dynamically is NOT guaranteed and therefore should be avoided.
-In some cases, you may be able to use a [[[BarsRequest()](../addons/barsrequest.md) to obtain market data for other instruments and intervals. |
+In some cases, you may be able to use a [BarsRequest()](../addons/barsrequest.md) to obtain market data for other instruments and intervals. |
 Setting up resources that rely on market data
 For objects which depend on market data, delay their construction until the State has reached State.DataLoaded
 |
@@ -191,7 +191,7 @@ protected override void OnStateChange()
         mySessionIterator = new SessionIterator(Bars);
     }
 }
-Accessing element on the UI For objects which exist on the UI (e.g., [[[ChartControl](../language_reference/chartcontrol.md), [[[ChartPanel](../language_reference/chartpanel.md), [[[ChartBars](../language_reference/chartbars.md), [[[NTWindow](../addons/ntwindow.md), etc.) wait until the State has reached State.Historical.
+Accessing element on the UI For objects which exist on the UI (e.g., [ChartControl](../language_reference/chartcontrol.md), [ChartPanel](../language_reference/chartpanel.md), [ChartBars](../language_reference/chartbars.md), [NTWindow](../addons/ntwindow.md), etc.) wait until the State has reached State.Historical.
 This practice is correct for both reading properties or should you wish to add custom elements to the existing UI.
 
 ```
@@ -215,7 +215,7 @@ Transitioning order references from historical to real-time When dealing with st
 
 ```
 | | --- | | Why: As the core order object updates, NinjaTrader has no specific way to update your locally stored order references.
-You can read more about this subject on the Advanced Order Handling topic: [[[Transitioning order references from historical to live](../strategies/advanced_order_handling.md) |
+You can read more about this subject on the Advanced Order Handling topic: [Transitioning order references from historical to live](../strategies/advanced_order_handling.md) |
 
 ```csharp
 private Order entryOrder = null;
@@ -241,7 +241,7 @@ Terminating custom resources Use a flag to track when resources have been set up
 
 ```
 | | --- | | Why:
-Checking that an object has been configured ensures that values not destroyed prematurely. You can read more about this subject on [[[Understanding the life cycle of your NinjaScript objects](understanding_the_lifecycle_of.md) |
+Checking that an object has been configured ensures that values not destroyed prematurely. You can read more about this subject on [Understanding the life cycle of your NinjaScript objects](understanding_the_lifecycle_of.md) |
 
 ```csharp
 protected override void OnStateChange()
@@ -263,7 +263,7 @@ protected override void OnStateChange()
 }
 ```
 
-![[[tog_minus](../images/tog_minus.gif)        Error handling practices
+![tog_minus](../images/tog_minus.gif)        Error handling practices
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -307,7 +307,7 @@ Instead, you should issue warnings or log errors instructing users to modify set
 ```
 | | --- | | Why:
 NinjaTrader makes no guarantee that the requested changes will take effect, and user settings always take precedences.
-This includes the user defined [[[ChartControl.Properties](../language_reference/chartcontrol_properties.md), [[[ChartBars.Properties](../language_reference/chartbars_properties.md), and [[[ChartPanel.Properties](../language_reference/chartscale_properties.md). Furthermore, two different user scripts could be installed which also attempt to modify properties you are relying which could introduce conflicts. |
+This includes the user defined [ChartControl.Properties](../language_reference/chartcontrol_properties.md), [ChartBars.Properties](../language_reference/chartbars_properties.md), and [ChartPanel.Properties](../language_reference/chartscale_properties.md). Furthermore, two different user scripts could be installed which also attempt to modify properties you are relying which could introduce conflicts. |
 
 ```csharp
 if (State == State.Historical)
@@ -322,7 +322,7 @@ Modifying UI elements and multi-threading When interacting with UI objects, such
 ```
 | | --- | | Critical:
 Improper thread handling from a NinjaScript object is a common cause of application deadlocks.
-Please be sure to read more information on [[[Multi-Threading Consideration for NinjaScript](multi-threading.md) |
+Please be sure to read more information on [Multi-Threading Consideration for NinjaScript](multi-threading.md) |
 
 ```csharp
 // using a Dispatcher will ensure that the corresponding action executes on the associated thread
@@ -373,9 +373,9 @@ SolidColorBrush coolGreen = new SolidColorBrush(Color.FromRgb(30, 255, 128));
 opaqueBlue.Freeze();
 coolGreen.Freeze();
 barsAgo indexer vs. absolute bar Index
-As you probably know, you can quickly look up the bar value on the chart by calling a [[[PriceSeries<T>](../language_reference/priceseries.md) barsAgo indexer, e.g., Close[0].
+As you probably know, you can quickly look up the bar value on the chart by calling a [PriceSeries<T>](../language_reference/priceseries.md) barsAgo indexer, e.g., Close[0].
 However, the internal indexer and pointers about the barsAgo value are only guaranteed to be correctly synced and updated during a market data event.
-As a result, you should favor using the absolute [[[GetValueAt()](../language_reference/getvalueat.md) methods during events which are not driven by price
+As a result, you should favor using the absolute [GetValueAt()](../language_reference/getvalueat.md) methods during events which are not driven by price
 
 ```
 | | --- | | Why:
@@ -395,7 +395,7 @@ private void myCustomClickHandler(object sender, MouseButtonEventArgs e)
 
 ```
 | | --- | | Tip:
-If you have programming requirements which rely on a PriceSeries indexer, you can use the [[[TriggerCustomEvent()](../language_reference/triggercustomevent.md) delegate which will update the internal pointers and indexes before executing the logic you specify. |
+If you have programming requirements which rely on a PriceSeries indexer, you can use the [TriggerCustomEvent()](../language_reference/triggercustomevent.md) delegate which will update the internal pointers and indexes before executing the logic you specify. |
 Casting safely Avoid type casting and type conversion as much as possible.
 Casting from a mixed collection of types is also prone to exceptions especially in situations that may not occur when you originally test your code.
 |
@@ -427,7 +427,7 @@ foreach (IDrawingTool hLine in DrawObjects)
 }
 ```
 
-![[[tog_minus](../images/tog_minus.gif)        Performance practices
+![tog_minus](../images/tog_minus.gif)        Performance practices
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -516,7 +516,7 @@ using (StreamWriter writer2 = new StreamWriter("some\_file.txt"))
 ```
 | | --- | | Tip:
 This is most commonly applicable when using SharpDX resources for custom rendering.
-Please be sure to review the information on [[[Best Practices for SharpDX Resources](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md#bestpracticesforsharpdxresources) |
+Please be sure to review the information on [Best Practices for SharpDX Resources](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md#bestpracticesforsharpdxresources) |
 Avoiding duplicate calculations Be mindful where and when your potentially complex calculations would be recalculated and thus run the risk of being calculated redundantly. For example, you may have logic which only needs to calculate, e.g., once per instance, once per session, once per bar, etc.
 
 ```csharp
@@ -526,7 +526,7 @@ if (Bars.IsFirstBarOfSession)
 {
     TradingHours.GetPreviousTradingDayEnd(Time[0]);
 }
-The same considerations would apply to variables or function calls that would not change their output value for the currently processed bar on [[[Calculate.OnEachTick](../language_reference/calculate.md) or [[[.OnPriceChange](../language_reference/calculate.md), thus there would be no need handling them outside of [[[IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
+The same considerations would apply to variables or function calls that would not change their output value for the currently processed bar on [Calculate.OnEachTick](../language_reference/calculate.md) or [.OnPriceChange](../language_reference/calculate.md), thus there would be no need handling them outside of [IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
 
 csharp
 // dedicated logic to cache the prior sum on each tick of bar
@@ -536,7 +536,7 @@ priorSum = sum;
 sum = priorSum + Input[0] - (CurrentBar >= Period ? Input[Period] : 0);
 Value[0] = sum / (CurrentBar < Period ? CurrentBar + 1 : Period);
 Caching values on bars which remove last bar
-Building on the previous example, be careful when caching values on the first tick of bar if using bars types which are [[[IsRemoveLastBarSupported](../language_reference/isremovelastbarsupported.md).
+Building on the previous example, be careful when caching values on the first tick of bar if using bars types which are [IsRemoveLastBarSupported](../language_reference/isremovelastbarsupported.md).
 To see how to handle these situations best, take a look at the default SMA indicator which has an additional logic branch which disables caching on those bar types:
 
 csharp
@@ -586,7 +586,7 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
     }
 }
 Restricting OnRender() calculations to visible ChartBars
-Use the [[[ChartBars.FromIndex](../language_reference/chartbars_fromindex.md) and [[[ChartBars.ToIndex](../language_reference/chartbars_toindex.md) to limit calculations to only what is visible on the chart
+Use the [ChartBars.FromIndex](../language_reference/chartbars_fromindex.md) and [ChartBars.ToIndex](../language_reference/chartbars_toindex.md) to limit calculations to only what is visible on the chart
 
 ```
 | | --- | | Why: Rendering should be reserved for rendering on what is visible on the Chart.
@@ -601,9 +601,9 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
         Print(ChartControl.GetSlotIndexByX(barIndex));
     }
 }
-Using DrawObjects vs custom graphics in OnRender() When using [[[Draw methods](../language_reference/drawing.md), a new instance of the Draw object is created including its custom rendering and calculation logic.
+Using DrawObjects vs custom graphics in OnRender() When using [Draw methods](../language_reference/drawing.md), a new instance of the Draw object is created including its custom rendering and calculation logic.
 These methods are convenient in many situations, but can quickly introduce performance issues if used too liberally.
-In some situations, you may see better performance for rendering via [[[SharpDX](../drawing_tools/sharpdx.md) in [[[OnRender()](../language_reference/onrender.md).
+In some situations, you may see better performance for rendering via [SharpDX](../drawing_tools/sharpdx.md) in [OnRender()](../language_reference/onrender.md).
 
 ```
 | | --- | | Why: Each draw object instance will see its own OnRender() called to render values. If you instead implement custom rendering in the your object, you would only see a single OnRender() call for your custom created graphics. |
@@ -617,7 +617,7 @@ protected override void OnBarUpdate()
     Draw.Dot(this, "everyDot" + CurrentBar, false, 0, Close[0], Brushes.Blue);
 }
 With just a little extra code (much less than what is in the Draw methods) custom SharpDX rendering greatly reduces CPU and Memory consumption
-Please ensure a Direct2D1 factory would only be instantiated from [[[OnRender()](../language_reference/onrender.md) or [[[OnRenderTargetChanged()](../language_reference/onrendertargetchanged.md) (which run in the UI thread), as access from other threads outside those methods could cause a degradation in performance.
+Please ensure a Direct2D1 factory would only be instantiated from [OnRender()](../language_reference/onrender.md) or [OnRenderTargetChanged()](../language_reference/onrendertargetchanged.md) (which run in the UI thread), as access from other threads outside those methods could cause a degradation in performance.
 
 csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
@@ -713,11 +713,11 @@ protected override void OnBarUpdate()
 }
 ```
 
-![[[tog_minus](../images/tog_minus.gif)        Miscellaneous practices
+![tog_minus](../images/tog_minus.gif)        Miscellaneous practices
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
-| Floating-point comparison Be aware of floating-point precision problems. It can sometimes be more reliable to check within a certain degree of tolerance, such as the [[[TickSize](../language_reference/ticksize.md).    |  | | --- | | Why:  You can read more about [[[Floating-Point Arithmetic](http://ninjatrader.com/support/forum/showthread.php?t=3929) as it applies to NinjaTrader on our support forum |     
+| Floating-point comparison Be aware of floating-point precision problems. It can sometimes be more reliable to check within a certain degree of tolerance, such as the [TickSize](../language_reference/ticksize.md).    |  | | --- | | Why:  You can read more about [Floating-Point Arithmetic](http://ninjatrader.com/support/forum/showthread.php?t=3929) as it applies to NinjaTrader on our support forum |     
 ```csharp
 // depending on how Value[0] was calculated, it could be off by a degree of floating points
 // where this logic below would never be true
@@ -739,11 +739,11 @@ if (Close[0].ApproxCompare(Value[0]) == 0)
 {
     // do something
 }
-Creating user defined parameter types / enums When creating enums for your NinjaScript objects, it is strongly suggested to define those outside the class and in a custom namespace. A reference sample providing all details could be [[[found here](../indicators/creating_a_user-defined_parame.md).
+Creating user defined parameter types / enums When creating enums for your NinjaScript objects, it is strongly suggested to define those outside the class and in a custom namespace. A reference sample providing all details could be [found here](../indicators/creating_a_user-defined_parame.md).
 Efficiently debugging Extremely liberal use of Log() and Print() methods can represent a performance hit on your PC as it takes memory and time to process each one of those method calls. When running custom NinjaScript, especially when using Calculate = Calculate.OnEachTick, please be mindful of how often Log() and Print() methods are processed as it can quickly consume PC resources.
 - Log() method should not be used except for critical messages as each log entry makes it to the Control Center log which stays active till the end of the day. Excessive logging can result in huge amounts of memory being allocated just to display all the log messages which would mean less memory for NinjaTrader to do other tasks.
 - Print() method can be used more liberally than the Log() method, but can still represent a performance hit if used with extremely high frequency. Consider decreasing the printing from your script if you experience slowdowns when running the script.
-Debug Mode The debug mode should only be used if you are actively debugging a script and [[[attached to a debugger](visual_studio_debugging.md).
+Debug Mode The debug mode should only be used if you are actively debugging a script and [attached to a debugger](visual_studio_debugging.md).
 
 ```
 | | --- | | Why:

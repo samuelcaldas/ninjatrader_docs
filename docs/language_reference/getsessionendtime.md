@@ -6,7 +6,7 @@ Returns the daily bar session ending time stamp relative to the current bar inde
 
  
 
-> **Note:** This method is ONLY intended for bars built from daily data.   If called on intraday data, GetSessionEndTime() will return the [[[Bars.GetTime()](gettime.md) value.
+> **Note:** This method is ONLY intended for bars built from daily data.   If called on intraday data, GetSessionEndTime() will return the [Bars.GetTime()](gettime.md) value.
 
  
 

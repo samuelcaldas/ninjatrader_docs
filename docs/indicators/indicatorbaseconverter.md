@@ -2,21 +2,21 @@
 
 ## Definition
 
-A custom [[[TypeConverter](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx) class handling the designed behavior of an indicator's property descriptor collection.  Use this as a base class for any custom TypeConverter you are applying to an indicator class.
+A custom [TypeConverter](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx) class handling the designed behavior of an indicator's property descriptor collection.  Use this as a base class for any custom TypeConverter you are applying to an indicator class.
 
 > **Notes:**
-- A working NinjaScript demo can be found through the reference sample on "[[[Using a TypeConverter to Customize Property Grid Behavior](http://ninjatrader.com/support/forum/showthread.php?t=97919)"
+- A working NinjaScript demo can be found through the reference sample on "[Using a TypeConverter to Customize Property Grid Behavior](http://ninjatrader.com/support/forum/showthread.php?t=97919)"
 - When applying the custom converter, you must fully qualify the name (e.g., "NinjaTrader.NinjaScript.Indicators.MyCustomConveter")
-- Additional TypeConverter information can be found from the [[[MSDN documentation](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx)
-- See also [[[TypeConverterAttribute](../language_reference/typeconverterattribute.md)
-- For Strategies, see the [[[StrategyBaseConverter](../strategies/strategybaseconverter.md) class
+- Additional TypeConverter information can be found from the [MSDN documentation](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx)
+- See also [TypeConverterAttribute](../language_reference/typeconverterattribute.md)
+- For Strategies, see the [StrategyBaseConverter](../strategies/strategybaseconverter.md) class
 
 ## Relevant base methods
 
 |  |  |
 | --- | --- |
-| [[[TypeConverter.GetProperties()](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter.getproperties(v=vs.110).aspx) | When overriding GetProperties(), calling base.GetProperties() ensures that all default property grid behavior works as designed |
-| [[[TypeConverter.GetPropertiesSupported()](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter.getpropertiessupported(v=vs.110).aspx) | In your custom converter class, you must override GetPropertiesSupported() and return a value of true in order for your custom type converter to work |
+| [TypeConverter.GetProperties()](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter.getproperties(v=vs.110).aspx) | When overriding GetProperties(), calling base.GetProperties() ensures that all default property grid behavior works as designed |
+| [TypeConverter.GetPropertiesSupported()](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter.getpropertiessupported(v=vs.110).aspx) | In your custom converter class, you must override GetPropertiesSupported() and return a value of true in order for your custom type converter to work |
 
 ## Syntax
 
@@ -26,7 +26,7 @@ public class IndicatorBaseConverter : TypeConverter
 
 > **Warning:** Failure to apply a type of IndicatorBaseConverter on an indicator class can result in unpredictable behavior of the standard NinjaTrader WPF property grid.
 
-> **Tip:** Common indicator functions like Print() are not available to a type converter instance.  To debug a type converter class, you can use the AddOn [[[Debug Concepts](../addons/alert_and_debug_concepts.md) or [[[attach to a debugger](../ninjascript/visual_studio_debugging.md) (recommended)
+> **Tip:** Common indicator functions like Print() are not available to a type converter instance.  To debug a type converter class, you can use the AddOn [Debug Concepts](../addons/alert_and_debug_concepts.md) or [attach to a debugger](../ninjascript/visual_studio_debugging.md) (recommended)
 
 ## Examples
 

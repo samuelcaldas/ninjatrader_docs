@@ -4,7 +4,7 @@
 
 Gets the current position's average price of the specified ATM Strategy.
 
-> **Note:** Changes to positions will not be reflected till at least the next [[[OnBarUpdate()](../language_reference/onbarupdate.md) event after an order fill.
+> **Note:** Changes to positions will not be reflected till at least the next [OnBarUpdate()](../language_reference/onbarupdate.md) event after an order fill.
 
 ## Method Return Value
 

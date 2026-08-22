@@ -1,6 +1,6 @@
 # Entering Calculation Logic
 
-The [[[OnBarUpdate()](../language_reference/onbarupdate.md) method is called for each incoming tick, or on the close of a bar (if enabled) when performing real-time calculations, and is called on each bar of a [[[Bars](../language_reference/bars.md) object when re-calculating the indicator (For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed). This is the main method used for indicator calculations, and we will calculate our core indicator logic (testing to see if a Close price on a specified bar was greater than the previous Close price) within this method.
+The [OnBarUpdate()](../language_reference/onbarupdate.md) method is called for each incoming tick, or on the close of a bar (if enabled) when performing real-time calculations, and is called on each bar of a [Bars](../language_reference/bars.md) object when re-calculating the indicator (For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed). This is the main method used for indicator calculations, and we will calculate our core indicator logic (testing to see if a Close price on a specified bar was greater than the previous Close price) within this method.
 
 ## Adding the Condition and Assigning the Plot Value
 
@@ -10,25 +10,25 @@ Enter the following code in the OnBarUpdate() method in the NinjaScript Editor:
 Values[0][BarsAgo] = (Close[BarsAgo] > Close[(BarsAgo + 1)]) ? (High[BarsAgo] + (5 \* TickSize)) : (Low[BarsAgo] - (5 \* TickSize));
 ```
 
-Although the code above fits on a single line, it is doing several things. Firstly, it is important to understand the structure that we are using in this statement. We are using a [[[Ternary Operator](https://msdn.microsoft.com/en-us/library/ty67wk28.aspx), which provides a way to assign one of two values to a variable based on a condition. We begin by stating that we wish to assign a value to the indicator plot at a bar index corresponding to BarsAgo. We do this by using [[[Values](../language_reference/values.md), which is a collection holding values for all plots configured in the indicator:
+Although the code above fits on a single line, it is doing several things. Firstly, it is important to understand the structure that we are using in this statement. We are using a [Ternary Operator](https://msdn.microsoft.com/en-us/library/ty67wk28.aspx), which provides a way to assign one of two values to a variable based on a condition. We begin by stating that we wish to assign a value to the indicator plot at a bar index corresponding to BarsAgo. We do this by using [Values](../language_reference/values.md), which is a collection holding values for all plots configured in the indicator:
 
 ```csharp
 Values[0][BarsAgo] =
 ```
 
-Next, we add a condition to test. In this case, we are testing to see whether [[[Close](../language_reference/close.md) at a bar index corresponding to the value of BarsAgo was greater than Close at a value of BarsAgo + 1. If BarsAgo was set to 5, for example, this would compare Close[5] to Close[6]:
+Next, we add a condition to test. In this case, we are testing to see whether [Close](../language_reference/close.md) at a bar index corresponding to the value of BarsAgo was greater than Close at a value of BarsAgo + 1. If BarsAgo was set to 5, for example, this would compare Close[5] to Close[6]:
 
 ```csharp
 Values[0][BarsAgo] = (Close[BarsAgo] > Close[(BarsAgo + 1)]) ?
 ```
 
-If the condition evaluates to true, then the first expression will be run (the expression on the left side of the colon ":"), which will assign the value of the indicator plot to the [[[High](../language_reference/high.md) price of the specified bar, plus five ticks. We obtain the tick size value for the configured instrument via the [[[TickSize](../language_reference/ticksize.md) property:
+If the condition evaluates to true, then the first expression will be run (the expression on the left side of the colon ":"), which will assign the value of the indicator plot to the [High](../language_reference/high.md) price of the specified bar, plus five ticks. We obtain the tick size value for the configured instrument via the [TickSize](../language_reference/ticksize.md) property:
 
 ```csharp
 Values[0][BarsAgo] = (Close[BarsAgo] > Close[(BarsAgo + 1)]) ? (High[BarsAgo] + (5 \* TickSize)) :
 ```
 
-if the condition evaluates to false, then the second expression will be run (the expression on the right side of the colon ":", which will assign the value of the indicator plot to the [[[Low](../language_reference/low.md) price of the specified bar, less five ticks:
+if the condition evaluates to false, then the second expression will be run (the expression on the right side of the colon ":", which will assign the value of the indicator plot to the [Low](../language_reference/low.md) price of the specified bar, less five ticks:
 
 ```csharp
 Values[0][BarsAgo] = (Close[BarsAgo] > Close[(BarsAgo + 1)]) ? (High[BarsAgo] + (5 \* TickSize)) : (Low[BarsAgo] - (5 \* TickSize));
@@ -43,7 +43,7 @@ return;
 
 This line says, "if there is not a number of bars equal to one number greater than the value of BarsAgo, then exit OnBarUpdate()."
 
-Now that everything is in place, your class code should look as below. You are now ready to [[[compile the indicator](compiling.md) and configure it on a chart.
+Now that everything is in place, your class code should look as below. You are now ready to [compile the indicator](compiling.md) and configure it on a chart.
 
 ```csharp
 public class PriceVariableTutorial : Indicator

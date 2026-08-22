@@ -8,11 +8,11 @@ A collection of session definitions of the configured Trading Hours template.
 
 |  |  |
 | --- | --- |
-| BeginDay | A [[[DayOfWeek](https://msdn.microsoft.com/en-us/library/system.dayofweek(v=vs.90).aspx) value representing the begin day |
+| BeginDay | A [DayOfWeek](https://msdn.microsoft.com/en-us/library/system.dayofweek(v=vs.90).aspx) value representing the begin day |
 | BeginTime | An int value representing the begin time |
-| EndDay | A [[[DayOfWeek](https://msdn.microsoft.com/en-us/library/system.dayofweek(v=vs.90).aspx) value representing the end day |
+| EndDay | A [DayOfWeek](https://msdn.microsoft.com/en-us/library/system.dayofweek(v=vs.90).aspx) value representing the end day |
 | EndTime | An int value representing the end time |
-| TradingDay | A [[[DayOfWeek](https://msdn.microsoft.com/en-us/library/system.dayofweek(v=vs.90).aspx) value representing the trading day this session belongs to |
+| TradingDay | A [DayOfWeek](https://msdn.microsoft.com/en-us/library/system.dayofweek(v=vs.90).aspx) value representing the trading day this session belongs to |
 
 ## Syntax
 

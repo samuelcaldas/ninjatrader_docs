@@ -22,7 +22,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 |  |  |
 | --- | --- |
 | fast | The number of bars to include in the short term period |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | intermediate | The number of bars to include in the intermediate term period |
 | slow | The number of bars to include in the long term period |
 

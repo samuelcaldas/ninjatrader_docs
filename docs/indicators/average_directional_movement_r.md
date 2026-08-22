@@ -2,7 +2,7 @@
 
 ## Description
 
-The ADXR is equal to the current [[[ADX](average_directional_index_adx.md) plus the ADX from n bars ago divided by two.
+The ADXR is equal to the current [ADX](average_directional_index_adx.md) plus the ADX from n bars ago divided by two.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | interval | The interval between the first ADX value and the current ADX value |
 | period | Number of bars used in the calculation |
 

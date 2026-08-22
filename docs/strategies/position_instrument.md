@@ -6,7 +6,7 @@ Gets the instrument of a strategy position.
 
 ## Property Value
 
-An [[[Instrument](../language_reference/instrument.md) representing the position's instrument.
+An [Instrument](../language_reference/instrument.md) representing the position's instrument.
 
 ## Syntax
 

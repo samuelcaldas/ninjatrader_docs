@@ -47,7 +47,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 |  |  |
 | --- | --- |
 | barsAgo | The number of bars ago that serves as the starting bar from which to work backwards |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | instance | The occurrence to check for (1 is the most recent, 2 is the 2nd most recent, etc...) |
 | lookBackPeriod | Number of bars to look back to check for the test condition, which is evaluated on the current bar and the bars in the look back period. |
 | strength | The number of required bars to the left and right of the swing point |

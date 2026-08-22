@@ -1,6 +1,6 @@
 # Working with Historical Trade Data
 
-The [[[Trade](trade.md) class allows you to directly access information about historical trades. However, Trade objects are not always accessible from a NinjaScript strategy by default. The [[[IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property determines whether references are made in memory to Trade objects, allowing you access them programmatically after a trade has completed, or whether no references are made, freeing up memory for other uses.
+The [Trade](trade.md) class allows you to directly access information about historical trades. However, Trade objects are not always accessible from a NinjaScript strategy by default. The [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) property determines whether references are made in memory to Trade objects, allowing you access them programmatically after a trade has completed, or whether no references are made, freeing up memory for other uses.
 
 ## IncludeTradeHistoryInBacktest = True
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-Volume Rate of Change is identical to [[[Price Rate Of Change (ROC)](rate_of_change_roc.md) indicator except that it uses volume instead of price.
+Volume Rate of Change is identical to [Price Rate Of Change (ROC)](rate_of_change_roc.md) indicator except that it uses volume instead of price.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 | smooth | The number of bars for smoothing the signal |
 

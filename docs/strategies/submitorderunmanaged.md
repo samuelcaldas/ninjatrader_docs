@@ -2,11 +2,11 @@
 
 ## Definition
 
-Generates an [[[Unmanaged](isunmanaged.md) order.
+Generates an [Unmanaged](isunmanaged.md) order.
 
 ## Method Return Value
 
-An [[[Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [[[Unmanaged Approach](unmanaged_approach.md) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Unmanaged Approach](unmanaged_approach.md) section.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ SubmitOrderUnmanaged(int selectedBarsInProgress, OrderAction orderAction, OrderT
 
 |  |  |
 | --- | --- |
-| selectedBarsInProgress | The index of the Bars object the order is to be submitted against. This determines what instrument the order is submitted for.    Note:  See the [[[BarsInProgress](../language_reference/barsinprogress.md) property. |
+| selectedBarsInProgress | The index of the Bars object the order is to be submitted against. This determines what instrument the order is submitted for.    Note:  See the [BarsInProgress](../language_reference/barsinprogress.md) property. |
 | orderAction | Determines if the order is a buy or sell order    Possible values:     OrderAction.Buy  OrderAction.BuyToCover  OrderAction.Sell  OrderAction.SellShort |
 | orderType | Determines the type of order submitted    Possible values:    OrderType.Limit  OrderType.Market  OrderType.MIT  OrderType.StopMarket  OrderType.StopLimit |
 | quantity | Sets the number of contracts to submit with the order |

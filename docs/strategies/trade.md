@@ -16,9 +16,9 @@ In the second example above, two trade objects are created to represent each ind
 |  |  |
 | --- | --- |
 | Commission | A double value representing the commission of the trade |
-| Entry | Gets an [[[Execution](execution.md) object representing the entry |
+| Entry | Gets an [Execution](execution.md) object representing the entry |
 | EntryEfficiency | A double value representing the entry efficiency of the trade |
-| Exit | Gets an [[[Execution](execution.md) object representing the exit |
+| Exit | Gets an [Execution](execution.md) object representing the exit |
 | ExitEfficiency | A double value representing the exit efficiency of the trade |
 | MaeCurrency | A double value representing max adverse excursion in currency |
 | MaePercent | A double value representing max adverse excursion as a percentage |

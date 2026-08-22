@@ -2,17 +2,17 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Regression Channel [[[IDrawingTool](idrawingtool.md).
+Represents an interface that exposes information regarding a Regression Channel [IDrawingTool](idrawingtool.md).
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| RegressionStroke | The [[[Stroke](stroke_class.md) object used to draw the middle line of the object |
-| LowerChannelStroke | The [[[Stroke](stroke_class.md) object used to draw the lower line of the object |
-| UpperChannelStroke | The [[[Stroke](stroke_class.md) object used to draw the upper line of the object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| RegressionStroke | The [Stroke](stroke_class.md) object used to draw the middle line of the object |
+| LowerChannelStroke | The [Stroke](stroke_class.md) object used to draw the lower line of the object |
+| UpperChannelStroke | The [Stroke](stroke_class.md) object used to draw the upper line of the object |
 | PriceType | Possible values are:     PriceType.Close  PriceType.High  PriceType.Low  PriceType.Median  PriceType.Open  PriceType.Typical |
 | ChannelType | An enum value representing if the object will use standard deviations calculations for the upper/lower lines.  Possible values are
 - RegressionChannelType.Segment,

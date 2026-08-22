@@ -3,5 +3,5 @@
 |  |
 | --- |
 | Reference Samples Overview  
-- [[[Indicator](../indicators/indicator2.md)  
-- [[[Strategy](../strategies/strategy2.md) |
+- [Indicator](../indicators/indicator2.md)  
+- [Strategy](../strategies/strategy2.md) |

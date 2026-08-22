@@ -2,19 +2,19 @@
 
 ## Definition
 
-Determines if the strategy should be re-instantiated (re-created) after each optimization run when using the [[[Strategy Analyzer Optimizer](optimize_a_strategy.md).
+Determines if the strategy should be re-instantiated (re-created) after each optimization run when using the [Strategy Analyzer Optimizer](optimize_a_strategy.md).
 
  
 
 The default behavior is to re-instantiate the strategy for each optimization backtest run. However, the process of re-instantiating a strategy requires more time and computer resources to return results, which could impact the amount of time it takes to run an optimization.  When false, the strategy is re-used to save time and computer resources.  Under this design, internal properties are reset to default values after each iteration, but it is possible that user-defined properties and other custom resources may carry their state over from the previous iteration into a new backtest run.  To take advantage of performance optimizations, developers may need to reset class level variables in the strategy otherwise unexpected results can occur.
 
-> **Note:** If you choose to take advantage of the performance benefits during strategy optimization by setting the IsInstantiatedOnEachOptimizationIteration property to false, any objects you create in your code MUST be reset during the appropriate State within the [[[OnStateChange()](../language_reference/onstatechange.md) method.  Please see the example below on "Manually resetting class level variables to take advantage of Strategy Analyzer optimizer performance benefits".
+> **Note:** If you choose to take advantage of the performance benefits during strategy optimization by setting the IsInstantiatedOnEachOptimizationIteration property to false, any objects you create in your code MUST be reset during the appropriate State within the [OnStateChange()](../language_reference/onstatechange.md) method.  Please see the example below on "Manually resetting class level variables to take advantage of Strategy Analyzer optimizer performance benefits".
 
 ## Property Value
 
 This property returns true if the strategy is not recycled; otherwise, false. Default set to true.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

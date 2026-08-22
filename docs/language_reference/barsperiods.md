@@ -6,9 +6,9 @@ Holds an array of BarsPeriod objects synchronized to the number of unique Bars o
 
 ## Property Value
 
-An array of [[[BarsPeriod](barsperiod.md) objects.
+An array of [BarsPeriod](barsperiod.md) objects.
 
-> **Warning:** This property should NOT be accessed within the [[[OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
+> **Warning:** This property should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
 Syntax  
 BarsPeriods[int barSeriesIndex]

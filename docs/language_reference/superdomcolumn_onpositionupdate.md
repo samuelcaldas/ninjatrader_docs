@@ -2,7 +2,7 @@
 
 ## Definition
 
-Called every time a [[[position](../strategies/position.md) changes state.
+Called every time a [position](../strategies/position.md) changes state.
 
 > **Note:** The OnPositionUpdate() method is called on ALL position updates (e.g., any account and instrument combination) and NOT just the specific items which are selected in the SuperDOM.
 

@@ -26,7 +26,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | RibbonMAType | Moving average to use for calculations |
 | basePeriod | Number of bars used in the calculation for the fastest moving average |
 | incrementalPeriod | Number of bars to increase for the calculation in each additional moving average |

@@ -2,14 +2,14 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Gann Fan [[[IDrawingTool.](idrawingtool.md)
+Represents an interface that exposes information regarding a Gann Fan [IDrawingTool.](idrawingtool.md)
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| Anchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| [[[PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
+| Anchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| [PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
 | GannFanDirection | Possible values:    GannFanDirection.DownLeft  GannFanDirection.DownRight  GannFanDirection.UpLeft  GannFanDirection.UpRight |
 | PointsPerBar | A double value representing the number of points per bar |
 | IsTextDisplayed | A bool value representing if text will be drawn along with the draw object |

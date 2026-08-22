@@ -2,11 +2,11 @@
 
 ## Definition
 
-Contains a collection of Indicators which have been added to the strategy instance using [[[AddChartIndicator()](addchartindicator.md).
+Contains a collection of Indicators which have been added to the strategy instance using [AddChartIndicator()](addchartindicator.md).
 
 ## Property Value
 
-An [[[Indicator](indicator.md) object
+An [Indicator](indicator.md) object
 
 ## Syntax
 

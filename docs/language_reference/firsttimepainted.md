@@ -10,7 +10,7 @@ FirstTimePainted provides the timestamp of the first bar, NOT the time at which 
 
 ## Property Value
 
-A [[[DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object containing information on the timestamp of the first bar of the chart.
+A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object containing information on the timestamp of the first bar of the chart.
 
 ## Syntax
 
@@ -34,4 +34,4 @@ In the image below, FirstTimePainted reveals that the first painted slot corresp
 
  
 
-![[[ChartControl_FirstTimePainted](../images/chartcontrol_firsttimepainted.png)
+![ChartControl_FirstTimePainted](../images/chartcontrol_firsttimepainted.png)

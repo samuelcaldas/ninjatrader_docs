@@ -10,17 +10,17 @@ Filling in a region between two DataSeries objects on your indicators can be ben
 
 ## Important methods and properties used include
 
-- [[[Bollinger()](bollinger_bands.md)
+- [Bollinger()](bollinger_bands.md)
 
-- [[[Draw.Region()](../language_reference/draw_region.md)
+- [Draw.Region()](../language_reference/draw_region.md)
 
 Other methods and properties of interest include:
 
-- [[[Draw.Diamond()](../language_reference/draw_diamond.md)
+- [Draw.Diamond()](../language_reference/draw_diamond.md)
 
-- [[[Draw.Rectangle()](../language_reference/draw_rectangle.md)
+- [Draw.Rectangle()](../language_reference/draw_rectangle.md)
 
-- [[[DrawOnPricePanel](drawonpricepanel.md)
+- [DrawOnPricePanel](drawonpricepanel.md)
 
 ## Import instructions
 
@@ -30,4 +30,4 @@ Other methods and properties of interest include:
 
 3.Select the downloaded file
 
-[[[SampleDrawRegion\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleDrawRegion_NT8.zip)
+[SampleDrawRegion\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleDrawRegion_NT8.zip)

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Adds an instance of custom [[[Performance Metric](performancemetrics.md) to a strategy used in strategy calculations.
+Adds an instance of custom [Performance Metric](performancemetrics.md) to a strategy used in strategy calculations.
 
 ## Method Return Value
 

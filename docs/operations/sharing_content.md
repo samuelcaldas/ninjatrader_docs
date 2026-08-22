@@ -20,7 +20,7 @@ Once you have completed setup of the sharing service. You can now use this shari
 
 ## Sharing from a NinjaTrader Window
 
-![[[Sharing_ContextMenu](../images/sharing_contextmenu.png)
+![Sharing_ContextMenu](../images/sharing_contextmenu.png)
 
 Right clicking on a NinjaTrader window that has sharing enabled you will see the the "Share" menu. On mouse over the "Share" all items that you can share will be available for selection. In the screenshot you have the following actions available, however please note that these will change depending on the window context you have right clicked in.
 
@@ -33,7 +33,7 @@ Right clicking on a NinjaTrader window that has sharing enabled you will see the
 
 Once you make a selection the Share dialog will be launched where you can customize the message and select what service you would like to share too.
 
-![[[Windows_Sharing_ShareDialog](../images/windows_sharing_sharedialog.png)
+![Windows_Sharing_ShareDialog](../images/windows_sharing_sharedialog.png)
 
 > **Note:** Depending on what the window supports for sharing will change depending on what options you have for sharing for that window.
 
@@ -43,4 +43,4 @@ In addition to sharing directly through NinjaTrader, you can also save images of
 
 To save a chart image, first right click within the chart canvas area, then click "Save As Image," as seen in the screenshot below:
 
-![[[SaveImage](../images/saveimage.png)
+![SaveImage](../images/saveimage.png)

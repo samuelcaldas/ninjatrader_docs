@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates the rollovers that have been configured for the [[[Master Instrument properties](editing_instruments.md) used in for futures.
+Indicates the rollovers that have been configured for the [Master Instrument properties](editing_instruments.md) used in for futures.
 
 ## Property Value
 

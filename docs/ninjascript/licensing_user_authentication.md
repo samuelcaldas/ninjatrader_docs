@@ -16,4 +16,4 @@ The service includes the following features:
 
 - Create free trial periods
 
-For more information please contact [[[[email protected]](mailto:platformsupport@ninjatrader.com) or your NinjaTrader Business Development representative. Once approved, you will receive a unique Vendor ID used to manage your user licenses, a Vendor Licensing Help Guide containing information, samples, and resources to guide you through the process of managing licensing.
+For more information please contact [email protected](mailto:platformsupport@ninjatrader.com) or your NinjaTrader Business Development representative. Once approved, you will receive a unique Vendor ID used to manage your user licenses, a Vendor Licensing Help Guide containing information, samples, and resources to guide you through the process of managing licensing.

@@ -2,9 +2,9 @@
 
 ## Definition
 
-Determines if the value of the following declared property is valid within a specified range.  These values are checked when the NinjaScript object has reached [[[State.Configure](state.md).  For configuration through the UI (e.g., the user has selected Apply or OK to configure the value from the indicator dialog box) and determines to be invalid, the value will be automatically rounded to the nearest minimum or maximum value. Should the property be set as a [[[NinjaScriptAttribute](ninjascriptpropertyattribute.md) and called from a hosting NinjaScript object and determines to be invalid, an exception will be thrown and the hosted indicator will NOT execute.
+Determines if the value of the following declared property is valid within a specified range.  These values are checked when the NinjaScript object has reached [State.Configure](state.md).  For configuration through the UI (e.g., the user has selected Apply or OK to configure the value from the indicator dialog box) and determines to be invalid, the value will be automatically rounded to the nearest minimum or maximum value. Should the property be set as a [NinjaScriptAttribute](ninjascriptpropertyattribute.md) and called from a hosting NinjaScript object and determines to be invalid, an exception will be thrown and the hosted indicator will NOT execute.
 
-> **Note:** The RangeAttribute object is a general purpose attribute made available from the .NET Framework.  The information on this page is written to demonstrate how you may use this object within NinjaScript conventions used for the NinjaTrader UI's property grid (e.g., an indicator dialog).  There are more methods and properties that you can learn about from MSDN's [[[RangeAttribute Class](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.rangeattribute(v=vs.110).aspx) which are NOT covered in this topic; as such there is NO guarantee they will work with the NinjaTrader UI's property grids.
+> **Note:** The RangeAttribute object is a general purpose attribute made available from the .NET Framework.  The information on this page is written to demonstrate how you may use this object within NinjaScript conventions used for the NinjaTrader UI's property grid (e.g., an indicator dialog).  There are more methods and properties that you can learn about from MSDN's [RangeAttribute Class](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.rangeattribute(v=vs.110).aspx) which are NOT covered in this topic; as such there is NO guarantee they will work with the NinjaTrader UI's property grids.
 
 ## Syntax
 
@@ -18,7 +18,7 @@ Determines if the value of the following declared property is valid within a spe
 | --- | --- |
 | maximum | Defines the highest allowed value the user can set for the property |
 | minimum | Defines the lowest allowed value the user can set for the property |
-| type | The [[[type](https://msdn.microsoft.com/en-us/library/system.type(v=vs.110).aspx) of object to test |
+| type | The [type](https://msdn.microsoft.com/en-us/library/system.type(v=vs.110).aspx) of object to test |
 
 ## Examples
 

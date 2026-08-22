@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines the value your BarsType would return for [[[Bars.PercentComplete](percentcomplete.md)
+Determines the value your BarsType would return for [Bars.PercentComplete](percentcomplete.md)
 
 ## Method Return Value
 
@@ -12,7 +12,7 @@ This method returns a double value.
 
 |  |  |
 | --- | --- |
-| bars | The [[[bars](bars.md) object chosen by the user when utilizing this Bars type |
+| bars | The [bars](bars.md) object chosen by the user when utilizing this Bars type |
 | now | The DateTime value to measure |
 
 ## Syntax

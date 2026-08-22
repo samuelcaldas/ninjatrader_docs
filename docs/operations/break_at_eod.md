@@ -10,10 +10,10 @@ With Break at EOD enabled, your bars are ensured to have a known starting point 
 
 Below you will find a two examples which will compare how Range type bars will be handled at the end of a trading session depending on the Chart's Break EOD property.
 
-![[[Break_EOD](../images/break_eod.png)
+![Break_EOD](../images/break_eod.png)
 
 1. Break EOD enabled - a new bar was formed during the new trading session before the 6 range bar had completed
 
-![[[Break_EOD_Off](../images/break_eod_off.png)
+![Break_EOD_Off](../images/break_eod_off.png)
 
 2. Break EOD disabled - a new bar was not formed until the criteria for the 6 point range was satisfied

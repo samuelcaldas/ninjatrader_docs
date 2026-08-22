@@ -2,7 +2,7 @@
 
 ## Definition
 
-Holds an array of color series objects holding historical bar colors. A color series object is added to this array when calling the [[[AddPlot()](addplot.md) method in a custom Indicator for plots. Its purpose is to provide access to the color property of all bars.
+Holds an array of color series objects holding historical bar colors. A color series object is added to this array when calling the [AddPlot()](addplot.md) method in a custom Indicator for plots. Its purpose is to provide access to the color property of all bars.
 
 ## Property Value
 

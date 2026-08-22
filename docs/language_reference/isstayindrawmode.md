@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates [[[Stay in Draw Mode](../drawing_tools/working_with_drawing_tools__ob.md) is currently enabled on the chart.
+Indicates [Stay in Draw Mode](../drawing_tools/working_with_drawing_tools__ob.md) is currently enabled on the chart.
 
 ## Property Value
 

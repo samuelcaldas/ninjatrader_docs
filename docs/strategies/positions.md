@@ -2,9 +2,9 @@
 
 ## Definition
 
-Holds an array of [[[Position](position.md) objects that represent positions managed by the strategy. This property should only be used when your strategy is executing orders against [[[multiple instruments](../language_reference/multi-time_frame__instruments.md).
+Holds an array of [Position](position.md) objects that represent positions managed by the strategy. This property should only be used when your strategy is executing orders against [multiple instruments](../language_reference/multi-time_frame__instruments.md).
 
-Index value is based on the the array of Bars objects added via the [[[AddDataSeries()](../language_reference/adddataseries.md) method. For example:
+Index value is based on the the array of Bars objects added via the [AddDataSeries()](../language_reference/adddataseries.md) method. For example:
 
 First Bars is ES 1 Minute   
 Secondary Bars is ES 5 Minute   
@@ -17,8 +17,8 @@ Positions[2] == NQ position
  
 
 > **Tips:**
-- For single instrument scripts, please see [[[Position](position.md) object
-- For a real-world Account Positions, please see [[[PositionsAccount](../addons/positions_account.md)
+- For single instrument scripts, please see [Position](position.md) object
+- For a real-world Account Positions, please see [PositionsAccount](../addons/positions_account.md)
 
 ## Property Value
 

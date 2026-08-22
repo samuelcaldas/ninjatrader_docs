@@ -2,7 +2,7 @@
 
 ## Definition
 
-AccountItemEventArgs contains [[[Account](../addons/account_class.md)-related information to be passed as an argument to the [[[OnAccountItemUpdate(](onaccountitemupdate.md)[[[)](../addons/accountitemupdate.md) event.
+AccountItemEventArgs contains [Account](../addons/account_class.md)-related information to be passed as an argument to the [OnAccountItemUpdate(](onaccountitemupdate.md)[)](../addons/accountitemupdate.md) event.
 
  
 

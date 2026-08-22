@@ -10,7 +10,7 @@
 
 - Click on the error code to bring up Help Documentation on a specific error
 
-- Right click on the error to exclude the problem file from compilation (see the section on [[[Excluding a script from compilation](ns_explorer.md) for more information)
+- Right click on the error to exclude the problem file from compilation (see the section on [Excluding a script from compilation](ns_explorer.md) for more information)
 
 ## The image below illustrates a compile error
 
@@ -33,4 +33,4 @@ double myValue = SMA(20)[0];
 
  
 
-![[[NS_Editor_4](../images/ns_editor_4.png)
+![NS_Editor_4](../images/ns_editor_4.png)

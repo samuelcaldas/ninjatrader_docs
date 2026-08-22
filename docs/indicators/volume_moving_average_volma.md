@@ -2,7 +2,7 @@
 
 ## Description
 
-The Volume Moving Average indicator is an indicator on indicator implementation. It calculates and returns the value of an [[[exponential moving average](moving_average_-_exponential_e.md) of [[[volume](volume.md).
+The Volume Moving Average indicator is an indicator on indicator implementation. It calculates and returns the value of an [exponential moving average](moving_average_-_exponential_e.md) of [volume](volume.md).
 
 ## Syntax
 
@@ -23,7 +23,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Example

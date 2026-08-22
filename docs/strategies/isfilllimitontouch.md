@@ -8,7 +8,7 @@ Determines if the strategy will use a more liberal fill algorithm for back-testi
 
 This property returns true if the strategy will fill limit orders when touched; otherwise, false. Default is set to false.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

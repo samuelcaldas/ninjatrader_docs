@@ -2,7 +2,7 @@
 
 Understanding the different types of entry and exit orders you can place through NinjaScript is important. As a trader, it is critical you place the right type of order depending on the current market conditions and your trading style.
 
-[[[Order Methods](order_methods.md)
+[Order Methods](order_methods.md)
 
 ```csharp
 EnterLong();

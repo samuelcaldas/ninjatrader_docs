@@ -65,7 +65,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | pivotRangeType | Sets the range for the type of pivot calculated. Possible values are:  PivotRange.Daily  PivotRange.Weekly  PivotRange.Monthly |
 | priorDayHLC | Sets how the prior range High, Low, Close values are calculated. Possible values are:  HLCCalculationMode.CalcFromIntradayData  HLCCalculationMode.DailyBars  HLCCalculationMode.UserDefinedValues |
 | userDefinedClose | Sets the close for Pivots calculations when using HLCCalculationMode.UserDefinedValues. |
@@ -90,7 +90,7 @@ You can view this indicator method source code by selecting the menu New > Ninja
 
 |  |  |  |
 | --- | --- | --- |
-| Tip: When using HLCCalculationMode.DailyBars it can be expected that a value of 0 is returned when the daily bars have not been loaded yet. Due to the asynchronous nature of this indicator calling daily bars you should only access the pivot values when the indicator has loaded all required Bars objects. To ensure you are accessing accurate values you can use .[[[IsValidDataPoint()](../language_reference/isvaliddatapoint.md) as a check:  
+| Tip: When using HLCCalculationMode.DailyBars it can be expected that a value of 0 is returned when the daily bars have not been loaded yet. Due to the asynchronous nature of this indicator calling daily bars you should only access the pivot values when the indicator has loaded all required Bars objects. To ensure you are accessing accurate values you can use .[IsValidDataPoint()](../language_reference/isvaliddatapoint.md) as a check:  
 ```csharp
 // Evaluates that this is a valid pivot point value
 if (CamarillaPivots(PivotRange.Daily, HLCCalculationMode.DailyBars, 0, 0, 0, 20).Pp.IsValidDataPoint(0))

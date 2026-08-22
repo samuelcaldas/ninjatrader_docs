@@ -14,7 +14,7 @@ Since they are linked to your historical bars object, you can store and link a v
 
 ## Important related documentation
 
-- [[[`Series<T>`](../language_reference/seriest.md)
+- [`Series<T>`](../language_reference/seriest.md)
 
 ## Import instructions
 
@@ -24,4 +24,4 @@ Since they are linked to your historical bars object, you can store and link a v
 
 3.Select the downloaded file
 
-[[[SampleCustomSeries\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleCustomSeries_NT8.zip)
+[SampleCustomSeries\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleCustomSeries_NT8.zip)

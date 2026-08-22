@@ -6,7 +6,7 @@ Draws a fibonacci retracement.
 
 ## Method Return Value
 
-A [[[FibonacciRetracements](fibonacciretracements.md) object that represents the draw object.
+A [FibonacciRetracements](fibonacciretracements.md) object that represents the draw object.
 
 Syntax
 

@@ -6,7 +6,7 @@ Indicates the WPF x- and y-coordinates of the mouse cursor at the most recent On
 
 ## Property Value
 
-A [[[Point](https://msdn.microsoft.com/en-us/library/system.drawing.point(v=vs.110).aspx) object containing x- and y-coordinates of the mouse cursor when the left mouse button is clicked or held
+A [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point(v=vs.110).aspx) object containing x- and y-coordinates of the mouse cursor when the left mouse button is clicked or held
 
 ## Syntax
 

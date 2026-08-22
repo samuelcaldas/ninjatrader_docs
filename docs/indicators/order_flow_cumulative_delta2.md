@@ -52,7 +52,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | deltaType | The type of data to delta calculates on:  BidAsk  UpDownTick |
 | period | The period in which the delta accumulates:  Session  Bar |
 | sizeFilter | Input to exclude volume less than the selected value |

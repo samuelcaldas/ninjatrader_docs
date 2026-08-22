@@ -1,6 +1,6 @@
 # Managed Approach
 
-The Managed approach in NinjaScript is designed to offer the greatest ease of use for beginner to intermediate programmers. The order methods are wrapped in a convenience layer that allows you to focus on your system's trading rules, leaving the underlying mechanics of order management and the relationships between entry orders, exit orders, and positions to NinjaTrader. This approach is best suited for simple to moderate order complexity, and can be further broken down into a Basic/Common Managed approach and a more [[[Advanced](advanced_order_handling.md) Managed approach. The following section will discuss the use of the Basic/Common approach.
+The Managed approach in NinjaScript is designed to offer the greatest ease of use for beginner to intermediate programmers. The order methods are wrapped in a convenience layer that allows you to focus on your system's trading rules, leaving the underlying mechanics of order management and the relationships between entry orders, exit orders, and positions to NinjaTrader. This approach is best suited for simple to moderate order complexity, and can be further broken down into a Basic/Common Managed approach and a more [Advanced](advanced_order_handling.md) Managed approach. The following section will discuss the use of the Basic/Common approach.
 
 A few key points to keep in mind:
 
@@ -14,13 +14,13 @@ A few key points to keep in mind:
 
 - Entry() methods will reverse the position automatically. For example if you are in a 1 contract long position and now call EnterShort() -> you will see 2 executions, one to close the prior long position and the other to get you into the desired 1 contract short position.
 
-\* Via the [[[SetProfitTarget()](setprofittarget.md), [[[SetStopLoss()](setstoploss.md), [[[SetTrailStop()](settrailstop.md) and [[[SetParabolicStop](setparabolicstop.md) methods
+\* Via the [SetProfitTarget()](setprofittarget.md), [SetStopLoss()](setstoploss.md), [SetTrailStop()](settrailstop.md) and [SetParabolicStop](setparabolicstop.md) methods
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |
 | --- | --- | --- |
-| Orders are primarily submitted from within the [[[OnBarUpdate()](../language_reference/onbarupdate.md) method when a specific order method is called. By default, orders are kept alive, provided they are re-submitted on each call of the OnBarUpdate() method. If an order is not re-submitted, it is then canceled. Orders can be modified by re-submitting them with changed parameters (a new limit price, for example).    In the example below, a Buy Limit order is working at the bid price, provided that the Close price of the current bar is greater than the current value of the 20 period Simple Moving Average. If the entry condition is no longer true and the order is still active, it will be immediately canceled.    
+| Orders are primarily submitted from within the [OnBarUpdate()](../language_reference/onbarupdate.md) method when a specific order method is called. By default, orders are kept alive, provided they are re-submitted on each call of the OnBarUpdate() method. If an order is not re-submitted, it is then canceled. Orders can be modified by re-submitting them with changed parameters (a new limit price, for example).    In the example below, a Buy Limit order is working at the bid price, provided that the Close price of the current bar is greater than the current value of the 20 period Simple Moving Average. If the entry condition is no longer true and the order is still active, it will be immediately canceled.    
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -28,10 +28,10 @@ protected override void OnBarUpdate()
     if (Close[0] > SMA(20)[0])
     EnterLongLimit(GetCurrentBid());
 }
-This technique allows you the quickest and easiest order submission method suitable for programmers of all levels. Should you want to submit an order and not have to keep re-submitting it to keep it alive you can use an [[[advanced approach](advanced_order_handling.md) reserved for experienced programmers, which includes an option to keep orders alive until specifically canceled in code.
+This technique allows you the quickest and easiest order submission method suitable for programmers of all levels. Should you want to submit an order and not have to keep re-submitting it to keep it alive you can use an [advanced approach](advanced_order_handling.md) reserved for experienced programmers, which includes an option to keep orders alive until specifically canceled in code.
 ```
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -51,8 +51,8 @@ protected override void OnBarUpdate()
     }
 }
 Defining how Entry Methods are Processed in a Strategy You can limit how many entry methods are processed by determining the maximum number of entries in a single direction across all entry methods, or across unique signal names. The following properties can be set in the Strategies window when adding a strategy to a chart or to the Strategies tab of the Control Center window.
-•[[[EntriesPerDirection](entriesperdirection.md) property - Sets the maximum number of entries in a single direction
-•[[[EntryHandling](entryhandling.md) property - Determines if EntriesPerDirection applies across all entries or for entries with specified signal names
+•[EntriesPerDirection](entriesperdirection.md) property - Sets the maximum number of entries in a single direction
+•[EntryHandling](entryhandling.md) property - Determines if EntriesPerDirection applies across all entries or for entries with specified signal names
 The example code below illustrates how the above properties control the processing of entry methods. The code contains two entry conditions and two EnterLong methods, each tagged with unique signal names.
 
 csharp
@@ -74,7 +74,7 @@ protected override void OnBarUpdate()
     EnterLong("Condition 2 Entry");
 }
 Entry Methods on Multi-Instrument Strategies
-When running strategies that submit orders to multiple instruments, entry methods will submit orders to the instrument referenced by the [[[BarsInProgress](../language_reference/barsinprogress.md). The following example assumes that the strategy is running on a 1 minute E-Mini S&P 500 chart. It adds an NQ data series, then enters a position on both instruments.
+When running strategies that submit orders to multiple instruments, entry methods will submit orders to the instrument referenced by the [BarsInProgress](../language_reference/barsinprogress.md). The following example assumes that the strategy is running on a 1 minute E-Mini S&P 500 chart. It adds an NQ data series, then enters a position on both instruments.
 
 csharp
 protected override void OnStateChange()
@@ -88,20 +88,20 @@ protected override void OnBarUpdate()
     else if (BarsInProgress == 1)
     EnterLong("NQ Trade");
 }
-More information on using BarsInProgress to filter instruments can be found in the [[[Advanced Order Handling](advanced_order_handling.md) page.
+More information on using BarsInProgress to filter instruments can be found in the [Advanced Order Handling](advanced_order_handling.md) page.
 ```
 
-![[[tog_minus](../images/tog_minus.gif)        Quantity Type and TIF
+![tog_minus](../images/tog_minus.gif)        Quantity Type and TIF
 
 > You can set the entry order quantity and order type directly in code via the following properties:
 - QuantityType - Sets the order quantity is taken from the entry method quantity property or the default strategy quantity size
-- [[[TimeInForce](timeinforce.md) propery - Sets the time in force of the order
+- [TimeInForce](timeinforce.md) propery - Sets the time in force of the order
 
-![[[tog_minus](../images/tog_minus.gif)        How to close a position
+![tog_minus](../images/tog_minus.gif)        How to close a position
 
 |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Closing a Position using a Stop Loss, Trailing Stop and/or Profit Target You can predefine a stop loss, trailing stop and/or profit target in a strategy by calling the [[[SetStopLoss()](setstoploss.md), [[[SetTrailStop()](settrailstop.md), [[[SetParabolicStop()](setparabolicstop.md) or [[[SetProfitTarget()](setprofittarget.md) methods from inside the [[[OnStateChange()](../language_reference/onstatechange.md) event handler. When these methods are called, they submit live working orders in real-time as executions are reported as a result of calling an entry method. These orders are also tied via OCO (One Cancels Other).    Stop losses and profit target can be generated for each fill or each position. This is determined by the "Stop & target submission" property which is set in the Strategies window. Possible values are listed below:    ByStrategyPosition - When this is selected, only one stop loss, trail stop and/or profit target order is submitted. As entry executions come in, the order size is amended. The downside of this approach is that if you receive partial fills, the orders are re-inserted into the exchange order queue. The upside is that if you broker charges you commission per order (not per quantity), you will not incur additional commission expenses.    PerEntryExecution - When this is selected, a stop loss, trail stop and/or profit target order is submitted for each partial fill received. The downside is that if your broker charges commission per order, you can incur very expensive commission costs if you receive partial fills. The upside is that orders are submitted as soon as possible, giving you the advantage of getting into the order queue immediately.     Closing a Position using an Exit Method Exit methods submit orders to close out a position in whole or in part. When closing a position with Exit orders, the order quantity will be reduced as the strategy position reduces - for example, if we use [[[ExitLongStopMarket()](exitlongstopmarket.md) and [[[ExitLongStopLimit()](exitlongstoplimit.md) to protect a position and one of those orders gets filled, the other order associated with exiting that position will reduce their quantity.    As with entry methods, more information about specific exit methods can be found in this Help Guide's table of contents, beneath this page.     Closing a Partial Position using an Exit Method You can close out a partial position by specifying the exit quantity. The following example first enters long for three contracts. Then, each subsequent bar update submits a market order to exit one contract until the position is completely closed. "ExitLong(1)" will be ignored if a long market position does not exist.    
+| Closing a Position using a Stop Loss, Trailing Stop and/or Profit Target You can predefine a stop loss, trailing stop and/or profit target in a strategy by calling the [SetStopLoss()](setstoploss.md), [SetTrailStop()](settrailstop.md), [SetParabolicStop()](setparabolicstop.md) or [SetProfitTarget()](setprofittarget.md) methods from inside the [OnStateChange()](../language_reference/onstatechange.md) event handler. When these methods are called, they submit live working orders in real-time as executions are reported as a result of calling an entry method. These orders are also tied via OCO (One Cancels Other).    Stop losses and profit target can be generated for each fill or each position. This is determined by the "Stop & target submission" property which is set in the Strategies window. Possible values are listed below:    ByStrategyPosition - When this is selected, only one stop loss, trail stop and/or profit target order is submitted. As entry executions come in, the order size is amended. The downside of this approach is that if you receive partial fills, the orders are re-inserted into the exchange order queue. The upside is that if you broker charges you commission per order (not per quantity), you will not incur additional commission expenses.    PerEntryExecution - When this is selected, a stop loss, trail stop and/or profit target order is submitted for each partial fill received. The downside is that if your broker charges commission per order, you can incur very expensive commission costs if you receive partial fills. The upside is that orders are submitted as soon as possible, giving you the advantage of getting into the order queue immediately.     Closing a Position using an Exit Method Exit methods submit orders to close out a position in whole or in part. When closing a position with Exit orders, the order quantity will be reduced as the strategy position reduces - for example, if we use [ExitLongStopMarket()](exitlongstopmarket.md) and [ExitLongStopLimit()](exitlongstoplimit.md) to protect a position and one of those orders gets filled, the other order associated with exiting that position will reduce their quantity.    As with entry methods, more information about specific exit methods can be found in this Help Guide's table of contents, beneath this page.     Closing a Partial Position using an Exit Method You can close out a partial position by specifying the exit quantity. The following example first enters long for three contracts. Then, each subsequent bar update submits a market order to exit one contract until the position is completely closed. "ExitLong(1)" will be ignored if a long market position does not exist.    
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -153,52 +153,52 @@ protected override void OnBarUpdate()
 }
 ```
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding core order objects
+![tog_minus](../images/tog_minus.gif)        Understanding core order objects
 
-> When using order methods such as [[[EnterLong()](enterlong.md), [[[ExitShortLimit()](exitshortlimit.md), etc, a direct [[[order object](order.md) is returned for the NinjaTrader Core.  These objects can be used throughout the lifetime of your strategy to provide additional metadata concerning your strategy, as well as apply advanced concepts such as [[[CancelOrder()](managed_cancelorder.md) and [[[ChangeOrder()](managed_changeorder.md).  More information about this advanced concept which is discussed under the [[[Advanced Order Handling](advanced_order_handling.md) section
+> When using order methods such as [EnterLong()](enterlong.md), [ExitShortLimit()](exitshortlimit.md), etc, a direct [order object](order.md) is returned for the NinjaTrader Core.  These objects can be used throughout the lifetime of your strategy to provide additional metadata concerning your strategy, as well as apply advanced concepts such as [CancelOrder()](managed_cancelorder.md) and [ChangeOrder()](managed_changeorder.md).  More information about this advanced concept which is discussed under the [Advanced Order Handling](advanced_order_handling.md) section
 
-![[[tog_minus](../images/tog_minus.gif)        Internal Order Handling Rules that Reduce Unwanted Positions
+![tog_minus](../images/tog_minus.gif)        Internal Order Handling Rules that Reduce Unwanted Positions
 
 |  |  |  |
 | --- | --- | --- |
 | To prevent situations in real-time in which you may have multiple orders working to accomplish the same task, there are some "under the hood" rules that a NinjaScript strategy follows when Managed order methods are called. For example, if your strategy had a limit order for 1 contract working as a Profit Target, but then your strategy was also programmed to reverse the position at the price very close to the target limit order, then submitting both orders can be risky, since it could lead to a larger position than the strategy is designed to enter if both orders got filled in quick succession by the exchange.     |  | | --- | | Note: These rules do not apply to market orders, such as ExitLong() or ExitShort(). |    For the most part, you do not need to be intimately familiar with these rules as you develop your strategies. It is all taken care of for you internally within a strategy. If a rule is violated, you will be notified through an error log in the Control Center Log tab.    |  | | --- | | Note:  To prevent excessive logging which could degrade performance, you will only be notified of the very first order which has violated an order handling rule. Subsequent orders which violate a rule will not be notified through the error log. |    The following rules are true per unique signal name:    Methods that generate orders to enter a position will be ignored if:
-- A position is open and an order submitted by a non market order exit method ([[[ExitLongLimit()](exitlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
-- A position is open and an order submitted by a set method ([[[SetStopLoss()](setstoploss.md) for example) is active and the order is used to open a position in the opposite direction
+- A position is open and an order submitted by a non market order exit method ([ExitLongLimit()](exitlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
+- A position is open and an order submitted by a set method ([SetStopLoss()](setstoploss.md) for example) is active and the order is used to open a position in the opposite direction
 - A position is open and two or more Entry methods to reverse the position are entered together. In this case the second Entry order will be ignored.
-- The strategy position is flat and an order submitted by an enter method ([[[EnterLongLimit()](enterlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
+- The strategy position is flat and an order submitted by an enter method ([EnterLongLimit()](enterlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
 - The entry signal name is not unique    Methods that generate orders to exit a position will be ignored if:
-- A position is open and an order submitted by an enter method ([[[EnterLongLimit()](enterlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
-- A position is open and an order submitted by a set method ([[[SetStopLoss()](setstoploss.md) for example) is active    Set() methods that generate orders to exit a position will be ignored if:
-- A position is open and an order submitted by an enter method ([[[EnterLongLimit()](enterlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
-- A position is open and an order submitted by a non market order exit method ([[[ExitLongLimit()](exitlonglimit.md) for example) is active |
+- A position is open and an order submitted by an enter method ([EnterLongLimit()](enterlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
+- A position is open and an order submitted by a set method ([SetStopLoss()](setstoploss.md) for example) is active    Set() methods that generate orders to exit a position will be ignored if:
+- A position is open and an order submitted by an enter method ([EnterLongLimit()](enterlonglimit.md) for example) is active and the order is used to open a position in the opposite direction
+- A position is open and an order submitted by a non market order exit method ([ExitLongLimit()](exitlonglimit.md) for example) is active |
 
 |  |  |
 | --- | --- |
-| [[[Advanced Order Handling](advanced_order_handling.md) | Through advanced order handling you can submit, change and cancel orders at your discretion through any event-driven method within a strategy. |
-| [[[CancelOrder()](managed_cancelorder.md) | Cancels a specified order. |
-| [[[ChangeOrder()](managed_changeorder.md) | Amends a specified [[[Order](order.md). |
-| [[[EnterLong()](enterlong.md) | Generates a buy market order to enter a long position. |
-| [[[EnterLongLimit()](enterlonglimit.md) | Generates a buy limit order to enter a long position. |
-| [[[EnterLongMIT()](enterlongmit.md) | Generates a buy MIT order to enter a long position. |
-| [[[EnterLongStopLimit()](enterlongstoplimit.md) | Generates a buy stop limit order to enter a long position. |
-| [[[EnterLongStopMarket()](enterlongstopmarket.md) | Generates a buy stop market order to enter a long position. |
-| [[[EnterShort()](entershort.md) | Generates a sell short market order to enter a short position. |
-| [[[EnterShortLimit()](entershortlimit.md) | Generates a sell short stop limit order to enter a short position. |
-| [[[EnterShortMIT()](entershortmit.md) | Generates a sell MIT order to enter a short position. |
-| [[[EnterShortStopLimit()](entershortstoplimit.md) | Generates a sell short stop limit order to enter a short position. |
-| [[[EnterShortStopMarket()](entershortstopmarket.md) | Generates a sell short stop order to enter a short position. |
-| [[[ExitLong()](exitlong.md) | Generates a sell market order to exit a long position. |
-| [[[ExitLongLimit()](exitlonglimit.md) | Generates a sell limit order to exit a long position. |
-| [[[ExitLongMIT()](exitlongmit.md) | Generates a sell MIT order to exit a long position. |
-| [[[ExitLongStopLimit()](exitlongstoplimit.md) | Generates a sell stop limit order to exit a long position. |
-| [[[ExitLongStopMarket()](exitlongstopmarket.md) | Generates a sell stop market order to exit a long position. |
-| [[[ExitShort()](exitshort.md) | Generates a buy to cover market order to exit a short position. |
-| [[[ExitShortLimit()](exitshortlimit.md) | Generates a buy to cover limit order to exit a short position. |
-| [[[ExitShortMIT()](exitshortmit.md) | Generates a buy to cover MIT order to exit a short position. |
-| [[[ExitShortStopLimit()](exitshortstoplimit.md) | Generates a buy to cover stop limit order to exit a short position. |
-| [[[ExitShortStopMarket()](exitshortstopmarket.md) | Generates a buy to cover stop market order to exit a short position. |
-| [[[GetRealtimeOrder()](getrealtimeorder.md) | Returns a matching real-time order object based on a specified historical order object reference. |
-| [[[SetParabolicStop()](setparabolicstop.md) | Generates a parabolic type trail stop order with the signal name "Parabolic stop" to exit a position. |
-| [[[SetProfitTarget()](setprofittarget.md) | Generates a profit target order with the signal name "Profit target" to exit a position. |
-| [[[SetStopLoss()](setstoploss.md) | Generates a stop loss order with the signal name "Stop loss" used to exit a position. |
-| [[[SetTrailStop()](settrailstop.md) | Generates a trail stop order with the signal name "Trail stop" to exit a position. |
+| [Advanced Order Handling](advanced_order_handling.md) | Through advanced order handling you can submit, change and cancel orders at your discretion through any event-driven method within a strategy. |
+| [CancelOrder()](managed_cancelorder.md) | Cancels a specified order. |
+| [ChangeOrder()](managed_changeorder.md) | Amends a specified [Order](order.md). |
+| [EnterLong()](enterlong.md) | Generates a buy market order to enter a long position. |
+| [EnterLongLimit()](enterlonglimit.md) | Generates a buy limit order to enter a long position. |
+| [EnterLongMIT()](enterlongmit.md) | Generates a buy MIT order to enter a long position. |
+| [EnterLongStopLimit()](enterlongstoplimit.md) | Generates a buy stop limit order to enter a long position. |
+| [EnterLongStopMarket()](enterlongstopmarket.md) | Generates a buy stop market order to enter a long position. |
+| [EnterShort()](entershort.md) | Generates a sell short market order to enter a short position. |
+| [EnterShortLimit()](entershortlimit.md) | Generates a sell short stop limit order to enter a short position. |
+| [EnterShortMIT()](entershortmit.md) | Generates a sell MIT order to enter a short position. |
+| [EnterShortStopLimit()](entershortstoplimit.md) | Generates a sell short stop limit order to enter a short position. |
+| [EnterShortStopMarket()](entershortstopmarket.md) | Generates a sell short stop order to enter a short position. |
+| [ExitLong()](exitlong.md) | Generates a sell market order to exit a long position. |
+| [ExitLongLimit()](exitlonglimit.md) | Generates a sell limit order to exit a long position. |
+| [ExitLongMIT()](exitlongmit.md) | Generates a sell MIT order to exit a long position. |
+| [ExitLongStopLimit()](exitlongstoplimit.md) | Generates a sell stop limit order to exit a long position. |
+| [ExitLongStopMarket()](exitlongstopmarket.md) | Generates a sell stop market order to exit a long position. |
+| [ExitShort()](exitshort.md) | Generates a buy to cover market order to exit a short position. |
+| [ExitShortLimit()](exitshortlimit.md) | Generates a buy to cover limit order to exit a short position. |
+| [ExitShortMIT()](exitshortmit.md) | Generates a buy to cover MIT order to exit a short position. |
+| [ExitShortStopLimit()](exitshortstoplimit.md) | Generates a buy to cover stop limit order to exit a short position. |
+| [ExitShortStopMarket()](exitshortstopmarket.md) | Generates a buy to cover stop market order to exit a short position. |
+| [GetRealtimeOrder()](getrealtimeorder.md) | Returns a matching real-time order object based on a specified historical order object reference. |
+| [SetParabolicStop()](setparabolicstop.md) | Generates a parabolic type trail stop order with the signal name "Parabolic stop" to exit a position. |
+| [SetProfitTarget()](setprofittarget.md) | Generates a profit target order with the signal name "Profit target" to exit a position. |
+| [SetStopLoss()](setstoploss.md) | Generates a stop loss order with the signal name "Stop loss" used to exit a position. |
+| [SetTrailStop()](settrailstop.md) | Generates a trail stop order with the signal name "Trail stop" to exit a position. |

@@ -76,7 +76,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | resolution | The data the indicator will run off of:  Standard  Tick |
 | tradingHoursInstance | The trading hour template that will indicate when the VWAP resets |
 | numStandardDeviations | The number of standard deviations of the VWAP |
@@ -107,4 +107,4 @@ else if (BarsInProgress == 1)
 
  
 
-> **Notes:** 1. Referencing multiple OrderFlowVWAP's with different ResetInterval’s in a single NinjaScript Indicator / Strategy is not supported by default. Please contact [[[[email protected]](mailto:platformsupport@ninjatrader.com) for a workaround.  2. Referencing OrderFlowVWAP in a NinjaScript indicator or strategy which runs on either Calcuate.OnEachTick or .OnPriceChange, historical data is needed for accurate calculations.
+> **Notes:** 1. Referencing multiple OrderFlowVWAP's with different ResetInterval’s in a single NinjaScript Indicator / Strategy is not supported by default. Please contact [email protected](mailto:platformsupport@ninjatrader.com) for a workaround.  2. Referencing OrderFlowVWAP in a NinjaScript indicator or strategy which runs on either Calcuate.OnEachTick or .OnPriceChange, historical data is needed for accurate calculations.

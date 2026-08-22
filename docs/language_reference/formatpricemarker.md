@@ -6,7 +6,7 @@ Used to override the default string format of a NinjaScript's price marker value
 
 ## Method Return Value
 
-A [[[virtual](https://msdn.microsoft.com/en-us/library/9fkccyh4.aspx) string which is overridden from the default price marker value
+A [virtual](https://msdn.microsoft.com/en-us/library/9fkccyh4.aspx) string which is overridden from the default price marker value
 
 ## Syntax
 
@@ -31,7 +31,7 @@ public override string FormatPriceMarker(double price)
 
  
 
-> **Tip:** Standard Numeric Format Strings examples can be found on Microsoft's Developer Network ([[[MSDN article](https://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx))
+> **Tip:** Standard Numeric Format Strings examples can be found on Microsoft's Developer Network ([MSDN article](https://msdn.microsoft.com/en-us/library/dwhawy9k%28v=vs.110%29.aspx))
 
  
 

@@ -2,7 +2,7 @@
 
 ## Definition
 
-The risk free return used in calculations of [[[Sharpe](sharperatio.md) and [[[Sortino](sortinoratio.md) ratios.
+The risk free return used in calculations of [Sharpe](sharperatio.md) and [Sortino](sortinoratio.md) ratios.
 
 ## Property Value
 

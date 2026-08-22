@@ -10,19 +10,19 @@ Level II data is important for the momentum trader. It allows them to determine 
 
 ## Important related documentation
 
-- [[[List<>](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.110).aspx)
+- [List<>](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.110).aspx)
 
-- [[[MarketDepthEventArgs](../language_reference/marketdeptheventargs.md)
+- [MarketDepthEventArgs](../language_reference/marketdeptheventargs.md)
 
-- [[[Operation](../operations/operations.md)
+- [Operation](../operations/operations.md)
 
-- [[[Position](../strategies/position.md)
+- [Position](../strategies/position.md)
 
-- [[[Price](../drawing_tools/price.md)
+- [Price](../drawing_tools/price.md)
 
-- [[[Volume](volume.md)
+- [Volume](volume.md)
 
-- [[[Time](../drawing_tools/time.md)
+- [Time](../drawing_tools/time.md)
 
 ## Import instructions
 
@@ -32,4 +32,4 @@ Level II data is important for the momentum trader. It allows them to determine 
 
 3.Select the downloaded file
 
-[[[SampleLevel2Book\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleLevel2Book_NT8.zip)
+[SampleLevel2Book\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleLevel2Book_NT8.zip)

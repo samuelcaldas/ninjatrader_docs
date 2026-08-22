@@ -2,15 +2,15 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Fibonacci Retracements [[[IDrawingTool](idrawingtool.md).
+Represents an interface that exposes information regarding a Fibonacci Retracements [IDrawingTool](idrawingtool.md).
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
-| [[[PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| [PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
 | TextLocation | An enum determining the text location; can be set to TextLocation.Off to remove text |
 | IsExtendedLinesLeft | A bool value determining if the draw object should draw lines to the far left side of the screen |
 | IsExtendedLinesRight | A bool value determining if the draw object should draw lines to the far right side of the screen |

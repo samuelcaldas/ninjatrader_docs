@@ -2,15 +2,15 @@
 
 The Optimization Graph can only be selected in the Display selector only after an optimization has been run. The optimization graph can be displayed in a 2D or 3D graph. A 2D graph is used when only graphing a single parameter. If you graph 2 parameters then a 3D graph is displayed.
 
-![[[StrategyAnalyzer_OptimizationGraph](../images/strategyanalyzer_optimizationgraph.png)
+![StrategyAnalyzer_OptimizationGraph](../images/strategyanalyzer_optimizationgraph.png)
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |
 | --- | --- |
 | Understanding the 2D Optimization Graph The 2D optimization graph displays each and every test run for the optimization. This allows you to see the entire range of results produced from an optimization run. Allowing you to take a look over the entire solution domain to determine if your top results are stable. Instead of choosing the absolute best parameter set that might be an outlier you may instead desire to choose a parameter that has a gradual build up which may indicate stability in the result set.    The 2D Optimization graph will be displayed when you have only selected a single parameter and is the default graph view.    |  | | --- | | Note: Selecting a 2nd Parameter will switch to the 3d graph. |  Using the 2D Optimization Graph Each dot signifies a backtest result, graphed by the X-Axis and the Y-Axis. The X-Axis can be changed by selecting the Graph parameter. |
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |

@@ -31,7 +31,7 @@ Based on the image below, AxisYRightWidth reveals that the space between the y-a
 
  
 
-![[[ChartControl_AxisYRightWidth](../images/chartcontrol_axisyrightwidth.png)
+![ChartControl_AxisYRightWidth](../images/chartcontrol_axisyrightwidth.png)
 
  
 

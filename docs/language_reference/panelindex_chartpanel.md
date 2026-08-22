@@ -37,4 +37,4 @@ Notice three things in the image below:
 
  
 
-![[[ChartPanel_PanelIndex](../images/chartpanel_panelindex.png)
+![ChartPanel_PanelIndex](../images/chartpanel_panelindex.png)

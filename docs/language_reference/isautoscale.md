@@ -2,13 +2,13 @@
 
 ## Definition
 
-If true, the object will call [[[CalculateMinMax()](oncalculateminmax.md) in order to determine the object's [[[MinValue](minvalue.md) and [[[MaxValue](maxvalue.md) value used to scale the Y-axis of the chart.
+If true, the object will call [CalculateMinMax()](oncalculateminmax.md) in order to determine the object's [MinValue](minvalue.md) and [MaxValue](maxvalue.md) value used to scale the Y-axis of the chart.
 
 ## Property Value
 
-This property returns true if the object's are included in the y-scale; otherwise, false. Default set to false for [[[DrawingTools](../drawing_tools/drawing_tools.md), but set to true for [[[Indicators](../indicators/indicator.md).
+This property returns true if the object's are included in the y-scale; otherwise, false. Default set to false for [DrawingTools](../drawing_tools/drawing_tools.md), but set to true for [Indicators](../indicators/indicator.md).
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

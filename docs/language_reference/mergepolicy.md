@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates the Merge Policy configured for the [[[Master Instrument properties](editing_instruments.md).
+Indicates the Merge Policy configured for the [Master Instrument properties](editing_instruments.md).
 
 ## Property Value
 

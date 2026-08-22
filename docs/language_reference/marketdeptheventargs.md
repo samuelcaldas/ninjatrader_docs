@@ -15,7 +15,7 @@ Represents a change in level two market data also known as market depth and is p
 | Operation | Represents the action you should take when building a level two book.  Possible values are:  Operation.Add  Operation.Update  Operation.Remove |
 | Position | An int value representing the zero based position in the depth ladder. |
 | Price | A double value representing the price |
-| Time | A [[[DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the time |
+| Time | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the time |
 | ToString() | A string representation of the MarketDataEventArgs object |
 | Volume | A long value representing volume |
 

@@ -2,18 +2,18 @@
 
 ## Definition
 
-A collection of PriceLevel objects defining lines for multi-price-level [[[Drawing Tools](drawing.md) (Fibonacci tools, etc.). Each PriceLevel within the collection can be configured programmatically or analyzed to obtain the parameters of user-drawn objects.
+A collection of PriceLevel objects defining lines for multi-price-level [Drawing Tools](drawing.md) (Fibonacci tools, etc.). Each PriceLevel within the collection can be configured programmatically or analyzed to obtain the parameters of user-drawn objects.
 
  
 
 > **Note:** PriceLevels is only used with the following pre-built Drawing Tools, but it can be used with custom Drawing Tools, as well:
-- [[[AndrewsPitchfork](draw_andrewspitchfork.md)
-- [[[FibonacciCircle](draw_fibonaccicircle.md)
-- [[[FibonacciExtensions](draw_fibonacciextensions.md)
-- [[[FibonacciRetracements](draw_fibonacciretracements.md)
-- [[[FibonacciTimeExtensions](draw_fibonaccitimeextensions.md)
-- [[[GannFan](draw_gannfan.md)
-- [[[TrendChannel](draw_trendchannel.md)
+- [AndrewsPitchfork](draw_andrewspitchfork.md)
+- [FibonacciCircle](draw_fibonaccicircle.md)
+- [FibonacciExtensions](draw_fibonacciextensions.md)
+- [FibonacciRetracements](draw_fibonacciretracements.md)
+- [FibonacciTimeExtensions](draw_fibonaccitimeextensions.md)
+- [GannFan](draw_gannfan.md)
+- [TrendChannel](draw_trendchannel.md)
 
 ## Syntax
 

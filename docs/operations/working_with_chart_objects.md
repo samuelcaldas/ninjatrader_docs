@@ -2,11 +2,11 @@
 
 Chart Objects represent various Data Series, Indicators, or Drawing Tools which have been configured on the chart.  There are several ways to interact with these chart objects in order to control their behavior and appearance.
 
-![[[tog_minus](../images/tog_minus-1.gif)        How to drag and drop chart objects
+![tog_minus](../images/tog_minus-1.gif)        How to drag and drop chart objects
 
 > Drag and Drop A Data Series or Indicator can be dragged and dropped to various areas of the chart to quickly change which panel it displays.    Left mouse click on a chart object within a chart and drag and drop to any of the following areas of the chart:    1.Upper limit - Creates a new panel at the top of the chart  2.In between panels -  Creates a new panel in between two existing panels  3.Lower limit - Creates a new panel at the bottom of the chart  4.Center area of a panel - Relocates the selected chart object to this panel and automatically determines the most suitable scale justification  5.Left or right area of a panel - Relocates the selected chart object to this panel (unless already in the selected panel) and changes the scale justification to the selected side of the panel.    When you drag a selected object to a valid region on the chart, a blue band will appear acknowledging you that by dropping the object at this particular location, a new panel will be created.
 
-![[[tog_minus](../images/tog_minus-1.gif)        How to change the z-order (paint order) of a chart object
+![tog_minus](../images/tog_minus-1.gif)        How to change the z-order (paint order) of a chart object
 
 |  |  |
 | --- | --- |

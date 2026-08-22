@@ -2,7 +2,7 @@
 
 ## Definition
 
-A subcollection of [[[Trade](trade.md) objects consisting of only the non-winning and non-losing trades in a [[[TradeCollection](tradecollection.md).
+A subcollection of [Trade](trade.md) objects consisting of only the non-winning and non-losing trades in a [TradeCollection](tradecollection.md).
 
  
 
@@ -12,9 +12,9 @@ A subcollection of [[[Trade](trade.md) objects consisting of only the non-winnin
 
 |  |  |
 | --- | --- |
-| [[[Count](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
-| [[[GetTrades()](gettrades.md) | Gets a [[[TradeCollection](tradecollection.md) object representing a specified position |
-| [[[TradesPerformance](tradesperformance.md) | Gets a [[[TradesPerformance](tradesperformance.md) object |
+| [Count](tradecollection_tradescount.md) | An int value representing the number of trades in the collection |
+| [GetTrades()](gettrades.md) | Gets a [TradeCollection](tradecollection.md) object representing a specified position |
+| [TradesPerformance](tradesperformance.md) | Gets a [TradesPerformance](tradesperformance.md) object |
 
 ## Syntax
 

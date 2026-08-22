@@ -5,8 +5,8 @@
 Returns the ask price value at a selected absolute bar index value.
 
 > **Notes:**
-- This method does NOT return the current real-time asking price, but rather the historical / real-time asking price at the desired index.  For obtaining the current real-time asking price, please use [[[GetCurrentAsk](getcurrentask.md)().
-- This method returns expected values when 1 tick bid / ask stamped data is used and available from [[[your provider](../operations/data_by_provider.md).
+- This method does NOT return the current real-time asking price, but rather the historical / real-time asking price at the desired index.  For obtaining the current real-time asking price, please use [GetCurrentAsk](getcurrentask.md)().
+- This method returns expected values when 1 tick bid / ask stamped data is used and available from [your provider](../operations/data_by_provider.md).
 
 ## Method Return Value
 

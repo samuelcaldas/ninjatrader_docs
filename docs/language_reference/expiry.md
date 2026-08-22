@@ -6,7 +6,7 @@ Indicates the expiration month of a futures contract.
 
 ## Property Value
 
-A [[[DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the expiration month of a futures contract.
+A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the expiration month of a futures contract.
 
 ## Syntax
 

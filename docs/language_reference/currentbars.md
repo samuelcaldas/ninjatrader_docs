@@ -2,17 +2,17 @@
 
 ## Definition
 
-Holds an array of int values representing the number of the current bar in a Bars object. An int value is added to this array when calling the [[[AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the [[[CurrentBar](currentbar.md) of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of int values representing the number of the current bar in a Bars object. An int value is added to this array when calling the [AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the [CurrentBar](currentbar.md) of all Bars objects in a multi-instrument or multi-time frame script.
 
  
 
-> **Note:** In [[[multi series](multi-time_frame__instruments.md) processing, the CurrentBars starting value will be -1 until all series have processed the first bar.
+> **Note:** In [multi series](multi-time_frame__instruments.md) processing, the CurrentBars starting value will be -1 until all series have processed the first bar.
 
 ## Property Value
 
 An array of int values.
 
-> **Warning:** This property should NOT be accessed within the [[[OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
+> **Warning:** This property should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
 ## Syntax
 

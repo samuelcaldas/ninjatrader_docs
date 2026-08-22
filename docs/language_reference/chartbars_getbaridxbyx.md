@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns the [[[ChartBars](chartbars.md) index value at a specified x-coordinate relative to the ChartControl.
+Returns the [ChartBars](chartbars.md) index value at a specified x-coordinate relative to the ChartControl.
 
  
 
@@ -18,7 +18,7 @@ An int value representing the bar index
 
 |  |  |
 | --- | --- |
-| chartControl | The [[[ChartControl](chartcontrol.md) object used to determine the chart's time axis |
+| chartControl | The [ChartControl](chartcontrol.md) object used to determine the chart's time axis |
 | x | The x-coordinate used to find a bar index value |
 
 ## Examples

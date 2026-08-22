@@ -8,7 +8,7 @@ A Strategy Position is a virtual position that is created by the entry and exit 
 
 ## Account Position
 
-An Account Position is the position you actually hold in a real-time trading account, whether it is a NinjaTrader internal [[[simulation account](../operations/simulation.md) (Sim101) or your live real-money brokerage account.
+An Account Position is the position you actually hold in a real-time trading account, whether it is a NinjaTrader internal [simulation account](../operations/simulation.md) (Sim101) or your live real-money brokerage account.
 
 In most cases, a trader would want their Strategy Position’s size and market direction to be equal (in sync) to their Account Position, but there are situations when this may not be the case.
 
@@ -16,7 +16,7 @@ For example:
 
 - You want to run multiple strategies in the same market simultaneously where strategy A holds a LONG 1 position, strategy B holds a LONG 2 position resulting in an account that should hold a LONG 3 position in order to be in sync with both strategies
 
-- You want to run a strategy and at the same time trade the same market the strategy is running on using discretionary tactics through one of NinjaTrader advanced [[[order entry](order_entry.md) window such as the [[[SuperDOM](superdom.md) or [[[Chart Trader](chart_trader.md)
+- You want to run a strategy and at the same time trade the same market the strategy is running on using discretionary tactics through one of NinjaTrader advanced [order entry](order_entry.md) window such as the [SuperDOM](superdom.md) or [Chart Trader](chart_trader.md)
 
 ## An extremely common scenario…
 
@@ -24,7 +24,7 @@ An extremely common scenario is starting a NinjaScript strategy in the middle of
 
 ## What can you do in this case?
 
-If you want your Account Position to match your Strategy Position, you will need to place a manual order into the account the strategy is running on. Continuing from the above example, you would need to place a 1-lot market order for the market being traded into the account the strategy is running on. Alternatively, NinjaTrader has the ability to have your account automatically synced to your strategy position on strategy startup by setting the desired Start Behavior.   New to NinjaTrader is the ability to sync your Strategy Position to an Account Position. For more information on Strategy Start Behavior, please see the article here about [[[syncing account positions](../ninjascript/syncing_account_positions.md).
+If you want your Account Position to match your Strategy Position, you will need to place a manual order into the account the strategy is running on. Continuing from the above example, you would need to place a 1-lot market order for the market being traded into the account the strategy is running on. Alternatively, NinjaTrader has the ability to have your account automatically synced to your strategy position on strategy startup by setting the desired Start Behavior.   New to NinjaTrader is the ability to sync your Strategy Position to an Account Position. For more information on Strategy Start Behavior, please see the article here about [syncing account positions](../ninjascript/syncing_account_positions.md).
 
 What if I do not sync my account?   
 The resulting behavior when the Strategy Position and Account Position are out of sync is when your strategy (continuing with the example above) closes the long position with a sell order it would bring the Strategy Position to flat and your Account Position to SHORT

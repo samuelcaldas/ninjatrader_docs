@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines the sequence in which a NinjaScript object's [[[Display.GroupName](../language_reference/displayattribute.md) categories are arranged in relation to other categories in the UI.   The default behavior will display each GroupName of an object in alphabetical order, however this behavior can be changed by defining the CategoryOrder attribute before the object's declaration.
+Determines the sequence in which a NinjaScript object's [Display.GroupName](../language_reference/displayattribute.md) categories are arranged in relation to other categories in the UI.   The default behavior will display each GroupName of an object in alphabetical order, however this behavior can be changed by defining the CategoryOrder attribute before the object's declaration.
 
 > **Notes:**
 - The CategoryOrder attribute is ONLY valid on class-level declarations.
@@ -53,7 +53,7 @@ The following table applies to Chart Strategies, Control Center Strategies Grid,
 
 |  |  |
 | --- | --- |
-| category | A string identifying the [[[GroupName](../language_reference/displayattribute.md) to be categorize |
+| category | A string identifying the [GroupName](../language_reference/displayattribute.md) to be categorize |
 | order | An int determining the sequence the Category displays |
 
 ## Examples

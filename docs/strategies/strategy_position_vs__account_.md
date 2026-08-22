@@ -14,7 +14,7 @@ An extremely common scenario is starting a NinjaScript strategy in the middle of
 
 What can you do in this case?
 
-If you want your Account Position to match your Strategy Position, you will need to place a manual order into the account the strategy is running on. Continuing from the above example, you would need to place a 1-lot market order for the market being traded into the account the strategy is running on. Alternatively, there is the ability to have your account automatically synced to your strategy position on strategy startup. To use this feature, please set "Sync account position" to true in the Strategy dialogue window. For more information on this feature please see the article here about [[[syncing Account Positions to Strategy Position](../ninjascript/syncing_account_positions.md)[[[s.](http://www.ninjatrader.com/support/helpGuides/nt7/syncing_account_positions.md)
+If you want your Account Position to match your Strategy Position, you will need to place a manual order into the account the strategy is running on. Continuing from the above example, you would need to place a 1-lot market order for the market being traded into the account the strategy is running on. Alternatively, there is the ability to have your account automatically synced to your strategy position on strategy startup. To use this feature, please set "Sync account position" to true in the Strategy dialogue window. For more information on this feature please see the article here about [syncing Account Positions to Strategy Position](../ninjascript/syncing_account_positions.md)[s.](http://www.ninjatrader.com/support/helpGuides/nt7/syncing_account_positions.md)
 
 What if I do not submit a manual order to sync my account?
 

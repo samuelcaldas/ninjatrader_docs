@@ -2,16 +2,16 @@
 
 Many of the Strategy Analyzer visual display settings can be customized using the Strategy Analyzer Properties window.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 > You can access the Strategy Analyzer Properties dialog window by clicking on your right mouse button and selecting the menu Properties.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| The following properties are available for configuration within the Strategy Analyzer Properties window:    Strategy_Analyzer_Properties   Property Definitions |  |  | | --- | --- | | General |  | | Use local data only | When enabled the strategy analyzer will not make a request for historical data from the provider and used stored data in the repository only. | | Play sound on complete | Once a back-test or optimization is complete, the chosen alert sound will be triggered. | | Grid font | Sets the font options | | Tab name | Sets the name of the tab, please see [[[Using Tabs](../operations/using_tabs.md) for more information. | | Columns - Analysis |  | | Columns - Executions |  | | Columns - Log |  | | Columns - Orders |  | | Columns - Results |  | | Columns - Summary |  | | Columns - Trades |  | | Window |  | | Show Tabs | Sets if the tabs are visible or not. | | Show Log | Set if the log feature is enabled or disabled. | |
+| The following properties are available for configuration within the Strategy Analyzer Properties window:    Strategy_Analyzer_Properties   Property Definitions |  |  | | --- | --- | | General |  | | Use local data only | When enabled the strategy analyzer will not make a request for historical data from the provider and used stored data in the repository only. | | Play sound on complete | Once a back-test or optimization is complete, the chosen alert sound will be triggered. | | Grid font | Sets the font options | | Tab name | Sets the name of the tab, please see [Using Tabs](../operations/using_tabs.md) for more information. | | Columns - Analysis |  | | Columns - Executions |  | | Columns - Log |  | | Columns - Orders |  | | Columns - Results |  | | Columns - Summary |  | | Columns - Trades |  | | Window |  | | Show Tabs | Sets if the tabs are visible or not. | | Show Log | Set if the log feature is enabled or disabled. | |
 
-![[[tog_minus](../images/tog_minus.gif)        How to preset property defaults
+![tog_minus](../images/tog_minus.gif)        How to preset property defaults
 
 > Once you have your properties set to your preference, you can left mouse click on the "template" text located in the bottom right of the properties dialog. Selecting the option "save" and naming it "Default" will save these settings as the default settings used every time you open a new window/tab. Saving the template with other names will allow you to save additional configuration that you could load.    If you change your settings and later wish to go back to the original settings, you can left mouse click on the "template" text and select the option to "reset" to return to the original settings.

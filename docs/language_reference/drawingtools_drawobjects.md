@@ -14,7 +14,7 @@ A collection holding all of the drawn chart objects on the chart, for all series
 
 ## Property Value
 
-A collection of [[[IDrawingTool](idrawingtool.md) objects.
+A collection of [IDrawingTool](idrawingtool.md) objects.
 
 ## Syntax
 
@@ -78,4 +78,4 @@ protected override void OnBarUpdate()
 
  
 
-> **Note:** Typecasting as in the example above will not function the same way in a compiled assembly (DLL). For an alternative approach, see the [[[Considerations For Compiled Assemblies](../ninjascript/considerations_for_compiled_assemblies.md) page.
+> **Note:** Typecasting as in the example above will not function the same way in a compiled assembly (DLL). For an alternative approach, see the [Considerations For Compiled Assemblies](../ninjascript/considerations_for_compiled_assemblies.md) page.

@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | smoothing | The number of bars used to smooth the signal |
 | volumeDivisor | The value used to calculate the box ratio |
 

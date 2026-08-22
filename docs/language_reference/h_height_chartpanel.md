@@ -33,4 +33,4 @@ Based on the image below, H reveals that the paintable area of the chart panel i
 
  
 
-![[[ChartPanel_H](../images/chartpanel_h.png)
+![ChartPanel_H](../images/chartpanel_h.png)

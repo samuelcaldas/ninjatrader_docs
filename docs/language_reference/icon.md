@@ -2,7 +2,7 @@
 
 ## Definition
 
-The shape which displays within the Share window when sharing content.  Since this is a standard object, any type of icon can be used (unicode characters, custom image file resource, geometry path, etc). For more information on using images to create icons, see the [[[Using Images with Custom Icons](../ninjascript/using_images_and_geometry_with_custom_icons.md) page.
+The shape which displays within the Share window when sharing content.  Since this is a standard object, any type of icon can be used (unicode characters, custom image file resource, geometry path, etc). For more information on using images to create icons, see the [Using Images with Custom Icons](../ninjascript/using_images_and_geometry_with_custom_icons.md) page.
 
 > **Note:** When using UniCode characters, first ensure that the desired characters exist in the icon pack for the font family used in NinjaTrader.
 

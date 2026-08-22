@@ -30,4 +30,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 In the image below, the lowest value displayed as text on the y-axis reads 2102.50, however as you can see, there are a few pixels on the chart scale below this tick.  The absolute rendered MinValue on the chart scale is calculated as 2102.29.
 
-![[[MinValue](../images/minvalue.png)
+![MinValue](../images/minvalue.png)

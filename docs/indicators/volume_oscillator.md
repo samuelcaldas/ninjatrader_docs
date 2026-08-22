@@ -2,7 +2,7 @@
 
 ## Description
 
-The Volume Oscillator uses the difference between two [[[moving averages](moving_average_-_simple_sma.md) of [[[volume](volume.md) to determine if the trend is increasing or decreasing. A value above zero indicates that the shorter term volume moving average has risen above the longer term volume moving average. This indicates that the shorter term trend is higher than the longer term trend. Rising prices with with increased short term volume is bullish as is falling prices with decreased volume. Falling prices with increased volume or rising prices with decreased volume indicate market weakness.
+The Volume Oscillator uses the difference between two [moving averages](moving_average_-_simple_sma.md) of [volume](volume.md) to determine if the trend is increasing or decreasing. A value above zero indicates that the shorter term volume moving average has risen above the longer term volume moving average. This indicates that the shorter term trend is higher than the longer term trend. Rising prices with with increased short term volume is bullish as is falling prices with decreased volume. Falling prices with increased volume or rising prices with decreased volume indicate market weakness.
 
 ## Syntax
 
@@ -24,7 +24,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 |  |  |
 | --- | --- |
 | fast | The number of bars to include in the short term moving average |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | slow | The number of bars to include in the long term moving average |
 
 ## Example

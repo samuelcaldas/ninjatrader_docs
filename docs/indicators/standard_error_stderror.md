@@ -4,7 +4,7 @@
 
 The standard error of a method of measurement or estimation is the standard deviation of the sampling distribution associated with the estimation method. The term may also be used to refer to an estimate of that standard deviation, derived from a particular sample used to compute the estimate.
 
-... Courtesy of [[[Wikipedia](http://en.wikipedia.org/wiki/Standard_error_(statistics))
+... Courtesy of [Wikipedia](http://en.wikipedia.org/wiki/Standard_error_(statistics))
 
 ## Syntax
 
@@ -37,7 +37,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Examples

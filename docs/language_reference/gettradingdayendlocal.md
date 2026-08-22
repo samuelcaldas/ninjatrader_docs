@@ -2,7 +2,7 @@
 
 ## Definition
 
-Converts the trading day end time from the exchange timezone to local time, and returns a DateTime object in the local timezone. The [[[ActualTradingDayExchange](actualtradingdayexchange.md) property can be passed into GetTradingDayEndLocal() for a quick timezone conversion.
+Converts the trading day end time from the exchange timezone to local time, and returns a DateTime object in the local timezone. The [ActualTradingDayExchange](actualtradingdayexchange.md) property can be passed into GetTradingDayEndLocal() for a quick timezone conversion.
 
 ## Property Value
 

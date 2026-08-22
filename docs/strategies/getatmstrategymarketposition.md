@@ -6,7 +6,7 @@ Gets the current market position of the specified ATM Strategy.
 
  
 
-> **Notes:** 1. Changes to positions will not be reflected till at least the next [[[OnBarUpdate()](../language_reference/onbarupdate.md) event after an order fill.  2. If the ATM Strategy does not exist then MarketPosition.Flat returns  3. Please note this provides access to the current ATM strategy position, which should not be confused with the NinjaScript strategy position or account position. For more information please see the [[[Using ATM Strategies](../ninjascript/using_atm_strategies.md) section.
+> **Notes:** 1. Changes to positions will not be reflected till at least the next [OnBarUpdate()](../language_reference/onbarupdate.md) event after an order fill.  2. If the ATM Strategy does not exist then MarketPosition.Flat returns  3. Please note this provides access to the current ATM strategy position, which should not be confused with the NinjaScript strategy position or account position. For more information please see the [Using ATM Strategies](../ninjascript/using_atm_strategies.md) section.
 
 ## Method Return Value
 

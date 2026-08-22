@@ -2,9 +2,9 @@
 
 ## Description
 
-The Price Oscillator is an indicator based on the difference between two [[[moving averages](moving_average_-_exponential_e.md), and is expressed as either a percentage or in absolute terms.
+The Price Oscillator is an indicator based on the difference between two [moving averages](moving_average_-_exponential_e.md), and is expressed as either a percentage or in absolute terms.
 
-... Courtesy of [[[StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_priceOscillator.md)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_priceOscillator.md)
 
 ## Syntax
 
@@ -25,10 +25,10 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| fast | The number of bars to calculate the fast [[[EMA](moving_average_-_exponential_e.md) |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
-| slow | The number of bars to calculate the slow [[[EMA](moving_average_-_exponential_e.md) |
-| smooth | The number of bars to calculate the [[[EMA](moving_average_-_exponential_e.md) signal line |
+| fast | The number of bars to calculate the fast [EMA](moving_average_-_exponential_e.md) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
+| slow | The number of bars to calculate the slow [EMA](moving_average_-_exponential_e.md) |
+| smooth | The number of bars to calculate the [EMA](moving_average_-_exponential_e.md) signal line |
 
 ## Example
 

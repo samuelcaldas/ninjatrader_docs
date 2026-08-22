@@ -6,7 +6,7 @@ Draws an arrow line.
 
 ## Method Return Value
 
-An [[[ArrowLine](arrowline.md) object that represents the draw object.
+An [ArrowLine](arrowline.md) object that represents the draw object.
 
 ## Syntax
 
@@ -33,7 +33,7 @@ Draw.ArrowLine(NinjaScriptBase owner, string tag, DateTime startTime, double sta
 | endBarsAgo | The end bar (x axis co-ordinate) where the draw object will terminate |
 | endTime | The end time where the draw object will terminate |
 | endY | The end y value co-ordinate where the draw object will terminate |
-| brush | The brush used to color draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | dashStyle | DashStyleHelper.Dash   DashStyleHelper.DashDot   DashStyleHelper.DashDotDot   DashStyleHelper.Dot   DashStyleHelper.Solid    Note: Drawing objects with y values very far off the visible canvas can lead to performance hits. Fancier DashStyles like DashDotDot will also require more resources than simple DashStyles like Solid. |
 | width | The width of the draw object |
 | drawOnPricePanel | Determines if the draw-object should be on the price panel or a separate panel |

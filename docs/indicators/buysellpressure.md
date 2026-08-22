@@ -4,7 +4,7 @@
 
 The BuySellPressure indicator displays both the current bar's buying and selling pressure as percentage values based on the categorization of trades as buy or sell trades. Trades are categorized in real-time as a buy (at the ask or above) or as a sell (at the bid or below).... Trades in between the market are ignored.
 
-> **Note:** For historical calculations, [[[Tick Replay](../operations/tick_replay.md) must be enabled
+> **Note:** For historical calculations, [Tick Replay](../operations/tick_replay.md) must be enabled
 
 ## Syntax
 
@@ -31,7 +31,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 ## Examples
 

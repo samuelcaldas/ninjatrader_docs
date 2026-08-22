@@ -4,7 +4,7 @@
 
 Indicates a specified date is within the bounds of the current session, according to the configured Trading Hours template.
 
-> **Note:** Additionally this method will internally trigger a [[[GetNextSession()](getnextsession.md) call to calculate the next available session relative to the "timeLocal" value used in the method's input.
+> **Note:** Additionally this method will internally trigger a [GetNextSession()](getnextsession.md) call to calculate the next available session relative to the "timeLocal" value used in the method's input.
 
 ## Property Value
 

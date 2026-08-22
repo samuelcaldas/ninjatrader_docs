@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines within how many minutes the strategy will attempt to restart.  The strategy will only restart off a reestablished connection when there have been fewer restart attempts than [[[NumberRestartAttempts](numberrestartattempts.md) in the last NumberRestartAttempts time span. The purpose of these settings is to stop the strategy should your connection be unstable and incapable of maintaining a consistent connected state.
+Determines within how many minutes the strategy will attempt to restart.  The strategy will only restart off a reestablished connection when there have been fewer restart attempts than [NumberRestartAttempts](numberrestartattempts.md) in the last NumberRestartAttempts time span. The purpose of these settings is to stop the strategy should your connection be unstable and incapable of maintaining a consistent connected state.
 
 ## Property Value
 

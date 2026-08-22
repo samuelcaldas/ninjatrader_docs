@@ -4,7 +4,7 @@
 
 Calculates the next available session relative to the "timeLocal" value used in the method's input.
 
-> **Note:** This method needs to be used before you can accurately determine various session properties such as [[[ActualSessionBegin](actualsessionbegin.md) or [[[ActualTradingDayEndLocal](actualtradingdayendlocal.md), etc.
+> **Note:** This method needs to be used before you can accurately determine various session properties such as [ActualSessionBegin](actualsessionbegin.md) or [ActualTradingDayEndLocal](actualtradingdayendlocal.md), etc.
 
 ## Property Value
 

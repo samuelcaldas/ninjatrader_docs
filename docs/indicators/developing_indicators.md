@@ -13,19 +13,19 @@ Indicators are the building blocks of any automated trading system. NinjaScript 
 Custom indicator development follows a logical progression.
 
 Wizard  
-## The wizard allows you to define your overall indicator parameters which include name, properties, inputs, plots and oscillator lines. The wizard will then generate the necessary NinjaScript code and open up the NinjaScript [[[Editor](../ninjascript/editor.md).
+## The wizard allows you to define your overall indicator parameters which include name, properties, inputs, plots and oscillator lines. The wizard will then generate the necessary NinjaScript code and open up the NinjaScript [Editor](../ninjascript/editor.md).
 
 ## OnStateChange() Method
 
-The [[[OnStateChange()](../language_reference/onstatechange.md) method is called once before any initial calculation triggered by an update bar event. This method is used to configure the indicators plots, lines and properties. The wizard will generate the required NinjaScript code for this method for most cases.
+The [OnStateChange()](../language_reference/onstatechange.md) method is called once before any initial calculation triggered by an update bar event. This method is used to configure the indicators plots, lines and properties. The wizard will generate the required NinjaScript code for this method for most cases.
 
 ## OnBarUpdate() Method
 
-The [[[OnBarUpdate()](../language_reference/onbarupdate.md) method is called with either with each incoming tick or on the close of each bar, depending on how you deploy the indicator at run time. Your core indicator calculation logic is contained within this method.
+The [OnBarUpdate()](../language_reference/onbarupdate.md) method is called with either with each incoming tick or on the close of each bar, depending on how you deploy the indicator at run time. Your core indicator calculation logic is contained within this method.
 
 ## Debug
 
-The NinjaScript Editor will perform both syntax and semantic checks and list any errors at the bottom of the window. If there are logic problems with your indicator, they will be listed in the [[[Log tab](../operations/log_tab2.md) of the NinjaScript [[[Control Center](../operations/control_center.md) during run time. You can use the [[[Print()](../language_reference/print.md) method within your script to help debug your code. Output will be sent to the NinjaScript Output window.
+The NinjaScript Editor will perform both syntax and semantic checks and list any errors at the bottom of the window. If there are logic problems with your indicator, they will be listed in the [Log tab](../operations/log_tab2.md) of the NinjaScript [Control Center](../operations/control_center.md) during run time. You can use the [Print()](../language_reference/print.md) method within your script to help debug your code. Output will be sent to the NinjaScript Output window.
 
 ## Compilation
 
@@ -33,7 +33,7 @@ Once the coding effort is completed, you must then compile the indicator (severa
 
 ## Usage
 
-The completed indicator is now available through any window that can use an indicator, such as a [[[Chart](../operations/charts.md).
+The completed indicator is now available through any window that can use an indicator, such as a [Chart](../operations/charts.md).
 
 ## Tutorial Descriptions
 
@@ -42,9 +42,9 @@ All internal NinjaTrader indicators come with full source code and can be viewed
 |  |
 | --- |
 | 
-- [[[Level 1](beginner_-_using_price_variabl.md) - Demonstrating the use of price variables  
-- [[[Level 2](beginner_-_indicator_on_indica.md) - Demonstrating the use of indicator on indicator  
-- [[[Level 3](intermediate_-_your_own_sma.md) - Demonstrating the use of a "for" loop to build a simple moving average indicator  
-- [[[Level 4](intermediate_-_historical_cust.md) - Demonstrating the use of Indicator Series objects to retain historical custom calculations data series  
-- [[[Level 5](advanced_-_custom_plot_colors_.md) - Demonstrating the use of custom plot coloring based on threshold values  
-- [[[Level 6](advanced_-_custom_drawing.md) - Demonstrating the use of custom of drawing using bar color, back color and line colors |
+- [Level 1](beginner_-_using_price_variabl.md) - Demonstrating the use of price variables  
+- [Level 2](beginner_-_indicator_on_indica.md) - Demonstrating the use of indicator on indicator  
+- [Level 3](intermediate_-_your_own_sma.md) - Demonstrating the use of a "for" loop to build a simple moving average indicator  
+- [Level 4](intermediate_-_historical_cust.md) - Demonstrating the use of Indicator Series objects to retain historical custom calculations data series  
+- [Level 5](advanced_-_custom_plot_colors_.md) - Demonstrating the use of custom plot coloring based on threshold values  
+- [Level 6](advanced_-_custom_drawing.md) - Demonstrating the use of custom of drawing using bar color, back color and line colors |

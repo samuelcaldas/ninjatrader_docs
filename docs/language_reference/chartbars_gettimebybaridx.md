@@ -2,11 +2,11 @@
 
 ## Definition
 
-Returns the [[[ChartBars](chartbars.md) time value calculated from a bar index parameter provided.
+Returns the [ChartBars](chartbars.md) time value calculated from a bar index parameter provided.
 
 ## Method Return Value
 
-A [[[DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) struct representing a bar time value at a specific bar index value
+A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) struct representing a bar time value at a specific bar index value
 
 ## Syntax
 
@@ -16,7 +16,7 @@ A [[[DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110
 
 |  |  |
 | --- | --- |
-| chartControl | The [[[ChartControl](chartcontrol.md) object used to determine the chart's time axis |
+| chartControl | The [ChartControl](chartcontrol.md) object used to determine the chart's time axis |
 | barIndex | An int value representing a bar index used to convert to a ChartBar index value |
 
 ## Examples

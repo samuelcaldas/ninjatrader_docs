@@ -6,7 +6,7 @@ Generates a sell stop market order to exit a long position.
 
 ## Method Return Value
 
-An [[[Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [[[Advanced Order Handling](advanced_order_handling.md) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
 
 Syntax  
 ExitLongStopMarket(double stopPrice)
@@ -18,7 +18,7 @@ ExitLongStopMarket(double stopPrice, string signalName, string fromEntrySignal)
 
 ExitLongStopMarket(int quantity, double stopPrice, string signalName, string fromEntrySignal)
 
-The following method variation is for experienced programmers who fully understand [[[Advanced Order Handling](advanced_order_handling.md) concepts:
+The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.md) concepts:
 
  
 
@@ -33,7 +33,7 @@ ExitLongStopMarket(int barsInProgressIndex, bool isLiveUntilCancelled, int quant
 | stopPrice | The stop price of the order. |
 | quantity | Entry order quantity. |
 | isLiveUntilCancelled | The order will NOT expire at the end of a bar but instead remain live until the CancelOrder() method is called or its time in force is reached. |
-| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [[[BarsInProgress](../language_reference/barsinprogress.md) property. |
+| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](../language_reference/barsinprogress.md) property. |
 
 ## Examples
 
@@ -54,7 +54,7 @@ protected override void OnBarUpdate()
 }
 ```
 
-> Tips (also see [[[Overview](managed_approach.md)):
+> Tips (also see [Overview](managed_approach.md)):
 - This method is ignored if a long position does not exist
 - It is helpful to provide a signal name if your strategy has multiple exit points to help identify your exits on a chart
 - You can tie an exit to an entry by providing the entry signal name in the parameter "fromEntrySignal"

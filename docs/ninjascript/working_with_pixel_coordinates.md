@@ -2,13 +2,13 @@
 
 ## Understanding Device Pixels vs. Application Pixels (WPF)
 
-When working with pixel coordinates (for example, when using SharpDX drawing methods for custom drawing), it is important to note if the coordinates specified in method arguments refer to application pixels (i.e., WPF coordinates), or the larger concept of [[[Device Independent Pixels (DIP)](https://msdn.microsoft.com/en-us/library/windows/desktop/ff684173(v=vs.85).aspx).
+When working with pixel coordinates (for example, when using SharpDX drawing methods for custom drawing), it is important to note if the coordinates specified in method arguments refer to application pixels (i.e., WPF coordinates), or the larger concept of [Device Independent Pixels (DIP)](https://msdn.microsoft.com/en-us/library/windows/desktop/ff684173(v=vs.85).aspx).
 
 The physical size of an application-specific pixel can vary based on PC hardware and operating-system settings, which introduces a challenge for developers using pixel coordinates for processes such as custom drawing on a chart canvas. By specifying the number of pixels when defining a coordinate, the object placed at that coordinate could render in a very different position depending on the users display settings. Device Independent Pixels provide a way to measure or quantify pixel coordinates without being impacted by different sizes of application pixels. Specifying Device Independent Pixels can ensure that objects render in the intended location or position, regardless of these unpredictable factors.
 
 ## Converting to Device Pixels
 
-NinjaScript provides helper methods to convert from application pixels to device pixels (or vice versa) within the [[[ChartingExtensions](../language_reference/chartingextensions.md) class. Since some NinjaScript methods and properties return application pixels where device pixels are needed, using these helper methods can provide great flexibility by allowing you to define physical application pixels, then converting them to device independent pixels before passing them to a method. Using this process, the application pixel values used will result in objects being rendered exactly where intended.
+NinjaScript provides helper methods to convert from application pixels to device pixels (or vice versa) within the [ChartingExtensions](../language_reference/chartingextensions.md) class. Since some NinjaScript methods and properties return application pixels where device pixels are needed, using these helper methods can provide great flexibility by allowing you to define physical application pixels, then converting them to device independent pixels before passing them to a method. Using this process, the application pixel values used will result in objects being rendered exactly where intended.
 
 ## Example
 

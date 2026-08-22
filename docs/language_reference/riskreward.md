@@ -2,15 +2,15 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Risk Reward [[[IDrawingTool](idrawingtool.md).
+Represents an interface that exposes information regarding a Risk Reward [IDrawingTool](idrawingtool.md).
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| EntryAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the entry point of the drawing object |
-| RiskAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the stop loss point of the drawing object |
-| RewardAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the profit target point of the drawing object |
+| EntryAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the entry point of the drawing object |
+| RiskAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the stop loss point of the drawing object |
+| RewardAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the profit target point of the drawing object |
 | Ratio | An int value determining the calculated ratio between the risk or reward based on the entry point |
 
 ## Example

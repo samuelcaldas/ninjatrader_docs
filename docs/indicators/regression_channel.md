@@ -2,7 +2,7 @@
 
 ## Description
 
-A Regression Channel is created by drawing parallel lines above and below the [[[Linear Regression](linear_regression.md) line.
+A Regression Channel is created by drawing parallel lines above and below the [Linear Regression](linear_regression.md) line.
 
 Parallel and equidistant lines are drawn n standard deviations (width parameter) above and below a Linear Regression trendline. The distance between the channel lines and the regression line is the greatest distance that any one closing price is from the regression line. Regression Channels contain price movement, the top channel line provides resistance and the bottom channel line provides support. A reversal in trend may be indicated when prices remain outside the channel for a longer period of time.
 
@@ -33,7 +33,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 | width | Number of std deviations to calculate the channel lines |
 

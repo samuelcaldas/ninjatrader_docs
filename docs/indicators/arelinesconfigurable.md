@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines if the [[[line](addline.md)(s) used in an indicator are configurable from within the indicator dialog window.
+Determines if the [line](addline.md)(s) used in an indicator are configurable from within the indicator dialog window.
 
 ## Property Value
 

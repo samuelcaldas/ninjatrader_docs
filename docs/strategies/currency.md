@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns a [[[TradesPerformanceValues](tradesperformancevalues.md) object in currency.
+Returns a [TradesPerformanceValues](tradesperformancevalues.md) object in currency.
 
 ## Property Value
 

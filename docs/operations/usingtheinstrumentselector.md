@@ -16,13 +16,13 @@ Double clicking the instrument from the results will load that instrument. When 
 
 > **Note:** When entering a desired expiry or exchange, no quick search results will appear since it no longer matches the search items. Pressing Enter will still load the desired instrument.
 
-![[[Quick_Search](../images/quick_search.png)
+![Quick_Search](../images/quick_search.png)
 
 ## Accessing the Instruments Menu
 
 To access the Instruments menu, click the down arrow on the Instrument Selector or right mouse click in the window in which you wish to apply a new instrument then hover your mouse cursor over the Instruments menu item.
 
-![[[InstrumentSelector_1](../images/instrumentselector_1.png)
+![InstrumentSelector_1](../images/instrumentselector_1.png)
 
 The Instruments menu is separated into three sections:
 
@@ -40,6 +40,6 @@ If you do not see your desired instrument listed, click the Search menu item to 
 
 To pin an instrument in the Instruments menu, first view that instrument in any window, in order to add it to the list of recently viewed instruments. Once it is in the list, open the Instruments menu in any window, hover your mouse cursor over the instrument you wish to pin, then left mouse click the small icon resembling a push-pin laying horizontally that appears next the instrument name. Pinned instruments will display a vertically standing push-pin icon next to their names.
 
-![[[InstrumentSelector_2](../images/instrumentselector_2.png)
+![InstrumentSelector_2](../images/instrumentselector_2.png)
 
 To remove any item from the list of pinned and recently viewed instruments, first hover your mouse cursor over the instrument you wish to remove, then click the Delete key on your keyboard.

@@ -2,7 +2,7 @@
 
 ## Definition
 
-This method should be used any time you wish to repaint the column instead of calling [[[OnRender()](superdomcolumn_onrender.md) directly.
+This method should be used any time you wish to repaint the column instead of calling [OnRender()](superdomcolumn_onrender.md) directly.
 
 ## Method Return Value
 

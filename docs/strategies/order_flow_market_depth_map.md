@@ -3,13 +3,13 @@
 Description 
 ## A real-time data indicator that displays the highest market depth volume received at each price level per bar, then maps them to the chart in comparison to other market depth values received within the visible area. This is done by taking the volume range and applying each depth value 1 of 20 opacity values, set by selected bid/ask depth colors. The larger the depth volume, the more opaque the area will be.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |
 | --- | --- | --- |
 | Display  After applying the Order Flow Market Depth Map it will begin to plot off of real time level II data (Display mode Historical Depth shown) with 10 levels per side of the market by default.With the ES chart below there are 20 real-time market depth values, 10 at bid or below and 10 at ask or above. By default, depth values received at higher or lower values will be extended to the current bars. 1) The areas with the most opaque indicate the areas with the largest market depth volume within the visible area.2) The areas with the transparency indicate the areas with the smallest market depth volume within the visible area.3) The area between the last price and the price axis is the current depth values building for the current bar. OFMDM1 Shown in the image below, Enabling Show bid/ask line on close will display a line on close for the bid and ask prices. OFMDM2  Order Flow Market Depth Map by default also shows Realtime Depth.  Realtime Depth means it displays the realtime Order Flow Market Depth Map values of the currently forming bar. So this will display the largest depth that was received at that price level within the most recent bars time frame. To more closely match the SuperDOM or Level II window you would need to run the Order Flow Market Depth Map on a 1 tick data series.  DepthMapRealTime Using the Order Flow Market Depth Map  The Order Flow Market Depth Map is able to easily display high and low levels of market depth volume, both historical and real time. OFMDM3   Being able to see high market depth volume can help show potential areas of support and resistance. In the image below we can see there is some large volume at 2790.00 which has created an area of support. OFMDM4   Additionally the Order Flow Market Depth Map makes it easy to see when large volume has been added and removed as seen in the image below. OFMDM5  |  | | --- | | Notes: Level II data is required for this indicator to function. |    |  | | --- | | Critical: Equity instruments are not supported. There is a limitation in which only one ECN or market marker will have depth provided per level. | |
 
-![[[tog_minus](../images/tog_minus.gif)        Order Flow Market Depth Map Parameters
+![tog_minus](../images/tog_minus.gif)        Order Flow Market Depth Map Parameters
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

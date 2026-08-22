@@ -10,15 +10,15 @@ Custom events allow you the flexibility to access indicator/price information wh
 
 ## Important related documentation
 
-- [[[List](https://msdn.microsoft.com/en-us/library/6sh2ey19%28v=vs.110%29.aspx)
+- [List](https://msdn.microsoft.com/en-us/library/6sh2ey19%28v=vs.110%29.aspx)
 
-- [[[Timer](https://docs.microsoft.com/en-us/dotnet/api/system.windows.threading.dispatchertimer?view=netframework-4.7.2)
+- [Timer](https://docs.microsoft.com/en-us/dotnet/api/system.windows.threading.dispatchertimer?view=netframework-4.7.2)
 
-- [[[TriggerCustomEvent()](../language_reference/triggercustomevent.md)
+- [TriggerCustomEvent()](../language_reference/triggercustomevent.md)
 
-- [[[State.Terminated](../drawing_tools/dispose.md)
+- [State.Terminated](../drawing_tools/dispose.md)
 
-- [[[MarketDepthEventArgs](../language_reference/marketdeptheventargs.md)
+- [MarketDepthEventArgs](../language_reference/marketdeptheventargs.md)
 
 ## Import instructions
 
@@ -28,4 +28,4 @@ Custom events allow you the flexibility to access indicator/price information wh
 
 3.Select the downloaded file
 
-[[[SampleCustomEvents\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleCustomEvents_NT8.zip)
+[SampleCustomEvents\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleCustomEvents_NT8.zip)

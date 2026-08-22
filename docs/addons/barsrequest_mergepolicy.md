@@ -8,8 +8,8 @@ Determines the merge policy of the bars request.
 
 > **Notes:**
 - This property is ONLY applicable to Futures contracts
-- General information regrading merge policies can be found from the [[[Market Data Configuration](../getting_started/merge_policy.md) section
-- For an Instruments configured merge policy, please see the [[[MasterInstrument.MergePolicy](../getting_started/merge_policy.md) property
+- General information regrading merge policies can be found from the [Market Data Configuration](../getting_started/merge_policy.md) section
+- For an Instruments configured merge policy, please see the [MasterInstrument.MergePolicy](../getting_started/merge_policy.md) property
 
 ## Property Value
 
@@ -23,7 +23,7 @@ Possible values are:
 | MergeBackAdjusted | Merge policy is applied between contracts along with rollover offsets |
 | MergeNonBackAdjusted | Merge policy is applied between contracts without offsets |
 | UseGlobalSettings | Uses the value configured from Tools -> Options -> Market Data |
-| UseDefault | Uses the default values configured for the [[[MasterInstrument](../language_reference/masterinstrument.md) |
+| UseDefault | Uses the default values configured for the [MasterInstrument](../language_reference/masterinstrument.md) |
 
 ## Syntax
 

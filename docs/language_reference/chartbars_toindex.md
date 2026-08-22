@@ -2,9 +2,9 @@
 
 ## Definition
 
-An index value representing the last bar rendered on the chart.  See also [[[FromIndex](chartbars_fromindex.md).
+An index value representing the last bar rendered on the chart.  See also [FromIndex](chartbars_fromindex.md).
 
-> **Note:** This value is NOT the last value that exists on the [[[ChartBars](chartbars.md), but rather the last bar index that is within the viewable range of the chart canvas area.  This value changes as the user interacts with the [[[ChartControl](chartcontrol.md) time-scale (x-axis).
+> **Note:** This value is NOT the last value that exists on the [ChartBars](chartbars.md), but rather the last bar index that is within the viewable range of the chart canvas area.  This value changes as the user interacts with the [ChartControl](chartcontrol.md) time-scale (x-axis).
 
 ## Property Value
 

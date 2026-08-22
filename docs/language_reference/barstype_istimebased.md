@@ -2,7 +2,7 @@
 
 ## Definition
 
-Used to indicate the BarsType is built from time-based bars (day, minute, second).  Setting this property on a custom bar type is useful for correct calculations from many core data and session logic, and can also be used by 3rd party NinjaScript objects to determine how to interact with the [[[bars](bars.md).
+Used to indicate the BarsType is built from time-based bars (day, minute, second).  Setting this property on a custom bar type is useful for correct calculations from many core data and session logic, and can also be used by 3rd party NinjaScript objects to determine how to interact with the [bars](bars.md).
 
 ## Property Value
 

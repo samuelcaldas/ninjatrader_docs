@@ -4,7 +4,7 @@
 
 The Polarized Fractal Efficiency indicator uses fractal geometry to determine how efficiently the price is moving. When the PFE is zigzagging around zero, then the price is congested and not trending. When the PFE is smooth and above/below zero, then the price is in an up/down trend. The higher/lower the PFE value, the stronger the trend is.
 
-... Courtesy of [[[FMLabs](http://www.fmlabs.com/reference/default.md?url=PFE.md)
+... Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.md?url=PFE.md)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 | smooth | The smoothing factor to be applied |
 

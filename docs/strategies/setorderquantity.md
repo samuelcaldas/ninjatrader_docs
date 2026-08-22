@@ -12,10 +12,10 @@ Possible values are:
 
 |  |  |
 | --- | --- |
-| SetOrderQuantity.DefaultQuantity | User defined order size based on the [[[DefaultQuantity](defaultquantity.md) property |
+| SetOrderQuantity.DefaultQuantity | User defined order size based on the [DefaultQuantity](defaultquantity.md) property |
 | SetOrderQuantity.Strategy | Takes the order size specified programmatically within the strategy |
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

@@ -2,13 +2,13 @@
 
 ## Definition
 
-Holds an array of [[[PerformanceMetrics](performancemetrics.md) objects that represent custom metrics that can be used for strategy calcuations.
+Holds an array of [PerformanceMetrics](performancemetrics.md) objects that represent custom metrics that can be used for strategy calcuations.
 
-Index value is based on the the array of Bars objects added via the [[[AddPerformanceMetric](addperformancemetric.md) method.
+Index value is based on the the array of Bars objects added via the [AddPerformanceMetric](addperformancemetric.md) method.
 
 ## Property Value
 
-An array of [[[PerformanceMetrics](performancemetrics.md) objects.
+An array of [PerformanceMetrics](performancemetrics.md) objects.
 
 ## Syntax
 

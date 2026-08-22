@@ -2,9 +2,9 @@
 
 ## Definition
 
-Gets the current bar value that the chart anchor is drawn by a NinjaScript object.  Please see the [[[Drawing](../language_reference/drawing.md) section for more information.
+Gets the current bar value that the chart anchor is drawn by a NinjaScript object.  Please see the [Drawing](../language_reference/drawing.md) section for more information.
 
-> **Note:** This value will NOT work on manually drawn objects.  This property is reserved for chart anchors which were drawn by another NinjaScript object (e.g, using a Draw method in an indicator).  For manually drawn objects, please see the [[[SlotIndex](barindex.md) property
+> **Note:** This value will NOT work on manually drawn objects.  This property is reserved for chart anchors which were drawn by another NinjaScript object (e.g, using a Draw method in an indicator).  For manually drawn objects, please see the [SlotIndex](barindex.md) property
 
 ## Property Value
 

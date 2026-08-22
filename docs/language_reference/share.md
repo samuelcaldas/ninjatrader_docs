@@ -4,7 +4,7 @@
 
 Sends a message or screen shot to a social network or Share Service.
 
-> **Notes:** 1.This method can only be called once the [[[State](state.md) has reached State.Realtime.  Calls to this method in any other State will be silently ignored.  2.You MUST configure an account with a Share Service provider from the [[[General Options](../getting_started/general_section.md)
+> **Notes:** 1.This method can only be called once the [State](state.md) has reached State.Realtime.  Calls to this method in any other State will be silently ignored.  2.You MUST configure an account with a Share Service provider from the [General Options](../getting_started/general_section.md)
 
 ## Method Return Value
 
@@ -35,5 +35,5 @@ Share(string serviceName, string message, string screenshotPath, object[] args)
 
 ```csharp
 // using "args" as the Mail "To" and "Subject" parameters
-Share("Gmail", "Test Message", new object[[[]{ "[[email protected]](mailto:platformsupport@ninjatrader.com)", "Test Subject Line" });
+Share("Gmail", "Test Message", new object[[[]{ "[email protected](mailto:platformsupport@ninjatrader.com)", "Test Subject Line" });
 ```

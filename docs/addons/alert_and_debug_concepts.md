@@ -1,12 +1,12 @@
 # Alert and Debug Concepts
 
-In most scenarios you can use the NinjaScript provided methods for triggering alerts and debugging functionality. However, when building your own custom objects, you may find yourself wanting to use this functionality outside the NinjaScript scope (e.g. when building a [[[NTTabPage](nttabpage_class.md) for Add Ons).
+In most scenarios you can use the NinjaScript provided methods for triggering alerts and debugging functionality. However, when building your own custom objects, you may find yourself wanting to use this functionality outside the NinjaScript scope (e.g. when building a [NTTabPage](nttabpage_class.md) for Add Ons).
 
 ## Using the NinjaScript Output
 
-Instead of [[[Print()](../language_reference/print.md), use Output.Process() to write a message.
+Instead of [Print()](../language_reference/print.md), use Output.Process() to write a message.
 
-Instead of [[[ClearOutputWindow()](../language_reference/clearoutputwindow.md), use Output.Reset() to clear the output window.
+Instead of [ClearOutputWindow()](../language_reference/clearoutputwindow.md), use Output.Reset() to clear the output window.
 
 ## Example
 
@@ -19,9 +19,9 @@ NinjaTrader.Code.Output.Reset()
 ```
 ## Using Alerts
 
-Instead of [[[Alert()](../language_reference/alert.md), use [[[NinjaTrader.NinjaScript.Alert.AlertCallback()](alertcallback.md) for sending an alert.
+Instead of [Alert()](../language_reference/alert.md), use [NinjaTrader.NinjaScript.Alert.AlertCallback()](alertcallback.md) for sending an alert.
 
-Instead of [[[ResetAlert()](../language_reference/rearmalert.md), use [[[NinjaTrader.NinjaScript.Alert.RearmAlert()](../language_reference/alert.md)
+Instead of [ResetAlert()](../language_reference/rearmalert.md), use [NinjaTrader.NinjaScript.Alert.RearmAlert()](../language_reference/alert.md)
 
 ## Example
 
@@ -34,11 +34,11 @@ NinjaTrader.NinjaScript.Alert.ResetAlert("someId");
 ```
 ## Miscellaneous
 
-Instead of [[[Log()](../language_reference/log.md), use NinjaScript.Log() to send a message to the NinjaTrader logs.
+Instead of [Log()](../language_reference/log.md), use NinjaScript.Log() to send a message to the NinjaTrader logs.
 
-Instead of [[[PlaySound()](../language_reference/playsound.md), use Globals.PlaySound() to play a sound.
+Instead of [PlaySound()](../language_reference/playsound.md), use Globals.PlaySound() to play a sound.
 
-Instead of [[[SendMail()](../language_reference/sendmail.md), use Globals.SendMail() to send a mail.
+Instead of [SendMail()](../language_reference/sendmail.md), use Globals.SendMail() to send a mail.
 
  
 
@@ -48,7 +48,7 @@ Instead of [[[SendMail()](../language_reference/sendmail.md), use Globals.SendMa
 
 ## Examples
 
-> ns  // Instead of Log()  NinjaScript.Log("My log message", LogLevel.Error);     // Instead of PlaySound()  NinjaTrader.Core.Globals.PlaySound(@"C:\mySound.wav");     // Instead of SendMail()  NinjaTrader.Core.Globals.SendMail("[[[[email protected]](mailto:platformsupport@ninjatrader.com)", "[[[[email protected]](mailto:platformsupport@ninjatrader.com)", "Subject", "Mail body", null);
+> ns  // Instead of Log()  NinjaScript.Log("My log message", LogLevel.Error);     // Instead of PlaySound()  NinjaTrader.Core.Globals.PlaySound(@"C:\mySound.wav");     // Instead of SendMail()  NinjaTrader.Core.Globals.SendMail("[email protected](mailto:platformsupport@ninjatrader.com)", "[email protected](mailto:platformsupport@ninjatrader.com)", "Subject", "Mail body", null);
 
  
 

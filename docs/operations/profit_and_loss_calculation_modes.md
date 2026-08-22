@@ -24,4 +24,4 @@ Trade Performance statistics are based on core PnL calculations, which differ fo
 | Exit | The last Exit execution |
 | Rate | The currency conversation rate used back to the account demonstration (E.g.,  A rate of 1 means no conversion took place) |
 | Lot Size | Default Forex Lot Size for the account.  1 for non-forex accounts. |
-| Point Value | Instrument value per point define in the [[[Instruments](../language_reference/instruments.md) window |
+| Point Value | Instrument value per point define in the [Instruments](../language_reference/instruments.md) window |

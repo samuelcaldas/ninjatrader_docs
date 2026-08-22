@@ -2,7 +2,7 @@
 
 ## Definition
 
-Creates an [[[Order](../strategies/order.md) to be submitted via [[[Submit()](submit.md).
+Creates an [Order](../strategies/order.md) to be submitted via [Submit()](submit.md).
 
 ## Syntax
 
@@ -25,7 +25,7 @@ CreateOrder(Instrument instrument, OrderAction action, OrderType orderType, Orde
 | limitPrice | Order limit price. Use "0" should this parameter be irrelevant for the OrderType being submitted. |
 | stopPrice | Order stop price. Use "0" should this parameter be irrelevant for the OrderType being submitted. |
 | oco | A string representing the OCO ID used to link OCO orders together |
-| name | A string representing the name of the order. Max 50 characters.    Note:  If using ATM Strategy [[[StartAtmStrategy()](startatmstrategy.md), this value MUST be "Entry" |
+| name | A string representing the name of the order. Max 50 characters.    Note:  If using ATM Strategy [StartAtmStrategy()](startatmstrategy.md), this value MUST be "Entry" |
 | gtd | A DateTime value to be used with TimeInForce.Gtd - for all other cases you can pass in Core.Globals.MaxDate |
 | customOrder | Custom order if it is being used |
 

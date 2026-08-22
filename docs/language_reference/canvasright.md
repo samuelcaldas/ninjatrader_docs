@@ -33,4 +33,4 @@ Based on the image below, CanvasRight reveals that the chart canvas ends at x-co
 
  
 
-![[[ChartControl_CanvasRight](../images/chartcontrol_canvasright.png)
+![ChartControl_CanvasRight](../images/chartcontrol_canvasright.png)

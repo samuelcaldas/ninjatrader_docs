@@ -2,14 +2,14 @@
 
 ## Definition
 
-Generates a trail stop order with the signal name "Trail stop" to exit a position. Trail stops are amended on a bar update basis, so dependent upon the [[[Calculate](../language_reference/calculate.md) setting of the parent strategy. Trail stop orders are real working orders (unless simulated is specified in which case the stop order is locally simulated and submitted as market once triggered) submitted immediately to the market upon receiving an execution from an entry order.
+Generates a trail stop order with the signal name "Trail stop" to exit a position. Trail stops are amended on a bar update basis, so dependent upon the [Calculate](../language_reference/calculate.md) setting of the parent strategy. Trail stop orders are real working orders (unless simulated is specified in which case the stop order is locally simulated and submitted as market once triggered) submitted immediately to the market upon receiving an execution from an entry order.
 
 > **Notes:**
-- The SetTrailStop() method can NOT be used concurrently with the [[[SetStopLoss()](setstoploss.md) or [[[SetParabolicStop()](setparabolicstop.md) method for the same position, if any of methods are called for the same position (fromEntrySignal) the [[[SetStopLoss()](setstoploss.md) will always take precedence. You can however, use all three methods in the same strategy if they reference different signal names.
+- The SetTrailStop() method can NOT be used concurrently with the [SetStopLoss()](setstoploss.md) or [SetParabolicStop()](setparabolicstop.md) method for the same position, if any of methods are called for the same position (fromEntrySignal) the [SetStopLoss()](setstoploss.md) will always take precedence. You can however, use all three methods in the same strategy if they reference different signal names.
 - Trail stop orders are submitted in real-time on incoming executions from entry orders
 - Since they are submitted upon receiving an execution, the Set method should be called prior to submitting the associated entry order to ensure an initial level is set.
-- A strategy will either generate a trail stop order for each partial fill of an entry order or one order for all fills. See additional information under the [[[Strategies](../getting_started/options_strategies.md) tab of the Options dialog window.
-- If a [[[profit target](setprofittarget.md) order is generated in addition to a trail stop order, they are submitted as OCO (one cancels other)
+- A strategy will either generate a trail stop order for each partial fill of an entry order or one order for all fills. See additional information under the [Strategies](../getting_started/options_strategies.md) tab of the Options dialog window.
+- If a [profit target](setprofittarget.md) order is generated in addition to a trail stop order, they are submitted as OCO (one cancels other)
 - Trail stop orders are submitted as stop-market orders
 - A trail stop order is automatically canceled if the managing position is closed by another strategy generated exit order
 - Should you have multiple Bars objects of the same instrument while using SetTrailStop() in your strategy, you should only submit orders for this instrument to the first Bars context of that instrument. This is to ensure your order logic is processed correctly and any necessary order amendments are done properly.
@@ -24,8 +24,8 @@ SetTrailStop(string fromEntrySignal, CalculationMode mode, double value, bool is
  
 
 > **Warnings:**
-- This method CANNOT be called from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults
-- CalculationMode.Price and CalculationMode.Currency are irrelevant for trail stops.  Attempting to use one of these modes will log a message and the stop order be ignored.  Please use [[[SetStopLoss()](setstoploss.md) for these modes instead.
+- This method CANNOT be called from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults
+- CalculationMode.Price and CalculationMode.Currency are irrelevant for trail stops.  Attempting to use one of these modes will log a message and the stop order be ignored.  Please use [SetStopLoss()](setstoploss.md) for these modes instead.
 
 ## Parameters
 
@@ -48,9 +48,9 @@ protected override void OnStateChange()
     }
 }
 csharp
-Tips (also see [[[Overview](managed_approach.md)):
-•It is suggested to call this method from within the strategy [[[OnStateChange()](../language_reference/onstatechange.md) method if your trail stop price/offset is static
-•You may call this method from within the strategy [[[OnBarUpdate()](../language_reference/onbarupdate.md) method should you wish to dynamically change the trail stop price while in an open position
-•Should you call this method to dynamically change the trail stop price in the strategy [[[OnBarUpdate()](../language_reference/onbarupdate.md) method, you should always reset the trail stop price / offset value when your strategy is flat otherwise, the last price/offset value set will be used to generate your trail stop order on your next open position
-•The signal name generated internally by this method is "Trail stop" which can be used with various methods such as [[[BarsSinceExitExecution()](barssinceexitexecution.md), or other order concepts which rely on identifying a signal name
+Tips (also see [Overview](managed_approach.md)):
+•It is suggested to call this method from within the strategy [OnStateChange()](../language_reference/onstatechange.md) method if your trail stop price/offset is static
+•You may call this method from within the strategy [OnBarUpdate()](../language_reference/onbarupdate.md) method should you wish to dynamically change the trail stop price while in an open position
+•Should you call this method to dynamically change the trail stop price in the strategy [OnBarUpdate()](../language_reference/onbarupdate.md) method, you should always reset the trail stop price / offset value when your strategy is flat otherwise, the last price/offset value set will be used to generate your trail stop order on your next open position
+•The signal name generated internally by this method is "Trail stop" which can be used with various methods such as [BarsSinceExitExecution()](barssinceexitexecution.md), or other order concepts which rely on identifying a signal name
 ```

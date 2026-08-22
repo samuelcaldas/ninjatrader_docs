@@ -4,7 +4,7 @@
 
 An indicator used in technical analysis as an objective value for the strength of trend. ADX is non-directional so it will quantify a trend's strength regardless of whether it is up or down. ADX is usually plotted in a chart window along with two lines known as the DMI (Directional Movement Indicators). ADX is derived from the relationship of the DMI lines.
 
-... Courtesy of [[[Investopedia](http://investopedia.com/terms/a/adx.asp)
+... Courtesy of [Investopedia](http://investopedia.com/terms/a/adx.asp)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Examples

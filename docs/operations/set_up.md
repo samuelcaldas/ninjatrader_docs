@@ -10,7 +10,7 @@ The following set up is for TradeStation Version 9.XX.  This section will walk y
 
 3.Once in the Options window select the Automated trading interface category
 
-![[[ATI_1](../images/ati_1.png)
+![ATI_1](../images/ati_1.png)
 
 4.Ensure that AT Interface has been checked
 
@@ -18,9 +18,9 @@ The following set up is for TradeStation Version 9.XX.  This section will walk y
 
 6.Check the "Enabled" option under the TradeStation email interface category
 
-7.Set your [[[Order Handling](../strategies/order_handling_options.md) options
+7.Set your [Order Handling](../strategies/order_handling_options.md) options
 
-8.Connect to your broker by selecting the File menu and then the menu item Connect within the Control Center window (make sure you have set up a [[[connection to your broker](../getting_started/connecting_to_youraccount.md))
+8.Connect to your broker by selecting the File menu and then the menu item Connect within the Control Center window (make sure you have set up a [connection to your broker](../getting_started/connecting_to_youraccount.md))
 
  
 
@@ -28,7 +28,7 @@ The following set up is for TradeStation Version 9.XX.  This section will walk y
 
 ## Symbol Mapping for Futures Contracts (Stocks and Forex traders may skip this step)
 
-9.Set your [[[symbol mapping](../language_reference/tradestation_symbol_mapping.md) for futures contracts
+9.Set your [symbol mapping](../language_reference/tradestation_symbol_mapping.md) for futures contracts
 
 ## Setting Up Antivirus Software
 
@@ -38,25 +38,25 @@ The following set up is for TradeStation Version 9.XX.  This section will walk y
 
 11. Start TradeStation
 
-12. Set up your [[[workspace options](workspace_options.md)
+12. Set up your [workspace options](workspace_options.md)
 
 ## Setting Up TradeStation Email Notification
 
 13. Add a TradeManager window to your workspace by clicking on the TradingApps panel on left pane as per the image below.
 
-![[[ATI_8](../images/ati_8.png)
+![ATI_8](../images/ati_8.png)
 
 14. Once the TradeManager window appears, right click on this window, and then select the menu name TradeManager preferences
 
-![[[ATI_7](../images/ati_7.png)
+![ATI_7](../images/ati_7.png)
 
 15. Select the "Orders" tab as per the image below and then select "Strategy Active Order"
 
-![[[ATI_4](../images/ati_4.png)
+![ATI_4](../images/ati_4.png)
 
 16. Press the "Configure..." button to bring up the "Messaging" window
 
-![[[ATI_5](../images/ati_5.png)
+![ATI_5](../images/ati_5.png)
 
 17. Enter the information exactly as shown above in items 1 through 4; you can press the "Test" button which will send a test message to NinjaTrader and show up in the Control Center Log tab. If you receive an error when attempting to send a test message, please ensure that you have no other SMTP server running on your PC and make sure that any competitive products are uninstalled.
 
@@ -70,7 +70,7 @@ The following set up is for TradeStation Version 9.XX.  This section will walk y
 
 21. Right click in the chart and select the menu name "Insert Strategy..." and select a strategy
 
-![[[ATI_6](../images/ati_6.png)
+![ATI_6](../images/ati_6.png)
 
 22. Your strategy will appear in the "Format Analysis Techniques & Strategies" window as shown above
 

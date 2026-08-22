@@ -8,10 +8,10 @@ To enable ranking and sorting for a column:
 
 1. To set the column you wish to sort press down on your left mouse button in the column header.  You can set the column to sort in either descending (down arrow) or ascending (up arrow) order.
 
-![[[MarketAnalyzer_12](../images/marketanalyzer_12.png)
+![MarketAnalyzer_12](../images/marketanalyzer_12.png)
 
 2. You can enable dynamic sorting by pressing down on our right mouse button inside the Market Analyzer and selecting the menu Auto Sort.
 
-![[[MarketAnalyzer_13](../images/marketanalyzer_13.png)
+![MarketAnalyzer_13](../images/marketanalyzer_13.png)
 
-3. You can set the auto sort interval within the Market Analyzer [[[Properties](market_analyzer_properties.md) window.
+3. You can set the auto sort interval within the Market Analyzer [Properties](market_analyzer_properties.md) window.

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates if the bars series is using the [[[Break EOD](../operations/break_at_eod.md) data series property.
+Indicates if the bars series is using the [Break EOD](../operations/break_at_eod.md) data series property.
 
 ## Property Value
 
@@ -12,7 +12,7 @@ This property returns true if the bars series should reset on a new trading day;
 
 `Bars.IsResetOnNewTradingDay`
 
-> **Tip:** This property can be helpful in determine on how to amend new bar data when working with a [[[BarType](bars_type.md)
+> **Tip:** This property can be helpful in determine on how to amend new bar data when working with a [BarType](bars_type.md)
 
 ## Examples
 

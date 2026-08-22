@@ -10,25 +10,25 @@ Dealing with strings and other related concepts are essential to many computer p
 
 C#
 
-- [[[string.IndexOf()](http://msdn.microsoft.com/en-us/library/aa904283%28VS.71%29.aspx)
+- [string.IndexOf()](http://msdn.microsoft.com/en-us/library/aa904283%28VS.71%29.aspx)
 
-- [[[string.Replace()](http://msdn.microsoft.com/en-us/library/fk49wtc1.aspx)
+- [string.Replace()](http://msdn.microsoft.com/en-us/library/fk49wtc1.aspx)
 
-- [[[string.Split()](http://msdn.microsoft.com/en-us/library/b873y76a.aspx)
+- [string.Split()](http://msdn.microsoft.com/en-us/library/b873y76a.aspx)
 
-- [[[Escape characters](http://msdn.microsoft.com/en-us/library/h21280bw.aspx)
+- [Escape characters](http://msdn.microsoft.com/en-us/library/h21280bw.aspx)
 
-- [[[Foreach iterator](http://msdn.microsoft.com/en-us/library/ttw7t8t6%28VS.80%29.aspx)
+- [Foreach iterator](http://msdn.microsoft.com/en-us/library/ttw7t8t6%28VS.80%29.aspx)
 
-- [[[String literals](http://msdn.microsoft.com/en-us/library/aa691090%28VS.71%29.aspx)
+- [String literals](http://msdn.microsoft.com/en-us/library/aa691090%28VS.71%29.aspx)
 
 NinjaTrader
 
-- [[[ClearOutputWindow()](http://www.ninjatrader.com/support/helpGuides/nt8/en-us/clearoutputwindow.md?zoom_highlightsub=ClearOutputWindow)
+- [ClearOutputWindow()](http://www.ninjatrader.com/support/helpGuides/nt8/en-us/clearoutputwindow.md?zoom_highlightsub=ClearOutputWindow)
 
  
 
-> **Note:** A related sample demonstrating how to format numbers can be found [[[here](../ninjascript/formatting_numbers.md).
+> **Note:** A related sample demonstrating how to format numbers can be found [here](../ninjascript/formatting_numbers.md).
 
 ## Import instructions
 
@@ -38,4 +38,4 @@ NinjaTrader
 
 3.Select the downloaded file
 
-[[[SampleStringFunctions\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleStringFunctions_NT8.zip)
+[SampleStringFunctions\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleStringFunctions_NT8.zip)

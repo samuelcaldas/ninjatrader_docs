@@ -2,11 +2,11 @@
 
 ## Definition
 
-Returns the chart object's data points where the user can interact.   These points are used to visually indicate that the chart object is selected and allow the user to manipulate the chart object.  This method is only called when [[[IsSelected](../language_reference/isselected.md) is set to true.
+Returns the chart object's data points where the user can interact.   These points are used to visually indicate that the chart object is selected and allow the user to manipulate the chart object.  This method is only called when [IsSelected](../language_reference/isselected.md) is set to true.
 
 ## Method Return Value
 
-A collection of [[[Points](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) representing the x- and y-coordinates of the chart object.
+A collection of [Points](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) representing the x- and y-coordinates of the chart object.
 
 ## Syntax
 
@@ -21,8 +21,8 @@ public override Point[] GetSelectionPoints(ChartControl chartControl, ChartScale
 
 |  |  |
 | --- | --- |
-| chartControl | A [[[ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
-| chartScale | A [[[ChartScale](../language_reference/chartscale.md) representing the y-axis |
+| chartControl | A [ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
+| chartScale | A [ChartScale](../language_reference/chartscale.md) representing the y-axis |
 
 ## Examples
 

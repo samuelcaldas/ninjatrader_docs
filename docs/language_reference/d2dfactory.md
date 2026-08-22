@@ -2,7 +2,7 @@
 
 ## Definition
 
-Provides a default Direct2D1 factory used for creating [[[SharpDX.Direct2D1](../drawing_tools/sharpdx_direct2d1.md) components.
+Provides a default Direct2D1 factory used for creating [SharpDX.Direct2D1](../drawing_tools/sharpdx_direct2d1.md) components.
 
 ## Property Value
 
@@ -14,7 +14,7 @@ NinjaTrader.Core.Globals.D2DFactory
 
  
 
-> **Warning:** Please ensure this property would only be accessed from [[[OnRender()](onrender.md) or [[[OnRenderTargetChanged()](onrendertargetchanged.md) (which run in the UI thread), as access from other threads outside those methods could cause a degradation in performance.
+> **Warning:** Please ensure this property would only be accessed from [OnRender()](onrender.md) or [OnRenderTargetChanged()](onrendertargetchanged.md) (which run in the UI thread), as access from other threads outside those methods could cause a degradation in performance.
 
  
 

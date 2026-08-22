@@ -2,11 +2,11 @@
 
 ## Definition
 
-Indicates the specified bar series is using Tick Replay.   Please see the help guide topic on using [[[Tick Replay](../operations/tick_replay.md) for general information on this mode.
+Indicates the specified bar series is using Tick Replay.   Please see the help guide topic on using [Tick Replay](../operations/tick_replay.md) for general information on this mode.
 
 > **Note:** For a primary series, the Tick Replay option must be configured from the UI before a NinjaScript object can take use of this property.  The setting on the Chart's Data Series menu will always take precedence for an object series which already exists on the user's chart.
 
-> **Warning:** This property should NOT be accessed within the [[[OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
+> **Warning:** This property should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
 ## Property Value
 

@@ -36,4 +36,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 In the image below, we pass a value of 1 for the y value, which tells us the pixel coordinate of 1 is located at a price of 2106.19 on the chart scale
 
-![[[getvaluebyY](../images/getvaluebyy.png)
+![getvaluebyY](../images/getvaluebyy.png)

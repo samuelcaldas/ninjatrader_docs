@@ -4,7 +4,7 @@
 
 Determines the number of trading days which will be configured when loading the strategy from the Strategies Grid.
 
-> **Notes:** 1.This property does NOT affect a strategy configured of a Chart or the Strategy Analyzer.  2.A trading day is defined by a [[[Trading Hour](../operations/using_the_trading_hours_window.md) template
+> **Notes:** 1.This property does NOT affect a strategy configured of a Chart or the Strategy Analyzer.  2.A trading day is defined by a [Trading Hour](../operations/using_the_trading_hours_window.md) template
 
 ## Property Value
 

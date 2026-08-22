@@ -4,7 +4,7 @@
 
 The parabolic SAR is a technical indicator that is used by many traders to determine the direction of an asset's momentum and the point in time when this momentum has a higher-than-normal probability of switching directions.
 
-... Courtesy of [[[Investopedia](http://www.investopedia.com/articles/technical/02/042202.asp)
+... Courtesy of [Investopedia](http://www.investopedia.com/articles/technical/02/042202.asp)
 
 ## Syntax
 
@@ -31,7 +31,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 | acceleration | Acceleration value |
 | accelerationStep | Step value used to increment acceleration value |
 | accelerationMax | Max acceleration value |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 ## Example
 

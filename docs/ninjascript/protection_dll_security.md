@@ -6,10 +6,10 @@ Although .NET DLL files are compiled which prevents users from being able to see
 
 Should you wish to use Agile.NET for protecting your NinjaScript assemblies you will first need to go [here](http://www.secureteam.net/ninja-pricing "CliSecure Download") to download and purchase the product. Once installed, please run the Agile.NET standalone product once to input in the license information you should have received when you downloaded it. After that, when you use NinjaTrader's Export NinjaScript utility and select the "Protect compiled assemblies" option for export, it will automatically protect your NinjaScript assembly with Agile.NET.
 
-![[[Protection_DLL_Security_2](../images/protection_dll_security_2.png)
+![Protection_DLL_Security_2](../images/protection_dll_security_2.png)
 
 Please note that this version of Agile.NET will only work for protecting NinjaScript assemblies within NinjaTrader. If you would like to protect other files outside of NinjaTrader please consider purchasing the full version of Agile.NET from SecureTeam directly [here](http://www.secureteam.net/ninja-pricing "Agile.NET Purchase") 'Agile.NET 6.0 Code Protection'. NinjaScript assemblies protected with the full version of Agile.NET will also work in NinjaTrader.
 
-At this time we recommend using version [[[6.9.1.2](https://secureteam.net/content/AgileDotNetInstaller6912.exe)
+At this time we recommend using version [6.9.1.2](https://secureteam.net/content/AgileDotNetInstaller6912.exe)
 
-For clients on 8.0.28.0 or older you can continue to use [[[6.6.0.35](https://secureteam.net/content/AgileDotNetInstaller66035.exe)
+For clients on 8.0.28.0 or older you can continue to use [6.6.0.35](https://secureteam.net/content/AgileDotNetInstaller66035.exe)

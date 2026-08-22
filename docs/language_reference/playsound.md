@@ -4,7 +4,7 @@
 
 Plays a .wav file while running on real-time data.
 
-> **Notes:** 1. This method will only execute once the [[[State](state.md) has reached State.Realtime.  Calls to this method during State.Historical will be ignored (in contrast to the implementation for [[[AddOns](../addons/alert_and_debug_concepts.md))  2.The default behavior is to play the .wav file in an asynchronous manner, which can result in calls to PlaySound() to play over one another.  Sound files can optionally be configured to execute in a synchronous manner by enabling the Tools > Options > Sounds > "Play consecutively" property
+> **Notes:** 1. This method will only execute once the [State](state.md) has reached State.Realtime.  Calls to this method during State.Historical will be ignored (in contrast to the implementation for [AddOns](../addons/alert_and_debug_concepts.md))  2.The default behavior is to play the .wav file in an asynchronous manner, which can result in calls to PlaySound() to play over one another.  Sound files can optionally be configured to execute in a synchronous manner by enabling the Tools > Options > Sounds > "Play consecutively" property
 
 ## Method Return Value
 

@@ -46,4 +46,4 @@ OCO (One Cancels Other) functionality is natively supported on their servers.
 
  
 
-> **Note:** Please note that MIT orders and Simulated Orders, which are in [[[TriggerPending state](order_state_definitions.md), could not be recovered by NinjaTrader, if the provider does not provide native support. The order state after connection recovery would then be 'Unknown'.
+> **Note:** Please note that MIT orders and Simulated Orders, which are in [TriggerPending state](order_state_definitions.md), could not be recovered by NinjaTrader, if the provider does not provide native support. The order state after connection recovery would then be 'Unknown'.

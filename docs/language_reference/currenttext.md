@@ -4,7 +4,7 @@
 
 Sets text to be displayed in the Market Analyzer column.
 
-> **Note:** CurrentText will overrule any value set for [[[CurrentValue](currentvalue.md). If both CurrentValue and CurrentText have assigned values, the value of CurrentText will display in the column.
+> **Note:** CurrentText will overrule any value set for [CurrentValue](currentvalue.md). If both CurrentValue and CurrentText have assigned values, the value of CurrentText will display in the column.
 
 ## Property Value
 

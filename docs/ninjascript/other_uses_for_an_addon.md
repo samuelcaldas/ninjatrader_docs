@@ -143,10 +143,10 @@ From time to time, you may need to access certain global data, such as account v
 
 |  |  |
 | --- | --- |
-| <Account>.[[[AccountItemUpdate](../addons/accountitemupdate.md) | Triggers on account item updates |
-| <Account>.[[[ExecutionUpdate](../addons/executionupdate.md) | Triggers on any execution |
-| <Account>.[[[OrderUpdate](../addons/orderupdate.md) | Triggers on any order state changes |
-| <Account>.[[[PositionUpdate](../addons/positionupdate.md) | Triggers on any position updates |
+| <Account>.[AccountItemUpdate](../addons/accountitemupdate.md) | Triggers on account item updates |
+| <Account>.[ExecutionUpdate](../addons/executionupdate.md) | Triggers on any execution |
+| <Account>.[OrderUpdate](../addons/orderupdate.md) | Triggers on any order state changes |
+| <Account>.[PositionUpdate](../addons/positionupdate.md) | Triggers on any position updates |
 
 ```csharp
 // Custom Subscribe() method to refresh subscriptions

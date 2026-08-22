@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates a specified time is greater than the [[[ActualSessionEnd](actualsessionend.md) property on the configured Trading Hours template.
+Indicates a specified time is greater than the [ActualSessionEnd](actualsessionend.md) property on the configured Trading Hours template.
 
 ## Property Value
 

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates the currency configured for the [[[Master Instrument properties](editing_instruments.md).
+Indicates the currency configured for the [Master Instrument properties](editing_instruments.md).
 
 ## Property Value
 

@@ -8,7 +8,7 @@ Indicates if the current bar processing is the last bar updated in a trading ses
 
 > **Notes:**
 - This property will always return false on non-intraday bar periods (e.g., Day, Month, etc.)
-- When running Calculate.OnEachTick / OnPriceChange, this property will always return true on the most current real-time bar since it is the last bar that is updating in the trading session.  If you need to find a bar which coincides with the session end time, please use the [[[SessionIterator.ActualSessionEnd](actualsessionend.md).
+- When running Calculate.OnEachTick / OnPriceChange, this property will always return true on the most current real-time bar since it is the last bar that is updating in the trading session.  If you need to find a bar which coincides with the session end time, please use the [SessionIterator.ActualSessionEnd](actualsessionend.md).
 
  
 

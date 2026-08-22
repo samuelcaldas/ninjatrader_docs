@@ -10,15 +10,15 @@ You can submit orders to different Bars objects. This allows you the flexibility
 
 ## Important related documentation
 
-- [[[AddDataSeries()](../language_reference/adddataseries.md)
+- [AddDataSeries()](../language_reference/adddataseries.md)
 
-- [[[BarsInProgress](../language_reference/barsinprogress.md)
+- [BarsInProgress](../language_reference/barsinprogress.md)
 
-- [[[EnterLong()](enterlong.md)
+- [EnterLong()](enterlong.md)
 
-- [[[BarsArray](../language_reference/barsarray.md)
+- [BarsArray](../language_reference/barsarray.md)
 
-- [[[EnterLongLimit()](enterlonglimit.md)
+- [EnterLongLimit()](enterlonglimit.md)
 
 ## Import instructions
 
@@ -28,4 +28,4 @@ You can submit orders to different Bars objects. This allows you the flexibility
 
 3.Select the downloaded file
 
-[[[SampleIntrabarBacktest\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleIntrabarBacktest_NT8.zip)
+[SampleIntrabarBacktest\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleIntrabarBacktest_NT8.zip)

@@ -31,4 +31,4 @@ Based on the image below, X reveals that the chart panel begins at x-coordinate 
 
  
 
-![[[ChartPanel_X](../images/chartpanel_x.png)
+![ChartPanel_X](../images/chartpanel_x.png)

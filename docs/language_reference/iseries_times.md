@@ -2,7 +2,7 @@
 
 ## Definition
 
-Holds an array of `ISeries<DateTime>` objects holding historical bar times. A `ISeries<DateTime>` object is added to this array when calling the [[[AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the times of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of `ISeries<DateTime>` objects holding historical bar times. A `ISeries<DateTime>` object is added to this array when calling the [AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the times of all Bars objects in a multi-instrument or multi-time frame script.
 
 ## Property Value
 

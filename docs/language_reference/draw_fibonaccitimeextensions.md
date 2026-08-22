@@ -6,7 +6,7 @@ Draws a fibonacci time extension.
 
 ## Method Return Value
 
-A [[[FibonacciTimeExtensions](fibonaccitimeextensions.md) object that represents the draw object.
+A [FibonacciTimeExtensions](fibonaccitimeextensions.md) object that represents the draw object.
 
 Syntax  
 Draw.FibonacciTimeExtensions(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY)  

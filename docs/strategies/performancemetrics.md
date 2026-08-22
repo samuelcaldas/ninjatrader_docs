@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns a collection of custom [[[Performance Metrics](../language_reference/performance_metrics.md). These need to have been enabled in [[[Tools > Options > General](../getting_started/general_section.md) to be able to use them.
+Returns a collection of custom [Performance Metrics](../language_reference/performance_metrics.md). These need to have been enabled in [Tools > Options > General](../getting_started/general_section.md) to be able to use them.
 
 ## Syntax
 

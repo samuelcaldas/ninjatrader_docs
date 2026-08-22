@@ -6,7 +6,7 @@ Gets the instrument of an account position.
 
 ## Property Value
 
-An [[[Instrument](../language_reference/instrument.md) representing the account's instrument position
+An [Instrument](../language_reference/instrument.md) representing the account's instrument position
 
 ## Syntax
 

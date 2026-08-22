@@ -13,9 +13,9 @@ The TradeStation Email Interface is targeted toward individuals who are familiar
 |  |
 | --- |
 | Email Interface  
-- [[[Symbol Mapping](symbol_mapping.md)  
-- [[[Running concurrent strategies](running_concurrent_strategies_.md)  
-- [[[Set Up](set_up.md)  
-- [[[Order Handling Options](../strategies/order_handling_options.md)  
-- [[[Stop Order Handling](../strategies/stop_order_handling.md)  
-- [[[Workspace Options](workspace_options.md) |
+- [Symbol Mapping](symbol_mapping.md)  
+- [Running concurrent strategies](running_concurrent_strategies_.md)  
+- [Set Up](set_up.md)  
+- [Order Handling Options](../strategies/order_handling_options.md)  
+- [Stop Order Handling](../strategies/stop_order_handling.md)  
+- [Workspace Options](workspace_options.md) |

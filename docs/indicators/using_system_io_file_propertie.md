@@ -10,15 +10,15 @@ Using Stream objects can be cumbersome when you only want to write/read a small 
 
 ## Important related documentation
 
-- [[[File.AppendAllText()](http://msdn2.microsoft.com/en-us/library/system.io.file.appendalltext.aspx)
+- [File.AppendAllText()](http://msdn2.microsoft.com/en-us/library/system.io.file.appendalltext.aspx)
 
-- [[[File.ReadAllText()](http://msdn2.microsoft.com/en-us/library/system.io.file.readalltext.aspx)
+- [File.ReadAllText()](http://msdn2.microsoft.com/en-us/library/system.io.file.readalltext.aspx)
 
 Other methods and properties of interest include:
 
-- [[[File.ReadAllLines()](http://msdn2.microsoft.com/en-us/library/system.io.file.readalllines.aspx)
+- [File.ReadAllLines()](http://msdn2.microsoft.com/en-us/library/system.io.file.readalllines.aspx)
 
-- [[[File.WriteAllLines()](http://msdn2.microsoft.com/en-us/library/system.io.file.writealllines.aspx)
+- [File.WriteAllLines()](http://msdn2.microsoft.com/en-us/library/system.io.file.writealllines.aspx)
 
 ## Import instructions
 
@@ -28,4 +28,4 @@ Other methods and properties of interest include:
 
 3.Select the downloaded file
 
-[[[SampleFileReadWrite\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleFileReadWrite_NT8.zip)
+[SampleFileReadWrite\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleFileReadWrite_NT8.zip)

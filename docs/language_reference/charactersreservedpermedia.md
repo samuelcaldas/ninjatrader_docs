@@ -10,7 +10,7 @@ Sets the number of characters allowed when attaching an image to ensure that cha
 
 A int value that represents the number of characters reserved when attaching an image or other media.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

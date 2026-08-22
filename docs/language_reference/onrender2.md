@@ -16,7 +16,7 @@ Used to draw custom content to a Market Analyzer Column, such as a graph.
 
 - A user re-sizes the content area by dragging the splitter between the columns
 
-> **Note:** While similar to a Chart Indicator's [[[OnRender()](onrender.md) method, the Market Analyzer Column uses [[[WPF Drawing Context](https://msdn.microsoft.com/en-us/library/system.windows.media.drawingcontext(v=vs.110).aspx) class, rather than the SharpDX library used for [[[chart rendering](rendering.md).  Concepts between these two methods are guaranteed to be different.
+> **Note:** While similar to a Chart Indicator's [OnRender()](onrender.md) method, the Market Analyzer Column uses [WPF Drawing Context](https://msdn.microsoft.com/en-us/library/system.windows.media.drawingcontext(v=vs.110).aspx) class, rather than the SharpDX library used for [chart rendering](rendering.md).  Concepts between these two methods are guaranteed to be different.
 
 ## Method Return Value
 
@@ -35,14 +35,14 @@ protected override void OnRender(DrawingContext dc, System.Windows.Size renderSi
 
 |  |  |
 | --- | --- |
-| dc | The [[[drawing context](https://msdn.microsoft.com/en-us/library/system.windows.media.drawingcontext(v=vs.110).aspx) for the column |
+| dc | The [drawing context](https://msdn.microsoft.com/en-us/library/system.windows.media.drawingcontext(v=vs.110).aspx) for the column |
 | renderSize | The rendering size for the column |
 
  
 
  
 
-> **Tip:** In order to force OnRender() to be called under a specific condition, call the [[[OnPropertyChanged()](onpropertychanged.md) method which will force the entire column to repaint.  This approach should be used instead of calling OnRender() directly.
+> **Tip:** In order to force OnRender() to be called under a specific condition, call the [OnPropertyChanged()](onpropertychanged.md) method which will force the entire column to repaint.  This approach should be used instead of calling OnRender() directly.
 
 ## Examples
 

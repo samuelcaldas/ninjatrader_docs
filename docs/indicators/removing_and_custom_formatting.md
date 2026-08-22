@@ -8,11 +8,11 @@ If you create a NinjaScript indicator or strategy with many customizable paramet
 
 ## Important related documentation
 
-- [[[Draw.TextFixed()](../language_reference/draw_textfixed.md)
+- [Draw.TextFixed()](../language_reference/draw_textfixed.md)
 
-- [[[Draw.Text()](../language_reference/draw_text.md)
+- [Draw.Text()](../language_reference/draw_text.md)
 
-- [[[Override DisplayName()](../language_reference/indicator_displayname.md)
+- [Override DisplayName()](../language_reference/indicator_displayname.md)
 
  
 
@@ -28,4 +28,4 @@ If you create a NinjaScript indicator or strategy with many customizable paramet
 
 3.Select the downloaded file
 
-[[[SampleDisplayName\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleDisplayName_NT8.zip)
+[SampleDisplayName\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleDisplayName_NT8.zip)

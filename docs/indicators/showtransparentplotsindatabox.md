@@ -8,7 +8,7 @@ Determines if plot(s) values which are set to a Transparent brush display in the
 
 This property returns true if transparent indicator plot(s) values display in the chart data box; otherwise, false. Default set to false.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

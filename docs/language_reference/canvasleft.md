@@ -33,6 +33,6 @@ Based on the image below, CanvasLeft reveals that the chart canvas area begins a
 
  
 
-![[[ChartControl_CanvasLeft](../images/chartcontrol_canvasleft.png)
+![ChartControl_CanvasLeft](../images/chartcontrol_canvasleft.png)
 
 > **Note:** When no data series are left-aligned on a chart, CanvasLeft will return 0, representing the x-coordinate origin, because the chart canvas will begin at coordinate 0.

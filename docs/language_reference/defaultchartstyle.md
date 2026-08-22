@@ -6,7 +6,7 @@ Allows to set a default ChartStyle for usage with a NinjaTrader bars type
 
 ## Property Value
 
-A ChartStyleTypeÂenum value representing the [[[ChartStyle](../drawing_tools/chartstyletype.md) to be set as default. System defaults include:
+A ChartStyleTypeÂenum value representing the [ChartStyle](../drawing_tools/chartstyletype.md) to be set as default. System defaults include:
 
 - ChartStyleType.Box,
 

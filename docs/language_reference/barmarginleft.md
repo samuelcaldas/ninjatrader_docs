@@ -6,7 +6,7 @@ A hard-coded minimum bar margin value, set to 8 pixels, which can be used as a b
 
 ## Property Value
 
-A value representing the minimum margin applied to the left edge of bars. This value is hard-coded to 8 pixels, and it can be used as a base value when setting the bar margin in custom [[[Chart Styles](../drawing_tools/chart_style.md).
+A value representing the minimum margin applied to the left edge of bars. This value is hard-coded to 8 pixels, and it can be used as a base value when setting the bar margin in custom [Chart Styles](../drawing_tools/chart_style.md).
 
 ## Syntax
 
@@ -25,4 +25,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 Based on the image below, BarMarginLeft reveals that the minimum margin maintained to the left of each bar is 8 pixels on this chart.
 
-![[[ChartControl_BarMarginLeft](../images/chartcontrol_barmarginleft.png)
+![ChartControl_BarMarginLeft](../images/chartcontrol_barmarginleft.png)

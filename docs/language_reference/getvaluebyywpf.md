@@ -37,6 +37,6 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
  
 
-In the image below, we used the Chart Control property [[[MouseDownPoint](mousedownpoint.md) as the "wpfy" variable, which in return tells us the user clicked on a Y value of 2105.499 on the chart scale.
+In the image below, we used the Chart Control property [MouseDownPoint](mousedownpoint.md) as the "wpfy" variable, which in return tells us the user clicked on a Y value of 2105.499 on the chart scale.
 
-![[[getvaluebyywpf](../images/getvaluebyywpf.png)
+![getvaluebyywpf](../images/getvaluebyywpf.png)

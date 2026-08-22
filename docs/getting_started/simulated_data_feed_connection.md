@@ -10,13 +10,13 @@ This connection can be used for:
 
 - Offline testing of strategies
 
-- Offline testing of trade automation using NinjaScript strategies or the NinjaTrader [[[Automated Trading Interface](../operations/automated_trading_interface_at.md)
+- Offline testing of trade automation using NinjaScript strategies or the NinjaTrader [Automated Trading Interface](../operations/automated_trading_interface_at.md)
 
 > **Notes:** 1.This connection is a random internally generated market and has NO correlation to real market data  2.This connection does not provide historical data
 
  
 
-> **Tip:** The Simulated Data Feed will continuously run and generate data once connected and drive all NinjaTrader windows, however please keep in mind the [[[Trading Hours](../language_reference/tradinghours.md) definitions used will still govern for which time periods your window (i.e. Chart, Market Analyzer, SuperDOM Indicators and Columns) can receive the data to display.
+> **Tip:** The Simulated Data Feed will continuously run and generate data once connected and drive all NinjaTrader windows, however please keep in mind the [Trading Hours](../language_reference/tradinghours.md) definitions used will still govern for which time periods your window (i.e. Chart, Market Analyzer, SuperDOM Indicators and Columns) can receive the data to display.
 
  
 
@@ -24,7 +24,7 @@ This connection can be used for:
 
 The Simulated Data Feed will automatically use the last price from the last connection as the starting price for the instrument.
 
-![[[Connecting_SimulatedDataFeed1](../images/connecting_simulateddatafeed1.png)
+![Connecting_SimulatedDataFeed1](../images/connecting_simulateddatafeed1.png)
 
 ## Defining the Sim Feed Start Price
 
@@ -42,4 +42,4 @@ Once you are connected to the Simulated Data Feed connection, the instrument wil
 
 The Trend slider control will appear once connected to the Simulated Data Feed. Left mouse click on the slider and drag it up or down to cause the Simulated Data Feed to move in that direction.
 
-![[[Connections_SimulatedDataFeed_TrendSlider](../images/connections_simulateddatafeed_trendslider.png)
+![Connections_SimulatedDataFeed_TrendSlider](../images/connections_simulateddatafeed_trendslider.png)

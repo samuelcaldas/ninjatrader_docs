@@ -30,7 +30,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 |  |  |
 | --- | --- |
 | fastLimit | Upper limit of the alpha value |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | slowLimit | Lower limit of the alpha value |
 
 ## Examples

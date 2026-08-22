@@ -4,7 +4,7 @@
 
 Creates a message box window.
 
-> **Note:** For more information on using MessageBox windows, please see [[[.NET MessageBox Class Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.windows.messagebox?view=netframework-4.8)
+> **Note:** For more information on using MessageBox windows, please see [.NET MessageBox Class Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.windows.messagebox?view=netframework-4.8)
 
 ## Method Return Value
 

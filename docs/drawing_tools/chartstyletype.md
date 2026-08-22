@@ -4,7 +4,7 @@
 
 Defines a unique identifier value used to register a custom ChartStyle.  There are 11 default ChartStyles which come with NinjaTrader which are reserved per the table on this page under the Parameters section of this page.
 
-> **Note:** The ChartStyle property can allow a large number of ChartStyles to be registered on a single user's installation (up to 2,147,483,647).  However it's important to note that it is still possible for two installed ChartStyles on a user's computer to conflict should they be register to the same enumerator value. In this case, NinjaTrader will ignore the conflicting ChartStyle type and information pertaining to this conflict will be displayed on the [[[Log tab](../operations/log_tab2.md) of the  NinjaTrader Control Center.    Added 1/31/2018 : We advise users to use values larger then 1023 when selecting an enum. As NinjaTrader from time to time may add a new enum value in that range which may cause conflicts.
+> **Note:** The ChartStyle property can allow a large number of ChartStyles to be registered on a single user's installation (up to 2,147,483,647).  However it's important to note that it is still possible for two installed ChartStyles on a user's computer to conflict should they be register to the same enumerator value. In this case, NinjaTrader will ignore the conflicting ChartStyle type and information pertaining to this conflict will be displayed on the [Log tab](../operations/log_tab2.md) of the  NinjaTrader Control Center.    Added 1/31/2018 : We advise users to use values larger then 1023 when selecting an enum. As NinjaTrader from time to time may add a new enum value in that range which may cause conflicts.
 
 ## Property  Value
 

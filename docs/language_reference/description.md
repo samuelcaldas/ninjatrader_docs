@@ -8,7 +8,7 @@ Text which is used on the UI's information box to be displayed to a user when co
 
 A string value representing text used to describe the object.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

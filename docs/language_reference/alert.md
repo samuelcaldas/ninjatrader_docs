@@ -2,11 +2,11 @@
 
 ## Definition
 
-Generates a visual/audible alert to display in the [[[Alerts Log](../operations/alerts_log.md) window.
+Generates a visual/audible alert to display in the [Alerts Log](../operations/alerts_log.md) window.
 
  
 
-> **Notes:** 1. This method can only be called once the [[[State](state.md) has reached State.Realtime.  Calls to this method in any other State will be silently ignored.  2. For add-ons, please see the [[[AlertCallback()](../addons/alertcallback.md) method
+> **Notes:** 1. This method can only be called once the [State](state.md) has reached State.Realtime.  Calls to this method in any other State will be silently ignored.  2. For add-ons, please see the [AlertCallback()](../addons/alertcallback.md) method
 
 ## Method Return Value
 
@@ -25,8 +25,8 @@ This method does not return a value
 | message | A string representing the Alert message |
 | soundLocation | A string representing the absolute file path of the .wav file to play |
 | rearmSeconds | An int which sets the number of seconds an alert rearms. Note: If the same alert (identified by the id parameter) is called within a time window of the time of last alert + rearmSeconds, the alert will be ignored |
-| backBrush | Sets the background color of the Alerts window row for this alert when triggered ([[[reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
-| foreBrush | Sets the foreground color of the Alerts window row for this alert when triggered ([[[reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
+| backBrush | Sets the background color of the Alerts window row for this alert when triggered ([reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
+| foreBrush | Sets the foreground color of the Alerts window row for this alert when triggered ([reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
 
 > **Tip:** You can obtain the default NinjaTrader installation directory to access the sounds folder by using NinjaTrader.Core.Globals.InstallDir property.  Please see the example below for usage.
 

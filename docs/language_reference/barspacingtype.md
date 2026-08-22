@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates the type of bar spacing used for the primary [[[Bars](bars.md) object on the chart.
+Indicates the type of bar spacing used for the primary [Bars](bars.md) object on the chart.
 
 ## Property Value
 
@@ -34,4 +34,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 Based on the image below, BarSpacingType confirms that there are multiple Bars objects configured on the chart, and that the chart is set to Equidistant Bar Spacing:
 
-![[[ChartControl_BarSpacingType](../images/chartcontrol_barspacingtype.png)
+![ChartControl_BarSpacingType](../images/chartcontrol_barspacingtype.png)

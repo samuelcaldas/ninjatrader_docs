@@ -8,15 +8,15 @@ Sometimes, you may want to access a value from a historical point in time, but h
 
 ## Important related documentation
 
-- [[[GetBar()](../language_reference/getbar.md)
+- [GetBar()](../language_reference/getbar.md)
 
-- [[[Draw.Line()](../language_reference/draw_line.md)
+- [Draw.Line()](../language_reference/draw_line.md)
 
-- [[[Time](../language_reference/iseries_time.md)
+- [Time](../language_reference/iseries_time.md)
 
-- [[[Sessions](../language_reference/tradinghours_sessions.md)
+- [Sessions](../language_reference/tradinghours_sessions.md)
 
-- [[[DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx)
+- [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx)
 
 ## Import instructions
 
@@ -26,4 +26,4 @@ Sometimes, you may want to access a value from a historical point in time, but h
 
 3.Select the downloaded file
 
-[[[SampleGetBar\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleGetBar_NT8.zip)
+[SampleGetBar\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleGetBar_NT8.zip)

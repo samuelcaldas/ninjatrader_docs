@@ -2,14 +2,14 @@
 
 ## Definition
 
-Indicates if the specified input is set at a specified bar index value.  Please also see the [[[Reset()](reset.md) method for more information.
+Indicates if the specified input is set at a specified bar index value.  Please also see the [Reset()](reset.md) method for more information.
 
  
 
 > **Notes:**
 - If called directly from the instance of the NinjaScript object, the value returned corresponds to the Inputs Series (e.g., Close, High, Low, SMA, etc.)
-- When checking a [[[Bar](bars.md) or [[[PriceSeries](priceseries.md), IsValidDataPoint() returns true as long as the barIndex value falls between 0 and the total count for that series.  These are special series which always contain a value set at every slot index for multi-series scripting purposes (e.g., comparing two price series with various session templates, or one series has more ticks than the other)
-- For a [[[Value](value.md) series or custom [[[`Series<T>`](seriest.md), IsValidDataPoint() returns true or false depending on if you have set a value at that index location
+- When checking a [Bar](bars.md) or [PriceSeries](priceseries.md), IsValidDataPoint() returns true as long as the barIndex value falls between 0 and the total count for that series.  These are special series which always contain a value set at every slot index for multi-series scripting purposes (e.g., comparing two price series with various session templates, or one series has more ticks than the other)
+- For a [Value](value.md) series or custom [`Series<T>`](seriest.md), IsValidDataPoint() returns true or false depending on if you have set a value at that index location
 
 ## Method Return Value
 

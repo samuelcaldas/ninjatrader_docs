@@ -6,7 +6,7 @@ Draws a ruler.
 
 ## Method Return Value
 
-A [[[Ruler](ruler.md) object that represents the draw object.
+A [Ruler](ruler.md) object that represents the draw object.
 
 ## Syntax
 

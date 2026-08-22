@@ -2,7 +2,7 @@
 
 ## Definition
 
-Performance values of a [[[collection](tradecollection.md) of [[[Trade](trade.md) objects.
+Performance values of a [collection](tradecollection.md) of [Trade](trade.md) objects.
 
 - Currency and Point based calculations are per trade
 
@@ -12,18 +12,18 @@ Performance values of a [[[collection](tradecollection.md) of [[[Trade](trade.md
 
 |  |  |
 | --- | --- |
-| [[[AverageEtd](averageetd.md) | A double value representing avg end trade draw down |
-| [[[AverageMae](averagemae.md) | A double value representing avg maximum adverse excursion |
-| [[[AverageMfe](averagemfe.md) | A double value representing avg maximum favorable excursion |
-| [[[AverageProfit](averageprofit.md) | A double value representing avg profit |
-| [[[CumProfit](cumprofit.md) | A double value representing cumulative profit (percent is compounded) |
-| [[[Drawdown](drawdown.md) | A double value representing draw down |
-| [[[LargestLoser](largestloser.md) | A double value representing largest loss |
-| [[[LargestWinner](largestwinner.md) | A double value representing largest gain |
-| [[[ProfitPerMonth](profitpermonth.md) | A double value representing profit per month always as a percent |
-| [[[StdDev](stddev.md) | A double value representing standard deviation on a per unit basis |
-| [[[Turnaround](turnaround.md) | A double value representing the turnaround |
-| [[[Ulcer](ulcer.md) | A double value representing the Ulcer value |
+| [AverageEtd](averageetd.md) | A double value representing avg end trade draw down |
+| [AverageMae](averagemae.md) | A double value representing avg maximum adverse excursion |
+| [AverageMfe](averagemfe.md) | A double value representing avg maximum favorable excursion |
+| [AverageProfit](averageprofit.md) | A double value representing avg profit |
+| [CumProfit](cumprofit.md) | A double value representing cumulative profit (percent is compounded) |
+| [Drawdown](drawdown.md) | A double value representing draw down |
+| [LargestLoser](largestloser.md) | A double value representing largest loss |
+| [LargestWinner](largestwinner.md) | A double value representing largest gain |
+| [ProfitPerMonth](profitpermonth.md) | A double value representing profit per month always as a percent |
+| [StdDev](stddev.md) | A double value representing standard deviation on a per unit basis |
+| [Turnaround](turnaround.md) | A double value representing the turnaround |
+| [Ulcer](ulcer.md) | A double value representing the Ulcer value |
 
 ## Examples
 

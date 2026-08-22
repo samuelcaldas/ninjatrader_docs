@@ -14,13 +14,13 @@ A common concept many traders use is the idea of a breakout. Points of interest 
 
 ## Important related documentation
 
-- [[[IsFirstBarOfSession](../language_reference/isfirstbarofsession.md)
+- [IsFirstBarOfSession](../language_reference/isfirstbarofsession.md)
 
-- [[[BarsSinceNewTradingDay](../language_reference/barssincenewtradingday.md)
+- [BarsSinceNewTradingDay](../language_reference/barssincenewtradingday.md)
 
-- [[[BarsSinceEntryExecution()](barssinceentryexecution.md)
+- [BarsSinceEntryExecution()](barssinceentryexecution.md)
 
-- [[[BarsSinceExitExecution()](barssinceexitexecution.md)
+- [BarsSinceExitExecution()](barssinceexitexecution.md)
 
 ## Import instructions
 
@@ -30,4 +30,4 @@ A common concept many traders use is the idea of a breakout. Points of interest 
 
 3.Select the downloaded file
 
-[[[SampleBreakoutStrategy\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleBreakoutStrategy_NT8.zip)
+[SampleBreakoutStrategy\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleBreakoutStrategy_NT8.zip)

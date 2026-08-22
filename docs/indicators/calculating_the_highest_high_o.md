@@ -10,11 +10,11 @@ Determining a high or low value for given time range can be useful.
 
 ## Important related documentation
 
-- [[[GetBar()](../language_reference/getbar.md)
+- [GetBar()](../language_reference/getbar.md)
 
-- [[[MAX()](maximum_max.md)
+- [MAX()](maximum_max.md)
 
-- [[[MIN()](minimum_min.md)
+- [MIN()](minimum_min.md)
 
 ## Import instructions
 
@@ -24,4 +24,4 @@ Determining a high or low value for given time range can be useful.
 
 3.Select the downloaded file
 
-[[[SampleGetHighLowByTimeRange\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleGetHighLowByTimeRange_NT8.zip)
+[SampleGetHighLowByTimeRange\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleGetHighLowByTimeRange_NT8.zip)

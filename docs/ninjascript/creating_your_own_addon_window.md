@@ -243,11 +243,11 @@ protected override void OnWindowDestroyed(Window window)
 
 ## Adding NinjaTrader Custom Controls
 
-User-interface controls, such as buttons, text fields, and dropdown menus can be defined via XAML (or C#), then behavior and functionality of those controls can be set via C# along with the core logic of your AddOn. In addition to the [[[standard WPF controls](https://msdn.microsoft.com/en-us/library/bb655881(v=vs.90).aspx), the NinjaScript AddOn framework provides access to each of the custom NinjaTrader controls that can be found throughout the platform. Below is a list of the most commonly used NinjaTrader controls, along with examples of defining these controls in XAML and adding functionality to them in C#:
+User-interface controls, such as buttons, text fields, and dropdown menus can be defined via XAML (or C#), then behavior and functionality of those controls can be set via C# along with the core logic of your AddOn. In addition to the [standard WPF controls](https://msdn.microsoft.com/en-us/library/bb655881(v=vs.90).aspx), the NinjaScript AddOn framework provides access to each of the custom NinjaTrader controls that can be found throughout the platform. Below is a list of the most commonly used NinjaTrader controls, along with examples of defining these controls in XAML and adding functionality to them in C#:
 
 1. The Instrument Selector
 
-![[[AddOns_InstrumentSelector](../images/addons_instrumentselector.png)
+![AddOns_InstrumentSelector](../images/addons_instrumentselector.png)
 
 ```csharp
 <t:InstrumentSelector
@@ -267,7 +267,7 @@ instrumentSelector.InstrumentChanged += OnInstrumentChanged;
 
 2. The Interval Selector
 
-![[[AddOns_IntervalSelector](../images/addons_intervalselector.png)
+![AddOns_IntervalSelector](../images/addons_intervalselector.png)
 
 ```csharp
 <t:IntervalSelector
@@ -287,7 +287,7 @@ intervalSelector.IntervalChanged += OnIntervalChanged;
 
 3. The Quantity Up/Down Selector
 
-![[[AddOns_QuantitySelector](../images/addons_quantityselector.png)
+![AddOns_QuantitySelector](../images/addons_quantityselector.png)
 
 ```csharp
 <t:QuantityUpDown x:Name="qudSelector" Value="1" Grid.Row="12" Grid.Column="0">
@@ -304,7 +304,7 @@ qudSelector = LogicalTreeHelper.FindLogicalNode(pageContent, "qudSelector") as Q
 
 4. The Time-in-Force Selector
 
-![[[AddOns_TifSelector](../images/addons_tifselector.png)
+![AddOns_TifSelector](../images/addons_tifselector.png)
 
 ```csharp
 <t:TifSelector x:Name="tifSelector"
@@ -333,7 +333,7 @@ tifSelector.SelectionChanged += (o, args) =>
 
 5. The ATM Strategy Selector
 
-![[[AddOns_AtmSelector](../images/addons_atmselector.png)
+![AddOns_AtmSelector](../images/addons_atmselector.png)
 
 ```csharp
 <AtmStrategy:AtmStrategySelector x:Name="atmStrategySelector" LinkedQuantity="{Binding ElementName=qudSelector, Path=Value, Mode=OneWay}" Grid.Row="12" Grid.Column="2">

@@ -22,19 +22,19 @@ For error-handling, money-management or any other reason you may want to halt yo
 
 ## Important related documentation
 
-- [[[CancelOrder()](../addons/cancel.md)
+- [CancelOrder()](../addons/cancel.md)
 
-- [[[Order](order.md)
+- [Order](order.md)
 
-- [[[SystemPerformance](systemperformance.md)
+- [SystemPerformance](systemperformance.md)
 
-- [[[AllTrades\*](alltrades.md)
+- [AllTrades\*](alltrades.md)
 
-- [[[TradesPerformance](tradesperformance.md)
+- [TradesPerformance](tradesperformance.md)
 
-- [[[OnMarketData()](../language_reference/onmarketdata.md)
+- [OnMarketData()](../language_reference/onmarketdata.md)
 
-- [[[OnOrderUpdate()](onorderupdate.md)
+- [OnOrderUpdate()](onorderupdate.md)
 
 \* This reference sample uses the .AllTrades property. This property will include all historical virtual trades as well as real-time trades. If you wish to only make calculations based on real-time trades you can use the .RealtimeTrades property.
 
@@ -46,6 +46,6 @@ For error-handling, money-management or any other reason you may want to halt yo
 
 3.Select the downloaded file
 
-[[[SampleHaltAdvancedStrategy\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleHaltAdvancedStrategy_NT8.zip)
+[SampleHaltAdvancedStrategy\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleHaltAdvancedStrategy_NT8.zip)
 
-[[[SampleHaltBasicStrategy\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleHaltBasicStrategy_NT8.zip)
+[SampleHaltBasicStrategy\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleHaltBasicStrategy_NT8.zip)

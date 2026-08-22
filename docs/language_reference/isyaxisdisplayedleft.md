@@ -28,4 +28,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 Based on the image below, IsYAxisDisplayedLeft confirms that the y-axis displays to the left of the chart canvas.
 
-![[[ChartControl_isYAxisDisplayedLeft](../images/chartcontrol_isyaxisdisplayedleft.png)
+![ChartControl_isYAxisDisplayedLeft](../images/chartcontrol_isyaxisdisplayedleft.png)

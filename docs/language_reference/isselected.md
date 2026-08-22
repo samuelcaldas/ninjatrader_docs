@@ -2,13 +2,13 @@
 
 ## Definition
 
-Indicates a chart object is currently selected. When this property is set to true in a [[[DrawingTool](../drawing_tools/drawingtool.md), the [[[GetSelectionPoints()](../drawing_tools/getselectionpoints.md) will be called.
+Indicates a chart object is currently selected. When this property is set to true in a [DrawingTool](../drawing_tools/drawingtool.md), the [GetSelectionPoints()](../drawing_tools/getselectionpoints.md) will be called.
 
 ## Property Value
 
 This property returns true to indicate that the chart object is selected; otherwise, false. Default set to false.
 
-> **Warning:** This property value is ONLY guaranteed to be settable by the object to which it belongs (e.g., from within a [[[DrawingTool](../drawing_tools/drawing_tools.md)).  Modifying its value from an external object (such as attempting to set a DrawingTool.IsSelected from an indicator) can result in the property automatically returning the value handled by its source.  In other words, unless you are working with a chart object type directly (e.g., building a custom drawing tool), the IsSelected property should be considered read-only.
+> **Warning:** This property value is ONLY guaranteed to be settable by the object to which it belongs (e.g., from within a [DrawingTool](../drawing_tools/drawing_tools.md)).  Modifying its value from an external object (such as attempting to set a DrawingTool.IsSelected from an indicator) can result in the property automatically returning the value handled by its source.  In other words, unless you are working with a chart object type directly (e.g., building a custom drawing tool), the IsSelected property should be considered read-only.
 
 ## Syntax
 

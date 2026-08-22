@@ -4,7 +4,7 @@
 
 MarketDepth can be used to access snapshot market depth and for subscribing to market depth events.
 
-> **Notes:** 1.Remember to unsubscribe if you are no longer using the subscription.  2.You should only unsubscribe to a market depth event if you are actually subscribed.  3.You must unsubscribe from the same thread where the subscription is made. It is therefore recommended to user an [[[Instrument's](../language_reference/instrument.md) Dispatcher to ensure this is handled properly.
+> **Notes:** 1.Remember to unsubscribe if you are no longer using the subscription.  2.You should only unsubscribe to a market depth event if you are actually subscribed.  3.You must unsubscribe from the same thread where the subscription is made. It is therefore recommended to user an [Instrument's](../language_reference/instrument.md) Dispatcher to ensure this is handled properly.
 
 ## Properties
 
@@ -12,7 +12,7 @@ MarketDepth can be used to access snapshot market depth and for subscribing to m
 | --- | --- |
 | Asks | List of ask prices |
 | Bids | List of bid prices |
-| Instrument | [[[Instrument](../language_reference/instrument.md) representing the instrument of the market depth event |
+| Instrument | [Instrument](../language_reference/instrument.md) representing the instrument of the market depth event |
 | Update | Event handler for subscribing/unsubscribing to market depth events |
 
 ## Syntax

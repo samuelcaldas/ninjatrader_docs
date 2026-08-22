@@ -2,13 +2,13 @@
 
 The ChartingExtensions class provides helper methods useful for converting a pixel coordinate from application-specific pixels (i.e., WPF coordinates) to Device Independent Pixels.
 
-> **Note:** More information about the differences between application pixels and device pixels can be found on the [[[Working with Pixel Coordinates](../ninjascript/working_with_pixel_coordinates.md) page.
+> **Note:** More information about the differences between application pixels and device pixels can be found on the [Working with Pixel Coordinates](../ninjascript/working_with_pixel_coordinates.md) page.
 
 ## ChartingExtensions Helper Methods
 
 |  |  |
 | --- | --- |
-| [[[ConvertFromHorizontalPixels](convertfromhorizontalpixels.md) | Converts a horizontal coordinate (x) from device pixels to application pixels |
-| [[[ConvertFromVerticalPixels](convertfromverticalpixels.md) | Converts a vertical coordinate (y) from device pixels to application pixels |
-| [[[ConvertToHorizontalPixels](converttohorizontalpixels.md) | Converts a horizontal coordinate (x) in application pixels to device pixels |
-| [[[ConvertToVerticalPixels](converttoverticalpixels2.md) | Converts a vertical coordinate (y) in application pixels to device pixels |
+| [ConvertFromHorizontalPixels](convertfromhorizontalpixels.md) | Converts a horizontal coordinate (x) from device pixels to application pixels |
+| [ConvertFromVerticalPixels](convertfromverticalpixels.md) | Converts a vertical coordinate (y) from device pixels to application pixels |
+| [ConvertToHorizontalPixels](converttohorizontalpixels.md) | Converts a horizontal coordinate (x) in application pixels to device pixels |
+| [ConvertToVerticalPixels](converttoverticalpixels2.md) | Converts a vertical coordinate (y) in application pixels to device pixels |

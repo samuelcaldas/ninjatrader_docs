@@ -4,7 +4,7 @@
 
 Determines which scale an indicator will be plotted on.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Property Value
 

@@ -10,7 +10,7 @@ For example, if you are using two different email adapters, you may set one to b
 
 A bool value that represents if the current adapter is default Share Service used for that type of sharing service.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](onstatechange.md) method during State.SetDefaults
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults
 
 ## Syntax
 

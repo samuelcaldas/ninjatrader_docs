@@ -4,7 +4,7 @@ OIFs must be written to the folder "My Documents\<NinjaTrader Folder>\incoming" 
 
 Each file must also contain correctly formatted line(s) of parameters. You may stack the instruction lines so that each file contains as many instruction lines as you desire. The delimiter required is the semicolon and this section is a good reference for generating correctly formatted OIF.  Files are processed the instant they are written to the hard disk without delay.
 
-Please reference the [[[Commands and Valid Parameters](../operations/commands_and_valid_parameters.md) section for detailed information on available commands and parameters.
+Please reference the [Commands and Valid Parameters](../operations/commands_and_valid_parameters.md) section for detailed information on available commands and parameters.
 
 The following are examples of the required format for each of the available commands. Required fields are embraced by <> where optional fields are embraced by [].
 

@@ -1,8 +1,8 @@
 # StrategyBase
 
-StrategyBase contains properties and methods for managing a [[[Strategy](../strategies/strategy.md) object, and is the base class from which [[[AtmStrategy](atmstrategy.md) derives.
+StrategyBase contains properties and methods for managing a [Strategy](../strategies/strategy.md) object, and is the base class from which [AtmStrategy](atmstrategy.md) derives.
 
-> **Note:** For a complete, working example of this class in use, download framework example located on our [[[Developing AddOns Overview](developing_add_ons.md)
+> **Note:** For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)
 
  
 

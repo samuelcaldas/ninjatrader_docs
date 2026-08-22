@@ -2,7 +2,7 @@
 
 ## Definition
 
-Calculates the trading date of the time value passed in as the timeLocal argument. This method may need to be used before you can accurately determine various session properties such as [[[ActualSessionBegin](actualsessionbegin.md) or [[[ActualTradingDayEndLocal](actualtradingdayendlocal.md), etc. CalculateTradingDay() also checks the local date/time against the exchange's current date/time to ensure that the script is in sync with the exchange's current day.
+Calculates the trading date of the time value passed in as the timeLocal argument. This method may need to be used before you can accurately determine various session properties such as [ActualSessionBegin](actualsessionbegin.md) or [ActualTradingDayEndLocal](actualtradingdayendlocal.md), etc. CalculateTradingDay() also checks the local date/time against the exchange's current date/time to ensure that the script is in sync with the exchange's current day.
 
 > **Warning:** This method is resource intensive and should ONLY be reserved for situations when calculations would be limited to a few specific use cases.
 

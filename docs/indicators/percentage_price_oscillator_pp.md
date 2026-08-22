@@ -2,7 +2,7 @@
 
 ## Description
 
-The Percentage Price Oscillator shows the percentage difference between two [[[exponential moving averages](moving_average_-_exponential_e.md).
+The Percentage Price Oscillator shows the percentage difference between two [exponential moving averages](moving_average_-_exponential_e.md).
 
 ## Syntax
 
@@ -30,7 +30,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 |  |  |
 | --- | --- |
 | fast | The number of bars to calculate the fast EMA |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | slow | The number of bars to calculate the slow EMA |
 | smooth | The number of bars to calculate the EMA signal line |
 

@@ -28,4 +28,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 Based on the image below, IsYAxisDisplayedOverlay confirms that the an object on the chart, in this case an SMA indicator, is using the Overlay scale justification.
 
-![[[ChartControl_IsXAxisDisplayedOverlay](../images/chartcontrol_isxaxisdisplayedoverlay.png)
+![ChartControl_IsXAxisDisplayedOverlay](../images/chartcontrol_isxaxisdisplayedoverlay.png)

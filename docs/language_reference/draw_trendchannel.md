@@ -6,7 +6,7 @@ Draws a trend channel.
 
 ## Method Return Value
 
-A [[[TrendChannel](trendchannel.md) object that represents the draw object.
+A [TrendChannel](trendchannel.md) object that represents the draw object.
 
 ## Syntax
 

@@ -6,7 +6,7 @@ Generates a buy limit order to enter a long position.
 
 ## Method Return Value
 
-An [[[Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [[[Advanced Order Handling](advanced_order_handling.md) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
 
 ## Syntax
 
@@ -17,7 +17,7 @@ EnterLongLimit(int quantity, double limitPrice)
 
 EnterLongLimit(int quantity, double limitPrice, string signalName)
 
-The following method variation is for experienced programmers who fully understand [[[Advanced Order Handling](advanced_order_handling.md) concepts:
+The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.md) concepts:
 
 EnterLongLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, string signalName)
 
@@ -36,8 +36,8 @@ EnterLongLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity,
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | limitPrice | The limit price of the order. |
 | quantity | Entry order quantity  (if 0 is passed in, will be set to 1, except for stocks 100). |
-| isLiveUntilCancelled | The order will NOT expire at the end of a bar, but instead remain live until the [[[CancelOrder()](managed_cancelorder.md) method is called or its time in force is reached. |
-| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [[[BarsInProgress](../language_reference/barsinprogress.md) property. |
+| isLiveUntilCancelled | The order will NOT expire at the end of a bar, but instead remain live until the [CancelOrder()](managed_cancelorder.md) method is called or its time in force is reached. |
+| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](../language_reference/barsinprogress.md) property. |
 
 ## Examples
 

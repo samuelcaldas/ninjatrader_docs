@@ -2,7 +2,7 @@
 
 Your indicator is now ready for use and will be listed in the Indicator Dialog window.
 
-![[[PriceVariableTutorialUsing1](../images/pricevariabletutorialusing1.png)
+![PriceVariableTutorialUsing1](../images/pricevariabletutorialusing1.png)
 
 1) The indicator can now be found in the "Available" section of the Indicators window
 
@@ -10,4 +10,4 @@ Your indicator is now ready for use and will be listed in the Indicator Dialog w
 
 Once applied to a chart, the indicator should look something like the image below.
 
-![[[PriceVariableTutorialUsing2](../images/pricevariabletutorialusing2.png)
+![PriceVariableTutorialUsing2](../images/pricevariabletutorialusing2.png)

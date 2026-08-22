@@ -31,7 +31,7 @@ protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDa
 
 |  |  |
 | --- | --- |
-| fundamentalDataUpdate | [[[FundamentalDataEventArgs](fundamentaldataeventargs.md) representing the recent change in fundamental data |
+| fundamentalDataUpdate | [FundamentalDataEventArgs](fundamentaldataeventargs.md) representing the recent change in fundamental data |
 
 ## Examples
 
@@ -45,4 +45,4 @@ protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDa
 ```
   |
 | --- |
-| Tips  1.With [[[multi-time frame and instrument strategies](multi-time_frame__instruments.md), OnFundamentalData() will be called for all unique instruments in your strategy. Use the [[[BarsInProgress](barsinprogress.md) to filter the OnFundamentalData() method for a specific instrument.  2.Do not leave an unused OnFundamentalData() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your script which uses unnecessary CPU cycles. |
+| Tips  1.With [multi-time frame and instrument strategies](multi-time_frame__instruments.md), OnFundamentalData() will be called for all unique instruments in your strategy. Use the [BarsInProgress](barsinprogress.md) to filter the OnFundamentalData() method for a specific instrument.  2.Do not leave an unused OnFundamentalData() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your script which uses unnecessary CPU cycles. |

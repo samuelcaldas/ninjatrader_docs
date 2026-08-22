@@ -10,7 +10,7 @@ Returns information which relate to the underlying bars series in which the draw
 
 ## Method Return Value
 
-A [[[ChartBars](../language_reference/chartbars.md) object
+A [ChartBars](../language_reference/chartbars.md) object
 
 ## Syntax
 

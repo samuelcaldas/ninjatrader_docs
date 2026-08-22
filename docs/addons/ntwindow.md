@@ -2,11 +2,11 @@
 
 ## Definition
 
-The NTWindow class defines parent windows for custom window creation. Instances of NTWindow act as containers for instances of [[[NTTabPage](nttabpage_class.md), in which UI elements and their related logic are contained.
+The NTWindow class defines parent windows for custom window creation. Instances of NTWindow act as containers for instances of [NTTabPage](nttabpage_class.md), in which UI elements and their related logic are contained.
 
 > **Notes:**
-- The [[[IWorkspacePersistance](iworkspacepersistence_interface.md) interface should be implemented if you want your window to be saved and restored with NinjaTrader workspaces.
-- AddOn Classes which derive from NTWindow or implements IWorkspacePersistance CANNOT be a [[[nested type](https://msdn.microsoft.com/en-us/library/ms173120.aspx) of another class and MUST have a [[[default constructor](https://msdn.microsoft.com/en-us/library/ms173115.aspx)
+- The [IWorkspacePersistance](iworkspacepersistence_interface.md) interface should be implemented if you want your window to be saved and restored with NinjaTrader workspaces.
+- AddOn Classes which derive from NTWindow or implements IWorkspacePersistance CANNOT be a [nested type](https://msdn.microsoft.com/en-us/library/ms173120.aspx) of another class and MUST have a [default constructor](https://msdn.microsoft.com/en-us/library/ms173115.aspx)
 
 ## Example
 
@@ -20,7 +20,7 @@ The example below shows how to instantiate an NTWindow while:
 
 - Setting workspace options
 
-> **Tip:** For a complete, working example of this class in use, download framework example located on our [[[AddOn Development Overview](../ninjascript/addon_development_overview.md)
+> **Tip:** For a complete, working example of this class in use, download framework example located on our [AddOn Development Overview](../ninjascript/addon_development_overview.md)
 
 ```csharp
 public class AddOnFrameworkWindow : NTWindow, IWorkspacePersistence

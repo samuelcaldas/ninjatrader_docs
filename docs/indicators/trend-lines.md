@@ -18,7 +18,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | strength | The number of required bars to the left and right of the swing point |
 | numberOfTrendLines | The number of recent trend lines to plot |
 | oldTrendOpacity | The opacity to apply to old trend lines |

@@ -1,8 +1,8 @@
 # ChartPanel
 
-The ChartPanel class includes a range of properties related to the [[[panel](../operations/chart_panels.md) on which the calling script resides.  Each Panel has 3 independent [[[ChartScales](chartscale.md): Left, Right, and Overlay.
+The ChartPanel class includes a range of properties related to the [panel](../operations/chart_panels.md) on which the calling script resides.  Each Panel has 3 independent [ChartScales](chartscale.md): Left, Right, and Overlay.
 
-![[[ChartPanel_1](../images/chartpanel_1.png)
+![ChartPanel_1](../images/chartpanel_1.png)
 
 ## Methods and Properties
 
@@ -18,7 +18,7 @@ The ChartPanel class includes a range of properties related to the [[[panel](../
 | MaxValue | Indicates the maximum Y value of objects within the chart panel |
 | MinValue | Indicates the minimum Y value of objects within the chart panel |
 | PanelIndex | Indicates the index of the chart panel in the collection of configured panels |
-| Scales | A collection of [[[ChartScale](chartscale.md) objects corresponding to objects within the chart panel |
+| Scales | A collection of [ChartScale](chartscale.md) objects corresponding to objects within the chart panel |
 | W | Indicates the width (in pixels) of the chart panel |
 | X | Indicates the x-coordinate on the chart canvas at which the chart panel begins |
 | Y | Indicates the y-coordinate on the chart canvas at which the chart panel begins |

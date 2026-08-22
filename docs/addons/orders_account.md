@@ -6,7 +6,7 @@ A collection of Order objects generated for the specified account
 
 ## Property Value
 
-An [[[Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx) of Order objects
+An [Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx) of Order objects
 
 > **Note:** Please keep in mind that orders placed when in State.Historical are not submitted live to an account.
 

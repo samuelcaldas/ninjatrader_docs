@@ -18,23 +18,23 @@ NinjaTrader's extensive C# backend allows for powerful expandability that is unm
 
 C#
 
-- [[[Button](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.button?view=netframework-4.8)
+- [Button](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.button?view=netframework-4.8)
 
-- [[[Grid](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.grid?view=netframework-4.8)
+- [Grid](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.grid?view=netframework-4.8)
 
-- [[[GridSplitter](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.gridsplitter?view=netframework-4.8)
+- [GridSplitter](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.gridsplitter?view=netframework-4.8)
 
-- [[[Menu](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.menu?view=netframework-4.8)
+- [Menu](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.menu?view=netframework-4.8)
 
-- [[[MenuItem](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.menuitem?view=netframework-4.8)
+- [MenuItem](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.menuitem?view=netframework-4.8)
 
-- [[[StackPanel](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.stackpanel?view=netframework-4.8)
+- [StackPanel](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.stackpanel?view=netframework-4.8)
 
 NinjaTrader
 
-- [[[NTMenuItem](../addons/ntmenuitem.md)
+- [NTMenuItem](../addons/ntmenuitem.md)
 
-- [[[TabControlManager](../addons/tabcontrolmanager.md)
+- [TabControlManager](../addons/tabcontrolmanager.md)
 
 ## Import instructions
 
@@ -44,4 +44,4 @@ NinjaTrader
 
 3.Select the downloaded file
 
-[[[SampleWPFModifications.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleWPFModifications.zip)
+[SampleWPFModifications.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleWPFModifications.zip)

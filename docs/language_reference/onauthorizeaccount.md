@@ -2,7 +2,7 @@
 
 ## Definition
 
-If the [[[IsAuthorizationRequired](isauthorizationrequired.md) property is set to true, this method will be called when the user clicks the Connect button in the Share Services dialogue under Tools -> [[[Options](../getting_started/options.md).  When this method is called, it will allow you go through the handshake process for authorizing the account to a sharing service.  For example, you can obtain user tokens for posting on their behalf to social networks using OAuth authentication.
+If the [IsAuthorizationRequired](isauthorizationrequired.md) property is set to true, this method will be called when the user clicks the Connect button in the Share Services dialogue under Tools -> [Options](../getting_started/options.md).  When this method is called, it will allow you go through the handshake process for authorizing the account to a sharing service.  For example, you can obtain user tokens for posting on their behalf to social networks using OAuth authentication.
 
 Documentation on the OAuth handshake process can be found from the official OAuth website: <http://oauth.net/code/>
 
@@ -10,7 +10,7 @@ Specific documentation for the authorization process for a particular sharing se
 
 ## Method Return Value
 
-An asynchronous [[[Task](https://msdn.microsoft.com/en-us/library/system.threading.tasks.task.aspx)
+An asynchronous [Task](https://msdn.microsoft.com/en-us/library/system.threading.tasks.task.aspx)
 
 ## Parameters
 

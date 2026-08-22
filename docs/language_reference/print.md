@@ -2,11 +2,11 @@
 
 ## Definition
 
-Converts object data to a string format and appends the specified value as text to the NinjaScript [[[Output window](../ninjascript/output.md). Printing data to the NinjaScript Output window is a useful debugging technique to verify values while developing your custom NinjaScript object.
+Converts object data to a string format and appends the specified value as text to the NinjaScript [Output window](../ninjascript/output.md). Printing data to the NinjaScript Output window is a useful debugging technique to verify values while developing your custom NinjaScript object.
 
  
 
-> **Notes:** The Print() method only targets the Output tab recently specified by set [[[PrintTo](printto.md) property.
+> **Notes:** The Print() method only targets the Output tab recently specified by set [PrintTo](printto.md) property.
 
 ## Method Return Value
 
@@ -18,7 +18,7 @@ Print(object value)
 
  
 
-> **Warning:** High frequency of Print() method calls can represent a performance hit on your PC. Please see the NinjaScript section of the [[[Performance Tips](../getting_started/performance_tips2.md) article for more information.
+> **Warning:** High frequency of Print() method calls can represent a performance hit on your PC. Please see the NinjaScript section of the [Performance Tips](../getting_started/performance_tips2.md) article for more information.
 
 ## Parameters
 

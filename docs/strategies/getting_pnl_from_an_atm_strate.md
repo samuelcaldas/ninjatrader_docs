@@ -14,13 +14,13 @@ When integrating Advanced Trade Management templates into NinjaScript Strategies
 
 ## Important related documentation
 
-- [[[GetAtmStrategyRealizedProfitLoss()](getatmstrategyrealizedprofitlo.md)
+- [GetAtmStrategyRealizedProfitLoss()](getatmstrategyrealizedprofitlo.md)
 
-- [[[GetAtmStrategyUnrealizedProfitLoss()](getatmstrategyunrealizedprofit.md)
+- [GetAtmStrategyUnrealizedProfitLoss()](getatmstrategyunrealizedprofit.md)
 
-- [[[Draw.TextFixed()](../language_reference/draw_textfixed.md)
+- [Draw.TextFixed()](../language_reference/draw_textfixed.md)
 
-- [[[RoundToTickSize()](../language_reference/roundtoticksize.md)
+- [RoundToTickSize()](../language_reference/roundtoticksize.md)
 
 ## Import instructions
 
@@ -30,4 +30,4 @@ When integrating Advanced Trade Management templates into NinjaScript Strategies
 
 3.Select the downloaded file
 
-[[[SampleATMPnL\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleATMPnL_NT8.zip)
+[SampleATMPnL\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleATMPnL_NT8.zip)

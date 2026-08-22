@@ -1,6 +1,6 @@
 # CreateParentWindow()
 
-This determines which [[[NTWindow](ntwindow.md) is created as the parent window for our Add On.
+This determines which [NTWindow](ntwindow.md) is created as the parent window for our Add On.
 
 ## Examples
 

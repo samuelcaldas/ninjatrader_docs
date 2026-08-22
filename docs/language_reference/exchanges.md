@@ -2,7 +2,7 @@
 
 ## Definition
 
-A collection of exchange(s) configured for the [[[Master Instrument properties](editing_instruments.md).
+A collection of exchange(s) configured for the [Master Instrument properties](editing_instruments.md).
 
 ## Property Value
 

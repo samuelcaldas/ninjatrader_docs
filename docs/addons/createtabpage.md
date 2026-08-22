@@ -1,6 +1,6 @@
 # CreateTabPage()
 
-This determines which [[[NTTabPage](nttabpage_class.md) is created whenever a new tab is needed in our parent window for our Add On.
+This determines which [NTTabPage](nttabpage_class.md) is created whenever a new tab is needed in our parent window for our Add On.
 
 ## Examples
 

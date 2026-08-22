@@ -6,7 +6,7 @@ Returns the current futures expiry compared to the time of the input value used 
 
 ## Method Return Value
 
-A [[[DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure
+A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure
 
 ## Syntax
 

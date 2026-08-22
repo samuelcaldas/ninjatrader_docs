@@ -15,7 +15,7 @@ BackBrushesAll[int barsAgo]
 
  
 
-> **Warning:** You may have up to 65,535 unique BackBrushAll instances, therefore, using [[[static predefined brushes](../ninjascript/working_with_brushes.md) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.
+> **Warning:** You may have up to 65,535 unique BackBrushAll instances, therefore, using [static predefined brushes](../ninjascript/working_with_brushes.md) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.
 
 ## Examples
 

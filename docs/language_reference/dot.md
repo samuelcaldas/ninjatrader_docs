@@ -2,15 +2,15 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Dot [[[IDrawingTool](idrawingtool.md).
+Represents an interface that exposes information regarding a Dot [IDrawingTool](idrawingtool.md).
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| Anchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the point of the drawing object |
-| AreaBrush | A [[[Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object representing the fill color of the draw object |
-| OutlineBrush | A [[[Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object representing the color of the draw object's outline |
+| Anchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the point of the drawing object |
+| AreaBrush | A [Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object representing the fill color of the draw object |
+| OutlineBrush | A [Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object representing the color of the draw object's outline |
 
 ## Example
 

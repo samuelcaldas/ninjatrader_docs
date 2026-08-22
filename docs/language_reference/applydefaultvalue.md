@@ -2,7 +2,7 @@
 
 ## Definition
 
-Sets the default [[[BarsPeriod](barsperiod.md) values used for a custom Bar Type.
+Sets the default [BarsPeriod](barsperiod.md) values used for a custom Bar Type.
 
 ## Method Return Value
 
@@ -12,7 +12,7 @@ This method does not return a value.
 
 |  |  |
 | --- | --- |
-| period | The [[[BarsPeriod](barsperiod.md) chosen by the user when utilizing this Bars type |
+| period | The [BarsPeriod](barsperiod.md) chosen by the user when utilizing this Bars type |
 
 ## Syntax
 

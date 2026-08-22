@@ -28,7 +28,7 @@ You can enable this data adjusting by selecting the Tools menu from the Control 
 | --- | --- | --- | --- | --- |
 | Connectivity Provider | Split Adjusted | | Dividend Adjusted | |
 | Intraday | Daily | Intraday | Daily |
-| Kinetick [[[www.kinetick.com](http://www.kinetick.com) | NO | YES | NO | NO |
+| Kinetick [www.kinetick.com](http://www.kinetick.com) | NO | YES | NO | NO |
 | BarChart | YES | YES | NO | NO |
 | eSignal | NO | YES | NO | NO |
 | Interactive Brokers | ---- | ---- | ---- | ---- |
@@ -37,7 +37,7 @@ You can enable this data adjusting by selecting the Tools menu from the Control 
 
 ## Adding Splits and Dividends
 
-You must add splits and dividends per instrument in the Instruments window. Please see the [[[Adding Splits and Dividends](../language_reference/adding_splits_and_dividends.md) section of the Help Guide for more information.
+You must add splits and dividends per instrument in the Instruments window. Please see the [Adding Splits and Dividends](../language_reference/adding_splits_and_dividends.md) section of the Help Guide for more information.
 
 - NinjaTrader stores historical data in it's local data repository in an unadjusted state
 

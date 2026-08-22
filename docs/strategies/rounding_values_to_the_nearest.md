@@ -10,15 +10,15 @@ When debugging and/or printing out order information, this may not be apparent. 
 
 ## Important related documentation
 
-- [[[RoundToTickSize()](../language_reference/roundtoticksize.md)
+- [RoundToTickSize()](../language_reference/roundtoticksize.md)
 
-- [[[EnterLongLimit()](enterlonglimit.md)
+- [EnterLongLimit()](enterlonglimit.md)
 
-- [[[ExitLong()](exitlong.md)
+- [ExitLong()](exitlong.md)
 
-- [[[CrossAbove()](../language_reference/crossabove.md)
+- [CrossAbove()](../language_reference/crossabove.md)
 
-- [[[CrossBelow()](../language_reference/crossbelow.md)
+- [CrossBelow()](../language_reference/crossbelow.md)
 
 ## Import instructions
 
@@ -28,4 +28,4 @@ When debugging and/or printing out order information, this may not be apparent. 
 
 3.Select the downloaded file
 
-[[[SampleRoundToTickSize\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleRoundToTickSize_NT8.zip)
+[SampleRoundToTickSize\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleRoundToTickSize_NT8.zip)

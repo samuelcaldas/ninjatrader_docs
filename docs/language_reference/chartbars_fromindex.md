@@ -2,9 +2,9 @@
 
 ## Definition
 
-An index value representing the first bar rendered on the chart.  See also [[[ToIndex](chartbars_toindex.md).
+An index value representing the first bar rendered on the chart.  See also [ToIndex](chartbars_toindex.md).
 
-> **Note:** This value is NOT the first value that exists on the [[[ChartBars](chartbars.md), but rather the first bar index that is within the viewable range of the chart canvas area.  This value changes as the user interacts with the [[[ChartControl](chartcontrol.md) time-scale (x-axis).
+> **Note:** This value is NOT the first value that exists on the [ChartBars](chartbars.md), but rather the first bar index that is within the viewable range of the chart canvas area.  This value changes as the user interacts with the [ChartControl](chartcontrol.md) time-scale (x-axis).
 
 ## Property Value
 

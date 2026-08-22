@@ -2,11 +2,11 @@
 
 ## Definition
 
-Returns the [[[TradingHours](tradinghours.md) object for the specified Trading Hours template name, such as "CME US Index Futures RTH"
+Returns the [TradingHours](tradinghours.md) object for the specified Trading Hours template name, such as "CME US Index Futures RTH"
 
 ## Method Return Value
 
-A [[[TradingHours](tradinghours.md) object representing the specified Trading Hours template name.
+A [TradingHours](tradinghours.md) object representing the specified Trading Hours template name.
 
 ## Syntax
 

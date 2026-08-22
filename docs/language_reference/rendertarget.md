@@ -4,11 +4,11 @@
 
 A SharpDX Direct2D1 RenderTarget creates objects and exposes methods used for drawing in the chart area.
 
-> **Notes:** 1.There are two RenderTarget's used in a chart.  This is important to understand when creating/destroying device resources.  Please see the [[[OnRenderTargetChanged()](onrendertargetchanged.md) page for more information  2.For a walk through for using the SharpDX RenderTarget, please see the educational resource [[[Using SharpDX for Custom Chart Rendering](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md)
+> **Notes:** 1.There are two RenderTarget's used in a chart.  This is important to understand when creating/destroying device resources.  Please see the [OnRenderTargetChanged()](onrendertargetchanged.md) page for more information  2.For a walk through for using the SharpDX RenderTarget, please see the educational resource [Using SharpDX for Custom Chart Rendering](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md)
 
 ## Property Value
 
-A [[[SharpDX.Direct2D1.RenderTarget](../drawing_tools/sharpdx_direct2d1_rendertarget.md)
+A [SharpDX.Direct2D1.RenderTarget](../drawing_tools/sharpdx_direct2d1_rendertarget.md)
 
 |  |  |
 | --- | --- |
@@ -19,4 +19,4 @@ A [[[SharpDX.Direct2D1.RenderTarget](../drawing_tools/sharpdx_direct2d1_renderta
 
 RenderTarget
 
-> **Warning:** Each DirectX render target requires its own brushes. You must create a brushes directly in [[[OnRender()](onrender.md) or using [[[OnRenderTargetChanged()](onrestorevalues.md).  If you do not you will receive an error at run time similar to:      "A direct X error has occured while rendering the chart: HRESULT: [[[0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR\_WRONG\_RESOURCE\_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().    Please see [OnRenderTargetChanged()](onrendertargetchanged.md) for examples with brush that needs to be recalculated, or [[[OnRender()](onrender.md) for an example of recreating a static brush.
+> **Warning:** Each DirectX render target requires its own brushes. You must create a brushes directly in [OnRender()](onrender.md) or using [OnRenderTargetChanged()](onrestorevalues.md).  If you do not you will receive an error at run time similar to:      "A direct X error has occured while rendering the chart: HRESULT: [[[0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR\_WRONG\_RESOURCE\_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target. : Each DirectX render target requires its own brushes. You must create brushes directly in OnRender() or using OnRenderTargetChanged().    Please see [OnRenderTargetChanged()](onrendertargetchanged.md) for examples with brush that needs to be recalculated, or [OnRender()](onrender.md) for an example of recreating a static brush.

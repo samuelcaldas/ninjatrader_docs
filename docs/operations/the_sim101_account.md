@@ -8,13 +8,13 @@ The Sim101 account is a default account that represents your own simulated accou
 
 You can set initial Sim101 account values, reset simulator values, and clear order history. To access these settings open the Control Center window select the "Accounts" tab. If the account tab is not visible select the "+" tab button and select 'New accounts'
 
-![[[Simulator_Sim101ContextMenu](../images/simulator_sim101contextmenu.png)
+![Simulator_Sim101ContextMenu](../images/simulator_sim101contextmenu.png)
 
 ## Resetting Initial Cash value on the Sim101 account
 
 To reset the initial cash value on your account please edit the account as shown above.
 
-![[[Simulator_Reset](../images/simulator_reset.png)
+![Simulator_Reset](../images/simulator_reset.png)
 
 In the Simulation Accounts window:
 

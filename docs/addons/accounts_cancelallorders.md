@@ -2,7 +2,7 @@
 
 ## Definition
 
-Cancels all [[[Order](../strategies/order.md)s of an instrument.
+Cancels all [Order](../strategies/order.md)s of an instrument.
 
 ## Syntax
 

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Cancels specified [[[Order](../strategies/order.md) object(s).
+Cancels specified [Order](../strategies/order.md) object(s).
 
 ## Syntax
 

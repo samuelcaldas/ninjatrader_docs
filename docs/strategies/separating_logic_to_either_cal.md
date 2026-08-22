@@ -10,13 +10,13 @@ Depending on your trade ideas, the timing of entries and exits could be crucial.
 
 ## Important related documentation
 
-- [[[Calculate](../language_reference/calculate.md)
+- [Calculate](../language_reference/calculate.md)
 
-- [[[IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
+- [IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
 
-- [[[CrossBelow()](../language_reference/crossbelow.md)
+- [CrossBelow()](../language_reference/crossbelow.md)
 
-- [[[EnterLong()](enterlong.md)
+- [EnterLong()](enterlong.md)
 
 ## Import instructions
 
@@ -26,4 +26,4 @@ Depending on your trade ideas, the timing of entries and exits could be crucial.
 
 3.Select the downloaded file
 
-[[[SampleEnterOnceExitEveryTick\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleEnterOnceExitEveryTick_NT8.zip)
+[SampleEnterOnceExitEveryTick\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleEnterOnceExitEveryTick_NT8.zip)

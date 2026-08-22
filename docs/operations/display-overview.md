@@ -2,9 +2,9 @@
 
 To open the Market Watch window, select the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item Market Watch.
 
-![[[MarketWatch](../images/marketwatch.png)
+![MarketWatch](../images/marketwatch.png)
 
-Instruments will need to be added to the Market Watch window to display the instrument tile. One of the ways to do this is by right clicking on the window and going to Add Instrument(s). See the [[[Working with Instrument Tiles](working-with-instrument-tiles.md) section for more information.
+Instruments will need to be added to the Market Watch window to display the instrument tile. One of the ways to do this is by right clicking on the window and going to Add Instrument(s). See the [Working with Instrument Tiles](working-with-instrument-tiles.md) section for more information.
 
 ## Tile Display
 
@@ -16,6 +16,6 @@ Instruments will need to be added to the Market Watch window to display the inst
 
 4.The net change chart. With default settings the green area are prices that were above the last close and the red area are prices that were below the last close.
 
-![[[MarketWatch2](../images/marketwatch2.png)
+![MarketWatch2](../images/marketwatch2.png)
 
 > **Notes:** 1. Market Watch requires Last Close to be provided by the data connection. If the data connection does not support Last Close, Market Watch will not properly display (for example FXCM / Forex.com / eSignal are known to not provide Last Close)  2. Tiles do not have a time relation to one another. For each tile the left of the tile is the open of the session and the right is the end of the session per the default session template for the instrument.

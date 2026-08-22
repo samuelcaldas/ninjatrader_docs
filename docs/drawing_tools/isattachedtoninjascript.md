@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates if the drawing tool is currently [[[attached to](attachedto.md) a NinjaScript object (such an indicator or a strategy).
+Indicates if the drawing tool is currently [attached to](attachedto.md) a NinjaScript object (such an indicator or a strategy).
 
 ## Property Value
 

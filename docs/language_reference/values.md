@@ -2,7 +2,7 @@
 
 ## Definition
 
-Holds an array of `ISeries<double>` objects holding hold the indicator's underlying calculated values. `ISeries<double>` values are added to this array when calling the [[[AddPlot()](../indicators/addplot.md) method. In case of a [[[MultiSeries](multi-time_frame__instruments.md) indicator synched to the primary series.
+Holds an array of `ISeries<double>` objects holding hold the indicator's underlying calculated values. `ISeries<double>` values are added to this array when calling the [AddPlot()](../indicators/addplot.md) method. In case of a [MultiSeries](multi-time_frame__instruments.md) indicator synched to the primary series.
 
 ## Property Value
 

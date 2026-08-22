@@ -1,6 +1,6 @@
 # IIntervalProvider Interface
 
-When creating your [[[NTTabPage](nttabpage_class.md), if you wish to use the [[[interval link](../operations/linking_windows.md), be sure to implement the IIntervalProvider interface.
+When creating your [NTTabPage](nttabpage_class.md), if you wish to use the [interval link](../operations/linking_windows.md), be sure to implement the IIntervalProvider interface.
 
 ## Examples
 

@@ -12,7 +12,7 @@ Determines if the strategy will save orders, trades, and execution history. When
 
 This property returns true if the strategy will include trade history; otherwise, false. Default is set to true.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.Configure (or State.SetDefaults when adding the script from the strategy tab)
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.Configure (or State.SetDefaults when adding the script from the strategy tab)
 
 ## Syntax
 

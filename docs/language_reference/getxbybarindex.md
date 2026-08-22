@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns the chart-canvas x-coordinate of the bar at a specified index of a specified [[[ChartBars](chartbars.md) object on the chart.
+Returns the chart-canvas x-coordinate of the bar at a specified index of a specified [ChartBars](chartbars.md) object on the chart.
 
  
 
@@ -20,7 +20,7 @@ An int representing a chart-canvas x-coordinate
 
 |  |  |
 | --- | --- |
-| chartBars | The [[[ChartBars](chartbars.md) object to check |
+| chartBars | The [ChartBars](chartbars.md) object to check |
 | barIndex | The slot index used to determine an x-coordinate |
 
 ## Examples

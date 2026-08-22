@@ -6,7 +6,7 @@ Draws a vertical line.
 
 ## Method Return Value
 
-A [[[VerticalLine](verticalline.md) object that represents the draw object.
+A [VerticalLine](verticalline.md) object that represents the draw object.
 
 ## Syntax
 
@@ -28,7 +28,7 @@ Draw.VerticalLine(NinjaScriptBase owner, string tag, DateTime time, bool isGloba
 | tag | A user defined unique id used to reference the draw object.    For example, if you pass in a value of "myTag", each time this tag is used, the same draw object is modified. If unique tags are used each time, a new draw object will be created each time. |
 | barsAgo | The bar the object will be drawn at. A value of 10 would be 10 bars ago. |
 | time | The time the object will be drawn at. |
-| brush | The brush used to color draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | dashStyle | DashStyleHelper.Dash   DashStyleHelper.DashDot   DashStyleHelper.DashDotDot   DashStyleHelper.Dot   DashStyleHelper.Solid    Note: Fancier DashStyles like DashDotDot will require more resources than simple DashStyles like Solid. |
 | width | The width of the draw object |
 | drawOnPricePanel | Determines if the draw-object should be on the price panel or a separate panel |

@@ -25,7 +25,7 @@ protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs conne
 
 |  |  |
 | --- | --- |
-| connectionStatusUpdate | A [[[ConnectionStatusEventArgs](connectionstatuseventargs.md) object representing the most recent update in connection. |
+| connectionStatusUpdate | A [ConnectionStatusEventArgs](connectionstatuseventargs.md) object representing the most recent update in connection. |
 | Status | Represents the status of the key adapter functionality. If the adapter supports live orders it will set Status to Disconnected when its order system is not connected. |
 | PriceStatus | Represents the status of the price feed. |
 

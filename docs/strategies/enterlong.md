@@ -6,7 +6,7 @@ Generates a buy market order to enter a long position.
 
 ## Method Return Value
 
-An [[[Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [[[Advanced Order Handling](advanced_order_handling.md) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
 
 ## Syntax
 
@@ -17,7 +17,7 @@ EnterLong(int quantity)
 
 EnterLong(int quantity, string signalName)
 
-The following method variation is for experienced programmers who fully understand [[[Advanced Order Handling](advanced_order_handling.md) concepts:
+The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.md) concepts:
 
 EnterLong(int barsInProgressIndex, int quantity, string signalName)
 
@@ -35,7 +35,7 @@ EnterLong(int barsInProgressIndex, int quantity, string signalName)
 | --- | --- |
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | quantity | Entry order quantity (if 0 is passed in, will be set to 1, except for stocks 100) |
-| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [[[BarsInProgress](../language_reference/barsinprogress.md) property. |
+| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](../language_reference/barsinprogress.md) property. |
 
 ## Examples
 

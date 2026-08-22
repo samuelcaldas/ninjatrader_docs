@@ -6,7 +6,7 @@ Draws a risk/reward on a chart.
 
 ## Method Return Value
 
-A [[[RiskReward](riskreward.md) object that represents the draw object.
+A [RiskReward](riskreward.md) object that represents the draw object.
 
  
 

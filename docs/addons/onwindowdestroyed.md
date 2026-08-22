@@ -2,7 +2,7 @@
 
 ## Definition
 
-This method is called whenever a new [[[NTWindow](ntwindow.md) is destroyed. It will be called in the thread of that window.  A window is destroyed either by the user closing the window, closing a workspace, or on a shut down of NinjaTrader.
+This method is called whenever a new [NTWindow](ntwindow.md) is destroyed. It will be called in the thread of that window.  A window is destroyed either by the user closing the window, closing a workspace, or on a shut down of NinjaTrader.
 
 > **Note:** This method will also be called on a recompile of the NinjaTrader.Custom project (e.g., when you compile an indicator, strategy, or add-on)
 

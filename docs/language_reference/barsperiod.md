@@ -4,19 +4,19 @@
 
 The primary Bars object time frame (period type and interval).
 
-> **Warning:** This property should NOT be accessed within the [[[OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
+> **Warning:** This property should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
 ## Property Value
 
-A [[[Bars](bars.md) series object representing the time frame of the Bars.
+A [Bars](bars.md) series object representing the time frame of the Bars.
 
 Syntax
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BarsPeriod.BarsPeriodType | The type of bars used for the period, as well as the enumeration value under which the any of the 14 default NinjaTrader types are registered. Possible values include:    |  |  | | --- | --- | | BarsPeriodType.Tick | 0 | | BarsPeriodType.Volume | 1 | | BarsPeriodType.Range | 2 | | BarsPeriodType.Second | 3 | | BarsPeriodType.Minute | 4 | | BarsPeriodType.Day | 5 | | BarsPeriodType.Week | 6 | | BarsPeriodType.Month | 7 | | BarsPeriodType.Year | 8 | | BarsPeriodType.HeikenAshi | 9 | | BarsPeriodType.Kagi | 10 | | BarsPeriodType.Renko | 11 | | BarsPeriodType.PointAndFigure | 12 | | BarsPeriodType.LineBreak | 13 | | BarsPeriodType.Volumetric | 14 |      |  | | --- | | Tip: When creating custom [[[BarsTypes](bars_type.md), it is recommended to pick high, unique enumeration value to avoid conflict from other BarsTypes that may be used by a single installation.    BarsPeriod = new BarsPeriod { BarsPeriodType = (BarsPeriodType)123456, BarsPeriodTypeName = "MyCustomBars", Value = 1 }; | |
-| BarsPeriod.BaseBarsPeriodType | Only relevant for [[[HeikenAshi](addheikenashi.md), [[[Kagi](addkagi.md), [[[LineBreak](addlinebreak.md), [[[PointAndFigure](addpointandfigure.md) and [[[Volumetric](addvolumetric.md) Bars objects. Same possible values as BarsPeriod.BarsPeriodType |
-| BarsPeriod.BaseBarsPeriodValue | Only relevant for [[[HeikenAshi](addheikenashi.md), [[[Kagi](addkagi.md), [[[LineBreak](addlinebreak.md), [[[PointAndFigure](addpointandfigure.md) and [[[Volumetric](addvolumetric.md) Bars objects. Determines an integer value representing the basePeriodTypeValue parameter |
+| BarsPeriod.BarsPeriodType | The type of bars used for the period, as well as the enumeration value under which the any of the 14 default NinjaTrader types are registered. Possible values include:    |  |  | | --- | --- | | BarsPeriodType.Tick | 0 | | BarsPeriodType.Volume | 1 | | BarsPeriodType.Range | 2 | | BarsPeriodType.Second | 3 | | BarsPeriodType.Minute | 4 | | BarsPeriodType.Day | 5 | | BarsPeriodType.Week | 6 | | BarsPeriodType.Month | 7 | | BarsPeriodType.Year | 8 | | BarsPeriodType.HeikenAshi | 9 | | BarsPeriodType.Kagi | 10 | | BarsPeriodType.Renko | 11 | | BarsPeriodType.PointAndFigure | 12 | | BarsPeriodType.LineBreak | 13 | | BarsPeriodType.Volumetric | 14 |      |  | | --- | | Tip: When creating custom [BarsTypes](bars_type.md), it is recommended to pick high, unique enumeration value to avoid conflict from other BarsTypes that may be used by a single installation.    BarsPeriod = new BarsPeriod { BarsPeriodType = (BarsPeriodType)123456, BarsPeriodTypeName = "MyCustomBars", Value = 1 }; | |
+| BarsPeriod.BaseBarsPeriodType | Only relevant for [HeikenAshi](addheikenashi.md), [Kagi](addkagi.md), [LineBreak](addlinebreak.md), [PointAndFigure](addpointandfigure.md) and [Volumetric](addvolumetric.md) Bars objects. Same possible values as BarsPeriod.BarsPeriodType |
+| BarsPeriod.BaseBarsPeriodValue | Only relevant for [HeikenAshi](addheikenashi.md), [Kagi](addkagi.md), [LineBreak](addlinebreak.md), [PointAndFigure](addpointandfigure.md) and [Volumetric](addvolumetric.md) Bars objects. Determines an integer value representing the basePeriodTypeValue parameter |
 | BarsPeriod.MarketDataType | The data type used to build the bars.  Possible values:  MarketDataType.Ask  MarketDataType.Bid  MarketDataType.Last |
 | BarsPeriod.PointAndFigurePriceType | Only relevant for PointAndFigure Bars objects. Possible values:  PointAndFigurePriceType.Close  PointAndFigurePriceType.HighsAndLows |
 | BarsPeriod.ReversalType | Only relevant for Kagi Bars objects. Possible values:  ReversalType.Percent  ReversalType.Tick |

@@ -2,7 +2,7 @@
 
 ## Definition
 
-This method is used for changing the [[[State](state.md) of any running NinjaScript object.
+This method is used for changing the [State](state.md) of any running NinjaScript object.
 
 > **Notes:**
 - Attempting to set a State earlier than the current State will be ignored
@@ -20,13 +20,13 @@ This method does not return a value.
 
  
 
-> **Warning:** This method should only be call after the [[[State](state.md) reaches [[[State.DataLoaded](state.md)
+> **Warning:** This method should only be call after the [State](state.md) reaches [State.DataLoaded](state.md)
 
 ## Parameters
 
 |  |  |
 | --- | --- |
-| state | The [[[State](state.md) to be set |
+| state | The [State](state.md) to be set |
 
 ## Examples
 

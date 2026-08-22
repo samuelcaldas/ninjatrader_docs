@@ -16,17 +16,17 @@ The OnExecutionUpdate() method is updated whenever you receive an execution or a
 
 ## Important related documentation
 
-- [[[Order](order.md)
+- [Order](order.md)
 
-- [[[Execution](execution.md)
+- [Execution](execution.md)
 
-- [[[OnOrderUpdate()](onorderupdate.md)
+- [OnOrderUpdate()](onorderupdate.md)
 
-- [[[OnExecutionUpdate()](onexecutionupdate.md)
+- [OnExecutionUpdate()](onexecutionupdate.md)
 
-- [[[SetStopLoss()](setstoploss.md)
+- [SetStopLoss()](setstoploss.md)
 
-- [[[SetProfitTarget()](setprofittarget.md)
+- [SetProfitTarget()](setprofittarget.md)
 
 ## Import instructions
 
@@ -36,4 +36,4 @@ The OnExecutionUpdate() method is updated whenever you receive an execution or a
 
 3.Select the downloaded file
 
-[[[SampleOnOrderUpdate\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleOnOrderUpdate_NT8.zip)
+[SampleOnOrderUpdate\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleOnOrderUpdate_NT8.zip)

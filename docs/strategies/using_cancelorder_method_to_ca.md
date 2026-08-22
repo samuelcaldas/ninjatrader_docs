@@ -10,15 +10,15 @@ When using NinjaTrader's Enter() and Exit() methods, the default behavior is to 
 
 ## Important related documentation
 
-- [[[CancelOrder()](../addons/cancel.md)
+- [CancelOrder()](../addons/cancel.md)
 
-- [[[Order](order.md)
+- [Order](order.md)
 
-- [[[OnOrderUpdate()](onorderupdate.md)
+- [OnOrderUpdate()](onorderupdate.md)
 
-- [[[OnExecutionUpdate()](onexecutionupdate.md)
+- [OnExecutionUpdate()](onexecutionupdate.md)
 
-- [[[EnterLongLimit()](enterlonglimit.md)
+- [EnterLongLimit()](enterlonglimit.md)
 
 ## Import instructions
 
@@ -28,4 +28,4 @@ When using NinjaTrader's Enter() and Exit() methods, the default behavior is to 
 
 3.Select the downloaded file
 
-[[[SampleCancelOrder\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleCancelOrder_NT8.zip)
+[SampleCancelOrder\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleCancelOrder_NT8.zip)

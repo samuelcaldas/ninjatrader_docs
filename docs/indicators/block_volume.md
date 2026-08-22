@@ -18,7 +18,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | blockSize | The minimum volume a trade must be to be considered a block trade |
 | countType | The format to count the block trades. By number of block trades that occurred or total block trade volume |
 

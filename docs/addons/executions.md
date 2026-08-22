@@ -6,7 +6,7 @@ A collection of Execution objects generated for the specified account. These are
 
 ## Property Value
 
-An [[[Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx) of Execution objects
+An [Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx) of Execution objects
 
 ## Syntax
 

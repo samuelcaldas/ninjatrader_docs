@@ -12,7 +12,7 @@ double value = High[10] - Low[10];
 
  
 
-Now that we know how the indexing works there are several properties and methods at our disposal that can help us access important keystone bars. The more important ones are [[[CurrentBar](../language_reference/currentbar.md) and [[[BarsSinceNewTradingDay](../language_reference/barssincenewtradingday.md).
+Now that we know how the indexing works there are several properties and methods at our disposal that can help us access important keystone bars. The more important ones are [CurrentBar](../language_reference/currentbar.md) and [BarsSinceNewTradingDay](../language_reference/barssincenewtradingday.md).
 
 ## CurrentBar
 
@@ -53,24 +53,24 @@ The example used in the discussion about CurrentBar can also be done with Bars.B
 
  
 
-> **Note:** If you wish to access values older than 256 bars ago you will need to ensure the [[[MaximumBarsLookBack](../language_reference/maximumbarslookback.md)is set to .Infinite.
+> **Note:** If you wish to access values older than 256 bars ago you will need to ensure the [MaximumBarsLookBack](../language_reference/maximumbarslookback.md)is set to .Infinite.
 
 ## Other Properties and Methods
 
 There are also a number of other properties and methods that can be useful in helping you locate the correct bars index to reference. Please take a look at these in the help guide:
 
-[[[BarsSinceEntryExecution()](../strategies/barssinceentryexecution.md)
+[BarsSinceEntryExecution()](../strategies/barssinceentryexecution.md)
 
-[[[BarsSinceExitExecution()](../strategies/barssinceexitexecution.md)
+[BarsSinceExitExecution()](../strategies/barssinceexitexecution.md)
 
-[[[GetBar()](../language_reference/getbar.md)
+[GetBar()](../language_reference/getbar.md)
 
-[[[GetDayBar()](../language_reference/getdaybar.md)
+[GetDayBar()](../language_reference/getdaybar.md)
 
-[[[HighestBar()](../language_reference/highestbar.md)
+[HighestBar()](../language_reference/highestbar.md)
 
-[[[LowestBar()](../language_reference/lowestbar.md)
+[LowestBar()](../language_reference/lowestbar.md)
 
-[[[LRO()](../language_reference/least_recent_occurence_lro.md)
+[LRO()](../language_reference/least_recent_occurence_lro.md)
 
-[[[MRO()](../language_reference/most_recent_occurence_mro.md)
+[MRO()](../language_reference/most_recent_occurence_mro.md)

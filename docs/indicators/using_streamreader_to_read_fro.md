@@ -12,13 +12,13 @@ Sometimes you may have data stored outside of NinjaTrader that you want to bring
 
 ## Important related documentation
 
-- [[[StreamReader](http://msdn2.microsoft.com/en-us/library/system.io.streamreader.aspx)
+- [StreamReader](http://msdn2.microsoft.com/en-us/library/system.io.streamreader.aspx)
 
-- [[[ReadLine](http://msdn2.microsoft.com/en-us/library/system.io.streamreader.readline.aspx)
+- [ReadLine](http://msdn2.microsoft.com/en-us/library/system.io.streamreader.readline.aspx)
 
-- [[[StringReader](http://msdn2.microsoft.com/en-us/library/system.io.stringreader%28VS.90%29.aspx)
+- [StringReader](http://msdn2.microsoft.com/en-us/library/system.io.stringreader%28VS.90%29.aspx)
 
-- [[[TextReader](http://msdn2.microsoft.com/en-us/library/system.io.textreader%28VS.90%29.aspx)
+- [TextReader](http://msdn2.microsoft.com/en-us/library/system.io.textreader%28VS.90%29.aspx)
 
 ## Import instructions
 
@@ -28,4 +28,4 @@ Sometimes you may have data stored outside of NinjaTrader that you want to bring
 
 3.Select the downloaded file
 
-[[[SampleStreamReader\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleStreamReader_NT8.zip)
+[SampleStreamReader\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleStreamReader_NT8.zip)

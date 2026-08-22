@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns the Sortino ratio using a [[[risk free return](riskfreereturn.md).
+Returns the Sortino ratio using a [risk free return](riskfreereturn.md).
 
 ## Property Value
 

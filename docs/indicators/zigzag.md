@@ -4,7 +4,7 @@
 
 The ZigZag indicator highlights trends based on user defined threshold values and helps filtering the noise in price charts, it's not a classical indicator but more a reactive filter showing extreme price points. In processing it's calculations it can update it's current direction and price extreme point based on newly incoming data, the current developing leg should be thought of temporary until a new leg in opposite direction has been set.
 
-You can access methods within this indicator to determine the number of bars ago a zigzag high or low point occurred or the current zigzag value, it is only meaningful to work with in Calculate.OnBarClose mode for the [[[Calculate](../language_reference/calculate.md) property.
+You can access methods within this indicator to determine the number of bars ago a zigzag high or low point occurred or the current zigzag value, it is only meaningful to work with in Calculate.OnBarClose mode for the [Calculate](../language_reference/calculate.md) property.
 
 ## Syntax
 
@@ -45,7 +45,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 | barsAgo | The number of bars ago that serves as the starting bar and works backwards |
 | deviationType | Possible values are:  DeviationType.Points  DeviationType.Percent |
 | deviationValue | The deviation value |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | instance | The occurrence to check for (1 is the most recent, 2 is the 2nd most recent etc...) |
 | lookBackPeriod | Number of bars to look back to check for the test condition. Test is evaluated on the current bar and the bars in the look back period. |
 | useHighLow | When true, both High and Low price series are used. When false, the default input is used for both highs and lows. |

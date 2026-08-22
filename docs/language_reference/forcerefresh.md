@@ -4,11 +4,11 @@
 
 Resets an internal marker used to determine if the chart visuals need to re-render.
 
-[[[ChartControl](chartcontrol.md) runs a timed event every 250ms to determine the chart needs to be updated. If it does, the [[[OnRender()](onrender.md) method is called. Under normal circumstances, the marker used to call OnRender() will be reset after the following conditions:
+[ChartControl](chartcontrol.md) runs a timed event every 250ms to determine the chart needs to be updated. If it does, the [OnRender()](onrender.md) method is called. Under normal circumstances, the marker used to call OnRender() will be reset after the following conditions:
 
-- [[[OnBarUpdate()](onbarupdate.md) event
+- [OnBarUpdate()](onbarupdate.md) event
 
-- [[[OnConnectionStatusUpdate()](onconnectionstatusupdate.md) event
+- [OnConnectionStatusUpdate()](onconnectionstatusupdate.md) event
 
 - User clicks on the chart
 

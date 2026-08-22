@@ -6,7 +6,7 @@ Draws a diamond.
 
 ## Method Return Value
 
-A [[[Diamond](diamond.md) object that represents the draw object.
+A [Diamond](diamond.md) object that represents the draw object.
 
 ## Syntax
 
@@ -29,7 +29,7 @@ Draw.Diamond(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime time,
 | barsAgo | The bar the object will be drawn at. A value of 10 would be 10 bars ago. |
 | time | The time the object will be drawn at. |
 | y | The y value |
-| brush | The brush used to color draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | drawOnPricePanel | Determines if the draw-object should be on the price panel or a separate panel |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |

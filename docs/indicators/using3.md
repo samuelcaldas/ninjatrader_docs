@@ -2,7 +2,7 @@
 
 Your indicator is now ready for use and will be listed in the Indicator Dialog window.
 
-![[[YourOwnSMAUsing1](../images/yourownsmausing1.png)
+![YourOwnSMAUsing1](../images/yourownsmausing1.png)
 
 1) The indicator can now be found in the "Available" section of the Indicators window
 
@@ -10,4 +10,4 @@ Your indicator is now ready for use and will be listed in the Indicator Dialog w
 
 Once applied to a chart, the indicator should look something like the image below.
 
-![[[YourOwnSMAUsing2](../images/yourownsmausing2.png)
+![YourOwnSMAUsing2](../images/yourownsmausing2.png)

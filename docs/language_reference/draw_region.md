@@ -6,7 +6,7 @@ Draws a region on a chart.
 
 ## Method Return Value
 
-A [[[Region](region.md) object that represents the draw object.
+A [Region](region.md) object that represents the draw object.
 
 Syntax
 
@@ -34,10 +34,10 @@ Draw.Region(NinjaScriptBase owner, string tag, DateTime startTime,
 | endTime | The end time where the draw object will terminate |
 | series, series1, series2 | Any `Series<double>` type object such as an indicator, Close, High, Low etc.. The value of the object will represent a y value. |
 | price | Any double value |
-| outlineBrush | The brush used to color the region outline of draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
-| areaBrush | The brush used to color the fill region area of the draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| outlineBrush | The brush used to color the region outline of draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| areaBrush | The brush used to color the fill region area of the draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
-| displacement | An optional parameter which will offset the barsAgo value for the `Series<double>` value used to match the desired [[[Displacement](../indicators/displacement.md).  Default value is 0. |
+| displacement | An optional parameter which will offset the barsAgo value for the `Series<double>` value used to match the desired [Displacement](../indicators/displacement.md).  Default value is 0. |
 
 ## Example
 

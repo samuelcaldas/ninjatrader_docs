@@ -8,7 +8,7 @@ You can use 3rd party indicators within your strategies or custom indicators. A 
 
 3rd party indicators can be provided to you in one of the following ways:
 
-- NinjaScript archive file that can be directly [[[imported](../ninjascript/import.md) into NinjaTrader
+- NinjaScript archive file that can be directly [imported](../ninjascript/import.md) into NinjaTrader
 
 - A custom installer
 
@@ -30,7 +30,7 @@ The 3rd party developer should have either installed a "Vendor" file or provided
 
 1. From within the NinjaScript Editor, right click on your mouse to bring up the context menu and select the sub-menu References... as per the image to the right.
 
-![[[Tips_1](../images/tips_1.png)
+![Tips_1](../images/tips_1.png)
 
 2. A References window will appear
 
@@ -46,4 +46,4 @@ The 3rd party developer should have either installed a "Vendor" file or provided
 
 You will now be able to access the indicator methods provided by the 3rd party vendor
 
-![[[Tips_2](../images/tips_2.png)
+![Tips_2](../images/tips_2.png)

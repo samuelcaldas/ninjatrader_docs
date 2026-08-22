@@ -19,7 +19,7 @@ protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 
 |  |  |
 | --- | --- |
-| marketDataUpdate | A [[[MarketDataEventArgs](marketdataeventargs.md) representing the change in market data |
+| marketDataUpdate | A [MarketDataEventArgs](marketdataeventargs.md) representing the change in market data |
 
 ## Examples
 

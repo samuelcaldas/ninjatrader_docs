@@ -10,7 +10,7 @@ Determines if a Data Series is required for calculating this NinjaScript object.
 
 This property returns true if the NinjaScript requires a Data Series; otherwise, false.  Default value is true.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

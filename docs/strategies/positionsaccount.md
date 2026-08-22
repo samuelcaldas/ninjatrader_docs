@@ -2,11 +2,11 @@
 
 ## Definition
 
-Holds an array of [[[PositionAccount](positionaccount.md) objects that represent positions managed by the strategy's account. This property should only be used when your strategy is executing orders against [[[multiple instruments](../language_reference/multi-time_frame__instruments.md).
+Holds an array of [PositionAccount](positionaccount.md) objects that represent positions managed by the strategy's account. This property should only be used when your strategy is executing orders against [multiple instruments](../language_reference/multi-time_frame__instruments.md).
 
  
 
-Index value is based on the the array of Bars objects added via the [[[AddDataSeries()](../language_reference/adddataseries.md) method. For example:
+Index value is based on the the array of Bars objects added via the [AddDataSeries()](../language_reference/adddataseries.md) method. For example:
 
 First Bars is ES 1 Minute   
 Secondary Bars is ES 5 Minute   
@@ -17,12 +17,12 @@ PositionsAccount[1] == Always a flat position, ES position will always be Positi
 PositionsAccount[2] == NQ position
 
 > **Tips:**
-- For single instrument scripts, please see [[[PositionAccount](positionaccount.md) object
-- For Strategy Positions, please see [[[Positions](positions.md)
+- For single instrument scripts, please see [PositionAccount](positionaccount.md) object
+- For Strategy Positions, please see [Positions](positions.md)
 
 ## Property Value
 
-An array of [[[PositionAccount](positionaccount.md) objects.
+An array of [PositionAccount](positionaccount.md) objects.
 
 ## Syntax
 

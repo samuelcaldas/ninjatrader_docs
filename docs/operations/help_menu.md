@@ -2,7 +2,7 @@
 
 The following menus and items are available via the Help menu of the NinjaTrader Control Center.
 
-![[[ControlCenter_HelpMenu](../images/controlcenter_helpmenu.png)
+![ControlCenter_HelpMenu](../images/controlcenter_helpmenu.png)
 
 |  |  |
 | --- | --- |

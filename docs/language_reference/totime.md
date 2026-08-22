@@ -18,12 +18,12 @@ ToTime(DateTime time)
 
 |  |  |
 | --- | --- |
-| time | A DateTime structure to calculate Note:  See also the [[[Time](../drawing_tools/time.md) property |
+| time | A DateTime structure to calculate Note:  See also the [Time](../drawing_tools/time.md) property |
 | hour | An int value representing the hour used for the input |
 | minute | An int value representing the minute used for the input |
 | second | An int value representing the second used for the input |
 
-> **Tip:** NinjaScript uses the .NET DateTime structure which can be complicated for novice programmers. If you are familiar with C# you can directly use DateTime structure properties and methods for date and time comparisons otherwise use this method and the [[[ToDay()](today.md) method.
+> **Tip:** NinjaScript uses the .NET DateTime structure which can be complicated for novice programmers. If you are familiar with C# you can directly use DateTime structure properties and methods for date and time comparisons otherwise use this method and the [ToDay()](today.md) method.
 
 ## Examples
 

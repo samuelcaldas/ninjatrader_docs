@@ -6,7 +6,7 @@ An event driven method which is called when a chart object is selected.  This me
 
 ## Method Return Value
 
-This method returns a [[[Cursor](https://msdn.microsoft.com/en-us/library/system.windows.forms.cursor(v=vs.110).aspx) used to paint the mouse pointer.
+This method returns a [Cursor](https://msdn.microsoft.com/en-us/library/system.windows.forms.cursor(v=vs.110).aspx) used to paint the mouse pointer.
 
 ## Syntax
 
@@ -24,9 +24,9 @@ public override Cursor GetCursor(ChartControl chartControl, ChartPanel chartPane
 
 |  |  |
 | --- | --- |
-| chartControl | A [[[ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
-| chartPanel | A [[[ChartPanel](../language_reference/chartpanel.md) representing the the panel for the chart |
-| chartScale | A [[[ChartScale](../language_reference/chartscale.md) representing the y-axis |
+| chartControl | A [ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
+| chartPanel | A [ChartPanel](../language_reference/chartpanel.md) representing the the panel for the chart |
+| chartScale | A [ChartScale](../language_reference/chartscale.md) representing the y-axis |
 | point | A Point in device pixels representing the current mouse cursor position |
 
 ## Examples

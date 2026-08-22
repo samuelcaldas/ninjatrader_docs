@@ -6,7 +6,7 @@ Sets the brush used for painting the color of a price bar's body.
 
 ## Property Value
 
-A [[[Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object that represents the color of this price bar.
+A [Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object that represents the color of this price bar.
 
 > **Tip:** To set the price bar color to an empty color which uses the default bar color property, set the BarBrush to null for that bar.
 
@@ -16,7 +16,7 @@ BarBrush
 
  
 
-> **Warning:** You may have up to 65,535 unique BarBrush instances, therefore, using [[[static predefined brushes](../ninjascript/working_with_brushes.md) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.
+> **Warning:** You may have up to 65,535 unique BarBrush instances, therefore, using [static predefined brushes](../ninjascript/working_with_brushes.md) should be favored.  Alternatively,  in order to use fewer brushes, please try to cache your custom brushes until a new brush would actually need to be created.
 
 ## Examples
 

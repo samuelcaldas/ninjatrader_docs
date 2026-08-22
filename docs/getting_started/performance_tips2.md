@@ -10,7 +10,7 @@ There are many variables that contribute to overall performance of the NinjaTrad
 
 - The capability of your PC hardware (are you running a brand new state of the art machine or a 4 year old PC with limited RAM)
 
-- A single bad 'setting' can cause performance issues and a single active Third Party script can cause general performance issue. See the [[[Understanding the impact of installing Add-Ons](using_3rd_party_add-ons.md) section.
+- A single bad 'setting' can cause performance issues and a single active Third Party script can cause general performance issue. See the [Understanding the impact of installing Add-Ons](using_3rd_party_add-ons.md) section.
 
 > **Note:** High memory usage may not be related to poor performance. It takes computer resources to figure out when to free up memory that is no longer being used. So, rather than using resources to constantly determine what memory to free up, the system will determine the best time to free up memory when it is needed.
 
@@ -102,4 +102,4 @@ If you're still having performance issues, follow these diagnostics steps to iso
 
 5.To determine if there are specific scripts that are resulting in poor performance you will need to recreate your workspace and add back any scripts one at a time to see which one may be resulting in poor performance.
 
-6.For further assistance, or assistance with any of these steps, please write into [[[[email protected]](mailto:platformsupport@ninjatrader.com)
+6.For further assistance, or assistance with any of these steps, please write into [email protected](mailto:platformsupport@ninjatrader.com)

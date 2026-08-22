@@ -2,11 +2,11 @@
 
 ## Definition
 
-Clears all data from the NinjaTrader [[[Output Window](../ninjascript/output.md).
+Clears all data from the NinjaTrader [Output Window](../ninjascript/output.md).
 
  
 
-> **Note:** The ClearOutputWindow() method only targets the Output tab most recently determined by set [[[PrintTo](printto.md) property.
+> **Note:** The ClearOutputWindow() method only targets the Output tab most recently determined by set [PrintTo](printto.md) property.
 
 ## Method Return Value
 

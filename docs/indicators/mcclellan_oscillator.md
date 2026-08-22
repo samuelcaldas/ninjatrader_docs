@@ -18,7 +18,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | fastPeriod | Number of bars used in the fast moving average calculation |
 | slowPeriod | Number of bars used in the slow moving average calculation |
 

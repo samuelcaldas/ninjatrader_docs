@@ -31,4 +31,4 @@ Based on the image below, Y reveals that the chart panel begins at y-coordinate 
 
  
 
-![[[ChartPanel_Y](../images/chartpanel_y.png)
+![ChartPanel_Y](../images/chartpanel_y.png)

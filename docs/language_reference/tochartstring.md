@@ -2,11 +2,11 @@
 
 ## Definition
 
-Returns the bars series as a formatted string, including the [[[Instrument.FullName](instrument_fullname.md), [[[BarsPeriod](barsperiod.md) Value, and BarsPeriodType name.
+Returns the bars series as a formatted string, including the [Instrument.FullName](instrument_fullname.md), [BarsPeriod](barsperiod.md) Value, and BarsPeriodType name.
 
  
 
-> **Note:** To obtain a return value which matches the user configured [[[ChartBars Label property](chartbars_properties.md), please see the [[[ChartBars.ToChartString()](chartbars_tochartstring.md).md) method
+> **Note:** To obtain a return value which matches the user configured [ChartBars Label property](chartbars_properties.md), please see the [ChartBars.ToChartString()](chartbars_tochartstring.md).md) method
 
 ## Syntax
 

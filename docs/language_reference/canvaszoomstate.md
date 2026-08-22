@@ -38,4 +38,4 @@ Based on the image below, CanvasZoomState confirms that the Zoom rectangle is cu
 
  
 
-![[[ChartControl_CanvasZoomState](../images/chartcontrol_canvaszoomstate.png)
+![ChartControl_CanvasZoomState](../images/chartcontrol_canvaszoomstate.png)

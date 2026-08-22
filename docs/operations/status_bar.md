@@ -10,7 +10,7 @@ The connection status is reported in the connections menu per provider. There is
 
 2.Connection Status icon displayed in the Control Center
 
-> **Tip:** If you're using [[[multiple connections](../getting_started/multiple_connections.md), hovering your mouse cursor above the connection status will show a tool tip which will give you the individual status of each connection.  ControlCenter_MultipleConnectionsTip
+> **Tip:** If you're using [multiple connections](../getting_started/multiple_connections.md), hovering your mouse cursor above the connection status will show a tool tip which will give you the individual status of each connection.  ControlCenter_MultipleConnectionsTip
 
 Please see the following connection states:
 

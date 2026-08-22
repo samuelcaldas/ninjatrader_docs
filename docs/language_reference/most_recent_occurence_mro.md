@@ -4,7 +4,7 @@
 
 Returns the number of bars ago that the test condition evaluated to true within the specified look back period expressed in bars.  The MRO() method starts from the current bar works away (backward) from it.
 
-> **Note:** This method does NOT work on [[[multi-series](multi-time_frame__instruments.md) strategies and indicators.
+> **Note:** This method does NOT work on [multi-series](multi-time_frame__instruments.md) strategies and indicators.
 
 ## Method Return Value
 
@@ -24,7 +24,7 @@ An int value representing the number of bars ago. Returns a value of -1 if the s
 | instance | The occurrence to check for (1 is the most recent, 2 is the 2nd most recent, etc...) |
 | lookBackPeriod | The number of bars to look back to check for the test condition. The test evaluates on the current bar and the bars within the look-back period. |
 
-> **Tip:** The syntax for the "condition" parameter uses [[[lambda expression](http://msdn.microsoft.com/en-us/library/bb397687.aspx) ## Syntax
+> **Tip:** The syntax for the "condition" parameter uses [lambda expression](http://msdn.microsoft.com/en-us/library/bb397687.aspx) ## Syntax
 
 `Examples`
 
@@ -39,4 +39,4 @@ protected override void OnBarUpdate()
 ```
 
 See Also  
-[[[Least Recent Occurrence(LRO)](least_recent_occurence_lro.md)
+[Least Recent Occurrence(LRO)](least_recent_occurence_lro.md)

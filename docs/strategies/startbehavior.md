@@ -2,9 +2,9 @@
 
 ## Definition
 
-Sets the start behavior of the strategy. See [[[Syncing Account Positions](../ninjascript/syncing_account_positions.md) for more information.
+Sets the start behavior of the strategy. See [Syncing Account Positions](../ninjascript/syncing_account_positions.md) for more information.
 
-> **Note:** In order to use AdoptAccountPosition you will need to first set [[[IsAdoptAccountPositionAware](isadoptaccountpositionaware.md) to true. Please be sure that your strategy is specifically programmed in a manner that can accommodate account positions before using this mode.
+> **Note:** In order to use AdoptAccountPosition you will need to first set [IsAdoptAccountPositionAware](isadoptaccountpositionaware.md) to true. Please be sure that your strategy is specifically programmed in a manner that can accommodate account positions before using this mode.
 
 ## Property Value
 

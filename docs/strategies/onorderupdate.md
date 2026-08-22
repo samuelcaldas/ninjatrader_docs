@@ -2,20 +2,20 @@
 
 ## Definition
 
-An event driven method which is called each time an order managed by a strategy changes state. An order will change state when a change in order quantity, price or state (working to filled) occurs. You can use this method to program your own [[[order rejection handling](realtimeerrorhandling.md).
+An event driven method which is called each time an order managed by a strategy changes state. An order will change state when a change in order quantity, price or state (working to filled) occurs. You can use this method to program your own [order rejection handling](realtimeerrorhandling.md).
 
 > **Notes:**
 - Only orders which have been submitted and managed by the strategy will call OnOrderUpdate().
-- Programming in this environment is reserved for the more [[[advanced user](advanced_order_handling.md). If you are for example looking to protect a strategy managed position with a basic stop and target, then the [[[Set() methods](managed_approach.md) would be more convenient.
-- For triggering actions such as the submission of a stop loss order and target order using custom OCO logic when your entry order is filled, we recommend working directly in [[[OnExecutionUpdate()](onexecutionupdate.md) instead.
+- Programming in this environment is reserved for the more [advanced user](advanced_order_handling.md). If you are for example looking to protect a strategy managed position with a basic stop and target, then the [Set() methods](managed_approach.md) would be more convenient.
+- For triggering actions such as the submission of a stop loss order and target order using custom OCO logic when your entry order is filled, we recommend working directly in [OnExecutionUpdate()](onexecutionupdate.md) instead.
 - OnOrderUpdate() will run inside of order methods such as EnterLong() or SubmitOrderUnmanaged(), therefore attempting to assign an order object outside of OnOrderUpdate() may not return as soon as expected.  If your strategy is dependent on tracking the order object from the very first update, you should try to match your order objects by the order.Name (signal name) from during the OnOrderUpdate() as the order is first updated.
-- Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. For an example on protecting positions with this approach, see [[[OnExecutionUpdate()](onexecutionupdate.md)
+- Rithmic and Interactive Brokers Users: When using a NinjaScript strategy it is best practice to only work with passed by value data from OnExecution. Instances of multiple fills at the same time for the same instrument might result in an incorrect OnPositionUpdate, as sequence of events are not guaranteed due to provider API design. For an example on protecting positions with this approach, see [OnExecutionUpdate()](onexecutionupdate.md)
 
-> **Critical:** If you want to drive your strategy logic based on order fills you must use [[[OnExecutionUpdate()](onexecutionupdate.md) instead of OnOrderUpdate(). OnExecutionUpdate() is always triggered after OnOrderUpdate(). There is internal strategy logic that is triggered after OnOrderUpdate() is called but before OnExecutionUpdate() that can adversely affect your strategy if you are relying on tracking fills within OnOrderUpdate().
+> **Critical:** If you want to drive your strategy logic based on order fills you must use [OnExecutionUpdate()](onexecutionupdate.md) instead of OnOrderUpdate(). OnExecutionUpdate() is always triggered after OnOrderUpdate(). There is internal strategy logic that is triggered after OnOrderUpdate() is called but before OnExecutionUpdate() that can adversely affect your strategy if you are relying on tracking fills within OnOrderUpdate().
 
 ## Playback Connection
 
-When connected to the [[[Playback Connection](../operations/playback_connection.md), calling market order based methods such as EnterLong() and EnterShort() will result in order state events being fired prior to the order method return an Order object. This is done to ensure that all events are in sync at high speed playback.
+When connected to the [Playback Connection](../operations/playback_connection.md), calling market order based methods such as EnterLong() and EnterShort() will result in order state events being fired prior to the order method return an Order object. This is done to ensure that all events are in sync at high speed playback.
 
 ## Method Return Value
 
@@ -34,14 +34,14 @@ protected override void OnOrderUpdate(Order order, double limitPrice, double sto
 
 |  |  |
 | --- | --- |
-| order | An [[[Order](order.md) object passed by reference representing the order object |
+| order | An [Order](order.md) object passed by reference representing the order object |
 | limitPrice | A double value representing the limit price of the order update |
 | stopPrice | A double value representing the stop price of the order update |
 | quantity | An int value representing the quantity of the order update |
 | filled | An int value representing the filled amount of the order update |
 | averageFillPrice | A double value representing the average fill price of the order update |
 | orderState | An OrderState value representing the state of the order (e.g., filled, canceled, rejected, etc)    Note: See order state values table below |
-| time | A [[[DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the last time the order changed state |
+| time | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the last time the order changed state |
 | error | An ErrorCode value which categorizes an error received  from the broker    Possible values are:    ErrorCode.LoginExpired  ErrorCode.LogOnFailed  ErrorCode.NoError  ErrorCode.OrderRejected  ErrorCode.OrderRejectedByRisk  ErrorCode.Panic  ErrorCode.UnableToCancelOrder  ErrorCode.UnableToChangeOrder  ErrorCode.UnableToSubmitOrder  ErrorCode.UserAbort |
 | comment | A string representing the error message provided directly from the broker |
 

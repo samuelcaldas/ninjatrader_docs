@@ -73,4 +73,4 @@ protected override void OnBarUpdate()
 
  
 
-The resolution above would be used in a [[[Multi Time Frame](../language_reference/multi-time_frame__instruments.md) script. Since OnBarUpdate() processes multiple data series, we need to make sure each Data Series we reference has processed enough bars.
+The resolution above would be used in a [Multi Time Frame](../language_reference/multi-time_frame__instruments.md) script. Since OnBarUpdate() processes multiple data series, we need to make sure each Data Series we reference has processed enough bars.

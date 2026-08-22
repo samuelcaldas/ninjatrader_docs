@@ -2,7 +2,7 @@
 
 ## Definition
 
-Similar to the [[[AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a Heiken Ashi Bars object for multi-series NinjaScript.
+Similar to the [AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a Heiken Ashi Bars object for multi-series NinjaScript.
 
 > **Notes:** Developing for Tick Replay for more information.
 

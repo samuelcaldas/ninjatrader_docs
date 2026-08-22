@@ -2,11 +2,11 @@
 
 ## Definition
 
-Indicates the time of the most recently painted bar on the primary [[[Bars](bars.md) object configured on the chart.
+Indicates the time of the most recently painted bar on the primary [Bars](bars.md) object configured on the chart.
 
 ## Property Value
 
-A [[[DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object corresponding to the slot index of the most recently painted bar
+A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object corresponding to the slot index of the most recently painted bar
 
 ## Syntax
 
@@ -31,4 +31,4 @@ In the image below, LastTimePainted reveals that the last index painted on the c
 
  
 
-![[[ChartControl_LastTimePainted](../images/chartcontrol_lasttimepainted.png)
+![ChartControl_LastTimePainted](../images/chartcontrol_lasttimepainted.png)

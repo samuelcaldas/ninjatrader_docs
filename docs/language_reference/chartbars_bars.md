@@ -2,11 +2,11 @@
 
 ## Definition
 
-Represents the data returned from the historical data repository in relation to the primary [[[ChartBars](chartbars.md) object configured on the chart.  See also [[[Bars](bars.md)
+Represents the data returned from the historical data repository in relation to the primary [ChartBars](chartbars.md) object configured on the chart.  See also [Bars](bars.md)
 
 ## Property Value
 
-A [[[Bars](bars.md) object
+A [Bars](bars.md) object
 
 ## Syntax
 

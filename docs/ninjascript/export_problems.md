@@ -2,11 +2,11 @@
 
 If you are having difficulties exporting NinjaScript it could be due to one of the following reasons:
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 > Export_Problems_1 If you receive the above error, you will need to compile your NinjaScript error-free before you can export. To see if your NinjaScript file is error free, open the NinjaScript Editor (Tool > Edit NinjaScript) and press F5 to compile. If you are trying to check a NinjaScript Strategy created from the Strategy Wizard you can do the same by finishing the wizard and seeing if you receive the “Strategy successfully generated” message.    If you receive any errors when compiling you will need to address them before exporting.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |
 | --- | --- |

@@ -18,6 +18,6 @@ The available TIF options are determined by the connection technology of the cur
 
 When selecting GTD as the TIF for an order, you will be presented with a Date Selector to specify the date you would like the order to be cancelled.
 
-![[[Shared_Trade_Controls_4](../images/shared_trade_controls_4.png)
+![Shared_Trade_Controls_4](../images/shared_trade_controls_4.png)
 
 In the image above, the current date is Thursday July, 17th.  If you would like the prepared order to be live until end of session on the following Monday July 21st, you can simply select the 21st from the Date Selector.

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Sets the default base values used for the [[[BarsPeriod](barsperiod.md) selected by the user (e.g., the default PeriodValue, DaysToLoad, etc.) for your custom Bar Type.
+Sets the default base values used for the [BarsPeriod](barsperiod.md) selected by the user (e.g., the default PeriodValue, DaysToLoad, etc.) for your custom Bar Type.
 
 ## Method Return Value
 
@@ -12,7 +12,7 @@ This method does not return a value.
 
 |  |  |
 | --- | --- |
-| period | The [[[BarsPeriod](barsperiod.md) chosen by the user when utilizing this Bars type |
+| period | The [BarsPeriod](barsperiod.md) chosen by the user when utilizing this Bars type |
 
 ## Syntax
 

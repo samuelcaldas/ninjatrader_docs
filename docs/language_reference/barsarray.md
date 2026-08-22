@@ -2,13 +2,13 @@
 
 ## Definition
 
-An array holding Bars objects that are added via the [[[AddDataSeries()](adddataseries.md) method. BarsArray can be used as input for [[[indicator methods](../indicators/indicators.md). This property is of primary value when working with [[[multi-time frame or multi-instrument scripts](multi-time_frame__instruments.md).
+An array holding Bars objects that are added via the [AddDataSeries()](adddataseries.md) method. BarsArray can be used as input for [indicator methods](../indicators/indicators.md). This property is of primary value when working with [multi-time frame or multi-instrument scripts](multi-time_frame__instruments.md).
 
 ## Property Value
 
-An array of [[[Bars](bars.md) objects.
+An array of [Bars](bars.md) objects.
 
-> **Warning:** This property should NOT be accessed within the [[[OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
+> **Warning:** This property should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
 ## Syntax
 

@@ -59,7 +59,7 @@ if (Math.Abs(x - y) < 0.0001)
 
 The arbitrary constant you choose to compare the range with should match the precision and accuracy of the floating-point numbers you are comparing.
 
-Alternatively, you can check the difference between the two variables against the [[[double.Epsilon](https://learn.microsoft.com/en-us/dotnet/api/system.double.epsilon?view=netframework-4.8) field. double.Epsilon field represents the smallest possible double value.
+Alternatively, you can check the difference between the two variables against the [double.Epsilon](https://learn.microsoft.com/en-us/dotnet/api/system.double.epsilon?view=netframework-4.8) field. double.Epsilon field represents the smallest possible double value.
 
 ```csharp
 if (x - y < double.Epsilon)

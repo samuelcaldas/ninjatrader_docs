@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines if programmatically drawn [[[DrawObjects](drawingtools_drawobjects.md) are allowed to remove manually from the chart
+Determines if programmatically drawn [DrawObjects](drawingtools_drawobjects.md) are allowed to remove manually from the chart
 
  
 

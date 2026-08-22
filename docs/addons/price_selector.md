@@ -1,8 +1,8 @@
 # Price Selector
 
-NinjaTrader order entry feature which have the ability to place custom orders for Stop-Market, Stop-Limit, Limit and MIT orders such as the [[[Order Ticket,](../strategies/order_ticket.md) [[[Basic Entry](../strategies/basic_entry.md), [[[FX Pro](../strategies/fx_pro.md), and [[[FX Board](../strategies/fx_board.md) use a standard Price Selector which is used to specify the exact price used for these types of orders.
+NinjaTrader order entry feature which have the ability to place custom orders for Stop-Market, Stop-Limit, Limit and MIT orders such as the [Order Ticket,](../strategies/order_ticket.md) [Basic Entry](../strategies/basic_entry.md), [FX Pro](../strategies/fx_pro.md), and [FX Board](../strategies/fx_board.md) use a standard Price Selector which is used to specify the exact price used for these types of orders.
 
-![[[Shared_Trade_Controls_5](../images/shared_trade_controls_5.png)
+![Shared_Trade_Controls_5](../images/shared_trade_controls_5.png)
 
 ## Setting and Adjusting Price
 

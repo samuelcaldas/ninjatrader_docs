@@ -12,7 +12,7 @@ A collection of Plot objects.
 
 Plots[int index]
 
-> **Note:** The example code below will change the color of an entire plot series. See [[[PlotBrushes](plotbrushes.md) for information on changing only specific segments of a plot instead.
+> **Note:** The example code below will change the color of an entire plot series. See [PlotBrushes](plotbrushes.md) for information on changing only specific segments of a plot instead.
 
 ## Example
 

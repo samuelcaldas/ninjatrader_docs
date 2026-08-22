@@ -6,7 +6,7 @@ Draws text.
 
 ## Method Return Value
 
-A [[[Text](text.md) object that represents the draw object.
+A [Text](text.md) object that represents the draw object.
 
 Syntax
 
@@ -30,11 +30,11 @@ Draw.Text(NinjaScriptBase owner, string tag, bool isAutoScale, string text, Date
 | time | The time where the draw object will be drawn. |
 | y | The y co-ordinate location the object will be drawn |
 | yPixelOffset | The offset value in pixels from within the text box area |
-| textBrush | The brush used to color the text of the draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.textalignment%28v=vs.110%29.aspx)) |
-| font | A [[[Simple Font](simplefont_class.md) object |
-| alignment | TextAlignment.Center, TextAlignment.Left, TextAlignment.Right, TextAlignment.Justify  ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.textalignment(v=vs.110).aspx)) |
-| outlineBrush | The brush used to color the text box outline ([[[reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
-| areaBrush | The brush used to color the text box fill area ([[[reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
+| textBrush | The brush used to color the text of the draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.textalignment%28v=vs.110%29.aspx)) |
+| font | A [Simple Font](simplefont_class.md) object |
+| alignment | TextAlignment.Center, TextAlignment.Left, TextAlignment.Right, TextAlignment.Justify  ([reference](https://msdn.microsoft.com/en-us/library/system.windows.textalignment(v=vs.110).aspx)) |
+| outlineBrush | The brush used to color the text box outline ([reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
+| areaBrush | The brush used to color the text box fill area ([reference](http://msdn.microsoft.com/en-us/library/system.drawing.color_members(v=vs.90).aspx)) |
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
@@ -50,7 +50,7 @@ Draw.Text(this, "tag1", "Text to draw", 10, 1000, Brushes.Black);
 
  
 
-> **Tip:** In some cases, it may be useful to pass in the [[[ChartControl.Properties](chartcontrol_properties.md) TextFont brush as well as the LabelFont [[[SimpleFont](simplefont_class.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings.
+> **Tip:** In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.md) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings.
 
 ```csharp
 // match the text brush to what the user has configured on their chart

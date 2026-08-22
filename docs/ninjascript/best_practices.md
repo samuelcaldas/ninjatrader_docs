@@ -14,11 +14,11 @@ In the event that you provide NinjaScript export archives (zip files) as your me
 
 ## Clean up your resources
 
-Always free up resources such as external windows DLL's or license management related resources. Resources should be freed within the [[[OnStateChange()](../language_reference/onstatechange.md) method in State.Terminate. NinjaTrader calls this method at the point at which a script is no longer used.
+Always free up resources such as external windows DLL's or license management related resources. Resources should be freed within the [OnStateChange()](../language_reference/onstatechange.md) method in State.Terminate. NinjaTrader calls this method at the point at which a script is no longer used.
 
 ## User Authentication Trigger
 
-If you use a proprietary user authentication process, ensure that it is triggered within the [[[OnStateChange()](../language_reference/onstatechange.md) method in State.SetDefaults. This ensures that users are not forced to endure unnecessary delays on NinjaTrader start up or dialog windows that display available indicators and strategies as the windows are loaded. NinjaTrader, LLC provides a free licensing service for qualified 3rd party developers. For more information on this free service, contact your NinjaTrader Business Development representative.
+If you use a proprietary user authentication process, ensure that it is triggered within the [OnStateChange()](../language_reference/onstatechange.md) method in State.SetDefaults. This ensures that users are not forced to endure unnecessary delays on NinjaTrader start up or dialog windows that display available indicators and strategies as the windows are loaded. NinjaTrader, LLC provides a free licensing service for qualified 3rd party developers. For more information on this free service, contact your NinjaTrader Business Development representative.
 
 ## User Authentication Check State
 

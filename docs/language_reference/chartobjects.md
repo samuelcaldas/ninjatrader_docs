@@ -6,7 +6,7 @@ A collection of objects configured on the chart panel
 
 ## Property Value
 
-An [[[IList](https://msdn.microsoft.com/en-us/library/system.collections.ilist(v=vs.110).aspx) of Gui.NinjaScript.IChartObject instances containing references to the objects configured on the panel
+An [IList](https://msdn.microsoft.com/en-us/library/system.collections.ilist(v=vs.110).aspx) of Gui.NinjaScript.IChartObject instances containing references to the objects configured on the panel
 
 ## Syntax
 
@@ -34,4 +34,4 @@ The image below shows the output of the code example above, while applied in a c
 
  
 
-![[[ChartPanel_ChartObjects](../images/chartpanel_chartobjects.png)
+![ChartPanel_ChartObjects](../images/chartpanel_chartobjects.png)

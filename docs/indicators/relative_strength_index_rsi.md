@@ -4,7 +4,7 @@
 
 Developed by J. Welles Wilder and introduced in his 1978 book, New Concepts in Technical Trading Systems, the Relative Strength Index (RSI) is an extremely useful and popular momentum oscillator. The RSI compares the magnitude of a stock's recent gains to the magnitude of its recent losses and turns that information into a number that ranges from 0 to 100.
 
-... Courtesy of [[[StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_RSI.md)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_RSI.md)
 
 The original Wilder formula for an exponential moving average with a smoothing constant (k = 1/ Period) is used to calculate the RSI.
 
@@ -33,7 +33,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 | smooth | Smoothing period |
 

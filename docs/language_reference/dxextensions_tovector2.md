@@ -2,11 +2,11 @@
 
 ## Definition
 
-Converts a System.Windows.Point structure to a SharpDX.Vector2 used for [[[SharpDX rendering](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md).
+Converts a System.Windows.Point structure to a SharpDX.Vector2 used for [SharpDX rendering](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md).
 
 ## Method Return Value
 
-A new [[[SharpDX.Vector2](../drawing_tools/sharpdx_vector2.md) constructed with the point parameters X and Y values
+A new [SharpDX.Vector2](../drawing_tools/sharpdx_vector2.md) constructed with the point parameters X and Y values
 
 ## Syntax
 
@@ -19,7 +19,7 @@ DxExtensions.ToVector2(this System.Windows.Point point)
 
 |  |  |
 | --- | --- |
-| point | The [[[System.Windows.Point](https://msdn.microsoft.com/en-us/library/system.windows.point(v=vs.110).aspx) point to convert |
+| point | The [System.Windows.Point](https://msdn.microsoft.com/en-us/library/system.windows.point(v=vs.110).aspx) point to convert |
 
 ## Example
 

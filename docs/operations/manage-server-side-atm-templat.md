@@ -18,4 +18,4 @@ An ATM Strategy is defined by the parameters you enter into the ATM Strategy par
 
 Within the ATM Strategy dropdown menu, hover your mouse over the ATM Strategy you want to remove, then select remove.
 
-![[[ServerSideATM_11](../images/serversideatm_11.png)
+![ServerSideATM_11](../images/serversideatm_11.png)

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Amends a specified [[[Order](order.md).
+Amends a specified [Order](order.md).
 
 > **Note:** This method is only relevant for Managed orders with IsLiveUntilCancelled set to true and Unmanaged orders.
 
@@ -12,7 +12,7 @@ ChangeOrder(Order order, int quantity, double limitPrice, double stopPrice)
 
  
 
-> **Warning:** If you have existing historical [[[order](order.md) references which have transitioned to real-time, you MUST update the order object reference to the newly submitted real-time order; otherwise errors may occur as you attempt to change the order.  You may use the [[[GetRealtimeOrder()](getrealtimeorder.md) helper method to assist in this transition.
+> **Warning:** If you have existing historical [order](order.md) references which have transitioned to real-time, you MUST update the order object reference to the newly submitted real-time order; otherwise errors may occur as you attempt to change the order.  You may use the [GetRealtimeOrder()](getrealtimeorder.md) helper method to assist in this transition.
 
  
 
@@ -20,7 +20,7 @@ ChangeOrder(Order order, int quantity, double limitPrice, double stopPrice)
 
 |  |  |
 | --- | --- |
-| order | [[[Order object](order.md) of the order you wish to amend |
+| order | [Order object](order.md) of the order you wish to amend |
 | quantity | Order quantity |
 | limitPrice | Order limit price. Use "0" should this parameter be irrelevant for the OrderType being submitted. |
 | stopPrice | Order stop price. Use "0" should this parameter be irrelevant for the OrderType being submitted. |

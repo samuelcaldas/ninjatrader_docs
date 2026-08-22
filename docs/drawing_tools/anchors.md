@@ -10,7 +10,7 @@ Returns a custom collection of ChartAnchors which will represent various points 
 
 ## Property Value
 
-A virtual [[[IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0%28v=vs.110%29.aspx) interface consisting of [[[ChartAnchors](chartanchor.md)
+A virtual [IEnumerable](https://msdn.microsoft.com/en-us/library/9eekhta0%28v=vs.110%29.aspx) interface consisting of [ChartAnchors](chartanchor.md)
 
 ## Syntax
 

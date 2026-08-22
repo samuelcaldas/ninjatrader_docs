@@ -2,7 +2,7 @@
 
 Custom Add Ons can be used to extend NinjaTrader's functionality. The methods and properties covered in this section are unique to custom Add On development.
 
-For more information on the Add On development process please see [[[this](developing_add_ons.md) article.
+For more information on the Add On development process please see [this](developing_add_ons.md) article.
 
 |  |  |
 | --- | --- |

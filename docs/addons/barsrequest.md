@@ -2,7 +2,7 @@
 
 ## Definition
 
-BarsRequest can be used to request [[[Bars](../language_reference/bars.md) data and subscribe to real-time Bars data events.
+BarsRequest can be used to request [Bars](../language_reference/bars.md) data and subscribe to real-time Bars data events.
 
 > **Notes:** 1.When using the DateTime fromLocal and toLocal parameters, the dates are converted to local daily timestamps (12:00 AM) and return a BarsRequest representing full trading days. If you need to request less than one full trading day, please use the barsBack parameter  2.A BarsRequest should be called only once and subscribe to the .Update event. Remember to unsubscribe from the .Update Event handler if you are no longer using the subscription.  3.A BarsRequest provides underlying market data for an instrument, but is not synchronized with an indicator or strategies primary data series.  You will need to implement your own BarsUpdateEvent logic.  4.BarsRequest data CANNOT be used as input for a NinjaTrader indicator  5.Performing a BarsRequest in Playback will always yield bars up to the current playback time / slider position.  6.The documented BarsRequest behavior would be the same for all NinjaScript types.
 
@@ -17,7 +17,7 @@ BarsRequest(Cbi.Instrument instrument, DateTime fromLocal, DateTime toLocal)
 
 |  |  |
 | --- | --- |
-| Instrument | The [[[Instrument](../language_reference/instrument.md) to request |
+| Instrument | The [Instrument](../language_reference/instrument.md) to request |
 | barsBack | An int value determining the number of bars to request from the current time |
 | fromLocal | A DateTime value determining the starting date to request |
 | toLocal | A DateTime value determining the ending date to request |
@@ -26,20 +26,20 @@ BarsRequest(Cbi.Instrument instrument, DateTime fromLocal, DateTime toLocal)
 
 |  |  |
 | --- | --- |
-| Bars | The [[[Bars](../language_reference/bars.md) object returned from the request |
+| Bars | The [Bars](../language_reference/bars.md) object returned from the request |
 | BarsBack | An int representing the number of bars back used in the request |
-| BarsPeriod | The [[[BarsPeriod](../language_reference/barsperiod.md) for the bars request |
+| BarsPeriod | The [BarsPeriod](../language_reference/barsperiod.md) for the bars request |
 | FromLocal | A DateTime representing the starting date used in the request |
-| IsDividendAdjusted | A bool representing if the bars request will be [[[dividend adjusted](../getting_started/splits_and_dividends.md) |
-| IsResetOnNewTradingDay | A bool representing if the bars request will [[[Break at EOD](../operations/break_at_eod.md) |
-| IsSplitAdjusted | A bool representing if the bars request will be [[[split adjusted](../getting_started/splits_and_dividends.md) |
-| Instrument | The [[[Instrument](../language_reference/instrument.md) of the bars request |
+| IsDividendAdjusted | A bool representing if the bars request will be [dividend adjusted](../getting_started/splits_and_dividends.md) |
+| IsResetOnNewTradingDay | A bool representing if the bars request will [Break at EOD](../operations/break_at_eod.md) |
+| IsSplitAdjusted | A bool representing if the bars request will be [split adjusted](../getting_started/splits_and_dividends.md) |
+| Instrument | The [Instrument](../language_reference/instrument.md) of the bars request |
 | LookupPolicy | The lookup policies for the bars request.  Possible Values are:
 - Provider - Queries the provider. The repository is updated on provider's reply
 - Repository - Looks up the local repository only |
-| [[[MergePolicy](barsrequest_mergepolicy.md) | The [[[merge policy](../language_reference/mergepolicy.md) for the bars request. |
-| [[[Request()](request.md) | Requests the bars as parametrized |
-| TradingHours | The [[[trading hours](../language_reference/tradinghours.md) for the bars request |
+| [MergePolicy](barsrequest_mergepolicy.md) | The [merge policy](../language_reference/mergepolicy.md) for the bars request. |
+| [Request()](request.md) | Requests the bars as parametrized |
+| TradingHours | The [trading hours](../language_reference/tradinghours.md) for the bars request |
 | ToLocal | A DateTime representing the end date used in the request |
 | Update | A BarsUpdateEvent handler for subscribing/unsubscribing to bar update events |
 

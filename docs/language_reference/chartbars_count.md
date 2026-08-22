@@ -2,7 +2,7 @@
 
 ## Definition
 
-The total number of [[[ChartBars](chartbars.md) in the charts primary data series
+The total number of [ChartBars](chartbars.md) in the charts primary data series
 
 ## Property Value
 

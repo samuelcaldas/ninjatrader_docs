@@ -2,7 +2,7 @@
 
 ## Definition
 
-Cancels any working orders and closes any open position of a strategy using the default [[[ATM strategy close behavior](../addons/closing_a_position_or_atm_stra.md).
+Cancels any working orders and closes any open position of a strategy using the default [ATM strategy close behavior](../addons/closing_a_position_or_atm_stra.md).
 
  
 

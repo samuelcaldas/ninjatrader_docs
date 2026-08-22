@@ -2,9 +2,9 @@
 
 ## Definition
 
-NTMenuItem is used to create new menu entries. For example, an instance of this class can be placed in an existing Control Center menu to launch an [[[NTWindow](ntwindow.md) as part of an AddOn, as seen in the example code below.
+NTMenuItem is used to create new menu entries. For example, an instance of this class can be placed in an existing Control Center menu to launch an [NTWindow](ntwindow.md) as part of an AddOn, as seen in the example code below.
 
-> **Note:** For a complete, working example of this class in use, download framework example located on our [[[Developing AddOns Overview](developing_add_ons.md)
+> **Note:** For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)
 
  
 

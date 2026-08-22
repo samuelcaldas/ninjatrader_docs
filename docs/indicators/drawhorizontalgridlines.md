@@ -10,7 +10,7 @@ Plots horizontal grid lines on the indicator panel.
 
 This property returns true if horizontal grid lines are plotted on the indicator panel; otherwise, false. Default set to true.
 
-> **Warning:** This property should ONLY be set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY be set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

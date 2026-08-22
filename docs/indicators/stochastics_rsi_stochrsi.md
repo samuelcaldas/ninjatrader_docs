@@ -2,7 +2,7 @@
 
 ## Description
 
-This is an indicator on indicator implementation. It is simply a [[[Stochastics](stochastics.md) indicator applied on [[[RSI](relative_strength_index_rsi.md).
+This is an indicator on indicator implementation. It is simply a [Stochastics](stochastics.md) indicator applied on [RSI](relative_strength_index_rsi.md).
 
 ## Syntax
 
@@ -23,7 +23,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Example

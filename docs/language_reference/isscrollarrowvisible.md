@@ -31,4 +31,4 @@ Based on the image below, IsScrollArrowVisible confirms that the scroll arrow is
 
  
 
-![[[ChartControl_IsScrollArrowVisible](../images/chartcontrol_isscrollarrowvisible.png)
+![ChartControl_IsScrollArrowVisible](../images/chartcontrol_isscrollarrowvisible.png)

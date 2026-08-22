@@ -4,11 +4,11 @@
 
 This method is called as each trade is added. You would add any custom math you wanted to do here.
 
-> **Note:** If your performance metric only needs to iterate through all trades at the end to perform its calculation and does not need to be calculated on each trade then using the [[[property approach](performancemetric_values.md) (On demand example) will have less of a performance impact.
+> **Note:** If your performance metric only needs to iterate through all trades at the end to perform its calculation and does not need to be calculated on each trade then using the [property approach](performancemetric_values.md) (On demand example) will have less of a performance impact.
 
 ## Syntax
 
-protected override void OnAddTrade(Cbi.[[[Trade](../strategies/trade.md) trade)   
+protected override void OnAddTrade(Cbi.[Trade](../strategies/trade.md) trade)   
 {
 
 }

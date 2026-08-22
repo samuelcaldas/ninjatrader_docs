@@ -20,33 +20,33 @@ Stroke(Brush brush, DashStyle dashStyleHelper, float width)
 
 |  |  |
 | --- | --- |
-| brush | The brush used to draw the plot ([[[reference](http://msdn.microsoft.com/en-us/library/System.Windows.Media.Brush%28v=vs.110%29.aspx)) |
+| brush | The brush used to draw the plot ([reference](http://msdn.microsoft.com/en-us/library/System.Windows.Media.Brush%28v=vs.110%29.aspx)) |
 | dashStyleHelper | Possible values:    DashStyleHelper.Dash  DashStyleHelper.DashDot  DashStyleHelper.DashDotDot  DashStyleHelper.Dot  DashStyleHelper.Solid |
-| stroke | The [[[stroke](stroke_class.md) object |
+| stroke | The [stroke](stroke_class.md) object |
 | width | The width of the stroke |
 
 ## Properties
 
 |  |  |
 | --- | --- |
-| Brush | The System.Windows.Media.Brush used to construct the stroke ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
-| BrushDX | A [[[SharpDX.Direct2D1.Brush](../drawing_tools/sharpdx_direct2d1_brush.md) used to actually render the stroke    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |
-| DashStyleDX | A [[[SharpDX.Direct2D1.DashStyle](../drawing_tools/sharpdx_direct2d1_strokestyle_dashstyle.md) used to render the stroke style    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |
+| Brush | The System.Windows.Media.Brush used to construct the stroke ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| BrushDX | A [SharpDX.Direct2D1.Brush](../drawing_tools/sharpdx_direct2d1_brush.md) used to actually render the stroke    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |
+| DashStyleDX | A [SharpDX.Direct2D1.DashStyle](../drawing_tools/sharpdx_direct2d1_strokestyle_dashstyle.md) used to render the stroke style    Note:  To avoid and resolve access violation exceptions, please see Warning and examples remarked below |
 | DashStyleHelper | A dashstyle used to construct the stroke. Possible values are:
 - DashStyleHelper.Dash
 - DashStyleHelper.DashDot
 - DashStyleHelper.DashDotDot
 - DashStyleHelper.Dot
 - DashStyleHelper.Solid |
-| RenderTarget | The [[[RenderTarget](rendertarget.md) drawing context used for the stroke.    Note: This property must be set before accessing a stroke's BrushDX property. Please see Warning and examples remarked below |
-| StrokeStyle | A [[[SharpDX.Direct2D1.StrokeStyle](../drawing_tools/sharpdx_direct2d1_strokestyle.md) |
+| RenderTarget | The [RenderTarget](rendertarget.md) drawing context used for the stroke.    Note: This property must be set before accessing a stroke's BrushDX property. Please see Warning and examples remarked below |
+| StrokeStyle | A [SharpDX.Direct2D1.StrokeStyle](../drawing_tools/sharpdx_direct2d1_strokestyle.md) |
 | Width | A float representing the width in pixels |
 
 > **Warning:** There may be situations where a RenderTarget has not been set, and to prevent access violation exception before accessing the BrushDX or DashStyleDX properties, you should explicitly set the RenderTarget before attempting to access that property.  Please see the example below.
 
 ## Examples
 
-See the [[[AddPlot()](../indicators/addplot.md) method for additional examples.
+See the [AddPlot()](../indicators/addplot.md) method for additional examples.
 
 ```csharp
 protected override void OnStateChange()

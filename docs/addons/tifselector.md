@@ -8,7 +8,7 @@ TifSelector can be used as an UI element users can interact with for selecting T
 
 |  |  |
 | --- | --- |
-| Cleanup() | Disposes of the TifSelector  (Note: calling the [[[NTTabPage base.Cleanup()](nttabpage_cleanup.md) is sufficient to clean up this control) |
+| Cleanup() | Disposes of the TifSelector  (Note: calling the [NTTabPage base.Cleanup()](nttabpage_cleanup.md) is sufficient to clean up this control) |
 | SelectedTif | A TimeInForce representing the selected TIF    Possible values:  TimeInForce.Day  TimeInForce.Gtc  TimeInForce.Gtd  TimeInForce.Ioc  TimeInForce.Opg |
 | SelectionChanged | Event handler for when the selected ATM strategy has changed |
 

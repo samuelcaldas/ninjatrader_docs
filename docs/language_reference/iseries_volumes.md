@@ -2,11 +2,11 @@
 
 ## Definition
 
-Holds an array of `ISeries<double>` objects holding historical bar volumes. An `ISeries<double>` object is added to this array when calling the [[[AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the volumes of all Bars objects in a multi-instrument or multi-time frame script.
+Holds an array of `ISeries<double>` objects holding historical bar volumes. An `ISeries<double>` object is added to this array when calling the [AddDataSeries()](adddataseries.md) method. Its purpose is to provide access to the volumes of all Bars objects in a multi-instrument or multi-time frame script.
 
  
 
-> **Note:** For working with [[[Cryptocurrency instruments](instrumenttype.md) which report volume fractional, please use the [[[VOL()](../indicators/volume.md) indicator series, or store the volume for your script in a custom variable and convert alongside our [[[VOL()](../indicators/volume.md) indicator (Instrument.MasterInstrument.InstrumentType == InstrumentType.CryptoCurrency ? Core.Globals.ToCryptocurrencyVolume((long)Volume[0]) : Volume[0]).
+> **Note:** For working with [Cryptocurrency instruments](instrumenttype.md) which report volume fractional, please use the [VOL()](../indicators/volume.md) indicator series, or store the volume for your script in a custom variable and convert alongside our [VOL()](../indicators/volume.md) indicator (Instrument.MasterInstrument.InstrumentType == InstrumentType.CryptoCurrency ? Core.Globals.ToCryptocurrencyVolume((long)Volume[0]) : Volume[0]).
 
 ## Property Value
 

@@ -2,13 +2,13 @@
 
 ## Definition
 
-Converts a WPF Brush to a SharpDX Brush used for [[[SharpDX rendering](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md). Supports SolidColorBrush, LinearGradientBrush, and RadialGradientBrush types.
+Converts a WPF Brush to a SharpDX Brush used for [SharpDX rendering](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md). Supports SolidColorBrush, LinearGradientBrush, and RadialGradientBrush types.
 
 > **Note:** If you are using a large number of brushes, and are not tied to WPF resources, you should favor creating the SharpDX Brush directly since the ToDxBrush() method can lead to performance issues if called too frequently during a single render pass.
 
 ## Method Return Value
 
-A new [[[SharpDX.Direct2D1.Brush](../drawing_tools/sharpdx_direct2d1_brush.md) constructed colors and brush properties of the WPF brush
+A new [SharpDX.Direct2D1.Brush](../drawing_tools/sharpdx_direct2d1_brush.md) constructed colors and brush properties of the WPF brush
 
 ## Syntax
 
@@ -21,8 +21,8 @@ DxExtensions.ToDxBrush(this System.Windows.Media.Brush brush, RenderTarget rende
 
 |  |  |
 | --- | --- |
-| brush | The [[[System.Windows.Media.Brush](https://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) to convert |
-| renderTarget | The [[[RenderTarget](rendertarget.md) associated with the brush resource |
+| brush | The [System.Windows.Media.Brush](https://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) to convert |
+| renderTarget | The [RenderTarget](rendertarget.md) associated with the brush resource |
 
 ## Example
 

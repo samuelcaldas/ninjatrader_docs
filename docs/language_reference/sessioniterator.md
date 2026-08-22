@@ -16,28 +16,28 @@ Allows you to traverse through various trading hours data elements which apply t
 
 |  |  |
 | --- | --- |
-| bars | The [[[Bars](bars.md) object used to create the SessionIterator |
+| bars | The [Bars](bars.md) object used to create the SessionIterator |
 
-> **Warning:** The properties in this class should NOT be accessed within the [[[OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
+> **Warning:** The properties in this class should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| [[[ActualSessionBegin](actualsessionbegin.md) | Obtains the sessions start day and start time converted to the PC's local time zone |
-| [[[ActualSessionEnd](actualsessionend.md) | Obtains the sessions end day and end time converted to the PC's local time zone |
-| [[[ActualTradingDayEndLocal](actualtradingdayendlocal.md) | Returns the sessions End-Of-Day (EOD) in the local timezone |
-| [[[ActualTradingDayExchange](actualtradingdayexchange.md) | Obtains the date of a session representing the trading date of the exchange |
-| [[[CalculateTradingDay()](calculatetradingday.md) | Calculates the current trading date of a specified date |
-| [[[GetNextSession()](getnextsession.md) | Calculates the next available session relative to a specified date |
-| [[[GetTradingDay()](gettradingday.md) | Returns the actual trading date based on the exchange |
-| [[[GetTradingDayBeginLocal()](gettradingdaybeginlocal.md) | Converts the trading day begin time from the exchange timezone to local time |
-| [[[GetTradingDayEndLocal()](gettradingdayendlocal.md) | Converts the trading day end time from the exchange timezone to local time |
-| [[[IsInSession()](isinsession.md) | Indicates if a specified date is within the bounds of the current session |
-| [[[IsNewSession()](isnewsession.md) | Indicates if a specified time is greater than the actual session end of the current session |
-| [[[IsTradingDayDefined()](istradingdaydefined.md) | Indicates if a trading day is defined for a specific date |
+| [ActualSessionBegin](actualsessionbegin.md) | Obtains the sessions start day and start time converted to the PC's local time zone |
+| [ActualSessionEnd](actualsessionend.md) | Obtains the sessions end day and end time converted to the PC's local time zone |
+| [ActualTradingDayEndLocal](actualtradingdayendlocal.md) | Returns the sessions End-Of-Day (EOD) in the local timezone |
+| [ActualTradingDayExchange](actualtradingdayexchange.md) | Obtains the date of a session representing the trading date of the exchange |
+| [CalculateTradingDay()](calculatetradingday.md) | Calculates the current trading date of a specified date |
+| [GetNextSession()](getnextsession.md) | Calculates the next available session relative to a specified date |
+| [GetTradingDay()](gettradingday.md) | Returns the actual trading date based on the exchange |
+| [GetTradingDayBeginLocal()](gettradingdaybeginlocal.md) | Converts the trading day begin time from the exchange timezone to local time |
+| [GetTradingDayEndLocal()](gettradingdayendlocal.md) | Converts the trading day end time from the exchange timezone to local time |
+| [IsInSession()](isinsession.md) | Indicates if a specified date is within the bounds of the current session |
+| [IsNewSession()](isnewsession.md) | Indicates if a specified time is greater than the actual session end of the current session |
+| [IsTradingDayDefined()](istradingdaydefined.md) | Indicates if a trading day is defined for a specific date |
 
-> **Tip:** In order to calculate a session information for another multi-instrument or multi-time frame script, you can pass in the desired [[[BarsArray](barsarray.md) array value as the SessionIterator bars object.
+> **Tip:** In order to calculate a session information for another multi-instrument or multi-time frame script, you can pass in the desired [BarsArray](barsarray.md) array value as the SessionIterator bars object.
 
  
 

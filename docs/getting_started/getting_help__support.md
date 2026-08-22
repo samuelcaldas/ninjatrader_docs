@@ -10,20 +10,20 @@ It is critical that you can rely on the support and service you receive from you
 
 - Pressing F1 key anywhere in the NinjaTrader application will load context sensitive help
 
-- Daily live interactive online training sessions ([[[schedule](https://ninjatrader.com/futures/livestreams))
+- Daily live interactive online training sessions ([schedule](https://ninjatrader.com/futures/livestreams))
 
-- View online tips and tutorials on our [[[YouTube](https://www.youtube.com/user/NinjaTraderLLC) page.
+- View online tips and tutorials on our [YouTube](https://www.youtube.com/user/NinjaTraderLLC) page.
 
 - Some of our connectivity providers are staffed with NinjaTrader support specialists. Please check with your provider to find out if they have live support for NinjaTrader.
 
-- NinjaTrader [[[Support Forum](https://forum.ninjatrader.com/) available 24 hours a day 7 days a week
+- NinjaTrader [Support Forum](https://forum.ninjatrader.com/) available 24 hours a day 7 days a week
 
 - Send "Mail To Support" from the Help menu of the NinjaTrader application
 
-- Send an email to the NinjaTrader [[[support team](mailto:support@ninjatrader.com)
+- Send an email to the NinjaTrader [support team](mailto:support@ninjatrader.com)
 
 Support Priority  
-## It is preferred that you send us a support email from the "Mail To Support" sub menu under the Help menu of the NinjaTrader application since it provides us with additional trouble shooting information, however, when sending an email to [[[support](mailto:support@ninjatrader.com), please provide the following information:
+## It is preferred that you send us a support email from the "Mail To Support" sub menu under the Help menu of the NinjaTrader application since it provides us with additional trouble shooting information, however, when sending an email to [support](mailto:support@ninjatrader.com), please provide the following information:
 
 - Operating system
 

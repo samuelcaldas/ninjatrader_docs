@@ -2,9 +2,9 @@
 
 ## Merge Policy
 
-The Merge Policy option can be found in the [[[Market Data](options_marketdata.md) category of the Options menu and sets how NinjaTrader handles the merging of historical data for futures contracts during a contract rollover.  For example: If requesting a chart of the ES 06-15 from March 1st through April 1st, two contract months were the front month during that time span (03-15 and 06-15).  The way the chart will display those contracts will depend on the following settings and are illustrated below.
+The Merge Policy option can be found in the [Market Data](options_marketdata.md) category of the Options menu and sets how NinjaTrader handles the merging of historical data for futures contracts during a contract rollover.  For example: If requesting a chart of the ES 06-15 from March 1st through April 1st, two contract months were the front month during that time span (03-15 and 06-15).  The way the chart will display those contracts will depend on the following settings and are illustrated below.
 
-> **Note:** More information on Configuring Rollover Dates and Offsets can be found in the [[[Editing Instruments](../language_reference/editing_instruments.md) section of the Help Guide.
+> **Note:** More information on Configuring Rollover Dates and Offsets can be found in the [Editing Instruments](../language_reference/editing_instruments.md) section of the Help Guide.
 
 MergeBackAdjusted
 
@@ -16,7 +16,7 @@ Selecting this option, the 03-15 data will be merged with the 06-15 data on the 
 
 The result is a continuous chart of ES front month data for the dates selected.  Price is seamlessly merged between each contract month.
 
-![[[mergebackadjusted](../images/mergebackadjusted.png)
+![mergebackadjusted](../images/mergebackadjusted.png)
 
 MergeNonBackAdjusted
 
@@ -28,7 +28,7 @@ Selecting this option, the 03-15 data will be merged with the 06-15 data on the 
 
 The result is a continuous chart of ES front month data for the dates selected.  Significant price gaps in the chart may be present due to changes in contract values that were NOT Offset.
 
-![[[mergenonbackadjusted](../images/mergenonbackadjusted.png)
+![mergenonbackadjusted](../images/mergenonbackadjusted.png)
 
 DoNotMerge
 
@@ -40,4 +40,4 @@ Selecting this option will only show historical data for the front month selecte
 
 The result is a chart that goes as far back as there is data for the selected front month, which may be less than the requested date range.
 
-![[[donotmerge](../images/donotmerge.png)
+![donotmerge](../images/donotmerge.png)

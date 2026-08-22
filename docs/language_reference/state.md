@@ -4,7 +4,7 @@
 
 Represents the current progression of the object as it advances from setup, processing data, to termination.  These states can be used for setting up or declaring various resources and properties.
 
-> **Note:** More detailed explanation of various states along with examples can be found in the [[[OnStateChange()](onstatechange.md) method section of this help guide.  You can also attempt to set a new State using the [[[SetState()](setstate.md) method.
+> **Note:** More detailed explanation of various states along with examples can be found in the [OnStateChange()](onstatechange.md) method section of this help guide.  You can also attempt to set a new State using the [SetState()](setstate.md) method.
 
 ## Property Value
 

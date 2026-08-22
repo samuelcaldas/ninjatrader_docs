@@ -2,7 +2,7 @@
 
 ## Definition
 
-The difference between the chart scale's [[[MaxValue](chartscale_maxvalue.md) and [[[MinValue](chartscale_minvalue.md) represented as a y value.
+The difference between the chart scale's [MaxValue](chartscale_maxvalue.md) and [MinValue](chartscale_minvalue.md) represented as a y value.
 
 ## Property Value
 
@@ -30,4 +30,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 In the image below, the highest calculated value on the chart scale is 2106.21, with the lowest value being 2102.29;  the MaxMinusMin property therefore provides us calculated value of 3.92.
 
-![[[MaxMinusMin](../images/maxminusmin.png)
+![MaxMinusMin](../images/maxminusmin.png)

@@ -6,7 +6,7 @@ Generates a sell market order to exit a long position.
 
 ## Method Return Value
 
-An [[[Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [[[Advanced Order Handling](advanced_order_handling.md) section.
+An [Order](order.md) read-only object that represents the order. Reserved for experienced programmers, additional information can be found within the [Advanced Order Handling](advanced_order_handling.md) section.
 
 Syntax  
 ExitLong()
@@ -20,7 +20,7 @@ ExitLong(int quantity, string signalName, string fromEntrySignal)
 
  
 
-The following method variation is for experienced programmers who fully understand [[[Advanced Order Handling](advanced_order_handling.md) concepts:
+The following method variation is for experienced programmers who fully understand [Advanced Order Handling](advanced_order_handling.md) concepts:
 
  
 
@@ -37,7 +37,7 @@ ExitLong(int barsInProgressIndex, int quantity, string signalName, string fromEn
 | signalName | User defined signal name identifying the order generated. Max 50 characters. |
 | fromEntrySignal | The entry signal name. This ties the exit to the entry and exits the position quantity represented by the actual entry.    Note:  Using an empty string will attach the exit order to all entries. |
 | quantity | Entry order quantity. |
-| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [[[BarsInProgress](../language_reference/barsinprogress.md) property. |
+| barsInProgressIndex | The index of the Bars object the order is to be submitted against. Used to determines what instrument the order is submitted for.      See the [BarsInProgress](../language_reference/barsinprogress.md) property. |
 
 ## Examples
 
@@ -55,7 +55,7 @@ protected override void OnBarUpdate()
 }
 ```
 
-> Tips (also see [[[Overview](managed_approach.md)):
+> Tips (also see [Overview](managed_approach.md)):
 - This method is ignored if a long position does not exist
 - It is helpful to provide a signal name if your strategy has multiple exit points to help identify your exits on a chart
 - You can tie an exit to an entry by providing the entry signal name in the parameter "fromEntrySignal"

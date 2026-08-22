@@ -4,7 +4,7 @@ When backtesting strategies it can be useful to add the indicators you use for c
 
 ## Example
 
-To add a volume indicator to your charts you need to add this code snippet into the [[[OnStateChange](../language_reference/onstatechange.md) section of your code for the State: `State.DataLoaded`:
+To add a volume indicator to your charts you need to add this code snippet into the [OnStateChange](../language_reference/onstatechange.md) section of your code for the State: `State.DataLoaded`:
 
 ```csharp
 protected override void OnStateChange()
@@ -54,4 +54,4 @@ To customize lines you can do it the same way as above:
 RSI(14, 3).Lines[0].Brush = Brushes.Green;
 ```
 
-Remember, you need to use the [[[AddChartIndicator()](addchartindicator.md) method to add your indicator if you wish to use any of the plot / line indicator customization examples.
+Remember, you need to use the [AddChartIndicator()](addchartindicator.md) method to add your indicator if you wish to use any of the plot / line indicator customization examples.

@@ -4,7 +4,7 @@
 
 OBV is a simple indicator that adds a period's volume when the close is up and subtracts the period's volume when the close is down. A cumulative total of the volume additions and subtractions forms the OBV line. This line can then be compared with the price chart of the underlying security to look for divergences or confirmation.
 
-... Courtesy of [[[StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic-obv.md)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic-obv.md)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 ## Example
 

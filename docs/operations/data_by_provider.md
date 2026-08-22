@@ -8,7 +8,7 @@ NinjaTrader, LLC is not a market data provider. Historical data is provided by o
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Connectivity Provider | Real-Time Data | Historical Tick Data | Historical Bid/Ask Minute Data | Historical Bid/Ask Daily Data | Historical Bid/Ask Tick Data | Historical Minute Data | Historical Daily Data | Real-Time Timestamp | Instruments Supported | Real-Time News | Tick Replay | Bid/Ask Stamped Tick Data | Daily Bars Trading Hours | Settlement adjusted Close Price For Daily Bars |
 | NinjaTrader | YES | YES | YES | YES | YES | YES | YES | Native | F, I | NO | YES | YES | Extended Trading Hours | YES |
-| Kinetick  [[[www.kinetick.com](http://www.kinetick.com) | YES (subscription only) | YES (subscription only) | NO | NO | \*YES | YES (subscription only) | YES | Native | E(O), F(O), FX, I | YES | YES | YES | Symbol Map Specific | YES |
+| Kinetick  [www.kinetick.com](http://www.kinetick.com) | YES (subscription only) | YES (subscription only) | NO | NO | \*YES | YES (subscription only) | YES | Native | E(O), F(O), FX, I | YES | YES | YES | Symbol Map Specific | YES |
 | BarChart | YES | YES | NO | NO | NO | YES | YES | Native | E, F, FX, I | NO | YES | NO | Symbol Map Specific | YES |
 | Coinbase | YES | YES | YES | YES | YES | YES | YES | Native | CC | NO | NO | NO | UTC | N/A |
 | Continuum/CQG | YES | YES | YES | YES | YES | YES | YES | Native | F, I | NO | YES | YES | Extended Trading Hours | YES |
@@ -44,4 +44,4 @@ NinjaTrader by default will always loads historical data from your provider (Rec
 
 ## Connecting to your Broker and a Market Data Provider Simultaneously
 
-If your broker technology does not support historical data, you can connect to a service like Kinetick at the same time as connecting to your broker so that you can receive historical data. Please see the topic on [[[Multiple Connections](../getting_started/multiple_connections.md) for additional information.
+If your broker technology does not support historical data, you can connect to a service like Kinetick at the same time as connecting to your broker so that you can receive historical data. Please see the topic on [Multiple Connections](../getting_started/multiple_connections.md) for additional information.

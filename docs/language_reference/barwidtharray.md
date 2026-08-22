@@ -2,7 +2,7 @@
 
 ## Definition
 
-An array containing the values of the [[[BarWidth](chartcontrol_barwidth.md) properties of all Bars objects applied to the chart.
+An array containing the values of the [BarWidth](chartcontrol_barwidth.md) properties of all Bars objects applied to the chart.
 
 ## Property Value
 

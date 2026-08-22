@@ -33,4 +33,4 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
 In the image below, the entire of width of the chart scale is represented by the blue line which is calculated at 450 pixels.
 
-![[[Width](../images/width.png)
+![Width](../images/width.png)

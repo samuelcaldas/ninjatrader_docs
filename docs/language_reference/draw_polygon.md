@@ -6,7 +6,7 @@ Draws a polygon which can have a user defined set of anchors.
 
 ## Method Return Value
 
-A [[[Polygon](polygon.md) object that represents the draw object.
+A [Polygon](polygon.md) object that represents the draw object.
 
 ## Syntax
 
@@ -52,7 +52,7 @@ Draw.Polygon(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime Ancho
 | Anchor4Time | The time the forth anchor of the object will be drawn at |
 | Anchor5Time | The time the fifth anchor of the object will be drawn at |
 | Anchor6Time | The time the sixth anchor of the object will be drawn at |
-| areaBrush | The brush used to color draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| areaBrush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 

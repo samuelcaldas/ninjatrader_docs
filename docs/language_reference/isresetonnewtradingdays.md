@@ -4,7 +4,7 @@
 
 Determines if the specified bar series is using Break at EOD
 
-> **Note:** The property available on the UI will override any values set in code. Please see the help guide topic on using [[[Break at EOD](../operations/break_at_eod.md) for more information
+> **Note:** The property available on the UI will override any values set in code. Please see the help guide topic on using [Break at EOD](../operations/break_at_eod.md) for more information
 
 ## Property Value
 
@@ -16,7 +16,7 @@ IsResetOnNewTradingDays[int idx]
 
  
 
-> **Warning:** This property should NOT be accessed within the [[[OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
+> **Warning:** This property should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
 ## Examples
 

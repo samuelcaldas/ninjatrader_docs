@@ -2,11 +2,11 @@
 
 ## Definition
 
-In an [[[NTWindow](ntwindow.md), PropagateInstrumentChange() sends an Instrument to other windows with the same Instrument Linking color configured.
+In an [NTWindow](ntwindow.md), PropagateInstrumentChange() sends an Instrument to other windows with the same Instrument Linking color configured.
 
 > **Notes:**
 - A public Instrument property must be defined in order to use PropagateInstrumentChange(), as in the example below
-- For a complete, working example of this class in use, download framework example located on our [[[Developing AddOns Overview](developing_add_ons.md)
+- For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](developing_add_ons.md)
 
 ## Example
 

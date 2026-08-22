@@ -18,7 +18,7 @@ double
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | PerformanceUnit | Format of the calculation of net change |
 | NetChangePosition | Location to display net change on the chart |
 

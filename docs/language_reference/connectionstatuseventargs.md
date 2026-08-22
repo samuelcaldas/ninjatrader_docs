@@ -2,13 +2,13 @@
 
 ## Definition
 
-ConnectionStatusEventArgs contains [[[Connection](../addons/connection.md)-related information to be passed as an argument to the [[[OnConnectionStatusUpdate()](onconnectionstatusupdate.md) event.
+ConnectionStatusEventArgs contains [Connection](../addons/connection.md)-related information to be passed as an argument to the [OnConnectionStatusUpdate()](onconnectionstatusupdate.md) event.
 
  
 
  
 
-> **Note:** For a complete, working example of this class in use, download framework example located on our [[[Developing AddOns Overview](../ninjascript/addon_development_overview.md)
+> **Note:** For a complete, working example of this class in use, download framework example located on our [Developing AddOns Overview](../ninjascript/addon_development_overview.md)
 
  
 

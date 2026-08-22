@@ -2,7 +2,7 @@
 
 Multi-provider mode can be enabled or disabled under Tools> Options.
 
-![[[MultiProvider](../images/multiprovider.png)
+![MultiProvider](../images/multiprovider.png)
 
 ## Multi-provider disabled
 
@@ -10,7 +10,7 @@ When logging in you will be presented with the Trading Mode window which will di
 
 Shadow strategies for local ATMs will be disabled since there is no local simulation account to send the orders to. Additionally, risk and commissions templates can't be applied to the playback connection, since they need to be applied to the local simulation account.
 
-When Multi-provider is disabled you can opt-in to using Server side ATMs under Tools> Options> Strategies. See the [[[Server Side vs Local ATMs](../operations/server-side-vs-local-atms.md) section of the help guide to understand how they function differently. Server side ATMs cannot be used will connected to Playback.
+When Multi-provider is disabled you can opt-in to using Server side ATMs under Tools> Options> Strategies. See the [Server Side vs Local ATMs](../operations/server-side-vs-local-atms.md) section of the help guide to understand how they function differently. Server side ATMs cannot be used will connected to Playback.
 
 ## Multi-provider enabled
 
@@ -18,4 +18,4 @@ When logging in you will be taken directly to NinjaTrader. You can connect to an
 
 Local simulation accounts will always be available when Multi-provider is enabled. A Global simulation mode will be available under Tools and is enabled by default to ensure trades are not made to live accounts in error.
 
-> **Warnings:** Configured Multi-provider connections will be available to any user that connects to NinjaTrader on your local computer.    If you opted into using Server side ATMs (beta) and you then enable Multi-provider mode, you will be switched to local ATMs. Server side ATMs are only available for the NinjaTrader connection. See the [[[Server Side vs Local ATMs](../operations/server-side-vs-local-atms.md) section of the help guide to understand how they function differently.
+> **Warnings:** Configured Multi-provider connections will be available to any user that connects to NinjaTrader on your local computer.    If you opted into using Server side ATMs (beta) and you then enable Multi-provider mode, you will be switched to local ATMs. Server side ATMs are only available for the NinjaTrader connection. See the [Server Side vs Local ATMs](../operations/server-side-vs-local-atms.md) section of the help guide to understand how they function differently.

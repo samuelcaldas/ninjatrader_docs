@@ -8,7 +8,7 @@ Determines if the Share Service will allow for images as attachments.
 
 A bool value when false, screenshots will be unable to be sent to the social network.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

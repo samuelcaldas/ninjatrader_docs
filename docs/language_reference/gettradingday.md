@@ -8,7 +8,7 @@ Returns the actual trading date based on the exchange, calculated from a DateTim
 
 ## Property Value
 
-A DateTime object representing the [[[ActualTradingDayExchange](actualtradingdayexchange.md) property.
+A DateTime object representing the [ActualTradingDayExchange](actualtradingdayexchange.md) property.
 
 ## Syntax
 

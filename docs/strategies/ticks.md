@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns a [[[TradesPerformanceValues](tradesperformancevalues.md) object in ticks.
+Returns a [TradesPerformanceValues](tradesperformancevalues.md) object in ticks.
 
 ## Property Value
 

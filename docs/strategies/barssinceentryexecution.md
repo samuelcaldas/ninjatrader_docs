@@ -14,7 +14,7 @@ BarsSinceEntryExecution(string signalName)
 
  
 
-The following method signature should be used when working with [[[multi-time frame and instrument strategies](../language_reference/multi-time_frame__instruments.md):
+The following method signature should be used when working with [multi-time frame and instrument strategies](../language_reference/multi-time_frame__instruments.md):
 
  
 
@@ -27,7 +27,7 @@ BarsSinceEntryExecution(int barsInProgressIndex, string signalName, int entryExe
 |  |  |
 | --- | --- |
 | signalName | The signal name of an entry order specified in an order entry method. |
-| barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [[[BarsInProgress](../language_reference/barsinprogress.md) property. |
+| barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [BarsInProgress](../language_reference/barsinprogress.md) property. |
 | entryExecutionsAgo | Number of entry executions ago. Pass in 0 for the number of bars since the last entry execution. |
 
 ## Examples

@@ -4,7 +4,7 @@
 
 The r-squared indicator calculates how well the price approximates a linear regression line. The indicator gets its name from the calculation, which is, the square of the correlation coefficient (referred to in mathematics by the Greek letter rho, or r). The range of the r-squared is from zero to one.
 
-... Courtesy of [[[FMLabs](http://www.fmlabs.com/reference/default.md?url=rsquared.md)
+... Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.md?url=rsquared.md)
 
 ## Syntax
 
@@ -28,7 +28,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Examples

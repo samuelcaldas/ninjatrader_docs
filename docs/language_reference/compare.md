@@ -2,7 +2,7 @@
 
 ## Definition
 
-Compares two price values with respect to the Instrument [[[TickSize](ticksize.md) to ensure accuracy when dealing with floating point math.
+Compares two price values with respect to the Instrument [TickSize](ticksize.md) to ensure accuracy when dealing with floating point math.
 
 ## Method Return Value
 

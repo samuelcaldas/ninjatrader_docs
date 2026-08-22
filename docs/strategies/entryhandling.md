@@ -6,7 +6,7 @@ Sets the manner in how entry orders will handle.
 
  
 
-> **Note:** This property ONLY applies to Managed order methods.  When [[[IsUnmanaged](isunmanaged.md) is set to true, Entry Handling properties will be hidden from the UI.
+> **Note:** This property ONLY applies to Managed order methods.  When [IsUnmanaged](isunmanaged.md) is set to true, Entry Handling properties will be hidden from the UI.
 
 ## Property Value
 
@@ -14,10 +14,10 @@ An enum which sets how the entry orders are handled.  Default value is EntryHand
 
 |  |  |
 | --- | --- |
-| EntryHandling.AllEntries | NinjaScript will process all [[[order entry methods](order_methods.md) until the maximum allowable entries set by the [[[EntriesPerDirection](entriesperdirection.md) property is reached while in an open position |
+| EntryHandling.AllEntries | NinjaScript will process all [order entry methods](order_methods.md) until the maximum allowable entries set by the [EntriesPerDirection](entriesperdirection.md) property is reached while in an open position |
 | EntryHandling.UniqueEntries | NinjaScript will process order entry methods until the maximum allowable entries set by the EntriesPerDirection property per each uniquely named entry |
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

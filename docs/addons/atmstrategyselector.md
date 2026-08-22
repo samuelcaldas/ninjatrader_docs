@@ -8,7 +8,7 @@ AtmStrategySelector is an UI element users can interact with for selecting ATM S
 
 |  |  |
 | --- | --- |
-| Cleanup() | Disposes of the AtmStrategySelector  (Note: calling the [[[NTTabPage base.Cleanup()](nttabpage_cleanup.md) is sufficient to clean up this control) |
+| Cleanup() | Disposes of the AtmStrategySelector  (Note: calling the [NTTabPage base.Cleanup()](nttabpage_cleanup.md) is sufficient to clean up this control) |
 | CustomPropertiesChanged | Event handler for when properties have changed on the ATM strategy |
 | Id | A string identifying the ATM Strategy selector |
 | SelectedAtmStrategy | Returns an AtmStrategy representing the selected ATM strategy |

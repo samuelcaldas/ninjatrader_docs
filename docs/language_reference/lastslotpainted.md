@@ -4,7 +4,7 @@
 
 Indicates the most recent (last) slot index of the Data Series on the chart, regardless if a bar is actually painted in that slot.
 
-> **Note:** LastSlotPainted differs from [[[ChartBars.ToIndex](chartbars_toindex.md), which returns the last index containing a bar painted in the visible area of the chart.
+> **Note:** LastSlotPainted differs from [ChartBars.ToIndex](chartbars_toindex.md), which returns the last index containing a bar painted in the visible area of the chart.
 
 ## Property Value
 

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Called when the window is restored from a workspace, which is called after [[[OnWindowCreated()](onwindowcreated.md).  This method is used to recall any custom XElement data from the workspace by referencing a window.   Please also see [[[OnWindowSaved()](onwindowsaved.md) for information on how to store custom XElement data when a window is saved.
+Called when the window is restored from a workspace, which is called after [OnWindowCreated()](onwindowcreated.md).  This method is used to recall any custom XElement data from the workspace by referencing a window.   Please also see [OnWindowSaved()](onwindowsaved.md) for information on how to store custom XElement data when a window is saved.
 
 ## Method Return Value
 
@@ -18,8 +18,8 @@ OnWindowRestored(Window window, XElement element)
 
 |  |  |
 | --- | --- |
-| window | A [[[Window](https://msdn.microsoft.com/en-us/library/system.windows.window(v=vs.110).aspx) object which is being restored from a workspace |
-| element | The [[[XElement](https://msdn.microsoft.com/en-us/library/system.xml.linq.xelement(v=vs.110).aspx) object representing the workspace being restored |
+| window | A [Window](https://msdn.microsoft.com/en-us/library/system.windows.window(v=vs.110).aspx) object which is being restored from a workspace |
+| element | The [XElement](https://msdn.microsoft.com/en-us/library/system.xml.linq.xelement(v=vs.110).aspx) object representing the workspace being restored |
 
 ## Examples
 

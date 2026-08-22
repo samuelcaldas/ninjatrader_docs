@@ -4,7 +4,7 @@ You can create your own skin by creating a copy of the skin template located in 
 
 ## Skin File Structure
 
-Skins consist of [[[XAML](https://msdn.microsoft.com/en-us/library/Cc295302.aspx) files corresponding to different windows in the NinjaTrader platform. Each pre-built skin includes a "BluePrint.xaml" file that contains most of the shared application keys that can be used. In addition to this file, you will find individual XAML files for windows such as FXPro, BasicEntry, and Level2.
+Skins consist of [XAML](https://msdn.microsoft.com/en-us/library/Cc295302.aspx) files corresponding to different windows in the NinjaTrader platform. Each pre-built skin includes a "BluePrint.xaml" file that contains most of the shared application keys that can be used. In addition to this file, you will find individual XAML files for windows such as FXPro, BasicEntry, and Level2.
 
 ## Creating A New Skin
 

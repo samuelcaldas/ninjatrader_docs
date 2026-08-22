@@ -6,7 +6,7 @@ Provides a way to use your own custom events (such as a Timer object) so that in
 
  
 
-> **Note:** The TriggerCustomEvent() method does NOT execute before State.DataLoaded or during or after State.Terminated.  In effect, attempting to trigger custom events may be unavailable in some circumstances (e.g., while an indicator is terminating, or viewing the [[[Strategy Analyzer](../strategies/strategy_analyzer.md) chart display after backtest has completed, etc.)
+> **Note:** The TriggerCustomEvent() method does NOT execute before State.DataLoaded or during or after State.Terminated.  In effect, attempting to trigger custom events may be unavailable in some circumstances (e.g., while an indicator is terminating, or viewing the [Strategy Analyzer](../strategies/strategy_analyzer.md) chart display after backtest has completed, etc.)
 
  
 
@@ -26,13 +26,13 @@ TriggerCustomEvent(`Action<object>` customEvent, int barsSeriesIndex, object sta
 
 |  |  |
 | --- | --- |
-| barsIndex | Index of the [[[bar series](barsinprogress.md) you want to synchronize to |
-| customEvent | [[[Delegate](http://msdn.microsoft.com/en-us/library/018hxwa8%28v=vs.110%29.aspx) of your custom event method |
+| barsIndex | Index of the [bar series](barsinprogress.md) you want to synchronize to |
+| customEvent | [Delegate](http://msdn.microsoft.com/en-us/library/018hxwa8%28v=vs.110%29.aspx) of your custom event method |
 | state | Any object you want passed into your custom event method |
 
 > **Tips:**
-- There may be scenarios in which you need to set a [[[`Series<T>`](seriest.md) value outside of one of the core data event methods.  In these cases, you can use TriggerCustomEvent() to reliably synchronize the barAgo indexer to the recent.  current bar being updated.  Please see the example below.
-- Usually the correct approach is to use the WPF Dispatcher timer, however in cases where you need the timer to update a WinForms window it opened - please use the [[[WinForms timer](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.timer?view=netframework-4.7.2).
+- There may be scenarios in which you need to set a [`Series<T>`](seriest.md) value outside of one of the core data event methods.  In these cases, you can use TriggerCustomEvent() to reliably synchronize the barAgo indexer to the recent.  current bar being updated.  Please see the example below.
+- Usually the correct approach is to use the WPF Dispatcher timer, however in cases where you need the timer to update a WinForms window it opened - please use the [WinForms timer](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.timer?view=netframework-4.7.2).
 
  
 

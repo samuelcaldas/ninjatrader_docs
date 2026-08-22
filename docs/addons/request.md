@@ -2,7 +2,7 @@
 
 ## Definition
 
-Performs the bars request for a [[[BarsRequest](barsrequest.md) object
+Performs the bars request for a [BarsRequest](barsrequest.md) object
 
 ## Syntax
 

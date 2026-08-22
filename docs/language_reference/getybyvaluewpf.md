@@ -34,6 +34,6 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 
  
 
-In the image below, we pass the last bar close as the value (example logic avoids using a bars ago index, see also [[[OnRender()](onrender.md) note #5), which in return tells us the last price displayed on the chart is at a WPF location of 207.30998 pixels.
+In the image below, we pass the last bar close as the value (example logic avoids using a bars ago index, see also [OnRender()](onrender.md) note #5), which in return tells us the last price displayed on the chart is at a WPF location of 207.30998 pixels.
 
-![[[GetYByValueWpf](../images/getybyvaluewpf.png)
+![GetYByValueWpf](../images/getybyvaluewpf.png)

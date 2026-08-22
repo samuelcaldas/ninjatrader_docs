@@ -1,6 +1,6 @@
 # Entering Calculation Logic
 
-The [[[OnBarUpdate()](../language_reference/onbarupdate.md) method is called for each incoming tick, or on the close of a bar (if enabled) when performing real-time calculations, and is called on each bar of a [[[Bars](../language_reference/bars.md) object when re-calculating the indicator (For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed).. Therefore, this is the main method called for indicator calculation and we will use this method to enter the script that will calculate a simple moving average.
+The [OnBarUpdate()](../language_reference/onbarupdate.md) method is called for each incoming tick, or on the close of a bar (if enabled) when performing real-time calculations, and is called on each bar of a [Bars](../language_reference/bars.md) object when re-calculating the indicator (For example, an indicator would be re-calculated when adding it to an existing chart that has existing price data displayed).. Therefore, this is the main method called for indicator calculation and we will use this method to enter the script that will calculate a simple moving average.
 
 ## Are there enough bars?
 
@@ -55,7 +55,7 @@ What the loop is saying is:
 
 5. go to to line 2
 
-You can find more information on [[[how loops work here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements). Once the loop has finished, it will have calculated the total sum of closing prices for the period of our moving average.
+You can find more information on [how loops work here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements). Once the loop has finished, it will have calculated the total sum of closing prices for the period of our moving average.
 
 \* We use the value of Input[barsAgo] to get a price to use for our calculation. We could have substituted Close[barsAgo] to use closing prices or High[barsAgo] to use high prices. The reason we use Input[barsAgo] is since this allows flexibility for what the indicator is calculated based off of. Remember users have the option to select a price type (High, Open, Close etc...) from the Indicator Dialog window.
 
@@ -68,7 +68,7 @@ Enter the following code into the OnBarUpdate() method and below the code snippe
 MyPlot[0] = sum / Period;
 ```
 
-We can now calculate the final moving average value and assign it's value to the property that represents the plot data. We have just finished coding our simple moving average. The class code in your editor should look identical to the image below. You are now ready to [[[compile the indicator](compiling3.md) and configure it on a chart.
+We can now calculate the final moving average value and assign it's value to the property that represents the plot data. We have just finished coding our simple moving average. The class code in your editor should look identical to the image below. You are now ready to [compile the indicator](compiling3.md) and configure it on a chart.
 
 ```csharp
 public class MySMA : Indicator
@@ -140,7 +140,7 @@ public class MySMA : Indicator
 
 ## Alternate Implementation
 
-In this tutorial we are using a "for" loop to iterate through a collection of prices and accumulate a sum value. We chose this approach to demonstrate the use of a loop. A simple moving average can actually be expressed in a more efficient manner using the built in [[[SUM](summation_sum.md) indicator as show below.
+In this tutorial we are using a "for" loop to iterate through a collection of prices and accumulate a sum value. We chose this approach to demonstrate the use of a loop. A simple moving average can actually be expressed in a more efficient manner using the built in [SUM](summation_sum.md) indicator as show below.
 
 ```csharp
 // Do not calculate if we don't have enough bars

@@ -2,7 +2,7 @@
 
 ## Definition
 
-A collection of [[[Instrument](instrument.md) objects currently used by a script.
+A collection of [Instrument](instrument.md) objects currently used by a script.
 
 ## Property Value
 

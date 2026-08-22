@@ -7,8 +7,8 @@ This section will cover some of the basics of C# programming.
 |  |
 | --- |
 | 
-- [[[Basic Syntax](basic_syntax.md)  
-- [[[Branching Commands](branching_commands.md)  
-- [[[Looping Commands](looping_commands.md)  
-- [[[Functions and Methods Explained](functions_and_methods_explaine.md)  
-- [[[Lambda Expressions](labdas.md) |
+- [Basic Syntax](basic_syntax.md)  
+- [Branching Commands](branching_commands.md)  
+- [Looping Commands](looping_commands.md)  
+- [Functions and Methods Explained](functions_and_methods_explaine.md)  
+- [Lambda Expressions](labdas.md) |

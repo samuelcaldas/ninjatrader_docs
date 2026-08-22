@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates the [[[Cross Hair](../operations/cross_hair.md) type currently enabled on the chart.
+Indicates the [Cross Hair](../operations/cross_hair.md) type currently enabled on the chart.
 
 ## Property Value
 
@@ -37,4 +37,4 @@ In the image below, CrosshairType reveals that Global Cross Hair (No Time Scroll
 
  
 
-![[[ChartControl_CrosshairType](../images/chartcontrol_crosshairtype.png)
+![ChartControl_CrosshairType](../images/chartcontrol_crosshairtype.png)

@@ -23,8 +23,8 @@ protected override void OnAccountItemUpdate(Account account, AccountItem account
 
 |  |  |
 | --- | --- |
-| account | The [[[Account](../addons/account_class.md) updated |
-| accountItem | The [[[AccountItem](../addons/accountitem.md) updated |
+| account | The [Account](../addons/account_class.md) updated |
+| accountItem | The [AccountItem](../addons/accountitem.md) updated |
 | value | The value of the AccountItem updated |
 
 ## Examples

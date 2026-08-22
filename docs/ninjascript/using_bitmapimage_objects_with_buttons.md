@@ -5,8 +5,8 @@
 BitmapImage objects can be used to apply an image as a background to a Button object added to a NinjaTrader window.
 
 > **Note:** The following topic covers methods and properties outside of the NinjaScript libraries. Most of the items covered in the example below belong to .NET's System.Windows.Media.Imaging and System.Windows.Controls namespaces. More information on these namespaces can be found at the links below:
-- [[[System.Windows.Controls](https://msdn.microsoft.com/en-us/library/system.windows.controls(v=vs.110).aspx)
-- [[[System.Windows.Media.Imaging](https://msdn.microsoft.com/en-us/library/system.windows.media.imaging(v=vs.110).aspx)
+- [System.Windows.Controls](https://msdn.microsoft.com/en-us/library/system.windows.controls(v=vs.110).aspx)
+- [System.Windows.Media.Imaging](https://msdn.microsoft.com/en-us/library/system.windows.media.imaging(v=vs.110).aspx)
 
 Using an image as the background for a button can be achieved through a fairly straightforward process using some of the .NET framework's Controls and Imaging methods
 

@@ -6,7 +6,7 @@ Draws a fibonacci circle.
 
 ## Method Return Value
 
-A [[[FibonacciCircle](fibonaccicircle.md) object that represents the draw object.
+A [FibonacciCircle](fibonaccicircle.md) object that represents the draw object.
 
 Syntax  
 Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY)  

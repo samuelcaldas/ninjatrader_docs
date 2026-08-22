@@ -1,6 +1,6 @@
 # IInstrumentProvider Interface
 
-When creating your [[[NTTabPage](nttabpage_class.md), if you wish to use the [[[instrument link](../operations/linking_windows.md), be sure to implement the IInstrumentProvider interface.
+When creating your [NTTabPage](nttabpage_class.md), if you wish to use the [instrument link](../operations/linking_windows.md), be sure to implement the IInstrumentProvider interface.
 
 ## Examples
 

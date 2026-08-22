@@ -6,17 +6,17 @@ The default behavior for NinjaTrader is to cancel limit orders if the trigger co
 
 - How to submit an order that stays active until it is explicitly canceled\*
 
-\*Another sample demonstrating how to explicitly cancel orders can be found here: [[[Using CancelOrder() method to cancel orders](using_cancelorder_method_to_ca.md)
+\*Another sample demonstrating how to explicitly cancel orders can be found here: [Using CancelOrder() method to cancel orders](using_cancelorder_method_to_ca.md)
 
 ## Important related documentation
 
-- [[[EnterLongLimit()](enterlonglimit.md)
+- [EnterLongLimit()](enterlonglimit.md)
 
-- [[[isliveUntilCancelled](exitlonglimit.md)
+- [isliveUntilCancelled](exitlonglimit.md)
 
-- [[[CrossAbove()](../language_reference/crossabove.md)
+- [CrossAbove()](../language_reference/crossabove.md)
 
-- [[[CrossBelow()](../language_reference/crossbelow.md)
+- [CrossBelow()](../language_reference/crossbelow.md)
 
 ## Import instructions
 
@@ -26,4 +26,4 @@ The default behavior for NinjaTrader is to cancel limit orders if the trigger co
 
 3.Select the downloaded file
 
-[[[SampleIsLiveUntilCanceled\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleIsLiveUntilCanceled_NT8.zip)
+[SampleIsLiveUntilCanceled\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleIsLiveUntilCanceled_NT8.zip)

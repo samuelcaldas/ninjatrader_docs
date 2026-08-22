@@ -12,7 +12,7 @@ Windows 10, Windows 11, Windows Server 2016 or later 64-bit
 
 - Microsoft .NET Framework 4.8
 
-- (pre-installed on most PC’s and can be downloaded here: [[[Microsoft .NET Framework](https://www.microsoft.com/en-us/download/details.aspx?id=30653))
+- (pre-installed on most PC’s and can be downloaded here: [Microsoft .NET Framework](https://www.microsoft.com/en-us/download/details.aspx?id=30653))
 
 - Screen resolution of 1024 x 768
 

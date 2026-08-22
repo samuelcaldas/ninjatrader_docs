@@ -2,15 +2,15 @@
 
 ## Definition
 
-Converts a [[[SimpleFont](../language_reference/simplefont_class.md) object to a [[[SharpDX](sharpdx.md) compatible font which can be used for chart rendering.
+Converts a [SimpleFont](../language_reference/simplefont_class.md) object to a [SharpDX](sharpdx.md) compatible font which can be used for chart rendering.
 
  
 
-> **Note:** For more information please see the educational resource on [[[Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering.md)
+> **Note:** For more information please see the educational resource on [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering.md)
 
 ## Method Return Value
 
-## A [[[DirectWrite.TextFormat](sharpdx_directwrite_textformat.md) object
+## A [DirectWrite.TextFormat](sharpdx_directwrite_textformat.md) object
 
 > **Warning:** The returned DirectWrite.TextFormat object should be disposed of immediately when finished drawing text.
 

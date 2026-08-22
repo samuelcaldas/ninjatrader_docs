@@ -6,9 +6,9 @@ With the introduction of multi-threading in NinjaTrader special considerations s
 
 Using A Dispatcher
 
-Depending on your CPU configuration, the NinjaTrader application will usually consist of multiple main UI threads, where various features like Charts or NinjaScript objects run, along with a number of background worker threads where events such as market data updates will be distributed throughout the product.  In principle, an object can only access information related to objects that exist on the same thread.  It is possible (and quite likely), that the thread which a NinjaScript object is running will not be the same thread as the event which is calling the object.  In cases where you need to access objects on the UI from a NinjaScript objects calling event thread, a [[[dispatcher](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher(v=vs.110).aspx) can be used.
+Depending on your CPU configuration, the NinjaTrader application will usually consist of multiple main UI threads, where various features like Charts or NinjaScript objects run, along with a number of background worker threads where events such as market data updates will be distributed throughout the product.  In principle, an object can only access information related to objects that exist on the same thread.  It is possible (and quite likely), that the thread which a NinjaScript object is running will not be the same thread as the event which is calling the object.  In cases where you need to access objects on the UI from a NinjaScript objects calling event thread, a [dispatcher](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher(v=vs.110).aspx) can be used.
 
-> **Note:** As a best practice, you should always make sure to use [[[Dispatcher.InvokeAsync()](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher.invokeasync(v=vs.110).aspx) to ensure your action is done asynchronously to any internal NinjaTrader actions.  Calling the synchronous Dispatcher.Invoke() method can potentially result in a deadlock scenarios as your script is loaded.
+> **Note:** As a best practice, you should always make sure to use [Dispatcher.InvokeAsync()](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher.invokeasync(v=vs.110).aspx) to ensure your action is done asynchronously to any internal NinjaTrader actions.  Calling the synchronous Dispatcher.Invoke() method can potentially result in a deadlock scenarios as your script is loaded.
 
 ```csharp
 if (State == State.Historical)
@@ -27,7 +27,7 @@ if (State == State.Historical)
 
 ## Thread Access
 
-Since market data is distributed across the entire application by a randomly assigned UI thread, there is no guarantee that your object will be running on the same event thread that is calling the object. Therefore it is recommend that you call [[[Dispatcher.CheckAccess()](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher.checkaccess(v=vs.110).aspx) in order to test if you truly need to dispatch the requested action.
+Since market data is distributed across the entire application by a randomly assigned UI thread, there is no guarantee that your object will be running on the same event thread that is calling the object. Therefore it is recommend that you call [Dispatcher.CheckAccess()](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher.checkaccess(v=vs.110).aspx) in order to test if you truly need to dispatch the requested action.
 
 ```csharp
 // check if the current object is already on the calling thread
@@ -84,9 +84,9 @@ private void WriteFile()
 
 Multi-threaded consideration for Order, Execution and Position objects
 
-These considerations apply to the [[[OnOrderUpdate()](../strategies/onorderupdate.md), [[[OnExecutionUpdate()](../strategies/onexecutionupdate.md) and [[[OnPositionUpdate()](../strategies/onpositionupdate.md) handlers, where both the actual 'core' objects are passed by reference and updating method value parameters are provided. Examplary the [[[OnOrderUpdate()](../strategies/onorderupdate.md) is discussed in below.
+These considerations apply to the [OnOrderUpdate()](../strategies/onorderupdate.md), [OnExecutionUpdate()](../strategies/onexecutionupdate.md) and [OnPositionUpdate()](../strategies/onpositionupdate.md) handlers, where both the actual 'core' objects are passed by reference and updating method value parameters are provided. Examplary the [OnOrderUpdate()](../strategies/onorderupdate.md) is discussed in below.
 
-- [[[OnOrderUpdate()](../strategies/onorderupdate.md) method guarantees that you will see each order state change in sequence
+- [OnOrderUpdate()](../strategies/onorderupdate.md) method guarantees that you will see each order state change in sequence
 
 - The "order" method parameter represents the core order object updated by NinjaTrader
 

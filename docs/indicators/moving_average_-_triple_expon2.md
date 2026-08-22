@@ -4,7 +4,7 @@
 
 The triple exponential average (TRIX) indicator is an oscillator used to identify oversold and overbought markets, and it can also be used as a momentum indicator.
 
-... Courtesy of [[[Investopedia](http://www.investopedia.com/articles/technical/02/092402.asp)
+... Courtesy of [Investopedia](http://www.investopedia.com/articles/technical/02/092402.asp)
 
 ## Syntax
 
@@ -31,7 +31,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 | signalPeriod | Period for signal line |
 

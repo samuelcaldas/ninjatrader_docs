@@ -10,7 +10,7 @@ Plots trading hours break lines on the indicator panel.
 
 This property returns true if trading hours break lines are plotted on the indicator panel; otherwise, false. Default set to true.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

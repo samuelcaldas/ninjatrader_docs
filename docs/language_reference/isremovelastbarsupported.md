@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines if the bars type can use the [[[RemoveLastBar()](removelastbar.md) method when true, otherwise an exception will be thrown. Bar Types which use remove last bar concepts CANNOT be used with [[[Tick Replay](../operations/tick_replay.md), and as a result Tick Replay will be disabled on the UI when IsRemoveLastBarSupported is set to true.
+Determines if the bars type can use the [RemoveLastBar()](removelastbar.md) method when true, otherwise an exception will be thrown. Bar Types which use remove last bar concepts CANNOT be used with [Tick Replay](../operations/tick_replay.md), and as a result Tick Replay will be disabled on the UI when IsRemoveLastBarSupported is set to true.
 
 > **Note:** This property is read-only, but may be overridden in a custom bar type.
 

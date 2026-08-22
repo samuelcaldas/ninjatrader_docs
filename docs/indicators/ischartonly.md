@@ -8,7 +8,7 @@ If true, any indicator will be only available for charting usage - indicators wi
 
 This property returns true if the indicator can only be used on a chart; otherwise, false. Default set to false.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

@@ -23,7 +23,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | barCount | The number of required consecutive lower closes |
 | barDown | Each bar's open must be less than the close; true or false |
 | lowerHigh | Consecutive lower highs required; true or false |

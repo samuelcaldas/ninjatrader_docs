@@ -2,7 +2,7 @@
 
 ## Definition
 
-Provides the period (interval) used for the primary [[[Bars](bars.md) object on the chart.
+Provides the period (interval) used for the primary [Bars](bars.md) object on the chart.
 
 ## Property Value
 
@@ -31,4 +31,4 @@ Based on the image below, BarsPeriod confirms that the primary Bars object on th
 
  
 
-![[[ChartControl_BarsPeriod](../images/chartcontrol_barsperiod.png)
+![ChartControl_BarsPeriod](../images/chartcontrol_barsperiod.png)

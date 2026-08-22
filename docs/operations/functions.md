@@ -37,7 +37,7 @@ Gets the cash value for the specified account. \*Not all brokerage technologies 
 int Command(string command, string account, string instrument, string action, int quantity, string orderType, double limitPrice, double stopPrice,   
  string timeInForce, string oco, string orderId, string strategy, string strategyId)
 
-Function for submitting, cancelling and changing orders, positions and strategies. Refer to the [[[Commands and Valid Parameters](commands_and_valid_parameters.md) section for detailed information. The [[[Log](log_tab2.md) tab will list context sensitive error information.
+Function for submitting, cancelling and changing orders, positions and strategies. Refer to the [Commands and Valid Parameters](commands_and_valid_parameters.md) section for detailed information. The [Log](log_tab2.md) tab will list context sensitive error information.
 
  
 

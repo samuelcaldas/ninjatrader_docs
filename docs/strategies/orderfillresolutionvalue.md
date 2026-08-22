@@ -4,7 +4,7 @@
 
 Determines the bars period interval value which will be used for historical fill processing.
 
-> **Note:** This property will only be valid if the [[[OrderFillResolution](orderfillresolution.md) is set to OrderFillResolution.High
+> **Note:** This property will only be valid if the [OrderFillResolution](orderfillresolution.md) is set to OrderFillResolution.High
 
 ## Property Value
 
@@ -14,7 +14,7 @@ A int representing the interval used for the bars period during historical order
 
 `OrderFillResolutionValue`
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults
 
 ## Examples
 

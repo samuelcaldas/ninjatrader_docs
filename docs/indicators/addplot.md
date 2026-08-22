@@ -2,7 +2,7 @@
 
 ## Definition
 
-Adds plot objects that define how an indicator or strategy data series render on a chart. When this method is called to add a plot, an associated [[[`Series<double>`](../language_reference/seriest.md) object is created held in the [[[Values](../language_reference/value.md) collection.
+Adds plot objects that define how an indicator or strategy data series render on a chart. When this method is called to add a plot, an associated [`Series<double>`](../language_reference/seriest.md) object is created held in the [Values](../language_reference/value.md) collection.
 
 ```csharp
 State.Configure.
@@ -58,7 +58,7 @@ OnStateChange()
     }
 }
 csharp
-// Indicator using a public Series<double> to expose a plot with a friendly name. This is required for making plots accessible in the Strategy BuilderFor an example on exposing other variables publicly, see [[[Exposing Indicator values that are not plots](exposing_indicator_values_that.md)
+// Indicator using a public Series<double> to expose a plot with a friendly name. This is required for making plots accessible in the Strategy BuilderFor an example on exposing other variables publicly, see [Exposing Indicator values that are not plots](exposing_indicator_values_that.md)
 OnStateChange()
 {
     State.SetDefaults)

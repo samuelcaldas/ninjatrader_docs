@@ -33,4 +33,4 @@ Based on the image below, W reveals that the chart panel is 451 pixels wide.
 
  
 
-![[[ChartPanel_W](../images/chartpanel_w.png)
+![ChartPanel_W](../images/chartpanel_w.png)

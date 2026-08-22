@@ -14,8 +14,8 @@ This method returns an int value.
 
 |  |  |
 | --- | --- |
-| barsPeriod | The [[[bars period](barsperiod.md) chosen by the user when utilizing this Bars type |
-| tradingHours | The [[[trading hours](tradinghours.md) chosen by the user when utilizing this Bars type |
+| barsPeriod | The [bars period](barsperiod.md) chosen by the user when utilizing this Bars type |
+| tradingHours | The [trading hours](tradinghours.md) chosen by the user when utilizing this Bars type |
 | barsBack | The bars back chosen by the user when utilizing this Bars type |
 
 ## Syntax

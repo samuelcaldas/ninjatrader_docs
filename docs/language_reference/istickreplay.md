@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates if the bar series is using the [[[Tick Replay](../ninjascript/developing_for__tick_replay.md) data series property.
+Indicates if the bar series is using the [Tick Replay](../ninjascript/developing_for__tick_replay.md) data series property.
 
 ## Property Value
 
@@ -12,7 +12,7 @@ This property returns true if the bar series is using tick replay; otherwise, fa
 
 `Bars.IsTickReplay`
 
-> **Warning:** A Tick Replay indicator or strategy CANNOT use a MarketDataType.Ask or MarketDataType.Bid series.  Please see [[[Developing for Tick Replay](../ninjascript/developing_for__tick_replay.md) for more information.
+> **Warning:** A Tick Replay indicator or strategy CANNOT use a MarketDataType.Ask or MarketDataType.Bid series.  Please see [Developing for Tick Replay](../ninjascript/developing_for__tick_replay.md) for more information.
 
 ## Examples
 

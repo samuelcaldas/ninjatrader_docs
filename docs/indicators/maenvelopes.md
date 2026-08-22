@@ -43,7 +43,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 |  |  |
 | --- | --- |
 | envelopePercentage | Percentage around MA that envelopes will be drawn |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | mAType | Moving average type:  1 = EMA  2 = HMA  3 = SMA  4 = TMA  5 = TEMA  6 = WMA |
 | period | Number of bars used in the calculation |
 

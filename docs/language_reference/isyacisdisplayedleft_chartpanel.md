@@ -32,4 +32,4 @@ Based on the image below, IsYAxisDisplayedLeft confirms that the y-axis displays
 
  
 
-![[[ChartPanel_IsYAxisDisplayedLeft](../images/chartpanel_isyaxisdisplayedleft.png)
+![ChartPanel_IsYAxisDisplayedLeft](../images/chartpanel_isyaxisdisplayedleft.png)

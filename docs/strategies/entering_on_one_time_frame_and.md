@@ -10,17 +10,17 @@ You can submit orders to different bars objects. This allows you the flexibility
 
 ## Important related documentation
 
-- [[[BarsArray](../language_reference/barsarray.md)
+- [BarsArray](../language_reference/barsarray.md)
 
-- [[[BarsInProgress](../language_reference/barsinprogress.md)
+- [BarsInProgress](../language_reference/barsinprogress.md)
 
-- [[[AddDataSeries()](../language_reference/adddataseries.md)
+- [AddDataSeries()](../language_reference/adddataseries.md)
 
-- [[[BarsSinceExitExecution()](barssinceexitexecution.md)
+- [BarsSinceExitExecution()](barssinceexitexecution.md)
 
-- [[[BarsRequiredToTrade()](barsrequiredtotrade.md)
+- [BarsRequiredToTrade()](barsrequiredtotrade.md)
 
-- [[[EnterLongLimit()](enterlonglimit.md)
+- [EnterLongLimit()](enterlonglimit.md)
 
 ## Import instructions
 
@@ -30,4 +30,4 @@ You can submit orders to different bars objects. This allows you the flexibility
 
 3.Select the downloaded file
 
-[[[SampleMultiTimeFrameOrders\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleMultiTimeFrameOrders_NT8.zip)
+[SampleMultiTimeFrameOrders\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleMultiTimeFrameOrders_NT8.zip)

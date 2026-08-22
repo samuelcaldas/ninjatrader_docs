@@ -2,9 +2,9 @@
 
 ## Description
 
-Developed by Larry Williams, Williams %R is a momentum indicator that works much like the [[[Stochastic Oscillator](stochastics.md). It is especially popular for measuring overbought and oversold levels. The scale ranges from 0 to -100 with readings from 0 to -20 considered overbought, and readings from -80 to -100 considered oversold.
+Developed by Larry Williams, Williams %R is a momentum indicator that works much like the [Stochastic Oscillator](stochastics.md). It is especially popular for measuring overbought and oversold levels. The scale ranges from 0 to -100 with readings from 0 to -20 considered overbought, and readings from -80 to -100 considered oversold.
 
-... Courtesy of [[[StockCharts](https://school.stockcharts.com/doku.php?id=technical_indicators:williams_r)
+... Courtesy of [StockCharts](https://school.stockcharts.com/doku.php?id=technical_indicators:williams_r)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Examples

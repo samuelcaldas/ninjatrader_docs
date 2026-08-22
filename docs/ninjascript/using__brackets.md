@@ -1,6 +1,6 @@
 # Using [] brackets
 
-In C#, square brackets represent a way to access values stored within an collection. NinjaScript comes with quite a few collections that we call ISeries objects which could be accessed with square brackets. [[[ISeries objects](../language_reference/iseriest.md) are linked to the underlying bars series in that they hold the same number of values as the number of bars on a chart. For example, to get the close price one bar ago, you would use Close[1] since the value of 1 within the square brackets represents the number of bars ago whose value you wish to reference. As another example, to get the high three bars ago, you would use High[3].
+In C#, square brackets represent a way to access values stored within an collection. NinjaScript comes with quite a few collections that we call ISeries objects which could be accessed with square brackets. [ISeries objects](../language_reference/iseriest.md) are linked to the underlying bars series in that they hold the same number of values as the number of bars on a chart. For example, to get the close price one bar ago, you would use Close[1] since the value of 1 within the square brackets represents the number of bars ago whose value you wish to reference. As another example, to get the high three bars ago, you would use High[3].
 
 ```csharp
 double close1 = Close[1]; // gets the close price one bar ago

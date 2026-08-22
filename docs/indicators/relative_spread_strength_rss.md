@@ -2,7 +2,7 @@
 
 ## Description
 
-Developed by Ian Copsey, Relative Spread Strength is a variation to the [[[Relative Strength Index](relative_strength_index_rsi.md).
+Developed by Ian Copsey, Relative Spread Strength is a variation to the [Relative Strength Index](relative_strength_index_rsi.md).
 
 ## Syntax
 
@@ -28,7 +28,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 | --- | --- |
 | eMA1 | First EMA's period |
 | eMA2 | Second EMA's period |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | length | Number of bars used in the calculation |
 
 ## Examples

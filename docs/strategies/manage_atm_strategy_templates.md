@@ -10,12 +10,12 @@ An ATM Strategy is defined by the parameters you enter into the ATM Strategy par
 
 2.From the presented file dialog give the template a custom name
 
-![[[ATM_24](../images/atm_24.png)
+![ATM_24](../images/atm_24.png)
 
 ## Removing or Renaming ATM Strategy Templates
 
 Right clicking on an existing ATM Strategy template will give you the option to either Remove or Rename the strategy template.
 
-![[[ATM_25](../images/atm_25.png)
+![ATM_25](../images/atm_25.png)
 
-See [[[ATM Strategy Example #1](tutorial_atm_strategy_example_.md) and [[[ATM Strategy Example #2](tutorial_atm_strategy_example2.md) for further reference on how to create and save an ATM Strategy template.
+See [ATM Strategy Example #1](tutorial_atm_strategy_example_.md) and [ATM Strategy Example #2](tutorial_atm_strategy_example2.md) for further reference on how to create and save an ATM Strategy template.

@@ -32,4 +32,4 @@ Based on the image below, IsYAxisDisplayedOverlay is set to True, since the SMA 
 
  
 
-![[[ChartPanel_IsYAxisDisplayedOverlay](../images/chartpanel_isyaxisdisplayedoverlay.png)
+![ChartPanel_IsYAxisDisplayedOverlay](../images/chartpanel_isyaxisdisplayedoverlay.png)

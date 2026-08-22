@@ -75,4 +75,4 @@ protected override void OnBarUpdate()
 
  
 
-> **Note:** Please note in the example above a [[[CurrentBar](../language_reference/currentbar.md) reference is used as index, and not a BarsAgo reference.
+> **Note:** Please note in the example above a [CurrentBar](../language_reference/currentbar.md) reference is used as index, and not a BarsAgo reference.

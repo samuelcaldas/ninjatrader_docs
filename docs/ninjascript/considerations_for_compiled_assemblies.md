@@ -6,7 +6,7 @@ Compiled assemblies (DLL's) allow you to bundle your scripts into a format that 
 
 ## Using Custom enum Properties
 
-When creating custom enum properties, it is advised to create the enum outside of your NinjaScript class, and designating it in its own fully qualified namespace. For an example, please see [[[here](../indicators/creating_a_user-defined_parame.md). When using the enum in code, please use the fully qualified namespace as opposed to using a using directive to shorthand the expression.
+When creating custom enum properties, it is advised to create the enum outside of your NinjaScript class, and designating it in its own fully qualified namespace. For an example, please see [here](../indicators/creating_a_user-defined_parame.md). When using the enum in code, please use the fully qualified namespace as opposed to using a using directive to shorthand the expression.
 
 ## Casting Types in a DLL (Using dynamic Types)
 
@@ -23,7 +23,7 @@ protected override void OnBarUpdate()
 }
 ```
 
-An obstacle arises with traditional typecasting in a compiled assembly, since the NinjaScript type you attempt to cast will be present in both your DLL and NinjaTrader's Custom.dll assembly. If you plan to compile your code into a DLL, you will need to use the [[[dynamic type](https://msdn.microsoft.com/en-us/library/dd264741.aspx) to avoid this conflict by dynamically assigning the type at runtime, using the guidelines below:
+An obstacle arises with traditional typecasting in a compiled assembly, since the NinjaScript type you attempt to cast will be present in both your DLL and NinjaTrader's Custom.dll assembly. If you plan to compile your code into a DLL, you will need to use the [dynamic type](https://msdn.microsoft.com/en-us/library/dd264741.aspx) to avoid this conflict by dynamically assigning the type at runtime, using the guidelines below:
 
 1.Loop through your collection using the interface type
 
@@ -45,7 +45,7 @@ foreach (IDrawingTool line in DrawObjects.ToList())
 
  
 
-The above dynamic approach will work for primitive types. For instantiating more complex types / classes though, such as adding a new [[[PriceLevel](../language_reference/pricelevels.md) programmatically to an existing drawing tool, [[[Reflection](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection) would need to used.
+The above dynamic approach will work for primitive types. For instantiating more complex types / classes though, such as adding a new [PriceLevel](../language_reference/pricelevels.md) programmatically to an existing drawing tool, [Reflection](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection) would need to used.
 
 ```csharp
 foreach (dynamic dt in DrawObjects.ToList())
@@ -80,9 +80,9 @@ oExample: If you tried to access "line.tag" (improper capitalization) in the exa
 
 ## Adding XAML and Other Files Into a DLL
 
-When [[[exporting a compiled assembly](export.md) through NinjaTrader, no additional resource files can be added. There are two ways around this. The first is to export the DLL from NinjaTrader, then open the exported .zip file, add any additional files, and re-zip the archive, but this will result in your resource files being fully accessible to end users. The second and recommended approach is to use a fully featured IDE such as Visual Studio to build your DLL's.
+When [exporting a compiled assembly](export.md) through NinjaTrader, no additional resource files can be added. There are two ways around this. The first is to export the DLL from NinjaTrader, then open the exported .zip file, add any additional files, and re-zip the archive, but this will result in your resource files being fully accessible to end users. The second and recommended approach is to use a fully featured IDE such as Visual Studio to build your DLL's.
 
-For more information on how to accomplish this with Visual Studio, see the "AddOn Development Environment" section of the [[[AddOn Development Overview](addon_development_overview.md) page. Although the page focuses on AddOn development, the sample project it provides can be used to develop other NinjaScript types, as well.
+For more information on how to accomplish this with Visual Studio, see the "AddOn Development Environment" section of the [AddOn Development Overview](addon_development_overview.md) page. Although the page focuses on AddOn development, the sample project it provides can be used to develop other NinjaScript types, as well.
 
 ## Exporting custom drawing tools as assembly / DLL
 

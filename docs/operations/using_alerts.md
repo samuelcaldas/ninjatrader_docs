@@ -4,17 +4,17 @@
 
 When an alert condition is triggered, you can define exactly how the alert behaves allowing you to:
 
-- Display a custom message on the [[[Alerts Log](alerts_log.md)
+- Display a custom message on the [Alerts Log](alerts_log.md)
 
 - Play a sound
 
-- Share content to a specific [[[Sharing Service](../getting_started/general_section.md)
+- Share content to a specific [Sharing Service](../getting_started/general_section.md)
 
 - Display a Pop Up Dialog with a custom message
 
 - Submit a custom order\*
 
-> **Notes:** 1) While an alert will give you the ability to submit custom orders, they are natively limited in the type of account and order management information that is available.  If you are interested in developing a more complex system for an automated trading approach, please see our Help Guide articles on developing an [[[Automated NinjaScript Strategy](../strategies/strategy.md).  2) Alerts are not intended to be used with Playback while using an increased speed. Alerts are checked every 200 milliseconds, so using them in Playback could result in an alert not triggering.
+> **Notes:** 1) While an alert will give you the ability to submit custom orders, they are natively limited in the type of account and order management information that is available.  If you are interested in developing a more complex system for an automated trading approach, please see our Help Guide articles on developing an [Automated NinjaScript Strategy](../strategies/strategy.md).  2) Alerts are not intended to be used with Playback while using an increased speed. Alerts are checked every 200 milliseconds, so using them in Playback could result in an alert not triggering.
 
 ## What kind of information can be used for an alert?
 

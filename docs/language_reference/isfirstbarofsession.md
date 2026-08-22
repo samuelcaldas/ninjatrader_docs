@@ -16,13 +16,13 @@ Indicates if the current bar processing is the first bar updated in a trading se
 
 This property returns true if the bar is the first processed in a session; otherwise, false.  This property is read-only.
 
-> **Warning:** This property will always return false on non-intraday bar periods (e.g., Day, Month, etc).  For checking for new non-intraday bar updates, please see [[[IsFirstTickOfBar](isfirsttickofbar.md)
+> **Warning:** This property will always return false on non-intraday bar periods (e.g., Day, Month, etc).  For checking for new non-intraday bar updates, please see [IsFirstTickOfBar](isfirsttickofbar.md)
 
 ## Syntax
 
 `Bars.IsFirstBarOfSession`
 
-> **Tip:** For checking at a specified bar index, please see [[[IsFirstBarOfSessionByIndex()](isfirstbarofsessionbyindex.md)
+> **Tip:** For checking at a specified bar index, please see [IsFirstBarOfSessionByIndex()](isfirstbarofsessionbyindex.md)
 
 ## Examples
 

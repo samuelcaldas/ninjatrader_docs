@@ -2,11 +2,11 @@
 
 ## Definition
 
-Called for each record in the corresponding base dataset used to build the BarType (i.e., for every tick, minute, or day). The OnDataPoint() method is where you should adjust data points (bar values) of your series through [[[AddBar()](addbar.md) and [[[UpdateBar()](updatebar.md).  See also the [[[BuiltFrom](builtfrom.md) property.
+Called for each record in the corresponding base dataset used to build the BarType (i.e., for every tick, minute, or day). The OnDataPoint() method is where you should adjust data points (bar values) of your series through [AddBar()](addbar.md) and [UpdateBar()](updatebar.md).  See also the [BuiltFrom](builtfrom.md) property.
 
  
 
-> **Notes:** 1.Historical data processing receives a single update for every base bar determined by the BuiltFrom property  2.When using [[[TickReplay](../operations/tick_replay.md), historical updates will call for every tick handled by the core regardless of the BuiltFrom property defined  3.Once transitioned to real-time, updates will call on every tick processed by the core  4.The bid/ask parameters will ONLY be available historically when using [[[Tick Replay](../operations/tick_replay.md), unless you are using a 1-tick series  5.isBar could be true in case the BarsSeries was internally copied to another BarsSeries and is only needed for [[[IsTimeBased](barstype_istimebased.md) = true BarsTypes (e.g. Second/Minute/Day...).
+> **Notes:** 1.Historical data processing receives a single update for every base bar determined by the BuiltFrom property  2.When using [TickReplay](../operations/tick_replay.md), historical updates will call for every tick handled by the core regardless of the BuiltFrom property defined  3.Once transitioned to real-time, updates will call on every tick processed by the core  4.The bid/ask parameters will ONLY be available historically when using [Tick Replay](../operations/tick_replay.md), unless you are using a 1-tick series  5.isBar could be true in case the BarsSeries was internally copied to another BarsSeries and is only needed for [IsTimeBased](barstype_istimebased.md) = true BarsTypes (e.g. Second/Minute/Day...).
 
  
 

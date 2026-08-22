@@ -2,9 +2,9 @@
 
 ## Definition
 
-Reserved for [[[Walk-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "in sample" backtest period for a given strategy.  See also [[[TestPeriod](testperiod.md).
+Reserved for [Walk-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "in sample" backtest period for a given strategy.  See also [TestPeriod](testperiod.md).
 
-> **Note:** This property should ONLY be called from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults
+> **Note:** This property should ONLY be called from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults
 
 ## Property Value
 

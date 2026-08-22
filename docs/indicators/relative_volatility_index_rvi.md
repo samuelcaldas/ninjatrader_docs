@@ -2,7 +2,7 @@
 
 ## Description
 
-Developed by Donald Dorsey, the Relative Volatility Index is the [[[RSI](relative_strength_index_rsi.md) using the standard deviation over the indicator period in place of the daily price change. The RVI measures the direction of volatility on a scale from 0 to 100. Readings below 50 indicate that the direction of volatility is to the downside and that you should be looking to sell, readings above 50 indicate that the direction of volatilty is to the upside and that you should be looking to buy.
+Developed by Donald Dorsey, the Relative Volatility Index is the [RSI](relative_strength_index_rsi.md) using the standard deviation over the indicator period in place of the daily price change. The RVI measures the direction of volatility on a scale from 0 to 100. Readings below 50 indicate that the direction of volatility is to the downside and that you should be looking to sell, readings above 50 indicate that the direction of volatilty is to the upside and that you should be looking to buy.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Example

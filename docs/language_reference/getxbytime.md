@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns the chart-canvas x-coordinate of the slot index of the primary [[[Bars](bars.md) object corresponding to a specified time.
+Returns the chart-canvas x-coordinate of the slot index of the primary [Bars](bars.md) object corresponding to a specified time.
 
  
 
@@ -20,7 +20,7 @@ An int representing a chart-canvas x-coordinate
 
 |  |  |
 | --- | --- |
-| time | A [[[DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object used to determine an x-coordinate |
+| time | A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).aspx) object used to determine an x-coordinate |
 
 ## Examples
 

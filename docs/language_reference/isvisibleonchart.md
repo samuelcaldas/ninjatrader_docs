@@ -23,8 +23,8 @@ public override bool IsVisibleOnChart(ChartControl chartControl, ChartScale char
 
 |  |  |
 | --- | --- |
-| chartControl | A [[[ChartControl](chartcontrol.md) representing the x-axis |
-| chartScale | A [[[ChartScale](chartscale.md) representing the y-axis |
+| chartControl | A [ChartControl](chartcontrol.md) representing the x-axis |
+| chartScale | A [ChartScale](chartscale.md) representing the y-axis |
 | firstTimeOnChart | A DateTime representing the first painted bar displayed on the chart |
 | lastTimeOnChart | A DateTime representing the last painted bar displayed on the chart |
 

@@ -2,13 +2,13 @@
 
 ## Definition
 
-Returns an [[[Instrument](instruments.md) object by the master instrument name configured in the database.
+Returns an [Instrument](instruments.md) object by the master instrument name configured in the database.
 
-> **Note:** This method does NOT add additional data for real-time or historical processing.  For adding an additional data to your script, please see the  [[[AddDataSeries()](adddataseries.md) method.
+> **Note:** This method does NOT add additional data for real-time or historical processing.  For adding an additional data to your script, please see the  [AddDataSeries()](adddataseries.md) method.
 
 ## Method Return Value
 
-An [[[Instrument](instrument.md) object
+An [Instrument](instrument.md) object
 
 ## Syntax
 

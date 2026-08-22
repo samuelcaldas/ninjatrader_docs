@@ -4,7 +4,7 @@
 
 MACD uses moving averages, which are lagging indicators, to include some trend-following characteristics. These lagging indicators are turned into a momentum oscillator by subtracting the longer moving average from the shorter moving average.
 
-... Courtesy of [[[StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_MACD1.md)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_MACD1.md)
 
 ## Syntax
 
@@ -37,8 +37,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| fast | The number of bars to calculate the fast [[[EMA](moving_average_-_exponential_e.md) |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| fast | The number of bars to calculate the fast [EMA](moving_average_-_exponential_e.md) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | slow | The numbers of bars to calculate the slow EMA |
 | smooth | The number of bars to calculate the EMA signal line |
 

@@ -8,7 +8,7 @@ Determines if plot(s) display in the chart data box.
 
 This property returns true if the indicator plot(s) values display in the chart data box; otherwise, false. Default set to true.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

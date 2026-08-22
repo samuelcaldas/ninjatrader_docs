@@ -4,7 +4,7 @@
 
 An indicator used in technical analysis that determines overbought and oversold conditions of a particular asset. This indicator is very similar to the relative strength index (RSI). The main difference between the two is that the RSI uses a fixed number of time periods (usually 14), while the dynamic momentum index uses different time periods as volatility changes.
 
-... Courtesy of [[[Investopedia](http://www.investopedia.com/terms/d/dynamicmomentumindex.asp)
+... Courtesy of [Investopedia](http://www.investopedia.com/terms/d/dynamicmomentumindex.asp)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | smooth | The number of bars to include in the calculation |
 
 ## Example

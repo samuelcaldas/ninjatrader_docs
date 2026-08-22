@@ -4,7 +4,7 @@
 
 Returns a matching real-time order object based on a specified historical order object reference.
 
-> **Note:** This method is only needed if you have historical order references which you wish to transition and manage in real-time (i.e., you had a working order which was submitted historically and re-submitted in real-time as the strategy is enabled). This method only needs to be called once per order object, and should be done in OnOrderUpdate to handle all scenarios.  Please see the [[[Advanced Order Handling](advanced_order_handling.md) section on transition orders for more details.
+> **Note:** This method is only needed if you have historical order references which you wish to transition and manage in real-time (i.e., you had a working order which was submitted historically and re-submitted in real-time as the strategy is enabled). This method only needs to be called once per order object, and should be done in OnOrderUpdate to handle all scenarios.  Please see the [Advanced Order Handling](advanced_order_handling.md) section on transition orders for more details.
 
  
 
@@ -12,7 +12,7 @@ Returns a matching real-time order object based on a specified historical order 
 
 ## Method Return Value
 
-Returns a real-time [[[order](order.md) reference associated with the historical order object.  If no associated order exists (i.e. OrderState is Filled, Canceled, Rejected, Unknown), a null value returns
+Returns a real-time [order](order.md) reference associated with the historical order object.  If no associated order exists (i.e. OrderState is Filled, Canceled, Rejected, Unknown), a null value returns
 
 Syntax  
 GetRealtimeOrder(Order historicalOrder)
@@ -21,7 +21,7 @@ GetRealtimeOrder(Order historicalOrder)
 
 |  |  |
 | --- | --- |
-| historicalOrder | The historical [[[order](order.md) object to update to real-time |
+| historicalOrder | The historical [order](order.md) object to update to real-time |
 
 ## Examples
 

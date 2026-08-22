@@ -4,7 +4,7 @@
 
 A collection of properties related to the configuration of the Chart
 
-![[[Chart_Properites](../images/chart_properites.png)
+![Chart_Properites](../images/chart_properites.png)
 
 > **Warning:** These are UI properties which are designed to be set by a user.  Attempting to modify these values through a custom script is NOT guaranteed to take effect.
 

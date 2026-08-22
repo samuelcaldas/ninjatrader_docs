@@ -10,15 +10,15 @@ There may be cases where you want to have your indicator calculate non-plotted v
 
 ## Important related documentation
 
-- [[[`Series<T>`](../language_reference/seriest.md)
+- [`Series<T>`](../language_reference/seriest.md)
 
 We suggest using an available class that implements the Series interface.
 
-- [[[Price Series](../language_reference/priceseries.md)
+- [Price Series](../language_reference/priceseries.md)
 
-- [[[Time Series](../language_reference/timeseries.md)
+- [Time Series](../language_reference/timeseries.md)
 
-- [[[Volume Series](../language_reference/volumeseries.md)
+- [Volume Series](../language_reference/volumeseries.md)
 
 ## Import instructions
 
@@ -28,4 +28,4 @@ We suggest using an available class that implements the Series interface.
 
 3.Select the downloaded file
 
-[[[SampleBoolSeries\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleBoolSeries_NT8.zip)
+[SampleBoolSeries\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleBoolSeries_NT8.zip)

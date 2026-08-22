@@ -6,7 +6,7 @@ You can create an unlimited number of simulation accounts in NinjaTrader.
 
 1.Open the NinjaTrader Control Center
 
-2.Select the [[[Accounts](accounts_tab.md) tab
+2.Select the [Accounts](accounts_tab.md) tab
 
 3.Right click on the accounts tab and select New simulation account...
 

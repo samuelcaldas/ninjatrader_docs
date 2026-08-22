@@ -4,7 +4,7 @@
 
 The Chaikin Oscillator is simply the Moving Average Convergence Divergence indicator (MACD) applied to the Accumulation/Distribution Line. The formula is the difference between the 3-day exponential moving average and the 10-day exponential moving average of the Accumulation/Distribution Line. Just as the MACD-Histogram is an indicator to predict moving average crossovers in MACD, the Chaikin Oscillator is an indicator to predict changes in the Accumulation/Distribution Line.
 
-... Courtesy of [[[StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_ChaikinOscillator.md)
+... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_ChaikinOscillator.md)
 
 ## Syntax
 
@@ -25,8 +25,8 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| fast | The number of bars to calculate the fast [[[EMA](moving_average_-_exponential_e.md) |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| fast | The number of bars to calculate the fast [EMA](moving_average_-_exponential_e.md) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | slow | The number of bars to calculate the slow EMA |
 
 ## Example

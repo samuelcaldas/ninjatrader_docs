@@ -6,7 +6,7 @@ Draws a region highlight y on a chart.
 
 ## Method Return Value
 
-A [[[RegionHighlightY](regionhighlighty.md) object that represents the draw object.
+A [RegionHighlightY](regionhighlighty.md) object that represents the draw object.
 
 Syntax
 
@@ -25,8 +25,8 @@ Draw.RegionHighlightY(NinjaScriptBase owner, string tag, double startY, double e
 | isAutoScale | Determines if the draw object will be included in the y-axis scale. Default value is false. |
 | startY | The starting y value co-ordinate where the draw object will be drawn |
 | endY | The ending y value co-ordinate where the draw object will be drawn |
-| brush | The brush used to color the outline of draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
-| areaBrush | The brush used to color the fill area of the draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| brush | The brush used to color the outline of draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| areaBrush | The brush used to color the fill area of the draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | areaOpacity | Sets the level of transparency for the fill color. Valid values between 0 - 100. (0 = completely transparent, 100 = no opacity) |
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |

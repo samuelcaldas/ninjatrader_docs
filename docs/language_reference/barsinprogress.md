@@ -2,13 +2,13 @@
 
 ## Definition
 
-An index value of the current Bars object that has called the [[[OnBarUpdate()](onbarupdate.md) method. In a multi-bars script, the OnBarUpdate() method is called for each Bars object of a script. This flexibility allows you to separate trading logic from different bar events.
+An index value of the current Bars object that has called the [OnBarUpdate()](onbarupdate.md) method. In a multi-bars script, the OnBarUpdate() method is called for each Bars object of a script. This flexibility allows you to separate trading logic from different bar events.
 
-> **Notes:** 1.In a single Bars script this property will always return an index value of 0 representing the primary Bars and instrument the script is running on.  2.See additional information on running [[[multi-bars scripts](multi-time_frame__instruments.md).
+> **Notes:** 1.In a single Bars script this property will always return an index value of 0 representing the primary Bars and instrument the script is running on.  2.See additional information on running [multi-bars scripts](multi-time_frame__instruments.md).
 
 ## Property Value
 
-An int value represents the [[[Bars](bars.md) object that is calling the OnBarUpdate() method.
+An int value represents the [Bars](bars.md) object that is calling the OnBarUpdate() method.
 
 ## Syntax
 

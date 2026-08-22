@@ -10,9 +10,9 @@ The Strategy Analyzer window contains the following items:
 
 2. The Settings panel sets the parameters to be used for the strategy backtest.
 
-3. Where [[[Performance results](../operations/performance_displays.md) are displayed based on the display selection.
+3. Where [Performance results](../operations/performance_displays.md) are displayed based on the display selection.
 
-![[[StrategyAnalyzer_Layout1](../images/strategyanalyzer_layout1.png)
+![StrategyAnalyzer_Layout1](../images/strategyanalyzer_layout1.png)
 
 ## Log Grid
 
@@ -22,4 +22,4 @@ You can toggle the log to be displayed, this shows summary details from all prev
 
 2. The Log will be made visible as shown below.
 
-![[[StrategyAnalyzer_Layout2](../images/strategyanalyzer_layout2.png)
+![StrategyAnalyzer_Layout2](../images/strategyanalyzer_layout2.png)

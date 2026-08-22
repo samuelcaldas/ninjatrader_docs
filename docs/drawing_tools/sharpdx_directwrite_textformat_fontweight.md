@@ -1,12 +1,12 @@
 # SharpDX.DirectWrite.TextFormat.FontWeight
 
-> **Disclaimer:** The [[[SharpDX SDK Reference](sharpdx_sdk_reference.md) section was compiled from the official [[[SharpDX Documentation](http://sharpdx.org/) and was NOT authored by NinjaTrader.  The contents of this section are provided as-is and only cover a fraction of what is available from the SharpDX SDK.  This page was intended only as a reference guide to help you get started with some of the 2D Graphics concepts used in the NinjaTrader.Custom assembly.  Please refer to the official SharpDX Documentation for additional members not covered in this reference.  For more seasoned graphic developers, the original MSDN [[[Direct2D1](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx) and [[[DirectWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368038.aspx) unmanaged API documentation can also be helpful for understanding the DirectX/Direct2D run-time environment. For NinjaScript development purposes, we document only essential members in the structure of this page.
+> **Disclaimer:** The [SharpDX SDK Reference](sharpdx_sdk_reference.md) section was compiled from the official [SharpDX Documentation](http://sharpdx.org/) and was NOT authored by NinjaTrader.  The contents of this section are provided as-is and only cover a fraction of what is available from the SharpDX SDK.  This page was intended only as a reference guide to help you get started with some of the 2D Graphics concepts used in the NinjaTrader.Custom assembly.  Please refer to the official SharpDX Documentation for additional members not covered in this reference.  For more seasoned graphic developers, the original MSDN [Direct2D1](https://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx) and [DirectWrite](https://msdn.microsoft.com/en-us/library/windows/desktop/dd368038.aspx) unmanaged API documentation can also be helpful for understanding the DirectX/Direct2D run-time environment. For NinjaScript development purposes, we document only essential members in the structure of this page.
 
 ## Definition
 
 Gets the font weight of the text.
 
-(See also [[[unmanaged API documentation](https://msdn.microsoft.com/en-us/library/dd316652.aspx))
+(See also [unmanaged API documentation](https://msdn.microsoft.com/en-us/library/dd316652.aspx))
 
 > **Notes:** 1.Weight differences are generally differentiated by an increased stroke or thickness that is associated with a given character in a typeface, as compared to a "normal" character from that same typeface.  2.Not all weights are available for all typefaces. When a weight is not available for a typeface, the closest matching weight is returned.  3.Font weight values less than 1 or greater than 999 are considered invalid, and they are rejected by font API functions.
 

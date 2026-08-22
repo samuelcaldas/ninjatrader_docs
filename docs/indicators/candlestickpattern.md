@@ -25,7 +25,7 @@ Accessing this method via an index value [int barsAgo] returns the indicator val
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | pattern | Possible values are:     ChartPattern.BearishBeltHold  ChartPattern.BearishEngulfing  ChartPattern.BearishHarami  ChartPattern.BearishHaramiCross  ChartPattern.BullishBeltHold  ChartPattern.BullishEngulfing  ChartPattern.BullishHarami  ChartPattern.BullishHaramiCross  ChartPattern.DarkCloudCover  ChartPattern.Doji  ChartPattern.DownsideTasukiGap  ChartPattern.EveningStar  ChartPattern.FallingThreeMethods  ChartPattern.Hammer  ChartPattern.HangingMan  ChartPattern.InvertedHammer  ChartPattern.MorningStart  ChartPattern.PiercingLine  ChartPattern.RisingThreeMethods  ChartPattern.ShootingStar  ChartPattern.StickSandwich  ChartPattern.ThreeBlackCrows  ChartPattern.ThreeWhiteSoldiers  ChartPattern.UpsideGapTwoCrows  ChartPattern.UpsideTasukiGap |
 | trendStrength | The number of required bars to the left and right of the swing point used to determine trend. A value of zero will exclude the requirement of a trend and only detect based on the candles themselves. |
 

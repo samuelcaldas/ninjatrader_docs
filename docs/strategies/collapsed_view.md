@@ -4,8 +4,8 @@ Chart Trader can be displayed fully, disabled fully, or collapsed. When the coll
 
 ## Collapsing and restoring the Chart Trader panel
 
-There are two ways to collapse the Chart Trader panel. You can either click the Chart Trader icon on the chart toolbar, then select the "Chart Trader (Hidden)" menu item, as seen in the image below, or you can edit the "Chart Trader" property within the [[[chart Properties](../operations/chart_properties.md) window. When you wish to view the Chart Trader panel once more, you can use the same methods to select the "Chart Trader" menu item.
+There are two ways to collapse the Chart Trader panel. You can either click the Chart Trader icon on the chart toolbar, then select the "Chart Trader (Hidden)" menu item, as seen in the image below, or you can edit the "Chart Trader" property within the [chart Properties](../operations/chart_properties.md) window. When you wish to view the Chart Trader panel once more, you can use the same methods to select the "Chart Trader" menu item.
 
-![[[ChartTrader3](../images/charttrader3.png)
+![ChartTrader3](../images/charttrader3.png)
 
 In the image above, we see an open position and a modifiable resting order on the chart, even though the Chart Trader panel is hidden.

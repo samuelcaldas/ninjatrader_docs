@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns the Sharpe ratio using a [[[risk free return](riskfreereturn.md).
+Returns the Sharpe ratio using a [risk free return](riskfreereturn.md).
 
 ## Property Value
 

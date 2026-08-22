@@ -4,7 +4,7 @@
 
 Returns the current real-time ask price.
 
-> **Notes:** 1. When accessed during State.Historical, the [[[Close](close.md) price of the evaluated bar is substituted.  To access historical Ask prices, please see [[[Developing for Tick Replay](../ninjascript/developing_for__tick_replay.md).  2. The GetCurrentAsk() method runs on the bar series currently updating determined by the [[[BarsInProgress](barsinprogress.md) property.  For [[[multi-instrument](multi-time_frame__instruments.md) scripts, an additional int "barsSeriesIndex" parameter can be supplied which forces the method to run on an supplementary bar series.
+> **Notes:** 1. When accessed during State.Historical, the [Close](close.md) price of the evaluated bar is substituted.  To access historical Ask prices, please see [Developing for Tick Replay](../ninjascript/developing_for__tick_replay.md).  2. The GetCurrentAsk() method runs on the bar series currently updating determined by the [BarsInProgress](barsinprogress.md) property.  For [multi-instrument](multi-time_frame__instruments.md) scripts, an additional int "barsSeriesIndex" parameter can be supplied which forces the method to run on an supplementary bar series.
 
 ## Method Return Value
 

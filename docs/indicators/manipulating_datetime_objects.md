@@ -8,21 +8,21 @@ An essential element of any trader's strategies or indicators is time. You may f
 
 ## Important related documentation
 
-- [[[DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx)
+- [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx)
 
-- [[[DateTime.Add()](http://msdn.microsoft.com/en-us/library/system.datetime.add.aspx)
+- [DateTime.Add()](http://msdn.microsoft.com/en-us/library/system.datetime.add.aspx)
 
-- [[[DateTime.Compare()](http://msdn.microsoft.com/en-us/library/system.datetime.compare.aspx)
+- [DateTime.Compare()](http://msdn.microsoft.com/en-us/library/system.datetime.compare.aspx)
 
-- [[[DateTime.Now](http://msdn.microsoft.com/en-us/library/system.datetime.now.aspx)
+- [DateTime.Now](http://msdn.microsoft.com/en-us/library/system.datetime.now.aspx)
 
-- [[[DateTime.TryParse()](http://msdn.microsoft.com/en-us/library/system.datetime.tryparse.aspx)
+- [DateTime.TryParse()](http://msdn.microsoft.com/en-us/library/system.datetime.tryparse.aspx)
 
-- [[[TimeSpan](http://msdn.microsoft.com/en-us/library/system.timespan.aspx)
+- [TimeSpan](http://msdn.microsoft.com/en-us/library/system.timespan.aspx)
 
-- [[[DateTime.ToString(string)](http://msdn.microsoft.com/en-us/library/zdtaw1bw.aspx)
+- [DateTime.ToString(string)](http://msdn.microsoft.com/en-us/library/zdtaw1bw.aspx)
 
-- [[[string.Format()](http://msdn.microsoft.com/en-us/library/system.string.format.aspx)
+- [string.Format()](http://msdn.microsoft.com/en-us/library/system.string.format.aspx)
 
 ## Import instructions
 
@@ -32,4 +32,4 @@ An essential element of any trader's strategies or indicators is time. You may f
 
 3.Select the downloaded file
 
-[[[SampleDateTimeFunctions\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleDateTimeFunctions_NT8.zip)
+[SampleDateTimeFunctions\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleDateTimeFunctions_NT8.zip)

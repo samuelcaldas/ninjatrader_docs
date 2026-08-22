@@ -4,7 +4,7 @@
 
 Represents a number of properties available to the Chart Scale which can be configured to change the appearance of the scale.
 
-![[[ChartPanel_Properites](../images/chartpanel_properites.png)
+![ChartPanel_Properites](../images/chartpanel_properites.png)
 
 > **Warning:** These are UI properties which are designed to be set by a user.  Attempting to modify these values through a custom script is NOT guaranteed to take effect.
 

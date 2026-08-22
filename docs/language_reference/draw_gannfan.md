@@ -6,7 +6,7 @@ Draws a Gann Fan.
 
 ## Method Return Value
 
-A [[[GannFan](gannfan.md) object that represents the draw object.
+A [GannFan](gannfan.md) object that represents the draw object.
 
 Syntax 
 Draw.GannFan(NinjaScriptBase owner, string tag, bool isAutoScale, int barsAgo, double y) 

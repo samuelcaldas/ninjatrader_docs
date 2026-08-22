@@ -10,7 +10,7 @@ A value of int.MaxValue determines no practical limit and will make the characte
 
 A int value that represents the maximum number of characters the social network allows.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

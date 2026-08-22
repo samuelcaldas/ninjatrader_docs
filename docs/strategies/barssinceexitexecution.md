@@ -12,7 +12,7 @@ Syntax
 BarsSinceExitExecution() 
 ## BarsSinceExitExecution(string signalName)
 
-The following method signature should be used when working with [[[multi-time frame and instrument strategies](../language_reference/multi-time_frame__instruments.md):
+The following method signature should be used when working with [multi-time frame and instrument strategies](../language_reference/multi-time_frame__instruments.md):
 
 BarsSinceExitExecution(int barsInProgressIndex, string signalName, int exitExecutionsAgo)  
  
@@ -24,10 +24,10 @@ BarsSinceExitExecution(int barsInProgressIndex, string signalName, int exitExecu
 |  |  |
 | --- | --- |
 | signalName | The signal name of an exit order specified in an order exit method. |
-| barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [[[BarsInProgress](../language_reference/barsinprogress.md) property. |
+| barsInProgressIndex | The index of the Bars object the entry order was submitted against.    Note:  See the [BarsInProgress](../language_reference/barsinprogress.md) property. |
 | exitExecutionsAgo | Number of exit executions ago. Pass in 0 for the number of bars since the last exit execution. |
 
-> **Tip:** Please see [[[SetStopLoss()](setstoploss.md), [[[SetProfitTarget()](setprofittarget.md) or [[[SetTrailStop()](settrailstop.md) for their corresponding signal name
+> **Tip:** Please see [SetStopLoss()](setstoploss.md), [SetProfitTarget()](setprofittarget.md) or [SetTrailStop()](settrailstop.md) for their corresponding signal name
 
 ## Examples
 

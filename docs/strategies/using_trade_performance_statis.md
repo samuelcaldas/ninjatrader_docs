@@ -12,11 +12,11 @@ For money management reasons you may want to limit your strategy from aggressive
 
 ## Important related documentation
 
-- [[[SystemPerformance](systemperformance.md)
+- [SystemPerformance](systemperformance.md)
 
-- [[[TradeCollection](tradecollection.md)
+- [TradeCollection](tradecollection.md)
 
-- [[[AllTrades\*](alltrades.md)
+- [AllTrades\*](alltrades.md)
 
 \* This reference sample uses the .AllTrades property. This property will include all historical virtual trades as well as real-time trades. If you wish to only make calculations based on real-time trades you can use the .RealtimeTrades property.
 
@@ -28,4 +28,4 @@ For money management reasons you may want to limit your strategy from aggressive
 
 3.Select the downloaded file
 
-[[[SamplePnL\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SamplePnL_NT8.zip)
+[SamplePnL\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SamplePnL_NT8.zip)

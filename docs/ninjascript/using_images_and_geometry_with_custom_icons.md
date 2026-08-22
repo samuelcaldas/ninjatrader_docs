@@ -2,9 +2,9 @@
 
 ## Custom Icon Overview
 
-When overriding the Icon method in a [[[Share Service](../language_reference/share_service.md), [[[Drawing Object](../drawing_tools/drawing_tools.md), or [[[Chart Style](../drawing_tools/chart_style.md), you can use a variety of inputs to specify what will be displayed on the icon, including UniCode characters (if they exist in the icon pack for the font family used in NinjaTrader), custom Geometry Paths from the System.Windows.Shapes namespace, or image files. Using an image file for a custom icon can allow the flexibility of creating your icon's visuals outside of your code via image editing software. For more information about adding custom Icons, see the "Icon" page under the topics for each of the NinjaScript object types listed above.
+When overriding the Icon method in a [Share Service](../language_reference/share_service.md), [Drawing Object](../drawing_tools/drawing_tools.md), or [Chart Style](../drawing_tools/chart_style.md), you can use a variety of inputs to specify what will be displayed on the icon, including UniCode characters (if they exist in the icon pack for the font family used in NinjaTrader), custom Geometry Paths from the System.Windows.Shapes namespace, or image files. Using an image file for a custom icon can allow the flexibility of creating your icon's visuals outside of your code via image editing software. For more information about adding custom Icons, see the "Icon" page under the topics for each of the NinjaScript object types listed above.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |
 | --- | --- | --- | --- |
@@ -46,7 +46,7 @@ public override object Icon
 }
 ```
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |
 | --- | --- | --- |

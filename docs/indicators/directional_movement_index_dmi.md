@@ -4,7 +4,7 @@
 
 An indicator developed by J. Welles Wilder for identifying when a definable trend is present in an instrument. That is, the DMI tells whether an instrument is trending or not.
 
-...Courtesy of [[[FMLabs](http://www.fmlabs.com/reference/default.md?url=DX.md)
+...Courtesy of [FMLabs](http://www.fmlabs.com/reference/default.md?url=DX.md)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Example

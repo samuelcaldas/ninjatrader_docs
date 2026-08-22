@@ -6,7 +6,7 @@ Returns a virtual historical Bar object that represents a trading day whose prop
 
  
 
-> **Notes:** 1.The bar object returned is a "virtual bar" built from the underlying bar series and its configured session.  Since the bar object is virtual, its property values are calculated based on session definitions contained in the trading day only. The returned bar object does NOT necessarily represent the actual day.  For accessing a true "Daily" bar, please see use [[[AddDataSeries()](adddataseries.md) and use the BarsPeriodType.Day as the bars period.  2.GetDayBar() should ONLY be used for accessing prior trading day data. To access current trading day data, use the [[[CurrentDayOHL()](../indicators/current_day_ohl.md) method.
+> **Notes:** 1.The bar object returned is a "virtual bar" built from the underlying bar series and its configured session.  Since the bar object is virtual, its property values are calculated based on session definitions contained in the trading day only. The returned bar object does NOT necessarily represent the actual day.  For accessing a true "Daily" bar, please see use [AddDataSeries()](adddataseries.md) and use the BarsPeriodType.Day as the bars period.  2.GetDayBar() should ONLY be used for accessing prior trading day data. To access current trading day data, use the [CurrentDayOHL()](../indicators/current_day_ohl.md) method.
 
  
 
@@ -25,7 +25,7 @@ Bars.GetDayBar(int tradingDaysBack).Close
 
  
 
-The property below returns a [[[DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx) structure:
+The property below returns a [DateTime](http://msdn.microsoft.com/en-us/library/system.datetime.aspx) structure:
 
 Bars.GetDayBar(int tradingDaysBack).Time
 

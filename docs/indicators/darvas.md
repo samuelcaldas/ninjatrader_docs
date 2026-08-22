@@ -4,7 +4,7 @@
 
 A trading strategy that was developed in 1956 by former ballroom dancer Nicolas Darvas.  Darvas' trading technique involved buying into stocks that were trading at new 52-week highs with correspondingly high volumes.
 
-... Courtesy of [[[Investopedia](http://www.investopedia.com/terms/d/darvasboxtheory.asp)
+... Courtesy of [Investopedia](http://www.investopedia.com/terms/d/darvasboxtheory.asp)
 
 ## Syntax
 
@@ -36,7 +36,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 ## Example
 

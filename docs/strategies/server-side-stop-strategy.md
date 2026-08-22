@@ -8,11 +8,11 @@ A Stop Strategy is an extension of an ATM Strategy. It allows you to combineAuto
 
 When setting up an ATM Strategy, you can select either None, Auto Breakeven, Auto Trail, or Auto Breakeven + Auto Trail before entering a position as part of a stop strategy.
 
-![[[ServerSideATM_5](../images/serversideatm_5.png)
+![ServerSideATM_5](../images/serversideatm_5.png)
 
 When selecting Auto Breakeven, Auto Trail, or Auto Breakeven + Auto Trail the related Stop Strategy Dialog window will appear.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |
 | --- | --- | --- | --- | --- |
@@ -20,7 +20,7 @@ When selecting Auto Breakeven, Auto Trail, or Auto Breakeven + Auto Trail the re
 - Profit Trigger - 10 ticks
 - Plus - 2 ticks    Average Entry - 10200 Short (DOW Emini contract)  As soon as the market trades at 10190 (Average Entry - Profit Trigger = 10200 - 10 ticks = 10190) NinjaTrader will move the Stop Loss order to 10,198 (Average Entry - Plus = 10200 - 2 ticks = 10198) and enter a log event in the Log tab. |
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding the server side Auto Trail parameters
+![tog_minus](../images/tog_minus.gif)        Understanding the server side Auto Trail parameters
 
 |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -29,7 +29,7 @@ When selecting Auto Breakeven, Auto Trail, or Auto Breakeven + Auto Trail the re
 - Profit Trigger - 4 ticks
 - Frequency - 2 ticks    Your Stop loss will move 6 ticks behind the current price...  ... after the price has moved 4 ticks in your favor...  ... and your Stop loss will continue to trail 6 ticks behind the current price with ever additional 2 ticks in your favor.    Average Entry - 1000 Long (SP Emini contract)  The market moves up to 1001 and the Auto Trail is triggered (Average Entry + Profit Trigger = 1000 + 4 ticks = 1001) and the Stop Loss is adjusted to 999.50 (1001 - Stop Loss = 1001 - 6 ticks = 999.50). For every additional 2 ticks (Frequency of 2 ticks) the Stop Loss will be adjusted by 2 ticks. |
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding the server side Auto Breakeven + Auto Trail parameters
+![tog_minus](../images/tog_minus.gif)        Understanding the server side Auto Breakeven + Auto Trail parameters
 
 |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

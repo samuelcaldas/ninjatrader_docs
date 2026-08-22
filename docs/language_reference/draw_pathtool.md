@@ -6,7 +6,7 @@ Draws a path which can have a user defined set of anchors.
 
 ## Method Return Value
 
-A [[[PathTool](pathtool.md) object that represents the draw object.
+A [PathTool](pathtool.md) object that represents the draw object.
 
 ## Syntax
 
@@ -51,7 +51,7 @@ Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, `List<ChartAn
 | Anchor3Time | The time the third anchor of the object will be drawn at |
 | Anchor4Time | The time the forth anchor of the object will be drawn at |
 | Anchor5Time | The time the fifth anchor of the object will be drawn at |
-| Brush | The brush used to color draw object ([[[reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
+| Brush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
 ## Examples

@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines the [[[ZOrder](chart_zorder.md) of the drawing object will be different than the NinjaScript object that drew it.  When false the drawing object will share the same ZOrder.
+Determines the [ZOrder](chart_zorder.md) of the drawing object will be different than the NinjaScript object that drew it.  When false the drawing object will share the same ZOrder.
 
 ## Property Value
 

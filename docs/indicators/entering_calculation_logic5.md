@@ -47,7 +47,7 @@ BelowZero[0] = SMA(ROC(Period), Smooth)[0];
 
 The calculation first checks to ensure there are enough bars to complete the calculation and then sets both plot lines to the ROC value.
 
-The class code in your editor should look identical to the image below. You are now ready to [[[compile the indicator](compiling5.md) and configure it on a chart.
+The class code in your editor should look identical to the image below. You are now ready to [compile the indicator](compiling5.md) and configure it on a chart.
 
 ```csharp
 public class CustomROC : Indicator

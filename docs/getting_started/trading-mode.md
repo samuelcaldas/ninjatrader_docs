@@ -2,7 +2,7 @@
 
 After Log In you will be presented with the Trading Mode window.
 
-![[[TradingMode](../images/tradingmode.png)
+![TradingMode](../images/tradingmode.png)
 
 ## Live Trading
 

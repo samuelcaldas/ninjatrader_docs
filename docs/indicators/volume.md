@@ -4,7 +4,7 @@
 
 Volume is simply the number of shares (or contracts) traded during a specified time frame (e.g., hour, day, week, month, etc). The analysis of volume is a basic yet very important element of technical analysis. Volume provides clues as to the intensity of a given price move.
 
-... Courtesy of [[[Market In Out](http://www.marketinout.com/technical_analysis.php?id=114)
+... Courtesy of [Market In Out](http://www.marketinout.com/technical_analysis.php?id=114)
 
 ## Syntax
 
@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 ## Example
 

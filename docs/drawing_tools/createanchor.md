@@ -6,7 +6,7 @@ Used to create a new chart anchor at a specified mouse point.
 
 ## Method Return Value
 
-A new [[[ChartAnchor](chartanchor.md) at a specified point in device pixels.
+A new [ChartAnchor](chartanchor.md) at a specified point in device pixels.
 
 ## Syntax
 

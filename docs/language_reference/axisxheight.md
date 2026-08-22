@@ -31,4 +31,4 @@ Based on the image below, AxisXHeight reveals that the space between the x-axis 
 
  
 
-![[[ChartControl_AxisXHeight](../images/chartcontrol_axisxheight.png)
+![ChartControl_AxisXHeight](../images/chartcontrol_axisxheight.png)

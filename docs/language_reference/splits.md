@@ -2,7 +2,7 @@
 
 ## Definition
 
-Indicates the Splits that have been configured for the [[[Master Instrument properties](editing_instruments.md) used in for stocks.
+Indicates the Splits that have been configured for the [Master Instrument properties](editing_instruments.md) used in for stocks.
 
 ## Property Value
 

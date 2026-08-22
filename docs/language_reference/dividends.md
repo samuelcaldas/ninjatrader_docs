@@ -2,7 +2,7 @@
 
 ## Definition
 
-An collection of Dividends configured for the [[[Master Instrument properties](editing_instruments.md) used in for stocks.
+An collection of Dividends configured for the [Master Instrument properties](editing_instruments.md) used in for stocks.
 
 ## Property Value
 

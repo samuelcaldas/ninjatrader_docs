@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines the amount of time a disconnect would have to last before [[[connection loss handling](connectionlosshandling.md) takes action.
+Determines the amount of time a disconnect would have to last before [connection loss handling](connectionlosshandling.md) takes action.
 
 ## Property Value
 

@@ -30,23 +30,23 @@ c.Display a custom collection / list with user defined values at run time
 
 C#
 
-- [[[ICloneable Interface](https://msdn.microsoft.com/en-us/library/system.icloneable%28v=vs.110%29.aspx)
+- [ICloneable Interface](https://msdn.microsoft.com/en-us/library/system.icloneable%28v=vs.110%29.aspx)
 
-- [[[PropertyDescriptor Class](https://msdn.microsoft.com/en-us/library/system.componentmodel.propertydescriptor%28v=vs.110%29.aspx)
+- [PropertyDescriptor Class](https://msdn.microsoft.com/en-us/library/system.componentmodel.propertydescriptor%28v=vs.110%29.aspx)
 
-- [[[RefreshPropertiesAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.refreshpropertiesattribute(v=vs.110).aspx)
+- [RefreshPropertiesAttribute](https://msdn.microsoft.com/en-us/library/system.componentmodel.refreshpropertiesattribute(v=vs.110).aspx)
 
-- [[[TypeConverter Class](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx)
+- [TypeConverter Class](https://msdn.microsoft.com/en-us/library/system.componentmodel.typeconverter%28v=vs.110%29.aspx)
 
-- [[[DisplayAttribute Class](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.displayattribute(v=vs.110).aspx)
+- [DisplayAttribute Class](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.displayattribute(v=vs.110).aspx)
 
 NinjaTrader
 
-- [[[IndicatorBaseConverter Class](indicatorbaseconverter.md)
+- [IndicatorBaseConverter Class](indicatorbaseconverter.md)
 
-- [[[StrategyBaseConverter Class](../strategies/strategybaseconverter.md)
+- [StrategyBaseConverter Class](../strategies/strategybaseconverter.md)
 
-- [[[TypeConverterAttribute](../language_reference/typeconverterattribute.md)
+- [TypeConverterAttribute](../language_reference/typeconverterattribute.md)
 
  
 
@@ -62,6 +62,6 @@ NinjaTrader
 
 ## Additional resources
 
-MSDN - How to: [[[Implement a Type Converter](https://msdn.microsoft.com/en-us/library/ayybcxe5.aspx)
+MSDN - How to: [Implement a Type Converter](https://msdn.microsoft.com/en-us/library/ayybcxe5.aspx)
 
-[[[SampleIndicatorTypeConverter\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleIndicatorTypeConverter_NT8.zip)
+[SampleIndicatorTypeConverter\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleIndicatorTypeConverter_NT8.zip)

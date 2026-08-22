@@ -28,7 +28,7 @@ FundamentalData is used to access fundamental snapshot data and for subscribing 
 | High52WeeksDate | A DateTime representing the date of the 52 week high price |
 | HistoricalVolatility | A double representing the historical volatility |
 | InsiderOwned | A double representing the insider owned amount |
-| Instrument | An [[[Instrument](../language_reference/instrument.md) representing the instrument |
+| Instrument | An [Instrument](../language_reference/instrument.md) representing the instrument |
 | Low52Weeks | A double representing the 52 week low |
 | Low52WeeksDate | A DateTime representing the date of the 52 week low price |
 | MarketCap | A double representing the market capitalization |

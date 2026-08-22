@@ -22,7 +22,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 |  |  |
 | --- | --- |
 | fast | Period of the fast smoothing factor |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | slow | Period of the slow smoothing factor |
 
 ## Examples

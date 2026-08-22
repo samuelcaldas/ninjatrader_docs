@@ -2,7 +2,7 @@
 
 Most of the NinjaTrader order entry screens have three modes that you can set to determine the behavior of the ATM Strategy selection control list upon submission of an order that enters the market/initiates an ATM Strategy. You can set this mode via the order entry screen's Properties dialog window that is accessible via the right mouse click context menu.
 
-Before reviewing this section you should have a thorough understanding of how the strategy control list determines what actions (if any) to take when a submitted order is filled. Please review the video and content in the preceding page [[[ATM Strategy Parameters](atm_strategy_parameters.md).
+Before reviewing this section you should have a thorough understanding of how the strategy control list determines what actions (if any) to take when a submitted order is filled. Please review the video and content in the preceding page [ATM Strategy Parameters](atm_strategy_parameters.md).
 
 > playVideo
 
@@ -14,7 +14,7 @@ As a quick reminder, when the strategy control list is set to:
 
 <My Strategy Template Name> - Orders submitted will initiate your user defined ATM Strategy (submission of stops and targets) once filled or part filled
 
-< ![[[active_atm](../images/active_atm.png)
+< ![active_atm](../images/active_atm.png)
 
 There are three available ATM Strategy Selection Modes:
 
@@ -24,17 +24,17 @@ There are three available ATM Strategy Selection Modes:
 
 - Display Selected ATM Strategy Only
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding the "Select Active ATM Strategy on Order Submission" mode
+![tog_minus](../images/tog_minus.gif)        Understanding the "Select Active ATM Strategy on Order Submission" mode
 
 |  |  |
 | --- | --- |
 | Select Active ATM Strategy on Order Submission This mode will automatically select the newly created active ATM Strategy on entry order submission in the ATM Strategy control list. This is the default setting upon initial NinjaTrader installation.   Who is this mode designed for? This mode is designed for traders who want the existing strategy Stop Loss and Profit Targets to be automatically amended when they scale into or out of a position being managed by an ATM Strategy by default.   Example (see image below) 1. A user defined ATM Strategy is selected.  2. Once the entry order is submitted, the ATM Strategy selection control automatically selects the active ATM Strategy that you just created (< active_atm My Strategy Template Name - X>).    ATM_12    ATM_13    |  | | --- | | Note: When using multiple tabs, all tabs will select the same ATM or their own active ATM. With Select Active ATM Strategy on Order Submission, once you place an order your active ATM will be selected. Since the other tabs with different instruments would not be using that same active ATM, they will be set back to None or their own active ATM. | |
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding the "Keep Selected ATM Strategy Template on Order Submission" mode
+![tog_minus](../images/tog_minus.gif)        Understanding the "Keep Selected ATM Strategy Template on Order Submission" mode
 
 > Keep Selected ATM Strategy Template on Order Submission This mode will keep the currently selected ATM Strategy template selected in the strategy control list upon order submission.   Who is this mode designed for? This mode is designed for traders who by default, want to always create a new set of Stop Loss and Profit Target brackets (new ATM Strategy) with each new order placed. An example of this would be a trader who wanted a single bracket placed with a Stop Loss of four ticks and a Profit Target of eight ticks. The trader wants to place two entry limit orders, the first at a price of X and the second at a price of X - 2 ticks. The purpose is to scale into an overall position but have the brackets be submitted and calculated from each individual fill price of the two orders.  Example (see image below) 1. A user defined ATM Strategy is selected.  2. Once the entry order is submitted, there will be no change in selection in the ATM Strategy control list. It will continue to look like the upper right image as the same ATM Strategy is automatically reselected after each order.    ATM_12    ATM_14
 
-![[[tog_minus](../images/tog_minus.gif)        Understanding the "Display Selected ATM Strategy Only" mode
+![tog_minus](../images/tog_minus.gif)        Understanding the "Display Selected ATM Strategy Only" mode
 
 |  |  |
 | --- | --- |

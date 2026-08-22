@@ -6,7 +6,7 @@ Draws a fibonacci extension.
 
 ## Method Return Value
 
-A [[[FibonacciExtensions](fibonacciextensions.md) object that represents the draw object.
+A [FibonacciExtensions](fibonacciextensions.md) object that represents the draw object.
 
 ## Syntax
 

@@ -18,8 +18,8 @@ This method does not return a value.
 
 |  |  |
 | --- | --- |
-| brush | A [[[SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) object representing the brush used to render |
-| rect | A [[[RectangleF](https://msdn.microsoft.com/en-us/library/system.drawing.rectanglef%28v=vs.110%29.aspx) structure representing the rectangle to be rendered |
+| brush | A [SharpDX.Direct2D1.Brush](sharpdx_direct2d1_brush.md) object representing the brush used to render |
+| rect | A [RectangleF](https://msdn.microsoft.com/en-us/library/system.drawing.rectanglef%28v=vs.110%29.aspx) structure representing the rectangle to be rendered |
 
 ## Examples
 

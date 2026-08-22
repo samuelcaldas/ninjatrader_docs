@@ -2,7 +2,7 @@
 
 ## Description
 
-The Wiseman Alligator is an indicator that consists of 3 moving averages with offsets applied to identify trend absence, formation, and direction. This indicator was provided by Profitunity: [[[http://www.profitunity.com](http://www.profitunity.com/)
+The Wiseman Alligator is an indicator that consists of 3 moving averages with offsets applied to identify trend absence, formation, and direction. This indicator was provided by Profitunity: [http://www.profitunity.com](http://www.profitunity.com/)
 
 ## Syntax
 
@@ -41,7 +41,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | jawPeriod | Number of bars used in the jaw moving average calculation |
 | teethPeriod | Number of bars used in the teeth moving average calculation |
 | lipsPeriod | Number of bars used in the lips moving average calculation |

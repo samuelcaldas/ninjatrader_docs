@@ -1,6 +1,6 @@
 # Basic Syntax
 
-NinjaScript is an extension to the powerful Microsoft C# language. The following syntax guide is a subset of the capabilities of the C# language. For tutorials and an online reference to the C# language, visit the [[[Microsoft Developer Network](https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx).
+NinjaScript is an extension to the powerful Microsoft C# language. The following syntax guide is a subset of the capabilities of the C# language. For tutorials and an online reference to the C# language, visit the [Microsoft Developer Network](https://msdn.microsoft.com/en-us/library/67ef8sbd.aspx).
 
 ## Statements
 

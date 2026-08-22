@@ -2,7 +2,7 @@
 
 ## Using the OnStateChange() Method to Configure the Strategy
 
-The [[[OnStateChange()](../language_reference/onstatechange.md) method is called once prior to running a strategy and can be used to set properties or call methods in preparation for running a strategy.
+The [OnStateChange()](../language_reference/onstatechange.md) method is called once prior to running a strategy and can be used to set properties or call methods in preparation for running a strategy.
 
 Enter the code contained within the OnStateChange() method in the image below into the OnStateChange() method when we are in the State.DataLoaded state in the NinjaScript Editor.
 
@@ -66,9 +66,9 @@ protected override void OnStateChange()
 }
 ```
 
-For more information on the strategy properties added in State.SetDefaults, please see our complete [[[Strategy](strategy.md) documentation.
+For more information on the strategy properties added in State.SetDefaults, please see our complete [Strategy](strategy.md) documentation.
 
-The [[[AddChartIndicator()](../indicators/addchartindicator.md) method is called and the RSI() indicator method is passed in which will automatically plot this indicator on a chart when the strategy runs.
+The [AddChartIndicator()](../indicators/addchartindicator.md) method is called and the RSI() indicator method is passed in which will automatically plot this indicator on a chart when the strategy runs.
 
 The method signature for the RSI() indicator is:
 
@@ -95,7 +95,7 @@ AddChartIndicator(RSI(RSIPeriod, RSISmooth));
 
 Allows us to change the period and smooth parameters of the embedded RSI indicator in the strategy at run time. This gives us a higher level of flexibility when working with our strategy.
 
-[[[SetStopLoss()](setstoploss.md) and [[[SetProfitTarget()](setprofittarget.md) are called with CalculationMode.Ticks. This means that when a position is opened, the strategy will immediately submit a stop and target order with a price that is calculated based on the StopLoss and ProfitTarget parameters passed in offset from the positions average entry price.
+[SetStopLoss()](setstoploss.md) and [SetProfitTarget()](setprofittarget.md) are called with CalculationMode.Ticks. This means that when a position is opened, the strategy will immediately submit a stop and target order with a price that is calculated based on the StopLoss and ProfitTarget parameters passed in offset from the positions average entry price.
 
 ## Using the OnBarUpdate() Method for the Core Strategy Logic
 
@@ -121,7 +121,7 @@ if RSI crosses above a value of 20 within the last bar, go long
 
 To accomplish this we used the following methods and properties:
 
-[[[CurrentBar](../language_reference/currentbar.md) - A value representing the current bar being processed (think of a chart where the left most bar would be equal to one)   
-[[[CrossAbove()](../language_reference/crossabove.md) - Checks for a cross above condition and returns true or false   
-[[[RSI()](../indicators/relative_strength_index_rsi.md) - Returns the value of the RSI indicator   
-[[[EnterLong()](enterlong.md) - Enters a market order long
+[CurrentBar](../language_reference/currentbar.md) - A value representing the current bar being processed (think of a chart where the left most bar would be equal to one)   
+[CrossAbove()](../language_reference/crossabove.md) - Checks for a cross above condition and returns true or false   
+[RSI()](../indicators/relative_strength_index_rsi.md) - Returns the value of the RSI indicator   
+[EnterLong()](enterlong.md) - Enters a market order long

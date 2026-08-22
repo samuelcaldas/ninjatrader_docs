@@ -1,6 +1,6 @@
 # TraceOrders
 
-[[[TraceOrders](traceorders.md) is a useful property when debugging the behavior of your orders. With the use of this property, you can track orders placed, amended, and canceled. The traces displayed in the NinjaScript Output window or if used, in the OnOrderTrace Override in the script where this was set. This will provide meaningful information for diagnosis when NinjaTrader ignores, changes or cancels orders when various strategy order methods are called.
+[TraceOrders](traceorders.md) is a useful property when debugging the behavior of your orders. With the use of this property, you can track orders placed, amended, and canceled. The traces displayed in the NinjaScript Output window or if used, in the OnOrderTrace Override in the script where this was set. This will provide meaningful information for diagnosis when NinjaTrader ignores, changes or cancels orders when various strategy order methods are called.
 
 To enable TraceOrders, add this line into the OnStateChange() method in the state SetDefaults of your NinjaScript strategy:
 
@@ -50,7 +50,7 @@ Cancelled expired order: BarsInProgress=0, orderId='NT-00123-118' account='Sim10
 
 This trace tells us that our Limit order was canceled because it had expired.
 
-A new concept in NinjaTrader 8 is the [[[OnOrderTrace](onordertrace.md) override method.
+A new concept in NinjaTrader 8 is the [OnOrderTrace](onordertrace.md) override method.
 
 This method prevents TraceOrders from printing the traces directly to the output window but instead sends this information to the OnOrderTrace override where you can do logic or format the trace how you would like and then print only what you need to see.
 
@@ -65,4 +65,4 @@ protected override void OnOrderTrace(DateTime timestamp, string message)
 
 These examples illustrate the most common traces you will run across. They are mostly useful in determining the reason your orders are not submitted or cancelled. TraceOrders will only show you what is happening under the hood when you submit orders, but it will not tell you what happens after the order is submitted. To determine the behavior of your orders after submission you will need to look into your NinjaTrader trace logs. You can view those either through the "Log" tab on the "Control Center" or from the trace folder in My Documents\NinjaTrader 8\trace\.
 
-For more information on how to debug your NinjaScript please review the [[[Debugging](../ninjascript/debugging_your_ninjascript_cod.md) tip.
+For more information on how to debug your NinjaScript please review the [Debugging](../ninjascript/debugging_your_ninjascript_cod.md) tip.

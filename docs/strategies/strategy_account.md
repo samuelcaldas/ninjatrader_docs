@@ -6,7 +6,7 @@ Represents the real-world or simulation Account configured for the strategy.
 
 ## Property Value
 
-An [[[Account](../addons/account_class.md) object configured for the strategy
+An [Account](../addons/account_class.md) object configured for the strategy
 
 ## Syntax
 

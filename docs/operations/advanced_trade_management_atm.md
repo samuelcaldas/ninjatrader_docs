@@ -2,23 +2,23 @@
 
 |  |  |
 | --- | --- |
-| ATM Overview  ATM Strategies can be accessed from the  ATM Strategy Selectors located in various [[[Order Entry](../strategies/order_entry.md) interfaces    NinjaTrader provides you with the flexibility to trade with or without an Advanced Trade Management (ATM) Strategy. ATM Strategies are designed to provide discretionary traders with semi-automated features to manage their positions. This is NOT to be confused with NinjaScript Strategies for [[[automated trading](automated_trading.md) systems. | |
+| ATM Overview  ATM Strategies can be accessed from the  ATM Strategy Selectors located in various [Order Entry](../strategies/order_entry.md) interfaces    NinjaTrader provides you with the flexibility to trade with or without an Advanced Trade Management (ATM) Strategy. ATM Strategies are designed to provide discretionary traders with semi-automated features to manage their positions. This is NOT to be confused with NinjaScript Strategies for [automated trading](automated_trading.md) systems. | |
 | ATM Strategy  
-- [[[Definition and Benefits](../strategies/atm_strategy.md)  
-- [[[ATM Strategy Parameters](../strategies/atm_strategy_parameters.md)  
-- [[[ATM Strategy Selection Mode](../strategies/atm_strategy_selection_mode.md)  
-- [[[Stop Strategy](../strategies/stop_strategy.md)  
-- [[[Auto Breakeven](../strategies/auto_breakeven.md)  
-- [[[Auto Trail](../strategies/auto_trail.md)  
-- [[[ATM Strategy Templates](../strategies/manage_atm_strategy_templates.md)  
-- [[[Example #1](../strategies/tutorial_atm_strategy_example_.md)  
-- [[[Example #2](../strategies/tutorial_atm_strategy_example2.md) | Advanced Options  
-- [[[Auto Chase](../strategies/auto_chase.md)  
-- [[[Auto Reverse](../strategies/auto_reverse.md)  
-- [[[Shadow Strategy](../strategies/shadow_strategy.md)   Misc  
-- [[[Close at Time](auto_close_position.md)  
-- [[[Indicator Tracking](../indicators/attachingorderstoindicators.md)  
-- [[[FAQ](../strategies/faq.md) |
+- [Definition and Benefits](../strategies/atm_strategy.md)  
+- [ATM Strategy Parameters](../strategies/atm_strategy_parameters.md)  
+- [ATM Strategy Selection Mode](../strategies/atm_strategy_selection_mode.md)  
+- [Stop Strategy](../strategies/stop_strategy.md)  
+- [Auto Breakeven](../strategies/auto_breakeven.md)  
+- [Auto Trail](../strategies/auto_trail.md)  
+- [ATM Strategy Templates](../strategies/manage_atm_strategy_templates.md)  
+- [Example #1](../strategies/tutorial_atm_strategy_example_.md)  
+- [Example #2](../strategies/tutorial_atm_strategy_example2.md) | Advanced Options  
+- [Auto Chase](../strategies/auto_chase.md)  
+- [Auto Reverse](../strategies/auto_reverse.md)  
+- [Shadow Strategy](../strategies/shadow_strategy.md)   Misc  
+- [Close at Time](auto_close_position.md)  
+- [Indicator Tracking](../indicators/attachingorderstoindicators.md)  
+- [FAQ](../strategies/faq.md) |
 
 > playVideo
 

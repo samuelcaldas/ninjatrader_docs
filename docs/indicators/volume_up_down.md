@@ -2,7 +2,7 @@
 
 ## Description
 
-Variation of the [[[VOL](volume.md) (Volume) indicator that colors the volume histogram different color depending if the current bar is up or down bar.
+Variation of the [VOL](volume.md) (Volume) indicator that colors the volume histogram different color depending if the current bar is up or down bar.
 
 ## Syntax
 
@@ -23,7 +23,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 
 ## Example
 

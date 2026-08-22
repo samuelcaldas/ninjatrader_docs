@@ -2,11 +2,11 @@
 
 ## Definition
 
-Holds a collection of [[[ChartPanel](chartpanel.md) objects containing information about the panels active on the chart.
+Holds a collection of [ChartPanel](chartpanel.md) objects containing information about the panels active on the chart.
 
 ## Property Value
 
-An [[[ObservableCollection](https://msdn.microsoft.com/en-us/library/ms668604(v=vs.110).aspx) of ChartPanel objects
+An [ObservableCollection](https://msdn.microsoft.com/en-us/library/ms668604(v=vs.110).aspx) of ChartPanel objects
 
 ## Syntax
 
@@ -30,4 +30,4 @@ Based on the image below, there are three ChartPanel objects in the ChartPanels 
 
  
 
-![[[ChartControl_ChartPanels](../images/chartcontrol_chartpanels.png)
+![ChartControl_ChartPanels](../images/chartcontrol_chartpanels.png)

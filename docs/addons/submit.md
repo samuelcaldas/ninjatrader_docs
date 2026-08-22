@@ -2,7 +2,7 @@
 
 ## Definition
 
-Submits specified [[[Order](../strategies/order.md) object(s).
+Submits specified [Order](../strategies/order.md) object(s).
 
 ## Syntax
 

@@ -1,8 +1,8 @@
 # Advanced Options
 
-All NinjaTrader order entry windows that offer ATM Strategies also include the Advanced Options.  The Advanced Options include: [[[Shadow Strategy](shadow_strategy.md), [[[Auto Chase](auto_chase.md), and [[[Auto Reverse](auto_reverse.md) features.  You will find the Advanced Options from the [[[ATM Strategy Parameters](atm_strategy_parameters.md) window by clicking on the More text (see the green arrow in the image below) which will expand these additional features.
+All NinjaTrader order entry windows that offer ATM Strategies also include the Advanced Options.  The Advanced Options include: [Shadow Strategy](shadow_strategy.md), [Auto Chase](auto_chase.md), and [Auto Reverse](auto_reverse.md) features.  You will find the Advanced Options from the [ATM Strategy Parameters](atm_strategy_parameters.md) window by clicking on the More text (see the green arrow in the image below) which will expand these additional features.
 
-![[[ATM_5](../images/atm_5.png)
+![ATM_5](../images/atm_5.png)
 
 |  |  |
 | --- | --- |

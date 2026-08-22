@@ -6,7 +6,7 @@ A unique identifier representing the index in which chart objects are drawn on t
 
  
 
-> **Note:** The ZOrder index should NOT be set using this property. Please use the dedicated [[[SetZOrder()](setzorder.md) for this purpose.
+> **Note:** The ZOrder index should NOT be set using this property. Please use the dedicated [SetZOrder()](setzorder.md) for this purpose.
 
 ## Property Value
 

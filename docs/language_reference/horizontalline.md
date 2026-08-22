@@ -2,15 +2,15 @@
 
 ## Definition
 
-Represents an interface that exposes information regarding a Horizontal Line [[[IDrawingTool.](idrawingtool.md)
+Represents an interface that exposes information regarding a Horizontal Line [IDrawingTool.](idrawingtool.md)
 
 ## Methods and Properties
 
 |  |  |
 | --- | --- |
-| StartAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
-| EndAnchor | An [[[IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
-| Stroke | A [[[Stroke](stroke_class.md) object used to draw the object |
+| StartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the drawing object |
+| EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
+| Stroke | A [Stroke](stroke_class.md) object used to draw the object |
 
 ## Example
 

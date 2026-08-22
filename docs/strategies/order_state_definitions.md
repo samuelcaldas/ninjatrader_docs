@@ -1,6 +1,6 @@
 # Order State Definitions
 
-The table below describes the various order States your orders can be in as well as the color that represents this state in NinjaTrader. The colors can be seen when submitting, modifying or cancelling orders in the [[[Order Entry](order_entry.md) windows as well as the [[[Orders tab](orders_tab.md) of the Control Center.
+The table below describes the various order States your orders can be in as well as the color that represents this state in NinjaTrader. The colors can be seen when submitting, modifying or cancelling orders in the [Order Entry](order_entry.md) windows as well as the [Orders tab](orders_tab.md) of the Control Center.
 
 ## NinjaTrader Order State Definitions
 

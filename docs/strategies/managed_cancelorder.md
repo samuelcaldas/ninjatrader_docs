@@ -4,19 +4,19 @@
 
 Cancels a specified order.  This method is reserved for experienced programmers that fully understanding the concepts of advanced order handling.
 
-> **Notes:** 1.This method sends a cancel request to the broker and does not guarantee that an order is completely cancelled. Most of the time you can expect your order to come back 100% cancelled.  2.An order can be completely filled or part filled in the time that you send the cancel request and the time the exchange receives the request. Check the [[[OnOrderUpdate()](onorderupdate.md) method for the state of an order you attempted to cancelled.
+> **Notes:** 1.This method sends a cancel request to the broker and does not guarantee that an order is completely cancelled. Most of the time you can expect your order to come back 100% cancelled.  2.An order can be completely filled or part filled in the time that you send the cancel request and the time the exchange receives the request. Check the [OnOrderUpdate()](onorderupdate.md) method for the state of an order you attempted to cancelled.
 
 ## Syntax
 
 `CancelOrder(Order order)`
 
-> **Warning:** If you have existing historical [[[order](order.md) references which have transitioned to real-time, you MUST update the order object reference to the newly submitted real-time order; otherwise errors may occur as you attempt to cancel the order.  You may use the [[[GetRealtimeOrder()](getrealtimeorder.md) helper method to assist in this transition.
+> **Warning:** If you have existing historical [order](order.md) references which have transitioned to real-time, you MUST update the order object reference to the newly submitted real-time order; otherwise errors may occur as you attempt to cancel the order.  You may use the [GetRealtimeOrder()](getrealtimeorder.md) helper method to assist in this transition.
 
 ## Parameters
 
 |  |  |
 | --- | --- |
-| order | An [[[Order](order.md) object representing the order you wish to cancel. |
+| order | An [Order](order.md) object representing the order you wish to cancel. |
 
 ## Examples
 

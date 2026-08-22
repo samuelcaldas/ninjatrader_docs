@@ -12,11 +12,11 @@ Adding additional series to a script can be useful. You may also want to use thi
 
 ## Important related documentation
 
-- [[[AddDataSeries()](http://www.ninjatrader.com/support/helpGuides/nt8/en-us/adddataseries.md)
+- [AddDataSeries()](http://www.ninjatrader.com/support/helpGuides/nt8/en-us/adddataseries.md)
 
-- [[[AddPlot()](https://ninjatrader.com/support/helpGuides/nt8/en-us/addplot.md)
+- [AddPlot()](https://ninjatrader.com/support/helpGuides/nt8/en-us/addplot.md)
 
-- [[[IsValidDataPoint()](https://ninjatrader.com/support/helpGuides/nt8/en-us/isvaliddatapoint.md)
+- [IsValidDataPoint()](https://ninjatrader.com/support/helpGuides/nt8/en-us/isvaliddatapoint.md)
 
 ## Import instructions
 
@@ -26,4 +26,4 @@ Adding additional series to a script can be useful. You may also want to use thi
 
 3.Select the downloaded file
 
-[[[SampleSecondarySeriesAsInputSeries\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleSecondarySeriesAsInputSeries_NT8.zip)
+[SampleSecondarySeriesAsInputSeries\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleSecondarySeriesAsInputSeries_NT8.zip)

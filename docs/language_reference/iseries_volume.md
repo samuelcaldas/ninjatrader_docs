@@ -6,7 +6,7 @@ A collection of historical bar volume values.
 
  
 
-> **Note:** For working with [[[Cryptocurrency instruments](instrumenttype.md) which report volume fractional, please use the [[[VOL()](../indicators/volume.md) indicator series, or store the volume for your script in a custom variable and convert alongside our [[[VOL()](../indicators/volume.md) indicator (Instrument.MasterInstrument.InstrumentType == InstrumentType.CryptoCurrency ? Core.Globals.ToCryptocurrencyVolume((long)Volume[0]) : Volume[0]).
+> **Note:** For working with [Cryptocurrency instruments](instrumenttype.md) which report volume fractional, please use the [VOL()](../indicators/volume.md) indicator series, or store the volume for your script in a custom variable and convert alongside our [VOL()](../indicators/volume.md) indicator (Instrument.MasterInstrument.InstrumentType == InstrumentType.CryptoCurrency ? Core.Globals.ToCryptocurrencyVolume((long)Volume[0]) : Volume[0]).
 
 ## Property Value
 

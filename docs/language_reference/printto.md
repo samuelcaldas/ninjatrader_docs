@@ -2,7 +2,7 @@
 
 ## Definition
 
-Determines either tab of the NinjaScript [[[Output window](../ninjascript/output.md) the [[[Print()](print.md) and [[[ClearOutputWindow()](clearoutputwindow.md) method targets
+Determines either tab of the NinjaScript [Output window](../ninjascript/output.md) the [Print()](print.md) and [ClearOutputWindow()](clearoutputwindow.md) method targets
 
 ## Property Value
 

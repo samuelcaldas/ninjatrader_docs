@@ -2,11 +2,11 @@
 
 Charts in NinjaTrader can contain and display multiple objects, including Data Series, Drawing Objects, and indicator plots. Objects on charts can be managed in a number ways, such as dragging and dropping them to new panels, changing the axis of their price scale (if applicable), or changing the order in which they are painted on a chart.
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 > Drag and Drop A Data Series or Indicator can be dragged and dropped to various areas of the chart to quickly change which panel it is displayed in.    Left mouse click on a chart object within a chart, then drag it to any of the following areas of the chart and release the mouse button:    1.Upper limit - Creates a new panel at the top of the chart  2.In between panels -  Creates a new panel in between two existing panels  3.Lower limit - Creates a new panel at the bottom of the chart  4.Center area of a panel - Relocates the selected chart object to this panel and automatically determines the most suitable scale justification  5.Left or right margin of a panel - Relocates the selected chart object to this panel (unless already in the selected panel) and changes the scale justification to the selected side of the panel.    When you drag a selected object to the upper or lower edge of a chart, or between two panels, a blue band will appear. This indicates that a new panel will be created when you drop the object in that location.   Tabs and Windows In addition to moving around within a single chart tab, A Data Series or indicator can be dragged and dropped into any other chart window or tabs in your workspace. The following drag and drop actions can be performed:    1. Drag an indicator to an existing tab in any chart window - Duplicates the indicator in the tab or window into which it is dropped, leaving the original instance of the object intact  2. Drag a Data Series to an existing tab in any chart window - Replaces the primary Data Series in that tab with the one dropped into it  3. Drag a Data Series to the upper/lower limit, or between two panels, of a separate chart window - Creates a new panel, creating a multi-series chart if only one Data Series had previously been applied  2. Drag an indicator or Data Series to a New tab (+) - Creates a new tab and duplicates the object within it
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |
 | --- | --- |
@@ -16,7 +16,7 @@ Charts in NinjaTrader can contain and display multiple objects, including Data S
 - Current chart window or tab - Data Series and indicators will be duplicated in a new panel. Drawing Objects will be pasted with a slight offset from the copied object's location.
 - Separate chart window or tab - Data Series will be placed in a new panel within the chart window or tab in which it is dropped. Indicators will either be plotted in an existing panel or in a new panel, depending on the indicator's "Overlay" property. Drawing Objects will be placed in the same panel number as the one from which they are copied, if it is available.    |  | | --- | | Note: When an indicator is pasted from one chart to another, the indicator will use the same input series if it is applied to the chart into which the indicator is pasted. Otherwise, it will use the second chart's primary Data Series. | |
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |
 | --- | --- |

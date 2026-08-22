@@ -42,7 +42,7 @@ Redistribution and use in source and binary forms, with or without modification,
 
    "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
 
-4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact [[[[email protected]](mailto:platformsupport@ninjatrader.com).
+4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact [email protected](mailto:platformsupport@ninjatrader.com).
 
 5. Products derived from this software may not be called "OpenSSL" nor may "OpenSSL" appear in their names without prior written permission of the OpenSSL Project.
 
@@ -60,7 +60,7 @@ Original SSLeay License
 
 -----------------------
 
-Copyright (C) 1995-1998 Eric Young ([[[[email protected]](mailto:platformsupport@ninjatrader.com))
+Copyright (C) 1995-1998 Eric Young ([email protected](mailto:platformsupport@ninjatrader.com))
 
 All rights reserved.
 

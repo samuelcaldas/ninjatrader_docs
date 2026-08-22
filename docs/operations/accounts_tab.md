@@ -1,6 +1,6 @@
 # Accounts Tab
 
-The Accounts tab displays current account information in a [[[data grid](data_grids.md). The account values that are displayed is dependent on your connectivity provider. Not all connectivity providers transmit complete account data.
+The Accounts tab displays current account information in a [data grid](data_grids.md). The account values that are displayed is dependent on your connectivity provider. Not all connectivity providers transmit complete account data.
 
 > playVideo
 

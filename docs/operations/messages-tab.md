@@ -1,8 +1,8 @@
 # Messages Tab
 
-The Messages tab displays messages in relation to your account in a [[[data grid](data_grids.md).
+The Messages tab displays messages in relation to your account in a [data grid](data_grids.md).
 
-![[[tog_minus](../images/tog_minus.gif)
+![tog_minus](../images/tog_minus.gif)
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

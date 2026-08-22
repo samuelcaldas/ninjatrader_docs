@@ -6,7 +6,7 @@ Returns the total number of ticks of the current bar processing.
 
  
 
-> **Note:** For historical usage, you must use Calculate.OnEachTick with [[[TickReplay](../ninjascript/developing_for__tick_replay.md) enabled; otherwise a value of 1 will returned.
+> **Note:** For historical usage, you must use Calculate.OnEachTick with [TickReplay](../ninjascript/developing_for__tick_replay.md) enabled; otherwise a value of 1 will returned.
 
 ## Property Value
 

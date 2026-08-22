@@ -8,7 +8,7 @@ An order size variable that can be set either programmatically or overriden via 
 
 An int value represents the number of contracts or shares to enter a position with.  Default value is 1.
 
-> **Warning:** This property should ONLY bet set from the [[[OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
+> **Warning:** This property should ONLY bet set from the [OnStateChange()](../language_reference/onstatechange.md) method during State.SetDefaults or State.Configure
 
 ## Syntax
 

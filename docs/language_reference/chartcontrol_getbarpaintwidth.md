@@ -16,7 +16,7 @@ A double representing the pixel width of bars on the chart
 
 |  |  |
 | --- | --- |
-| chartBars | A [[[ChartBars](chartbars.md) object to measure |
+| chartBars | A [ChartBars](chartbars.md) object to measure |
 
 ## Example
 
@@ -38,4 +38,4 @@ In the image below, GetBarPaintWidth() reveals that the bars are being drawn 27 
 
  
 
-![[[ChartControl_GetBarPaintWidth](../images/chartcontrol_getbarpaintwidth.png)
+![ChartControl_GetBarPaintWidth](../images/chartcontrol_getbarpaintwidth.png)

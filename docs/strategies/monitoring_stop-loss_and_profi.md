@@ -10,13 +10,13 @@ At times you may have a need to monitor the stop-loss and profit target orders g
 
 ## Important related documentation
 
-- [[[Order](order.md)
+- [Order](order.md)
 
-- [[[OrderState](order.md)
+- [OrderState](order.md)
 
-- [[[OnOrderUpdate()](onorderupdate.md)
+- [OnOrderUpdate()](onorderupdate.md)
 
-- [[[System.Collections (for List<>)](http://msdn.microsoft.com/en-us/library/system.collections.aspx)
+- [System.Collections (for List<>)](http://msdn.microsoft.com/en-us/library/system.collections.aspx)
 
 ## Import instructions
 
@@ -26,4 +26,4 @@ At times you may have a need to monitor the stop-loss and profit target orders g
 
 3.Select the downloaded file
 
-[[[SampleMonitorStopProfit\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleMonitorStopProfit_NT8.zip)
+[SampleMonitorStopProfit\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleMonitorStopProfit_NT8.zip)

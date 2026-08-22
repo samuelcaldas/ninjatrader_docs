@@ -1,6 +1,6 @@
 # Lamba Expressions
 
-The NinjaScript framework utilizes [[[Lambda expressions](https://msdn.microsoft.com/en-us/library/bb397687.aspx) in various classes, so it is important to fully understand these highly specialized expressions as a NinjaScript developer. Lambda expressions are like anonymous methods, and are often used to define delegates using the [[[Language Integrated Query (LINQ)](https://msdn.microsoft.com/en-us/library/bb397926.aspx) model. Unlike methods, Lambda expressions contain no access modifiers, return types, or other components of method declaration. Lambdas are created once in the place at which they will be used, rather than being declared outside of the main script logic and re-used multiple times.
+The NinjaScript framework utilizes [Lambda expressions](https://msdn.microsoft.com/en-us/library/bb397687.aspx) in various classes, so it is important to fully understand these highly specialized expressions as a NinjaScript developer. Lambda expressions are like anonymous methods, and are often used to define delegates using the [Language Integrated Query (LINQ)](https://msdn.microsoft.com/en-us/library/bb397926.aspx) model. Unlike methods, Lambda expressions contain no access modifiers, return types, or other components of method declaration. Lambdas are created once in the place at which they will be used, rather than being declared outside of the main script logic and re-used multiple times.
 
 ## Syntax
 

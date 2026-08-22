@@ -2,7 +2,7 @@
 
 ## Definition
 
-A collection of [[[ChartScale](chartscale.md) objects corresponding to objects within the chart panel.
+A collection of [ChartScale](chartscale.md) objects corresponding to objects within the chart panel.
 
 ## Property Value
 

@@ -10,11 +10,11 @@ One of the benefits of NinjaScript is the ability to automatically submit stop l
 
 ## Important related documentation
 
-- [[[SetStopLoss()](setstoploss.md)
+- [SetStopLoss()](setstoploss.md)
 
-- [[[SetProfitTarget()](setprofittarget.md)
+- [SetProfitTarget()](setprofittarget.md)
 
-- [[[SetTrailStop()](settrailstop.md)
+- [SetTrailStop()](settrailstop.md)
 
 ## Import instructions
 
@@ -24,4 +24,4 @@ One of the benefits of NinjaScript is the ability to automatically submit stop l
 
 3.Select the downloaded file
 
-[[[SamplePriceModification\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SamplePriceModification_NT8.zip)
+[SamplePriceModification\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SamplePriceModification_NT8.zip)

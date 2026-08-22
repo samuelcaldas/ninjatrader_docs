@@ -30,7 +30,7 @@ protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
 
 |  |  |
 | --- | --- |
-| marketDepthUpdate | [[[MarketDepthEventArgs](marketdeptheventargs.md) representing the recent change in market data |
+| marketDepthUpdate | [MarketDepthEventArgs](marketdeptheventargs.md) representing the recent change in market data |
 
 ## Examples
 
@@ -43,7 +43,7 @@ protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
 }
 csharp
 Tips
-1.With [[[multi-time frame and instrument strategies](multi-time_frame__instruments.md), OnMarketDepth will be called for all unique instruments in your strategy. Use the [[[BarsInProgress](barsinprogress.md) to filter the OnMarketDepth() method for a specific instrument. (BarsInProgress will return the first BarsInProgress series that matches the instrument for the event)
+1.With [multi-time frame and instrument strategies](multi-time_frame__instruments.md), OnMarketDepth will be called for all unique instruments in your strategy. Use the [BarsInProgress](barsinprogress.md) to filter the OnMarketDepth() method for a specific instrument. (BarsInProgress will return the first BarsInProgress series that matches the instrument for the event)
 2.Do not leave an unused OnMarketDepth() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your strategy which uses unnecessary CPU cycles.
 3.Should you wish to run comparisons against prior values you will need to store and update local variables to track the relevant values.
 4.With NinjaTrader being multi-threaded, you should not rely on any particular sequence of events like OnMarketDepth() always being called before OnMarketData() or vice versa.

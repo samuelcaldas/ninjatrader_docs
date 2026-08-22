@@ -2,9 +2,9 @@
 
 ## Description
 
-Same as the [[[ADX](average_directional_index_adx.md) indicator with the addition of the +DI and -DI values.
+Same as the [ADX](average_directional_index_adx.md) indicator with the addition of the +DI and -DI values.
 
-... Courtesy of [[[Investopedia](http://www.investopedia.com/terms/d/dmi.asp)
+... Courtesy of [Investopedia](http://www.investopedia.com/terms/d/dmi.asp)
 
 ## Syntax
 
@@ -37,7 +37,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
 ## Example

@@ -10,17 +10,17 @@ MarketData can be used to access snapshot market data and for subscribing to mar
 
 |  |  |
 | --- | --- |
-| Ask | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md) representing the ask price |
-| Bid | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the bid price |
-| DailyHigh | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the daily high |
-| DailyLow | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the daily low |
-| DailyVolume | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the daily volume |
-| Instrument | An [[[Instrument](../language_reference/instrument.md) representing the instrument |
-| Last | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the last price |
-| LastClose | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the last close |
-| Opening | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the opening price |
-| OpenInterest | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the open interest |
-| Settlement | A [[[MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the settlement price |
+| Ask | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md) representing the ask price |
+| Bid | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the bid price |
+| DailyHigh | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the daily high |
+| DailyLow | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the daily low |
+| DailyVolume | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the daily volume |
+| Instrument | An [Instrument](../language_reference/instrument.md) representing the instrument |
+| Last | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the last price |
+| LastClose | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the last close |
+| Opening | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the opening price |
+| OpenInterest | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the open interest |
+| Settlement | A [MarketDataEventArgs](../language_reference/marketdataeventargs.md)  representing the settlement price |
 | Update | Event handler for subscribing/unsubscribing to market depth events    Note:  Attempting to unsubscribe to this event before there is a subscription will generate errors. |
 
 ## Syntax

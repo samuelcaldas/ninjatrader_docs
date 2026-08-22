@@ -10,13 +10,13 @@ Normally calculated values are carried over between trading sessions, but someti
 
 ## Important related documentation
 
-- [[[IsFirstBarOfSession](../language_reference/isfirstbarofsession.md)
+- [IsFirstBarOfSession](../language_reference/isfirstbarofsession.md)
 
-- [[[IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
+- [IsFirstTickOfBar](../language_reference/isfirsttickofbar.md)
 
-- [[[EnterLong()](enterlong.md)
+- [EnterLong()](enterlong.md)
 
-- [[[ExitLong()](exitlong.md)
+- [ExitLong()](exitlong.md)
 
 ## Import instructions
 

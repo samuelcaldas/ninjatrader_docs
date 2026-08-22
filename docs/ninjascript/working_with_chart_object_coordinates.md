@@ -12,12 +12,12 @@ When using ChartControl properties and methods, it is important to understand th
 
  
 
-![[[ChartControl_Measurements](../images/chartcontrol_measurements.png)
+![ChartControl_Measurements](../images/chartcontrol_measurements.png)
 
 The three regions shaded in the image above are labeled as follows:
 
-1. The chart canvas covers the area in which bars, drawing objects, and indicator plots can be painted. It is bounded on the bottom by the x-axis, and on the right, left, or both by the y-axis. This is measured by properties such as [[[CanvasLeft](../language_reference/canvasleft.md) and [[[CanvasRight](../language_reference/canvasright.md).
+1. The chart canvas covers the area in which bars, drawing objects, and indicator plots can be painted. It is bounded on the bottom by the x-axis, and on the right, left, or both by the y-axis. This is measured by properties such as [CanvasLeft](../language_reference/canvasleft.md) and [CanvasRight](../language_reference/canvasright.md).
 
-2. The y-axis extends vertically from the chart's horizontal scroll bar to the top of the chart canvas, and can be displayed to the right or left (or both) of the canvas area, depending the "Scale Justification" properties of the [[[Bars](../language_reference/bars.md) object or indicators painted on the chart. This is measured by properties such as [[[AxisYLeftWidth](../language_reference/axisyleftwidth.md) and [[[AxisYRightWidth](../language_reference/axisyrightwidth.md).
+2. The y-axis extends vertically from the chart's horizontal scroll bar to the top of the chart canvas, and can be displayed to the right or left (or both) of the canvas area, depending the "Scale Justification" properties of the [Bars](../language_reference/bars.md) object or indicators painted on the chart. This is measured by properties such as [AxisYLeftWidth](../language_reference/axisyleftwidth.md) and [AxisYRightWidth](../language_reference/axisyrightwidth.md).
 
-3. The x-axis sits beneath the chart canvas, and extends horizontally from the left edge of the chart canvas (or the left edge of the y-axis if it is visible on the left) to the right edge of the y-axis applied to the right of the canvas (or the right edge of the canvas itself if the y-axis is not visible on the right). This is measured by properties such as [[[AxisXHeight](../language_reference/axisxheight.md).
+3. The x-axis sits beneath the chart canvas, and extends horizontally from the left edge of the chart canvas (or the left edge of the y-axis if it is visible on the left) to the right edge of the y-axis applied to the right of the canvas (or the right edge of the canvas itself if the y-axis is not visible on the right). This is measured by properties such as [AxisXHeight](../language_reference/axisxheight.md).

@@ -6,7 +6,7 @@ Returns the time stamp at the current bar index value.
 
  
 
-> **Note:** This method will return what is displayed in the chart's data box.  For formatting purposes, the value returned is NOT guaranteed be equal to the [[[TimeSeries](timeseries.md) value.  If you are using daily bars and need the session end time, you should use [[[Bars.GetSessionEndTime()](getsessionendtime.md) instead.
+> **Note:** This method will return what is displayed in the chart's data box.  For formatting purposes, the value returned is NOT guaranteed be equal to the [TimeSeries](timeseries.md) value.  If you are using daily bars and need the session end time, you should use [Bars.GetSessionEndTime()](getsessionendtime.md) instead.
 
 ## Method Return Value
 

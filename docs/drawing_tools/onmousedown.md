@@ -24,10 +24,10 @@ public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPane
 
 |  |  |
 | --- | --- |
-| chartControl | A [[[ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
-| chartPanel | A [[[ChartPanel](../language_reference/chartpanel.md) representing the the panel for the chart |
-| chartScale | A [[[ChartScale](../language_reference/chartscale.md) representing the y-axis |
-| dataPoint | A [[[ChartAnchor](chartanchor.md) representing a point where the user clicked |
+| chartControl | A [ChartControl](../language_reference/chartcontrol.md) representing the x-axis |
+| chartPanel | A [ChartPanel](../language_reference/chartpanel.md) representing the the panel for the chart |
+| chartScale | A [ChartScale](../language_reference/chartscale.md) representing the y-axis |
+| dataPoint | A [ChartAnchor](chartanchor.md) representing a point where the user clicked |
 
 ## Examples
 

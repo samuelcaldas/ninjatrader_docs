@@ -25,7 +25,7 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 |  |  |
 | --- | --- |
-| input | Indicator source data ([[[?](valid_input_data_for_indicator.md)) |
+| input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | periodQ | The number of bars to include in the calculation for the short term stochastic range lookback |
 | smooth | The number of bars to include for the EMA smoothing of the indicator |
 

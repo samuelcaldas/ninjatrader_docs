@@ -10,11 +10,11 @@ Being able to mark visually conditions of interest on the chart is useful for th
 
 ## Important related documentation
 
-- [[[Drawing](../language_reference/drawing.md)
+- [Drawing](../language_reference/drawing.md)
 
-- [[[Draw.Diamond()](../language_reference/draw_diamond.md)
+- [Draw.Diamond()](../language_reference/draw_diamond.md)
 
-- [[[Draw.Rectangle()](../language_reference/draw_rectangle.md)
+- [Draw.Rectangle()](../language_reference/draw_rectangle.md)
 
 ## Import instructions
 
@@ -24,4 +24,4 @@ Being able to mark visually conditions of interest on the chart is useful for th
 
 3.Select the downloaded file
 
-[[[SampleDrawObject\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleDrawObject_NT8.zip)
+[SampleDrawObject\_NT8.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleDrawObject_NT8.zip)

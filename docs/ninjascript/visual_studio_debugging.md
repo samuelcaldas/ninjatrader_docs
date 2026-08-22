@@ -10,21 +10,21 @@ You can debug your NinjaScript objects using Microsoft Visual Studio. NinjaScrip
 
 1. In the NinjaScript Editor, enable "Debug Mode" via the right-click menu, as seen in the image below. After this, compile your scripts to create the debug DLL.
 
-![[[NS_Editor_5](../images/ns_editor_5.png)
+![NS_Editor_5](../images/ns_editor_5.png)
 
-2. From the NinjaScript Editor, click on the Visual Studio icon ![[[NS_Editor_6](../images/ns_editor_6.png)
+2. From the NinjaScript Editor, click on the Visual Studio icon ![NS_Editor_6](../images/ns_editor_6.png)
 
 3. In Visual Studio, select Debug, then select Attach to Process
 
-![[[NS_Editor_7](../images/ns_editor_7.png)
+![NS_Editor_7](../images/ns_editor_7.png)
 
 4. Select NinjaTrader from the list of processes, then select Attach. Be sure the "Attach to" field is set to "Automatic: Managed code" or "Managed code".
 
-![[[NS_Editor_8](../images/ns_editor_8.png)
+![NS_Editor_8](../images/ns_editor_8.png)
 
 4. Open the NinjaScript source file within Microsoft Visual Studio and set your break point(s)
 
-![[[NS_Editor_9](../images/ns_editor_9.png)
+![NS_Editor_9](../images/ns_editor_9.png)
 
 5. Run your NinjaScript object in NinjaTrader and it should stop at your break points and all the debugging tools and information should be available to inspect the current state of the code.
 

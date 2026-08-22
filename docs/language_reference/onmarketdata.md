@@ -7,16 +7,16 @@ An event driven method which is called and guaranteed to be in the correct seque
 ```csharp
 Notes
 1.This is a real-time data stream and can be CPU intensive if your program code is compute intensive (not optimal)
-2.By default, this method is not called on historical data (backtest), however it can be called historically by using [[[TickReplay](../operations/tick_replay.md)
-3.If used with [[[TickReplay](../operations/tick_replay.md), please keep in mind Tick Replay ONLY replays the Last market data event, and only stores the best inside bid/ask price at the time of the last trade event.
+2.By default, this method is not called on historical data (backtest), however it can be called historically by using [TickReplay](../operations/tick_replay.md)
+3.If used with [TickReplay](../operations/tick_replay.md), please keep in mind Tick Replay ONLY replays the Last market data event, and only stores the best inside bid/ask price at the time of the last trade event.
 You can think of this as the equivalent of the bid/ask price at the time a trade was reported.
 As such, historical bid/ask market data events (i..e, bid/ask volume) DO NOT work with Tick Replay.
-To obtain those values, you need to use a [[[historical bid/ask series](../ninjascript/using_historical_bid_ask_serie.md) separately from TickReplay through OnBarUpdate(). More information can be found under [[[Developing for Tick Replay](../ninjascript/developing_for__tick_replay.md).
-4.With [[[multi-time frame and instrument strategies](multi-time_frame__instruments.md), a subscription will be created on all bars series added in your indicator or strategy strategy (even if the instrument is the same).
-The market data subscription behavior occurs both in real-time and during [[[TickReplay](../operations/tick_replay.md) historical
+To obtain those values, you need to use a [historical bid/ask series](../ninjascript/using_historical_bid_ask_serie.md) separately from TickReplay through OnBarUpdate(). More information can be found under [Developing for Tick Replay](../ninjascript/developing_for__tick_replay.md).
+4.With [multi-time frame and instrument strategies](multi-time_frame__instruments.md), a subscription will be created on all bars series added in your indicator or strategy strategy (even if the instrument is the same).
+The market data subscription behavior occurs both in real-time and during [TickReplay](../operations/tick_replay.md) historical
 5.Do not leave an unused OnMarketData() method declared in your NinjaScript object. This will unnecessarily attach a data stream to your strategy which uses unnecessary CPU cycles.
 6.Should you wish to run comparisons against prior values you will need to store and update local variables to track the relevant values.
-7.The OnMarketData() method is expected to be called after [[[OnBarUpdate()](onbarupdate.md)
+7.The OnMarketData() method is expected to be called after [OnBarUpdate()](onbarupdate.md)
 ```
 ## Method Return Value
 
@@ -44,7 +44,7 @@ protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 
 |  |  |
 | --- | --- |
-| marketDataUpdate | [[[MarketDataEventArgs](marketdataeventargs.md) representing the recent change in market data |
+| marketDataUpdate | [MarketDataEventArgs](marketdataeventargs.md) representing the recent change in market data |
 
 ## Examples
 

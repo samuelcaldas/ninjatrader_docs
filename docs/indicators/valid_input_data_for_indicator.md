@@ -3,7 +3,7 @@
 System indicator methods require valid input data to function property. Indicator methods can accept the following forms of input data:
 
 Default Input 
-## The default input (Inputs[[[[BarsInProgress](../language_reference/barsinprogress.md)]) of the custom indicator, Market Analyzer row or strategy is used if input is not specified.
+## The default input (Inputs[BarsInProgress](../language_reference/barsinprogress.md)]) of the custom indicator, Market Analyzer row or strategy is used if input is not specified.
 
 ```csharp
 // Printing the current value of the 10 period SMA of closing prices
@@ -36,7 +36,7 @@ Print("The current SMA value is " + value.ToString());
 ```
 
 `Series<double>` 
-## [[[`Series<double>`](../language_reference/seriest.md) can be used as input for indicators.
+## [`Series<double>`](../language_reference/seriest.md) can be used as input for indicators.
 
 ```csharp
 // Instantiating a new Series<double> object and passing it in as input to calculate

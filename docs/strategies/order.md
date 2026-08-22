@@ -6,7 +6,7 @@ Represents a read only interface that exposes information regarding an order.
 
 - An Order object returned from calling an order method is dynamic in that its properties will always reflect the current state of an order
 
-- The property <Order>.OrderId is NOT a unique value, since it can change throughout an order's lifetime.  Please see the [[[Advance Order Handling](advanced_order_handling.md) section on "Transitioning order references from historical to live" for details on how to handle.
+- The property <Order>.OrderId is NOT a unique value, since it can change throughout an order's lifetime.  Please see the [Advance Order Handling](advanced_order_handling.md) section on "Transitioning order references from historical to live" for details on how to handle.
 
 - The property <Order>.Oco WILL be appended with a suffix when the strategy transitions from historical to real-time to ensure the OCO id is unique across multiple strategies for live orders
 
@@ -16,18 +16,18 @@ Represents a read only interface that exposes information regarding an order.
 
 |  |  |
 | --- | --- |
-| Account | The [[[Account](../addons/account_class.md) the order resides |
+| Account | The [Account](../addons/account_class.md) the order resides |
 | AverageFillPrice | A double value representing the average fill price of an order |
 | Filled | An int value representing the filled amount of an order |
 | FromEntrySignal | A string representing the user defined fromEntrySignal parameter on an order |
-| Gtd | A [[[DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing when the order will be canceled |
-| HasOverfill | A bool value representing if the order is an overfill. For use when using [[[Unmanaged orders](unmanaged_approach.md) and [[[IgnoreOverFill](ignoreoverfill.md) |
-| Instrument | An [[[Instrument](../language_reference/instrument.md) value representing the instrument of an order |
-| IsBacktestOrder | A bool that indicates if the order was generated while processing historical data. For use with [[[GetRealtimeOrder()](getrealtimeorder.md) when transitioning historical order objects to live order objects when strategies transition to from State.Historical to State.Realtime. |
-| IsLiveUntilCancelled | A bool that when true, indicates the order will be canceled by [[[managed order handling](managed_approach.md) at expiration |
-| [[[IsTerminalState()](isterminalstate.md) | A static method used to determine if the an order's OrderState is in considered terminal and no longer active |
+| Gtd | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing when the order will be canceled |
+| HasOverfill | A bool value representing if the order is an overfill. For use when using [Unmanaged orders](unmanaged_approach.md) and [IgnoreOverFill](ignoreoverfill.md) |
+| Instrument | An [Instrument](../language_reference/instrument.md) value representing the instrument of an order |
+| IsBacktestOrder | A bool that indicates if the order was generated while processing historical data. For use with [GetRealtimeOrder()](getrealtimeorder.md) when transitioning historical order objects to live order objects when strategies transition to from State.Historical to State.Realtime. |
+| IsLiveUntilCancelled | A bool that when true, indicates the order will be canceled by [managed order handling](managed_approach.md) at expiration |
+| [IsTerminalState()](isterminalstate.md) | A static method used to determine if the an order's OrderState is in considered terminal and no longer active |
 | LimitPrice | A double value representing the limit price of an order |
-| LimitPriceChanged | A double value representing the new limit price of an order. Used with [[[Account.Change()](../addons/change.md) |
+| LimitPriceChanged | A double value representing the new limit price of an order. Used with [Account.Change()](../addons/change.md) |
 | Name | A string representing the name of an order which can be provided by the entry or exit signal name |
 | Oco | A string representing the OCO (one cancels other) id of an order |
 | OrderAction | Represents the action of the order.  Possible values are:  OrderAction.Buy  OrderAction.BuyToCover  OrderAction.Sell  OrderAction.SellShort |
@@ -35,10 +35,10 @@ Represents a read only interface that exposes information regarding an order.
 | OrderState | The current state of the order.  See the order state values table below |
 | OrderType | The type of order submitted.  Possible values are:  OrderType.Limit  OrderType.Market  OrderType.MIT  OrderType.StopMarket  OrderType.StopLimit |
 | Quantity | An int value representing the quantity of an order |
-| QuantityChanged | An int value representing the new quantity of an order. Used with [[[Account.Change()](../addons/change.md) |
+| QuantityChanged | An int value representing the new quantity of an order. Used with [Account.Change()](../addons/change.md) |
 | StopPrice | A double value representing the stop price of an order |
-| StopPriceChanged | A double value representing the new stop price of an order. Used with [[[Account.Change()](../addons/change.md) |
-| Time | A [[[DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the last time the order changed state |
+| StopPriceChanged | A double value representing the new stop price of an order. Used with [Account.Change()](../addons/change.md) |
+| Time | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the last time the order changed state |
 | TimeInForce | Determines the life of the order.  Possible values are:  TimeInForce.Day  TimeInForce.Gtc |
 | ToString() | A string representation of an order |
 

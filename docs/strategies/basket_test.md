@@ -1,18 +1,18 @@
 # Basket Testing
 
-You can [[[Backtest](backtest_a_strategy.md), [[[Optimize](optimize_a_strategy.md) or [[[Walk Forward](walk_forward_optimize_a_strate.md) optimize a basket of instruments by selecting an instrument list using the instrument selector in the settings panel.
+You can [Backtest](backtest_a_strategy.md), [Optimize](optimize_a_strategy.md) or [Walk Forward](walk_forward_optimize_a_strate.md) optimize a basket of instruments by selecting an instrument list using the instrument selector in the settings panel.
 
-![[[StrategyAnalyzer_InstrumentList](../images/strategyanalyzer_instrumentlist.png)
+![StrategyAnalyzer_InstrumentList](../images/strategyanalyzer_instrumentlist.png)
 
 Once the test is complete, a listing of all the results will be displayed.
 
-![[[StrategyAnalyzer_BacketTest](../images/strategyanalyzer_backettest.png)
+![StrategyAnalyzer_BacketTest](../images/strategyanalyzer_backettest.png)
 
 1.Each instrument's backtest results are displayed individually
 
 2.The combined backtest results of ALL instruments are shown at the bottom of the results
 
-Selecting an individual row from the results grid will display the results in the Performance tabs individual [[[performance results](reviewing_performance_results.md).
+Selecting an individual row from the results grid will display the results in the Performance tabs individual [performance results](reviewing_performance_results.md).
 
 ## Reviewing Combined Results
 

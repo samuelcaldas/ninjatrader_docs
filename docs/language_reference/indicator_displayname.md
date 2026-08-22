@@ -4,7 +4,7 @@
 
 ## Determines the text display on the chart panel.  This is also listed in the UI as the "Label" which can be manually changed (if not overridden).  The default behavior of this property will include the NinjaScript type Name along with its input and data series parameters.  However this behavior can be overridden if desired.
 
-> **Note:** For modifying the string which is used in the list of available indicators, please see the [[[Name](name.md) property.
+> **Note:** For modifying the string which is used in the list of available indicators, please see the [Name](name.md) property.
 
 ## Property Value
 

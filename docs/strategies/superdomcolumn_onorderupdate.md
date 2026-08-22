@@ -2,7 +2,7 @@
 
 ## Definition
 
-Called every time an [[[order](order.md) changes state. An order will change state when a change in order quantity, price or state (e.g. working to filled) occurs.
+Called every time an [order](order.md) changes state. An order will change state when a change in order quantity, price or state (e.g. working to filled) occurs.
 
 > **Note:** The OnOrderUpdate() method is called on ALL order updates (e.g., any account and instrument combination) and NOT just the specific items which are selected in the SuperDOM.
 

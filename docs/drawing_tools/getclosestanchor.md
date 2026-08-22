@@ -6,7 +6,7 @@ Returns the closest chart anchor within a specified maximum distance from the mo
 
 ## Method Return Value
 
-This method returns an existing [[[ChartAnchor](chartanchor.md)
+This method returns an existing [ChartAnchor](chartanchor.md)
 
 ## Syntax
 

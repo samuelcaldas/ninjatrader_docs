@@ -31,4 +31,4 @@ In the image below, SlotsPainted reveals that there are 17 bars painted on the c
 
  
 
-![[[ChartControl_SlotsPainted](../images/chartcontrol_slotspainted.png)
+![ChartControl_SlotsPainted](../images/chartcontrol_slotspainted.png)

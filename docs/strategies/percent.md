@@ -2,7 +2,7 @@
 
 ## Definition
 
-Returns a [[[TradesPerformanceValues](tradesperformancevalues.md) object in percent.
+Returns a [TradesPerformanceValues](tradesperformancevalues.md) object in percent.
 
 ## Property Value
 
