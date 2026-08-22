@@ -20,8 +20,6 @@ Bars.GetOpen(int index)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

@@ -20,8 +20,6 @@ Instrument.MasterInstrument.RoundDownToTickSize(double price)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //Takes the last 3 closes, divides them by 3, and rounds the value down to the nearest valid tick size
 Value[0] = Instrument.MasterInstrument.RoundDownToTickSize((Close[0] + Close[1] + Close[2]) / 3);

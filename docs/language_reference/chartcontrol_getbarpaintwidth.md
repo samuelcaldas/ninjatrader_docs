@@ -20,8 +20,6 @@ A double representing the pixel width of bars on the chart
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

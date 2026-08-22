@@ -20,8 +20,6 @@ An enum specifying the type of Cross Hair currently enabled on the chart. Possib
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

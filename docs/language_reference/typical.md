@@ -15,8 +15,6 @@ Typical[int barsAgo]
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Current bar typical price
 double barTypicalPrice = Typical[0];

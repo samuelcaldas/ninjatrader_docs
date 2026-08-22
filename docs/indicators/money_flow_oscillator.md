@@ -23,8 +23,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of a 10 period Money Flow Oscillator
 double value = MoneyFlowOscillator(10)[0];

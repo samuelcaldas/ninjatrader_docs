@@ -16,8 +16,6 @@ An int value representing the number of bars elapsed.  This property cannot be s
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Only process strategy logic after five bars have posted since the start of the trading day
 protected override void OnBarUpdate()

@@ -14,8 +14,6 @@ Bars.Instrument.MasterInstrument.Description
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

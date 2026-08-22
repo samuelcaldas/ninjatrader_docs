@@ -65,8 +65,6 @@ The entry signal name. This ties the trail stop exit to the entry and exits the 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

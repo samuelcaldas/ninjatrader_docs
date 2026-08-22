@@ -2,8 +2,6 @@
 
 ## Definition
 
-![Ns](../images/ns.png)
-
 The NTWindow class defines parent windows for custom window creation. Instances of NTWindow act as containers for instances of [NTTabPage](nttabpage_class.md), in which UI elements and their related logic are contained.
 
 > **Notes:**

@@ -14,8 +14,6 @@ ChartControl.PresentationSource
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 int devicePixelX;
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)

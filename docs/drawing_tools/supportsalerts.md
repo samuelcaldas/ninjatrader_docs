@@ -20,8 +20,6 @@ public override bool SupportsAlerts
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public override bool SupportsAlerts { get { return true; } }
 ```

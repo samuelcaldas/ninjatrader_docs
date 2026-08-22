@@ -22,8 +22,6 @@ public override object Clone()
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public override object Clone()
 {

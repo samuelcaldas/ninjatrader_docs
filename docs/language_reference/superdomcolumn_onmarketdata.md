@@ -23,8 +23,6 @@ protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
 {

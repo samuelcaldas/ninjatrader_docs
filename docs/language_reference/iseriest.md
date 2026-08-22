@@ -1,5 +1,3 @@
-![Ns](../images/ns.png)
-
 # `ISeries<T>`
 
 ## Definition
@@ -27,8 +25,6 @@
 > **Tips:** (see examples below)  1.By specifying a parameter of type `ISeries<double>`, you can then pass in an array of closing prices, an indicator, or a user defined data series.  2.When working with `ISeries<double>` objects in your code you may come across situations where you are not sure if the value being accessed is a valid value or just a "placeholder" value. To check if you are using valid values for your logic calculations that have been explicitly set, please use .IsValidDataPoint(int barsAgo) to check.
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 //create custom a method named DoubleTheValue that accepts any object that implements

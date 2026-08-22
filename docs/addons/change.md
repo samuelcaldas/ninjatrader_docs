@@ -18,8 +18,6 @@ Change(IEnumerable<Order> orders)
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 Order stopOrder;
 stopOrder.StopPriceChanged = stopOrder.StopPrice - 4 \* stopOrder.Instrument.MasterInstrument.TickSize;

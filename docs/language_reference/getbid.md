@@ -24,8 +24,6 @@ Bars.GetBid(int index)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

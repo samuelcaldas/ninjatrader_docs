@@ -45,8 +45,6 @@ Draw.Line(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTim
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a dotted lime green line from 10 bars back to the current bar
 // with a width of 2 pixels

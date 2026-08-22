@@ -14,8 +14,6 @@ Represents an interface that exposes information regarding a Diamond [IDrawingTo
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiates a red diamond on the current bar 1 tick below the low
 Diamond myDiamond = Draw.Diamond(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);

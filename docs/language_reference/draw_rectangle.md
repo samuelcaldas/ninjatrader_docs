@@ -45,8 +45,6 @@ Draw.Rectangle(NinjaScriptBase owner, string tag, DateTime startTime, double sta
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a blue rectangle from the low 10 bars back to the high of 5 bars back
 Draw.Rectangle(this, "tag1", 10, Low[10] - TickSize, 5, High[5] + TickSize, Brushes.Blue);

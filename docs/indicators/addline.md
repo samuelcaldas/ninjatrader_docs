@@ -36,10 +36,6 @@ AddLine(Strokename)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 |  | Defining a single UI configurable static line |
 | --- | --- |
 |  | OnStateChange()  {        State.SetDefaults)  {       // Adds an oscillator line at a value of 30  );  }  } |

@@ -14,8 +14,6 @@ An [ObservableCollection](https://msdn.microsoft.com/en-us/library/ms668604(v=vs
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

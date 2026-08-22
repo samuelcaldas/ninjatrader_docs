@@ -15,8 +15,6 @@ Represents an interface that exposes information regarding a Risk Reward [IDrawi
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a RiskReward object
 RiskReward myRR = Draw.RiskReward(this, "tag1", false, 0, High[0], 10, Low[0], 2, true);

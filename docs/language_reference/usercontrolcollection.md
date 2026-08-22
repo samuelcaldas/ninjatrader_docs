@@ -18,8 +18,6 @@ UserControlCollection[int idx]
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private System.Windows.Controls.Button myBuyButton;
 private System.Windows.Controls.Button mySellButton;

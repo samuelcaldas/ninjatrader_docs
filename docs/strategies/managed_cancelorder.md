@@ -20,8 +20,6 @@ Cancels a specified order.  This method is reserved for experienced programmers 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Order myEntryOrder = null;
 private int barNumberOfOrder = 0;

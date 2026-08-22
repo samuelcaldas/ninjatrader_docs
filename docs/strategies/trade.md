@@ -42,8 +42,6 @@ In the second example above, two trade objects are created to represent each ind
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

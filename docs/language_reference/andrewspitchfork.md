@@ -34,8 +34,6 @@ As further alternation the Modified Schiff Pitchfork variant is found by moving 
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate an Andrews Pitchfork object
 AndrewsPitchfork myFork = Draw.AndrewsPitchfork(this, "tag1", false, 7, Low[7], 5, High[5], 1, Low[1], false, "ForkTemplate");

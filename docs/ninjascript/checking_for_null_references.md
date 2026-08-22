@@ -26,8 +26,6 @@ protected override void OnBarUpdate()
 
 This will generate an error because you cannot access the object or any of its properties yet. You must always check if an object variable is null before attempting to access the object.
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -37,12 +35,8 @@ protected override void OnBarUpdate()
     }
     else if (entryOrder != null)
 
-![Ns](../images/ns.png)
-
     {
         if (entryOrder.Filled > 0)
-
-![Ns](../images/ns.png)
 
         // Do something
     }

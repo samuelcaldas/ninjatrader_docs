@@ -60,6 +60,6 @@ There are three available ATM Strategy Selection Modes:
 
 ![Atm 12](../images/atm_12.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Playvideo](../images/playvideo.jpg)
+▶️

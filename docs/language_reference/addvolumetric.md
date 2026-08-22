@@ -37,8 +37,6 @@ AddVolumetric(isResetOnNewTradingDay) (R17 and higher only)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 OnStateChange()
 {

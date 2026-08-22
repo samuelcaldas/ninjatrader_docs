@@ -47,8 +47,6 @@ Bars.GetDayBar(int tradingDaysBack).Volume
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

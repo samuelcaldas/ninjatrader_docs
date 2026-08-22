@@ -51,8 +51,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of the teeth for the Wiseman Alligator
 double value = WisemanAlligator(13, 8, 5, 8, 5, 3).Teeth[0];

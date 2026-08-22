@@ -6,8 +6,6 @@ An indicator that accumulates the volume of orders filled at bid and ask prices 
 
 ## Syntax
 
-![Ns](../images/ns.png)
-
 OrderFlowCumulativeDelta(CumulativeDeltaType deltaType, CumulativeDeltaPeriod period, int sizeFilter)
 
 OrderFlowCumulativeDelta(`ISeries<double>` input, CumulativeDeltaType deltaType, CumulativeDeltaPeriod period, int sizeFilter)
@@ -60,8 +58,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 | sizeFilter | Input to exclude volume less than the selected value |
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 // A 1 tick data series must be added to the OnStateChange() as this indicator runs off of tick data

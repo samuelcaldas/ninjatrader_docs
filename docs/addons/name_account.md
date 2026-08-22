@@ -14,8 +14,6 @@ An string representing the name of the account
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Account myAccount;
 protected override void OnStateChange()

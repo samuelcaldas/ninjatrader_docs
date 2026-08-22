@@ -16,8 +16,6 @@ Determines if the following declared property displays in the NinjaTrader UI's p
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 #region Properties
 // do not show this value on the UI's property grid
 [Browsable(false)]

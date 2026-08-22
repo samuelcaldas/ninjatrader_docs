@@ -22,8 +22,6 @@ Represents position related information that pertains to real-world account (liv
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

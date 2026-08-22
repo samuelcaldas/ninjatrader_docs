@@ -16,8 +16,6 @@ PositionAccount.Instrument
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnPositionUpdate(Position position, double averagePrice, int quantity, MarketPosition marketPosition)
 {

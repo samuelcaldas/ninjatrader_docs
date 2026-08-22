@@ -14,8 +14,6 @@ Cancels all orders for the specified instrument on the connection.
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Account myAccount;
 protected override void OnStateChange()

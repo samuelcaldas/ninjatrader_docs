@@ -37,4 +37,3 @@ myRegChan.PriceType = PriceType.Median;
 
 > **Note:** To differentiate between DrawingTools.RegressionChannel and Indicators.RegressionChannel when assigning a RegressionChannel object, you will need to invoke the former path explicitly, as seen in the example above.
 
-![Ns](../images/ns.png)

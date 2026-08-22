@@ -26,8 +26,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Evaluates if ADL is rising
 IsRising(ADL());

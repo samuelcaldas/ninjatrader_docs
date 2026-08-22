@@ -34,8 +34,6 @@ Draw.FibonacciTimeExtensions(NinjaScriptBase owner, string tag, bool isAutoScale
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a fibonacci time extension object
 Draw.FibonacciTimeExtensions(this, "tag1", false, 10, Low[10], 0, High[0]);

@@ -50,7 +50,7 @@ Sets the hours used for historical bar calculations
 
 Each column will have its own set of parameters specific to that column.  Please see the "Understanding the default systems columns" section below for more information on each of NinjaTrader's pre-built columns.  For any custom columns that have been downloaded, please refer to the column's developer for more information on settings specific to their custom column.
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 ## Understanding the APQ (Approximate Position in Queue) Column
 
@@ -144,7 +144,7 @@ Volume Column The Volume Column will display the number of contracts that have t
 
 ![Superdom 56](../images/superdom_56.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ## Custom column development
 

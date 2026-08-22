@@ -10,8 +10,6 @@ Indicates the current status of the primary data connection.
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 private int priceLost;
 private int mainLost;

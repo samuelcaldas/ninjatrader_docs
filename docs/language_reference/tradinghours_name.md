@@ -14,8 +14,6 @@ A string representing the name of the trading hours template.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

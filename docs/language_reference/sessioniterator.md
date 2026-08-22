@@ -43,8 +43,6 @@ Allows you to traverse through various trading hours data elements which apply t
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private SessionIterator sessionIterator;
 protected override void OnStateChange()

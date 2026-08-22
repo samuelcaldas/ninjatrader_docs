@@ -264,6 +264,6 @@ Sets the [Level II properties](levelii_properties.md)
 
 > The Level II window is a tabbed interface, this gives you the ability to have multiple Level II tabs configured in the same window. Please see the [Using Tabs](using_tabs.md) section of the help guide for more information.
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Playvideo](../images/playvideo.jpg)
+▶️

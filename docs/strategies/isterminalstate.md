@@ -22,8 +22,6 @@ IsTerminalState(OrderState orderState)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Order entryOrder = null;
 protected override void OnBarUpdate()

@@ -4,8 +4,6 @@ This determines which [NTTabPage](nttabpage_class.md) is created whenever a new 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // INTTabFactory member. Creates new tab pages whenever the user presses the + button
 public NTTabPage CreateTabPage(string typeName, bool isNewWindow = false)

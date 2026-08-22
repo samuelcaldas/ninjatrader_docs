@@ -32,8 +32,6 @@ This method does not return a value
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

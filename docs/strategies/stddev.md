@@ -14,8 +14,6 @@ A double value that represents the standard deviation of the collection on a per
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

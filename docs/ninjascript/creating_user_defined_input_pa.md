@@ -34,15 +34,11 @@ public int Period
 // No lower or upper bound
 [Range(int.MinValue, int.MaxValue)]
 
-![Ns](../images/ns.png)
-
 ```
 
 6.Use the "Description" field to provide a brief description of what the parameter does.
 
 7.Pay attention to this line as the object type will vary depending on the type of parameter you wish to make:
-
-![Ns](../images/ns.png)
 
 ```csharp
 public int Period
@@ -50,14 +46,8 @@ public int Period
 
 8.Now, wherever in your code you want to call the user-definable parameter, just use "Period".
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 if (SMA(Period)[0] > SMA(Period)[1])
-
-![Ns](../images/ns.png)
 
 // Do something
 ```

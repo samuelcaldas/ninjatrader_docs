@@ -104,7 +104,7 @@ Name
 
 The name of the account. This can differ from the account's Display Name
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 Net Liquidation by Currency
 
@@ -368,7 +368,7 @@ TD Ameritrade commissions)
 
 ![Controlcenter Accountsgrid](../images/controlcenter_accountsgrid.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 ## How to preset property defaults
 

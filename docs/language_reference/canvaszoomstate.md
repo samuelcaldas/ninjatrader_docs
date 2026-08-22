@@ -20,8 +20,6 @@ An enum representing the state of the Zoom tool on the chart. Possible values ar
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

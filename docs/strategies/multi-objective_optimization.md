@@ -24,7 +24,7 @@ Start a Multi-Objective Optimization To run a Multi-Objective Optimization selec
 
     StrategyAnalyzer_Optimization_Paramters    Min.  - The starting value you want to test   Max.  - The last value to test   Increment - The increment value (step value) used to increment the starting value by for each subsequent optimization pass    In the image above, the input "Fast" has a starting (initial) value of 10 and an ending value of 30 with an increment of 1. This means that the first value tested will be 10, then 11, then 12 all the way through 30. The input "Slow" has a starting value of 6, ending value of 16 with an increment of 1. Based on these settings, a total of 200 (20 unique values for "Fast" multiplied by 10 unique values for "Slow") backtest iterations will be processed in order to find the optimal combination of input values based on the best optimization fitness. |
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ## Understanding Multi-Objective  properties
 
@@ -58,4 +58,4 @@ Sets the optimization fitness to base the optimization results on, left clicking
 
 ![Strategyanalyzer Optimization Paramters](../images/strategyanalyzer_optimization_paramters.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️

@@ -14,8 +14,6 @@ A TimeSpan value that represents the maximum time to recover from a draw down.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

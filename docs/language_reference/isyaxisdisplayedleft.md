@@ -14,8 +14,6 @@ A boolean value. When True, indicates that the y-axis displays to the left of th
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

@@ -20,8 +20,6 @@ A brush series type object. Accessing this property via an index value [[[int ba
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

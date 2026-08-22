@@ -26,8 +26,6 @@ A value of "0" if price1 is equal to price2
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 double newPrice = Close[0] + High[0] + Open[0];
 if (Instrument.MasterInstrument.Compare(newPrice, Close[1]) == 1)

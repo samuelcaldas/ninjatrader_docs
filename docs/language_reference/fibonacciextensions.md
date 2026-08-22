@@ -18,8 +18,6 @@ Represents an interface that exposes information regarding a Fibonacci Extension
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiates a Fibonnaci Extension
 FibonacciExtensions myFibExt = Draw.FibonacciExtensions(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);

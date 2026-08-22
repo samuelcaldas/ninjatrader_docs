@@ -91,7 +91,7 @@ Range Icon If the horizontal axis is scrolled to the left or right from its star
 
 ![Chart Fixedicon](../images/chart_fixedicon.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ## How to go to a specific time on the chart
 
@@ -151,7 +151,7 @@ Global Cross Hair (links crosshairs when enabled on two or more charts)
 
 ![Chart Cursormenu](../images/chart_cursormenu.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 Chart_CursorMenu
 

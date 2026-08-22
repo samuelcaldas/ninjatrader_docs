@@ -23,8 +23,6 @@ This method does not return a value.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //move only the chart anchors Y (price) value
 MyAnchor.MoveAnchorY(lastPoint, newPoint, chartControl, chartPanel, chartScale);

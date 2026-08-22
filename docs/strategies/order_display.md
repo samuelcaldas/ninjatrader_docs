@@ -46,7 +46,7 @@ The image below shows a working limit, stop-market, and stop-limit order for one
 
 ## Understanding how Stop Loss and Profit Target orders are displayed
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 > Stop Loss and Profit Target display Orders submitted as Stop Loss and Profit Target orders are uniquely displayed by coloring all three cells in the price row where the order(s) are working. This makes it very easy to visualize your stop and profit objectives relative to the current market. All other orders are displayed by coloring a single cell in either the BUY or SELL column.    The two below displays an image of a Stop Loss and Profit Target pair, notice that the Size Marker displays the number of contracts remaining to be filled, and that they are sell orders since they are displayed on the sell side of the Price Ladder. Also note the brown colored cell at price level 1974.25, this represents the average entry price for the open position.      SuperDOM_10
 
@@ -68,6 +68,6 @@ The image below shows a working limit, stop-market, and stop-limit order for one
 
 ![Superdom 13](../images/superdom_13.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
  |

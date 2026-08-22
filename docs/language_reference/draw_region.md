@@ -41,8 +41,6 @@ Draw.Region(NinjaScriptBase owner, string tag, DateTime startTime,
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draw a region between upper and lower Bollinger bands
 Draw.Region(this, "tag1", CurrentBar, 0, Bollinger(2, 14).Upper, Bollinger(2, 14).Lower, null, Brushes.Blue, 50);

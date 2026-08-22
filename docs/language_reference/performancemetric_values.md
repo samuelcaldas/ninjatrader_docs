@@ -40,10 +40,6 @@ public double[] Values
 [Display("MyPerformanceMetric", Order = 0)]
 public double[] Values
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 {
     get
     {

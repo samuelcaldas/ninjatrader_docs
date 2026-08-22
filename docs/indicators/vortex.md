@@ -35,8 +35,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current VIPlus value of a 14 period Vortex
 double valueP = Vortex(14).VIPlus[0];

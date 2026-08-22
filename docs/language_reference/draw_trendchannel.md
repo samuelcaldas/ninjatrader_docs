@@ -36,8 +36,6 @@ Draw.TrendChannel(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a trend channel
 Draw.TrendChannel(this, "tag1", true, 10, Low[10], 0, High[0], 10, High[10] + 5 \* TickSize);

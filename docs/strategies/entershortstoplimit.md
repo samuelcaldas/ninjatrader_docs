@@ -41,8 +41,6 @@ EnterShortStopLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quan
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

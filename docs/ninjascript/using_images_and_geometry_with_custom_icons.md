@@ -1,10 +1,6 @@
-![Ns](../images/ns.png)
-
 # Using Images and Geometry with Custom Icons
 
 ## Custom Icon Overview
-
-![Ns](../images/ns.png)
 
 When overriding the Icon method in a [Share Service](../language_reference/share_service.md), [Drawing Object](../drawing_tools/drawing_tools.md), or [Chart Style](../drawing_tools/chart_style.md), you can use a variety of inputs to specify what will be displayed on the icon, including UniCode characters (if they exist in the icon pack for the font family used in NinjaTrader), custom Geometry Paths from the System.Windows.Shapes namespace, or image files. Using an image file for a custom icon can allow the flexibility of creating your icon's visuals outside of your code via image editing software. For more information about adding custom Icons, see the "Icon" page under the topics for each of the NinjaScript object types listed above.
 

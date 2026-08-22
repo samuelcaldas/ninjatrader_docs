@@ -33,8 +33,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of the 3rd moving average
 double value = MovingAverageRibbon(RibbonMAType.Exponential, 10, 10).MovingAverage3[0];

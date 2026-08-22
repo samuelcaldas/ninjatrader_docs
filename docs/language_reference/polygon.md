@@ -14,8 +14,6 @@ Represents an interface that exposes information regarding a Polyon [IDrawingToo
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a Polygon object
 Polygon myPolygon = Draw.Polygon(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);

@@ -35,8 +35,8 @@ The Market Analyzer allows you to add a variety of columns ranging from indicato
 
 ![Marketanalyzer 22](../images/marketanalyzer_22.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ![Marketanalyzer 26](../images/marketanalyzer_26.png)

@@ -28,8 +28,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // If we get a reversal over the past 10 bars go long
 if (KeyReversalUp(10)[0] == 1)

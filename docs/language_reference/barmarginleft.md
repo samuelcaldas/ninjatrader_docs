@@ -14,8 +14,6 @@ A value representing the minimum margin applied to the left edge of bars. This v
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

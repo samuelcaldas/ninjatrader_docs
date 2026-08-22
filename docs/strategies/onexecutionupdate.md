@@ -15,10 +15,6 @@ An event driven method which is called on an incoming execution of an order mana
 > **Notes:**
 - Programming in this environment is reserved for the more [advanced user](advanced_order_handling.md). If you are for example looking to protect a strategy managed position with a basic stop and target, then the [Set() methods](managed_approach.md) would be more convenient.
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 - When connected to the Playback connection, it is possible for OnExecutionUpdate() to trigger in the middle of a call to OnBarUpdate(). The Sim101 account adds a simulated random delay for processing execution events, but the Playback connection triggers executions immediately, for the sake of consistency in backtesting. Because of this, OnExecutionUpdate() can appear to be triggered earlier than it would in live trading, or when simulation trading on a live connection.
 - Please also review [Multi-Thread Considerations for NinjaScript](../ninjascript/multi-threading.md)
 - Its best practice to only work with the passed by value parameters and not reference parameters. This insures that you process each change of the underlying state.

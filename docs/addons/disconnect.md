@@ -14,8 +14,6 @@ Disconnects from the data connection.
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 private void OnExecutionUpdate(object sender, ExecutionEventArgs e)
 {

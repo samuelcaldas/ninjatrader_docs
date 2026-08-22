@@ -1,7 +1,3 @@
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 # `Series<T>`
 
 ## Definition
@@ -59,8 +55,6 @@ private Series<double> mySecondaryDoubleSeries; // Define a Series<T> variable. 
 // as a double so we created a Series<double> variable.
 // Create a Series object and assign it to the variable
 
-![Ns](../images/ns.png)
-
 protected override void OnStateChange()
 {
     if (State == State.Configure)
@@ -84,8 +78,6 @@ protected override void OnStateChange()
 ## Setting Values
 
 You can set the value for the current bar being evaluated by choosing a "barsAgo" value of "0" or, for historical bars, by choosing a "barsAgo" value that represents the number of bars ago that you want the value to be stored at.
-
-![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnBarUpdate()

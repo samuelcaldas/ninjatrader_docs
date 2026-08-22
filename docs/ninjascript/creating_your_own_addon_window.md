@@ -1,18 +1,6 @@
 # Creating Your Own AddOn Window
 
-![Ns](../images/ns.png)
-
 ## The NTWindow Class
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 The NTWindow class allows you to quickly build windows using the same style and skin as other windows in NinjaTrader. An NTWindow does not contain user-interface functionality, but rather serves as a container for instances of NTTabPage, which will contain controls and functionality for the window.
 
@@ -86,16 +74,6 @@ public class AddOnFrameworkWindowFactory : INTTabFactory
 ```
 
  
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 > **Note:** Take note of the instantiation of the AddOnPage class in the example above. In our example, AddOnPage is a XAML-defined class. Thus, when CreateTabPage() is called on an instance of AddOnFrameworkWindowFactory, it instantiates our XAML-defined user interface. See below for more information on defining user interfaces in XAML.
 
@@ -195,10 +173,6 @@ There are two options available for laying out the user interface in your NTTabP
 
 You are not required to use XAML for window layout. You can code everything in C# if you choose. Defining user interface elements in C# is more verbose than XAML, but all of the same functionality is available. The example below shows the C# equivalent of the XAML code in the prior section.
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 Grid grid = new Grid();
 grid.Background = new SolidColorBrush(Colors.Transparent);
@@ -270,8 +244,6 @@ protected override void OnWindowDestroyed(Window window)
 ## Adding NinjaTrader Custom Controls
 
 User-interface controls, such as buttons, text fields, and dropdown menus can be defined via XAML (or C#), then behavior and functionality of those controls can be set via C# along with the core logic of your AddOn. In addition to the [standard WPF controls](https://msdn.microsoft.com/en-us/library/bb655881(v=vs.90).aspx), the NinjaScript AddOn framework provides access to each of the custom NinjaTrader controls that can be found throughout the platform. Below is a list of the most commonly used NinjaTrader controls, along with examples of defining these controls in XAML and adding functionality to them in C#:
-
-![Ns](../images/ns.png)
 
 1. The Instrument Selector
 
@@ -410,13 +382,7 @@ atmStrategySelector.SelectionChanged += (o, args) =>
 
 If you utilize NinjaTrader controls to allow selection of instruments or intervals, you can add instrument or interval linking functionality to your window. The PropagateInstrumentChange() and PropagateIntervalChange() methods can be used to accomplish this. To call PropagateIntervalChange(), use the process below:
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 1.Hide the Instrument property of the IInstrumentProvider interface, which your NTTabPage inheriting class should be implementing
-
-![Ns](../images/ns.png)
 
 2.Call PropagateInstrumentChange() within the setter for the hidden Instrument property
 
@@ -429,18 +395,12 @@ public Cbi.Instrument Instrument
     {
         // Send instrument to other windows linked to the same color
 
-![Ns](../images/ns.png)
-
         PropagateInstrumentChange(value);
     }
 }
 ```
 
 In a real-world scenario, you would most likely use an instrument selector to call the setter for the Instrument property. Thus, when a user toggled the instrument selector, PropagateInstrumentChange() would be called in addition to any other logic you put in place. In the same way, you can use an interval selector to push changes to the Interval Linking feature. In this case, you can attach a custom event handler to an interval selector's IntervalChanged event, then call PropagateIntervalChange() within that event handler:
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 ```csharp
 ...
@@ -451,10 +411,6 @@ intervalSelector.IntervalChanged += OnIntervalChanged;
 ...
 // This method is fired when our interval selector changes intervals
 private void OnIntervalChanged(object sender, BarsPeriodEventArgs args)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 {
     if (args.BarsPeriod == null)

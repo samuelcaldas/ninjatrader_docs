@@ -3,8 +3,6 @@
 The Unmanaged approach is reserved for VERY EXPERIENCED programmers. In place of the convenience layer that the [Managed](managed_approach.md) approach offered, the Unmanaged approach instead offers ultimate flexibility in terms of order submission and management. This section will discuss some of the basics of working with Unmanaged order methods.
 
 ```csharp
-![Ns](../images/ns.png)
-
 protected override void OnStateChange()
 {
     if (State == State.SetDefaults)
@@ -46,8 +44,6 @@ protected override void OnBarUpdate()
 {
     // Cancel entry order if price is moving away from our limit price
 
-![Ns](../images/ns.png)
-
     if (entryOrder != null && Close[0] < entryOrder.LimitPrice - 4 \* TickSize)
     {
         CancelOrder(entryOrder);
@@ -71,9 +67,5 @@ Methods utilizing signal names like [BarsSinceEntryExecution()](barssinceentryex
 | [ChangeOrder()](unmanaged_changeorder.md) | Amends a specified [Order](order.md). |
 | [IgnoreOverfill](ignoreoverfill.md) | An [unmanaged order property](unmanaged_approach.md) which defines the behavior of a strategy when an overfill is detected. |
 | [IsUnmanaged](isunmanaged.md) | Determines if the strategy will be using Unmanaged order methods. |
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 | [SubmitOrderUnmanaged()](submitorderunmanaged.md) | Generates an [Unmanaged](isunmanaged.md) order. |

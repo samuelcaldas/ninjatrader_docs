@@ -41,8 +41,6 @@ Performance profile of a [collection](tradecollection.md) of [Trade](trade.md) o
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate(){
     // Only trade if you have less than 5 consecutive losers in a row

@@ -13,8 +13,6 @@ A bool value which when true determines if the chart anchor is currently in a st
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, Point point)
 {

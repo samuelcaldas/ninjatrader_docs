@@ -24,8 +24,6 @@ GetCurrentAsk(int barsSeriesIndex)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -44,8 +42,6 @@ protected override void OnStateChange()
     if (State == State.SetDefaults)
     {
         Name = "Example's Indicator";
-
-![Ns](../images/ns.png)
 
     }
     if (State == State.Configure)

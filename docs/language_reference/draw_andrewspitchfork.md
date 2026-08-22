@@ -41,8 +41,6 @@ Draw.AndrewsPitchfork(NinjaScriptBase owner, string tag, bool isAutoScale, DateT
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws an Andrew's Pitchfork
 Draw.AndrewsPitchfork(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue, DashStyleHelper.Solid, 3);

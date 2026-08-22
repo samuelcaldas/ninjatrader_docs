@@ -23,8 +23,6 @@ This method does not return a value.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //set the chart anchors x point value
 MyAnchor.UpdateYFromPoint(point, chartScale);

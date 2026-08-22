@@ -31,8 +31,6 @@ protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs conne
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //Prints the status of the order system
 protected override void OnConnectionStatusUpdate(ConnectionStatusEventArgs connectionStatusUpdate)

@@ -14,8 +14,6 @@ RunIteration()
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnOptimize()
 {

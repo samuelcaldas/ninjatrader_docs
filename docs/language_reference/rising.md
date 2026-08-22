@@ -20,8 +20,6 @@ This method returns true if a rising condition is present; otherwise, false.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

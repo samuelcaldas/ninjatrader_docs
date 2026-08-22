@@ -46,8 +46,6 @@ protected override void OnRender(DrawingContext dc, System.Windows.Size renderSi
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(DrawingContext dc, System.Windows.Size renderSize)
 {

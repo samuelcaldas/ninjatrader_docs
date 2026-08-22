@@ -13,8 +13,6 @@ This is where the actual content for tabs inside the custom add on [NTWindow](nt
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public class MyWindowTabPage : NTTabPage, NinjaTrader.Gui.Tools.IInstrumentProvider, IIntervalProvider
 {

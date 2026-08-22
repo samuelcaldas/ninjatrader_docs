@@ -14,8 +14,6 @@ Strategies[0].OptimizationParameters
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnOptimize()
 {

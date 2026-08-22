@@ -14,8 +14,6 @@ A [TimeZoneInfo](https://msdn.microsoft.com/en-us/library/system.timezoneinfo(v=
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Print the timezone before printing all sessions
 Print(String.Format("All sessions are in {0}", Bars.TradingHours.TimeZoneInfo));

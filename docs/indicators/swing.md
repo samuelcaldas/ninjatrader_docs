@@ -54,8 +54,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the high price of the most recent swing high
 Print("The high of the swing bar is " + High[Math.Max(0, Swing(5).SwingHighBar(0, 1, 10))]);

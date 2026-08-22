@@ -2,7 +2,7 @@
 
 The SuperDOM provides the ability to attach an order to an indicator value, automatically moving the order in lockstep with the indicator as its value changes. This feature can be used for entries as well as resting exit orders such as Stop Losses and Profit Targets.
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 > playVideo
 

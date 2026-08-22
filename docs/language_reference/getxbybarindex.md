@@ -25,8 +25,6 @@ An int representing a chart-canvas x-coordinate
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

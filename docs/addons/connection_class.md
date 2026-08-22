@@ -27,8 +27,6 @@ The Connection class can be used to monitor connection related events as well as
 ```csharp
 // Example of accessing information on all connected connections
 
-![Ns](../images/ns.png)
-
 NTTabPage
 {
     MyAddOnTab()

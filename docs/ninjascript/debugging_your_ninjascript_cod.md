@@ -6,8 +6,6 @@ To begin the process of stripping down your code you can either make a new tempo
 
 To comment out code segments you can either press the "Comment selection" button on the top toolbar in the NinjaScript editor or type "//" in front of the line. To mass comment code segments, you can use your mouse cursor and select multiple lines and press the "Comment selection" button as well. To uncomment code, remove the "//" or select the line and press the "Uncomment selection" button.
 
-![Ns](../images/ns.png)
-
 ```csharp
 double limitPrice = 0; //You can comment after working code
 // double stopPrice = 0;
@@ -53,8 +51,6 @@ When debugging stop or limit orders it can also be extremely useful to draw dots
 ```csharp
 Draw.Dot(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);
 
-![Ns](../images/ns.png)
-
 ```
 
  
@@ -62,10 +58,6 @@ Draw.Dot(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);
 Sometimes your code will compile and run fine, but it will produce inaccurate results. To check for accuracy, you can use Print() along with the Data Box to compare values. If you are doing a complex mathematical calculation, you can print the value at every step to ensure the calculations are as expected.
 
 External references can also be very useful when debugging. They are great for gaining insight into syntax and usage of various methods. Searching Google or MSDN can provide useful examples and code snippets you can adapt to use with your own code.
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 Some useful resources:
 

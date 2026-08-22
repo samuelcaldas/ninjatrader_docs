@@ -23,8 +23,6 @@ protected override void OnStateChange()
     {
         Name = "Examples Indicator";
 
-![Ns](../images/ns.png)
-
         // Lines are added to the Lines collection in order
         AddPlot(Brushes.Orange, "Plot1"); // Stored in Plots[0]
         AddPlot(Brushes.Blue, "Plot2");

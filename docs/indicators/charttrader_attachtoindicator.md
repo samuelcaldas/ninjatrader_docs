@@ -2,7 +2,7 @@
 
 Chart Trader provides the ability to attach an order to an indicator plot, automatically moving the order in lockstep with the indicator as its plot value changes. This feature can be used for entries as well as resting exit orders such as Stop Losses and Profit Targets.
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 > playVideo  Attach to Indicator
 
@@ -14,7 +14,7 @@ Attach to Indicator Properties The Attach to Indicator Properties window can be 
 
 ![Charttrader19](../images/charttrader19.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ![Charttrader20](../images/charttrader20.png)
 

@@ -47,10 +47,6 @@ protected override void OnStateChange()
     {
         Name = "ExampleStrategy";
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
     }
     else if (State == State.Transition)
     StartTime = Core.Globals.Now;

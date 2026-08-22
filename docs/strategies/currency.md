@@ -14,8 +14,6 @@ A TradesPerformanceValues object that is represented in currency.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

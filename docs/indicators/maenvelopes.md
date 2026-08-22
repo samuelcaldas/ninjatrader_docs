@@ -49,8 +49,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current upper band value of a 20 period SMA envelope using default price type
 double upperValue = MAEnvelopes(0.2, 3, 20).Upper[0];

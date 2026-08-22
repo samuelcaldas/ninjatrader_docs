@@ -32,8 +32,6 @@ The TabControlManager class can be used to set or check several properties of a 
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 public AddOnFrameworkWindow()
 {

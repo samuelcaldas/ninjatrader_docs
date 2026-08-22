@@ -16,8 +16,6 @@ This property returns true if the bars series should reset on a new trading day;
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnDataPoint(Bars bars, double open, double high, double low, double close, DateTime time, long volume, bool isBar, double bid, double ask)
 {

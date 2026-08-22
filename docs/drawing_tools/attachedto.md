@@ -25,6 +25,4 @@ AttachedTo
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 > ns  if (AttachedTo.AttachedToType == AttachedToType.Indicator)     // do something

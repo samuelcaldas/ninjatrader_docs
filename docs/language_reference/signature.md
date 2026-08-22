@@ -16,8 +16,6 @@ Signature
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //example #1, adds text "This message was sent from NinjaTrader" at the end of the message".
 protected override void OnStateChange()

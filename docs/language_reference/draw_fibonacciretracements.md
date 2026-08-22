@@ -35,8 +35,6 @@ Draw.FibonacciRetracements(NinjaScriptBase owner, string tag, bool isAutoScale, 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a fibonnaci retracement
 Draw.FibonacciRetracements(this, "tag1", true, 10, Low[10], 0, High[0]);

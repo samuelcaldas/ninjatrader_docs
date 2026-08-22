@@ -17,8 +17,6 @@ Represents a change in fundamental data and is passed as a parameter in the [OnF
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDataUpdate)
 {

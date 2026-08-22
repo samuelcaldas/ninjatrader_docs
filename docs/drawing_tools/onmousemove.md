@@ -31,8 +31,6 @@ public override void OnMouseMove(ChartControl chartControl, ChartPanel chartPane
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private
 ChartAnchor

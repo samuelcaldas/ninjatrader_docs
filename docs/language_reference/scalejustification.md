@@ -27,8 +27,6 @@ protected override void OnStateChange()
     {
         Name = "Examples Indicator";
 
-![Ns](../images/ns.png)
-
         // force "My Plot" to be plotted on the left scale
         ScaleJustification = ScaleJustification.Left;
     }

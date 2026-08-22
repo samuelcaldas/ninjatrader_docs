@@ -30,8 +30,6 @@ Instrument.MasterInstrument.InstrumentType
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 if (Instrument.MasterInstrument.InstrumentType == InstrumentType.Future)
 {

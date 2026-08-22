@@ -26,8 +26,6 @@ CountIf(`Func<bool>` condition, int period)
 
 `Examples`
 
-![Ns](../images/ns.png)
-
 ```csharp
 // If in the last 10 bars we have had 8 up bars then go long
 if (CountIf(() => Close[0] > Open[0], 10) > 8)

@@ -26,8 +26,6 @@ ChartingExtensions.ConvertFromHorizontalPixels(this int x, PresentationSource ta
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 int applicationPixelX;
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)

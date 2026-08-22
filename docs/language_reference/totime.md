@@ -1,5 +1,3 @@
-![Ns](../images/ns.png)
-
 # ToTime()
 
 ## Definition
@@ -28,8 +26,6 @@ ToTime(DateTime time)
 > **Tip:** NinjaScript uses the .NET DateTime structure which can be complicated for novice programmers. If you are familiar with C# you can directly use DateTime structure properties and methods for date and time comparisons otherwise use this method and the [ToDay()](today.md) method.
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 // Only trade between 7:45 AM and 1:45 PM

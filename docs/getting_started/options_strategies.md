@@ -56,4 +56,3 @@ Handling
 
 ![Options Strategies1](../images/options_strategies1.png)
 
-![Options Strategies Ns](../images/options_strategies_ns.png)

@@ -15,8 +15,6 @@ Represents an interface that exposes information regarding a Trend Channel [IDra
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a TrendChannel object
 TrendChannel myTC = Draw.TrendChannel(this, "tag1", true, 10, Low[10], 0, High[0], 10, High[10] + 5 \* TickSize);

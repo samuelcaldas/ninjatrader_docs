@@ -30,8 +30,6 @@ An int value representing date structure
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

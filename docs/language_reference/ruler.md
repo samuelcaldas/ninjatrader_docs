@@ -16,8 +16,6 @@ Represents an interface that exposes information regarding a Ruler [IDrawingTool
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a Ruler object
 Ruler myRuler = Draw.Ruler(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);

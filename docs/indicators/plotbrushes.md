@@ -14,8 +14,6 @@ An array of color series objects.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

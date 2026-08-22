@@ -18,8 +18,6 @@ IsWaitUntilFlat
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 ns
 // If a strategy is waiting for a flat position, return and print a message

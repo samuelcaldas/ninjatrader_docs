@@ -42,8 +42,6 @@ Draw.ArrowLine(NinjaScriptBase owner, string tag, DateTime startTime, double sta
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a dotted lime green arrow line
 Draw.ArrowLine(this, "tag1", 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2);

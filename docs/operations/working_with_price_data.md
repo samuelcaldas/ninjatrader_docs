@@ -100,7 +100,7 @@ Data Series can be edited in several ways after being added to a chart.   Changi
 
 ![Pricedata2](../images/pricedata2.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ---
 
@@ -187,4 +187,4 @@ Type a plus sign (+) plus the instrument and interval. For example, typing "+AAP
 
 ![Pricedata1](../images/pricedata1.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️

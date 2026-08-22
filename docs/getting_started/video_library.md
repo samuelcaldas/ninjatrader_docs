@@ -20,89 +20,89 @@
 
 > Market Analyzer Display OverviewThe Market Analyzer is NinjaTrader's answer to the traditional quote sheet, adding a wide range of functionality to extend the features of traditional quote sheets, such as the ability to view indicator values, create alerts, and link to charts and order-entry windows for instant instrument switching. The Market Analyzer Display video covers these features in detail.    Market Analyzer Columns and Indicators The Market Analyzer can be configured with a wide range of pre-built and custom columns and indicators. This video demonstrates applying and configuring these items.
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ## Alerts
 

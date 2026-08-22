@@ -44,8 +44,6 @@ ExitLongStopLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quanti
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private double stopPrice = 0;
 protected override void OnBarUpdate()

@@ -58,7 +58,7 @@ Cancels the order(s)
 
 ![Basicentry 1](../images/basicentry_1.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ## Understanding the action buttons section
 
@@ -171,4 +171,4 @@ Selects the ATM Strategy
 
 ![Basicentry 9](../images/basicentry_9.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️

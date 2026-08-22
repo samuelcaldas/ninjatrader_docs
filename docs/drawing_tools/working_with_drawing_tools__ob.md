@@ -90,7 +90,7 @@ Each Drawing Tool can be customized using the Drawing Objects window.   Accessin
 
 ![Drawobjects1](../images/drawobjects1.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 > **Note:** The value property of a level is always expressed in percentage terms, and the placement of the line corresponding to that level will be based upon the anchor points you set for that particular Drawing Object.
 
@@ -110,4 +110,4 @@ Each Drawing Tool can be customized using the Drawing Objects window.   Accessin
 
 ![Drawobjects6](../images/drawobjects6.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️

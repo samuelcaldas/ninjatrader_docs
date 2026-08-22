@@ -26,8 +26,6 @@ OnWindowDestroyed(Window window)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public class MyWindowAddOn : AddOnBase
 {

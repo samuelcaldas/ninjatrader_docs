@@ -1,5 +1,3 @@
-![Ns](../images/ns.png)
-
 # PrintTo
 
 ## Definition
@@ -22,8 +20,6 @@ Possible values are:
 PrintTo
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnStateChange()
@@ -48,8 +44,6 @@ protected override void OnStateChange()
     if (State == State.SetDefaults)
     {
         Name = "Sample PrintTo Indicator #2";
-
-![Ns](../images/ns.png)
 
         Description = "@Used to Print updates to Output 2";
         //Set this scripts Print() calls to the second output tab

@@ -21,8 +21,6 @@ An int value representing a value of bars ago.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

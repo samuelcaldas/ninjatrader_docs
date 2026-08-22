@@ -40,8 +40,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current upper Darvas value
 double value = Darvas().Upper[0];

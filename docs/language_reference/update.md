@@ -27,8 +27,6 @@ Update(int idx, int bip)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private double tripleValue = 0;
 protected override void OnBarUpdate()

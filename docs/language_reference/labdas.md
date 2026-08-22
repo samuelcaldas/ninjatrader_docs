@@ -8,8 +8,6 @@ Input Parameters => Expression
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Define a new delegate
 delegate double newDel(double i);

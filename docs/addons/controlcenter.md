@@ -20,8 +20,6 @@ protected override void OnWindowCreated(Window window)
     /\* Determine we want to place the AddOn in the Control Center's "New" menu
     Other menus can be accessed via the control's "Automation ID". For example: toolsMenuItem, workspacesMenuItem, connectionsMenuItem, helpMenuItem. \*/
 
-![Ns](../images/ns.png)
-
     ControlCenterNewMenu = cc.FindFirst("ControlCenterMenuItemNew") as NTMenuItem;
 }
 ```

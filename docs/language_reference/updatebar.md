@@ -21,8 +21,6 @@ UpdateBar(Bars bars, double high, double low, double close, DateTime time, long 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 UpdateBar(bars, high, low, close, time, volume);
 ```

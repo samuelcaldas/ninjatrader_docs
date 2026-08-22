@@ -14,8 +14,6 @@ A double value that represents the R-Squared (R2)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

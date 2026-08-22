@@ -45,8 +45,6 @@ Tips (also see [Overview](managed_approach.md)):
 ```
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

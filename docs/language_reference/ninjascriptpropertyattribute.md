@@ -18,10 +18,6 @@ Determines if the following declared property should be included in the NinjaScr
 
 ## Examples
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 #region Properties
 // set NinjaScriptProperty to ensure this property is used when calling from another object
 [NinjaScriptProperty]

@@ -14,8 +14,6 @@ A boolean value. When True, indicates that one or more objects on the chart are 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

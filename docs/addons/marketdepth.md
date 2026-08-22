@@ -28,8 +28,6 @@ MarketDepth
 ```csharp
 /\* Example of subscribing/unsubscribing to market depth from an Add On. \*/
 
-![Ns](../images/ns.png)
-
 public class MyAddOnTab : NTTabPage
 {
     private Instrument instrument;

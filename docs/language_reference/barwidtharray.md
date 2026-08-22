@@ -14,8 +14,6 @@ An array of double variables containing the values of the BarWidth properties of
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

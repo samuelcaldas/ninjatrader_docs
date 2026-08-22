@@ -14,8 +14,6 @@ An int value that represents the maximum number of consecutive winners seen.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

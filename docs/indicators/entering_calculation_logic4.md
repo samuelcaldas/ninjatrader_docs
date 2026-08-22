@@ -49,15 +49,11 @@ MyPlot[0] = SMA(SMAPeriod)[0] + MySeries[0];
 
 Here we assign the SMA + `Series<double>` value to the property that represents the plot data using the "=" assignment operator. We have just finished coding our CustomSeries example. The class code in your editor should look identical to the below. You are now ready to [compile the indicator](compiling4.md) and configure it on a chart.
 
-![Ns](../images/ns.png)
-
 ```csharp
 public class CustomSeries : Indicator
 {
     private Series<double> MySeries;
     protected override void OnStateChange()
-
-![Ns](../images/ns.png)
 
     {
         if (State == State.SetDefaults)
@@ -83,8 +79,6 @@ public class CustomSeries : Indicator
             ScaleJustification
             = NinjaTrader.Gui.Chart.ScaleJustification.Right;
 
-![Ns](../images/ns.png)
-
             //Disable this property if your indicator requires custom values that cumulate with each new market data event.
             //See Help Guide for additional information.
             IsSuspendedWhileInactive
@@ -102,8 +96,6 @@ public class CustomSeries : Indicator
         }
     }
     protected override void OnBarUpdate()
-
-![Ns](../images/ns.png)
 
     {
         // Calculate the range of the current bar and set the value

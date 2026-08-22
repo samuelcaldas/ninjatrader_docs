@@ -6,17 +6,9 @@ In order to achieve custom rendering for various chart related objects, a Brush 
 
 ---
 
-![Ns](../images/ns.png)
-
 ## Understanding Predefined Brushes
 
 ### Using Predefined Brushes
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 For convenience, the .NET Framework supplies a collection of static predefined Brushes, such as Red or Green. The advantage to using these brushes is that they are readily available, properly named to quickly find a simple color value, and can be reused on-the-fly without having to recreate an instance of the brush at run time, and do not need to be otherwise managed. There are 256 predefined named brushes which are available in the `Brushes` class. You can browse this list in the NinjaScript editor just by typing `Brushes.` and using Intelliprompt to find the desired named brush of your choice.
 
@@ -61,8 +53,6 @@ public Brush MyBrush { get; set; }
 
 In its place, we create a new public string called `MyBrushSerialize` which will convert the public `MyBrush` to a string type which can then be processed by the serialization routines. We also add the [Browsable(false)](https://msdn.microsoft.com/en-us/library/system.componentmodel.browsableattribute(v=vs.110).aspx) attribute to this public string to prevent this property from showing up on the UI, which is of no value to the end user:
 
-![Ns](../images/ns.png)
-
 ```csharp
 [Browsable(false)]
 public string MyBrushSerialize
@@ -103,17 +93,11 @@ While the majority of the NinjaTrader platform's UI is WPF, under the hood, char
 
 A [SharpDX Brush](../drawing_tools/sharpdx_direct2d1_brush.md) must be created either in `OnRender()` or `RenderTargetChanged()`. If you have custom brushes which may be changed on various conditions such as in `OnBarUpdate()` or by a user during `OnStateChange()`, or you are pre-computing a custom brush for performance optimization, you will need to ensure the actual SharpDX instance is updated in `OnRender()` or `RenderTargetChanged()`.
 
-![Ns](../images/ns.png)
-
 > **Warning:** Each DirectX render target requires its own brushes. You **MUST** create brushes directly in `OnRender()` or using `OnRenderTargetChanged()`. If you do not, you will receive an error at runtime similar to:
 >
 > *"A DirectX error has occurred while rendering the chart: HRESULT: [0x88990015], Module: [SharpDX.Direct2D1], ApiCode: [D2DERR_WRONG_RESOURCE_DOMAIN/WrongResourceDomain], Message: The resource was realized on the wrong render target."*
 >
 > Please see [OnRenderTargetChanged()](../language_reference/onrendertargetchanged.md) for examples of a brush that needs to be recalculated, or [OnRender()](../language_reference/onrender.md) for an example of recreating a static brush.
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 ```csharp
 // Use predefined "Blue" SharpDX Color
@@ -134,8 +118,6 @@ For convenience, you can convert a computed WPF Brush to a [SharpDX Brush](../dr
 SharpDX.Direct2D1.Brush blueDXBrush = Brushes.Blue.ToDxBrush(RenderTarget);
 
 // Convert the computed WPF Brush to SharpDX Brush
-![Ns](../images/ns.png)
-
 SharpDX.Direct2D1.Brush customDXBrush = customWPFBrush.ToDxBrush(RenderTarget);
 ```
 

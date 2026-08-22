@@ -22,8 +22,6 @@ RenderTarget.DrawLine(Vector2 point0, Vector2 point1, Brush brush, float strokeW
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 Vector2 point0 = new Vector2();
 Vector2 point1 = new Vector2();

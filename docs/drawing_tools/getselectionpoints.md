@@ -26,8 +26,6 @@ public override Point[] GetSelectionPoints(ChartControl chartControl, ChartScale
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public override Point[] GetSelectionPoints(ChartControl chartControl, ChartScale chartScale)
 {

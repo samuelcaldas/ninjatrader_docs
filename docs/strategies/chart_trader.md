@@ -14,6 +14,6 @@ Chart Trader can be enabled within any chart window via the [chart properties](.
 - [Attach to Indicator](../indicators/charttrader_attachtoindicator.md)  
 - [Chart Trader Properties](properties3.md) |
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️

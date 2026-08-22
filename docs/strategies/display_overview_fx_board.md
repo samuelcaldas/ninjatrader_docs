@@ -2,7 +2,7 @@
 
 > playVideo
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 To open the FX Board window, select the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item FX Board.
 
@@ -18,7 +18,7 @@ Please see the sections below for more information on: Market Display and Order 
 
  
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 > **Note:** Positions and orders will only display for the selected Account and Instruments.
 

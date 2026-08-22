@@ -4,8 +4,6 @@ Restores the window from workspaces.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // IWorkspacePersistence member. Required for restoring window from workspaces
 public void Restore(XDocument document, XElement)

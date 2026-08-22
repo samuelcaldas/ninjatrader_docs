@@ -49,8 +49,6 @@ The calculation first checks to ensure there are enough bars to complete the cal
 
 The class code in your editor should look identical to the image below. You are now ready to [compile the indicator](compiling5.md) and configure it on a chart.
 
-![Ns](../images/ns.png)
-
 ```csharp
 public class CustomROC : Indicator
 {
@@ -78,8 +76,6 @@ public class CustomROC : Indicator
             = true;
             ScaleJustification
             = NinjaTrader.Gui.Chart.ScaleJustification.Right;
-
-![Ns](../images/ns.png)
 
             //Disable this property if your indicator requires custom values that cumulate with each new market data event.
             //See Help Guide for additional information.
@@ -115,12 +111,8 @@ public class CustomROC : Indicator
     { get; set; }
     [NinjaScriptProperty]
 
-![Ns](../images/ns.png)
-
     [Range(1, int.MaxValue)]
     [Display(Name="Smooth", Description="Smoothing rate", Order=2, GroupName="Parameters")]
-
-![Ns](../images/ns.png)
 
     public int Smooth
     { get; set; }

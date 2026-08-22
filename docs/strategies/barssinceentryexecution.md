@@ -32,8 +32,6 @@ BarsSinceEntryExecution(int barsInProgressIndex, string signalName, int entryExe
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

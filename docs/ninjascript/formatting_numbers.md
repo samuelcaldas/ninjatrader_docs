@@ -43,17 +43,11 @@ For custom formatting you can use the following:
 double phoneNumber = 9165551022;
 Print("Phone number: " + phoneNumber.ToString("(###) ### - ####"));
 
-![Ns](../images/ns.png)
-
 ```
 
  
 
 Corresponding output:
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 ```csharp
 Phone number: (916) 555 - 1022
@@ -67,4 +61,3 @@ For more information on general string formatting the Microsoft documentation ma
 
 <https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings>
 
-![Ns](../images/ns.png)

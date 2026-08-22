@@ -40,9 +40,9 @@ Walk Forward Properties Apart from the walk forward optimization specific proper
 
 ![Strategyanalyzer Optimization Wforun](../images/strategyanalyzer_optimization_wforun.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 > **Note:** NinjaTrader does save the "Keep best # results" for each Optimization period, if you want to see each individual optimization results you can right click on the walk forward result and select "View Optimization Results".
 

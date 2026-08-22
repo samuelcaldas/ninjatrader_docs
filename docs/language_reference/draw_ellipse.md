@@ -45,8 +45,6 @@ Draw.Ellipse(NinjaScriptBase owner, string tag, DateTime startTime, double start
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Paints a red ellipse on the current bar
 Draw.Ellipse(this, "tag1", true, 5, Close[5], 0, Close[0], Brushes.Red, Brushes.Red, 5);

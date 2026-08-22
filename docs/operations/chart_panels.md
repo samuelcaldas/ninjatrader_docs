@@ -9,9 +9,9 @@ A chart is comprised of Panels that contain chart objects such as [Data Series](
 - Right
 - Overlay    With the exception of the Overlay scale, a price scale will only be displayed in a Panel if there is one or more chart objects justified to it. The Overlay scale does not have a visible price scale however, any chart objects justified to this scale will display their price markers first on the Right scale if one exists otherwise they are displayed on the Left scale. All scales can be shared by multiple chart objects.    |  
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 > **Tip:** In addition to changing a chart objects scale justification property via the Data Series window or Indicators window, you can drag and drop a chart object onto different scales. Please see the section "How to drag and drop chart objects" section located on the [Working with Chart Objects](working_with_chart_objects.md) topic page.
 

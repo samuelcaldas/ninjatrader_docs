@@ -1,5 +1,3 @@
-![Ns](../images/ns.png)
-
 # OnOrderUpdate()
 
 ## Definition
@@ -67,8 +65,6 @@ protected override void OnOrderUpdate(Order order, double limitPrice, double sto
 | OrderState.Unknown | An unknown order state. Default if broker does not report current order state. |
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnOrderUpdate(Cbi.Order order, double limitPrice, double stopPrice,

@@ -26,8 +26,6 @@ This property returns true if the bar is the first processed in a session; other
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

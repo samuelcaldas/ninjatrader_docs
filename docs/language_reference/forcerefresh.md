@@ -38,8 +38,6 @@ This method does not accept any parameters
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 DateTime lastTimeCalled = DateTime.MinValue;
 private void MyCustomMethod()

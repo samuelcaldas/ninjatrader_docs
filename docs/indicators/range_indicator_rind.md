@@ -31,8 +31,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints out a historical RIND value
 double value = RIND(3, 10)[5];

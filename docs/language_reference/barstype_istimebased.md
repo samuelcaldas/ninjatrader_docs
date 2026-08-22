@@ -14,10 +14,6 @@ A bool which when true tells other objects the bars are built from time; default
 
 ## Examples
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

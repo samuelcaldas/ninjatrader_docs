@@ -38,8 +38,6 @@ EnterShort(int barsInProgressIndex, int quantity, string signalName)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

@@ -14,8 +14,6 @@ A bool value which returns true of the object was drawn by other NinjaScript obj
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //unlocks the NinjaScript drawn object and allows the user to modify the anchor, while the NinjaScript object still 'owns' the object
 protected override void OnBarUpdate()

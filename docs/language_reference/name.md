@@ -24,8 +24,6 @@ protected override void OnStateChange()
         Name
         = "Examples indicator";
 
-![Ns](../images/ns.png)
-
         Description
         = @"An example of an indicator used for documentation purposes";
     }

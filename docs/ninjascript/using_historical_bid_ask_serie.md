@@ -21,8 +21,6 @@ When calling AddDataSeries() to add an additional [Bars](../language_reference/b
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

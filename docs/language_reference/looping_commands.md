@@ -1,9 +1,5 @@
 # Looping Commands
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 Looping commands control execution flow of your script. If you wanted to print the word NinjaTrader 100 times, you could either use 100 lines of code or do the same using a looping command in only a few lines of code.
 
 ## While Loop
@@ -71,8 +67,6 @@ for (int x = 0; x < 100; x++)
 
 foreach (type identifier in boolean expression)
 
-![Ns](../images/ns.png)
-
 {
 
     // Do something here
@@ -80,8 +74,6 @@ foreach (type identifier in boolean expression)
 }
 
 ```csharp
-![Ns](../images/ns.png)
-
 // Count the number of oatmeal cookies in a cookie jar
 int oatmealCookies = 0;
 foreach (cookie in cookieJar)
@@ -109,16 +101,12 @@ while (0 == 0)
 
 The continue command will jump ahead to the next iteration of the loop. The following example will never print "NinjaTrader," because the continue command sends control back to the top of the loop each time.
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Never prints "NinjaTrader"
 for (int x = 0; x < 100; x++)
 {
     continue;
     Print("NinjaTrader");
-
-![Ns](../images/ns.png)
 
 }
 ```

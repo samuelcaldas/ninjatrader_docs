@@ -14,8 +14,6 @@ A double value that represents the average total efficiency.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

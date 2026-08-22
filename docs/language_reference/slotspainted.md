@@ -14,8 +14,6 @@ An int representing the number of index slots in which bars are painted
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

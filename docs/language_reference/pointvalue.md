@@ -14,8 +14,6 @@ Instrument.MasterInstrument.PointValue
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

@@ -24,10 +24,6 @@ This creates a brush input for use in the dialog window when we try to add the N
 
 Some additional extra code that is required for creating a color input is to serialize the brush. Serialization is necessary for NinjaTrader to use the brush input throughout the program. Please note that serialization is a general concept not exclusive to brush inputs. There may be other struct/classes (for a TimeSpan example, please cross reference [this page](../language_reference/ninjascriptpropertyattribute.md)) that you could use in your code that would also need to have their "value" properties serialized.
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 [Browsable(false)]
 public string BorderBrushSerialize
@@ -40,7 +36,5 @@ public string BorderBrushSerialize
  
 
 Attached is a NinjaScript indicator sample that uses two user definable brush inputs to determine the color of a drawn rectangle.
-
-![Ns](../images/ns.png)
 
 [SampleBrushInput.zip](https://ninjatrader.com/support/helpGuides/nt8/samples/SampleBrushInput.zip)

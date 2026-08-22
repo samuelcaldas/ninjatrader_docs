@@ -18,8 +18,6 @@ A [DateTime](https://msdn.microsoft.com/en-us/library/system.datetime(v=vs.110).
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

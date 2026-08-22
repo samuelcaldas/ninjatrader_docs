@@ -14,8 +14,6 @@ A double value that represents the average number of bars per trade.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

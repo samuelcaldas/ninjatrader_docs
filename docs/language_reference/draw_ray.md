@@ -44,8 +44,6 @@ Draw.Ray(NinjaScriptBase owner, string tag, DateTime startTime, double startY, D
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a lime green ray from 10 bars back through the current bar
 Draw.Ray(this, "tag1", 10, 1000, 0, 1001, Brushes.LimeGreen);

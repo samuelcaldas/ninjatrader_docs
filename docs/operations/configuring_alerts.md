@@ -188,7 +188,7 @@ Configuring Actions To access these actions, you will need to make sure the Acti
 
 ![Alerts 5](../images/alerts_5.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 ---
 
@@ -220,7 +220,7 @@ Screenshot type
 
 ![Alerts 12](../images/alerts_12.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 - Buy
 - Buy to cover

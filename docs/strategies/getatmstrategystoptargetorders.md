@@ -25,8 +25,6 @@ GetAtmStrategyStopTargetOrderStatus(string orderName, string atmStrategyId)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

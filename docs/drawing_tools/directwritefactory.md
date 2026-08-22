@@ -6,8 +6,6 @@ Provides an default DirectWrite factory used for creating [SharpDX.DirectWrite](
 
 ## Property Value
 
-![Ns](../images/ns.png)
-
 A read-only SharpDX.DirectWrite.Factory used to create DirectWrite objects compatible with NinjaTrader rendering
 
 ## Syntax

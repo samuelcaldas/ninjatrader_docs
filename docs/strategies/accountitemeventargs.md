@@ -24,8 +24,6 @@ The properties listed below are accessible from an instance of AccountItemEventA
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // This method is fired on any change of an AccountItem
 e)

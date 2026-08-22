@@ -49,8 +49,6 @@ AtmStrategyCreate(OrderAction action, OrderType orderType, double limitPrice, do
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private string atmStrategyId;
 private string atmStrategyOrderId;

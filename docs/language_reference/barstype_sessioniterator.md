@@ -14,8 +14,6 @@ SessionIterator
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnDataPoint(Bars bars, double open, double high, double low, double close, DateTime time, long volume, bool isBar, double bid, double ask)
 {

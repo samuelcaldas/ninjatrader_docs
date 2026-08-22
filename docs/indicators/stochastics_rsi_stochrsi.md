@@ -28,8 +28,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Evaluates if the current bar StochRSI value is greater than the value one bar ago
 if (StochRSI(14)[0] > StochRSI(14)[1])

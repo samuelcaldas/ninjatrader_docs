@@ -36,8 +36,6 @@ Draw.HorizontalLine(NinjaScriptBase owner, string tag, double y, bool isGlobal, 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a horizontal line
 Draw.HorizontalLine(this, "tag1", 1000, Brushes.Black);

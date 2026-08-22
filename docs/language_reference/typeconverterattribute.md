@@ -17,8 +17,6 @@ TypeConverterAttribute(type)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Only applied to this property: can just implement a general TypeConveter
 [TypeConverter(typeof(MyCustomBoolConveter))]

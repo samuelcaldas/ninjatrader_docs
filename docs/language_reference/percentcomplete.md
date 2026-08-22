@@ -18,8 +18,6 @@ A double value representing a percent e.g. a value of .5 indicates the bar was a
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

@@ -13,8 +13,6 @@ protected override void OnCalculatePerformanceValue(StrategyBase strategy)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnCalculatePerformanceValue(StrategyBase strategy)
 {

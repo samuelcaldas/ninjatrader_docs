@@ -1,5 +1,3 @@
-![Ns](../images/ns.png)
-
 # OnRender()
 
 ## Definition
@@ -7,8 +5,6 @@
 Used to render custom drawing to a chart from various chart objects, such as an [Indicator](../indicators/indicator.md), [DrawingTool](../drawing_tools/drawingtool.md) or [Strategy](../strategies/strategy.md).
 
  
-
-![Ns](../images/ns.png)
 
 > **Notes:** 1.This method uses the 3rd party SharpDX library to render custom Direct2D Text and Shapes.  For a walk through for using the SharpDX, please see the educational resource [Using SharpDX for Custom Chart Rendering](../drawing_tools/using_sharpdx_for_custom_chart_rendering.md)  2.The OnRender() method frequently runs once the [State](state.md) has reached State.Realtime in response to market data updates or a user interacting with the chart (e.g., clicking, resizing, rescaling, etc.)  3.For performance optimizations, the timing of the calls to OnRender() are buffered to at least 250ms, and re-renders once internal logic determines that values may be out-of-date.  See also [ForceRefresh()](forcerefresh.md) for more details  4.When using the [Strategy Analyzer](../strategies/strategy_analyzer.md), OnRender() does NOT call until you switch to the "Chart" display and renders from State.Terminated.  As a result, this method should NOT be relied on for historical Strategy backtesting logic and should ONLY be used for rendering purposes  5.Unlike market data events and strategy order related events, there is NO guarantee that the barsAgo indexer used for [`Series<T>`](seriest.md) objects are in sync with the current bars in progress.  As a result, you should favor using an absolute index method to look up values (e.g., [<series>.GetValueAt()](getvalueat.md), [Bars.GetOpen()](getopen.md), etc)  6.While OnRender() is an excellent means for customizing and enhancing indicators and strategies, its application can easily be abused, resulting in unforeseen performance issues which you may not catch until the right conditions (e.g., in the hands of your users during an FOMC event)  7.Please limit any calculations or algorithms you may be tempted run in OnRender() simply to rendering. You should always favor precomputed values and store them for rendering later as the preferred approach to working with the OnRender() method (e.g., reusing brushes, passing values from [OnBarUpdate()](onbarupdate.md), etc.).  See also [OnRenderTargetChanged()](onrendertargetchanged.md) method for more information on reusing Brushes  8.If you are using this method as an opportunity to "hook" onto a user related event, such as when a user selects a 3rd party control, you should alternatively consider using the events of that control independent of official NinjaScript events. See also [TriggerCustomEvent()](triggercustomevent.md)
 
@@ -41,8 +37,6 @@ protected override void OnRender(ChartControl chartControl, ChartScale chartScal
 - If you are using standard [Plots](../indicators/plots.md) along with custom rendering from an indicator or strategy, you will need to ensure to call the base.OnRender() method for those plots to display.
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)

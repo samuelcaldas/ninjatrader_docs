@@ -44,8 +44,6 @@ public class MyAddOnTab : NTTabPage
         // Subscribe to market data. Snapshot data is provided right on subscription
         // Note: "instrument" is a placeholder in this example, you will need to replace
 
-![Ns](../images/ns.png)
-
         // with a valid Instrument object through various methods or properties available depending
         // on the NinjaScript type you are working with (e.g., Bars.Instrument or Instrument.GetInstrument()
         if (!instrument.Dispatcher.HasShutdownStarted)

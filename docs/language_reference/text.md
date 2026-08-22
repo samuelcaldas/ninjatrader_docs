@@ -20,8 +20,6 @@ Represents an interface that exposes information regarding a Text [IDrawingTool]
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a Text object
 Text myText = Draw.Text(this, "tag1", "Text to draw", 10, High[10] + (5 \* TickSize), Brushes.Black);

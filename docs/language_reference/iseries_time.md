@@ -15,8 +15,6 @@ Time[[[int barsAgo] (returns a [DateTime](http://msdn2.microsoft.com/en-us/libra
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current bar time stamp
 Print(Time[0].ToString());

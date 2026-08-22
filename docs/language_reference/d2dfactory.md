@@ -2,8 +2,6 @@
 
 ## Definition
 
-![Ns](../images/ns.png)
-
 Provides a default Direct2D1 factory used for creating [SharpDX.Direct2D1](../drawing_tools/sharpdx_direct2d1.md) components.
 
 ## Property Value

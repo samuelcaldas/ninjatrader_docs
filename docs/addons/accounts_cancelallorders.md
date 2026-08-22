@@ -18,8 +18,6 @@ CancelAllOrders(Instrument )
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 myAccount;
 OnStateChange()

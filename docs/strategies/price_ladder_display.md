@@ -1,4 +1,4 @@
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 # Price Ladder Display
 

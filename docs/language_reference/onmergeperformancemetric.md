@@ -13,8 +13,6 @@ protected override void OnMergePerformanceMetric(PerformanceMetricBase merge)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnMergePerformanceMetric(PerformanceMetricBase target)
 {

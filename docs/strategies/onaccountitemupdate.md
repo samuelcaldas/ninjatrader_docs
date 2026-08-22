@@ -29,8 +29,6 @@ protected override void OnAccountItemUpdate(Account account, AccountItem account
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnAccountItemUpdate(Account account, AccountItem accountItem, double value)
 {

@@ -40,8 +40,6 @@ Reserved enumeration values are listed below:
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

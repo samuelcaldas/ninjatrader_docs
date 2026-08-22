@@ -22,8 +22,6 @@ A DateTime object representing the [ActualTradingDayExchange](actualtradingdayex
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Declare a new custom SessionIterator
 SessionIterator mySessionIterator;

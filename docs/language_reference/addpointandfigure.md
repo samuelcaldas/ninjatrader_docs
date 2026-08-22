@@ -36,8 +36,6 @@ AddPointAndFigure(isResetOnNewTradingDay)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 OnStateChange()
 {

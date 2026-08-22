@@ -18,8 +18,6 @@ Bars.TickCount
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the tick count to the output window
 Print("The tick count of the current bar is " + Bars.TickCount.ToString());

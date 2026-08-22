@@ -14,8 +14,6 @@ A double value that represents the total slippage. This is presented in points, 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

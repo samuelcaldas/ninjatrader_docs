@@ -14,8 +14,6 @@ Represents an interface that exposes information regarding an Arc [IDrawingTool]
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draw an Arc object
 Arc myArc = Draw.Arc(this, "myArc", Time[10], Close[10], Time[0], Close[0], Brushes.Blue);

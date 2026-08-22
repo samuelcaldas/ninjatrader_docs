@@ -69,8 +69,6 @@ Represents a read only interface that exposes information regarding an order.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Order entryOrder = null;
 protected override void OnBarUpdate()

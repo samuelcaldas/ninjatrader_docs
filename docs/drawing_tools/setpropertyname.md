@@ -41,4 +41,3 @@ protected override void OnStateChange()
 
 > **Note:** If you do not wish to use specific properties accessible via SetPropertyName(), you will need to remove them from the list via Properties.Remove, as shown in the example above.
 
-![Ns](../images/ns.png)

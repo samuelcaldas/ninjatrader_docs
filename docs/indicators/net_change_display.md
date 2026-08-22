@@ -24,8 +24,6 @@ double
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Runs on realtime since there is no historical data for this indicator
 if (State == State.Historical)

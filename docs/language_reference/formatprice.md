@@ -27,10 +27,6 @@ Bars.Instrument.MasterInstrument.FormatPrice(double price, [bool round])
 
 ## Examples
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

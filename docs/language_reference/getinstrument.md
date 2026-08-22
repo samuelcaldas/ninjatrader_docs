@@ -22,8 +22,6 @@ Instrument.GetInstrument(string instrumentName)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

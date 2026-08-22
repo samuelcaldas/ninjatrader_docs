@@ -31,8 +31,6 @@ public override async Task OnAuthorizeAccount()
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public override async Task OnAuthorizeAccount()
 {

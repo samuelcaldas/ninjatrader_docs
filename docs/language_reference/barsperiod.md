@@ -97,10 +97,6 @@ BarsPeriodType.Volumetric
 
 ## Examples
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 // Calculate only if there is a 100 tick chart or greater
 protected override void OnBarUpdate()

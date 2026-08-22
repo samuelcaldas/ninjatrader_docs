@@ -14,8 +14,6 @@ Represents an interface that exposes information regarding a Vertical Line [IDra
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a VerticalLine object
 VerticalLine myLine = Draw.VerticalLine(this, "tag1", 10, Brushes.Black);

@@ -23,8 +23,6 @@ Bars.Instrument.MasterInstrument.MergePolicy
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //Prints a warning, indicating what merge policy is in use if not using global settings
 if (Bars.Instrument.MasterInstrument.MergePolicy != MergePolicy.UseGlobalSettings)

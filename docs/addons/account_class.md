@@ -38,8 +38,6 @@ The Account class can be used to subscribe to account related events as well as 
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 myAccount;
 OnStateChange()

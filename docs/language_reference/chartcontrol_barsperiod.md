@@ -14,8 +14,6 @@ A NinjaTrader.Data.BarsPeriod object containing information on the period used b
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

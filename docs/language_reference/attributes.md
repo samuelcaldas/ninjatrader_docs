@@ -19,8 +19,6 @@ The following section documents both .NET native and NinjaScript custom [attribu
 
 Attributes are applied directly before the property, method, or class, and are identified by wrapping brackets:
 
-![Ns](../images/ns.png)
-
 ```csharp
 [AnExampleAttribute] // a pseudo-attribute demonstrating how to target an object
 public object AnExampleProperty // the property that is being targeted

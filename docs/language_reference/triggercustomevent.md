@@ -38,10 +38,6 @@ TriggerCustomEvent(`Action<object>` customEvent, int barsSeriesIndex, object sta
 
 ## Examples
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

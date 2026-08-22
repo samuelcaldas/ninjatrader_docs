@@ -28,8 +28,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of BOP using default price type and 3 period smoothing
 double value = BOP(3)[0];

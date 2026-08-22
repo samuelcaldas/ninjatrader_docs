@@ -20,8 +20,6 @@ A DateTime object representing the exchange-based trading day begin time convert
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 private SessionIterator sessionIterator;
 protected override void OnStateChange()

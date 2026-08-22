@@ -14,8 +14,6 @@ Bars.Instrument.MasterInstrument.Currency
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 if (Bars.Instrument.MasterInstrument.Currency != Currency.UsDollar)
 {

@@ -14,8 +14,6 @@ A double representing the end of the chart canvas area.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

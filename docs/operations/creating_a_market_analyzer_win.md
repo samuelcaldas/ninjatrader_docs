@@ -4,7 +4,7 @@
 
 Market Analyzer Display Overview Each NinjaTrader Market Analyzer is a free floating window that can be manually resized by dragging the edges of the window and moved by left mouse clicking and dragging in the upper most margin for arrangement within the open [Workspace](workspaces_menu.md).    The image below shows some of the common features of a Market Analyzer window:
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 ---
 
@@ -120,4 +120,4 @@ Set the Market Analyzer properties
 
 ![Marketanalyzer 6](../images/marketanalyzer_6.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️

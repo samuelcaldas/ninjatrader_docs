@@ -15,11 +15,7 @@ A collection of [Trade](trade.md) objects. You can access a trade object by prov
 | [TradesPerformance](tradesperformance.md) | Gets a [TradesPerformance](tradesperformance.md) object |
 | [WinningTrades](winningtrades.md) | Gets a TradeCollection object of winning trades |
 
-![Ns](../images/ns.png)
-
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnBarUpdate()

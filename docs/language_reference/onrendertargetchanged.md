@@ -40,8 +40,6 @@ This method does not accept any parameters
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private SharpDX.Direct2D1.Brush dxBrush = null; // the SharpDX brush used for rendering
 private System.Windows.Media.SolidColorBrush brushColor; // used to determine the color of the brush conditionally
@@ -90,8 +88,6 @@ protected override void OnStateChange()
     if (State == State.SetDefaults)
     {
         Name = "OnRenderTargetChanged Example";
-
-![Ns](../images/ns.png)
 
         IsOverlay = false;
         UserBrush = Brushes.Red; // user selection pushed to the UI

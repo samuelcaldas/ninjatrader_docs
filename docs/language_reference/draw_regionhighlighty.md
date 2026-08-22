@@ -33,8 +33,6 @@ Draw.RegionHighlightY(NinjaScriptBase owner, string tag, double startY, double e
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Fills in the region between the startY and endY
 Draw.RegionHighlightY(this, "tag1", true, High[0], Low[0], Brushes.Blue, Brushes.Green, 20);

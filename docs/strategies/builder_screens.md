@@ -189,6 +189,6 @@ Type
 
 ![Strategy Builder 4](../images/strategy_builder_4.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Playvideo](../images/playvideo.jpg)
+▶️

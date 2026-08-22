@@ -1,5 +1,3 @@
-![Ns](../images/ns.png)
-
 # Flatten()
 
 ## Definition
@@ -19,8 +17,6 @@ Flatten(ICollection<Instrument> instruments)
 | instruments | A collection of Instruments for orders to be cancelled and positions closed |
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 Account.Flatten(new [] { Instrument.GetInstrument("ES 12-15") });

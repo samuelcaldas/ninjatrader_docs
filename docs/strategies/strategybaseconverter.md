@@ -30,8 +30,6 @@ public class StrategyBaseConverter : TypeConverter
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //This namespace holds Strategies in this folder and is required. Do not change it.
 namespace NinjaTrader.NinjaScript.Strategies

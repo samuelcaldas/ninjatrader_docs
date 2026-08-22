@@ -15,12 +15,6 @@ Input[int barsAgo]
 
 ## Examples
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the the current value of input
 Print(Input[0].ToString());

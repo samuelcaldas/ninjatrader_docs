@@ -24,8 +24,6 @@ This property returns true if the bar is the first bar of a session; otherwise, 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

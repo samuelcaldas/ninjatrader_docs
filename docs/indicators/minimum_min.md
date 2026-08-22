@@ -34,8 +34,6 @@ double value = MIN(Low, 20)[0];
 Print("The current MIN value is " + value.ToString());
 // Note the above call with a barsAgo of 0 includes the current MIN of the input low series in the value. If we want to check for example for a break of this value, storing the last bar's MIN would be needed.
 
-![Ns](../images/ns.png)
-
 double value = MIN(Low, 20)[1];
 if (Low[0] < value)
 Draw.ArrowDown(this, CurrentBar.ToString(), true, 0, High[0] + TickSize, Brushes.Red);

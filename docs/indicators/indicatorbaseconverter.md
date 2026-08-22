@@ -30,8 +30,6 @@ public class IndicatorBaseConverter : TypeConverter
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //This namespace holds Indicators in this folder and is required. Do not change it.
 namespace NinjaTrader.NinjaScript.Indicators

@@ -1,4 +1,4 @@
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 # Modifying and Canceling Orders
 
@@ -56,8 +56,8 @@ Notes:  1.Single Click order Modification for Stops and Targets are limited to o
 
 ![Superdom 31](../images/superdom_31.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ![Superdom 30](../images/superdom_30.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️

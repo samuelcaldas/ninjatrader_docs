@@ -30,8 +30,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current values of a 20 period AroonOscillator using default price type
 double upValue = AroonOscillator(20)[0];

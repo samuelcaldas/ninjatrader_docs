@@ -54,8 +54,6 @@ protected override void OnStateChange()
         Name
         = "Multi-Time Frame & Instruments Example";
 
-![Ns](../images/ns.png)
-
     }
     else if (State == State.Configure)
     {
@@ -70,10 +68,6 @@ protected override void OnBarUpdate()
     // Checks to ensure all Bars objects contain enough bars before beginning
     // If this is a strategy, use BarsRequiredToTrade instead of BarsRequiredToPlot
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
     if (CurrentBars[0] <= BarsRequiredToPlot || CurrentBars[1] <= BarsRequiredToPlot || CurrentBars[2] <= BarsRequiredToPlot)
     return;
 }
@@ -83,4 +77,3 @@ protected override void OnBarUpdate()
 
 The resolution above would be used in a [Multi Time Frame](../language_reference/multi-time_frame__instruments.md) script. Since OnBarUpdate() processes multiple data series, we need to make sure each Data Series we reference has processed enough bars.
 
-![Ns](../images/ns.png)

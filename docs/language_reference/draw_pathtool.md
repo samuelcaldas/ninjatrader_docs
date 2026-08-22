@@ -56,8 +56,6 @@ Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, `List<ChartAn
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a PathTool object based on bars ago and y anchors
 Draw.PathTool(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);

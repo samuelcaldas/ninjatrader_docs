@@ -28,8 +28,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of a 10 period using default (median) price type
 double value = FisherTransform(10)[0];

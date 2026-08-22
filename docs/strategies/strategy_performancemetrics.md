@@ -16,8 +16,6 @@ An array of [PerformanceMetrics](performancemetrics.md) objects.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Define a new SampleCumProfit object
 NinjaTrader.NinjaScript.PerformanceMetrics.SampleCumProfit myProfit;

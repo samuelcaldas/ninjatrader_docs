@@ -27,8 +27,6 @@ MaximumBarsLookBack
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 Series<double> myDoubleSeries = null;
 Series<string> myStringSeries = null;
@@ -58,8 +56,6 @@ protected override void OnStateChange()
     if (State == State.SetDefaults)
     {
         Name = "Example Indicator";
-
-![Ns](../images/ns.png)
 
     }
     else if (State == State.DataLoaded)

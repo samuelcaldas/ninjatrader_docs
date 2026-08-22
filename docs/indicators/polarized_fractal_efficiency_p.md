@@ -31,8 +31,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of a 20 period PFE using default price type
 double value = PFE(20, 2)[0];

@@ -37,8 +37,6 @@ Full list of [members](https://msdn.microsoft.com/en-us/library/system.datetime(
 DateTime startTime = DateTime.Now;
 Print("Time elapsed is " + DateTime.Now.Subtract(startTime).TotalMilliseconds.ToString() + " milliseconds.");
 
-![Ns](../images/ns.png)
-
 ```
 
 System.String
@@ -50,11 +48,7 @@ Full list of [members](https://msdn.microsoft.com/en-us/library/system.string(v=
 ```csharp
 // Example of the ToUpper() method of the System.String class
 
-![Ns](../images/ns.png)
-
 string myString = "ninjatrader";
 Print("The following word is in uppercase " + myString.ToUpper()););
-
-![Ns](../images/ns.png)
 
 ```

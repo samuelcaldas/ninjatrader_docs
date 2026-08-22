@@ -37,8 +37,6 @@ Defines a particular font configuration.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // create custom Courier New, make it big and bold
 NinjaTrader.Gui.Tools.SimpleFont myFont = new NinjaTrader.Gui.Tools.SimpleFont("Courier New", 12) { Size = 50, Bold = true };

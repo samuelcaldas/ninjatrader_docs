@@ -22,8 +22,6 @@ CreateAnchor(Point point, ChartControl chartControl, ChartScale chartScale)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public override void OnMouseDown(ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, ChartAnchor dataPoint)
 {

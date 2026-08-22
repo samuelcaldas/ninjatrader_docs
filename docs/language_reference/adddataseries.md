@@ -56,8 +56,6 @@ AddDataSeries(//only for R15 and higher
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 OnStateChange()
 {
@@ -95,4 +93,3 @@ OnStateChange()
 }
 ```
 
-![Ns](../images/ns.png)

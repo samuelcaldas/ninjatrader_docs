@@ -29,8 +29,6 @@ Properties accessible from an instance of ConnectOptions include:
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Connecting to a configured connection
 private Connection Connect(string connectionName)

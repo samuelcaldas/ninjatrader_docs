@@ -22,8 +22,6 @@ Determines if the value of the following declared property is valid within a spe
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 #region Properties
 // set range between 1 and the highest possible integer
 [Range(1, int.MaxValue)]

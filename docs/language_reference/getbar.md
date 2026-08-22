@@ -24,8 +24,6 @@ An int value representing an absolute bar index value.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Check that its past 9:45 AM
 if (ToTime(Time[0]) >= ToTime(9, 45, 00))

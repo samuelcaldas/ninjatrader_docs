@@ -31,8 +31,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of Ease of Movement using default price type
 double value = EaseOfMovement(14, 10000)[0];

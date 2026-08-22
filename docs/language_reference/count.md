@@ -14,8 +14,6 @@ Count
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //If there are less than 365 bars on the chart, text indicates how many bars are on the chart
 if (Count < 365)

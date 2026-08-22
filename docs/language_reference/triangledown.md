@@ -14,8 +14,6 @@ Represents an interface that exposes information regarding a Triangle Down [IDra
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a TriangleDown object
 TriangleDown myTri = Draw.TriangleDown(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);

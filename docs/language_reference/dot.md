@@ -14,8 +14,6 @@ Represents an interface that exposes information regarding a Dot [IDrawingTool](
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiates a red dot on the current bar 1 tick below the low
 Dot myDot = Draw.Dot(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);

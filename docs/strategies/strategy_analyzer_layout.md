@@ -18,7 +18,7 @@ The Strategy Analyzer window contains the following items:
 
 You can toggle the log to be displayed, this shows summary details from all previous strategy backtests.
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 1. To show the log right click on the Strategy Analyzer and select "Show Log".
 
@@ -26,4 +26,4 @@ You can toggle the log to be displayed, this shows summary details from all prev
 
 ![StrategyAnalyzer_Layout2](../images/strategyanalyzer_layout2.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️

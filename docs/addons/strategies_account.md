@@ -14,8 +14,6 @@ An [Collection](https://msdn.microsoft.com/en-us/library/ms132397(v=vs.110).aspx
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Account myAccount;
 protected override void OnStateChange()

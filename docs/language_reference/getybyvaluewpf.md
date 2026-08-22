@@ -20,8 +20,6 @@ An double value representing a WPF coordinate on the chart scale
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

@@ -16,8 +16,6 @@ Represents an interface that exposes information regarding a Gann Fan [IDrawingT
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a GannFan object
 GannFan myFan = Draw.GannFan(this, "tag1", true, 0, Low[0]);

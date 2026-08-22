@@ -28,8 +28,6 @@ The properties listed below are accessible from an instance of ConnectionStatusE
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // This method is fired on connection status events
 private void OnConnectionStatusUpdate(object sender, ConnectionStatusEventArgs e)

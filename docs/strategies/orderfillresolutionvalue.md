@@ -25,8 +25,6 @@ protected override void OnStateChange()
     {
         Name = "ExampleStrategy";
 
-![Ns](../images/ns.png)
-
         // use one second bars for filling orders
         OrderFillResolution
         = OrderFillResolution.High;

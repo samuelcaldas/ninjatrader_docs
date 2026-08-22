@@ -14,8 +14,6 @@ Bars.Instrument.MasterInstrument.Exchanges
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 foreach(Exchange exchange in Bars.Instrument.MasterInstrument.Exchanges)
 {

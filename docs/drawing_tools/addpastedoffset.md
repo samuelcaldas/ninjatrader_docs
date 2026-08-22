@@ -28,6 +28,4 @@ chartScale)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 > chartScale)  {        Anchors)  {  //bump each anchor 1 minute to the right  anchor.Time;                       }

@@ -27,8 +27,6 @@ A DateTime object corresponding the a specified slot index; returns DateTime val
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

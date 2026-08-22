@@ -20,8 +20,6 @@ CurrentBars[int barSeriesIndex]
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {
@@ -56,8 +54,6 @@ protected override void OnStateChange()
 }
 protected override void OnBarUpdate()
 {
-![Ns](../images/ns.png)
-
     // Evaluates to make sure we have at least 20 (default value of BarsRequiredToTrade)
     // or more bars in both Bars objects before continuing.
     if (CurrentBars[0] < BarsRequiredToTrade || CurrentBars[1] < BarsRequiredToTrade)

@@ -27,8 +27,6 @@ A double representing a slot index; returns -1 on a time based bar spacing type
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

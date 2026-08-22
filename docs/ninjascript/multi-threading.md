@@ -11,8 +11,6 @@ Depending on your CPU configuration, the NinjaTrader application will usually co
 > **Note:** As a best practice, you should always make sure to use [Dispatcher.InvokeAsync()](https://msdn.microsoft.com/en-us/library/system.windows.threading.dispatcher.invokeasync(v=vs.110).aspx) to ensure your action is done asynchronously to any internal NinjaTrader actions.  Calling the synchronous Dispatcher.Invoke() method can potentially result in a deadlock scenarios as your script is loaded.
 
 ```csharp
-![Ns](../images/ns.png)
-
 if (State == State.Historical)
 {
     if (ChartControl != null)
@@ -44,8 +42,6 @@ else
     // dispatch action to calling thread
     Dispatcher.InvokeAsync(action, args);
 
-![Ns](../images/ns.png)
-
 }
 ```
 
@@ -64,8 +60,6 @@ This error can be avoided by invoking the Dispatcher used on the appropriate UI 
 Should you be using custom resources like text files, static members, etc. it is important to protect your resources from concurrent access. If NinjaTrader tried to use the resource at the same time you would run into errors similar to this one:
 
 8/20/2010 12:14:29 PM|3|128|Error on calling 'OnBarUpdate' method for strategy 'SampleStrategy/1740b50bfe5d4bd896b0533725622400': The process cannot access the file 'c:\sample.txt' because it is being used by another process.
-
-![Ns](../images/ns.png)
 
 ```csharp
 private object lockObj = new object();

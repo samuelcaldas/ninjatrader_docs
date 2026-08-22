@@ -22,8 +22,6 @@ Bars.Instrument.MasterInstrument.RolloverCollection
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 foreach(var rollover in Bars.Instrument.MasterInstrument.RolloverCollection)
 {

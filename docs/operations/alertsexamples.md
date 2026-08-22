@@ -15,7 +15,7 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 - Apply a MACD [indicator](../indicators/working_with_indicators.md) to the chart
 - Apply a Stochastics indicator to the chart   Overview This alert is a bit more advanced than the example above. This alert demonstrates a multi-plot crossover scenario, detecting when one specific plot of an indicator crosses a different plot of the same indicator. In this example, plots within the MACD and the Stochastics indicators must cross other plots within the same indicators. The image below shows the fully configured alert.  Alerts_MACDStochCross1 Conditions and Actions The Conditions and Actions windows for this alert can be seen below:  Alerts_MACDStochCross2  1. In the Conditions window, the D plot of the Stochastics indicator is selected in the left panel    2. The CrossBelow condition is selected, and a value of 1 is entered for the look-back period    3. The K plot of the Stochastics indicator is selected in the right panel    We now have a condition that translates to "When Stochastics D crosses below Stochastics K within the last one bar."  Alerts_MACDStochCross3  1. In the Conditions window for the second condition, the Avg plot of the MACD indicator is selected in the left panel    2. Just like the previous condition, the CrossBelow operator is used with a look-back period of 1    3. The Diff plot of the MACD indicator is selected in the right panel    We now have a second condition that translates to "When MACD Avg crosses below MACD Diff within the last 1 bar."  Alerts_MACDStochCross4  1. In the Actions window, the "Play a Sound" option is selected    2. A sound named "Alert1" is selected to be played when the alert triggers
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 ## Hot List Analyzer Net Change
 
@@ -120,4 +120,4 @@ Following are a few examples of Alerts which can be set up on charts or Market A
 
 ![Hmfile Hash 23D0Ded9](../images/hmfile_hash_23d0ded9.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️

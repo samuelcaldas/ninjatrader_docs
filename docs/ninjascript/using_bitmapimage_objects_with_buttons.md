@@ -119,8 +119,6 @@ public class addButton : Indicator
                     //Remove Button from Indicator's Chart ToolBar
                     chartWindow.MainMenu.Remove(myButton);
 
-![Ns](../images/ns.png)
-
                 }
             }));
         }

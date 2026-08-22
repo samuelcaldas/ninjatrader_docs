@@ -20,8 +20,6 @@ public override object Icon
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public override object Icon
 {

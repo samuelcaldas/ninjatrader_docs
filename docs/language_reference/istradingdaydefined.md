@@ -20,8 +20,6 @@ A bool value when true indicates that the date passed in as an argument is defin
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 DateTime thanksGivingDay = new DateTime(2017, 11, 23);
 // Determine if the current instrument's exchange is open for trading on Thanksgiving day in 2017

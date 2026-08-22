@@ -36,8 +36,6 @@ Draw.RegressionChannel(NinjaScriptBase owner, string tag, int startBarsAgo, int 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draws a regression channel from the low 10 bars back to the high of 5 bars back
 Draw.RegressionChannel(this, "tag1", 10, 0, Brushes.Blue);

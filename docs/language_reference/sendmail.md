@@ -28,8 +28,6 @@ SendMail(string to, string subject, string text)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Generates an email message
 SendMail("[email protected](mailto:platformsupport@ninjatrader.com)", "Trade Alert", "Buy ES");

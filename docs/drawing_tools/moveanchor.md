@@ -27,8 +27,6 @@ This method does not return a value.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //move the chart anchors x and y values
 MyAnchor.MoveAnchor(lastPoint, newPoint, chartControl, chartPanel, chartScale, this);

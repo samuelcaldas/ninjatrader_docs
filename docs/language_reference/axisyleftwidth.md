@@ -14,8 +14,6 @@ A double representing the number of pixels separating the y-axis and the left ed
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
 {

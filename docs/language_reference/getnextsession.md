@@ -25,10 +25,6 @@ A bool value when true indicates the method was able to successfully calculate t
 
 ## Example
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 ```csharp
 SessionIterator sessionIterator;
 protected override void OnStateChange()

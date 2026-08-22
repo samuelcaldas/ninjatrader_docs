@@ -24,8 +24,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // A 1 tick data series must be added to OnStateChange() as this indicator runs off of tick data
 else if (State == State.Configure)

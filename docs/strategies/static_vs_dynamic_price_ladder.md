@@ -2,7 +2,7 @@
 
 > playVideo
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 You may have the option of using either a static (original SuperDOM) or dynamic price ladder display depending on your FCM or broker. The difference between these options is how the inside market is displayed in the Price Ladder.
 
@@ -14,4 +14,4 @@ You may have the option of using either a static (original SuperDOM) or dynamic 
 
 ![Superdom 14](../images/superdom_14.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️

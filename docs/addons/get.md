@@ -23,8 +23,6 @@ Get(AccountItem itemType, Cbi.Currency currency)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Evaluates to see if the account has more than $25000
 if (Account.Get(AccountItem.CashValue, Currency.UsDollar) > 25000)

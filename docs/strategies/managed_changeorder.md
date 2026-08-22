@@ -27,8 +27,6 @@ ChangeOrder(Order order, int quantity, double limitPrice, double stopPrice)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Order stopOrder = null;
 protected override void OnBarUpdate()

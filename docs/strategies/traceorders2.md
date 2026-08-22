@@ -65,16 +65,5 @@ protected override void OnOrderTrace(DateTime timestamp, string message)
 
 These examples illustrate the most common traces you will run across. They are mostly useful in determining the reason your orders are not submitted or cancelled. TraceOrders will only show you what is happening under the hood when you submit orders, but it will not tell you what happens after the order is submitted. To determine the behavior of your orders after submission you will need to look into your NinjaTrader trace logs. You can view those either through the "Log" tab on the "Control Center" or from the trace folder in My Documents\NinjaTrader 8\trace\.
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
 For more information on how to debug your NinjaScript please review the [Debugging](../ninjascript/debugging_your_ninjascript_cod.md) tip.
 
-![Ns](../images/ns.png)

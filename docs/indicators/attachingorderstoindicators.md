@@ -48,6 +48,6 @@ SuperDOM_41    After you have configured your desired settings, pressing the OK 
 
 ![Superdom 42](../images/superdom_42.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
-![Playvideo](../images/playvideo.jpg)
+▶️

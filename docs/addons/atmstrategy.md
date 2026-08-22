@@ -6,8 +6,6 @@ AtmStrategy contains properties and methods used to manage [ATM Strategies](../o
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Using AtmStrategy to handle user selections in an ATM Strategy Selector
 myAtmStrategySelector.SelectionChanged += (o, args) =>

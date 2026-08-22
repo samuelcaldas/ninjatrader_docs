@@ -42,8 +42,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of a 20 period ATR using default price type
 double value = ATR(20)[0];

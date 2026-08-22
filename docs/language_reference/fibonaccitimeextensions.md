@@ -17,8 +17,6 @@ Represents an interface that exposes information regarding a Fibonacci Time Exte
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Instantiate a FibonacciTimeExtensions object
 FibonacciTimeExtensions myFibTime = Draw.FibonacciTimeExtensions(this, "tag1", false, 10, Low[10], 0, High[0]);

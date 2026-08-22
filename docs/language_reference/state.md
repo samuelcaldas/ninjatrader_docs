@@ -1,5 +1,3 @@
-![Ns](../images/ns.png)
-
 # State
 
 ## Definition
@@ -32,8 +30,6 @@ State
  
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnStateChange()

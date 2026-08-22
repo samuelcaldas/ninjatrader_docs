@@ -18,8 +18,6 @@ An array of `ISeries<double>` objects.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

@@ -81,7 +81,7 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 
 > **Note:** To take advantage of this feature NinjaScript indicators will need to implement the [Input](../language_reference/input.md) ISeries as their main data input.
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
  |
 
@@ -100,7 +100,7 @@ Sets a variety of parameters, such as color, for the plots drawn by the indicato
 
 ![Indicators2](../images/indicators2.png)
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 ## Working with Indicators in Market Analyzer columns
 

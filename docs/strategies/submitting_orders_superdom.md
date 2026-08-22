@@ -68,7 +68,7 @@ With this configuration, the middle mouse button will now submit stop-market ord
 - Submit your stop order to buy above the market
 - For your second order, select the desired option from the "ATM Strategy" drop down list
 - Submit your stop order to sell below the market
-![Playvideo](../images/playvideo.jpg)
+▶️
 
 - CRITICAL: Right click in the SuperDOM and select the menu item OCO Order to disable OCO from being applied to subsequent orders.      SuperDOM_22    For a market fade approach just substitute limit orders for stop orders.   Using the OCO Function to Bracket an Open Position If you have an open position without an ATM strategy attached, and you wish to add limit and stop orders to protect the position follow these steps:
 - Set the ATM strategy in the ATM Strategy selection drop down box to a value of <None>
@@ -85,7 +85,7 @@ With this configuration, the middle mouse button will now submit stop-market ord
 
 ![Superdom 19](../images/superdom_19.png)
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️
 
 ## How to submit orders with the Quick Buttons
 

@@ -14,8 +14,6 @@ An instance of the Connection class containing information about the connection 
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Account myAccount;
 protected override void OnStateChange()

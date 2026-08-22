@@ -31,8 +31,6 @@ CreateOrder(Instrument instrument, OrderAction action, OrderType orderType, Orde
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 Order stopOrder;
 stopOrder = myAccount.CreateOrder(myInstrument, OrderAction.Sell, OrderType.StopMarket, OrderEntry.Automated, TimeInForce.Day, 1, 0, 1400, "myOCO", "stopOrder", Core.Globals.MaxDate, null);

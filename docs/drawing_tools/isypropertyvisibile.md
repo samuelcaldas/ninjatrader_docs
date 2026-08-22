@@ -14,8 +14,6 @@ A bool value which when true will display the anchor's Y (price) data values fro
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

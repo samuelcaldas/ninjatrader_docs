@@ -15,8 +15,6 @@ Low[int barsAgo]
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Current bar low price
 double barLowPrice = Low[0];

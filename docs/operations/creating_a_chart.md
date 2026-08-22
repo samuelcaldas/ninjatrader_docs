@@ -41,6 +41,6 @@ Scrolls the horizontal axis left and right. (See the "[Navigating a Chart](navig
 
 Displays the tabs enabled in the chart window. Tabs can be switched by clicking any configured tab with the left mouse button.
 
-![Playvideo](../images/playvideo.jpg)
+▶️
 
-![Cicon Video Playbutton](../images/cicon_video_playbutton.png)
+▶️

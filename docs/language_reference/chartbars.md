@@ -25,8 +25,6 @@ The ChartBars class provides GUI access related methods and properties to the pr
 
 Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

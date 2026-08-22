@@ -36,8 +36,6 @@ Values[0][BarsAgo] = (Close[BarsAgo] > Close[(BarsAgo + 1)]) ? (High[BarsAgo] + 
 
 The core indicator logic is now in place, but running this code as it is can result in an "Index out of range" exception. Since we are looking a certain number of bars back in time, we need to make sure that there are always enough bars on the chart for us to look back. For example, if BarsAgo were set to 5, then we would be comparing the value of five bars ago to the value of six bars ago, but on Bars # 1, 2, 3, 4, or 5, at which point we do not have five or six bars to look back, the indicator will cause an error. To resolve this, we will add a condition which will prevent the core calculations from running unless we know there are enough bars on the chart. Add the following line just above the line you have been working on throughout this page:
 
-![Ns](../images/ns.png)
-
 ```csharp
 if(CurrentBar < BarsAgo + 1)
 return;
@@ -75,13 +73,7 @@ public class PriceVariableTutorial : Indicator
             ScaleJustification
             = NinjaTrader.Gui.Chart.ScaleJustification.Right;
 
-![Ns](../images/ns.png)
-
             //Disable this property if your indicator requires custom values that cumulate with each new market data event.
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
             //See Help Guide for additional information.
             IsSuspendedWhileInactive
@@ -100,16 +92,10 @@ public class PriceVariableTutorial : Indicator
         return;
         Values[0][BarsAgo] = (Close[BarsAgo] > Close[(BarsAgo + 1)]) ? (High[BarsAgo] + (5 \* TickSize)) : (Low[BarsAgo] - (5 \* TickSize));
 
-![Ns](../images/ns.png)
-
     }
     #region Properties
     [Range(0, int.MaxValue)]
     [NinjaScriptProperty]
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
     [Display(Name="BarsAgo", Description="How many bars ago to use for the plot value", Order=1)]
     public int BarsAgo

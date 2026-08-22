@@ -48,6 +48,4 @@ Combines historical and real-time performance statistics in a single report
 
 ![Chartdefaults9](../images/chartdefaults9.png)
 
-![Strategyexecutions](../images/strategyexecutions.png)
-
 ![Reloadninjascript](../images/reloadninjascript.png)

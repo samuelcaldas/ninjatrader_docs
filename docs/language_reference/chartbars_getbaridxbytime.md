@@ -21,8 +21,6 @@ An int representing the bar index value at a specific time
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

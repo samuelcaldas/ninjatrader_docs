@@ -27,4 +27,3 @@ myLine.Stroke = new Stroke(Brushes.Green, DashStyleHelper.Dash, 5);
 
 > **Note:** To differentiate between NinjaTrader.NinjaScript.DrawingTools.Line and NinjaTrader.Gui.Line when assigning a Line object, you will need to invoke the former path explicitly, as seen in the example above.
 
-![Ns](../images/ns.png)

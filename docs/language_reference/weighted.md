@@ -15,8 +15,6 @@ Weighted[int barsAgo]
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Current bar weighted price
 double barWeigthedPrice = Weighted[0];

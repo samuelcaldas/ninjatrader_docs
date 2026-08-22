@@ -52,8 +52,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the high price of the most recent zig zag high
 Print("The high of the zigzag bar is " + High[Math.Max(0, ZigZag(DeviationType.Points, 0.5, false).HighBar(0, 1, 100))]);

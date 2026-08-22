@@ -25,8 +25,6 @@ protected override void OnOrderUpdate(OrderEventArgs orderUpdate)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnOrderUpdate(OrderEventArgs orderUpdate)
 {

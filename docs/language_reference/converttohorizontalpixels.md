@@ -24,8 +24,6 @@ ChartingExtensions.ConvertToHorizontalPixels(this double x, PresentationSource t
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 int devicePixelX;
 protected override void OnRender(ChartControl chartControl, ChartScale chartScale)

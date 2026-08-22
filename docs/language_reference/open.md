@@ -15,8 +15,6 @@ Open[int barsAgo]
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Current bar opening price
 double barOpenPrice = Open[0];

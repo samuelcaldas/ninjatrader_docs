@@ -26,8 +26,6 @@ public override double GetPercentComplete(Bars bars, DateTime now)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 public override double GetPercentComplete(Bars bars, DateTime now)
 {

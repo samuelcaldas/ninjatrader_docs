@@ -28,8 +28,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of a 20 period WMA using default price type
 double value = WMA(20)[0];

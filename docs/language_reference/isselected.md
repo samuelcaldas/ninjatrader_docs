@@ -1,5 +1,3 @@
-![Ns](../images/ns.png)
-
 # IsSelected
 
 ## Definition
@@ -17,8 +15,6 @@ This property returns true to indicate that the chart object is selected; otherw
 IsSelected
 
 ## Examples
-
-![Ns](../images/ns.png)
 
 ```csharp
 ns

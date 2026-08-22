@@ -14,8 +14,6 @@ Sets required workspace options.
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // IWorkspacePersistence member
 public WorkspaceOptions WorkspaceOptions { get; set; }

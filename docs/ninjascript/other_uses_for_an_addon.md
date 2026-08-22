@@ -2,8 +2,6 @@
 
 ## Modifying Existing NinjaTrader Windows
 
-![Ns](../images/ns.png)
-
 To modify an existing type of NinjaTrader window (for example, to add a button to all charts), you will first need to obtain a reference to each individual window of that type that is open. This can be done by overriding the OnWindowCreated() method, then declaring an object of the Type of the window you are looking for, and finally assigning the object a reference to the Window passed into the method:
 
 ```csharp
@@ -91,8 +89,6 @@ Since we are dynamically adding elements to open windows, it is important to cle
 protected override void OnWindowDestroyed(Window window)
 {
     // Return if there is no button, or if the destroyed window is not a chart
-
-![Ns](../images/ns.png)
 
     if(sampleButton == null || !(window is Gui.Chart.Chart))
     {
@@ -228,8 +224,6 @@ private NinjaTrader.Data.BarsRequest DoBarsRequest(Instrument instrument, int lo
     = false;
     // barsRequest.IsSplitAdjusted
 
-![Ns](../images/ns.png)
-
     = true;
     // barsRequest.LookupPolicy
     = LookupPolicies.Provider;
@@ -253,12 +247,6 @@ private NinjaTrader.Data.BarsRequest DoBarsRequest(Instrument instrument, int lo
     }));
     // Return the Bars Request to any callers of this method
 
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
     return barsRequest;
 }
 // BarsUpdateEventArgs is provided by the BarsRequest's Update event
@@ -275,8 +263,6 @@ private void MyOnBarUpdate(object sender, NinjaTrader.Data.BarsUpdateEventArgs e
         {
             // Processing every single tick
             outputBox.Text = string.Format("REALTIME BARS{0}Time: {1}{0}Open: {2}{0}High: {3}{0}Low: {4}{0}Close: {5}",
-
-![Ns](../images/ns.png)
 
             Environment.NewLine,
             e.BarsSeries.GetTime(i),

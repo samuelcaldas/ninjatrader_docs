@@ -34,8 +34,6 @@ protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnMarketDepth(MarketDepthEventArgs marketDepthUpdate)
 {

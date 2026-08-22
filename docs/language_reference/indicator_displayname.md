@@ -23,8 +23,6 @@ public override string DisplayName
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {
@@ -58,8 +56,6 @@ protected override void OnBarUpdate()
     Print(DisplayName);
     //Output:
     My Custom Display Example Indicator
-
-![Ns](../images/ns.png)
 
 }
 ```

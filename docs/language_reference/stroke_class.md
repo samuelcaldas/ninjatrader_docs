@@ -24,8 +24,6 @@ Stroke(Brush brush, DashStyle dashStyleHelper, float width)
 | dashStyleHelper | Possible values:    DashStyleHelper.Dash  DashStyleHelper.DashDot  DashStyleHelper.DashDotDot  DashStyleHelper.Dot  DashStyleHelper.Solid |
 | stroke | The [stroke](stroke_class.md) object |
 
-![Ns](../images/ns.png)
-
 | width | The width of the stroke |
 
 ## Properties
@@ -50,8 +48,6 @@ Stroke(Brush brush, DashStyle dashStyleHelper, float width)
 ## Examples
 
 See the [AddPlot()](../indicators/addplot.md) method for additional examples.
-
-![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnStateChange()

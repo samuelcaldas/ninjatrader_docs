@@ -14,8 +14,6 @@ Represents an interface that exposes information regarding an Arrow Line [IDrawi
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Draw an ArrowLine object
 ArrowLine myArrow = Draw.ArrowLine(this, "myArrowLine", 3, High[3], 1, High[1], Brushes.Blue, DashStyleHelper.DashDot, 3);

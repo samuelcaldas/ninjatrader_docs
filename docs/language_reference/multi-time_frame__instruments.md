@@ -327,8 +327,6 @@ High[0];
 
 The following example demonstrates various ways to access price data:
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {
@@ -407,17 +405,7 @@ Note that there is a critical difference here: throughout this entire section we
 - MSFT position is given an index value of `0`
 - AAPL position is given an index value of `1`
 
-![Ns](../images/ns.png)
-
 In the example below, when the `OnBarUpdate()` method is called for the primary Bars we also check if the position held for AAPL is NOT flat and then enter a long position in MSFT. The net result of this strategy is that a long position is entered for AAPL, and then once AAPL is long, we go long MSFT.
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 ```csharp
 protected override void OnBarUpdate()
@@ -437,16 +425,10 @@ protected override void OnBarUpdate()
     // Checks if OnBarUpdate() is called from an update on AAPL 1 minute Bars
     if (BarsInProgress == 2)
 
-![Ns](../images/ns.png)
-
     {
         // Submits a buy market order for AAPL
 
-![Ns](../images/ns.png)
-
         EnterLong();
-
-![Ns](../images/ns.png)
 
     }
 }

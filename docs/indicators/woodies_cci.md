@@ -81,8 +81,6 @@ double; Accessing this method via an index value [int barsAgo] returns the indic
 
 ## Example
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Prints the current value of a 14 period WoodiesCCI using default price type
 double value = WoodiesCCI(2, 5, 14, 34, 25, 6, 60, 100, 2)[0];

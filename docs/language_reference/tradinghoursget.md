@@ -22,8 +22,6 @@ Get(string name)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 // Loop through and print all regular holidays in the found TradingHours object
 foreach(KeyValuePair<DateTime, string> holiday in TradingHours.Get("CME US Index Futures RTH").Holidays)

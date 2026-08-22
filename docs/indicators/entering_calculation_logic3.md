@@ -34,8 +34,6 @@ double sum = 0;
 
 The variable "sum" whose value is of type "double" will serve as temporary storage.
 
-![Ns](../images/ns.png)
-
 ```csharp
 for (int barsAgo = 0; barsAgo < Period; barsAgo++)
 {
@@ -59,17 +57,11 @@ What the loop is saying is:
 
 You can find more information on [how loops work here](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements). Once the loop has finished, it will have calculated the total sum of closing prices for the period of our moving average.
 
-![Ns](../images/ns.png)
-
 \* We use the value of Input[barsAgo] to get a price to use for our calculation. We could have substituted Close[barsAgo] to use closing prices or High[barsAgo] to use high prices. The reason we use Input[barsAgo] is since this allows flexibility for what the indicator is calculated based off of. Remember users have the option to select a price type (High, Open, Close etc...) from the Indicator Dialog window.
 
 ## The final calculation
 
 Enter the following code into the OnBarUpdate() method and below the code snippet you entered above:
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 ```csharp
 // Calculate and set the average value to the 'MyPlot' property
@@ -106,8 +98,6 @@ public class MySMA : Indicator
             ScaleJustification
             = NinjaTrader.Gui.Chart.ScaleJustification.Right;
 
-![Ns](../images/ns.png)
-
             //Disable this property if your indicator requires custom values that cumulate with each new market data event.
             //See Help Guide for additional information.
             IsSuspendedWhileInactive
@@ -136,8 +126,6 @@ public class MySMA : Indicator
     #region Properties
     [NinjaScriptProperty]
 
-![Ns](../images/ns.png)
-
     [Range(1, int.MaxValue)]
     [Display(Name="Period", Description="Number of Periods", Order=1, GroupName="Parameters")]
     public int Period
@@ -155,8 +143,6 @@ public class MySMA : Indicator
 ## Alternate Implementation
 
 In this tutorial we are using a "for" loop to iterate through a collection of prices and accumulate a sum value. We chose this approach to demonstrate the use of a loop. A simple moving average can actually be expressed in a more efficient manner using the built in [SUM](summation_sum.md) indicator as show below.
-
-![Ns](../images/ns.png)
 
 ```csharp
 // Do not calculate if we don't have enough bars

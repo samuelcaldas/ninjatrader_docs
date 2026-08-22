@@ -22,8 +22,6 @@ ReloadAllHistoricalData()
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 //monitor our connection status so our NinjaScript object would know to reload historical data
 //create a bool which tracks when historical data would need to be reloaded after a connection loss

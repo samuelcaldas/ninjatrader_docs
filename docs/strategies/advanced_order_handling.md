@@ -8,8 +8,6 @@ Advanced order handling is reserved for EXPERIENCED programmers. Through advance
 - The property <Order>.OrderId is NOT a unique value, since it can change throughout an order's lifetime.  Please see the section below on "Transitioning order references from historical to live" for details on how to handle.
 - To check for equality, you can compare Order objects directly    The following example code demonstrates the submission of an order and the assignment of the Order return object to the variable "entryOrder." After this, the object is checked in the OnOrderUpdate() method for equality, and then checked for the Filled state.   Examples 
 
-![Ns](../images/ns.png)
-
 ```csharp
 private Order entryOrder = null;
 protected override void OnBarUpdate()
@@ -45,10 +43,6 @@ Critical:  If you DO NOT update a historical order reference, and then attempt t
 > **Tip:** When the real-time order is submitted, there is a generic Order object passed into the [OnOrderUpdate()](onorderupdate.md) method containing the live order details which can be used for debugging.  It is recommended you use the helper [GetRealtimeOrder()](getrealtimeorder.md) when your strategy transitions to real-time to update your order references
 
      Example 
-
-![Ns](../images/ns.png)
-
-![Ns](../images/ns.png)
 
 ```csharp
 private Order entryOrder = null; protected override void OnBarUpdate(){

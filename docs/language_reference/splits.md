@@ -21,8 +21,6 @@ Bars.Instrument.MasterInstrument.Splits
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 foreach (Split split in Bars.Instrument.MasterInstrument.Splits)
 {

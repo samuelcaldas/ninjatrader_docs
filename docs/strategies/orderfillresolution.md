@@ -30,8 +30,6 @@ protected override void OnStateChange()
     {
         Name = "ExampleStrategy";
 
-![Ns](../images/ns.png)
-
         OrderFillResolution = OrderFillResolution.Standard;
     }
 }

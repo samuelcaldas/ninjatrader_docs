@@ -110,8 +110,6 @@ The table below lists each NinjaScript type and it's designed state management s
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {

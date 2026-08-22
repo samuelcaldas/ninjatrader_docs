@@ -20,8 +20,6 @@ The SystemPerformance object holds all trades and trade performance data generat
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

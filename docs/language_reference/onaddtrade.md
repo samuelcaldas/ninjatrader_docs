@@ -15,8 +15,6 @@ protected override void OnAddTrade(Cbi.[Trade](../strategies/trade.md) trade)
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnAddTrade(Cbi.Trade trade)
 {

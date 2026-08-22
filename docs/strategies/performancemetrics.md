@@ -10,8 +10,6 @@ Returns a collection of custom [Performance Metrics](../language_reference/perfo
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnBarUpdate()
 {

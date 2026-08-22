@@ -14,8 +14,6 @@ A bool value which when true will display the anchor's X (time) data values from
 
 ## Examples
 
-![Ns](../images/ns.png)
-
 ```csharp
 protected override void OnStateChange()
 {
