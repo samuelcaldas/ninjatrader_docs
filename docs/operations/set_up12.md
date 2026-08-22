@@ -6,16 +6,22 @@ You can Playback either Market Replay data or historical tick data. For the most
 
 > playVideo
 
-![tog_minus](../images/tog_minus.gif)
+Downloading Market Replay data for the Playback connection Market Replay data holds the exact sequence level I and Level II (market depth) data. NinjaTrader offers a limited amount of Market Replay data free to download for playback purposes. Only the most common instruments are currently available.
 
-|  |  |  |
-| --- | --- | --- |
-| Downloading Market Replay data for the Playback connection Market Replay data holds the exact sequence level I and Level II (market depth) data. NinjaTrader offers a limited amount of Market Replay data free to download for playback purposes. Only the most common instruments are currently available.    |  | | --- | | Notes:  1.Enable market recording for playback must be disabled from the Market Data category of the Options menu before downloading replay data.  2.Downloading Market Replay data is NOT available when connected to the [Playback connection](playback_connection.md). You must disconnect from Playback connection prior to downloading. |    To download playback data:  1.Open the Historical Data window. This window will also appear when connecting to Playback. The Historical Data window will open when initially connection to Playback or by going to the Control Center and selecting Tools then Historical Data. Here the section "Get Market Replay data" can be expanded.  2.Select the instrument and date of the desired replay data and press the OK button to begin the download.    Playback_Download    The status of the download will appear in the lower right hand corner of the Historical Data Window.    |  | | --- | | Note:  Closing the [Historical Data Window](historical_data_manager.md) will cancel the download. |   Downloading historical tick data for the Playback connection If Market Replay data is not available, or you do not need the accuracy that Market Replay data provides, you can optionally use playback using historical tick data offered from your [data provider](data_by_provider.md). You can download, export, import historical tick data via the [Historical Data Window](historical_data_manager.md). |
+---
 
-![tog_minus](../images/tog_minus.gif)        How to enable the market replay recorder
+Notes:  1.Enable market recording for playback must be disabled from the Market Data category of the Options menu before downloading replay data.  2.Downloading Market Replay data is NOT available when connected to the [Playback connection](playback_connection.md). You must disconnect from Playback connection prior to downloading.
+
+To download playback data:  1.Open the Historical Data window. This window will also appear when connecting to Playback. The Historical Data window will open when initially connection to Playback or by going to the Control Center and selecting Tools then Historical Data. Here the section "Get Market Replay data" can be expanded.  2.Select the instrument and date of the desired replay data and press the OK button to begin the download.    Playback_Download    The status of the download will appear in the lower right hand corner of the Historical Data Window.
+
+> **Note:** Closing the [Historical Data Window](historical_data_manager.md) will cancel the download.
+
+   Downloading historical tick data for the Playback connection If Market Replay data is not available, or you do not need the accuracy that Market Replay data provides, you can optionally use playback using historical tick data offered from your [data provider](data_by_provider.md). You can download, export, import historical tick data via the [Historical Data Window](historical_data_manager.md). |
+
+## How to enable the market replay recorder
 
 > Enabling the Market Replay Recorder To enable the replay recorder:  1.Left mouse click on the Tools menu and select the menu item Options.  2.In the Market Data category enable the option "Enable market recording for playback".    Options_EnablePlaybackRecording    All live data from instruments that are active in any NinjaTrader window will now be recorded for playback. (see the "How to record live market data" section below)
 
-![tog_minus](../images/tog_minus.gif)        How to record live market data
+## How to record live market data
 
 > Recording Data Once Enable market recording for playback is enabled (see the "How to enable the market replay recorder" section above), data is recorded for any instrument in any NinjaTrader window that is receiving live market data. Level II (market depth) data is only recorded if a [Level II](level_ii.md), [SuperDOM](../strategies/superdom.md), or [FX Pro](../strategies/fx_pro.md) window is open and receiving data for the instrument. The [Market Analyzer](market_analyzer.md) window is the recommended recording window as multiple instruments can be added to one Market Analyzer window and all recorded at the same time.

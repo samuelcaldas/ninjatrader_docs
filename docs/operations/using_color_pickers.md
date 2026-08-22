@@ -16,14 +16,93 @@ Using Custom Colors
 
 NinjaTrader's Color Pickers allow you to enter custom color values not defined in by default by clicking and typing directly into the field, rather than pulling down the menu. Values can be entered in one of 5 formats:
 
-|  |  |  |
-| --- | --- | --- |
-| Method | Brush Type | Description |
-| Name | Solid Brush | The name of your desired color (e.g., Red, LimeGreen, Khaki) if it already exists in the Color Picker |
-| RGB (Red, Green, Blue) Value | Solid Brush | A comma-separated RGB value (eg. "255, 192, 203" for Pink) |
-| ARGB (Alpha, Red, Green, Blue) Value | Transparent Brush | A comma-separated ARGB value (eg. "50, 255, 192, 203" for Pink with 50% Opacity) |
-| Hexadecimal Value (#RRGGBB) | Solid Brush | A hexadecimal value representing a color (eg. #6A5ACD for Slate Blue) |
-| Hexadecimal Value (#AARRGGBB) | Transparent Brush | Hexadecimal values can optionally include an Alpha component where 00 is fully transparent and FF is fully opaque (eg., #806A5ACD)    |  |  | | --- | --- | | Alpha component | Opacity | | FF | 100% | | E6 | 90% | | CC | 80% | | B3 | 70% | | 99 | 60% | | 80 | 50% | | 66 | 40% | | 4D | 30% | | 33 | 20% | | 1A | 10% | | 00 | 0% | |
+Method
+
+Brush Type
+
+Description
+
+Name
+
+Solid Brush
+
+The name of your desired color (e.g., Red, LimeGreen, Khaki) if it already exists in the Color Picker
+
+RGB (Red, Green, Blue) Value
+
+Solid Brush
+
+A comma-separated RGB value (eg. "255, 192, 203" for Pink)
+
+ARGB (Alpha, Red, Green, Blue) Value
+
+Transparent Brush
+
+A comma-separated ARGB value (eg. "50, 255, 192, 203" for Pink with 50% Opacity)
+
+Hexadecimal Value (#RRGGBB)
+
+Solid Brush
+
+A hexadecimal value representing a color (eg. #6A5ACD for Slate Blue)
+
+Hexadecimal Value (#AARRGGBB)
+
+Transparent Brush
+
+Hexadecimal values can optionally include an Alpha component where 00 is fully transparent and FF is fully opaque (eg., #806A5ACD)
+
+---
+
+---
+
+Alpha component
+
+Opacity
+
+FF
+
+100%
+
+E6
+
+90%
+
+CC
+
+80%
+
+B3
+
+70%
+
+99
+
+60%
+
+80
+
+50%
+
+66
+
+40%
+
+4D
+
+30%
+
+33
+
+20%
+
+1A
+
+10%
+
+00
+
+0%
 
 ![ColorPicker3](../images/colorpicker3.png)
 

@@ -4,23 +4,455 @@
 
 NinjaTrader, LLC is not a market data provider. Historical data is provided by our connectivity providers that offer historical data as part of their service. The table below displays all NinjaTrader supported connectivity providers as well as the historical and real-time data provided by each:
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Connectivity Provider | Real-Time Data | Historical Tick Data | Historical Bid/Ask Minute Data | Historical Bid/Ask Daily Data | Historical Bid/Ask Tick Data | Historical Minute Data | Historical Daily Data | Real-Time Timestamp | Instruments Supported | Real-Time News | Tick Replay | Bid/Ask Stamped Tick Data | Daily Bars Trading Hours | Settlement adjusted Close Price For Daily Bars |
-| NinjaTrader | YES | YES | YES | YES | YES | YES | YES | Native | F, I | NO | YES | YES | Extended Trading Hours | YES |
-| Kinetick  [www.kinetick.com](http://www.kinetick.com) | YES (subscription only) | YES (subscription only) | NO | NO | \*YES | YES (subscription only) | YES | Native | E(O), F(O), FX, I | YES | YES | YES | Symbol Map Specific | YES |
-| BarChart | YES | YES | NO | NO | NO | YES | YES | Native | E, F, FX, I | NO | YES | NO | Symbol Map Specific | YES |
-| Coinbase | YES | YES | YES | YES | YES | YES | YES | Native | CC | NO | NO | NO | UTC | N/A |
-| Continuum/CQG | YES | YES | YES | YES | YES | YES | YES | Native | F, I | NO | YES | YES | Extended Trading Hours | YES |
-| Continuum/CQG WebAPI | YES | YES | YES | YES | YES | YES | YES | Native | F(O), I | NO | YES | YES | Extended Trading Hours | YES |
-| cTrader | YES | YES | NO | NO | YES | YES | YES | Native | C | NO | YES | NO | CFD | N/A |
-| eSignal | YES | YES | NO | NO | YES | YES | YES | Native | E, F, FX, I | NO | YES | NO | Symbol Map Specific | NO |
-| FOREX.com/City Index | YES | YES | NO | NO | NO | YES | YES | Native | FX, C | NO | YES | N/A | Forex | N/A |
-| FXCM | YES | YES | YES | YES | YES | YES | YES | Native | FX, C | NO | YES | N/A | Forex | N/A |
-| Interactive Brokers | YES | NO | YES | YES | NO | YES  (live account only) | YES  (live account only) | Local | C, E(O), F(O), FX, I | NO | NO | NO | Extended Trading Hours | NO |
-| IQFeed | YES | YES | NO | NO | \*YES | YES | YES | Native | E(O), F(O), FX, I | YES | YES | YES | Symbol Map Specific | YES |
-| Rithmic | YES | YES | YES | YES | YES | YES | YES | Native | F | NO | YES | YES | Extended Trading Hours | YES |
-| TD Ameritrade | YES | NO | NO | NO | NO | YES | YES | Local | E(O), I | NO | NO | NO | Regular Trading Hours | NO |
+Connectivity Provider
+
+Real-Time Data
+
+Historical Tick Data
+
+Historical Bid/Ask Minute Data
+
+Historical Bid/Ask Daily Data
+
+Historical Bid/Ask Tick Data
+
+Historical Minute Data
+
+Historical Daily Data
+
+Real-Time Timestamp
+
+Instruments Supported
+
+Real-Time News
+
+Tick Replay
+
+Bid/Ask Stamped Tick Data
+
+Daily Bars Trading Hours
+
+Settlement adjusted Close Price For Daily Bars
+
+NinjaTrader
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+Native
+
+F, I
+
+NO
+
+YES
+
+YES
+
+Extended Trading Hours
+
+YES
+
+Kinetick  [www.kinetick.com](http://www.kinetick.com)
+
+YES (subscription only)
+
+YES (subscription only)
+
+NO
+
+NO
+
+\*YES
+
+YES (subscription only)
+
+YES
+
+Native
+
+E(O), F(O), FX, I
+
+YES
+
+YES
+
+YES
+
+Symbol Map Specific
+
+YES
+
+BarChart
+
+YES
+
+YES
+
+NO
+
+NO
+
+NO
+
+YES
+
+YES
+
+Native
+
+E, F, FX, I
+
+NO
+
+YES
+
+NO
+
+Symbol Map Specific
+
+YES
+
+Coinbase
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+Native
+
+CC
+
+NO
+
+NO
+
+NO
+
+UTC
+
+N/A
+
+Continuum/CQG
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+Native
+
+F, I
+
+NO
+
+YES
+
+YES
+
+Extended Trading Hours
+
+YES
+
+Continuum/CQG WebAPI
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+Native
+
+F(O), I
+
+NO
+
+YES
+
+YES
+
+Extended Trading Hours
+
+YES
+
+cTrader
+
+YES
+
+YES
+
+NO
+
+NO
+
+YES
+
+YES
+
+YES
+
+Native
+
+C
+
+NO
+
+YES
+
+NO
+
+CFD
+
+N/A
+
+eSignal
+
+YES
+
+YES
+
+NO
+
+NO
+
+YES
+
+YES
+
+YES
+
+Native
+
+E, F, FX, I
+
+NO
+
+YES
+
+NO
+
+Symbol Map Specific
+
+NO
+
+FOREX.com/City Index
+
+YES
+
+YES
+
+NO
+
+NO
+
+NO
+
+YES
+
+YES
+
+Native
+
+FX, C
+
+NO
+
+YES
+
+N/A
+
+Forex
+
+N/A
+
+FXCM
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+Native
+
+FX, C
+
+NO
+
+YES
+
+N/A
+
+Forex
+
+N/A
+
+Interactive Brokers
+
+YES
+
+NO
+
+YES
+
+YES
+
+NO
+
+YES  (live account only)
+
+YES  (live account only)
+
+Local
+
+C, E(O), F(O), FX, I
+
+NO
+
+NO
+
+NO
+
+Extended Trading Hours
+
+NO
+
+IQFeed
+
+YES
+
+YES
+
+NO
+
+NO
+
+\*YES
+
+YES
+
+YES
+
+Native
+
+E(O), F(O), FX, I
+
+YES
+
+YES
+
+YES
+
+Symbol Map Specific
+
+YES
+
+Rithmic
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+YES
+
+Native
+
+F
+
+NO
+
+YES
+
+YES
+
+Extended Trading Hours
+
+YES
+
+TD Ameritrade
+
+YES
+
+NO
+
+NO
+
+NO
+
+NO
+
+YES
+
+YES
+
+Local
+
+E(O), I
+
+NO
+
+NO
+
+NO
+
+Regular Trading Hours
+
+NO
 
 C = CFD  
 CC = CryptoCurrency

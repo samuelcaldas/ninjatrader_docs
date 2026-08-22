@@ -14,11 +14,11 @@ The SuperDOM has action buttons that allow you to quickly: close open positions,
 
 > **Note:** Positions will only display for the selected Account and Instrument.
 
-![tog_minus](../images/tog_minus.gif)        How to scale in or out of an active ATM strategy
+## How to scale in or out of an active ATM strategy
 
 > When you have an [active strategy selected](atm_strategy_selection_mode.md) in the strategy control list indicated by the active_atm lightning bolt icon (see image below), orders submitted scale into or out of the selected strategy. Once filled or partially filled, existing stop loss and profit target orders are modified to reflect the new position strategy size. You can preset a default scale in or out quantity via the "Scale quantity" property accessible via the [SuperDOM properties](properties_superdom.md) window.    SuperDOM_35    As an example, your initial strategy may call for opening a position of 4 contracts but you want subsequent scale orders to be only 1 contracts. If the SuperDOM "Scale quantity" property is set to a value of 1, when an active strategy is selected in the strategy control list, the SuperDOM "Order qty" field will be set to a value of 1 automatically.
 
-![tog_minus](../images/tog_minus.gif)        Adding or Removing Targets
+## Adding or Removing Targets
 
 > How to Add or Remove Targets If you have an active ATM strategy displayed in the SuperDOM, you can add or remove targets. For example, you may have a 2 contract position with 1 Stop Loss and Profit Target for 2 contracts each. You may decide to split this target (add target) so you can exit the final contract at a higher price.    It is important to understand the following logic:
 - If you have 1 target and you remove a target, you will be left with a stop loss order only

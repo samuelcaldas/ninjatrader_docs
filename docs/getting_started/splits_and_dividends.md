@@ -24,16 +24,79 @@ You can enable this data adjusting by selecting the Tools menu from the Control 
 
 > **Warning:** Should the historical data you are using come pre-adjusted you should not readjust them a second time.
 
-|  |  |  |  |  |
-| --- | --- | --- | --- | --- |
-| Connectivity Provider | Split Adjusted | | Dividend Adjusted | |
-| Intraday | Daily | Intraday | Daily |
-| Kinetick [www.kinetick.com](http://www.kinetick.com) | NO | YES | NO | NO |
-| BarChart | YES | YES | NO | NO |
-| eSignal | NO | YES | NO | NO |
-| Interactive Brokers | ---- | ---- | ---- | ---- |
-| IQFeed | NO | YES | NO | NO |
-| TD Ameritrade | ---- | ---- | ---- | ---- |
+Connectivity Provider
+
+Split Adjusted
+
+Dividend Adjusted
+
+Intraday
+
+Daily
+
+Intraday
+
+Daily
+
+Kinetick [www.kinetick.com](http://www.kinetick.com)
+
+NO
+
+YES
+
+NO
+
+NO
+
+BarChart
+
+YES
+
+YES
+
+NO
+
+NO
+
+eSignal
+
+NO
+
+YES
+
+NO
+
+NO
+
+Interactive Brokers
+
+----
+
+----
+
+----
+
+----
+
+IQFeed
+
+NO
+
+YES
+
+NO
+
+NO
+
+TD Ameritrade
+
+----
+
+----
+
+----
+
+----
 
 ## Adding Splits and Dividends
 

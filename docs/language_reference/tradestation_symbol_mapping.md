@@ -4,11 +4,7 @@ The following section outlines the requirements for proper TradeStation to Ninja
 
 Note: Mapping is NOT required for stocks or Forex symbols.
 
-![tog_minus](../images/tog_minus.gif)
-
 > Mapping an Individual Futures Contract To send orders via the NTExternalFeed strategy through the ATI to NinjaTrader from an individual futures contract such as the Emini S&P June contract "ESM14" in TradeStation you have to correctly set up mapping within NinjaTrader.    For this example, let's map the "ESM14" contract.    1. From the NinjaTrader Control Center window select the menu Tools and select the Instruments menu item.  2. Highlight the ES contract from the main grid which is the NinjaTrader S&P 500 Emini contract.  3. Press the "edit" button to bring up the Instrument window.  5. In the Symbol Map category for the External data feed set the value to "ES".  6. Press the "OK" button.    \* The symbol map name "ES" in the image below needs to be the TradeStation symbol base name.    Instruments_TradeStationSymbolMap    This procedure would be repeated for any other symbols you wish to map between TradeStation and NinjaTrader.    \* Most popular futures contracts already have mapping set up
-
-![tog_minus](../images/tog_minus.gif)
 
 > Mapping a Continuous Futures Contract NinjaTrader can map continuous contracts in one of two ways:
 - Automatically map to the next closest expiration date

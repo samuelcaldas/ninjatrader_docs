@@ -14,15 +14,61 @@ The core objective of developing custom Indicators and Strategies with NinjaScri
 
 ## Referencing Series
 
-|  |  |  |  |
-| --- | --- | --- | --- |
-| `ISeries<T>` | Syntax | Editor Shortcut | Definition |
-| Close | Close[int barsAgo] | "c" + Tab Key | Last traded price of a bar |
-| Open | Open[int barsAgo] | "o" + Tab Key | Opening price of a bar |
-| High | High[int barsAgo] | "h" + Tab Key | Highest traded price of a bar |
-| Low | Low[int barsAgo] | "l" + Tab Key | Lowest traded price of a bar |
-| Volume | Volume[int barsAgo] | "v" + Tab Key | Number of shares/contracts traded of a bar |
-| Input | Input[int barsAgo] | "i" + Tab Key | Default price type of a bar |
+`ISeries<T>`
+
+Syntax
+
+Editor Shortcut
+
+Definition
+
+Close
+
+Close[int barsAgo]
+
+"c" + Tab Key
+
+Last traded price of a bar
+
+Open
+
+Open[int barsAgo]
+
+"o" + Tab Key
+
+Opening price of a bar
+
+High
+
+High[int barsAgo]
+
+"h" + Tab Key
+
+Highest traded price of a bar
+
+Low
+
+Low[int barsAgo]
+
+"l" + Tab Key
+
+Lowest traded price of a bar
+
+Volume
+
+Volume[int barsAgo]
+
+"v" + Tab Key
+
+Number of shares/contracts traded of a bar
+
+Input
+
+Input[int barsAgo]
+
+"i" + Tab Key
+
+Default price type of a bar
 
 You will notice that to reference any price data you need to include a value for [int barsAgo]. This is a very simple concept; barsAgo represents the number of bars ago to reference and int indicates that barsAgo is an integer value. As an example, we could write a statement to check if the the high price of 1 bar ago is less than the high price of the current bar like this:
 

@@ -2,15 +2,8 @@
 
 Advanced order handling is reserved for EXPERIENCED programmers. Through advanced order handling you can submit, change and cancel orders at your discretion through any event-driven method within a strategy. Each order method within the "Managed Approach" section has a method overload designed for advanced handling.
 
-![tog_minus](../images/tog_minus.gif)
-
 > Orders can remain live until you call the [CancelOrder()](managed_cancelorder.md) method, or until the order's time in force has expired, whichever comes first. This flexibility allows you to control exactly when an order should be cancelled instead of relying on the close of a bar. Each order method, such as [EnterLongLimit()](enterlonglimit.md), has a method overload designed to submit a "live until canceled" order. When using this overload, it is important to retain a reference to the Order object, so that it can be canceled via CancelOrder() at a later time.
 
-![tog_minus](../images/tog_minus.gif)
-
-|  |  |  |
-| --- | --- | --- |
-| All order methods return an [Order](order.md) object. There are several important items to note:
 - An Order object returned from calling an order method contains dynamic properties which will always reflect the current state of the associated order
 - The property <Order>.OrderId is NOT a unique value, since it can change throughout an order's lifetime.  Please see the section below on "Transitioning order references from historical to live" for details on how to handle.
 - To check for equality, you can compare Order objects directly    The following example code demonstrates the submission of an order and the assignment of the Order return object to the variable "entryOrder." After this, the object is checked in the OnOrderUpdate() method for equality, and then checked for the Filled state.   Examples 
@@ -38,11 +31,17 @@ protected override void OnOrderUpdate(Order order, double limitPrice, double sto
 }
 ```
 
-![tog_minus](../images/tog_minus.gif)        Transitioning order references from historical to live
+## Transitioning order references from historical to live
 
-|  |  |  |  |  |
-| --- | --- | --- | --- | --- |
-| When starting a strategy on real-time data, the [starting behavior](../ninjascript/syncing_account_positions.md) will renew any active historical orders and resubmit these orders to your live or simulation account.  This process includes updating the historical/backtest generated order ID to the account generated order ID, and any associated OCO IDs.  If you are tracking order objects, is critical that you update the order reference to ensure that it is now using the correct order details.    This should be done in [OnOrderUpdate()](onorderupdate.md) to ensure all cases of order transitions are handled.    |  | | --- | | Critical:  If you DO NOT update a historical order reference, and then attempt to cancel/change that order after it has been submitted in real-time, your strategy will be disabled with a message similar to: "Strategy has been disabled because it attempted to modify a historical order that has transitioned to a live order." |      |  | | --- | | Tip:  When the real-time order is submitted, there is a generic Order object passed into the [OnOrderUpdate()](onorderupdate.md) method containing the live order details which can be used for debugging.  It is recommended you use the helper [GetRealtimeOrder()](getrealtimeorder.md) when your strategy transitions to real-time to update your order references |     Example 
+When starting a strategy on real-time data, the [starting behavior](../ninjascript/syncing_account_positions.md) will renew any active historical orders and resubmit these orders to your live or simulation account.  This process includes updating the historical/backtest generated order ID to the account generated order ID, and any associated OCO IDs.  If you are tracking order objects, is critical that you update the order reference to ensure that it is now using the correct order details.    This should be done in [OnOrderUpdate()](onorderupdate.md) to ensure all cases of order transitions are handled.
+
+---
+
+Critical:  If you DO NOT update a historical order reference, and then attempt to cancel/change that order after it has been submitted in real-time, your strategy will be disabled with a message similar to: "Strategy has been disabled because it attempted to modify a historical order that has transitioned to a live order."
+
+> **Tip:** When the real-time order is submitted, there is a generic Order object passed into the [OnOrderUpdate()](onorderupdate.md) method containing the live order details which can be used for debugging.  It is recommended you use the helper [GetRealtimeOrder()](getrealtimeorder.md) when your strategy transitions to real-time to update your order references
+
+     Example 
 ```csharp
 private Order entryOrder = null; protected override void OnBarUpdate(){
     if (entryOrder == null && Close[0] > Open[0])
@@ -62,11 +61,8 @@ protected override void OnOrderUpdate(Order order, double limitPrice, double sto
 }}
 ```
 
-![tog_minus](../images/tog_minus.gif)        Working with a Multi-Instrument Strategy
+## Working with a Multi-Instrument Strategy
 
-|  |  |  |
-| --- | --- | --- |
-| With advanced order handling, you can submit an order in the context of any [Bars](../language_reference/bars.md) object by designating the "BarsInProgress" index. For example, if your primary bar series is "MSFT" and your secondary series added to the strategy through the AddDataSeries() method is "AAPL", you can submit an order for either "MSFT" or "AAPL" from anywhere within the strategy. In addition to the information found in the [multi-time frame and instrument strategies](../language_reference/multi-time_frame__instruments.md) page, this section specifically covers order submission.    As an example, consider the EnterLongLimit() method and one of its method overloads designed for advanced order handling:      EnterLongLimit(int barsInProgressIndex, bool isLiveUntilCancelled, int quantity, double limitPrice, string signalName)    In this example, an "MSFT 1 minute" chart is the primary bar series on which the strategy is running. A secondary bar series is added for "AAPL 1 minute" via the AddDataSeries() method in the [OnStateChange()](../language_reference/onstatechange.md) event handler. After adding the secondary Bars object, MSFT has a [BarsInProgress](../language_reference/barsinprogress.md) index of 0 and AAPL has an index value of 1.    The following example code demonstrates how to monitor for bar update events on the first instrument, while submitting orders to the second instrument.   Example 
 ```csharp
 private Order entryOrder = null;
 protected override void OnStateChange()

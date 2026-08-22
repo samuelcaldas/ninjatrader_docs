@@ -55,9 +55,6 @@ double value = SMA(BarsArray[1], 20)[0];
 Print("The current SMA value is " + value.ToString());;
 ```
 
-|  |  |  |
-| --- | --- | --- |
-| Tip: The input series of an indicator cannot be the hosting indicator itself, as this will cause recursive loops.    
 ```csharp
 // Using the hosting indicator in this way will cause errors with recursive loops
 double value = SMA(this, 20)[0];

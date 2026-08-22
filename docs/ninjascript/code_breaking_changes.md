@@ -8,11 +8,6 @@ The following document is intended as a high level overview of the NinjaScript c
 
 For questions or comments, please contact us at [email protected](mailto:platformsupport@ninjatrader.com)
 
-![tog_minus](../images/tog_minus.gif)
-
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Initialize(), OnStartUp(), OnTermination() NinjaTrader 8 has simplified the methods used to set or release various resources during the lifetime of a NinjaTrader object to a single [OnStateChange()](../language_reference/onstatechange.md) method. This single method is guaranteed to be called for every change in State of the object.  It is from this method you can monitor the progression of the object throughout its lifetime in order to setup various resources, set properties, or take action the moment State has changed.  This method also exposes a [State](../language_reference/state.md) variable which can be used in various other methods, such as OnBarUpdate(), in order to tell your indicator or strategy to process data depending on the actual State of the object.    For example, pushing settings to the UI, or setting initial values for public properties can now be done use OnStateChange() when the state has reached State.SetDefaults:    
 ```csharp
 protected override void OnStateChange()
 {
@@ -86,10 +81,10 @@ Strategies, Orders, and Accounts Low level access has been provided to allow mor
 •Methods now return and update with the object instance generated, instead of the previously used interface
 
 ```
-| | --- | | Tip:
-Since NinjaTrader 8 now exposes the direct Order object, rather than an IOrder interface, it is possible to receive null object reference errors if you attempt to access an order object before the entry or exit order method has returned.
+
+> **Tip:** Since NinjaTrader 8 now exposes the direct Order object, rather than an IOrder interface, it is possible to receive null object reference errors if you attempt to access an order object before the entry or exit order method has returned.
 To prevent these situations, it is recommended to assign your strategies Order variables in the OnOrderUpdate() method and match them by their signal name (order.Name).
-Please see the example beginning on line #22 below for demonstration of assigning order objects to private variables. |
+Please see the example beginning on line #22 below for demonstration of assigning order objects to private variables.
 
 ```csharp
 Order myOrder = null;
@@ -139,8 +134,8 @@ Drawing The DrawObjects used in NinjaTrader have received a number of changes:
 •Drawing Methods now use the [System.Windows.Media.Brushes](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx) class instead of the [System.Drawing.Color](https://msdn.microsoft.com/en-us/library/system.drawing.color(v=vs.110).aspx) structure
 
 ```
-| | --- | | Tip:
-DrawingTools are now completely unprotected and you can review their source code from the DrawingTools folder of the NinjaScript Editor's explorer menu |
+
+> **Tip:** DrawingTools are now completely unprotected and you can review their source code from the DrawingTools folder of the NinjaScript Editor's explorer menu
 
 ```csharp
 // example syntax
@@ -162,9 +157,10 @@ Properties and other methods/objects which previously [System.Drawing.Color](htt
 csharp
 
 ```
-| | --- | | Note:
-For custom Brush objects, it is important to .Freeze() the Brush due to the multi-threaded architecture of NinjaTrader 8.
-Please be sure to review the new information on using [Brushes](../language_reference/brushes.md) |
+
+> **Note:** For custom Brush objects, it is important to .Freeze() the Brush due to the multi-threaded architecture of NinjaTrader 8.
+Please be sure to review the new information on using [Brushes](../language_reference/brushes.md)
+
 Namespaces
 The NinjaTrader 7 namespaces NinjaTrader.Indicator and NinjaTrader.Strategy have been renamed and moved to single NinjaTrader.NinjaScript namespace
 
@@ -186,11 +182,14 @@ namespace NinjaTrader.NinjaScript.Strategies
 Partial Classes (Porting methods and properties from UserDefinedMethods.cs) NinjaTrader 7 used a "UserDefinedMethods" class to define methods to be used across multiple NinjaScript indicators or strategies. In NinjaTrader 8, these pre-built partial classes have been removed to reduce a number of issues which could result from users sharing their UserDefinedMethods.cs files, or overwriting their existing files with copies from a new vendor. Partial classes are now best built manually and saved in the C:\Users\<user>\Documents\NinjaTrader 8\bin\Custom\AddOns folder.
 
 ```
-| | --- | | Warning: If a partial class is saved in one of the folders used for specific NinjaScript objects other than AddOns (e.g., Indicators folder), auto-generated NinjaScript code may be appended to the end of the class by the NinjaScript Editor when compiled, which will cause a compilation error.
-Saving these files in the AddOns folder will ensure they are still accessible and will not generate code which may be cause conflicts. |
+
+> **Warning:** If a partial class is saved in one of the folders used for specific NinjaScript objects other than AddOns (e.g., Indicators folder), auto-generated NinjaScript code may be appended to the end of the class by the NinjaScript Editor when compiled, which will cause a compilation error.
+Saving these files in the AddOns folder will ensure they are still accessible and will not generate code which may be cause conflicts.
+
 You can use the template below as a starting point to create your partial class. If your partial class needs to inherit from a parent class, you can append the name of your desired parent class after the " : " to change the inheritance.
 |
-| | --- | | Note: Methods within your partial classes should be using the "public" modifier. |
+
+> **Note:** Methods within your partial classes should be using the "public" modifier.
 
 ```csharp
 Partial Class Example Template | | --- | | namespace NinjaTrader.NinjaScript.Indicators
@@ -221,9 +220,10 @@ Partial Class Usage | | --- | | protected override void OnBarUpdate()
 }
 
 ```
-| | --- | | Tip:
-At the time of the Beta implementation, the NinjaScript Editor does NOT include a partial class generator wizard, as it does for core NinjaScript Types such as Drawing Tools, Market Analyzer Columns, or Strategies. However, we are currently tracking a suggestion to implement a wizard for partial classes, under ID # SFT-341.
-Please feel free to contact [email protected](mailto:platformsupport@ninjatrader.com) if you would like to add your vote for this enhancement. |
+
+> **Tip:** At the time of the Beta implementation, the NinjaScript Editor does NOT include a partial class generator wizard, as it does for core NinjaScript Types such as Drawing Tools, Market Analyzer Columns, or Strategies. However, we are currently tracking a suggestion to implement a wizard for partial classes, under ID # SFT-341.
+Please feel free to contact [email protected](mailto:platformsupport@ninjatrader.com) if you would like to add your vote for this enhancement.
+
 Prevention of Redundant Data Loading In NinjaTrader 7, multiple Data Series could be added within a script, such as an indicator, and that script could then be hosted by another script, such as a strategy. While this is still possible in NinjaTrader 8, there is a new safeguard in place to prevent redundant data loading in both the hosting script and the hosted indicator.
 When hosting an indicator which adds Data Series programmatically, the hosting script must include the same calls to the AddDataSeries() method as the hosted script. Without this, an error will result, which reads "A hosted indicator tried to load additional data. All data must first be loaded by the hosting NinjaScript in its Configure state." Without this safegaurd in place, it would be possible for unnecessarily large amounts of data to be loaded concurrently, as would be the case in a direct call to an indicator method on each OnBarUpdate(). By adding the calls to AddDataSeries() to the hosting script, you can ensure that the data is loaded when needed. Also, when this is done in the hosting script, all identical calls to AddDataSeries() in the hosted script will be ignored, as the data is already available.
 The examples below show this in action:
@@ -279,14 +279,19 @@ Miscellaneous All of the NinjaTrader 7 reference samples posted in our support f
 Please be sure to check the reference sample section to see other undocumented features and concepts which may not have been covered in the help guide:
 [Official NinjaScript reference code samples](http://www.ninjatrader.com/support/forum/forumdisplay.php?f=30)
 There are several other changes to implementation which are not covered in detail on this overview, please see the code breaking changes table at the bottom of this page which will compare the implementation changes between both versions.
-![tog_minus](../images/tog_minus.gif)        Signature Changes Overview
+
+## Signature Changes Overview
 
 |
 ```
 | --- | --- |
-| Signature A large number of the NinjaTrader methods which were available in NinjaTrader 7 have remained largely the same and should not generate any errors on compilation.  However there are a handful of existing methods signatures which have been updated in NinjaTrader 8 in order to fit within new framework which you would need to be aware of in order to transfer these functions from NinjaTrader 7 to NinjaTrader 8.  In most cases, the fundamental argument type has been restructured, which may result in compile errors depending on the type of object that is being used within the methods signature.    |  | | --- | | Tip:  Methods may now have additional signatures which add functionality which was not previously available.  Be sure to check the NinjaTrader 8 documentation which will cover all the available signatures available. | |
+| Signature A large number of the NinjaTrader methods which were available in NinjaTrader 7 have remained largely the same and should not generate any errors on compilation.  However there are a handful of existing methods signatures which have been updated in NinjaTrader 8 in order to fit within new framework which you would need to be aware of in order to transfer these functions from NinjaTrader 7 to NinjaTrader 8.  In most cases, the fundamental argument type has been restructured, which may result in compile errors depending on the type of object that is being used within the methods signature.    |  
 
-![tog_minus](../images/tog_minus.gif)        Name Changes Overview
+> **Tip:** Methods may now have additional signatures which add functionality which was not previously available.  Be sure to check the NinjaTrader 8 documentation which will cover all the available signatures available.
+
+ |
+
+## Name Changes Overview
 
 ```text
 Renamed During the NinjaTrader 8 development process, one of our goals to make sure that our core framework matched various coding standards which have been set out in the industry.

@@ -29,12 +29,39 @@ SetTrailStop(string fromEntrySignal, CalculationMode mode, double value, bool is
 
 ## Parameters
 
-|  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| mode | Determines the manner in which the value parameter is calculated    Possible values are:    |  |  | | --- | --- | | CalculationMode.Percent | Percentage away from the average entry, based on the average entry price. | | CalculationMode.Pips | Pips away from average entry. | | CalculationMode.Ticks | Ticks away from entry average entry. |    Please note in percentage calculation mode a value of 1 is equal to 100%, a value of 0.1 is equal to 10%, and a value of 0.01 will be 1% |
-| isSimulatedStop | If true, will simulate the stop order and submit as market once triggered |
-| value | The value the trail stop order is offset from the position entry price (exception is using .Price mode where 'value' will represent the actual price) |
-| fromEntrySignal | The entry signal name. This ties the trail stop exit to the entry and exits the position quantity represented by the actual entry. Using an empty string will attach the exit order to all entries. |
+mode
+
+Determines the manner in which the value parameter is calculated    Possible values are:
+
+---
+
+---
+
+CalculationMode.Percent
+
+Percentage away from the average entry, based on the average entry price.
+
+CalculationMode.Pips
+
+Pips away from average entry.
+
+CalculationMode.Ticks
+
+Ticks away from entry average entry.
+
+Please note in percentage calculation mode a value of 1 is equal to 100%, a value of 0.1 is equal to 10%, and a value of 0.01 will be 1%
+
+isSimulatedStop
+
+If true, will simulate the stop order and submit as market once triggered
+
+value
+
+The value the trail stop order is offset from the position entry price (exception is using .Price mode where 'value' will represent the actual price)
+
+fromEntrySignal
+
+The entry signal name. This ties the trail stop exit to the entry and exits the position quantity represented by the actual entry. Using an empty string will attach the exit order to all entries.
 
 ## Examples
 

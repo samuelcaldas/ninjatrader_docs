@@ -4,21 +4,63 @@ The Instrument window displays all parameters that define an instrument includin
 
 In the Instruments window, once an instrument is selected in the instrument grid, you can double left mouse click or press the edit button to open the Instrument window.
 
-![tog_minus](../images/tog_minus.gif)
+General Section The General Section in the Instrument window displays parameters that uniquely define an instrument.    Instruments_InstrumentWindow
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| General Section The General Section in the Instrument window displays parameters that uniquely define an instrument.    Instruments_InstrumentWindow    |  |  | | --- | --- | | Master instrument | The NinjaTrader master name of the instrument | | Instrument type | The instrument type (asset class) | | Currency | The currency the instrument trades in | | Exchanges | Click to select what exchanges the instrument trades on | | Point value | The currency value of 1 point of movement for the instrument | | Merge policy | The merge settings applied to historical data. (See the [Data Tab](../getting_started/options_marketdata.md) section of the Help Guide for more information on merge policies and to set the global merge policy) | | Sim feed start price | The starting price for the internally generated data feed (Simulated Data Feed connection). The price is automatically set by NinjaTrader using the last seen price from a live data feed connection. | | Trading hours | Sets the default trading hours for the instrument. (See the [Session Manager](../operations/trading_hours.md) section of the Help Guide for more information) | | Tick size | The increment value the instrument trades in | | Description | Description of the instrument | | URL | The website address of the instrument definition | |
+---
 
-![tog_minus](../images/tog_minus.gif)
+---
+
+Master instrument
+
+The NinjaTrader master name of the instrument
+
+Instrument type
+
+The instrument type (asset class)
+
+Currency
+
+The currency the instrument trades in
+
+Exchanges
+
+Click to select what exchanges the instrument trades on
+
+Point value
+
+The currency value of 1 point of movement for the instrument
+
+Merge policy
+
+The merge settings applied to historical data. (See the [Data Tab](../getting_started/options_marketdata.md) section of the Help Guide for more information on merge policies and to set the global merge policy)
+
+Sim feed start price
+
+The starting price for the internally generated data feed (Simulated Data Feed connection). The price is automatically set by NinjaTrader using the last seen price from a live data feed connection.
+
+Trading hours
+
+Sets the default trading hours for the instrument. (See the [Session Manager](../operations/trading_hours.md) section of the Help Guide for more information)
+
+Tick size
+
+The increment value the instrument trades in
+
+Description
+
+Description of the instrument
+
+URL
+
+The website address of the instrument definition
 
 > Symbol Mapping If you add a new instrument that is not already in the NinjaTrader instrument database, you will need to map the new instrument to the symbol used for the connectivity provider (broker or data feed) that you will be requesting data from. Most instruments in the database are already mapped.    Instruments_InstrumentSymbolMap
 
-![tog_minus](../images/tog_minus.gif)        Understanding Splits & Dividends section
+## Understanding Splits & Dividends section
 
 > Splits & Dividends With an equity instrument selected, the Splits & Dividends section will be available for editing. NinjaTrader will split and dividend adjust historical chart data based on the information defined per instrument and if [options are enabled](../getting_started/options_marketdata.md) to do so. Some market data providers provide already adjusted data while others do not. Please see the [Adding Splits and Dividends](adding_splits_and_dividends.md) page of the help guide for more information on adding split and dividend data to an instrument.    Clicking the Update button will attempt to download Split & Dividend data directly from your provider so that manual entry is not necessary.    Instruments_InstrumentSplitsAndDividends
 
-![tog_minus](../images/tog_minus.gif)        Understanding the Contract months section
+## Understanding the Contract months section
 
 | Name / Option | Description |
 | --- | --- |

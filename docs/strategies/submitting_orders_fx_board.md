@@ -2,15 +2,11 @@
 
 Submitting orders within the FX Board order entry window is both easy and efficient.  In addition to entry and exit orders the FX Board window also offers access to NinjaTrader  ATM Strategies. For more information on ATM Strategies please see the [ATM section](atm_strategy.md) of the user help guide or attend one of our [free live training events](http://www.ninjatrader.com/webinars.php).
 
-![tog_minus](../images/tog_minus.gif)
-
 > How to Select an Account A list of all connected accounts will be listed in the Account selector located at the top of the FX Board window.    FXBoard_14    To change the account, select the account name or number you wish to trade through via the account selector.  The account selected will be the account used for all instruments in the FX Board window.
-
-![tog_minus](../images/tog_minus.gif)
 
 > Quick Market Orders You can rapidly execute market orders directly from an instrument tile.    FXBoard_17  1.  Set the order Quantity field ([info](../addons/quantity_selector.md))  2.  Set the ATM Strategy option ([info](atm_strategy_parameters.md))  3.  Pressing the Sell button on the left will execute a Sell Market order  4.  Pressing the Buy button on the right will execute a Buy Market order   Quick Limit Orders Holding down the CTRL key will switch the quick entry button to submit an order at the bid or ask.    FXBoard_16    1.  Holding down CTRL on your keyboard and pressing the Buy Bid button on the left will submit a Buy Limit order at the best bid price  2.  Holding down CTRL on your keyboard and pressing the Sell Bid button on the right will submit a Sell Limit order at the best ask price.
 
-![tog_minus](../images/tog_minus.gif)        How to submit custom orders
+## How to submit custom orders
 
 | Name / Option | Description |
 | --- | --- |

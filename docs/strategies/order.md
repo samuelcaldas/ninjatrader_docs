@@ -69,7 +69,6 @@ Represents a read only interface that exposes information regarding an order.
 
 ## Examples
 
-
 ```csharp
 private Order entryOrder = null;
 protected override void OnBarUpdate()

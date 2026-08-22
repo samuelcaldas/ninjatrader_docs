@@ -2,7 +2,7 @@
 
 NinjaTrader provides a variety of ways for free and licensed users to learn and master the platform, including this help guide, the Video Library, the Support Forum, and weekly free live training sessions.
 
-![tog_minus](../images/tog_minus-1.gif)        Help Guides
+## Help Guides
 
 > Installation Guide
 - The [Installation Guide](http://ninjatrader.com/InstallationGuide) outlines the installation steps and provides the minimum PC requirements for NinjaTrader.   Connection Guides
@@ -10,19 +10,19 @@ NinjaTrader provides a variety of ways for free and licensed users to learn and 
 - This user help guide contains sections related to all of the features within NinjaTrader.
 - In addition to accessing the help guide online, you can press the F1 key on your keyboard within the NinjaTrader platform to pull up this guide at any time. The guide will automatically open to a page related to the window you are viewing.
 
-![tog_minus](../images/tog_minus-1.gif)        Video Library
+## Video Library
 
 > Video Library
 - The NinjaTrader [Video Library](https://www.youtube.com/user/NinjaTraderLLC) contains a variety of videos on various features within the NinjaTrader platform.
 
-![tog_minus](../images/tog_minus-1.gif)        NinjaTrader Support Forum
+## NinjaTrader Support Forum
 
 > NinjaTrader Support Forum
 - The NinjaTrader [Support Forum](http://ninjatrader.com/support/forum/index.php) is a great place to get and offer help, or discuss a range of topics with NinjaTrader experts or other traders
 - The Support Forum is also a great resource for NinjaScript developers looking for a community of fellow developers.
 - The Support Forum can be searched for specific items using the "search" feature, which quickly resolves the majority of questions.
 
-![tog_minus](../images/tog_minus-1.gif)        Free Live Training Events
+## Free Live Training Events
 
 > NinjaTrader Live Training Events
 - NinjaTrader offers [Free Training Events](http://ninjatrader.com/PlatformTraining) on various features throughout the day every Monday through Friday.

@@ -42,14 +42,41 @@ For all other statistics, the combined results will be a weighted average (excep
 
 In order to understand how weighted combined results are calculated, lets use a simplified example which focuses on the Max. Drawdown across 4 different instruments:
 
-|  |  |  |
-| --- | --- | --- |
-| Instrument | Max. Drawdown | Total # of trades |
-| AUDUSD | ($250.00) | 200 |
-| EURJPY | ($150.00) | 105 |
-| EURUSD | ($200.00) | 20 |
-| GBPUSD | ($50.00) | 90 |
-| Combined Results | (178.92) | 415 |
+Instrument
+
+Max. Drawdown
+
+Total # of trades
+
+AUDUSD
+
+($250.00)
+
+200
+
+EURJPY
+
+($150.00)
+
+105
+
+EURUSD
+
+($200.00)
+
+20
+
+GBPUSD
+
+($50.00)
+
+90
+
+Combined Results
+
+(178.92)
+
+415
 
 As you can see, the Max.Drawdown column is NOT equal to the sum of the individual Max.Drawdown values for the that column.  This is because the total # of trades for the individual instrument and the total # of trades taken across all instruments is used to help provide more accurate statistics.  Working from the table above, the formula used to calculate these weighted averages can be expressed as follows:
 

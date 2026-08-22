@@ -12,28 +12,81 @@ When setting up an ATM Strategy, you can select either None, Auto Breakeven, Aut
 
 When selecting Auto Breakeven, Auto Trail, or Auto Breakeven + Auto Trail the related Stop Strategy Dialog window will appear.
 
-![tog_minus](../images/tog_minus.gif)
+The Auto Breakeven feature will adjust your Stop Loss order to breakeven (average entry price for the ATM Strategy position) once a user defined Profit Trigger has been reached.    Auto Breakeven Parameters
 
-|  |  |  |  |  |
-| --- | --- | --- | --- | --- |
-| The Auto Breakeven feature will adjust your Stop Loss order to breakeven (average entry price for the ATM Strategy position) once a user defined Profit Trigger has been reached.    Auto Breakeven Parameters  |  |  | | --- | --- | | Profit Trigger | Sets the amount of profit required to move the Stop Loss to a breakeven value | | Plus | Sets the amount added to the breakeven (average entry price for the ATM Strategy position) value |  Auto Breakeven Example  ServerSideATM_6
+---
+
+---
+
+Profit Trigger
+
+Sets the amount of profit required to move the Stop Loss to a breakeven value
+
+Plus
+
+Sets the amount added to the breakeven (average entry price for the ATM Strategy position) value
+
 - Profit Trigger - 10 ticks
 - Plus - 2 ticks    Average Entry - 10200 Short (DOW Emini contract)  As soon as the market trades at 10190 (Average Entry - Profit Trigger = 10200 - 10 ticks = 10190) NinjaTrader will move the Stop Loss order to 10,198 (Average Entry - Plus = 10200 - 2 ticks = 10198) and enter a log event in the Log tab. |
 
-![tog_minus](../images/tog_minus.gif)        Understanding the server side Auto Trail parameters
+## Understanding the server side Auto Trail parameters
 
-|  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- |
-| Auto Trail is a powerful stop strategy that allows you to be more liberal with your Stop Loss at the early stage of your trade and tighten your Stop Loss as your profits in your trade increase.    Auto Trail Parameters  |  |  | | --- | --- | | Stop Loss | Sets the value of the Stop Loss order as an offset behind the Profit Trigger/Frequency | | Profit Trigger | Sets the amount of profit required to trigger the initial Stop Loss adjustment for the step | | Frequency | Sets the value of how frequent the Stop Loss order is adjusted after the Profit Trigger |   Auto Trail Example:   ServerSideATM_7
+Auto Trail is a powerful stop strategy that allows you to be more liberal with your Stop Loss at the early stage of your trade and tighten your Stop Loss as your profits in your trade increase.    Auto Trail Parameters
+
+---
+
+---
+
+Stop Loss
+
+Sets the value of the Stop Loss order as an offset behind the Profit Trigger/Frequency
+
+Profit Trigger
+
+Sets the amount of profit required to trigger the initial Stop Loss adjustment for the step
+
+Frequency
+
+Sets the value of how frequent the Stop Loss order is adjusted after the Profit Trigger
+
 - Stop loss - 6 ticks
 - Profit Trigger - 4 ticks
 - Frequency - 2 ticks    Your Stop loss will move 6 ticks behind the current price...  ... after the price has moved 4 ticks in your favor...  ... and your Stop loss will continue to trail 6 ticks behind the current price with ever additional 2 ticks in your favor.    Average Entry - 1000 Long (SP Emini contract)  The market moves up to 1001 and the Auto Trail is triggered (Average Entry + Profit Trigger = 1000 + 4 ticks = 1001) and the Stop Loss is adjusted to 999.50 (1001 - Stop Loss = 1001 - 6 ticks = 999.50). For every additional 2 ticks (Frequency of 2 ticks) the Stop Loss will be adjusted by 2 ticks. |
 
-![tog_minus](../images/tog_minus.gif)        Understanding the server side Auto Breakeven + Auto Trail parameters
+## Understanding the server side Auto Breakeven + Auto Trail parameters
 
-|  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Auto Trail is a powerful stop strategy that allows you to be more liberal with your Stop Loss at the early stage of your trade and tighten your Stop Loss as your profits in your trade increase.    Auto Breakeven Parameters  |  |  | | --- | --- | | Profit Trigger | Sets the amount of profit required to move the Stop Loss to a breakeven value | | Plus | Sets the amount added to the breakeven (average entry price for the ATM Strategy position) value |   Auto Trail Parameters  |  |  | | --- | --- | | Stop Loss | Sets the value of the Stop Loss order as an offset behind the Profit Trigger/Frequency | | Profit Trigger | Sets the amount of profit required to trigger the initial Stop Loss adjustment for the step | | Frequency | Sets the value of how frequent the Stop Loss order is adjusted after the Profit Trigger |   Auto Breakeven + Auto Trail Example:   ServerSideATM_8      Auto Breakeven
+Auto Trail is a powerful stop strategy that allows you to be more liberal with your Stop Loss at the early stage of your trade and tighten your Stop Loss as your profits in your trade increase.    Auto Breakeven Parameters
+
+---
+
+---
+
+Profit Trigger
+
+Sets the amount of profit required to move the Stop Loss to a breakeven value
+
+Plus
+
+Sets the amount added to the breakeven (average entry price for the ATM Strategy position) value
+
+Auto Trail Parameters
+
+---
+
+---
+
+Stop Loss
+
+Sets the value of the Stop Loss order as an offset behind the Profit Trigger/Frequency
+
+Profit Trigger
+
+Sets the amount of profit required to trigger the initial Stop Loss adjustment for the step
+
+Frequency
+
+Sets the value of how frequent the Stop Loss order is adjusted after the Profit Trigger
+
 - Profit Trigger - 10 ticks
 - Plus - 2 ticks    Auto Trail
 - Profit Trigger - 4 ticks

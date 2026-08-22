@@ -54,9 +54,6 @@ Print("The current Woodies Pivots' S2 pivot value is " + s2Value);
 
  
 
-|  |  |  |
-| --- | --- | --- |
-| Tip: When using HLCCalculationMode.DailyBars it can be expected that a value of 0 is returned when the daily bars have not been loaded yet. Due to the asynchronous nature of this indicator calling daily bars you should only access the pivot values when the indicator has loaded all required Bars objects. To ensure you are accessing accurate values you can use [.IsValidDataPoint()](../language_reference/isvaliddatapoint.md)as a check:  
 ```csharp
 // Evaluates that this is a valid Woodies Pivots value
 if (WoodiesPivots(HLCCalculationModeWoodie.DailyBars, 20).PP.IsValidDataPoint(0))

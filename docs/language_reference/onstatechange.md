@@ -29,10 +29,16 @@ This method does not return a value.
 
 Possible states are:
 
-|  |  |  |
-| --- | --- | --- |
-| State Name | This state is called when | This state is where you should |
-| State.SetDefaults | SetDefaults is always called when displaying objects in a UI list such as the Indicators dialogue window since temporary objects are created for the purpose of UI display |
+State Name
+
+This state is called when
+
+This state is where you should
+
+State.SetDefaults
+
+SetDefaults is always called when displaying objects in a UI list such as the Indicators dialogue window since temporary objects are created for the purpose of UI display
+
 - Keep as lean as possible
 - Set default values (pushed to UI) |
 | State.Configure | Configure is called after a user adds an object to the applied list of objects and presses the OK or Apply button.  This state is called only once for the life of the object. |

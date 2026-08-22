@@ -20,11 +20,7 @@
 
 NinjaTrader provides three options for communicating from an external application to NinjaTrader for trade automation. The Email Interface requires absolutely no programming experience whatsoever, other options require various levels of programming/scripting experience.
 
-![tog_minus](../images/tog_minus.gif)
-
 > TradeStation Email Interface  The TradeStation Email Interface allows you to take advantage of TradeStation's email notification capabilities right out of the box. Run your TradeStation strategy in real time, order signals are emailed within your computer (never leaves your PC) to NinjaTrader which processes the order through to your broker.   File Interface The File interface uses standard text files as input. These files are called order instruction files (OIF) and have specific format requirements. NinjaTrader processes the OIF the instant the file is written to the hard drive and subsequently deletes the file once the processing operation is complete.   DLL Interface NinjaTrader provides a DLL named NtDirect.dll that supports various functions for automated trading.
-
-![tog_minus](../images/tog_minus.gif)
 
 > TradeStation Systems
 - If you are not running your own strategies or you have limited or no programming experience you should use the TradeStation Email Interface

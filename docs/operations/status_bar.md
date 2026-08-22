@@ -14,10 +14,32 @@ The connection status is reported in the connections menu per provider. There is
 
 Please see the following connection states:
 
-|  |  |  |
-| --- | --- | --- |
-| ConnectionGreen | Connected | Indicates that NinjaTrader is fully connected |
-| ConnectionYellow | Connecting | Indicates that NinjaTrader is attempting to connect |
-| ConnectionOrange | Connection Lost (Price Server) | Indicates that NinjaTrader has lost connection to the price server |
-| ConnectionRed | Connection Lost (Order Server) | Indicates that NinjaTrader has lost connection to the order server |
-| ConnectionGray | Disconnected | Indicates that NinjaTrader is not connected |
+ConnectionGreen
+
+Connected
+
+Indicates that NinjaTrader is fully connected
+
+ConnectionYellow
+
+Connecting
+
+Indicates that NinjaTrader is attempting to connect
+
+ConnectionOrange
+
+Connection Lost (Price Server)
+
+Indicates that NinjaTrader has lost connection to the price server
+
+ConnectionRed
+
+Connection Lost (Order Server)
+
+Indicates that NinjaTrader has lost connection to the order server
+
+ConnectionGray
+
+Disconnected
+
+Indicates that NinjaTrader is not connected

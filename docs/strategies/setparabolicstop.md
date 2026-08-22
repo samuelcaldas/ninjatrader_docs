@@ -33,15 +33,55 @@ SetParabolicStop(string fromEntrySignal, CalculationMode mode, double value, boo
 
 ## Parameters
 
-|  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| mode | Determines the manner in which the value parameter is calculated    Possible values are:    |  |  | | --- | --- | | CalculationMode.Currency | Initial PnL away from average entry. Calculated by the dollar per tick value for the order quantity used. When this mode is used, [StopTargetHandling](stoptargethandling.md) will automatically be set to ByStrategyPosition. The Stop loss will then continue to update following each parabolic step. | | CalculationMode.Percent | Percentage away from the average entry, based on the average entry price. | | CalculationMode.Pips | Pips away from average entry. | | CalculationMode.Ticks | Ticks away from entry average entry. |    Please note in percentage calculation mode a value of 1 is equal to 100%, a value of 0.1 is equal to 10%, and a value of 0.01 will be 1% |
-| isSimulatedStop | If true, will simulate the stop order and submit as market once triggered |
-| value | The value the trail stop order is offset from the position entry price |
-| fromEntrySignal | The entry signal name. This ties the trail stop exit to the entry and exits the position quantity represented by the actual entry. Using an empty string will attach the exit order to all entries. |
-| acceleration | Sets the acceleration value |
-| accelerationMax | Sets the maximum acceleration value |
-| accelerationStep | Sets the step value used to increment acceleration value |
+mode
+
+Determines the manner in which the value parameter is calculated    Possible values are:
+
+---
+
+---
+
+CalculationMode.Currency
+
+Initial PnL away from average entry. Calculated by the dollar per tick value for the order quantity used. When this mode is used, [StopTargetHandling](stoptargethandling.md) will automatically be set to ByStrategyPosition. The Stop loss will then continue to update following each parabolic step.
+
+CalculationMode.Percent
+
+Percentage away from the average entry, based on the average entry price.
+
+CalculationMode.Pips
+
+Pips away from average entry.
+
+CalculationMode.Ticks
+
+Ticks away from entry average entry.
+
+Please note in percentage calculation mode a value of 1 is equal to 100%, a value of 0.1 is equal to 10%, and a value of 0.01 will be 1%
+
+isSimulatedStop
+
+If true, will simulate the stop order and submit as market once triggered
+
+value
+
+The value the trail stop order is offset from the position entry price
+
+fromEntrySignal
+
+The entry signal name. This ties the trail stop exit to the entry and exits the position quantity represented by the actual entry. Using an empty string will attach the exit order to all entries.
+
+acceleration
+
+Sets the acceleration value
+
+accelerationMax
+
+Sets the maximum acceleration value
+
+accelerationStep
+
+Sets the step value used to increment acceleration value
 
 ```csharp
 Tips (also see [Overview](managed_approach.md)):

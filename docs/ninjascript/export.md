@@ -6,14 +6,13 @@ You can export NinjaScript for others to import in several formats:
 
 - Assemblies - A compiled assembly (DLL) of NinjaScript that "hides" your source code. This can be further [protected by SecureTeam's Agile.NET](protection_dll_security.md) to prevent theft of your intellectual property.
 
-![tog_minus](../images/tog_minus.gif)
+You may want to provide other NinjaTrader users with source files of your NinjaScript in a format where they are able to view and edit them.    1.From the Control Center window select the menu Tools > Export > NinjaScript... to open the "Export NinjaScript" dialog window    2.Press "add"    3.Use the "Type" drop down to filter available NinjaScript types    4.Select all of the files that you want to export and press the "OK" button    5.A list of all files that will be exported will be shown    6.Press the "Export" button to export the selected files    7.A file dialog will open where you can choose the location your zip export file will be created in. Per default the NinjaScript Archive File (.zip) file will be created in My Documents\<NinjaTrader Folder>\bin\Custom\ExportNinjaScript.    8.The file can be [imported](import.md) by another NinjaTrader application on a different PC
 
-|  |  |  |
-| --- | --- | --- |
-| You may want to provide other NinjaTrader users with source files of your NinjaScript in a format where they are able to view and edit them.    1.From the Control Center window select the menu Tools > Export > NinjaScript... to open the "Export NinjaScript" dialog window    2.Press "add"    3.Use the "Type" drop down to filter available NinjaScript types    4.Select all of the files that you want to export and press the "OK" button    5.A list of all files that will be exported will be shown    6.Press the "Export" button to export the selected files    7.A file dialog will open where you can choose the location your zip export file will be created in. Per default the NinjaScript Archive File (.zip) file will be created in My Documents\<NinjaTrader Folder>\bin\Custom\ExportNinjaScript.    8.The file can be [imported](import.md) by another NinjaTrader application on a different PC | ExportNinjaScript_1 | ExportNinjaScript_2 |
-|  | | |
+ExportNinjaScript_1
 
-![tog_minus](../images/tog_minus.gif)        Exporting NinjaScript as Assembly
+ExportNinjaScript_2
+
+## Exporting NinjaScript as Assembly
 
 | Name / Option | Description |
 | --- | --- |

@@ -12,16 +12,52 @@ The image below shows the three sections in the of the Option Chain window:
 
 3) Options quotes
 
-![tog_minus](../images/tog_minus.gif)
+Quotes Grid The Quotes Grid displays current day quotes for the underlying security of the Option Chain window.    OptionsChain2   Column Definitions
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Quotes Grid The Quotes Grid displays current day quotes for the underlying security of the Option Chain window.    OptionsChain2   Column Definitions |  |  | | --- | --- | | Bid | The bid price | | Ask | The ask price | | Last | The last price | | Open | The daily open price | | High | The daily high price | | Low | The daily low price | | Pr close | The prior day close price | | Net chg | The net change since the prior day close in points | | Vol | The daily volume | |
+---
 
-![tog_minus](../images/tog_minus.gif)        Understanding the ticker list section
+---
+
+Bid
+
+The bid price
+
+Ask
+
+The ask price
+
+Last
+
+The last price
+
+Open
+
+The daily open price
+
+High
+
+The daily high price
+
+Low
+
+The daily low price
+
+Pr close
+
+The prior day close price
+
+Net chg
+
+The net change since the prior day close in points
+
+Vol
+
+The daily volume
+
+## Understanding the ticker list section
 
 > Ticker List The Ticker List displays the active options tickers for the selected underlying security in the Option Chain window.    OptionsChain3    1) Expiration date  2) Ticker name  3) Days until expiration   Filtering Options Contracts With the filter button at the top of the window you can check or uncheck what tickers you want the Option Chain window to display.    OptionsChain4
 
-![tog_minus](../images/tog_minus.gif)        Understanding the option quotes grid section
+## Understanding the option quotes grid section
 
 > Option Quotes The Option Quotes displays calls and puts quotes for each strike price of the expanded options ticker in the Option Chain window.    OptionsChain5    1) Columns display - the last, bid, ask, and strike columns (additional columns can be added in the Properties)  2) Calls & Puts quotes - call quotes are on the left and put quotes are on the right  3) In The Money (ITM) options - indicated by the shaded area the ITM triangle is pointing towards on the calls and puts section  4) Last price for the underlying security - indicated by the marker on top of the strike prices   Changing Sort Direction of Strike Prices Clicking on the Strike column header will change the sort direction of the strike prices. This can also be adjusted in the Properties.    OptionsChain6
