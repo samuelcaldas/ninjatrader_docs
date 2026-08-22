@@ -1,28 +1,15 @@
-﻿
+# Bars
 
-
-
-Bars
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](bars.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) >  Bars | [Previous page](xmlignoreattribute.md) [Return to chapter overview](common.md) [Next page](barssincenewtradingday.md) |
-
-Definition
-----------
+## Definition
 
 Represents the data returned from the historical data repository. The Bars object contain several methods and properties for working with bar data.
 
-|  |
-| --- |
-| Warning: The Bars object and its member should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded |
+> **Warning:** The Bars object and its member should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
 Additional Access Information 
-Members within the Bars class can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be a Bar object which holds the method or property. Should you wish to access these members elsewhere, check for null reference first. e.g. if (Bars != null)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Members within the Bars class can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be a Bar object which holds the method or property. Should you wish to access these members elsewhere, check for null reference first. e.g. if (Bars != null)
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -39,7 +26,7 @@ Methods and Properties
 | [GetVolume()](getvolume.md) | Returns the volume |
 | [IsFirstBarOfSession](isfirstbarofsession.md) | Returns true if the bar is the first bar of a session |
 | [IsFirstBarOfSessionByIndex()](isfirstbarofsessionbyindex.md) | Returns true if the bar is the first bar of a session |
-| [IsLastBarOfSession](islastbarofsession.md) | Returns true if the bar is the last bar of a session |
+| [IsLastBarOfSession](islastbarofsession.md) | Returns true if the bar is the last bar of a session |
 | [IsResetOnNewTradingDay](isresetonnewtradingday.md) | Returns true if the chart bars should reset on a new trading day |
 | [IsTickReplay](istickreplay.md) | Returns true if the bars are using tick replay |
 | [PercentComplete](percentcomplete.md) | Value indicating the completion percent of a bar |

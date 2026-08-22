@@ -1,19 +1,10 @@
-﻿
+# ChartPanel
 
-
-
-ChartPanel
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](chartpanel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) >  ChartPanel | [Previous page](converttoverticalpixels2.md) [Return to chapter overview](chart.md) [Next page](chartobjects.md) |
-
-The ChartPanel class includes a range of properties related to the [panel](chart_panels.md) on which the calling script resides.  Each Panel has 3 independent [ChartScales](chartscale.md): Left, Right, and Overlay.
+The ChartPanel class includes a range of properties related to the [panel](chart_panels.md) on which the calling script resides.  Each Panel has 3 independent [ChartScales](chartscale.md): Left, Right, and Overlay.
 
 ![ChartPanel_1](chartpanel_1.png)
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |

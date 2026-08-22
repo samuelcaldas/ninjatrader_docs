@@ -1,15 +1,6 @@
-﻿
+# Bollinger Bands
 
-
-
-Bollinger Bands
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](bollinger_bands.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [System Indicator Methods](indicators.md) >  Bollinger Bands | [Previous page](block_volume.md) [Return to chapter overview](indicators.md) [Next page](buysellpressure.md) |
-
-Description
------------
+## Description
 
 Developed by John Bollinger, Bollinger Bands are an indicator that allows users to compare volatility and relative price levels over a period time. The indicator consists of three bands designed to encompass the majority of a security's price action.
 
@@ -23,45 +14,45 @@ Standard deviation is a statistical unit of measure that provides a good assessm
 
 ... Courtesy of [StockCharts](http://stockcharts.com/education/IndicatorAnalysis/indic_Bbands.md)
 
-Syntax
-------
+## Syntax
 
 Bollinger(double numStdDev, int period)  
-Bollinger(ISeries<double> input, double numStdDev, int period)
+Bollinger(`ISeries<double>` input, double numStdDev, int period)
 
- 
+ 
 
 Returns upper band value  
 Bollinger(double numStdDev, int period).Upper[int barsAgo]  
-Bollinger(ISeries<double> input, double numStdDev, int period).Upper[int barsAgo]
+Bollinger(`ISeries<double>` input, double numStdDev, int period).Upper[int barsAgo]
 
- 
+ 
 
 Returns lower band value  
 Bollinger(double numStdDev, int period).Lower[int barsAgo]  
-Bollinger(ISeries<double> input, double numStdDev, int period).Lower[int barsAgo]
+Bollinger(`ISeries<double>` input, double numStdDev, int period).Lower[int barsAgo]
 
-Return Value
-------------
+## Return Value
 
 double; Accessing this method via an index value [int barsAgo] returns the indicator value of the referenced bar.
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
 | input | Indicator source data ([?](valid_input_data_for_indicator.md)) |
 | period | Number of bars used in the calculation |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Prints the current upper band value of a 20 period Bollinger using default price type  double upperValue = Bollinger(2, 20).Upper[0];  Print("The current Bollinger upper value is " + upperValue.ToString());     // Prints the current upper band value of a 20 period Bollinger using low price type  double upperValue = Bollinger(Low, 2, 20).Upper[0];  Print("The current Bollinger upper value is " + upperValue.ToString()); |
+```csharp
+// Prints the current upper band value of a 20 period Bollinger using default price type
+double upperValue = Bollinger(2, 20).Upper[0];
+Print("The current Bollinger upper value is " + upperValue.ToString());
+// Prints the current upper band value of a 20 period Bollinger using low price type
+double upperValue = Bollinger(Low, 2, 20).Upper[0];
+Print("The current Bollinger upper value is " + upperValue.ToString());
+```
 
-Source Code
------------
+## Source Code
 
 You can view this indicator method source code by selecting the menu New > NinjaScript Editor > Indicators within the NinjaTrader Control Center window.

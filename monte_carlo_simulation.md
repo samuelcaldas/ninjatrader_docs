@@ -1,12 +1,4 @@
-﻿
-
-
-
-Monte Carlo Simulation
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](monte_carlo_simulation.md) >>  **Navigation:**  [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) >  Monte Carlo Simulation | [Previous page](reviewing_performance_results.md) [Return to chapter overview](strategy_analyzer.md) [Next page](running_a_monte_carlo_simulati.md) |
+# Monte Carlo Simulation
 
 |  |
 | --- |

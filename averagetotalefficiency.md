@@ -1,30 +1,23 @@
-﻿
+# AverageTotalEfficiency
 
-
-
-AverageTotalEfficiency
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](averagetotalefficiency.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  AverageTotalEfficiency | [Previous page](averagetimeinmarket.md) [Return to chapter overview](tradesperformance.md) [Next page](currency.md) |
-
-Definition
-----------
+## Definition
 
 Returns the average total efficiency.
 
-Property Value
---------------
+## Property Value
 
 A double value that represents the average total efficiency.
 
-Syntax 
-<TradeCollection>.TradesPerformance.AverageTotalEfficiency
-------------------------------------------------------------------
+## Syntax
 
-Examples
---------
+`<TradeCollection>.TradesPerformance.AverageTotalEfficiency`
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {       // Print out the average total efficiency       Print("Average total efficiency is: " + SystemPerformance.AllTrades.TradesPerformance.AverageTotalEfficiency);  } |
+## Examples
+
+```csharp
+protected override void OnBarUpdate()
+{
+    // Print out the average total efficiency
+    Print("Average total efficiency is: " + SystemPerformance.AllTrades.TradesPerformance.AverageTotalEfficiency);
+}
+```

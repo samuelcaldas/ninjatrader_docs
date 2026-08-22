@@ -1,30 +1,18 @@
-﻿
+# AtmStrategyChangeStopTarget()
 
-
-
-AtmStrategyChangeStopTarget()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](atmstrategychangestoptarget.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) >  AtmStrategyChangeStopTarget() | [Previous page](atmstrategychangeentryorder.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](atmstrategyclose.md) |
-
-Definition
-----------
+## Definition
 
 Changes the price of the specified order of the specified ATM strategy.
 
-Method Return Value
--------------------
+## Method Return Value
 
 Returns true if the specified order was found; otherwise false.
 
-Syntax
-------
+## Syntax
 
 AtmStrategyChangeStopTarget(double limitPrice, double stopPrice, string orderName, string atmStrategyId)
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -33,9 +21,11 @@ Parameters
 | orderName | The order name such as "Stop1" or "Target2" |
 | atmStrategyId | The unique identifier for the ATM strategy |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {       AtmStrategyChangeStopTarget(0, SMA(10)[0], "Stop1", "AtmIdValue");  } |
+```csharp
+protected override void OnBarUpdate()
+{
+    AtmStrategyChangeStopTarget(0, SMA(10)[0], "Stop1", "AtmIdValue");
+}
+```

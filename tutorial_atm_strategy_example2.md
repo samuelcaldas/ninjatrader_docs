@@ -1,12 +1,4 @@
-﻿
-
-
-
-Tutorial: ATM Strategy Example #2
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](tutorial_atm_strategy_example2.md) >>  **Navigation:**  [Operations](operations.md) > [Advanced Trade Management (ATM)](advanced_trade_management_atm.md) > [ATM Strategy](atm_strategy.md) >  Tutorial: ATM Strategy Example #2 | [Previous page](tutorial_atm_strategy_example_.md) [Return to chapter overview](atm_strategy.md) [Next page](advanced_options.md) |
+# Tutorial: ATM Strategy Example #2
 
 ATM Strategy Example
 
@@ -64,7 +56,7 @@ Once you press the Save button, a template is created for this Stop Strategy and
 
 You can now save this ATM Strategy (Stop Strategies included) as a template by pressing the Save as Template button.
 
-Type in the Name "2 Target" and click the "Save" button.  We now have a 2 target strategy template that can be selected from the ATM Strategy control list at any time. Doing so will update all of the parameter fields automatically based on the information we have entered in this example.
+Type in the Name "2 Target" and click the "Save" button.  We now have a 2 target strategy template that can be selected from the ATM Strategy control list at any time. Doing so will update all of the parameter fields automatically based on the information we have entered in this example.
 
 You can now place an order which once filled will automatically trigger the ATM Strategy to submit the Stop Loss and Profit Target brackets. In the image below, an order was submitted and filled at 1970.50 as depicted by the brown colored cell.
 

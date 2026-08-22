@@ -1,26 +1,15 @@
-﻿
-
-
-
-Creating a Chart
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](creating_a_chart.md) >>  **Navigation:**  [Operations](operations.md) > [Charts](charts.md) >  Creating a Chart | [Previous page](charts.md) [Return to chapter overview](charts.md) [Next page](navigating_a_chart.md) |
+# Creating a Chart
 
 The following section covers how to open a NinjaTrader chart.
 
-| playVideo |
-| --- |
-|  |
+> **playVideo**
+> 
 
 ![tog_minus](tog_minus.gif)
 
-|  |
-| --- |
-| Opening a New Chart To create a new chart, select the New menu from the NinjaTrader Control Center, then select the menu item Chart. The Data Series window will open where you can choose an instrument and an optional [Template](saving_chart_defaults_and_templates.md) to apply to the chart. Please see the "[Working with Price Data](working_with_price_data.md)" page of the Help Guide for more information.    NinjaTrader does not limit the number of chart windows that can be opened, however more open windows will require more PC resources. Please see the [Performance Tips](performance_tips2.md) page for more information on improving PC performance.   Selecting an Instrument Once inside the Data Series window, there are multiple ways to choose an instrument. You can select an instrument from the available instrument lists, type the instrument symbol into the empty instrument field and press the enter key, or use the instrument lookup window by pressing the magnifying glass button next to the instrument field. Please see the "[Working with Price Data](working_with_price_data.md) section of the Help Guide for more information on selecting instruments. |
+> Opening a New Chart To create a new chart, select the New menu from the NinjaTrader Control Center, then select the menu item Chart. The Data Series window will open where you can choose an instrument and an optional [Template](saving_chart_defaults_and_templates.md) to apply to the chart. Please see the "[Working with Price Data](working_with_price_data.md)" page of the Help Guide for more information.    NinjaTrader does not limit the number of chart windows that can be opened, however more open windows will require more PC resources. Please see the [Performance Tips](performance_tips2.md) page for more information on improving PC performance.   Selecting an Instrument Once inside the Data Series window, there are multiple ways to choose an instrument. You can select an instrument from the available instrument lists, type the instrument symbol into the empty instrument field and press the enter key, or use the instrument lookup window by pressing the magnifying glass button next to the instrument field. Please see the "[Working with Price Data](working_with_price_data.md) section of the Help Guide for more information on selecting instruments.
 
-![tog_minus](tog_minus.gif)        Understanding the chart display
+![tog_minus](tog_minus.gif)        Understanding the chart display
 
 |  |  |  |  |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

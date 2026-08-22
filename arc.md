@@ -1,20 +1,10 @@
-﻿
+# Arc
 
-
-
-Arc
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](arc.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Arc()](draw_arc.md) >  Arc | [Previous page](draw_arc.md) [Return to chapter overview](draw_arc.md) [Next page](draw_arrowdown.md) |
-
-Definition
-----------
+## Definition
 
 Represents an interface that exposes information regarding an Arc [IDrawingTool](idrawingtool.md).
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -22,9 +12,11 @@ Methods and Properties
 | EndAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the end point of the drawing object |
 | Stroke | A [Stroke](stroke_class.md) object used to draw the object |
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| // Draw an Arc object  Arc myArc = Draw.Arc(this, "myArc", Time[10], Close[10], Time[0], Close[0], Brushes.Blue);     // Set the opacity of the shading between the arc and the chord  myArc.AreaOpacity = 100; |
+```csharp
+// Draw an Arc object
+Arc myArc = Draw.Arc(this, "myArc", Time[10], Close[10], Time[0], Close[0], Brushes.Blue);
+// Set the opacity of the shading between the arc and the chord
+myArc.AreaOpacity = 100;
+```

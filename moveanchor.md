@@ -1,30 +1,18 @@
-﻿
+# MoveAnchor()
 
-
-
-MoveAnchor()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](moveanchor.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > [ChartAnchor](chartanchor.md) >  MoveAnchor() | [Previous page](isypropertyvisibile.md) [Return to chapter overview](chartanchor.md) [Next page](moveanchorx.md) |
-
-Definition
-----------
+## Definition
 
 Moves a Chart Anchor's x and y values from start point by a delta point amount.
 
-Method Return Value
--------------------
+## Method Return Value
 
 This method does not return a value.
 
-Syntax
-------
+## Syntax
 
 <ChartAnchor>.MoveAnchor(ChartAnchor startDataPoint, ChartAnchor deltaDataPoint, ChartControl chartControl, ChartPanel chartPanel, ChartScale chartScale, DrawingTool drawingTool)
 
-Method Parameters
------------------
+## Method Parameters
 
 |  |  |
 | --- | --- |
@@ -37,9 +25,9 @@ Method Parameters
 | chartPanel | A ChartPanel representing the the panel for the chart |
 | drawingTool | The drawing tool which owns the chart anchor to be moved (usually this). |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| //move the chart anchors x and y values  MyAnchor.MoveAnchor(lastPoint, newPoint, chartControl, chartPanel, chartScale, this); |
+```csharp
+//move the chart anchors x and y values
+MyAnchor.MoveAnchor(lastPoint, newPoint, chartControl, chartPanel, chartScale, this);
+```

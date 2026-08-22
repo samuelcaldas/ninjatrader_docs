@@ -1,12 +1,4 @@
-﻿
-
-
-
-Using
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](using2.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Beginner - Indicator on Indicator](beginner_-_indicator_on_indica.md) >  Using | [Previous page](compiling2.md) [Return to chapter overview](beginner_-_indicator_on_indica.md) [Next page](beginner_-_using_price_variabl.md) |
+# Using
 
 Your indicator is now ready for use and will be listed in the Indicator Dialog window.
 

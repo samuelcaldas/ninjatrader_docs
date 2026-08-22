@@ -1,12 +1,4 @@
-﻿
-
-
-
-Depth Chart
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](depth_chart.md) >>  **Navigation:**  [Operations](operations.md) >  Depth Chart | [Previous page](working_with_data_grids.md) [Return to chapter overview](operations.md) [Next page](using_the_depth_chart_window.md) |
+# Depth Chart
 
 |  |
 | --- |

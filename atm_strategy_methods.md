@@ -1,12 +1,4 @@
-﻿
-
-
-
-ATM Strategy Methods
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](atm_strategy_methods.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  ATM Strategy Methods | [Previous page](addperformancemetric.md) [Return to chapter overview](strategy.md) [Next page](atmstrategycancelentryorder.md) |
+# ATM Strategy Methods
 
 |  |  |
 | --- | --- |

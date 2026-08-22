@@ -1,12 +1,4 @@
-﻿
-
-
-
-Alert, Debug, Share
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](alert__debugging_and_sharing.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) >  Alert, Debug, Share | [Previous page](currentbars.md) [Return to chapter overview](common.md) [Next page](alert.md) |
+# Alert, Debug, Share
 
 The following section documents properties and methods used to trigger alerts from a NinjaScript object, send debug messages to the NinjaScript Output Window, or utilize Share Services to send emails or post to social-media networks.
 

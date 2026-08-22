@@ -1,12 +1,4 @@
-﻿
-
-
-
-Database
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](database.md) >>  **Navigation:**  [Operations](operations.md) >  Database | [Previous page](status_bar.md) [Return to chapter overview](operations.md) [Next page](database_operations.md) |
+# Database
 
 |  |
 | --- |

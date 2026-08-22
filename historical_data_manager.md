@@ -1,12 +1,4 @@
-﻿
-
-
-
-Historical Data Window
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](historical_data_manager.md) >>  **Navigation:**  [Operations](operations.md) >  Historical Data Window | [Previous page](window-linking-fx-correlation.md) [Return to chapter overview](operations.md) [Next page](loading_historical_data.md) |
+# Historical Data Window
 
 |  |
 | --- |

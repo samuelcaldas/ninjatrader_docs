@@ -1,12 +1,4 @@
-﻿
-
-
-
-Language Reference
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](language_reference_wip.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) >  Language Reference | [Previous page](using__brackets.md) [Return to chapter overview](ninjascript.md) [Next page](alphabetical_reference.md) |
+# Language Reference
 
 |  |
 | --- |
@@ -21,7 +13,7 @@ Language Reference
 - [Import Type](import_type.md)  
 - [Indicator](indicator.md)  
 - [Indicator Methods](indicators.md)  
-- [ISeries<T>](iseriest.md)  
+- [`ISeries<T>`](iseriest.md)  
 - [Market Analyzer Column](market_analyzer_column.md)  
 - [Instrument](instrument.md)  
 - [Optimization Fitness](optimization_fitness.md)  

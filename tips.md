@@ -1,12 +1,4 @@
-﻿
-
-
-
-Tips
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](tips.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) >  Tips | [Previous page](using_trade_performance_statis.md) [Return to chapter overview](educational_resources.md) [Next page](adding_indicators_to_strategie.md) |
+# Tips
 
 |  |
 | --- |

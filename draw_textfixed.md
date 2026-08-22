@@ -1,20 +1,10 @@
-﻿
+# Draw.TextFixed()
 
-
-
-Draw.TextFixed()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_textfixed.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.TextFixed() | [Previous page](text.md) [Return to chapter overview](drawing.md) [Next page](textfixed.md) |
-
-Definition
-----------
+## Definition
 
 Draws text in one of 5 available pre-defined fixed locations on panel 1 (price panel) of a chart. Please note the [Z-Order](zordertype.md) is internally set for the method to always be drawn on top.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [TextFixed](textfixed.md) object that represents the draw object.
 
@@ -24,10 +14,9 @@ Draw.TextFixed(NinjaScriptBase owner, string tag, string text, TextPosition text
 Draw.TextFixed(NinjaScriptBase owner, string tag, string text, TextPosition textPosition)  
 Draw.TextFixed(NinjaScriptBase owner, string tag, string text, TextPosition textPosition, bool isGlobal, string templateName)
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -43,23 +32,23 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws text in the upper right corner of panel 1  Draw.TextFixed(this, "tag1", "Text to draw", TextPosition.TopRight); |
+```csharp
+// Draws text in the upper right corner of panel 1
+Draw.TextFixed(this, "tag1", "Text to draw", TextPosition.TopRight);
+```
 
- 
+ 
 
- 
+ 
 
-|  |
-| --- |
-| Tip:  In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.md) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings. |
+> **Tip:** In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.md) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings.
 
- 
+ 
 
-| ns |
-| --- |
-| // match the text brush to what the user has configured on their chart           Draw.TextFixed(this, "myTextFixed", "Hello world!", TextPosition.BottomRight, ChartControl.Properties.ChartText,      ChartControl.Properties.LabelFont, Brushes.Blue, Brushes.Transparent, 0); |
+```csharp
+// match the text brush to what the user has configured on their chart
+Draw.TextFixed(this, "myTextFixed", "Hello world!", TextPosition.BottomRight, ChartControl.Properties.ChartText,
+ChartControl.Properties.LabelFont, Brushes.Blue, Brushes.Transparent, 0);
+```

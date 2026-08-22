@@ -1,15 +1,6 @@
-﻿
+# Modifying and Cancelling Orders
 
-
-
-Modifying and Cancelling Orders
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](managing_positions_fx_pro.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) > [FX Pro](fx_pro.md) >  Modifying and Cancelling Orders | [Previous page](modifying_and_cancelling_orders_fx_pro.md) [Return to chapter overview](fx_pro.md) [Next page](properties_fx_pro.md) |
-
-How to Manage Open Positions
-----------------------------
+## How to Manage Open Positions
 
 1. Clicking on the "BE" (break-even) button with your left mouse button will adjust any stop orders in the opposite direction of your open position (if position is long it will adjust stop sell orders) to the position's average entry price. Clicking on this button with your middle mouse button (scroll wheel) will only adjust any Stop Loss orders associated to the selected active ATM Strategy in the strategy drop down list. Orders resting at a better price than the average entry price will NOT be modified.
 

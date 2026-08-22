@@ -1,30 +1,23 @@
-﻿
+# TotalSlippage
 
-
-
-TotalSlippage
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](totalslippage.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  TotalSlippage | [Previous page](totalquantity.md) [Return to chapter overview](tradesperformance.md) [Next page](tradescount.md) |
-
-Definition
-----------
+## Definition
 
 Returns the total slippage.
 
-Property Value
---------------
+## Property Value
 
 A double value that represents the total slippage. This is presented in points, I.E. 0.25 for 1 execution on E-mini S&P 500 Futures.
 
-Syntax 
-<TradeCollection>.TradesPerformance.TotalSlippage
----------------------------------------------------------
+## Syntax
 
-Examples
---------
+`<TradeCollection>.TradesPerformance.TotalSlippage`
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {       // Print out the total slippage of all trades       Print("Total slippage is: " + SystemPerformance.AllTrades.TradesPerformance.TotalSlippage);  } |
+## Examples
+
+```csharp
+protected override void OnBarUpdate()
+{
+    // Print out the total slippage of all trades
+    Print("Total slippage is: " + SystemPerformance.AllTrades.TradesPerformance.TotalSlippage);
+}
+```

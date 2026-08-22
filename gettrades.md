@@ -1,29 +1,18 @@
-﻿
+# GetTrades()
 
-
-
-GetTrades()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](gettrades.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) >  GetTrades() | [Previous page](eventrades.md) [Return to chapter overview](tradecollection.md) [Next page](losingtrades.md) |
-
-Definition
-----------
+## Definition
 
 Returns a TradeCollection object representing all trades that make up the specified position.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A TradeCollection object.
 
-Syntax 
-<TradeCollection>.GetTrades(string instrument, string entrySignalName, int instance)
---------------------------------------------------------------------------------------------
+## Syntax
 
-Parameters
-----------
+`<TradeCollection>.GetTrades(string instrument, string entrySignalName, int instance)`
+
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -33,6 +22,10 @@ Parameters
 
 Examples
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {       TradeCollection myTrades = SystemPerformance.AllTrades.GetTrades("MSFT", "myEntrySignal", 1);       Print("The last position was comprised of " + myTrades.Count + " trades.");  } |
+```csharp
+protected override void OnBarUpdate()
+{
+    TradeCollection myTrades = SystemPerformance.AllTrades.GetTrades("MSFT", "myEntrySignal", 1);
+    Print("The last position was comprised of " + myTrades.Count + " trades.");
+}
+```

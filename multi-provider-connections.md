@@ -1,12 +1,4 @@
-﻿
-
-
-
-Multi-provider Connections
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](multi-provider-connections.md) >>  **Navigation:**  [Configuration](configuration.md) > [Connecting](connecting.md) >  Multi-provider Connections | [Previous page](playback_connecting_connection.md) [Return to chapter overview](connecting.md) [Next page](connecting-to-multi-provider-c.md) |
+# Multi-provider Connections
 
 |  |
 | --- |

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Risk
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](understanding_risks.md) >>  **Navigation:**  [Operations](operations.md) >  Risk | [Previous page](data_files.md) [Return to chapter overview](operations.md) [Next page](using_the_risk_window.md) |
+# Risk
 
 |  |
 | --- |

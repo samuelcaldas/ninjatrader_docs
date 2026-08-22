@@ -1,28 +1,18 @@
-﻿
+# Order
 
-
-
-Order
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](order.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  Order | [Previous page](optimizationperiod.md) [Return to chapter overview](strategy.md) [Next page](isterminalstate.md) |
-
-Definition
-----------
+## Definition
 
 Represents a read only interface that exposes information regarding an order.
 
-•An Order object returned from calling an order method is dynamic in that its properties will always reflect the current state of an order
+- An Order object returned from calling an order method is dynamic in that its properties will always reflect the current state of an order
 
-•The property <Order>.OrderId is NOT a unique value, since it can change throughout an order's lifetime.  Please see the [Advance Order Handling](advanced_order_handling.md) section on "Transitioning order references from historical to live" for details on how to handle.
+- The property <Order>.OrderId is NOT a unique value, since it can change throughout an order's lifetime.  Please see the [Advance Order Handling](advanced_order_handling.md) section on "Transitioning order references from historical to live" for details on how to handle.
 
-•The property <Order>.Oco WILL be appended with a suffix when the strategy transitions from historical to real-time to ensure the OCO id is unique across multiple strategies for live orders
+- The property <Order>.Oco WILL be appended with a suffix when the strategy transitions from historical to real-time to ensure the OCO id is unique across multiple strategies for live orders
 
-•To check for equality you can compare Order objects directly
+- To check for equality you can compare Order objects directly
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -40,20 +30,19 @@ Methods and Properties
 | LimitPriceChanged | A double value representing the new limit price of an order. Used with [Account.Change()](change.md) |
 | Name | A string representing the name of an order which can be provided by the entry or exit signal name |
 | Oco | A string representing the OCO (one cancels other) id of an order |
-| OrderAction | Represents the action of the order.  Possible values are:  OrderAction.Buy  OrderAction.BuyToCover  OrderAction.Sell  OrderAction.SellShort |
+| OrderAction | Represents the action of the order.  Possible values are:  OrderAction.Buy  OrderAction.BuyToCover  OrderAction.Sell  OrderAction.SellShort |
 | OrderId | A string representing the broker issued order id value (this value can change) |
-| OrderState | The current state of the order.  See the order state values table below |
-| OrderType | The type of order submitted.  Possible values are:  OrderType.Limit  OrderType.Market  OrderType.MIT  OrderType.StopMarket  OrderType.StopLimit |
+| OrderState | The current state of the order.  See the order state values table below |
+| OrderType | The type of order submitted.  Possible values are:  OrderType.Limit  OrderType.Market  OrderType.MIT  OrderType.StopMarket  OrderType.StopLimit |
 | Quantity | An int value representing the quantity of an order |
 | QuantityChanged | An int value representing the new quantity of an order. Used with [Account.Change()](change.md) |
 | StopPrice | A double value representing the stop price of an order |
 | StopPriceChanged | A double value representing the new stop price of an order. Used with [Account.Change()](change.md) |
 | Time | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the last time the order changed state |
-| TimeInForce | Determines the life of the order.  Possible values are:  TimeInForce.Day  TimeInForce.Gtc |
+| TimeInForce | Determines the life of the order.  Possible values are:  TimeInForce.Day  TimeInForce.Gtc |
 | ToString() | A string representation of an order |
 
-OrderState Values
------------------
+## OrderState Values
 
 |  |  |
 | --- | --- |
@@ -72,18 +61,36 @@ OrderState Values
 | OrderState.Filled | Order is completely filled |
 | OrderState.Unknown | An unknown order state. Default if broker does not report current order state. |
 
- 
+ 
 
-|  |
-| --- |
-| Critical: In a historical backtest, orders will always reach a "Working" state. In real-time, some stop orders may only reach "Accepted" state if they are simulated/held on a brokers server |
+> **Critical:** In a historical backtest, orders will always reach a "Working" state. In real-time, some stop orders may only reach "Accepted" state if they are simulated/held on a brokers server
 
- 
+ 
 
-Examples
---------
+## Examples
 
 |  |  |
 | --- | --- |
-| ns |  |
-| private Order entryOrder = null;     protected override void OnBarUpdate()  {     if (entryOrder == null && Close[0] > Open[0])         EnterLong("myEntryOrder");  }     protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError)  {     // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.     // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately        after submitting     if (order.Name == "myEntryOrder")         entryOrder = order;        if (entryOrder != null && entryOrder == order)     {         Print(order.ToString());         if (order.OrderState == OrderState.Filled)             entryOrder = null;     }  } | |
+
+```csharp
+private Order entryOrder = null;
+protected override void OnBarUpdate()
+{
+    if (entryOrder == null && Close[0] > Open[0])
+    EnterLong("myEntryOrder");
+}
+protected override void OnOrderUpdate(Order order, double limitPrice, double stopPrice, int quantity, int filled, double averageFillPrice, OrderState orderState, DateTime time, ErrorCode error, string nativeError)
+{
+    // Assign entryOrder in OnOrderUpdate() to ensure the assignment occurs when expected.
+    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately
+    after submitting
+    if (order.Name == "myEntryOrder")
+    entryOrder = order;
+    if (entryOrder != null && entryOrder == order)
+    {
+        Print(order.ToString());
+        if (order.OrderState == OrderState.Filled)
+        entryOrder = null;
+    }
+}
+```

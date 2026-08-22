@@ -1,12 +1,4 @@
-﻿
-
-
-
-Time & Sales
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](time__sales.md) >>  **Navigation:**  [Operations](operations.md) >  Time & Sales | [Previous page](actions.md) [Return to chapter overview](operations.md) [Next page](timeandsales_usingthetimeandsaleswindow.md) |
+# Time & Sales
 
 |  |
 | --- |

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Hot List Analyzer
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](hot_list_analyzer.md) >>  **Navigation:**  [Operations](operations.md) >  Hot List Analyzer | [Previous page](trading_with_hot_keys.md) [Return to chapter overview](operations.md) [Next page](using_the_hot_list_analyzer.md) |
+# Hot List Analyzer
 
 |  |
 | --- |

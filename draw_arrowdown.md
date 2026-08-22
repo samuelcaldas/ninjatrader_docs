@@ -1,25 +1,14 @@
-﻿
+# Draw.ArrowDown()
 
-
-
-Draw.ArrowDown()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_arrowdown.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.ArrowDown() | [Previous page](arc.md) [Return to chapter overview](drawing.md) [Next page](arrowdown.md) |
-
-Definition
-----------
+## Definition
 
 Draws an arrow pointing down.
 
-Method Return Value
--------------------
+## Method Return Value
 
 An [ArrowDown](arrowdown.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.ArrowDown(NinjaScriptBase owner, string tag, bool isAutoScale, int barsAgo, double y, Brush brush)  
 Draw.ArrowDown(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime time, double y, Brush brush)  
@@ -28,8 +17,7 @@ Draw.ArrowDown(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime tim
 Draw.ArrowDown(NinjaScriptBase owner, string tag, bool isAutoScale, int barsAgo, double y, bool isGlobal, string templateName)  
 Draw.ArrowDown(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime time, double y, bool isGlobal, string templateName)
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -44,13 +32,14 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-|  |
-| --- |
-| Tip: The size of the arrow is tied to the chart's BarWidth and thus will scale automatically as the chart is resized |
+> **Tip:** The size of the arrow is tied to the chart's BarWidth and thus will scale automatically as the chart is resized
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Paints a red down arrow on the current bar 1 tick above the high     Draw.ArrowDown(this, "tag1", true, 0, High[0] + TickSize, Brushes.Red);     // Paints a blue down arrown on a three bar reversal pattern   if (High[2] > High[3] && High[1] > High[2] && Close[0] < Open[0])       Draw.ArrowDown(this, CurrentBar.ToString(), true, 0, High[0] + TickSize, Brushes.Blue); |
+```csharp
+// Paints a red down arrow on the current bar 1 tick above the high
+Draw.ArrowDown(this, "tag1", true, 0, High[0] + TickSize, Brushes.Red);
+// Paints a blue down arrown on a three bar reversal pattern
+if (High[2] > High[3] && High[1] > High[2] && Close[0] < Open[0])
+Draw.ArrowDown(this, CurrentBar.ToString(), true, 0, High[0] + TickSize, Brushes.Blue);
+```

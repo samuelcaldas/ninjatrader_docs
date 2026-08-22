@@ -1,12 +1,4 @@
-﻿
-
-
-
-New Menu
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](new_menu.md) >>  **Navigation:**  [Operations](operations.md) > [Control Center](control_center.md) >  New Menu | [Previous page](control_center.md) [Return to chapter overview](control_center.md) [Next page](tools_menu.md) |
+# New Menu
 
 The following menus and items are available via the New menu of the NinjaTrader Control Center.
 

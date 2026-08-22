@@ -1,17 +1,8 @@
-﻿
-
-
-
-Import Type
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](import_type.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) >  Import Type | [Previous page](zordertype.md) [Return to chapter overview](language_reference_wip.md) [Next page](onnextinstrument.md) |
+# Import Type
 
 Custom data Import Types can be developed to allow for the importing of historical data from any format. Two important event handler methods are documented in this section:
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |

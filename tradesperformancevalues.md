@@ -1,24 +1,14 @@
-﻿
+# TradesPerformanceValues
 
-
-
-TradesPerformanceValues
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](tradesperformancevalues.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  TradesPerformanceValues | [Previous page](winningtrades.md) [Return to chapter overview](strategy.md) [Next page](averageetd.md) |
-
-Definition
-----------
+## Definition
 
 Performance values of a [collection](tradecollection.md) of [Trade](trade.md) objects.
 
-•Currency and Point based calculations are per trade
+- Currency and Point based calculations are per trade
 
-•Percent based calculations are per traded unit
+- Percent based calculations are per traded unit
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -35,9 +25,13 @@ Methods and Properties
 | [Turnaround](turnaround.md) | A double value representing the turnaround |
 | [Ulcer](ulcer.md) | A double value representing the Ulcer value |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {       // If the profit on real-time trades is > $1000 stop trading       if (SystemPerformance.RealTimeTrades.TradesPerformance.Currency.CumProfit > 1000)            return;  } |
+```csharp
+protected override void OnBarUpdate()
+{
+    // If the profit on real-time trades is > $1000 stop trading
+    if (SystemPerformance.RealTimeTrades.TradesPerformance.Currency.CumProfit > 1000)
+    return;
+}
+```

@@ -1,26 +1,14 @@
-﻿
+# State
 
+## Definition
 
+Represents the current progression of the object as it advances from setup, processing data, to termination.  These states can be used for setting up or declaring various resources and properties.
 
-State
+> **Note:** More detailed explanation of various states along with examples can be found in the [OnStateChange()](onstatechange.md) method section of this help guide.  You can also attempt to set a new State using the [SetState()](setstate.md) method.
 
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](state.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnStateChange()](onstatechange.md) >  State | [Previous page](setstate.md) [Return to chapter overview](onstatechange.md) [Next page](sessioniterator.md) |
+## Property Value
 
-Definition
-----------
-
-Represents the current progression of the object as it advances from setup, processing data, to termination.  These states can be used for setting up or declaring various resources and properties.
-
-|  |
-| --- |
-| Note:  More detailed explanation of various states along with examples can be found in the [OnStateChange()](onstatechange.md) method section of this help guide.  You can also attempt to set a new State using the [SetState()](setstate.md) method. |
-
-Property Value
---------------
-
-An enum value representing the current state of the object.  Possible values are:
+An enum value representing the current state of the object.  Possible values are:
 
 |  |  |
 | --- | --- |
@@ -33,27 +21,28 @@ An enum value representing the current state of the object.  Possible values ar
 | Realtime | Begins to process realtime data. |
 | Terminated | Begins to shut down |
 
-Syntax
-------
+## Syntax
 
 State
 
- 
+ 
 
- 
+ 
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnStateChange()  {              Print(DateTime.Now + ": Current State is State."+State);  } |
-
- 
-
- 
-
-|  |
-| --- |
-| ns |
-| protected override void OnBarUpdate()  {     // only process real-time OnBarUpdate events     if (State == State.Historical)       return;             //rest of logic             } |
+```csharp
+protected override void OnStateChange()
+{
+    Print(DateTime.Now + ": Current State is State."+State);
+}
+csharp
+ns
+protected override void OnBarUpdate()
+{
+    // only process real-time OnBarUpdate events
+    if (State == State.Historical)
+    return;
+    //rest of logic
+}
+```

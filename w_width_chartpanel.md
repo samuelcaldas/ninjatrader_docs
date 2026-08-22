@@ -1,45 +1,36 @@
-﻿
+# W (Width)
 
-
-
-W (Width)
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](w_width_chartpanel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartPanel](chartpanel.md) >  W (Width) | [Previous page](chartscale_chartpanel.md) [Return to chapter overview](chartpanel.md) [Next page](x_coordinate_chartpanel.md) |
-
-Definition
-----------
+## Definition
 
 Indicates the width (in pixels) of the paintable area of the chart panel.
 
-|  |
-| --- |
-| Note: The paintable area does not extend all the way to the right edge of the panel itself, as seen in the image below. |
+> **Note:** The paintable area does not extend all the way to the right edge of the panel itself, as seen in the image below.
 
-Property Value
---------------
+## Property Value
 
 A int representing the width of the panel in pixels
 
-Syntax
-------
+## Syntax
 
 ChartPanel.W
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale)  {     base.OnRender(chartControl, chartScale);           // Print the width of the panel     Print(ChartPanel.W);  } |
+```csharp
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+{
+    base.OnRender(chartControl, chartScale);
+    // Print the width of the panel
+    Print(ChartPanel.W);
+}
+```
 
- 
+ 
 
- 
+ 
 
 Based on the image below, W reveals that the chart panel is 451 pixels wide.
 
- 
+ 
 
 ![ChartPanel_W](chartpanel_w.png)

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Compile Error Codes
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](compile_error_codes.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Editor](editor.md) >  Compile Error Codes | [Previous page](editor.md) [Return to chapter overview](editor.md) [Next page](cs0006.md) |
+# Compile Error Codes
 
 The following error code information is provided within the context of NinjaScript. The examples provided are only a subset of potential problems that this error code may reflect. In any case, the examples below provide a reference of coding flaw possibilities.
 

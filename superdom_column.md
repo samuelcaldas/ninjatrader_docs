@@ -1,21 +1,10 @@
-﻿
-
-
-
-SuperDOM Column
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](superdom_column.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) >  SuperDOM Column | [Previous page](waitforococlosingbracket.md) [Return to chapter overview](language_reference_wip.md) [Next page](superdomcolumn_marketdepth.md) |
+# SuperDOM Column
 
 Custom SuperDOM Columns can be used to add additional functionality to the [SuperDOM](superdom.md) window. The methods and properties covered in this section are unique to custom SuperDOM column development.
 
-|  |
-| --- |
-| Tip:  The system SuperDOM Columns which ship with NinjaTrader are open source and you can review their implementation from the [NinjaScript Editor](ns_explorer.md) SuperDOMColumn folder, or by using the text editor of your choice by reviewing the source code located in Documents\NinjaTrader 8\bin\Custom\SuperDomColumns |
+> **Tip:** The system SuperDOM Columns which ship with NinjaTrader are open source and you can review their implementation from the [NinjaScript Editor](ns_explorer.md) SuperDOMColumn folder, or by using the text editor of your choice by reviewing the source code located in Documents\NinjaTrader 8\bin\Custom\SuperDomColumns
 
-In this section
----------------
+## In this section
 
 |  |  |
 | --- | --- |

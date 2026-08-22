@@ -1,25 +1,14 @@
-﻿
+# Draw.Line()
 
-
-
-Draw.Line()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_line.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Line() | [Previous page](horizontalline.md) [Return to chapter overview](drawing.md) [Next page](line.md) |
-
-Definition
-----------
+## Definition
 
 Draws a line between two points.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [Line](line.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.Line(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
 Draw.Line(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush, DashStyleHelper dashStyle, int width)  
@@ -31,11 +20,10 @@ Draw.Line(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo,
 Draw.Line(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)  
 Draw.Line(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
-   
- 
+   
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -55,9 +43,10 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a dotted lime green line from 10 bars back to the current bar  // with a width of 2 pixels  Draw.Line(this, "tag1", false, 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2); |
+```csharp
+// Draws a dotted lime green line from 10 bars back to the current bar
+// with a width of 2 pixels
+Draw.Line(this, "tag1", false, 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2);
+```

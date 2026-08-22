@@ -1,26 +1,14 @@
-﻿
+# Properties
 
-
-
-Properties
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](chartcontrol_properties.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  Properties | [Previous page](presentationsource.md) [Return to chapter overview](chartcontrol.md) [Next page](slotspainted.md) |
-
-Definition
-----------
+## Definition
 
 A collection of properties related to the configuration of the Chart
 
 ![Chart_Properites](chart_properites.png)
 
-|  |
-| --- |
-| Warning:  These are UI properties which are designed to be set by a user.  Attempting to modify these values through a custom script is NOT guaranteed to take effect. |
+> **Warning:** These are UI properties which are designed to be set by a user.  Attempting to modify these values through a custom script is NOT guaranteed to take effect.
 
-Property Value
---------------
+## Property Value
 
 A ChartControlProperties object containing values for all properties configured on the specified ChartBars object.
 
@@ -55,14 +43,18 @@ A ChartControlProperties object containing values for all properties configured 
 | SnapMode | An enum indicating the currently enabled Snap Mode. Possible values are None, Bar, Price, and BarAndPrice |
 | TabName | A string representing the name of the current tab |
 
-Syntax
-------
+## Syntax
 
 <ChartControl>.Properties
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale)  {     // Instantiate a ChartControlProperties object to hold a reference to chartControl.Properties     ChartControlProperties myProperties = chartControl.Properties;        // Set the AllowSelectionDragging property to false     myProperties.AllowSelectionDragging = false;  } |
+```csharp
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+{
+    // Instantiate a ChartControlProperties object to hold a reference to chartControl.Properties
+    ChartControlProperties myProperties = chartControl.Properties;
+    // Set the AllowSelectionDragging property to false
+    myProperties.AllowSelectionDragging = false;
+}
+```

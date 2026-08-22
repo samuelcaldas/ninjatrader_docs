@@ -1,12 +1,4 @@
-﻿
-
-
-
-Hot Keys
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](hot_key_manager.md) >>  **Navigation:**  [Operations](operations.md) >  Hot Keys | [Previous page](download.md) [Return to chapter overview](operations.md) [Next page](working_with_hot_keys.md) |
+# Hot Keys
 
 |  |
 | --- |

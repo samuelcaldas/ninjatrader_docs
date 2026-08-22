@@ -1,25 +1,22 @@
-﻿
-
-
-
-Creating the Strategy via Self Programming
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](creating_the_strategy_via_self.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Strategies](developing_strategies.md) > [Beginner - Simple MA Cross Over](beginner_-_simple_ma_cross_ove.md) >  Creating the Strategy via Self Programming | [Previous page](creating_the_strategy_via_the_.md) [Return to chapter overview](beginner_-_simple_ma_cross_ove.md) [Next page](compiling7.md) |
+# Creating the Strategy via Self Programming
 
 If you have not done so already, press the "Unlock Code" button within the wizard to launch the NinjaScript Editor.
 
 The [OnBarUpdate()](onbarupdate.md) method is called for each incoming tick or on the close of a bar (user defined) when performing real-time calculations. Therefore, this is the main method called for strategy calculation and we will use this method to enter the script that check for entry and exit conditions.
 
-The Entry and Exit Condition
-----------------------------
+## The Entry and Exit Condition
 
 Enter the code contained within the OnBarUpdate() method in the image below into the OnBarUpdate() method in the NinjaScript Editor:
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {     if (CrossAbove(SMA(Fast), SMA(Slow), 1))       EnterLong();          if (CrossBelow(SMA(Fast), SMA(Slow), 1))       EnterShort();  } |
+```csharp
+protected override void OnBarUpdate()
+{
+    if (CrossAbove(SMA(Fast), SMA(Slow), 1))
+    EnterLong();
+    if (CrossBelow(SMA(Fast), SMA(Slow), 1))
+    EnterShort();
+}
+```
 
 Translated into English, the code contained within the OnBarUpdate() method above reads:
 

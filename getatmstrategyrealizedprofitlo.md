@@ -1,40 +1,30 @@
-﻿
+# GetAtmStrategyRealizedProfitLoss()
 
-
-
-GetAtmStrategyRealizedProfitLoss()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](getatmstrategyrealizedprofitlo.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [ATM Strategy Methods](atm_strategy_methods.md) >  GetAtmStrategyRealizedProfitLoss() | [Previous page](getatmstrategypositionquantity.md) [Return to chapter overview](atm_strategy_methods.md) [Next page](getatmstrategystoptargetorders.md) |
-
-Definition
-----------
+## Definition
 
 Gets the realized profit and loss value of the specified ATM Strategy.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A double value representing the realized profit and loss.
 
-Syntax
-------
+## Syntax
 
 GetAtmStrategyRealizedProfitLoss(string atmStrategyId)
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
 | atmStrategyId | The unique identifier for the ATM strategy |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {       Print("PnL is " + GetAtmStrategyRealizedProfitLoss("id").ToString());  } |
+```csharp
+protected override void OnBarUpdate()
+{
+    Print("PnL is " + GetAtmStrategyRealizedProfitLoss("id").ToString());
+}
+```

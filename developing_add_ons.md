@@ -1,20 +1,10 @@
-﻿
+# Developing Add Ons
 
-
-
-Developing Add Ons
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](developing_add_ons.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [AddOn Development Overview](addon_development_overview.md) >  Developing Add Ons | [Previous page](addon_development_overview.md) [Return to chapter overview](addon_development_overview.md) [Next page](creating_your_own_addon_window.md) |
-
-Add Ons Overview
-----------------
+## Add Ons Overview
 
 Add Ons are incredibly powerful NinjaScript objects that let you create unprecedented tools which are seamlessly integrated (visually and functionally) into NinjaTrader. Experienced programmers can leverage the information available through the framework to create exciting new windows and utilities that can give users an incredible edge over the markets.
 
-How to make Add Ons
--------------------
+## How to make Add Ons
 
 The process to make an Add On is fairly simple once the structure is understood. A few questions should be answered to determine how to build your Add On:
 

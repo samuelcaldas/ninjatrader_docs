@@ -1,20 +1,10 @@
-﻿
+# TextFixed
 
-
-
-TextFixed
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](textfixed.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.TextFixed()](draw_textfixed.md) >  TextFixed | [Previous page](draw_textfixed.md) [Return to chapter overview](draw_textfixed.md) [Next page](draw_timecycles.md) |
-
-Definition
-----------
+## Definition
 
 Represents an interface that exposes information regarding a Text Fixed [IDrawingTool](idrawingtool.md).
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -29,9 +19,11 @@ Methods and Properties
 | OutlineStroke | The [Stroke](stroke_class.md) object used to outline the text box |
 | TextPosition | Possible values are:    TextPosition.BottomLeft  TextPosition.BottomRight  TextPosition.Center  TextPosition.TopLeft  TextPosition.TopRight |
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| // Instantiate a TextFixed object  TextFixed myTF = Draw.TextFixed(this, "tag1", "Text to draw", TextPosition.TopRight);     // Change the object's TextPosition  myTF.TextPosition = TextPosition.Center; |
+```csharp
+// Instantiate a TextFixed object
+TextFixed myTF = Draw.TextFixed(this, "tag1", "Text to draw", TextPosition.TopRight);
+// Change the object's TextPosition
+myTF.TextPosition = TextPosition.Center;
+```

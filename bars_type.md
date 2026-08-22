@@ -1,17 +1,8 @@
-﻿
-
-
-
-Bars Type
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](bars_type.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) >  Bars Type | [Previous page](tabcontrolmanager.md) [Return to chapter overview](language_reference_wip.md) [Next page](addbar.md) |
+# Bars Type
 
 Creating custom Bars Types allows for incredible flexibility in the way you want to present data in a chart. The methods and properties covered in this section are unique to custom Bars Type development.
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |

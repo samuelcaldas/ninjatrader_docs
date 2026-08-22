@@ -1,24 +1,12 @@
-﻿
+# TradingHours
 
-
-
-TradingHours
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](tradinghours.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) >  TradingHours | [Previous page](zigzag.md) [Return to chapter overview](common.md) [Next page](tradinghoursget.md) |
-
-Definition
-----------
+## Definition
 
 Represents the Trading Hours information returned from the current bars series. The Trading Hours object contains several methods and properties for working with various trading sessions.
 
-|  |
-| --- |
-| Warning: The properties in this class should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded |
+> **Warning:** The properties in this class should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |

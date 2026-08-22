@@ -1,19 +1,10 @@
-﻿
+# ChartScale
 
-
-
-ChartScale
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](chartscale.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) >  ChartScale | [Previous page](y_coordinate_chartpanel.md) [Return to chapter overview](chart.md) [Next page](getpixelsfordistance.md) |
-
-The ChartScale class includes a range of properties related to the Y-Axis values of the [ChartPanel](chartpanel.md) on which the calling script resides.  The ChartScale can be configured to Right, Left, or Overlay.
+The ChartScale class includes a range of properties related to the Y-Axis values of the [ChartPanel](chartpanel.md) on which the calling script resides.  The ChartScale can be configured to Right, Left, or Overlay.
 
 ![ChartScale_1](chartscale_1.png)
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |

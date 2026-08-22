@@ -1,30 +1,18 @@
-﻿
+# GetPoint()
 
-
-
-GetPoint()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](getpoint.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Drawing Tool](drawing_tools.md) > [ChartAnchor](chartanchor.md) >  GetPoint() | [Previous page](drawnonbar.md) [Return to chapter overview](chartanchor.md) [Next page](isbrowsable.md) |
-
-Definition
-----------
+## Definition
 
 Returns a chart anchor's data point in device pixels
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [Point](https://msdn.microsoft.com/en-us/library/system.drawing.point%28v=vs.110%29.aspx) structure; a point value in device pixels for a chart's given panel & scale
 
-Syntax
-------
+## Syntax
 
 <chartAnchor>.GetPoint(ChartControl chartControl, ChartPanel chartPanel, ChartScale, [bool pixelAlign])
 
-Method Parameters
------------------
+## Method Parameters
 
 |  |  |
 | --- | --- |
@@ -33,9 +21,9 @@ Method Parameters
 | chartScale | A [ChartScale](chartscale.md) representing the y-axis |
 | pixelAlign | An optional bool determining if the data point should be rounded to closest .5 pixel point |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| //gets the chart anchors data points  Point anchorPoint = MyAnchor.GetPoint(chartControl, chartPanel, chartScale); |
+```csharp
+//gets the chart anchors data points
+Point anchorPoint = MyAnchor.GetPoint(chartControl, chartPanel, chartScale);
+```

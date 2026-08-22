@@ -1,25 +1,14 @@
-﻿
+# Draw.Rectangle()
 
-
-
-Draw.Rectangle()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_rectangle.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Rectangle() | [Previous page](ray.md) [Return to chapter overview](drawing.md) [Next page](rectangle.md) |
-
-Definition
-----------
+## Definition
 
 Draws a rectangle.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [Rectangle](rectangle.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.Rectangle(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
 Draw.Rectangle(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, Brush brush)  
@@ -31,11 +20,10 @@ Draw.Rectangle(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime sta
 Draw.Rectangle(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)  
 Draw.Rectangle(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
-   
- 
+   
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -55,9 +43,12 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a blue rectangle from the low 10 bars back to the high of 5 bars back  Draw.Rectangle(this, "tag1", 10, Low[10] - TickSize, 5, High[5] + TickSize, Brushes.Blue);     // Draws a blue rectangle from the low 10 bars back to the high of 5 bars back with  // a fill color or pale green with a transparency level of 2  Draw.Rectangle(this, "tag1", false, 10, Low[10] - TickSize, 5, High[5] + TickSize, Brushes.PaleGreen, Brushes.PaleGreen, 2); |
+```csharp
+// Draws a blue rectangle from the low 10 bars back to the high of 5 bars back
+Draw.Rectangle(this, "tag1", 10, Low[10] - TickSize, 5, High[5] + TickSize, Brushes.Blue);
+// Draws a blue rectangle from the low 10 bars back to the high of 5 bars back with
+// a fill color or pale green with a transparency level of 2
+Draw.Rectangle(this, "tag1", false, 10, Low[10] - TickSize, 5, High[5] + TickSize, Brushes.PaleGreen, Brushes.PaleGreen, 2);
+```

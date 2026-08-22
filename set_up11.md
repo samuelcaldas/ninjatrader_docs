@@ -1,24 +1,16 @@
-﻿
-
-
-
-Set Up
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](set_up11.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Strategies](developing_strategies.md) > [Intermediate - RSI with Stop Loss & Profit Target](intermediate_-_rsi_with_stop_l.md) >  Set Up | [Previous page](intermediate_-_rsi_with_stop_l.md) [Return to chapter overview](intermediate_-_rsi_with_stop_l.md) [Next page](entering_strategy_logic.md) |
+# Set Up
 
 Our first tutorial covered using the [Strategy Builder](strategy_builder.md) to create simple NinjaScript strategies or to build the framework needed for a more complex strategy.
 
 This tutorial will cover another approach, using the NinjaScript [Editor](editor.md) and [New Strategy Wizard](ns_wizard.md).
 
-1. Within the NinjaTrader Control Center window select the New NinjaScript  Editor... menu item
+1. Within the NinjaTrader Control Center window select the New NinjaScript  Editor... menu item
 
 ![NSTutControlCenter](nstutcontrolcenter.png)
 
 ![NSTutControlCenter2](nstutcontrolcenter2.png)
 
-2. Click the "+" tab in the lower left, and select New Strategy to open a New Strategy Wizard
+2. Click the "+" tab in the lower left, and select New Strategy to open a New Strategy Wizard
 
 ![RSIwithStopAndTargetSetUp1](rsiwithstopandtargetsetup1.png)
 
@@ -28,8 +20,7 @@ This tutorial will cover another approach, using the NinjaScript [Editor](editor
 
 ![RSIwithStopAndTargetSetUp2](rsiwithstopandtargetsetup2.png)
 
-Defining Input Parameters
--------------------------
+## Defining Input Parameters
 
 Below you will define your strategy's input parameters. These are any input parameters that can be changed by the user when running or backtesting a strategy. If your strategy does not require any parameters leave the "Name" fields blank.
 

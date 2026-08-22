@@ -1,16 +1,6 @@
-﻿
+# Order Methods
 
-
-
-Order Methods
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](order_methods.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  Order Methods | [Previous page](isterminalstate.md) [Return to chapter overview](strategy.md) [Next page](managed_approach.md) |
-
-|  |
-| --- |
-| Note: You will not be able to mix and match the two approaches. If you decide to go with the Managed approach you will only be able to use the Managed order methods. If you decide to go with the Unmanaged approach you will only be able to use the Unmanaged order methods. |
+> **Note:** You will not be able to mix and match the two approaches. If you decide to go with the Managed approach you will only be able to use the Managed order methods. If you decide to go with the Unmanaged approach you will only be able to use the Unmanaged order methods.
 
 |  |  |
 | --- | --- |

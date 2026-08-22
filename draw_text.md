@@ -1,20 +1,10 @@
-﻿
+# Draw.Text()
 
-
-
-Draw.Text()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_text.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Text() | [Previous page](square.md) [Return to chapter overview](drawing.md) [Next page](text.md) |
-
-Definition
-----------
+## Definition
 
 Draws text.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [Text](text.md) object that represents the draw object.
 
@@ -26,10 +16,9 @@ Draw.Text(NinjaScriptBase owner, string tag, string text, int barsAgo, double y,
 Draw.Text(NinjaScriptBase owner, string tag, bool isAutoScale, string text, int barsAgo, double y, int yPixelOffset, Brush textBrush, SimpleFont font, TextAlignment alignment, Brush outlineBrush, Brush areaBrush, int areaOpacity)  
 Draw.Text(NinjaScriptBase owner, string tag, bool isAutoScale, string text, DateTime time, double y, int yPixelOffset, Brush textBrush, SimpleFont font, TextAlignment alignment, Brush outlineBrush, Brush areaBrush, int areaOpacity)
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -50,21 +39,20 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws text  Draw.Text(this, "tag1", "Text to draw", 10, 1000, Brushes.Black); |
+```csharp
+// Draws text
+Draw.Text(this, "tag1", "Text to draw", 10, 1000, Brushes.Black);
+```
 
- 
+ 
 
- 
+ 
 
-|  |
-| --- |
-| Tip:  In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.md) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings. |
+> **Tip:** In some cases, it may be useful to pass in the [ChartControl.Properties](chartcontrol_properties.md) TextFont brush as well as the LabelFont [SimpleFont](simplefont_class.md) object to render your custom text .  This will help ensure that the text will be visible and match what a user has configured for their chart label display settings.
 
-| ns |
-| --- |
-| // match the text brush to what the user has configured on their chart  Draw.Text(this, "tag1", "Text to draw", 10, 1000, ChartControl.Properties.ChartText); |
+```csharp
+// match the text brush to what the user has configured on their chart
+Draw.Text(this, "tag1", "Text to draw", 10, 1000, ChartControl.Properties.ChartText);
+```

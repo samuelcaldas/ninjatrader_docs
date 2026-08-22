@@ -1,12 +1,4 @@
-﻿
-
-
-
-Indicator
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](indicator2.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) >  Indicator | [Previous page](reference_samples.md) [Return to chapter overview](reference_samples.md) [Next page](calculating_the_highest_high_o.md) |
+# Indicator
 
 |  |
 | --- |
@@ -32,4 +24,4 @@ Indicator
 - [Using StreamWriter to write to a text file](using_streamwriter_to_write_to.md)  
 - [Using System.IO File properties to write to and read from a text file](using_system_io_file_propertie.md)  
 - [Using Try-Catch Blocks](using_try-catch_blocks.md)  
-- [Creating Chart WPF (UI) Modifications from an Indicator](creating-chart-wpf-(ui)-modifi.md) |
+- [Creating Chart WPF (UI) Modifications from an Indicator](creating_chart_wpf_ui_modifications.md)-modifi.md) |

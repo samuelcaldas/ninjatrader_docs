@@ -1,31 +1,30 @@
-﻿
+# Connection
 
-
-
-Connection
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](connection.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) >  Connection | [Previous page](change.md) [Return to chapter overview](account_class.md) [Next page](connectoptions.md) |
-
-Definition
-----------
+## Definition
 
 Indicates the data connection used for the specified account.
 
-Property Value
---------------
+## Property Value
 
 An instance of the Connection class containing information about the connection used for a specified account
 
-Syntax
-------
+## Syntax
 
 <Account>.Connection
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| private Account myAccount;     protected override void OnStateChange()  {     if (State == State.SetDefaults)     {         myAccount = Account.All.FirstOrDefault(a => a.Name == "Sim101");     }  }     private void OnAccountStatusUpdate(object sender, AccountStatusEventArgs e)  {     Print(String.Format("{0} connection updated", myAccount.Connection.Options.Name));  } |
+```csharp
+private Account myAccount;
+protected override void OnStateChange()
+{
+    if (State == State.SetDefaults)
+    {
+        myAccount = Account.All.FirstOrDefault(a => a.Name == "Sim101");
+    }
+}
+private void OnAccountStatusUpdate(object sender, AccountStatusEventArgs e)
+{
+    Print(String.Format("{0} connection updated", myAccount.Connection.Options.Name));
+}
+```

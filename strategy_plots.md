@@ -1,12 +1,4 @@
-﻿
-
-
-
-Plots
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](strategy_plots.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  Plots | [Previous page](strategy_performancemetrics.md) [Return to chapter overview](strategy.md) [Next page](position.md) |
+# Plots
 
 Plotting functionality for NinjaScript Strategies is largely identical to the framework for Indicators. Please review the [Plots](plots.md) / [AddPlot()](addplot.md) page under the Indicators section.
 

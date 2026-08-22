@@ -1,20 +1,10 @@
-﻿
+# Draw.RegionHighlightY()
 
-
-
-Draw.RegionHighlightY()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_regionhighlighty.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.RegionHighlightY() | [Previous page](regionhighlightx.md) [Return to chapter overview](drawing.md) [Next page](regionhighlighty.md) |
-
-Definition
-----------
+## Definition
 
 Draws a region highlight y on a chart.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [RegionHighlightY](regionhighlighty.md) object that represents the draw object.
 
@@ -24,10 +14,9 @@ Draw.RegionHighlightY(NinjaScriptBase owner, string tag, double startY, double e
 Draw.RegionHighlightY(NinjaScriptBase owner, string tag, bool isAutoScale, double startY, double endY, Brush brush, Brush areaBrush, int areaOpacity)  
 Draw.RegionHighlightY(NinjaScriptBase owner, string tag, double startY, double endY, bool isGlobal, string templateName)
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -42,9 +31,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Fills in the region between the startY and endY  Draw.RegionHighlightY(this, "tag1", true, High[0], Low[0], Brushes.Blue, Brushes.Green, 20); |
+```csharp
+// Fills in the region between the startY and endY
+Draw.RegionHighlightY(this, "tag1", true, High[0], Low[0], Brushes.Blue, Brushes.Green, 20);
+```

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Strategy Analyzer
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](strategy_analyzer.md) >>  **Navigation:**  [Operations](operations.md) >  Strategy Analyzer | [Previous page](trading_in_simulation.md) [Return to chapter overview](operations.md) [Next page](strategy_analyzer_layout.md) |
+# Strategy Analyzer
 
 |  |
 | --- |

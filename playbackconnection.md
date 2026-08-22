@@ -1,44 +1,29 @@
-﻿
+# MethodName()
 
-
-
-MethodName()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](playbackconnection.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Connection](connection_class.md) >  MethodName() | [Previous page](reloadallhistoricaldata.md) [Return to chapter overview](connection_class.md) [Next page](iinstrumentprovider_interface.md) |
-
-Definition
-----------
+## Definition
 
 Defines the method/property
 
-|  |
-| --- |
-| Note:  This important note |
+> **Note:** This important note
 
-Method Return Value
--------------------
+## Method Return Value
 
 A bool value when true; otherwise false.
 
-Syntax
-------
+## Syntax
 
 MethodName(int input)
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
 | input | An int which represents the method input |
 
-Examples
---------
+## Examples
 
-| ns | |
-| --- | --- |
-| 1 |  |
+```csharp
+1
+```

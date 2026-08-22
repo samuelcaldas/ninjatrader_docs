@@ -1,20 +1,10 @@
-﻿
+# FundamentalDataEventArgs
 
-
-
-FundamentalDataEventArgs
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](fundamentaldataeventargs.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnFundamentalData()](onfundamentaldata.md) >  FundamentalDataEventArgs | [Previous page](onfundamentaldata.md) [Return to chapter overview](onfundamentaldata.md) [Next page](onmarketdata.md) |
-
-Definition
-----------
+## Definition
 
 Represents a change in fundamental data and is passed as a parameter in the [OnFundamentalData()](onfundamentaldata.md) method.
 
-Methods and Parameters
-----------------------
+## Methods and Parameters
 
 |  |  |
 | --- | --- |
@@ -25,12 +15,18 @@ Methods and Parameters
 | LongValue | A long value representing fundamental data |
 | ToString() | A string representation of the FundamentalDataEventArgs object |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDataUpdate)  {       // Print some data to the Output window       if (fundamentalDataUpdate.FundamentalDataType == FundamentalDataType.AverageDailyVolume)           Print("Average Daily Volume = " + fundamentalDataUpdate.LongValue);       else if (fundamentalDataUpdate.FundamentalDataType == FundamentalDataType.PriceEarningsRatio)           Print("P/E Ratio = " + fundamentalDataUpdate.DoubleValue);  } |
+```csharp
+protected override void OnFundamentalData(FundamentalDataEventArgs fundamentalDataUpdate)
+{
+    // Print some data to the Output window
+    if (fundamentalDataUpdate.FundamentalDataType == FundamentalDataType.AverageDailyVolume)
+    Print("Average Daily Volume = " + fundamentalDataUpdate.LongValue);
+    else if (fundamentalDataUpdate.FundamentalDataType == FundamentalDataType.PriceEarningsRatio)
+    Print("P/E Ratio = " + fundamentalDataUpdate.DoubleValue);
+}
+```
 
 Tips
 

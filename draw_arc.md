@@ -1,25 +1,14 @@
-﻿
+# Draw.Arc()
 
-
-
-Draw.Arc()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_arc.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Arc() | [Previous page](andrewspitchfork.md) [Return to chapter overview](drawing.md) [Next page](arc.md) |
-
-Definition
-----------
+## Definition
 
 Draws an arc.
 
-Method Return Value
--------------------
+## Method Return Value
 
 An [Arc](arc.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.Arc(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
 Draw.Arc(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, Brush brush)  
@@ -30,12 +19,11 @@ Draw.Arc(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime
 Draw.Arc(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)  
 Draw.Arc(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
- 
+ 
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -55,9 +43,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a dotted lime green arc  Draw.Arc(this, "tag1", false, 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2); |
+```csharp
+// Draws a dotted lime green arc
+Draw.Arc(this, "tag1", false, 10, 1000, 0, 1001, Brushes.LimeGreen, DashStyleHelper.Dot, 2);
+```

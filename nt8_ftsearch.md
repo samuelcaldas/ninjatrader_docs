@@ -1,10 +1,5 @@
-﻿
-
-
-
 [![Back to Index](nt8logo.png)](welcome.md "Index")  
 [Back to Table of Contents](nt8_content.md "Table of Contents")
-
 
 ---
 

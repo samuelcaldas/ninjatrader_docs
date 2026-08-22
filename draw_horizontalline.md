@@ -1,25 +1,14 @@
-﻿
+# Draw.HorizontalLine()
 
-
-
-Draw.HorizontalLine()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_horizontalline.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.HorizontalLine() | [Previous page](gannfan.md) [Return to chapter overview](drawing.md) [Next page](horizontalline.md) |
-
-Definition
-----------
+## Definition
 
 Draws a horizontal line.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [HorizontalLine](horizontalline.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.HorizontalLine(NinjaScriptBase owner, string tag, double y, Brush brush)  
 Draw.HorizontalLine(NinjaScriptBase owner, string tag, bool isAutoScale, double y, Brush brush, DashStyleHelper dashStyle, int width)  
@@ -27,11 +16,10 @@ Draw.HorizontalLine(NinjaScriptBase owner, string tag, bool isAutoscale, double 
 Draw.HorizontalLine(NinjaScriptBase owner, string tag, double y, Brush brush, DashStyleHelper dashStyle, int width, bool drawOnPricePanel)  
 Draw.HorizontalLine(NinjaScriptBase owner, string tag, double y, bool isGlobal, string templateName)
 
-   
- 
+   
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -46,9 +34,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns | |
-| --- | --- |
-|  | // Draws a horizontal line  Draw.HorizontalLine(this, "tag1", 1000, Brushes.Black); |
+```csharp
+// Draws a horizontal line
+Draw.HorizontalLine(this, "tag1", 1000, Brushes.Black);
+```

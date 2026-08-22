@@ -1,28 +1,18 @@
-﻿
+# Compile Errors
 
+## When compiling a custom indicator or strategy it is possible and likely that you will generate compile errors.
 
+- NinjaTrader will compile ALL NinjaScript files NOT only the file you are working on
 
-Compile Errors
+- A list of compile errors for all files will be displayed in the lower portion of the NinjaScript Editor
 
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](compile_errors.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Editor](editor.md) >  Compile Errors | [Previous page](code_snippets.md) [Return to chapter overview](editor.md) [Next page](intelliprompt.md) |
+- Double click on an error to load the problem file and highlight the problem area
 
-When compiling a custom indicator or strategy it is possible and likely that you will generate compile errors.
---------------------------------------------------------------------------------------------------------------
+- Click on the error code to bring up Help Documentation on a specific error
 
-•NinjaTrader will compile ALL NinjaScript files NOT only the file you are working on
+- Right click on the error to exclude the problem file from compilation (see the section on [Excluding a script from compilation](ns_explorer.md) for more information)
 
-•A list of compile errors for all files will be displayed in the lower portion of the NinjaScript Editor
-
-•Double click on an error to load the problem file and highlight the problem area
-
-•Click on the error code to bring up Help Documentation on a specific error
-
-•Right click on the error to exclude the problem file from compilation (see the section on [Excluding a script from compilation](ns_explorer.md) for more information)
-
-The image below illustrates a compile error
--------------------------------------------
+## The image below illustrates a compile error
 
 1. Section where compile errors are displayed. Errors in the current loaded file are color coded a light color while errors in other files have a darker color code.
 
@@ -38,9 +28,9 @@ The image below illustrates a compile error
 
 The error highlighted by icon (6) below shows that the expression is not closed with a semicolon. The expression should be:
 
-   
+   
 double myValue = SMA(20)[0];
 
- 
+ 
 
 ![NS_Editor_4](ns_editor_4.png)

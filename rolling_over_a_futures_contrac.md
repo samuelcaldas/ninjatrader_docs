@@ -1,15 +1,6 @@
-﻿
+# Rolling Over Futures Contracts
 
-
-
-Rolling Over Futures Contracts
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](rolling_over_a_futures_contrac.md) >>  **Navigation:**  [Operations](operations.md) > [Instruments](instruments.md) >  Rolling Over Futures Contracts | [Previous page](editing_instruments.md) [Return to chapter overview](instruments.md) [Next page](adding_splits_and_dividends.md) |
-
-Batch Rollover
---------------
+## Batch Rollover
 
 NinjaTrader allows batch rollover of the contract expiry of all instruments across all instrument lists and windows on all open workspaces. To perform this batch rollover please see the steps below.
 
@@ -25,15 +16,13 @@ Note: NinjaScript strategies are not rolled forward and must be manually rolled 
 
 ![Instruments_AutomaticRollOver](instruments_automaticrollover.png)
 
-Manual Rollover
----------------
+## Manual Rollover
 
 You can choose to manually rollover each window to the next contract month. This may be useful for when you want to only partially roll over your workspace.
 
 Manually rolling the contract is done by typing in the next contract expiry in the windows instrument selector.For example: "ES 09-16" to "ES 12-16".
 
-Rollover of Drawing Objects
----------------------------
+## Rollover of Drawing Objects
 
 To rollover your drawing objects you can complete either a batch rollover or a manual rollover. Closing your chart and opening a new chart would result in the drawing objects being lost.
 

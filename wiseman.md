@@ -1,12 +1,4 @@
-﻿
-
-
-
-Wiseman
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](wiseman.md) >>  **Navigation:**  [Operations](operations.md) > [Charts](charts.md) >  Wiseman | [Previous page](cot.md) [Return to chapter overview](charts.md) [Next page](understanding_commissions.md) |
+# Wiseman
 
 The Wiseman indicators group are provided by Profitunity and were developed by Bill M. Williams. Profitunity is an educational partner and offers courses on using the Wiseman indicators on their website [www.profitunity.com](http://www.profitunity.com)
 
@@ -20,9 +12,9 @@ The Wiseman indicators group are provided by Profitunity and were developed by B
 
 |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Description The Wiseman Awesome Oscillator is a momentum indicator to identify trends and reversals.   Display and using the Wiseman Awesome Oscillator As the oscillator is below zero the market is considered a bear market. As the oscillator is above the zero it is a bull market. The oscillator is colored green when the value is greater than the previous bar and it is colored red when the value is less than the previous bar.    WisemanAwesomeOscillator   Wiseman Awesome Oscillator Properties |  |  | | --- | --- | | Width | The width of the bars | | Color up | Color for bar values higher than the previous bar | | Color down | Color for bar values lower than the previous bar |       |  | | --- | | Note: For information on the Bar color properties, please contact [www.profitunity.com](http://www.profitunity.com) | |
+| Description The Wiseman Awesome Oscillator is a momentum indicator to identify trends and reversals.   Display and using the Wiseman Awesome Oscillator As the oscillator is below zero the market is considered a bear market. As the oscillator is above the zero it is a bull market. The oscillator is colored green when the value is greater than the previous bar and it is colored red when the value is less than the previous bar.    WisemanAwesomeOscillator   Wiseman Awesome Oscillator Properties |  |  | | --- | --- | | Width | The width of the bars | | Color up | Color for bar values higher than the previous bar | | Color down | Color for bar values lower than the previous bar |       |  | | --- | | Note: For information on the Bar color properties, please contact [www.profitunity.com](http://www.profitunity.com) | |
 
-![tog_plus](tog_plus.gif)        Wiseman Fractal
+![tog_plus](tog_plus.gif)        Wiseman Fractal
 
 |  |  |  |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |

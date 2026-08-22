@@ -1,25 +1,14 @@
-﻿
+# UpdateBar()
 
-
-
-UpdateBar()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](updatebar.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Bars Type](bars_type.md) >  UpdateBar() | [Previous page](barstype_sessioniterator.md) [Return to chapter overview](bars_type.md) [Next page](chart_style.md) |
-
-Definition
-----------
+## Definition
 
 Updates a data point in our Bars Type.
 
-Syntax
-------
+## Syntax
 
 UpdateBar(Bars bars, double high, double low, double close, DateTime time, long volumeAdded)
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -30,9 +19,8 @@ Parameters
 | time | A DateTime value representing the time |
 | volume | A long value representing the volume |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| UpdateBar(bars, high, low, close, time, volume); |
+```csharp
+UpdateBar(bars, high, low, close, time, volume);
+```

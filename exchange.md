@@ -1,37 +1,28 @@
-﻿
+# Exchange
 
-
-
-Exchange
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](exchange.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > [Instrument](instrument.md) >  Exchange | [Previous page](instrument.md) [Return to chapter overview](instrument.md) [Next page](expiry.md) |
-
-Definition
-----------
+## Definition
 
 Indicates the current exchange of an instrument
 
-Property Value
---------------
+## Property Value
 
 Represents the exchange which is selected for the current instrument.
 
-Syntax
-------
+## Syntax
 
 Instrument.Exchange
 
- 
+ 
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {     // Print the exchange of the currently configured instrument     Print(String.Format("Configured instrument is on the {0} exchange", Instrument.Exchange));  } |
+```csharp
+protected override void OnBarUpdate()
+{
+    // Print the exchange of the currently configured instrument
+    Print(String.Format("Configured instrument is on the {0} exchange", Instrument.Exchange));
+}
+```
 
 Additional Access Information 
-This property can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be an Instrument object. Should you wish to access this property elsewhere, check for null reference first. e.g. if (Instrument != null)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## This property can be accessed without a null reference check in the OnBarUpdate() event handler. When the OnBarUpdate() event is triggered, there will always be an Instrument object. Should you wish to access this property elsewhere, check for null reference first. e.g. if (Instrument != null)

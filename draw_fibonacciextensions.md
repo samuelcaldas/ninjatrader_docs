@@ -1,36 +1,24 @@
-﻿
+# Draw.FibonacciExtensions()
 
-
-
-Draw.FibonacciExtensions()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_fibonacciextensions.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.FibonacciExtensions() | [Previous page](fibonaccicircle.md) [Return to chapter overview](drawing.md) [Next page](fibonacciextensions.md) |
-
-Definition
-----------
+## Definition
 
 Draws a fibonacci extension.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [FibonacciExtensions](fibonacciextensions.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.FibonacciExtensions(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, int extensionBarsAgo, double extensionY)  
 Draw.FibonacciExtensions(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY, DateTime extensionTime, double extensionY)  
 Draw.FibonacciExtensions(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY, DateTime extensionTime, double extensionY, bool isGlobal, string templateName)  
 Draw.FibonacciExtensions(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, int extensionBarsAgo, double extensionY, bool isGlobal, string templateName)
 
-   
- 
+   
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -49,9 +37,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a fibonnaci extension  Draw.FibonacciExtensions(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]); |
+```csharp
+// Draws a fibonnaci extension
+Draw.FibonacciExtensions(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);
+```

@@ -1,56 +1,41 @@
-﻿
-
-
-
-Developing Indicators
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](developing_indicators.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) >  Developing Indicators | [Previous page](developing_for__tick_replay.md) [Return to chapter overview](educational_resources.md) [Next page](advanced_-_custom_drawing.md) |
+# Developing Indicators
 
 Indicators are the building blocks of any automated trading system. NinjaScript allows you to develop custom indicators quickly. A few key points are:
 
-•Custom indicators are compiled and run natively within the NinjaTrader application, providing the highest performance possible
+- Custom indicators are compiled and run natively within the NinjaTrader application, providing the highest performance possible
 
-•Indicator values are calculated at the current bar, which ensures that you do not accidentally include future data in your calculations
+- Indicator values are calculated at the current bar, which ensures that you do not accidentally include future data in your calculations
 
-•You can retain calculations between bar updates
+- You can retain calculations between bar updates
 
-•You can retain and share calculation values between bar updates and across indicators
+- You can retain and share calculation values between bar updates and across indicators
 
 Custom indicator development follows a logical progression.
 
 Wizard  
-The wizard allows you to define your overall indicator parameters which include name, properties, inputs, plots and oscillator lines. The wizard will then generate the necessary NinjaScript code and open up the NinjaScript [Editor](editor.md).
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## The wizard allows you to define your overall indicator parameters which include name, properties, inputs, plots and oscillator lines. The wizard will then generate the necessary NinjaScript code and open up the NinjaScript [Editor](editor.md).
 
-OnStateChange() Method
-----------------------
+## OnStateChange() Method
 
 The [OnStateChange()](onstatechange.md) method is called once before any initial calculation triggered by an update bar event. This method is used to configure the indicators plots, lines and properties. The wizard will generate the required NinjaScript code for this method for most cases.
 
-OnBarUpdate() Method
---------------------
+## OnBarUpdate() Method
 
 The [OnBarUpdate()](onbarupdate.md) method is called with either with each incoming tick or on the close of each bar, depending on how you deploy the indicator at run time. Your core indicator calculation logic is contained within this method.
 
-Debug
------
+## Debug
 
 The NinjaScript Editor will perform both syntax and semantic checks and list any errors at the bottom of the window. If there are logic problems with your indicator, they will be listed in the [Log tab](log_tab2.md) of the NinjaScript [Control Center](control_center.md) during run time. You can use the [Print()](print.md) method within your script to help debug your code. Output will be sent to the NinjaScript Output window.
 
-Compilation
------------
+## Compilation
 
 Once the coding effort is completed, you must then compile the indicator (several second process) directly from the NinjaScript Editor.
 
-Usage
------
+## Usage
 
 The completed indicator is now available through any window that can use an indicator, such as a [Chart](charts.md).
 
-Tutorial Descriptions
----------------------
+## Tutorial Descriptions
 
 All internal NinjaTrader indicators come with full source code and can be viewed within the NinjaScript Editor. Please review the tutorials within this section for detailed walk throughs of custom indicator development.
 

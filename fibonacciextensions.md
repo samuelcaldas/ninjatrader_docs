@@ -1,20 +1,10 @@
-﻿
+# FibonacciExtensions
 
-
-
-FibonacciExtensions
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](fibonacciextensions.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.FibonacciExtensions()](draw_fibonacciextensions.md) >  FibonacciExtensions | [Previous page](draw_fibonacciextensions.md) [Return to chapter overview](draw_fibonacciextensions.md) [Next page](draw_fibonacciretracements.md) |
-
-Definition
-----------
+## Definition
 
 Represents an interface that exposes information regarding a Fibonacci Extensions [IDrawingTool](idrawingtool.md).
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -26,9 +16,11 @@ Methods and Properties
 | IsExtendedLinesLeft | A bool value determining if the draw object should draw lines to the far left side of the screen |
 | IsExtendedLinesRight | A bool value determining if the draw object should draw lines to the far right side of the screen |
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| // Instantiates a Fibonnaci Extension  FibonacciExtensions myFibExt = Draw.FibonacciExtensions(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);     // Extend the Fibonacci Extension oject's lines to the right  myFibExt.IsExtendedLinesRight = true; |
+```csharp
+// Instantiates a Fibonnaci Extension
+FibonacciExtensions myFibExt = Draw.FibonacciExtensions(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);
+// Extend the Fibonacci Extension oject's lines to the right
+myFibExt.IsExtendedLinesRight = true;
+```

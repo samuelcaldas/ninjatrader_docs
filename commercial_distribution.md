@@ -1,12 +1,4 @@
-﻿
-
-
-
-Commercial Distribution
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](commercial_distribution.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Distribution](distribution.md) >  Commercial Distribution | [Previous page](protection_dll_security.md) [Return to chapter overview](distribution.md) [Next page](licensing_user_authentication.md) |
+# Commercial Distribution
 
 |  |
 | --- |

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Using
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](using4.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) > [Intermediate - Historical Custom Data Series](intermediate_-_historical_cust.md) >  Using | [Previous page](compiling4.md) [Return to chapter overview](intermediate_-_historical_cust.md) [Next page](intermediate_-_your_own_sma.md) |
+# Using
 
 Your indicator is now ready for use and will be listed in the Indicator Dialog window.
 

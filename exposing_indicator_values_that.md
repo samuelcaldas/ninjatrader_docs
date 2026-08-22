@@ -1,37 +1,26 @@
-﻿
-
-
-
-Exposing indicator values that are not plots
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](exposing_indicator_values_that.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Exposing indicator values that are not plots | [Previous page](ensuring_indicator_plots_are_v.md) [Return to chapter overview](indicator2.md) [Next page](getting_indicator_values_from_.md) |
+# Exposing indicator values that are not plots
 
 There may be cases where you want to have your indicator calculate non-plotted values that you will want to access when using this indicator inside of another indicator or strategy.
 
-Key concepts in this example
-----------------------------
+## Key concepts in this example
 
-•Creating exposed BoolSeries objects
+- Creating exposed BoolSeries objects
 
-•Storing and retrieving values from BoolSeries objects
+- Storing and retrieving values from BoolSeries objects
 
-Important related documentation
--------------------------------
+## Important related documentation
 
-•[Series<T>](seriest.md)
+- [`Series<T>`](seriest.md)
 
 We suggest using an available class that implements the Series interface.
 
-•[Price Series](priceseries.md)
+- [Price Series](priceseries.md)
 
-•[Time Series](timeseries.md)
+- [Time Series](timeseries.md)
 
-•[Volume Series](volumeseries.md)
+- [Volume Series](volumeseries.md)
 
-Import instructions
--------------------
+## Import instructions
 
 1.Download the file contained in this Help Guide topic to your PC desktop
 

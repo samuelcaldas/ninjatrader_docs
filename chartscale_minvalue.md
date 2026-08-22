@@ -1,20 +1,10 @@
-﻿
+# MinValue
 
-
-
-MinValue
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](chartscale_minvalue.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartScale](chartscale.md) >  MinValue | [Previous page](chartscale_maxvalue.md) [Return to chapter overview](chartscale.md) [Next page](panelindex.md) |
-
-Definition
-----------
+## Definition
 
 The lowest rendered value on the chart scale.
 
-Property Value
---------------
+## Property Value
 
 A double value representing lowest value on the chart scale as a y value.
 
@@ -22,17 +12,22 @@ Syntax
 
 <chartScale>.MinValue
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale)  {              // the minimum value of the chart scale     double minValue   = chartScale.MinValue;        Print("minValue: " + minValue);  } |
+```csharp
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+{
+    // the minimum value of the chart scale
+    double minValue
+    = chartScale.MinValue;
+    Print("minValue: " + minValue);
+}
+```
 
- 
+ 
 
- 
+ 
 
-In the image below, the lowest value displayed as text on the y-axis reads 2102.50, however as you can see, there are a few pixels on the chart scale below this tick.  The absolute rendered MinValue on the chart scale is calculated as 2102.29.
+In the image below, the lowest value displayed as text on the y-axis reads 2102.50, however as you can see, there are a few pixels on the chart scale below this tick.  The absolute rendered MinValue on the chart scale is calculated as 2102.29.
 
 ![MinValue](minvalue.png)

@@ -1,20 +1,10 @@
-﻿
+# Draw.RegressionChannel()
 
-
-
-Draw.RegressionChannel()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_regressionchannel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.RegressionChannel() | [Previous page](regionhighlighty.md) [Return to chapter overview](drawing.md) [Next page](regressionchannel.md) |
-
-Definition
-----------
+## Definition
 
 Draws a regression channel.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [RegressionChannel](regressionchannel.md) object that represents the draw object.
 
@@ -24,11 +14,9 @@ Draw.RegressionChannel(NinjaScriptBase owner, string tag, DateTime startTime, Da
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, int endBarsAgo, Brush upperBrush, DashStyleHelper upperDashStyleHelper, int upperWidth, Brush middleBrush, DashStyleHelper middleDashStyleHelper, int middleWidth, Brush lowerBrush, DashStyleHelper lowerDashStyleHelper, int lowerWidth) 
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, DateTime endTime, Brush upperBrush, DashStyleHelper upperDashStyleHelper, int upperWidth, Brush middleBrush, DashStyleHelper middleDashStyleHelper, int middleWidth, Brush lowerBrush, DashStyleHelper lowerDashStyleHelper, int lowerWidth) 
 Draw.RegressionChannel(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, bool isGlobal, string templateName) 
-Draw.RegressionChannel(NinjaScriptBase owner, string tag, DateTime startTime, DateTime endTime, bool isGlobal, string templateName)
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Draw.RegressionChannel(NinjaScriptBase owner, string tag, DateTime startTime, DateTime endTime, bool isGlobal, string templateName)
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -46,9 +34,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a regression channel from the low 10 bars back to the high of 5 bars back  Draw.RegressionChannel(this, "tag1", 10, 0, Brushes.Blue); |
+```csharp
+// Draws a regression channel from the low 10 bars back to the high of 5 bars back
+Draw.RegressionChannel(this, "tag1", 10, 0, Brushes.Blue);
+```

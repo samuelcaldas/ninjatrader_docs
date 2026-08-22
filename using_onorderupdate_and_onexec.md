@@ -1,12 +1,4 @@
-﻿
-
-
-
-Using OnOrderUpdate() and OnExecution() methods to submit protective orders
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](using_onorderupdate_and_onexec.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Strategy](strategy2.md) >  Using OnOrderUpdate() and OnExecution() methods to submit protective orders | [Previous page](using_multiple_entry_exit_sign.md) [Return to chapter overview](strategy2.md) [Next page](using_isrising_and_isfalling_c.md) |
+# Using OnOrderUpdate() and OnExecution() methods to submit protective orders
 
 The OnOrderUpdate() and OnExecutionUpdate() methods are reserved for experienced programmers.
 
@@ -16,30 +8,27 @@ The OnOrderUpdate() method is updated whenever the state of an order changes whi
 
 The OnExecutionUpdate() method is updated whenever you receive an execution or a fill on your orders. This method provides you the fastest possible submission of protective orders. Utilizing the increased granularity provided in these advanced methods can be advantageous to you by providing you with maximum control of how your stop-loss and profit target orders behave.
 
-Key concepts in this example
-----------------------------
+## Key concepts in this example
 
-•Submitting live-until-cancelled entry orders
+- Submitting live-until-cancelled entry orders
 
-•Modifying stop-loss order to breakeven after a certain amount in profit
+- Modifying stop-loss order to breakeven after a certain amount in profit
 
-Important related documentation
--------------------------------
+## Important related documentation
 
-•[Order](order.md)
+- [Order](order.md)
 
-•[Execution](execution.md)
+- [Execution](execution.md)
 
-•[OnOrderUpdate()](onorderupdate.md)
+- [OnOrderUpdate()](onorderupdate.md)
 
-•[OnExecutionUpdate()](onexecutionupdate.md)
+- [OnExecutionUpdate()](onexecutionupdate.md)
 
-•[SetStopLoss()](setstoploss.md)
+- [SetStopLoss()](setstoploss.md)
 
-•[SetProfitTarget()](setprofittarget.md)
+- [SetProfitTarget()](setprofittarget.md)
 
-Import instructions
--------------------
+## Import instructions
 
 1.Download the file contained in this Help Guide topic to your PC desktop
 

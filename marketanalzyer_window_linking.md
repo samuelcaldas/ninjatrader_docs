@@ -1,14 +1,6 @@
-﻿
+# Window Linking
 
-
-
-Window Linking
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](marketanalzyer_window_linking.md) >>  **Navigation:**  [Operations](operations.md) > [Market Analyzer](market_analyzer.md) >  Window Linking | [Previous page](reloading_indicators__columns.md) [Return to chapter overview](market_analyzer.md) [Next page](market-watch.md) |
-
-One of the most useful features of the Market Analyzer is the ability to link the instruments displayed in the Market Analyzer grid to any other window in the NinjaTrader application.  This allows you to cycle through a custom list of instruments and quickly load the desired symbols in a Chart, SuperDOM, or any other feature which uses the [Window Linking](linking_windows.md) feature.
+One of the most useful features of the Market Analyzer is the ability to link the instruments displayed in the Market Analyzer grid to any other window in the NinjaTrader application.  This allows you to cycle through a custom list of instruments and quickly load the desired symbols in a Chart, SuperDOM, or any other feature which uses the [Window Linking](linking_windows.md) feature.
 
 In order to accomplish this setup, please see the steps and image below:
 

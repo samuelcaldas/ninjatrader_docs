@@ -1,24 +1,12 @@
-﻿
+# AddOn Development Overview
 
-
-
-AddOn Development Overview
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](addon_development_overview.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) >  AddOn Development Overview | [Previous page](educational_resources.md) [Return to chapter overview](educational_resources.md) [Next page](developing_add_ons.md) |
-
-AddOn Development Basics
-------------------------
+## AddOn Development Basics
 
 The NinjaScript AddOn framework provides functionality reaching across the NinjaTrader platform while granting access to certain core methods and properties not contained within the NinjaScript namespace. In addition to creating your own independent window or modifying the user interface and functionality of existing NinjaTrader windows (charts, etc.), AddOns can also subscribe to live market data, access account information, and more.
 
-|  |
-| --- |
-| AddOn Framework accessible on this page.  There are two versions deployed when you can access depending on your desired development environment.  The pros and cons of each approach are described in the following section.  In either version, the heavily commented code in the example can supplement the information on these pages to provide deeper insight. |
+> AddOn Framework accessible on this page.  There are two versions deployed when you can access depending on your desired development environment.  The pros and cons of each approach are described in the following section.  In either version, the heavily commented code in the example can supplement the information on these pages to provide deeper insight.
 
-NinjaScript Editor Development Environment (NinjaScript Basic)
---------------------------------------------------------------
+## NinjaScript Editor Development Environment (NinjaScript Basic)
 
 The NinjaScript Editor can be used to create and write custom AddOns in C#
 
@@ -30,8 +18,7 @@ Below is a NinjaScript Editor compatible zip file (which also contains a XAML fi
 
 Once imported, the AddOn can be launched via the New menu in the Control Center
 
-AddOn Development Environment (Visual Studio Advanced)
-------------------------------------------------------
+## AddOn Development Environment (Visual Studio Advanced)
 
 Since AddOns can include multiple classes, unique user interfaces, and various file types (XAML, sounds, etc.), the recommended development environment for AddOns differs from other NinjaScript Types. Following the guidelines below to set up an AddOn development environment can help to streamline the process.
 
@@ -45,12 +32,10 @@ Below is a complete Visual Studio project with this setup in place. Simply unzip
 
 [Download Visual Studio Solution for AddOn Development](https://ninjatrader.com/support/helpGuides/nt8/samples/NinjaTraderAddOnProject.zip)
 
-|  |
-| --- |
-| Notes:  •The solution targets .NET 4.8 with NinjaTrader Release R23 or higher, if you open it in a lesser .NET version Visual Studio will prompt you to download the required higher version SDK. |
+> **Notes:**
+- The solution targets .NET 4.8 with NinjaTrader Release R23 or higher, if you open it in a lesser .NET version Visual Studio will prompt you to download the required higher version SDK.
 
-Creating Your Own AddOn Window
-------------------------------
+## Creating Your Own AddOn Window
 
 NinjaScript developers can utilize the AddOn framework to create free-standing, independent windows to provide custom functionality. Helper classes are available in the framework to instantiate windows styled the same as pre-built NinjaTrader windows, including familiar functionality such as window linking, the tabbed interface, and the ability to save the window and its state in workspaces. In addition, general WPF user interface elements and XAML can be used to style and modify windows using the .NET framework.
 
@@ -60,8 +45,7 @@ For a detailed walkthrough of creating your own window using NinjaScript helper 
 
 The image above shows a completely new window created by a custom AddOn.
 
-Other Uses for an AddOn
------------------------
+## Other Uses for an AddOn
 
 An AddOn does not require its own window to function. It can instead be used to accomplish non-UI-driven functionality across the platform, such as monitoring market data or accessing account, position, and order information. AddOns can also be used to add functionality or interface elements to other NinjaTrader windows, such as charts.
 

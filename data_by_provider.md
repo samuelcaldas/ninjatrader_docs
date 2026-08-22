@@ -1,15 +1,6 @@
-﻿
+# Data by Provider
 
-
-
-Data by Provider
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](data_by_provider.md) >>  **Navigation:**  [Operations](operations.md) > [Historical Data](historical_data_manager.md) >  Data by Provider | [Previous page](loading_historical_data.md) [Return to chapter overview](historical_data_manager.md) [Next page](importing.md) |
-
-Understanding the data provided by your connectivity provider
--------------------------------------------------------------
+## Understanding the data provided by your connectivity provider
 
 NinjaTrader, LLC is not a market data provider. Historical data is provided by our connectivity providers that offer historical data as part of their service. The table below displays all NinjaTrader supported connectivity providers as well as the historical and real-time data provided by each:
 
@@ -43,20 +34,14 @@ I = Indexes
 
 (O) = Options on underlying instrument type
 
-|  |
-| --- |
-| Notes:  There are various limitations on data from each provider and data is subject to change.  Options are not supported for NinjaScript use.  \*Historical bid/ask comes from associated value at each historical last tick value. |
+> **Notes:** There are various limitations on data from each provider and data is subject to change.  Options are not supported for NinjaScript use.  \*Historical bid/ask comes from associated value at each historical last tick value.
 
-Converting Real-Time Data into Historical Data
-----------------------------------------------
+## Converting Real-Time Data into Historical Data
 
 NinjaTrader by default will always loads historical data from your provider (Recommended). However if you enable the option 'Record live data as historical' in the Control Center > Tools > Options > Market Data Category then NinjaTrader will store real-time incoming tick data to your local PC if you have a Chart or Market Analyzer (must have an indicator column added) window open. This data can then be used as historical data. For example, if you open a chart and let it run all day long, the data collected today, will be available as historical data when you open the same chart tomorrow.
 
-|  |
-| --- |
-| Warning: Recording live data uses more PC resources and is intended for connections which DO NOT provide historical data.  Enabling this option while also using a historical data provider is not recommended as it may result in data gaps. |
+> **Warning:** Recording live data uses more PC resources and is intended for connections which DO NOT provide historical data.  Enabling this option while also using a historical data provider is not recommended as it may result in data gaps.
 
-Connecting to your Broker and a Market Data Provider Simultaneously
--------------------------------------------------------------------
+## Connecting to your Broker and a Market Data Provider Simultaneously
 
 If your broker technology does not support historical data, you can connect to a service like Kinetick at the same time as connecting to your broker so that you can receive historical data. Please see the topic on [Multiple Connections](multiple_connections.md) for additional information.

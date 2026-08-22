@@ -1,12 +1,4 @@
-﻿
-
-
-
-Data Grids
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](data_grids.md) >>  **Navigation:**  [Operations](operations.md) >  Data Grids | [Previous page](database_operations.md) [Return to chapter overview](operations.md) [Next page](working_with_data_grids.md) |
+# Data Grids
 
 |  |
 | --- |

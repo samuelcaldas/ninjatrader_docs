@@ -1,20 +1,10 @@
-﻿
+# MarketDataEventArgs
 
-
-
-MarketDataEventArgs
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](marketdataeventargs.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [OnMarketData()](onmarketdata.md) >  MarketDataEventArgs | [Previous page](onmarketdata.md) [Return to chapter overview](onmarketdata.md) [Next page](onmarketdepth.md) |
-
-Definition
-----------
+## Definition
 
 Represents a change in level one market data and is passed as a parameter in the [OnMarketData()](onmarketdata.md) method.
 
-Methods and Parameters
-----------------------
+## Methods and Parameters
 
 |  |  |
 | --- | --- |
@@ -28,21 +18,27 @@ Methods and Parameters
 | ToString() | A string representation of the MarketDataEventArgs object |
 | Volume | A long value representing volume |
 
- 
+ 
 
- 
+ 
 
-|  |
-| --- |
-| Critical: If used with [TickReplay](tick_replay.md), please keep in mind Tick Replay ONLY replays the Last market data event, and only stores the best inside bid/ask price at the time of the last trade event.  You can think of this as the equivalent of the bid/ask price at the time a trade was reported. Please also see [Developing for Tick Replay](developing_for__tick_replay.md). |
+> **Critical:** If used with [TickReplay](tick_replay.md), please keep in mind Tick Replay ONLY replays the Last market data event, and only stores the best inside bid/ask price at the time of the last trade event.  You can think of this as the equivalent of the bid/ask price at the time a trade was reported. Please also see [Developing for Tick Replay](developing_for__tick_replay.md).
 
-|  |
-| --- |
-| Tips  •Not all connectivity providers support all MarketDataTypes.  •For an example of how to use IsReset please see \MarketAnalyzerColumns\AskPrice.cs |
+> Tips
+- Not all connectivity providers support all MarketDataTypes.
+- For an example of how to use IsReset please see \MarketAnalyzerColumns\AskPrice.cs
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)  {       // Print some data to the Output window       if (marketDataUpdate.MarketDataType == MarketDataType.Last)           Print("Last = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume);       else if (marketDataUpdate.MarketDataType == MarketDataType.Ask)           Print("Ask = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume);       else if (marketDataUpdate.MarketDataType == MarketDataType.Bid)           Print("Bid = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume);  } |
+```csharp
+protected override void OnMarketData(MarketDataEventArgs marketDataUpdate)
+{
+    // Print some data to the Output window
+    if (marketDataUpdate.MarketDataType == MarketDataType.Last)
+    Print("Last = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume);
+    else if (marketDataUpdate.MarketDataType == MarketDataType.Ask)
+    Print("Ask = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume);
+    else if (marketDataUpdate.MarketDataType == MarketDataType.Bid)
+    Print("Bid = " + marketDataUpdate.Price + " " + marketDataUpdate.Volume);
+}
+```

@@ -1,30 +1,18 @@
-﻿
+# MasterInstrument
 
+## Definition
 
+An instrument's configuration settings.  These are settings and properties which are defined in the [Instrument](instruments.md) window.
 
-MasterInstrument
+> **Warning:** The properties in this class should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded.
 
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](masterinstrument.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Instruments](instruments_ninjascript.md) > [Instrument](instrument.md) >  MasterInstrument | [Previous page](getinstrument.md) [Return to chapter overview](instrument.md) [Next page](compare.md) |
-
-Definition
-----------
-
-An instrument's configuration settings.  These are settings and properties which are defined in the [Instrument](instruments.md) window.
-
-|  |
-| --- |
-| Warning:  The properties in this class should NOT be accessed within the [OnStateChange()](onstatechange.md) method before the State has reached State.DataLoaded. |
-
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
 | [Compare()](compare.md) | Returns an int value compares two price values with respect to the Instrument tick size |
 | [Currency](currency.md) | The currency that the instrument traded in |
-| [Description](masterinstrument_description.md) | A  written representation of a given instrument |
+| [Description](masterinstrument_description.md) | A  written representation of a given instrument |
 | [Dividends](dividends.md) | A collection of dividends for stock instruments |
 | [Exchanges](exchanges.md) | A collection of exchanges configured for an instrument |
 | [FormatPrice()](formatprice.md) | Returns a string representing the price formatted to the nearest tick size |

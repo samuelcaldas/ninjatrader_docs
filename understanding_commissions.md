@@ -1,12 +1,4 @@
-﻿
-
-
-
-Commissions
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](understanding_commissions.md) >>  **Navigation:**  [Operations](operations.md) >  Commissions | [Previous page](wiseman.md) [Return to chapter overview](operations.md) [Next page](adding_per_instrument_commissi_2.md) |
+# Commissions
 
 |  |
 | --- |

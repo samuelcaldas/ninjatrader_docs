@@ -1,35 +1,22 @@
-﻿
+# ChartControl
 
+The ChartControl class provides access to a wide range of properties and methods related to the location of objects on a chart and other chart-related properties.  The ChartControl object provides information related to the entire hosting grid of the chart, which overlap with the [ChartPanel](chartpanel.md), [ChartScale](chartscale.md) and [ChartBars](chartbars.md).
 
+ 
 
-ChartControl
+ 
 
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](chartcontrol.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) >  ChartControl | [Previous page](chartbars_toindex.md) [Return to chapter overview](chart.md) [Next page](axisxheight.md) |
+> **Note:** The ChartControl object is ONLY guaranteed to be available when a NinjaScript type initiates from a Chart Window.  There are situations where an indicator or strategy starts from another Windows (such as the Control Center's Strategies Grid, or from a Strategy Analyzer), where the ChartContol object is NOT accessible.   Therefore, the ChartControl object should always be safely accessed (e.g., from within a try-catch, or conditionally using null reference checks)
 
-The ChartControl class provides access to a wide range of properties and methods related to the location of objects on a chart and other chart-related properties.  The ChartControl object provides information related to the entire hosting grid of the chart, which overlap with the [ChartPanel](chartpanel.md), [ChartScale](chartscale.md) and [ChartBars](chartbars.md).
+ 
 
- 
-
- 
-
-|  |
-| --- |
-| Note: The ChartControl object is ONLY guaranteed to be available when a NinjaScript type initiates from a Chart Window.  There are situations where an indicator or strategy starts from another Windows (such as the Control Center's Strategies Grid, or from a Strategy Analyzer), where the ChartContol object is NOT accessible.   Therefore, the ChartControl object should always be safely accessed (e.g., from within a try-catch, or conditionally using null reference checks) |
-
- 
-
- 
+ 
 
 ![ChartControl_1](chartcontrol_1.png)
 
-|  |
-| --- |
-| Warning:  The ChartControl and its methods and properties should ONLY be access once the [State](state.md) has reached State.Historical |
+> **Warning:** The ChartControl and its methods and properties should ONLY be access once the [State](state.md) has reached State.Historical
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Intermediate - RSI with Stop Loss & Profit Target
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](intermediate_-_rsi_with_stop_l.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Strategies](developing_strategies.md) >  Intermediate - RSI with Stop Loss & Profit Target | [Previous page](developing_strategies.md) [Return to chapter overview](developing_strategies.md) [Next page](set_up11.md) |
+# Intermediate - RSI with Stop Loss & Profit Target
 
 |  |
 | --- |

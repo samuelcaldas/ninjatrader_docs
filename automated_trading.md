@@ -1,12 +1,4 @@
-﻿
-
-
-
-Automated Trading
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](automated_trading.md) >>  **Navigation:**  [Operations](operations.md) >  Automated Trading | [Previous page](window_linking7.md) [Return to chapter overview](operations.md) [Next page](automated_trading_interface_at.md) |
+# Automated Trading
 
 |  |
 | --- |

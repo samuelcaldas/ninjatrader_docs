@@ -1,35 +1,24 @@
-﻿
-
-
-
-Using a secondary series as an input series for an indicator
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](using_a_secondary_series_as_an.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Using a secondary series as an input series for an indicator | [Previous page](removing_and_custom_formatting.md) [Return to chapter overview](indicator2.md) [Next page](using_a_series_or_dataseries_o.md) |
+# Using a secondary series as an input series for an indicator
 
 Adding additional series to a script can be useful. You may also want to use this added data for an indicator's Input Series.
 
-Key concepts in this example
-----------------------------
+## Key concepts in this example
 
-•Adding series
+- Adding series
 
-•Supplying a series object to an indicator as the input series parameter
+- Supplying a series object to an indicator as the input series parameter
 
-•Plotting using data from two different series
+- Plotting using data from two different series
 
-Important related documentation
--------------------------------
+## Important related documentation
 
-•[AddDataSeries()](http://www.ninjatrader.com/support/helpGuides/nt8/en-us/adddataseries.md)
+- [AddDataSeries()](http://www.ninjatrader.com/support/helpGuides/nt8/en-us/adddataseries.md)
 
-•[AddPlot()](https://ninjatrader.com/support/helpGuides/nt8/en-us/addplot.md)
+- [AddPlot()](https://ninjatrader.com/support/helpGuides/nt8/en-us/addplot.md)
 
-•[IsValidDataPoint()](https://ninjatrader.com/support/helpGuides/nt8/en-us/isvaliddatapoint.md)
+- [IsValidDataPoint()](https://ninjatrader.com/support/helpGuides/nt8/en-us/isvaliddatapoint.md)
 
-Import instructions
--------------------
+## Import instructions
 
 1.Download the file contained in this Help Guide topic to your PC desktop
 

@@ -1,17 +1,8 @@
-﻿
-
-
-
-Strategy
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](strategy.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) >  Strategy | [Previous page](signature.md) [Return to chapter overview](language_reference_wip.md) [Next page](strategy_account.md) |
+# Strategy
 
 The methods and properties covered in this section are unique to custom strategy development.
 
-In this section
----------------
+## In this section
 
 |  |  |
 | --- | --- |
@@ -34,7 +25,7 @@ In this section
 | [ExitOnSessionCloseSeconds](exitonsessioncloseseconds.md) | The number of seconds before the actual session end time that the "[IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy.md)" function will trigger. |
 | [IncludeCommission](includecommission.md) | Determines if the strategy performance results will include commission on a historical backtest. |
 | [IncludeTradeHistoryInBacktest](includetradehistoryinbacktest.md) | Determines if the strategy will save orders, trades, and execution history. |
-| [IsAdoptAccountPositionAware](isadoptaccountpositionaware.md) | Determines if the strategy is programmed in a manner capable of handling  real-world account positions. |
+| [IsAdoptAccountPositionAware](isadoptaccountpositionaware.md) | Determines if the strategy is programmed in a manner capable of handling  real-world account positions. |
 | [IsExitOnSessionCloseStrategy](isexitonsessionclosestrategy.md) | Determines if the strategy will cancel all strategy generated orders and close all open strategy positions at the close of the session. |
 | [IsFillLimitOnTouch](isfilllimitontouch.md) | Determines if the strategy will use a more liberal fill algorithm for back-testing purposes only. |
 | [IsInstantiatedOnEachOptimizationIteration](isinstantiatedoneachoptimizationiteration.md) | Determines if the strategy should be re-instantiated (re-created) after each optimization run when using the [Strategy Analyzer Optimizer](optimize_a_strategy.md). |
@@ -47,7 +38,7 @@ In this section
 | [OnOrderTrace()](onordertrace.md) | An event driven method used for strategies which will allow you to customize the output of [TraceOrders](traceorders.md). |
 | [OnOrderUpdate()](onorderupdate.md) | An event driven method which is called each time an order managed by a strategy changes state. |
 | [OnPositionUpdate()](onpositionupdate.md) | An event driven method which is called each time the position of a strategy changes state. |
-| [OptimizationPeriod](order.md) | Reserved for [Walk-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "in sample" backtest period for a given strategy.  See also [TestPeriod](testperiod.md). |
+| [OptimizationPeriod](order.md) | Reserved for [Walk-Forward Optimization](walk_forward_optimize_a_strate.md), this property determines the number of days used for the "in sample" backtest period for a given strategy.  See also [TestPeriod](testperiod.md). |
 | [Order](order.md) | Represents a read only interface that exposes information regarding an order. |
 | [Order Methods](order_methods.md) | NinjaScript provides several approaches you can use for order placement within your NinjaScript strategy. |
 | [OrderFillResolution](orderfillresolution.md) | Determines how strategy orders are filled during historical states. |

@@ -1,17 +1,8 @@
-﻿
-
-
-
-Installation Guide
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](installation_guide.md) >>  **Navigation:**  [Configuration](configuration.md) > [Installation](installation.md) >  Installation Guide | [Previous page](minimum_system_requirements.md) [Return to chapter overview](installation.md) [Next page](clear_browser_cache.md) |
+# Installation Guide
 
 Follow the process outlined below to install NinjaTrader on your PC. To view minimum system requirements or recommended PC specifications, see the [Minimum System Requirements](minimum_system_requirements.md) page.
 
-Installation Steps
-------------------
+## Installation Steps
 
 1.If you do not have the Microsoft .NET Framework 4.8 installed on your PC please download and install it from [here.](https://dotnet.microsoft.com/download/dotnet-framework/net48)
 

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Connecting
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](connecting.md) >>  **Navigation:**  [Configuration](configuration.md) >  Connecting | [Previous page](clear_browser_cache.md) [Return to chapter overview](configuration.md) [Next page](log-in.md) |
+# Connecting
 
 The connection to your NinjaTrader account is done within the Log In and Trading Mode windows. Additional connection management is done within the Connection menu in the Control Center. To configure connections from additional providers, Multi-provider must be enabled.
 

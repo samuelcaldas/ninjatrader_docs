@@ -1,12 +1,4 @@
-﻿
-
-
-
-Trade Performance
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](trade_performance.md) >>  **Navigation:**  [Operations](operations.md) >  Trade Performance | [Previous page](timeandsales_windowlinking.md) [Return to chapter overview](operations.md) [Next page](using_trade_performance.md) |
+# Trade Performance
 
 |  |
 | --- |

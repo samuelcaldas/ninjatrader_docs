@@ -1,20 +1,10 @@
-﻿
+# Ellipse
 
-
-
-Ellipse
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](ellipse.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Ellipse()](draw_ellipse.md) >  Ellipse | [Previous page](draw_ellipse.md) [Return to chapter overview](draw_ellipse.md) [Next page](draw_extendedline.md) |
-
-Definition
-----------
+## Definition
 
 Represents an interface that exposes information regarding an Ellipse [IDrawingTool](idrawingtool.md).
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -24,9 +14,11 @@ Methods and Properties
 | AreaOpacity | An int value representing the opacity of the area color |
 | OutlineStroke | The [Stroke](stroke_class.md) object used to draw the object's outline |
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| // Paint a red ellipse on the current bar  Ellipse myEllipse = Draw.Ellipse(this, "tag1", true, 5, Close[5], 0, Close[0], Brushes.Red, Brushes.Red, 5);     // Change the AreaOpacity of the Ellipse  myEllipse.AreaOpacity = 0; |
+```csharp
+// Paint a red ellipse on the current bar
+Ellipse myEllipse = Draw.Ellipse(this, "tag1", true, 5, Close[5], 0, Close[0], Brushes.Red, Brushes.Red, 5);
+// Change the AreaOpacity of the Ellipse
+myEllipse.AreaOpacity = 0;
+```

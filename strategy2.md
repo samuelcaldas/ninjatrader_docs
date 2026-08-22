@@ -1,12 +1,4 @@
-﻿
-
-
-
-Strategy
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](strategy2.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) >  Strategy | [Previous page](creating-chart-wpf-(ui)-modifi.md) [Return to chapter overview](reference_samples.md) [Next page](backtesting_ninjascript_strate.md) |
+# Strategy
 
 |  |
 | --- |

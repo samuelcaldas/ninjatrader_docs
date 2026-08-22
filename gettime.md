@@ -1,44 +1,39 @@
-﻿
+# GetTime()
 
-
-
-GetTime()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](gettime.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Bars](bars.md) >  GetTime() | [Previous page](getsessionendtime.md) [Return to chapter overview](bars.md) [Next page](getvolume.md) |
-
-Definition
-----------
+## Definition
 
 Returns the time stamp at the current bar index value.
 
- 
+ 
 
-|  |
-| --- |
-| Note: This method will return what is displayed in the chart's data box.  For formatting purposes, the value returned is NOT guaranteed be equal to the [TimeSeries](timeseries.md) value.  If you are using daily bars and need the session end time, you should use [Bars.GetSessionEndTime()](getsessionendtime.md) instead. |
+> **Note:** This method will return what is displayed in the chart's data box.  For formatting purposes, the value returned is NOT guaranteed be equal to the [TimeSeries](timeseries.md) value.  If you are using daily bars and need the session end time, you should use [Bars.GetSessionEndTime()](getsessionendtime.md) instead.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A DateTime structure that represents the time stamp at the desired bar index.
 
-Syntax
-------
+## Syntax
 
 Bars.GetTime(int index)
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
 | index | An int representing an absolute bar index value |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale)  {     base.OnRender(chartControl, chartScale);     // loop through only the rendered bars on the chart     for(int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)     {       // get the time stamp at the selected bar index value       DateTime timeValue = Bars.GetTime(barIndex);       Print("Bar #" + barIndex + " time stamp is " + timeValue);     }  } |
+```csharp
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+{
+    base.OnRender(chartControl, chartScale);
+    // loop through only the rendered bars on the chart
+    for(int barIndex = ChartBars.FromIndex; barIndex <= ChartBars.ToIndex; barIndex++)
+    {
+        // get the time stamp at the selected bar index value
+        DateTime timeValue = Bars.GetTime(barIndex);
+        Print("Bar #" + barIndex + " time stamp is " + timeValue);
+    }
+}
+```

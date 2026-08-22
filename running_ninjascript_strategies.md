@@ -1,12 +1,4 @@
-﻿
-
-
-
-Running NinjaScript Strategies
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](running_ninjascript_strategies.md) >>  **Navigation:**  [Operations](operations.md) > [Automated Trading](automated_trading.md) >  Running NinjaScript Strategies | [Previous page](workspace_options.md) [Return to chapter overview](automated_trading.md) [Next page](setting_real-time_strategy_opt.md) |
+# Running NinjaScript Strategies
 
 |  |
 | --- |

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Intermediate - Your own SMA
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](intermediate_-_your_own_sma.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) >  Intermediate - Your own SMA | [Previous page](using4.md) [Return to chapter overview](developing_indicators.md) [Next page](set_up6.md) |
+# Intermediate - Your own SMA
 
 |  |
 | --- |

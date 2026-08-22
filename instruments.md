@@ -1,12 +1,4 @@
-﻿
-
-
-
-Instruments
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](instruments.md) >>  **Navigation:**  [Operations](operations.md) >  Instruments | [Previous page](updating_splits_and_dividends.md) [Return to chapter overview](operations.md) [Next page](instrument-types.md) |
+# Instruments
 
 |  |
 | --- |

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Distribution
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](distribution.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) >  Distribution | [Previous page](ninjascript_best_practices.md) [Return to chapter overview](ninjascript.md) [Next page](considerations_for_compiled_assemblies.md) |
+# Distribution
 
 |  |
 | --- |

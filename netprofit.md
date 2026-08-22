@@ -1,30 +1,23 @@
-﻿
+# NetProfit
 
-
-
-NetProfit
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](netprofit.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  NetProfit | [Previous page](monthlyulcer.md) [Return to chapter overview](tradesperformance.md) [Next page](percent.md) |
-
-Definition
-----------
+## Definition
 
 Returns the net profit.
 
-Property Value
---------------
+## Property Value
 
 A double value that represents the net profit.
 
-Syntax 
-<TradeCollection>.TradesPerformance.NetProfit
------------------------------------------------------
+## Syntax
 
-Examples
---------
+`<TradeCollection>.TradesPerformance.NetProfit`
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {       // Print out the net profit of all trades       Print("Net profit is: " + SystemPerformance.AllTrades.TradesPerformance.NetProfit);  } |
+## Examples
+
+```csharp
+protected override void OnBarUpdate()
+{
+    // Print out the net profit of all trades
+    Print("Net profit is: " + SystemPerformance.AllTrades.TradesPerformance.NetProfit);
+}
+```

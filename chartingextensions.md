@@ -1,21 +1,10 @@
-﻿
-
-
-
-ChartingExtensions
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](chartingextensions.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) >  ChartingExtensions | [Previous page](timepainted.md) [Return to chapter overview](chart.md) [Next page](convertfromhorizontalpixels.md) |
+# ChartingExtensions
 
 The ChartingExtensions class provides helper methods useful for converting a pixel coordinate from application-specific pixels (i.e., WPF coordinates) to Device Independent Pixels.
 
-|  |
-| --- |
-| Note:  More information about the differences between application pixels and device pixels can be found on the [Working with Pixel Coordinates](working_with_pixel_coordinates.md) page. |
+> **Note:** More information about the differences between application pixels and device pixels can be found on the [Working with Pixel Coordinates](working_with_pixel_coordinates.md) page.
 
-ChartingExtensions Helper Methods
----------------------------------
+## ChartingExtensions Helper Methods
 
 |  |  |
 | --- | --- |

@@ -1,17 +1,8 @@
-﻿
-
-
-
-Share Service
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](share_service.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) >  Share Service | [Previous page](performancemetric_values.md) [Return to chapter overview](language_reference_wip.md) [Next page](characterlimit.md) |
+# Share Service
 
 Custom Share Services can be developed in order to enable users to share content from the NinjaTrader application to various websites and social media networks via the [Sharing Services](sharing_content.md) dialog. NinjaTrader comes pre-configured with Share Services for an Email adapter and Test message via email adapter, however a custom adapter can be developed for any website, forum, or social media network by following their public API documentation and guidelines.
 
-In this section
----------------
+## In this section
 
 |  |  |
 | --- | --- |

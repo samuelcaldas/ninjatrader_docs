@@ -1,20 +1,10 @@
-﻿
+# Region
 
-
-
-Region
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](region.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Region()](draw_region.md) >  Region | [Previous page](draw_region.md) [Return to chapter overview](draw_region.md) [Next page](draw_regionhighlightx.md) |
-
-Definition
-----------
+## Definition
 
 Represents an interface that exposes information regarding a Region [IDrawingTool.](idrawingtool.md)
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -24,9 +14,11 @@ Methods and Properties
 | AreaBrush | A [Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) object representing the fill color of the draw object |
 | OutlineStroke | A Stroke used for the outline of the region |
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| // Instantiate a Region object  Region myRegion = Draw.Region(this, "tag1", CurrentBar, 0, Bollinger(2, 14).Upper, Bollinger(2, 14).Lower, null, Brushes.Blue, 50);     // Set the object's OutlineStroke to a new Stroke  myRegion.OutlineStroke = new Stroke(Brushes.Red, DashStyleHelper.Solid, 3); |
+```csharp
+// Instantiate a Region object
+Region myRegion = Draw.Region(this, "tag1", CurrentBar, 0, Bollinger(2, 14).Upper, Bollinger(2, 14).Lower, null, Brushes.Blue, 50);
+// Set the object's OutlineStroke to a new Stroke
+myRegion.OutlineStroke = new Stroke(Brushes.Red, DashStyleHelper.Solid, 3);
+```

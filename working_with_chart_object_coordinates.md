@@ -1,27 +1,16 @@
-﻿
+# Working with Chart Object Coordinates
 
-
-
-Working with Chart Object Coordinates
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](working_with_chart_object_coordinates.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) >  Working with Chart Object Coordinates | [Previous page](working_with_brushes.md) [Return to chapter overview](educational_resources.md) [Next page](working_with_pixel_coordinates.md) |
-
-Understanding Chart Canvas Coordinates
---------------------------------------
+## Understanding Chart Canvas Coordinates
 
 The chart canvas represents the portion of a chart window on which objects can be painted (the area outlined in blue in the image below). The canvas area is measured by an x-axis and y-axis independent of the price and time-axis of the chart itself. When working with coordinates on a chart canvas, it is important to note that the origin point (coordinates 0,0) is in the top-left corner of the canvas, NOT the bottom-left. Moving down the canvas increases the y-coordinate, and moving the the right on the canvas increases the x-coordinate.
 
-ChartControl_XY
----------------
+## ChartControl_XY
 
-Understanding Chart Areas
--------------------------
+## Understanding Chart Areas
 
 When using ChartControl properties and methods, it is important to understand the layout of a chart window, and which specific area of the window is being measured by a specific property. The image below shows the three primary areas of a chart window.
 
- 
+ 
 
 ![ChartControl_Measurements](chartcontrol_measurements.png)
 

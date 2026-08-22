@@ -1,34 +1,23 @@
-﻿
+# CreateOrder()
 
-
-
-CreateOrder()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](createorder.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [Account](account_class.md) >  CreateOrder() | [Previous page](connectoptions.md) [Return to chapter overview](account_class.md) [Next page](denomination.md) |
-
-Definition
-----------
+## Definition
 
 Creates an [Order](order.md) to be submitted via [Submit()](submit.md).
 
-Syntax
-------
+## Syntax
 
 CreateOrder(Instrument instrument, OrderAction action, OrderType orderType, OrderEntry orderEntry, TimeInForce timeInForce, int quantity, double limitPrice, double stopPrice, string oco, string name, DateTime gtd, CustomOrder customOrder)
 
- 
+ 
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
 | instrument | Order instrument |
-| orderAction | Possible values:     OrderAction.Buy  OrderAction.BuyToCover  OrderAction.Sell  OrderAction.SellShort |
+| orderAction | Possible values:     OrderAction.Buy  OrderAction.BuyToCover  OrderAction.Sell  OrderAction.SellShort |
 | orderType | Possible values:    OrderType.Limit  OrderType.Market  OrderType.MIT  OrderType.StopMarket  OrderType.StopLimit |
 | orderEntry | Possible values:    OrderEntry.Automated  OrderEntry.Manual    Allows setting the tag for orders submitted manually or via automated trading logic (CME tag 1028). |
 | timeInForce | Possible values:    TimeInForce.Day  TimeInForce.Gtc  TimeInForce.Gtd  TimeInForce.Ioc  TimeInForce.Opg |
@@ -36,13 +25,14 @@ Parameters
 | limitPrice | Order limit price. Use "0" should this parameter be irrelevant for the OrderType being submitted. |
 | stopPrice | Order stop price. Use "0" should this parameter be irrelevant for the OrderType being submitted. |
 | oco | A string representing the OCO ID used to link OCO orders together |
-| name | A string representing the name of the order. Max 50 characters.    Note:  If using ATM Strategy [StartAtmStrategy()](startatmstrategy.md), this value MUST be "Entry" |
+| name | A string representing the name of the order. Max 50 characters.    Note:  If using ATM Strategy [StartAtmStrategy()](startatmstrategy.md), this value MUST be "Entry" |
 | gtd | A DateTime value to be used with TimeInForce.Gtd - for all other cases you can pass in Core.Globals.MaxDate |
 | customOrder | Custom order if it is being used |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| Order stopOrder;  stopOrder = myAccount.CreateOrder(myInstrument, OrderAction.Sell, OrderType.StopMarket, OrderEntry.Automated, TimeInForce.Day, 1, 0, 1400, "myOCO", "stopOrder", Core.Globals.MaxDate, null);     myAccount.Submit(new[] { stopOrder }); |
+```csharp
+Order stopOrder;
+stopOrder = myAccount.CreateOrder(myInstrument, OrderAction.Sell, OrderType.StopMarket, OrderEntry.Automated, TimeInForce.Day, 1, 0, 1400, "myOCO", "stopOrder", Core.Globals.MaxDate, null);
+myAccount.Submit(new[] { stopOrder });
+```

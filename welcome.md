@@ -1,12 +1,4 @@
-﻿
-
-
-
-Welcome to NinjaTrader
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](welcome.md) >>  **Navigation:**  »No topics above this level«  Welcome to NinjaTrader | [Return to chapter overview](welcome.md) [Next page](video_library.md) |
+# Welcome to NinjaTrader
 
 ![nt8logo_350_66](nt8logo_350_66.png)
 

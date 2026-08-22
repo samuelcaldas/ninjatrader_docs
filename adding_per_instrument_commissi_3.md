@@ -1,17 +1,9 @@
-﻿
-
-
-
-Applying Commission Templates
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](adding_per_instrument_commissi_3.md) >>  **Navigation:**  [Operations](operations.md) > [Commissions](understanding_commissions.md) >  Applying Commission Templates | [Previous page](adding_per_instrument_commissi_2.md) [Return to chapter overview](understanding_commissions.md) [Next page](control_center.md) |
+# Applying Commission Templates
 
 Once a [Commission Template](adding_per_instrument_commissi_2.md) has been created, it must be applied to an account, whether it be a live brokerage account connected via a data provider, or a simulation account used for paper trading.
 
-![tog_plus]()Applying commission templates to accounts
+![tog_plus]()Applying commission templates to accounts
 
 |  |  |
 | --- | --- |
-| The Accounts Tab Trade Performance window.     |  | | --- | | Commission Template is dictated by the Sim101 it duplicates. |    Commissions1 |
+| The Accounts Tab Trade Performance window.     |  | | --- | | Commission Template is dictated by the Sim101 it duplicates. |    Commissions1 |

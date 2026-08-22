@@ -1,12 +1,4 @@
-﻿
-
-
-
-Market data
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](options_marketdata.md) >>  **Navigation:**  [Configuration](configuration.md) > [Options](options.md) >  Market data | [Previous page](options_ati.md) [Return to chapter overview](options.md) [Next page](splits_and_dividends.md) |
+# Market data
 
 The Market data section sets options related to market data and database management.
 
@@ -23,7 +15,7 @@ The Market data section sets options related to market data and database managem
 | Adjust for dividends | Enables or disables the adjustment of historical data to account dividends, for use with any function that requires historical market data |
 | Get data from server | Enables or disables the retrieving of historical data from the data provider's server while connected. When disabled, historical data will still download when connecting, manually reloading historical data, or manually downloading historical data. |
 | Global merge policy | Sets the merge policy for Futures contracts:    Do not merge: historical data is not merged    Merge back adjusted: NinjaTrader automatically merges and back adjusts historical data    Merge non back adjusted: NinjaTrader automatically merges, but does not back adjust, historical data    For more information on merge policies, see the "Understanding merge policies" section on [this](merge_policy.md) page. |
-| Show Tick Replay | When enabled, allows "Tick Replay" to be configured from a data series menu.  Please see [Tick Replay](tick_replay.md) for more information. |
+| Show Tick Replay | When enabled, allows "Tick Replay" to be configured from a data series menu.  Please see [Tick Replay](tick_replay.md) for more information. |
 | Real-time |  |
 | Auto subscribe to required instruments | Sets whether NinjaTrader will automatically subscribe to market data for any instruments requiring data throughout the platform to properly calculate PnL when trading non-USD pairs |
 | Enable market recording of playback | Enables or disables market data recording for use with the [Playback Connection](playback_connection.md) |

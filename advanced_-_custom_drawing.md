@@ -1,12 +1,4 @@
-﻿
-
-
-
-Advanced - Custom Drawing
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](advanced_-_custom_drawing.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) >  Advanced - Custom Drawing | [Previous page](developing_indicators.md) [Return to chapter overview](developing_indicators.md) [Next page](set_up9.md) |
+# Advanced - Custom Drawing
 
 |  |
 | --- |

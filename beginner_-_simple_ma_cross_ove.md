@@ -1,12 +1,4 @@
-﻿
-
-
-
-Beginner - Simple MA Cross Over
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](beginner_-_simple_ma_cross_ove.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Strategies](developing_strategies.md) >  Beginner - Simple MA Cross Over | [Previous page](compiling8.md) [Return to chapter overview](developing_strategies.md) [Next page](set_up10.md) |
+# Beginner - Simple MA Cross Over
 
 |  |
 | --- |

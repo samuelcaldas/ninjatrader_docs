@@ -1,12 +1,4 @@
-﻿
-
-
-
-Tools Menu
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](tools_menu.md) >>  **Navigation:**  [Operations](operations.md) > [Control Center](control_center.md) >  Tools Menu | [Previous page](new_menu.md) [Return to chapter overview](control_center.md) [Next page](workspaces_menu.md) |
+# Tools Menu
 
 The following menus and items are available via the Tools menu of the NinjaTrader Control Center.
 

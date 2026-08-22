@@ -1,25 +1,14 @@
-﻿
+# Draw.Dot()
 
-
-
-Draw.Dot()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_dot.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Dot() | [Previous page](diamond.md) [Return to chapter overview](drawing.md) [Next page](dot.md) |
-
-Definition
-----------
+## Definition
 
 Draws a dot.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [Dot](dot.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.Dot(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime time, double y, Brush brush)  
 Draw.Dot(NinjaScriptBase owner, string tag, bool isAutoScale, int barsAgo, double y, Brush brush)  
@@ -28,8 +17,7 @@ Draw.Dot(NinjaScriptBase owner, string tag, bool isAutoScale, int barsAgo, doubl
 Draw.Dot(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime time, double y, bool isGlobal, string templateName)  
 Draw.Dot(NinjaScriptBase owner, string tag, bool isAutoScale, int barsAgo, double y, bool isGlobal, string templateName)
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -44,17 +32,15 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
- 
+ 
 
- 
+ 
 
-|  |
-| --- |
-| Tip: The size of the dot is tied to the chart's BarWidth and thus will scale automatically as the chart is resized |
+> **Tip:** The size of the dot is tied to the chart's BarWidth and thus will scale automatically as the chart is resized
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Paints a red dot on the current bar 1 tick below the low  Draw.Dot(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red); |
+```csharp
+// Paints a red dot on the current bar 1 tick below the low
+Draw.Dot(this, "tag1", true, 0, Low[0] - TickSize, Brushes.Red);
+```

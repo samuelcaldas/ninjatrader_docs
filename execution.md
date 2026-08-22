@@ -1,24 +1,12 @@
-﻿
+# Execution
 
-
-
-Execution
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](execution.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  Execution | [Previous page](entryhandling.md) [Return to chapter overview](strategy.md) [Next page](exitonsessioncloseseconds.md) |
-
-Definition
-----------
+## Definition
 
 Represents a read only interface that exposes information regarding an execution (filled order) resulting from an order and is passed as a parameter in the [OnExecutionUpdate()](onexecutionupdate.md) method.
 
-|  |
-| --- |
-| Note: Not all executions will have associated [Order](order.md) objects (e.g [ExitOnSessionClose](isexitonsessionclosestrategy.md) executions or [AtmStrategyCreate()](atmstrategycreate.md) executions) |
+> **Note:** Not all executions will have associated [Order](order.md) objects (e.g [ExitOnSessionClose](isexitonsessionclosestrategy.md) executions or [AtmStrategyCreate()](atmstrategycreate.md) executions)
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -27,7 +15,9 @@ Methods and Properties
 | Commission | A double value representing the commission of an execution |
 | ExecutionId | A string value representing the exchange generated execution id |
 | Instrument | An [Instrument](instrument.md) value representing the instrument of an order |
-| MarketPosition | The position of the execution.    Possible values are:    •MarketPosition.Long  •MarketPosition.Short |
+| MarketPosition | The position of the execution.    Possible values are:
+- MarketPosition.Long
+- MarketPosition.Short |
 | Name | A string representing the name of an order which can be provided by the entry or exit signal name |
 | Order | An [Order](order.md) value representing an order associated to the execution. |
 | OrderId | A string representing the unique id of the order which was executed |
@@ -40,17 +30,31 @@ Methods and Properties
 | Time | A [DateTime](http://msdn2.microsoft.com/en-us/library/system.datetime.aspx) structure representing the time the execution occurred |
 | ToString() | A string representation of an execution |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Example #1  private Order entryOrder = null;     protected override void OnBarUpdate()  {       if (entryOrder == null && Close[0] > Open[0])           EnterLong("myEntryOrder");  }     protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time)  {     // Assign entryOrder in OnExecutionUpdate() to ensure the assignment occurs when expected.     // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately after submitting     if (execution.Order.Name == "myEntryOrder" && execution.Order.OrderState == OrderState.Filled)         entryOrder = execution.order;          if (entryOrder != null && entryOrder == execution.Order)         Print(execution.ToString());  } |
-
- 
-
- 
-
-| ns |
-| --- |
-| // Example #2  protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time)  {       // Remember to check the underlying Order object for null before trying to access its properties       if (execution.Order != null && execution.Order.OrderState == OrderState.Filled)           Print(execution.ToString());  } |
+```csharp
+// Example #1
+private Order entryOrder = null;
+protected override void OnBarUpdate()
+{
+    if (entryOrder == null && Close[0] > Open[0])
+    EnterLong("myEntryOrder");
+}
+protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time)
+{
+    // Assign entryOrder in OnExecutionUpdate() to ensure the assignment occurs when expected.
+    // This is more reliable than assigning Order objects in OnBarUpdate, as the assignment is not guaranteed to be complete if it is referenced immediately after submitting
+    if (execution.Order.Name == "myEntryOrder" && execution.Order.OrderState == OrderState.Filled)
+    entryOrder = execution.order;
+    if (entryOrder != null && entryOrder == execution.Order)
+    Print(execution.ToString());
+}
+csharp
+// Example #2
+protected override void OnExecutionUpdate(Execution execution, string executionId, double price, int quantity, MarketPosition marketPosition, string orderId, DateTime time)
+{
+    // Remember to check the underlying Order object for null before trying to access its properties
+    if (execution.Order != null && execution.Order.OrderState == OrderState.Filled)
+    Print(execution.ToString());
+}
+```

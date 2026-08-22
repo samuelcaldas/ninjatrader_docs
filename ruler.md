@@ -1,20 +1,10 @@
-﻿
+# Ruler
 
-
-
-Ruler
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](ruler.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.Ruler()](draw_ruler.md) >  Ruler | [Previous page](draw_ruler.md) [Return to chapter overview](draw_ruler.md) [Next page](draw_square.md) |
-
-Definition
-----------
+## Definition
 
 Represents an interface that exposes information regarding a Ruler [IDrawingTool](idrawingtool.md).
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -24,9 +14,11 @@ Methods and Properties
 | TextColor | A [Brush](http://msdn.microsoft.com/en-us/library/system.windows.media.brush(v=vs.110).aspx) class representing the fill color of the draw object's text area |
 | LineColor | A [Stroke](stroke_class.md) object used to draw the object |
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| // Instantiate a Ruler object  Ruler myRuler = Draw.Ruler(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);     // Change the object's text color to white  myRuler.TextColor = Brushes.White; |
+```csharp
+// Instantiate a Ruler object
+Ruler myRuler = Draw.Ruler(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);
+// Change the object's text color to white
+myRuler.TextColor = Brushes.White;
+```

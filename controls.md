@@ -1,18 +1,8 @@
-﻿
-
-
-
-NinjaTrader Controls
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](controls.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  NinjaTrader Controls | [Previous page](add_on.md) [Return to chapter overview](add_on.md) [Next page](accountselector.md) |
+# NinjaTrader Controls
 
 The following section contains controls that are native NinjaTrader controls. To fully integrate your Add On within NinjaTrader it is recommended to use these controls as opposed to building your own when possible.
 
-|  |
-| --- |
-| Note:  For cleaning up these resources, please see the [NTTabPage.Cleanup()](nttabpage_cleanup.md) method |
+> **Note:** For cleaning up these resources, please see the [NTTabPage.Cleanup()](nttabpage_cleanup.md) method
 
 |  |  |
 | --- | --- |

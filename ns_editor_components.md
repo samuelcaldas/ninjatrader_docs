@@ -1,17 +1,8 @@
-﻿
+# NinjaScript Editor Components
 
+## Overview
 
-
-NinjaScript Editor Components
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](ns_editor_components.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Editor](editor.md) >  NinjaScript Editor Components | [Previous page](nodoc.md) [Return to chapter overview](editor.md) [Next page](ns_explorer.md) |
-
-Overview
---------
-
-The NinjaScript Editor is a powerful scripting editor that allows you to create custom indicators, strategies, and any other custom NinjaScript types used to enhance the NinjaTrader platform.  The NinjaScript Editor can be opened by selecting the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item NinjaScript Editor
+The NinjaScript Editor is a powerful scripting editor that allows you to create custom indicators, strategies, and any other custom NinjaScript types used to enhance the NinjaTrader platform.  The NinjaScript Editor can be opened by selecting the New menu from the NinjaTrader Control Center. Then left mouse click on the menu item NinjaScript Editor
 
 1. NinjaScript Explorer - Displays files, folders, and allows for additional file management
 
@@ -23,10 +14,9 @@ The NinjaScript Editor is a powerful scripting editor that allows you to create 
 
 5. Tabs for creating new scripts via the [NinjaScript wizard](ns_wizard.md) and working on multiple scripts.
 
-    ![NS_Editor_1](ns_editor_1.png)
+    ![NS_Editor_1](ns_editor_1.png)
 
-Context Menus
--------------
+## Context Menus
 
 Context menus can be opened by right-clicking in the NinjaScript Editor.
 
@@ -49,16 +39,14 @@ Context menus can be opened by right-clicking in the NinjaScript Editor.
 | Debug Mode | Sets if a debug dll should be generated on compilation (see [Visual Studio Debugging](visual_studio_debugging.md) for more information) |
 | References... | Opens the list of dll references used by NinjaTrader. This includes dll's used by NinjaTrader and dll's installed with custom Add On's. |
 | Show Warnings | Enables Warning messages to be seen alongside compile errors |
-| Always On Top | Sets the  NinjaScript Editor to viewed on top of other windows |
+| Always On Top | Sets the  NinjaScript Editor to viewed on top of other windows |
 | Print | Allows printing the content of this window (see [Printing Content](printing_content.md) for more information) |
 | Share | Allows sharing the content of this window (see [Sharing Content](sharing_content.md) for more information) |
 | Properties | Opens the Properties menu (see below) |
 
-Properties and Definitions
---------------------------
+## Properties and Definitions
 
-NinjaTrader_2020-12-03_10-03-00
--------------------------------
+## NinjaTrader_2020-12-03_10-03-00
 
 |  |  |
 | --- | --- |

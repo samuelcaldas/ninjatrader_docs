@@ -1,24 +1,12 @@
-﻿
+# AddVolumetric()
 
-
-
-AddVolumetric()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](addvolumetric.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [AddDataSeries()](adddataseries.md) >  AddVolumetric() | [Previous page](addrenko.md) [Return to chapter overview](adddataseries.md) [Next page](barsarray.md) |
-
-Definition
-----------
+## Definition
 
 Similar to the [AddDataSeries()](adddataseries.md) method for adding Bars objects, this method adds a [Order Flow](order_flow_volumetric_bars.md) Volumetric Bars object for multi-series NinjaScript.
 
-|  |
-| --- |
-| Notes:  here. |
+> **Notes:** here.
 
-Syntax
-------
+## Syntax
 
 AddVolumetric(tickPerLevel)  
 AddVolumetric(isResetOnNewTradingDay)  
@@ -26,33 +14,46 @@ AddVolumetric(isResetOnNewTradingDay)
 
 AddVolumetric(isResetOnNewTradingDay) (R17 and higher only)
 
- 
+ 
 
-|  |
-| --- |
-| Warnings:    may be trying to use an additional data series dynamically in an unsupported manner. |
+> **Warnings:** may be trying to use an additional data series dynamically in an unsupported manner.
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
 | instrumentName | string determining instrument name such as "MSFT" |
-| baseBarsPeriodType | The underlying BarsType used for the Volumetric bars period.   Possible values are:    •BarsPeriodType.Year |
+| baseBarsPeriodType | The underlying BarsType used for the Volumetric bars period.   Possible values are:
+- BarsPeriodType.Year |
 | baseBarsPeriodTypeValue | int determining the underlying period interval such as "3" for 3 minute bars |
-| deltaType | The DeltaType used for the Volumetric bars object delta calculations   Possible values are:    •VolumetricDetlaType.UpDownTick |
+| deltaType | The DeltaType used for the Volumetric bars object delta calculations   Possible values are:
+- VolumetricDetlaType.UpDownTick |
 | ticksPerLevel | int setting the aggregation of price levels for the Volumetric bar, pass in a 1 to analyze each price level individually |
 | sizeFilter | int setting the trade size allowed to count in the delta calculations |
 | tradingHoursName | string determining the trading hours template for the instrument |
-| isResetOnNewTradingDay | Break at EOD   \*Will accept true, false or null as the input.  If null is used, the data series will use the settings of the primary data series. |
+| isResetOnNewTradingDay | Break at EOD   \*Will accept true, false or null as the input.  If null is used, the data series will use the settings of the primary data series. |
 
-|  |
-| --- |
-| ); |
+> );
 
-Examples
---------
+## Examples
 
-|  |
-| --- |
-| OnStateChange()  {  State.SetDefaults)  {                }  State.Configure)  {  // Add a 1 minute Order Flow Volumetric Bars object for the ES 03-18 contract - BarsInProgress index = 1   );  }  }         {   // Ignore the primary Bars object and only process the Order Flow Volumetric object   )  {  // Do something;  }  } |
+```csharp
+OnStateChange()
+{
+    State.SetDefaults)
+    {
+    }
+    State.Configure)
+    {
+        // Add a 1 minute Order Flow Volumetric Bars object for the ES 03-18 contract - BarsInProgress index = 1
+        );
+    }
+}
+{
+    // Ignore the primary Bars object and only process the Order Flow Volumetric object
+    )
+    {
+        // Do something;
+    }
+}
+```

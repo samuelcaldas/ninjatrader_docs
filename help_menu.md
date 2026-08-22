@@ -1,12 +1,4 @@
-﻿
-
-
-
-Help Menu
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](help_menu.md) >>  **Navigation:**  [Operations](operations.md) > [Control Center](control_center.md) >  Help Menu | [Previous page](connections_menu.md) [Return to chapter overview](control_center.md) [Next page](orders_tab.md) |
+# Help Menu
 
 The following menus and items are available via the Help menu of the NinjaTrader Control Center.
 

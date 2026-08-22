@@ -1,41 +1,30 @@
-﻿
-
-
-
-Creating your own Level II data book (Accessing market depth)
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](creating_your_own_level_ii_dat.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Creating your own Level II data book (Accessing market depth) | [Previous page](creating_a_user-defined_parame.md) [Return to chapter overview](indicator2.md) [Next page](draw_objects.md) |
+# Creating your own Level II data book (Accessing market depth)
 
 Level II data is important for the momentum trader. It allows them to determine which way the market makers are trading and can be useful in helping the trader decide which way the momentum is going.
 
-Key concepts in this example
-----------------------------
+## Key concepts in this example
 
-•Storing Level II data in a custom object list
+- Storing Level II data in a custom object list
 
-•Printing Level II books for discretionary trading
+- Printing Level II books for discretionary trading
 
-Important related documentation
--------------------------------
+## Important related documentation
 
-•[List<>](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.110).aspx)
+- [List<>](https://msdn.microsoft.com/en-us/library/6sh2ey19(v=vs.110).aspx)
 
-•[MarketDepthEventArgs](marketdeptheventargs.md)
+- [MarketDepthEventArgs](marketdeptheventargs.md)
 
-•[Operation](operations.md)
+- [Operation](operations.md)
 
-•[Position](position.md)
+- [Position](position.md)
 
-•[Price](price.md)
+- [Price](price.md)
 
-•[Volume](volume.md)
+- [Volume](volume.md)
 
-•[Time](time.md)
+- [Time](time.md)
 
-Import instructions
--------------------
+## Import instructions
 
 1.Download the file contained in this Help Guide topic to your PC desktop
 

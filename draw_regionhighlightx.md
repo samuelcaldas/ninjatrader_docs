@@ -1,20 +1,10 @@
-﻿
+# Draw.RegionHighlightX()
 
-
-
-Draw.RegionHighlightX()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_regionhighlightx.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.RegionHighlightX() | [Previous page](region.md) [Return to chapter overview](drawing.md) [Next page](regionhighlightx.md) |
-
-Definition
-----------
+## Definition
 
 Draws a region highlight x on a chart.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [RegionHighlightX](regionhighlightx.md) object that represents the draw object.
 
@@ -27,12 +17,11 @@ Draw.RegionHighlightX(NinjaScriptBase owner, string tag, int startBarsAgo, int e
 Draw.RegionHighlightX(NinjaScriptBase owner, string tag, DateTime startTime, DateTime endTime, bool isGlobal, string templateName)  
 Draw.RegionHighlightX(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, bool isGlobal, string templateName)
 
- 
+ 
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -48,9 +37,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Fills in the region between the startBar and endBar  Draw.RegionHighlightX(this, "tag1", 10, 0, Brushes.Blue); |
+```csharp
+// Fills in the region between the startBar and endBar
+Draw.RegionHighlightX(this, "tag1", 10, 0, Brushes.Blue);
+```

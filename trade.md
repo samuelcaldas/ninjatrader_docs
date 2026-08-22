@@ -1,15 +1,6 @@
-﻿
+# Trade
 
-
-
-Trade
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](trade.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) >  Trade | [Previous page](traceorders.md) [Return to chapter overview](strategy.md) [Next page](tradecollection.md) |
-
-Definition
-----------
+## Definition
 
 A Trade is a completed buy/sell or sell/buy transaction. It consists of an entry and exit execution.
 
@@ -20,8 +11,7 @@ A Trade is a completed buy/sell or sell/buy transaction. It consists of an entry
 
 In the second example above, two trade objects are created to represent each individual trade. Each trade object will hold the same entry execution for two contracts since this single execution was the opening execution for both individual trades.
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -50,9 +40,23 @@ Methods and Properties
 | TradeNumber | An int value representing the trade numbed by the sequence it occurred |
 | ToString() | A string representation of the Trade object |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {     if (SystemPerformance.RealTimeTrades.Count > 0)     {         // Check to make sure there is at least one trade in the collection         Trade lastTrade = SystemPerformance.RealTimeTrades[SystemPerformance.RealTimeTrades.Count - 1];            // Calculate the PnL for the last completed real-time trade         double lastProfitCurrency = lastTrade.ProfitCurrency;            // Store the quantity of the last completed real-time trade         double lastTradeQty = lastTrade.Quantity;            // Pring the PnL to the NinjaScript Output window         Print("The last trade's profit in currency is " + lastProfitCurrency);         // The trade profit is quantity aware, we can easily print the profit per traded unit as well         Print("The last trade's profit in currency per traded unit is " + (lastProfitCurrency / lastTradeQty));     }  } |
+```csharp
+protected override void OnBarUpdate()
+{
+    if (SystemPerformance.RealTimeTrades.Count > 0)
+    {
+        // Check to make sure there is at least one trade in the collection
+        Trade lastTrade = SystemPerformance.RealTimeTrades[SystemPerformance.RealTimeTrades.Count - 1];
+        // Calculate the PnL for the last completed real-time trade
+        double lastProfitCurrency = lastTrade.ProfitCurrency;
+        // Store the quantity of the last completed real-time trade
+        double lastTradeQty = lastTrade.Quantity;
+        // Pring the PnL to the NinjaScript Output window
+        Print("The last trade's profit in currency is " + lastProfitCurrency);
+        // The trade profit is quantity aware, we can easily print the profit per traded unit as well
+        Print("The last trade's profit in currency per traded unit is " + (lastProfitCurrency / lastTradeQty));
+    }
+}
+```

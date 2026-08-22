@@ -1,17 +1,8 @@
-﻿
+# Clear Browser Cache
 
+## How to clear your browser cache
 
-
-Clear Browser Cache
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](clear_browser_cache.htm) >>  **Navigation:**  [Configuration](configuration.htm) > [Installation](installation.htm) >  Clear Browser Cache | [Previous page](installation_guide.htm) [Return to chapter overview](installation.htm) [Next page](connecting.htm) |
-
-How to clear your browser cache
--------------------------------
-
-In order to download or upgrade NinjaTrader you may need to clear your browser cache. Common errors that occur when this is the case are Cabinet File Errors and errors involving Temporary Files.  If you receive one of these errors when installing or updating NinjaTrader please follow the steps listed below to accomplish a successful download of the NinjaTrader application.
+In order to download or upgrade NinjaTrader you may need to clear your browser cache. Common errors that occur when this is the case are Cabinet File Errors and errors involving Temporary Files.  If you receive one of these errors when installing or updating NinjaTrader please follow the steps listed below to accomplish a successful download of the NinjaTrader application.
 
 Internet Explorer:
 

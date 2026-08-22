@@ -1,12 +1,4 @@
-﻿
-
-
-
-Level II
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](level_ii.md) >>  **Navigation:**  [Operations](operations.md) >  Level II | [Previous page](importing_a_list_of_stock_symb.md) [Return to chapter overview](operations.md) [Next page](levelii_usingtheleveliiwindow.md) |
+# Level II
 
 |  |
 | --- |

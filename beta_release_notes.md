@@ -1,14 +1,6 @@
-﻿
+# Release Notes
 
-
-
-Release Notes
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](.\beta_release_notes.md) >>  **Navigation:**  [Release Notes](release_notes-1.md) >  Release Notes | [Previous page](8_0_1_0-1.md) [Return to chapter overview](release_notes-1.md) [Next page](8_0_0_14.md) |
-
-NinjaTrader release notes can be found below, if you have any questions on a specific release please contact [[email protected]](/cdn-cgi/l/email-protection)
+NinjaTrader release notes can be found below, if you have any questions on a specific release please contact [[email protected]](/cdn-cgi/l/email-protection)
 
 |  |  |
 | --- | --- |

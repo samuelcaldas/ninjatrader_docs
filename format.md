@@ -1,29 +1,32 @@
-﻿
+# Format()
 
-
-
-Format()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](format.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Performance Metrics](performance_metrics.md) >  Format() | [Previous page](performance_metrics.md) [Return to chapter overview](performance_metrics.md) [Next page](onaddtrade.md) |
-
-Definition
-----------
+## Definition
 
 This method allows you to customize the rendering of the performance value on the Summary grid.
 
-Syntax
-------
+## Syntax
 
 public override string Format(object value, Cbi.PerformanceUnit unit, string propertyName)   
 {  
-     
+     
 }
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| public override string Format(object value, Cbi.PerformanceUnit unit, string propertyName)  {       double[] tmp = value as double[];       if (tmp != null && tmp.Length == 5)           switch (unit)           {                 case Cbi.PerformanceUnit.Currency : return Core.Globals.FormatCurrency(tmp[0], denomination);                 case Cbi.PerformanceUnit.Percent   : return tmp[1].ToString("P");                 case Cbi.PerformanceUnit.Pips : return Math.Round(tmp[2]).ToString(Core.Globals.GeneralOptions.CurrentCulture);                 case Cbi.PerformanceUnit.Points : return Math.Round(tmp[3]).ToString(Core.Globals.GeneralOptions.CurrentCulture);                 case Cbi.PerformanceUnit.Ticks : return Math.Round(tmp[4]).ToString(Core.Globals.GeneralOptions.CurrentCulture);           }       return value.ToString();  } |
+```csharp
+public override string Format(object value, Cbi.PerformanceUnit unit, string propertyName)
+{
+    double[] tmp = value as double[];
+    if (tmp != null && tmp.Length == 5)
+    switch (unit)
+    {
+        case Cbi.PerformanceUnit.Currency : return Core.Globals.FormatCurrency(tmp[0], denomination);
+        case Cbi.PerformanceUnit.Percent
+        : return tmp[1].ToString("P");
+        case Cbi.PerformanceUnit.Pips : return Math.Round(tmp[2]).ToString(Core.Globals.GeneralOptions.CurrentCulture);
+        case Cbi.PerformanceUnit.Points : return Math.Round(tmp[3]).ToString(Core.Globals.GeneralOptions.CurrentCulture);
+        case Cbi.PerformanceUnit.Ticks : return Math.Round(tmp[4]).ToString(Core.Globals.GeneralOptions.CurrentCulture);
+    }
+    return value.ToString();
+}
+```

@@ -1,21 +1,10 @@
-﻿
-
-
-
-Rendering
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](rendering.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) >  Rendering | [Previous page](width.md) [Return to chapter overview](chart.md) [Next page](d2dfactory.md) |
+# Rendering
 
 Rendering methods and properties can be useful when carrying out custom drawing tasks for chart objects. Event handlers such as [OnCalculateMinMax()](oncalculateminmax.md) and [OnRender()](onrender.md) allow you to override behavior at key points in the rendering process.
 
-|  |
-| --- |
-| Notse:  1.Some rendering methods and properties make use of [SharpDX](http://sharpdx.org/) libraries, which provide a managed framework for working with DirectX technology.  Please see the [SharpDX SDK Reference](sharpdx_sdk_reference.md) for more information.  2.For a walk through for using the SharpDX, please see the educational resource [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering.md) |
+> Notse:  1.Some rendering methods and properties make use of [SharpDX](http://sharpdx.org/) libraries, which provide a managed framework for working with DirectX technology.  Please see the [SharpDX SDK Reference](sharpdx_sdk_reference.md) for more information.  2.For a walk through for using the SharpDX, please see the educational resource [Using SharpDX for Custom Chart Rendering](using_sharpdx_for_custom_chart_rendering.md)
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |

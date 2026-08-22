@@ -1,17 +1,6 @@
-﻿
+# Creating a Market Analyzer Window
 
-
-
-Creating a Market Analyzer Window
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](creating_a_market_analyzer_win.md) >>  **Navigation:**  [Operations](operations.md) > [Market Analyzer](market_analyzer.md) >  Creating a Market Analyzer Window | [Previous page](market_analyzer.md) [Return to chapter overview](market_analyzer.md) [Next page](working_with_instrument_rows.md) |
-
-|  |
-| --- |
-| playVideo |
-|  |
+> playVideo
 
 ![tog_minus](tog_minus.gif)
 

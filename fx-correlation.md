@@ -1,12 +1,4 @@
-﻿
-
-
-
-FX Correlation
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](fx-correlation.md) >>  **Navigation:**  [Operations](operations.md) >  FX Correlation | [Previous page](window_linking.md) [Return to chapter overview](operations.md) [Next page](using-the-fx-correlation-windo.md) |
+# FX Correlation
 
 |  |
 | --- |

@@ -1,20 +1,8 @@
-﻿
+# Strategy Analyzer Layout
 
+> playVideo
 
-
-Strategy Analyzer Layout
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](strategy_analyzer_layout.md) >>  **Navigation:**  [Operations](operations.md) > [Strategy Analyzer](strategy_analyzer.md) >  Strategy Analyzer Layout | [Previous page](strategy_analyzer.md) [Return to chapter overview](strategy_analyzer.md) [Next page](backtest_a_strategy.md) |
-
-|  |
-| --- |
-| playVideo |
-|  |
-
-Layout
-------
+## Layout
 
 The Strategy Analyzer window contains the following items:
 
@@ -26,8 +14,7 @@ The Strategy Analyzer window contains the following items:
 
 ![StrategyAnalyzer_Layout1](strategyanalyzer_layout1.png)
 
-Log Grid
---------
+## Log Grid
 
 You can toggle the log to be displayed, this shows summary details from all previous strategy backtests.
 

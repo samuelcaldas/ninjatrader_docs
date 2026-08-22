@@ -1,12 +1,4 @@
-﻿
-
-
-
-Playback Connection
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](playback_connection.md) >>  **Navigation:**  [Operations](operations.md) >  Playback Connection | [Previous page](properties_superdom.md) [Return to chapter overview](operations.md) [Next page](set_up12.md) |
+# Playback Connection
 
 |  |
 | --- |

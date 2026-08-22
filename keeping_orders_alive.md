@@ -1,35 +1,24 @@
-﻿
-
-
-
-Keeping orders alive
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](keeping_orders_alive.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Strategy](strategy2.md) >  Keeping orders alive | [Previous page](halting_a_strategy_once_user_d.md) [Return to chapter overview](strategy2.md) [Next page](modifying_the_price_of_stop_lo.md) |
+# Keeping orders alive
 
 The default behavior for NinjaTrader is to cancel limit orders if the trigger conditions are no longer true. It is possible to submit orders that stay active until cancelled by setting liveUntilCancelled to true. This sample demonstrates and explains the difference between submitting an order with isLiveUntilCancelled true and false. The comments contain a longer, more detailed explanation.
 
-Key concepts in this example:
------------------------------
+## Key concepts in this example:
 
-•How to submit an order that stays active until it is explicitly canceled\*
+- How to submit an order that stays active until it is explicitly canceled\*
 
 \*Another sample demonstrating how to explicitly cancel orders can be found here: [Using CancelOrder() method to cancel orders](using_cancelorder_method_to_ca.md)
 
-Important related documentation
--------------------------------
+## Important related documentation
 
-•[EnterLongLimit()](enterlonglimit.md)
+- [EnterLongLimit()](enterlonglimit.md)
 
-•[isliveUntilCancelled](exitlonglimit.md)
+- [isliveUntilCancelled](exitlonglimit.md)
 
-•[CrossAbove()](crossabove.md)
+- [CrossAbove()](crossabove.md)
 
-•[CrossBelow()](crossbelow.md)
+- [CrossBelow()](crossbelow.md)
 
-Import instructions
--------------------
+## Import instructions
 
 1.Download the file contained in this Help Guide topic to your PC desktop
 

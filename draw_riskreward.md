@@ -1,39 +1,27 @@
-﻿
+# Draw.RiskReward()
 
-
-
-Draw.RiskReward()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_riskreward.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.RiskReward() | [Previous page](regressionchannel.md) [Return to chapter overview](drawing.md) [Next page](riskreward.md) |
-
-Definition
-----------
+## Definition
 
 Draws a risk/reward on a chart.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [RiskReward](riskreward.md) object that represents the draw object.
 
- 
+ 
 
-Syntax
-------
+## Syntax
 
 Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime entryTime, double entryY, DateTime endTime, double endY, double ratio, bool isStop)  
 Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, int entryBarsAgo , double entryY, int endBarsAgo, double endY, double ratio, bool isStop)  
 Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime entryTime, double entryY, DateTime endTime, double endY, double ratio, bool isStop, bool isGlobal, string templateName)  
 Draw.RiskReward(NinjaScriptBase owner, string tag, bool isAutoScale, int entryBarsAgo , double entryY, int endBarsAgo, double endY, double ratio, bool isStop, bool isGlobal, string templateName)
 
- 
+ 
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -51,9 +39,10 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // draw a risk/reward tool starting from the current bar to 10 bars ago  // with calcuate a ratio of 2 based on stop level  Draw.RiskReward(this, "tag1", false, 0, High[0], 10, Low[0], 2, true); |
+```csharp
+// draw a risk/reward tool starting from the current bar to 10 bars ago
+// with calcuate a ratio of 2 based on stop level
+Draw.RiskReward(this, "tag1", false, 0, High[0], 10, Low[0], 2, true);
+```

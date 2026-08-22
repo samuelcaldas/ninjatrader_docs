@@ -1,12 +1,4 @@
-﻿
-
-
-
-Trading
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](options_trading.md) >>  **Navigation:**  [Configuration](configuration.md) > [Options](options.md) >  Trading | [Previous page](enabling_disabling-multi-provi.md) [Return to chapter overview](options.md) [Next page](options_strategies.md) |
+# Trading
 
 The Trading category sets all trading properties and allows configuration of simulation accounts.
 

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Market Watch
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](market-watch.md) >>  **Navigation:**  [Operations](operations.md) >  Market Watch | [Previous page](marketanalzyer_window_linking.md) [Return to chapter overview](operations.md) [Next page](display-overview.md) |
+# Market Watch
 
 |  |
 | --- |

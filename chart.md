@@ -1,17 +1,8 @@
-﻿
-
-
-
-Charts
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](chart.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) >  Charts | [Previous page](tochartstring.md) [Return to chapter overview](common.md) [Next page](chartbars.md) |
+# Charts
 
 The following section covers information related to accessing chart related data, such as [ChartControl](chartcontrol.md), [ChartBars](chartbars.md), [ChartScales](chartscale.md), and [ChartPanels](chartpanels.md), and advanced Indicator [Rendering](rendering.md).
 
-In this section
----------------
+## In this section
 
 |  |  |
 | --- | --- |
@@ -22,5 +13,4 @@ In this section
 
 A chart's objects can be broken down into the four following areas:
 
-GuiChart
---------
+## GuiChart

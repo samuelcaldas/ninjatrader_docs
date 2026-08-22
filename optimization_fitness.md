@@ -1,17 +1,8 @@
-﻿
-
-
-
-Optimization Fitness
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](optimization_fitness.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) >  Optimization Fitness | [Previous page](priorvalue.md) [Return to chapter overview](language_reference_wip.md) [Next page](oncalculateperformancevalue.md) |
+# Optimization Fitness
 
 Custom Optimization Fitnesses can be used when optimizing to help you choose custom metrics your Strategy can be measured against. The methods and properties covered in this section are unique to custom Optimization Fitness development.
 
-In this section
----------------
+## In this section
 
 |  |  |
 | --- | --- |

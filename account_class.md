@@ -1,20 +1,10 @@
-﻿
+# Account
 
-
-
-Account
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](account_class.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) >  Account | [Previous page](quantityupdown.md) [Return to chapter overview](add_on.md) [Next page](accountitem.md) |
-
-Definition
-----------
+## Definition
 
 The Account class can be used to subscribe to account related events as well as accessing account related information.
 
-Static Account Class Properties
--------------------------------
+## Static Account Class Properties
 
 |  |  |
 | --- | --- |
@@ -22,8 +12,7 @@ Static Account Class Properties
 | AccountStatusUpdate | Event handler for account status updates |
 | SimulationAccountReset | Event handler for resets on sim accounts NOTE: Also happens when rewinding/fast forwarding Playback connections) |
 
-Methods and Properties From Account instances
----------------------------------------------
+## Methods and Properties From Account instances
 
 |  |  |
 | --- | --- |
@@ -47,9 +36,54 @@ Methods and Properties From Account instances
 | Strategies | A collection of strategies on this account |
 | Submit() | Submits specified order(s) |
 
-Example
--------
+## Example
 
-|  |
-| --- |
-| myAccount;     OnStateChange()  {  State.SetDefaults)  {  // Find our Sim101 account  (Account.All)  );     // Subscribe to static events. Remember to unsubscribe with -= when you are done  OnAccountStatusUpdate;     )  {  // Print some information about our account using the AccountItem indexer  ,  myAccount.Name,  myAccount.Connection.Options.Name,  Currency.UsDollar)  ));     // Print the prices of the executions on our account  (myAccount.Executions)  myAccount.Executions)  execution.Price);     // Subscribe to events. Remember to unsubscribe with -= when you are done  OnAccountItemUpdate;  OnExecutionUpdate;  }  }  State.Terminated)  {  // Unsubscribe to events  OnAccountItemUpdate;  OnExecutionUpdate;           Account.AccountStatusUpdate -=OnAccountStatusUpdate;  }  }     e)  {  // Do something with the account status update  }     e)  {  // Do something with the account item update  }     e)  {  // Do something with the execution update  } |
+```csharp
+myAccount;
+OnStateChange()
+{
+    State.SetDefaults)
+    {
+        // Find our Sim101 account
+        (Account.All)
+        );
+        // Subscribe to static events. Remember to unsubscribe with -= when you are done
+        OnAccountStatusUpdate;
+        )
+        {
+            // Print some information about our account using the AccountItem indexer
+            ,
+            myAccount.Name,
+            myAccount.Connection.Options.Name,
+            Currency.UsDollar)
+            ));
+            // Print the prices of the executions on our account
+            (myAccount.Executions)
+            myAccount.Executions)
+            execution.Price);
+            // Subscribe to events. Remember to unsubscribe with -= when you are done
+            OnAccountItemUpdate;
+            OnExecutionUpdate;
+        }
+    }
+    State.Terminated)
+    {
+        // Unsubscribe to events
+        OnAccountItemUpdate;
+        OnExecutionUpdate;
+        Account.AccountStatusUpdate -=OnAccountStatusUpdate;
+    }
+}
+e)
+{
+    // Do something with the account status update
+}
+e)
+{
+    // Do something with the account item update
+}
+e)
+{
+    // Do something with the execution update
+}
+```

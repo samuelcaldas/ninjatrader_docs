@@ -1,20 +1,10 @@
-﻿
+# TrendChannel
 
-
-
-TrendChannel
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](trendchannel.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) > [Draw.TrendChannel()](draw_trendchannel.md) >  TrendChannel | [Previous page](draw_trendchannel.md) [Return to chapter overview](draw_trendchannel.md) [Next page](draw_triangle.md) |
-
-Definition
-----------
+## Definition
 
 Represents an interface that exposes information regarding a Trend Channel [IDrawingTool](idrawingtool.md).
 
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |
@@ -23,9 +13,11 @@ Methods and Properties
 | ParallelStartAnchor | An [IDrawingTool's ChartAnchor](idrawingtool.md#chartanchor) representing the starting point of the second line used in the trend channel |
 | [PriceLevels](pricelevels.md) | A collection of prices calculated by the drawing object |
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| // Instantiate a TrendChannel object  TrendChannel myTC = Draw.TrendChannel(this, "tag1", true, 10, Low[10], 0, High[0], 10, High[10] + 5 \* TickSize);                // Increase the y-axis position of the object's TrendEndAnchor  myTC.TrendEndAnchor.Price += 15; |
+```csharp
+// Instantiate a TrendChannel object
+TrendChannel myTC = Draw.TrendChannel(this, "tag1", true, 10, Low[10], 0, High[0], 10, High[10] + 5 \* TickSize);
+// Increase the y-axis position of the object's TrendEndAnchor
+myTC.TrendEndAnchor.Price += 15;
+```

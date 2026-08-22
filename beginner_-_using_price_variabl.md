@@ -1,12 +1,4 @@
-﻿
-
-
-
-Beginner - Using price variables
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](beginner_-_using_price_variabl.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) >  Beginner - Using price variables | [Previous page](using2.md) [Return to chapter overview](developing_indicators.md) [Next page](set_up4.md) |
+# Beginner - Using price variables
 
 |  |
 | --- |

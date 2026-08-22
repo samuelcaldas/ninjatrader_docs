@@ -1,12 +1,4 @@
-﻿
-
-
-
-Using Color Pickers
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](using_color_pickers.md) >>  **Navigation:**  [Operations](operations.md) > [Windows](window_tabs.md) >  Using Color Pickers | [Previous page](printing_content.md) [Return to chapter overview](window_tabs.md) [Next page](ninjascript.md) |
+# Using Color Pickers
 
 Color Picker
 
@@ -37,6 +29,4 @@ NinjaTrader's Color Pickers allow you to enter custom color values not defined i
 
 The image above shows an RGB value typed in to produce a White color.
 
-|  |
-| --- |
-| Note: Custom colors typed in manually will only apply to the specific Color Picker in which they are typed, and will not be available after the next startup. However, colors can be added to all Color Pickers permanently by [creating your own skin](creating_your_own_skin.md). |
+> **Note:** Custom colors typed in manually will only apply to the specific Color Picker in which they are typed, and will not be available after the next startup. However, colors can be added to all Color Pickers permanently by [creating your own skin](creating_your_own_skin.md).

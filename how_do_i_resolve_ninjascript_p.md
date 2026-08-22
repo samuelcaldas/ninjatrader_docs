@@ -1,23 +1,14 @@
-﻿
-
-
-
-How do I resolve NinjaScript Programming Errors?
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](how_do_i_resolve_ninjascript_p.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Tips](tips.md) >  How do I resolve NinjaScript Programming Errors? | [Previous page](formatting_numbers.md) [Return to chapter overview](tips.md) [Next page](make_sure_you_have_enough_bars.md) |
+# How do I resolve NinjaScript Programming Errors?
 
 You may come across various situations where your NinjaScript files will not compile. This can include situations such as:
 
-•You are trying to import a NinjaScript Archive File and you receive an error such as "You have custom NinjaScript files on your PC that have programming errors..."
+- You are trying to import a NinjaScript Archive File and you receive an error such as "You have custom NinjaScript files on your PC that have programming errors..."
 
-•You are new to NinjaScript development and somehow your files will no longer compile
+- You are new to NinjaScript development and somehow your files will no longer compile
 
 Because importing NinjaScript files requires compilation of your entire NinjaScript library you will first need to resolve the errors to allow for a successful compilation.
 
-1st Step in Resolving Errors
-----------------------------
+## 1st Step in Resolving Errors
 
 1.Backup NinjaScript files (Tools > Export > Backup File, ensure that "NinjaScript Files" is checked and then press the "Export" button) .
 
@@ -41,8 +32,7 @@ Because importing NinjaScript files requires compilation of your entire NinjaScr
 
 11.Repeat steps 2 through 10 for every NinjaScript that still has errors
 
-To remove or delete the erroneous file
---------------------------------------
+## To remove or delete the erroneous file
 
 With NinjaTrader 8, we now have the option to remove a file from compilation but not delete it.
 
@@ -56,8 +46,7 @@ This means all your code is intact but is not compiled so it will not produce er
 
 4.You also have the option to completely delete the file as well, this is the same process as above except you would select "Remove" instead.
 
-2nd Step in Resolving Errors
-----------------------------
+## 2nd Step in Resolving Errors
 
 If the above procedure does not resolve all errors, you may need to reinstall NinjaTrader.
 

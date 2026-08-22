@@ -1,12 +1,4 @@
-﻿
-
-
-
-Protection/DLL Security
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](protection_dll_security.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Distribution](distribution.md) >  Protection/DLL Security | [Previous page](export_problems.md) [Return to chapter overview](distribution.md) [Next page](commercial_distribution.md) |
+# Protection/DLL Security
 
 [![SecureTeam](protection_dll_security_1.gif "SecureTeam")](http://www.secureteam.net/ "SecureTeam")
 

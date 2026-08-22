@@ -1,17 +1,8 @@
-﻿
+# Set Up
 
+The following set up is for TradeStation Version 9.XX.  This section will walk you through the set up in both NinjaTrader and TradeStation as well as allow you to send a test email through the Email Interface you have created.
 
-
-Set Up
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](set_up.md) >>  **Navigation:**  [Operations](operations.md) > [Automated Trading](automated_trading.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at.md) > [TradeStation Email Integration](tradestation_email_integration.md) >  Set Up | [Previous page](running_concurrent_strategies_.md) [Return to chapter overview](tradestation_email_integration.md) [Next page](symbol_mapping.md) |
-
-The following set up is for TradeStation Version 9.XX.  This section will walk you through the set up in both NinjaTrader and TradeStation as well as allow you to send a test email through the Email Interface you have created.
-
-Setting up NinjaTrader
-----------------------
+## Setting up NinjaTrader
 
 1.Start NinjaTrader
 
@@ -29,33 +20,27 @@ Setting up NinjaTrader
 
 7.Set your [Order Handling](order_handling_options.md) options
 
-8.Connect to your broker by selecting the File menu and then the menu item Connect within the Control Center window (make sure you have set up a [connection to your broker](%3C%25CONNECTIONGUIDE%25%3E))
+8.Connect to your broker by selecting the File menu and then the menu item Connect within the Control Center window (make sure you have set up a [connection to your broker](connecting_to_youraccount.md))
 
- 
+ 
 
-|  |
-| --- |
-| Note: If upon restarting the SMTP server does not initialize, go to Tools --> Options and click OK |
+> **Note:** If upon restarting the SMTP server does not initialize, go to Tools --> Options and click OK
 
-Symbol Mapping for Futures Contracts (Stocks and Forex traders may skip this step)
-----------------------------------------------------------------------------------
+## Symbol Mapping for Futures Contracts (Stocks and Forex traders may skip this step)
 
 9.Set your [symbol mapping](tradestation_symbol_mapping.md) for futures contracts
 
-Setting Up Antivirus Software
------------------------------
+## Setting Up Antivirus Software
 
 10. Antivirus software which scans outgoing emailing can impair the link between TradeStation and NinjaTrader. If your PC has Antivirus software installed and scans outgoing mail, each mail notification sent from TradeStation to NinjaTrader will be scanned and therefore add significant delay in automatically processing your trading signals. Please consult your Antivirus software Help Guide to determine how to disable the scanning of outgoing email.
 
-Setting Up TradeStation Workspace
----------------------------------
+## Setting Up TradeStation Workspace
 
 11. Start TradeStation
 
 12. Set up your [workspace options](workspace_options.md)
 
-Setting Up TradeStation Email Notification
-------------------------------------------
+## Setting Up TradeStation Email Notification
 
 13. Add a TradeManager window to your workspace by clicking on the TradingApps panel on left pane as per the image below.
 
@@ -79,8 +64,7 @@ Setting Up TradeStation Email Notification
 
 19. Repeat steps 15 through 17 for "Strategy Canceled Order", "Strategy Filled Order" and "Strategy Replaced Order"
 
-Setting Up a TradeStation Strategy
-----------------------------------
+## Setting Up a TradeStation Strategy
 
 20. Open a chart(s) of the instrument that you will run your strategy on
 
@@ -92,8 +76,6 @@ Setting Up a TradeStation Strategy
 
 23. Check the "Generate strategy orders for display in TradeManager's Strategy Orders tab" box and press "Close"
 
-|  |
-| --- |
-| Note: Following this set up procedure, orders will NOT be sent to any live TS brokerage account, only to NinjaTrader. |
+> **Note:** Following this set up procedure, orders will NOT be sent to any live TS brokerage account, only to NinjaTrader.
 
 That's it! Your strategy will now be automated for execution through NinjaTrader!

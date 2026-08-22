@@ -1,20 +1,10 @@
-﻿
+# Draw.ExtendedLine()
 
-
-
-Draw.ExtendedLine()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_extendedline.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.ExtendedLine() | [Previous page](ellipse.md) [Return to chapter overview](drawing.md) [Next page](extendedline.md) |
-
-Definition
-----------
+## Definition
 
 Draws a line with infinite end points.
 
-Method Return Value
--------------------
+## Method Return Value
 
 An [ExtendedLine](extendedline.md) object that represents the draw object.
 
@@ -28,10 +18,9 @@ Draw.ExtendedLine(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime 
 Draw.ExtendedLine(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)  
 Draw.ExtendedLine(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -51,9 +40,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a dotted lime green  Draw.ExtendedLine(this, "tag1", 10, Close[10], 0, Close[0], Brushes.LimeGreen, DashStyleHelper.Dot, 2); |
+```csharp
+// Draws a dotted lime green
+Draw.ExtendedLine(this, "tag1", 10, Close[10], 0, Close[0], Brushes.LimeGreen, DashStyleHelper.Dot, 2);
+```

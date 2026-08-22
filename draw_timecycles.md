@@ -1,25 +1,14 @@
-﻿
+# Draw.TimeCycles()
 
-
-
-Draw.TimeCycles()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_timecycles.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.TimeCycles() | [Previous page](textfixed.md) [Return to chapter overview](drawing.md) [Next page](timecycles.md) |
-
-Definition
-----------
+## Definition
 
 Draws a time cycle based on two points.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [TimeCycles](timecycles.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.TimeCycles(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, double endY, Brush brush, bool drawOnPricePanel)
 
@@ -40,10 +29,9 @@ Draw.TimeCycles(NinjaScriptBase owner, string tag, DateTime startTime, DateTime 
 Draw.TimeCycles(NinjaScriptBase owner, string tag, DateTime startTime, DateTime endTime, Brush brush)
 
 Draw.TimeCycles(NinjaScriptBase owner, string tag, int startBarsAgo, int endBarsAgo, Brush brush)  
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -58,9 +46,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a Time Cycles object based on 10 bars back to the current bar that is cornflower blue with an opacity of 40  Draw.TimeCycles(this, "tag1", 0, 10, Brushes.CornflowerBlue, Brushes.CornflowerBlue, 40); |
+```csharp
+// Draws a Time Cycles object based on 10 bars back to the current bar that is cornflower blue with an opacity of 40
+Draw.TimeCycles(this, "tag1", 0, 10, Brushes.CornflowerBlue, Brushes.CornflowerBlue, 40);
+```

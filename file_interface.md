@@ -1,12 +1,4 @@
-﻿
-
-
-
-File Interface
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](file_interface.md) >>  **Navigation:**  [Operations](operations.md) > [Automated Trading](automated_trading.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at.md) >  File Interface | [Previous page](initialization.md) [Return to chapter overview](automated_trading_interface_at.md) [Next page](order_instruction_files_oif.md) |
+# File Interface
 
 |  |
 | --- |

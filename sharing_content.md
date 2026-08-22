@@ -1,40 +1,24 @@
-﻿
-
-
-
-Sharing Content
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](sharing_content.md) >>  **Navigation:**  [Operations](operations.md) > [Windows](window_tabs.md) >  Sharing Content | [Previous page](using_tabs.md) [Return to chapter overview](window_tabs.md) [Next page](printing_content.md) |
+# Sharing Content
 
 NinjaTrader support sharing messages and images via Email or Text message via email.
 
-|  |
-| --- |
-| playVideo |
-|  |
+> playVideo
 
-Setting up Sharing Services
----------------------------
+## Setting up Sharing Services
 
 You must first setup your sharing services before you are able to share content.
 
 In the NinjaTrader Control Center under the "Tools" menu select "Options", here in the General category you can click to configure "Sharing Connections".
 
-Options_SharingServicesObjectDialog
------------------------------------
+## Options_SharingServicesObjectDialog
 
 Select an available sharing service and double click or select "add" to configure that connection.
 
 Once you have completed setup of the sharing service. You can now use this sharing service in NinjaTrader.
 
-|  |
-| --- |
-| Note: The default check box can only be checked for a single account for each Sharing Services. This is the account that is used when any automated process attempts to share something, such as an strategy tweeting a new position is just got into. For more information on the NinjaScript method to share please see the following section of the help guide. |
+> **Note:** The default check box can only be checked for a single account for each Sharing Services. This is the account that is used when any automated process attempts to share something, such as an strategy tweeting a new position is just got into. For more information on the NinjaScript method to share please see the following section of the help guide.
 
-Sharing from a NinjaTrader Window
----------------------------------
+## Sharing from a NinjaTrader Window
 
 ![Sharing_ContextMenu](sharing_contextmenu.png)
 
@@ -51,12 +35,9 @@ Once you make a selection the Share dialog will be launched where you can custom
 
 ![Windows_Sharing_ShareDialog](windows_sharing_sharedialog.png)
 
-|  |
-| --- |
-| Note: Depending on what the window supports for sharing will change depending on what options you have for sharing for that window. |
+> **Note:** Depending on what the window supports for sharing will change depending on what options you have for sharing for that window.
 
-Saving Chart Images
--------------------
+## Saving Chart Images
 
 In addition to sharing directly through NinjaTrader, you can also save images of chart windows to your PC locally, which you can store or share in other ways.
 

@@ -1,18 +1,14 @@
-﻿
-
-
-
-Restore()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](iworkspacepersistence_restore.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Add On](add_on.md) > [IWorkspacePersistence Interface](iworkspacepersistence_interface.md) >  Restore() | [Previous page](iworkspacepersistence_interface.md) [Return to chapter overview](iworkspacepersistence_interface.md) [Next page](iworkspacepersistence_save.md) |
+# Restore()
 
 Restores the window from workspaces.
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // IWorkspacePersistence member. Required for restoring window from workspaces  public void Restore(XDocument document, XElement)  {      if (MainTabControl != null)           MainTabControl.RestoreFromXElement(element);  } |
+```csharp
+// IWorkspacePersistence member. Required for restoring window from workspaces
+public void Restore(XDocument document, XElement)
+{
+    if (MainTabControl != null)
+    MainTabControl.RestoreFromXElement(element);
+}
+```

@@ -1,21 +1,10 @@
-﻿
+# Indicator
 
+The methods and properties covered in this section are unique to custom indicator development.  Indicator configuration properties globally define various behaviors of indicators. All properties have default values and can be overridden by setting them in the [OnStateChange()](onstatechange.md) method of the indicator.
 
+> **Tip:** See also the "[Common](common.md)" section for more method and properties which are shared by NinjaScript types
 
-Indicator
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](indicator.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) >  Indicator | [Previous page](onnextdatapoint.md) [Return to chapter overview](language_reference_wip.md) [Next page](addline.md) |
-
-The methods and properties covered in this section are unique to custom indicator development.  Indicator configuration properties globally define various behaviors of indicators. All properties have default values and can be overridden by setting them in the [OnStateChange()](onstatechange.md) method of the indicator.
-
-|  |
-| --- |
-| Tip:  See also the "[Common](common.md)" section for more method and properties which are shared by NinjaScript types |
-
-Methods and Properties
-----------------------
+## Methods and Properties
 
 |  |  |
 | --- | --- |

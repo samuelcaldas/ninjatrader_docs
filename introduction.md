@@ -1,12 +1,4 @@
-﻿
-
-
-
-Introduction
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](introduction.md) >>  **Navigation:**  »No topics above this level«  Introduction | [Previous page](copyrights.md) [Return to chapter overview](welcome.md) [Next page](getting_started_operations.md) |
+# Introduction
 
 |  |
 | --- |

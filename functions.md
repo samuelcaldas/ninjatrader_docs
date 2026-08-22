@@ -1,15 +1,6 @@
-﻿
+# Functions
 
-
-
-Functions
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](functions.md) >>  **Navigation:**  [Operations](operations.md) > [Automated Trading](automated_trading.md) > [Automated Trading Interface (ATI)](automated_trading_interface_at.md) > [DLL Interface](dll_interface.md) >  Functions | [Previous page](dll_interface.md) [Return to chapter overview](dll_interface.md) [Next page](tradestation_email_integration.md) |
-
-DLL Interface Functions
------------------------
+## DLL Interface Functions
 
 int Ask(string instrument, double price, int size)
 
@@ -44,11 +35,11 @@ double CashValue(string account)
 Gets the cash value for the specified account. \*Not all brokerage technologies support this value.
 
 int Command(string command, string account, string instrument, string action, int quantity, string orderType, double limitPrice, double stopPrice,   
- string timeInForce, string oco, string orderId, string strategy, string strategyId)
+ string timeInForce, string oco, string orderId, string strategy, string strategyId)
 
 Function for submitting, cancelling and changing orders, positions and strategies. Refer to the [Commands and Valid Parameters](commands_and_valid_parameters.md) section for detailed information. The [Log](log_tab2.md) tab will list context sensitive error information.
 
- 
+ 
 
 int ConfirmOrders(int confirm)
 

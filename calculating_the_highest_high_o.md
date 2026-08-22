@@ -1,33 +1,22 @@
-﻿
-
-
-
-Calculating the highest high or lowest low for a specified time range
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](calculating_the_highest_high_o.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Calculating the highest high or lowest low for a specified time range | [Previous page](indicator2.md) [Return to chapter overview](indicator2.md) [Next page](changing_fonts_for_draw_object.md) |
+# Calculating the highest high or lowest low for a specified time range
 
 Determining a high or low value for given time range can be useful.
 
-Key concepts in this example
-----------------------------
+## Key concepts in this example
 
-•Converting time to bars ago values
+- Converting time to bars ago values
 
-•Getting the highest high and lowest low values
+- Getting the highest high and lowest low values
 
-Important related documentation
--------------------------------
+## Important related documentation
 
-•[GetBar()](getbar.md)
+- [GetBar()](getbar.md)
 
-•[MAX()](maximum_max.md)
+- [MAX()](maximum_max.md)
 
-•[MIN()](minimum_min.md)
+- [MIN()](minimum_min.md)
 
-Import instructions
--------------------
+## Import instructions
 
 1.Download the file contained in this Help Guide topic to your PC desktop
 

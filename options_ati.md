@@ -1,19 +1,10 @@
-﻿
-
-
-
-Automated trading interface
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](options_ati.md) >>  **Navigation:**  [Configuration](configuration.md) > [Options](options.md) >  Automated trading interface | [Previous page](options_strategies.md) [Return to chapter overview](options.md) [Next page](options_marketdata.md) |
+# Automated trading interface
 
 The Automated trading interface section sets options for the [Automated Trading Interface](automated_trading_interface_at.md).
 
 ![Options_AutomatedTradingInterface](options_automatedtradinginterface.png)
 
-General Properties
-------------------
+## General Properties
 
 This property group sets the general ATI (Automated trading interface) properties.
 
@@ -25,8 +16,7 @@ This property group sets the general ATI (Automated trading interface) propertie
 | Default account | Sets the default account for automated trading. If no account is specified the default account is used. |
 | Ignore duplicate OIF files | Enables or disables ignoring duplicate OIF files. If enabled, any OIF files with the same name during the current NinjaTrader session will be ignored. |
 
-TradeStation Email Interface Properties
----------------------------------------
+## TradeStation Email Interface Properties
 
 This property group sets the TradeStation email interface properties. Detailed information on the TradeStation email interface can be found [here](tradestation_email_integration.md "e").
 

@@ -1,25 +1,14 @@
-﻿
+# Draw.Triangle()
 
-
-
-Draw.Triangle()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_triangle.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Triangle() | [Previous page](trendchannel.md) [Return to chapter overview](drawing.md) [Next page](triangle.md) |
-
-Definition
-----------
+## Definition
 
 Draws a triangle.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [Triangle](triangledown.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.Triangle(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int middleBarsAgo, double middleY, int endBarsAgo, double endY, Brush brush)  
 Draw.Triangle(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime middleTime, double middleY, DateTime endTime, double endY, Brush brush)  
@@ -31,10 +20,9 @@ Draw.Triangle(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime star
 Draw.Triangle(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int middleBarsAgo, double middleY, int endBarsAgo, double endY, bool isGlobal, string templateName)  
 Draw.Triangle(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime middleTime, double middleY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -57,9 +45,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Paints a blue triangle on the chart  Draw.Triangle(this, "tag1", 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue); |
+```csharp
+// Paints a blue triangle on the chart
+Draw.Triangle(this, "tag1", 4, Low[4], 3, High[3], 1, Low[1], Brushes.Blue);
+```

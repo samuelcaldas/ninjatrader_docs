@@ -1,12 +1,4 @@
-﻿
-
-
-
-Operations
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](operations.md) >>  **Navigation:**  »No topics above this level«  Operations | [Previous page](performance_tips2.md) [Return to chapter overview](welcome.md) [Next page](advanced_trade_management_atm.md) |
+# Operations
 
 |  |
 | --- |

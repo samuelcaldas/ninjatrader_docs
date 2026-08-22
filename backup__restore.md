@@ -1,12 +1,4 @@
-﻿
-
-
-
-Backup & Restore
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](backup__restore.md) >>  **Navigation:**  [Operations](operations.md) >  Backup & Restore | [Previous page](using_strategy_templates.md) [Return to chapter overview](operations.md) [Next page](creating_a_backup_archive.md) |
+# Backup & Restore
 
 |  |
 | --- |

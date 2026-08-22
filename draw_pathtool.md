@@ -1,29 +1,14 @@
-﻿
+# Draw.PathTool()
 
-
-
-Draw.PathTool()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](.\draw_pathtool.md) >>  **Navigation:**  »No topics above this level«  Draw.PathTool() | [Return to chapter overview](sharpdx_directwrite_textlayout-1.md) |
-
-Definition
-----------
+## Definition
 
 Draws a path which can have a user defined set of anchors.
 
-Method Return Value
--------------------
+## Method Return Value
 
-A [PathTool](pathtool-1.md) object that represents the draw object.
+A [PathTool](pathtool.md) object that represents the draw object.
 
-Syntax
-------
-
-Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, List<ChartAnchor> chartAnchors, bool isGlobal, string templateName)
-
-Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, List<ChartAnchor> chartAnchors, Brush brush, DashStyleHelper dashStyle)
+## Syntax
 
 Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, int anchor1BarsAgo, double anchor1Y, int anchor2BarsAgo, double anchor2Y, int anchor3BarsAgo, double anchor3Y)
 
@@ -37,8 +22,13 @@ Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, int anchor1Ba
 
 Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime Anchor1Time, double anchor1Y, DateTime Anchor2Time, double anchor2Y, DateTime Anchor3Time, double anchor3Y, DateTime Anchor4Time, double anchor4Y, DateTime Anchor5Time, double anchor5Y)
 
-Parameters
-----------
+Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, `List<ChartAnchor>` chartAnchors, Brush brush, DashStyleHelper dashStyle)
+
+Draw.PathTool(NinjaScriptBase owner, string tag, bool isAutoScale, `List<ChartAnchor>` chartAnchors, bool isGlobal, string templateName)
+
+ 
+
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -61,11 +51,18 @@ Parameters
 | Anchor3Time | The time the third anchor of the object will be drawn at |
 | Anchor4Time | The time the forth anchor of the object will be drawn at |
 | Anchor5Time | The time the fifth anchor of the object will be drawn at |
+| Brush | The brush used to color draw object ([reference](https://msdn.microsoft.com/en-us/library/system.windows.media.brushes%28v=vs.110%29.aspx)) |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns | |
-| --- | --- |
-|  | // Draws a PathTool object based on bars ago and y anchors  Draw.PathTool(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);  // Draws a PathTool object based on a list of anchors with specified times List<ChartAnchor> anchors = new List<ChartAnchor>();  anchors.Add(new ChartAnchor(new DateTime(2018, 5, 25), 194, ChartControl));  anchors.Add(new ChartAnchor(new DateTime(2018, 6, 12), 184, ChartControl));  anchors.Add(new ChartAnchor(new DateTime(2018, 6, 7), 176, ChartControl));  anchors.Add(new ChartAnchor(new DateTime(2018, 5, 21), 182, ChartControl));     Draw.PathTool(this, "tag1", false, anchors, Brushes.CornflowerBlue, DashStyleHelper.Solid, Brushes.CornflowerBlue, 40); |
+```csharp
+// Draws a PathTool object based on bars ago and y anchors
+Draw.PathTool(this, "tag1", false, 20, 194, 10, 184, 13, 176, 25, 182);
+// Draws a PathTool object based on a list of anchors with specified times List<ChartAnchor> anchors = new List<ChartAnchor>();
+anchors.Add(new ChartAnchor(new DateTime(2018, 5, 25), 194, ChartControl));
+anchors.Add(new ChartAnchor(new DateTime(2018, 6, 12), 184, ChartControl));
+anchors.Add(new ChartAnchor(new DateTime(2018, 6, 7), 176, ChartControl));
+anchors.Add(new ChartAnchor(new DateTime(2018, 5, 21), 182, ChartControl));
+Draw.PathTool(this, "tag1", false, anchors, Brushes.CornflowerBlue, DashStyleHelper.Solid);
+```

@@ -1,12 +1,4 @@
-﻿
-
-
-
-Advanced - Custom Plot Colors via Thresholds
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](advanced_-_custom_plot_colors_.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) >  Advanced - Custom Plot Colors via Thresholds | [Previous page](using6.md) [Return to chapter overview](developing_indicators.md) [Next page](set_up8.md) |
+# Advanced - Custom Plot Colors via Thresholds
 
 |  |
 | --- |

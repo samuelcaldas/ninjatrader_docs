@@ -1,39 +1,28 @@
-﻿
-
-
-
-Coloring a region
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](coloring_a_region.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Reference Samples](reference_samples.md) > [Indicator](indicator2.md) >  Coloring a region | [Previous page](changing_fonts_for_draw_object.md) [Return to chapter overview](indicator2.md) [Next page](creating_a_user-defined_parame.md) |
+# Coloring a region
 
 Filling in a region between two DataSeries objects on your indicators can be beneficial for creating visual indicators. The colored regions allow for immediate recognition of various zones that can help a discretionary trader quickly identify what's important and trade accordingly.
 
-This reference sample demonstrates the following concept
---------------------------------------------------------
+## This reference sample demonstrates the following concept
 
-•Coloring a region between two DataSeries objects
+- Coloring a region between two DataSeries objects
 
-•Coloring a region between a DataSeries object and a double value
+- Coloring a region between a DataSeries object and a double value
 
-Important methods and properties used include
----------------------------------------------
+## Important methods and properties used include
 
-•[Bollinger()](bollinger_bands.md)
+- [Bollinger()](bollinger_bands.md)
 
-•[Draw.Region()](draw_region.md)
+- [Draw.Region()](draw_region.md)
 
 Other methods and properties of interest include:
 
-•[Draw.Diamond()](draw_diamond.md)
+- [Draw.Diamond()](draw_diamond.md)
 
-•[Draw.Rectangle()](draw_rectangle.md)
+- [Draw.Rectangle()](draw_rectangle.md)
 
-•[DrawOnPricePanel](drawonpricepanel.md)
+- [DrawOnPricePanel](drawonpricepanel.md)
 
-Import instructions
--------------------
+## Import instructions
 
 1.Download the file contained in this Help Guide topic to your PC desktop
 

@@ -1,25 +1,14 @@
-﻿
+# Draw.Ellipse()
 
-
-
-Draw.Ellipse()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_ellipse.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Ellipse() | [Previous page](dot.md) [Return to chapter overview](drawing.md) [Next page](ellipse.md) |
-
-Definition
-----------
+## Definition
 
 Draws an ellipse.
 
-Method Return Value
--------------------
+## Method Return Value
 
 An [Ellipse](ellipse.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.Ellipse(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush)  
 Draw.Ellipse(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, Brush brush, Brush areaBrush, int areaOpacity)  
@@ -32,10 +21,9 @@ Draw.Ellipse(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime start
 Draw.Ellipse(NinjaScriptBase owner, string tag, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)  
 Draw.Ellipse(NinjaScriptBase owner, string tag, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -55,9 +43,9 @@ Parameters
 | isGlobalDrawingTool | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Paints a red ellipse on the current bar  Draw.Ellipse(this, "tag1", true, 5, Close[5], 0, Close[0], Brushes.Red, Brushes.Red, 5); |
+```csharp
+// Paints a red ellipse on the current bar
+Draw.Ellipse(this, "tag1", true, 5, Close[5], 0, Close[0], Brushes.Red, Brushes.Red, 5);
+```

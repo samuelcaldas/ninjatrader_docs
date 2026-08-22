@@ -1,12 +1,4 @@
-﻿
-
-
-
-Options
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](options.md) >>  **Navigation:**  [Configuration](configuration.md) >  Options | [Previous page](simulated_data_feed_connection.md) [Return to chapter overview](configuration.md) [Next page](general_section.md) |
+# Options
 
 |  |
 | --- |

@@ -1,25 +1,14 @@
-﻿
+# Draw.VerticalLine()
 
-
-
-Draw.VerticalLine()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_verticalline.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.VerticalLine() | [Previous page](triangleup.md) [Return to chapter overview](drawing.md) [Next page](verticalline.md) |
-
-Definition
-----------
+## Definition
 
 Draws a vertical line.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [VerticalLine](verticalline.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.VerticalLine(NinjaScriptBase owner, string tag, DateTime time, Brush brush)  
 Draw.VerticalLine(NinjaScriptBase owner, string tag, DateTime time, Brush brush, DashStyleHelper dashStyle, int width, bool drawOnPricePanel)  
@@ -28,11 +17,10 @@ Draw.VerticalLine(NinjaScriptBase owner, string tag, int barsAgo, Brush brush, D
 Draw.VerticalLine(NinjaScriptBase owner, string tag, int barsAgo, bool isGlobal, string templateName)  
 Draw.VerticalLine(NinjaScriptBase owner, string tag, DateTime time, bool isGlobal, string templateName)
 
-   
- 
+   
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -47,9 +35,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a vertical line  Draw.VerticalLine(this, "tag1", 10, Brushes.Black); |
+```csharp
+// Draws a vertical line
+Draw.VerticalLine(this, "tag1", 10, Brushes.Black);
+```

@@ -1,20 +1,10 @@
-﻿
+# Draw.FibonacciCircle()
 
-
-
-Draw.FibonacciCircle()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_fibonaccicircle.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.FibonacciCircle() | [Previous page](extendedline.md) [Return to chapter overview](drawing.md) [Next page](fibonaccicircle.md) |
-
-Definition
-----------
+## Definition
 
 Draws a fibonacci circle.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [FibonacciCircle](fibonaccicircle.md) object that represents the draw object.
 
@@ -24,12 +14,11 @@ Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, int st
 Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY, bool isGlobal, string templateName)  
 Draw.FibonacciCircle(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, bool isGlobal, string templateName)
 
- 
+ 
 
- 
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -45,9 +34,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Examples
---------
+## Examples
 
-| ns |
-| --- |
-| // Draws a Fibonacci circle  Draw.FibonacciCircle(this, "tag1", true, 10, Low[10], 0, High[0]); |
+```csharp
+// Draws a Fibonacci circle
+Draw.FibonacciCircle(this, "tag1", true, 10, Low[10], 0, High[0]);
+```

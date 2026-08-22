@@ -1,19 +1,8 @@
-﻿
-
-
-
-Chart Trader
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](chart_trader.md) >>  **Navigation:**  [Operations](operations.md) > [Order Entry](order_entry.md) >  Chart Trader | [Previous page](properties_basic_entry.md) [Return to chapter overview](order_entry.md) [Next page](order__position_display.md) |
+# Chart Trader
 
 Chart Trader can be enabled within any chart window via the [chart properties](chart_properties.md) dialog window or by left mouse clicking on the Chart Trader icon in the chart toolbar.
 
-|  |
-| --- |
-| playVideo |
-|  |
+> playVideo
 
 |  |
 | --- |

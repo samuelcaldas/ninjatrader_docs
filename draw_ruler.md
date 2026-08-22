@@ -1,36 +1,24 @@
-﻿
+# Draw.Ruler()
 
-
-
-Draw.Ruler()
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](draw_ruler.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Drawing](drawing.md) >  Draw.Ruler() | [Previous page](riskreward.md) [Return to chapter overview](drawing.md) [Next page](ruler.md) |
-
-Definition
-----------
+## Definition
 
 Draws a ruler.
 
-Method Return Value
--------------------
+## Method Return Value
 
 A [Ruler](ruler.md) object that represents the draw object.
 
-Syntax
-------
+## Syntax
 
 Draw.Ruler(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, int textBarsAgo, double textY)  
 Draw.Ruler(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY, DateTime textTime, double textY)  
 Draw.Ruler(NinjaScriptBase owner, string tag, bool isAutoScale, int startBarsAgo, double startY, int endBarsAgo, double endY, int textBarsAgo, double textY, bool isGlobal, string templateName)  
 Draw.Ruler(NinjaScriptBase owner, string tag, bool isAutoScale, DateTime startTime, double startY, DateTime endTime, double endY, DateTime textTime, double textY, bool isGlobal, string templateName)
 
-   
- 
+   
+ 
 
-Parameters
-----------
+## Parameters
 
 |  |  |
 | --- | --- |
@@ -49,9 +37,9 @@ Parameters
 | isGlobal | Determines if the draw object will be global across all charts which match the instrument |
 | templateName | The name of the drawing tool template the object will use to determine various visual properties (empty string could be used to just use the UI default visuals instead) |
 
-Example
--------
+## Example
 
-| ns | |
-| --- | --- |
-|  | // Draws a ruler measuring the primary bar series  Draw.Ruler(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]); |
+```csharp
+// Draws a ruler measuring the primary bar series
+Draw.Ruler(this, "tag1", true, 4, Low[4], 3, High[3], 1, Low[1]);
+```

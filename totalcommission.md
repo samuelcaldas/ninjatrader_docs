@@ -1,30 +1,23 @@
-﻿
+# TotalCommission
 
-
-
-TotalCommission
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](totalcommission.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Strategy](strategy.md) > [TradeCollection](tradecollection.md) > [TradesPerformance](tradesperformance.md) >  TotalCommission | [Previous page](ticks.md) [Return to chapter overview](tradesperformance.md) [Next page](totalquantity.md) |
-
-Definition
-----------
+## Definition
 
 Returns the total commission.
 
-Property Value
---------------
+## Property Value
 
 A double value that represents the total commission.
 
-Syntax 
-<TradeCollection>.TradesPerformance.TotalCommission
------------------------------------------------------------
+## Syntax
 
-Examples
---------
+`<TradeCollection>.TradesPerformance.TotalCommission`
 
-| ns |
-| --- |
-| protected override void OnBarUpdate()  {       // Print out the total commission of all trades       Print("Total commission is: " + SystemPerformance.AllTrades.TradesPerformance.TotalCommission);  } |
+## Examples
+
+```csharp
+protected override void OnBarUpdate()
+{
+    // Print out the total commission of all trades
+    Print("Total commission is: " + SystemPerformance.AllTrades.TradesPerformance.TotalCommission);
+}
+```

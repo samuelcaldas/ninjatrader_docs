@@ -1,20 +1,10 @@
-﻿
+# BarSpacingType
 
-
-
-BarSpacingType
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](barspacingtype.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Language Reference](language_reference_wip.md) > [Common](common.md) > [Charts](chart.md) > [ChartControl](chartcontrol.md) >  BarSpacingType | [Previous page](chartcontrol_barsarray.md) [Return to chapter overview](chartcontrol.md) [Next page](chartcontrol_barsperiod.md) |
-
-Definition
-----------
+## Definition
 
 Indicates the type of bar spacing used for the primary [Bars](bars.md) object on the chart.
 
-Property Value
---------------
+## Property Value
 
 An enum representing one of the values below:
 
@@ -24,21 +14,23 @@ An enum representing one of the values below:
 | EquidistantMulti | Indicates Equidistant Bar Spacing is used, and more than one Bars objects exist on the chart |
 | TimeBased | Indicates Time-Based bar spacing is used |
 
-Syntax
-------
+## Syntax
 
 <ChartControl>.BarSpacingType
 
-Example
--------
+## Example
 
-| ns |
-| --- |
-| protected override void OnRender(ChartControl chartControl, ChartScale chartScale)  {     // Print the type of bar spacing used on the chart     Print(chartControl.BarSpacingType);  } |
+```csharp
+protected override void OnRender(ChartControl chartControl, ChartScale chartScale)
+{
+    // Print the type of bar spacing used on the chart
+    Print(chartControl.BarSpacingType);
+}
+```
 
- 
+ 
 
- 
+ 
 
 Based on the image below, BarSpacingType confirms that there are multiple Bars objects configured on the chart, and that the chart is set to Equidistant Bar Spacing:
 

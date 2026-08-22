@@ -1,12 +1,4 @@
-﻿
-
-
-
-Editor Keyboard Shortcuts
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](editor_keyboard_shortcuts.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Editor](editor.md) >  Editor Keyboard Shortcuts | [Previous page](visual_studio_debugging.md) [Return to chapter overview](editor.md) [Next page](educational_resources.md) |
+# Editor Keyboard Shortcuts
 
 The NinjaScript Editor includes a range of keyboard shortcuts not available in other areas of the platform. Below is a list of available shortcuts and the actions they perform:
 

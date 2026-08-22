@@ -1,12 +1,4 @@
-﻿
-
-
-
-Beginner - Indicator on Indicator
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](beginner_-_indicator_on_indica.md) >>  **Navigation:**  [NinjaScript](ninjascript.md) > [Educational Resources](educational_resources.md) > [Developing Indicators](developing_indicators.md) >  Beginner - Indicator on Indicator | [Previous page](using3.md) [Return to chapter overview](developing_indicators.md) [Next page](set_up5.md) |
+# Beginner - Indicator on Indicator
 
 |  |
 | --- |

@@ -1,12 +1,4 @@
-﻿
-
-
-
-NinjaScript
-
-|  |  |
-| --- | --- |
-| << [Click to Display Table of Contents](ninjascript.md) >>  **Navigation:**  »No topics above this level«  NinjaScript | [Previous page](using_color_pickers.md) [Return to chapter overview](welcome.md) [Next page](code_breaking_changes.md) |
+# NinjaScript
 
 |  |
 | --- |
