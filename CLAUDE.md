@@ -39,6 +39,10 @@ ninjatrader_docs/
 │   ├── clean_tables.py                  # Table standardizer, toggle unwrapper, code highlighter
 │   ├── deploy_wiki.py                   # GitHub Wiki flattener, sidebar generator, and deployer
 │   ├── generate_readme.py               # Master README and category index builder
+│   ├── replace_icon_images.py           # Repetitive decorative icon to Unicode/Markdown converter
+│   ├── restore_missing_media.py         # Image & diagram restorer from origin/HTML
+│   ├── scrape_nt8_docs.py               # Multi-threaded crawler for official online docs
+│   ├── sync_and_convert_docs.py         # Full automated sync, conversion, and validation pipeline
 │   └── verify_docs.py                   # Strict markdown link and image validator
 └── tests/                               # Automated Python test suite
     ├── test_repository_validation.py    # Link, image, and structure unit tests

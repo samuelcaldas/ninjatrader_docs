@@ -1,6 +1,9 @@
-name: Validate and Deploy GitHub Wiki
+name: Validate, Sync and Deploy GitHub Wiki
 
 on:
+  schedule:
+    # Run quarterly on the 1st of January, April, July, and October at 00:00 UTC
+    - cron: "0 0 1 1,4,7,10 *"
   push:
     branches:
       - markdown
@@ -24,6 +27,11 @@ on:
       - "tests/**"
   workflow_dispatch:
     inputs:
+      full_sync:
+        description: "Execute full web crawl, conversion and sync before validation and deploy"
+        required: false
+        default: false
+        type: boolean
       force_deploy:
         description: "Force deploy even if no changes detected"
         required: false
@@ -35,8 +43,48 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  sync-and-convert:
+    name: Quarterly Sync & Conversion
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.full_sync == true)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: markdown
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Execute Full Documentation Sync and Standardization Pipeline
+        run: python3 tools/sync_and_convert_docs.py
+
+      - name: Commit and Push Changes to Markdown Branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No documentation updates detected from sync."
+            exit 0
+          fi
+
+          git commit -m "Automated quarterly sync with official NinjaTrader 8 documentation [skip ci]"
+          git push origin markdown
+
   validate:
     name: Validate Documentation & Links
+    needs: [sync-and-convert]
+    if: always() && !cancelled() && (needs.sync-and-convert.result == 'success' || needs.sync-and-convert.result == 'skipped')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -59,7 +107,7 @@ jobs:
   deploy-wiki:
     name: Deploy to GitHub Wiki
     needs: validate
-    if: (github.event_name == 'push' && (github.ref == 'refs/heads/markdown' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')) || github.event_name == 'workflow_dispatch'
+    if: (github.event_name == 'push' && (github.ref == 'refs/heads/markdown' || github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')) || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     permissions:
       contents: write
