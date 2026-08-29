@@ -8,7 +8,7 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("NinjaTraderAddOnProject")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Reference AddOn")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("NinjaTraderAddOnProject")]
